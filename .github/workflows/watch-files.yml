@@ -1,0 +1,116 @@
+name: Watch files in external repo
+
+on:
+  schedule:
+    - cron: "7,17,27,37,47,57 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v4
+
+      - name: Run watcher
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import pathlib
+          import urllib.request
+          import urllib.parse
+
+          OWNER = "SimplifyJobs"
+          REPO = "Summer2026-Internships"
+          BRANCH = "dev"
+
+          WATCHED_FILES = {
+              "README-Off-Season.md"
+          }
+
+          STATE_FILE = pathlib.Path(".watcher_state.json")
+
+          def get_json(url):
+              req = urllib.request.Request(
+                  url,
+                  headers={
+                      "Accept": "application/vnd.github+json",
+                      "X-GitHub-Api-Version": "2022-11-28",
+                      "User-Agent": "github-actions-file-watcher",
+                  },
+              )
+              with urllib.request.urlopen(req) as resp:
+                  return json.loads(resp.read().decode())
+
+          def send_telegram(text):
+              token = os.environ["TELEGRAM_BOT_TOKEN"]
+              chat_id = os.environ["TELEGRAM_CHAT_ID"]
+              data = urllib.parse.urlencode({
+                  "chat_id": chat_id,
+                  "text": text,
+                  "disable_web_page_preview": "true",
+              }).encode()
+              req = urllib.request.Request(
+                  f"https://api.telegram.org/bot{token}/sendMessage",
+                  data=data,
+                  method="POST",
+              )
+              with urllib.request.urlopen(req) as resp:
+                  resp.read()
+
+          latest = get_json(f"https://api.github.com/repos/{OWNER}/{REPO}/commits/{BRANCH}")
+          latest_sha = latest["sha"]
+
+          if STATE_FILE.exists():
+              state = json.loads(STATE_FILE.read_text())
+              last_sha = state.get("last_sha")
+          else:
+              last_sha = None
+
+          if not last_sha:
+              STATE_FILE.write_text(json.dumps({"last_sha": latest_sha}, indent=2))
+              print("Initialized watcher.")
+              raise SystemExit(0)
+
+          if last_sha == latest_sha:
+              print("No new commits.")
+              raise SystemExit(0)
+
+          compare = get_json(f"https://api.github.com/repos/{OWNER}/{REPO}/compare/{last_sha}...{latest_sha}")
+          changed_files = compare.get("files", [])
+          matched = [f["filename"] for f in changed_files if f["filename"] in WATCHED_FILES]
+
+          if matched:
+              compare_url = compare.get("html_url", f"https://github.com/{OWNER}/{REPO}/compare/{last_sha}...{latest_sha}")
+              msg = "\n".join([
+                  f"Watched files changed in {OWNER}/{REPO}",
+                  f"Branch: {BRANCH}",
+                  "",
+                  "Changed files:",
+                  *[f"- {x}" for x in matched],
+                  "",
+                  compare_url,
+              ])
+              send_telegram(msg)
+              print("Sent Telegram alert.")
+          else:
+              print("Commits happened, but not in watched files.")
+
+          STATE_FILE.write_text(json.dumps({"last_sha": latest_sha}, indent=2))
+          PY
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .watcher_state.json
+          git diff --cached --quiet || git commit -m "Update watcher state"
+          git push
