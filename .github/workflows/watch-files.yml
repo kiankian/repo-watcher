@@ -103,6 +103,7 @@ jobs:
               send_telegram(msg)
               print("Sent Telegram alert.")
           else:
+              send_telegram("No changes.")
               print("Commits happened, but not in watched files.")
 
           STATE_FILE.write_text(json.dumps({"last_sha": latest_sha}, indent=2))
