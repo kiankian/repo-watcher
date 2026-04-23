@@ -84,6 +84,15 @@ jobs:
               text = re.sub(r'<[^>]+>', '', html)
               return text.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').strip()
 
+          def extract_apply_url(raw):
+              m = re.search(r'href=["\']([^"\']+)["\']', raw)
+              if m:
+                  return m.group(1)
+              m = re.search(r'\]\(([^)\s]+)', raw)
+              if m:
+                  return m.group(1)
+              return ""
+
           def collect_row(lines, i, prefix):
               cells = []
               i += 1
@@ -103,9 +112,18 @@ jobs:
                           buf += ' ' + r2.strip()
                       if buf.endswith('</td>'):
                           buf = buf[:-5]
-                      cells.append(strip_html(buf))
+                      cells.append(buf)
                   i += 1
               return None, i
+
+          def build_html_entry(cells):
+              # Simplify format: Company | Role | Location | Terms | Application | Age
+              company = strip_html(cells[0])
+              role = strip_html(cells[1])
+              location = strip_html(cells[2])
+              term = strip_html(cells[3])
+              apply_url = extract_apply_url(cells[4]) if len(cells) >= 5 else ""
+              return [company, role, location, term, apply_url]
 
           def parse_html_table(patch):
               added, removed = [], []
@@ -118,12 +136,12 @@ jobs:
                       if l.startswith('+'):
                           cells, i = collect_row(lines, i, '+')
                           if cells and len(cells) >= 4:
-                              added.append(cells)
+                              added.append(build_html_entry(cells))
                           continue
                       elif l.startswith('-'):
                           cells, i = collect_row(lines, i, '-')
                           if cells and len(cells) >= 4:
-                              removed.append(cells)
+                              removed.append(build_html_entry(cells))
                           continue
                   i += 1
               return added, removed
@@ -143,23 +161,36 @@ jobs:
                   if all(re.fullmatch(r'[-:\s]+', c) for c in raw_cells if c):
                       continue
                   # Vansh format: company | role | location | apply-link | date
-                  # drop the apply-link column (index 3) if present
                   if len(raw_cells) >= 5:
-                      picked = [raw_cells[0], raw_cells[1], raw_cells[2], raw_cells[4]]
+                      entry = [
+                          strip_html(raw_cells[0]),
+                          strip_html(raw_cells[1]),
+                          strip_html(raw_cells[2]),
+                          strip_html(raw_cells[4]),
+                          extract_apply_url(raw_cells[3]),
+                      ]
                   elif len(raw_cells) >= 4:
-                      picked = raw_cells[:4]
+                      entry = [
+                          strip_html(raw_cells[0]),
+                          strip_html(raw_cells[1]),
+                          strip_html(raw_cells[2]),
+                          strip_html(raw_cells[3]),
+                          "",
+                      ]
                   else:
                       continue
-                  cells = [strip_html(c) for c in picked]
                   if line.startswith('+'):
-                      added.append(cells)
+                      added.append(entry)
                   else:
-                      removed.append(cells)
+                      removed.append(entry)
               return added, removed
 
-          def fmt(cells):
-              company, role, location, term = cells[0], cells[1], cells[2], cells[3]
-              return f"{company} — {role} | {location} | {term}"
+          def fmt(entry):
+              company, role, location, term, apply_url = entry[0], entry[1], entry[2], entry[3], entry[4]
+              base = f"{company} — {role} | {location} | {term}"
+              if apply_url:
+                  return f"{base}\n  {apply_url}"
+              return base
 
           def key(c):
               return (c[0], c[1], c[2], c[3])
@@ -170,29 +201,11 @@ jobs:
               moved_keys = added_keys & removed_keys
 
               new_listings = [c for c in added if key(c) not in moved_keys]
-              gone_listings = [c for c in removed if key(c) not in moved_keys]
-              moved_listings = []
-              seen = set()
-              for c in added:
-                  k = key(c)
-                  if k in moved_keys and k not in seen:
-                      moved_listings.append(c)
-                      seen.add(k)
+              if not new_listings:
+                  return []
 
-              lines = []
-              if new_listings:
-                  lines += [f"New listings ({len(new_listings)}):"]
-                  lines += [f"+ {fmt(c)}" for c in new_listings]
-              if gone_listings:
-                  if lines:
-                      lines += [""]
-                  lines += [f"Removed listings ({len(gone_listings)}):"]
-                  lines += [f"- {fmt(c)}" for c in gone_listings]
-              if moved_listings:
-                  if lines:
-                      lines += [""]
-                  lines += [f"Moved between sections ({len(moved_listings)}):"]
-                  lines += [f"~ {fmt(c)}" for c in moved_listings]
+              lines = [f"New listings ({len(new_listings)}):"]
+              lines += [f"+ {fmt(c)}" for c in new_listings]
               return lines
 
           # --- Load and migrate state ---
@@ -221,14 +234,12 @@ jobs:
                   continue
 
               if last_sha == latest_sha:
-                  sections.append(f"{w['label']}:\nNo changes.")
                   continue
 
               compare = get_json(f"https://api.github.com/repos/{repo_key}/compare/{last_sha}...{latest_sha}")
               matched_files = [f for f in compare.get("files", []) if f["filename"] == w["file"]]
 
               if not matched_files:
-                  sections.append(f"{w['label']}:\nNo changes.")
                   state[repo_key] = {"last_sha": latest_sha}
                   continue
 
@@ -242,16 +253,14 @@ jobs:
               change_lines = build_change_lines(added, removed)
               compare_url = compare.get("html_url", f"https://github.com/{repo_key}/compare/{last_sha}...{latest_sha}")
 
-              if not change_lines:
-                  sections.append(f"{w['label']}:\nNo changes.")
-              else:
+              if change_lines:
                   sections.append(f"{w['label']}:\n" + "\n".join(change_lines) + f"\n\n{compare_url}")
                   any_changes = True
 
               state[repo_key] = {"last_sha": latest_sha}
 
           if any_changes:
-              send_telegram("JOB BOARD UPDATE\n\n" + "\n\n".join(sections))
+              send_telegram("💼 JOB BOARD UPDATES 💼\n\n" + "\n\n".join(sections))
               print("Sent Telegram alert.")
           else:
               print("No changes in any watched repo; skipping Telegram.")
