@@ -248,7 +248,7 @@ jobs:
               state[repo_key] = {"last_sha": latest_sha}
 
           if any_changes:
-              send_telegram("Job board update\n\n" + "\n\n".join(sections))
+              send_telegram("**JOB BOARD UPDATE**\n\n" + "\n\n".join(sections))
               print("Sent Telegram alert.")
           else:
               print("No changes in any watched repo; skipping Telegram.")
