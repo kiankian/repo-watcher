@@ -2,7 +2,7 @@ name: Watch files in external repo
 
 on:
   schedule:
-    - cron: "0,10,20,30,40,50 * * * *"
+    - cron: "7,17,27,37,47,57 * * * *"
   workflow_dispatch:
 
 permissions:
