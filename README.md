@@ -37,3 +37,9 @@ git checkout --theirs .watcher_state.json
 git add .watcher_state.json
 git rebase --continue
 ```
+
+
+# TODO
+- [ ] Better Formatting 
+- [ ] Don't show removed jobs and moved jobs
+- [ ] More information in update
