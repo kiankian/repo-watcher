@@ -87,20 +87,26 @@ jobs:
 
           compare = get_json(f"https://api.github.com/repos/{OWNER}/{REPO}/compare/{last_sha}...{latest_sha}")
           changed_files = compare.get("files", [])
-          matched = [f["filename"] for f in changed_files if f["filename"] in WATCHED_FILES]
+          matched_files = [f for f in changed_files if f["filename"] in WATCHED_FILES]
 
-          if matched:
+          if matched_files:
               compare_url = compare.get("html_url", f"https://github.com/{OWNER}/{REPO}/compare/{last_sha}...{latest_sha}")
-              msg = "\n".join([
+              added_lines = []
+              for f in matched_files:
+                  patch = f.get("patch", "")
+                  for line in patch.splitlines():
+                      if line.startswith("+") and not line.startswith("+++"):
+                          added_lines.append(line[1:].strip())
+
+              msg_parts = [
                   f"Watched files changed in {OWNER}/{REPO}",
                   f"Branch: {BRANCH}",
-                  "",
-                  "Changed files:",
-                  *[f"- {x}" for x in matched],
-                  "",
-                  compare_url,
-              ])
-              send_telegram(msg)
+              ]
+              if added_lines:
+                  msg_parts += ["", "New lines:"]
+                  msg_parts += [f"+ {l}" for l in added_lines if l]
+              msg_parts += ["", compare_url]
+              send_telegram("\n".join(msg_parts))
               print("Sent Telegram alert.")
           else:
               send_telegram("No changes.")
