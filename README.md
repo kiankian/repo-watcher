@@ -43,3 +43,4 @@ git rebase --continue
 - [ ] Better Formatting 
 - [ ] Don't show removed jobs and moved jobs
 - [ ] More information in update
+    - [ ] Add Link
