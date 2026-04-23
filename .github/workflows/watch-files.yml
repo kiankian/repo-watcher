@@ -1,8 +1,6 @@
 name: Watch files in external repo
 
 on:
-  schedule:
-    - cron: "7,17,27,37,47,57 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -151,14 +149,34 @@ jobs:
                   added.extend(a)
                   removed.extend(r)
 
+              def key(c):
+                  return (c[0], c[1], c[2], c[3])
+
+              added_keys = {key(c) for c in added}
+              removed_keys = {key(c) for c in removed}
+              moved_keys = added_keys & removed_keys
+
+              new_listings = [c for c in added if key(c) not in moved_keys]
+              gone_listings = [c for c in removed if key(c) not in moved_keys]
+              moved_listings = []
+              seen = set()
+              for c in added:
+                  k = key(c)
+                  if k in moved_keys and k not in seen:
+                      moved_listings.append(c)
+                      seen.add(k)
+
               msg_parts = [f"Job board updated in {OWNER}/{REPO}", f"Branch: {BRANCH}"]
-              if added:
-                  msg_parts += ["", f"New listings ({len(added)}):"]
-                  msg_parts += [f"+ {fmt(c)}" for c in added]
-              if removed:
-                  msg_parts += ["", f"Removed listings ({len(removed)}):"]
-                  msg_parts += [f"- {fmt(c)}" for c in removed]
-              if not added and not removed:
+              if new_listings:
+                  msg_parts += ["", f"New listings ({len(new_listings)}):"]
+                  msg_parts += [f"+ {fmt(c)}" for c in new_listings]
+              if gone_listings:
+                  msg_parts += ["", f"Removed listings ({len(gone_listings)}):"]
+                  msg_parts += [f"- {fmt(c)}" for c in gone_listings]
+              if moved_listings:
+                  msg_parts += ["", f"Moved between sections ({len(moved_listings)}):"]
+                  msg_parts += [f"~ {fmt(c)}" for c in moved_listings]
+              if not new_listings and not gone_listings and not moved_listings:
                   msg_parts += ["", "(counter/metadata updates only)"]
               msg_parts += ["", compare_url]
               send_telegram("\n".join(msg_parts))
