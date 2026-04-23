@@ -23,16 +23,28 @@ jobs:
           import json
           import os
           import pathlib
+          import re
           import urllib.request
           import urllib.parse
 
-          OWNER = "SimplifyJobs"
-          REPO = "Summer2026-Internships"
-          BRANCH = "dev"
-
-          WATCHED_FILES = {
-              "README-Off-Season.md"
-          }
+          WATCHERS = [
+              {
+                  "label": "Simplify Repo",
+                  "owner": "SimplifyJobs",
+                  "repo": "Summer2026-Internships",
+                  "branch": "dev",
+                  "file": "README-Off-Season.md",
+                  "parser": "html",
+              },
+              {
+                  "label": "Vansh Repo",
+                  "owner": "vanshb03",
+                  "repo": "Summer2027-Internships",
+                  "branch": "dev",
+                  "file": "OFFSEASON_README.md",
+                  "parser": "markdown",
+              },
+          ]
 
           STATE_FILE = pathlib.Path(".watcher_state.json")
 
@@ -64,28 +76,8 @@ jobs:
               with urllib.request.urlopen(req) as resp:
                   resp.read()
 
-          latest = get_json(f"https://api.github.com/repos/{OWNER}/{REPO}/commits/{BRANCH}")
-          latest_sha = latest["sha"]
-
-          if STATE_FILE.exists():
-              state = json.loads(STATE_FILE.read_text())
-              last_sha = state.get("last_sha")
-          else:
-              last_sha = None
-
-          if not last_sha:
-              STATE_FILE.write_text(json.dumps({"last_sha": latest_sha}, indent=2))
-              print("Initialized watcher.")
-              raise SystemExit(0)
-
-          if last_sha == latest_sha:
-              send_telegram("No changes.")
-              print("No new commits.")
-              raise SystemExit(0)
-
-          import re
-
           def strip_html(html):
+              html = re.sub(r'<\s*/?\s*br\s*/?\s*>', ' ', html, flags=re.IGNORECASE)
               text = re.sub(r'<[^>]+>', '', html)
               return text.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').strip()
 
@@ -112,7 +104,7 @@ jobs:
                   i += 1
               return None, i
 
-          def parse_job_changes(patch):
+          def parse_html_table(patch):
               added, removed = [], []
               lines = patch.splitlines()
               i = 0
@@ -133,25 +125,43 @@ jobs:
                   i += 1
               return added, removed
 
+          def parse_markdown_table(patch):
+              added, removed = [], []
+              for line in patch.splitlines():
+                  if line.startswith('+++') or line.startswith('---'):
+                      continue
+                  if not (line.startswith('+') or line.startswith('-')):
+                      continue
+                  body = line[1:].strip()
+                  if not body.startswith('|'):
+                      continue
+                  raw_cells = [c.strip() for c in body.strip('|').split('|')]
+                  # skip separator rows: | --- | --- | ...
+                  if all(re.fullmatch(r'[-:\s]+', c) for c in raw_cells if c):
+                      continue
+                  # Vansh format: company | role | location | apply-link | date
+                  # drop the apply-link column (index 3) if present
+                  if len(raw_cells) >= 5:
+                      picked = [raw_cells[0], raw_cells[1], raw_cells[2], raw_cells[4]]
+                  elif len(raw_cells) >= 4:
+                      picked = raw_cells[:4]
+                  else:
+                      continue
+                  cells = [strip_html(c) for c in picked]
+                  if line.startswith('+'):
+                      added.append(cells)
+                  else:
+                      removed.append(cells)
+              return added, removed
+
           def fmt(cells):
               company, role, location, term = cells[0], cells[1], cells[2], cells[3]
               return f"{company} — {role} | {location} | {term}"
 
-          compare = get_json(f"https://api.github.com/repos/{OWNER}/{REPO}/compare/{last_sha}...{latest_sha}")
-          changed_files = compare.get("files", [])
-          matched_files = [f for f in changed_files if f["filename"] in WATCHED_FILES]
+          def key(c):
+              return (c[0], c[1], c[2], c[3])
 
-          if matched_files:
-              compare_url = compare.get("html_url", f"https://github.com/{OWNER}/{REPO}/compare/{last_sha}...{latest_sha}")
-              added, removed = [], []
-              for f in matched_files:
-                  a, r = parse_job_changes(f.get("patch", ""))
-                  added.extend(a)
-                  removed.extend(r)
-
-              def key(c):
-                  return (c[0], c[1], c[2], c[3])
-
+          def build_change_lines(added, removed):
               added_keys = {key(c) for c in added}
               removed_keys = {key(c) for c in removed}
               moved_keys = added_keys & removed_keys
@@ -166,26 +176,79 @@ jobs:
                       moved_listings.append(c)
                       seen.add(k)
 
-              msg_parts = [f"Job board updated in {OWNER}/{REPO}", f"Branch: {BRANCH}"]
+              lines = []
               if new_listings:
-                  msg_parts += ["", f"New listings ({len(new_listings)}):"]
-                  msg_parts += [f"+ {fmt(c)}" for c in new_listings]
+                  lines += [f"New listings ({len(new_listings)}):"]
+                  lines += [f"+ {fmt(c)}" for c in new_listings]
               if gone_listings:
-                  msg_parts += ["", f"Removed listings ({len(gone_listings)}):"]
-                  msg_parts += [f"- {fmt(c)}" for c in gone_listings]
+                  if lines:
+                      lines += [""]
+                  lines += [f"Removed listings ({len(gone_listings)}):"]
+                  lines += [f"- {fmt(c)}" for c in gone_listings]
               if moved_listings:
-                  msg_parts += ["", f"Moved between sections ({len(moved_listings)}):"]
-                  msg_parts += [f"~ {fmt(c)}" for c in moved_listings]
-              if not new_listings and not gone_listings and not moved_listings:
-                  msg_parts += ["", "(counter/metadata updates only)"]
-              msg_parts += ["", compare_url]
-              send_telegram("\n".join(msg_parts))
-              print("Sent Telegram alert.")
-          else:
-              send_telegram("No changes.")
-              print("Commits happened, but not in watched files.")
+                  if lines:
+                      lines += [""]
+                  lines += [f"Moved between sections ({len(moved_listings)}):"]
+                  lines += [f"~ {fmt(c)}" for c in moved_listings]
+              return lines
 
-          STATE_FILE.write_text(json.dumps({"last_sha": latest_sha}, indent=2))
+          # --- Load and migrate state ---
+          if STATE_FILE.exists():
+              state = json.loads(STATE_FILE.read_text())
+          else:
+              state = {}
+
+          # Migrate old {"last_sha": ...} shape to keyed-by-repo shape.
+          if "last_sha" in state and isinstance(state.get("last_sha"), str):
+              state = {"SimplifyJobs/Summer2026-Internships": {"last_sha": state["last_sha"]}}
+
+          # --- Process each watcher ---
+          sections = []
+          for w in WATCHERS:
+              repo_key = f"{w['owner']}/{w['repo']}"
+              latest = get_json(f"https://api.github.com/repos/{repo_key}/commits/{w['branch']}")
+              latest_sha = latest["sha"]
+              last_sha = (state.get(repo_key) or {}).get("last_sha")
+
+              if not last_sha:
+                  state[repo_key] = {"last_sha": latest_sha}
+                  sections.append(f"{w['label']}:\nInitialized.")
+                  print(f"Initialized {repo_key} at {latest_sha}.")
+                  continue
+
+              if last_sha == latest_sha:
+                  sections.append(f"{w['label']}:\nNo changes.")
+                  continue
+
+              compare = get_json(f"https://api.github.com/repos/{repo_key}/compare/{last_sha}...{latest_sha}")
+              matched_files = [f for f in compare.get("files", []) if f["filename"] == w["file"]]
+
+              if not matched_files:
+                  sections.append(f"{w['label']}:\nNo changes.")
+                  state[repo_key] = {"last_sha": latest_sha}
+                  continue
+
+              parser = parse_html_table if w["parser"] == "html" else parse_markdown_table
+              added, removed = [], []
+              for f in matched_files:
+                  a, r = parser(f.get("patch", ""))
+                  added.extend(a)
+                  removed.extend(r)
+
+              change_lines = build_change_lines(added, removed)
+              compare_url = compare.get("html_url", f"https://github.com/{repo_key}/compare/{last_sha}...{latest_sha}")
+
+              if not change_lines:
+                  sections.append(f"{w['label']}:\nNo changes.")
+              else:
+                  sections.append(f"{w['label']}:\n" + "\n".join(change_lines) + f"\n\n{compare_url}")
+
+              state[repo_key] = {"last_sha": latest_sha}
+
+          send_telegram("Job board update\n\n" + "\n\n".join(sections))
+          print("Sent Telegram alert.")
+
+          STATE_FILE.write_text(json.dumps(state, indent=2))
           PY
 
       - name: Commit updated state
