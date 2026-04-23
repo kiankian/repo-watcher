@@ -204,6 +204,7 @@ jobs:
 
           # --- Process each watcher ---
           sections = []
+          any_changes = False
           for w in WATCHERS:
               repo_key = f"{w['owner']}/{w['repo']}"
               latest = get_json(f"https://api.github.com/repos/{repo_key}/commits/{w['branch']}")
@@ -242,11 +243,15 @@ jobs:
                   sections.append(f"{w['label']}:\nNo changes.")
               else:
                   sections.append(f"{w['label']}:\n" + "\n".join(change_lines) + f"\n\n{compare_url}")
+                  any_changes = True
 
               state[repo_key] = {"last_sha": latest_sha}
 
-          send_telegram("Job board update\n\n" + "\n\n".join(sections))
-          print("Sent Telegram alert.")
+          if any_changes:
+              send_telegram("Job board update\n\n" + "\n\n".join(sections))
+              print("Sent Telegram alert.")
+          else:
+              print("No changes in any watched repo; skipping Telegram.")
 
           STATE_FILE.write_text(json.dumps(state, indent=2))
           PY
