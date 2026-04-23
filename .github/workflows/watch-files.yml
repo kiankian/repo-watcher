@@ -85,26 +85,81 @@ jobs:
               print("No new commits.")
               raise SystemExit(0)
 
+          import re
+
+          def strip_html(html):
+              text = re.sub(r'<[^>]+>', '', html)
+              return text.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').strip()
+
+          def collect_row(lines, i, prefix):
+              cells = []
+              i += 1
+              while i < len(lines):
+                  l = lines[i]
+                  raw = l[1:] if l and l[0] in ('+', '-', ' ') else l
+                  s = raw.strip()
+                  if not l.startswith(prefix):
+                      return None, i
+                  if s == '</tr>':
+                      return cells, i + 1
+                  if s.startswith('<td>'):
+                      buf = s[4:]
+                      while '</td>' not in buf and i + 1 < len(lines):
+                          i += 1
+                          r2 = lines[i][1:] if lines[i] and lines[i][0] in ('+', '-', ' ') else lines[i]
+                          buf += ' ' + r2.strip()
+                      if buf.endswith('</td>'):
+                          buf = buf[:-5]
+                      cells.append(strip_html(buf))
+                  i += 1
+              return None, i
+
+          def parse_job_changes(patch):
+              added, removed = [], []
+              lines = patch.splitlines()
+              i = 0
+              while i < len(lines):
+                  l = lines[i]
+                  raw = l[1:] if l and l[0] in ('+', '-', ' ') else l
+                  if raw.strip() == '<tr>':
+                      if l.startswith('+'):
+                          cells, i = collect_row(lines, i, '+')
+                          if cells and len(cells) >= 4:
+                              added.append(cells)
+                          continue
+                      elif l.startswith('-'):
+                          cells, i = collect_row(lines, i, '-')
+                          if cells and len(cells) >= 4:
+                              removed.append(cells)
+                          continue
+                  i += 1
+              return added, removed
+
+          def fmt(cells):
+              company, role, location, term = cells[0], cells[1], cells[2], cells[3]
+              return f"{company} — {role} | {location} | {term}"
+
           compare = get_json(f"https://api.github.com/repos/{OWNER}/{REPO}/compare/{last_sha}...{latest_sha}")
           changed_files = compare.get("files", [])
           matched_files = [f for f in changed_files if f["filename"] in WATCHED_FILES]
 
           if matched_files:
               compare_url = compare.get("html_url", f"https://github.com/{OWNER}/{REPO}/compare/{last_sha}...{latest_sha}")
-              added_lines = []
+              added, removed = [], []
               for f in matched_files:
-                  patch = f.get("patch", "")
-                  for line in patch.splitlines():
-                      if line.startswith("+") and not line.startswith("+++"):
-                          added_lines.append(line[1:].strip())
+                  a, r = parse_job_changes(f.get("patch", ""))
+                  added.extend(a)
+                  removed.extend(r)
 
-              msg_parts = [
-                  f"Watched files changed in {OWNER}/{REPO}",
-                  f"Branch: {BRANCH}",
-              ]
-              if added_lines:
-                  msg_parts += ["", "New lines:"]
-                  msg_parts += [f"+ {l}" for l in added_lines if l]
+              msg_parts = [f"Job board updated in {OWNER}/{REPO}", f"Branch: {BRANCH}"]
+              if added:
+                  msg_parts += ["", f"New listings ({len(added)}):"]
+                  msg_parts += [f"+ {fmt(c)}" for c in added]
+              if removed:
+                  msg_parts += ["", f"Removed listings ({len(removed)}):"]
+                  msg_parts += [f"- {fmt(c)}" for c in removed]
+              if not added and not removed:
+                  msg_parts += ["", "(counter/metadata updates only)"]
               msg_parts += ["", compare_url]
               send_telegram("\n".join(msg_parts))
               print("Sent Telegram alert.")
