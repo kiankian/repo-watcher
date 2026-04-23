@@ -2,7 +2,7 @@ name: Watch files in external repo
 
 on:
   schedule:
-    - cron: "7,17,27,37,47,57 * * * *"
+    - cron: "0,10,20,30,40,50 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -81,6 +81,7 @@ jobs:
               raise SystemExit(0)
 
           if last_sha == latest_sha:
+              send_telegram("No changes.")
               print("No new commits.")
               raise SystemExit(0)
 
