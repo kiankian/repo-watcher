@@ -40,11 +40,9 @@ git rebase --continue
 
 
 # TODO
-- [ ] CHECK THESE:
-    - [ ] Better Formatting 
-    - [ ] Don't show removed jobs and moved jobs
-    - [ ] More information in update
-    - [ ] Add Link
+- [ ] FIX SIMPLIFY REPO
+    - [ ] Missing a lot of new jobs
+    - [ ] ONLY SWE ROLES
 - [ ] Other things:
     - [ ] Connect to google sheet
     - [ ] Text to update
