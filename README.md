@@ -40,7 +40,14 @@ git rebase --continue
 
 
 # TODO
-- [ ] Better Formatting 
-- [ ] Don't show removed jobs and moved jobs
-- [ ] More information in update
+- [ ] CHECK THESE:
+    - [ ] Better Formatting 
+    - [ ] Don't show removed jobs and moved jobs
+    - [ ] More information in update
     - [ ] Add Link
+- [ ] Other things:
+    - [ ] Connect to google sheet
+    - [ ] Text to update
+- [ ] More job boards:
+    - [ ] https://github.com/speedyapply/2026-SWE-College-Jobs
+    - [ ] https://github.com/zapplyjobs/Internships-2026#-software-engineering
