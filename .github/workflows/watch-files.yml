@@ -30,6 +30,7 @@ jobs:
           import os
           import pathlib
           import re
+          import time
           import urllib.error
           import urllib.parse
           import urllib.request
@@ -60,6 +61,18 @@ jobs:
           STATE_FILE = pathlib.Path(".watcher_state.json")
           BOT_STATE_FILE = pathlib.Path(".bot_state.json")
 
+          def urlopen_with_retry(req, attempts=3):
+              for i in range(attempts):
+                  try:
+                      return urllib.request.urlopen(req)
+                  except (urllib.error.URLError, ConnectionResetError, TimeoutError) as e:
+                      if isinstance(e, urllib.error.HTTPError) and e.code < 500:
+                          raise
+                      if i + 1 == attempts:
+                          raise
+                      print(f"Network retry {i + 1}/{attempts}: {type(e).__name__}: {e}")
+                      time.sleep(2 ** i)
+
           def gh_request(url):
               token = os.environ["GITHUB_TOKEN"]
               return urllib.request.Request(
@@ -73,12 +86,12 @@ jobs:
               )
 
           def get_json(url):
-              with urllib.request.urlopen(gh_request(url)) as resp:
+              with urlopen_with_retry(gh_request(url)) as resp:
                   return json.loads(resp.read().decode())
 
           def get_raw_file(owner, repo, sha, path):
               url = f"https://raw.githubusercontent.com/{owner}/{repo}/{sha}/{path}"
-              with urllib.request.urlopen(gh_request(url)) as resp:
+              with urlopen_with_retry(gh_request(url)) as resp:
                   return resp.read().decode()
 
           def telegram_send_job(text, callback_data):
@@ -100,7 +113,7 @@ jobs:
                   method="POST",
                   headers={"Content-Type": "application/json"},
               )
-              with urllib.request.urlopen(req) as resp:
+              with urlopen_with_retry(req) as resp:
                   body = json.loads(resp.read().decode())
               return body["result"]["message_id"], body["result"]["chat"]["id"]
 
@@ -282,8 +295,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .watcher_state.json .bot_state.json
           git diff --cached --quiet || git commit -m "Update watcher state"
-          git pull --rebase origin main
-          git push
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; sleeping before retry..."
+            sleep $((attempt * 2))
+          done
+          echo "Push failed after 5 attempts" >&2
+          exit 1
 
   process_applies:
     needs: watch
@@ -294,7 +314,16 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Pull latest (pick up watch job's commit)
-        run: git pull --rebase origin main
+        run: |
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main; then
+              exit 0
+            fi
+            echo "Pull attempt $attempt failed; sleeping before retry..."
+            sleep $((attempt * 2))
+          done
+          echo "Pull failed after 3 attempts" >&2
+          exit 1
 
       - name: Install Google auth deps
         run: pip install --quiet google-auth==2.35.0
@@ -311,6 +340,7 @@ jobs:
           import json
           import os
           import pathlib
+          import time
           import urllib.error
           import urllib.parse
           import urllib.request
@@ -323,6 +353,18 @@ jobs:
           SHEET_ID = os.environ["APPLICATIONS_SHEET_ID"]
           SHEET_RANGE = os.environ["APPLICATIONS_SHEET_RANGE"]
 
+          def urlopen_with_retry(req, attempts=3):
+              for i in range(attempts):
+                  try:
+                      return urllib.request.urlopen(req)
+                  except (urllib.error.URLError, ConnectionResetError, TimeoutError) as e:
+                      if isinstance(e, urllib.error.HTTPError) and e.code < 500:
+                          raise
+                      if i + 1 == attempts:
+                          raise
+                      print(f"Network retry {i + 1}/{attempts}: {type(e).__name__}: {e}")
+                      time.sleep(2 ** i)
+
           def tg_call(method, payload):
               req = urllib.request.Request(
                   f"https://api.telegram.org/bot{TG_TOKEN}/{method}",
@@ -331,7 +373,7 @@ jobs:
                   headers={"Content-Type": "application/json"},
               )
               try:
-                  with urllib.request.urlopen(req) as resp:
+                  with urlopen_with_retry(req) as resp:
                       return json.loads(resp.read().decode())
               except urllib.error.HTTPError as e:
                   print(f"Telegram {method} failed: {e.code} {e.read().decode()}")
@@ -342,7 +384,7 @@ jobs:
               if offset:
                   params["offset"] = offset
               url = f"https://api.telegram.org/bot{TG_TOKEN}/getUpdates?" + urllib.parse.urlencode(params)
-              with urllib.request.urlopen(url) as resp:
+              with urlopen_with_retry(url) as resp:
                   return json.loads(resp.read().decode())
 
           def sheets_credentials():
@@ -369,7 +411,7 @@ jobs:
                       "Content-Type": "application/json",
                   },
               )
-              with urllib.request.urlopen(req) as resp:
+              with urlopen_with_retry(req) as resp:
                   resp.read()
 
           if not BOT_STATE_FILE.exists():
@@ -464,5 +506,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .bot_state.json
           git diff --cached --quiet || git commit -m "Process apply callbacks"
-          git pull --rebase origin main
-          git push
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; sleeping before retry..."
+            sleep $((attempt * 2))
+          done
+          echo "Push failed after 5 attempts" >&2
+          exit 1
