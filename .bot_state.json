@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 0
+    "last_update_id": 563437338
   },
   "pending": {
     "cdc218f7d679": {
@@ -13,5 +13,6 @@
       "message_id": 38,
       "chat_id": 7582459199
     }
-  }
+  },
+  "applied": {}
 }
