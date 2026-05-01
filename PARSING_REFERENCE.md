@@ -11,39 +11,37 @@ This document describes exactly what is being watched, how upstream file formats
 
 Source of truth for watcher config: `.github/workflows/watch-files.yml` in the `WATCHERS` list.
 
-## State + Commit Comparison Flow
+## State + Snapshot Comparison Flow
 
-1. The workflow reads `.watcher_state.json`.
-2. For each watched repo, it fetches latest commit SHA from:
+1. The workflow reads `.watcher_state.json`. Each repo entry stores `{last_sha, rows}` where `rows` is the parsed table snapshot at `last_sha`.
+2. For each watched repo, it fetches the latest commit SHA:
    - `GET /repos/{owner}/{repo}/commits/{branch}`
-3. It compares last seen SHA vs latest SHA.
-4. If different, it fetches compare data from:
-   - `GET /repos/{owner}/{repo}/compare/{last_sha}...{latest_sha}`
-5. It filters `compare.files[]` to only the watched filename.
-6. It parses `file.patch` text (unified diff) to find added/removed job rows.
-7. It updates `.watcher_state.json` to latest SHA for that repo.
+3. If `last_sha == latest_sha` AND `rows` is already populated, skip — nothing to do.
+4. Otherwise fetch the file content at `latest_sha`:
+   - `GET https://raw.githubusercontent.com/{owner}/{repo}/{latest_sha}/{file}`
+5. Slice the relevant section using `section_start`/`section_end` markers (Simplify: SWE active only; vanshb03: full table region).
+6. Parse rows from the section into `[company, role, location, term_or_date, apply_url]` lists, resolving any `↳` Company cell to the previous row's company name.
+7. Compare the new row set against `rows` from saved state by `(company, role, location, term_or_date)` key. Anything in the new set but not the previous is a new listing.
+8. Bootstrap path: if `rows` is missing in state (first run after this code shipped), store the snapshot silently — no alert.
+9. Update `.watcher_state.json` to `{last_sha: latest_sha, rows: curr_rows}`.
 
-Important fields used from compare response:
-- `files[].filename`
-- `files[].patch`
-- `html_url` (for compare link in alert)
-
-## Unified Diff Shape (What Parsing Sees)
-
-Each line in `patch` is typically prefixed by:
-- `+` for added content
-- `-` for removed content
-- ` ` (space) for context
-
-The parser ignores file headers such as:
-- `+++ b/...`
-- `--- a/...`
+Why snapshot (not diff) parsing:
+- Section filtering is trivial — slice by markers, ignore everything outside.
+- `↳` ambiguity is resolved deterministically as we walk rows in order.
+- Re-orderings, `↳`-flips between adjacent rows, and active↔inactive `🔒` flips are all silenced by construction (same key → same row).
+- Cross-section moves into SWE (e.g. Data Science → SWE in Simplify) appear as a true new row in the SWE snapshot.
+- Inactive→Active SWE re-listings naturally surface as new rows since the inactive `<details>` block is excluded by the section markers.
 
 ## Repo Format Details
 
 ## 1) Simplify Repo (`README-Off-Season.md`)
 
-The job list is an HTML table with rows like:
+The file contains 5 categorized sections (SWE / PM / Data Science / Quant Finance / Hardware Engineering), each with an active table followed by an Inactive `<details>` block. **Only the SWE active table is watched.** Section bounds:
+
+- Start: `## 💻 Software Engineering Internship Roles`
+- End:   `<summary>🗃️ Inactive roles` (first occurrence after start)
+
+Inside the section, each row is an HTML `<tr>`:
 
 ```html
 <tr>
@@ -57,70 +55,57 @@ The job list is an HTML table with rows like:
 ```
 
 Parsing behavior:
-- The parser scans diff lines for `<tr>`.
-- It collects contiguous row lines with the same diff prefix (`+` or `-`).
-- It extracts `<td>...</td>` cells in row order.
-- It keeps rows with at least 4 cells.
-- Current formatter consumes first 4 cells as:
-  - company
-  - role
-  - location
-  - term
+- Slice the section between markers.
+- `re.finditer(r'<tr>\s*(.*?)\s*</tr>', section, re.DOTALL)` to enumerate rows.
+- `re.findall(r'<td>(.*?)</td>', tr, re.DOTALL)` for cells; require ≥5.
+- Keep cells `[0..4]`: company, role, location, term, apply URL (Age column 5 is dropped — it changes every poll).
+- Resolve `↳` in column 0 to the previous row's company name.
 
-Normalization:
-- `<br>` variants are converted to spaces.
-- Remaining tags are stripped.
-- HTML entities like `&amp;`, `&lt;`, `&gt;` are decoded.
+Normalization (via `strip_html`):
+- `<br>` variants → space.
+- Remaining tags stripped.
+- `&amp;`, `&lt;`, `&gt;` decoded.
 
 ## 2) Vansh Repo (`OFFSEASON_README.md`)
 
-The active list is a markdown pipe table. Typical row:
+One pipe-table covering the whole file. Section bounds (chosen to skip legend + footer):
+
+- Start: `## The List`
+- End:   `## We love our contributors`
+
+Typical row:
 
 ```md
 | Company | Role | Location | <a href="..."><img alt="Apply"></a> | Apr 22 |
 ```
 
 Parsing behavior:
-- The parser reads only diff lines starting with `+` or `-`.
-- It keeps lines whose body starts with `|`.
-- It splits by `|` into cells.
-- It skips separator rows like `| --- | --- | ... |`.
-- Expected columns:
-  - `0`: company
-  - `1`: role
-  - `2`: location
-  - `3`: apply link markup
-  - `4`: posted date
-- Current parser drops column 3 and keeps `[0, 1, 2, 4]`.
-
-Normalization:
-- Same HTML/tag stripping path as Simplify parsing (via `strip_html`).
+- Per line: strip; require start with `|`; split on `|`.
+- Skip separator (`| --- | --- | ... |`) and the literal header (`Company` in column 0).
+- Require ≥5 cells; keep `[0, 1, 2, 4]` (drop apply markup column for the URL extraction step) plus `extract_apply_url(parts[3])`.
+- Resolve `↳` in column 0 to the previous row's company name.
 
 ## Listing Identity and Change Classification
 
-Current listing key:
+Listing key:
 
 ```text
 (company, role, location, term_or_date)
 ```
 
-Classification logic:
-- `added_keys`: keys from added rows
-- `removed_keys`: keys from removed rows
-- `moved_keys`: intersection (`added_keys & removed_keys`)
+`apply_url` is intentionally not part of the key — companies sometimes rotate query strings.
 
-Interpretation:
-- Added = rows in `added` not in `moved_keys`
-- Removed = rows in `removed` not in `moved_keys`
-- Moved = rows appearing in both sides by key
+Classification:
+- Build `prev_keys` from saved `state[repo].rows`.
+- For each row in `curr_rows`, alert iff its key is not in `prev_keys`.
+- Removed (closures): silently dropped — we only alert on additions.
+- Active↔Inactive toggles in Simplify never appear as alerts because the inactive section is outside our parsed range. Inactive→Active naturally surfaces as a "new" row.
 
-This prevents section reorder/noise from being treated as real additions/removals.
+## Practical Examples
 
-## Practical Diff Examples
+Simplify SWE row inside the section:
 
-Simplify-style add in patch:
-
-```diff
+```html
 <tr>
 <td><strong><a href="https://simplify.jobs/c/Example">Example Co</a></strong></td>
 <td>Software Engineer Intern</td>
@@ -130,28 +115,30 @@ Simplify-style add in patch:
 <td>0d</td>
 </tr>
 ```
+→ `["Example Co", "Software Engineer Intern", "San Francisco, CA", "Spring 2027", "https://jobs.example.com/apply"]`
 
-Vansh-style add in patch:
+Vansh row using `↳` continuation:
 
-```diff
-| Example Co | Software Engineer Intern | San Francisco, CA | <a href="https://jobs.example.com/apply"><img alt="Apply"></a> | Apr 22 |
+```md
+| Verkada | AI Software Engineer Intern | San Mateo, CA | <a …> | Apr 24 |
+| ↳       | Backend Software Engineer Intern | San Mateo, CA | <a …> | Apr 24 |
 ```
+→ Both rows resolve company to `Verkada`.
 
 ## Known Parsing Constraints
 
-- `compare.files[].patch` can be missing for very large diffs, binary changes, or truncation.
-- If watched file is not in `compare.files[]`, watcher treats it as no relevant change.
-- Only the watched filename is parsed, even if other files changed in the same compare.
-- HTML structure drift (missing `<td>` close tags, different row wrappers) can break extraction.
-- Markdown rows containing unescaped `|` inside cell content can shift columns.
+- `raw.githubusercontent.com` returns the file at any SHA; one fetch per repo per change.
+- If section markers ever drift in upstream (rename/emoji change), `extract_section` returns `""` and the parser yields zero rows. We log a warning and skip state update so we don't false-bootstrap.
+- HTML structure drift (missing `</td>` close, nested `<tr>` inside `<details>`) can break extraction — none observed today but worth monitoring.
+- Markdown rows containing unescaped `|` inside cell content can shift columns. Vansh's source has this risk but hasn't bitten.
 
 ## Where to Update If Upstream Formats Change
 
-Update these functions in `.github/workflows/watch-files.yml`:
-- `collect_row`
-- `parse_html_table`
-- `parse_markdown_table`
-- `strip_html`
-- `key` and `build_change_lines` if classification semantics change
+Update these in `.github/workflows/watch-files.yml`:
+- `WATCHERS[*].section_start` / `section_end` if section headings change.
+- `parse_html_rows` if the Simplify cell layout changes (column count, nesting).
+- `parse_markdown_rows` if Vansh's column order changes.
+- `strip_html` / `extract_apply_url` for HTML entity or link-markup drift.
+- `row_key` if the identity tuple needs to change.
 
-Also update this document when parser assumptions change.
+Also update this document.

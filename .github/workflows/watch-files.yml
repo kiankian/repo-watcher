@@ -6,6 +6,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: repo-watcher-state
+  cancel-in-progress: false
+
 jobs:
   watch:
     runs-on: ubuntu-latest
@@ -21,12 +25,14 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           python - <<'PY'
+          import hashlib
           import json
           import os
           import pathlib
           import re
-          import urllib.request
+          import urllib.error
           import urllib.parse
+          import urllib.request
 
           WATCHERS = [
               {
@@ -36,6 +42,8 @@ jobs:
                   "branch": "dev",
                   "file": "README-Off-Season.md",
                   "parser": "html",
+                  "section_start": "## 💻 Software Engineering Internship Roles",
+                  "section_end": "<summary>🗃️ Inactive roles",
               },
               {
                   "label": "Vansh Repo",
@@ -44,14 +52,17 @@ jobs:
                   "branch": "dev",
                   "file": "OFFSEASON_README.md",
                   "parser": "markdown",
+                  "section_start": "## The List",
+                  "section_end": "## We love our contributors",
               },
           ]
 
           STATE_FILE = pathlib.Path(".watcher_state.json")
+          BOT_STATE_FILE = pathlib.Path(".bot_state.json")
 
-          def get_json(url):
+          def gh_request(url):
               token = os.environ["GITHUB_TOKEN"]
-              req = urllib.request.Request(
+              return urllib.request.Request(
                   url,
                   headers={
                       "Accept": "application/vnd.github+json",
@@ -60,24 +71,42 @@ jobs:
                       "Authorization": f"Bearer {token}",
                   },
               )
-              with urllib.request.urlopen(req) as resp:
+
+          def get_json(url):
+              with urllib.request.urlopen(gh_request(url)) as resp:
                   return json.loads(resp.read().decode())
 
-          def send_telegram(text):
+          def get_raw_file(owner, repo, sha, path):
+              url = f"https://raw.githubusercontent.com/{owner}/{repo}/{sha}/{path}"
+              with urllib.request.urlopen(gh_request(url)) as resp:
+                  return resp.read().decode()
+
+          def telegram_send_job(text, callback_data):
               token = os.environ["TELEGRAM_BOT_TOKEN"]
               chat_id = os.environ["TELEGRAM_CHAT_ID"]
-              data = urllib.parse.urlencode({
+              payload = {
                   "chat_id": chat_id,
                   "text": text,
-                  "disable_web_page_preview": "true",
-              }).encode()
+                  "disable_web_page_preview": True,
+                  "reply_markup": {
+                      "inline_keyboard": [[
+                          {"text": "✅ Applied", "callback_data": callback_data}
+                      ]],
+                  },
+              }
               req = urllib.request.Request(
                   f"https://api.telegram.org/bot{token}/sendMessage",
-                  data=data,
+                  data=json.dumps(payload).encode(),
                   method="POST",
+                  headers={"Content-Type": "application/json"},
               )
               with urllib.request.urlopen(req) as resp:
-                  resp.read()
+                  body = json.loads(resp.read().decode())
+              return body["result"]["message_id"], body["result"]["chat"]["id"]
+
+          def job_hash(entry, source):
+              key_str = f"{source}|{entry[0]}|{entry[1]}|{entry[2]}|{entry[3]}|{entry[4]}"
+              return hashlib.sha256(key_str.encode()).hexdigest()[:12]
 
           def strip_html(html):
               html = re.sub(r'<\s*/?\s*br\s*/?\s*>', ' ', html, flags=re.IGNORECASE)
@@ -93,97 +122,63 @@ jobs:
                   return m.group(1)
               return ""
 
-          def collect_row(lines, i, prefix):
-              cells = []
-              i += 1
-              while i < len(lines):
-                  l = lines[i]
-                  raw = l[1:] if l and l[0] in ('+', '-', ' ') else l
-                  s = raw.strip()
-                  if not l.startswith(prefix):
-                      return None, i
-                  if s == '</tr>':
-                      return cells, i + 1
-                  if s.startswith('<td>'):
-                      buf = s[4:]
-                      while '</td>' not in buf and i + 1 < len(lines):
-                          i += 1
-                          r2 = lines[i][1:] if lines[i] and lines[i][0] in ('+', '-', ' ') else lines[i]
-                          buf += ' ' + r2.strip()
-                      if buf.endswith('</td>'):
-                          buf = buf[:-5]
-                      cells.append(buf)
-                  i += 1
-              return None, i
+          def extract_section(text, start_marker, end_marker):
+              start_idx = text.find(start_marker)
+              if start_idx == -1:
+                  return ""
+              end_idx = text.find(end_marker, start_idx + len(start_marker))
+              if end_idx == -1:
+                  end_idx = len(text)
+              return text[start_idx:end_idx]
 
-          def build_html_entry(cells):
-              # Simplify format: Company | Role | Location | Terms | Application | Age
-              company = strip_html(cells[0])
-              role = strip_html(cells[1])
-              location = strip_html(cells[2])
-              term = strip_html(cells[3])
-              apply_url = extract_apply_url(cells[4]) if len(cells) >= 5 else ""
-              return [company, role, location, term, apply_url]
-
-          def parse_html_table(patch):
-              added, removed = [], []
-              lines = patch.splitlines()
-              i = 0
-              while i < len(lines):
-                  l = lines[i]
-                  raw = l[1:] if l and l[0] in ('+', '-', ' ') else l
-                  if raw.strip() == '<tr>':
-                      if l.startswith('+'):
-                          cells, i = collect_row(lines, i, '+')
-                          if cells and len(cells) >= 4:
-                              added.append(build_html_entry(cells))
-                          continue
-                      elif l.startswith('-'):
-                          cells, i = collect_row(lines, i, '-')
-                          if cells and len(cells) >= 4:
-                              removed.append(build_html_entry(cells))
-                          continue
-                  i += 1
-              return added, removed
-
-          def parse_markdown_table(patch):
-              added, removed = [], []
-              for line in patch.splitlines():
-                  if line.startswith('+++') or line.startswith('---'):
+          def parse_html_rows(section_text):
+              rows = []
+              last_company = None
+              for tr_match in re.finditer(r'<tr>\s*(.*?)\s*</tr>', section_text, re.DOTALL):
+                  cells = re.findall(r'<td>(.*?)</td>', tr_match.group(1), re.DOTALL)
+                  if len(cells) < 5:
                       continue
-                  if not (line.startswith('+') or line.startswith('-')):
-                      continue
-                  body = line[1:].strip()
+                  company = strip_html(cells[0])
+                  if company == "↳":
+                      company = last_company or "↳"
+                  else:
+                      last_company = company
+                  rows.append([
+                      company,
+                      strip_html(cells[1]),
+                      strip_html(cells[2]),
+                      strip_html(cells[3]),
+                      extract_apply_url(cells[4]),
+                  ])
+              return rows
+
+          def parse_markdown_rows(section_text):
+              rows = []
+              last_company = None
+              for line in section_text.splitlines():
+                  body = line.strip()
                   if not body.startswith('|'):
                       continue
-                  raw_cells = [c.strip() for c in body.strip('|').split('|')]
-                  # skip separator rows: | --- | --- | ...
-                  if all(re.fullmatch(r'[-:\s]+', c) for c in raw_cells if c):
+                  parts = [c.strip() for c in body.strip('|').split('|')]
+                  if len(parts) < 5:
                       continue
-                  # Vansh format: company | role | location | apply-link | date
-                  if len(raw_cells) >= 5:
-                      entry = [
-                          strip_html(raw_cells[0]),
-                          strip_html(raw_cells[1]),
-                          strip_html(raw_cells[2]),
-                          strip_html(raw_cells[4]),
-                          extract_apply_url(raw_cells[3]),
-                      ]
-                  elif len(raw_cells) >= 4:
-                      entry = [
-                          strip_html(raw_cells[0]),
-                          strip_html(raw_cells[1]),
-                          strip_html(raw_cells[2]),
-                          strip_html(raw_cells[3]),
-                          "",
-                      ]
-                  else:
+                  if all(re.fullmatch(r'[-:\s]+', c) for c in parts if c):
                       continue
-                  if line.startswith('+'):
-                      added.append(entry)
+                  if parts[0].lower() == 'company':
+                      continue
+                  company = strip_html(parts[0])
+                  if company == "↳":
+                      company = last_company or "↳"
                   else:
-                      removed.append(entry)
-              return added, removed
+                      last_company = company
+                  rows.append([
+                      company,
+                      strip_html(parts[1]),
+                      strip_html(parts[2]),
+                      strip_html(parts[4]),
+                      extract_apply_url(parts[3]),
+                  ])
+              return rows
 
           def fmt(entry):
               company, role, location, term, apply_url = entry[0], entry[1], entry[2], entry[3], entry[4]
@@ -192,21 +187,8 @@ jobs:
                   return f"{base}\n  {apply_url}"
               return base
 
-          def key(c):
-              return (c[0], c[1], c[2], c[3])
-
-          def build_change_lines(added, removed):
-              added_keys = {key(c) for c in added}
-              removed_keys = {key(c) for c in removed}
-              moved_keys = added_keys & removed_keys
-
-              new_listings = [c for c in added if key(c) not in moved_keys]
-              if not new_listings:
-                  return []
-
-              lines = [f"New listings ({len(new_listings)}):"]
-              lines += [f"+ {fmt(c)}" for c in new_listings]
-              return lines
+          def row_key(r):
+              return (r[0], r[1], r[2], r[3])
 
           # --- Load and migrate state ---
           if STATE_FILE.exists():
@@ -218,60 +200,268 @@ jobs:
           if "last_sha" in state and isinstance(state.get("last_sha"), str):
               state = {"SimplifyJobs/Summer2026-Internships": {"last_sha": state["last_sha"]}}
 
+          if BOT_STATE_FILE.exists():
+              bot_state = json.loads(BOT_STATE_FILE.read_text())
+          else:
+              bot_state = {}
+          bot_state.setdefault("telegram", {"last_update_id": 0})
+          bot_state.setdefault("pending", {})
+
           # --- Process each watcher ---
-          sections = []
-          any_changes = False
+          total_alerted = 0
           for w in WATCHERS:
               repo_key = f"{w['owner']}/{w['repo']}"
               latest = get_json(f"https://api.github.com/repos/{repo_key}/commits/{w['branch']}")
               latest_sha = latest["sha"]
-              last_sha = (state.get(repo_key) or {}).get("last_sha")
+              saved = state.get(repo_key) or {}
+              last_sha = saved.get("last_sha")
+              prev_rows = saved.get("rows")
 
-              if not last_sha:
-                  state[repo_key] = {"last_sha": latest_sha}
-                  sections.append(f"{w['label']}:\nInitialized.")
-                  print(f"Initialized {repo_key} at {latest_sha}.")
+              # Skip only when SHA unchanged AND we already have a row snapshot.
+              if last_sha == latest_sha and prev_rows is not None:
                   continue
 
-              if last_sha == latest_sha:
+              try:
+                  file_text = get_raw_file(w["owner"], w["repo"], latest_sha, w["file"])
+              except urllib.error.HTTPError as e:
+                  print(f"Failed to fetch {w['file']} at {latest_sha}: {e}")
                   continue
 
-              compare = get_json(f"https://api.github.com/repos/{repo_key}/compare/{last_sha}...{latest_sha}")
-              matched_files = [f for f in compare.get("files", []) if f["filename"] == w["file"]]
+              section_text = extract_section(file_text, w["section_start"], w["section_end"])
+              parser = parse_html_rows if w["parser"] == "html" else parse_markdown_rows
+              curr_rows = parser(section_text)
 
-              if not matched_files:
-                  state[repo_key] = {"last_sha": latest_sha}
+              if prev_rows and not curr_rows:
+                  print(f"WARNING: extracted 0 rows from {repo_key} but had {len(prev_rows)} previously; skipping state update.")
                   continue
 
-              parser = parse_html_table if w["parser"] == "html" else parse_markdown_table
-              added, removed = [], []
-              for f in matched_files:
-                  a, r = parser(f.get("patch", ""))
-                  added.extend(a)
-                  removed.extend(r)
+              new_state = {"last_sha": latest_sha, "rows": curr_rows}
 
-              change_lines = build_change_lines(added, removed)
-              compare_url = compare.get("html_url", f"https://github.com/{repo_key}/compare/{last_sha}...{latest_sha}")
+              if prev_rows is None:
+                  print(f"Bootstrapped {repo_key} at {latest_sha} with {len(curr_rows)} rows.")
+                  state[repo_key] = new_state
+                  continue
 
-              if change_lines:
-                  sections.append(f"{w['label']}:\n" + "\n".join(change_lines) + f"\n\n{compare_url}")
-                  any_changes = True
+              prev_keys = {row_key(r) for r in prev_rows}
+              new_listings = [r for r in curr_rows if row_key(r) not in prev_keys]
 
-              state[repo_key] = {"last_sha": latest_sha}
+              for entry in new_listings:
+                  h = job_hash(entry, w["label"])
+                  text = f"{w['label']}\n+ {fmt(entry)}"
+                  try:
+                      message_id, chat_id = telegram_send_job(text, f"apply:{h}")
+                  except Exception as exc:
+                      print(f"Failed to send job alert ({h}): {exc}")
+                      continue
+                  bot_state["pending"][h] = {
+                      "company": entry[0],
+                      "role": entry[1],
+                      "location": entry[2],
+                      "term": entry[3],
+                      "apply_url": entry[4],
+                      "source": w["label"],
+                      "message_id": message_id,
+                      "chat_id": chat_id,
+                  }
+                  total_alerted += 1
 
-          if any_changes:
-              send_telegram("💼 JOB BOARD UPDATES 💼\n\n" + "\n\n".join(sections))
-              print("Sent Telegram alert.")
+              state[repo_key] = new_state
+
+          if total_alerted:
+              print(f"Sent {total_alerted} job alert(s).")
           else:
-              print("No changes in any watched repo; skipping Telegram.")
+              print("No new listings.")
 
-          STATE_FILE.write_text(json.dumps(state, indent=2))
+          STATE_FILE.write_text(json.dumps(state, indent=2) + "\n")
+          BOT_STATE_FILE.write_text(json.dumps(bot_state, indent=2) + "\n")
           PY
 
       - name: Commit updated state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .watcher_state.json
+          git add .watcher_state.json .bot_state.json
           git diff --cached --quiet || git commit -m "Update watcher state"
+          git pull --rebase origin main
+          git push
+
+  process_applies:
+    needs: watch
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v4
+
+      - name: Pull latest (pick up watch job's commit)
+        run: git pull --rebase origin main
+
+      - name: Install Google auth deps
+        run: pip install --quiet google-auth==2.35.0
+
+      - name: Process callbacks
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          APPLICATIONS_SHEET_ID: ${{ secrets.APPLICATIONS_SHEET_ID }}
+          APPLICATIONS_SHEET_RANGE: ${{ vars.APPLICATIONS_SHEET_RANGE || 'Applications!A:F' }}
+        run: |
+          python - <<'PY'
+          import datetime
+          import json
+          import os
+          import pathlib
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          from google.oauth2 import service_account
+          from google.auth.transport.requests import Request as GoogleAuthRequest
+
+          BOT_STATE_FILE = pathlib.Path(".bot_state.json")
+          TG_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
+          SHEET_ID = os.environ["APPLICATIONS_SHEET_ID"]
+          SHEET_RANGE = os.environ["APPLICATIONS_SHEET_RANGE"]
+
+          def tg_call(method, payload):
+              req = urllib.request.Request(
+                  f"https://api.telegram.org/bot{TG_TOKEN}/{method}",
+                  data=json.dumps(payload).encode(),
+                  method="POST",
+                  headers={"Content-Type": "application/json"},
+              )
+              try:
+                  with urllib.request.urlopen(req) as resp:
+                      return json.loads(resp.read().decode())
+              except urllib.error.HTTPError as e:
+                  print(f"Telegram {method} failed: {e.code} {e.read().decode()}")
+                  return None
+
+          def get_updates(offset):
+              params = {"timeout": 0, "allowed_updates": json.dumps(["callback_query"])}
+              if offset:
+                  params["offset"] = offset
+              url = f"https://api.telegram.org/bot{TG_TOKEN}/getUpdates?" + urllib.parse.urlencode(params)
+              with urllib.request.urlopen(url) as resp:
+                  return json.loads(resp.read().decode())
+
+          def sheets_credentials():
+              info = json.loads(os.environ["GOOGLE_SERVICE_ACCOUNT_JSON"])
+              creds = service_account.Credentials.from_service_account_info(
+                  info,
+                  scopes=["https://www.googleapis.com/auth/spreadsheets"],
+              )
+              creds.refresh(GoogleAuthRequest())
+              return creds
+
+          def append_row(creds, row):
+              url = (
+                  f"https://sheets.googleapis.com/v4/spreadsheets/{SHEET_ID}"
+                  f"/values/{urllib.parse.quote(SHEET_RANGE)}:append"
+                  "?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS"
+              )
+              req = urllib.request.Request(
+                  url,
+                  data=json.dumps({"values": [row]}).encode(),
+                  method="POST",
+                  headers={
+                      "Authorization": f"Bearer {creds.token}",
+                      "Content-Type": "application/json",
+                  },
+              )
+              with urllib.request.urlopen(req) as resp:
+                  resp.read()
+
+          if not BOT_STATE_FILE.exists():
+              print("No .bot_state.json yet; nothing to process.")
+              raise SystemExit(0)
+
+          bot_state = json.loads(BOT_STATE_FILE.read_text())
+          bot_state.setdefault("telegram", {"last_update_id": 0})
+          bot_state.setdefault("pending", {})
+          bot_state.setdefault("applied", {})
+
+          last_id = bot_state["telegram"]["last_update_id"]
+          offset = last_id + 1 if last_id else 0
+          updates = get_updates(offset).get("result", [])
+
+          if not updates:
+              print("No new updates.")
+              raise SystemExit(0)
+
+          creds = None
+          processed = 0
+
+          for upd in updates:
+              bot_state["telegram"]["last_update_id"] = max(
+                  bot_state["telegram"]["last_update_id"], upd["update_id"]
+              )
+              cb = upd.get("callback_query")
+              if not cb:
+                  continue
+              data = cb.get("data") or ""
+              if not data.startswith("apply:"):
+                  tg_call("answerCallbackQuery", {"callback_query_id": cb["id"]})
+                  continue
+
+              h = data.split(":", 1)[1]
+              job = bot_state["pending"].get(h)
+              if not job:
+                  tg_call("answerCallbackQuery", {
+                      "callback_query_id": cb["id"],
+                      "text": "Already logged",
+                  })
+                  continue
+
+              if creds is None:
+                  creds = sheets_credentials()
+
+              applied_at = datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+              applied_date = applied_at[:10]
+              row = [
+                  job["company"],
+                  job["role"],
+                  applied_date,
+                  "",
+                  "Telegram Bot",
+                  "Applied",
+              ]
+              try:
+                  append_row(creds, row)
+              except urllib.error.HTTPError as e:
+                  print(f"Sheets append failed for {h}: {e.code} {e.read().decode()}")
+                  continue
+
+              tg_call("answerCallbackQuery", {
+                  "callback_query_id": cb["id"],
+                  "text": "Logged ✅",
+              })
+              tg_call("editMessageText", {
+                  "chat_id": job["chat_id"],
+                  "message_id": job["message_id"],
+                  "text": (
+                      f"{job['source']}\n+ {job['company']} — {job['role']} | "
+                      f"{job['location']} | {job['term']}"
+                      + (f"\n  {job['apply_url']}" if job.get('apply_url') else "")
+                      + f"\n\n✅ Logged {applied_at}"
+                  ),
+                  "disable_web_page_preview": True,
+                  "reply_markup": {"inline_keyboard": []},
+              })
+
+              bot_state["applied"][h] = {**job, "applied_at": applied_at}
+              del bot_state["pending"][h]
+              processed += 1
+
+          BOT_STATE_FILE.write_text(json.dumps(bot_state, indent=2) + "\n")
+          print(f"Processed {processed} apply callback(s); offset now {bot_state['telegram']['last_update_id']}.")
+          PY
+
+      - name: Commit updated bot state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .bot_state.json
+          git diff --cached --quiet || git commit -m "Process apply callbacks"
+          git pull --rebase origin main
           git push
