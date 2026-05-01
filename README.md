@@ -44,7 +44,7 @@ Sheet schema (what the bot writes per applied tap):
 
 | A: Company | B: Role | C: Date Applied | D: Email Applied | E: Resource | F: Status |
 |---|---|---|---|---|---|
-| from alert | from alert | UTC `YYYY-MM-DD` | _(blank — fill manually)_ | `Telegram Bot` | `Applied` |
+| from alert | from alert | UTC `M/D/YYYY` | _(blank — fill manually)_ | `Telegram Bot` | `Applied` |
 
 Make sure your **Status** dropdown includes `Applied` as a valid option, or Sheets will flag the row.
 

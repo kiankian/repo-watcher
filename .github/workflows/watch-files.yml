@@ -416,8 +416,9 @@ jobs:
               if creds is None:
                   creds = sheets_credentials()
 
-              applied_at = datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
-              applied_date = applied_at[:10]
+              now = datetime.datetime.utcnow()
+              applied_at = now.replace(microsecond=0).isoformat() + "Z"
+              applied_date = f"{now.month}/{now.day}/{now.year}"
               row = [
                   job["company"],
                   job["role"],
