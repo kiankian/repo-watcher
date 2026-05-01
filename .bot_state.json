@@ -2,5 +2,16 @@
   "telegram": {
     "last_update_id": 0
   },
-  "pending": {}
+  "pending": {
+    "cdc218f7d679": {
+      "company": "Lumentum",
+      "role": "Calibration and Test Software Engineer Co-op",
+      "location": "Ottawa, ON, Canada",
+      "term": "Fall 2025",
+      "apply_url": "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Calibration-and-Test-Software-Engineer--Co-op-Student-_2026523?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 38,
+      "chat_id": 7582459199
+    }
+  }
 }
