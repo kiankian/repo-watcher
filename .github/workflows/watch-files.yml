@@ -103,7 +103,7 @@ jobs:
                   "disable_web_page_preview": True,
                   "reply_markup": {
                       "inline_keyboard": [[
-                          {"text": "✅ Applied", "callback_data": callback_data}
+                          {"text": "Mark as Applied", "callback_data": callback_data}
                       ]],
                   },
               }
@@ -307,6 +307,7 @@ jobs:
 
   process_applies:
     needs: watch
+    if: always()
     runs-on: ubuntu-latest
 
     steps:
@@ -434,16 +435,21 @@ jobs:
           creds = None
           processed = 0
 
-          for upd in updates:
+          def advance_offset(uid):
               bot_state["telegram"]["last_update_id"] = max(
-                  bot_state["telegram"]["last_update_id"], upd["update_id"]
+                  bot_state["telegram"]["last_update_id"], uid
               )
+
+          for upd in updates:
+              update_id = upd["update_id"]
               cb = upd.get("callback_query")
               if not cb:
+                  advance_offset(update_id)
                   continue
               data = cb.get("data") or ""
               if not data.startswith("apply:"):
                   tg_call("answerCallbackQuery", {"callback_query_id": cb["id"]})
+                  advance_offset(update_id)
                   continue
 
               h = data.split(":", 1)[1]
@@ -453,6 +459,7 @@ jobs:
                       "callback_query_id": cb["id"],
                       "text": "Already logged",
                   })
+                  advance_offset(update_id)
                   continue
 
               if creds is None:
@@ -473,7 +480,12 @@ jobs:
                   append_row(creds, row)
               except urllib.error.HTTPError as e:
                   print(f"Sheets append failed for {h}: {e.code} {e.read().decode()}")
-                  continue
+                  tg_call("answerCallbackQuery", {
+                      "callback_query_id": cb["id"],
+                      "text": "Sheet update failed — will retry next run",
+                      "show_alert": True,
+                  })
+                  break
 
               tg_call("answerCallbackQuery", {
                   "callback_query_id": cb["id"],
@@ -494,6 +506,7 @@ jobs:
 
               bot_state["applied"][h] = {**job, "applied_at": applied_at}
               del bot_state["pending"][h]
+              advance_offset(update_id)
               processed += 1
 
           BOT_STATE_FILE.write_text(json.dumps(bot_state, indent=2) + "\n")
