@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437392
+    "last_update_id": 563437393
   },
   "pending": {
     "cdc218f7d679": {
@@ -43,16 +43,6 @@
       "message_id": 42,
       "chat_id": 7582459199
     },
-    "16a0c01845a3": {
-      "company": "Gemini",
-      "role": "Software Engineer Intern",
-      "location": "NYC",
-      "term": "Fall 2026",
-      "apply_url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125&utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Repo",
-      "message_id": 43,
-      "chat_id": 7582459199
-    },
     "4cdb2c761ba7": {
       "company": "Cohere",
       "role": "Software Engineer Intern",
@@ -86,6 +76,17 @@
       "message_id": 39,
       "chat_id": 7582459199,
       "applied_at": "2026-05-02T03:10:22Z"
+    },
+    "16a0c01845a3": {
+      "company": "Gemini",
+      "role": "Software Engineer Intern",
+      "location": "NYC",
+      "term": "Fall 2026",
+      "apply_url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 43,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-02T05:14:21Z"
     }
   }
 }
