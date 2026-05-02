@@ -345,6 +345,7 @@ jobs:
           import urllib.error
           import urllib.parse
           import urllib.request
+          import zoneinfo
 
           from google.oauth2 import service_account
           from google.auth.transport.requests import Request as GoogleAuthRequest
@@ -512,9 +513,9 @@ jobs:
                       })
                       break
 
-              now = datetime.datetime.utcnow()
-              applied_at = now.replace(microsecond=0).isoformat() + "Z"
-              applied_date = f"{now.month}/{now.day}/{now.year}"
+              local_now = datetime.datetime.now(zoneinfo.ZoneInfo("America/Los_Angeles"))
+              applied_at = datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+              applied_date = f"{local_now.month}/{local_now.day}/{local_now.year}"
               row = [
                   job["company"],
                   job["role"],
