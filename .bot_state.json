@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437352
+    "last_update_id": 563437391
   },
   "pending": {
     "cdc218f7d679": {
@@ -72,7 +72,9 @@
       "source": "Simplify Repo",
       "message_id": 44,
       "chat_id": 7582459199
-    },
+    }
+  },
+  "applied": {
     "e4968baeeb31": {
       "company": "General Dynamics UK",
       "role": "Software Developer Co-op",
@@ -81,8 +83,8 @@
       "apply_url": "https://jobs.smartrecruiters.com/GDMSI/744000124175808?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Repo",
       "message_id": 45,
-      "chat_id": 7582459199
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-02T03:09:21Z"
     }
-  },
-  "applied": {}
+  }
 }
