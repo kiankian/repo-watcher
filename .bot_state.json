@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437391
+    "last_update_id": 563437392
   },
   "pending": {
     "cdc218f7d679": {
@@ -11,16 +11,6 @@
       "apply_url": "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Calibration-and-Test-Software-Engineer--Co-op-Student-_2026523?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Repo",
       "message_id": 38,
-      "chat_id": 7582459199
-    },
-    "d3d73c8e0dd1": {
-      "company": "\ud83d\udd25 Tesla",
-      "role": "Software Engineering, People Systems",
-      "location": "Palo Alto, CA",
-      "term": "Fall 2026",
-      "apply_url": "https://www.tesla.com/careers/search/job/internship-software-engineering-people-systems-fall-2026-269198?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Repo",
-      "message_id": 39,
       "chat_id": 7582459199
     },
     "a8ea0eb488c8": {
@@ -85,6 +75,17 @@
       "message_id": 45,
       "chat_id": 7582459199,
       "applied_at": "2026-05-02T03:09:21Z"
+    },
+    "d3d73c8e0dd1": {
+      "company": "\ud83d\udd25 Tesla",
+      "role": "Software Engineering, People Systems",
+      "location": "Palo Alto, CA",
+      "term": "Fall 2026",
+      "apply_url": "https://www.tesla.com/careers/search/job/internship-software-engineering-people-systems-fall-2026-269198?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 39,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-02T03:10:22Z"
     }
   }
 }
