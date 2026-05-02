@@ -385,6 +385,21 @@ jobs:
               if offset:
                   params["offset"] = offset
               url = f"https://api.telegram.org/bot{TG_TOKEN}/getUpdates?" + urllib.parse.urlencode(params)
+              try:
+                  with urlopen_with_retry(url) as resp:
+                      return json.loads(resp.read().decode())
+              except urllib.error.HTTPError as e:
+                  body = e.read().decode(errors="replace")
+                  print(f"getUpdates failed: HTTP {e.code} {body}")
+                  raise
+
+          def get_webhook_info():
+              url = f"https://api.telegram.org/bot{TG_TOKEN}/getWebhookInfo"
+              with urlopen_with_retry(url) as resp:
+                  return json.loads(resp.read().decode())
+
+          def delete_webhook():
+              url = f"https://api.telegram.org/bot{TG_TOKEN}/deleteWebhook?drop_pending_updates=false"
               with urlopen_with_retry(url) as resp:
                   return json.loads(resp.read().decode())
 
@@ -424,9 +439,20 @@ jobs:
           bot_state.setdefault("pending", {})
           bot_state.setdefault("applied", {})
 
+          info = (get_webhook_info().get("result") or {})
+          if info.get("url"):
+              print(
+                  f"WARNING: webhook set to {info['url']!r} — deleting (bot uses polling). "
+                  f"pending_update_count={info.get('pending_update_count')} "
+                  f"last_error={info.get('last_error_message')!r}"
+              )
+              delete_webhook()
+
           last_id = bot_state["telegram"]["last_update_id"]
           offset = last_id + 1 if last_id else 0
           updates = get_updates(offset).get("result", [])
+
+          print(f"Received {len(updates)} update(s); pending hashes: {sorted(bot_state['pending'].keys())}")
 
           if not updates:
               print("No new updates.")
@@ -444,10 +470,12 @@ jobs:
               update_id = upd["update_id"]
               cb = upd.get("callback_query")
               if not cb:
+                  print(f"  update {update_id}: no callback_query, skipping")
                   advance_offset(update_id)
                   continue
               data = cb.get("data") or ""
               if not data.startswith("apply:"):
+                  print(f"  update {update_id}: non-apply callback data {data!r}")
                   tg_call("answerCallbackQuery", {"callback_query_id": cb["id"]})
                   advance_offset(update_id)
                   continue
@@ -455,6 +483,7 @@ jobs:
               h = data.split(":", 1)[1]
               job = bot_state["pending"].get(h)
               if not job:
+                  print(f"  update {update_id}: callback hash {h!r} not in pending — already logged or stale")
                   tg_call("answerCallbackQuery", {
                       "callback_query_id": cb["id"],
                       "text": "Already logged",
@@ -463,7 +492,16 @@ jobs:
                   continue
 
               if creds is None:
-                  creds = sheets_credentials()
+                  try:
+                      creds = sheets_credentials()
+                  except Exception as e:
+                      print(f"sheets_credentials failed: {type(e).__name__}: {e}")
+                      tg_call("answerCallbackQuery", {
+                          "callback_query_id": cb["id"],
+                          "text": "Sheet credentials failed — will retry next run",
+                          "show_alert": True,
+                      })
+                      break
 
               now = datetime.datetime.utcnow()
               applied_at = now.replace(microsecond=0).isoformat() + "Z"
@@ -508,6 +546,7 @@ jobs:
               del bot_state["pending"][h]
               advance_offset(update_id)
               processed += 1
+              print(f"  logged {h} → {job['company']} / {job['role']}")
 
           BOT_STATE_FILE.write_text(json.dumps(bot_state, indent=2) + "\n")
           print(f"Processed {processed} apply callback(s); offset now {bot_state['telegram']['last_update_id']}.")
