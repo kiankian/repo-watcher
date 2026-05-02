@@ -403,6 +403,11 @@ jobs:
               with urlopen_with_retry(url) as resp:
                   return json.loads(resp.read().decode())
 
+          def get_me():
+              url = f"https://api.telegram.org/bot{TG_TOKEN}/getMe"
+              with urlopen_with_retry(url) as resp:
+                  return json.loads(resp.read().decode())
+
           def sheets_credentials():
               info = json.loads(os.environ["GOOGLE_SERVICE_ACCOUNT_JSON"])
               creds = service_account.Credentials.from_service_account_info(
@@ -439,13 +444,17 @@ jobs:
           bot_state.setdefault("pending", {})
           bot_state.setdefault("applied", {})
 
+          me = get_me().get("result") or {}
+          print(f"Bot identity: id={me.get('id')} username=@{me.get('username')} name={me.get('first_name')!r}")
+
           info = (get_webhook_info().get("result") or {})
+          print(
+              f"Webhook info: url={info.get('url')!r} "
+              f"pending_update_count={info.get('pending_update_count')} "
+              f"last_error={info.get('last_error_message')!r}"
+          )
           if info.get("url"):
-              print(
-                  f"WARNING: webhook set to {info['url']!r} — deleting (bot uses polling). "
-                  f"pending_update_count={info.get('pending_update_count')} "
-                  f"last_error={info.get('last_error_message')!r}"
-              )
+              print("WARNING: webhook is set — deleting so getUpdates can return queued callbacks.")
               delete_webhook()
 
           last_id = bot_state["telegram"]["last_update_id"]
