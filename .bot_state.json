@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437401
+    "last_update_id": 563437402
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -101,16 +101,6 @@
       "apply_url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5179078008?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Repo",
       "message_id": 55,
-      "chat_id": 7582459199
-    },
-    "06ee6f3c3fd4": {
-      "company": "\ud83d\udd25 Uber",
-      "role": "Software Engineer Intern",
-      "location": "SF",
-      "term": "Fall 2026",
-      "apply_url": "https://university-uber.icims.com/jobs/159161/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Repo",
-      "message_id": 56,
       "chat_id": 7582459199
     },
     "c6450affe5dd": {
@@ -270,6 +260,17 @@
       "message_id": 47,
       "chat_id": 7582459199,
       "applied_at": "2026-05-04T04:10:25Z"
+    },
+    "06ee6f3c3fd4": {
+      "company": "\ud83d\udd25 Uber",
+      "role": "Software Engineer Intern",
+      "location": "SF",
+      "term": "Fall 2026",
+      "apply_url": "https://university-uber.icims.com/jobs/159161/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 56,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-05T03:03:28Z"
     }
   }
 }
