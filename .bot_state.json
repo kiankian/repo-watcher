@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437425
+    "last_update_id": 563437428
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -243,16 +243,6 @@
       "message_id": 76,
       "chat_id": 7582459199
     },
-    "874372dd059c": {
-      "company": "General Dynamics UK",
-      "role": "Software Engineering Developer Co-op",
-      "location": "Calgary, AB, Canada",
-      "term": "Fall 2026",
-      "apply_url": "https://jobs.smartrecruiters.com/GDMSI/744000124931443?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Repo",
-      "message_id": 77,
-      "chat_id": 7582459199
-    },
     "97d298170c07": {
       "company": "Kinaxis",
       "role": "Software Developer Co-op/Intern - Core Algorithms - Life Sciences",
@@ -451,6 +441,17 @@
       "message_id": 80,
       "chat_id": 7582459199,
       "applied_at": "2026-05-07T02:12:24Z"
+    },
+    "874372dd059c": {
+      "company": "General Dynamics UK",
+      "role": "Software Engineering Developer Co-op",
+      "location": "Calgary, AB, Canada",
+      "term": "Fall 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/GDMSI/744000124931443?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 77,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-07T02:13:18Z"
     }
   }
 }
