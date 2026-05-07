@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437414
+    "last_update_id": 563437416
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -273,16 +273,6 @@
       "message_id": 77,
       "chat_id": 7582459199
     },
-    "7ae9ffb7a91a": {
-      "company": "\ud83d\udd25 NVIDIA",
-      "role": "Software Engineer Intern - AI Tools",
-      "location": "Santa Clara, CA",
-      "term": "Fall 2026",
-      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--AI-Tools---Fall-2026_JR2016805?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Repo",
-      "message_id": 78,
-      "chat_id": 7582459199
-    },
     "97d298170c07": {
       "company": "Kinaxis",
       "role": "Software Developer Co-op/Intern - Core Algorithms - Life Sciences",
@@ -445,6 +435,17 @@
       "message_id": 82,
       "chat_id": 7582459199,
       "applied_at": "2026-05-07T01:48:20Z"
+    },
+    "7ae9ffb7a91a": {
+      "company": "\ud83d\udd25 NVIDIA",
+      "role": "Software Engineer Intern - AI Tools",
+      "location": "Santa Clara, CA",
+      "term": "Fall 2026",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--AI-Tools---Fall-2026_JR2016805?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 78,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-07T02:00:34Z"
     }
   }
 }
