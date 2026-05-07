@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437416
+    "last_update_id": 563437423
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -11,16 +11,6 @@
       "apply_url": "https://jobs.ashbyhq.com/atomicsemi/867c67f7-20b5-4726-b9da-85a760d3851e?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Repo",
       "message_id": 40,
-      "chat_id": 7582459199
-    },
-    "85e4b739a025": {
-      "company": "\ud83d\udd25 Shopify",
-      "role": "Data and Engineering Intern",
-      "location": "5 locationsMontreal, QC, Canada Toronto, ON, Canada NYC Bellevue, WA Ottawa, ON, Canada",
-      "term": "Fall 2026",
-      "apply_url": "https://www.shopify.com/careers/data-and-engineering-internships-fall-2026_9b2afa1b-28fa-4ae4-8f69-80ce64059065?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Repo",
-      "message_id": 72,
       "chat_id": 7582459199
     },
     "eda43af74563": {
@@ -233,16 +223,6 @@
       "message_id": 70,
       "chat_id": 7582459199
     },
-    "eb3a863590a6": {
-      "company": "Kinaxis",
-      "role": "Software Developer Co-op/Intern - Core Algorithms",
-      "location": "Ottawa, ON, Canada",
-      "term": "Fall 2026",
-      "apply_url": "https://careers-kinaxis.icims.com/jobs/34701/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Repo",
-      "message_id": 74,
-      "chat_id": 7582459199
-    },
     "9396c73f19d9": {
       "company": "D2L",
       "role": "Software Developer Co-op",
@@ -291,26 +271,6 @@
       "apply_url": "https://jobs.lever.co/magnetforensics/f125c8e7-052d-430d-b857-ceba1037f809/apply?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Repo",
       "message_id": 80,
-      "chat_id": 7582459199
-    },
-    "81a001782c73": {
-      "company": "Magnet Forensics",
-      "role": "Software Developer Co-op",
-      "location": "Canada Ottawa, ON, Canada Kitchener, ON, Canada",
-      "term": "Fall 2026",
-      "apply_url": "https://jobs.lever.co/magnetforensics/b9fdce72-4c58-46bb-b7e2-b4bdc90390e5/apply?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Repo",
-      "message_id": 81,
-      "chat_id": 7582459199
-    },
-    "92029cbe186a": {
-      "company": "Nokia",
-      "role": "Incubation Developer Co-op/Intern",
-      "location": "Ottawa, ON, Canada",
-      "term": "Fall 2026, Winter 2026",
-      "apply_url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34239?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Repo",
-      "message_id": 83,
       "chat_id": 7582459199
     }
   },
@@ -446,6 +406,50 @@
       "message_id": 78,
       "chat_id": 7582459199,
       "applied_at": "2026-05-07T02:00:34Z"
+    },
+    "85e4b739a025": {
+      "company": "\ud83d\udd25 Shopify",
+      "role": "Data and Engineering Intern",
+      "location": "5 locationsMontreal, QC, Canada Toronto, ON, Canada NYC Bellevue, WA Ottawa, ON, Canada",
+      "term": "Fall 2026",
+      "apply_url": "https://www.shopify.com/careers/data-and-engineering-internships-fall-2026_9b2afa1b-28fa-4ae4-8f69-80ce64059065?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 72,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-07T02:11:31Z"
+    },
+    "eb3a863590a6": {
+      "company": "Kinaxis",
+      "role": "Software Developer Co-op/Intern - Core Algorithms",
+      "location": "Ottawa, ON, Canada",
+      "term": "Fall 2026",
+      "apply_url": "https://careers-kinaxis.icims.com/jobs/34701/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 74,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-07T02:11:34Z"
+    },
+    "81a001782c73": {
+      "company": "Magnet Forensics",
+      "role": "Software Developer Co-op",
+      "location": "Canada Ottawa, ON, Canada Kitchener, ON, Canada",
+      "term": "Fall 2026",
+      "apply_url": "https://jobs.lever.co/magnetforensics/b9fdce72-4c58-46bb-b7e2-b4bdc90390e5/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 81,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-07T02:11:36Z"
+    },
+    "92029cbe186a": {
+      "company": "Nokia",
+      "role": "Incubation Developer Co-op/Intern",
+      "location": "Ottawa, ON, Canada",
+      "term": "Fall 2026, Winter 2026",
+      "apply_url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34239?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 83,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-07T02:11:37Z"
     }
   }
 }
