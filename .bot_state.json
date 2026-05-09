@@ -362,6 +362,46 @@
       "source": "Simplify Repo",
       "message_id": 99,
       "chat_id": 7582459199
+    },
+    "22d2139adf1c": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern (Core Engineering)",
+      "location": "Menlo Park, CA Bellevue, WA",
+      "term": "May 09",
+      "apply_url": "https://careers.snowflake.com/us/en/job/SNCOUS0214F57FFF904B4AB58DD1965DC9927EEXTERNALENUS4F34AEFA681B4AA8A0EA28CE56C9F1A5/Software-Engineer-Intern-Core-Engineering-Fall-2026?utm_source=github-vansh-ouckah",
+      "source": "Vansh Repo",
+      "message_id": 100,
+      "chat_id": 7582459199
+    },
+    "22da701d71f1": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern, Infrastructure Automation",
+      "location": "Menlo Park, CA Bellevue, WA",
+      "term": "May 09",
+      "apply_url": "https://careers.snowflake.com/us/en/job/SNCOUSCC3FB214186D4B439D3F15B47307A231EXTERNALENUSBBDEE8BD443C456FA4F01B363D843310/Software-Engineer-Intern-Infrastructure-Automation-Fall-2026?utm_source=github-vansh-ouckah",
+      "source": "Vansh Repo",
+      "message_id": 101,
+      "chat_id": 7582459199
+    },
+    "680c983fe4d9": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern, Database Engineering",
+      "location": "Menlo Park, CA",
+      "term": "May 09",
+      "apply_url": "https://careers.snowflake.com/us/en/job/SNCOUSFA7B56D5F57047479C1775A3DB18737CEXTERNALENUSFD76A37F868D467BA2560B6746B9E961/Software-Engineer-Intern-Database-Engineering-Fall-2026?utm_source=github-vansh-ouckah",
+      "source": "Vansh Repo",
+      "message_id": 102,
+      "chat_id": 7582459199
+    },
+    "07cf990abd98": {
+      "company": "Skydio",
+      "role": "Software Engineer Intern",
+      "location": "San Mateo, CA",
+      "term": "May 09",
+      "apply_url": "https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee?utm_source=github-vansh-ouckah",
+      "source": "Vansh Repo",
+      "message_id": 103,
+      "chat_id": 7582459199
     }
   },
   "applied": {
