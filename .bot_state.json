@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437432
+    "last_update_id": 563437433
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -413,16 +413,6 @@
       "message_id": 104,
       "chat_id": 7582459199
     },
-    "93bfe62bdc3e": {
-      "company": "Tesla",
-      "role": "Software Engineer Intern, Maps & Navigation Validation",
-      "location": "Palo Alto, CA",
-      "term": "May 09",
-      "apply_url": "https://www.tesla.com/careers/search/job/internship-software-engineer-maps-navigation-validation-fall-2026--270186?utm_source=github-vansh-ouckah",
-      "source": "Vansh Repo",
-      "message_id": 106,
-      "chat_id": 7582459199
-    },
     "af50ccb5846c": {
       "company": "Tesla",
       "role": "Embedded Software Engineer Intern, Keys & Authentication",
@@ -684,6 +674,17 @@
       "message_id": 105,
       "chat_id": 7582459199,
       "applied_at": "2026-05-09T08:09:22Z"
+    },
+    "93bfe62bdc3e": {
+      "company": "Tesla",
+      "role": "Software Engineer Intern, Maps & Navigation Validation",
+      "location": "Palo Alto, CA",
+      "term": "May 09",
+      "apply_url": "https://www.tesla.com/careers/search/job/internship-software-engineer-maps-navigation-validation-fall-2026--270186?utm_source=github-vansh-ouckah",
+      "source": "Vansh Repo",
+      "message_id": 106,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-09T08:11:23Z"
     }
   }
 }
