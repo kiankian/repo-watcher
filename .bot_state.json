@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437433
+    "last_update_id": 563437436
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -413,16 +413,6 @@
       "message_id": 104,
       "chat_id": 7582459199
     },
-    "af50ccb5846c": {
-      "company": "Tesla",
-      "role": "Embedded Software Engineer Intern, Keys & Authentication",
-      "location": "Palo Alto, CA",
-      "term": "May 09",
-      "apply_url": "https://www.tesla.com/careers/search/job/internship-embedded-software-engineer-keys-authentication-fall-2026-270067?utm_source=github-vansh-ouckah",
-      "source": "Vansh Repo",
-      "message_id": 107,
-      "chat_id": 7582459199
-    },
     "433802e21a03": {
       "company": "Tesla",
       "role": "Software Engineer Intern, Vehicle UI Development",
@@ -685,6 +675,17 @@
       "message_id": 106,
       "chat_id": 7582459199,
       "applied_at": "2026-05-09T08:11:23Z"
+    },
+    "af50ccb5846c": {
+      "company": "Tesla",
+      "role": "Embedded Software Engineer Intern, Keys & Authentication",
+      "location": "Palo Alto, CA",
+      "term": "May 09",
+      "apply_url": "https://www.tesla.com/careers/search/job/internship-embedded-software-engineer-keys-authentication-fall-2026-270067?utm_source=github-vansh-ouckah",
+      "source": "Vansh Repo",
+      "message_id": 107,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-09T08:13:25Z"
     }
   }
 }
