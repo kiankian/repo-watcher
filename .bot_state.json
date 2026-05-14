@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437439
+    "last_update_id": 563437442
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -753,16 +753,6 @@
       "message_id": 164,
       "chat_id": 7582459199
     },
-    "c62152302c3e": {
-      "company": "\ud83d\udd25 Amazon",
-      "role": "Software Development Engineer Test Intern",
-      "location": "Sunnyvale, CA",
-      "term": "Fall 2026",
-      "apply_url": "https://amazon.jobs/en/jobs/10419265/software-development-engineer-test-intern-fall?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Repo",
-      "message_id": 165,
-      "chat_id": 7582459199
-    },
     "f72a98d2d5b3": {
       "company": "Manulife Financial",
       "role": "Software Engineer Co-op - Software Engineer",
@@ -1049,6 +1039,17 @@
       "message_id": 159,
       "chat_id": 7582459199,
       "applied_at": "2026-05-14T02:19:23Z"
+    },
+    "c62152302c3e": {
+      "company": "\ud83d\udd25 Amazon",
+      "role": "Software Development Engineer Test Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Fall 2026",
+      "apply_url": "https://amazon.jobs/en/jobs/10419265/software-development-engineer-test-intern-fall?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 165,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-14T02:41:26Z"
     }
   }
 }
