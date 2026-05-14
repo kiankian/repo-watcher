@@ -80,7 +80,7 @@
       "term": "Fall 2026",
       "apply_url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5138225008?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Repo",
-      "message_id": 54,
+      "message_id": 170,
       "chat_id": 7582459199
     },
     "ed6297c3dc0b": {
@@ -280,7 +280,7 @@
       "term": "Fall 2026, Winter 2027, Spring 2027",
       "apply_url": "https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-1800-Arch-St/Comcast-Software-Engineer-Co-op_R436025?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Repo",
-      "message_id": 114,
+      "message_id": 168,
       "chat_id": 7582459199
     },
     "a32766c757ce": {
@@ -290,7 +290,7 @@
       "term": "Fall 2026",
       "apply_url": "https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-1800-Arch-St/Comcast-Platform-Software-Engineer-Co-op_R435979?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Repo",
-      "message_id": 88,
+      "message_id": 167,
       "chat_id": 7582459199
     },
     "f995cf21ef5d": {
@@ -440,7 +440,7 @@
       "term": "Fall 2026",
       "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--AI-Tools---Fall-2026_JR2016805?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Repo",
-      "message_id": 113,
+      "message_id": 169,
       "chat_id": 7582459199
     },
     "cdc218f7d679": {
@@ -741,6 +741,36 @@
       "apply_url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-in-Test-Intern--September-2026-12-Months-_R10064?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Repo",
       "message_id": 162,
+      "chat_id": 7582459199
+    },
+    "92d75aa96016": {
+      "company": "Astranis",
+      "role": "Software Engineer-Backend Intern",
+      "location": "SF",
+      "term": "Fall 2026",
+      "apply_url": "https://job-boards.greenhouse.io/astranis/jobs/4681183006?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 164,
+      "chat_id": 7582459199
+    },
+    "c62152302c3e": {
+      "company": "\ud83d\udd25 Amazon",
+      "role": "Software Development Engineer Test Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Fall 2026",
+      "apply_url": "https://amazon.jobs/en/jobs/10419265/software-development-engineer-test-intern-fall?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 165,
+      "chat_id": 7582459199
+    },
+    "f72a98d2d5b3": {
+      "company": "Manulife Financial",
+      "role": "Software Engineer Co-op - Software Engineer",
+      "location": "Toronto, ON, Canada",
+      "term": "Fall 2026",
+      "apply_url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Fall-Co-op-2026---Software-Engineer--12-months-_JR26050847?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 166,
       "chat_id": 7582459199
     }
   },
