@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437438
+    "last_update_id": 563437439
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -713,16 +713,6 @@
       "message_id": 158,
       "chat_id": 7582459199
     },
-    "0e663acacdbd": {
-      "company": "\ud83d\udd25 NVIDIA",
-      "role": "Systems Software Engineer Intern",
-      "location": "Santa Clara, CA",
-      "term": "Fall 2026",
-      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer-Intern--Metropolis---Fall-2026_JR2018016?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Repo",
-      "message_id": 159,
-      "chat_id": 7582459199
-    },
     "dfab9d3d9b07": {
       "company": "Cadence Design Systems",
       "role": "Product Engineer Intern",
@@ -1018,6 +1008,17 @@
       "message_id": 127,
       "chat_id": 7582459199,
       "applied_at": "2026-05-11T19:14:35Z"
+    },
+    "0e663acacdbd": {
+      "company": "\ud83d\udd25 NVIDIA",
+      "role": "Systems Software Engineer Intern",
+      "location": "Santa Clara, CA",
+      "term": "Fall 2026",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer-Intern--Metropolis---Fall-2026_JR2018016?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Repo",
+      "message_id": 159,
+      "chat_id": 7582459199,
+      "applied_at": "2026-05-14T02:19:23Z"
     }
   }
 }
