@@ -712,7 +712,7 @@
     ]
   },
   "vanshb03/Summer2027-Internships": {
-    "last_sha": "17afb7e1077d082f611c2a216ef4e06066cdacc8",
+    "last_sha": "2d6970d82b134dc82c6fb25f101fcd6479e95858",
     "rows": [
       [
         "Rocket Lab",
@@ -769,20 +769,6 @@
         "Santa Clara, CA",
         "May 19",
         "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Quantum-Research-Scientist-Intern---Fall-2026_JR2018244?utm_source=github-vansh-ouckah"
-      ],
-      [
-        "NVIDIA",
-        "Systems Software Engineer Intern, Metropolis",
-        "Santa Clara, CA",
-        "May 14",
-        "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer-Intern--Metropolis---Fall-2026_JR2018016?utm_source=github-vansh-ouckah"
-      ],
-      [
-        "GoodRx",
-        "AI Agent Developer Intern",
-        "New York City, NY",
-        "May 12",
-        "https://goodrx.wd1.myworkdayjobs.com/Careers/job/New-York-City-NY/AI-Agent-Developer-Intern_JR100607?utm_source=github-vansh-ouckah"
       ],
       [
         "BMO",
@@ -925,13 +911,6 @@
         "https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90?utm_source=github-vansh-ouckah"
       ],
       [
-        "NVIDIA",
-        "Software Engineer Intern, Robot Learning Platform",
-        "Santa Clara, CA",
-        "Apr 22",
-        "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Robot-Learning-Platform---Fall-2026_JR2015575?jr_id=69e82017f8fa2f3ec32ab97c&utm_source=github-vansh-ouckah"
-      ],
-      [
         "Figure",
         "Embedded Software Intern",
         "San Jose, CA",
@@ -1042,13 +1021,6 @@
         "San Francisco, CA",
         "Nov 17",
         "https://www.workatastartup.com/jobs/85257?utm_source=github-vansh-ouckah"
-      ],
-      [
-        "Ciena",
-        "WaveLogic Software Intern",
-        "Atlanta",
-        "Nov 17",
-        "https://ciena.wd5.myworkdayjobs.com/careers/job/Atlanta/WaveLogic-Software-Intern--Winter-2026-_R028815?utm_source=github-vansh-ouckah"
       ],
       [
         "Rivian and Volkswagen Group Technologies",
@@ -1324,6 +1296,27 @@
         "https://ats.rippling.com/en-GB/rippling/jobs/3fd9615a-d0c7-458c-a0fc-5d9d7f0ce77c?utm_source=github-vansh-ouckah"
       ],
       [
+        "NVIDIA",
+        "Systems Software Engineer Intern, Metropolis",
+        "Santa Clara, CA",
+        "May 14",
+        ""
+      ],
+      [
+        "GoodRx",
+        "AI Agent Developer Intern",
+        "New York City, NY",
+        "May 12",
+        ""
+      ],
+      [
+        "NVIDIA",
+        "Software Engineer Intern, Robot Learning Platform",
+        "Santa Clara, CA",
+        "Apr 22",
+        ""
+      ],
+      [
         "Cartesian",
         "Software Engineering Intern",
         "Cambridge, MA",
@@ -1348,6 +1341,13 @@
         "Philips",
         "Software Development Engineer Intern, Automation \ud83d\udec2",
         "Cambridge, MA",
+        "Nov 17",
+        ""
+      ],
+      [
+        "Ciena",
+        "WaveLogic Software Intern",
+        "Atlanta",
         "Nov 17",
         ""
       ],
