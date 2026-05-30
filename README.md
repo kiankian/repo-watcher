@@ -9,6 +9,57 @@ Currently watches:
 
 State is persisted in `.watcher_state.json` (last-seen SHA per repo). The workflow commits that file back to this repo on every run that advances a SHA.
 
+## Triggering (external cron — NOT a GitHub schedule)
+
+> **This workflow is triggered externally by [cron-job.org](https://cron-job.org), by
+> design. It deliberately does *not* use a GitHub Actions `schedule:` cron.** The `on:`
+> block in `.github/workflows/watch-files.yml` is intentionally limited to
+> `workflow_dispatch:` — do **not** add a `schedule:` trigger.
+
+A cron-job.org job runs every 30 minutes and fires the workflow via the GitHub REST API's
+`workflow_dispatch` endpoint:
+
+- **Method:** `POST`
+- **URL:** `https://api.github.com/repos/kiankian/repo-watcher/actions/workflows/watch-files.yml/dispatches`
+- **Body:** `{"ref":"main"}`
+- **Headers:**
+  - `Accept: application/vnd.github+json`
+  - `X-GitHub-Api-Version: 2022-11-28`
+  - `Authorization: Bearer <GITHUB_PAT>`
+
+A successful dispatch returns **HTTP 204** (no body). The `<GITHUB_PAT>` must be a token
+authorized to dispatch workflows on this repo:
+
+- **Fine-grained PAT:** Repository access = this repo, with **Actions: Read and write**.
+- **Classic PAT:** `workflow` scope (or `repo`).
+
+> ⚠️ **PATs expire.** When the token behind cron-job.org expires or is revoked, the
+> dispatch starts returning **401/403**, the workflow stops running, and Telegram alerts go
+> silent — with no error visible in this repo. This is the most common cause of an outage.
+> See the runbook below.
+
+### If alerts stop (troubleshooting runbook)
+
+Because nothing in *this* repo triggers the watcher, a silent stop is almost always on the
+cron-job.org / token side. Diagnose in this order:
+
+1. **cron-job.org → the job's execution history.**
+   - Job **disabled / no recent executions** → re-enable it. cron-job.org auto-disables a
+     job after repeated consecutive failures.
+   - Executions showing **401 / 403** → the PAT is expired, revoked, or lacks
+     `Actions: write`. Mint a new PAT (see above) and update the cron-job.org request's
+     `Authorization` header.
+   - Executions showing **204** but still no alerts → the dispatch is reaching GitHub; move
+     to step 2.
+2. **GitHub → Actions tab → "Watch files in external repo".**
+   - **No runs** since the outage → the dispatch isn't arriving (cron-job.org or token);
+     stay on step 1.
+   - **Failed runs** → the workflow itself is erroring; open the failing run's logs.
+   - **Successful runs, no Telegram** → check `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID`
+     secrets, or there were simply no new listings.
+3. **Verify the PAT** at GitHub → Settings → Developer settings → Personal access tokens —
+   check its **expiry** and that it still grants `Actions: write` on `kiankian/repo-watcher`.
+
 ## Application tracker (Telegram → Google Sheet)
 
 Each new job alert includes an inline `✅ Applied` button. Tapping it appends a row to a Google Sheet and edits the Telegram message to confirm.
@@ -58,7 +109,7 @@ curl "https://api.telegram.org/bot<TOKEN>/deleteWebhook"
 
 ## Pushing a local commit when the remote has advanced
 
-Because the workflow pushes `.watcher_state.json` updates on its own schedule, you will frequently find that the remote has moved ahead of your local branch. If you try to push on top of that, the branches will appear divergent.
+Because the workflow pushes `.watcher_state.json` updates on every external cron-job.org trigger, you will frequently find that the remote has moved ahead of your local branch. If you try to push on top of that, the branches will appear divergent.
 
 **Always rebase your local commits on top of the remote before pushing:**
 
