@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437444
+    "last_update_id": 563437445
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -1383,16 +1383,6 @@
       "message_id": 276,
       "chat_id": 7582459199
     },
-    "afd562f4d9ee": {
-      "company": "Kong",
-      "role": "AI Enablement Specialist Intern",
-      "location": "Remote in USA",
-      "term": "Summer 2026",
-      "apply_url": "https://jobs.ashbyhq.com/kong/1de58755-b134-4223-9caf-54ee7f376a5b/application?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Summer Repo",
-      "message_id": 277,
-      "chat_id": 7582459199
-    },
     "6d1e4f2fc68c": {
       "company": "Cisco",
       "role": "Software Engineer Data/AI/Intelligent Systems Intern - United States",
@@ -1711,6 +1701,17 @@
       "message_id": 280,
       "chat_id": 7582459199,
       "applied_at": "2026-06-01T23:50:20Z"
+    },
+    "afd562f4d9ee": {
+      "company": "Kong",
+      "role": "AI Enablement Specialist Intern",
+      "location": "Remote in USA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/kong/1de58755-b134-4223-9caf-54ee7f376a5b/application?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 277,
+      "chat_id": 7582459199,
+      "applied_at": "2026-06-01T23:57:22Z"
     }
   }
 }
