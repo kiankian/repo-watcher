@@ -1,6 +1,6 @@
 {
   "SimplifyJobs/Summer2026-Internships": {
-    "last_sha": "cfd279ec17d195a49dd0e7c7d3cb39475208245e",
+    "last_sha": "cf52d9cfed1b38c0c9c4915a87fd58286c512f40",
     "rows": [
       [
         "General Motors",
@@ -246,6 +246,13 @@
         "LA",
         "Fall 2026",
         "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d/apply?utm_source=Simplify&ref=Simplify"
+      ],
+      [
+        "Electronic Arts",
+        "Software Engineer Intern \ud83c\udf93",
+        "Orlando, FL",
+        "Fall 2026",
+        "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Frostbite/210911?utm_source=Simplify&ref=Simplify"
       ],
       [
         "Rolls-Royce Motorcars",
@@ -1004,8 +1011,15 @@
     ]
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "cfd279ec17d195a49dd0e7c7d3cb39475208245e",
+    "last_sha": "cf52d9cfed1b38c0c9c4915a87fd58286c512f40",
     "rows": [
+      [
+        "\ud83d\udd25 Palantir",
+        "Year at Palantir Intern - Forward Deployed Software Engineer - Commercial",
+        "Washington, DC",
+        "Summer 2026",
+        "https://jobs.lever.co/palantir/e24202f1-fccd-470f-b001-e24d901735a4/apply?utm_source=Simplify&ref=Simplify"
+      ],
       [
         "Walter P Moore",
         "Software Developer Intern",
