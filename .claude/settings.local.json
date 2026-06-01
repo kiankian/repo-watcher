@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -)",
+      "Bash(grep -nE *)",
+      "Bash(python3 -c \"import yaml,sys; yaml.safe_load\\(open\\('.github/workflows/watch-files.yml'\\)\\); print\\('YAML parses OK'\\)\")",
+      "Bash(python3 -c \"import json; print\\(list\\(json.load\\(open\\('.watcher_state.json'\\)\\).keys\\(\\)\\)\\)\")",
+      "Bash(ruby -ryaml -e \"YAML.load_file\\('.github/workflows/watch-files.yml'\\); puts 'YAML parses OK \\(ruby\\)'\")",
+      "Bash(python3 -c \"import pip\")",
+      "Bash(pip install *)",
+      "Bash(python3 -c \"import yaml; yaml.safe_load\\(open\\('.github/workflows/watch-files.yml'\\)\\); print\\('YAML parses OK'\\)\")",
+      "Bash(command -v actionlint)"
+    ]
+  }
+}

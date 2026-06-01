@@ -37,7 +37,8 @@ jobs:
 
           WATCHERS = [
               {
-                  "label": "Simplify Repo",
+                  "label": "Simplify Off-Season Repo",
+                  "state_key": "SimplifyJobs/Summer2026-Internships",
                   "owner": "SimplifyJobs",
                   "repo": "Summer2026-Internships",
                   "branch": "dev",
@@ -45,13 +46,42 @@ jobs:
                   "parser": "html",
                   "section_start": "## 💻 Software Engineering Internship Roles",
                   "section_end": "<summary>🗃️ Inactive roles",
+                  "term_col": 3,
+                  "apply_col": 4,
+                  "default_term": "",
               },
               {
-                  "label": "Vansh Repo",
+                  "label": "Simplify Summer Repo",
+                  "state_key": "SimplifyJobs/Summer2026-Internships#summer",
+                  "owner": "SimplifyJobs",
+                  "repo": "Summer2026-Internships",
+                  "branch": "dev",
+                  "file": "README.md",
+                  "parser": "html",
+                  "section_start": "## 💻 Software Engineering Internship Roles",
+                  "section_end": "## 📱 Product Management Internship Roles",
+                  "term_col": None,
+                  "apply_col": 3,
+                  "default_term": "Summer 2026",
+              },
+              {
+                  "label": "Vansh Off-Season Repo",
+                  "state_key": "vanshb03/Summer2027-Internships",
                   "owner": "vanshb03",
                   "repo": "Summer2027-Internships",
                   "branch": "dev",
                   "file": "OFFSEASON_README.md",
+                  "parser": "markdown",
+                  "section_start": "## The List",
+                  "section_end": "## We love our contributors",
+              },
+              {
+                  "label": "Vansh Summer Repo",
+                  "state_key": "vanshb03/Summer2027-Internships#summer",
+                  "owner": "vanshb03",
+                  "repo": "Summer2027-Internships",
+                  "branch": "dev",
+                  "file": "README.md",
                   "parser": "markdown",
                   "section_start": "## The List",
                   "section_end": "## We love our contributors",
@@ -144,24 +174,26 @@ jobs:
                   end_idx = len(text)
               return text[start_idx:end_idx]
 
-          def parse_html_rows(section_text):
+          def parse_html_rows(section_text, term_col, apply_col, default_term):
               rows = []
               last_company = None
+              min_cells = max(apply_col, term_col or 0) + 1
               for tr_match in re.finditer(r'<tr>\s*(.*?)\s*</tr>', section_text, re.DOTALL):
                   cells = re.findall(r'<td>(.*?)</td>', tr_match.group(1), re.DOTALL)
-                  if len(cells) < 5:
+                  if len(cells) < min_cells:
                       continue
                   company = strip_html(cells[0])
                   if company == "↳":
                       company = last_company or "↳"
                   else:
                       last_company = company
+                  term = strip_html(cells[term_col]) if term_col is not None else default_term
                   rows.append([
                       company,
                       strip_html(cells[1]),
                       strip_html(cells[2]),
-                      strip_html(cells[3]),
-                      extract_apply_url(cells[4]),
+                      term,
+                      extract_apply_url(cells[apply_col]),
                   ])
               return rows
 
@@ -223,10 +255,11 @@ jobs:
           # --- Process each watcher ---
           total_alerted = 0
           for w in WATCHERS:
-              repo_key = f"{w['owner']}/{w['repo']}"
-              latest = get_json(f"https://api.github.com/repos/{repo_key}/commits/{w['branch']}")
+              repo_full = f"{w['owner']}/{w['repo']}"
+              state_key = w["state_key"]
+              latest = get_json(f"https://api.github.com/repos/{repo_full}/commits/{w['branch']}")
               latest_sha = latest["sha"]
-              saved = state.get(repo_key) or {}
+              saved = state.get(state_key) or {}
               last_sha = saved.get("last_sha")
               prev_rows = saved.get("rows")
 
@@ -241,18 +274,20 @@ jobs:
                   continue
 
               section_text = extract_section(file_text, w["section_start"], w["section_end"])
-              parser = parse_html_rows if w["parser"] == "html" else parse_markdown_rows
-              curr_rows = parser(section_text)
+              if w["parser"] == "html":
+                  curr_rows = parse_html_rows(section_text, w["term_col"], w["apply_col"], w["default_term"])
+              else:
+                  curr_rows = parse_markdown_rows(section_text)
 
               if prev_rows and not curr_rows:
-                  print(f"WARNING: extracted 0 rows from {repo_key} but had {len(prev_rows)} previously; skipping state update.")
+                  print(f"WARNING: extracted 0 rows from {state_key} but had {len(prev_rows)} previously; skipping state update.")
                   continue
 
               new_state = {"last_sha": latest_sha, "rows": curr_rows}
 
               if prev_rows is None:
-                  print(f"Bootstrapped {repo_key} at {latest_sha} with {len(curr_rows)} rows.")
-                  state[repo_key] = new_state
+                  print(f"Bootstrapped {state_key} at {latest_sha} with {len(curr_rows)} rows.")
+                  state[state_key] = new_state
                   continue
 
               prev_keys = {row_key(r) for r in prev_rows}
@@ -278,7 +313,7 @@ jobs:
                   }
                   total_alerted += 1
 
-              state[repo_key] = new_state
+              state[state_key] = new_state
 
           if total_alerted:
               print(f"Sent {total_alerted} job alert(s).")
