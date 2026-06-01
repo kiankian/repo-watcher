@@ -16,7 +16,7 @@ State is persisted in `.watcher_state.json` (last-seen SHA per repo). The workfl
 > block in `.github/workflows/watch-files.yml` is intentionally limited to
 > `workflow_dispatch:` — do **not** add a `schedule:` trigger.
 
-A cron-job.org job runs every 30 minutes and fires the workflow via the GitHub REST API's
+A cron-job.org job runs every 1 minute and fires the workflow via the GitHub REST API's
 `workflow_dispatch` endpoint:
 
 - **Method:** `POST`
