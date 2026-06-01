@@ -9,7 +9,9 @@
       "Bash(python3 -c \"import pip\")",
       "Bash(pip install *)",
       "Bash(python3 -c \"import yaml; yaml.safe_load\\(open\\('.github/workflows/watch-files.yml'\\)\\); print\\('YAML parses OK'\\)\")",
-      "Bash(command -v actionlint)"
+      "Bash(command -v actionlint)",
+      "Bash(gh auth *)",
+      "Bash(gh run *)"
     ]
   }
 }
