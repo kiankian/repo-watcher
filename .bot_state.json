@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437445
+    "last_update_id": 563437446
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -1383,16 +1383,6 @@
       "message_id": 276,
       "chat_id": 7582459199
     },
-    "6d1e4f2fc68c": {
-      "company": "Cisco",
-      "role": "Software Engineer Data/AI/Intelligent Systems Intern - United States",
-      "location": "17 locationsBoston, MA Seattle, WA Knoxville, TN Milpitas, CA SF Austin, TX San Jose, CA Fulton, MD Dallas, TX Hillsboro, OR Alpharetta, GA NYC Acton, MA Portland, OR Research Triangle, Durham, NC Atlanta, GA Richardson, TX",
-      "term": "Summer 2026",
-      "apply_url": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Summer Repo",
-      "message_id": 278,
-      "chat_id": 7582459199
-    },
     "93fe9667b602": {
       "company": "Cisco",
       "role": "Software Engineer Data/AI/Intelligent Systems 2 Intern",
@@ -1712,6 +1702,17 @@
       "message_id": 277,
       "chat_id": 7582459199,
       "applied_at": "2026-06-01T23:57:22Z"
+    },
+    "6d1e4f2fc68c": {
+      "company": "Cisco",
+      "role": "Software Engineer Data/AI/Intelligent Systems Intern - United States",
+      "location": "17 locationsBoston, MA Seattle, WA Knoxville, TN Milpitas, CA SF Austin, TX San Jose, CA Fulton, MD Dallas, TX Hillsboro, OR Alpharetta, GA NYC Acton, MA Portland, OR Research Triangle, Durham, NC Atlanta, GA Richardson, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 278,
+      "chat_id": 7582459199,
+      "applied_at": "2026-06-02T00:03:20Z"
     }
   }
 }
