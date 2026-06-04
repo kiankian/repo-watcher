@@ -1420,7 +1420,7 @@
       "term": "Fall 2026",
       "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Markham-Ontario-Canada/XMLNAME-2026-Fall-Co-op-Vehicle-Experience-Software-Developer_JR-202611827?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Off-Season Repo",
-      "message_id": 283,
+      "message_id": 323,
       "chat_id": 7582459199
     },
     "a93db90354bf": {
@@ -1580,7 +1580,7 @@
       "term": "Summer 2026",
       "apply_url": "https://mmc.wd1.myworkdayjobs.com/mmc/job/New-York---1166/AI-Integration-Specialist-Fall-Co-op---College-Program-2026_R_346709-1?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
-      "message_id": 299,
+      "message_id": 325,
       "chat_id": 7582459199
     },
     "3eac1b861ae0": {
@@ -1781,6 +1781,16 @@
       "apply_url": "https://job-boards.greenhouse.io/botauto/jobs/5182922008?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
       "message_id": 320,
+      "chat_id": 7582459199
+    },
+    "387bc71d20a4": {
+      "company": "Cadence Design Systems",
+      "role": "Application Engineer Intern",
+      "location": "Cambridge, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/CAMBRIDGE/Application-Engineering-Intern_R55054?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 324,
       "chat_id": 7582459199
     }
   },
