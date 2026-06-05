@@ -1580,7 +1580,7 @@
       "term": "Summer 2026",
       "apply_url": "https://mmc.wd1.myworkdayjobs.com/mmc/job/New-York---1166/AI-Integration-Specialist-Fall-Co-op---College-Program-2026_R_346709-1?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
-      "message_id": 328,
+      "message_id": 335,
       "chat_id": 7582459199
     },
     "3eac1b861ae0": {
@@ -1851,6 +1851,16 @@
       "apply_url": "https://www.nextiva.com/company/careers-listing?gh_jid=8565720002&utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
       "message_id": 333,
+      "chat_id": 7582459199
+    },
+    "54177e02644b": {
+      "company": "\ud83d\udd25 NVIDIA",
+      "role": "Software Performance at Scale Intern",
+      "location": "Santa Clara, CA",
+      "term": "Fall 2026",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Performance-at-Scale-Intern---Fall-2026_JR2018701?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Off-Season Repo",
+      "message_id": 334,
       "chat_id": 7582459199
     }
   },
