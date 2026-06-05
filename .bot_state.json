@@ -1360,7 +1360,7 @@
       "term": "Fall 2026",
       "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-Systems-Software-Intern--At-Scale-AI---Fall-2026_JR2018652?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Off-Season Repo",
-      "message_id": 321,
+      "message_id": 331,
       "chat_id": 7582459199
     },
     "a6b05f187dee": {
@@ -1831,6 +1831,26 @@
       "apply_url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer-Intern--6-Month-intern--July--Dec_R-787596?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
       "message_id": 330,
+      "chat_id": 7582459199
+    },
+    "14f3ce82997c": {
+      "company": "\ud83d\udd25 NVIDIA",
+      "role": "Software Engineering Intern \ud83c\udf93",
+      "location": "Santa Clara, CA",
+      "term": "Fall 2026",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Off-Season Repo",
+      "message_id": 332,
+      "chat_id": 7582459199
+    },
+    "de817ae9993f": {
+      "company": "Nextiva",
+      "role": "GTM AI Intern",
+      "location": "Scottsdale, AZ",
+      "term": "Summer 2026",
+      "apply_url": "https://www.nextiva.com/company/careers-listing?gh_jid=8565720002&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 333,
       "chat_id": 7582459199
     }
   },
