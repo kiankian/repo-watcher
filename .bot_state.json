@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437447
+    "last_update_id": 563437449
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -2283,16 +2283,6 @@
       "message_id": 381,
       "chat_id": 7582459199
     },
-    "6a3e37d3b12f": {
-      "company": "\ud83d\udd25 Tesla",
-      "role": "AI Tooling Intern - Fullstack Engineer - AI Tooling",
-      "location": "Palo Alto, CA",
-      "term": "Summer 2026",
-      "apply_url": "https://www.tesla.com/careers/search/job/269810?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Summer Repo",
-      "message_id": 382,
-      "chat_id": 7582459199
-    },
     "42977317b11a": {
       "company": "\ud83d\udd25 Tesla",
       "role": "Software Engineer Intern - Engineering Automation Software Engineer - Vehicle Engineering",
@@ -2634,6 +2624,17 @@
       "message_id": 346,
       "chat_id": 7582459199,
       "applied_at": "2026-06-06T01:41:16Z"
+    },
+    "6a3e37d3b12f": {
+      "company": "\ud83d\udd25 Tesla",
+      "role": "AI Tooling Intern - Fullstack Engineer - AI Tooling",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://www.tesla.com/careers/search/job/269810?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 382,
+      "chat_id": 7582459199,
+      "applied_at": "2026-06-07T07:42:20Z"
     }
   }
 }
