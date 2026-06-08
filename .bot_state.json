@@ -1420,7 +1420,7 @@
       "term": "Fall 2026",
       "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Markham-Ontario-Canada/XMLNAME-2026-Fall-Co-op-Vehicle-Experience-Software-Developer_JR-202611827?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Off-Season Repo",
-      "message_id": 323,
+      "message_id": 394,
       "chat_id": 7582459199
     },
     "a93db90354bf": {
@@ -2361,6 +2361,36 @@
       "apply_url": "https://jobs.smartrecruiters.com/EVERSANA1/744000130882264?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
       "message_id": 393,
+      "chat_id": 7582459199
+    },
+    "5ad672b74710": {
+      "company": "CAE",
+      "role": "Software Developer Intern",
+      "location": "Montreal, QC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-951-Software-Developer-Intern_122213?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 395,
+      "chat_id": 7582459199
+    },
+    "8ebec826e91c": {
+      "company": "CAE",
+      "role": "Software Developer Intern",
+      "location": "Montreal, QC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-017--Software-Developer-Intern-_122216?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 396,
+      "chat_id": 7582459199
+    },
+    "8bfccc5a266b": {
+      "company": "CAE",
+      "role": "C++ Developer Intern",
+      "location": "Montreal, QC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-167-Developerr-C----Intern--Content-Pipeline--_122205?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 397,
       "chat_id": 7582459199
     }
   },
