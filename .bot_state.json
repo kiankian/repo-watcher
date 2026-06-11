@@ -1580,7 +1580,7 @@
       "term": "Summer 2026",
       "apply_url": "https://mmc.wd1.myworkdayjobs.com/mmc/job/New-York---1166/AI-Integration-Specialist-Fall-Co-op---College-Program-2026_R_346709-1?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
-      "message_id": 344,
+      "message_id": 459,
       "chat_id": 7582459199
     },
     "3eac1b861ae0": {
@@ -2911,6 +2911,36 @@
       "apply_url": "https://jobs.ashbyhq.com/pebl/f94e9238-656b-4b1c-a4c7-b5d4909b0663/application?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
       "message_id": 455,
+      "chat_id": 7582459199
+    },
+    "0a08ad28044d": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "role": "Software Engineer Intern Co-op - Android Connectivity",
+      "location": "Vancouver, BC, Canada",
+      "term": "Fall 2026",
+      "apply_url": "https://jobs.ashbyhq.com/rivianvw.tech/75874976-540a-4e5c-aa72-1b23669c5211/application?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Off-Season Repo",
+      "message_id": 456,
+      "chat_id": 7582459199
+    },
+    "8f232894c54b": {
+      "company": "Nokia",
+      "role": "Nokia Defense Software Co-op",
+      "location": "Naperville, IL",
+      "term": "Fall 2026, Winter 2026",
+      "apply_url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36638?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Off-Season Repo",
+      "message_id": 457,
+      "chat_id": 7582459199
+    },
+    "595fc6c882b7": {
+      "company": "Nokia",
+      "role": "Software Engineering Co-op - Information and Communication Technology",
+      "location": "Vancouver, BC, Canada",
+      "term": "Fall 2026, Winter 2026",
+      "apply_url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36602?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Off-Season Repo",
+      "message_id": 458,
       "chat_id": 7582459199
     }
   },
