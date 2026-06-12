@@ -1,6 +1,6 @@
 {
   "SimplifyJobs/Summer2026-Internships": {
-    "last_sha": "cd36f2e19af7bff6e071664c11762dcdbf276dc2",
+    "last_sha": "b7c45bfc150241cf3fb316d053265e0faedb3aea",
     "rows": [
       [
         "1Password",
@@ -15,6 +15,13 @@
         "Palo Alto, CA",
         "Fall 2026",
         "https://www.tesla.com/careers/search/job/273723?utm_source=Simplify&ref=Simplify"
+      ],
+      [
+        "\ud83d\udd25 Tesla",
+        "Software Engineer Intern - Residential Energy Device Software Engineer - Energy Engineering",
+        "Palo Alto, CA",
+        "Fall 2026",
+        "https://www.tesla.com/careers/search/job/273810?utm_source=Simplify&ref=Simplify"
       ],
       [
         "Synchrony Financial",
@@ -1438,8 +1445,15 @@
     ]
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "cd36f2e19af7bff6e071664c11762dcdbf276dc2",
+    "last_sha": "b7c45bfc150241cf3fb316d053265e0faedb3aea",
     "rows": [
+      [
+        "Arine",
+        "Full Stack Engineer Intern",
+        "Remote in USA",
+        "Summer 2026",
+        "https://job-boards.greenhouse.io/arine/jobs/6026856004?utm_source=Simplify&ref=Simplify"
+      ],
       [
         "Ultra Intelligence and Communications",
         "Software Engineer Intern",
