@@ -1,6 +1,6 @@
 {
   "SimplifyJobs/Summer2026-Internships": {
-    "last_sha": "459ffa399a1dc6b0f4c61968ae445b5eabccf991",
+    "last_sha": "9a672fd27a18c0e470361d54a1f6d4ebb109af88",
     "rows": [
       [
         "1Password",
@@ -381,13 +381,6 @@
         "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36277?utm_source=Simplify&ref=Simplify"
       ],
       [
-        "FOX",
-        "Fox Technology Intern",
-        "Tempe, AZ",
-        "Fall 2026",
-        "https://fox.wd1.myworkdayjobs.com/Domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Fox-2026-FOX-Technology-Internship-Program---Tempe--AZ_R50032649?utm_source=Simplify&ref=Simplify"
-      ],
-      [
         "Melotech",
         "Full-Stack Developer Intern - Music & Audio",
         "5 locationsLondon, UK SF LA NYC Berlin, Germany",
@@ -407,6 +400,13 @@
         "Toronto, ON, Canada Oakville, ON, Canada Kitchener, ON, Canada",
         "Fall 2026",
         "https://job-boards.greenhouse.io/internshiplist2000/jobs/5184158008?utm_source=Simplify&ref=Simplify"
+      ],
+      [
+        "SOTI",
+        "Software Developer Intern",
+        "Mississauga, ON, Canada",
+        "Fall 2026",
+        "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-XSight--September-2026-12-Months-_R10025?utm_source=Simplify&ref=Simplify"
       ],
       [
         "Super",
@@ -1333,8 +1333,15 @@
     ]
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "459ffa399a1dc6b0f4c61968ae445b5eabccf991",
+    "last_sha": "9a672fd27a18c0e470361d54a1f6d4ebb109af88",
     "rows": [
+      [
+        "Illinois Tool Works",
+        "Software Engineer Intern",
+        "Appleton, WI",
+        "Summer 2026",
+        "https://careers.itw.com/global/en/job/JR4585?utm_source=Simplify&ref=Simplify"
+      ],
       [
         "OfferUp",
         "Software Engineer Intern",
@@ -1642,13 +1649,6 @@
         "Glasgow, UK",
         "Summer 2026",
         "http://www.skyscanner.net/jobs/job/7956291?gh_jid=7956291&utm_source=Simplify&ref=Simplify"
-      ],
-      [
-        "Autodesk",
-        "Software Developer Intern - Stagiaire en D\u00e9veloppement Logiciel",
-        "Canada",
-        "Summer 2026",
-        "https://autodesk.wd1.myworkdayjobs.com/uni/job/Quebec-CAN---Remote/Intern-Software-Developer--Stagiaire-en-Dveloppement-Logiciel_26WD98603-1?utm_source=Simplify&ref=Simplify"
       ],
       [
         "\ud83d\udd25 TikTok",
