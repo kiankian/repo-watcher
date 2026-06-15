@@ -1650,7 +1650,7 @@
       "term": "Summer 2026",
       "apply_url": "https://job-boards.greenhouse.io/instead/jobs/7761472003?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
-      "message_id": 509,
+      "message_id": 515,
       "chat_id": 7582459199
     },
     "105645538efb": {
@@ -3281,6 +3281,36 @@
       "apply_url": "https://ekmu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6009/job/23431?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
       "message_id": 512,
+      "chat_id": 7582459199
+    },
+    "3ef18ee0155f": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Backend Software Engineer Intern - Media Platform",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7538301580093720840?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 513,
+      "chat_id": 7582459199
+    },
+    "3194e287e7a5": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Intern - Monetization Technology",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7561941583777941813?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 514,
+      "chat_id": 7582459199
+    },
+    "cc571bb01278": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Project Intern - Recommendation Infrastructure",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7629500062003218741?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 516,
       "chat_id": 7582459199
     }
   },
