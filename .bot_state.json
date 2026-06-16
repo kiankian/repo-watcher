@@ -1650,7 +1650,7 @@
       "term": "Summer 2026",
       "apply_url": "https://job-boards.greenhouse.io/instead/jobs/7761472003?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
-      "message_id": 515,
+      "message_id": 522,
       "chat_id": 7582459199
     },
     "105645538efb": {
@@ -3331,6 +3331,26 @@
       "apply_url": "https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56/apply?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Off-Season Repo",
       "message_id": 519,
+      "chat_id": 7582459199
+    },
+    "51398972b5fd": {
+      "company": "\ud83d\udd25 Tesla",
+      "role": "Data Capture Engineering Intern - Data Capture Application Engineer - Energy Engineering",
+      "location": "Palo Alto, CA",
+      "term": "Fall 2026",
+      "apply_url": "https://www.tesla.com/careers/search/job/273927?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Off-Season Repo",
+      "message_id": 520,
+      "chat_id": 7582459199
+    },
+    "8fd7210617e3": {
+      "company": "RELX",
+      "role": "Software Engineer Apprentice",
+      "location": "Southampton, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/UK---Grosvenor-House-Southampton/Apprentice-Software-Engineer_R112557-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 521,
       "chat_id": 7582459199
     }
   },
