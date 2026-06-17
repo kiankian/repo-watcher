@@ -1650,7 +1650,7 @@
       "term": "Summer 2026",
       "apply_url": "https://job-boards.greenhouse.io/instead/jobs/7761472003?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
-      "message_id": 522,
+      "message_id": 541,
       "chat_id": 7582459199
     },
     "105645538efb": {
@@ -3491,6 +3491,26 @@
       "apply_url": "https://neighborlybrands.wd1.myworkdayjobs.com/neighborly/job/Irving-TX/Application-Developer-Intern_JR0003834?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
       "message_id": 538,
+      "chat_id": 7582459199
+    },
+    "6f35ef890eb0": {
+      "company": "Tempo",
+      "role": "Software Developer Intern",
+      "location": "Toronto, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/tempo-io/bbe3cb36-8802-4414-8db8-9ec51c935ee7/application?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 539,
+      "chat_id": 7582459199
+    },
+    "abe93d909a49": {
+      "company": "Tempo",
+      "role": "Software Developer Intern",
+      "location": "Toronto, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/tempo-io/ce1025fe-9be4-43e4-b1fb-3f1cf3425fab/application?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 540,
       "chat_id": 7582459199
     }
   },
