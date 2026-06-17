@@ -1,6 +1,6 @@
 {
   "SimplifyJobs/Summer2026-Internships": {
-    "last_sha": "bf33d6ff67a6f74a6b6d9667e4f370b9717bfb2e",
+    "last_sha": "de6368d26c668c89e324bb16c1d60f83d0954f29",
     "rows": [
       [
         "\ud83d\udd25 Tesla",
@@ -297,6 +297,13 @@
         "https://www.tesla.com/careers/search/job/271630?utm_source=Simplify&ref=Simplify"
       ],
       [
+        "SOTI",
+        "Web Producer Intern",
+        "Mississauga, ON, Canada",
+        "Fall 2026",
+        "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Web-Producer-Intern--September-2026-12-Months-_R10090?utm_source=Simplify&ref=Simplify"
+      ],
+      [
         "\ud83d\udd25 NVIDIA",
         "Software Engineer Intern - Mapping Autonomous Vehicles",
         "Santa Clara, CA",
@@ -414,6 +421,13 @@
         "Toronto, ON, Canada Oakville, ON, Canada Kitchener, ON, Canada",
         "Fall 2026",
         "https://job-boards.greenhouse.io/internshiplist2000/jobs/5184158008?utm_source=Simplify&ref=Simplify"
+      ],
+      [
+        "SOTI",
+        "Software Developer in Test Intern",
+        "Mississauga, ON, Canada",
+        "Fall 2026",
+        "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-in-Test-Intern--September-2026-12-Months-_R10064?utm_source=Simplify&ref=Simplify"
       ],
       [
         "SOTI",
@@ -1319,7 +1333,7 @@
     ]
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "bf33d6ff67a6f74a6b6d9667e4f370b9717bfb2e",
+    "last_sha": "de6368d26c668c89e324bb16c1d60f83d0954f29",
     "rows": [
       [
         "Tempo",
@@ -2034,13 +2048,6 @@
         "Palo Alto, CA",
         "Summer 2026",
         "https://www.tesla.com/careers/search/job/269810?utm_source=Simplify&ref=Simplify"
-      ],
-      [
-        "Labelbox",
-        "Forward Deployed Engineer Intern",
-        "SF",
-        "Summer 2026",
-        "https://job-boards.greenhouse.io/labelbox/jobs/5126745007?utm_source=Simplify&ref=Simplify"
       ],
       [
         "Rainmaker",
