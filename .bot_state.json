@@ -1940,7 +1940,7 @@
       "term": "Winter 2027",
       "apply_url": "https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Off-Season Repo",
-      "message_id": 409,
+      "message_id": 527,
       "chat_id": 7582459199
     },
     "4e220aa4bd4b": {
@@ -3391,6 +3391,16 @@
       "apply_url": "https://jobs.ashbyhq.com/astronomer/24262c87-1c1e-4815-b008-854f921450a8/application?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
       "message_id": 526,
+      "chat_id": 7582459199
+    },
+    "701a2ae124ff": {
+      "company": "Cadence Design Systems",
+      "role": "Software Engineer Intern \ud83c\udf93",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Software-Engineer-Intern_R55128?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 528,
       "chat_id": 7582459199
     }
   },
