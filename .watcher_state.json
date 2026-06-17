@@ -1,6 +1,6 @@
 {
   "SimplifyJobs/Summer2026-Internships": {
-    "last_sha": "3e408dd3202cc76ca987b44504825840c07aa1f5",
+    "last_sha": "ff03d5e09e32e29b142ca461ff10045dff31cda3",
     "rows": [
       [
         "\ud83d\udd25 Tesla",
@@ -1340,8 +1340,15 @@
     ]
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "3e408dd3202cc76ca987b44504825840c07aa1f5",
+    "last_sha": "ff03d5e09e32e29b142ca461ff10045dff31cda3",
     "rows": [
+      [
+        "Accenture",
+        "Technology Apprentice",
+        "Ottawa, ON, Canada Vancouver, BC, Canada",
+        "Summer 2026",
+        "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ottawa-150-Elgin-St-Corp/Technology-Apprentice_R00336818?utm_source=Simplify&ref=Simplify"
+      ],
       [
         "RELX",
         "Software Engineer Apprentice",
@@ -1663,6 +1670,13 @@
         "Reston, VA",
         "Summer 2026",
         "https://job-boards.greenhouse.io/clarityinnovates/jobs/5155449007?utm_source=Simplify&ref=Simplify"
+      ],
+      [
+        "Lucid Motors",
+        "Full Stack Engineer Intern",
+        "Concord, NH",
+        "Summer 2026",
+        "https://job-boards.greenhouse.io/lucidmotors/jobs/5136395007?utm_source=Simplify&ref=Simplify"
       ],
       [
         "\ud83d\udd25 ByteDance",
