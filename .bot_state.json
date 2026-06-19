@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "last_update_id": 563437451
+    "last_update_id": 563437453
   },
   "pending": {
     "a8ea0eb488c8": {
@@ -3622,16 +3622,6 @@
       "source": "Simplify Summer Repo",
       "message_id": 556,
       "chat_id": 7582459199
-    },
-    "e7e0194a6a8a": {
-      "company": "Bugcrowd",
-      "role": "Engineering Intern",
-      "location": "Remote in USA",
-      "term": "Summer 2026",
-      "apply_url": "https://boards.greenhouse.io/bugcrowd/jobs/8016582?utm_source=Simplify&ref=Simplify",
-      "source": "Simplify Summer Repo",
-      "message_id": 557,
-      "chat_id": 7582459199
     }
   },
   "applied": {
@@ -3986,6 +3976,17 @@
       "message_id": 476,
       "chat_id": 7582459199,
       "applied_at": "2026-06-13T08:59:18Z"
+    },
+    "e7e0194a6a8a": {
+      "company": "Bugcrowd",
+      "role": "Engineering Intern",
+      "location": "Remote in USA",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/bugcrowd/jobs/8016582?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 557,
+      "chat_id": 7582459199,
+      "applied_at": "2026-06-19T00:41:25Z"
     }
   }
 }
