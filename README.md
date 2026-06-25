@@ -2,10 +2,16 @@
 
 A GitHub Actions workflow that watches job-board repos and sends Telegram alerts when new listings appear.
 
-Currently watches:
+Currently watches **4 sources** (see the `WATCHERS` list in `.github/workflows/watch-files.yml` for the source of truth):
 
-- `SimplifyJobs/Summer2026-Internships` — `README-Off-Season.md` on `dev`
-- `vanshb03/Summer2027-Internships` — `OFFSEASON_README.md` on `dev`
+| Watcher label | Repo | Branch | File | Scope |
+|---|---|---|---|---|
+| Simplify Off-Season Repo | `SimplifyJobs/Summer2026-Internships` | `dev` | `README-Off-Season.md` | Software Engineering section only |
+| Simplify Summer Repo | `SimplifyJobs/Summer2026-Internships` | `dev` | `README.md` | Software Engineering section only |
+| Vansh Off-Season Repo | `vanshb03/Summer2027-Internships` | `dev` | `OFFSEASON_README.md` | full listing table |
+| Vansh Summer Repo | `vanshb03/Summer2027-Internships` | `dev` | `README.md` | full listing table |
+
+The two **Simplify** watchers intentionally parse only the `## 💻 Software Engineering Internship Roles` section — Product Management, Data Science/AI/ML, Quant Finance, and Hardware roles are excluded by design. The two **Vansh** watchers parse the entire `## The List` table, which is uncategorized (so non-SWE roles do flow through from those sources).
 
 State is persisted in `.watcher_state.json` (last-seen SHA per repo). The workflow commits that file back to this repo on every run that advances a SHA.
 
@@ -138,11 +144,11 @@ git rebase --continue
 
 
 # TODO
-- [ ] FIX SIMPLIFY REPO
-    - [ ] Missing a lot of new jobs
-    - [ ] ONLY SWE ROLES
+- Simplify repos: **SWE-only is intentional** — Product Management, Data Science/AI/ML,
+  Quant Finance, and Hardware sections are deliberately not watched. (Verified: within the
+  watched SWE sections, every job row is parsed; the only skipped `<tr>` is the table header.)
 - [ ] Other things:
-    - [ ] Connect to google sheet
+    - [x] Connect to google sheet (`process_applies` job — appends a row on each `✅ Applied` tap)
     - [ ] Text to update
 - [ ] More job boards:
     - [ ] https://github.com/speedyapply/2026-SWE-College-Jobs

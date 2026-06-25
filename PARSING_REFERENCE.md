@@ -4,12 +4,34 @@ This document describes exactly what is being watched, how upstream file formats
 
 ## Watched Repos
 
-| Label | Repo | Branch | File | Format Type |
-|---|---|---|---|---|
-| Simplify Repo | `SimplifyJobs/Summer2026-Internships` | `dev` | `README-Off-Season.md` | HTML table embedded in markdown |
-| Vansh Repo | `vanshb03/Summer2027-Internships` | `dev` | `OFFSEASON_README.md` | Markdown pipe table rows |
+Four watchers, two repos × two files each:
+
+| Label | Repo | Branch | File | Format Type | Section |
+|---|---|---|---|---|---|
+| Simplify Off-Season Repo | `SimplifyJobs/Summer2026-Internships` | `dev` | `README-Off-Season.md` | HTML table embedded in markdown | SWE active only |
+| Simplify Summer Repo | `SimplifyJobs/Summer2026-Internships` | `dev` | `README.md` | HTML table embedded in markdown | SWE only (active + inactive) |
+| Vansh Off-Season Repo | `vanshb03/Summer2027-Internships` | `dev` | `OFFSEASON_README.md` | Markdown pipe table rows | full `## The List` table |
+| Vansh Summer Repo | `vanshb03/Summer2027-Internships` | `dev` | `README.md` | Markdown pipe table rows | full `## The List` table |
 
 Source of truth for watcher config: `.github/workflows/watch-files.yml` in the `WATCHERS` list.
+
+Section markers per watcher:
+
+| Label | `section_start` | `section_end` |
+|---|---|---|
+| Simplify Off-Season Repo | `## 💻 Software Engineering Internship Roles` | `<summary>🗃️ Inactive roles` |
+| Simplify Summer Repo | `## 💻 Software Engineering Internship Roles` | `## 📱 Product Management Internship Roles` |
+| Vansh Off-Season Repo | `## The List` | `## We love our contributors` |
+| Vansh Summer Repo | `## The List` | `## We love our contributors` |
+
+The two Simplify watchers parse **only** the Software Engineering category. The Off-Season end marker (`<summary>🗃️ Inactive roles`) stops at the SWE inactive block, so only *active* SWE rows are captured; the Summer end marker is the next category heading, so its SWE *inactive* rows fall inside the slice too. Both Vansh watchers parse the entire uncategorized `## The List` table (all role types).
+
+Column layout differs by file, so the HTML watchers carry per-watcher `term_col` / `apply_col` / `default_term`:
+
+| Label | `term_col` | `apply_col` | `default_term` |
+|---|---|---|---|
+| Simplify Off-Season Repo | `3` | `4` | `""` |
+| Simplify Summer Repo | `None` (uses default) | `3` | `"Summer 2026"` |
 
 ## State + Snapshot Comparison Flow
 
@@ -34,12 +56,14 @@ Why snapshot (not diff) parsing:
 
 ## Repo Format Details
 
-## 1) Simplify Repo (`README-Off-Season.md`)
+## 1) Simplify Repos (`README-Off-Season.md` + `README.md`)
 
-The file contains 5 categorized sections (SWE / PM / Data Science / Quant Finance / Hardware Engineering), each with an active table followed by an Inactive `<details>` block. **Only the SWE active table is watched.** Section bounds:
+Both Simplify files contain 5 categorized sections (SWE / PM / Data Science / Quant Finance / Hardware Engineering), each with an active table followed by an Inactive `<details>` block. **Only the SWE section is watched** in each. Section bounds differ slightly between the two files:
 
-- Start: `## 💻 Software Engineering Internship Roles`
-- End:   `<summary>🗃️ Inactive roles` (first occurrence after start)
+- **Off-Season** (`README-Off-Season.md`): Start `## 💻 Software Engineering Internship Roles` → End `<summary>🗃️ Inactive roles` (first occurrence after start) — captures SWE *active* rows only.
+- **Summer** (`README.md`): Start `## 💻 Software Engineering Internship Roles` → End `## 📱 Product Management Internship Roles` — captures SWE active *and* inactive rows (the inactive `<details>` block sits before the PM heading).
+
+The two files also differ in column layout: Off-Season has a Terms column (`term_col=3`, `apply_col=4`); Summer has no Terms column, so the watcher uses `apply_col=3` and stamps a fixed `default_term="Summer 2026"`.
 
 Inside the section, each row is an HTML `<tr>`:
 
@@ -66,12 +90,14 @@ Normalization (via `strip_html`):
 - Remaining tags stripped.
 - `&amp;`, `&lt;`, `&gt;` decoded.
 
-## 2) Vansh Repo (`OFFSEASON_README.md`)
+## 2) Vansh Repos (`OFFSEASON_README.md` + `README.md`)
 
-One pipe-table covering the whole file. Section bounds (chosen to skip legend + footer):
+Both Vansh files use the same format: one uncategorized pipe-table covering the whole listing. Same section bounds for both (chosen to skip legend + footer):
 
 - Start: `## The List`
 - End:   `## We love our contributors`
+
+Because the table is uncategorized, **all role types** (SWE, quant, ML, etc.) flow through from both Vansh watchers — there is no SWE-only filter here, unlike Simplify.
 
 Typical row:
 
