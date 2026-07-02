@@ -4040,7 +4040,7 @@
       "term": "Fall 2026",
       "apply_url": "https://job-boards.greenhouse.io/acluinternships/jobs/8612266002?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Off-Season Repo",
-      "message_id": 637,
+      "message_id": 661,
       "chat_id": 7582459199
     },
     "d8a31791ef91": {
@@ -4481,6 +4481,26 @@
       "apply_url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Current-Interns-Only--Technology-Leadership-Program--Summer-2026-Intern-Posting_R0000443508?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
       "message_id": 658,
+      "chat_id": 7582459199
+    },
+    "b4b809fe9ca2": {
+      "company": "\ud83d\udd25 NVIDIA",
+      "role": "PhD Research Intern - System Software and I/O Architecture \ud83c\udf93",
+      "location": "Urbana, IL Remote in USA Santa Clara, CA",
+      "term": "Fall 2026",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Off-Season Repo",
+      "message_id": 659,
+      "chat_id": 7582459199
+    },
+    "d69e80b7b629": {
+      "company": "\ud83d\udd25 NVIDIA",
+      "role": "Java Engineer Intern \ud83c\udf93",
+      "location": "Santa Clara, CA",
+      "term": "Fall 2026",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Java-Engineering-Intern---Fall-2026_JR2019769?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Off-Season Repo",
+      "message_id": 660,
       "chat_id": 7582459199
     }
   },
