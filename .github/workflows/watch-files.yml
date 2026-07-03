@@ -38,6 +38,7 @@ jobs:
           WATCHERS = [
               {
                   "label": "Simplify Off-Season Repo",
+                  "enabled": False,  # paused — off-season; flip to True to resume
                   "state_key": "SimplifyJobs/Summer2026-Internships",
                   "owner": "SimplifyJobs",
                   "repo": "Summer2026-Internships",
@@ -66,6 +67,7 @@ jobs:
               },
               {
                   "label": "Vansh Off-Season Repo",
+                  "enabled": False,  # paused — off-season; flip to True to resume
                   "state_key": "vanshb03/Summer2027-Internships",
                   "owner": "vanshb03",
                   "repo": "Summer2027-Internships",
@@ -255,6 +257,8 @@ jobs:
           # --- Process each watcher ---
           total_alerted = 0
           for w in WATCHERS:
+              if not w.get("enabled", True):
+                  continue
               repo_full = f"{w['owner']}/{w['repo']}"
               state_key = w["state_key"]
               latest = get_json(f"https://api.github.com/repos/{repo_full}/commits/{w['branch']}")
