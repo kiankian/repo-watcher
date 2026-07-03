@@ -1,6 +1,6 @@
 {
   "SimplifyJobs/Summer2026-Internships": {
-    "last_sha": "39b132a21313fc8d20cdafa182808ae1496ee2f3",
+    "last_sha": "a4018d0dedbf85c1541f919297353f32287dfba6",
     "rows": [
       [
         "Sentra",
@@ -120,6 +120,13 @@
         "Montreal, QC, Canada",
         "Fall 2026",
         "https://job-boards.greenhouse.io/studiokraftonboard/jobs/8613468002?utm_source=Simplify&ref=Simplify"
+      ],
+      [
+        "Rise8",
+        "Software Engineer Intern - Software Engineer",
+        "Remote in USA",
+        "Fall 2026",
+        "https://job-boards.greenhouse.io/rise8/jobs/4359623007?utm_source=Simplify&ref=Simplify"
       ],
       [
         "Saronic",
@@ -1382,7 +1389,7 @@
     ]
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "39b132a21313fc8d20cdafa182808ae1496ee2f3",
+    "last_sha": "a4018d0dedbf85c1541f919297353f32287dfba6",
     "rows": [
       [
         "Eulerity",
