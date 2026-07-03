@@ -1,6 +1,6 @@
 {
   "SimplifyJobs/Summer2026-Internships": {
-    "last_sha": "245aba922f3417b340e5ed94634bcb8a7c027046",
+    "last_sha": "0d6ec12ca49b9e9d6f0596202e0808c29f1e7eb4",
     "rows": [
       [
         "\ud83d\udd25 Tesla",
@@ -260,6 +260,13 @@
         "Ottawa, ON, Canada",
         "Fall 2026",
         "https://careers-kinaxis.icims.com/jobs/34962/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify"
+      ],
+      [
+        "Clio",
+        "Software Developer Co-op",
+        "Toronto, ON, Canada Calgary, AB, Canada Vancouver, BC, Canada",
+        "Fall 2026, Winter 2026, Spring 2027",
+        "https://clio.wd3.myworkdayjobs.com/en-US/ClioCareerSite/job/Toronto/Software-Developer--Co-op_REQ-1577?utm_source=Simplify&ref=Simplify"
       ],
       [
         "\ud83d\udd25 Tesla",
@@ -540,13 +547,6 @@
         "Vancouver, BC, Canada",
         "Fall 2026, Winter 2026",
         "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36602?utm_source=Simplify&ref=Simplify"
-      ],
-      [
-        "Kinaxis",
-        "Software Development Co-op/Intern - C++",
-        "Ottawa, ON, Canada",
-        "Fall 2026",
-        "https://careers-kinaxis.icims.com/jobs/34764/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify"
       ],
       [
         "Rocket Lab USA",
@@ -1375,7 +1375,7 @@
     ]
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "245aba922f3417b340e5ed94634bcb8a7c027046",
+    "last_sha": "0d6ec12ca49b9e9d6f0596202e0808c29f1e7eb4",
     "rows": [
       [
         "Travelers",
@@ -2132,6 +2132,13 @@
         "Lehi, UT",
         "Summer 2026",
         "https://job-boards.greenhouse.io/podium81/jobs/7939921?utm_source=Simplify&ref=Simplify"
+      ],
+      [
+        "Copart",
+        "Software Engineer Intern",
+        "Dallas, TX",
+        "Summer 2026",
+        "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101987?utm_source=Simplify&ref=Simplify"
       ],
       [
         "Neuralink",
