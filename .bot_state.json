@@ -1950,7 +1950,7 @@
       "term": "Summer 2026",
       "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
-      "message_id": 347,
+      "message_id": 732,
       "chat_id": 7582459199
     },
     "7d48370c2d93": {
@@ -4851,6 +4851,16 @@
       "apply_url": "https://job-boards.greenhouse.io/drweng/jobs/7942281?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
       "message_id": 730,
+      "chat_id": 7582459199
+    },
+    "be5da4034b29": {
+      "company": "Jump Trading",
+      "role": "Campus Software Engineer Intern",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/embed/job_app?token=7975026&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 731,
       "chat_id": 7582459199
     }
   },
