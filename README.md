@@ -2,7 +2,7 @@
 
 A GitHub Actions workflow that watches job-board repos and sends Telegram alerts when new listings appear.
 
-Currently watches **4 sources** (see the `WATCHERS` list in `.github/workflows/watch-files.yml` for the source of truth):
+Currently watches **5 sources** (see the `WATCHERS` list in `.github/workflows/watch-files.yml` for the source of truth):
 
 | Watcher label | Repo | Branch | File | Scope |
 |---|---|---|---|---|
@@ -10,10 +10,11 @@ Currently watches **4 sources** (see the `WATCHERS` list in `.github/workflows/w
 | Simplify Summer Repo | `SimplifyJobs/Summer2026-Internships` | `dev` | `README.md` | Software Engineering section only |
 | Vansh Off-Season Repo | `vanshb03/Summer2027-Internships` | `dev` | `OFFSEASON_README.md` | full listing table |
 | Vansh Summer Repo | `vanshb03/Summer2027-Internships` | `dev` | `README.md` | full listing table |
+| Zapply Summer Repo | `zapplyjobs/Internships-2027` | `main` | `README.md` | Software Engineering section only (cumulative-URL dedup) |
 
-The two **Simplify** watchers intentionally parse only the `## 💻 Software Engineering Internship Roles` section — Product Management, Data Science/AI/ML, Quant Finance, and Hardware roles are excluded by design. The two **Vansh** watchers parse the entire `## The List` table, which is uncategorized (so non-SWE roles do flow through from those sources).
+The two **Simplify** watchers intentionally parse only the `## 💻 Software Engineering Internship Roles` section — Product Management, Data Science/AI/ML, Quant Finance, and Hardware roles are excluded by design. The two **Vansh** watchers parse the entire `## The List` table, which is uncategorized (so non-SWE roles do flow through from those sources). The **Zapply** watcher parses only the `💻 Software Engineering` table of `zapplyjobs/Internships-2027`; its other five category tables (Data Science & AI, Hardware & Engineering, Product/Design/Research, Business & Operations, Other) are excluded by design.
 
-State is persisted in `.watcher_state.json` (last-seen SHA per repo). The workflow commits that file back to this repo on every run that advances a SHA.
+State is persisted in `.watcher_state.json`. Most sources store a `{last_sha, rows}` snapshot and alert on the diff against the previous snapshot. **Zapply is the exception:** it stores `{last_sha, seen: [apply_url, ...]}` — a cumulative, capped (`URL_CAP`) set of every apply URL ever seen — and alerts a URL only the first time it appears. This is because Zapply's table re-sorts and is capped at ~100 rows every ~15 min, so listings flap in and out of the visible window; a snapshot diff would re-alert on every re-add. Keying on the apply URL (the only stable, unique field — Role/Location are truncated with `...` and Posted is the constant `Recently`) and never re-alerting a seen URL prevents duplicate alerts on churn. The workflow commits the state file back to this repo on every run that advances a SHA.
 
 ## Triggering (external cron — NOT a GitHub schedule)
 
@@ -152,7 +153,7 @@ git rebase --continue
     - [ ] Text to update
 - [ ] More job boards:
     - [ ] https://github.com/speedyapply/2026-SWE-College-Jobs
-    - [ ] https://github.com/zapplyjobs/Internships-2026#-software-engineering
+    - [x] https://github.com/zapplyjobs/Internships-2027 — **Zapply Summer Repo** (Software Engineering table only; cumulative-URL dedup)
 
 
 - Spreadsheet URL: 1UHDefi6XPSs7sypXMmAIWsCuoE_UswBCipDMbgisX5w

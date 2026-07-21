@@ -88,10 +88,34 @@ jobs:
                   "section_start": "## The List",
                   "section_end": "## We love our contributors",
               },
+              {
+                  # Zapply's SWE table re-sorts + is capped at ~100 rows every ~15 min, so
+                  # rows churn in/out of the visible window. Snapshot-diff dedup would re-alert
+                  # on every re-add, and the truncated role text makes (company, role, location,
+                  # term) a colliding key. So this source uses cumulative-URL dedup instead.
+                  "label": "Zapply Summer Repo",
+                  "state_key": "zapplyjobs/Internships-2027#swe",
+                  "owner": "zapplyjobs",
+                  "repo": "Internships-2027",
+                  "branch": "main",
+                  "file": "README.md",
+                  "parser": "markdown",
+                  "section_start": "💻 <strong>Software Engineering</strong>",
+                  "section_end": "📊 <strong>Data Science",  # substring: stop before the "&"
+                  "role_col": 1,
+                  "loc_col": 2,
+                  "apply_col": 5,
+                  "term_col": None,
+                  "default_term": "Summer 2027",
+                  "min_cells": 6,
+                  "strip_bold": True,
+                  "dedup": "cumulative_url",
+              },
           ]
 
           STATE_FILE = pathlib.Path(".watcher_state.json")
           BOT_STATE_FILE = pathlib.Path(".bot_state.json")
+          URL_CAP = 3000  # bound seen-URL growth for cumulative-URL sources; >> the <1-week / ~100-row fresh window
 
           def urlopen_with_retry(req, attempts=3):
               for i in range(attempts):
@@ -199,7 +223,11 @@ jobs:
                   ])
               return rows
 
-          def parse_markdown_rows(section_text):
+          def parse_markdown_rows(section_text, role_col=1, loc_col=2, apply_col=3,
+                                  term_col=4, default_term=None, min_cells=5, strip_bold=False):
+              # Defaults reproduce the original Vansh behavior byte-for-byte. Zapply overrides
+              # apply_col=5 / term_col=None / min_cells=6 / strip_bold=True for its 6-col table
+              # whose company cells are bold (**Name**) and whose Posted/Visa cols are unusable.
               rows = []
               last_company = None
               for line in section_text.splitlines():
@@ -207,23 +235,26 @@ jobs:
                   if not body.startswith('|'):
                       continue
                   parts = [c.strip() for c in body.strip('|').split('|')]
-                  if len(parts) < 5:
+                  if len(parts) < min_cells:
                       continue
                   if all(re.fullmatch(r'[-:\s]+', c) for c in parts if c):
                       continue
-                  if parts[0].lower() == 'company':
+                  if parts[0].lower().replace('*', '') == 'company':
                       continue
                   company = strip_html(parts[0])
+                  if strip_bold:
+                      company = company.replace('**', '').strip()
                   if company == "↳":
                       company = last_company or "↳"
                   else:
                       last_company = company
+                  term = default_term if term_col is None else strip_html(parts[term_col])
                   rows.append([
                       company,
-                      strip_html(parts[1]),
-                      strip_html(parts[2]),
-                      strip_html(parts[4]),
-                      extract_apply_url(parts[3]),
+                      strip_html(parts[role_col]),
+                      strip_html(parts[loc_col]),
+                      term,
+                      extract_apply_url(parts[apply_col]),
                   ])
               return rows
 
@@ -266,6 +297,68 @@ jobs:
               saved = state.get(state_key) or {}
               last_sha = saved.get("last_sha")
               prev_rows = saved.get("rows")
+
+              # --- Churn-tolerant cumulative-URL dedup (opt-in via "dedup": "cumulative_url").
+              # Keys jobs by apply URL and never re-alerts a URL once seen, so rows flapping in
+              # and out of Zapply's ~100-row fresh window don't produce duplicate alerts. State
+              # shape is {last_sha, seen: [url, ...]} instead of {last_sha, rows: [...]}. Sources
+              # without a "dedup" key skip this block and use the snapshot-diff path below. ---
+              if w.get("dedup") == "cumulative_url":
+                  seen_list = saved.get("seen")
+                  if last_sha == latest_sha and seen_list is not None:
+                      continue
+                  try:
+                      file_text = get_raw_file(w["owner"], w["repo"], latest_sha, w["file"])
+                  except urllib.error.HTTPError as e:
+                      print(f"Failed to fetch {w['file']} at {latest_sha}: {e}")
+                      continue
+                  section_text = extract_section(file_text, w["section_start"], w["section_end"])
+                  curr_rows = parse_markdown_rows(
+                      section_text,
+                      role_col=w.get("role_col", 1),
+                      loc_col=w.get("loc_col", 2),
+                      apply_col=w["apply_col"],
+                      term_col=w["term_col"],
+                      default_term=w["default_term"],
+                      min_cells=w.get("min_cells", 5),
+                      strip_bold=w.get("strip_bold", False),
+                  )
+                  if not curr_rows:
+                      # Unconditional empty-guard: a bad marker / format change never seeds an
+                      # empty set nor advances the SHA — just log and retry on the next run.
+                      print(f"WARNING: extracted 0 rows from {state_key}; skipping (markers/format may have changed).")
+                      continue
+                  curr_urls = [r[4] for r in curr_rows if r[4]]
+                  if seen_list is None:
+                      # Silent bootstrap: seed the currently-listed URLs, alert nothing.
+                      print(f"Bootstrapped {state_key} at {latest_sha} with {len(curr_urls)} seen URLs.")
+                      state[state_key] = {"last_sha": latest_sha, "seen": curr_urls[-URL_CAP:]}
+                      continue
+                  seen_set = set(seen_list)
+                  new_listings = [r for r in curr_rows if r[4] and r[4] not in seen_set]
+                  for entry in new_listings:
+                      h = job_hash(entry, w["label"])
+                      text = f"{w['label']}\n+ {fmt(entry)}"
+                      try:
+                          message_id, chat_id = telegram_send_job(text, f"apply:{h}")
+                      except Exception as exc:
+                          print(f"Failed to send job alert ({h}): {exc}")
+                          continue
+                      bot_state["pending"][h] = {
+                          "company": entry[0],
+                          "role": entry[1],
+                          "location": entry[2],
+                          "term": entry[3],
+                          "apply_url": entry[4],
+                          "source": w["label"],
+                          "message_id": message_id,
+                          "chat_id": chat_id,
+                      }
+                      total_alerted += 1
+                  # Append only genuinely-new URLs (preserves recency order), then cap.
+                  merged = seen_list + [u for u in curr_urls if u not in seen_set]
+                  state[state_key] = {"last_sha": latest_sha, "seen": merged[-URL_CAP:]}
+                  continue
 
               # Skip only when SHA unchanged AND we already have a row snapshot.
               if last_sha == latest_sha and prev_rows is not None:
