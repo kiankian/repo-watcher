@@ -2,7 +2,7 @@
 
 A GitHub Actions workflow that watches job-board repos and sends Telegram alerts when new listings appear.
 
-Currently watches **5 sources** (see the `WATCHERS` list in `.github/workflows/watch-files.yml` for the source of truth):
+Currently watches **6 sources across 4 repos** (see the `WATCHERS` list in `.github/workflows/watch-files.yml` for the source of truth — Speedyapply is implemented as 3 entries, one per category table, sharing one label):
 
 | Watcher label | Repo | Branch | File | Scope |
 |---|---|---|---|---|
@@ -11,10 +11,11 @@ Currently watches **5 sources** (see the `WATCHERS` list in `.github/workflows/w
 | Vansh Off-Season Repo | `vanshb03/Summer2027-Internships` | `dev` | `OFFSEASON_README.md` | full listing table |
 | Vansh Summer Repo | `vanshb03/Summer2027-Internships` | `dev` | `README.md` | full listing table |
 | Zapply Summer Repo | `zapplyjobs/Internships-2027` | `main` | `README.md` | Software Engineering section only (cumulative-URL dedup) |
+| Speedyapply Summer Repo | `speedyapply/2027-SWE-College-Jobs` | `main` | `README.md` | USA SWE Internships — all 3 tables: FAANG+, Quant, Other (cumulative-URL dedup) |
 
-The two **Simplify** watchers intentionally parse only the `## 💻 Software Engineering Internship Roles` section — Product Management, Data Science/AI/ML, Quant Finance, and Hardware roles are excluded by design. The two **Vansh** watchers parse the entire `## The List` table, which is uncategorized (so non-SWE roles do flow through from those sources). The **Zapply** watcher parses only the `💻 Software Engineering` table of `zapplyjobs/Internships-2027`; its other five category tables (Data Science & AI, Hardware & Engineering, Product/Design/Research, Business & Operations, Other) are excluded by design.
+The two **Simplify** watchers intentionally parse only the `## 💻 Software Engineering Internship Roles` section — Product Management, Data Science/AI/ML, Quant Finance, and Hardware roles are excluded by design. The two **Vansh** watchers parse the entire `## The List` table, which is uncategorized (so non-SWE roles do flow through from those sources). The **Zapply** watcher parses only the `💻 Software Engineering` table of `zapplyjobs/Internships-2027`; its other five category tables (Data Science & AI, Hardware & Engineering, Product/Design/Research, Business & Operations, Other) are excluded by design. The **Speedyapply** source (`speedyapply/2027-SWE-College-Jobs` → `README.md`) watches the **USA SWE Internships** page in full — all three of its category tables (FAANG+, Quant, Other) — via three watcher entries that share the single "Speedyapply Summer Repo" label and stamp the category into the alert's last field; the repo's separate New-Grad and International pages (`NEW_GRAD_USA.md`, `INTERN_INTL.md`, `NEW_GRAD_INTL.md`) are not watched.
 
-State is persisted in `.watcher_state.json`. Most sources store a `{last_sha, rows}` snapshot and alert on the diff against the previous snapshot. **Zapply is the exception:** it stores `{last_sha, seen: [apply_url, ...]}` — a cumulative, capped (`URL_CAP`) set of every apply URL ever seen — and alerts a URL only the first time it appears. This is because Zapply's table re-sorts and is capped at ~100 rows every ~15 min, so listings flap in and out of the visible window; a snapshot diff would re-alert on every re-add. Keying on the apply URL (the only stable, unique field — Role/Location are truncated with `...` and Posted is the constant `Recently`) and never re-alerting a seen URL prevents duplicate alerts on churn. The workflow commits the state file back to this repo on every run that advances a SHA.
+State is persisted in `.watcher_state.json`. Most sources store a `{last_sha, rows}` snapshot and alert on the diff against the previous snapshot. **Zapply and Speedyapply are the exceptions:** each stores `{last_sha, seen: [apply_url, ...]}` — a cumulative, capped (`URL_CAP`) set of every apply URL ever seen — and alerts a URL only the first time it appears. For **Zapply**, this is because its table re-sorts and is capped at ~100 rows every ~15 min, so listings flap in and out of the visible window and a snapshot diff would re-alert on every re-add; keying on the apply URL (the only stable, unique field — Role/Location are truncated with `...` and Posted is the constant `Recently`) avoids that. For **Speedyapply**, many genuinely-distinct openings share the same company + role + location and differ only by apply URL (e.g. Copart lists five identical-looking Dallas SWE-intern rows with different Workday IDs), so the snapshot key `(company, role, location, term)` would collapse them and miss real additions; keying on the apply URL alerts each opening exactly once. Both keep the full query string intact, since some ATS job IDs live there (e.g. Greenhouse `?gh_jid=`). The workflow commits the state file back to this repo on every run that advances a SHA.
 
 ## Triggering (external cron — NOT a GitHub schedule)
 
@@ -152,7 +153,7 @@ git rebase --continue
     - [x] Connect to google sheet (`process_applies` job — appends a row on each `✅ Applied` tap)
     - [ ] Text to update
 - [ ] More job boards:
-    - [ ] https://github.com/speedyapply/2026-SWE-College-Jobs
+    - [x] https://github.com/speedyapply/2027-SWE-College-Jobs — **Speedyapply Summer Repo** (USA SWE Internships; all 3 tables — FAANG+/Quant/Other; cumulative-URL dedup)
     - [x] https://github.com/zapplyjobs/Internships-2027 — **Zapply Summer Repo** (Software Engineering table only; cumulative-URL dedup)
 
 

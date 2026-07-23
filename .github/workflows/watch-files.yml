@@ -111,6 +111,69 @@ jobs:
                   "strip_bold": True,
                   "dedup": "cumulative_url",
               },
+              {
+                  # speedyapply's USA-internships README carries three category tables
+                  # (FAANG+, Quant, Other) delimited by <!-- TABLE_*_START/END --> comments.
+                  # Same churn/identity profile as Zapply: many genuinely-distinct openings
+                  # share company+role+location and differ only by apply URL (e.g. Copart's
+                  # five Dallas SWE-intern rows), so a snapshot diff would collapse and miss
+                  # them. All three tables use cumulative-URL dedup. One shared label; the
+                  # category rides in default_term so it shows in the alert's last field.
+                  "label": "Speedyapply Summer Repo",
+                  "state_key": "speedyapply/2027-SWE-College-Jobs#faang",
+                  "owner": "speedyapply",
+                  "repo": "2027-SWE-College-Jobs",
+                  "branch": "main",
+                  "file": "README.md",
+                  "parser": "markdown",
+                  "section_start": "<!-- TABLE_FAANG_START -->",
+                  "section_end": "<!-- TABLE_FAANG_END -->",
+                  "role_col": 1,
+                  "loc_col": 2,
+                  "apply_col": 4,
+                  "term_col": None,
+                  "default_term": "FAANG+",
+                  "min_cells": 6,
+                  "dedup": "cumulative_url",
+              },
+              {
+                  "label": "Speedyapply Summer Repo",
+                  "state_key": "speedyapply/2027-SWE-College-Jobs#quant",
+                  "owner": "speedyapply",
+                  "repo": "2027-SWE-College-Jobs",
+                  "branch": "main",
+                  "file": "README.md",
+                  "parser": "markdown",
+                  "section_start": "<!-- TABLE_QUANT_START -->",
+                  "section_end": "<!-- TABLE_QUANT_END -->",
+                  "role_col": 1,
+                  "loc_col": 2,
+                  "apply_col": 4,
+                  "term_col": None,
+                  "default_term": "Quant",
+                  "min_cells": 6,
+                  "dedup": "cumulative_url",
+              },
+              {
+                  # "Other" table drops the Salary column, so it is 5-col (apply_col=3),
+                  # unlike the 6-col FAANG+/Quant tables above (apply_col=4).
+                  "label": "Speedyapply Summer Repo",
+                  "state_key": "speedyapply/2027-SWE-College-Jobs#other",
+                  "owner": "speedyapply",
+                  "repo": "2027-SWE-College-Jobs",
+                  "branch": "main",
+                  "file": "README.md",
+                  "parser": "markdown",
+                  "section_start": "<!-- TABLE_START -->",
+                  "section_end": "<!-- TABLE_END -->",
+                  "role_col": 1,
+                  "loc_col": 2,
+                  "apply_col": 3,
+                  "term_col": None,
+                  "default_term": "Other",
+                  "min_cells": 5,
+                  "dedup": "cumulative_url",
+              },
           ]
 
           STATE_FILE = pathlib.Path(".watcher_state.json")
