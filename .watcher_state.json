@@ -1389,7 +1389,7 @@
     ]
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "a5516c012f47030a7793de274341b047a9db4341",
+    "last_sha": "9390f98840f1297cf2b4def5b2eefc106ca2a45f",
     "rows": [
       [
         "Appian",
@@ -2020,40 +2020,19 @@
         "San Jose, CA",
         "Summer 2026",
         "https://lifeattiktok.com/search/7534878965941766408?utm_source=Simplify&ref=Simplify"
-      ],
-      [
-        "Meshy",
-        "Data Infra Engineer Intern",
-        "San Francisco, CA",
-        "Summer 2026",
-        "https://jobs.ashbyhq.com/meshy/2f33b2eb-b76d-4618-b299-497471f263b9?utm_source=Simplify&ref=Simplify"
-      ],
-      [
-        "Astera Labs",
-        "Platform Applications Engineer Intern Co-op",
-        "Vancouver, BC, Canada",
-        "Summer 2026",
-        "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4562833005?utm_source=Simplify&ref=Simplify"
-      ],
-      [
-        "Base Power",
-        "Software Engineer Intern",
-        "Austin, TX",
-        "Summer 2026",
-        "https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc/application?utm_source=Simplify&ref=Simplify"
-      ],
-      [
-        "PlusAI",
-        "Systems Engineer Intern \ud83c\udf93",
-        "Santa Clara, CA",
-        "Summer 2026",
-        "https://jobs.lever.co/plus-2/1864b1be-25e5-424f-9626-09e58f6147f2/apply?utm_source=Simplify&ref=Simplify"
       ]
     ]
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "3b6ec4a7aa7660b2ee5ca7db7670fb584c8de6d3",
+    "last_sha": "f90289d188f233d6c98e3144e669ea4ed5e00f61",
     "rows": [
+      [
+        "Northrop Grumman",
+        "Software Engineer Intern",
+        "Melbourne, FL",
+        "Jul 25",
+        "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275?utm_source=github-vansh-ouckah"
+      ],
       [
         "Walleye Capital",
         "Investment Data Science Intern",
@@ -2995,7 +2974,7 @@
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "e75b084d9fe1ae4477b1683616591b470ec5499b",
+    "last_sha": "66d39e21978481e4d8ee4aec4fd37e362f061e70",
     "seen": [
       "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
       "https://joinbytedance.com/search/7533045355162044690",
@@ -3121,7 +3100,7 @@
     ]
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "3f8da4a0b8af9925851f627d35b33223ceb6593d",
+    "last_sha": "e1f6a1dcaa896009ef2156239c0f67a062240932",
     "seen": [
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.google.com/about/careers/applications/jobs/results/85564713261245126",
@@ -3148,7 +3127,7 @@
     ]
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "3f8da4a0b8af9925851f627d35b33223ceb6593d",
+    "last_sha": "e1f6a1dcaa896009ef2156239c0f67a062240932",
     "seen": [
       "https://www.citadel.com/careers/details/software-engineer-intern-us/",
       "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
@@ -3170,7 +3149,7 @@
     ]
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "3f8da4a0b8af9925851f627d35b33223ceb6593d",
+    "last_sha": "e1f6a1dcaa896009ef2156239c0f67a062240932",
     "seen": [
       "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1",
       "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166",
@@ -3302,7 +3281,8 @@
       "https://brilliancanada.wd3.myworkdayjobs.com/en-US/insuresoft/job/United-States---Tuscaloosa-AL/Intern---Software-Development_R46472",
       "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
       "https://job-boards.greenhouse.io/appian/jobs/8041237",
-      "https://job-boards.greenhouse.io/astranis/jobs/4699071006"
+      "https://job-boards.greenhouse.io/astranis/jobs/4699071006",
+      "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685"
     ]
   }
 }
