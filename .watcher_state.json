@@ -3155,7 +3155,7 @@
     ]
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "3327132c3516c668d7165bb2ab63ccfc7b7f63a7",
+    "last_sha": "191c8ca1bbd8fc599b4c786f2fc908b23afb11b2",
     "seen": [
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.google.com/about/careers/applications/jobs/results/85564713261245126",
@@ -3182,7 +3182,7 @@
     ]
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "3327132c3516c668d7165bb2ab63ccfc7b7f63a7",
+    "last_sha": "191c8ca1bbd8fc599b4c786f2fc908b23afb11b2",
     "seen": [
       "https://www.citadel.com/careers/details/software-engineer-intern-us/",
       "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
@@ -3204,7 +3204,7 @@
     ]
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "3327132c3516c668d7165bb2ab63ccfc7b7f63a7",
+    "last_sha": "191c8ca1bbd8fc599b4c786f2fc908b23afb11b2",
     "seen": [
       "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1",
       "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166",
@@ -3337,7 +3337,14 @@
       "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
       "https://job-boards.greenhouse.io/appian/jobs/8041237",
       "https://job-boards.greenhouse.io/astranis/jobs/4699071006",
-      "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685"
+      "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
+      "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000140089589-powertrain-controls-software-engineering-intern-6-months-?oga=true",
+      "https://www.pathai.com/careers/8651564002?gh_jid=8651564002",
+      "https://job-boards.greenhouse.io/twosixtechnologies/jobs/6126995004",
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/Software-Engineering-Intern--On-site-_01860801",
+      "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job"
     ]
   }
 }
