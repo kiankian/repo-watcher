@@ -53,8 +53,8 @@ def test_undelivered_listing_is_withheld_from_state(run_watcher, fixture_rows, b
     assert r.sent_matching("TestCorp Beta"), "Beta was attempted"
     assert len(r.seen) == len(baseline.seen) + 2, "only the two delivered listings are recorded"
     assert not [i for i in r.seen if "beta" in i]
-    assert not r.last_sha.startswith("deadbeef"), (
-        "sha is held back so the next run re-fetches instead of short-circuiting"
+    assert [row[0] for row, _ident, _occ in r.outbox] == ["TestCorp Beta"], (
+        "the undelivered job is queued durably, not left to be re-derived from a later parse"
     )
 
 
@@ -83,7 +83,7 @@ def test_burst_is_capped_and_the_remainder_deferred(run_watcher, fixture_rows, b
     first = run_watcher(fixture_rows + extra)
 
     assert len(first.sent) == 25, "BURST_CAP sends this run"
-    assert not first.last_sha.startswith("deadbeef"), "partial run holds the sha back"
+    assert len(first.outbox) == 15, "the remainder is queued, not dropped"
 
     second = run_watcher(fixture_rows + extra, start_files=first.files)
 
@@ -121,7 +121,9 @@ def test_migration_alerts_nothing_on_the_first_run(run_watcher, fixture_rows):
     assert r.sent == []
     assert "Migrated" in r.log
     entry = r.state["SimplifyJobs/Summer2026-Internships#summer"]
-    assert set(entry) == {"last_sha", "seen", "seen_legacy_urls", "last_row_count"}
+    assert set(entry) == {
+        "last_sha", "seen", "seen_legacy_urls", "last_row_count", "outbox",
+    }
     assert entry["last_row_count"] == len(fixture_rows)
 
 
@@ -330,7 +332,9 @@ def test_the_pending_record_names_its_opening(run_watcher, fixture_rows):
     r = run_watcher(fixture_rows + [NEW_A])
 
     job = next(j for j in r.bot_state["pending"].values() if j["company"] == "TestCorp Alpha")
-    assert job["identity"] == "https://example.com/apply/alpha|Summer 2026#1"
+    assert job["identity"] == (
+        "https://example.com/apply/alpha|TestCorp Alpha|SWE Intern|Testville, TS|Summer 2026#1"
+    )
 
 
 def test_bootstrap_does_not_record_current_urls_as_legacy(run_watcher, fixture_rows):
@@ -356,3 +360,133 @@ def test_a_second_copy_of_a_bootstrapped_url_still_alerts(run_watcher, fixture_r
 
     assert len(r.sent) == 1, "the second occurrence is a new opening"
     assert r.sent_matching("https://acme.test/job/1")
+
+
+# --- durable outbox ---------------------------------------------------------------------
+
+def _burst(n, prefix="Queued"):
+    return [
+        [f"{prefix} {i:03d}", "SWE Intern", "Testville, TS", "Summer 2026",
+         f"https://example.com/apply/{prefix.lower()}{i}"]
+        for i in range(n)
+    ]
+
+
+def test_a_deferred_job_survives_leaving_the_upstream_table(run_watcher, fixture_rows):
+    """The assertion the previous design could not make. Withholding a row from `seen` only
+    guaranteed it would be *reconsidered*; the retry re-derived it from a fresh parse, so a row
+    that left the table in the meantime was gone. Zapply's table re-sorts and is capped at ~100
+    rows, so this is not hypothetical."""
+    extra = _burst(40)
+    first = run_watcher(fixture_rows + extra)
+    assert len(first.sent) == 25 and len(first.outbox) == 15
+
+    # Upstream now drops every one of the deferred rows before the retry.
+    second = run_watcher(fixture_rows, start_files=first.files)
+
+    assert len(second.sent) == 15, "queued jobs are delivered from the outbox, not re-parsed"
+    assert second.outbox == []
+    delivered = first.sent + second.sent
+    for i in range(40):
+        assert len([t for t in delivered if f"Queued {i:03d}" in t]) == 1
+
+
+def test_a_failed_send_survives_leaving_the_upstream_table(run_watcher, fixture_rows):
+    """Same guarantee for a genuine delivery failure rather than the burst cap."""
+    failed = run_watcher(fixture_rows + [NEW_A, NEW_B, NEW_C], fail_for="TestCorp Beta")
+    assert [row[0] for row, _i, _o in failed.outbox] == ["TestCorp Beta"]
+
+    recovered = run_watcher(fixture_rows, start_files=failed.files)
+
+    assert recovered.sent_matching("TestCorp Beta"), "delivered from the queue"
+    assert len(recovered.sent) == 1
+    assert recovered.outbox == []
+
+
+def test_the_outbox_drains_without_an_upstream_change(run_watcher, fixture_rows):
+    """A queued job must not wait on an unrelated upstream commit. The loop short-circuits on an
+    unchanged sha, so that check has to yield while the outbox has work."""
+    extra = _burst(30)
+    first = run_watcher(fixture_rows + extra)
+    assert len(first.outbox) == 5
+
+    # Re-run against the *same* head sha the first run recorded.
+    second = run_watcher(fixture_rows + extra, start_files=first.files,
+                         reuse_sha=first.last_sha)
+
+    assert "sha unchanged, draining 5 queued job(s)" in second.log
+    assert len(second.sent) == 5
+    assert second.outbox == []
+
+
+def test_queued_jobs_are_not_double_sent_when_still_listed(run_watcher, fixture_rows):
+    """The outbox and a fresh parse overlap. Sending from both would duplicate every deferred
+    job on the next run."""
+    extra = _burst(30)
+    first = run_watcher(fixture_rows + extra)
+
+    second = run_watcher(fixture_rows + extra, start_files=first.files)
+
+    assert len(second.sent) == 5, "the 5 queued jobs, not 5 queued plus 5 re-parsed"
+    delivered = first.sent + second.sent
+    for i in range(30):
+        assert len([t for t in delivered if f"Queued {i:03d}" in t]) == 1
+
+
+def test_queued_jobs_drain_before_newly_seen_rows(run_watcher, fixture_rows):
+    """Otherwise a steady stream of new listings can starve the queue indefinitely."""
+    first = run_watcher(fixture_rows + _burst(30))
+    assert len(first.outbox) == 5
+
+    second = run_watcher(fixture_rows + _burst(30) + _burst(30, "Newer"),
+                         start_files=first.files)
+
+    assert len(second.sent_matching("Queued ")) == 5, "the whole queue went first"
+    assert len(second.sent) == 25, "then the burst cap filled with new rows"
+
+
+def test_the_run_log_reports_the_queue_depth(run_watcher, fixture_rows):
+    """A queue that never drains is the miss signal the sequence numbers cannot provide."""
+    r = run_watcher(fixture_rows + _burst(40))
+
+    record = next(rec for rec in r.log_records("runs")
+                  if rec.get("state_key") == "SimplifyJobs/Summer2026-Internships#summer")
+    assert record["outbox_size"] == 15
+    assert record["sent_ok"] == 25
+
+
+# --- fetch failures are not healthy -----------------------------------------------------
+
+def test_a_fetch_failure_is_alerted_and_not_reported_healthy(run_watcher, fixture_rows):
+    """An upstream rename of the watched file stops this source for good. Previously it was
+    printed and skipped while the run still pinged the external watchdog as healthy."""
+    r = run_watcher(fixture_rows, fetch_status=404)
+
+    assert r.sent == []
+    assert r.health_matching("could not fetch"), "the outage has to reach the chat"
+    assert r.healthy is False, "the ping must be withheld"
+    assert len(r.seen) > 0, "state is left intact for when the file comes back"
+
+
+def test_a_healthy_run_reports_healthy(run_watcher, fixture_rows):
+    r = run_watcher(fixture_rows + [NEW_A])
+
+    assert r.healthy is True
+
+
+def test_a_zero_row_parse_is_also_not_healthy(run_watcher, fixture_rows):
+    """Same class as a fetch failure: the source produces nothing until someone fixes it."""
+    r = run_watcher([])
+
+    assert r.healthy is False
+
+
+def test_a_fetch_failure_keeps_the_queue(run_watcher, fixture_rows):
+    """A source that cannot be read must not lose work already queued for it."""
+    first = run_watcher(fixture_rows + _burst(40))
+    assert len(first.outbox) == 15
+
+    r = run_watcher(fixture_rows, start_files=first.files, fetch_status=404)
+
+    assert len(r.outbox) == 15, "the queue survives an unreadable source"
+    assert r.healthy is False

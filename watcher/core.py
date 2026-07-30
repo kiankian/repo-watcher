@@ -142,15 +142,24 @@ def row_key(r):
 # (every row gets one) and injective (no two rows in a run share one), or a row can be
 # collapsed away and never alerted.
 #
-#   identity = (apply_url or ROWKEY:company|role|location) + "|" + term + "#" + occurrence
+#   identity = (apply_url or NOURL) |company|role|location|term #occurrence
 #
-# apply_url first, because it distinguishes openings that are textually identical -- Copart
-# posts several Dallas SWE-intern reqs differing only by Workday id, and row_key merges them.
-# The ROWKEY fallback covers rows with no parseable link (~a fifth of the Vansh rows). term is
-# included because it is free: across every (watcher, url) pair on record, one URL never
-# carried two different terms, and including it means a req relisted for a new season is
-# treated as new. The occurrence index disambiguates rows that are identical even down to a
-# missing URL (Kudu Dynamics lists the same URL-less role three times).
+# Every field participates, because either half alone can collapse two distinct openings:
+#
+#   * URL alone is not enough. Boards sometimes publish a generic link shared by several rows
+#     (a bare careers page, a Greenhouse embed). If two openings share one URL and one of them
+#     is replaced while the number of rows sharing it stays the same, occurrence numbering
+#     hands the replacement an identity that is already seen and it is silently missed.
+#   * The row text alone is not enough. Copart posts several Dallas SWE-intern reqs that differ
+#     only by Workday id; keyed on text they collapse and all but one are never alerted.
+#
+# Including the text costs a duplicate whenever upstream edits a role or location string
+# in place. Measured over 2060 state snapshots spanning 18 days and 475 distinct (source, URL)
+# pairs, that happened zero times -- so the cost is nil and the protection is free. term is in
+# for the same reason, and it also lets a requisition relisted for a new season through.
+#
+# The occurrence index disambiguates rows identical in every field, which does happen: Kudu
+# Dynamics lists the same URL-less role three times.
 
 # Identities retained per source. This is a backstop, not a working size: the union grows by
 # roughly a thousand a year on the busiest source, and the state file is committed on most runs,
@@ -161,8 +170,9 @@ SEEN_CAP = 5000
 
 
 def identity_stem(entry):
-    base = entry[4] or f"ROWKEY:{entry[0]}|{entry[1]}|{entry[2]}"
-    return f"{base}|{entry[3]}"
+    # URL first so the stem stays greppable in state and logs, then every text field.
+    base = entry[4] or "NOURL"
+    return f"{base}|{entry[0]}|{entry[1]}|{entry[2]}|{entry[3]}"
 
 
 def row_identity(entry, occurrence):
@@ -274,5 +284,7 @@ def migrate_state(state, bot_records, watchers, cap=SEEN_CAP):
             "seen": seen[-cap:],
             "seen_legacy_urls": sorted(legacy),
             "last_row_count": len(rows) if rows is not None else 0,
+            # Nothing was ever queued under the old shape, so migration starts it empty.
+            "outbox": [],
         }
     return migrated

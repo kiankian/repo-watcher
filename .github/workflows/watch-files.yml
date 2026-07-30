@@ -26,6 +26,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run watcher
+        id: watcher
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -196,7 +197,8 @@ jobs:
           BOT_STATE_FILE = pathlib.Path(".bot_state.json")
           LOG_DIR = pathlib.Path("logs")
           SEND_SPACING = 1.1  # seconds between job sends; Telegram allows ~1 msg/sec to one chat
-          BURST_CAP = 25  # max sends per watcher per run; the rest are withheld and retried next run
+          BURST_CAP = 25  # max sends per watcher per run; the rest are queued in the outbox
+          OUTBOX_CAP = 1000  # queued-but-undelivered ceiling; at 25/run this is ~40 runs of backlog
           DRY_RUN = os.environ.get("DRY_RUN", "").strip().lower() == "true"
           RUN_ID = os.environ.get("GITHUB_RUN_ID", "local")
           SILENCE_ALARM_AFTER = 2 * 3600  # gap without a successful run that is worth reporting
@@ -482,8 +484,15 @@ jobs:
           # while anything genuinely new in the same run still goes out.
           total_alerted = 0
           run_records = []
+          # Sources that could not be read or parsed this run. A run with any of these did not
+          # actually check everything, so it must not report itself healthy to the external
+          # watchdog — otherwise a renamed upstream file silences a source indefinitely behind a
+          # green check.
+          broken_sources = []
 
           def record_run(label, state_key, **fields):
+              """One row of the per-run log. outbox_size is what makes a miss detectable: queued
+              work that never drains is the signal the sequence numbers cannot give."""
               run_records.append(dict(
                   ts=iso(utcnow()), run_id=RUN_ID, watcher=label, state_key=state_key, **fields
               ))
@@ -499,109 +508,164 @@ jobs:
               last_sha = saved.get("last_sha")
               seen_list = saved.get("seen")
               legacy_urls = saved.get("seen_legacy_urls") or []
+              # Rows observed as new but not yet delivered, persisted as [row, identity,
+              # occurrence]. Withholding them from `seen` alone was not enough: the retry
+              # re-derived them from a fresh parse, so anything that left the upstream table in
+              # the meantime was lost. Zapply's table re-sorts and is capped at ~100 rows, and a
+              # long Telegram outage widens that window arbitrarily.
+              outbox = [tuple(item) for item in (saved.get("outbox") or [])]
 
-              if last_sha == latest_sha and seen_list is not None:
+              # Never skip on an unchanged SHA while the outbox has work: a queued job must not
+              # have to wait for an unrelated upstream commit to be retried.
+              if last_sha == latest_sha and seen_list is not None and not outbox:
                   continue
 
-              try:
-                  file_text = get_raw_file(w["owner"], w["repo"], latest_sha, w["file"])
-              except urllib.error.HTTPError as e:
-                  print(f"Failed to fetch {w['file']} at {latest_sha}: {e}")
-                  continue
-
-              section_text = extract_section(file_text, w["section_start"], w["section_end"])
-              if w["parser"] == "html":
-                  curr_rows = parse_html_rows(
-                      section_text, w["term_col"], w["apply_col"], w["default_term"]
-                  )
-              else:
-                  # Defaults reproduce the original Vansh call; Zapply/Speedyapply override them.
-                  curr_rows = parse_markdown_rows(
-                      section_text,
-                      role_col=w.get("role_col", 1),
-                      loc_col=w.get("loc_col", 2),
-                      apply_col=w.get("apply_col", 3),
-                      term_col=w.get("term_col", 4),
-                      default_term=w.get("default_term"),
-                      min_cells=w.get("min_cells", 5),
-                      strip_bold=w.get("strip_bold", False),
-                  )
-
+              upstream_unchanged = last_sha == latest_sha and seen_list is not None
               prev_row_count = saved.get("last_row_count")
+              curr_rows = None
 
-              if not curr_rows:
-                  # A renamed heading or reshaped table lands here. Never seed an empty set and
-                  # never advance the SHA — just log it and retry on the next run.
-                  print(
-                      f"WARNING: extracted 0 rows from {state_key}; "
-                      "skipping (markers/format may have changed)."
-                  )
-                  health_alert(
-                      f"zero-rows:{state_key}",
-                      f"{w['label']} parsed 0 rows from {w['file']} — section markers or table "
-                      "format may have changed. No alerts can come from this source until fixed.",
-                  )
-                  record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
-                             rows_extracted=0, prev_row_count=prev_row_count, seen_size=0,
-                             identities_new=0, sent_ok=0, sent_failed=0,
-                             skip_reason="zero_rows")
-                  continue
+              if upstream_unchanged:
+                  # Reached only because the outbox has work. Skip the fetch and go straight to
+                  # draining: the queued rows are self-contained and need no re-parse.
+                  print(f"{state_key}: sha unchanged, draining {len(outbox)} queued job(s).")
+              else:
+                  try:
+                      file_text = get_raw_file(w["owner"], w["repo"], latest_sha, w["file"])
+                  except urllib.error.HTTPError as e:
+                      # A 404 here means the watched file was renamed, moved or deleted upstream.
+                      # That stops this source producing alerts for good, so it has to be
+                      # reported: same silence-is-the-failure-mode case as a renamed heading.
+                      print(f"Failed to fetch {w['file']} at {latest_sha}: {e}")
+                      broken_sources.append(state_key)
+                      health_alert(
+                          f"fetch-failed:{state_key}",
+                          f"{w['label']} could not fetch {w['owner']}/{w['repo']}:{w['file']} "
+                          f"({e.code}). No alerts can come from this source until it is fixed.",
+                      )
+                      record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
+                                 rows_extracted=0, prev_row_count=prev_row_count,
+                                 seen_size=len(seen_list or []), identities_new=0, sent_ok=0,
+                                 sent_failed=0, outbox_size=len(outbox),
+                                 skip_reason=f"fetch_failed_{e.code}")
+                      continue
 
-              if prev_row_count and len(curr_rows) < prev_row_count * SHRINK_ALARM_RATIO:
-                  # Harmless now that `seen` is a union, but still worth surfacing: it is how the
-                  # 84-row -> 28-row collapse would have announced itself.
-                  health_alert(
-                      f"shrink:{state_key}",
-                      f"{w['label']} extracted {len(curr_rows)} rows, down from "
-                      f"{prev_row_count}. Dedup is unaffected, but the parse may be truncating.",
-                  )
+                  section_text = extract_section(file_text, w["section_start"], w["section_end"])
+                  if w["parser"] == "html":
+                      curr_rows = parse_html_rows(
+                          section_text, w["term_col"], w["apply_col"], w["default_term"]
+                      )
+                  else:
+                      # Defaults reproduce the original Vansh call; the others override them.
+                      curr_rows = parse_markdown_rows(
+                          section_text,
+                          role_col=w.get("role_col", 1),
+                          loc_col=w.get("loc_col", 2),
+                          apply_col=w.get("apply_col", 3),
+                          term_col=w.get("term_col", 4),
+                          default_term=w.get("default_term"),
+                          min_cells=w.get("min_cells", 5),
+                          strip_bold=w.get("strip_bold", False),
+                      )
 
-              if seen_list is None:
-                  # Silent bootstrap: a source seen for the first time records what is currently
-                  # listed and alerts nothing, so adding a watcher cannot flood the chat.
-                  seeded = [identity for _, identity, _occ in assign_identities(curr_rows)]
-                  state[state_key] = {
-                      "last_sha": latest_sha,
-                      "seen": seeded[-SEEN_CAP:],
-                      # Deliberately empty: the seeded identities already silence this snapshot,
-                      # and a legacy URL suppresses a row whatever its term, so seeding URLs here
-                      # would stop a requisition relisted for a new season from ever alerting.
-                      # Same reasoning as migrate_state — legacy is only for state that recorded
-                      # no term at all.
-                      "seen_legacy_urls": [],
-                      "last_row_count": len(curr_rows),
-                  }
-                  print(f"Bootstrapped {state_key} at {latest_sha} with {len(seeded)} identities.")
-                  record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
-                             rows_extracted=len(curr_rows), prev_row_count=prev_row_count,
-                             seen_size=len(seeded), identities_new=0, sent_ok=0, sent_failed=0,
-                             skip_reason="bootstrap")
-                  continue
+                  if not curr_rows:
+                      # A renamed heading or reshaped table lands here. Never seed an empty set and
+                      # never advance the SHA — log it, report it, and retry on the next run.
+                      print(
+                          f"WARNING: extracted 0 rows from {state_key}; "
+                          "skipping (markers/format may have changed)."
+                      )
+                      broken_sources.append(state_key)
+                      health_alert(
+                          f"zero-rows:{state_key}",
+                          f"{w['label']} parsed 0 rows from {w['file']} — section markers or "
+                          "table format may have changed. No alerts can come from this source "
+                          "until it is fixed.",
+                      )
+                      record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
+                                 rows_extracted=0, prev_row_count=prev_row_count,
+                                 seen_size=len(seen_list or []), identities_new=0, sent_ok=0,
+                                 sent_failed=0, outbox_size=len(outbox),
+                                 skip_reason="zero_rows")
+                      continue
 
-              new_pairs = select_new(curr_rows, set(seen_list), legacy_urls)
-              delivered, undelivered = deliver_listings(new_pairs, w["label"])
+                  if prev_row_count and len(curr_rows) < prev_row_count * SHRINK_ALARM_RATIO:
+                      # Harmless now that `seen` is a union, but still worth surfacing: it is how
+                      # the 84-row -> 28-row collapse would have announced itself.
+                      health_alert(
+                          f"shrink:{state_key}",
+                          f"{w['label']} extracted {len(curr_rows)} rows, down from "
+                          f"{prev_row_count}. Dedup is unaffected, but the parse may be "
+                          "truncating.",
+                      )
+
+                  if seen_list is None:
+                      # Silent bootstrap: a source seen for the first time records what is
+                      # currently listed and alerts nothing, so adding a watcher cannot flood.
+                      seeded = [ident for _r, ident, _o in assign_identities(curr_rows)]
+                      state[state_key] = {
+                          "last_sha": latest_sha,
+                          "seen": seeded[-SEEN_CAP:],
+                          # Deliberately empty: the seeded identities already silence this
+                          # snapshot, and a legacy URL suppresses a row whatever its term, so
+                          # seeding URLs here would stop a requisition relisted for a new season
+                          # from ever alerting. Same reasoning as migrate_state — legacy is only
+                          # for state that recorded no term at all.
+                          "seen_legacy_urls": [],
+                          "last_row_count": len(curr_rows),
+                          "outbox": [],
+                      }
+                      print(
+                          f"Bootstrapped {state_key} at {latest_sha} "
+                          f"with {len(seeded)} identities."
+                      )
+                      record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
+                                 rows_extracted=len(curr_rows), prev_row_count=prev_row_count,
+                                 seen_size=len(seeded), identities_new=0, sent_ok=0,
+                                 sent_failed=0, outbox_size=0, skip_reason="bootstrap")
+                      continue
+
+              fresh_pairs = select_new(curr_rows, set(seen_list), legacy_urls) if curr_rows else []
+              queued = {ident for _r, ident, _o in outbox}
+              # Queued work first, so the oldest jobs drain ahead of newly-seen rows and cannot be
+              # starved by a steady stream of new listings.
+              to_send = list(outbox) + [p for p in fresh_pairs if p[1] not in queued]
+
+              delivered, undelivered = deliver_listings(to_send, w["label"])
               total_alerted += len(delivered)
 
-              # Union in only what Telegram confirmed. Undelivered identities stay absent, so the
-              # next run sees them as new and retries.
-              merged = seen_list + [identity for _, identity, _occ in delivered]
+              # Union in only what Telegram confirmed.
+              merged = seen_list + [identity for _r, identity, _o in delivered]
               if len(merged) > SEEN_CAP:
                   health_alert(
                       f"cap:{state_key}",
                       f"{w['label']} seen-set hit SEEN_CAP ({SEEN_CAP}); dropping "
                       f"{len(merged) - SEEN_CAP} oldest identities, which may re-alert once.",
                   )
+              if len(undelivered) > OUTBOX_CAP:
+                  # Unlike a seen-set eviction, this drops jobs that were never delivered. They
+                  # are gone unless they are still listed upstream, so it is a real miss.
+                  health_alert(
+                      f"outbox-overflow:{state_key}",
+                      f"{w['label']} has {len(undelivered)} undelivered jobs, over OUTBOX_CAP "
+                      f"({OUTBOX_CAP}); {len(undelivered) - OUTBOX_CAP} newest are being dropped "
+                      "and may never be alerted. Delivery has been failing for a long time.",
+                  )
               record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
-                         rows_extracted=len(curr_rows), prev_row_count=prev_row_count,
-                         seen_size=min(len(merged), SEEN_CAP), identities_new=len(new_pairs),
-                         sent_ok=len(delivered), sent_failed=len(undelivered), skip_reason=None)
+                         rows_extracted=len(curr_rows) if curr_rows is not None else 0,
+                         prev_row_count=prev_row_count,
+                         seen_size=min(len(merged), SEEN_CAP), identities_new=len(fresh_pairs),
+                         sent_ok=len(delivered), sent_failed=len(undelivered),
+                         outbox_size=min(len(undelivered), OUTBOX_CAP), skip_reason=None)
               state[state_key] = {
-                  # Hold the SHA back on a partial run so the next run re-fetches immediately
-                  # instead of short-circuiting on last_sha == latest_sha.
-                  "last_sha": last_sha if undelivered else latest_sha,
+                  # Safe to advance now: anything undelivered is durably queued rather than
+                  # depending on being re-derived from a later parse.
+                  "last_sha": latest_sha if curr_rows is not None else last_sha,
                   "seen": merged[-SEEN_CAP:],
                   "seen_legacy_urls": legacy_urls,
-                  "last_row_count": len(curr_rows),
+                  "last_row_count": len(curr_rows) if curr_rows is not None else prev_row_count,
+                  # Keep the oldest on overflow: newer rows can still be re-derived from the next
+                  # parse, while the oldest may already have left the upstream table.
+                  "outbox": [list(item) for item in undelivered[:OUTBOX_CAP]],
               }
 
           if total_alerted:
@@ -658,6 +722,18 @@ jobs:
               with open(summary_path, "a", encoding="utf-8") as fh:
                   fh.write("\n".join(lines) + "\n")
 
+          if broken_sources:
+              print(f"UNHEALTHY: {len(broken_sources)} source(s) unreadable: {broken_sources}")
+
+          # `healthy` gates the external ping. last_ok_run is deliberately *not* gated on it: that
+          # timestamp tracks whether the dispatch pipeline is alive, and suppressing it during a
+          # broken-source period would later produce a bogus "no successful run for Nh" alert
+          # about runs that did happen.
+          output_path = os.environ.get("GITHUB_OUTPUT")
+          if output_path:
+              with open(output_path, "a", encoding="utf-8") as fh:
+                  fh.write(f"healthy={'false' if broken_sources else 'true'}\n")
+
           if DRY_RUN:
               print("[dry-run] state files not written, nothing committed")
           else:
@@ -692,8 +768,12 @@ jobs:
       # report healthy even when the push exhausted its retries, leaving delivered alerts
       # unrecorded. success() must be explicit: supplying any `if:` drops the implicit one, and
       # not pinging on a failed push is the entire point.
+      #
+      # It is also withheld when any source was unreadable. A source whose file was renamed
+      # produces no alerts at all, so continuing to ping would leave that silence behind a green
+      # check — exactly the outage this switch exists to surface.
       - name: Ping healthcheck
-        if: ${{ success() && !inputs.dry_run }}
+        if: ${{ success() && !inputs.dry_run && steps.watcher.outputs.healthy == 'true' }}
         env:
           HEALTHCHECK_PING_URL: ${{ secrets.HEALTHCHECK_PING_URL }}
         run: |

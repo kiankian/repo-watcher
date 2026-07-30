@@ -81,11 +81,13 @@ class _Resp(io.BytesIO):
         return False
 
 
-def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_at=None):
+def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_at=None,
+                  fetch_status=None):
     """Stub urlopen.
 
     fail_for:     substring of the message text that 429s on every attempt (permanent failure)
     fail_once_at: 0-based send index that 429s once, to exercise the retry path
+    fetch_status: HTTP status to raise when fetching the watched file (e.g. 404 for a rename)
     """
     calls = {"send": 0}
 
@@ -104,6 +106,10 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
             return _Resp(json.dumps({"sha": sha}).encode())
 
         if "raw.githubusercontent.com" in url:
+            if fetch_status:
+                raise urllib.error.HTTPError(
+                    url, fetch_status, "Not Found", {}, io.BytesIO(b"")
+                )
             return _Resp(html.encode())
 
         if "api.telegram.org" in url and "sendMessage" in url:
@@ -132,11 +138,12 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
 
 class Result:
     def __init__(self, sent, health, files, log, head_sha, logs=None, summary="",
-                 key=TARGET_KEY):
+                 step_output="", key=TARGET_KEY):
         self.sent = sent
         self.health = health
         self.logs = logs or {}
         self.summary = summary
+        self.step_output = step_output
         self.files = files
         self.log = log
         self.head_sha = head_sha
@@ -151,6 +158,10 @@ class Result:
     @property
     def seen(self):
         return self.state[self._key].get("seen", [])
+
+    @property
+    def outbox(self):
+        return self.state[self._key].get("outbox", [])
 
     @property
     def last_sha(self):
@@ -170,13 +181,22 @@ class Result:
     def health_matching(self, needle):
         return [t for t in self.health if needle in t]
 
+    @property
+    def healthy(self):
+        """The `healthy` step output that gates the external healthcheck ping."""
+        for line in self.step_output.splitlines():
+            if line.startswith("healthy="):
+                return line.split("=", 1)[1] == "true"
+        return None
+
 
 @pytest.fixture
 def run_watcher():
     """Return `run(upstream_rows, **kw) -> Result`, runnable repeatedly to chain runs."""
 
     def run(upstream_rows, start_files=None, fail_for=None, fail_once_at=None,
-            drop_target_state=False, dry_run=False, capture_summary=False):
+            drop_target_state=False, dry_run=False, capture_summary=False,
+            fetch_status=None, reuse_sha=None):
         work = Path(tempfile.mkdtemp())
         try:
             for name in (".watcher_state.json", ".bot_state.json"):
@@ -192,7 +212,9 @@ def run_watcher():
                 # Simulate a source the watcher has never seen, to exercise silent bootstrap.
                 state_before.pop(TARGET_KEY, None)
                 (work / ".watcher_state.json").write_text(json.dumps(state_before))
-            head_sha = next_sha()
+            # reuse_sha replays against a head the previous run already recorded, so the loop
+            # takes its unchanged-sha path -- the only way to test that the outbox still drains.
+            head_sha = reuse_sha or next_sha()
             sent, health = [], []
             saved_cwd, saved_sleep = os.getcwd(), time.sleep
             saved_urlopen = urllib.request.urlopen
@@ -215,9 +237,10 @@ def run_watcher():
                 # watcher module so each run imports from its own work dir.
                 sys.path.insert(0, str(work))
                 _evict_watcher_modules()
+                os.environ["GITHUB_OUTPUT"] = str(work / "step_output.txt")
                 urllib.request.urlopen = _make_urlopen(
                     state_before, build_html(upstream_rows), sent, health, head_sha,
-                    fail_for, fail_once_at
+                    fail_for, fail_once_at, fetch_status
                 )
                 time.sleep = lambda _s: None  # keep send spacing from slowing the suite
                 sys.stdout = buf
@@ -240,9 +263,11 @@ def run_watcher():
                 path.name: path.read_text()
                 for path in sorted((work / "logs").glob("*.jsonl"))
             } if (work / "logs").is_dir() else {}
-            summary = (work / "summary.md")
+            summary = work / "summary.md"
+            step_output = work / "step_output.txt"
             return Result(sent, health, files, buf.getvalue(), head_sha, logs,
-                          summary.read_text() if summary.exists() else "")
+                          summary.read_text() if summary.exists() else "",
+                          step_output.read_text() if step_output.exists() else "")
         finally:
             shutil.rmtree(work, ignore_errors=True)
 

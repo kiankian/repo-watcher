@@ -20,22 +20,25 @@ The two **Simplify** watchers intentionally parse only the `## 💻 Software Eng
 Every source uses one dedup rule, built around a per-opening **identity**:
 
 ```
-identity = (apply_url or ROWKEY:company|role|location) + "|" + term + "#" + occurrence
+identity = (apply_url or NOURL) |company|role|location|term #occurrence
 ```
 
 A listing is alerted when its identity has never been delivered. Three properties make that safe:
 
 1. **`seen` only grows.** It is a union, never a replacement. When the parsed row set shrinks — a truncated parse, or upstream pruning its table — the rows that vanished stay in `seen`, so they do not re-alert when they come back, while anything genuinely new in the same run still goes out.
-2. **An identity is recorded only after Telegram confirms the message.** A failed or rate-limited send leaves it unseen, and `last_sha` is held back so the next run re-fetches and retries. Nothing is ever marked seen without having been delivered.
-3. **Every parsed row gets exactly one identity, and no two rows in a run share one.** The apply URL separates openings that are textually identical (Copart posts several Dallas SWE-intern reqs differing only by Workday ID); the `ROWKEY` fallback covers rows with no parseable link (~a fifth of the Vansh rows); `term` lets a requisition relisted for a new season through; the occurrence index separates rows identical even down to a missing URL.
+2. **An identity is recorded only after Telegram confirms the message, and undelivered work is queued durably.** A failed or rate-limited send — or a batch over `BURST_CAP` — is written to that source's `outbox` as a full `[row, identity, occurrence]` triple and drained on subsequent runs, including runs where the upstream SHA has not changed. Withholding from `seen` alone was not enough: the retry re-derived the row from a fresh parse, so anything that left the upstream table in the meantime was lost. Zapply's table re-sorts and is capped at ~100 rows, and a long delivery outage widens that window arbitrarily.
+3. **Every parsed row gets exactly one identity, and no two rows in a run share one.** Every field participates, because either half alone collapses distinct openings. URL alone is not enough: boards sometimes publish a generic link shared by several rows, and if one of those openings is replaced while the row count stays the same, occurrence numbering hands the replacement an already-seen identity. Text alone is not enough either: Copart posts several Dallas SWE-intern reqs differing only by Workday ID. `term` also lets a requisition relisted for a new season through, and the occurrence index separates rows identical in every field (Kudu Dynamics lists the same URL-less role three times).
 
-Failure modes that remain all produce a *duplicate*, never a miss: a URL gaining or losing tracking parameters, URL-less rows being reordered, or `SEEN_CAP` eviction (logged when it happens).
+Including the text costs a duplicate whenever upstream edits a role or location string in place. Measured across 2,060 state snapshots spanning 18 days and 475 distinct `(source, URL)` pairs, that happened **zero** times — so the protection is effectively free.
+
+Failure modes that remain all produce a *duplicate*, never a miss: a URL gaining or losing tracking parameters, URL-less rows being reordered, or `SEEN_CAP` eviction (logged when it happens). The one remaining way to lose a job outright is `OUTBOX_CAP` overflow, which requires delivery to have been failing for roughly 40 consecutive runs and is alerted loudly.
 
 State lives in `.watcher_state.json`, one entry per source:
 
 ```json
 { "<state_key>": { "last_sha": "...", "seen": ["<identity>", ...],
-                   "seen_legacy_urls": ["<url>", ...], "last_row_count": 28 } }
+                   "seen_legacy_urls": ["<url>", ...], "last_row_count": 28,
+                   "outbox": [[[company, role, location, term, url], identity, occurrence]] } }
 ```
 
 `seen_legacy_urls` holds bare apply URLs recorded before identities existed, by the two sources that used cumulative-URL dedup. Those predate the term suffix, so they can only be matched on URL. The set is static and can be dropped after a season. Migration to this shape runs inline, is idempotent, and seeds from both the stored rows and every job in `.bot_state.json`, so the first run after a deploy alerts nothing.
@@ -78,7 +81,7 @@ Two append-only logs are committed alongside the state, rotated monthly:
 | File | One line per | Use |
 |---|---|---|
 | `logs/alerts-YYYY-MM.jsonl` | **delivered** Telegram message | `{ts, seq, message_id, watcher, identity, job_hash, company, role, location, term, apply_url}` |
-| `logs/runs-YYYY-MM.jsonl` | watcher per run that did something, plus an hourly heartbeat | `{ts, run_id, watcher, state_key, prev_sha, latest_sha, rows_extracted, prev_row_count, seen_size, identities_new, sent_ok, sent_failed, skip_reason}` |
+| `logs/runs-YYYY-MM.jsonl` | watcher per run that did something, plus an hourly heartbeat | `{ts, run_id, watcher, state_key, prev_sha, latest_sha, rows_extracted, prev_row_count, seen_size, identities_new, sent_ok, sent_failed, outbox_size, skip_reason}` |
 
 The alert log exists because `.bot_state.json` cannot serve as one: `pending` is a dict keyed by job hash, so a re-sent alert **overwrites its own record** and the evidence disappears. Reconstructing past duplicates meant diffing gaps in Telegram message IDs; these logs make it a one-line query. The run log turns a shrinking parse into a visible time series rather than something only findable by diffing state commits.
 
@@ -86,13 +89,33 @@ Quiet runs are collapsed into the hourly heartbeat on purpose — at one dispatc
 
 ### Sequence numbers
 
-Each alert carries a number (`Simplify Summer Repo #1032`). It is committed only after Telegram confirms the send, so the sequence has no gaps: **a gap in the numbering in your chat is proof of a lost alert**, verifiable without touching this repo. `process_applies` preserves the number when it edits a message to `✅ Logged`.
+Each alert carries a number (`Simplify Summer Repo #1032`), committed only after Telegram confirms the send. `process_applies` preserves it when it edits a message to `✅ Logged`.
+
+**What it proves, precisely:** no message that was sent *and recorded* is missing from your chat. Because the number is allocated after delivery, a job lost to parsing, dedup, or a failed retry never consumes one — so it leaves no gap. A gap therefore means a delivered message was removed or state was rolled back; it is **not** a detector for missed discoveries.
+
+For that, use the two durable records below.
+
+### Detecting a missed job
+
+Misses are caught by reconciling what was *observed* against what was *delivered*, not by the numbering:
+
+| Signal | Where | Means |
+|---|---|---|
+| `outbox_size` not trending to zero | `logs/runs-*.jsonl`, and `outbox` in `.watcher_state.json` | jobs were observed as new but never delivered — the queue is stuck |
+| `⚠️ outbox-overflow` | Telegram | the queue exceeded `OUTBOX_CAP` and jobs were dropped. This is a real miss |
+| `⚠️ fetch-failed` / `⚠️ zero-rows` | Telegram, and `skip_reason` in the run log | a source produced nothing; anything posted there while it was broken was never seen |
+| `identities_new` vs `sent_ok + sent_failed` | `logs/runs-*.jsonl` | should always match; a divergence means jobs vanished between selection and delivery |
+| pings stopped | your healthcheck provider | either the dispatch died or a source is unreadable (see below) |
+
+The `outbox` is the important one: every job observed as new is persisted there *before* delivery is attempted and removed only once Telegram confirms it, so a job cannot be quietly dropped between discovery and delivery.
 
 ### Health alerts
 
 Operational faults are sent to the same chat with a `⚠️ watcher:` prefix, rate-limited to one per kind per 30 minutes:
 
+- a source could not be **fetched** at all (the watched file was renamed, moved or deleted)
 - a source parsed **0 rows** (renamed heading or reshaped table — otherwise indistinguishable from "no new listings")
+- the outbox overflowed `OUTBOX_CAP`, dropping undelivered jobs
 - a parse returned under 70% of its previous row count
 - a send failed (the listing stays unrecorded and will be retried)
 - `SEEN_CAP` eviction
@@ -101,6 +124,8 @@ Operational faults are sent to the same chat with a `⚠️ watcher:` prefix, ra
 > ⚠️ **The 2-hour silence check can only fire during a run that actually happens.** It catches the workflow erroring, or the dispatch stalling and recovering — it *cannot* detect the dispatch stopping for good, which is the most likely outage (see below). Closing that gap needs an external dead-man switch: set the `HEALTHCHECK_PING_URL` secret to a [healthchecks.io](https://healthchecks.io)-style ping URL and the workflow will hit it as its final step, leaving that service to notify you when the pings stop. Unset, the ping is skipped.
 
 The ping deliberately runs **after** the state push, and is skipped if any earlier step failed. It has to mean "this run completed *and* persisted", not "the python finished": if the push exhausts its retries after alerts went out, those identities were never recorded and will resend, so that run is not healthy.
+
+It is **also** withheld when any source was unreadable — a failed fetch or a zero-row parse. A source whose file was renamed produces no alerts at all, so continuing to ping would hide that silence behind a green check, which is the exact outage this switch exists to surface. Note this means a persistently broken source keeps the pings stopped until it is fixed; the accompanying `⚠️` message says which source. The `last_ok_run` timestamp behind the 2-hour silence alarm is deliberately *not* gated this way, since it tracks whether the dispatch pipeline is alive — conflating the two would later produce a bogus "no successful run for Nh" about runs that did happen.
 
 ### Dry runs
 

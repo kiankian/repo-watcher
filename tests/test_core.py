@@ -239,9 +239,9 @@ def test_occurrence_index_separates_otherwise_identical_rows():
     paired = core.assign_identities([row, row, row])
 
     assert [i for _, i, _ in paired] == [
-        "ROWKEY:Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#1",
-        "ROWKEY:Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#2",
-        "ROWKEY:Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#3",
+        "NOURL|Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#1",
+        "NOURL|Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#2",
+        "NOURL|Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#3",
     ]
 
 
@@ -249,8 +249,8 @@ def test_identity_prefers_the_url_over_the_row_text():
     with_url = ["Acme", "R", "L", "T", "https://acme.test/1"]
     without = ["Acme", "R", "L", "T", ""]
 
-    assert core.row_identity(with_url, 1) == "https://acme.test/1|T#1"
-    assert core.row_identity(without, 1) == "ROWKEY:Acme|R|L|T#1"
+    assert core.row_identity(with_url, 1) == "https://acme.test/1|Acme|R|L|T#1"
+    assert core.row_identity(without, 1) == "NOURL|Acme|R|L|T#1"
 
 
 def test_identity_includes_the_term_so_a_relisted_req_is_new_again():
@@ -306,8 +306,9 @@ def test_migrate_converts_a_rows_snapshot_to_identities():
 
     out = core.migrate_state(state, [], WATCHERS)["simplify#summer"]
 
-    assert set(out) == {"last_sha", "seen", "seen_legacy_urls", "last_row_count"}
-    assert out["seen"] == ["https://acme.test/1|T#1"]
+    assert set(out) == {"last_sha", "seen", "seen_legacy_urls", "last_row_count", "outbox"}
+    assert out["seen"] == ["https://acme.test/1|Acme|R|L|T#1"]
+    assert out["outbox"] == [], "nothing was ever queued under the old shape"
     assert out["seen_legacy_urls"] == [], "rows carry a term, so no legacy fallback is needed"
     assert out["last_row_count"] == 1
 
@@ -329,7 +330,7 @@ def test_migrate_seeds_from_previously_sent_jobs():
 
     out = core.migrate_state(state, records, WATCHERS)["simplify#summer"]
 
-    assert out["seen"] == ["https://acme.test/1|T#1"]
+    assert out["seen"] == ["https://acme.test/1|Acme|R|L|T#1"]
 
 
 def test_migrate_attributes_records_from_a_renamed_label():
@@ -341,7 +342,7 @@ def test_migrate_attributes_records_from_a_renamed_label():
 
     out = core.migrate_state(state, records, WATCHERS)["simplify#summer"]
 
-    assert out["seen"] == ["https://acme.test/1|T#1"]
+    assert out["seen"] == ["https://acme.test/1|Acme|R|L|T#1"]
 
 
 def test_migrate_numbers_repeated_url_less_records():
@@ -353,7 +354,7 @@ def test_migrate_numbers_repeated_url_less_records():
     out = core.migrate_state(state, [dict(rec), dict(rec), dict(rec)], WATCHERS)
 
     assert out["simplify#summer"]["seen"] == [
-        "ROWKEY:Kudu|R|L|T#1", "ROWKEY:Kudu|R|L|T#2", "ROWKEY:Kudu|R|L|T#3",
+        "NOURL|Kudu|R|L|T#1", "NOURL|Kudu|R|L|T#2", "NOURL|Kudu|R|L|T#3",
     ]
 
 
@@ -407,7 +408,9 @@ def test_migrating_the_real_state_files_seeds_everything_currently_listed():
 
     for key, val in state.items():
         out = migrated[key]
-        assert set(out) == {"last_sha", "seen", "seen_legacy_urls", "last_row_count"}
+        assert set(out) == {
+            "last_sha", "seen", "seen_legacy_urls", "last_row_count", "outbox",
+        }
         # Nothing currently listed may be treated as new on the next run.
         rows = val.get("rows")
         if rows:
@@ -493,3 +496,42 @@ def test_select_new_carries_the_occurrence_through():
     fresh = core.select_new(rows, seen=set())
 
     assert [occ for _row, _ident, occ in fresh] == [1, 2]
+
+
+# --- identity must not collapse on either half alone ------------------------------------
+
+def test_a_replacement_sharing_a_generic_url_is_not_suppressed():
+    """Two openings behind one generic link (a bare careers page, a Greenhouse embed). When one
+    is replaced and the row count stays the same, a URL-only identity hands the replacement an
+    occurrence that is already seen and it is silently missed."""
+    a = ["Acme", "Backend Intern", "NYC", "T", "https://jobs.test/careers"]
+    b = ["Acme", "Frontend Intern", "NYC", "T", "https://jobs.test/careers"]
+    seen = {ident for _row, ident, _occ in core.assign_identities([a, b])}
+
+    replacement = ["Acme", "Data Intern", "NYC", "T", "https://jobs.test/careers"]
+    fresh = core.select_new([a, replacement], seen)
+
+    assert [row[1] for row, _ident, _occ in fresh] == ["Data Intern"]
+
+
+def test_openings_differing_only_by_url_still_stay_apart():
+    """The other half of the same property: text alone would collapse Copart's Dallas reqs."""
+    reqs = [
+        ["Copart", "Software Engineer Intern", "Dallas, TX", "Summer 2026",
+         f"https://copart.test/job/JR{n}"]
+        for n in (101510, 109672, 109393, 109441)
+    ]
+
+    idents = {ident for _row, ident, _occ in core.assign_identities(reqs)}
+
+    assert len(idents) == 4
+    assert all(occ == 1 for _row, _ident, occ in core.assign_identities(reqs)), (
+        "distinct URLs mean these are not occurrences of one stem"
+    )
+
+
+def test_url_less_rows_are_still_told_apart_by_their_text():
+    a = ["Acme", "Backend Intern", "NYC", "T", ""]
+    b = ["Acme", "Frontend Intern", "NYC", "T", ""]
+
+    assert core.row_identity(a, 1) != core.row_identity(b, 1)
