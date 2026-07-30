@@ -2,7 +2,6 @@
 
 A GitHub Actions workflow that watches job-board repos and sends Telegram alerts when new listings appear.
 
-
 Currently watches **6 sources across 4 repos** (see the `WATCHERS` list in `.github/workflows/watch-files.yml` for the source of truth — Speedyapply is implemented as 3 entries, one per category table, sharing one label):
 
 | Watcher label | Repo | Branch | File | Scope |

@@ -141,9 +141,9 @@ previous version of the changed file and confirming the new test fails against i
 
 Do **not** reach for `HEAD~1` here. The watcher commits state most minutes, so `HEAD~1` is almost
 always an automated `Update watcher state` commit whose workflow is byte-identical to `HEAD`'s —
-only about 5 of the last 40 commits on `main` touched the workflow at all. Restoring it would run
-the new test against the fixed code twice, the "must FAIL" step would quietly pass, and you would
-have verified nothing. Resolve the previous revision of the *file*:
+run `git log -40 --oneline main` and you will usually see forty of them and no code change at all.
+Restoring `HEAD~1` would run the new test against the fixed code twice, the "must FAIL" step would
+quietly pass, and you would have verified nothing. Resolve the previous revision of the *file*:
 
 ```sh
 FILE=.github/workflows/watch-files.yml      # or watcher/core.py, if that is what you changed
