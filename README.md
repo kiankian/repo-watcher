@@ -122,17 +122,63 @@ Operational faults are sent to the same chat with a `⚠️ watcher:` prefix, ra
 - `SEEN_CAP` eviction
 - no successful run for over 2 hours
 
-> ⚠️ **The 2-hour silence check can only fire during a run that actually happens.** It catches the workflow erroring, or the dispatch stalling and recovering — it *cannot* detect the dispatch stopping for good, which is the most likely outage (see below). Closing that gap needs an external dead-man switch: set the `HEALTHCHECK_PING_URL` secret to a [healthchecks.io](https://healthchecks.io)-style ping URL and the workflow will hit it as its final step, leaving that service to notify you when the pings stop. Unset, the ping is skipped.
+> ⚠️ **The 2-hour silence check can only fire during a run that actually happens.** It catches the workflow erroring, or the dispatch stalling and recovering — it *cannot* detect the dispatch stopping for good, which is the most likely outage (see below). Closing that gap needs an external dead-man switch, and one is now configured: the `HEALTHCHECK_PING_URL` secret holds a [healthchecks.io](https://healthchecks.io) ping URL, and the workflow hits it as its final step — leaving that service to notify you when the pings stop, with no run required. Settings and triage are below. Unset, the ping is skipped.
 
 The ping deliberately runs **after** the state push, and is skipped if any earlier step failed. It has to mean "this run completed *and* persisted", not "the python finished": if the push exhausts its retries after alerts went out, those identities were never recorded and will resend, so that run is not healthy.
 
 It is **also** withheld when any source was unreadable — a failed fetch or a zero-row parse. A source whose file was renamed produces no alerts at all, so continuing to ping would hide that silence behind a green check, which is the exact outage this switch exists to surface. Note this means a persistently broken source keeps the pings stopped until it is fixed; the accompanying `⚠️` message says which source. The `last_ok_run` timestamp behind the 2-hour silence alarm is deliberately *not* gated this way, since it tracks whether the dispatch pipeline is alive — conflating the two would later produce a bogus "no successful run for Nh" about runs that did happen.
 
+### The external dead-man switch, as configured
+
+Live on [healthchecks.io](https://healthchecks.io) since 2026-07-30, notifying by **email and Telegram**.
+
+| Setting | Value |
+|---|---|
+| Period | **5 minutes** — the expected gap between pings |
+| Grace | **55 minutes** — how long a late check waits before alerting |
+| Time to alert | **≈ 1 hour** from the last healthy run |
+
+**The knob is the total, not the split.** The watcher pings roughly once a minute, so the 5-minute period is just slack for a slow run, a run queued behind the `repo-watcher-state` concurrency group, or a push that needed a retry. One hour was chosen so that (a) an hour with zero healthy runs is unambiguous rather than noise, and (b) it fires *before* the in-band 2-hour silence check can, so the out-of-band switch is what tells you first. Shorten it if you would rather know sooner and can tolerate false alarms, but not below ~15 minutes.
+
+**Two channels on purpose.** healthchecks.io is external, so it can still reach you when the watcher is dead — but if the outage *is* Telegram, only email gets through. The failure modes are independent, so neither channel alone is sufficient.
+
+**It alerts once.** healthchecks.io notifies on state *transitions*, not on a timer: one message when the check goes down, one if it later recovers. There is no re-nagging, so a missed notification is missed for good. That is the main limitation of this setup and the other reason for two channels.
+
+Treat the ping URL as a credential — anyone holding it can forge "I'm alive" pings and suppress the alert. It is stored as the `HEALTHCHECK_PING_URL` repository secret and masked in logs. To rotate it, delete the check and recreate it with the settings above; the UUID is regenerated.
+
+**Verifying it after any change** — all three, because a switch you have not tested is worse than none, since you will trust it:
+
+1. A real run's `Ping healthcheck` step is green **and its log shows `OK`**. Green alone is not proof: the step is `curl … || echo`, so a failed ping still passes, and with the secret unset the whole thing is a no-op that also passes. The log line `HEALTHCHECK_PING_URL: ***` (masked, therefore non-empty) followed by `OK` is the actual evidence.
+2. A dry run's `Ping healthcheck` step is **skipped**, proving a rehearsal cannot masquerade as a healthy run.
+3. A throwaway check — period 1m, grace 1m, same channels, never pinged — produces a real notification on every channel, then delete it. Do **not** test this by breaking the watcher. Note that opening the ping URL in a browser *is* a ping and resets the timers. "Send Test Notification" proves a channel is wired but not that a missed ping alerts.
+
+#### When it fires, read it correctly
+
+The notification says only "no ping received". It does not say why, and the causes need opposite responses:
+
+| Actions tab shows | Cause | Do |
+|---|---|---|
+| Recent runs, green | **A source broke.** Runs are fine; `healthy` came back `false` so the ping was withheld | Check Telegram for `⚠️ zero-rows` or `⚠️ fetch-failed` — it names the source. Fix the section marker or parser |
+| Recent runs, **`watch` red** | That job is failing — commonly the state push exhausting its retries | Open the failing run. The ping is correctly withheld: alerts may have gone out unrecorded |
+| Nothing since the last ping | **Dispatch stopped.** cron-job.org disabled, or its PAT expired | The runbook below |
+
+The first row is the likelier one — upstream repos get reorganised regularly — so check the Actions tab *before* assuming the watcher is dead. Only `fetch-failed` and `zero-rows` set `healthy=false`; a `⚠️ shrink` warning does **not** withhold the ping, so it will never be the cause of a healthcheck alert on its own.
+
+> **A red run is not always a withheld ping — check which job is red.** `Ping healthcheck` is the last step of `watch`; `process_applies` is a separate job that starts only after `watch` has finished and already pinged. So a run that is red *because `process_applies` failed* — a Google Sheets append, a Telegram edit, its own `.bot_state.json` push — still pinged, and no dead-man alert will ever fire for it.
+>
+> **The callback path is therefore not covered by this switch, by design.** Gating the ping on both jobs would mean a Sheets hiccup raising a "the watcher is dead" alert while job alerting is perfectly healthy — a false alarm on the highest-severity channel for a much lower-severity fault, which is how you teach yourself to ignore it. The tradeoff is that a persistently failing `process_applies` (revoked service account, deleted spreadsheet) is silent apart from red runs in the Actions tab: taps stop reaching the Sheet and buttons stop being ticked, while alerts keep arriving normally. A transient failure re-reads the tap on the next run rather than losing it, since `last_update_id` only advances once the job commits — but **the retry is not clean.** Within one tap the order is `append_row` → `answerCallbackQuery` → `editMessageText` → offset. A failure after the append but before the commit lands leaves the row in the Sheet while `pending` still holds the hash, so the retry appends it a second time. Expect duplicate Sheet rows after any red `process_applies`, and check the Sheet rather than assuming the retry cleaned up after itself. Closing both this and the persistent case needs its own signal — see `FUTURE_IMPROVEMENTS.md`.
+
 ### Dry runs
 
-Run the workflow from the Actions tab with **dry_run** checked to parse live upstream data, compute identities, and print what *would* be sent — without sending a message, writing state, or committing. Use it to rehearse a change before any alert can go out.
+Run the workflow from the Actions tab with the dry-run box checked to parse live upstream data, compute identities, and print what *would* be sent — without sending a message, writing state, or committing. Use it to rehearse a change before any alert can go out.
 
-> **Dispatch it from the default branch.** A run from any other ref is forced into dry mode and writes nothing, on purpose: it would carry that branch's stale state snapshot and re-alert jobs you already have, and it could not save what it sent, because the commit step targets the default branch and conflicts against a shallow divergent checkout. Note also that GitHub builds the "Run workflow" form from the default branch, so the **dry_run** checkbox does not appear for a branch that has not been merged yet — which is how a branch dispatch once went out as a real run and sent three unrecorded alerts.
+**Finding the checkbox.** The input is named `dry_run` in the workflow, but GitHub labels a boolean input with its *description*, so nothing in the form is called `dry_run`. The control is the checkbox next to:
+
+> ☐ Parse and report only: send no Telegram messages and write no state.
+
+Leaving it unticked is a live run that sends and commits, so the tick is the whole safety margin.
+
+> **Dispatch it from the default branch.** A run from any other ref is forced into dry mode and writes nothing, on purpose: it would carry that branch's stale state snapshot and re-alert jobs you already have, and it could not save what it sent, because the commit step targets the default branch and conflicts against a shallow divergent checkout. Note also that GitHub builds the "Run workflow" form from the default branch, so for a branch that has not been merged yet the checkbox does not appear at all — which is how a branch dispatch once went out as a real run and sent three unrecorded alerts.
 
 A dry run deliberately **ignores the unchanged-SHA short-circuit** that a normal run uses, and re-fetches every enabled source. It has to: the watcher stores the current head on every run, so a rehearsal launched a minute later would find every source unchanged, skip all of them, and report "no new listings" without having parsed anything — silently passing whatever parser or config edit it was meant to validate. The per-run summary table shows `rows` extracted per watcher, which is what tells you the extraction still works.
 
@@ -142,6 +188,10 @@ The `process_applies` job is skipped entirely on a dry run. It has to be: it app
 
 Because nothing in *this* repo triggers the watcher, a silent stop is almost always on the
 cron-job.org / token side. Diagnose in this order:
+
+> If you arrived here from a **healthchecks.io** alert, check the triage table above first. This
+> runbook covers the dispatch-stopped case; a broken source is the likelier trigger and needs a
+> different fix.
 
 1. **cron-job.org → the job's execution history.**
    - Job **disabled / no recent executions** → re-enable it. cron-job.org auto-disables a
@@ -177,7 +227,7 @@ The same workflow (`watch-files.yml`) runs both jobs in order:
 | `TELEGRAM_CHAT_ID` | Chat that receives alerts. |
 | `GOOGLE_SERVICE_ACCOUNT_JSON` | Full service account JSON (paste the whole file as the secret value). |
 | `APPLICATIONS_SHEET_ID` | The spreadsheet ID from its URL (`docs.google.com/spreadsheets/d/<ID>/edit`). |
-| `HEALTHCHECK_PING_URL` | *Optional.* External dead-man switch pinged after each successful run (see Logs and health). |
+| `HEALTHCHECK_PING_URL` | *Optional, and currently set.* External dead-man switch pinged after each successful run — must be a **repository** secret, since the step declares no environment. See [The external dead-man switch, as configured](#the-external-dead-man-switch-as-configured). Unset, the ping step is a no-op. |
 
 Optional repo variable (not secret):
 
