@@ -165,7 +165,14 @@ know which you wrote.
 ## Checking against live data
 
 The suite never touches the network. To validate parsers against the boards as they are now, use a
-dry run: **Actions → Watch files in external repo → Run workflow → tick `dry_run`**.
+dry run: **Actions → Watch files in external repo → Run workflow**, then tick the checkbox.
+
+The input is named `dry_run` in the YAML, but GitHub labels a boolean input with its *description*,
+so the form shows no field of that name. Look for:
+
+> ☐ Parse and report only: send no Telegram messages and write no state.
+
+That sentence **is** the control. Unticked, it is a live run that sends and commits.
 
 It fetches and parses every enabled source, computes identities, prints what it *would* send, then
 sends nothing, writes nothing and commits nothing. The callback job is skipped, so the Google
@@ -177,7 +184,7 @@ Read the summary table: `rows` should be plausible and non-zero per watcher, and
 section means a parser is broken.
 
 Dispatch it from the **default branch**. Any other ref is forced into dry mode anyway, and the
-`dry_run` checkbox does not render for an unmerged branch, because GitHub builds the form from the
+checkbox does not render at all for an unmerged branch, because GitHub builds the form from the
 default branch.
 
 ## Changing a watcher or a parser
