@@ -136,14 +136,26 @@ over both upstreams — dropped and still-listed — rather than picking one.
 SHA makes the second run a no-op for reasons unrelated to the test. The harness issues a fresh one
 per run; pass `reuse_sha=` only when the unchanged-SHA path is what you are testing.
 
-**Prove the test fails without the fix.** Every fix in this repo was verified by checking out the
-previous workflow and confirming the new test fails against it:
+**Prove the test fails without the fix.** Every fix in this repo was verified by restoring the
+previous version of the changed file and confirming the new test fails against it.
+
+Do **not** reach for `HEAD~1` here. The watcher commits state most minutes, so `HEAD~1` is almost
+always an automated `Update watcher state` commit whose workflow is byte-identical to `HEAD`'s —
+only about 5 of the last 40 commits on `main` touched the workflow at all. Restoring it would run
+the new test against the fixed code twice, the "must FAIL" step would quietly pass, and you would
+have verified nothing. Resolve the previous revision of the *file*:
 
 ```sh
-cp .github/workflows/watch-files.yml /tmp/fixed.yml
-git checkout HEAD~1 -- .github/workflows/watch-files.yml
+FILE=.github/workflows/watch-files.yml      # or watcher/core.py, if that is what you changed
+PREV=$(git log -2 --format=%H -- "$FILE" | tail -1)
+
+# Guard: if the two revisions match, there is nothing to verify against and the check is vacuous.
+git diff --quiet "$PREV" HEAD -- "$FILE" && { echo "no change in $FILE to verify against"; exit 1; }
+
+cp "$FILE" /tmp/fixed-copy
+git checkout "$PREV" -- "$FILE"
 python -m pytest -q tests/test_workflow.py::test_your_new_test   # must FAIL
-cp /tmp/fixed.yml .github/workflows/watch-files.yml
+cp /tmp/fixed-copy "$FILE"
 python -m pytest -q                                              # must PASS
 ```
 
