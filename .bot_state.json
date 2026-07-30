@@ -6704,6 +6704,42 @@
       "chat_id": 7582459199,
       "seq": 1,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-FULLERTON-675--1801-Hughes-Dr--BLDG-675/Software-Engineering-Intern--Summer-2027-_01863012?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Anaheim, CA|Summer 2026#1"
+    },
+    "fcb64cce46aa": {
+      "company": "Copart",
+      "role": "Software Engineering Intern",
+      "location": "Dallas, TX - Head...",
+      "term": "Summer 2027",
+      "apply_url": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964",
+      "source": "Zapply Summer Repo",
+      "message_id": 1047,
+      "chat_id": 7582459199,
+      "seq": 2,
+      "identity": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964|Copart|Software Engineering Intern|Dallas, TX - Head...|Summer 2027#1"
+    },
+    "891b1ffdefb4": {
+      "company": "Copart",
+      "role": "Software Engineering Intern",
+      "location": "Dallas, TX - Head...",
+      "term": "Summer 2027",
+      "apply_url": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109965",
+      "source": "Zapply Summer Repo",
+      "message_id": 1048,
+      "chat_id": 7582459199,
+      "seq": 3,
+      "identity": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109965|Copart|Software Engineering Intern|Dallas, TX - Head...|Summer 2027#1"
+    },
+    "4a7624b6ed2b": {
+      "company": "DRW",
+      "role": "Platform Engineer Intern",
+      "location": "Chicago",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/drweng/jobs/7997729",
+      "source": "Zapply Summer Repo",
+      "message_id": 1049,
+      "chat_id": 7582459199,
+      "seq": 4,
+      "identity": "https://job-boards.greenhouse.io/drweng/jobs/7997729|DRW|Platform Engineer Intern|Chicago|Summer 2027#1"
     }
   },
   "applied": {
@@ -7071,9 +7107,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1,
+  "seq": 4,
   "health": {
     "last_heartbeat": "2026-07-30T17:07:13Z",
-    "last_ok_run": "2026-07-30T17:10:21Z"
+    "last_ok_run": "2026-07-30T17:11:23Z"
   }
 }
