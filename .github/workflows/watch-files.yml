@@ -17,6 +17,16 @@ concurrency:
   group: repo-watcher-state
   cancel-in-progress: false
 
+env:
+  # A run from any ref other than the default branch is forced into dry mode.
+  #
+  # Such a run carries that branch's snapshot of the state files, which is stale the moment the
+  # live watcher moves on, so it re-alerts jobs you have already had. It also cannot save what it
+  # sent: the commit step targets the default branch, and against a shallow checkout of a
+  # divergent branch the rebase conflicts irreconcilably. The result is real messages that are
+  # never recorded — which is precisely what a dispatch from the PR branch did on 2026-07-30.
+  ON_DEFAULT_BRANCH: ${{ github.ref_name == github.event.repository.default_branch }}
+
 jobs:
   watch:
     runs-on: ubuntu-latest
@@ -31,7 +41,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_TOKEN: ${{ github.token }}
-          DRY_RUN: ${{ inputs.dry_run }}
+          DRY_RUN: ${{ inputs.dry_run || github.ref_name != github.event.repository.default_branch }}
         run: |
           python - <<'PY'
           import datetime
@@ -814,6 +824,11 @@ jobs:
 
           if DRY_RUN:
               print("[dry-run] state files not written, nothing committed")
+              if os.environ.get("ON_DEFAULT_BRANCH", "true").lower() != "true":
+                  print(
+                      "[dry-run] forced: this ref is not the default branch, so its state "
+                      "snapshot is stale and could not be saved even if it were written."
+                  )
           else:
               bot_state["health"]["last_ok_run"] = iso(utcnow())
               STATE_FILE.write_text(json.dumps(state, indent=2) + "\n")
@@ -821,7 +836,7 @@ jobs:
           PY
 
       - name: Commit updated state
-        if: ${{ !inputs.dry_run }}
+        if: ${{ !inputs.dry_run && env.ON_DEFAULT_BRANCH == 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -851,7 +866,9 @@ jobs:
       # produces no alerts at all, so continuing to ping would leave that silence behind a green
       # check — exactly the outage this switch exists to surface.
       - name: Ping healthcheck
-        if: ${{ success() && !inputs.dry_run && steps.watcher.outputs.healthy == 'true' }}
+        if: >-
+          ${{ success() && !inputs.dry_run && env.ON_DEFAULT_BRANCH == 'true'
+              && steps.watcher.outputs.healthy == 'true' }}
         env:
           HEALTHCHECK_PING_URL: ${{ secrets.HEALTHCHECK_PING_URL }}
         run: |
@@ -865,7 +882,7 @@ jobs:
     # always() so taps are still processed when the watch job fails, but never on a dry run:
     # this job appends to the Google Sheet, edits Telegram messages and commits .bot_state.json,
     # so leaving it ungated would make a supposed rehearsal mutate external state.
-    if: ${{ always() && !inputs.dry_run }}
+    if: ${{ always() && !inputs.dry_run && github.ref_name == github.event.repository.default_branch }}
     runs-on: ubuntu-latest
 
     steps:

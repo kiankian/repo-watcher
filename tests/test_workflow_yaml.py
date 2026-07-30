@@ -108,3 +108,34 @@ def test_the_commit_step_creates_the_log_dir_before_adding_it():
     add = next(i for i, line in enumerate(lines) if line.startswith("git add"))
     assert mkdir < add
     assert "logs" in lines[add], "the log dir is what needed creating"
+
+
+# --- runs off the default branch cannot write state --------------------------------------
+
+def test_a_non_default_branch_is_forced_into_dry_mode():
+    """A dispatch from a feature branch carries that branch's stale state snapshot, so it
+    re-alerts jobs already sent, and it cannot save what it sent -- the commit step targets the
+    default branch and conflicts irreconcilably against a shallow divergent checkout. That
+    combination sent three unrecorded alerts on 2026-07-30."""
+    workflow = load_workflow()
+    watcher = next(s for s in watch_steps() if s["name"] == "Run watcher")
+
+    assert workflow["env"]["ON_DEFAULT_BRANCH"] == (
+        "${{ github.ref_name == github.event.repository.default_branch }}"
+    )
+    dry = watcher["env"]["DRY_RUN"]
+    assert "inputs.dry_run" in dry and "default_branch" in dry, (
+        "the input alone is not enough: the checkbox does not render when the form is built "
+        "from the default branch, which is how the real run went out un-dry"
+    )
+
+
+def test_state_writing_is_confined_to_the_default_branch():
+    commit = next(s for s in watch_steps() if s["name"] == "Commit updated state")
+    ping = next(s for s in watch_steps() if s["name"] == "Ping healthcheck")
+    callbacks = load_workflow()["jobs"]["process_applies"]["if"]
+
+    for guard, name in ((commit["if"], "commit"), (ping["if"], "ping"), (callbacks, "callbacks")):
+        assert "default_branch" in guard or "ON_DEFAULT_BRANCH" in guard, (
+            f"{name} step must not run off the default branch"
+        )
