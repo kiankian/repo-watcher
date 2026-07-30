@@ -6692,6 +6692,18 @@
       "source": "Simplify Summer Repo",
       "message_id": 1045,
       "chat_id": 7582459199
+    },
+    "058756f48272": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Anaheim, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-FULLERTON-675--1801-Hughes-Dr--BLDG-675/Software-Engineering-Intern--Summer-2027-_01863012?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1046,
+      "chat_id": 7582459199,
+      "seq": 1,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-FULLERTON-675--1801-Hughes-Dr--BLDG-675/Software-Engineering-Intern--Summer-2027-_01863012?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Anaheim, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -7059,9 +7071,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 0,
+  "seq": 1,
   "health": {
     "last_heartbeat": "2026-07-30T15:07:10Z",
-    "last_ok_run": "2026-07-30T15:30:23Z"
+    "last_ok_run": "2026-07-30T15:31:12Z"
   }
 }
