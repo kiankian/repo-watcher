@@ -6752,6 +6752,30 @@
       "chat_id": 7582459199,
       "seq": 5,
       "identity": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016832|Texas Instruments|Network Engineer - Encore Program Int...|Dallas, TX, Unite...|Summer 2027#1"
+    },
+    "e89d73226014": {
+      "company": "PlusAI",
+      "role": "Software Engineer Intern - Robotics",
+      "location": "Santa Clara, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/plus-2/7a1afea9-b468-4b7c-a508-185e8e4032db/apply",
+      "source": "Zapply Summer Repo",
+      "message_id": 1051,
+      "chat_id": 7582459199,
+      "seq": 6,
+      "identity": "https://jobs.lever.co/plus-2/7a1afea9-b468-4b7c-a508-185e8e4032db/apply|PlusAI|Software Engineer Intern - Robotics|Santa Clara, CA|Summer 2027#1"
+    },
+    "db18c20057bd": {
+      "company": "PlusAI",
+      "role": "Full Stack Engineer Intern",
+      "location": "Santa Clara, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/plus-2/b69c9b6d-483f-41d4-b487-97c99332ca40/apply",
+      "source": "Zapply Summer Repo",
+      "message_id": 1052,
+      "chat_id": 7582459199,
+      "seq": 7,
+      "identity": "https://jobs.lever.co/plus-2/b69c9b6d-483f-41d4-b487-97c99332ca40/apply|PlusAI|Full Stack Engineer Intern|Santa Clara, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -7119,9 +7143,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5,
+  "seq": 7,
   "health": {
     "last_heartbeat": "2026-07-30T18:09:09Z",
-    "last_ok_run": "2026-07-30T18:39:18Z"
+    "last_ok_run": "2026-07-30T18:40:16Z"
   }
 }
