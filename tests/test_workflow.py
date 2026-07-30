@@ -481,15 +481,33 @@ def test_a_zero_row_parse_is_also_not_healthy(run_watcher, fixture_rows):
     assert r.healthy is False
 
 
-def test_a_fetch_failure_keeps_the_queue(run_watcher, fixture_rows):
-    """A source that cannot be read must not lose work already queued for it."""
+def test_a_fetch_failure_still_drains_the_queue(run_watcher, fixture_rows):
+    """Queued triples are self-contained, so an unreadable source must not strand them. This test
+    previously asserted the queue was merely *preserved*, which let a bug stand: with the fetch
+    failing on every run while upstream kept committing, the queue never drained at all and
+    already-discovered jobs were never delivered."""
     first = run_watcher(fixture_rows + _burst(40))
     assert len(first.outbox) == 15
 
     r = run_watcher(fixture_rows, start_files=first.files, fetch_status=404)
 
-    assert len(r.outbox) == 15, "the queue survives an unreadable source"
-    assert r.healthy is False
+    assert len(r.sent) == 15, "the queue drains even though the snapshot is unreadable"
+    assert r.outbox == []
+    assert r.healthy is False, "and the source is still reported broken"
+    assert r.last_sha == first.last_sha, "but the sha does not advance on an unusable snapshot"
+
+
+def test_a_repeatedly_failing_fetch_does_not_strand_the_queue(run_watcher, fixture_rows):
+    """The shape that made this reachable: a permanent rename while the repo keeps committing, so
+    the sha differs every run and the unchanged-sha drain path is never taken."""
+    first = run_watcher(fixture_rows + _burst(30))
+    assert len(first.outbox) == 5
+
+    # Fresh sha each run (the harness default), fetch fails every time.
+    second = run_watcher(fixture_rows, start_files=first.files, fetch_status=404)
+
+    assert len(second.sent) == 5
+    assert second.outbox == []
 
 
 def test_a_normal_run_short_circuits_on_an_unchanged_sha(run_watcher, fixture_rows):
@@ -525,3 +543,39 @@ def test_a_dry_run_surfaces_a_broken_parser_on_an_unchanged_sha(run_watcher, fix
 
     assert "extracted 0 rows" in rehearsal.log
     assert rehearsal.healthy is False
+
+
+def test_the_reconciliation_counters_balance_on_a_queue_drain(run_watcher, fixture_rows):
+    """The documented invariant has to hold on a normal backlog drain, or every drain looks like
+    jobs vanished. identities_new counts only fresh discoveries, so queued_before is what makes
+    the sum add up."""
+    first = run_watcher(fixture_rows + _burst(40))
+    drain = run_watcher(fixture_rows, start_files=first.files)
+
+    for r, label in ((first, "burst run"), (drain, "drain run")):
+        rec = next(x for x in r.log_records("runs")
+                   if x.get("state_key") == "SimplifyJobs/Summer2026-Internships#summer")
+        assert rec["queued_before"] + rec["identities_new"] == rec["sent_ok"] + rec["sent_failed"], (
+            f"{label}: queued_before + identities_new must equal sent_ok + sent_failed"
+        )
+        assert rec["outbox_size"] == rec["sent_failed"], f"{label}: outbox_size is the new depth"
+
+    burst = next(x for x in first.log_records("runs")
+                 if x.get("state_key") == "SimplifyJobs/Summer2026-Internships#summer")
+    assert (burst["queued_before"], burst["identities_new"]) == (0, 40)
+    drained = next(x for x in drain.log_records("runs")
+                   if x.get("state_key") == "SimplifyJobs/Summer2026-Internships#summer")
+    assert (drained["queued_before"], drained["identities_new"]) == (15, 0)
+
+
+def test_outbox_size_means_the_same_thing_on_every_path(run_watcher, fixture_rows):
+    """It previously recorded the queue depth *before* draining on the failure paths and *after*
+    on the main path, so the field could not be compared across runs."""
+    first = run_watcher(fixture_rows + _burst(40))
+    broken = run_watcher(fixture_rows, start_files=first.files, fetch_status=404)
+
+    rec = next(x for x in broken.log_records("runs")
+               if x.get("state_key") == "SimplifyJobs/Summer2026-Internships#summer")
+    assert rec["outbox_size"] == len(broken.outbox) == 0, "always the depth after the run"
+    assert rec["queued_before"] == 15
+    assert rec["skip_reason"] == "fetch_failed_404"

@@ -81,7 +81,7 @@ Two append-only logs are committed alongside the state, rotated monthly:
 | File | One line per | Use |
 |---|---|---|
 | `logs/alerts-YYYY-MM.jsonl` | **delivered** Telegram message | `{ts, seq, message_id, watcher, identity, job_hash, company, role, location, term, apply_url}` |
-| `logs/runs-YYYY-MM.jsonl` | watcher per run that did something, plus an hourly heartbeat | `{ts, run_id, watcher, state_key, prev_sha, latest_sha, rows_extracted, prev_row_count, seen_size, identities_new, sent_ok, sent_failed, outbox_size, skip_reason}` |
+| `logs/runs-YYYY-MM.jsonl` | watcher per run that did something, plus an hourly heartbeat | `{ts, run_id, watcher, state_key, prev_sha, latest_sha, rows_extracted, prev_row_count, seen_size, queued_before, identities_new, sent_ok, sent_failed, outbox_size, skip_reason}` |
 
 The alert log exists because `.bot_state.json` cannot serve as one: `pending` is a dict keyed by job hash, so a re-sent alert **overwrites its own record** and the evidence disappears. Reconstructing past duplicates meant diffing gaps in Telegram message IDs; these logs make it a one-line query. The run log turns a shrinking parse into a visible time series rather than something only findable by diffing state commits.
 
@@ -104,10 +104,11 @@ Misses are caught by reconciling what was *observed* against what was *delivered
 | `outbox_size` not trending to zero | `logs/runs-*.jsonl`, and `outbox` in `.watcher_state.json` | jobs were observed as new but never delivered — the queue is stuck |
 | `⚠️ outbox-overflow` | Telegram | the queue exceeded `OUTBOX_CAP` and jobs were dropped. This is a real miss |
 | `⚠️ fetch-failed` / `⚠️ zero-rows` | Telegram, and `skip_reason` in the run log | a source produced nothing; anything posted there while it was broken was never seen |
-| `identities_new` vs `sent_ok + sent_failed` | `logs/runs-*.jsonl` | should always match; a divergence means jobs vanished between selection and delivery |
+| `queued_before + identities_new` vs `sent_ok + sent_failed` | `logs/runs-*.jsonl` | should always match. `identities_new` counts only fresh discoveries, so `queued_before` is needed to balance a backlog drain |
+| `outbox_size` vs `sent_failed` | `logs/runs-*.jsonl` | should match. `outbox_size` is always the depth *after* the run, on every code path |
 | pings stopped | your healthcheck provider | either the dispatch died or a source is unreadable (see below) |
 
-The `outbox` is the important one: every job observed as new is persisted there *before* delivery is attempted and removed only once Telegram confirms it, so a job cannot be quietly dropped between discovery and delivery.
+The `outbox` is the important one: every job observed as new is persisted there *before* delivery is attempted and removed only once Telegram confirms it, so a job cannot be quietly dropped between discovery and delivery. It drains on every run, including runs where the source could not be fetched or parsed — the queued triples are self-contained, so a permanent upstream rename must not strand jobs that were already discovered.
 
 ### Health alerts
 

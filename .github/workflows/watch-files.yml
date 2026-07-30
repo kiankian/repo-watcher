@@ -531,11 +531,15 @@ jobs:
 
               prev_row_count = saved.get("last_row_count")
               curr_rows = None
+              queued_before = len(outbox)
+              # Set when this run could not use a fresh snapshot. It never stops the outbox from
+              # draining: queued triples are self-contained and owe nothing to the current parse.
+              skip_reason = None
 
               if upstream_unchanged:
                   # Reached only because the outbox has work. Skip the fetch and go straight to
-                  # draining: the queued rows are self-contained and need no re-parse.
-                  print(f"{state_key}: sha unchanged, draining {len(outbox)} queued job(s).")
+                  # draining: the queued rows need no re-parse.
+                  print(f"{state_key}: sha unchanged, draining {queued_before} queued job(s).")
               else:
                   try:
                       file_text = get_raw_file(w["owner"], w["repo"], latest_sha, w["file"])
@@ -550,92 +554,104 @@ jobs:
                           f"{w['label']} could not fetch {w['owner']}/{w['repo']}:{w['file']} "
                           f"({e.code}). No alerts can come from this source until it is fixed.",
                       )
-                      record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
-                                 rows_extracted=0, prev_row_count=prev_row_count,
-                                 seen_size=len(seen_list or []), identities_new=0, sent_ok=0,
-                                 sent_failed=0, outbox_size=len(outbox),
-                                 skip_reason=f"fetch_failed_{e.code}")
-                      continue
+                      skip_reason = f"fetch_failed_{e.code}"
 
-                  section_text = extract_section(file_text, w["section_start"], w["section_end"])
-                  if w["parser"] == "html":
-                      curr_rows = parse_html_rows(
-                          section_text, w["term_col"], w["apply_col"], w["default_term"]
+                  if skip_reason is None:
+                      section_text = extract_section(
+                          file_text, w["section_start"], w["section_end"]
                       )
-                  else:
-                      # Defaults reproduce the original Vansh call; the others override them.
-                      curr_rows = parse_markdown_rows(
-                          section_text,
-                          role_col=w.get("role_col", 1),
-                          loc_col=w.get("loc_col", 2),
-                          apply_col=w.get("apply_col", 3),
-                          term_col=w.get("term_col", 4),
-                          default_term=w.get("default_term"),
-                          min_cells=w.get("min_cells", 5),
-                          strip_bold=w.get("strip_bold", False),
-                      )
+                      if w["parser"] == "html":
+                          curr_rows = parse_html_rows(
+                              section_text, w["term_col"], w["apply_col"], w["default_term"]
+                          )
+                      else:
+                          # Defaults reproduce the original Vansh call; others override them.
+                          curr_rows = parse_markdown_rows(
+                              section_text,
+                              role_col=w.get("role_col", 1),
+                              loc_col=w.get("loc_col", 2),
+                              apply_col=w.get("apply_col", 3),
+                              term_col=w.get("term_col", 4),
+                              default_term=w.get("default_term"),
+                              min_cells=w.get("min_cells", 5),
+                              strip_bold=w.get("strip_bold", False),
+                          )
 
-                  if not curr_rows:
-                      # A renamed heading or reshaped table lands here. Never seed an empty set and
-                      # never advance the SHA — log it, report it, and retry on the next run.
-                      print(
-                          f"WARNING: extracted 0 rows from {state_key}; "
-                          "skipping (markers/format may have changed)."
-                      )
-                      broken_sources.append(state_key)
-                      health_alert(
-                          f"zero-rows:{state_key}",
-                          f"{w['label']} parsed 0 rows from {w['file']} — section markers or "
-                          "table format may have changed. No alerts can come from this source "
-                          "until it is fixed.",
-                      )
-                      record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
-                                 rows_extracted=0, prev_row_count=prev_row_count,
-                                 seen_size=len(seen_list or []), identities_new=0, sent_ok=0,
-                                 sent_failed=0, outbox_size=len(outbox),
-                                 skip_reason="zero_rows")
-                      continue
+                      if not curr_rows:
+                          # A renamed heading or reshaped table lands here. Never seed an empty
+                          # set and never advance the SHA — log it, report it, retry next run.
+                          print(
+                              f"WARNING: extracted 0 rows from {state_key}; "
+                              "skipping (markers/format may have changed)."
+                          )
+                          broken_sources.append(state_key)
+                          health_alert(
+                              f"zero-rows:{state_key}",
+                              f"{w['label']} parsed 0 rows from {w['file']} — section markers or "
+                              "table format may have changed. No alerts can come from this "
+                              "source until it is fixed.",
+                          )
+                          skip_reason = "zero_rows"
+                          curr_rows = None
+                      else:
+                          if prev_row_count and (
+                              len(curr_rows) < prev_row_count * SHRINK_ALARM_RATIO
+                          ):
+                              # Harmless now that `seen` is a union, but still worth surfacing:
+                              # it is how the 84-row -> 28-row collapse announced itself.
+                              health_alert(
+                                  f"shrink:{state_key}",
+                                  f"{w['label']} extracted {len(curr_rows)} rows, down from "
+                                  f"{prev_row_count}. Dedup is unaffected, but the parse may be "
+                                  "truncating.",
+                              )
 
-                  if prev_row_count and len(curr_rows) < prev_row_count * SHRINK_ALARM_RATIO:
-                      # Harmless now that `seen` is a union, but still worth surfacing: it is how
-                      # the 84-row -> 28-row collapse would have announced itself.
-                      health_alert(
-                          f"shrink:{state_key}",
-                          f"{w['label']} extracted {len(curr_rows)} rows, down from "
-                          f"{prev_row_count}. Dedup is unaffected, but the parse may be "
-                          "truncating.",
-                      )
+                          if seen_list is None:
+                              # Silent bootstrap: a source seen for the first time records what
+                              # is currently listed and alerts nothing, so adding a watcher
+                              # cannot flood the chat.
+                              seeded = [i for _r, i, _o in assign_identities(curr_rows)]
+                              state[state_key] = {
+                                  "last_sha": latest_sha,
+                                  "seen": seeded[-SEEN_CAP:],
+                                  # Deliberately empty: the seeded identities already silence
+                                  # this snapshot, and a legacy URL suppresses a row whatever its
+                                  # term, so seeding URLs here would stop a requisition relisted
+                                  # for a new season from ever alerting. Same reasoning as
+                                  # migrate_state — legacy is only for state with no term.
+                                  "seen_legacy_urls": [],
+                                  "last_row_count": len(curr_rows),
+                                  "outbox": [],
+                              }
+                              print(
+                                  f"Bootstrapped {state_key} at {latest_sha} "
+                                  f"with {len(seeded)} identities."
+                              )
+                              record_run(
+                                  w["label"], state_key, prev_sha=last_sha,
+                                  latest_sha=latest_sha, rows_extracted=len(curr_rows),
+                                  prev_row_count=prev_row_count, seen_size=len(seeded),
+                                  queued_before=0, identities_new=0, sent_ok=0, sent_failed=0,
+                                  outbox_size=0, skip_reason="bootstrap",
+                              )
+                              continue
 
-                  if seen_list is None:
-                      # Silent bootstrap: a source seen for the first time records what is
-                      # currently listed and alerts nothing, so adding a watcher cannot flood.
-                      seeded = [ident for _r, ident, _o in assign_identities(curr_rows)]
-                      state[state_key] = {
-                          "last_sha": latest_sha,
-                          "seen": seeded[-SEEN_CAP:],
-                          # Deliberately empty: the seeded identities already silence this
-                          # snapshot, and a legacy URL suppresses a row whatever its term, so
-                          # seeding URLs here would stop a requisition relisted for a new season
-                          # from ever alerting. Same reasoning as migrate_state — legacy is only
-                          # for state that recorded no term at all.
-                          "seen_legacy_urls": [],
-                          "last_row_count": len(curr_rows),
-                          "outbox": [],
-                      }
-                      print(
-                          f"Bootstrapped {state_key} at {latest_sha} "
-                          f"with {len(seeded)} identities."
-                      )
-                      record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
-                                 rows_extracted=len(curr_rows), prev_row_count=prev_row_count,
-                                 seen_size=len(seeded), identities_new=0, sent_ok=0,
-                                 sent_failed=0, outbox_size=0, skip_reason="bootstrap")
-                      continue
+              if seen_list is None:
+                  # Unreadable on its very first sighting: there is no seen set to select
+                  # against, and nothing can have been queued for it yet.
+                  record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
+                             rows_extracted=0, prev_row_count=prev_row_count, seen_size=0,
+                             queued_before=queued_before, identities_new=0, sent_ok=0,
+                             sent_failed=0, outbox_size=queued_before,
+                             skip_reason=skip_reason or "unbootstrapped")
+                  continue
 
               fresh_pairs = select_new(curr_rows, set(seen_list), legacy_urls) if curr_rows else []
               queued = {ident for _r, ident, _o in outbox}
               # Queued work first, so the oldest jobs drain ahead of newly-seen rows and cannot be
-              # starved by a steady stream of new listings.
+              # starved by a steady stream of new listings. This runs even when the snapshot could
+              # not be fetched or parsed — otherwise a permanent upstream rename would strand
+              # every already-discovered job behind a source that never recovers.
               to_send = list(outbox) + [p for p in fresh_pairs if p[1] not in queued]
 
               delivered, undelivered = deliver_listings(to_send, w["label"])
@@ -661,12 +677,14 @@ jobs:
               record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
                          rows_extracted=len(curr_rows) if curr_rows is not None else 0,
                          prev_row_count=prev_row_count,
-                         seen_size=min(len(merged), SEEN_CAP), identities_new=len(fresh_pairs),
-                         sent_ok=len(delivered), sent_failed=len(undelivered),
-                         outbox_size=min(len(undelivered), OUTBOX_CAP), skip_reason=None)
+                         seen_size=min(len(merged), SEEN_CAP), queued_before=queued_before,
+                         identities_new=len(fresh_pairs), sent_ok=len(delivered),
+                         sent_failed=len(undelivered),
+                         outbox_size=min(len(undelivered), OUTBOX_CAP),
+                         skip_reason=skip_reason)
               state[state_key] = {
-                  # Safe to advance now: anything undelivered is durably queued rather than
-                  # depending on being re-derived from a later parse.
+                  # Only advance when a snapshot was actually parsed. Anything undelivered is
+                  # durably queued rather than depending on being re-derived from a later parse.
                   "last_sha": latest_sha if curr_rows is not None else last_sha,
                   "seen": merged[-SEEN_CAP:],
                   "seen_legacy_urls": legacy_urls,
