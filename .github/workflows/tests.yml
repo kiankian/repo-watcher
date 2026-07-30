@@ -1,0 +1,37 @@
+name: Tests
+
+# Path-filtered on purpose: the watcher pushes a "Update watcher state" commit on most runs
+# (roughly every minute), and those touch only the two state JSON files. Without these filters
+# every one of them would start a test run.
+on:
+  push:
+    paths:
+      - 'watcher/**'
+      - 'tests/**'
+      - 'pytest.ini'
+      - '.github/workflows/watch-files.yml'
+      - '.github/workflows/tests.yml'
+  pull_request:
+    paths:
+      - 'watcher/**'
+      - 'tests/**'
+      - 'pytest.ini'
+      - '.github/workflows/watch-files.yml'
+      - '.github/workflows/tests.yml'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install test deps
+        run: pip install --quiet pytest
+
+      - name: Run tests
+        run: python -m pytest -q
