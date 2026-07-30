@@ -2,6 +2,10 @@
 
 A GitHub Actions workflow that watches job-board repos and sends Telegram alerts when new listings appear.
 
+See [`TESTING.md`](TESTING.md) for the recall-first validation procedure, including
+production-parser fixtures and a per-commit regression runner designed to catch
+missed new listings without contacting Telegram or Google Sheets.
+
 Currently watches **6 sources across 4 repos** (see the `WATCHERS` list in `.github/workflows/watch-files.yml` for the source of truth — Speedyapply is implemented as 3 entries, one per category table, sharing one label):
 
 | Watcher label | Repo | Branch | File | Scope |
