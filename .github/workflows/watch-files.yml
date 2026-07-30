@@ -197,14 +197,25 @@ jobs:
           BOT_STATE_FILE = pathlib.Path(".bot_state.json")
           LOG_DIR = pathlib.Path("logs")
           SEND_SPACING = 1.1  # seconds between job sends; Telegram allows ~1 msg/sec to one chat
-          BURST_CAP = 25  # max sends per watcher per run; the rest are queued in the outbox
+          BURST_CAP = 25  # max send *attempts* per watcher per run; the rest queue in the outbox
           OUTBOX_CAP = 1000  # queued-but-undelivered ceiling; at 25/run this is ~40 runs of backlog
+          # Whole-run ceiling on time spent sending. A failing send burns ~15s of backoff before
+          # it gives up, so without this a wide outage could still spend BURST_CAP x watchers x 15s
+          # in one job. The state write happens after the loop, so a run that overruns its job
+          # timeout persists nothing — not the queue, not the alarm timestamps — and the next run
+          # repeats it identically.
+          SEND_BUDGET_SECONDS = 600
           DRY_RUN = os.environ.get("DRY_RUN", "").strip().lower() == "true"
           RUN_ID = os.environ.get("GITHUB_RUN_ID", "local")
           SILENCE_ALARM_AFTER = 2 * 3600  # gap without a successful run that is worth reporting
           ALARM_REPEAT_AFTER = 30 * 60  # min gap between repeats of one alarm kind
           HEARTBEAT_EVERY = 3600  # seconds between run-log lines on otherwise quiet runs
           SHRINK_ALARM_RATIO = 0.7  # alarm when a parse returns under 70% of the previous rows
+
+
+          # One deadline for the whole run, not per watcher, so six unreachable sources cannot
+          # each spend the full budget. Monotonic: unaffected by clock changes on the runner.
+          SEND_DEADLINE = time.monotonic() + SEND_BUDGET_SECONDS
 
 
           def utcnow():
@@ -339,12 +350,16 @@ jobs:
               if DRY_RUN:
                   print(f"[dry-run] would send health alert [{kind}]")
                   return
+              # Record the attempt before sending, not after. A Telegram outage is exactly when
+              # this fires most, and it is also when the send itself fails — leaving the
+              # timestamp unset there meant the limiter never engaged, so every failed job
+              # triggered another alert that burned its own ~15s of retry backoff. The anomaly
+              # is still visible in the run log and the step summary if this send is lost.
+              alarms[kind] = iso(now)
               try:
                   telegram_send_text(f"⚠️ watcher: {message}")
               except Exception as exc:
                   print(f"Failed to send health alert ({kind}): {type(exc).__name__}: {exc}")
-                  return
-              alarms[kind] = iso(now)
 
 
           def deliver_listings(new_pairs, label):
@@ -355,12 +370,19 @@ jobs:
               listing as seen would drop it permanently — it would never be reconsidered.
               """
               delivered, undelivered = [], []
+              attempted = 0
               for entry, identity, occurrence in new_pairs:
-                  if len(delivered) >= BURST_CAP:
+                  # Cap *attempts*, not successes. Capping on len(delivered) meant that when every
+                  # send was failing the counter never moved, so the whole queue — up to
+                  # OUTBOX_CAP entries, each burning ~15s of retry backoff — was attempted in a
+                  # single job. That runs for hours, past the job timeout, and the state write
+                  # never happens, so the queue is not persisted and the next run repeats it.
+                  if attempted >= BURST_CAP or time.monotonic() > SEND_DEADLINE:
                       undelivered.append((entry, identity, occurrence))
                       continue
-                  if delivered:
+                  if attempted:
                       time.sleep(SEND_SPACING)  # stay under Telegram's ~1 msg/sec per-chat limit
+                  attempted += 1
                   # The occurrence keeps repeated identical rows on separate pending keys. Without
                   # it they share one, each send overwrites the last, and tapping an earlier alert
                   # logs a sibling's message while the rest can never be recorded.
@@ -380,8 +402,8 @@ jobs:
                       print(f"Failed to send job alert ({h}): {type(exc).__name__}: {exc}")
                       health_alert(
                           f"send-failed:{label}",
-                          f"could not deliver {entry[0]} - {entry[1]} ({type(exc).__name__}); "
-                          "it stays unrecorded and will be retried",
+                          f"{label} could not deliver {entry[0]} - {entry[1]} "
+                          f"({type(exc).__name__}); it stays unrecorded and will be retried",
                       )
                       undelivered.append((entry, identity, occurrence))
                       continue

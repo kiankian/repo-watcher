@@ -211,9 +211,11 @@ curl "https://api.telegram.org/bot<TOKEN>/deleteWebhook"
 Pure parsing and dedup logic lives in `watcher/core.py`; the workflow imports it and keeps only its I/O. `tests/conftest.py` extracts the python block straight out of `watch-files.yml` and runs it against a temporary checkout with `urlopen` stubbed, so the end-to-end tests drive the same code that runs in CI rather than a reimplementation.
 
 ```sh
-pip install pytest
+pip install pytest pyyaml
 python -m pytest -q
 ```
+
+`pyyaml` is needed by `tests/test_workflow_yaml.py`, which parses `watch-files.yml` to assert on the job- and step-level `if:` guards that Actions evaluates and the python harness cannot reach. Without it, collection aborts before any test runs.
 
 `.github/workflows/tests.yml` runs on pushes and PRs that touch `watcher/`, `tests/`, or either workflow. It is path-filtered deliberately: the watcher pushes a state commit most minutes, and without filters every one of them would start a test run.
 

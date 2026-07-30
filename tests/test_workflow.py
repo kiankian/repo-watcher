@@ -614,3 +614,43 @@ def test_outbox_size_means_the_same_thing_on_every_path(run_watcher, fixture_row
     assert rec["outbox_size"] == len(broken.outbox) == 0, "always the depth after the run"
     assert rec["queued_before"] == 15
     assert rec["skip_reason"] == "fetch_failed_404"
+
+
+# --- bounded work during a delivery outage ----------------------------------------------
+
+def test_a_total_outage_caps_attempts_not_successes(run_watcher, fixture_rows, baseline):
+    """BURST_CAP used to count successes. With every send failing that counter never moved, so
+    the entire queue -- up to OUTBOX_CAP entries at ~15s of retry backoff each -- was attempted
+    in one job. That overruns the job timeout, and since the state write happens after the loop
+    the queue is never persisted and the next run repeats it identically."""
+    r = run_watcher(fixture_rows + _burst(60), fail_all=True)
+
+    assert len({t for t in r.sent}) == 25, "exactly BURST_CAP jobs attempted, not all 60"
+    assert len(r.sent) == 25 * 5, "and each attempt exhausts its five retries, nothing more"
+    assert len(r.outbox) == 60, "nothing is lost: attempted-and-failed plus never-attempted"
+    assert len(r.seen) == len(baseline.seen), "nothing was delivered, so nothing is recorded"
+
+
+def test_a_total_outage_alerts_once_not_once_per_job(run_watcher, fixture_rows):
+    """During a real outage the health notice fails too, and recording its timestamp only on
+    success meant the rate limiter never engaged: every failed job triggered another alert that
+    burned its own ~15s of retry backoff, doubling an already-oversized loop.
+
+    fail_all rather than fail_for, deliberately. An earlier version of this test used
+    fail_for=<label>, which does not match the send-failure notice -- that message names the
+    source but not the job text -- so the health send succeeded, the limiter engaged for the
+    ordinary reason, and the test passed against the unfixed code."""
+    r = run_watcher(fixture_rows + _burst(60), fail_all=True)
+
+    assert len({t for t in r.health}) == 1, "one send-failed alert, not one per failed job"
+    assert len(r.health) == 5, "attempted once, with its retries, then rate-limited"
+
+
+def test_the_send_budget_stops_a_run_before_it_overruns(run_watcher, fixture_rows):
+    """Belt and braces on the attempt cap: six unreachable sources could still spend
+    BURST_CAP x 15s each. The whole-run deadline bounds that regardless."""
+    # 100s of clock per reading exhausts the 600s budget partway through the burst.
+    r = run_watcher(fixture_rows + _burst(60), monotonic_step=100)
+
+    assert 0 < len(r.sent) < 25, f"stopped early on the budget, sent {len(r.sent)}"
+    assert len(r.outbox) == 60 - len(r.sent), "everything unsent is queued, not dropped"

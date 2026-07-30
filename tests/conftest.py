@@ -82,10 +82,13 @@ class _Resp(io.BytesIO):
 
 
 def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_at=None,
-                  fetch_status=None, fetches=None):
+                  fetch_status=None, fetches=None, fail_all=False):
     """Stub urlopen.
 
     fail_for:     substring of the message text that 429s on every attempt (permanent failure)
+    fail_all:     every sendMessage 429s -- job alerts *and* health notices alike, which is what
+                  a real Telegram outage looks like. fail_for cannot express that: the
+                  send-failure notice does not repeat the text of the job it is about.
     fail_once_at: 0-based send index that 429s once, to exercise the retry path
     fetch_status: HTTP status to raise when fetching the watched file (e.g. 404 for a rename)
     """
@@ -121,7 +124,7 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
             # Health notices share sendMessage but are not job alerts; keep them apart so a
             # test asserting "no alerts" is not satisfied or broken by an operational notice.
             (health if body["text"].startswith("\u26a0\ufe0f") else sent).append(body["text"])
-            if (fail_for and fail_for in body["text"]) or i == fail_once_at:
+            if fail_all or (fail_for and fail_for in body["text"]) or i == fail_once_at:
                 raise urllib.error.HTTPError(
                     url, 429, "Too Many Requests", {},
                     io.BytesIO(json.dumps(
@@ -201,7 +204,7 @@ def run_watcher():
 
     def run(upstream_rows, start_files=None, fail_for=None, fail_once_at=None,
             drop_target_state=False, dry_run=False, capture_summary=False,
-            fetch_status=None, reuse_sha=None):
+            fetch_status=None, reuse_sha=None, monotonic_step=None, fail_all=False):
         work = Path(tempfile.mkdtemp())
         try:
             for name in (".watcher_state.json", ".bot_state.json"):
@@ -223,6 +226,7 @@ def run_watcher():
             fetches = []
             sent, health = [], []
             saved_cwd, saved_sleep = os.getcwd(), time.sleep
+            saved_monotonic = time.monotonic
             saved_urlopen = urllib.request.urlopen
             saved_stdout = sys.stdout
             buf = io.StringIO()
@@ -246,9 +250,19 @@ def run_watcher():
                 os.environ["GITHUB_OUTPUT"] = str(work / "step_output.txt")
                 urllib.request.urlopen = _make_urlopen(
                     state_before, build_html(upstream_rows), sent, health, head_sha,
-                    fail_for, fail_once_at, fetch_status, fetches
+                    fail_for, fail_once_at, fetch_status, fetches, fail_all
                 )
                 time.sleep = lambda _s: None  # keep send spacing from slowing the suite
+                if monotonic_step:
+                    # Deterministic clock: each reading advances by a fixed amount, so the
+                    # run-wide send budget can be exercised without the suite actually waiting.
+                    ticks = [0.0]
+
+                    def fake_monotonic():
+                        ticks[0] += monotonic_step
+                        return ticks[0]
+
+                    time.monotonic = fake_monotonic
                 sys.stdout = buf
                 exec(compile(workflow_block(0), "<watch-files.yml>", "exec"),
                      {"__name__": "__main__"})
@@ -260,6 +274,7 @@ def run_watcher():
                 _evict_watcher_modules()
                 urllib.request.urlopen = saved_urlopen
                 time.sleep = saved_sleep
+                time.monotonic = saved_monotonic
 
             files = {
                 name: (work / name).read_text()
