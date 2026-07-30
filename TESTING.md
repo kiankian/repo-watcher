@@ -13,6 +13,18 @@ the actual watcher configuration and parser functions for isolated fixtures.
 They never contact GitHub, Telegram, or Google Sheets and never modify the two
 committed state files.
 
+Copying applies to call sites too, not just function bodies. A test that calls a
+production parser with arguments production never passes will pass while
+production is broken, so section 3 derives every parser call from one `effective()`
+helper that mirrors the workflow's real call sites, and pins those call sites so
+that editing them fails the run instead of drifting silently.
+
+Read section 9 before treating a green run as safety. Every check here is
+triggered by editing this repository, while the largest recall risks — no run
+happening at all, upstream reformatting with no local commit, a source silently
+parsing zero rows for weeks — are not, and none of these checks are enforced by
+CI.
+
 ## 1. Define the change's risk before editing
 
 Write down the answers in the pull request before choosing tests:
@@ -130,8 +142,71 @@ enabled = [w for w in WATCHERS if w.get("enabled", True)]
 assert len(WATCHERS) == 8, f"review expected watcher count: {len(WATCHERS)}"
 assert len(enabled) == 6, f"review enabled scope: {len(enabled)}"
 
+# --- Pin the production call sites -----------------------------------------------------
+# classify() below re-expresses the alert decision, which lives inline in the watcher loop
+# and therefore cannot be imported. Pin the exact production lines so that editing them
+# fails this runner instead of silently drifting away from the copy in this guide.
+PRODUCTION_LINES = (
+    # cumulative-URL identity
+    "new_listings = [r for r in curr_rows if r[4] and r[4] not in seen_set]",
+    # snapshot identity
+    "prev_keys = {row_key(r) for r in prev_rows}",
+    "new_listings = [r for r in curr_rows if row_key(r) not in prev_keys]",
+    # snapshot empty-parse guard -- conditional on prev_rows being non-empty (see section 4)
+    "if prev_rows and not curr_rows:",
+    # snapshot parser call -- passes NO column arguments
+    "curr_rows = parse_markdown_rows(section_text)",
+    # per-watcher commit fetch -- still unguarded, so one bad repo aborts the whole run
+    '''latest = get_json(f"https://api.github.com/repos/{repo_full}/commits/{w['branch']}")''',
+)
+# Match whole stripped lines, never substrings: a substring check happily accepts appended
+# code (a `[:25]` burst cap on the end of a dedup line would slip straight through).
+source_lines = {line.strip() for line in SOURCE.read_text().splitlines()}
+for pinned in PRODUCTION_LINES:
+    assert pinned in source_lines, (
+        f"production logic changed; re-derive parse()/classify() before trusting this run: {pinned!r}"
+    )
+
+# The snapshot path calls parse_markdown_rows(section_text) with no arguments, so every
+# per-watcher column override is IGNORED in production. A snapshot markdown watcher that
+# declares one is mis-parsed in production while a config-driven test still passes, so fail
+# loudly here. Disabled watchers are checked too: enabling one is a one-line flip.
+SNAPSHOT_IGNORED_KEYS = ("role_col", "loc_col", "apply_col", "term_col",
+                         "default_term", "min_cells", "strip_bold")
+for w in WATCHERS:
+    if w["parser"] == "markdown" and w.get("dedup") != "cumulative_url":
+        ignored = [k for k in SNAPSHOT_IGNORED_KEYS if k in w]
+        assert not ignored, (
+            f"{w['state_key']}: the snapshot path ignores {ignored}, so production reads the "
+            "parser's default columns and can drop or mis-key every row. Either pass this "
+            "watcher's config at the snapshot parse_markdown_rows() call in watch-files.yml, "
+            'or give the source "dedup": "cumulative_url" (that path does pass the config).'
+        )
+
 def md_row(cells):
     return "| " + " | ".join(cells) + " |"
+
+def effective(w):
+    """The parser arguments production actually uses for this watcher.
+
+    Fixtures and parsing are both driven from this one place, so a fixture can never be
+    built against columns production does not actually read. Mirror watch-files.yml here.
+    """
+    if w["parser"] == "html":
+        return {"role_col": 1, "loc_col": 2,
+                "apply_col": w["apply_col"], "term_col": w["term_col"],
+                "default_term": w["default_term"], "strip_bold": False,
+                # parse_html_rows derives its own minimum cell count.
+                "min_cells": max(w["apply_col"], w["term_col"] or 0) + 1}
+    if w.get("dedup") == "cumulative_url":
+        # The cumulative path passes the full per-watcher column config.
+        return {"role_col": w.get("role_col", 1), "loc_col": w.get("loc_col", 2),
+                "apply_col": w["apply_col"], "term_col": w["term_col"],
+                "default_term": w["default_term"], "min_cells": w.get("min_cells", 5),
+                "strip_bold": w.get("strip_bold", False)}
+    # The snapshot path passes nothing, so parse_markdown_rows' own defaults win.
+    return {"role_col": 1, "loc_col": 2, "apply_col": 3, "term_col": 4,
+            "default_term": None, "min_cells": 5, "strip_bold": False}
 
 def fixture(w, rows):
     """Build a minimal source file using this production watcher's markers."""
@@ -141,37 +216,40 @@ def fixture(w, rows):
             for cells in rows
         )
     else:
-        width = max(w.get("min_cells", 5), w.get("apply_col", 3) + 1)
+        width = len(rows[0])
         body = md_row(["Company"] + [f"H{i}" for i in range(1, width)]) + "\n"
         body += md_row(["---"] * width) + "\n"
         body += "\n".join(md_row(cells) for cells in rows)
     return f"noise\n{w['section_start']}\n{body}\n{w['section_end']}\nout-of-scope"
 
 def cells_for(w, company, role, location, url):
-    apply_col = w.get("apply_col", 3)
-    width = max(w.get("min_cells", 5), apply_col + 1,
-                (w.get("term_col") or 0) + 1)
+    e = effective(w)
+    width = max(e["min_cells"], e["apply_col"] + 1, (e["term_col"] or 0) + 1)
     cells = [""] * width
-    cells[0], cells[w.get("role_col", 1)], cells[w.get("loc_col", 2)] = company, role, location
-    if w.get("term_col") is not None:
-        cells[w["term_col"]] = "Summer &amp; Fall 2099"
+    cells[0], cells[e["role_col"]], cells[e["loc_col"]] = company, role, location
+    if e["term_col"] is not None:
+        cells[e["term_col"]] = "Summer &amp; Fall 2099"
     if w["parser"] == "html" or "speedyapply/" in w["state_key"]:
-        cells[apply_col] = f'<a href="{url}">Apply</a>'
+        cells[e["apply_col"]] = f'<a href="{url}">Apply</a>'
     else:
-        cells[apply_col] = f"[Apply]({url})"
+        cells[e["apply_col"]] = f"[Apply]({url})"
     return cells
 
 def parse(w, text):
+    """Call the parser exactly the way the production loop calls it for this watcher."""
     section = extract_section(text, w["section_start"], w["section_end"])
     if w["parser"] == "html":
         return parse_html_rows(section, w["term_col"], w["apply_col"], w["default_term"])
-    return parse_markdown_rows(
-        section,
-        role_col=w.get("role_col", 1), loc_col=w.get("loc_col", 2),
-        apply_col=w.get("apply_col", 3), term_col=w.get("term_col", 4),
-        default_term=w.get("default_term"), min_cells=w.get("min_cells", 5),
-        strip_bold=w.get("strip_bold", False),
-    )
+    if w.get("dedup") == "cumulative_url":
+        return parse_markdown_rows(
+            section,
+            role_col=w.get("role_col", 1), loc_col=w.get("loc_col", 2),
+            apply_col=w["apply_col"], term_col=w["term_col"],
+            default_term=w["default_term"], min_cells=w.get("min_cells", 5),
+            strip_bold=w.get("strip_bold", False),
+        )
+    # No keyword arguments on purpose: the snapshot path passes none.
+    return parse_markdown_rows(section)
 
 def classify(w, previous, current):
     """Mirror the workflow's two intentional listing-identity models."""
@@ -182,9 +260,10 @@ def classify(w, previous, current):
     return [r for r in current if row_key(r) not in previous_keys]
 
 for w in enabled:
+    e = effective(w)
     url1 = "https://jobs.example.test/apply?job=old&source=board"
     url2 = "https://jobs.example.test/apply?job=NEW&source=board"
-    company = "**Example &amp; Co**" if w.get("strip_bold") else "Example &amp; Co"
+    company = "**Example &amp; Co**" if e["strip_bold"] else "Example &amp; Co"
     old_cells = cells_for(w, company, "Software Engineer Intern", "Remote", url1)
     new_cells = cells_for(w, "↳", "Platform Engineer Intern", "New York, NY", url2)
     parsed_old = parse(w, fixture(w, [old_cells]))
@@ -195,6 +274,14 @@ for w in enabled:
     assert parsed_old[0][0] == "Example & Co", (w["state_key"], parsed_old)
     assert parsed_both[1][0] == "Example & Co", (w["state_key"], parsed_both)
     assert parsed_both[1][4] == url2, (w["state_key"], parsed_both)
+
+    # The term must come from the column production actually reads, entity-decoded.
+    expected_term = e["default_term"] if e["term_col"] is None else "Summer & Fall 2099"
+    assert parsed_both[1][3] == expected_term, (w["state_key"], parsed_both)
+
+    # An empty apply URL is a dead "Apply" button and an unloggable job. The snapshot path
+    # would still alert on such a row, so assert the URL rather than just the row count.
+    assert parsed_old[0][4] == url1, (w["state_key"], parsed_old)
 
     previous = [url1] if w.get("dedup") == "cumulative_url" else parsed_old
     new_jobs = classify(w, previous, parsed_both)
@@ -208,6 +295,14 @@ for w in enabled:
 
     # Missing markers/empty parses must be detectable so callers preserve old state/SHA.
     assert parse(w, "no configured markers here") == []
+
+    # Upstream dropping a single column pushes rows below the effective min_cells, so the
+    # parser returns nothing and the empty-guard then skips this source on EVERY later run,
+    # logging only a WARNING. This is the silent-blackout mechanism section 9 monitors for;
+    # assert it here so nobody mistakes "state preserved" for "still catching jobs".
+    if w["parser"] == "markdown":
+        narrow = cells_for(w, company, "Software Engineer Intern", "Remote", url1)[:-1]
+        assert parse(w, fixture(w, [narrow])) == [], (w["state_key"], "expected blackout")
 
 print(f"PASS: every one of {len(enabled)} enabled watcher entries detected its injected job")
 PY
@@ -231,16 +326,39 @@ two consecutive runs with an isolated state object:
 | Saved state + one injected in-scope row | 1 | new snapshot/URL and SHA saved |
 | Same SHA and initialized state | 0 | network/parser skipped |
 | Changed SHA, same listings | 0 | SHA advances; identities remain known |
-| Changed SHA, missing marker or zero rows | 0 | **old state and old SHA preserved** |
+| Changed SHA, zero rows, **non-empty** prior rows | 0 | old state and old SHA preserved |
+| Changed SHA, zero rows, prior rows `[]` (snapshot) | 0 | ⚠️ guard does **not** fire; SHA advances with `rows: []` |
+| Changed SHA, zero rows (cumulative) | 0 | old state and old SHA preserved (guard is unconditional) |
 | Existing row removed | 0 | snapshot drops it; cumulative seen set retains URL |
 | Removed row returns | snapshot: 1; cumulative: 0 | follows the documented identity model |
-| Alert send fails | 0 successful | note: current code still advances watcher state |
+| Alert send fails | 0 successful | ⚠️ current code still advances watcher state |
+| One watcher's commit fetch returns 404/403 | 0 for **all** watchers | ⚠️ run aborts; no state persisted at all |
 
-The final row is a known high-recall risk: because state advances after a failed
-Telegram send, that job is not retried on the next run. Any change touching send
-or state ordering must include a mocked send-failure test and must not make this
-failure mode worse; a deliberate retry/outbox redesign should add migration and
-recovery tests.
+The two empty-parse rows differ because the guards differ. The cumulative path
+guards unconditionally, but the snapshot guard is `if prev_rows and not
+curr_rows`, so an empty `rows: []` snapshot (which bootstrap can seed during a
+quiet window) is falsy and the SHA advances anyway. That is not itself a missed
+job — the next non-empty parse re-alerts everything — but it means "state
+preserved" is not a guarantee you can assume for the snapshot path.
+
+The `Alert send fails` row is the single worst recall bug in the repo: the send
+error is caught and skipped, yet the row/URL is still written into state at the
+end of the watcher block, so the job is permanently marked seen and **never
+retried**. Any change touching send or state ordering must include a mocked
+send-failure test and must not make this failure mode worse; a deliberate
+retry/outbox redesign should add migration and recovery tests.
+
+The last row is untested and unbounded: the per-watcher commit fetch is not
+wrapped in `try`/`except`, and `urlopen_with_retry` re-raises any HTTP status
+below 500. A renamed branch, a repo going private, or a 404 therefore aborts the
+whole job, so every watcher after the failing one is never checked. Because both
+state files are written only after the loop finishes, that abort also discards
+the `pending` entries for alerts **already sent during that run** — those
+Telegram messages keep an `Apply` button whose callback hash no longer resolves,
+so the job cannot be logged even though it was delivered. When changing the loop,
+fetch handling, or state persistence, test with one watcher forced to raise and
+require that later watchers still run and that already-sent alerts keep a
+resolvable `pending` entry.
 
 For an affected cumulative source, inject **two rows with identical company,
 role, location, and category but different full URLs** and require two alert
@@ -301,14 +419,23 @@ BASE=$(git merge-base origin/main HEAD)
 ```
 
 If a commit intentionally changes watcher count, layout, or scope, update the
-runner as part of that same commit (or use a runner versioned in the repository)
-so the commit remains independently testable.
+runner as part of that same commit so the commit remains independently testable.
+Note that a `/tmp` runner is a local convenience only: it survives neither a fresh
+clone nor a CI job, so per-commit regression coverage lasts exactly as long as the
+current session. Versioning the runner in the repository is the prerequisite for
+this loop meaning anything to anyone else (see section 9).
 
-## 6. Upstream contract check for parser/scope changes
+## 6. Upstream contract check
 
-Only when `WATCHERS`, markers, or parsing changes, fetch upstream data read-only
-at an exact commit SHA. Never run the workflow program itself. For each affected
-watcher:
+Run this whenever `WATCHERS`, markers, or parsing changes — **and on a schedule
+even when nothing in this repository changed**. The fixtures in section 3 are
+generated from each watcher's own configuration, so they are self-consistent by
+construction and cannot detect an upstream format change. Upstream reformatting
+with zero local commits is the most common way this watcher silently stops
+catching jobs, and it is the one failure mode no commit-time test can see.
+
+Fetch upstream data read-only at an exact commit SHA. Never run the workflow
+program itself. For each affected watcher:
 
 1. Resolve the configured branch to a SHA through the GitHub API.
 2. Fetch the configured file from `raw.githubusercontent.com` at that SHA.
@@ -346,9 +473,11 @@ Never run the callback heredoc locally with production environment variables.
 
 Before committing, inspect the full patch and explicitly confirm:
 
-- `workflow_dispatch` is still the only trigger;
+- `workflow_dispatch` is still the only trigger (see section 9: this is an
+  invariant of the current design, **not** evidence that runs are happening);
 - bootstrap remains silent;
-- empty parses cannot replace good state or advance the SHA;
+- empty parses cannot replace good state or advance the SHA, allowing for the
+  snapshot-path exception in section 4;
 - all intended sections remain in scope and excluded categories remain excluded;
 - query strings and `↳` inheritance survive parsing;
 - cumulative sources retain cumulative URL dedup and the cap is safely above the
@@ -362,3 +491,45 @@ not run: the live end-to-end workflow is intentionally excluded because it can
 send Telegram messages, append to Google Sheets, and commit production state.
 Before pushing, rebase with `git pull --rebase origin main`; never force-push or
 discard newer runner state.
+
+## 9. What this guide does not cover
+
+Everything above is triggered by someone editing this repository. The largest
+recall risks are not, so passing every check in this guide is necessary but not
+sufficient. These gaps are open, and a change that closes one should be reviewed
+as a recall improvement rather than a refactor.
+
+**Nothing here is enforced.** There is no CI workflow running any of it, no
+`tests/` directory, and the section 3 runner lives in `/tmp`, so it is discarded
+between sessions and cannot regression-test anything over time. Its protection is
+exactly as strong as the discipline of whoever edits next, which is a weak
+guarantee in a repository that is largely edited by agents. Versioning the runner
+in-repo and running it from a path-filtered workflow on code changes would make
+these checks real; until that exists, state explicitly in each pull request that
+the runner was executed and paste its output.
+
+**Nothing verifies that runs happen at all.** `workflow_dispatch` is the only
+trigger and there is no `cron` in any workflow, so every alert depends on an
+external dispatcher. If that dispatcher stops, no listing is ever fetched, no
+test fails, and the repository looks healthy — total recall loss with no signal.
+Section 2 asserts that `workflow_dispatch` is the only trigger and section 8
+re-confirms it, but neither observes whether a run occurred. Until a heartbeat or
+dead-man's-switch exists (a healthcheck ping on each completed run, alerting when
+pings stop), treat "when did the workflow last succeed?" as a manual check and
+answer it in any pull request that touches scheduling or dispatch.
+
+**Nothing detects a silent blackout.** When markers move or a column disappears,
+the parser returns zero rows and the empty-parse guard then skips that source on
+every subsequent run, logging only a `WARNING` inside the job log. State is
+preserved, which is correct, but the source has stopped catching jobs
+indefinitely and nothing escalates. The section 3 blackout assertion documents
+the mechanism; it cannot observe it in production. A per-watcher staleness alarm
+(row count dropping sharply versus the previous run, or a source producing no new
+listings for far longer than its normal cadence) is the missing control.
+
+**Failed sends are dropped permanently.** See section 4. Documented, not
+defended: no retry, no outbox, no alert on drop.
+
+**One failing watcher stops the rest.** See section 4's final row. No error
+isolation, and a mid-loop abort also loses the `pending` entries for alerts
+already delivered in that run.
