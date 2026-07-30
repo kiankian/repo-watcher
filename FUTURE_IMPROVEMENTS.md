@@ -49,9 +49,15 @@ That is the right design (see the note under "The external dead-man switch, as c
 `README.md`): folding it into the ping would mean a Google Sheets hiccup raising a "the watcher is
 dead" alert while job alerting is fine. But it leaves a real gap. A revoked service account or a
 deleted spreadsheet stops taps reaching the Sheet and stops buttons being ticked, indefinitely and
-silently — job alerts keep arriving normally, so nothing looks wrong. Transient failures self-heal,
-because `last_update_id` only advances when the job commits, so the unprocessed tap is re-read next
-run; the persistent case is the one to catch.
+silently — job alerts keep arriving normally, so nothing looks wrong.
+
+Transient failures self-heal: `advance_offset` is called per update only after that tap's Sheets
+append and Telegram edit succeed, and `.bot_state.json` is written after the loop and committed in
+a later step, so any failure leaves `last_update_id` where it was and the tap is re-read next run.
+**That self-healing expires after 24 hours** — Telegram only retains undelivered `getUpdates`
+results that long. So a persistent failure does not merely stop logging: every tap made during it
+is permanently lost once the window closes, with no record anywhere that it happened. That is the
+case to catch, and the reason this is worth more than its position in this list suggests.
 
 Cheapest fix: an `if: failure()` step on `process_applies` that sends a `⚠️` Telegram message
 naming the failed step. It reuses the channel already trusted for operational faults and needs no
