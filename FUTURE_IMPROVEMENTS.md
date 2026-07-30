@@ -10,25 +10,7 @@ roadmap.
 
 ## Open
 
-### 1. Activate the external dead-man switch
-
-**Config only — no code.** The `Ping healthcheck` step is merged and inert until the
-`HEALTHCHECK_PING_URL` repository secret exists.
-
-Every health signal the watcher has is *in-band*: the `⚠️` alerts, the 2-hour silence check and the
-heartbeat all require a run to happen. If dispatch stops entirely — cron-job.org's PAT expires, the
-account lapses — nothing runs, so nothing reports, and the failure is indistinguishable from a
-quiet job market. There is no `schedule:` trigger by design, so this is the single blind spot left.
-
-Set up a healthchecks.io check (period 5m, grace 55m), attach email **and** Telegram, add the
-secret. Verify three ways: a real run's ping step is green, a dry run's is skipped, and a throwaway
-1-minute check actually produces a notification.
-
-Note the ping is withheld when *any* source is unreadable, so a broken parser trips this too — and
-that is the likelier trigger. One look at the Actions tab distinguishes them: recent runs present →
-a source broke; nothing since the last ping → dispatch stopped.
-
-### 2. Bound `.bot_state.json` growth
+### 1. Bound `.bot_state.json` growth
 
 `pending` only ever grows. Entries leave it when you tap `✅ Applied` (`watch-files.yml:1136`) and
 in no other way. Currently **674 pending against 33 applied, 300 KB**, rewritten and committed on
@@ -46,13 +28,7 @@ ignored. Log expiries so that is diagnosable rather than mysterious.
 **Add a test first.** This touches the callback path, which `test_job_hash_matches_the_hashes_in_bot_state`
 guards for a reason: every button already in the chat carries a hash.
 
-### 3. Fold the healthcheck runbook into `README.md`
-
-Once #1 is done and the period/grace are settled, move the setup steps and the two-causes triage
-into the README's outage runbook. The README currently documents the secret's existence but not how
-to interpret an alert from it. Small, and it makes the standalone handoff disposable.
-
-### 4. Re-enable the off-season watchers when their season opens
+### 2. Re-enable the off-season watchers when their season opens
 
 `SimplifyJobs/Summer2026-Internships` and `vanshb03/Summer2027-Internships` are
 `"enabled": False` in `WATCHERS`. This is a calendar item, not an engineering one, but forgetting it
@@ -62,7 +38,7 @@ indistinguishable from a quiet one.
 Their state is intact (539 and 180 identities, last parsed at their pause SHAs), so flipping the
 flag resumes without re-alerting. Worth a calendar reminder rather than a code change.
 
-### 5. Validate state shape on load, and document recovery
+### 3. Validate state shape on load, and document recovery
 
 `state = json.loads(STATE_FILE.read_text())` at `watch-files.yml:490` has no guard. A truncated or
 malformed commit raises, which **fails safe** — the run dies before writing anything, no alerts go
@@ -75,7 +51,7 @@ revert it", which works but is not written down anywhere.
 
 Keep this narrow. Over-validating state is how you turn a recoverable blip into a hard outage.
 
-### 6. Dependency and supply-chain maintenance
+### 4. Dependency and supply-chain maintenance
 
 - Actions are pinned to floating major tags (`actions/checkout@v4`, `actions/setup-python@v5`) in
   both workflows. Pin to full commit SHAs — this workflow holds `contents: write` and Telegram and
@@ -84,7 +60,7 @@ Keep this narrow. Over-validating state is how you turn a recoverable blip into 
   touch nothing).
 - Enable Dependabot for `github-actions` so the pins above get PRs rather than rotting.
 
-### 7. Expand source coverage
+### 5. Expand source coverage
 
 The biggest product upside and the most work. Adding a board means a `WATCHERS` entry, possibly a
 parser variant, and `PARSING_REFERENCE.md` + `README.md` updates in the same commit (`AGENTS.md`
@@ -95,7 +71,7 @@ The machinery is ready for it: silent bootstrap means adding a source cannot flo
 watcher or a parser" — add the parser test, confirm it fails first, then dry-run and check the row
 count for the new source before merging.
 
-### 8. Retire `seen_legacy_urls`
+### 6. Retire `seen_legacy_urls`
 
 Speedyapply and Zapply carry a static set of bare apply URLs inherited from the pre-2026-07-30
 cumulative-URL scheme (22 / 17 / 140 / 156 entries). They match on URL alone, ignoring `term`, so a
@@ -106,7 +82,7 @@ This decays on its own — as those rows churn out, their successors are matched
 and its handling once the counts stop mattering. `migrate_state` and `select_new` both reference
 it.
 
-### 9. Monitoring dashboard
+### 7. Monitoring dashboard
 
 Now feasible: `logs/runs-YYYY-MM.jsonl` and `logs/alerts-YYYY-MM.jsonl` are append-only and already
 carry everything a dashboard would show.
@@ -135,13 +111,15 @@ second consumer appears.
 
 ## Already shipped
 
-Listed so they are not re-proposed. All in #1 and #2, merged 2026-07-30.
+Listed so they are not re-proposed. Merged 2026-07-30 unless noted.
 
 | Idea | Where it landed |
 |---|---|
+| Activate the external dead-man switch | Configuration, 2026-07-30. healthchecks.io check at period 5m / grace 55m, email and Telegram attached, `HEALTHCHECK_PING_URL` repository secret set. Verified three ways: a real run pinged (`OK` in the step log against a masked, non-empty secret), a dry run's ping step was skipped, and a throwaway 1-minute check produced a notification on both channels. Settings and triage in `README.md` §"The external dead-man switch, as configured". |
+| Fold the healthcheck runbook into `README.md` | This PR. The configured period/grace and their rationale, the two-channel and alert-once semantics, the three verification steps, and a triage table keyed on what the Actions tab shows. |
 | Automated CI testing | `.github/workflows/tests.yml`, 115 tests across `tests/` — unit, end-to-end against the real workflow heredoc, and structural YAML checks. Path-filtered so state commits do not trigger runs. |
 | Improved logging | `logs/runs-*.jsonl` and `logs/alerts-*.jsonl` (append-only), per-run job summary table, `skip_reason` on every source-run, per-alert sequence numbers, and a reconciliation invariant (`queued_before + identities_new == sent_ok + sent_failed`) that makes a missed job detectable. |
-| Health checks and stale-run alerts | `health_alert()` with per-kind rate limiting, `⚠️ zero-rows` / `shrink` / `fetch-failed` / `silence` notices, hourly heartbeat, 2-hour silence alarm, and a `healthy` step output gating the external ping. Only the external switch itself is unconfigured — that is open item #1. |
+| Health checks and stale-run alerts | `health_alert()` with per-kind rate limiting, `⚠️ zero-rows` / `shrink` / `fetch-failed` / `silence` notices, hourly heartbeat, 2-hour silence alarm, and a `healthy` step output gating the external ping. The external switch is now configured too — see the first row of this table. |
 | Improved failure recovery | Durable per-source `outbox`, commit-after-deliver (an identity enters `seen` only once Telegram confirms), 429/5xx retry honouring `retry_after`, backoff bounded by the run deadline, and 5 push retries. |
 | Safer testing modes | The `dry_run` dispatch input: parses every enabled source, prints what it *would* send, sends nothing, writes nothing, commits nothing, and skips `process_applies`. Deliberately ignores the unchanged-SHA short-circuit so a rehearsal cannot pass by parsing nothing. |
-| State validation (partial) | Empty-parse guard, shrink alarm, monotonic append-only `seen`, idempotent `migrate_state`. The remaining gap is shape validation and a documented restore path — open item #5. |
+| State validation (partial) | Empty-parse guard, shrink alarm, monotonic append-only `seen`, idempotent `migrate_state`. The remaining gap is shape validation and a documented restore path — open item #3. |
