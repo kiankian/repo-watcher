@@ -680,3 +680,28 @@ def test_a_short_flood_wait_is_still_honoured(run_watcher, fixture_rows):
     assert len(r.sent) == 2, "retried after the demanded wait"
     assert 4 in r.sleeps, "slept retry_after + 1, as Telegram asked"
     assert len(r.outbox) == 0
+
+
+def test_every_network_call_is_bounded_by_a_timeout(run_watcher, fixture_rows):
+    """urlopen defaults to no timeout. An endpoint that accepts the connection and then stalls
+    raises nothing, so no retry fires and none of the RUN_DEADLINE checks are reached -- they all
+    sit on the failure path. The job hangs until Actions kills it, and the state and outbox,
+    written only after the watcher loop, are never persisted.
+
+    This one predates the whole rework: the original file called urlopen(req) too."""
+    r = run_watcher(fixture_rows + [NEW_A])
+
+    assert r.timeouts, "the run made network calls"
+    assert None not in r.timeouts, "every call must be bounded"
+    assert all(0 < t <= 30 for t in r.timeouts), f"unexpected timeouts: {set(r.timeouts)}"
+
+
+def test_the_request_timeout_shrinks_with_the_remaining_budget(run_watcher, fixture_rows):
+    """A 30s call started with 5s of budget left would overrun the deadline it is meant to
+    respect, so the per-call ceiling is clamped to whatever is left."""
+    r = run_watcher(fixture_rows + _burst(30), monotonic_step=100)
+
+    assert min(r.timeouts) < 30, (
+        f"timeouts should taper as the budget drains, saw {sorted(set(r.timeouts))}"
+    )
+    assert all(t > 0 for t in r.timeouts), "never zero or negative, which would fail instantly"

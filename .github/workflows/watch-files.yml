@@ -205,6 +205,10 @@ jobs:
           # that overruns its job timeout persists nothing — not the queue, not the alarm
           # timestamps — and the next run repeats it identically.
           RUN_BUDGET_SECONDS = 600
+          # Per-request ceiling. urlopen defaults to no timeout, so an endpoint that accepts the
+          # connection and then stalls blocks forever: no exception, no retry, and none of the
+          # RUN_DEADLINE checks are ever reached, because they all sit on the failure path.
+          REQUEST_TIMEOUT = 30
           DRY_RUN = os.environ.get("DRY_RUN", "").strip().lower() == "true"
           RUN_ID = os.environ.get("GITHUB_RUN_ID", "local")
           SILENCE_ALARM_AFTER = 2 * 3600  # gap without a successful run that is worth reporting
@@ -260,10 +264,17 @@ jobs:
               wait = (body.get("parameters") or {}).get("retry_after")
               return wait if isinstance(wait, (int, float)) else None
 
+          def request_timeout():
+              """Per-call timeout, never longer than what is left of the run budget."""
+              return max(1.0, min(REQUEST_TIMEOUT, RUN_DEADLINE - time.monotonic()))
+
           def urlopen_with_retry(req, attempts=5):
               for i in range(attempts):
                   try:
-                      return urllib.request.urlopen(req)
+                      # A timeout is what turns a stalled endpoint into a retryable exception.
+                      # Without one the watcher hangs until Actions kills the job, and the state
+                      # and outbox — written only after the watcher loop — are never persisted.
+                      return urllib.request.urlopen(req, timeout=request_timeout())
                   except (urllib.error.URLError, ConnectionResetError, TimeoutError) as e:
                       # 429 is flood control, not a client error: honour retry_after and retry it.
                       # Every other 4xx is a genuine client error and is raised immediately.
@@ -902,10 +913,12 @@ jobs:
           SHEET_ID = os.environ["APPLICATIONS_SHEET_ID"]
           SHEET_RANGE = os.environ["APPLICATIONS_SHEET_RANGE"]
 
+          REQUEST_TIMEOUT = 30  # see watch job: urlopen without one blocks forever on a stall
+
           def urlopen_with_retry(req, attempts=3):
               for i in range(attempts):
                   try:
-                      return urllib.request.urlopen(req)
+                      return urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT)
                   except (urllib.error.URLError, ConnectionResetError, TimeoutError) as e:
                       if isinstance(e, urllib.error.HTTPError) and e.code < 500:
                           raise

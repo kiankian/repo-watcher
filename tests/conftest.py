@@ -82,7 +82,8 @@ class _Resp(io.BytesIO):
 
 
 def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_at=None,
-                  fetch_status=None, fetches=None, fail_all=False, retry_after=0):
+                  fetch_status=None, fetches=None, fail_all=False, retry_after=0,
+                  timeouts=None):
     """Stub urlopen.
 
     fail_for:     substring of the message text that 429s on every attempt (permanent failure)
@@ -98,6 +99,9 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
 
     def urlopen(req, *args, **kwargs):
         url = req.full_url if hasattr(req, "full_url") else str(req)
+        if timeouts is not None:
+            # None here means the call can block forever on a stalled endpoint.
+            timeouts.append(kwargs.get("timeout", args[0] if args else None))
 
         if "api.github.com" in url and "/commits/" in url:
             repo = re.search(r"/repos/([^/]+/[^/]+)/commits/", url).group(1)
@@ -145,7 +149,8 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
 
 class Result:
     def __init__(self, sent, health, files, log, head_sha, logs=None, summary="",
-                 step_output="", fetches=None, sleeps=None, key=TARGET_KEY):
+                 step_output="", fetches=None, sleeps=None, timeouts=None,
+                 key=TARGET_KEY):
         self.sent = sent
         self.health = health
         self.logs = logs or {}
@@ -156,6 +161,8 @@ class Result:
         self.fetches = fetches or []
         # Durations the run asked time.sleep for, in seconds.
         self.sleeps = sleeps or []
+        # The timeout passed to each urlopen call; None means unbounded.
+        self.timeouts = timeouts if timeouts is not None else []
         self.files = files
         self.log = log
         self.head_sha = head_sha
@@ -228,7 +235,7 @@ def run_watcher():
             # reuse_sha replays against a head the previous run already recorded, so the loop
             # takes its unchanged-sha path -- the only way to test that the outbox still drains.
             head_sha = reuse_sha or next_sha()
-            fetches, sleeps = [], []
+            fetches, sleeps, timeouts = [], [], []
             sent, health = [], []
             saved_cwd, saved_sleep = os.getcwd(), time.sleep
             saved_monotonic = time.monotonic
@@ -255,7 +262,8 @@ def run_watcher():
                 os.environ["GITHUB_OUTPUT"] = str(work / "step_output.txt")
                 urllib.request.urlopen = _make_urlopen(
                     state_before, build_html(upstream_rows), sent, health, head_sha,
-                    fail_for, fail_once_at, fetch_status, fetches, fail_all, retry_after
+                    fail_for, fail_once_at, fetch_status, fetches, fail_all, retry_after,
+                    timeouts
                 )
                 # Record what the code *asks* to sleep for without actually waiting. Asserting
                 # on the requested duration is the only way to show a deadline is respected --
@@ -297,7 +305,7 @@ def run_watcher():
             return Result(sent, health, files, buf.getvalue(), head_sha, logs,
                           summary.read_text() if summary.exists() else "",
                           step_output.read_text() if step_output.exists() else "",
-                          fetches=fetches, sleeps=sleeps)
+                          fetches=fetches, sleeps=sleeps, timeouts=timeouts)
         finally:
             shutil.rmtree(work, ignore_errors=True)
 
