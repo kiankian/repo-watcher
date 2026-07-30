@@ -6740,6 +6740,18 @@
       "chat_id": 7582459199,
       "seq": 4,
       "identity": "https://job-boards.greenhouse.io/drweng/jobs/7997729|DRW|Platform Engineer Intern|Chicago|Summer 2027#1"
+    },
+    "e35ef03ff1df": {
+      "company": "Texas Instruments",
+      "role": "Network Engineer - Encore Program Int...",
+      "location": "Dallas, TX, Unite...",
+      "term": "Summer 2027",
+      "apply_url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016832",
+      "source": "Zapply Summer Repo",
+      "message_id": 1050,
+      "chat_id": 7582459199,
+      "seq": 5,
+      "identity": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016832|Texas Instruments|Network Engineer - Encore Program Int...|Dallas, TX, Unite...|Summer 2027#1"
     }
   },
   "applied": {
@@ -7107,9 +7119,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4,
+  "seq": 5,
   "health": {
     "last_heartbeat": "2026-07-30T17:07:13Z",
-    "last_ok_run": "2026-07-30T18:07:12Z"
+    "last_ok_run": "2026-07-30T18:08:17Z"
   }
 }
