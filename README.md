@@ -159,10 +159,14 @@ The notification says only "no ping received". It does not say why, and the caus
 | Actions tab shows | Cause | Do |
 |---|---|---|
 | Recent runs, green | **A source broke.** Runs are fine; `healthy` came back `false` so the ping was withheld | Check Telegram for `⚠️ zero-rows` or `⚠️ fetch-failed` — it names the source. Fix the section marker or parser |
-| Recent runs, **red** | The job is failing — commonly the state push exhausting its retries | Open the failing run. The ping is correctly withheld: alerts may have gone out unrecorded |
+| Recent runs, **`watch` red** | That job is failing — commonly the state push exhausting its retries | Open the failing run. The ping is correctly withheld: alerts may have gone out unrecorded |
 | Nothing since the last ping | **Dispatch stopped.** cron-job.org disabled, or its PAT expired | The runbook below |
 
 The first row is the likelier one — upstream repos get reorganised regularly — so check the Actions tab *before* assuming the watcher is dead. Only `fetch-failed` and `zero-rows` set `healthy=false`; a `⚠️ shrink` warning does **not** withhold the ping, so it will never be the cause of a healthcheck alert on its own.
+
+> **A red run is not always a withheld ping — check which job is red.** `Ping healthcheck` is the last step of `watch`; `process_applies` is a separate job that starts only after `watch` has finished and already pinged. So a run that is red *because `process_applies` failed* — a Google Sheets append, a Telegram edit, its own `.bot_state.json` push — still pinged, and no dead-man alert will ever fire for it.
+>
+> **The callback path is therefore not covered by this switch, by design.** Gating the ping on both jobs would mean a Sheets hiccup raising a "the watcher is dead" alert while job alerting is perfectly healthy — a false alarm on the highest-severity channel for a much lower-severity fault, which is how you teach yourself to ignore it. The tradeoff is that a persistently failing `process_applies` (revoked service account, deleted spreadsheet) is silent apart from red runs in the Actions tab: taps stop reaching the Sheet and buttons stop being ticked, while alerts keep arriving normally. Transient failures self-heal, since `last_update_id` only advances once the job commits, so an unprocessed tap is re-read on the next run. Closing the persistent case needs its own signal — see `FUTURE_IMPROVEMENTS.md`.
 
 ### Dry runs
 

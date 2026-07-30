@@ -38,7 +38,27 @@ indistinguishable from a quiet one.
 Their state is intact (539 and 180 identities, last parsed at their pause SHAs), so flipping the
 flag resumes without re-alerting. Worth a calendar reminder rather than a code change.
 
-### 3. Validate state shape on load, and document recovery
+### 3. Give the callback path its own failure signal
+
+`process_applies` is the only part of the system with no health signal at all. It is a separate job
+from `watch`, and `Ping healthcheck` is `watch`'s final step — so `process_applies` starts *after*
+the ping has already gone out. A run that is red purely because this job failed still pinged, and
+the dead-man switch will never fire for it.
+
+That is the right design (see the note under "The external dead-man switch, as configured" in
+`README.md`): folding it into the ping would mean a Google Sheets hiccup raising a "the watcher is
+dead" alert while job alerting is fine. But it leaves a real gap. A revoked service account or a
+deleted spreadsheet stops taps reaching the Sheet and stops buttons being ticked, indefinitely and
+silently — job alerts keep arriving normally, so nothing looks wrong. Transient failures self-heal,
+because `last_update_id` only advances when the job commits, so the unprocessed tap is re-read next
+run; the persistent case is the one to catch.
+
+Cheapest fix: an `if: failure()` step on `process_applies` that sends a `⚠️` Telegram message
+naming the failed step. It reuses the channel already trusted for operational faults and needs no
+new infrastructure. Rate-limit it the way `health_alert` does — this job runs every minute, and an
+unthrottled failure notice would send ~1,400 messages a day.
+
+### 4. Validate state shape on load, and document recovery
 
 `state = json.loads(STATE_FILE.read_text())` at `watch-files.yml:490` has no guard. A truncated or
 malformed commit raises, which **fails safe** — the run dies before writing anything, no alerts go
@@ -66,14 +86,14 @@ removed from it is a duplicate alert:
   a genuinely queued row is re-derived by the next parse anyway, since it is absent from `seen`. The
   only real loss is a queued row that has *also* left the upstream table, which is the narrower risk.
 - `last_sha` — clear it, so the next run refetches instead of short-circuiting on an unchanged head.
-- `seen_legacy_urls` — keep the good commit's value; it is static (see item 6).
+- `seen_legacy_urls` — keep the good commit's value; it is static (see "Retire `seen_legacy_urls`" below).
 
 A small `scripts/` helper that performs that merge, plus a worked example in the README runbook,
 is the deliverable. The shape check is the cheaper half and can land first.
 
 Keep both narrow. Over-validating state is how you turn a recoverable blip into a hard outage.
 
-### 4. Dependency and supply-chain maintenance
+### 5. Dependency and supply-chain maintenance
 
 - Actions are pinned to floating major tags (`actions/checkout@v4`, `actions/setup-python@v5`) in
   both workflows. Pin to full commit SHAs — this workflow holds `contents: write` and Telegram and
@@ -82,7 +102,7 @@ Keep both narrow. Over-validating state is how you turn a recoverable blip into 
   touch nothing).
 - Enable Dependabot for `github-actions` so the pins above get PRs rather than rotting.
 
-### 5. Expand source coverage
+### 6. Expand source coverage
 
 The biggest product upside and the most work. Adding a board means a `WATCHERS` entry, possibly a
 parser variant, and `PARSING_REFERENCE.md` + `README.md` updates in the same commit (`AGENTS.md`
@@ -93,7 +113,7 @@ The machinery is ready for it: silent bootstrap means adding a source cannot flo
 watcher or a parser" — add the parser test, confirm it fails first, then dry-run and check the row
 count for the new source before merging.
 
-### 6. Retire `seen_legacy_urls`
+### 7. Retire `seen_legacy_urls`
 
 Speedyapply and Zapply carry a static set of bare apply URLs inherited from the pre-2026-07-30
 cumulative-URL scheme (22 / 17 / 140 / 156 entries). They match on URL alone, ignoring `term`, so a
@@ -121,7 +141,7 @@ window in which a reused URL is silently suppressed.
 Removal touches `migrate_state` and `select_new` in `watcher/core.py`, the state write and read in
 `watch-files.yml`, and the shape assertions in `tests/test_core.py`.
 
-### 7. Monitoring dashboard
+### 8. Monitoring dashboard
 
 Now feasible: `logs/runs-YYYY-MM.jsonl` and `logs/alerts-YYYY-MM.jsonl` are append-only and already
 carry everything a dashboard would show.
