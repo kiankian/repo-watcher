@@ -648,11 +648,16 @@ jobs:
 
               fresh_pairs = select_new(curr_rows, set(seen_list), legacy_urls) if curr_rows else []
               queued = {ident for _r, ident, _o in outbox}
+              # A queued row is still absent from `seen` — it was never delivered — so select_new
+              # hands it back on every run where it is still listed upstream. It was counted as a
+              # discovery on the run that first saw it, so counting it again here would double it
+              # against queued_before and break the reconciliation invariant.
+              fresh_new = [p for p in fresh_pairs if p[1] not in queued]
               # Queued work first, so the oldest jobs drain ahead of newly-seen rows and cannot be
               # starved by a steady stream of new listings. This runs even when the snapshot could
               # not be fetched or parsed — otherwise a permanent upstream rename would strand
               # every already-discovered job behind a source that never recovers.
-              to_send = list(outbox) + [p for p in fresh_pairs if p[1] not in queued]
+              to_send = list(outbox) + fresh_new
 
               delivered, undelivered = deliver_listings(to_send, w["label"])
               total_alerted += len(delivered)
@@ -678,7 +683,7 @@ jobs:
                          rows_extracted=len(curr_rows) if curr_rows is not None else 0,
                          prev_row_count=prev_row_count,
                          seen_size=min(len(merged), SEEN_CAP), queued_before=queued_before,
-                         identities_new=len(fresh_pairs), sent_ok=len(delivered),
+                         identities_new=len(fresh_new), sent_ok=len(delivered),
                          sent_failed=len(undelivered),
                          outbox_size=min(len(undelivered), OUTBOX_CAP),
                          skip_reason=skip_reason)

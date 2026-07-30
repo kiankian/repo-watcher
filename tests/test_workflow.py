@@ -7,6 +7,8 @@ Two guarantees are under test:
 The state fixture is deliberately still in the legacy {last_sha, rows} shape, so every run here
 also exercises the migration.
 """
+import pytest
+
 from conftest import load_fixture
 
 NEW_A = ["TestCorp Alpha", "SWE Intern", "Testville, TS", "Summer 2026",
@@ -545,27 +547,60 @@ def test_a_dry_run_surfaces_a_broken_parser_on_an_unchanged_sha(run_watcher, fix
     assert rehearsal.healthy is False
 
 
-def test_the_reconciliation_counters_balance_on_a_queue_drain(run_watcher, fixture_rows):
+def _run_record(result):
+    return next(x for x in result.log_records("runs")
+                if x.get("state_key") == "SimplifyJobs/Summer2026-Internships#summer")
+
+
+def _assert_counters_balance(result, label):
+    rec = _run_record(result)
+    assert rec["queued_before"] + rec["identities_new"] == rec["sent_ok"] + rec["sent_failed"], (
+        f"{label}: queued_before + identities_new must equal sent_ok + sent_failed, got {rec}"
+    )
+    assert rec["outbox_size"] == rec["sent_failed"], f"{label}: outbox_size is the depth after"
+    return rec
+
+
+@pytest.mark.parametrize("upstream_keeps_queued_rows", [False, True], ids=["dropped", "still-listed"])
+def test_the_reconciliation_counters_balance_on_a_queue_drain(
+    run_watcher, fixture_rows, upstream_keeps_queued_rows
+):
     """The documented invariant has to hold on a normal backlog drain, or every drain looks like
-    jobs vanished. identities_new counts only fresh discoveries, so queued_before is what makes
-    the sum add up."""
-    first = run_watcher(fixture_rows + _burst(40))
-    drain = run_watcher(fixture_rows, start_files=first.files)
+    jobs vanished and the signal gets ignored.
 
-    for r, label in ((first, "burst run"), (drain, "drain run")):
-        rec = next(x for x in r.log_records("runs")
-                   if x.get("state_key") == "SimplifyJobs/Summer2026-Internships#summer")
-        assert rec["queued_before"] + rec["identities_new"] == rec["sent_ok"] + rec["sent_failed"], (
-            f"{label}: queued_before + identities_new must equal sent_ok + sent_failed"
-        )
-        assert rec["outbox_size"] == rec["sent_failed"], f"{label}: outbox_size is the new depth"
+    Parameterized over both upstreams on purpose. A queued row is absent from `seen` until it is
+    delivered, so when upstream *still lists* it, select_new hands it back and it appears in both
+    queued_before and the fresh set — the case an earlier version of this test missed by only
+    exercising the dropped-rows upstream.
+    """
+    burst = run_watcher(fixture_rows + _burst(40))
+    _assert_counters_balance(burst, "burst run")
+    assert (_run_record(burst)["queued_before"], _run_record(burst)["identities_new"]) == (0, 40)
 
-    burst = next(x for x in first.log_records("runs")
-                 if x.get("state_key") == "SimplifyJobs/Summer2026-Internships#summer")
-    assert (burst["queued_before"], burst["identities_new"]) == (0, 40)
-    drained = next(x for x in drain.log_records("runs")
-                   if x.get("state_key") == "SimplifyJobs/Summer2026-Internships#summer")
-    assert (drained["queued_before"], drained["identities_new"]) == (15, 0)
+    later_upstream = fixture_rows + _burst(40) if upstream_keeps_queued_rows else fixture_rows
+    drain = run_watcher(later_upstream, start_files=burst.files)
+
+    rec = _assert_counters_balance(drain, "drain run")
+    assert (rec["queued_before"], rec["identities_new"]) == (15, 0), (
+        "the 15 are the queue, not new discoveries, however upstream now looks"
+    )
+    assert len(drain.sent) == 15 and drain.outbox == []
+
+
+def test_a_queued_row_still_listed_upstream_is_not_counted_as_new(run_watcher, fixture_rows):
+    """Directly on the overlap. select_new returns the queued rows again; they must be excluded
+    from identities_new as well as from the send list, or the two counters double-count them."""
+    first = run_watcher(fixture_rows + _burst(30))
+    assert len(first.outbox) == 5
+
+    # Same upstream, fresh sha: the 5 queued rows are still listed and still unseen.
+    second = run_watcher(fixture_rows + _burst(30), start_files=first.files)
+
+    rec = _run_record(second)
+    assert rec["identities_new"] == 0, "they were counted as discoveries on the first run"
+    assert rec["queued_before"] == 5
+    assert rec["sent_ok"] == 5
+    _assert_counters_balance(second, "overlap drain")
 
 
 def test_outbox_size_means_the_same_thing_on_every_path(run_watcher, fixture_rows):
