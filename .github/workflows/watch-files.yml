@@ -1,7 +1,14 @@
 name: Watch files in external repo
 
 on:
+  # Triggered externally by cron-job.org, which posts {"ref":"main"} with no inputs, so
+  # dry_run defaults to false and the existing cron job keeps working unchanged.
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Parse and report only: send no Telegram messages and write no state.'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -23,8 +30,14 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          # Optional external dead-man switch (healthchecks.io or similar). The in-workflow
+          # silence check can only fire during a run that happens, so it cannot detect the
+          # dispatch stopping altogether; a service that alerts when pings stop can.
+          HEALTHCHECK_PING_URL: ${{ secrets.HEALTHCHECK_PING_URL }}
         run: |
           python - <<'PY'
+          import datetime
           import json
           import os
           import pathlib
@@ -101,10 +114,10 @@ jobs:
                   "section_end": "## We love our contributors",
               },
               {
-                  # Zapply's SWE table re-sorts + is capped at ~100 rows every ~15 min, so
-                  # rows churn in/out of the visible window. Snapshot-diff dedup would re-alert
-                  # on every re-add, and the truncated role text makes (company, role, location,
-                  # term) a colliding key. So this source uses cumulative-URL dedup instead.
+                  # Zapply's SWE table re-sorts + is capped at ~100 rows every ~15 min, so rows
+                  # churn in and out of the visible window. Harmless now that `seen` is a union,
+                  # but note the truncated role text and constant "Recently" Posted column make
+                  # the apply URL the only field here that identifies a row.
                   "label": "Zapply Summer Repo",
                   "state_key": "zapplyjobs/Internships-2027#swe",
                   "owner": "zapplyjobs",
@@ -125,11 +138,10 @@ jobs:
               {
                   # speedyapply's USA-internships README carries three category tables
                   # (FAANG+, Quant, Other) delimited by <!-- TABLE_*_START/END --> comments.
-                  # Same churn/identity profile as Zapply: many genuinely-distinct openings
-                  # share company+role+location and differ only by apply URL (e.g. Copart's
-                  # five Dallas SWE-intern rows), so a snapshot diff would collapse and miss
-                  # them. All three tables use cumulative-URL dedup. One shared label; the
-                  # category rides in default_term so it shows in the alert's last field.
+                  # Many genuinely-distinct openings here share company+role+location and differ
+                  # only by apply URL (e.g. Copart's five Dallas SWE-intern rows), which is what
+                  # the URL-first identity keeps apart. One shared label; the category rides in
+                  # default_term so it shows in the alert's last field.
                   "label": "Speedyapply Summer Repo",
                   "state_key": "speedyapply/2027-SWE-College-Jobs#faang",
                   "owner": "speedyapply",
@@ -186,8 +198,47 @@ jobs:
 
           STATE_FILE = pathlib.Path(".watcher_state.json")
           BOT_STATE_FILE = pathlib.Path(".bot_state.json")
+          LOG_DIR = pathlib.Path("logs")
           SEND_SPACING = 1.1  # seconds between job sends; Telegram allows ~1 msg/sec to one chat
           BURST_CAP = 25  # max sends per watcher per run; the rest are withheld and retried next run
+          DRY_RUN = os.environ.get("DRY_RUN", "").strip().lower() == "true"
+          RUN_ID = os.environ.get("GITHUB_RUN_ID", "local")
+          SILENCE_ALARM_AFTER = 2 * 3600  # gap without a successful run that is worth reporting
+          ALARM_REPEAT_AFTER = 30 * 60  # min gap between repeats of one alarm kind
+          HEARTBEAT_EVERY = 3600  # seconds between run-log lines on otherwise quiet runs
+          SHRINK_ALARM_RATIO = 0.7  # alarm when a parse returns under 70% of the previous rows
+
+
+          def utcnow():
+              return datetime.datetime.now(datetime.timezone.utc)
+
+
+          def iso(ts):
+              return ts.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+          def parse_iso(text):
+              try:
+                  return datetime.datetime.fromisoformat((text or "").replace("Z", "+00:00"))
+              except ValueError:
+                  return None
+
+
+          def append_jsonl(prefix, record):
+              """Append one line to logs/<prefix>-YYYY-MM.jsonl.
+
+              Append-only on purpose. bot_state["pending"] is a dict keyed by job hash, so a
+              re-sent alert overwrites its own record there and the evidence disappears —
+              reconstructing past duplicates meant diffing Telegram message-id gaps. These logs
+              make that a one-line query instead. Monthly files bound the size.
+              """
+              if DRY_RUN:
+                  print(f"[dry-run] {prefix}: {json.dumps(record, ensure_ascii=False)}")
+                  return
+              LOG_DIR.mkdir(exist_ok=True)
+              path = LOG_DIR / f"{prefix}-{utcnow():%Y-%m}.jsonl"
+              with path.open("a", encoding="utf-8") as fh:
+                  fh.write(json.dumps(record, ensure_ascii=False) + "\n")
 
           def retry_after_seconds(err):
               """Telegram signals flood control as HTTP 429 with {"parameters":{"retry_after":N}}."""
@@ -239,11 +290,20 @@ jobs:
               with urlopen_with_retry(gh_request(url)) as resp:
                   return resp.read().decode()
 
-          def telegram_send_job(text, callback_data):
+          def telegram_post(method, payload):
               token = os.environ["TELEGRAM_BOT_TOKEN"]
-              chat_id = os.environ["TELEGRAM_CHAT_ID"]
-              payload = {
-                  "chat_id": chat_id,
+              req = urllib.request.Request(
+                  f"https://api.telegram.org/bot{token}/{method}",
+                  data=json.dumps(payload).encode(),
+                  method="POST",
+                  headers={"Content-Type": "application/json"},
+              )
+              with urlopen_with_retry(req) as resp:
+                  return json.loads(resp.read().decode())
+
+          def telegram_send_job(text, callback_data):
+              body = telegram_post("sendMessage", {
+                  "chat_id": os.environ["TELEGRAM_CHAT_ID"],
                   "text": text,
                   "disable_web_page_preview": True,
                   "reply_markup": {
@@ -251,16 +311,42 @@ jobs:
                           {"text": "Mark as Applied", "callback_data": callback_data}
                       ]],
                   },
-              }
-              req = urllib.request.Request(
-                  f"https://api.telegram.org/bot{token}/sendMessage",
-                  data=json.dumps(payload).encode(),
-                  method="POST",
-                  headers={"Content-Type": "application/json"},
-              )
-              with urlopen_with_retry(req) as resp:
-                  body = json.loads(resp.read().decode())
+              })
               return body["result"]["message_id"], body["result"]["chat"]["id"]
+
+          def telegram_send_text(text):
+              telegram_post("sendMessage", {
+                  "chat_id": os.environ["TELEGRAM_CHAT_ID"],
+                  "text": text,
+                  "disable_web_page_preview": True,
+              })
+
+          anomalies = []  # (kind, message) for the step summary
+
+          def health_alert(kind, message):
+              """Report an operational fault, not a job.
+
+              Silence is the failure mode this exists for: a renamed upstream heading, or a
+              watcher stuck at zero rows, is otherwise indistinguishable from "no new listings".
+              Rate-limited per kind so a persistent fault cannot flood the chat.
+              """
+              anomalies.append((kind, message))
+              print(f"ANOMALY [{kind}] {message}")
+              health = bot_state.setdefault("health", {})
+              alarms = health.setdefault("alarms", {})
+              previous = parse_iso(alarms.get(kind))
+              now = utcnow()
+              if previous and (now - previous).total_seconds() < ALARM_REPEAT_AFTER:
+                  return
+              if DRY_RUN:
+                  print(f"[dry-run] would send health alert [{kind}]")
+                  return
+              try:
+                  telegram_send_text(f"⚠️ watcher: {message}")
+              except Exception as exc:
+                  print(f"Failed to send health alert ({kind}): {type(exc).__name__}: {exc}")
+                  return
+              alarms[kind] = iso(now)
 
 
           def deliver_listings(new_pairs, label):
@@ -278,18 +364,31 @@ jobs:
                   if delivered:
                       time.sleep(SEND_SPACING)  # stay under Telegram's ~1 msg/sec per-chat limit
                   h = job_hash(entry, label)
+                  # Committed only once the send succeeds, so the printed numbering has no gaps
+                  # and a gap seen in the chat is proof of a lost alert.
+                  seq = bot_state.get("seq", 0) + 1
+                  text = f"{label} #{seq}\n+ {fmt(entry)}"
+                  if DRY_RUN:
+                      print(f"[dry-run] would send #{seq}: {label} / {entry[0]} - {entry[1]}")
+                      bot_state["seq"] = seq
+                      delivered.append((entry, identity))
+                      continue
                   try:
-                      message_id, chat_id = telegram_send_job(
-                          f"{label}\n+ {fmt(entry)}", f"apply:{h}"
-                      )
+                      message_id, chat_id = telegram_send_job(text, f"apply:{h}")
                   except Exception as exc:
                       print(f"Failed to send job alert ({h}): {type(exc).__name__}: {exc}")
+                      health_alert(
+                          f"send-failed:{label}",
+                          f"could not deliver {entry[0]} - {entry[1]} ({type(exc).__name__}); "
+                          "it stays unrecorded and will be retried",
+                      )
                       undelivered.append((entry, identity))
                       continue
                   if h in bot_state["pending"]:
                       # Should be unreachable: an identical job is already deduped upstream. If it
                       # fires, the older message's Applied button now points at this newer message.
-                      print(f"ANOMALY: {h} was already pending ({entry[0]} - {entry[1]}).")
+                      health_alert("duplicate-hash", f"{h} was already pending ({entry[0]}).")
+                  bot_state["seq"] = seq
                   bot_state["pending"][h] = {
                       "company": entry[0],
                       "role": entry[1],
@@ -299,7 +398,22 @@ jobs:
                       "source": label,
                       "message_id": message_id,
                       "chat_id": chat_id,
+                      "seq": seq,
                   }
+                  append_jsonl("alerts", {
+                      "ts": iso(utcnow()),
+                      "seq": seq,
+                      "run_id": RUN_ID,
+                      "message_id": message_id,
+                      "watcher": label,
+                      "identity": identity,
+                      "job_hash": h,
+                      "company": entry[0],
+                      "role": entry[1],
+                      "location": entry[2],
+                      "term": entry[3],
+                      "apply_url": entry[4],
+                  })
                   delivered.append((entry, identity))
               if undelivered:
                   print(
@@ -325,6 +439,22 @@ jobs:
           bot_state.setdefault("telegram", {"last_update_id": 0})
           bot_state.setdefault("pending", {})
           bot_state.setdefault("applied", {})
+          bot_state.setdefault("seq", 0)
+          bot_state.setdefault("health", {})
+
+          # Report a gap since the last successful run. This fires on the first run *after* the
+          # gap, so it catches the workflow erroring or the dispatch stalling and recovering — it
+          # cannot detect the dispatch stopping for good, which is what HEALTHCHECK_PING_URL is
+          # for. cron-job.org losing its PAT is the outage the README calls most likely.
+          previous_ok = parse_iso(bot_state["health"].get("last_ok_run"))
+          if previous_ok:
+              silent_for = (utcnow() - previous_ok).total_seconds()
+              if silent_for > SILENCE_ALARM_AFTER:
+                  health_alert(
+                      "silence",
+                      f"no successful run for {silent_for / 3600:.1f}h "
+                      f"(last was {iso(previous_ok)}); running again now",
+                  )
 
           # Convert any legacy per-source shape ({..., rows} or {..., seen: [url]}) to the
           # unified identity shape, seeding from both the stored rows and every job ever sent so
@@ -347,6 +477,13 @@ jobs:
           # rows that vanished stay in `seen`, so they do not re-alert when they come back,
           # while anything genuinely new in the same run still goes out.
           total_alerted = 0
+          run_records = []
+
+          def record_run(label, state_key, **fields):
+              run_records.append(dict(
+                  ts=iso(utcnow()), run_id=RUN_ID, watcher=label, state_key=state_key, **fields
+              ))
+
           for w in WATCHERS:
               if not w.get("enabled", True):
                   continue
@@ -386,6 +523,8 @@ jobs:
                       strip_bold=w.get("strip_bold", False),
                   )
 
+              prev_row_count = saved.get("last_row_count")
+
               if not curr_rows:
                   # A renamed heading or reshaped table lands here. Never seed an empty set and
                   # never advance the SHA — just log it and retry on the next run.
@@ -393,7 +532,25 @@ jobs:
                       f"WARNING: extracted 0 rows from {state_key}; "
                       "skipping (markers/format may have changed)."
                   )
+                  health_alert(
+                      f"zero-rows:{state_key}",
+                      f"{w['label']} parsed 0 rows from {w['file']} — section markers or table "
+                      "format may have changed. No alerts can come from this source until fixed.",
+                  )
+                  record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
+                             rows_extracted=0, prev_row_count=prev_row_count, seen_size=0,
+                             identities_new=0, sent_ok=0, sent_failed=0,
+                             skip_reason="zero_rows")
                   continue
+
+              if prev_row_count and len(curr_rows) < prev_row_count * SHRINK_ALARM_RATIO:
+                  # Harmless now that `seen` is a union, but still worth surfacing: it is how the
+                  # 84-row -> 28-row collapse would have announced itself.
+                  health_alert(
+                      f"shrink:{state_key}",
+                      f"{w['label']} extracted {len(curr_rows)} rows, down from "
+                      f"{prev_row_count}. Dedup is unaffected, but the parse may be truncating.",
+                  )
 
               if seen_list is None:
                   # Silent bootstrap: a source seen for the first time records what is currently
@@ -406,6 +563,10 @@ jobs:
                       "last_row_count": len(curr_rows),
                   }
                   print(f"Bootstrapped {state_key} at {latest_sha} with {len(seeded)} identities.")
+                  record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
+                             rows_extracted=len(curr_rows), prev_row_count=prev_row_count,
+                             seen_size=len(seeded), identities_new=0, sent_ok=0, sent_failed=0,
+                             skip_reason="bootstrap")
                   continue
 
               new_pairs = select_new(curr_rows, set(seen_list), legacy_urls)
@@ -416,10 +577,15 @@ jobs:
               # next run sees them as new and retries.
               merged = seen_list + [identity for _, identity in delivered]
               if len(merged) > SEEN_CAP:
-                  print(
-                      f"ANOMALY: {state_key} seen-set hit SEEN_CAP ({SEEN_CAP}); evicting "
-                      f"{len(merged) - SEEN_CAP} oldest identities, which may re-alert."
+                  health_alert(
+                      f"cap:{state_key}",
+                      f"{w['label']} seen-set hit SEEN_CAP ({SEEN_CAP}); dropping "
+                      f"{len(merged) - SEEN_CAP} oldest identities, which may re-alert once.",
                   )
+              record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
+                         rows_extracted=len(curr_rows), prev_row_count=prev_row_count,
+                         seen_size=min(len(merged), SEEN_CAP), identities_new=len(new_pairs),
+                         sent_ok=len(delivered), sent_failed=len(undelivered), skip_reason=None)
               state[state_key] = {
                   # Hold the SHA back on a partial run so the next run re-fetches immediately
                   # instead of short-circuiting on last_sha == latest_sha.
@@ -434,15 +600,79 @@ jobs:
           else:
               print("No new listings.")
 
-          STATE_FILE.write_text(json.dumps(state, indent=2) + "\n")
-          BOT_STATE_FILE.write_text(json.dumps(bot_state, indent=2) + "\n")
+          # --- Run log ---
+          # At a dispatch a minute, logging every watcher every run would be ~8.6k lines a day.
+          # Write the runs that did something, and collapse quiet ones into an hourly heartbeat
+          # so a healthy-but-silent watcher is still evidenced.
+          notable = [
+              r for r in run_records
+              if r["sent_ok"] or r["sent_failed"] or r["identities_new"]
+              or r["skip_reason"] or r["prev_sha"] != r["latest_sha"]
+          ]
+          for record in notable:
+              append_jsonl("runs", record)
+
+          last_heartbeat = parse_iso(bot_state["health"].get("last_heartbeat"))
+          heartbeat_due = (
+              last_heartbeat is None
+              or (utcnow() - last_heartbeat).total_seconds() >= HEARTBEAT_EVERY
+          )
+          if not notable and heartbeat_due:
+              append_jsonl("runs", {
+                  "ts": iso(utcnow()),
+                  "run_id": RUN_ID,
+                  "watcher": None,
+                  "state_key": None,
+                  "kind": "heartbeat",
+                  "watchers_checked": len(run_records),
+                  "seq": bot_state.get("seq", 0),
+              })
+              bot_state["health"]["last_heartbeat"] = iso(utcnow())
+
+          summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary_path:
+              lines = [
+                  f"### Watcher run {'(dry run) ' if DRY_RUN else ''}— {iso(utcnow())}",
+                  "",
+                  "| Watcher | rows | prev | new | sent | failed | note |",
+                  "|---|---:|---:|---:|---:|---:|---|",
+              ]
+              for r in run_records:
+                  lines.append(
+                      f"| {r['watcher']} | {r['rows_extracted']} | {r['prev_row_count'] or '-'} "
+                      f"| {r['identities_new']} | {r['sent_ok']} | {r['sent_failed']} "
+                      f"| {r['skip_reason'] or ''} |"
+                  )
+              if anomalies:
+                  lines += ["", "**Anomalies**", ""]
+                  lines += [f"- `{kind}` {message}" for kind, message in anomalies]
+              with open(summary_path, "a", encoding="utf-8") as fh:
+                  fh.write("\n".join(lines) + "\n")
+
+          if DRY_RUN:
+              print("[dry-run] state files not written, nothing committed")
+          else:
+              bot_state["health"]["last_ok_run"] = iso(utcnow())
+              STATE_FILE.write_text(json.dumps(state, indent=2) + "\n")
+              BOT_STATE_FILE.write_text(json.dumps(bot_state, indent=2) + "\n")
+
+              # External dead-man switch, if configured: a service that alerts when the pings stop
+              # is the only thing that can notice the dispatch dying altogether.
+              ping_url = os.environ.get("HEALTHCHECK_PING_URL")
+              if ping_url:
+                  try:
+                      with urlopen_with_retry(urllib.request.Request(ping_url)) as resp:
+                          resp.read()
+                  except Exception as exc:
+                      print(f"Healthcheck ping failed: {type(exc).__name__}: {exc}")
           PY
 
       - name: Commit updated state
+        if: ${{ !inputs.dry_run }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .watcher_state.json .bot_state.json
+          git add .watcher_state.json .bot_state.json logs
           git diff --cached --quiet || git commit -m "Update watcher state"
           for attempt in 1 2 3 4 5; do
             if git pull --rebase origin main && git push; then
@@ -688,11 +918,14 @@ jobs:
                   "callback_query_id": cb["id"],
                   "text": "Logged ✅",
               })
+              # Keep the sequence number on the edited message: it is what makes a gap in the
+              # chat's numbering visible, and dropping it here would erase that evidence.
+              seq_suffix = f" #{job['seq']}" if job.get("seq") else ""
               tg_call("editMessageText", {
                   "chat_id": job["chat_id"],
                   "message_id": job["message_id"],
                   "text": (
-                      f"{job['source']}\n+ {job['company']} — {job['role']} | "
+                      f"{job['source']}{seq_suffix}\n+ {job['company']} — {job['role']} | "
                       f"{job['location']} | {job['term']}"
                       + (f"\n  {job['apply_url']}" if job.get('apply_url') else "")
                       + f"\n\n✅ Logged {applied_at}"

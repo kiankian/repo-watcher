@@ -106,6 +106,9 @@ def test_zero_extracted_rows_never_advances_state(run_watcher, fixture_rows, bas
     assert len(r.seen) == len(baseline.seen), "seen set untouched"
     assert not r.last_sha.startswith("deadbeef")
     assert "extracted 0 rows" in r.log
+    assert r.health_matching("parsed 0 rows"), (
+        "an indefinitely broken parse looks exactly like 'no new jobs', so it must be reported"
+    )
 
 
 # --- no-duplicate guarantee -------------------------------------------------------------
@@ -192,3 +195,112 @@ def test_migration_is_idempotent(run_watcher, fixture_rows):
     assert second.sent == []
     assert second.seen == first.seen
     assert "Migrated" not in second.log, "already-migrated state is left alone"
+
+
+# --- observability ----------------------------------------------------------------------
+
+def test_each_alert_carries_a_gap_free_sequence_number(run_watcher, fixture_rows):
+    """The sequence number is what lets a missed alert be spotted from the phone alone, so it
+    must not skip: it is committed only after Telegram confirms the send."""
+    r = run_watcher(fixture_rows + [NEW_A, NEW_B, NEW_C])
+
+    seqs = [int(t.split("#", 1)[1].split("\n", 1)[0]) for t in r.sent]
+    assert seqs == [1, 2, 3]
+    assert r.bot_state["seq"] == 3
+
+
+def test_a_failed_send_does_not_consume_a_sequence_number(run_watcher, fixture_rows):
+    """A gap would otherwise be indistinguishable from a lost alert, making the whole signal
+    useless. The number is reused by the retry."""
+    upstream = fixture_rows + [NEW_A, NEW_B, NEW_C]
+    failed = run_watcher(upstream, fail_for="TestCorp Beta")
+
+    delivered = [int(t.split("#", 1)[1].split("\n", 1)[0])
+                 for t in failed.sent if "TestCorp Beta" not in t]
+    assert delivered == [1, 2], "Alpha and Gamma take 1 and 2; Beta's attempt consumed nothing"
+    assert failed.bot_state["seq"] == 2
+
+    retry = run_watcher(upstream, start_files=failed.files)
+    assert [int(t.split("#", 1)[1].split("\n", 1)[0]) for t in retry.sent] == [3]
+
+
+def test_every_delivered_alert_is_appended_to_the_alert_log(run_watcher, fixture_rows):
+    """bot_state["pending"] is keyed by job hash, so a re-send overwrites its own record there.
+    This log is append-only, which is what makes duplicates and misses countable."""
+    r = run_watcher(fixture_rows + [NEW_A, NEW_B, NEW_C])
+
+    records = r.log_records("alerts")
+    assert len(records) == 3
+    assert [rec["seq"] for rec in records] == [1, 2, 3]
+    assert {rec["company"] for rec in records} == {
+        "TestCorp Alpha", "TestCorp Beta", "TestCorp Gamma"
+    }
+    for rec in records:
+        assert set(rec) >= {"ts", "seq", "message_id", "watcher", "identity", "job_hash",
+                            "company", "role", "location", "term", "apply_url"}
+
+
+def test_an_undelivered_listing_is_not_written_to_the_alert_log(run_watcher, fixture_rows):
+    r = run_watcher(fixture_rows + [NEW_A, NEW_B, NEW_C], fail_for="TestCorp Beta")
+
+    companies = [rec["company"] for rec in r.log_records("alerts")]
+    assert "TestCorp Beta" not in companies, "the log records deliveries, not attempts"
+    assert len(companies) == 2
+
+
+def test_a_run_that_alerts_is_written_to_the_run_log(run_watcher, fixture_rows):
+    """Turns the 84-to-28 collapse into a visible time series instead of something only findable
+    by diffing state commits."""
+    r = run_watcher(fixture_rows + [NEW_A])
+
+    runs = [rec for rec in r.log_records("runs")
+            if rec.get("state_key") == "SimplifyJobs/Summer2026-Internships#summer"]
+    assert len(runs) == 1
+    assert runs[0]["rows_extracted"] == len(fixture_rows) + 1
+    assert runs[0]["identities_new"] == 1
+    assert runs[0]["sent_ok"] == 1
+    assert runs[0]["sent_failed"] == 0
+
+
+def test_a_shrinking_parse_is_reported_even_though_dedup_survives_it(run_watcher):
+    """The collapse is harmless to dedup now, but it still signals a truncating parse."""
+    before = load_fixture("collapse_84.json")
+    after = load_fixture("collapse_28.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    collapsed = run_watcher(after, start_files=seeded.files)
+
+    assert collapsed.health_matching("down from 84")
+    assert len(collapsed.sent) == 23, "and the genuinely-new listings still go out"
+
+
+def test_dry_run_sends_nothing_and_writes_nothing(run_watcher, fixture_rows):
+    """Lets the cutover be rehearsed against live upstream data before any message can go out."""
+    before = run_watcher(fixture_rows)
+    r = run_watcher(fixture_rows + [NEW_A, NEW_B, NEW_C],
+                    start_files=before.files, dry_run=True)
+
+    assert r.sent == [] and r.health == []
+    assert r.logs == {}
+    assert r.files[".watcher_state.json"] == before.files[".watcher_state.json"]
+    assert r.files[".bot_state.json"] == before.files[".bot_state.json"]
+    assert "[dry-run] would send #1" in r.log
+    assert "state files not written" in r.log
+
+
+def test_the_step_summary_tabulates_every_watcher(run_watcher, fixture_rows):
+    """Actions logs expire after 90 days; this makes one run diagnosable at a glance while it
+    still exists, and is where an anomaly shows up if the Telegram notice was rate-limited."""
+    before = run_watcher(fixture_rows)
+    r = run_watcher(fixture_rows + [NEW_A], start_files=before.files, capture_summary=True)
+
+    assert "| Watcher | rows | prev | new | sent | failed | note |" in r.summary
+    assert "| Simplify Summer Repo |" in r.summary
+    assert "Watcher run" in r.summary
+
+
+def test_the_step_summary_lists_anomalies(run_watcher):
+    r = run_watcher([], capture_summary=True)
+
+    assert "**Anomalies**" in r.summary
+    assert "zero-rows" in r.summary

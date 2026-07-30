@@ -81,7 +81,7 @@ class _Resp(io.BytesIO):
         return False
 
 
-def _make_urlopen(state, html, sent, head_sha, fail_for=None, fail_once_at=None):
+def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_at=None):
     """Stub urlopen.
 
     fail_for:     substring of the message text that 429s on every attempt (permanent failure)
@@ -110,7 +110,9 @@ def _make_urlopen(state, html, sent, head_sha, fail_for=None, fail_once_at=None)
             i = calls["send"]
             calls["send"] += 1
             body = json.loads(req.data.decode())
-            sent.append(body["text"])
+            # Health notices share sendMessage but are not job alerts; keep them apart so a
+            # test asserting "no alerts" is not satisfied or broken by an operational notice.
+            (health if body["text"].startswith("\u26a0\ufe0f") else sent).append(body["text"])
             if (fail_for and fail_for in body["text"]) or i == fail_once_at:
                 raise urllib.error.HTTPError(
                     url, 429, "Too Many Requests", {},
@@ -129,8 +131,12 @@ def _make_urlopen(state, html, sent, head_sha, fail_for=None, fail_once_at=None)
 
 
 class Result:
-    def __init__(self, sent, files, log, head_sha, key=TARGET_KEY):
+    def __init__(self, sent, health, files, log, head_sha, logs=None, summary="",
+                 key=TARGET_KEY):
         self.sent = sent
+        self.health = health
+        self.logs = logs or {}
+        self.summary = summary
         self.files = files
         self.log = log
         self.head_sha = head_sha
@@ -150,8 +156,19 @@ class Result:
     def last_sha(self):
         return self.state[self._key]["last_sha"]
 
+    def log_records(self, prefix):
+        """Parsed lines from every logs/<prefix>-*.jsonl this run produced."""
+        out = []
+        for name, text in sorted(self.logs.items()):
+            if name.startswith(prefix):
+                out += [json.loads(line) for line in text.splitlines() if line.strip()]
+        return out
+
     def sent_matching(self, needle):
         return [t for t in self.sent if needle in t]
+
+    def health_matching(self, needle):
+        return [t for t in self.health if needle in t]
 
 
 @pytest.fixture
@@ -159,7 +176,7 @@ def run_watcher():
     """Return `run(upstream_rows, **kw) -> Result`, runnable repeatedly to chain runs."""
 
     def run(upstream_rows, start_files=None, fail_for=None, fail_once_at=None,
-            drop_target_state=False):
+            drop_target_state=False, dry_run=False, capture_summary=False):
         work = Path(tempfile.mkdtemp())
         try:
             for name in (".watcher_state.json", ".bot_state.json"):
@@ -176,7 +193,7 @@ def run_watcher():
                 state_before.pop(TARGET_KEY, None)
                 (work / ".watcher_state.json").write_text(json.dumps(state_before))
             head_sha = next_sha()
-            sent = []
+            sent, health = [], []
             saved_cwd, saved_sleep = os.getcwd(), time.sleep
             saved_urlopen = urllib.request.urlopen
             saved_stdout = sys.stdout
@@ -187,13 +204,19 @@ def run_watcher():
                     GITHUB_TOKEN="test-token",
                     TELEGRAM_BOT_TOKEN="test-bot-token",
                     TELEGRAM_CHAT_ID="7582459199",
+                    DRY_RUN="true" if dry_run else "false",
                 )
+                os.environ.pop("HEALTHCHECK_PING_URL", None)
+                if capture_summary:
+                    os.environ["GITHUB_STEP_SUMMARY"] = str(work / "summary.md")
+                else:
+                    os.environ.pop("GITHUB_STEP_SUMMARY", None)
                 # `python - <<PY` puts cwd on sys.path; replicate it, and evict any cached
                 # watcher module so each run imports from its own work dir.
                 sys.path.insert(0, str(work))
                 _evict_watcher_modules()
                 urllib.request.urlopen = _make_urlopen(
-                    state_before, build_html(upstream_rows), sent, head_sha,
+                    state_before, build_html(upstream_rows), sent, health, head_sha,
                     fail_for, fail_once_at
                 )
                 time.sleep = lambda _s: None  # keep send spacing from slowing the suite
@@ -213,7 +236,13 @@ def run_watcher():
                 name: (work / name).read_text()
                 for name in (".watcher_state.json", ".bot_state.json")
             }
-            return Result(sent, files, buf.getvalue(), head_sha)
+            logs = {
+                path.name: path.read_text()
+                for path in sorted((work / "logs").glob("*.jsonl"))
+            } if (work / "logs").is_dir() else {}
+            summary = (work / "summary.md")
+            return Result(sent, health, files, buf.getvalue(), head_sha, logs,
+                          summary.read_text() if summary.exists() else "")
         finally:
             shutil.rmtree(work, ignore_errors=True)
 

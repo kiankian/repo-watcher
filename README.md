@@ -10,12 +10,37 @@ Currently watches **6 sources across 4 repos** (see the `WATCHERS` list in `.git
 | Simplify Summer Repo | `SimplifyJobs/Summer2026-Internships` | `dev` | `README.md` | Software Engineering section only |
 | Vansh Off-Season Repo | `vanshb03/Summer2027-Internships` | `dev` | `OFFSEASON_README.md` | full listing table |
 | Vansh Summer Repo | `vanshb03/Summer2027-Internships` | `dev` | `README.md` | full listing table |
-| Zapply Summer Repo | `zapplyjobs/Internships-2027` | `main` | `README.md` | Software Engineering section only (cumulative-URL dedup) |
-| Speedyapply Summer Repo | `speedyapply/2027-SWE-College-Jobs` | `main` | `README.md` | USA SWE Internships — all 3 tables: FAANG+, Quant, Other (cumulative-URL dedup) |
+| Zapply Summer Repo | `zapplyjobs/Internships-2027` | `main` | `README.md` | Software Engineering section only |
+| Speedyapply Summer Repo | `speedyapply/2027-SWE-College-Jobs` | `main` | `README.md` | USA SWE Internships — all 3 tables: FAANG+, Quant, Other |
 
 The two **Simplify** watchers intentionally parse only the `## 💻 Software Engineering Internship Roles` section — Product Management, Data Science/AI/ML, Quant Finance, and Hardware roles are excluded by design. The two **Vansh** watchers parse the entire `## The List` table, which is uncategorized (so non-SWE roles do flow through from those sources). The **Zapply** watcher parses only the `💻 Software Engineering` table of `zapplyjobs/Internships-2027`; its other five category tables (Data Science & AI, Hardware & Engineering, Product/Design/Research, Business & Operations, Other) are excluded by design. The **Speedyapply** source (`speedyapply/2027-SWE-College-Jobs` → `README.md`) watches the **USA SWE Internships** page in full — all three of its category tables (FAANG+, Quant, Other) — via three watcher entries that share the single "Speedyapply Summer Repo" label and stamp the category into the alert's last field; the repo's separate New-Grad and International pages (`NEW_GRAD_USA.md`, `INTERN_INTL.md`, `NEW_GRAD_INTL.md`) are not watched.
 
-State is persisted in `.watcher_state.json`. Most sources store a `{last_sha, rows}` snapshot and alert on the diff against the previous snapshot. **Zapply and Speedyapply are the exceptions:** each stores `{last_sha, seen: [apply_url, ...]}` — a cumulative, capped (`URL_CAP`) set of every apply URL ever seen — and alerts a URL only the first time it appears. For **Zapply**, this is because its table re-sorts and is capped at ~100 rows every ~15 min, so listings flap in and out of the visible window and a snapshot diff would re-alert on every re-add; keying on the apply URL (the only stable, unique field — Role/Location are truncated with `...` and Posted is the constant `Recently`) avoids that. For **Speedyapply**, many genuinely-distinct openings share the same company + role + location and differ only by apply URL (e.g. Copart lists five identical-looking Dallas SWE-intern rows with different Workday IDs), so the snapshot key `(company, role, location, term)` would collapse them and miss real additions; keying on the apply URL alerts each opening exactly once. Both keep the full query string intact, since some ATS job IDs live there (e.g. Greenhouse `?gh_jid=`). The workflow commits the state file back to this repo on every run that advances a SHA.
+## Delivery guarantee
+
+Every source uses one dedup rule, built around a per-opening **identity**:
+
+```
+identity = (apply_url or ROWKEY:company|role|location) + "|" + term + "#" + occurrence
+```
+
+A listing is alerted when its identity has never been delivered. Three properties make that safe:
+
+1. **`seen` only grows.** It is a union, never a replacement. When the parsed row set shrinks — a truncated parse, or upstream pruning its table — the rows that vanished stay in `seen`, so they do not re-alert when they come back, while anything genuinely new in the same run still goes out.
+2. **An identity is recorded only after Telegram confirms the message.** A failed or rate-limited send leaves it unseen, and `last_sha` is held back so the next run re-fetches and retries. Nothing is ever marked seen without having been delivered.
+3. **Every parsed row gets exactly one identity, and no two rows in a run share one.** The apply URL separates openings that are textually identical (Copart posts several Dallas SWE-intern reqs differing only by Workday ID); the `ROWKEY` fallback covers rows with no parseable link (~a fifth of the Vansh rows); `term` lets a requisition relisted for a new season through; the occurrence index separates rows identical even down to a missing URL.
+
+Failure modes that remain all produce a *duplicate*, never a miss: a URL gaining or losing tracking parameters, URL-less rows being reordered, or `SEEN_CAP` eviction (logged when it happens).
+
+State lives in `.watcher_state.json`, one entry per source:
+
+```json
+{ "<state_key>": { "last_sha": "...", "seen": ["<identity>", ...],
+                   "seen_legacy_urls": ["<url>", ...], "last_row_count": 28 } }
+```
+
+`seen_legacy_urls` holds bare apply URLs recorded before identities existed, by the two sources that used cumulative-URL dedup. Those predate the term suffix, so they can only be matched on URL. The set is static and can be dropped after a season. Migration to this shape runs inline, is idempotent, and seeds from both the stored rows and every job in `.bot_state.json`, so the first run after a deploy alerts nothing.
+
+Identities are stored in full rather than hashed, so `git log -p .watcher_state.json` shows exactly which listings each run added. The cost is size: the file is committed on most runs, and it grows by roughly a thousand identities a year on the busiest source. `SEEN_CAP` (5000 per source) is a backstop against a runaway parse, not the expected size.
 
 ## Triggering (external cron — NOT a GitHub schedule)
 
@@ -45,6 +70,39 @@ authorized to dispatch workflows on this repo:
 > dispatch starts returning **401/403**, the workflow stops running, and Telegram alerts go
 > silent — with no error visible in this repo. This is the most common cause of an outage.
 > See the runbook below.
+
+## Logs and health
+
+Two append-only logs are committed alongside the state, rotated monthly:
+
+| File | One line per | Use |
+|---|---|---|
+| `logs/alerts-YYYY-MM.jsonl` | **delivered** Telegram message | `{ts, seq, message_id, watcher, identity, job_hash, company, role, location, term, apply_url}` |
+| `logs/runs-YYYY-MM.jsonl` | watcher per run that did something, plus an hourly heartbeat | `{ts, run_id, watcher, state_key, prev_sha, latest_sha, rows_extracted, prev_row_count, seen_size, identities_new, sent_ok, sent_failed, skip_reason}` |
+
+The alert log exists because `.bot_state.json` cannot serve as one: `pending` is a dict keyed by job hash, so a re-sent alert **overwrites its own record** and the evidence disappears. Reconstructing past duplicates meant diffing gaps in Telegram message IDs; these logs make it a one-line query. The run log turns a shrinking parse into a visible time series rather than something only findable by diffing state commits.
+
+Quiet runs are collapsed into the hourly heartbeat on purpose — at one dispatch a minute, logging unconditionally would be ~8,600 lines a day.
+
+### Sequence numbers
+
+Each alert carries a number (`Simplify Summer Repo #1032`). It is committed only after Telegram confirms the send, so the sequence has no gaps: **a gap in the numbering in your chat is proof of a lost alert**, verifiable without touching this repo. `process_applies` preserves the number when it edits a message to `✅ Logged`.
+
+### Health alerts
+
+Operational faults are sent to the same chat with a `⚠️ watcher:` prefix, rate-limited to one per kind per 30 minutes:
+
+- a source parsed **0 rows** (renamed heading or reshaped table — otherwise indistinguishable from "no new listings")
+- a parse returned under 70% of its previous row count
+- a send failed (the listing stays unrecorded and will be retried)
+- `SEEN_CAP` eviction
+- no successful run for over 2 hours
+
+> ⚠️ **The 2-hour silence check can only fire during a run that actually happens.** It catches the workflow erroring, or the dispatch stalling and recovering — it *cannot* detect the dispatch stopping for good, which is the most likely outage (see below). Closing that gap needs an external dead-man switch: set the `HEALTHCHECK_PING_URL` secret to a [healthchecks.io](https://healthchecks.io)-style ping URL and the workflow will hit it at the end of every successful run, leaving that service to notify you when the pings stop. Unset, the ping is skipped.
+
+### Dry runs
+
+Run the workflow from the Actions tab with **dry_run** checked to parse live upstream data, compute identities, and print what *would* be sent — without sending a message, writing state, or committing. Use it to rehearse a change before any alert can go out.
 
 ### If alerts stop (troubleshooting runbook)
 
@@ -85,6 +143,7 @@ The same workflow (`watch-files.yml`) runs both jobs in order:
 | `TELEGRAM_CHAT_ID` | Chat that receives alerts. |
 | `GOOGLE_SERVICE_ACCOUNT_JSON` | Full service account JSON (paste the whole file as the secret value). |
 | `APPLICATIONS_SHEET_ID` | The spreadsheet ID from its URL (`docs.google.com/spreadsheets/d/<ID>/edit`). |
+| `HEALTHCHECK_PING_URL` | *Optional.* External dead-man switch pinged after each successful run (see Logs and health). |
 
 Optional repo variable (not secret):
 
@@ -114,6 +173,19 @@ The bot uses long-polling via `getUpdates` — **do not** set a webhook on the b
 ```sh
 curl "https://api.telegram.org/bot<TOKEN>/deleteWebhook"
 ```
+
+## Tests
+
+Pure parsing and dedup logic lives in `watcher/core.py`; the workflow imports it and keeps only its I/O. `tests/conftest.py` extracts the python block straight out of `watch-files.yml` and runs it against a temporary checkout with `urlopen` stubbed, so the end-to-end tests drive the same code that runs in CI rather than a reimplementation.
+
+```sh
+pip install pytest
+python -m pytest -q
+```
+
+`.github/workflows/tests.yml` runs on pushes and PRs that touch `watcher/`, `tests/`, or either workflow. It is path-filtered deliberately: the watcher pushes a state commit most minutes, and without filters every one of them would start a test run.
+
+Fixtures under `tests/fixtures/` are frozen copies rather than the live state files, which the runner rewrites continuously. `collapse_84.json` / `collapse_28.json` are the real snapshots either side of the 2026-07-30 01:37 UTC row collapse, replayed as a regression test.
 
 ## Pushing a local commit when the remote has advanced
 
@@ -153,8 +225,8 @@ git rebase --continue
     - [x] Connect to google sheet (`process_applies` job — appends a row on each `✅ Applied` tap)
     - [ ] Text to update
 - [ ] More job boards:
-    - [x] https://github.com/speedyapply/2027-SWE-College-Jobs — **Speedyapply Summer Repo** (USA SWE Internships; all 3 tables — FAANG+/Quant/Other; cumulative-URL dedup)
-    - [x] https://github.com/zapplyjobs/Internships-2027 — **Zapply Summer Repo** (Software Engineering table only; cumulative-URL dedup)
+    - [x] https://github.com/speedyapply/2027-SWE-College-Jobs — **Speedyapply Summer Repo** (USA SWE Internships; all 3 tables — FAANG+/Quant/Other)
+    - [x] https://github.com/zapplyjobs/Internships-2027 — **Zapply Summer Repo** (Software Engineering table only)
 
 
 - Spreadsheet URL: 1UHDefi6XPSs7sypXMmAIWsCuoE_UswBCipDMbgisX5w
