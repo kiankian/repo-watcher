@@ -31,7 +31,9 @@ jobs:
           python-version: '3.12'
 
       - name: Install test deps
-        run: pip install --quiet pytest
+        # pyyaml is needed by tests/test_workflow_yaml.py, which parses watch-files.yml to assert
+        # on the job- and step-level `if:` guards that Actions evaluates.
+        run: pip install --quiet pytest pyyaml
 
       - name: Run tests
         run: python -m pytest -q
