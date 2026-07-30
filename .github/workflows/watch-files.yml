@@ -31,10 +31,6 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_TOKEN: ${{ github.token }}
           DRY_RUN: ${{ inputs.dry_run }}
-          # Optional external dead-man switch (healthchecks.io or similar). The in-workflow
-          # silence check can only fire during a run that happens, so it cannot detect the
-          # dispatch stopping altogether; a service that alerts when pings stop can.
-          HEALTHCHECK_PING_URL: ${{ secrets.HEALTHCHECK_PING_URL }}
         run: |
           python - <<'PY'
           import datetime
@@ -357,13 +353,16 @@ jobs:
               listing as seen would drop it permanently — it would never be reconsidered.
               """
               delivered, undelivered = [], []
-              for entry, identity in new_pairs:
+              for entry, identity, occurrence in new_pairs:
                   if len(delivered) >= BURST_CAP:
-                      undelivered.append((entry, identity))
+                      undelivered.append((entry, identity, occurrence))
                       continue
                   if delivered:
                       time.sleep(SEND_SPACING)  # stay under Telegram's ~1 msg/sec per-chat limit
-                  h = job_hash(entry, label)
+                  # The occurrence keeps repeated identical rows on separate pending keys. Without
+                  # it they share one, each send overwrites the last, and tapping an earlier alert
+                  # logs a sibling's message while the rest can never be recorded.
+                  h = job_hash(entry, label, occurrence)
                   # Committed only once the send succeeds, so the printed numbering has no gaps
                   # and a gap seen in the chat is proof of a lost alert.
                   seq = bot_state.get("seq", 0) + 1
@@ -371,7 +370,7 @@ jobs:
                   if DRY_RUN:
                       print(f"[dry-run] would send #{seq}: {label} / {entry[0]} - {entry[1]}")
                       bot_state["seq"] = seq
-                      delivered.append((entry, identity))
+                      delivered.append((entry, identity, occurrence))
                       continue
                   try:
                       message_id, chat_id = telegram_send_job(text, f"apply:{h}")
@@ -382,11 +381,13 @@ jobs:
                           f"could not deliver {entry[0]} - {entry[1]} ({type(exc).__name__}); "
                           "it stays unrecorded and will be retried",
                       )
-                      undelivered.append((entry, identity))
+                      undelivered.append((entry, identity, occurrence))
                       continue
                   if h in bot_state["pending"]:
-                      # Should be unreachable: an identical job is already deduped upstream. If it
-                      # fires, the older message's Applied button now points at this newer message.
+                      # Genuinely unexpected now that the occurrence is in the hash: an identity is
+                      # only ever delivered once, and repeated identical rows get distinct hashes.
+                      # If it does fire, the older message's Applied button has been repointed at
+                      # this newer message, so the older one can no longer be logged.
                       health_alert("duplicate-hash", f"{h} was already pending ({entry[0]}).")
                   bot_state["seq"] = seq
                   bot_state["pending"][h] = {
@@ -399,6 +400,9 @@ jobs:
                       "message_id": message_id,
                       "chat_id": chat_id,
                       "seq": seq,
+                      # Recorded so the entry says which opening it is without needing the
+                      # surrounding run to be reconstructed.
+                      "identity": identity,
                   }
                   append_jsonl("alerts", {
                       "ts": iso(utcnow()),
@@ -414,7 +418,7 @@ jobs:
                       "term": entry[3],
                       "apply_url": entry[4],
                   })
-                  delivered.append((entry, identity))
+                  delivered.append((entry, identity, occurrence))
               if undelivered:
                   print(
                       f"{len(undelivered)} listing(s) for {label} not delivered; withholding them "
@@ -555,11 +559,16 @@ jobs:
               if seen_list is None:
                   # Silent bootstrap: a source seen for the first time records what is currently
                   # listed and alerts nothing, so adding a watcher cannot flood the chat.
-                  seeded = [identity for _, identity in assign_identities(curr_rows)]
+                  seeded = [identity for _, identity, _occ in assign_identities(curr_rows)]
                   state[state_key] = {
                       "last_sha": latest_sha,
                       "seen": seeded[-SEEN_CAP:],
-                      "seen_legacy_urls": sorted({r[4] for r in curr_rows if r[4]}),
+                      # Deliberately empty: the seeded identities already silence this snapshot,
+                      # and a legacy URL suppresses a row whatever its term, so seeding URLs here
+                      # would stop a requisition relisted for a new season from ever alerting.
+                      # Same reasoning as migrate_state — legacy is only for state that recorded
+                      # no term at all.
+                      "seen_legacy_urls": [],
                       "last_row_count": len(curr_rows),
                   }
                   print(f"Bootstrapped {state_key} at {latest_sha} with {len(seeded)} identities.")
@@ -575,7 +584,7 @@ jobs:
 
               # Union in only what Telegram confirmed. Undelivered identities stay absent, so the
               # next run sees them as new and retries.
-              merged = seen_list + [identity for _, identity in delivered]
+              merged = seen_list + [identity for _, identity, _occ in delivered]
               if len(merged) > SEEN_CAP:
                   health_alert(
                       f"cap:{state_key}",
@@ -655,16 +664,6 @@ jobs:
               bot_state["health"]["last_ok_run"] = iso(utcnow())
               STATE_FILE.write_text(json.dumps(state, indent=2) + "\n")
               BOT_STATE_FILE.write_text(json.dumps(bot_state, indent=2) + "\n")
-
-              # External dead-man switch, if configured: a service that alerts when the pings stop
-              # is the only thing that can notice the dispatch dying altogether.
-              ping_url = os.environ.get("HEALTHCHECK_PING_URL")
-              if ping_url:
-                  try:
-                      with urlopen_with_retry(urllib.request.Request(ping_url)) as resp:
-                          resp.read()
-                  except Exception as exc:
-                      print(f"Healthcheck ping failed: {type(exc).__name__}: {exc}")
           PY
 
       - name: Commit updated state
@@ -688,9 +687,27 @@ jobs:
           echo "Push failed after 5 attempts" >&2
           exit 1
 
+      # Deliberately the last step, after the push. The ping is an external dead-man switch, so
+      # it has to mean "the whole stateful run completed" — pinging from inside the watcher would
+      # report healthy even when the push exhausted its retries, leaving delivered alerts
+      # unrecorded. success() must be explicit: supplying any `if:` drops the implicit one, and
+      # not pinging on a failed push is the entire point.
+      - name: Ping healthcheck
+        if: ${{ success() && !inputs.dry_run }}
+        env:
+          HEALTHCHECK_PING_URL: ${{ secrets.HEALTHCHECK_PING_URL }}
+        run: |
+          if [ -n "$HEALTHCHECK_PING_URL" ]; then
+            curl -fsS --retry 3 --max-time 10 "$HEALTHCHECK_PING_URL" \
+              || echo "Healthcheck ping failed (run itself succeeded)"
+          fi
+
   process_applies:
     needs: watch
-    if: always()
+    # always() so taps are still processed when the watch job fails, but never on a dry run:
+    # this job appends to the Google Sheet, edits Telegram messages and commits .bot_state.json,
+    # so leaving it ungated would make a supposed rehearsal mutate external state.
+    if: ${{ always() && !inputs.dry_run }}
     runs-on: ubuntu-latest
 
     steps:

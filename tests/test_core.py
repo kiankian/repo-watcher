@@ -213,7 +213,7 @@ def test_identity_is_total_and_injective_over_the_recorded_snapshots():
         paired = core.assign_identities(rows)
 
         assert len(paired) == len(rows), "total: one identity per row"
-        assert len({identity for _, identity in paired}) == len(rows), "injective: no collisions"
+        assert len({identity for _, identity, _ in paired}) == len(rows), "injective: no collisions"
 
 
 def test_identity_is_injective_over_the_live_state_snapshots():
@@ -226,7 +226,7 @@ def test_identity_is_injective_over_the_live_state_snapshots():
         if not rows:
             continue
         paired = core.assign_identities(rows)
-        assert len({i for _, i in paired}) == len(rows), f"identity collision in {key}"
+        assert len({i for _, i, _ in paired}) == len(rows), f"identity collision in {key}"
         checked += len(rows)
     if checked:
         print(f"checked {checked} live rows")
@@ -238,7 +238,7 @@ def test_occurrence_index_separates_otherwise_identical_rows():
     row = ["Kudu Dynamics", "Software Engineer Intern", "Chantilly, VA", "May 22", ""]
     paired = core.assign_identities([row, row, row])
 
-    assert [i for _, i in paired] == [
+    assert [i for _, i, _ in paired] == [
         "ROWKEY:Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#1",
         "ROWKEY:Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#2",
         "ROWKEY:Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#3",
@@ -272,7 +272,7 @@ def test_select_new_skips_seen_identities():
 
     fresh = core.select_new(rows, seen)
 
-    assert [row[0] for row, _ in fresh] == ["Beta"]
+    assert [row[0] for row, _, _ in fresh] == ["Beta"]
 
 
 def test_select_new_honours_legacy_urls():
@@ -443,3 +443,53 @@ def test_the_collapsed_snapshot_hides_whole_clusters_of_openings():
     # Every member of a cluster is a genuinely different opening: distinct apply URLs.
     for rows in multi.values():
         assert len({r[4] for r in rows}) == len(rows)
+
+
+# --- job_hash occurrence suffix ---------------------------------------------------------
+
+def test_job_hash_is_unchanged_at_occurrence_one():
+    """The default must stay byte-identical to the original formula, or every Applied button
+    already sitting in the chat is orphaned. test_job_hash_matches_the_hashes_in_bot_state is the
+    real guard; this states the intent directly."""
+    entry = ["Acme", "R", "L", "T", "https://acme.test/1"]
+
+    assert core.job_hash(entry, "Label") == core.job_hash(entry, "Label", 1)
+    assert core.job_hash(entry, "Label", occurrence=1) == core.job_hash(entry, "Label")
+
+
+def test_job_hash_differs_per_occurrence():
+    """Repeated identical rows must land on separate pending keys. Sharing one means each send
+    overwrites the last, so tapping an earlier alert logs a sibling and the rest never can."""
+    entry = ["Kudu Dynamics", "Software Engineer Intern", "Chantilly, VA", "May 22", ""]
+
+    hashes = {core.job_hash(entry, "Vansh Summer Repo", occ) for occ in (1, 2, 3)}
+
+    assert len(hashes) == 3
+
+
+def test_every_row_in_a_run_gets_a_distinct_job_hash():
+    """The live Vansh snapshot had 147 distinct identities but only 144 distinct hashes, so three
+    delivered alerts were untrackable. Identity uniqueness alone is not enough — the hash has to
+    be unique too, because that is what the button carries."""
+    rows = [["Kudu Dynamics", "Software Engineer Intern", "Chantilly, VA", "May 22", ""]] * 3
+    rows += [["General Dynamics", "Software Engineer Intern", "Pittsburgh, PA", "Apr 20", ""]] * 2
+
+    triples = core.assign_identities(rows)
+    hashes = {core.job_hash(row, "Vansh Summer Repo", occ) for row, _ident, occ in triples}
+
+    assert len(hashes) == len(rows) == 5
+
+
+def test_assign_identities_returns_the_occurrence():
+    rows = [["Acme", "R", "L", "T", ""], ["Acme", "R", "L", "T", ""]]
+
+    assert [occ for _row, _ident, occ in core.assign_identities(rows)] == [1, 2]
+
+
+def test_select_new_carries_the_occurrence_through():
+    """deliver_listings needs it to build the hash, so it must survive the filter."""
+    rows = [["Acme", "R", "L", "T", ""], ["Acme", "R", "L", "T", ""]]
+
+    fresh = core.select_new(rows, seen=set())
+
+    assert [occ for _row, _ident, occ in fresh] == [1, 2]

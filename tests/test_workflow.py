@@ -304,3 +304,55 @@ def test_the_step_summary_lists_anomalies(run_watcher):
 
     assert "**Anomalies**" in r.summary
     assert "zero-rows" in r.summary
+
+
+# --- review fixes -----------------------------------------------------------------------
+
+KUDU = ["Kudu Dynamics", "Software Engineer Intern", "Chantilly, VA", "May 22", ""]
+
+
+def test_identical_rows_get_separate_applied_button_records(run_watcher, fixture_rows):
+    """The occurrence index made all three copies alert, but they shared one job_hash, so each
+    send overwrote bot_state["pending"][h]. Tapping an earlier alert then edited and logged the
+    last message, and once that entry was deleted the siblings answered "Already logged" for
+    good. Three delivered alerts, three records, three message ids."""
+    r = run_watcher(fixture_rows + [KUDU, KUDU, KUDU])
+
+    assert len(r.sent) == 3
+    kudu = [job for job in r.bot_state["pending"].values() if job["company"] == "Kudu Dynamics"]
+    assert len(kudu) == 3, "one pending record per delivered alert"
+    assert len({job["message_id"] for job in kudu}) == 3, "each points at its own message"
+    assert len({job["identity"] for job in kudu}) == 3
+    assert not r.health_matching("already pending"), "the collision alarm must not fire"
+
+
+def test_the_pending_record_names_its_opening(run_watcher, fixture_rows):
+    r = run_watcher(fixture_rows + [NEW_A])
+
+    job = next(j for j in r.bot_state["pending"].values() if j["company"] == "TestCorp Alpha")
+    assert job["identity"] == "https://example.com/apply/alpha|Summer 2026#1"
+
+
+def test_bootstrap_does_not_record_current_urls_as_legacy(run_watcher, fixture_rows):
+    """A legacy URL suppresses a row whatever its term, so seeding them at bootstrap would stop a
+    requisition relisted for a new season from ever alerting. The seeded identities already
+    silence the snapshot; only state that recorded no term belongs in the legacy set."""
+    r = run_watcher(fixture_rows, drop_target_state=True)
+
+    entry = r.state["SimplifyJobs/Summer2026-Internships#summer"]
+    assert entry["seen_legacy_urls"] == []
+    assert len(entry["seen"]) == len(fixture_rows), "identities do the silencing"
+
+
+def test_a_second_copy_of_a_bootstrapped_url_still_alerts(run_watcher, fixture_rows):
+    """Consequence of the above, driven through the real loop. Bootstrap sees one copy of a URL;
+    upstream then lists it twice. The #2 occurrence is a distinct, unseen identity and must
+    alert -- with the URL in seen_legacy_urls it was rejected on the URL check instead."""
+    dupe = ["Acme", "SWE Intern", "NYC", "Summer 2026", "https://acme.test/job/1"]
+    seeded = run_watcher(fixture_rows + [dupe], drop_target_state=True)
+    assert seeded.sent == []
+
+    r = run_watcher(fixture_rows + [dupe, dupe], start_files=seeded.files)
+
+    assert len(r.sent) == 1, "the second occurrence is a new opening"
+    assert r.sent_matching("https://acme.test/job/1")

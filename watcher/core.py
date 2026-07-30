@@ -16,14 +16,23 @@ import re
 CONTINUATION = "↳"  # the upstream boards use this to mean "same company as the row above"
 
 
-def job_hash(entry, source):
+def job_hash(entry, source, occurrence=1):
     """Stable id for a listing, embedded in the Telegram button as `apply:<hash>`.
 
-    Do not change the inputs or the truncation: process_applies resolves a tapped button by
-    looking this hash up in bot_state["pending"], and hundreds of already-sent messages in the
-    chat carry hashes computed by the current formula.
+    process_applies resolves a tapped button by looking this hash up in bot_state["pending"], so
+    hundreds of already-sent messages in the chat depend on the exact hashed string. At
+    occurrence 1 it is therefore byte-for-byte what it has always been.
+
+    The occurrence suffix exists because repeated identical rows (Kudu Dynamics lists the same
+    URL-less role three times) otherwise collide: every copy would write the same pending key,
+    each send overwriting the last, so tapping an earlier alert would edit and log a sibling's
+    message and the rest could never be recorded at all. Only occurrence > 1 changes shape, and
+    no stored entry can be at occurrence > 1 — that collision is precisely what overwrote it —
+    so nothing already issued is invalidated.
     """
     key_str = f"{source}|{entry[0]}|{entry[1]}|{entry[2]}|{entry[3]}|{entry[4]}"
+    if occurrence > 1:
+        key_str = f"{key_str}|#{occurrence}"
     return hashlib.sha256(key_str.encode()).hexdigest()[:12]
 
 
@@ -161,30 +170,35 @@ def row_identity(entry, occurrence):
 
 
 def assign_identities(rows):
-    """Pair each row with its identity, numbering repeats of the same stem from 1."""
+    """Return (row, identity, occurrence) triples, numbering repeats of a stem from 1.
+
+    The occurrence is returned rather than left to be parsed back out of the identity string,
+    because job_hash needs it too and re-deriving it from a trailing "#N" would break on any
+    stem that legitimately ends that way.
+    """
     counts = {}
-    paired = []
+    triples = []
     for row in rows:
         stem = identity_stem(row)
         counts[stem] = counts.get(stem, 0) + 1
-        paired.append((row, f"{stem}#{counts[stem]}"))
-    return paired
+        triples.append((row, f"{stem}#{counts[stem]}", counts[stem]))
+    return triples
 
 
 def select_new(rows, seen, legacy_urls=()):
-    """Rows never delivered before, as (row, identity) pairs.
+    """Rows never delivered before, as (row, identity, occurrence) triples.
 
     seen holds identities. legacy_urls holds bare apply URLs recorded before identities
     existed -- those predate the term/occurrence suffix, so they can only be matched on URL.
     """
     legacy = set(legacy_urls)
     fresh = []
-    for row, identity in assign_identities(rows):
+    for row, identity, occurrence in assign_identities(rows):
         if identity in seen:
             continue
         if row[4] and row[4] in legacy:
             continue
-        fresh.append((row, identity))
+        fresh.append((row, identity, occurrence))
     return fresh
 
 
@@ -243,7 +257,7 @@ def migrate_state(state, bot_records, watchers, cap=SEEN_CAP):
         seen, legacy = [], set()
         if rows is not None:
             # Rows carry a term, so their identities reconstruct exactly.
-            seen = [identity for _, identity in assign_identities(rows)]
+            seen = [identity for _, identity, _occ in assign_identities(rows)]
         elif val.get("seen") is not None:
             # The old cumulative-URL sources stored bare URLs with no term recorded, so these
             # can only ever be matched on URL. This is the only reason seen_legacy_urls exists,
