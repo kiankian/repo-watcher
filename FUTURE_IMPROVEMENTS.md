@@ -51,13 +51,31 @@ dead" alert while job alerting is fine. But it leaves a real gap. A revoked serv
 deleted spreadsheet stops taps reaching the Sheet and stops buttons being ticked, indefinitely and
 silently — job alerts keep arriving normally, so nothing looks wrong.
 
-Transient failures self-heal: `advance_offset` is called per update only after that tap's Sheets
-append and Telegram edit succeed, and `.bot_state.json` is written after the loop and committed in
-a later step, so any failure leaves `last_update_id` where it was and the tap is re-read next run.
-**That self-healing expires after 24 hours** — Telegram only retains undelivered `getUpdates`
-results that long. So a persistent failure does not merely stop logging: every tap made during it
-is permanently lost once the window closes, with no record anywhere that it happened. That is the
-case to catch, and the reason this is worth more than its position in this list suggests.
+A transient failure does not lose the tap: `advance_offset` runs per update only after that tap's
+append and edit succeed, and `.bot_state.json` is written after the loop and committed in a later
+step, so any failure leaves `last_update_id` where it was and the tap is re-read next run.
+
+**But the retry is not idempotent, and the offset is not the thing that guards it.** Per tap the
+order is `append_row` → `answerCallbackQuery` → `editMessageText` → mutate `applied`/`pending` →
+`advance_offset`. The two *expected* failures are handled cleanly — `sheets_credentials()` and
+`append_row` both catch and `break` before anything is mutated. Everything after a successful
+append is not: an uncaught error in either `tg_call`, or the `Commit updated bot state` step
+exhausting its five push retries, leaves the Sheet holding the row while `pending` still holds the
+hash. The next run re-reads the tap, finds it in `pending`, and appends a **second** row. The push
+case duplicates every tap processed in that run, not just one.
+
+Two failures compound this. The window is unbounded in one direction — Telegram retains
+undelivered `getUpdates` results for **24 hours**, so a failure persisting past that loses every
+tap made during it permanently, with no record anywhere. And in the other direction the retry
+itself creates duplicates. So the current behaviour is: transient → duplicate Sheet rows;
+persistent → silent permanent loss.
+
+The `⚠️` signal above addresses the second and makes the first visible, which is why it comes
+first. Genuine idempotency is a separate, larger change: writing the job hash into a Sheet column
+and skipping an append whose hash is already present. Worth it only if duplicates actually start
+appearing — taps are manual and low-volume (33 logged to date), so the cheap fix is to notice and
+delete the duplicate row. Do **not** "fix" this by advancing the offset before the append; that
+converts a visible duplicate into a silent lost tap.
 
 Cheapest fix: an `if: failure()` step on `process_applies` that sends a `⚠️` Telegram message
 naming the failed step. It reuses the channel already trusted for operational faults and needs no
