@@ -7,17 +7,21 @@ internship-listing repositories, parses selected tables, sends new listings to
 Telegram, and lets a user mark an alert as applied so it can be appended to a
 Google Sheet.
 
-The application intentionally lives almost entirely in
-`.github/workflows/watch-files.yml`: the workflow contains two inline Python
-programs and the shell used to commit updated state. There is no separate package,
-build system, or test suite.
+The application lives almost entirely in `.github/workflows/watch-files.yml`: the
+workflow contains two inline Python programs and the shell used to commit updated
+state. Side-effect-free parsing and dedup logic is factored into the `watcher`
+package so it can be unit tested; the workflow imports it and keeps only its I/O.
+`tests/` holds a pytest suite that also execs the real workflow heredoc with the
+network stubbed, so the end-to-end tests drive the shipped code rather than a copy.
 
 ## Read these files first
 
 - `README.md` documents setup, external triggering, secrets, operations, and the
   outage runbook.
 - `PARSING_REFERENCE.md` documents upstream formats, section boundaries, parsing,
-  listing identity, and deduplication behavior.
+  listing identity, and the state/delivery flow.
+- `TESTING.md` documents the suite, what each guarantee rests on, and how to check
+  parsers against live data without sending anything.
 - `.github/workflows/watch-files.yml` is the executable source of truth. Its
   `WATCHERS` list defines all sources and parser configuration.
 - `.watcher_state.json` and `.bot_state.json` are runtime data committed by the
@@ -35,9 +39,10 @@ Concurrency is serialized because both jobs write committed state.
 2. It fetches the README at that exact SHA, slices the configured section, and
    parses HTML or Markdown rows into
    `[company, role, location, term_or_category, apply_url]`.
-3. Snapshot sources compare `(company, role, location, term)` against the prior
-   row snapshot. Zapply and Speedyapply instead use an append-only, capped set of
-   apply URLs because their table behavior makes snapshot identity unreliable.
+3. Every source uses one rule: a per-opening identity of
+   `(apply_url or NOURL)|company|role|location|term#occurrence`, checked against a
+   `seen` set that only ever grows. Undelivered work is queued in a per-source
+   `outbox` and drained on later runs.
 4. New jobs are sent as individual Telegram messages. Pending callback metadata
    is saved in `.bot_state.json`.
 5. The `process_applies` job reads Telegram callback updates, appends applied jobs
@@ -60,9 +65,12 @@ one user-facing label.
   its full uncategorized list, Zapply is SWE-only, and Speedyapply watches all
   three USA internship tables.
 - Keep query strings in apply URLs; some ATS systems encode the job ID there.
-- Keep URL-based cumulative dedup for Zapply and Speedyapply unless the upstream
-  identity model is deliberately redesigned and migrated.
-- Do not add age, salary, or other volatile display fields to snapshot identity.
+- Keep `seen` append-only. It must never be replaced wholesale: a shrinking parse
+  would then forget listings and re-alert them when they return.
+- Never record an identity as seen until delivery is confirmed, and keep the
+  `outbox` draining independently of whether the current snapshot could be parsed.
+- Do not add age, salary, or other volatile display fields to the identity. The
+  fields it uses were measured stable across 2,060 state snapshots.
 - Preserve the `↳` continuation rule, which inherits the previous company.
 - Never print, commit, or place real Telegram, GitHub, Google service-account, or
   spreadsheet credentials in fixtures or documentation.
@@ -86,11 +94,22 @@ one user-facing label.
 
 ## Validation
 
-There is no live end-to-end test that is safe to run locally: executing the full
-inline programs can call GitHub, Telegram, and Google Sheets and mutate production
-state. Prefer static checks and isolated parser fixtures.
+Run the suite first — it is offline, touches no committed state, and takes ~2s:
 
-Run these checks after relevant changes:
+```sh
+pip install pytest pyyaml
+python -m pytest -q
+```
+
+See `TESTING.md` for what each guarantee rests on and for the recipe that proves a
+new test actually fails without its fix. To check parsers against the live boards
+without sending anything, dispatch the workflow with `dry_run` from the default
+branch.
+
+A live *unguarded* run is still unsafe to invoke by hand: it can call Telegram and
+Google Sheets and mutate production state. That is what `dry_run` is for.
+
+These additional checks remain useful after relevant changes:
 
 ```sh
 # Basic workflow syntax (Ruby is available on GitHub-hosted runners).
@@ -106,10 +125,9 @@ git status --short
 git diff -- . ':(exclude).watcher_state.json' ':(exclude).bot_state.json'
 ```
 
-When editing inline Python, extract each `python - <<'PY'` heredoc to a temporary
-file and run `python3 -m py_compile` on it. For parser changes, use small local
-fixtures containing headers, separators, continuation rows, missing markers,
-empty tables, HTML entities, Markdown links, and URLs with query strings. Do not
+For parser changes, add cases to `tests/test_core.py` covering headers, separators,
+continuation rows, missing markers, empty tables, HTML entities, Markdown links,
+and URLs with query strings — the existing tests there are the template. Do not
 invoke Telegram or Sheets as part of validation.
 
 ## Git and review hygiene

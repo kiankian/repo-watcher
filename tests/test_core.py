@@ -383,9 +383,20 @@ def test_migrate_leaves_unrecognised_entries_alone():
     assert core.migrate_state(state, [], WATCHERS)["_notes"] == "free text"
 
 
-def test_migrating_the_real_state_files_seeds_everything_currently_listed():
-    """Cutover rehearsal on the committed state: every row currently listed, and every job ever
-    sent, must land in the seeded sets -- otherwise the first run after the change re-alerts."""
+def test_migrating_the_real_state_files_is_safe():
+    """Runs against the committed state, so what it can assert depends on which side of the
+    cutover that state is on.
+
+    Legacy shape: this is the cutover rehearsal -- every row currently listed, and every job ever
+    sent, must land in the seeded sets, or the first run after deploying re-alerts the board.
+
+    Already migrated (the case since 2026-07-30): migration must be a no-op. A second pass that
+    changed anything would mean every run re-seeds and the shape is unstable.
+
+    Reading live state is deliberate -- it is the only check that runs against production data --
+    but it does mean the assertions have to follow the file. An earlier version of this test read
+    `seen` as bare URLs, which was true only before the cutover and broke the moment it happened.
+    """
     state = json.loads((REPO_ROOT / ".watcher_state.json").read_text())
     bot_state = json.loads((REPO_ROOT / ".bot_state.json").read_text())
     records = list(bot_state["pending"].values()) + list(bot_state["applied"].values())
@@ -405,23 +416,32 @@ def test_migrating_the_real_state_files_seeds_everything_currently_listed():
     ]
 
     migrated = core.migrate_state(state, records, watchers)
+    already_migrated = all(
+        "seen_legacy_urls" in v for v in state.values() if isinstance(v, dict)
+    )
 
     for key, val in state.items():
         out = migrated[key]
         assert set(out) == {
             "last_sha", "seen", "seen_legacy_urls", "last_row_count", "outbox",
         }
+        if already_migrated:
+            assert out == val, f"{key}: migration must not touch already-migrated state"
+            continue
         # Nothing currently listed may be treated as new on the next run.
         rows = val.get("rows")
         if rows:
             assert core.select_new(
                 rows, set(out["seen"]), out["seen_legacy_urls"]
             ) == [], f"{key} would re-alert its own rows"
-        # Nor may any URL the old cumulative-URL sources had already seen.
+        # Nor may any URL the old cumulative-URL sources had already seen. Pre-cutover only:
+        # after it, `seen` holds identities rather than bare URLs.
         for url in val.get("seen") or []:
             assert core.select_new(
                 [["C", "R", "L", "T", url]], set(out["seen"]), out["seen_legacy_urls"]
             ) == [], f"{key} would re-alert {url}"
+
+    assert core.migrate_state(migrated, records, watchers) == migrated, "idempotent either way"
 
 
 def test_the_collapsed_snapshot_hides_whole_clusters_of_openings():

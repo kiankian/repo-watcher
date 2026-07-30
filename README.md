@@ -217,6 +217,8 @@ pip install pytest pyyaml
 python -m pytest -q
 ```
 
+See [`TESTING.md`](TESTING.md) for what each guarantee rests on, how to check parsers against live data without sending anything, and the traps that have made tests here pass for the wrong reason.
+
 `pyyaml` is needed by `tests/test_workflow_yaml.py`, which parses `watch-files.yml` to assert on the job- and step-level `if:` guards that Actions evaluates and the python harness cannot reach. Without it, collection aborts before any test runs.
 
 `.github/workflows/tests.yml` runs on pushes and PRs that touch `watcher/`, `tests/`, or either workflow. It is path-filtered deliberately: the watcher pushes a state commit most minutes, and without filters every one of them would start a test run.
