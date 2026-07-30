@@ -82,11 +82,16 @@ python3 -m py_compile /tmp/repo-watcher-heredocs/inline-2.py
 python3 -m json.tool .watcher_state.json >/dev/null
 python3 -m json.tool .bot_state.json >/dev/null
 
-# Detect whitespace problems and accidental production-state edits.
+# Detect whitespace problems and accidental production-state edits. Check the index as
+# well as the working tree: `git diff --exit-code` compares the working tree against the
+# index, so a state edit that is already staged exits 0, and `git status --short` prints
+# it but still succeeds. Once such an edit is committed both are clean, which is why
+# section 5 additionally diffs every commit against its parent.
 git diff --check
 git status --short
 git diff -- . ':(exclude).watcher_state.json' ':(exclude).bot_state.json'
 git diff --exit-code -- .watcher_state.json .bot_state.json
+git diff --cached --exit-code -- .watcher_state.json .bot_state.json
 ```
 
 ## 3. Run the production parser against missed-job fixtures
@@ -96,13 +101,20 @@ functions from the extracted **production** watcher program. It exercises every
 enabled watcher entry and the failure modes most likely to hide a new job:
 
 - marker boundaries and the configured column indexes;
-- HTML and Markdown headers/separators;
+- HTML `<th>` header rows and Markdown header/separator rows;
 - `↳` company inheritance;
 - HTML entities and both supported link forms;
 - preservation of apply-URL query strings;
-- snapshot identity versus cumulative URL identity;
-- two same-looking openings with different URLs for cumulative sources;
-- silent bootstrap, unchanged-SHA skipping, and empty-parse state preservation.
+- the zero-row blackout an upstream column drop produces;
+- snapshot versus cumulative-URL identity, and two same-looking openings that
+  differ only by URL, **as modelled by `classify()`**.
+
+`classify()` is a hand-written model of the alert decision, not the production
+code path, because that decision lives inline in the watcher loop and cannot be
+imported. This runner therefore proves parsing and identity, and nothing about
+state. Bootstrap, unchanged-SHA skipping, empty-parse preservation and send
+failures are executed for real against the production loop in section 4; do not
+read a `PASS` here as evidence about any of them.
 
 Create and run the temporary test (it writes only under `/tmp`):
 
@@ -211,7 +223,13 @@ def effective(w):
 def fixture(w, rows):
     """Build a minimal source file using this production watcher's markers."""
     if w["parser"] == "html":
-        body = "\n".join(
+        # Real upstream tables open with a <th> header row. parse_html_rows matches only
+        # <td>, so the header must contribute no listing; including it means a regression
+        # that starts matching <th> fails the row-count assertions below instead of
+        # silently seeding and alerting a bogus "Company / Role / Location" row.
+        e = effective(w)
+        header = "<tr>" + "".join(f"<th>H{i}</th>" for i in range(e["min_cells"])) + "</tr>"
+        body = header + "\n" + "\n".join(
             "<tr>" + "".join(f"<td>{cell}</td>" for cell in cells) + "</tr>"
             for cells in rows
         )
@@ -317,7 +335,10 @@ fixture, and discard that worktree.
 
 ## 4. Stateful two-run test: prove the alert decision
 
-Parser success alone is insufficient. For every affected source, reason through
+Parser success alone is insufficient: a correct parser still misses jobs if the
+state machine around it decides wrongly. The table below is the specification,
+and the runner after it executes the **real** watcher loop against a stubbed
+network to assert the rows it can reach. For every affected source, reason through
 two consecutive runs with an isolated state object:
 
 | Scenario | Expected alert attempts | Expected state/SHA result |
@@ -366,6 +387,148 @@ attempts. For a snapshot source, inject a row that changes only a volatile field
 outside `(company, role, location, term)` and require zero alerts. Always include
 a URL whose job ID is only in its query string.
 
+### Executable state-transition runner
+
+The section 3 runner cannot reach any of this: it imports parser functions, while
+the state machine lives in the loop. This runner instead executes the entire
+production program with `urllib.request.urlopen` replaced and the working
+directory moved to a temporary path, so the relative state files it writes
+(`.watcher_state.json`, `.bot_state.json`) land there. Nothing contacts GitHub,
+Telegram, or Sheets, and the committed state files are never opened. It reuses
+section 3's fixture builders, so both runners describe watchers identically —
+which also means section 3's assertions run first, and its `PASS` line prints
+before this one.
+
+```sh
+cat >/tmp/repo-watcher-loop.py <<'PY'
+import importlib.util
+import io
+import json
+import os
+import re
+import urllib.error
+import urllib.request
+from pathlib import Path
+
+SOURCE = Path("/tmp/repo-watcher-heredocs/inline-1.py")
+RUNNER = Path("/tmp/repo-watcher-regression.py")
+WORK = Path("/tmp/repo-watcher-loop")
+
+spec = importlib.util.spec_from_file_location("rwr", RUNNER)
+rwr = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(rwr)
+enabled, fixture, cells_for = rwr.enabled, rwr.fixture, rwr.cells_for
+
+def body_for(owner, repo, path, rows_per_watcher):
+    """Every in-scope section that shares one upstream file (speedyapply keeps three)."""
+    parts = []
+    for w in enabled:
+        if (w["owner"], w["repo"], w["file"]) == (owner, repo, path):
+            cells = [cells_for(w, "Example Co", f"SWE Intern {i}", "Remote",
+                               f"https://jobs.example.test/apply?job={i}")
+                     for i in range(rows_per_watcher)]
+            parts.append(fixture(w, cells) if cells else "markers removed upstream")
+    assert parts, f"no enabled watcher for {owner}/{repo}/{path}"
+    return "\n".join(parts)
+
+def run(tag, state, sha, rows_per_watcher, tg_fail=False, sha_404_for=None):
+    workdir = WORK / tag
+    workdir.mkdir(parents=True, exist_ok=True)
+    (workdir / ".watcher_state.json").write_text(json.dumps(state, indent=2) + "\n")
+    (workdir / ".bot_state.json").write_text(json.dumps(
+        {"telegram": {"last_update_id": 0}, "pending": {}}, indent=2) + "\n")
+    sent, fetched = [], []
+
+    def fake_urlopen(req, *args, **kwargs):
+        url = req.full_url
+        m = re.match(r"https://api\.github\.com/repos/([^/]+)/([^/]+)/commits/(.+)", url)
+        if m:
+            if sha_404_for and m.group(1) == sha_404_for:
+                raise urllib.error.HTTPError(url, 404, "Not Found", {}, None)
+            return io.BytesIO(json.dumps({"sha": sha}).encode())
+        m = re.match(r"https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/([^/]+)/(.+)", url)
+        if m:
+            owner, repo, _, path = m.groups()
+            fetched.append(path)
+            return io.BytesIO(body_for(owner, repo, path, rows_per_watcher).encode())
+        if "api.telegram.org" in url:
+            sent.append(json.loads(req.data.decode()))
+            if tg_fail:  # 4xx, so urlopen_with_retry re-raises without sleeping
+                raise urllib.error.HTTPError(url, 400, "Bad Request", {}, None)
+            return io.BytesIO(json.dumps({"ok": True, "result": {
+                "message_id": len(sent), "chat": {"id": -100}}}).encode())
+        raise AssertionError(f"unexpected URL: {url}")
+
+    real_urlopen, cwd = urllib.request.urlopen, os.getcwd()
+    urllib.request.urlopen = fake_urlopen
+    os.environ.update(GITHUB_TOKEN="fake", TELEGRAM_BOT_TOKEN="fake",
+                      TELEGRAM_CHAT_ID="-100")
+    os.chdir(workdir)
+    raised = None
+    try:
+        exec(compile(SOURCE.read_text(), str(SOURCE), "exec"), {"__name__": "__main__"})
+    except BaseException as exc:  # an unguarded watcher fetch aborts the whole program
+        raised = exc
+    finally:
+        urllib.request.urlopen = real_urlopen
+        os.chdir(cwd)
+    return {"sent": sent, "fetched": fetched, "raised": raised,
+            "state": json.loads((workdir / ".watcher_state.json").read_text()),
+            "pending": json.loads((workdir / ".bot_state.json").read_text())["pending"]}
+
+N = len(enabled)
+
+# Silent bootstrap: no saved state seeds every watcher and alerts nothing.
+boot = run("boot", {}, "sha1", 1)
+assert boot["raised"] is None, boot["raised"]
+assert boot["sent"] == [], f"bootstrap must be silent: {boot['sent']}"
+assert len(boot["state"]) == N, boot["state"]
+
+# One genuinely new row per watcher produces exactly one alert each -- the core
+# recall assertion, made against the real loop rather than a model of it.
+grew = run("grew", boot["state"], "sha2", 2)
+assert len(grew["sent"]) == N, f"expected {N} alerts, got {len(grew['sent'])}"
+assert len(grew["pending"]) == N, grew["pending"]
+
+# Unchanged SHA skips the network and the parser entirely.
+same = run("same", grew["state"], "sha2", 2)
+assert same["sent"] == [] and same["fetched"] == [], same
+
+# An empty parse preserves prior state byte-for-byte, including every last_sha.
+empty = run("empty", grew["state"], "sha3", 0)
+assert empty["sent"] == [], empty["sent"]
+assert empty["state"] == grew["state"], "empty parse overwrote good state"
+
+# A failed send is a PERMANENT miss: no pending entry is recorded, yet the SHA still
+# advances and the row/URL is stored as seen, so the next run never retries it. The
+# assertions below encode the bug as it stands; fixing it must change them.
+lost = run("lost", grew["state"], "sha4", 3, tg_fail=True)
+assert len(lost["sent"]) == N, len(lost["sent"])
+assert lost["pending"] == {}, lost["pending"]
+advanced = [k for k, v in lost["state"].items() if v.get("last_sha") == "sha4"]
+assert len(advanced) == N, f"expected the known send-failure bug, got {advanced}"
+
+# One unreachable repo aborts the whole program: later watchers never run, and no
+# state is written at all, so alerts already sent in that run lose their pending
+# entries and their Apply buttons stop resolving.
+dead = run("dead", grew["state"], "sha5", 3, sha_404_for=enabled[0]["owner"])
+assert isinstance(dead["raised"], urllib.error.HTTPError), dead["raised"]
+assert dead["sent"] == [], dead["sent"]
+assert dead["state"] == grew["state"], "expected no state write after an abort"
+
+print(f"PASS: real loop executed; {N} watchers bootstrapped silently, alerted once each, "
+      "skipped on unchanged SHA, preserved state on empty parse, and reproduced both "
+      "known failure modes")
+PY
+python3 /tmp/repo-watcher-loop.py
+```
+
+The last two scenarios assert bugs rather than correct behavior, and say so. They
+are here because an unasserted bug silently becomes the baseline: if either is
+fixed, these assertions must be inverted in the same commit, which is exactly the
+review conversation that should happen. Update the runner in the same commit as
+any change to the loop, fetch handling, send path, or state persistence.
+
 ## 5. Run every new commit, not only the final checkout
 
 A later commit can hide a regression introduced earlier, and reviewers may test
@@ -373,14 +536,16 @@ or revert commits independently. The loop below checks out every commit after a
 chosen base into a disposable worktree, runs that commit's workflow syntax and
 production-parser regression, then removes the worktree.
 
-First save the regression runner from section 3 somewhere outside the worktree
-(it is already `/tmp/repo-watcher-regression.py`). Then run:
+First save the runners from sections 3 and 4 somewhere outside the worktree (they
+are already `/tmp/repo-watcher-regression.py` and `/tmp/repo-watcher-loop.py`).
+Then run:
 
 ```sh
 set -eu
 BASE="${BASE:-origin/main}"
 ROOT=$(git rev-parse --show-toplevel)
 RUNNER=/tmp/repo-watcher-regression.py
+LOOP_RUNNER=/tmp/repo-watcher-loop.py
 
 for commit in $(git rev-list --reverse "$BASE"..HEAD); do
   worktree=$(mktemp -d /tmp/repo-watcher-commit.XXXXXX)
@@ -404,8 +569,12 @@ for i, block in enumerate(blocks, 1):
 PY
     python3 -m py_compile /tmp/repo-watcher-heredocs/inline-1.py /tmp/repo-watcher-heredocs/inline-2.py
     python3 "$RUNNER"
+    python3 "$LOOP_RUNNER"
     python3 -m json.tool .watcher_state.json >/dev/null
     python3 -m json.tool .bot_state.json >/dev/null
+    # Reject state edits that are already committed, which the working-tree and index
+    # checks in section 2 cannot see.
+    git diff --exit-code "$commit^" "$commit" -- .watcher_state.json .bot_state.json
   )
   git worktree remove --force "$worktree"
 done
@@ -500,13 +669,13 @@ sufficient. These gaps are open, and a change that closes one should be reviewed
 as a recall improvement rather than a refactor.
 
 **Nothing here is enforced.** There is no CI workflow running any of it, no
-`tests/` directory, and the section 3 runner lives in `/tmp`, so it is discarded
-between sessions and cannot regression-test anything over time. Its protection is
+`tests/` directory, and both runners live in `/tmp`, so they are discarded between
+sessions and cannot regression-test anything over time. Their protection is
 exactly as strong as the discipline of whoever edits next, which is a weak
-guarantee in a repository that is largely edited by agents. Versioning the runner
-in-repo and running it from a path-filtered workflow on code changes would make
-these checks real; until that exists, state explicitly in each pull request that
-the runner was executed and paste its output.
+guarantee in a repository that is largely edited by agents. Versioning both
+runners in-repo and running them from a path-filtered workflow on code changes
+would make these checks real; until that exists, state explicitly in each pull
+request that both were executed and paste their output.
 
 **Nothing verifies that runs happen at all.** `workflow_dispatch` is the only
 trigger and there is no `cron` in any workflow, so every alert depends on an
@@ -527,9 +696,14 @@ the mechanism; it cannot observe it in production. A per-watcher staleness alarm
 (row count dropping sharply versus the previous run, or a source producing no new
 listings for far longer than its normal cadence) is the missing control.
 
-**Failed sends are dropped permanently.** See section 4. Documented, not
-defended: no retry, no outbox, no alert on drop.
+**Failed sends are dropped permanently.** See section 4, where the runner asserts
+this against the real loop. Asserted, but not defended: no retry, no outbox, no
+alert on drop.
 
-**One failing watcher stops the rest.** See section 4's final row. No error
-isolation, and a mid-loop abort also loses the `pending` entries for alerts
-already delivered in that run.
+**One failing watcher stops the rest.** See section 4's final row and its runner
+scenario. No error isolation, and a mid-loop abort also loses the `pending`
+entries for alerts already delivered in that run.
+
+Both are pinned by assertions that will need inverting when they are fixed. That
+is deliberate: it forces the fix to be a visible decision rather than a silent
+change in behavior.
