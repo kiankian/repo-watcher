@@ -82,7 +82,7 @@ class _Resp(io.BytesIO):
 
 
 def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_at=None,
-                  fetch_status=None):
+                  fetch_status=None, fetches=None):
     """Stub urlopen.
 
     fail_for:     substring of the message text that 429s on every attempt (permanent failure)
@@ -106,6 +106,8 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
             return _Resp(json.dumps({"sha": sha}).encode())
 
         if "raw.githubusercontent.com" in url:
+            if fetches is not None:
+                fetches.append(url)
             if fetch_status:
                 raise urllib.error.HTTPError(
                     url, fetch_status, "Not Found", {}, io.BytesIO(b"")
@@ -138,12 +140,15 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
 
 class Result:
     def __init__(self, sent, health, files, log, head_sha, logs=None, summary="",
-                 step_output="", key=TARGET_KEY):
+                 step_output="", fetches=None, key=TARGET_KEY):
         self.sent = sent
         self.health = health
         self.logs = logs or {}
         self.summary = summary
         self.step_output = step_output
+        # Raw-file fetches this run. Zero means a source was short-circuited without being
+        # looked at, which is the difference between a real rehearsal and a no-op.
+        self.fetches = fetches or []
         self.files = files
         self.log = log
         self.head_sha = head_sha
@@ -215,6 +220,7 @@ def run_watcher():
             # reuse_sha replays against a head the previous run already recorded, so the loop
             # takes its unchanged-sha path -- the only way to test that the outbox still drains.
             head_sha = reuse_sha or next_sha()
+            fetches = []
             sent, health = [], []
             saved_cwd, saved_sleep = os.getcwd(), time.sleep
             saved_urlopen = urllib.request.urlopen
@@ -240,7 +246,7 @@ def run_watcher():
                 os.environ["GITHUB_OUTPUT"] = str(work / "step_output.txt")
                 urllib.request.urlopen = _make_urlopen(
                     state_before, build_html(upstream_rows), sent, health, head_sha,
-                    fail_for, fail_once_at, fetch_status
+                    fail_for, fail_once_at, fetch_status, fetches
                 )
                 time.sleep = lambda _s: None  # keep send spacing from slowing the suite
                 sys.stdout = buf
@@ -267,7 +273,8 @@ def run_watcher():
             step_output = work / "step_output.txt"
             return Result(sent, health, files, buf.getvalue(), head_sha, logs,
                           summary.read_text() if summary.exists() else "",
-                          step_output.read_text() if step_output.exists() else "")
+                          step_output.read_text() if step_output.exists() else "",
+                          fetches=fetches)
         finally:
             shutil.rmtree(work, ignore_errors=True)
 

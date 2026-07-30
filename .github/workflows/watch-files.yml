@@ -515,12 +515,20 @@ jobs:
               # long Telegram outage widens that window arbitrarily.
               outbox = [tuple(item) for item in (saved.get("outbox") or [])]
 
-              # Never skip on an unchanged SHA while the outbox has work: a queued job must not
-              # have to wait for an unrelated upstream commit to be retried.
-              if last_sha == latest_sha and seen_list is not None and not outbox:
+              # Two reasons this is not simply `last_sha == latest_sha`:
+              #
+              #  * the outbox must drain regardless, or a queued job would sit waiting on an
+              #    unrelated upstream commit before being retried;
+              #  * a dry run must always fetch and parse. The watcher stores the current head on
+              #    every run, so a rehearsal launched minutes later would find every source
+              #    unchanged, skip all of them and report "no new listings" having validated
+              #    nothing — exactly the parser or config edit it was meant to check.
+              upstream_unchanged = (
+                  last_sha == latest_sha and seen_list is not None and not DRY_RUN
+              )
+              if upstream_unchanged and not outbox:
                   continue
 
-              upstream_unchanged = last_sha == latest_sha and seen_list is not None
               prev_row_count = saved.get("last_row_count")
               curr_rows = None
 

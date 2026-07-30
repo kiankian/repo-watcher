@@ -490,3 +490,38 @@ def test_a_fetch_failure_keeps_the_queue(run_watcher, fixture_rows):
 
     assert len(r.outbox) == 15, "the queue survives an unreadable source"
     assert r.healthy is False
+
+
+def test_a_normal_run_short_circuits_on_an_unchanged_sha(run_watcher, fixture_rows):
+    """The optimisation that makes a once-a-minute dispatch cheap."""
+    first = run_watcher(fixture_rows)
+
+    second = run_watcher(fixture_rows, start_files=first.files, reuse_sha=first.last_sha)
+
+    assert second.fetches == [], "nothing is re-fetched when the head has not moved"
+
+
+def test_a_dry_run_always_fetches_and_parses(run_watcher, fixture_rows):
+    """The watcher stores the current head on every run, so a rehearsal launched minutes later
+    finds every source unchanged. Short-circuiting there would report "no new listings" having
+    validated nothing -- useless for checking a parser or config edit before it ships."""
+    first = run_watcher(fixture_rows)
+
+    rehearsal = run_watcher(fixture_rows, start_files=first.files,
+                            reuse_sha=first.last_sha, dry_run=True, capture_summary=True)
+
+    assert rehearsal.fetches, "the live file is actually fetched"
+    assert f"| {len(fixture_rows)} |" in rehearsal.summary, "and the parsed row count reported"
+    assert rehearsal.sent == [] and rehearsal.health == []
+
+
+def test_a_dry_run_surfaces_a_broken_parser_on_an_unchanged_sha(run_watcher, fixture_rows):
+    """The case the rehearsal exists for: a config edit that stops the parse working must be
+    visible even though the upstream head has not moved."""
+    first = run_watcher(fixture_rows)
+
+    rehearsal = run_watcher([], start_files=first.files,
+                            reuse_sha=first.last_sha, dry_run=True)
+
+    assert "extracted 0 rows" in rehearsal.log
+    assert rehearsal.healthy is False
