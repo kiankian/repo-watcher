@@ -199,12 +199,12 @@ jobs:
           SEND_SPACING = 1.1  # seconds between job sends; Telegram allows ~1 msg/sec to one chat
           BURST_CAP = 25  # max send *attempts* per watcher per run; the rest queue in the outbox
           OUTBOX_CAP = 1000  # queued-but-undelivered ceiling; at 25/run this is ~40 runs of backlog
-          # Whole-run ceiling on time spent sending. A failing send burns ~15s of backoff before
-          # it gives up, so without this a wide outage could still spend BURST_CAP x watchers x 15s
-          # in one job. The state write happens after the loop, so a run that overruns its job
-          # timeout persists nothing — not the queue, not the alarm timestamps — and the next run
-          # repeats it identically.
-          SEND_BUDGET_SECONDS = 600
+          # Whole-run ceiling on time spent waiting on the network. A failing send burns ~15s of
+          # backoff before it gives up, so without this a wide outage could still spend
+          # BURST_CAP x watchers x 15s in one job. The state write happens after the loop, so a run
+          # that overruns its job timeout persists nothing — not the queue, not the alarm
+          # timestamps — and the next run repeats it identically.
+          RUN_BUDGET_SECONDS = 600
           DRY_RUN = os.environ.get("DRY_RUN", "").strip().lower() == "true"
           RUN_ID = os.environ.get("GITHUB_RUN_ID", "local")
           SILENCE_ALARM_AFTER = 2 * 3600  # gap without a successful run that is worth reporting
@@ -214,8 +214,10 @@ jobs:
 
 
           # One deadline for the whole run, not per watcher, so six unreachable sources cannot
-          # each spend the full budget. Monotonic: unaffected by clock changes on the runner.
-          SEND_DEADLINE = time.monotonic() + SEND_BUDGET_SECONDS
+          # each spend the full budget. It bounds retry backoff as well as the send loop: a
+          # deadline the retries can sleep straight through is not a deadline. Monotonic, so a
+          # clock change on the runner cannot move it.
+          RUN_DEADLINE = time.monotonic() + RUN_BUDGET_SECONDS
 
 
           def utcnow():
@@ -272,10 +274,22 @@ jobs:
                           raise
                       delay = 2 ** i
                       if is_http and e.code == 429:
+                          # Telegram dictates this, and under heavy flood control it can be
+                          # minutes. It is not sanity-checked upstream, so treat it as untrusted.
                           delay = (retry_after_seconds(e) or delay) + 1
-                          print(f"Rate limited (429); waiting {delay}s before retry {i + 1}/{attempts}.")
+                          print(f"Rate limited (429); asked to wait {delay}s "
+                                f"before retry {i + 1}/{attempts}.")
                       else:
                           print(f"Network retry {i + 1}/{attempts}: {type(e).__name__}: {e}")
+                      remaining = RUN_DEADLINE - time.monotonic()
+                      if delay > remaining:
+                          # Sleeping past the deadline would defeat it: the state write happens
+                          # after the watcher loop, so the queue and alarm timestamps would never
+                          # be persisted and the next run would repeat the same attempts. Give up
+                          # instead — the caller queues the job and the next run retries it.
+                          print(f"Wait of {delay}s exceeds the {remaining:.0f}s left in the run "
+                                "budget; giving up so the queue is persisted.")
+                          raise
                       time.sleep(delay)
 
           def gh_request(url):
@@ -377,7 +391,7 @@ jobs:
                   # OUTBOX_CAP entries, each burning ~15s of retry backoff — was attempted in a
                   # single job. That runs for hours, past the job timeout, and the state write
                   # never happens, so the queue is not persisted and the next run repeats it.
-                  if attempted >= BURST_CAP or time.monotonic() > SEND_DEADLINE:
+                  if attempted >= BURST_CAP or time.monotonic() > RUN_DEADLINE:
                       undelivered.append((entry, identity, occurrence))
                       continue
                   if attempted:

@@ -82,7 +82,7 @@ class _Resp(io.BytesIO):
 
 
 def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_at=None,
-                  fetch_status=None, fetches=None, fail_all=False):
+                  fetch_status=None, fetches=None, fail_all=False, retry_after=0):
     """Stub urlopen.
 
     fail_for:     substring of the message text that 429s on every attempt (permanent failure)
@@ -91,6 +91,8 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
                   send-failure notice does not repeat the text of the job it is about.
     fail_once_at: 0-based send index that 429s once, to exercise the retry path
     fetch_status: HTTP status to raise when fetching the watched file (e.g. 404 for a rename)
+    retry_after: seconds Telegram demands in its 429 body -- under heavy flood control this can
+                 be minutes, and nothing upstream sanity-checks it
     """
     calls = {"send": 0}
 
@@ -128,7 +130,7 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
                 raise urllib.error.HTTPError(
                     url, 429, "Too Many Requests", {},
                     io.BytesIO(json.dumps(
-                        {"ok": False, "parameters": {"retry_after": 0}}
+                        {"ok": False, "parameters": {"retry_after": retry_after}}
                     ).encode()),
                 )
             return _Resp(json.dumps({
@@ -143,7 +145,7 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
 
 class Result:
     def __init__(self, sent, health, files, log, head_sha, logs=None, summary="",
-                 step_output="", fetches=None, key=TARGET_KEY):
+                 step_output="", fetches=None, sleeps=None, key=TARGET_KEY):
         self.sent = sent
         self.health = health
         self.logs = logs or {}
@@ -152,6 +154,8 @@ class Result:
         # Raw-file fetches this run. Zero means a source was short-circuited without being
         # looked at, which is the difference between a real rehearsal and a no-op.
         self.fetches = fetches or []
+        # Durations the run asked time.sleep for, in seconds.
+        self.sleeps = sleeps or []
         self.files = files
         self.log = log
         self.head_sha = head_sha
@@ -204,7 +208,8 @@ def run_watcher():
 
     def run(upstream_rows, start_files=None, fail_for=None, fail_once_at=None,
             drop_target_state=False, dry_run=False, capture_summary=False,
-            fetch_status=None, reuse_sha=None, monotonic_step=None, fail_all=False):
+            fetch_status=None, reuse_sha=None, monotonic_step=None, fail_all=False,
+            retry_after=0):
         work = Path(tempfile.mkdtemp())
         try:
             for name in (".watcher_state.json", ".bot_state.json"):
@@ -223,7 +228,7 @@ def run_watcher():
             # reuse_sha replays against a head the previous run already recorded, so the loop
             # takes its unchanged-sha path -- the only way to test that the outbox still drains.
             head_sha = reuse_sha or next_sha()
-            fetches = []
+            fetches, sleeps = [], []
             sent, health = [], []
             saved_cwd, saved_sleep = os.getcwd(), time.sleep
             saved_monotonic = time.monotonic
@@ -250,9 +255,12 @@ def run_watcher():
                 os.environ["GITHUB_OUTPUT"] = str(work / "step_output.txt")
                 urllib.request.urlopen = _make_urlopen(
                     state_before, build_html(upstream_rows), sent, health, head_sha,
-                    fail_for, fail_once_at, fetch_status, fetches, fail_all
+                    fail_for, fail_once_at, fetch_status, fetches, fail_all, retry_after
                 )
-                time.sleep = lambda _s: None  # keep send spacing from slowing the suite
+                # Record what the code *asks* to sleep for without actually waiting. Asserting
+                # on the requested duration is the only way to show a deadline is respected --
+                # a stubbed sleep makes an hour-long wait look instant.
+                time.sleep = sleeps.append
                 if monotonic_step:
                     # Deterministic clock: each reading advances by a fixed amount, so the
                     # run-wide send budget can be exercised without the suite actually waiting.
@@ -289,7 +297,7 @@ def run_watcher():
             return Result(sent, health, files, buf.getvalue(), head_sha, logs,
                           summary.read_text() if summary.exists() else "",
                           step_output.read_text() if step_output.exists() else "",
-                          fetches=fetches)
+                          fetches=fetches, sleeps=sleeps)
         finally:
             shutil.rmtree(work, ignore_errors=True)
 

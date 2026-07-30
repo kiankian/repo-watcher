@@ -654,3 +654,29 @@ def test_the_send_budget_stops_a_run_before_it_overruns(run_watcher, fixture_row
 
     assert 0 < len(r.sent) < 25, f"stopped early on the budget, sent {len(r.sent)}"
     assert len(r.outbox) == 60 - len(r.sent), "everything unsent is queued, not dropped"
+
+
+def test_a_long_flood_wait_is_not_slept_through(run_watcher, fixture_rows):
+    """retry_after is dictated by Telegram and can be minutes under heavy flood control. The
+    run deadline was only checked at the top of the delivery loop, so a single job could sleep
+    straight past it -- and a deadline the retries can sleep through is not a deadline. The state
+    write happens after the loop, so overrunning it means the queue is never persisted."""
+    r = run_watcher(fixture_rows + _burst(3), fail_all=True, retry_after=700)
+
+    assert len({t for t in r.sent}) == 3, "all three jobs attempted"
+    assert len(r.sent) == 3, "one attempt each: the demanded wait exceeds the whole run budget"
+    assert not [s for s in r.sleeps if s > 600], (
+        f"no sleep may exceed the run budget, asked for {sorted(set(r.sleeps), reverse=True)[:3]}"
+    )
+    assert "exceeds the" in r.log and "run budget" in r.log
+    assert len(r.outbox) == 3, "and the jobs are queued for the next run rather than lost"
+
+
+def test_a_short_flood_wait_is_still_honoured(run_watcher, fixture_rows):
+    """The bound must not turn into a refusal to wait at all -- ordinary flood control is a few
+    seconds and retrying after it is exactly the right behaviour."""
+    r = run_watcher(fixture_rows + [NEW_A], fail_once_at=0, retry_after=3)
+
+    assert len(r.sent) == 2, "retried after the demanded wait"
+    assert 4 in r.sleeps, "slept retry_after + 1, as Telegram asked"
+    assert len(r.outbox) == 0
