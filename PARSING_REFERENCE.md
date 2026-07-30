@@ -45,46 +45,59 @@ Column layout differs by file, so the HTML watchers **and** the Zapply markdown 
 | Speedyapply Summer Repo — Quant | `None` (uses default) | `4` | `"Quant"` |
 | Speedyapply Summer Repo — Other | `None` (uses default) | `3` | `"Other"` |
 
-Zapply additionally carries `role_col=1`, `loc_col=2`, `min_cells=6`, `strip_bold=True`, and `dedup="cumulative_url"` (see below). Speedyapply carries `role_col=1`, `loc_col=2`, `dedup="cumulative_url"`, and per-table `apply_col`/`min_cells` (FAANG+/Quant are 6-col → `apply_col=4`, `min_cells=6`; Other drops the Salary column → `apply_col=3`, `min_cells=5`); it needs **no** `strip_bold` because its company cells are HTML `<strong>` (already removed by `strip_html`), not markdown `**`. These all feed the now-column-configurable `parse_markdown_rows` (its defaults reproduce the Vansh layout, so the Vansh call is unchanged).
+Zapply additionally carries `role_col=1`, `loc_col=2`, `min_cells=6`, and `strip_bold=True`. Speedyapply carries `role_col=1`, `loc_col=2`, and per-table `apply_col`/`min_cells` (FAANG+/Quant are 6-col → `apply_col=4`, `min_cells=6`; Other drops the Salary column → `apply_col=3`, `min_cells=5`); it needs **no** `strip_bold` because its company cells are HTML `<strong>` (already removed by `strip_html`), not markdown `**`. These all feed the now-column-configurable `parse_markdown_rows` (its defaults reproduce the Vansh layout, so the Vansh call is unchanged).
 
-## State + Snapshot Comparison Flow
+## State + Delivery Flow
 
-1. The workflow reads `.watcher_state.json`. Most repo entries store `{last_sha, rows}` where `rows` is the parsed table snapshot at `last_sha`. **Zapply and Speedyapply are the exceptions** — their entries store `{last_sha, seen}` (see "Exception: cumulative-URL dedup" below).
-2. For each watched repo, it fetches the latest commit SHA:
-   - `GET /repos/{owner}/{repo}/commits/{branch}`
-3. If `last_sha == latest_sha` AND `rows` is already populated, skip — nothing to do.
-4. Otherwise fetch the file content at `latest_sha`:
-   - `GET https://raw.githubusercontent.com/{owner}/{repo}/{latest_sha}/{file}`
-5. Slice the relevant section using `section_start`/`section_end` markers (Simplify: SWE active only; vanshb03: full table region).
-6. Parse rows from the section into `[company, role, location, term_or_date, apply_url]` lists, resolving any `↳` Company cell to the previous row's company name.
-7. Compare the new row set against `rows` from saved state by `(company, role, location, term_or_date)` key. Anything in the new set but not the previous is a new listing.
-8. Bootstrap path: if `rows` is missing in state (first run after this code shipped), store the snapshot silently — no alert.
-9. Update `.watcher_state.json` to `{last_sha: latest_sha, rows: curr_rows}`.
+Every source now uses one mechanism. The snapshot-diff / cumulative-URL split described in earlier
+revisions of this document was replaced on 2026-07-30; see the Delivery guarantee section of
+`README.md` for the rationale.
 
-Why snapshot (not diff) parsing:
-- Section filtering is trivial — slice by markers, ignore everything outside.
-- `↳` ambiguity is resolved deterministically as we walk rows in order.
-- Re-orderings, `↳`-flips between adjacent rows, and active↔inactive `🔒` flips are all silenced by construction (same key → same row).
-- Cross-section moves into SWE (e.g. Data Science → SWE in Simplify) appear as a true new row in the SWE snapshot.
-- Inactive→Active SWE re-listings naturally surface as new rows since the inactive `<details>` block is excluded by the section markers.
+Each entry in `.watcher_state.json` has the same shape:
 
-### Exception: cumulative-URL dedup (Zapply + Speedyapply)
+```json
+{ "last_sha": "...",
+  "seen": ["<identity>", "..."],
+  "seen_legacy_urls": ["<url>", "..."],
+  "last_row_count": 28,
+  "outbox": [[["company", "role", "location", "term", "url"], "<identity>", 1]] }
+```
 
-Zapply does **not** use the snapshot-diff flow above (config `"dedup": "cumulative_url"`). Its `💻 Software Engineering` table is regenerated and re-sorted every ~15 min and is capped at ~100 visible rows (bot `z-apply`, commit message `auto: regenerate README from pipeline (centralized)`), so listings near the boundary flap in and out of the window. A snapshot diff would re-alert every time a dropped job re-enters. Its Role/Location cells are also truncated with a literal `...` and its Posted column is the constant `Recently`, so `(company, role, location, term)` is a colliding, unstable key.
+1. Fetch the latest commit SHA: `GET /repos/{owner}/{repo}/commits/{branch}`.
+2. Skip only when `last_sha == latest_sha`, `seen` is populated, **and** the `outbox` is empty. A
+   queued job must not wait on an unrelated upstream commit, so pending work always proceeds. A
+   dry run never short-circuits either — the live watcher stores the current head every minute, so
+   a rehearsal would otherwise parse nothing and report success.
+3. Fetch the file at `latest_sha` from `raw.githubusercontent.com`. A 404 here means the watched
+   file was renamed or deleted: report `⚠️ fetch-failed`, mark the run unhealthy, and still drain
+   the outbox — queued rows are self-contained and must not be stranded behind a dead source.
+4. Slice the section with `section_start` / `section_end`.
+5. Parse rows into `[company, role, location, term_or_category, apply_url]`, resolving `↳` to the
+   previous row's company.
+6. **Empty-parse guard:** zero rows means marker or format drift. Report `⚠️ zero-rows`, mark the
+   run unhealthy, never seed an empty set, never advance the SHA — but still drain the outbox.
+7. **Silent bootstrap:** no `seen` yet → seed identities from the current rows and alert nothing.
+   `seen_legacy_urls` stays empty, or a requisition relisted for a new season could never alert.
+8. Otherwise select rows whose identity is absent from `seen` and whose URL is absent from
+   `seen_legacy_urls`. Prepend anything already in the `outbox` so the oldest work drains first.
+9. Deliver, capped at `BURST_CAP` attempts and the whole-run time budget.
+10. Union the confirmed identities into `seen` (capped at `SEEN_CAP`, oldest evicted). Undelivered
+    rows go back to the `outbox`. Advance `last_sha` only if a snapshot was actually parsed.
 
-Instead the Zapply watcher:
+Why an append-only identity set rather than a snapshot diff:
 
-1. Fetches the latest SHA; skips when `last_sha == latest_sha` and `seen` is already populated.
-2. Slices the `💻 Software Engineering` section and parses it with the shared `parse_markdown_rows` (6-col config).
-3. **Unconditional empty-guard:** if 0 rows parse (marker/format drift), it logs and skips — never seeding an empty set or advancing the SHA.
-4. Keys each job by its **apply URL** (verified unique per snapshot — the only stable field).
-5. **Silent bootstrap:** on first run (no `seen` yet), seeds the current URLs and alerts nothing.
-6. Otherwise alerts each URL **not** already in `seen`, then appends the new URLs to `seen`.
-7. Stores `{last_sha, seen}` where `seen` is a cumulative, append-only list capped at `URL_CAP` (3000) most-recent URLs. Because the fresh window is <1 week / ~100 rows, a pruned URL is weeks-dead and cannot re-appear, so the cap never causes a re-alert.
+- A snapshot that is replaced wholesale forgets whatever vanished from it. These tables shrink and
+  re-expand constantly, and each shrink caused the forgotten rows to re-alert on return — measured
+  at roughly 30% of Simplify alerts before the change.
+- Section filtering stays trivial: slice by markers, ignore everything outside.
+- `↳` ambiguity is still resolved deterministically by walking rows in order.
+- Re-orderings, `↳`-flips and active↔inactive `🔒` flips remain silent: same identity, same row.
+- Cross-section moves into SWE, and inactive→active re-listings, still surface as genuinely new
+  identities.
 
-Net effect: a URL already seen never re-alerts, so churn (drop-out then re-add) is silent; only genuinely-new SWE roles alert.
-
-**Speedyapply** uses the identical mechanism for all three of its USA-Internships tables (FAANG+, Quant, Other), for a different reason. Its Role/Location are full-text (not truncated), but many genuinely-distinct openings share the same `(company, role, location)` and differ only by apply URL — e.g. Copart's five Dallas "Software Engineering Intern" rows carry different Workday `JR…` IDs — so the snapshot key would collapse them and **miss** real additions. Each table is its own watcher with its own `seen` set (`speedyapply/2027-SWE-College-Jobs#faang` / `#quant` / `#other`); the tables are disjoint by company category, so a URL never crosses tables, and separate seen-sets need no cross-table logic. The three watchers share the single `Speedyapply Summer Repo` label and stamp the category into `default_term`, so it renders in the alert's last field. Its file SHA advances often (the `Age` column re-computes daily), but re-parses never re-alert because the apply URLs are unchanged.
+`seen_legacy_urls` holds bare apply URLs inherited from the pre-2026-07-30 cumulative-URL sources
+(Zapply and Speedyapply). Those records carried no term, so they can only be matched on URL. The
+set is static and can be dropped once those listings have aged out.
 
 ## Repo Format Details
 
@@ -159,13 +172,13 @@ Column quirks (0-indexed after `strip('|').split('|')`):
 - `[4]` **Visa** — always empty → not used.
 - `[5]` **Apply** — `[<img src="images/apply.png" width="80" alt="Apply">](REAL_ATS_URL)`. `extract_apply_url` finds no `href=`, so it falls through to the `](url)` regex and captures the full ATS URL (Greenhouse / Workday / Ashby / Lever / SmartRecruiters / Oracle / etc.).
 
-Config: `parser="markdown"`, `role_col=1`, `loc_col=2`, `apply_col=5`, `term_col=None` (stamps `default_term="Summer 2027"`), `min_cells=6`, `strip_bold=True`, `dedup="cumulative_url"`.
+Config: `parser="markdown"`, `role_col=1`, `loc_col=2`, `apply_col=5`, `term_col=None` (stamps `default_term="Summer 2027"`), `min_cells=6`, `strip_bold=True`.
 
 Parsing behavior:
 - Shares `parse_markdown_rows` with Vansh; its keyword args override the column layout (defaults reproduce Vansh, so the Vansh call is untouched).
 - The header row (`| Company | ... |`) is skipped by the `parts[0].lower().replace('*','') == 'company'` check; the `|---|` separator is skipped by the dash/colon check.
 - The `<p align="center">…</p>` promo lines and `</details>` tag between the table and the next section are ignored (they don't start with `|`).
-- Dedup is cumulative-URL, **not** snapshot diff — see "Exception: Zapply cumulative-URL dedup" above.
+- Its Role/Location are truncated and its Posted column is the constant `Recently`, so the apply URL is the only field here that identifies a row. The shared identity leads with the URL for exactly this reason.
 
 Example row → parsed output:
 
@@ -194,7 +207,7 @@ Column quirks (0-indexed after `strip('|').split('|')`):
 - **Posting** — `<a href="REAL_ATS_URL"><img src="https://i.imgur.com/JpkfjIq.png" alt="Apply"/></a>`; `extract_apply_url` matches the `href=` and returns the ATS URL (Workday / Greenhouse / Ashby / Lever / SmartRecruiters / iCIMS / etc.).
 - **Age** (`2d`, `17d`) — recomputed daily, dropped (not part of any key), so the file SHA advances often but re-parses never re-alert.
 
-Config: `parser="markdown"`, `role_col=1`, `loc_col=2`, `term_col=None`, `dedup="cumulative_url"`, plus the per-table `apply_col`/`min_cells`/`default_term` above. Dedup is cumulative-URL, **not** snapshot diff — see "Exception: cumulative-URL dedup (Zapply + Speedyapply)" above.
+Config: `parser="markdown"`, `role_col=1`, `loc_col=2`, `term_col=None`, plus the per-table `apply_col`/`min_cells`/`default_term` above. Many of its openings share `(company, role, location)` and differ only by apply URL, which is why the identity includes the URL as well as the text.
 
 Example row (FAANG+) → parsed output:
 
@@ -205,21 +218,43 @@ Example row (FAANG+) → parsed output:
 
 ## Listing Identity and Change Classification
 
-Listing key:
-
 ```text
-(company, role, location, term_or_date)
+identity = (apply_url or "NOURL") |company|role|location|term  #occurrence
 ```
 
-`apply_url` is intentionally not part of the key **for the snapshot-diff sources** — companies sometimes rotate query strings.
+Every field participates, because either half alone collapses distinct openings:
 
-**Zapply and Speedyapply are the exceptions:** they key by `apply_url` alone (Zapply's text fields are truncated/constant and collide; Speedyapply has many distinct openings sharing `(company, role, location)`) and compare against the cumulative `seen` set, not the previous snapshot. Query strings are kept intact because some ATS job IDs live in the query (e.g. Greenhouse `?gh_jid=`).
+- **URL alone is not enough.** Boards sometimes publish a generic link shared by several rows (a
+  bare careers page, a Greenhouse embed). If one of those openings is replaced while the row count
+  holds, occurrence numbering hands the replacement an identity that is already seen.
+- **Text alone is not enough.** Copart posts several Dallas "Software Engineer Intern" rows that
+  differ only by Workday `JR…` id; keyed on text they collapse and all but one are never alerted.
+- **`term`** lets a requisition relisted for a new season through.
+- **`#occurrence`** separates rows identical in every field — Kudu Dynamics lists the same
+  URL-less role three times in the Vansh table.
+
+Query strings are kept intact: some ATS job ids live there (e.g. Greenhouse `?gh_jid=`). The cost
+is that a rotated tracking parameter reads as a new opening and alerts once more. That is the
+accepted direction — every residual failure here produces a duplicate rather than a miss.
+
+Including the text costs a duplicate whenever upstream edits a role or location in place. Measured
+across 2,060 state snapshots spanning 18 days and 475 distinct `(source, URL)` pairs, that happened
+zero times.
 
 Classification:
-- Build `prev_keys` from saved `state[repo].rows`.
-- For each row in `curr_rows`, alert iff its key is not in `prev_keys`.
-- Removed (closures): silently dropped — we only alert on additions.
-- Active↔Inactive toggles in Simplify never appear as alerts because the inactive section is outside our parsed range. Inactive→Active naturally surfaces as a "new" row.
+
+- Alert a row iff its identity is absent from `seen` **and** its URL is absent from
+  `seen_legacy_urls`.
+- `seen` is a union that only ever grows, so a shrinking parse cannot resurrect old listings.
+- An identity is added to `seen` only after Telegram confirms the message. Undelivered rows are
+  persisted in the `outbox` and retried, so a failed send is never silently dropped.
+- Removals (closures) are ignored — only additions alert.
+- Active↔Inactive toggles in Simplify never alert: the inactive block is outside the parsed range,
+  and a re-listing returns with an identity already in `seen`.
+
+The callback hash carried by each `✅ Applied` button is separate from the identity —
+`job_hash(entry, label, occurrence)`, unchanged at occurrence 1 so that buttons issued before this
+scheme still resolve. Do not alter its inputs.
 
 ## Practical Examples
 
@@ -252,8 +287,8 @@ Vansh row using `↳` continuation:
 - HTML structure drift (missing `</td>` close, nested `<tr>` inside `<details>`) can break extraction — none observed today but worth monitoring.
 - Markdown rows containing unescaped `|` inside cell content can shift columns. Vansh's source has this risk but hasn't bitten.
 - Zapply Role/Location cells are truncated with a literal `...`, so alerts (and the Google-Sheet log) show the truncated role; the full title is not in the README. The apply URL is included for click-through.
-- Zapply dedup assumes apply URLs are stable (verified over an 8h window). If Zapply ever appends rotating query params, duplicates could leak — observable via alert volume.
-- Speedyapply lists many openings that share `(company, role, location)` and differ only by apply URL, so it (like Zapply) keys on the URL; a same-opening URL change (rare ATS re-issue) would alert again. Its `Age` column changes daily, so its file SHA advances frequently, and the three table-watchers each re-fetch the same ~53 KB README on a change — minor and accepted (grouping watchers by file would need code).
+- The identity assumes apply URLs are reasonably stable. If a board starts appending rotating query params, each rotation reads as a new opening and duplicates leak — observable via alert volume and the `logs/alerts-*.jsonl` record.
+- Speedyapply lists many openings sharing `(company, role, location)` and differing only by apply URL, which the URL half of the identity separates; a same-opening URL change (rare ATS re-issue) would alert again. Its `Age` column changes daily, so its file SHA advances frequently, and the three table-watchers each re-fetch the same ~53 KB README on a change — minor and accepted (grouping watchers by file would need code). `Age` is not part of any identity: Speedyapply stamps its category into `default_term` instead.
 
 ## Where to Update If Upstream Formats Change
 
@@ -261,9 +296,10 @@ Update these in `.github/workflows/watch-files.yml`:
 - `WATCHERS[*].section_start` / `section_end` if section headings change.
 - `parse_html_rows` if the Simplify cell layout changes (column count, nesting).
 - `parse_markdown_rows` if Vansh's, Zapply's, **or Speedyapply's** column order changes — it is now column-configurable via keyword args (`role_col` / `loc_col` / `apply_col` / `term_col` / `default_term` / `min_cells` / `strip_bold`); the defaults preserve Vansh behavior.
-- The `dedup == "cumulative_url"` branch and `URL_CAP` if Zapply's **or Speedyapply's** churn behavior or seen-set handling needs tuning.
+- `SEEN_CAP`, `OUTBOX_CAP`, `BURST_CAP` or `RUN_BUDGET_SECONDS` in the workflow if retention, queue depth, send volume or run duration needs tuning.
 - Speedyapply's `<!-- TABLE_*_START/END -->` comment markers (or the addition/removal of a category table) — update the three `speedyapply/2027-SWE-College-Jobs#*` watcher entries.
 - `strip_html` / `extract_apply_url` for HTML entity or link-markup drift.
-- `row_key` if the snapshot-path identity tuple needs to change (Zapply keys by URL and is unaffected).
+- `identity_stem` / `row_identity` in `watcher/core.py` if the identity needs to change. Note this is a state-format change: existing `seen` entries are in the old format and would all look new, so it needs a dual-format check or a migration in `migrate_state`.
+- `tests/` alongside any of the above — see `TESTING.md`. `row_key` still exists in `watcher/core.py` but is retained only to document the superseded snapshot key.
 
-Also update this document.
+Also update this document, `AGENTS.md`, and the Delivery guarantee section of `README.md`.

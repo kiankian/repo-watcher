@@ -18,10 +18,8 @@ network stubbed, so the end-to-end tests drive the shipped code rather than a co
 
 - `README.md` documents setup, external triggering, secrets, operations, and the
   outage runbook.
-- `PARSING_REFERENCE.md` documents upstream formats, section boundaries, and
-  parsing. **Its identity and deduplication sections are out of date** — they
-  describe the pre-2026-07-30 `{last_sha, rows}` / `{last_sha, seen}` split. See
-  the Delivery guarantee section of `README.md` for the current model.
+- `PARSING_REFERENCE.md` documents upstream formats, section boundaries, parsing,
+  listing identity, and the state/delivery flow.
 - `TESTING.md` documents the suite, what each guarantee rests on, and how to check
   parsers against live data without sending anything.
 - `.github/workflows/watch-files.yml` is the executable source of truth. Its
