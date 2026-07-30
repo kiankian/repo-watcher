@@ -6410,7 +6410,7 @@
       "term": "Summer 2026",
       "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/Software-Engineering-Intern--Summer-2027-_01862842?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
-      "message_id": 1010,
+      "message_id": 1041,
       "chat_id": 7582459199
     },
     "e671c6c240e3": {
@@ -6420,7 +6420,7 @@
       "term": "Summer 2026",
       "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
-      "message_id": 1011,
+      "message_id": 1036,
       "chat_id": 7582459199
     },
     "d4559ee152d9": {
@@ -6530,7 +6530,7 @@
       "term": "Summer 2026",
       "apply_url": "https://jobs.ashbyhq.com/pylon-labs/fcea8b52-81f1-4b0c-b575-d7b180faec4d/application?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
-      "message_id": 1022,
+      "message_id": 1040,
       "chat_id": 7582459199
     },
     "a58236d5e2e7": {
@@ -6560,7 +6560,7 @@
       "term": "Summer 2026",
       "apply_url": "https://jobs.ashbyhq.com/ctgt/f657c2f5-125e-42b6-a68a-646bbea3d155/application?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
-      "message_id": 1025,
+      "message_id": 1039,
       "chat_id": 7582459199
     },
     "967cdd6c4545": {
@@ -6621,6 +6621,76 @@
       "apply_url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?utm_source=Simplify&ref=Simplify",
       "source": "Simplify Summer Repo",
       "message_id": 1031,
+      "chat_id": 7582459199
+    },
+    "0ace81250cdc": {
+      "company": "Motorola Solutions",
+      "role": "Software Engineering, Co-Op",
+      "location": "Massachusetts, US...",
+      "term": "Summer 2027",
+      "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Massachusetts-US-Offsite/Software-Engineering--Co-Op_R66728",
+      "source": "Zapply Summer Repo",
+      "message_id": 1032,
+      "chat_id": 7582459199
+    },
+    "444dad23f400": {
+      "company": "GDIT",
+      "role": "Systems Engineer Intern",
+      "location": "USA NY Albany",
+      "term": "Summer 2027",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-NY-Albany/Systems-Engineer-Intern_RQ225289-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1033,
+      "chat_id": 7582459199
+    },
+    "5882900ab6b6": {
+      "company": "Intel",
+      "role": "AI Software Engineering Intern",
+      "location": "Oregon Hillsboro ...",
+      "term": "Summer 2027",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639",
+      "source": "Zapply Summer Repo",
+      "message_id": 1034,
+      "chat_id": 7582459199
+    },
+    "627701bddfb2": {
+      "company": "Intel",
+      "role": "AI Software Engineering Intern",
+      "location": "US, Arizona, Phoenix",
+      "term": "Summer 2027",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641",
+      "source": "Zapply Summer Repo",
+      "message_id": 1035,
+      "chat_id": 7582459199
+    },
+    "70524d5bbb79": {
+      "company": "Leidos",
+      "role": "Software Developer Intern",
+      "location": "Annapolis Junctio...",
+      "term": "Summer 2027",
+      "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311",
+      "source": "Zapply Summer Repo",
+      "message_id": 1037,
+      "chat_id": 7582459199
+    },
+    "1a565d2583d0": {
+      "company": "Leidos",
+      "role": "Application Developer Intern",
+      "location": "Indianapolis, IN",
+      "term": "Summer 2027",
+      "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Indianapolis-IN/Application-Developer-Intern_R-00188193-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1038,
+      "chat_id": 7582459199
+    },
+    "a3ce966bba53": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "McKinney, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1045,
       "chat_id": 7582459199
     }
   },
@@ -6988,5 +7058,10 @@
       "chat_id": 7582459199,
       "applied_at": "2026-06-19T00:41:25Z"
     }
+  },
+  "seq": 0,
+  "health": {
+    "last_heartbeat": "2026-07-30T15:07:10Z",
+    "last_ok_run": "2026-07-30T15:08:12Z"
   }
 }

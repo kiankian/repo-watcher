@@ -1,7 +1,14 @@
 name: Watch files in external repo
 
 on:
+  # Triggered externally by cron-job.org, which posts {"ref":"main"} with no inputs, so
+  # dry_run defaults to false and the existing cron job keeps working unchanged.
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Parse and report only: send no Telegram messages and write no state.'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -9,6 +16,16 @@ permissions:
 concurrency:
   group: repo-watcher-state
   cancel-in-progress: false
+
+env:
+  # A run from any ref other than the default branch is forced into dry mode.
+  #
+  # Such a run carries that branch's snapshot of the state files, which is stale the moment the
+  # live watcher moves on, so it re-alerts jobs you have already had. It also cannot save what it
+  # sent: the commit step targets the default branch, and against a shallow checkout of a
+  # divergent branch the rebase conflicts irreconcilably. The result is real messages that are
+  # never recorded — which is precisely what a dispatch from the PR branch did on 2026-07-30.
+  ON_DEFAULT_BRANCH: ${{ github.ref_name == github.event.repository.default_branch }}
 
 jobs:
   watch:
@@ -19,21 +36,36 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run watcher
+        id: watcher
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dry_run || github.ref_name != github.event.repository.default_branch }}
         run: |
           python - <<'PY'
-          import hashlib
+          import datetime
           import json
           import os
           import pathlib
-          import re
           import time
           import urllib.error
           import urllib.parse
           import urllib.request
+
+          # Pure parsing/dedup logic lives in watcher/core.py so it can be unit tested; this
+          # block keeps only the I/O. cwd is the repo root under actions/checkout.
+          from watcher.core import (
+              SEEN_CAP,
+              assign_identities,
+              extract_section,
+              fmt,
+              job_hash,
+              migrate_state,
+              parse_html_rows,
+              parse_markdown_rows,
+              select_new,
+          )
 
           WATCHERS = [
               {
@@ -89,10 +121,10 @@ jobs:
                   "section_end": "## We love our contributors",
               },
               {
-                  # Zapply's SWE table re-sorts + is capped at ~100 rows every ~15 min, so
-                  # rows churn in/out of the visible window. Snapshot-diff dedup would re-alert
-                  # on every re-add, and the truncated role text makes (company, role, location,
-                  # term) a colliding key. So this source uses cumulative-URL dedup instead.
+                  # Zapply's SWE table re-sorts + is capped at ~100 rows every ~15 min, so rows
+                  # churn in and out of the visible window. Harmless now that `seen` is a union,
+                  # but note the truncated role text and constant "Recently" Posted column make
+                  # the apply URL the only field here that identifies a row.
                   "label": "Zapply Summer Repo",
                   "state_key": "zapplyjobs/Internships-2027#swe",
                   "owner": "zapplyjobs",
@@ -109,16 +141,14 @@ jobs:
                   "default_term": "Summer 2027",
                   "min_cells": 6,
                   "strip_bold": True,
-                  "dedup": "cumulative_url",
               },
               {
                   # speedyapply's USA-internships README carries three category tables
                   # (FAANG+, Quant, Other) delimited by <!-- TABLE_*_START/END --> comments.
-                  # Same churn/identity profile as Zapply: many genuinely-distinct openings
-                  # share company+role+location and differ only by apply URL (e.g. Copart's
-                  # five Dallas SWE-intern rows), so a snapshot diff would collapse and miss
-                  # them. All three tables use cumulative-URL dedup. One shared label; the
-                  # category rides in default_term so it shows in the alert's last field.
+                  # Many genuinely-distinct openings here share company+role+location and differ
+                  # only by apply URL (e.g. Copart's five Dallas SWE-intern rows), which is what
+                  # the URL-first identity keeps apart. One shared label; the category rides in
+                  # default_term so it shows in the alert's last field.
                   "label": "Speedyapply Summer Repo",
                   "state_key": "speedyapply/2027-SWE-College-Jobs#faang",
                   "owner": "speedyapply",
@@ -134,7 +164,6 @@ jobs:
                   "term_col": None,
                   "default_term": "FAANG+",
                   "min_cells": 6,
-                  "dedup": "cumulative_url",
               },
               {
                   "label": "Speedyapply Summer Repo",
@@ -152,7 +181,6 @@ jobs:
                   "term_col": None,
                   "default_term": "Quant",
                   "min_cells": 6,
-                  "dedup": "cumulative_url",
               },
               {
                   # "Other" table drops the Salary column, so it is 5-col (apply_col=3),
@@ -172,25 +200,118 @@ jobs:
                   "term_col": None,
                   "default_term": "Other",
                   "min_cells": 5,
-                  "dedup": "cumulative_url",
               },
           ]
 
           STATE_FILE = pathlib.Path(".watcher_state.json")
           BOT_STATE_FILE = pathlib.Path(".bot_state.json")
-          URL_CAP = 3000  # bound seen-URL growth for cumulative-URL sources; >> the <1-week / ~100-row fresh window
+          LOG_DIR = pathlib.Path("logs")
+          SEND_SPACING = 1.1  # seconds between job sends; Telegram allows ~1 msg/sec to one chat
+          BURST_CAP = 25  # max send *attempts* per watcher per run; the rest queue in the outbox
+          OUTBOX_CAP = 1000  # queued-but-undelivered ceiling; at 25/run this is ~40 runs of backlog
+          # Whole-run ceiling on time spent waiting on the network. A failing send burns ~15s of
+          # backoff before it gives up, so without this a wide outage could still spend
+          # BURST_CAP x watchers x 15s in one job. The state write happens after the loop, so a run
+          # that overruns its job timeout persists nothing — not the queue, not the alarm
+          # timestamps — and the next run repeats it identically.
+          RUN_BUDGET_SECONDS = 600
+          # Per-request ceiling. urlopen defaults to no timeout, so an endpoint that accepts the
+          # connection and then stalls blocks forever: no exception, no retry, and none of the
+          # RUN_DEADLINE checks are ever reached, because they all sit on the failure path.
+          REQUEST_TIMEOUT = 30
+          DRY_RUN = os.environ.get("DRY_RUN", "").strip().lower() == "true"
+          RUN_ID = os.environ.get("GITHUB_RUN_ID", "local")
+          SILENCE_ALARM_AFTER = 2 * 3600  # gap without a successful run that is worth reporting
+          ALARM_REPEAT_AFTER = 30 * 60  # min gap between repeats of one alarm kind
+          HEARTBEAT_EVERY = 3600  # seconds between run-log lines on otherwise quiet runs
+          SHRINK_ALARM_RATIO = 0.7  # alarm when a parse returns under 70% of the previous rows
 
-          def urlopen_with_retry(req, attempts=3):
+
+          # One deadline for the whole run, not per watcher, so six unreachable sources cannot
+          # each spend the full budget. It bounds retry backoff as well as the send loop: a
+          # deadline the retries can sleep straight through is not a deadline. Monotonic, so a
+          # clock change on the runner cannot move it.
+          RUN_DEADLINE = time.monotonic() + RUN_BUDGET_SECONDS
+
+
+          def utcnow():
+              return datetime.datetime.now(datetime.timezone.utc)
+
+
+          def iso(ts):
+              return ts.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+          def parse_iso(text):
+              try:
+                  return datetime.datetime.fromisoformat((text or "").replace("Z", "+00:00"))
+              except ValueError:
+                  return None
+
+
+          def append_jsonl(prefix, record):
+              """Append one line to logs/<prefix>-YYYY-MM.jsonl.
+
+              Append-only on purpose. bot_state["pending"] is a dict keyed by job hash, so a
+              re-sent alert overwrites its own record there and the evidence disappears —
+              reconstructing past duplicates meant diffing Telegram message-id gaps. These logs
+              make that a one-line query instead. Monthly files bound the size.
+              """
+              if DRY_RUN:
+                  print(f"[dry-run] {prefix}: {json.dumps(record, ensure_ascii=False)}")
+                  return
+              LOG_DIR.mkdir(exist_ok=True)
+              path = LOG_DIR / f"{prefix}-{utcnow():%Y-%m}.jsonl"
+              with path.open("a", encoding="utf-8") as fh:
+                  fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+          def retry_after_seconds(err):
+              """Telegram signals flood control as HTTP 429 with {"parameters":{"retry_after":N}}."""
+              try:
+                  body = json.loads(err.read().decode())
+              except Exception:
+                  return None
+              wait = (body.get("parameters") or {}).get("retry_after")
+              return wait if isinstance(wait, (int, float)) else None
+
+          def request_timeout():
+              """Per-call timeout, never longer than what is left of the run budget."""
+              return max(1.0, min(REQUEST_TIMEOUT, RUN_DEADLINE - time.monotonic()))
+
+          def urlopen_with_retry(req, attempts=5):
               for i in range(attempts):
                   try:
-                      return urllib.request.urlopen(req)
+                      # A timeout is what turns a stalled endpoint into a retryable exception.
+                      # Without one the watcher hangs until Actions kills the job, and the state
+                      # and outbox — written only after the watcher loop — are never persisted.
+                      return urllib.request.urlopen(req, timeout=request_timeout())
                   except (urllib.error.URLError, ConnectionResetError, TimeoutError) as e:
-                      if isinstance(e, urllib.error.HTTPError) and e.code < 500:
+                      # 429 is flood control, not a client error: honour retry_after and retry it.
+                      # Every other 4xx is a genuine client error and is raised immediately.
+                      is_http = isinstance(e, urllib.error.HTTPError)
+                      if is_http and e.code < 500 and e.code != 429:
                           raise
                       if i + 1 == attempts:
                           raise
-                      print(f"Network retry {i + 1}/{attempts}: {type(e).__name__}: {e}")
-                      time.sleep(2 ** i)
+                      delay = 2 ** i
+                      if is_http and e.code == 429:
+                          # Telegram dictates this, and under heavy flood control it can be
+                          # minutes. It is not sanity-checked upstream, so treat it as untrusted.
+                          delay = (retry_after_seconds(e) or delay) + 1
+                          print(f"Rate limited (429); asked to wait {delay}s "
+                                f"before retry {i + 1}/{attempts}.")
+                      else:
+                          print(f"Network retry {i + 1}/{attempts}: {type(e).__name__}: {e}")
+                      remaining = RUN_DEADLINE - time.monotonic()
+                      if delay > remaining:
+                          # Sleeping past the deadline would defeat it: the state write happens
+                          # after the watcher loop, so the queue and alarm timestamps would never
+                          # be persisted and the next run would repeat the same attempts. Give up
+                          # instead — the caller queues the job and the next run retries it.
+                          print(f"Wait of {delay}s exceeds the {remaining:.0f}s left in the run "
+                                "budget; giving up so the queue is persisted.")
+                          raise
+                      time.sleep(delay)
 
           def gh_request(url):
               token = os.environ["GITHUB_TOKEN"]
@@ -213,11 +334,20 @@ jobs:
               with urlopen_with_retry(gh_request(url)) as resp:
                   return resp.read().decode()
 
-          def telegram_send_job(text, callback_data):
+          def telegram_post(method, payload):
               token = os.environ["TELEGRAM_BOT_TOKEN"]
-              chat_id = os.environ["TELEGRAM_CHAT_ID"]
-              payload = {
-                  "chat_id": chat_id,
+              req = urllib.request.Request(
+                  f"https://api.telegram.org/bot{token}/{method}",
+                  data=json.dumps(payload).encode(),
+                  method="POST",
+                  headers={"Content-Type": "application/json"},
+              )
+              with urlopen_with_retry(req) as resp:
+                  return json.loads(resp.read().decode())
+
+          def telegram_send_job(text, callback_data):
+              body = telegram_post("sendMessage", {
+                  "chat_id": os.environ["TELEGRAM_CHAT_ID"],
                   "text": text,
                   "disable_web_page_preview": True,
                   "reply_markup": {
@@ -225,111 +355,135 @@ jobs:
                           {"text": "Mark as Applied", "callback_data": callback_data}
                       ]],
                   },
-              }
-              req = urllib.request.Request(
-                  f"https://api.telegram.org/bot{token}/sendMessage",
-                  data=json.dumps(payload).encode(),
-                  method="POST",
-                  headers={"Content-Type": "application/json"},
-              )
-              with urlopen_with_retry(req) as resp:
-                  body = json.loads(resp.read().decode())
+              })
               return body["result"]["message_id"], body["result"]["chat"]["id"]
 
-          def job_hash(entry, source):
-              key_str = f"{source}|{entry[0]}|{entry[1]}|{entry[2]}|{entry[3]}|{entry[4]}"
-              return hashlib.sha256(key_str.encode()).hexdigest()[:12]
+          def telegram_send_text(text):
+              telegram_post("sendMessage", {
+                  "chat_id": os.environ["TELEGRAM_CHAT_ID"],
+                  "text": text,
+                  "disable_web_page_preview": True,
+              })
 
-          def strip_html(html):
-              html = re.sub(r'<\s*/?\s*br\s*/?\s*>', ' ', html, flags=re.IGNORECASE)
-              text = re.sub(r'<[^>]+>', '', html)
-              return text.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').strip()
+          anomalies = []  # (kind, message) for the step summary
 
-          def extract_apply_url(raw):
-              m = re.search(r'href=["\']([^"\']+)["\']', raw)
-              if m:
-                  return m.group(1)
-              m = re.search(r'\]\(([^)\s]+)', raw)
-              if m:
-                  return m.group(1)
-              return ""
+          def health_alert(kind, message):
+              """Report an operational fault, not a job.
 
-          def extract_section(text, start_marker, end_marker):
-              start_idx = text.find(start_marker)
-              if start_idx == -1:
-                  return ""
-              end_idx = text.find(end_marker, start_idx + len(start_marker))
-              if end_idx == -1:
-                  end_idx = len(text)
-              return text[start_idx:end_idx]
+              Silence is the failure mode this exists for: a renamed upstream heading, or a
+              watcher stuck at zero rows, is otherwise indistinguishable from "no new listings".
+              Rate-limited per kind so a persistent fault cannot flood the chat.
+              """
+              anomalies.append((kind, message))
+              print(f"ANOMALY [{kind}] {message}")
+              health = bot_state.setdefault("health", {})
+              alarms = health.setdefault("alarms", {})
+              previous = parse_iso(alarms.get(kind))
+              now = utcnow()
+              if previous and (now - previous).total_seconds() < ALARM_REPEAT_AFTER:
+                  return
+              if DRY_RUN:
+                  print(f"[dry-run] would send health alert [{kind}]")
+                  return
+              # Record the attempt before sending, not after. A Telegram outage is exactly when
+              # this fires most, and it is also when the send itself fails — leaving the
+              # timestamp unset there meant the limiter never engaged, so every failed job
+              # triggered another alert that burned its own ~15s of retry backoff. The anomaly
+              # is still visible in the run log and the step summary if this send is lost.
+              alarms[kind] = iso(now)
+              try:
+                  telegram_send_text(f"⚠️ watcher: {message}")
+              except Exception as exc:
+                  print(f"Failed to send health alert ({kind}): {type(exc).__name__}: {exc}")
 
-          def parse_html_rows(section_text, term_col, apply_col, default_term):
-              rows = []
-              last_company = None
-              min_cells = max(apply_col, term_col or 0) + 1
-              for tr_match in re.finditer(r'<tr>\s*(.*?)\s*</tr>', section_text, re.DOTALL):
-                  cells = re.findall(r'<td>(.*?)</td>', tr_match.group(1), re.DOTALL)
-                  if len(cells) < min_cells:
+
+          def deliver_listings(new_pairs, label):
+              """Send each (row, identity) pair; return (delivered, undelivered) pair lists.
+
+              A listing counts as delivered only once Telegram has confirmed a message id, so
+              callers must withhold the undelivered ones from state. Recording an undelivered
+              listing as seen would drop it permanently — it would never be reconsidered.
+              """
+              delivered, undelivered = [], []
+              attempted = 0
+              for entry, identity, occurrence in new_pairs:
+                  # Cap *attempts*, not successes. Capping on len(delivered) meant that when every
+                  # send was failing the counter never moved, so the whole queue — up to
+                  # OUTBOX_CAP entries, each burning ~15s of retry backoff — was attempted in a
+                  # single job. That runs for hours, past the job timeout, and the state write
+                  # never happens, so the queue is not persisted and the next run repeats it.
+                  if attempted >= BURST_CAP or time.monotonic() > RUN_DEADLINE:
+                      undelivered.append((entry, identity, occurrence))
                       continue
-                  company = strip_html(cells[0])
-                  if company == "↳":
-                      company = last_company or "↳"
-                  else:
-                      last_company = company
-                  term = strip_html(cells[term_col]) if term_col is not None else default_term
-                  rows.append([
-                      company,
-                      strip_html(cells[1]),
-                      strip_html(cells[2]),
-                      term,
-                      extract_apply_url(cells[apply_col]),
-                  ])
-              return rows
-
-          def parse_markdown_rows(section_text, role_col=1, loc_col=2, apply_col=3,
-                                  term_col=4, default_term=None, min_cells=5, strip_bold=False):
-              # Defaults reproduce the original Vansh behavior byte-for-byte. Zapply overrides
-              # apply_col=5 / term_col=None / min_cells=6 / strip_bold=True for its 6-col table
-              # whose company cells are bold (**Name**) and whose Posted/Visa cols are unusable.
-              rows = []
-              last_company = None
-              for line in section_text.splitlines():
-                  body = line.strip()
-                  if not body.startswith('|'):
+                  if attempted:
+                      time.sleep(SEND_SPACING)  # stay under Telegram's ~1 msg/sec per-chat limit
+                  attempted += 1
+                  # The occurrence keeps repeated identical rows on separate pending keys. Without
+                  # it they share one, each send overwrites the last, and tapping an earlier alert
+                  # logs a sibling's message while the rest can never be recorded.
+                  h = job_hash(entry, label, occurrence)
+                  # Committed only once the send succeeds, so the printed numbering has no gaps
+                  # and a gap seen in the chat is proof of a lost alert.
+                  seq = bot_state.get("seq", 0) + 1
+                  text = f"{label} #{seq}\n+ {fmt(entry)}"
+                  if DRY_RUN:
+                      print(f"[dry-run] would send #{seq}: {label} / {entry[0]} - {entry[1]}")
+                      bot_state["seq"] = seq
+                      delivered.append((entry, identity, occurrence))
                       continue
-                  parts = [c.strip() for c in body.strip('|').split('|')]
-                  if len(parts) < min_cells:
+                  try:
+                      message_id, chat_id = telegram_send_job(text, f"apply:{h}")
+                  except Exception as exc:
+                      print(f"Failed to send job alert ({h}): {type(exc).__name__}: {exc}")
+                      health_alert(
+                          f"send-failed:{label}",
+                          f"{label} could not deliver {entry[0]} - {entry[1]} "
+                          f"({type(exc).__name__}); it stays unrecorded and will be retried",
+                      )
+                      undelivered.append((entry, identity, occurrence))
                       continue
-                  if all(re.fullmatch(r'[-:\s]+', c) for c in parts if c):
-                      continue
-                  if parts[0].lower().replace('*', '') == 'company':
-                      continue
-                  company = strip_html(parts[0])
-                  if strip_bold:
-                      company = company.replace('**', '').strip()
-                  if company == "↳":
-                      company = last_company or "↳"
-                  else:
-                      last_company = company
-                  term = default_term if term_col is None else strip_html(parts[term_col])
-                  rows.append([
-                      company,
-                      strip_html(parts[role_col]),
-                      strip_html(parts[loc_col]),
-                      term,
-                      extract_apply_url(parts[apply_col]),
-                  ])
-              return rows
-
-          def fmt(entry):
-              company, role, location, term, apply_url = entry[0], entry[1], entry[2], entry[3], entry[4]
-              base = f"{company} — {role} | {location} | {term}"
-              if apply_url:
-                  return f"{base}\n  {apply_url}"
-              return base
-
-          def row_key(r):
-              return (r[0], r[1], r[2], r[3])
+                  if h in bot_state["pending"]:
+                      # Genuinely unexpected now that the occurrence is in the hash: an identity is
+                      # only ever delivered once, and repeated identical rows get distinct hashes.
+                      # If it does fire, the older message's Applied button has been repointed at
+                      # this newer message, so the older one can no longer be logged.
+                      health_alert("duplicate-hash", f"{h} was already pending ({entry[0]}).")
+                  bot_state["seq"] = seq
+                  bot_state["pending"][h] = {
+                      "company": entry[0],
+                      "role": entry[1],
+                      "location": entry[2],
+                      "term": entry[3],
+                      "apply_url": entry[4],
+                      "source": label,
+                      "message_id": message_id,
+                      "chat_id": chat_id,
+                      "seq": seq,
+                      # Recorded so the entry says which opening it is without needing the
+                      # surrounding run to be reconstructed.
+                      "identity": identity,
+                  }
+                  append_jsonl("alerts", {
+                      "ts": iso(utcnow()),
+                      "seq": seq,
+                      "run_id": RUN_ID,
+                      "message_id": message_id,
+                      "watcher": label,
+                      "identity": identity,
+                      "job_hash": h,
+                      "company": entry[0],
+                      "role": entry[1],
+                      "location": entry[2],
+                      "term": entry[3],
+                      "apply_url": entry[4],
+                  })
+                  delivered.append((entry, identity, occurrence))
+              if undelivered:
+                  print(
+                      f"{len(undelivered)} listing(s) for {label} not delivered; withholding them "
+                      "from state so the next run retries them."
+                  )
+              return delivered, undelivered
 
           # --- Load and migrate state ---
           if STATE_FILE.exists():
@@ -347,9 +501,59 @@ jobs:
               bot_state = {}
           bot_state.setdefault("telegram", {"last_update_id": 0})
           bot_state.setdefault("pending", {})
+          bot_state.setdefault("applied", {})
+          bot_state.setdefault("seq", 0)
+          bot_state.setdefault("health", {})
+
+          # Report a gap since the last successful run. This fires on the first run *after* the
+          # gap, so it catches the workflow erroring or the dispatch stalling and recovering — it
+          # cannot detect the dispatch stopping for good, which is what HEALTHCHECK_PING_URL is
+          # for. cron-job.org losing its PAT is the outage the README calls most likely.
+          previous_ok = parse_iso(bot_state["health"].get("last_ok_run"))
+          if previous_ok:
+              silent_for = (utcnow() - previous_ok).total_seconds()
+              if silent_for > SILENCE_ALARM_AFTER:
+                  health_alert(
+                      "silence",
+                      f"no successful run for {silent_for / 3600:.1f}h "
+                      f"(last was {iso(previous_ok)}); running again now",
+                  )
+
+          # Convert any legacy per-source shape ({..., rows} or {..., seen: [url]}) to the
+          # unified identity shape, seeding from both the stored rows and every job ever sent so
+          # the first run after the change alerts nothing. A no-op once migrated.
+          bot_records = list(bot_state["pending"].values()) + list(bot_state["applied"].values())
+          shapes_before = {k: sorted(v) for k, v in state.items() if isinstance(v, dict)}
+          state = migrate_state(state, bot_records, WATCHERS)
+          for key, val in state.items():
+              if isinstance(val, dict) and shapes_before.get(key) != sorted(val):
+                  print(
+                      f"Migrated {key}: {len(val.get('seen', []))} identities, "
+                      f"{len(val.get('seen_legacy_urls', []))} legacy URLs."
+                  )
 
           # --- Process each watcher ---
+          #
+          # One path for every source. A listing is alerted when its identity has never been
+          # delivered, and `seen` only ever grows: it is a union, never a replacement. That is
+          # what makes an extraction collapse harmless. When the parsed row set shrinks, the
+          # rows that vanished stay in `seen`, so they do not re-alert when they come back,
+          # while anything genuinely new in the same run still goes out.
           total_alerted = 0
+          run_records = []
+          # Sources that could not be read or parsed this run. A run with any of these did not
+          # actually check everything, so it must not report itself healthy to the external
+          # watchdog — otherwise a renamed upstream file silences a source indefinitely behind a
+          # green check.
+          broken_sources = []
+
+          def record_run(label, state_key, **fields):
+              """One row of the per-run log. outbox_size is what makes a miss detectable: queued
+              work that never drains is the signal the sequence numbers cannot give."""
+              run_records.append(dict(
+                  ts=iso(utcnow()), run_id=RUN_ID, watcher=label, state_key=state_key, **fields
+              ))
+
           for w in WATCHERS:
               if not w.get("enabled", True):
                   continue
@@ -359,136 +563,288 @@ jobs:
               latest_sha = latest["sha"]
               saved = state.get(state_key) or {}
               last_sha = saved.get("last_sha")
-              prev_rows = saved.get("rows")
+              seen_list = saved.get("seen")
+              legacy_urls = saved.get("seen_legacy_urls") or []
+              # Rows observed as new but not yet delivered, persisted as [row, identity,
+              # occurrence]. Withholding them from `seen` alone was not enough: the retry
+              # re-derived them from a fresh parse, so anything that left the upstream table in
+              # the meantime was lost. Zapply's table re-sorts and is capped at ~100 rows, and a
+              # long Telegram outage widens that window arbitrarily.
+              outbox = [tuple(item) for item in (saved.get("outbox") or [])]
 
-              # --- Churn-tolerant cumulative-URL dedup (opt-in via "dedup": "cumulative_url").
-              # Keys jobs by apply URL and never re-alerts a URL once seen, so rows flapping in
-              # and out of Zapply's ~100-row fresh window don't produce duplicate alerts. State
-              # shape is {last_sha, seen: [url, ...]} instead of {last_sha, rows: [...]}. Sources
-              # without a "dedup" key skip this block and use the snapshot-diff path below. ---
-              if w.get("dedup") == "cumulative_url":
-                  seen_list = saved.get("seen")
-                  if last_sha == latest_sha and seen_list is not None:
-                      continue
+              # Two reasons this is not simply `last_sha == latest_sha`:
+              #
+              #  * the outbox must drain regardless, or a queued job would sit waiting on an
+              #    unrelated upstream commit before being retried;
+              #  * a dry run must always fetch and parse. The watcher stores the current head on
+              #    every run, so a rehearsal launched minutes later would find every source
+              #    unchanged, skip all of them and report "no new listings" having validated
+              #    nothing — exactly the parser or config edit it was meant to check.
+              upstream_unchanged = (
+                  last_sha == latest_sha and seen_list is not None and not DRY_RUN
+              )
+              if upstream_unchanged and not outbox:
+                  continue
+
+              prev_row_count = saved.get("last_row_count")
+              curr_rows = None
+              queued_before = len(outbox)
+              # Set when this run could not use a fresh snapshot. It never stops the outbox from
+              # draining: queued triples are self-contained and owe nothing to the current parse.
+              skip_reason = None
+
+              if upstream_unchanged:
+                  # Reached only because the outbox has work. Skip the fetch and go straight to
+                  # draining: the queued rows need no re-parse.
+                  print(f"{state_key}: sha unchanged, draining {queued_before} queued job(s).")
+              else:
                   try:
                       file_text = get_raw_file(w["owner"], w["repo"], latest_sha, w["file"])
                   except urllib.error.HTTPError as e:
+                      # A 404 here means the watched file was renamed, moved or deleted upstream.
+                      # That stops this source producing alerts for good, so it has to be
+                      # reported: same silence-is-the-failure-mode case as a renamed heading.
                       print(f"Failed to fetch {w['file']} at {latest_sha}: {e}")
-                      continue
-                  section_text = extract_section(file_text, w["section_start"], w["section_end"])
-                  curr_rows = parse_markdown_rows(
-                      section_text,
-                      role_col=w.get("role_col", 1),
-                      loc_col=w.get("loc_col", 2),
-                      apply_col=w["apply_col"],
-                      term_col=w["term_col"],
-                      default_term=w["default_term"],
-                      min_cells=w.get("min_cells", 5),
-                      strip_bold=w.get("strip_bold", False),
+                      broken_sources.append(state_key)
+                      health_alert(
+                          f"fetch-failed:{state_key}",
+                          f"{w['label']} could not fetch {w['owner']}/{w['repo']}:{w['file']} "
+                          f"({e.code}). No alerts can come from this source until it is fixed.",
+                      )
+                      skip_reason = f"fetch_failed_{e.code}"
+
+                  if skip_reason is None:
+                      section_text = extract_section(
+                          file_text, w["section_start"], w["section_end"]
+                      )
+                      if w["parser"] == "html":
+                          curr_rows = parse_html_rows(
+                              section_text, w["term_col"], w["apply_col"], w["default_term"]
+                          )
+                      else:
+                          # Defaults reproduce the original Vansh call; others override them.
+                          curr_rows = parse_markdown_rows(
+                              section_text,
+                              role_col=w.get("role_col", 1),
+                              loc_col=w.get("loc_col", 2),
+                              apply_col=w.get("apply_col", 3),
+                              term_col=w.get("term_col", 4),
+                              default_term=w.get("default_term"),
+                              min_cells=w.get("min_cells", 5),
+                              strip_bold=w.get("strip_bold", False),
+                          )
+
+                      if not curr_rows:
+                          # A renamed heading or reshaped table lands here. Never seed an empty
+                          # set and never advance the SHA — log it, report it, retry next run.
+                          print(
+                              f"WARNING: extracted 0 rows from {state_key}; "
+                              "skipping (markers/format may have changed)."
+                          )
+                          broken_sources.append(state_key)
+                          health_alert(
+                              f"zero-rows:{state_key}",
+                              f"{w['label']} parsed 0 rows from {w['file']} — section markers or "
+                              "table format may have changed. No alerts can come from this "
+                              "source until it is fixed.",
+                          )
+                          skip_reason = "zero_rows"
+                          curr_rows = None
+                      else:
+                          if prev_row_count and (
+                              len(curr_rows) < prev_row_count * SHRINK_ALARM_RATIO
+                          ):
+                              # Harmless now that `seen` is a union, but still worth surfacing:
+                              # it is how the 84-row -> 28-row collapse announced itself.
+                              health_alert(
+                                  f"shrink:{state_key}",
+                                  f"{w['label']} extracted {len(curr_rows)} rows, down from "
+                                  f"{prev_row_count}. Dedup is unaffected, but the parse may be "
+                                  "truncating.",
+                              )
+
+                          if seen_list is None:
+                              # Silent bootstrap: a source seen for the first time records what
+                              # is currently listed and alerts nothing, so adding a watcher
+                              # cannot flood the chat.
+                              seeded = [i for _r, i, _o in assign_identities(curr_rows)]
+                              state[state_key] = {
+                                  "last_sha": latest_sha,
+                                  "seen": seeded[-SEEN_CAP:],
+                                  # Deliberately empty: the seeded identities already silence
+                                  # this snapshot, and a legacy URL suppresses a row whatever its
+                                  # term, so seeding URLs here would stop a requisition relisted
+                                  # for a new season from ever alerting. Same reasoning as
+                                  # migrate_state — legacy is only for state with no term.
+                                  "seen_legacy_urls": [],
+                                  "last_row_count": len(curr_rows),
+                                  "outbox": [],
+                              }
+                              print(
+                                  f"Bootstrapped {state_key} at {latest_sha} "
+                                  f"with {len(seeded)} identities."
+                              )
+                              record_run(
+                                  w["label"], state_key, prev_sha=last_sha,
+                                  latest_sha=latest_sha, rows_extracted=len(curr_rows),
+                                  prev_row_count=prev_row_count, seen_size=len(seeded),
+                                  queued_before=0, identities_new=0, sent_ok=0, sent_failed=0,
+                                  outbox_size=0, skip_reason="bootstrap",
+                              )
+                              continue
+
+              if seen_list is None:
+                  # Unreadable on its very first sighting: there is no seen set to select
+                  # against, and nothing can have been queued for it yet.
+                  record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
+                             rows_extracted=0, prev_row_count=prev_row_count, seen_size=0,
+                             queued_before=queued_before, identities_new=0, sent_ok=0,
+                             sent_failed=0, outbox_size=queued_before,
+                             skip_reason=skip_reason or "unbootstrapped")
+                  continue
+
+              fresh_pairs = select_new(curr_rows, set(seen_list), legacy_urls) if curr_rows else []
+              queued = {ident for _r, ident, _o in outbox}
+              # A queued row is still absent from `seen` — it was never delivered — so select_new
+              # hands it back on every run where it is still listed upstream. It was counted as a
+              # discovery on the run that first saw it, so counting it again here would double it
+              # against queued_before and break the reconciliation invariant.
+              fresh_new = [p for p in fresh_pairs if p[1] not in queued]
+              # Queued work first, so the oldest jobs drain ahead of newly-seen rows and cannot be
+              # starved by a steady stream of new listings. This runs even when the snapshot could
+              # not be fetched or parsed — otherwise a permanent upstream rename would strand
+              # every already-discovered job behind a source that never recovers.
+              to_send = list(outbox) + fresh_new
+
+              delivered, undelivered = deliver_listings(to_send, w["label"])
+              total_alerted += len(delivered)
+
+              # Union in only what Telegram confirmed.
+              merged = seen_list + [identity for _r, identity, _o in delivered]
+              if len(merged) > SEEN_CAP:
+                  health_alert(
+                      f"cap:{state_key}",
+                      f"{w['label']} seen-set hit SEEN_CAP ({SEEN_CAP}); dropping "
+                      f"{len(merged) - SEEN_CAP} oldest identities, which may re-alert once.",
                   )
-                  if not curr_rows:
-                      # Unconditional empty-guard: a bad marker / format change never seeds an
-                      # empty set nor advances the SHA — just log and retry on the next run.
-                      print(f"WARNING: extracted 0 rows from {state_key}; skipping (markers/format may have changed).")
-                      continue
-                  curr_urls = [r[4] for r in curr_rows if r[4]]
-                  if seen_list is None:
-                      # Silent bootstrap: seed the currently-listed URLs, alert nothing.
-                      print(f"Bootstrapped {state_key} at {latest_sha} with {len(curr_urls)} seen URLs.")
-                      state[state_key] = {"last_sha": latest_sha, "seen": curr_urls[-URL_CAP:]}
-                      continue
-                  seen_set = set(seen_list)
-                  new_listings = [r for r in curr_rows if r[4] and r[4] not in seen_set]
-                  for entry in new_listings:
-                      h = job_hash(entry, w["label"])
-                      text = f"{w['label']}\n+ {fmt(entry)}"
-                      try:
-                          message_id, chat_id = telegram_send_job(text, f"apply:{h}")
-                      except Exception as exc:
-                          print(f"Failed to send job alert ({h}): {exc}")
-                          continue
-                      bot_state["pending"][h] = {
-                          "company": entry[0],
-                          "role": entry[1],
-                          "location": entry[2],
-                          "term": entry[3],
-                          "apply_url": entry[4],
-                          "source": w["label"],
-                          "message_id": message_id,
-                          "chat_id": chat_id,
-                      }
-                      total_alerted += 1
-                  # Append only genuinely-new URLs (preserves recency order), then cap.
-                  merged = seen_list + [u for u in curr_urls if u not in seen_set]
-                  state[state_key] = {"last_sha": latest_sha, "seen": merged[-URL_CAP:]}
-                  continue
-
-              # Skip only when SHA unchanged AND we already have a row snapshot.
-              if last_sha == latest_sha and prev_rows is not None:
-                  continue
-
-              try:
-                  file_text = get_raw_file(w["owner"], w["repo"], latest_sha, w["file"])
-              except urllib.error.HTTPError as e:
-                  print(f"Failed to fetch {w['file']} at {latest_sha}: {e}")
-                  continue
-
-              section_text = extract_section(file_text, w["section_start"], w["section_end"])
-              if w["parser"] == "html":
-                  curr_rows = parse_html_rows(section_text, w["term_col"], w["apply_col"], w["default_term"])
-              else:
-                  curr_rows = parse_markdown_rows(section_text)
-
-              if prev_rows and not curr_rows:
-                  print(f"WARNING: extracted 0 rows from {state_key} but had {len(prev_rows)} previously; skipping state update.")
-                  continue
-
-              new_state = {"last_sha": latest_sha, "rows": curr_rows}
-
-              if prev_rows is None:
-                  print(f"Bootstrapped {state_key} at {latest_sha} with {len(curr_rows)} rows.")
-                  state[state_key] = new_state
-                  continue
-
-              prev_keys = {row_key(r) for r in prev_rows}
-              new_listings = [r for r in curr_rows if row_key(r) not in prev_keys]
-
-              for entry in new_listings:
-                  h = job_hash(entry, w["label"])
-                  text = f"{w['label']}\n+ {fmt(entry)}"
-                  try:
-                      message_id, chat_id = telegram_send_job(text, f"apply:{h}")
-                  except Exception as exc:
-                      print(f"Failed to send job alert ({h}): {exc}")
-                      continue
-                  bot_state["pending"][h] = {
-                      "company": entry[0],
-                      "role": entry[1],
-                      "location": entry[2],
-                      "term": entry[3],
-                      "apply_url": entry[4],
-                      "source": w["label"],
-                      "message_id": message_id,
-                      "chat_id": chat_id,
-                  }
-                  total_alerted += 1
-
-              state[state_key] = new_state
+              if len(undelivered) > OUTBOX_CAP:
+                  # Unlike a seen-set eviction, this drops jobs that were never delivered. They
+                  # are gone unless they are still listed upstream, so it is a real miss.
+                  health_alert(
+                      f"outbox-overflow:{state_key}",
+                      f"{w['label']} has {len(undelivered)} undelivered jobs, over OUTBOX_CAP "
+                      f"({OUTBOX_CAP}); {len(undelivered) - OUTBOX_CAP} newest are being dropped "
+                      "and may never be alerted. Delivery has been failing for a long time.",
+                  )
+              record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
+                         rows_extracted=len(curr_rows) if curr_rows is not None else 0,
+                         prev_row_count=prev_row_count,
+                         seen_size=min(len(merged), SEEN_CAP), queued_before=queued_before,
+                         identities_new=len(fresh_new), sent_ok=len(delivered),
+                         sent_failed=len(undelivered),
+                         outbox_size=min(len(undelivered), OUTBOX_CAP),
+                         skip_reason=skip_reason)
+              state[state_key] = {
+                  # Only advance when a snapshot was actually parsed. Anything undelivered is
+                  # durably queued rather than depending on being re-derived from a later parse.
+                  "last_sha": latest_sha if curr_rows is not None else last_sha,
+                  "seen": merged[-SEEN_CAP:],
+                  "seen_legacy_urls": legacy_urls,
+                  "last_row_count": len(curr_rows) if curr_rows is not None else prev_row_count,
+                  # Keep the oldest on overflow: newer rows can still be re-derived from the next
+                  # parse, while the oldest may already have left the upstream table.
+                  "outbox": [list(item) for item in undelivered[:OUTBOX_CAP]],
+              }
 
           if total_alerted:
               print(f"Sent {total_alerted} job alert(s).")
           else:
               print("No new listings.")
 
-          STATE_FILE.write_text(json.dumps(state, indent=2) + "\n")
-          BOT_STATE_FILE.write_text(json.dumps(bot_state, indent=2) + "\n")
+          # --- Run log ---
+          # At a dispatch a minute, logging every watcher every run would be ~8.6k lines a day.
+          # Write the runs that did something, and collapse quiet ones into an hourly heartbeat
+          # so a healthy-but-silent watcher is still evidenced.
+          notable = [
+              r for r in run_records
+              if r["sent_ok"] or r["sent_failed"] or r["identities_new"]
+              or r["skip_reason"] or r["prev_sha"] != r["latest_sha"]
+          ]
+          for record in notable:
+              append_jsonl("runs", record)
+
+          last_heartbeat = parse_iso(bot_state["health"].get("last_heartbeat"))
+          heartbeat_due = (
+              last_heartbeat is None
+              or (utcnow() - last_heartbeat).total_seconds() >= HEARTBEAT_EVERY
+          )
+          if not notable and heartbeat_due:
+              append_jsonl("runs", {
+                  "ts": iso(utcnow()),
+                  "run_id": RUN_ID,
+                  "watcher": None,
+                  "state_key": None,
+                  "kind": "heartbeat",
+                  "watchers_checked": len(run_records),
+                  "seq": bot_state.get("seq", 0),
+              })
+              bot_state["health"]["last_heartbeat"] = iso(utcnow())
+
+          summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary_path:
+              lines = [
+                  f"### Watcher run {'(dry run) ' if DRY_RUN else ''}— {iso(utcnow())}",
+                  "",
+                  "| Watcher | rows | prev | new | sent | failed | note |",
+                  "|---|---:|---:|---:|---:|---:|---|",
+              ]
+              for r in run_records:
+                  lines.append(
+                      f"| {r['watcher']} | {r['rows_extracted']} | {r['prev_row_count'] or '-'} "
+                      f"| {r['identities_new']} | {r['sent_ok']} | {r['sent_failed']} "
+                      f"| {r['skip_reason'] or ''} |"
+                  )
+              if anomalies:
+                  lines += ["", "**Anomalies**", ""]
+                  lines += [f"- `{kind}` {message}" for kind, message in anomalies]
+              with open(summary_path, "a", encoding="utf-8") as fh:
+                  fh.write("\n".join(lines) + "\n")
+
+          if broken_sources:
+              print(f"UNHEALTHY: {len(broken_sources)} source(s) unreadable: {broken_sources}")
+
+          # `healthy` gates the external ping. last_ok_run is deliberately *not* gated on it: that
+          # timestamp tracks whether the dispatch pipeline is alive, and suppressing it during a
+          # broken-source period would later produce a bogus "no successful run for Nh" alert
+          # about runs that did happen.
+          output_path = os.environ.get("GITHUB_OUTPUT")
+          if output_path:
+              with open(output_path, "a", encoding="utf-8") as fh:
+                  fh.write(f"healthy={'false' if broken_sources else 'true'}\n")
+
+          if DRY_RUN:
+              print("[dry-run] state files not written, nothing committed")
+              if os.environ.get("ON_DEFAULT_BRANCH", "true").lower() != "true":
+                  print(
+                      "[dry-run] forced: this ref is not the default branch, so its state "
+                      "snapshot is stale and could not be saved even if it were written."
+                  )
+          else:
+              bot_state["health"]["last_ok_run"] = iso(utcnow())
+              STATE_FILE.write_text(json.dumps(state, indent=2) + "\n")
+              BOT_STATE_FILE.write_text(json.dumps(bot_state, indent=2) + "\n")
           PY
 
       - name: Commit updated state
+        if: ${{ !inputs.dry_run && env.ON_DEFAULT_BRANCH == 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .watcher_state.json .bot_state.json
+          # A run where every watcher short-circuits writes no log line, and `git add` on a
+          # missing path exits 128 -- which would fail the step and leave the state unpushed.
+          # An existing-but-empty directory is a no-op for `git add`.
+          mkdir -p logs
+          git add .watcher_state.json .bot_state.json logs
           git diff --cached --quiet || git commit -m "Update watcher state"
           for attempt in 1 2 3 4 5; do
             if git pull --rebase origin main && git push; then
@@ -500,9 +856,33 @@ jobs:
           echo "Push failed after 5 attempts" >&2
           exit 1
 
+      # Deliberately the last step, after the push. The ping is an external dead-man switch, so
+      # it has to mean "the whole stateful run completed" — pinging from inside the watcher would
+      # report healthy even when the push exhausted its retries, leaving delivered alerts
+      # unrecorded. success() must be explicit: supplying any `if:` drops the implicit one, and
+      # not pinging on a failed push is the entire point.
+      #
+      # It is also withheld when any source was unreadable. A source whose file was renamed
+      # produces no alerts at all, so continuing to ping would leave that silence behind a green
+      # check — exactly the outage this switch exists to surface.
+      - name: Ping healthcheck
+        if: >-
+          ${{ success() && !inputs.dry_run && env.ON_DEFAULT_BRANCH == 'true'
+              && steps.watcher.outputs.healthy == 'true' }}
+        env:
+          HEALTHCHECK_PING_URL: ${{ secrets.HEALTHCHECK_PING_URL }}
+        run: |
+          if [ -n "$HEALTHCHECK_PING_URL" ]; then
+            curl -fsS --retry 3 --max-time 10 "$HEALTHCHECK_PING_URL" \
+              || echo "Healthcheck ping failed (run itself succeeded)"
+          fi
+
   process_applies:
     needs: watch
-    if: always()
+    # always() so taps are still processed when the watch job fails, but never on a dry run:
+    # this job appends to the Google Sheet, edits Telegram messages and commits .bot_state.json,
+    # so leaving it ungated would make a supposed rehearsal mutate external state.
+    if: ${{ always() && !inputs.dry_run && github.ref_name == github.event.repository.default_branch }}
     runs-on: ubuntu-latest
 
     steps:
@@ -550,10 +930,12 @@ jobs:
           SHEET_ID = os.environ["APPLICATIONS_SHEET_ID"]
           SHEET_RANGE = os.environ["APPLICATIONS_SHEET_RANGE"]
 
+          REQUEST_TIMEOUT = 30  # see watch job: urlopen without one blocks forever on a stall
+
           def urlopen_with_retry(req, attempts=3):
               for i in range(attempts):
                   try:
-                      return urllib.request.urlopen(req)
+                      return urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT)
                   except (urllib.error.URLError, ConnectionResetError, TimeoutError) as e:
                       if isinstance(e, urllib.error.HTTPError) and e.code < 500:
                           raise
@@ -734,11 +1116,14 @@ jobs:
                   "callback_query_id": cb["id"],
                   "text": "Logged ✅",
               })
+              # Keep the sequence number on the edited message: it is what makes a gap in the
+              # chat's numbering visible, and dropping it here would erase that evidence.
+              seq_suffix = f" #{job['seq']}" if job.get("seq") else ""
               tg_call("editMessageText", {
                   "chat_id": job["chat_id"],
                   "message_id": job["message_id"],
                   "text": (
-                      f"{job['source']}\n+ {job['company']} — {job['role']} | "
+                      f"{job['source']}{seq_suffix}\n+ {job['company']} — {job['role']} | "
                       f"{job['location']} | {job['term']}"
                       + (f"\n  {job['apply_url']}" if job.get('apply_url') else "")
                       + f"\n\n✅ Logged {applied_at}"
