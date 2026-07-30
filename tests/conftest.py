@@ -28,7 +28,18 @@ FIXTURES = Path(__file__).resolve().parent / "fixtures"
 # Watcher under test: Simplify Summer -- html parser, term_col None, apply_col 3.
 TARGET_REPO = "SimplifyJobs/Summer2026-Internships"
 TARGET_KEY = f"{TARGET_REPO}#summer"
-NEW_SHA = "deadbeef" * 5
+SHA_PREFIX = "deadbeef"
+_sha_counter = [0]
+
+
+def next_sha():
+    """A fresh head sha per run.
+
+    Chained runs must not reuse one: the loop short-circuits on last_sha == latest_sha, so a
+    repeated sha would make the second run a no-op for reasons unrelated to the test.
+    """
+    _sha_counter[0] += 1
+    return f"{SHA_PREFIX}{_sha_counter[0]:032x}"
 
 
 def workflow_block(index=0):
@@ -70,7 +81,7 @@ class _Resp(io.BytesIO):
         return False
 
 
-def _make_urlopen(state, html, sent, fail_for=None, fail_once_at=None):
+def _make_urlopen(state, html, sent, head_sha, fail_for=None, fail_once_at=None):
     """Stub urlopen.
 
     fail_for:     substring of the message text that 429s on every attempt (permanent failure)
@@ -84,7 +95,7 @@ def _make_urlopen(state, html, sent, fail_for=None, fail_once_at=None):
         if "api.github.com" in url and "/commits/" in url:
             repo = re.search(r"/repos/([^/]+/[^/]+)/commits/", url).group(1)
             if repo == TARGET_REPO:
-                return _Resp(json.dumps({"sha": NEW_SHA}).encode())
+                return _Resp(json.dumps({"sha": head_sha}).encode())
             # Report every other watcher's stored sha so it short-circuits and stays out of
             # the way; this test only drives the target watcher.
             sha = next(
@@ -118,10 +129,11 @@ def _make_urlopen(state, html, sent, fail_for=None, fail_once_at=None):
 
 
 class Result:
-    def __init__(self, sent, files, log, key=TARGET_KEY):
+    def __init__(self, sent, files, log, head_sha, key=TARGET_KEY):
         self.sent = sent
         self.files = files
         self.log = log
+        self.head_sha = head_sha
         self.state = json.loads(files[".watcher_state.json"])
         self.bot_state = json.loads(files[".bot_state.json"])
         self._key = key
@@ -146,7 +158,8 @@ class Result:
 def run_watcher():
     """Return `run(upstream_rows, **kw) -> Result`, runnable repeatedly to chain runs."""
 
-    def run(upstream_rows, start_files=None, fail_for=None, fail_once_at=None):
+    def run(upstream_rows, start_files=None, fail_for=None, fail_once_at=None,
+            drop_target_state=False):
         work = Path(tempfile.mkdtemp())
         try:
             for name in (".watcher_state.json", ".bot_state.json"):
@@ -158,6 +171,11 @@ def run_watcher():
             shutil.copytree(REPO_ROOT / "watcher", work / "watcher")
 
             state_before = json.loads((work / ".watcher_state.json").read_text())
+            if drop_target_state:
+                # Simulate a source the watcher has never seen, to exercise silent bootstrap.
+                state_before.pop(TARGET_KEY, None)
+                (work / ".watcher_state.json").write_text(json.dumps(state_before))
+            head_sha = next_sha()
             sent = []
             saved_cwd, saved_sleep = os.getcwd(), time.sleep
             saved_urlopen = urllib.request.urlopen
@@ -175,7 +193,8 @@ def run_watcher():
                 sys.path.insert(0, str(work))
                 _evict_watcher_modules()
                 urllib.request.urlopen = _make_urlopen(
-                    state_before, build_html(upstream_rows), sent, fail_for, fail_once_at
+                    state_before, build_html(upstream_rows), sent, head_sha,
+                    fail_for, fail_once_at
                 )
                 time.sleep = lambda _s: None  # keep send spacing from slowing the suite
                 sys.stdout = buf
@@ -194,7 +213,7 @@ def run_watcher():
                 name: (work / name).read_text()
                 for name in (".watcher_state.json", ".bot_state.json")
             }
-            return Result(sent, files, buf.getvalue())
+            return Result(sent, files, buf.getvalue(), head_sha)
         finally:
             shutil.rmtree(work, ignore_errors=True)
 
@@ -210,6 +229,18 @@ def _evict_watcher_modules():
 def fixture_rows():
     """The frozen upstream rows for the target watcher."""
     return json.loads((FIXTURES / "watcher_state.json").read_text())[TARGET_KEY]["rows"]
+
+
+@pytest.fixture
+def baseline(run_watcher, fixture_rows):
+    """A migration-only run: no new listings, so it establishes the post-migration `seen` size.
+
+    Tests assert deltas against this rather than against len(fixture_rows), because migration
+    also seeds identities out of bot_state, not just out of the stored rows.
+    """
+    result = run_watcher(fixture_rows)
+    assert result.sent == [], "the baseline run must not alert"
+    return result
 
 
 def load_fixture(name):

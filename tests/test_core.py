@@ -3,7 +3,7 @@ import json
 
 import pytest
 
-from conftest import load_fixture
+from conftest import REPO_ROOT, load_fixture
 from watcher import core
 
 
@@ -203,6 +203,222 @@ def test_the_recorded_snapshot_collapse_drops_rows_that_were_already_alerted():
     assert len([r for r in before if core.row_key(r) not in keys_after]) == 79, (
         "79 rows for 71 keys: 8 rows sit in same-key clusters"
     )
+
+
+def test_identity_is_total_and_injective_over_the_recorded_snapshots():
+    """The property the no-miss guarantee rests on: every row gets exactly one identity, and no
+    two rows in a run share one. A collision means an opening can never be reported as new."""
+    for name in ("collapse_84.json", "collapse_28.json"):
+        rows = load_fixture(name)
+        paired = core.assign_identities(rows)
+
+        assert len(paired) == len(rows), "total: one identity per row"
+        assert len({identity for _, identity in paired}) == len(rows), "injective: no collisions"
+
+
+def test_identity_is_injective_over_the_live_state_snapshots():
+    """Canary against the real state file rather than a fixture. Uniqueness must hold for any
+    valid snapshot, so a failure here is a genuine signal, not fixture rot."""
+    live = json.loads((REPO_ROOT / ".watcher_state.json").read_text())
+    checked = 0
+    for key, val in live.items():
+        rows = val.get("rows")
+        if not rows:
+            continue
+        paired = core.assign_identities(rows)
+        assert len({i for _, i in paired}) == len(rows), f"identity collision in {key}"
+        checked += len(rows)
+    if checked:
+        print(f"checked {checked} live rows")
+
+
+def test_occurrence_index_separates_otherwise_identical_rows():
+    """Kudu Dynamics lists the same URL-less role three times; without the index they collapse
+    to one identity and two openings become unreachable."""
+    row = ["Kudu Dynamics", "Software Engineer Intern", "Chantilly, VA", "May 22", ""]
+    paired = core.assign_identities([row, row, row])
+
+    assert [i for _, i in paired] == [
+        "ROWKEY:Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#1",
+        "ROWKEY:Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#2",
+        "ROWKEY:Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#3",
+    ]
+
+
+def test_identity_prefers_the_url_over_the_row_text():
+    with_url = ["Acme", "R", "L", "T", "https://acme.test/1"]
+    without = ["Acme", "R", "L", "T", ""]
+
+    assert core.row_identity(with_url, 1) == "https://acme.test/1|T#1"
+    assert core.row_identity(without, 1) == "ROWKEY:Acme|R|L|T#1"
+
+
+def test_identity_includes_the_term_so_a_relisted_req_is_new_again():
+    """A requisition relisted for the next season keeps its URL. Without term in the identity it
+    would be swallowed as already-seen."""
+    summer = ["Acme", "SWE Intern", "NYC", "Summer 2026", "https://acme.test/job/1"]
+    fall = ["Acme", "SWE Intern", "NYC", "Fall 2026", "https://acme.test/job/1"]
+
+    assert core.row_identity(summer, 1) != core.row_identity(fall, 1)
+    assert core.select_new([fall], seen={core.row_identity(summer, 1)})
+
+
+# --- select_new -------------------------------------------------------------------------
+
+def test_select_new_skips_seen_identities():
+    rows = [["Acme", "R", "L", "T", "https://acme.test/1"],
+            ["Beta", "R", "L", "T", "https://beta.test/1"]]
+    seen = {core.row_identity(rows[0], 1)}
+
+    fresh = core.select_new(rows, seen)
+
+    assert [row[0] for row, _ in fresh] == ["Beta"]
+
+
+def test_select_new_honours_legacy_urls():
+    """Pre-migration state for the cumulative-URL sources holds bare URLs with no term, so those
+    can only be matched on the URL -- the identity would not match and the job would re-alert."""
+    row = ["Acme", "R", "L", "T", "https://acme.test/1"]
+
+    assert core.select_new([row], seen=set()) , "unseen without legacy"
+    assert core.select_new([row], seen=set(), legacy_urls={"https://acme.test/1"}) == []
+
+
+def test_select_new_ignores_legacy_urls_for_rows_without_one():
+    """An empty apply_url must never be matched against the legacy set, or every URL-less row
+    would be suppressed at once."""
+    row = ["Acme", "R", "L", "T", ""]
+
+    assert core.select_new([row], seen=set(), legacy_urls={""}) != []
+
+
+# --- migrate_state ----------------------------------------------------------------------
+
+WATCHERS = [
+    {"label": "Simplify Summer Repo", "state_key": "simplify#summer"},
+    {"label": "Zapply Summer Repo", "state_key": "zapply#swe"},
+]
+
+
+def test_migrate_converts_a_rows_snapshot_to_identities():
+    rows = [["Acme", "R", "L", "T", "https://acme.test/1"]]
+    state = {"simplify#summer": {"last_sha": "abc", "rows": rows}}
+
+    out = core.migrate_state(state, [], WATCHERS)["simplify#summer"]
+
+    assert set(out) == {"last_sha", "seen", "seen_legacy_urls", "last_row_count"}
+    assert out["seen"] == ["https://acme.test/1|T#1"]
+    assert out["seen_legacy_urls"] == [], "rows carry a term, so no legacy fallback is needed"
+    assert out["last_row_count"] == 1
+
+
+def test_migrate_moves_bare_url_seen_lists_into_legacy():
+    state = {"zapply#swe": {"last_sha": "abc", "seen": ["https://z.test/1", "https://z.test/2"]}}
+
+    out = core.migrate_state(state, [], WATCHERS)["zapply#swe"]
+
+    assert out["seen"] == [], "no identity can be reconstructed without a term"
+    assert out["seen_legacy_urls"] == ["https://z.test/1", "https://z.test/2"]
+
+
+def test_migrate_seeds_from_previously_sent_jobs():
+    """Without this, anything alerted but not currently listed would alert again."""
+    state = {"simplify#summer": {"last_sha": "abc", "rows": []}}
+    records = [{"company": "Acme", "role": "R", "location": "L", "term": "T",
+                "apply_url": "https://acme.test/1", "source": "Simplify Summer Repo"}]
+
+    out = core.migrate_state(state, records, WATCHERS)["simplify#summer"]
+
+    assert out["seen"] == ["https://acme.test/1|T#1"]
+
+
+def test_migrate_attributes_records_from_a_renamed_label():
+    """bot_state records keep whatever label was current when they were sent -- 'Simplify Repo'
+    predates the rename to 'Simplify Summer Repo' -- so matching is on the label family."""
+    state = {"simplify#summer": {"last_sha": "abc", "rows": []}}
+    records = [{"company": "Acme", "role": "R", "location": "L", "term": "T",
+                "apply_url": "https://acme.test/1", "source": "Simplify Repo"}]
+
+    out = core.migrate_state(state, records, WATCHERS)["simplify#summer"]
+
+    assert out["seen"] == ["https://acme.test/1|T#1"]
+
+
+def test_migrate_numbers_repeated_url_less_records():
+    """Three identical URL-less records must seed #1..#3, not three copies of #1."""
+    state = {"simplify#summer": {"last_sha": "abc", "rows": []}}
+    rec = {"company": "Kudu", "role": "R", "location": "L", "term": "T",
+           "apply_url": "", "source": "Simplify Summer Repo"}
+
+    out = core.migrate_state(state, [dict(rec), dict(rec), dict(rec)], WATCHERS)
+
+    assert out["simplify#summer"]["seen"] == [
+        "ROWKEY:Kudu|R|L|T#1", "ROWKEY:Kudu|R|L|T#2", "ROWKEY:Kudu|R|L|T#3",
+    ]
+
+
+def test_migrate_is_idempotent():
+    state = {"simplify#summer": {"last_sha": "abc",
+                                 "rows": [["Acme", "R", "L", "T", "https://acme.test/1"]]}}
+    records = [{"company": "Beta", "role": "R", "location": "L", "term": "T",
+                "apply_url": "https://beta.test/1", "source": "Simplify Summer Repo"}]
+
+    once = core.migrate_state(state, records, WATCHERS)
+    twice = core.migrate_state(once, records, WATCHERS)
+
+    assert once == twice
+
+
+def test_migrate_preserves_the_head_sha():
+    """The sha must survive migration, or every source would re-fetch and re-diff on cutover."""
+    state = {"simplify#summer": {"last_sha": "abc123", "rows": []}}
+
+    assert core.migrate_state(state, [], WATCHERS)["simplify#summer"]["last_sha"] == "abc123"
+
+
+def test_migrate_leaves_unrecognised_entries_alone():
+    state = {"simplify#summer": {"last_sha": "a", "rows": []}, "_notes": "free text"}
+
+    assert core.migrate_state(state, [], WATCHERS)["_notes"] == "free text"
+
+
+def test_migrating_the_real_state_files_seeds_everything_currently_listed():
+    """Cutover rehearsal on the committed state: every row currently listed, and every job ever
+    sent, must land in the seeded sets -- otherwise the first run after the change re-alerts."""
+    state = json.loads((REPO_ROOT / ".watcher_state.json").read_text())
+    bot_state = json.loads((REPO_ROOT / ".bot_state.json").read_text())
+    records = list(bot_state["pending"].values()) + list(bot_state["applied"].values())
+    watchers = [
+        {"label": "Simplify Off-Season Repo", "state_key": "SimplifyJobs/Summer2026-Internships"},
+        {"label": "Simplify Summer Repo",
+         "state_key": "SimplifyJobs/Summer2026-Internships#summer"},
+        {"label": "Vansh Off-Season Repo", "state_key": "vanshb03/Summer2027-Internships"},
+        {"label": "Vansh Summer Repo", "state_key": "vanshb03/Summer2027-Internships#summer"},
+        {"label": "Zapply Summer Repo", "state_key": "zapplyjobs/Internships-2027#swe"},
+        {"label": "Speedyapply Summer Repo",
+         "state_key": "speedyapply/2027-SWE-College-Jobs#faang"},
+        {"label": "Speedyapply Summer Repo",
+         "state_key": "speedyapply/2027-SWE-College-Jobs#quant"},
+        {"label": "Speedyapply Summer Repo",
+         "state_key": "speedyapply/2027-SWE-College-Jobs#other"},
+    ]
+
+    migrated = core.migrate_state(state, records, watchers)
+
+    for key, val in state.items():
+        out = migrated[key]
+        assert set(out) == {"last_sha", "seen", "seen_legacy_urls", "last_row_count"}
+        # Nothing currently listed may be treated as new on the next run.
+        rows = val.get("rows")
+        if rows:
+            assert core.select_new(
+                rows, set(out["seen"]), out["seen_legacy_urls"]
+            ) == [], f"{key} would re-alert its own rows"
+        # Nor may any URL the old cumulative-URL sources had already seen.
+        for url in val.get("seen") or []:
+            assert core.select_new(
+                [["C", "R", "L", "T", url]], set(out["seen"]), out["seen_legacy_urls"]
+            ) == [], f"{key} would re-alert {url}"
 
 
 def test_the_collapsed_snapshot_hides_whole_clusters_of_openings():

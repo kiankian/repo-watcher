@@ -36,12 +36,15 @@ jobs:
           # Pure parsing/dedup logic lives in watcher/core.py so it can be unit tested; this
           # block keeps only the I/O. cwd is the repo root under actions/checkout.
           from watcher.core import (
+              SEEN_CAP,
+              assign_identities,
               extract_section,
               fmt,
               job_hash,
+              migrate_state,
               parse_html_rows,
               parse_markdown_rows,
-              row_key,
+              select_new,
           )
 
           WATCHERS = [
@@ -118,7 +121,6 @@ jobs:
                   "default_term": "Summer 2027",
                   "min_cells": 6,
                   "strip_bold": True,
-                  "dedup": "cumulative_url",
               },
               {
                   # speedyapply's USA-internships README carries three category tables
@@ -143,7 +145,6 @@ jobs:
                   "term_col": None,
                   "default_term": "FAANG+",
                   "min_cells": 6,
-                  "dedup": "cumulative_url",
               },
               {
                   "label": "Speedyapply Summer Repo",
@@ -161,7 +162,6 @@ jobs:
                   "term_col": None,
                   "default_term": "Quant",
                   "min_cells": 6,
-                  "dedup": "cumulative_url",
               },
               {
                   # "Other" table drops the Salary column, so it is 5-col (apply_col=3),
@@ -181,13 +181,11 @@ jobs:
                   "term_col": None,
                   "default_term": "Other",
                   "min_cells": 5,
-                  "dedup": "cumulative_url",
               },
           ]
 
           STATE_FILE = pathlib.Path(".watcher_state.json")
           BOT_STATE_FILE = pathlib.Path(".bot_state.json")
-          URL_CAP = 3000  # bound seen-URL growth for cumulative-URL sources; >> the <1-week / ~100-row fresh window
           SEND_SPACING = 1.1  # seconds between job sends; Telegram allows ~1 msg/sec to one chat
           BURST_CAP = 25  # max sends per watcher per run; the rest are withheld and retried next run
 
@@ -265,17 +263,17 @@ jobs:
               return body["result"]["message_id"], body["result"]["chat"]["id"]
 
 
-          def deliver_listings(new_listings, label):
-              """Send each listing; return (delivered, undelivered).
+          def deliver_listings(new_pairs, label):
+              """Send each (row, identity) pair; return (delivered, undelivered) pair lists.
 
               A listing counts as delivered only once Telegram has confirmed a message id, so
               callers must withhold the undelivered ones from state. Recording an undelivered
               listing as seen would drop it permanently — it would never be reconsidered.
               """
               delivered, undelivered = [], []
-              for entry in new_listings:
+              for entry, identity in new_pairs:
                   if len(delivered) >= BURST_CAP:
-                      undelivered.append(entry)
+                      undelivered.append((entry, identity))
                       continue
                   if delivered:
                       time.sleep(SEND_SPACING)  # stay under Telegram's ~1 msg/sec per-chat limit
@@ -286,7 +284,7 @@ jobs:
                       )
                   except Exception as exc:
                       print(f"Failed to send job alert ({h}): {type(exc).__name__}: {exc}")
-                      undelivered.append(entry)
+                      undelivered.append((entry, identity))
                       continue
                   if h in bot_state["pending"]:
                       # Should be unreachable: an identical job is already deduped upstream. If it
@@ -302,7 +300,7 @@ jobs:
                       "message_id": message_id,
                       "chat_id": chat_id,
                   }
-                  delivered.append(entry)
+                  delivered.append((entry, identity))
               if undelivered:
                   print(
                       f"{len(undelivered)} listing(s) for {label} not delivered; withholding them "
@@ -326,8 +324,28 @@ jobs:
               bot_state = {}
           bot_state.setdefault("telegram", {"last_update_id": 0})
           bot_state.setdefault("pending", {})
+          bot_state.setdefault("applied", {})
+
+          # Convert any legacy per-source shape ({..., rows} or {..., seen: [url]}) to the
+          # unified identity shape, seeding from both the stored rows and every job ever sent so
+          # the first run after the change alerts nothing. A no-op once migrated.
+          bot_records = list(bot_state["pending"].values()) + list(bot_state["applied"].values())
+          shapes_before = {k: sorted(v) for k, v in state.items() if isinstance(v, dict)}
+          state = migrate_state(state, bot_records, WATCHERS)
+          for key, val in state.items():
+              if isinstance(val, dict) and shapes_before.get(key) != sorted(val):
+                  print(
+                      f"Migrated {key}: {len(val.get('seen', []))} identities, "
+                      f"{len(val.get('seen_legacy_urls', []))} legacy URLs."
+                  )
 
           # --- Process each watcher ---
+          #
+          # One path for every source. A listing is alerted when its identity has never been
+          # delivered, and `seen` only ever grows: it is a union, never a replacement. That is
+          # what makes an extraction collapse harmless. When the parsed row set shrinks, the
+          # rows that vanished stay in `seen`, so they do not re-alert when they come back,
+          # while anything genuinely new in the same run still goes out.
           total_alerted = 0
           for w in WATCHERS:
               if not w.get("enabled", True):
@@ -338,64 +356,10 @@ jobs:
               latest_sha = latest["sha"]
               saved = state.get(state_key) or {}
               last_sha = saved.get("last_sha")
-              prev_rows = saved.get("rows")
+              seen_list = saved.get("seen")
+              legacy_urls = saved.get("seen_legacy_urls") or []
 
-              # --- Churn-tolerant cumulative-URL dedup (opt-in via "dedup": "cumulative_url").
-              # Keys jobs by apply URL and never re-alerts a URL once seen, so rows flapping in
-              # and out of Zapply's ~100-row fresh window don't produce duplicate alerts. State
-              # shape is {last_sha, seen: [url, ...]} instead of {last_sha, rows: [...]}. Sources
-              # without a "dedup" key skip this block and use the snapshot-diff path below. ---
-              if w.get("dedup") == "cumulative_url":
-                  seen_list = saved.get("seen")
-                  if last_sha == latest_sha and seen_list is not None:
-                      continue
-                  try:
-                      file_text = get_raw_file(w["owner"], w["repo"], latest_sha, w["file"])
-                  except urllib.error.HTTPError as e:
-                      print(f"Failed to fetch {w['file']} at {latest_sha}: {e}")
-                      continue
-                  section_text = extract_section(file_text, w["section_start"], w["section_end"])
-                  curr_rows = parse_markdown_rows(
-                      section_text,
-                      role_col=w.get("role_col", 1),
-                      loc_col=w.get("loc_col", 2),
-                      apply_col=w["apply_col"],
-                      term_col=w["term_col"],
-                      default_term=w["default_term"],
-                      min_cells=w.get("min_cells", 5),
-                      strip_bold=w.get("strip_bold", False),
-                  )
-                  if not curr_rows:
-                      # Unconditional empty-guard: a bad marker / format change never seeds an
-                      # empty set nor advances the SHA — just log and retry on the next run.
-                      print(f"WARNING: extracted 0 rows from {state_key}; skipping (markers/format may have changed).")
-                      continue
-                  curr_urls = [r[4] for r in curr_rows if r[4]]
-                  if seen_list is None:
-                      # Silent bootstrap: seed the currently-listed URLs, alert nothing.
-                      print(f"Bootstrapped {state_key} at {latest_sha} with {len(curr_urls)} seen URLs.")
-                      state[state_key] = {"last_sha": latest_sha, "seen": curr_urls[-URL_CAP:]}
-                      continue
-                  seen_set = set(seen_list)
-                  new_listings = [r for r in curr_rows if r[4] and r[4] not in seen_set]
-                  delivered, undelivered = deliver_listings(new_listings, w["label"])
-                  total_alerted += len(delivered)
-                  # Append only genuinely-new URLs (preserves recency order), then cap. URLs whose
-                  # alert never went out are excluded so the next run treats them as new again.
-                  withheld = {r[4] for r in undelivered}
-                  merged = seen_list + [
-                      u for u in curr_urls if u not in seen_set and u not in withheld
-                  ]
-                  state[state_key] = {
-                      # Hold the SHA back on a partial run so the next run re-fetches immediately
-                      # instead of short-circuiting on last_sha == latest_sha.
-                      "last_sha": last_sha if undelivered else latest_sha,
-                      "seen": merged[-URL_CAP:],
-                  }
-                  continue
-
-              # Skip only when SHA unchanged AND we already have a row snapshot.
-              if last_sha == latest_sha and prev_rows is not None:
+              if last_sha == latest_sha and seen_list is not None:
                   continue
 
               try:
@@ -406,33 +370,63 @@ jobs:
 
               section_text = extract_section(file_text, w["section_start"], w["section_end"])
               if w["parser"] == "html":
-                  curr_rows = parse_html_rows(section_text, w["term_col"], w["apply_col"], w["default_term"])
+                  curr_rows = parse_html_rows(
+                      section_text, w["term_col"], w["apply_col"], w["default_term"]
+                  )
               else:
-                  curr_rows = parse_markdown_rows(section_text)
+                  # Defaults reproduce the original Vansh call; Zapply/Speedyapply override them.
+                  curr_rows = parse_markdown_rows(
+                      section_text,
+                      role_col=w.get("role_col", 1),
+                      loc_col=w.get("loc_col", 2),
+                      apply_col=w.get("apply_col", 3),
+                      term_col=w.get("term_col", 4),
+                      default_term=w.get("default_term"),
+                      min_cells=w.get("min_cells", 5),
+                      strip_bold=w.get("strip_bold", False),
+                  )
 
-              if prev_rows and not curr_rows:
-                  print(f"WARNING: extracted 0 rows from {state_key} but had {len(prev_rows)} previously; skipping state update.")
+              if not curr_rows:
+                  # A renamed heading or reshaped table lands here. Never seed an empty set and
+                  # never advance the SHA — just log it and retry on the next run.
+                  print(
+                      f"WARNING: extracted 0 rows from {state_key}; "
+                      "skipping (markers/format may have changed)."
+                  )
                   continue
 
-              if prev_rows is None:
-                  print(f"Bootstrapped {state_key} at {latest_sha} with {len(curr_rows)} rows.")
-                  state[state_key] = {"last_sha": latest_sha, "rows": curr_rows}
+              if seen_list is None:
+                  # Silent bootstrap: a source seen for the first time records what is currently
+                  # listed and alerts nothing, so adding a watcher cannot flood the chat.
+                  seeded = [identity for _, identity in assign_identities(curr_rows)]
+                  state[state_key] = {
+                      "last_sha": latest_sha,
+                      "seen": seeded[-SEEN_CAP:],
+                      "seen_legacy_urls": sorted({r[4] for r in curr_rows if r[4]}),
+                      "last_row_count": len(curr_rows),
+                  }
+                  print(f"Bootstrapped {state_key} at {latest_sha} with {len(seeded)} identities.")
                   continue
 
-              prev_keys = {row_key(r) for r in prev_rows}
-              new_listings = [r for r in curr_rows if row_key(r) not in prev_keys]
-
-              delivered, undelivered = deliver_listings(new_listings, w["label"])
+              new_pairs = select_new(curr_rows, set(seen_list), legacy_urls)
+              delivered, undelivered = deliver_listings(new_pairs, w["label"])
               total_alerted += len(delivered)
 
-              # Rows whose alert never went out are kept out of the snapshot, so the next run sees
-              # them as new and retries. Writing them would mark them seen and lose them for good.
-              withheld = {row_key(r) for r in undelivered}
+              # Union in only what Telegram confirmed. Undelivered identities stay absent, so the
+              # next run sees them as new and retries.
+              merged = seen_list + [identity for _, identity in delivered]
+              if len(merged) > SEEN_CAP:
+                  print(
+                      f"ANOMALY: {state_key} seen-set hit SEEN_CAP ({SEEN_CAP}); evicting "
+                      f"{len(merged) - SEEN_CAP} oldest identities, which may re-alert."
+                  )
               state[state_key] = {
                   # Hold the SHA back on a partial run so the next run re-fetches immediately
                   # instead of short-circuiting on last_sha == latest_sha.
                   "last_sha": last_sha if undelivered else latest_sha,
-                  "rows": [r for r in curr_rows if row_key(r) not in withheld],
+                  "seen": merged[-SEEN_CAP:],
+                  "seen_legacy_urls": legacy_urls,
+                  "last_row_count": len(curr_rows),
               }
 
           if total_alerted:
