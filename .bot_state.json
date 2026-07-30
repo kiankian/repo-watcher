@@ -6812,6 +6812,18 @@
       "chat_id": 7582459199,
       "seq": 10,
       "identity": "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=github-vansh-ouckah|Virtu Financial|Frontend & User Experience Intern|New York, NY|Jul 30#1"
+    },
+    "5a81f2f01c11": {
+      "company": "GoDaddy",
+      "role": "Software Development Engineer Intern",
+      "location": "Tempe, AZ",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/eventsandinterns/jobs/7820942003?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1058,
+      "chat_id": 7582459199,
+      "seq": 11,
+      "identity": "https://job-boards.greenhouse.io/eventsandinterns/jobs/7820942003?utm_source=Simplify&ref=Simplify|GoDaddy|Software Development Engineer Intern|Tempe, AZ|Summer 2026#1"
     }
   },
   "applied": {
@@ -7179,9 +7191,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10,
+  "seq": 11,
   "health": {
     "last_heartbeat": "2026-07-30T22:10:17Z",
-    "last_ok_run": "2026-07-30T23:00:25Z"
+    "last_ok_run": "2026-07-30T23:01:11Z"
   }
 }
