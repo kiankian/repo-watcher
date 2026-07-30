@@ -46,10 +46,32 @@ out, no ping fires, so you find out. That is the right failure mode and worth ke
 
 What is missing is the other half: a check that the *shape* is sane (each entry has the five
 expected keys, `seen` is a list of strings, `outbox` entries are 3-element), and a documented
-restore path. Today recovery is "find a good commit in the history of `.watcher_state.json` and
-revert it", which works but is not written down anywhere.
+restore path.
 
-Keep this narrow. Over-validating state is how you turn a recoverable blip into a hard outage.
+**A plain `git revert` of `.watcher_state.json` is not that restore path.** Corruption is usually
+noticed after later runs have already delivered. Reverting to a good commit drops every identity
+recorded since it from `seen`, and those jobs re-alert on the next run if they are still listed
+upstream. Nothing repairs this automatically: `migrate_state` returns any entry already carrying
+`seen_legacy_urls` untouched (`watcher/core.py`), so the bot records do *not* reseed the gap the way
+they did at the 2026-07-30 cutover. The revert also restores that commit's `outbox`, re-queuing
+triples that have since been delivered.
+
+The recovery to write down is **additive**, because `seen` is append-only and every identity
+removed from it is a duplicate alert:
+
+- `seen` — union of the good commit's set with everything delivered since. That record exists and
+  is append-only: `logs/alerts-YYYY-MM.jsonl` carries an `identity` field per delivered message, and
+  `.bot_state.json` holds `pending` + `applied`. Reconstruct from those, do not replace.
+- `outbox` — reset to `[]` rather than restored. A stale entry that was already delivered re-sends;
+  a genuinely queued row is re-derived by the next parse anyway, since it is absent from `seen`. The
+  only real loss is a queued row that has *also* left the upstream table, which is the narrower risk.
+- `last_sha` — clear it, so the next run refetches instead of short-circuiting on an unchanged head.
+- `seen_legacy_urls` — keep the good commit's value; it is static (see item 6).
+
+A small `scripts/` helper that performs that merge, plus a worked example in the README runbook,
+is the deliverable. The shape check is the cheaper half and can land first.
+
+Keep both narrow. Over-validating state is how you turn a recoverable blip into a hard outage.
 
 ### 4. Dependency and supply-chain maintenance
 
@@ -77,10 +99,27 @@ Speedyapply and Zapply carry a static set of bare apply URLs inherited from the 
 cumulative-URL scheme (22 / 17 / 140 / 156 entries). They match on URL alone, ignoring `term`, so a
 requisition relisted for a new season under the same URL will not alert.
 
-This decays on its own — as those rows churn out, their successors are matched on the full identity
-— so it needs no action, only tracking, so it does not become unexplained state. Delete the field
-and its handling once the counts stop mattering. `migrate_state` and `select_new` both reference
-it.
+**This does not decay, and waiting is not a plan.** The set is static: every run reads
+`seen_legacy_urls` and writes it back unchanged (`watch-files.yml:567`, `:752`), and `select_new`
+rejects any row whose apply URL is in it regardless of term or occurrence
+(`watcher/core.py`). So the counts never fall, they never signal that the field has stopped
+mattering, and the suppression of a future-season requisition reusing one of those URLs lasts
+indefinitely. Retirement needs an explicit criterion.
+
+**Make it observable, then delete on the signal.** Add a `legacy_hits` counter to the per-run log:
+how many parsed rows were suppressed by `seen_legacy_urls` rather than by `seen` this run. It is a
+few lines in the loop and it converts "when the counts stop mattering" into something you can read
+off `logs/runs-*.jsonl`. Drop the field for a source once its `legacy_hits` has been **0 for 30
+consecutive days** — at that point no live row depends on it and removing it changes nothing.
+Sources can retire independently; the counts differ widely (22 / 17 / 140 / 156).
+
+**Backstop: 2027-09-01.** These URLs were captured on 2026-07-30 from boards listing Summer 2027
+roles. Any of them still live after that season closes is anomalous, so delete the field
+unconditionally at that date even if the counter was never added. Waiting longer only extends the
+window in which a reused URL is silently suppressed.
+
+Removal touches `migrate_state` and `select_new` in `watcher/core.py`, the state write and read in
+`watch-files.yml`, and the shape assertions in `tests/test_core.py`.
 
 ### 7. Monitoring dashboard
 
