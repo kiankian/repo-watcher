@@ -7136,6 +7136,42 @@
       "chat_id": 7582459199,
       "seq": 37,
       "identity": "https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328?utm_source=github-vansh-ouckah|DRW|Software Developer Intern|Chicago, IL|Jul 31#1"
+    },
+    "e34ac5082ac6": {
+      "company": "Old Mission",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Jul 31",
+      "apply_url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003&utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1085,
+      "chat_id": 7582459199,
+      "seq": 38,
+      "identity": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003&utm_source=github-vansh-ouckah|Old Mission|Software Engineer Intern|Chicago, IL|Jul 31#1"
+    },
+    "e41a0eeabed3": {
+      "company": "Castleton Commodities International",
+      "role": "Data Engineering Intern",
+      "location": "Stamford, CT Houston, TX New York City, NY",
+      "term": "Jul 31",
+      "apply_url": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Engineering-Internship--Summer-2027-_R1346?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1086,
+      "chat_id": 7582459199,
+      "seq": 39,
+      "identity": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Engineering-Internship--Summer-2027-_R1346?utm_source=github-vansh-ouckah|Castleton Commodities International|Data Engineering Intern|Stamford, CT Houston, TX New York City, NY|Jul 31#1"
+    },
+    "6f1ca8b05f69": {
+      "company": "Castleton Commodities International",
+      "role": "Data Science Machine Learning Intern",
+      "location": "Stamford, CT Houston, TX New York City, NY",
+      "term": "Jul 31",
+      "apply_url": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Science-Machine-Learning-Internship--Summer-2027-_R1344?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1087,
+      "chat_id": 7582459199,
+      "seq": 40,
+      "identity": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Science-Machine-Learning-Internship--Summer-2027-_R1344?utm_source=github-vansh-ouckah|Castleton Commodities International|Data Science Machine Learning Intern|Stamford, CT Houston, TX New York City, NY|Jul 31#1"
     }
   },
   "applied": {
@@ -7503,9 +7539,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 37,
+  "seq": 40,
   "health": {
     "last_heartbeat": "2026-07-31T16:20:16Z",
-    "last_ok_run": "2026-07-31T16:52:20Z"
+    "last_ok_run": "2026-07-31T16:53:14Z"
   }
 }
