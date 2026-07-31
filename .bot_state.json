@@ -7172,6 +7172,18 @@
       "chat_id": 7582459199,
       "seq": 40,
       "identity": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Data-Science-Machine-Learning-Internship--Summer-2027-_R1344?utm_source=github-vansh-ouckah|Castleton Commodities International|Data Science Machine Learning Intern|Stamford, CT Houston, TX New York City, NY|Jul 31#1"
+    },
+    "aa17927c4078": {
+      "company": "Zscaler",
+      "role": "Site Reliability Engineer-SkillBridge...",
+      "location": "USA",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/zscaler/jobs/5045817007",
+      "source": "Zapply Summer Repo",
+      "message_id": 1088,
+      "chat_id": 7582459199,
+      "seq": 41,
+      "identity": "https://job-boards.greenhouse.io/zscaler/jobs/5045817007|Zscaler|Site Reliability Engineer-SkillBridge...|USA|Summer 2027#1"
     }
   },
   "applied": {
@@ -7539,9 +7551,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 40,
+  "seq": 41,
   "health": {
     "last_heartbeat": "2026-07-31T16:20:16Z",
-    "last_ok_run": "2026-07-31T17:14:23Z"
+    "last_ok_run": "2026-07-31T17:15:18Z"
   }
 }
