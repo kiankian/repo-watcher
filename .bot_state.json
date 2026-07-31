@@ -7016,6 +7016,18 @@
       "chat_id": 7582459199,
       "seq": 27,
       "identity": "https://jobs.ashbyhq.com/spacial/67b76194-6cc0-4d37-a3e3-c21a14ff4a26|Spacial AI|Software Engineering Intern - Summer 2026|Palo Alto, CA|Other#1"
+    },
+    "533fb4d6a6bf": {
+      "company": "Melius",
+      "role": "Software Engineer Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1075,
+      "chat_id": 7582459199,
+      "seq": 28,
+      "identity": "https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280/application?embed=true&utm_source=Simplify&ref=Simplify|Melius|Software Engineer Intern|NYC|Summer 2026#1"
     }
   },
   "applied": {
@@ -7383,9 +7395,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 27,
+  "seq": 28,
   "health": {
     "last_heartbeat": "2026-07-31T14:19:15Z",
-    "last_ok_run": "2026-07-31T15:00:20Z"
+    "last_ok_run": "2026-07-31T15:01:12Z"
   }
 }
