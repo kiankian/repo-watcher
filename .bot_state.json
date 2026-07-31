@@ -7040,6 +7040,18 @@
       "chat_id": 7582459199,
       "seq": 29,
       "identity": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Full-Stack-Software-Engineer-Internship--Summer-2027-_R1350?utm_source=github-vansh-ouckah|Castleton Commodities International|Full-Stack Software Engineer Intern|Stamford, CT Houston, TX|Jul 31#1"
+    },
+    "d3427dff72b5": {
+      "company": "FTI Consulting",
+      "role": "Technology Intern",
+      "location": "**12 locations**Atlanta, GA Chicago, IL Houston, TX Los Angeles, CA New York, NY San Francisco, CA Washington, DC Chicago, IL Los Angeles, CA New York, NY San Francisco, CA Washington, DC",
+      "term": "Jul 31",
+      "apply_url": "https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers/job/United-States/XMLNAME-2027-Intern---Technology_JR260339-1?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1077,
+      "chat_id": 7582459199,
+      "seq": 30,
+      "identity": "https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers/job/United-States/XMLNAME-2027-Intern---Technology_JR260339-1?utm_source=github-vansh-ouckah|FTI Consulting|Technology Intern|**12 locations**Atlanta, GA Chicago, IL Houston, TX Los Angeles, CA New York, NY San Francisco, CA Washington, DC Chicago, IL Los Angeles, CA New York, NY San Francisco, CA Washington, DC|Jul 31#1"
     }
   },
   "applied": {
@@ -7407,9 +7419,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 29,
+  "seq": 30,
   "health": {
     "last_heartbeat": "2026-07-31T16:20:16Z",
-    "last_ok_run": "2026-07-31T16:42:18Z"
+    "last_ok_run": "2026-07-31T16:43:10Z"
   }
 }
