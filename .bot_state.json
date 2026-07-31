@@ -7184,6 +7184,18 @@
       "chat_id": 7582459199,
       "seq": 41,
       "identity": "https://job-boards.greenhouse.io/zscaler/jobs/5045817007|Zscaler|Site Reliability Engineer-SkillBridge...|USA|Summer 2027#1"
+    },
+    "5a9b457e652d": {
+      "company": "Nuro",
+      "role": "Software Engineer, AI Platform - Intern",
+      "location": "Mountain View, Ca...",
+      "term": "Summer 2027",
+      "apply_url": "https://nuro.ai/careersitem?gh_jid=7351061",
+      "source": "Zapply Summer Repo",
+      "message_id": 1089,
+      "chat_id": 7582459199,
+      "seq": 42,
+      "identity": "https://nuro.ai/careersitem?gh_jid=7351061|Nuro|Software Engineer, AI Platform - Intern|Mountain View, Ca...|Summer 2027#1"
     }
   },
   "applied": {
@@ -7551,9 +7563,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 41,
+  "seq": 42,
   "health": {
     "last_heartbeat": "2026-07-31T19:23:19Z",
-    "last_ok_run": "2026-07-31T20:11:12Z"
+    "last_ok_run": "2026-07-31T20:12:12Z"
   }
 }
