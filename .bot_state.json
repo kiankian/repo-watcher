@@ -7028,6 +7028,18 @@
       "chat_id": 7582459199,
       "seq": 28,
       "identity": "https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280/application?embed=true&utm_source=Simplify&ref=Simplify|Melius|Software Engineer Intern|NYC|Summer 2026#1"
+    },
+    "5b0835a50297": {
+      "company": "Castleton Commodities International",
+      "role": "Full-Stack Software Engineer Intern",
+      "location": "Stamford, CT Houston, TX",
+      "term": "Jul 31",
+      "apply_url": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Full-Stack-Software-Engineer-Internship--Summer-2027-_R1350?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1076,
+      "chat_id": 7582459199,
+      "seq": 29,
+      "identity": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford-CT/Full-Stack-Software-Engineer-Internship--Summer-2027-_R1350?utm_source=github-vansh-ouckah|Castleton Commodities International|Full-Stack Software Engineer Intern|Stamford, CT Houston, TX|Jul 31#1"
     }
   },
   "applied": {
@@ -7395,9 +7407,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 28,
+  "seq": 29,
   "health": {
     "last_heartbeat": "2026-07-31T16:20:16Z",
-    "last_ok_run": "2026-07-31T16:41:16Z"
+    "last_ok_run": "2026-07-31T16:42:18Z"
   }
 }
