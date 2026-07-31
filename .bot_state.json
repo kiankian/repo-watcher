@@ -6824,6 +6824,18 @@
       "chat_id": 7582459199,
       "seq": 11,
       "identity": "https://job-boards.greenhouse.io/eventsandinterns/jobs/7820942003?utm_source=Simplify&ref=Simplify|GoDaddy|Software Development Engineer Intern|Tempe, AZ|Summer 2026#1"
+    },
+    "adc98e693db7": {
+      "company": "Heliux",
+      "role": "Software Engineer Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1059,
+      "chat_id": 7582459199,
+      "seq": 12,
+      "identity": "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef/application?embed=true&utm_source=Simplify&ref=Simplify|Heliux|Software Engineer Intern|SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -7191,9 +7203,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11,
+  "seq": 12,
   "health": {
     "last_heartbeat": "2026-07-31T06:12:21Z",
-    "last_ok_run": "2026-07-31T06:30:19Z"
+    "last_ok_run": "2026-07-31T06:31:16Z"
   }
 }
