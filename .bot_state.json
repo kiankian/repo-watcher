@@ -7052,6 +7052,78 @@
       "chat_id": 7582459199,
       "seq": 30,
       "identity": "https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers/job/United-States/XMLNAME-2027-Intern---Technology_JR260339-1?utm_source=github-vansh-ouckah|FTI Consulting|Technology Intern|**12 locations**Atlanta, GA Chicago, IL Houston, TX Los Angeles, CA New York, NY San Francisco, CA Washington, DC Chicago, IL Los Angeles, CA New York, NY San Francisco, CA Washington, DC|Jul 31#1"
+    },
+    "37369f636a66": {
+      "company": "DRW",
+      "role": "Software Developer Intern",
+      "location": "Montr\u00e9al",
+      "term": "Jul 31",
+      "apply_url": "https://www.drw.com/work-at-drw/listings/software-developer-intern-3466687?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1078,
+      "chat_id": 7582459199,
+      "seq": 31,
+      "identity": "https://www.drw.com/work-at-drw/listings/software-developer-intern-3466687?utm_source=github-vansh-ouckah|DRW|Software Developer Intern|Montr\u00e9al|Jul 31#1"
+    },
+    "9f522b30c2c2": {
+      "company": "DRW",
+      "role": "Quantitative Trading Analyst Intern",
+      "location": "Chicago, IL",
+      "term": "Jul 31",
+      "apply_url": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1079,
+      "chat_id": 7582459199,
+      "seq": 32,
+      "identity": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090?utm_source=github-vansh-ouckah|DRW|Quantitative Trading Analyst Intern|Chicago, IL|Jul 31#1"
+    },
+    "52bbe83ad176": {
+      "company": "DRW",
+      "role": "Quantitative Research Intern",
+      "location": "Chicago, IL New York City, NY",
+      "term": "Jul 31",
+      "apply_url": "https://www.drw.com/work-at-drw/listings/quantitative-research-intern-3413670?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1080,
+      "chat_id": 7582459199,
+      "seq": 33,
+      "identity": "https://www.drw.com/work-at-drw/listings/quantitative-research-intern-3413670?utm_source=github-vansh-ouckah|DRW|Quantitative Research Intern|Chicago, IL New York City, NY|Jul 31#1"
+    },
+    "4679f17a0788": {
+      "company": "DRW",
+      "role": "Platform Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Jul 31",
+      "apply_url": "https://www.drw.com/work-at-drw/listings/platform-engineer-intern-3468737?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1081,
+      "chat_id": 7582459199,
+      "seq": 34,
+      "identity": "https://www.drw.com/work-at-drw/listings/platform-engineer-intern-3468737?utm_source=github-vansh-ouckah|DRW|Platform Engineer Intern|Chicago, IL|Jul 31#1"
+    },
+    "7c22a079aac1": {
+      "company": "DRW",
+      "role": "AI/ML Research Intern",
+      "location": "Montr\u00e9al",
+      "term": "Jul 31",
+      "apply_url": "https://www.drw.com/work-at-drw/listings/aiml-research-intern-3466679?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1082,
+      "chat_id": 7582459199,
+      "seq": 35,
+      "identity": "https://www.drw.com/work-at-drw/listings/aiml-research-intern-3466679?utm_source=github-vansh-ouckah|DRW|AI/ML Research Intern|Montr\u00e9al|Jul 31#1"
+    },
+    "98e0e3faf571": {
+      "company": "DRW",
+      "role": "FPGA Intern",
+      "location": "Chicago, IL",
+      "term": "Jul 31",
+      "apply_url": "https://www.drw.com/work-at-drw/listings/fpga-intern-3484423?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1083,
+      "chat_id": 7582459199,
+      "seq": 36,
+      "identity": "https://www.drw.com/work-at-drw/listings/fpga-intern-3484423?utm_source=github-vansh-ouckah|DRW|FPGA Intern|Chicago, IL|Jul 31#1"
     }
   },
   "applied": {
@@ -7419,9 +7491,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 30,
+  "seq": 36,
   "health": {
     "last_heartbeat": "2026-07-31T16:20:16Z",
-    "last_ok_run": "2026-07-31T16:45:20Z"
+    "last_ok_run": "2026-07-31T16:46:25Z"
   }
 }
