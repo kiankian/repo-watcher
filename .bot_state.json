@@ -6836,6 +6836,18 @@
       "chat_id": 7582459199,
       "seq": 12,
       "identity": "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef/application?embed=true&utm_source=Simplify&ref=Simplify|Heliux|Software Engineer Intern|SF|Summer 2026#1"
+    },
+    "f87762982c72": {
+      "company": "GlobalFoundries",
+      "role": "Robotics and Automation Engineering I...",
+      "location": "Essex Junction",
+      "term": "Summer 2027",
+      "apply_url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/Essex-Junction/Robotics-and-Automation-Engineering-Intern_JR-2603574",
+      "source": "Zapply Summer Repo",
+      "message_id": 1060,
+      "chat_id": 7582459199,
+      "seq": 13,
+      "identity": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/Essex-Junction/Robotics-and-Automation-Engineering-Intern_JR-2603574|GlobalFoundries|Robotics and Automation Engineering I...|Essex Junction|Summer 2027#1"
     }
   },
   "applied": {
@@ -7203,9 +7215,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12,
+  "seq": 13,
   "health": {
     "last_heartbeat": "2026-07-31T12:18:16Z",
-    "last_ok_run": "2026-07-31T13:05:17Z"
+    "last_ok_run": "2026-07-31T13:06:13Z"
   }
 }
