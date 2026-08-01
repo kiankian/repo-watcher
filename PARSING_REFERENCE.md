@@ -80,11 +80,12 @@ Each entry in `.watcher_state.json` has the same shape:
    `seen_legacy_urls` stays empty, or a requisition relisted for a new season could never alert.
 8. Otherwise select rows whose identity is absent from `seen` and whose URL is absent from
    `seen_legacy_urls`.
-9. **Re-key guard:** count the discoveries that the table's growth since `last_row_count` does not
-   explain (`new − max(0, rows − last_row_count)`). At `IDENTITY_RESET_MIN` (25) or more, the
-   identity inputs have been rewritten upstream rather than a hundred openings appearing at once.
-   Report `⚠️ identity-reset`, drop the discoveries unsent *and unrecorded*, and hold the SHA so
-   the recovery commit is re-parsed. Queued rows still drain.
+9. **Re-key guard:** measure how much of the parsed table the source still recognizes
+   (`rows − new`, where `new` excludes anything already queued). When a run discovers at least
+   `IDENTITY_RESET_MIN` (25) rows *and* recognizes under `IDENTITY_RESET_RECOGNITION` (10%) of
+   what it parsed, the identity inputs have been rewritten upstream rather than a hundred
+   openings appearing at once. Report `⚠️ identity-reset`, drop the discoveries unsent *and
+   unrecorded*, and hold the SHA so the recovery commit is re-parsed. Queued rows still drain.
 10. Prepend anything already in the `outbox` so the oldest work drains first.
 11. Deliver, capped at `BURST_CAP` attempts and the whole-run time budget.
 12. Union the confirmed identities into `seen` (capped at `SEEN_CAP`, oldest evicted). Undelivered
@@ -98,11 +99,20 @@ every row whose real identity was never recorded alerts a second time. Dropping 
 because a suppressed row is still listed upstream and is re-derived on the next run — so the first
 healthy run delivers exactly what is genuinely new, with real links.
 
-It keys on row-count growth rather than a share of the table because growth is what separates the
-two populations. Across the 253 runs before the 2026-08-01 Zapply re-key, no run left more than 2
-discoveries unexplained; that incident left 100. A share-of-table ratio would instead have to
-choose between suppressing a large legitimate influx and missing a re-key of a table that also
-grew.
+It deliberately does **not** consult the row count. An earlier version subtracted the table's
+growth since `last_row_count`, on the theory that real listings come with a count that rose to
+match. That is true, but it credits a table *recovering* from a truncating parse as new capacity:
+a source that shrank to 20 rows and returned to 100 in the same update that re-keyed it computes
+`100 − 80 = 20` unexplained, slips under the floor, and sends the whole board. Those two failures
+are correlated rather than independent — an upstream generator misfiring badly enough to truncate
+a read can blank a column in the same breath — so that was the shape the guard was most likely to
+meet in the wild. Recognition never asks how many rows there used to be.
+
+Bounds, from the 253 runs before the 2026-08-01 re-key: recognition on a healthy run sits at
+96–99%; the worst legitimate case on record is the 84→28 collapse, which still recognized 5 of 28
+(18%) while alerting 23 genuinely-new rows; the incident recognized 0 of 100. The cost is a false
+positive on an extreme legitimate expansion, where little of the new table is in `seen` either —
+which fails in the safe direction, holding delivery and saying so rather than flooding the chat.
 
 Why an append-only identity set rather than a snapshot diff:
 

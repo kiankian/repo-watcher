@@ -173,31 +173,45 @@ SEEN_CAP = 5000
 # source has ever seen, and every listing on the board looks like a discovery. Nothing about an
 # individual row gives this away — each one is genuinely new *as an identity*.
 #
-# What gives it away is that the discoveries are not accompanied by a table that grew to hold
-# them. Real listings arrive by being added upstream, so a run that discovers N rows almost
-# always sees the row count rise by about N. A re-key mints new identities for rows that were
-# already there, so the count does not move at all. Measuring discoveries the table's own growth
-# does not explain separates the two cleanly, and — unlike a share-of-table ratio — it does not
-# mistake a large legitimate influx for a fault.
+# What gives it away is how much of the table the source still *recognizes*. Listings arrive one
+# or a few at a time against a backdrop of rows already in `seen`, so even a large legitimate
+# influx leaves most of the table familiar. A re-key rewrites the identity of every row at once,
+# so recognition collapses to almost nothing — the source is looking at a board it has been
+# watching for weeks and knows none of it.
 #
-# Across the 253 runs recorded before the 2026-08-01 Zapply incident, no run left more than 2
-# discoveries unexplained (ordinary churn on a size-capped board: a row rotates out, another
-# rotates in). The incident left 100. The floor sits in that gap, high enough to absorb a burst
-# of churn many times worse than anything observed.
-IDENTITY_RESET_MIN = 25
+# Note what this deliberately does *not* use: the row count. An earlier version of this guard
+# subtracted the table's growth since the last parse, on the theory that real listings come with
+# a row count that rose to match. That is true, but it credits a table *recovering* from a
+# truncated parse as new capacity. A source that shrank to 20 rows and came back to 100 in the
+# same update that re-keyed it computes 100 - 80 = 20 unexplained, slips under the floor, and
+# sends the whole board — and those two failures are correlated rather than independent, since an
+# upstream generator misfiring badly enough to truncate a read can blank a column in the same
+# breath. Recognition has no such blind spot: it never asks how many rows there used to be.
+#
+# The trade is a false positive on an extreme legitimate expansion — a source growing 10x in one
+# run has little of its new table in `seen` either. That direction is the safe one: the breaker
+# holds delivery and says so, rather than flooding the chat, and the runbook covers clearing it.
+#
+# Bounds, against the 253 runs recorded before the 2026-08-01 Zapply incident. Recognition on a
+# healthy run sits at 96-99% (Vansh discovering 6 of 157, Zapply 1 of 100); the worst legitimate
+# case on record is the 84-row -> 28-row collapse, which still recognized 5 of 28 (18%) while
+# alerting 23 genuinely-new rows. The incident recognized 0 of 100. The floor sits below that
+# collapse and far above a re-key, and the absolute minimum keeps a small or mostly-empty table
+# from tripping on a handful of rows.
+IDENTITY_RESET_MIN = 25  # discoveries required before recognition is considered at all
+IDENTITY_RESET_RECOGNITION = 0.10  # share of the parsed table that must still be familiar
 
 
-def is_identity_reset(new_count, row_count, prev_row_count):
+def is_identity_reset(new_count, row_count):
     """True when a run's discoveries look like the table re-keying, not new listings.
 
-    prev_row_count is None on a source's first parse, where the whole table is legitimately
-    growth and nothing can be unexplained.
+    new_count is what the source does not already know — neither recorded in `seen` nor already
+    queued for delivery — so row_count - new_count is how much of this table it still recognizes.
     """
-    if row_count <= 0:
+    if row_count <= 0 or new_count < IDENTITY_RESET_MIN:
         return False
-    growth = row_count - (prev_row_count or 0)
-    unexplained = new_count - max(0, growth)
-    return unexplained >= IDENTITY_RESET_MIN
+    recognized = row_count - new_count
+    return recognized < row_count * IDENTITY_RESET_RECOGNITION
 
 
 def identity_stem(entry):

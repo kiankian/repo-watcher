@@ -9,7 +9,7 @@ also exercises the migration.
 """
 import pytest
 
-from conftest import load_fixture
+from conftest import TARGET_KEY, load_fixture
 
 NEW_A = ["TestCorp Alpha", "SWE Intern", "Testville, TS", "Summer 2026",
          "https://example.com/apply/alpha"]
@@ -806,3 +806,31 @@ def test_the_rekey_is_recorded_in_the_run_log(run_watcher):
         "counting them would break queued_before + identities_new == sent_ok + sent_failed"
     )
     assert rec["queued_before"] + rec["identities_new"] == rec["sent_ok"] + rec["sent_failed"]
+
+
+def test_a_rekey_is_caught_while_the_table_recovers_from_a_collapse(run_watcher):
+    """Regression for the breaker's first design, which subtracted the table's row-count growth
+    since the last parse on the theory that real listings come with a count that rose to match.
+
+    That credits a table *recovering* from a truncating parse as new capacity. Here the source
+    collapses to 20 rows, then returns to 84 in the same update that re-keys every row: growth of
+    64 absorbs all but 20 of the 84 discoveries, which slips under IDENTITY_RESET_MIN and sends
+    the whole board. The two failures are correlated rather than independent — an upstream
+    generator misfiring badly enough to truncate a read can blank a column in the same breath —
+    so this is the shape the guard is most likely to meet in the wild, not a contrived one.
+
+    Recognition never asks how many rows there used to be, so the recovery cannot be credited.
+    """
+    before = load_fixture("collapse_84.json")
+    truncated = before[:20]
+
+    seeded = run_watcher(before, drop_target_state=True)
+    collapsed = run_watcher(truncated, start_files=seeded.files)
+    assert collapsed.sent == [], "the 20 surviving rows were all already seen"
+    assert collapsed.state[TARGET_KEY]["last_row_count"] == 20, "the shrink is what gets stored"
+
+    rekeyed = run_watcher(_blank_the_apply_urls(before), start_files=collapsed.files)
+
+    assert rekeyed.sent == [], "the re-key is caught despite the row count recovering"
+    assert rekeyed.outbox == []
+    assert rekeyed.health_matching("re-keying")

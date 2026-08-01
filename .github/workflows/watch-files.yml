@@ -56,7 +56,7 @@ jobs:
           # Pure parsing/dedup logic lives in watcher/core.py so it can be unit tested; this
           # block keeps only the I/O. cwd is the repo root under actions/checkout.
           from watcher.core import (
-              IDENTITY_RESET_MIN,
+              IDENTITY_RESET_RECOGNITION,
               SEEN_CAP,
               assign_identities,
               extract_section,
@@ -714,7 +714,7 @@ jobs:
               fresh_new = [p for p in fresh_pairs if p[1] not in queued]
 
               # Circuit breaker for a whole-table re-key (see is_identity_reset). A source that
-              # discovers most of its own table in one run has almost certainly had its identity
+              # recognizes almost none of its own table has almost certainly had its identity
               # inputs rewritten upstream, not gained a hundred openings, so the discoveries are
               # dropped rather than sent or recorded.
               #
@@ -729,18 +729,18 @@ jobs:
               # instead of short-circuiting on upstream_unchanged and sitting out the recovery.
               identity_reset = (
                   seen_list and curr_rows is not None
-                  and is_identity_reset(len(fresh_new), len(curr_rows), prev_row_count)
+                  and is_identity_reset(len(fresh_new), len(curr_rows))
               )
               if identity_reset:
                   health_alert(
                       f"identity-reset:{state_key}",
-                      f"{w['label']} discovered {len(fresh_new)} new identities while its table "
-                      f"went from {prev_row_count} rows to {len(curr_rows)} — at least "
-                      f"{IDENTITY_RESET_MIN} more discoveries than that growth explains. That is "
-                      "the signature of the upstream table re-keying (an apply-URL column going "
-                      "blank, or a column order change), not real listings. They have been "
-                      "dropped unsent; delivery resumes by itself once upstream is consistent "
-                      "again. Check the source table before changing parser config.",
+                      f"{w['label']} recognized only {len(curr_rows) - len(fresh_new)} of "
+                      f"{len(curr_rows)} parsed rows — under "
+                      f"{IDENTITY_RESET_RECOGNITION:.0%}, with {len(fresh_new)} looking new. "
+                      "That is the signature of the upstream table re-keying (an apply-URL "
+                      "column going blank, or a column order change), not real listings. They "
+                      "have been dropped unsent; delivery resumes by itself once upstream is "
+                      "consistent again. Check the source table before changing parser config.",
                   )
                   skip_reason = skip_reason or f"identity_reset:{len(fresh_new)}"
                   fresh_new = []

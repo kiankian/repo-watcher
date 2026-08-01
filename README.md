@@ -29,7 +29,7 @@ A listing is alerted when its identity has never been delivered. Four properties
 2. **An identity is recorded only after Telegram confirms the message, and undelivered work is queued durably.** A failed or rate-limited send — or a batch over `BURST_CAP` — is written to that source's `outbox` as a full `[row, identity, occurrence]` triple and drained on subsequent runs, including runs where the upstream SHA has not changed. Withholding from `seen` alone was not enough: the retry re-derived the row from a fresh parse, so anything that left the upstream table in the meantime was lost. Zapply's table re-sorts and is capped at ~100 rows, and a long delivery outage widens that window arbitrarily.
 3. **Every parsed row gets exactly one identity, and no two rows in a run share one.** Every field participates, because either half alone collapses distinct openings. URL alone is not enough: boards sometimes publish a generic link shared by several rows, and if one of those openings is replaced while the row count stays the same, occurrence numbering hands the replacement an already-seen identity. Text alone is not enough either: Copart posts several Dallas SWE-intern reqs differing only by Workday ID. `term` also lets a requisition relisted for a new season through, and the occurrence index separates rows identical in every field (Kudu Dynamics lists the same URL-less role three times).
 
-4. **A run cannot alert a whole table at once.** Because the identity is URL-first, an upstream generator that stops emitting apply URLs re-keys every row in a single commit, and every listing on the board looks new. What distinguishes that from real news is not the rows but the shape of the run: real listings arrive by being added upstream, so discoveries come with a row count that rose to match, while a re-key mints identities for rows that were already there and the count does not move. Discoveries that the table's own growth does not explain are counted, and at `IDENTITY_RESET_MIN` (25) or more the run is treated as a fault — the discoveries are dropped unsent and unrecorded, `⚠️ identity-reset` goes out, and the SHA is held so the recovery commit is re-parsed rather than skipped. Nothing is lost: the rows are still listed upstream, so they are re-derived once upstream is consistent and delivered then. See [Whole-table re-key](#whole-table-re-key).
+4. **A run cannot alert a whole table at once.** Because the identity is URL-first, an upstream generator that stops emitting apply URLs re-keys every row in a single commit, and every listing on the board looks new. What distinguishes that from real news is not the rows but how much of the table the source still **recognizes**: listings arrive a few at a time against a backdrop of rows already in `seen`, so even a large legitimate influx leaves most of the table familiar, while a re-key collapses recognition to nearly nothing. When a run discovers at least `IDENTITY_RESET_MIN` (25) rows *and* recognizes under `IDENTITY_RESET_RECOGNITION` (10%) of what it parsed, it is treated as a fault — the discoveries are dropped unsent and unrecorded, `⚠️ identity-reset` goes out, and the SHA is held so the recovery commit is re-parsed rather than skipped. Nothing is lost: the rows are still listed upstream, so they are re-derived once upstream is consistent and delivered then. See [Whole-table re-key](#whole-table-re-key).
 
 Including the text costs a duplicate whenever upstream edits a role or location string in place. Measured across 2,060 state snapshots spanning 18 days and 475 distinct `(source, URL)` pairs, that happened **zero** times — so the protection is effectively free.
 
@@ -121,7 +121,7 @@ Operational faults are sent to the same chat with a `⚠️ watcher:` prefix, ra
 - a source parsed **0 rows** (renamed heading or reshaped table — otherwise indistinguishable from "no new listings")
 - the outbox overflowed `OUTBOX_CAP`, dropping undelivered jobs
 - a parse returned under 70% of its previous row count
-- a source discovered `IDENTITY_RESET_MIN` (25) more listings than its row-count growth explains — the whole-table re-key breaker, below
+- a source discovered `IDENTITY_RESET_MIN` (25) or more listings while recognizing under `IDENTITY_RESET_RECOGNITION` (10%) of its own table — the whole-table re-key breaker, below
 - a send failed (the listing stays unrecorded and will be retried)
 - `SEEN_CAP` eviction
 - no successful run for over 2 hours
@@ -239,9 +239,10 @@ If it fires:
    during the outage are still in the upstream table and go out on the first healthy run.
 4. **If upstream changed shape deliberately**, fix the column indexes in `WATCHERS` — the
    breaker is telling you the parser config is stale. Rehearse with `dry_run` before merging.
-5. **Only if the table legitimately turned over** (a season rollover republishing everything
-   under new URLs) is the suppression unwanted. Re-run after the breaker clears, or raise
-   `IDENTITY_RESET_MIN` for that rollover and put it back afterwards.
+5. **Only if the table legitimately turned over** is the suppression unwanted — a season
+   rollover republishing everything under new URLs, or a source expanding so sharply that little
+   of its new table is in `seen`. Re-run after the breaker clears, or lower
+   `IDENTITY_RESET_RECOGNITION` for that rollover and put it back afterwards.
 
 Note the breaker suppresses *discoveries*, not the queue: anything already in the `outbox` was
 vetted on the run that found it and keeps draining while the breaker holds.
