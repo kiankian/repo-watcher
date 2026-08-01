@@ -729,6 +729,10 @@ def test_a_whole_table_rekey_is_not_alerted(run_watcher):
     assert rekeyed.sent == [], "not one re-keyed row is delivered"
     assert rekeyed.outbox == [], "and none are queued to leak out on a later run"
     assert rekeyed.health_matching("re-keying"), "the operator is told instead"
+    assert rekeyed.healthy is False, (
+        "a suppressed source delivers nothing, so the ping must be withheld — a green "
+        "healthcheck here would hide the silence behind the signal meant to surface it"
+    )
 
 
 def test_a_rekey_leaves_no_trace_in_state_to_re_alert_later(run_watcher):
@@ -760,6 +764,7 @@ def test_delivery_resumes_by_itself_once_upstream_is_fixed(run_watcher):
 
     recovered = run_watcher(before + [arrival], start_files=rekeyed.files)
 
+    assert recovered.healthy is True, "and the source is healthy again once it clears"
     assert len(recovered.sent) == 1, "only the row that genuinely arrived"
     assert recovered.sent_matching("newcorp.test/jobs/1"), "and with its real link"
     assert len(recovered.seen) == 84 + 1

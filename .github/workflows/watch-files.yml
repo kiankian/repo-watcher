@@ -732,6 +732,13 @@ jobs:
                   and is_identity_reset(len(fresh_new), len(curr_rows))
               )
               if identity_reset:
+                  # Same reasoning as a failed fetch or a zero-row parse: this source is not
+                  # producing the alerts it should, for an open-ended period, so a green
+                  # healthcheck would hide that silence behind exactly the signal meant to
+                  # surface it. The breaker re-arms every run while upstream stays broken, so
+                  # the pings stay stopped until it is fixed. last_ok_run is deliberately not
+                  # gated this way — it tracks the dispatch pipeline, not any one source.
+                  broken_sources.append(state_key)
                   health_alert(
                       f"identity-reset:{state_key}",
                       f"{w['label']} recognized only {len(curr_rows) - len(fresh_new)} of "
