@@ -626,3 +626,30 @@ def test_an_absent_link_is_not_a_placeholder():
 def test_real_links_are_not_placeholders(url):
     """Including one whose *fragment* is #apply — the target is what matters, not the tail."""
     assert not core.is_placeholder_url(url)
+
+
+def test_fmt_omits_a_dead_link_rather_than_printing_it():
+    """A "#" under a listing reads as something to tap. Omitting it leaves the alert looking
+    exactly like the ~20% of Vansh rows that have no URL, which is the honest rendering."""
+    dead = ["Neuralink", "SWE Intern, BCI", "Fremont, CA", "Summer 2027", "#"]
+
+    assert core.fmt(dead) == "Neuralink — SWE Intern, BCI | Fremont, CA | Summer 2027"
+    assert "#" not in core.fmt(dead)
+
+
+def test_fmt_still_prints_a_real_link():
+    live = ["Appian", "SWE Intern", "McLean, VA", "Summer 2027", "https://x.test/j/1"]
+
+    assert core.fmt(live).endswith("\n  https://x.test/j/1")
+
+
+def test_a_dead_link_does_not_change_the_identity_or_the_hash():
+    """The rendering change must not touch dedup. If it did, every row already recorded under a
+    "#" identity would re-key and the whole board would re-alert — the original incident."""
+    dead = ["Neuralink", "SWE Intern, BCI", "Fremont, CA", "Summer 2027", "#"]
+
+    assert core.row_identity(dead, 1).startswith("#|"), "identity keeps the raw URL"
+    assert core.job_hash(dead, "Zapply Summer Repo") == core.job_hash(dead, "Zapply Summer Repo")
+    assert core.job_hash(dead, "Zapply Summer Repo") != core.job_hash(
+        dead[:4] + [""], "Zapply Summer Repo"
+    ), "a dead link and an absent link stay distinct rows"

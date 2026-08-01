@@ -125,7 +125,12 @@ def parse_markdown_rows(section_text, role_col=1, loc_col=2, apply_col=3,
 def fmt(entry):
     company, role, location, term, apply_url = entry[0], entry[1], entry[2], entry[3], entry[4]
     base = f"{company} — {role} | {location} | {term}"
-    if apply_url:
+    # A dead link is rendered as no link at all, exactly like the ~20% of Vansh rows that have
+    # none. Printing "#" under a listing reads as something to tap and is worse than an honest
+    # omission -- the company, role, location and term are still enough to go find the posting.
+    # Only the message text changes: the identity and job_hash both keep the raw URL, so nothing
+    # already sent is invalidated and no row is re-keyed by this.
+    if apply_url and not is_placeholder_url(apply_url):
         return f"{base}\n  {apply_url}"
     return base
 
@@ -212,7 +217,6 @@ IDENTITY_RESET_RECOGNITION = 0.10  # share of the parsed table that must still b
 # An *absent* link is not degraded: roughly a fifth of the rows on the Vansh boards have no
 # parseable URL at all, and those alerts are still useful — company, role, location and term are
 # all there. Only a link that exists and goes nowhere counts.
-PLACEHOLDER_DEGRADED_RATIO = 0.5  # placeholder share above which the source counts as unreadable
 
 
 def is_placeholder_url(url):

@@ -57,7 +57,6 @@ jobs:
           # block keeps only the I/O. cwd is the repo root under actions/checkout.
           from watcher.core import (
               IDENTITY_RESET_RECOGNITION,
-              PLACEHOLDER_DEGRADED_RATIO,
               SEEN_CAP,
               assign_identities,
               extract_section,
@@ -715,57 +714,53 @@ jobs:
               # against queued_before and break the reconciliation invariant.
               fresh_new = [p for p in fresh_pairs if p[1] not in queued]
 
-              # Withhold rows whose apply link is present but dead (see is_placeholder_url).
-              # Nothing can be done with such an alert, and recording it as seen would be worse
-              # than sending it: the row would be suppressed for good, and the real link would
-              # never be delivered when upstream restores it. Withheld rows are simply not
-              # recorded, so they are re-derived on later runs and go out with a working link as
-              # soon as there is one. Runs before the re-key breaker, so the specific cause is
-              # diagnosed ahead of the general one.
-              degraded = [p for p in fresh_new if is_placeholder_url(p[0][4])]
-              if degraded:
-                  fresh_new = [p for p in fresh_new if not is_placeholder_url(p[0][4])]
-                  dead = sum(1 for r in curr_rows if is_placeholder_url(r[4]))
-                  # Proportional: one stray dead link is worth reporting but is not an outage,
-                  # while a table that is mostly placeholders is delivering nothing usable and
-                  # must not keep a green healthcheck over that silence.
-                  if dead >= len(curr_rows) * PLACEHOLDER_DEGRADED_RATIO:
-                      broken_sources.append(state_key)
+              # A dead apply link no longer blocks the alert (fmt renders it as no link at all).
+              # Withholding those rows meant that during an upstream outage a genuinely new
+              # posting was invisible for as long as it lasted -- 14+ hours on 2026-08-01 -- and
+              # this repo's stated bargain is that residual failures produce a duplicate, never a
+              # miss. Report the degradation so the source's state is legible, and let the
+              # listings through carrying company, role, location and term, which is enough to go
+              # find the posting.
+              dead_links = sum(1 for r in curr_rows if is_placeholder_url(r[4])) if curr_rows else 0
+              if dead_links:
                   health_alert(
                       f"placeholder-urls:{state_key}",
-                      f"{w['label']} parsed {dead} of {len(curr_rows)} rows with a dead apply "
-                      f"link, and withheld {len(degraded)} otherwise-new listing(s) rather than "
-                      "alert with nothing to apply to. The upstream generator is emitting link "
-                      "markup with no target. They will be delivered once it emits real URLs "
-                      "again; no action is needed here unless it stays broken.",
+                      f"{w['label']} parsed {dead_links} of {len(curr_rows)} rows with a dead "
+                      "apply link — the upstream generator is emitting link markup with no "
+                      "target. Those listings are still being sent, without a link rather than "
+                      "with a useless one, and will carry real URLs again once upstream does. "
+                      "No action is needed here unless it stays broken.",
                   )
-                  skip_reason = skip_reason or f"placeholder_urls:{len(degraded)}"
 
               # Circuit breaker for a whole-table re-key (see is_identity_reset). A source that
-              # recognizes almost none of its own table has almost certainly had its identity
-              # inputs rewritten upstream, not gained a hundred openings, so the discoveries are
-              # dropped rather than sent or recorded.
+              # recognizes almost none of its own table has had its identity inputs rewritten
+              # upstream; it did not gain a hundred openings.
               #
-              # Dropped, specifically, means: not delivered, not added to `seen`, and not queued
-              # in the outbox. Queuing would only defer the flood, and recording them as seen
-              # would poison dedup — when upstream is fixed the rows revert to their real
-              # identities and would alert a second time. Nothing is lost by dropping: these rows
-              # are still listed upstream, so select_new re-derives them on the next run, and the
-              # first run after the breaker clears delivers whatever is genuinely new.
+              # These are resynced rather than sent: recorded as seen, with no message. That is
+              # the one place this workflow records an identity it never delivered, and it is
+              # deliberate. The alternative -- dropping them unrecorded -- leaves recognition
+              # collapsed on every subsequent run, so the breaker re-fires forever and the source
+              # stays mute for the whole outage, swallowing genuinely new postings with it. That
+              # was the behaviour on the branch before this change and it is the worse failure:
+              # this repo would rather duplicate than miss.
               #
-              # The SHA is deliberately not advanced, so the next run re-fetches and re-parses
-              # instead of short-circuiting on upstream_unchanged and sitting out the recovery.
+              # Resyncing costs a bounded, one-run risk instead: a listing that was genuinely new
+              # in the same snapshot as the re-key is recorded without being sent. Historically
+              # that is 1-2 rows against 19 and counting on the other side of the trade. After
+              # this single run recognition is restored, the breaker disarms, and ordinary
+              # delivery resumes -- so a new posting during the outage alerts normally, and when
+              # upstream restores its URLs the rows re-key back and alert again with real links.
               identity_reset = (
                   seen_list and curr_rows is not None
                   and is_identity_reset(len(fresh_new), len(curr_rows))
               )
+              resynced = []
               if identity_reset:
-                  # Same reasoning as a failed fetch or a zero-row parse: this source is not
-                  # producing the alerts it should, for an open-ended period, so a green
-                  # healthcheck would hide that silence behind exactly the signal meant to
-                  # surface it. The breaker re-arms every run while upstream stays broken, so
-                  # the pings stay stopped until it is fixed. last_ok_run is deliberately not
-                  # gated this way — it tracks the dispatch pipeline, not any one source.
+                  # Unlike a failed fetch or a zero-row parse, this does not silence the source:
+                  # it resyncs in one run and delivers normally from the next. The ping is still
+                  # withheld for this run, so a source that re-keys every run -- the case where
+                  # it really is mute -- keeps the pings stopped. last_ok_run is deliberately not
+                  # gated this way; it tracks the dispatch pipeline, not any one source.
                   broken_sources.append(state_key)
                   health_alert(
                       f"identity-reset:{state_key}",
@@ -774,10 +769,12 @@ jobs:
                       f"{IDENTITY_RESET_RECOGNITION:.0%}, with {len(fresh_new)} looking new. "
                       "That is the signature of the upstream table re-keying (an apply-URL "
                       "column going blank, or a column order change), not real listings. They "
-                      "have been dropped unsent; delivery resumes by itself once upstream is "
-                      "consistent again. Check the source table before changing parser config.",
+                      "have been recorded without alerting, so the board is not replayed into "
+                      "the chat; new listings alert normally from the next run. Check the "
+                      "source table before changing parser config.",
                   )
                   skip_reason = skip_reason or f"identity_reset:{len(fresh_new)}"
+                  resynced = fresh_new
                   fresh_new = []
 
               # Queued work first, so the oldest jobs drain ahead of newly-seen rows and cannot be
@@ -791,8 +788,13 @@ jobs:
               delivered, undelivered = deliver_listings(to_send, w["label"])
               total_alerted += len(delivered)
 
-              # Union in only what Telegram confirmed.
-              merged = seen_list + [identity for _r, identity, _o in delivered]
+              # Union in what Telegram confirmed, plus any re-keyed identities resynced above.
+              # Those are the sole exception to "record nothing undelivered": they are not new
+              # listings, they are listings the source already knows under a stale identity, and
+              # recording them is what lets the breaker disarm instead of muting the source.
+              merged = (seen_list
+                        + [identity for _r, identity, _o in delivered]
+                        + [identity for _r, identity, _o in resynced])
               if len(merged) > SEEN_CAP:
                   health_alert(
                       f"cap:{state_key}",
@@ -819,15 +821,9 @@ jobs:
               state[state_key] = {
                   # Only advance when a snapshot was actually parsed. Anything undelivered is
                   # durably queued rather than depending on being re-derived from a later parse.
-                  # Withheld work also holds the SHA, whether the breaker tripped or dead links
-                  # were dropped: those rows were not recorded, so the run has not accounted for
-                  # this snapshot and must not let a later upstream_unchanged skip stand in for
-                  # having processed it.
-                  "last_sha": (
-                      latest_sha
-                      if curr_rows is not None and not identity_reset and not degraded
-                      else last_sha
-                  ),
+                  # A resync run does advance it: every parsed row was accounted for, either
+                  # delivered or recorded, so there is nothing left for a re-parse to recover.
+                  "last_sha": latest_sha if curr_rows is not None else last_sha,
                   "seen": merged[-SEEN_CAP:],
                   "seen_legacy_urls": legacy_urls,
                   "last_row_count": len(curr_rows) if curr_rows is not None else prev_row_count,

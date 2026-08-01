@@ -80,13 +80,12 @@ Each entry in `.watcher_state.json` has the same shape:
    `seen_legacy_urls` stays empty, or a requisition relisted for a new season could never alert.
 8. Otherwise select rows whose identity is absent from `seen` and whose URL is absent from
    `seen_legacy_urls`.
-9. **Dead-link guard:** withhold any discovered row whose apply URL is present but goes nowhere
-   (`#`, `#anything`, `javascript:`). The alert would carry a placeholder where the link belongs.
-   Withheld rows are *not* recorded, so they are re-derived and delivered in full once upstream
-   emits real URLs. Report `⚠️ placeholder-urls`, and mark the source unreadable only when dead
-   links are at least `PLACEHOLDER_DEGRADED_RATIO` (50%) of the table — one stray bad row is
-   worth reporting but is not an outage. An *absent* URL is not a placeholder: ~20% of Vansh rows
-   have none, and those alerts are still useful.
+9. **Dead links:** a row whose apply URL is present but goes nowhere (`#`, `#anything`,
+   `javascript:`) still alerts — it may be a genuinely new posting, and withholding it would be a
+   miss. `fmt` renders it with no link rather than a `#` that looks tappable, exactly like the
+   ~20% of Vansh rows that have no URL at all. Report `⚠️ placeholder-urls` so the degradation is
+   visible. Only the message text changes: the identity and `job_hash` keep the raw URL, so
+   nothing already sent is invalidated and no row is re-keyed.
 10. **Re-key guard:** measure how much of the parsed table the source still recognizes
    (`rows − new`, where `new` excludes anything already queued). When a run discovers at least
    `IDENTITY_RESET_MIN` (25) rows *and* recognizes under `IDENTITY_RESET_RECOGNITION` (10%) of
