@@ -8552,6 +8552,30 @@
       "chat_id": 7582459199,
       "seq": 155,
       "identity": "#|Magna|Quality Engineering Co-op (Fall Term ...|Newmarket, Ontari...|Summer 2027#1"
+    },
+    "1a0856243b07": {
+      "company": "Medtronic",
+      "role": "Software Engineering Intern \u2013 Summer ...",
+      "location": "21 Locations",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1253,
+      "chat_id": 7582459199,
+      "seq": 156,
+      "identity": "#|Medtronic|Software Engineering Intern \u2013 Summer ...|21 Locations|Summer 2027#1"
+    },
+    "e2f07ea333b3": {
+      "company": "Zscaler",
+      "role": "Site Reliability Engineer-SkillBridge...",
+      "location": "USA",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1254,
+      "chat_id": 7582459199,
+      "seq": 157,
+      "identity": "#|Zscaler|Site Reliability Engineer-SkillBridge...|USA|Summer 2027#1"
     }
   },
   "applied": {
@@ -8919,9 +8943,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 155,
+  "seq": 157,
   "health": {
     "last_heartbeat": "2026-08-01T04:28:13Z",
-    "last_ok_run": "2026-08-01T05:05:14Z"
+    "last_ok_run": "2026-08-01T05:06:14Z"
   }
 }
