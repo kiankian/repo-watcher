@@ -23,13 +23,15 @@ Every source uses one dedup rule, built around a per-opening **identity**:
 identity = (apply_url or NOURL) |company|role|location|term #occurrence
 ```
 
-A listing is alerted when its identity has never been delivered. Four properties make that safe:
+A listing is alerted when its identity has never been delivered. Five properties make that safe:
 
 1. **`seen` only grows.** It is a union, never a replacement. When the parsed row set shrinks — a truncated parse, or upstream pruning its table — the rows that vanished stay in `seen`, so they do not re-alert when they come back, while anything genuinely new in the same run still goes out.
 2. **An identity is recorded only after Telegram confirms the message, and undelivered work is queued durably.** A failed or rate-limited send — or a batch over `BURST_CAP` — is written to that source's `outbox` as a full `[row, identity, occurrence]` triple and drained on subsequent runs, including runs where the upstream SHA has not changed. Withholding from `seen` alone was not enough: the retry re-derived the row from a fresh parse, so anything that left the upstream table in the meantime was lost. Zapply's table re-sorts and is capped at ~100 rows, and a long delivery outage widens that window arbitrarily.
 3. **Every parsed row gets exactly one identity, and no two rows in a run share one.** Every field participates, because either half alone collapses distinct openings. URL alone is not enough: boards sometimes publish a generic link shared by several rows, and if one of those openings is replaced while the row count stays the same, occurrence numbering hands the replacement an already-seen identity. Text alone is not enough either: Copart posts several Dallas SWE-intern reqs differing only by Workday ID. `term` also lets a requisition relisted for a new season through, and the occurrence index separates rows identical in every field (Kudu Dynamics lists the same URL-less role three times).
 
 4. **A run cannot alert a whole table at once.** Because the identity is URL-first, an upstream generator that stops emitting apply URLs re-keys every row in a single commit, and every listing on the board looks new. What distinguishes that from real news is not the rows but how much of the table the source still **recognizes**: listings arrive a few at a time against a backdrop of rows already in `seen`, so even a large legitimate influx leaves most of the table familiar, while a re-key collapses recognition to nearly nothing. When a run discovers at least `IDENTITY_RESET_MIN` (25) rows *and* recognizes under `IDENTITY_RESET_RECOGNITION` (10%) of what it parsed, it is treated as a fault — the discoveries are dropped unsent and unrecorded, `⚠️ identity-reset` goes out, and the SHA is held so the recovery commit is re-parsed rather than skipped. Nothing is lost: the rows are still listed upstream, so they are re-derived once upstream is consistent and delivered then. See [Whole-table re-key](#whole-table-re-key).
+
+5. **An alert with nothing to apply to is not sent.** A generator that emits the link markup but fills in a dead target (`#`, `javascript:`) produces rows that parse cleanly and are useless on arrival. Those rows are withheld and, crucially, *not* recorded — so the listing is delivered in full the moment a real URL appears. This check runs before the breaker above, so the specific cause is named rather than diagnosed as a generic re-key, and it applies at any scale: the 2026-08-01 incident put 100 unusable alerts out in one burst and another 19 as single rows trickling onto a churning board over the next five hours, which no count-based guard can see. An *absent* link is not degraded — roughly a fifth of the Vansh rows have no URL, and those alerts still carry company, role, location and term.
 
 Including the text costs a duplicate whenever upstream edits a role or location string in place. Measured across 2,060 state snapshots spanning 18 days and 475 distinct `(source, URL)` pairs, that happened **zero** times — so the protection is effectively free.
 
@@ -106,6 +108,7 @@ Misses are caught by reconciling what was *observed* against what was *delivered
 | `outbox_size` not trending to zero | `logs/runs-*.jsonl`, and `outbox` in `.watcher_state.json` | jobs were observed as new but never delivered — the queue is stuck |
 | `⚠️ outbox-overflow` | Telegram | the queue exceeded `OUTBOX_CAP` and jobs were dropped. This is a real miss |
 | `⚠️ fetch-failed` / `⚠️ zero-rows` | Telegram, and `skip_reason` in the run log | a source produced nothing; anything posted there while it was broken was never seen |
+| `⚠️ placeholder-urls` | Telegram, and `skip_reason=placeholder_urls:<n>` in the run log | upstream is emitting dead apply links; those listings were withheld rather than sent unusable. They deliver themselves once real URLs return |
 | `⚠️ identity-reset` | Telegram, and `skip_reason=identity_reset:<n>` in the run log | a source re-keyed its whole table; its discoveries were dropped unsent. Not a miss on its own — they redeliver once upstream is consistent — but the source is blind until then. See [Whole-table re-key](#whole-table-re-key) |
 | `queued_before + identities_new` vs `sent_ok + sent_failed` | `logs/runs-*.jsonl` | should always match. `identities_new` counts only fresh discoveries, so `queued_before` is needed to balance a backlog drain |
 | `outbox_size` vs `sent_failed` | `logs/runs-*.jsonl` | should match. `outbox_size` is always the depth *after* the run, on every code path |
@@ -122,6 +125,7 @@ Operational faults are sent to the same chat with a `⚠️ watcher:` prefix, ra
 - the outbox overflowed `OUTBOX_CAP`, dropping undelivered jobs
 - a parse returned under 70% of its previous row count
 - a source discovered `IDENTITY_RESET_MIN` (25) or more listings while recognizing under `IDENTITY_RESET_RECOGNITION` (10%) of its own table — the whole-table re-key breaker, below
+- a source parsed rows whose apply link is present but dead, and listings were withheld rather than sent with nothing to apply to
 - a send failed (the listing stays unrecorded and will be retried)
 - `SEEN_CAP` eviction
 - no successful run for over 2 hours
@@ -162,11 +166,11 @@ The notification says only "no ping received". It does not say why, and the caus
 
 | Actions tab shows | Cause | Do |
 |---|---|---|
-| Recent runs, green | **A source broke.** Runs are fine; `healthy` came back `false` so the ping was withheld | Check Telegram for `⚠️ zero-rows`, `⚠️ fetch-failed` or `⚠️ identity-reset` — it names the source. Fix the section marker or parser, or see [Whole-table re-key](#whole-table-re-key) |
+| Recent runs, green | **A source broke.** Runs are fine; `healthy` came back `false` so the ping was withheld | Check Telegram for `⚠️ zero-rows`, `⚠️ fetch-failed`, `⚠️ identity-reset` or `⚠️ placeholder-urls` — it names the source. Fix the section marker or parser, or see [Whole-table re-key](#whole-table-re-key) |
 | Recent runs, **`watch` red** | That job is failing — commonly the state push exhausting its retries | Open the failing run. The ping is correctly withheld: alerts may have gone out unrecorded |
 | Nothing since the last ping | **Dispatch stopped.** cron-job.org disabled, or its PAT expired | The runbook below |
 
-The first row is the likelier one — upstream repos get reorganised regularly — so check the Actions tab *before* assuming the watcher is dead. Only `fetch-failed`, `zero-rows` and `identity-reset` set `healthy=false`; a `⚠️ shrink` warning does **not** withhold the ping, so it will never be the cause of a healthcheck alert on its own.
+The first row is the likelier one — upstream repos get reorganised regularly — so check the Actions tab *before* assuming the watcher is dead. Only `fetch-failed`, `zero-rows`, `identity-reset` and a majority-dead-link `placeholder-urls` set `healthy=false`; a `⚠️ shrink` warning does **not** withhold the ping, so it will never be the cause of a healthcheck alert on its own.
 
 > **A red run is not always a withheld ping — check which job is red.** `Ping healthcheck` is the last step of `watch`; `process_applies` is a separate job that starts only after `watch` has finished and already pinged. So a run that is red *because `process_applies` failed* — a Google Sheets append, a Telegram edit, its own `.bot_state.json` push — still pinged, and no dead-man alert will ever fire for it.
 >
@@ -227,8 +231,15 @@ messages carried a `#` where the apply link belongs, so none of them were action
 guard caught it: the fetch worked, the section markers matched, and the parse returned exactly
 100 rows as always — only the *contents* of one column had degraded.
 
-`IDENTITY_RESET_MIN` now stops this (see [Delivery guarantee](#delivery-guarantee), property 4).
-If it fires:
+Two guards now cover this, in order. The dead-link check (property 5) names the cause directly
+and catches it at any scale, including the 19 further unusable alerts that trickled in as single
+rows over the following five hours — too few at a time for any count-based guard to see.
+`IDENTITY_RESET_MIN` (property 4) is the general backstop for a re-key from any other cause, such
+as a column reorder or an ATS migration, where every link is real but different.
+
+If `⚠️ placeholder-urls` fires, upstream is emitting dead links: the withheld listings deliver
+themselves once real URLs return, and no action is needed unless it stays broken. If
+`⚠️ identity-reset` fires:
 
 1. **Read the alert.** It names the source, the discovery count, and the row counts either side.
 2. **Open the upstream table** and compare a row against `PARSING_REFERENCE.md`. Look for an

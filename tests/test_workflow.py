@@ -707,24 +707,82 @@ def test_the_request_timeout_shrinks_with_the_remaining_budget(run_watcher, fixt
     assert all(t > 0 for t in r.timeouts), "never zero or negative, which would fail instantly"
 
 
-# --- the 2026-08-01 whole-table re-key ---------------------------------------------------
+# --- the 2026-08-01 incident: dead apply links, and whole-table re-keys generally ---------
+#
+# Two guards, deliberately ordered. is_placeholder_url names the specific cause seen on
+# 2026-08-01 and catches it at any scale, down to a single row. is_identity_reset is the
+# general backstop for a re-key from any other cause, and only above a discovery floor. The
+# placeholder check runs first, so a blanked link is diagnosed as such rather than as a re-key.
 
 def _blank_the_apply_urls(rows):
     """What zapplyjobs/Internships-2027 shipped at 8eb9fd34: every `](url)` became `](#)`."""
     return [row[:4] + ["#"] for row in rows]
 
 
-def test_a_whole_table_rekey_is_not_alerted(run_watcher):
-    """The recorded 2026-08-01 01:56 UTC event. Upstream's generator emitted "#" for every
-    apply URL in one commit; the identity is URL-first, so all 100 rows became identities the
-    watcher had never seen and it sent 100 alerts carrying a "#" in place of a link — 25 that
-    run and the rest queued for the runs after it."""
+def _rehost_the_apply_urls(rows):
+    """A re-key with no dead links anywhere — every row keeps a real, working URL, but a
+    different one. A column reorder or an ATS migration looks like this, and the placeholder
+    check cannot see it, so this is what exercises the breaker itself."""
+    return [row[:4] + [row[4].replace("https://", "https://careers.") + "?src=new"]
+            for row in rows]
+
+
+def test_dead_apply_links_are_never_alerted(run_watcher):
+    """The recorded 2026-08-01 01:56 UTC event. Upstream's generator emitted "#" for every apply
+    URL in one commit; the identity is URL-first, so all 100 rows became identities the watcher
+    had never seen and it sent 100 alerts carrying a "#" in place of a link — 25 that run and
+    the rest queued for the runs after it. Not one of them was actionable."""
     before = load_fixture("collapse_84.json")
 
     seeded = run_watcher(before, drop_target_state=True)
     assert len(seeded.seen) == 84
 
-    rekeyed = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
+    dead = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
+
+    assert dead.sent == [], "not one unusable row is delivered"
+    assert dead.outbox == [], "and none are queued to leak out on a later run"
+    assert dead.health_matching("dead apply link"), "the operator is told instead"
+    assert dead.healthy is False, "a wholly-degraded source must not keep a green healthcheck"
+
+
+def test_a_single_dead_link_is_withheld_without_declaring_an_outage(run_watcher, fixture_rows,
+                                                                   baseline):
+    """The drip that followed the flood: rows arriving on a churning board a few at a time, far
+    under any discovery floor, each carrying a "#". They must still be withheld — but one bad
+    row among many good ones is not an outage and must not stop the healthcheck pings."""
+    good = ["Goodcorp", "SWE Intern", "Austin, TX", "Summer 2026", "https://good.test/jobs/1"]
+    bad = ["Deadcorp", "SWE Intern", "Austin, TX", "Summer 2026", "#"]
+
+    r = run_watcher(fixture_rows + [good, bad])
+
+    assert len(r.sent) == 1 and r.sent_matching("good.test"), "only the usable row alerts"
+    assert not r.sent_matching("Deadcorp")
+    assert len(r.seen) == len(baseline.seen) + 1, "the dead row is not recorded either"
+    assert r.healthy is True, "one dead row among many is not an outage"
+
+
+def test_a_withheld_row_is_delivered_once_its_real_link_returns(run_watcher, fixture_rows):
+    """Why withheld rows must not be recorded as seen: recording them would suppress the listing
+    for good and the real link would never be delivered. They are re-derived instead."""
+    row = ["Latecorp", "SWE Intern", "Austin, TX", "Summer 2026", "#"]
+    withheld = run_watcher(fixture_rows + [row])
+    assert withheld.sent == []
+
+    fixed = row[:4] + ["https://latecorp.test/jobs/9"]
+    recovered = run_watcher(fixture_rows + [fixed], start_files=withheld.files)
+
+    assert len(recovered.sent) == 1, "it goes out as soon as there is something to apply to"
+    assert recovered.sent_matching("latecorp.test/jobs/9")
+
+
+def test_a_whole_table_rekey_is_not_alerted(run_watcher):
+    """The general backstop, exercised by a re-key the placeholder check cannot see: every row
+    keeps a real working link, but a different one. A column reorder or an ATS migration does
+    this, and every row looks new."""
+    before = load_fixture("collapse_84.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    rekeyed = run_watcher(_rehost_the_apply_urls(before), start_files=seeded.files)
 
     assert rekeyed.sent == [], "not one re-keyed row is delivered"
     assert rekeyed.outbox == [], "and none are queued to leak out on a later run"
@@ -736,30 +794,29 @@ def test_a_whole_table_rekey_is_not_alerted(run_watcher):
 
 
 def test_a_rekey_leaves_no_trace_in_state_to_re_alert_later(run_watcher):
-    """Recording the "#" identities as seen would be the worse failure: when upstream fixes its
-    generator the rows revert to their real identities, and every one whose real identity was
+    """Recording the re-keyed identities as seen would be the worse failure: when upstream
+    reverts, the rows return to their real identities, and every one whose real identity was
     never recorded alerts a second time. Holding the SHA matters for the same reason — the
     recovery commit must be re-parsed, not skipped as already-processed."""
     before = load_fixture("collapse_84.json")
 
     seeded = run_watcher(before, drop_target_state=True)
-    rekeyed = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
+    rekeyed = run_watcher(_rehost_the_apply_urls(before), start_files=seeded.files)
 
-    assert rekeyed.seen == seeded.seen, "no `#` identity is recorded"
+    assert rekeyed.seen == seeded.seen, "no re-keyed identity is recorded"
     assert rekeyed.last_sha == seeded.last_sha, "the SHA is held for a re-parse"
 
 
 def test_delivery_resumes_by_itself_once_upstream_is_fixed(run_watcher):
-    """The breaker must not need a human to reset it, and must not have cost anything: the rows
-    that were genuinely new during the outage are still listed upstream, so they go out on the
-    first healthy run — exactly once, with their real links."""
+    """Neither guard may need a human to reset it, and neither may cost anything: rows that were
+    genuinely new during the outage are still listed upstream, so they go out on the first
+    healthy run — exactly once, with their real links."""
     before = load_fixture("collapse_84.json")
     arrival = ["Newcorp", "SWE Intern", "Austin, TX", "Summer 2027",
                "https://newcorp.test/jobs/1"]
 
     seeded = run_watcher(before, drop_target_state=True)
-    rekeyed = run_watcher(_blank_the_apply_urls(before + [arrival]),
-                          start_files=seeded.files)
+    rekeyed = run_watcher(_rehost_the_apply_urls(before + [arrival]), start_files=seeded.files)
     assert rekeyed.sent == []
 
     recovered = run_watcher(before + [arrival], start_files=rekeyed.files)
@@ -771,9 +828,9 @@ def test_delivery_resumes_by_itself_once_upstream_is_fixed(run_watcher):
 
 
 def test_a_rekey_does_not_stall_the_outbox(run_watcher):
-    """Queued jobs were vetted on the run that discovered them, so the breaker must suppress
-    only fresh discoveries. Stranding the queue behind a broken upstream is the failure the
-    outbox exists to prevent."""
+    """Queued jobs were vetted on the run that discovered them, so a guard must suppress only
+    fresh discoveries. Stranding the queue behind a broken upstream is the failure the outbox
+    exists to prevent."""
     before = load_fixture("collapse_84.json")
     extra = [
         [f"BurstCorp {i:03d}", "SWE Intern", "Testville, TS", "Summer 2027",
@@ -782,26 +839,47 @@ def test_a_rekey_does_not_stall_the_outbox(run_watcher):
     ]
 
     seeded = run_watcher(before, drop_target_state=True)
-    # 30 arrivals on an 84-row table: growth explains them, so this is a normal burst that
-    # caps at BURST_CAP and leaves the remainder queued.
+    # 30 arrivals on an 84-row table: a normal burst that caps at BURST_CAP and queues the rest.
     burst = run_watcher(before + extra, start_files=seeded.files)
     assert len(burst.sent) == 25 and len(burst.outbox) == 5
 
-    rekeyed = run_watcher(_blank_the_apply_urls(before + extra),
-                          start_files=burst.files)
+    rekeyed = run_watcher(_rehost_the_apply_urls(before + extra), start_files=burst.files)
 
-    assert len(rekeyed.sent) == 5, "the queue drains even while the breaker holds"
+    assert len(rekeyed.sent) == 5, "the queue drains even while the guard holds"
     assert rekeyed.outbox == []
     assert rekeyed.health_matching("re-keying")
 
 
-def test_the_rekey_is_recorded_in_the_run_log(run_watcher):
-    """The run log is the forensic record. A suppressed run must be distinguishable from a
-    quiet one, and its counters must still reconcile."""
+def test_a_rekey_is_caught_while_the_table_recovers_from_a_collapse(run_watcher):
+    """Regression for the breaker's first design, which subtracted the table's row-count growth
+    since the last parse on the theory that real listings come with a count that rose to match.
+
+    That credits a table *recovering* from a truncating parse as new capacity. Here the source
+    collapses to 20 rows, then returns to 84 in the same update that re-keys every row: growth of
+    64 absorbs all but 20 of the 84 discoveries, which slips under IDENTITY_RESET_MIN and sends
+    the whole board. Recognition never asks how many rows there used to be.
+    """
     before = load_fixture("collapse_84.json")
 
     seeded = run_watcher(before, drop_target_state=True)
-    rekeyed = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
+    collapsed = run_watcher(before[:20], start_files=seeded.files)
+    assert collapsed.sent == [], "the 20 surviving rows were all already seen"
+    assert collapsed.state[TARGET_KEY]["last_row_count"] == 20, "the shrink is what gets stored"
+
+    rekeyed = run_watcher(_rehost_the_apply_urls(before), start_files=collapsed.files)
+
+    assert rekeyed.sent == [], "the re-key is caught despite the row count recovering"
+    assert rekeyed.outbox == []
+    assert rekeyed.health_matching("re-keying")
+
+
+def test_the_suppression_is_recorded_in_the_run_log(run_watcher):
+    """The run log is the forensic record. A suppressed run must be distinguishable from a quiet
+    one, and its counters must still reconcile."""
+    before = load_fixture("collapse_84.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    rekeyed = run_watcher(_rehost_the_apply_urls(before), start_files=seeded.files)
 
     rec = [r for r in rekeyed.log_records("runs") if r.get("watcher")][0]
     assert rec["skip_reason"] == "identity_reset:84", "the suppressed count is preserved"
@@ -813,29 +891,14 @@ def test_the_rekey_is_recorded_in_the_run_log(run_watcher):
     assert rec["queued_before"] + rec["identities_new"] == rec["sent_ok"] + rec["sent_failed"]
 
 
-def test_a_rekey_is_caught_while_the_table_recovers_from_a_collapse(run_watcher):
-    """Regression for the breaker's first design, which subtracted the table's row-count growth
-    since the last parse on the theory that real listings come with a count that rose to match.
-
-    That credits a table *recovering* from a truncating parse as new capacity. Here the source
-    collapses to 20 rows, then returns to 84 in the same update that re-keys every row: growth of
-    64 absorbs all but 20 of the 84 discoveries, which slips under IDENTITY_RESET_MIN and sends
-    the whole board. The two failures are correlated rather than independent — an upstream
-    generator misfiring badly enough to truncate a read can blank a column in the same breath —
-    so this is the shape the guard is most likely to meet in the wild, not a contrived one.
-
-    Recognition never asks how many rows there used to be, so the recovery cannot be credited.
-    """
+def test_the_dead_link_suppression_is_recorded_in_the_run_log(run_watcher):
+    """Same, for the placeholder path — the two must be distinguishable in the log."""
     before = load_fixture("collapse_84.json")
-    truncated = before[:20]
 
     seeded = run_watcher(before, drop_target_state=True)
-    collapsed = run_watcher(truncated, start_files=seeded.files)
-    assert collapsed.sent == [], "the 20 surviving rows were all already seen"
-    assert collapsed.state[TARGET_KEY]["last_row_count"] == 20, "the shrink is what gets stored"
+    dead = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
 
-    rekeyed = run_watcher(_blank_the_apply_urls(before), start_files=collapsed.files)
-
-    assert rekeyed.sent == [], "the re-key is caught despite the row count recovering"
-    assert rekeyed.outbox == []
-    assert rekeyed.health_matching("re-keying")
+    rec = [r for r in dead.log_records("runs") if r.get("watcher")][0]
+    assert rec["skip_reason"] == "placeholder_urls:84"
+    assert rec["identities_new"] == 0
+    assert rec["queued_before"] + rec["identities_new"] == rec["sent_ok"] + rec["sent_failed"]

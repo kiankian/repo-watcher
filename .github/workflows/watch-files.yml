@@ -57,11 +57,13 @@ jobs:
           # block keeps only the I/O. cwd is the repo root under actions/checkout.
           from watcher.core import (
               IDENTITY_RESET_RECOGNITION,
+              PLACEHOLDER_DEGRADED_RATIO,
               SEEN_CAP,
               assign_identities,
               extract_section,
               fmt,
               is_identity_reset,
+              is_placeholder_url,
               job_hash,
               migrate_state,
               parse_html_rows,
@@ -713,6 +715,32 @@ jobs:
               # against queued_before and break the reconciliation invariant.
               fresh_new = [p for p in fresh_pairs if p[1] not in queued]
 
+              # Withhold rows whose apply link is present but dead (see is_placeholder_url).
+              # Nothing can be done with such an alert, and recording it as seen would be worse
+              # than sending it: the row would be suppressed for good, and the real link would
+              # never be delivered when upstream restores it. Withheld rows are simply not
+              # recorded, so they are re-derived on later runs and go out with a working link as
+              # soon as there is one. Runs before the re-key breaker, so the specific cause is
+              # diagnosed ahead of the general one.
+              degraded = [p for p in fresh_new if is_placeholder_url(p[0][4])]
+              if degraded:
+                  fresh_new = [p for p in fresh_new if not is_placeholder_url(p[0][4])]
+                  dead = sum(1 for r in curr_rows if is_placeholder_url(r[4]))
+                  # Proportional: one stray dead link is worth reporting but is not an outage,
+                  # while a table that is mostly placeholders is delivering nothing usable and
+                  # must not keep a green healthcheck over that silence.
+                  if dead >= len(curr_rows) * PLACEHOLDER_DEGRADED_RATIO:
+                      broken_sources.append(state_key)
+                  health_alert(
+                      f"placeholder-urls:{state_key}",
+                      f"{w['label']} parsed {dead} of {len(curr_rows)} rows with a dead apply "
+                      f"link, and withheld {len(degraded)} otherwise-new listing(s) rather than "
+                      "alert with nothing to apply to. The upstream generator is emitting link "
+                      "markup with no target. They will be delivered once it emits real URLs "
+                      "again; no action is needed here unless it stays broken.",
+                  )
+                  skip_reason = skip_reason or f"placeholder_urls:{len(degraded)}"
+
               # Circuit breaker for a whole-table re-key (see is_identity_reset). A source that
               # recognizes almost none of its own table has almost certainly had its identity
               # inputs rewritten upstream, not gained a hundred openings, so the discoveries are
@@ -791,11 +819,14 @@ jobs:
               state[state_key] = {
                   # Only advance when a snapshot was actually parsed. Anything undelivered is
                   # durably queued rather than depending on being re-derived from a later parse.
-                  # A tripped breaker also holds the SHA: its discoveries were dropped rather
-                  # than recorded, so the run has not accounted for this snapshot and must not
-                  # let a later upstream_unchanged skip stand in for having processed it.
+                  # Withheld work also holds the SHA, whether the breaker tripped or dead links
+                  # were dropped: those rows were not recorded, so the run has not accounted for
+                  # this snapshot and must not let a later upstream_unchanged skip stand in for
+                  # having processed it.
                   "last_sha": (
-                      latest_sha if curr_rows is not None and not identity_reset else last_sha
+                      latest_sha
+                      if curr_rows is not None and not identity_reset and not degraded
+                      else last_sha
                   ),
                   "seen": merged[-SEEN_CAP:],
                   "seen_legacy_urls": legacy_urls,

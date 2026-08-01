@@ -601,3 +601,28 @@ def test_an_empty_parse_is_not_a_reset():
 ])
 def test_the_recognition_threshold_boundary(row_count, recognized, expected):
     assert core.is_identity_reset(row_count - recognized, row_count) is expected
+
+
+# --- is_placeholder_url: a link that exists but goes nowhere ------------------------------
+
+@pytest.mark.parametrize("url", ["#", " # ", "#apply", "javascript:void(0)", "JavaScript:;"])
+def test_dead_links_are_placeholders(url):
+    """What the 2026-08-01 generator emitted, plus the other shapes of the same mistake."""
+    assert core.is_placeholder_url(url)
+
+
+def test_an_absent_link_is_not_a_placeholder():
+    """Roughly a fifth of the rows on the Vansh boards have no parseable URL at all. Those
+    alerts are still useful — company, role, location and term are all there — so treating them
+    as degraded would silence a large, healthy slice of a working source."""
+    assert not core.is_placeholder_url("")
+    assert not core.is_placeholder_url(None)
+
+
+@pytest.mark.parametrize("url", [
+    "https://job-boards.greenhouse.io/appian/jobs/8041237",
+    "https://www.asm.com/open-vacancies/?gh_jid=4830113101#apply",
+])
+def test_real_links_are_not_placeholders(url):
+    """Including one whose *fragment* is #apply — the target is what matters, not the tail."""
+    assert not core.is_placeholder_url(url)

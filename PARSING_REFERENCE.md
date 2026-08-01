@@ -80,19 +80,27 @@ Each entry in `.watcher_state.json` has the same shape:
    `seen_legacy_urls` stays empty, or a requisition relisted for a new season could never alert.
 8. Otherwise select rows whose identity is absent from `seen` and whose URL is absent from
    `seen_legacy_urls`.
-9. **Re-key guard:** measure how much of the parsed table the source still recognizes
+9. **Dead-link guard:** withhold any discovered row whose apply URL is present but goes nowhere
+   (`#`, `#anything`, `javascript:`). The alert would carry a placeholder where the link belongs.
+   Withheld rows are *not* recorded, so they are re-derived and delivered in full once upstream
+   emits real URLs. Report `⚠️ placeholder-urls`, and mark the source unreadable only when dead
+   links are at least `PLACEHOLDER_DEGRADED_RATIO` (50%) of the table — one stray bad row is
+   worth reporting but is not an outage. An *absent* URL is not a placeholder: ~20% of Vansh rows
+   have none, and those alerts are still useful.
+10. **Re-key guard:** measure how much of the parsed table the source still recognizes
    (`rows − new`, where `new` excludes anything already queued). When a run discovers at least
    `IDENTITY_RESET_MIN` (25) rows *and* recognizes under `IDENTITY_RESET_RECOGNITION` (10%) of
    what it parsed, the identity inputs have been rewritten upstream rather than a hundred
    openings appearing at once. Report `⚠️ identity-reset`, drop the discoveries unsent *and
    unrecorded*, and hold the SHA so the recovery commit is re-parsed. Queued rows still drain.
-10. Prepend anything already in the `outbox` so the oldest work drains first.
-11. Deliver, capped at `BURST_CAP` attempts and the whole-run time budget.
-12. Union the confirmed identities into `seen` (capped at `SEEN_CAP`, oldest evicted). Undelivered
-    rows go back to the `outbox`. Advance `last_sha` only if a snapshot was actually parsed and the
-    re-key guard did not fire.
+11. Prepend anything already in the `outbox` so the oldest work drains first.
+12. Deliver, capped at `BURST_CAP` attempts and the whole-run time budget.
+13. Union the confirmed identities into `seen` (capped at `SEEN_CAP`, oldest evicted). Undelivered
+    rows go back to the `outbox`. Advance `last_sha` only if a snapshot was actually parsed and
+    neither guard withheld anything — withheld rows were not recorded, so the run has not
+    accounted for that snapshot.
 
-The re-key guard drops rather than queues, and drops rather than records, on purpose. Queuing would
+Both guards drop rather than queue, and drop rather than record, on purpose. Queuing would
 only defer the flood by a few runs. Recording the degraded identities as seen would be worse than
 sending them: when upstream restores the real URLs the rows revert to their real identities, and
 every row whose real identity was never recorded alerts a second time. Dropping costs nothing,
@@ -206,8 +214,9 @@ Column quirks (0-indexed after `strip('|').split('|')`):
 > `](#)` for every apply link in the file — 499 of them — and kept doing so. The markup is
 > unchanged, so `extract_apply_url` captures `#` and the row parses "successfully" with a
 > placeholder where the URL belongs. Because the identity is URL-first and this table's other
-> fields are truncated, that re-keys all ~100 rows at once. This is the incident the
-> `IDENTITY_RESET_MIN` guard exists for; see the State + Delivery Flow section above.
+> fields are truncated, that re-keys all ~100 rows at once. The dead-link guard withholds these
+> rows outright, since an alert with `#` in place of the link is not actionable; see the State +
+> Delivery Flow section above.
 
 Config: `parser="markdown"`, `role_col=1`, `loc_col=2`, `apply_col=5`, `term_col=None` (stamps `default_term="Summer 2027"`), `min_cells=6`, `strip_bold=True`.
 

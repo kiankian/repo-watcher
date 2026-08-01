@@ -201,6 +201,31 @@ SEEN_CAP = 5000
 IDENTITY_RESET_MIN = 25  # discoveries required before recognition is considered at all
 IDENTITY_RESET_RECOGNITION = 0.10  # share of the parsed table that must still be familiar
 
+# The breaker above catches a re-key by its shape, whatever caused it. This catches the specific
+# cause seen on 2026-08-01 directly: an upstream generator that still emits the link markup but
+# fills in a dead target, so `extract_apply_url` returns "#" and the row parses "successfully"
+# with nothing to apply to. Such a row is not worth a message — the alert would carry a "#" where
+# the link belongs — and it is the one failure a count-based guard cannot see, because the rows
+# trickle onto a churning board a few at a time, far under any sane discovery floor. 19 of the
+# 119 junk alerts in the incident arrived that way, after the initial flood had drained.
+#
+# An *absent* link is not degraded: roughly a fifth of the rows on the Vansh boards have no
+# parseable URL at all, and those alerts are still useful — company, role, location and term are
+# all there. Only a link that exists and goes nowhere counts.
+PLACEHOLDER_DEGRADED_RATIO = 0.5  # placeholder share above which the source counts as unreadable
+
+
+def is_placeholder_url(url):
+    """True for an apply link that is present but goes nowhere.
+
+    A bare fragment ("#", "#apply") never addresses an ATS posting, and neither does a
+    javascript: stub. Both mean the generator emitted a link it had no target for.
+    """
+    if not url:
+        return False
+    stripped = url.strip().lower()
+    return stripped.startswith("#") or stripped.startswith("javascript:")
+
 
 def is_identity_reset(new_count, row_count):
     """True when a run's discoveries look like the table re-keying, not new listings.
