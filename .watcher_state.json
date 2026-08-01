@@ -1484,7 +1484,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "42f29026902e272d05871474a9a54649b5078a78",
+    "last_sha": "8eb9fd3474aa1e82922d65596e65419484f6a332",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -1550,7 +1550,32 @@
       "https://jobs.lever.co/plus-2/b69c9b6d-483f-41d4-b487-97c99332ca40/apply|PlusAI|Full Stack Engineer Intern|Santa Clara, CA|Summer 2027#1",
       "https://globalfoundries.wd1.myworkdayjobs.com/External/job/Essex-Junction/Robotics-and-Automation-Engineering-Intern_JR-2603574|GlobalFoundries|Robotics and Automation Engineering I...|Essex Junction|Summer 2027#1",
       "https://job-boards.greenhouse.io/zscaler/jobs/5045817007|Zscaler|Site Reliability Engineer-SkillBridge...|USA|Summer 2027#1",
-      "https://nuro.ai/careersitem?gh_jid=7351061|Nuro|Software Engineer, AI Platform - Intern|Mountain View, Ca...|Summer 2027#1"
+      "https://nuro.ai/careersitem?gh_jid=7351061|Nuro|Software Engineer, AI Platform - Intern|Mountain View, Ca...|Summer 2027#1",
+      "#|ByteDance|Software Engineer Intern (Applied Mac...|San Jose, California|Summer 2027#1",
+      "#|ByteDance|Security Engineering Project Intern (...|San Jose, California|Summer 2027#1",
+      "#|ByteDance|Site Reliability Engineer Project Int...|San Jose, California|Summer 2027#1",
+      "#|Copart|Software Engineering Intern|Dallas, TX - Head...|Summer 2027#1",
+      "#|Copart|Software Engineering Intern|Dallas, TX - Head...|Summer 2027#2",
+      "#|DRW|Platform Engineer Intern|Chicago|Summer 2027#1",
+      "#|D. E. Shaw|Software Developer Intern (New York) ...|New York|Summer 2027#1",
+      "#|D. E. Shaw|Software Developer, Ph.D. Intern (New...|New York|Summer 2027#1",
+      "#|D. E. Shaw|Systems Administrator Intern (New York)|New York|Summer 2027#1",
+      "#|Motorola Solutions|Software Engineering, Co-Op|Massachusetts, US...|Summer 2027#1",
+      "#|Virtu Financial|2027 Internship - Frontend Engineer (UI)|New York|Summer 2027#1",
+      "#|Redwood Materials|Embedded Software Engineer Intern - F...|San Francisco, Ca...|Summer 2027#1",
+      "#|Texas Instruments|Network Engineer - Encore Program Int...|Dallas, TX, Unite...|Summer 2027#1",
+      "#|Bosch Group|ADAS Software Engineering Intern|Plymouth, MI|Summer 2027#1",
+      "#|Bosch Group|Powertrain Controls Software Engineer...|Farmington Hills, MI|Summer 2027#1",
+      "#|PathAI|Software Engineering Co-op MLOps: Sep...|Boston, MA|Summer 2027#1",
+      "#|Appian|Information Security Engineer Intern|McLean, Virginia|Summer 2027#1",
+      "#|Moog|Intern, Test Engineering|Buffalo, NY|Summer 2027#1",
+      "#|PDT Partners|Summer 2027 Systems Engineering Intern|New York, NY|Summer 2027#1",
+      "#|PDT Partners|Summer 2027 Software Engineering Intern|New York, NY|Summer 2027#1",
+      "#|Astranis|Software Engineer Intern - Enterprise...|San Francisco, CA|Summer 2027#1",
+      "#|Appian|Software Engineering Intern|McLean, Virginia|Summer 2027#1",
+      "#|Western Digital|Fall 2026 Intern - Failure Analysis A...|San Jose, CA|Summer 2027#1",
+      "#|Virtu Financial|2027 Internship - Software Engineer|Austin, TX|Summer 2027#1",
+      "#|Bosch Group|Quality Engineering Intern / Co-op - ...|Florence, KY|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
@@ -1711,7 +1736,833 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 100,
-    "outbox": []
+    "outbox": [
+      [
+        [
+          "Copart",
+          "Software Engineering Intern",
+          "Dallas, TX - Head...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Copart|Software Engineering Intern|Dallas, TX - Head...|Summer 2027#3",
+        3
+      ],
+      [
+        [
+          "Western Digital",
+          "Summer 2027 - Software Engineering In...",
+          "San Jose, CA",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Western Digital|Summer 2027 - Software Engineering In...|San Jose, CA|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Western Digital",
+          "Software Engineering Co-Op - Winter 2027",
+          "Rochester, MN",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Western Digital|Software Engineering Co-Op - Winter 2027|Rochester, MN|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Old Mission Capital",
+          "Software Engineer \u2013 2027 Internship P...",
+          "Chicago, IL, Unit...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Old Mission Capital|Software Engineer \u2013 2027 Internship P...|Chicago, IL, Unit...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "The Trade Desk",
+          "2027 North America Software Engineeri...",
+          "Bellevue",
+          "Summer 2027",
+          "#"
+        ],
+        "#|The Trade Desk|2027 North America Software Engineeri...|Bellevue|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Cloudflare",
+          "Software Engineer Intern (Fall 2026) ...",
+          "Austin, TX",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Cloudflare|Software Engineer Intern (Fall 2026) ...|Austin, TX|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "LiveRamp",
+          "Co-Op, Software Engineer - Action Run...",
+          "San Francisco",
+          "Summer 2027",
+          "#"
+        ],
+        "#|LiveRamp|Co-Op, Software Engineer - Action Run...|San Francisco|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Five Rings",
+          "Summer Intern 2027 - Software Developer",
+          "New York",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Five Rings|Summer Intern 2027 - Software Developer|New York|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Akuna Capital",
+          "Software Engineer Intern - C++, Summe...",
+          "Chicago, IL",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Akuna Capital|Software Engineer Intern - C++, Summe...|Chicago, IL|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Akuna Capital",
+          "Platform Engineer Intern, Summer 2027",
+          "Chicago, IL",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Akuna Capital|Platform Engineer Intern, Summer 2027|Chicago, IL|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Akuna Capital",
+          "Software Engineer Intern - Python, Su...",
+          "Chicago, IL",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Akuna Capital|Software Engineer Intern - Python, Su...|Chicago, IL|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "DRW",
+          "Software Developer Intern",
+          "Chicago",
+          "Summer 2027",
+          "#"
+        ],
+        "#|DRW|Software Developer Intern|Chicago|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Jump Trading",
+          "Campus Systems Engineer (Intern)",
+          "Chicago",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Jump Trading|Campus Systems Engineer (Intern)|Chicago|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Jump Trading",
+          "Campus Software Engineer (Intern)",
+          "Chicago",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Jump Trading|Campus Software Engineer (Intern)|Chicago|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Jump Trading",
+          "Campus UI Software Engineer (Intern)",
+          "Chicago",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Jump Trading|Campus UI Software Engineer (Intern)|Chicago|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "The Exploration Company",
+          "Crew Systems Engineering Intern - Mec...",
+          "Houston, Texas",
+          "Summer 2027",
+          "#"
+        ],
+        "#|The Exploration Company|Crew Systems Engineering Intern - Mec...|Houston, Texas|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "NVIDIA",
+          "PhD Software Engineering Intern, Deci...",
+          "US, CA, Santa Clara",
+          "Summer 2027",
+          "#"
+        ],
+        "#|NVIDIA|PhD Software Engineering Intern, Deci...|US, CA, Santa Clara|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Cadence",
+          "Software Engineering Intern",
+          "PITTSBURGH 03",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Cadence|Software Engineering Intern|PITTSBURGH 03|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Cadence",
+          "Software Intern",
+          "SAN JOSE",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Cadence|Software Intern|SAN JOSE|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Expedia Group",
+          "Software Development Engineering Inte...",
+          "Austin Domain 11 ...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Expedia Group|Software Development Engineering Inte...|Austin Domain 11 ...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Cadence (University)",
+          "Software Intern",
+          "SAN JOSE",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Cadence (University)|Software Intern|SAN JOSE|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Cadence (University)",
+          "Software Engineering Intern",
+          "PITTSBURGH 03",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Cadence (University)|Software Engineering Intern|PITTSBURGH 03|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Cisive",
+          "Software Development Intern",
+          "Maryland",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Cisive|Software Development Intern|Maryland|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Cisive",
+          "Intern- Software Developer",
+          "Maryland",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Cisive|Intern- Software Developer|Maryland|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Nidec",
+          "Software Engineer Co-Op",
+          "North America/USA...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Nidec|Software Engineer Co-Op|North America/USA...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Magna",
+          "Junior Full Stack Developer Coop",
+          "Milton, Ontario, CA",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Magna|Junior Full Stack Developer Coop|Milton, Ontario, CA|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Magna",
+          "Intern - Systems Engineering",
+          "Southfield, Michi...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Magna|Intern - Systems Engineering|Southfield, Michi...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "IDEXX",
+          "Security Operations (Cybersecurity) i...",
+          "Westbrook, ME",
+          "Summer 2027",
+          "#"
+        ],
+        "#|IDEXX|Security Operations (Cybersecurity) i...|Westbrook, ME|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Synchrony",
+          "Software Engineer Intern - Fall 2026",
+          "Canton Engagement...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Synchrony|Software Engineer Intern - Fall 2026|Canton Engagement...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Palo Alto Networks",
+          "Intern - Software Engineer",
+          "",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Palo Alto Networks|Intern - Software Engineer||Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Palo Alto Networks",
+          "Intern - Software Engineer",
+          "",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Palo Alto Networks|Intern - Software Engineer||Summer 2027#2",
+        2
+      ],
+      [
+        [
+          "Palo Alto Networks",
+          "Intern - Software Engineer",
+          "",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Palo Alto Networks|Intern - Software Engineer||Summer 2027#3",
+        3
+      ],
+      [
+        [
+          "Ambarella",
+          "Software Development Engineer Intern",
+          "Headquarters",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Ambarella|Software Development Engineer Intern|Headquarters|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Ambarella",
+          "Software Engineer Intern",
+          "Headquarters",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Ambarella|Software Engineer Intern|Headquarters|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Sony",
+          "Software Engineer Intern",
+          "San Diego",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Sony|Software Engineer Intern|San Diego|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Palantir",
+          "Forward Deployed Software Engineer, I...",
+          "Washington, D.C.",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Palantir|Forward Deployed Software Engineer, I...|Washington, D.C.|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "IMC Trading",
+          "Software Engineer Intern - Summer 2027",
+          "Chicago, United S...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|IMC Trading|Software Engineer Intern - Summer 2027|Chicago, United S...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Palantir",
+          "Forward Deployed Software Engineer, I...",
+          "Chicago, IL",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Palantir|Forward Deployed Software Engineer, I...|Chicago, IL|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Zipline",
+          "Software Engineer Intern (Fall 2026)",
+          "South San Francis...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Zipline|Software Engineer Intern (Fall 2026)|South San Francis...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "VAST",
+          "2026 Fall Internship - Supplier Quali...",
+          "Long Beach, Calif...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|VAST|2026 Fall Internship - Supplier Quali...|Long Beach, Calif...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Palantir",
+          "Year at Palantir - Forward Deployed S...",
+          "Chicago, IL",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Palantir|Year at Palantir - Forward Deployed S...|Chicago, IL|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "iHerb",
+          "Software Development Intern",
+          "Remote / Home",
+          "Summer 2027",
+          "#"
+        ],
+        "#|iHerb|Software Development Intern|Remote / Home|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Zipline",
+          "Flight Test Engineer Intern (Fall 2026)",
+          "South San Francis...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Zipline|Flight Test Engineer Intern (Fall 2026)|South San Francis...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "SoloPulse",
+          "Software Engineer Intern/Co-Op - Fall...",
+          "Peachtree Corners...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|SoloPulse|Software Engineer Intern/Co-Op - Fall...|Peachtree Corners...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Anduril",
+          "2027 Software Engineer Intern",
+          "Atlanta, Georgia,...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Circleback",
+          "Software Engineering Intern (Summer 2...",
+          "San Francisco",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Circleback|Software Engineering Intern (Summer 2...|San Francisco|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Zipline",
+          "Enterprise Systems Software Engineer ...",
+          "South San Francis...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Zipline|Enterprise Systems Software Engineer ...|South San Francis...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Centerfield",
+          "Software Engineer Intern",
+          "Los Angeles, Cali...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Centerfield|Software Engineer Intern|Los Angeles, Cali...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Clarity Innovations",
+          "Junior Software Engineer Internship",
+          "Herndon, VA",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Clarity Innovations|Junior Software Engineer Internship|Herndon, VA|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Rivian and Volkswagen Group Technologies",
+          "Software Engineering Intern - Vehicle...",
+          "Irvine, California",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Vehicle...|Irvine, California|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Rivian and Volkswagen Group Technologies",
+          "Software Engineering Intern - Applica...",
+          "Irvine, California",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Applica...|Irvine, California|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Rivian and Volkswagen Group Technologies",
+          "Android Developer Intern (Fall 2026)",
+          "Palo Alto, Califo...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Rivian and Volkswagen Group Technologies|Android Developer Intern (Fall 2026)|Palo Alto, Califo...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "TransMarket Group",
+          "DevOps/SRE Intern",
+          "Chicago, Illinois...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|TransMarket Group|DevOps/SRE Intern|Chicago, Illinois...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Beacon Software",
+          "Software Engineering Intern",
+          "San Francisco, CA",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Beacon Software|Software Engineering Intern|San Francisco, CA|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Base Power",
+          "Software Engineering Intern",
+          "Austin, TX",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Base Power|Software Engineering Intern|Austin, TX|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Oracle",
+          "OCI Software Engineer Intern - OVIP",
+          "Austin, TX, Unite...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Oracle|OCI Software Engineer Intern - OVIP|Austin, TX, Unite...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Oracle",
+          "OCI Software Engineer Intern - OVIP",
+          "Seattle, WA, Unit...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Oracle|OCI Software Engineer Intern - OVIP|Seattle, WA, Unit...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Apple",
+          "Software Engineering Masters Internships",
+          "United States",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Apple|Software Engineering Masters Internships|United States|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "PlusAI",
+          "Software Engineer Intern - Robotics",
+          "Santa Clara, CA",
+          "Summer 2027",
+          "#"
+        ],
+        "#|PlusAI|Software Engineer Intern - Robotics|Santa Clara, CA|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Oracle",
+          "GDI Information Security Analyst Inte...",
+          "Reston, VA, Unite...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Oracle|GDI Information Security Analyst Inte...|Reston, VA, Unite...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Etched",
+          "Chip Simulation Software Intern",
+          "San Jose",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Etched|Chip Simulation Software Intern|San Jose|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Hermeus",
+          "Subsystem Test Engineering Intern - F...",
+          "Atlanta, GA",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Hermeus|Subsystem Test Engineering Intern - F...|Atlanta, GA|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Saronic Technologies",
+          "Software Engineer Intern (Fall 2026)",
+          "Austin, TX",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Saronic Technologies|Software Engineer Intern (Fall 2026)|Austin, TX|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Neuralink",
+          "IT Systems Administrator Intern",
+          "Austin, Texas, Un...",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Neuralink|IT Systems Administrator Intern|Austin, Texas, Un...|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "PlusAI",
+          "Full Stack Engineer Intern",
+          "Santa Clara, CA",
+          "Summer 2027",
+          "#"
+        ],
+        "#|PlusAI|Full Stack Engineer Intern|Santa Clara, CA|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Astranis",
+          "Software Engineer- Backend Intern (Fa...",
+          "San Francisco, CA",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Astranis|Software Engineer- Backend Intern (Fa...|San Francisco, CA|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "kos.ai",
+          "Software Engineer Intern",
+          "San Francisco",
+          "Summer 2027",
+          "#"
+        ],
+        "#|kos.ai|Software Engineer Intern|San Francisco|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Amazon.com Services LLC",
+          "Software Development Engineer Intern,...",
+          "Seattle, WA",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Amazon.com Services LLC|Software Development Engineer Intern,...|Seattle, WA|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Apptronik",
+          "Robotics Software Intern \u2013 Real-Time ...",
+          "Austin, TX",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Astranis",
+          "Flight Software Intern (Fall 2026)",
+          "San Francisco",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Astranis|Flight Software Intern (Fall 2026)|San Francisco|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Rainmaker",
+          "Software Engineering Intern",
+          "El Segundo, CA",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Rainmaker|Software Engineering Intern|El Segundo, CA|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "ASM",
+          "Software Engineering Intern (Spring 2...",
+          "> Arizona > Phoenix",
+          "Summer 2027",
+          "#"
+        ],
+        "#|ASM|Software Engineering Intern (Spring 2...|> Arizona > Phoenix|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Hermeus",
+          "Software Engineering Intern (HIL) - F...",
+          "Atlanta, GA",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Hermeus|Software Engineering Intern (HIL) - F...|Atlanta, GA|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Auctor",
+          "Software Engineering Intern",
+          "New York",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Auctor|Software Engineering Intern|New York|Summer 2027#1",
+        1
+      ],
+      [
+        [
+          "Eulerity",
+          "Mobile iOS Developer Intern",
+          "New York, New York",
+          "Summer 2027",
+          "#"
+        ],
+        "#|Eulerity|Mobile iOS Developer Intern|New York, New York|Summer 2027#1",
+        1
+      ]
+    ]
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
     "last_sha": "2209e7c810c8367569e248502f12b013ad074f28",
