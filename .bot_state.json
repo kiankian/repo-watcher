@@ -8420,6 +8420,42 @@
       "chat_id": 7582459199,
       "seq": 144,
       "identity": "#|Eulerity|Mobile iOS Developer Intern|New York, New York|Summer 2027#1"
+    },
+    "3a62ae8dce5a": {
+      "company": "Intel",
+      "role": "AI Software Engineering Intern",
+      "location": "Oregon Hillsboro",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1242,
+      "chat_id": 7582459199,
+      "seq": 145,
+      "identity": "#|Intel|AI Software Engineering Intern|Oregon Hillsboro|Summer 2027#1"
+    },
+    "099355908e3c": {
+      "company": "Intel",
+      "role": "AI Software Engineering Intern",
+      "location": "US, Arizona, Phoenix",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1243,
+      "chat_id": 7582459199,
+      "seq": 146,
+      "identity": "#|Intel|AI Software Engineering Intern|US, Arizona, Phoenix|Summer 2027#1"
+    },
+    "d928875fbd57": {
+      "company": "Aquatic Capital Management",
+      "role": "Software Engineer, Intern (Summer 2027)",
+      "location": "Chicago",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1244,
+      "chat_id": 7582459199,
+      "seq": 147,
+      "identity": "#|Aquatic Capital Management|Software Engineer, Intern (Summer 2027)|Chicago|Summer 2027#1"
     }
   },
   "applied": {
@@ -8787,9 +8823,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 144,
+  "seq": 147,
   "health": {
     "last_heartbeat": "2026-08-01T01:27:12Z",
-    "last_ok_run": "2026-08-01T02:20:14Z"
+    "last_ok_run": "2026-08-01T02:21:19Z"
   }
 }
