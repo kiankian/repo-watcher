@@ -8672,6 +8672,30 @@
       "chat_id": 7582459199,
       "seq": 165,
       "identity": "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef|Heliux|Software Engineer - Internship - Summer 2027|San Francisco, CA|Other#1"
+    },
+    "ddee407c8482": {
+      "company": "HPR (Hyannis Port Research)",
+      "role": "Software Engineer Intern",
+      "location": "Needham, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1263,
+      "chat_id": 7582459199,
+      "seq": 166,
+      "identity": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003?utm_source=Simplify&ref=Simplify|HPR (Hyannis Port Research)|Software Engineer Intern|Needham, MA|Summer 2026#1"
+    },
+    "7e29bd60f4c3": {
+      "company": "Medtronic",
+      "role": "Software Engineer Intern",
+      "location": "21 locationsBoston, MA Santa Ana, CA Fridley, MN Santa Rosa, CA Irvine, CA Mansfield, MA Mounds View, MN Tempe, AZ Memphis, TN Brooklyn Center, MN Plymouth, MN Brooklyn Park, MN Fort Worth, TX Dexter, MI North Haven, CT Lafayette, CO Minneapolis, MN Newton, MA Jacksonville, FL Eatontown, NJ Boulder, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1264,
+      "chat_id": 7582459199,
+      "seq": 167,
+      "identity": "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630?utm_source=Simplify&ref=Simplify|Medtronic|Software Engineer Intern|21 locationsBoston, MA Santa Ana, CA Fridley, MN Santa Rosa, CA Irvine, CA Mansfield, MA Mounds View, MN Tempe, AZ Memphis, TN Brooklyn Center, MN Plymouth, MN Brooklyn Park, MN Fort Worth, TX Dexter, MI North Haven, CT Lafayette, CO Minneapolis, MN Newton, MA Jacksonville, FL Eatontown, NJ Boulder, CO|Summer 2026#1"
     }
   },
   "applied": {
@@ -9039,9 +9063,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 165,
+  "seq": 167,
   "health": {
     "last_heartbeat": "2026-08-01T22:46:11Z",
-    "last_ok_run": "2026-08-01T23:00:25Z"
+    "last_ok_run": "2026-08-01T23:01:15Z"
   }
 }
