@@ -8588,6 +8588,30 @@
       "chat_id": 7582459199,
       "seq": 158,
       "identity": "#|Nuro|Software Engineer, AI Platform - Intern|Mountain View, Ca...|Summer 2027#1"
+    },
+    "3eaf0744a970": {
+      "company": "Leidos",
+      "role": "Application Developer Intern",
+      "location": "Indianapolis, IN",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1256,
+      "chat_id": 7582459199,
+      "seq": 159,
+      "identity": "#|Leidos|Application Developer Intern|Indianapolis, IN|Summer 2027#1"
+    },
+    "8a820c5aa595": {
+      "company": "Leidos",
+      "role": "Software Developer Intern",
+      "location": "Annapolis Junctio...",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1257,
+      "chat_id": 7582459199,
+      "seq": 160,
+      "identity": "#|Leidos|Software Developer Intern|Annapolis Junctio...|Summer 2027#1"
     }
   },
   "applied": {
@@ -8955,9 +8979,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 158,
+  "seq": 160,
   "health": {
     "last_heartbeat": "2026-08-01T05:28:21Z",
-    "last_ok_run": "2026-08-01T05:34:10Z"
+    "last_ok_run": "2026-08-01T05:35:18Z"
   }
 }
