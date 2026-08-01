@@ -8516,6 +8516,42 @@
       "chat_id": 7582459199,
       "seq": 152,
       "identity": "#|GlobalFoundries|Robotics and Automation Engineering I...|Essex Junction|Summer 2027#1"
+    },
+    "d623a54ed1ce": {
+      "company": "GDIT",
+      "role": "Systems Engineer Intern",
+      "location": "USA NY Albany",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1250,
+      "chat_id": 7582459199,
+      "seq": 153,
+      "identity": "#|GDIT|Systems Engineer Intern|USA NY Albany|Summer 2027#1"
+    },
+    "dbe300f61f6b": {
+      "company": "Magna",
+      "role": "IoT Systems Engineer - Co-op (4 month...",
+      "location": "Milton, Ontario, CA",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1251,
+      "chat_id": 7582459199,
+      "seq": 154,
+      "identity": "#|Magna|IoT Systems Engineer - Co-op (4 month...|Milton, Ontario, CA|Summer 2027#1"
+    },
+    "c32ad3236613": {
+      "company": "Magna",
+      "role": "Quality Engineering Co-op (Fall Term ...",
+      "location": "Newmarket, Ontari...",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1252,
+      "chat_id": 7582459199,
+      "seq": 155,
+      "identity": "#|Magna|Quality Engineering Co-op (Fall Term ...|Newmarket, Ontari...|Summer 2027#1"
     }
   },
   "applied": {
@@ -8883,9 +8919,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 152,
+  "seq": 155,
   "health": {
     "last_heartbeat": "2026-08-01T03:28:13Z",
-    "last_ok_run": "2026-08-01T04:05:11Z"
+    "last_ok_run": "2026-08-01T04:06:14Z"
   }
 }
