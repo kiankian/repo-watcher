@@ -8480,6 +8480,30 @@
       "chat_id": 7582459199,
       "seq": 149,
       "identity": "#|Zscaler|Site Reliability Engineer Federal- Sk...|Virginia, USA|Summer 2027#1"
+    },
+    "2bb6ee9f04de": {
+      "company": "Motorola Solutions",
+      "role": "R&D Intern - Wireless Systems Enginee...",
+      "location": "Los Angeles, CA",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1247,
+      "chat_id": 7582459199,
+      "seq": 150,
+      "identity": "#|Motorola Solutions|R&D Intern - Wireless Systems Enginee...|Los Angeles, CA|Summer 2027#1"
+    },
+    "03c37a6e2c37": {
+      "company": "Motorola Solutions",
+      "role": "Intern - Embedded Software, System, a...",
+      "location": "Irvine, CA",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1248,
+      "chat_id": 7582459199,
+      "seq": 151,
+      "identity": "#|Motorola Solutions|Intern - Embedded Software, System, a...|Irvine, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -8847,9 +8871,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 149,
+  "seq": 151,
   "health": {
     "last_heartbeat": "2026-08-01T02:27:12Z",
-    "last_ok_run": "2026-08-01T03:24:15Z"
+    "last_ok_run": "2026-08-01T03:25:23Z"
   }
 }
