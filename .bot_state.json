@@ -8612,6 +8612,42 @@
       "chat_id": 7582459199,
       "seq": 160,
       "identity": "#|Leidos|Software Developer Intern|Annapolis Junctio...|Summer 2027#1"
+    },
+    "c240849cc5f8": {
+      "company": "DoorDash",
+      "role": "Software Engineer I, Entry-Level (Gra...",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1258,
+      "chat_id": 7582459199,
+      "seq": 161,
+      "identity": "#|DoorDash|Software Engineer I, Entry-Level (Gra...|New York, NY|Summer 2027#1"
+    },
+    "a28d6f536489": {
+      "company": "Neuralink",
+      "role": "Software Engineer Intern, BCI Applica...",
+      "location": "South San Francis...",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1259,
+      "chat_id": 7582459199,
+      "seq": 162,
+      "identity": "#|Neuralink|Software Engineer Intern, BCI Applica...|South San Francis...|Summer 2027#1"
+    },
+    "44649a50a5c2": {
+      "company": "Neuralink",
+      "role": "Software Engineer Intern, Implant",
+      "location": "Austin, Texas, Un...",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1260,
+      "chat_id": 7582459199,
+      "seq": 163,
+      "identity": "#|Neuralink|Software Engineer Intern, Implant|Austin, Texas, Un...|Summer 2027#1"
     }
   },
   "applied": {
@@ -8979,9 +9015,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 160,
+  "seq": 163,
   "health": {
     "last_heartbeat": "2026-08-01T06:29:18Z",
-    "last_ok_run": "2026-08-01T06:41:13Z"
+    "last_ok_run": "2026-08-01T06:42:18Z"
   }
 }

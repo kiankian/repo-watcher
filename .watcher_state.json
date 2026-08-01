@@ -1484,7 +1484,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "3ee442efce081eb780a8634b0f9b0adb72ef3609",
+    "last_sha": "2276443ee121edbb2e53a9b70091bd77346dbfbd",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -1666,7 +1666,10 @@
       "#|Zscaler|Site Reliability Engineer-SkillBridge...|USA|Summer 2027#1",
       "#|Nuro|Software Engineer, AI Platform - Intern|Mountain View, Ca...|Summer 2027#1",
       "#|Leidos|Application Developer Intern|Indianapolis, IN|Summer 2027#1",
-      "#|Leidos|Software Developer Intern|Annapolis Junctio...|Summer 2027#1"
+      "#|Leidos|Software Developer Intern|Annapolis Junctio...|Summer 2027#1",
+      "#|DoorDash|Software Engineer I, Entry-Level (Gra...|New York, NY|Summer 2027#1",
+      "#|Neuralink|Software Engineer Intern, BCI Applica...|South San Francis...|Summer 2027#1",
+      "#|Neuralink|Software Engineer Intern, Implant|Austin, Texas, Un...|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
