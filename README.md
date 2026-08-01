@@ -23,11 +23,13 @@ Every source uses one dedup rule, built around a per-opening **identity**:
 identity = (apply_url or NOURL) |company|role|location|term #occurrence
 ```
 
-A listing is alerted when its identity has never been delivered. Three properties make that safe:
+A listing is alerted when its identity has never been delivered. Four properties make that safe:
 
 1. **`seen` only grows.** It is a union, never a replacement. When the parsed row set shrinks — a truncated parse, or upstream pruning its table — the rows that vanished stay in `seen`, so they do not re-alert when they come back, while anything genuinely new in the same run still goes out.
 2. **An identity is recorded only after Telegram confirms the message, and undelivered work is queued durably.** A failed or rate-limited send — or a batch over `BURST_CAP` — is written to that source's `outbox` as a full `[row, identity, occurrence]` triple and drained on subsequent runs, including runs where the upstream SHA has not changed. Withholding from `seen` alone was not enough: the retry re-derived the row from a fresh parse, so anything that left the upstream table in the meantime was lost. Zapply's table re-sorts and is capped at ~100 rows, and a long delivery outage widens that window arbitrarily.
 3. **Every parsed row gets exactly one identity, and no two rows in a run share one.** Every field participates, because either half alone collapses distinct openings. URL alone is not enough: boards sometimes publish a generic link shared by several rows, and if one of those openings is replaced while the row count stays the same, occurrence numbering hands the replacement an already-seen identity. Text alone is not enough either: Copart posts several Dallas SWE-intern reqs differing only by Workday ID. `term` also lets a requisition relisted for a new season through, and the occurrence index separates rows identical in every field (Kudu Dynamics lists the same URL-less role three times).
+
+4. **A run cannot alert a whole table at once.** Because the identity is URL-first, an upstream generator that stops emitting apply URLs re-keys every row in a single commit, and every listing on the board looks new. What distinguishes that from real news is not the rows but the shape of the run: real listings arrive by being added upstream, so discoveries come with a row count that rose to match, while a re-key mints identities for rows that were already there and the count does not move. Discoveries that the table's own growth does not explain are counted, and at `IDENTITY_RESET_MIN` (25) or more the run is treated as a fault — the discoveries are dropped unsent and unrecorded, `⚠️ identity-reset` goes out, and the SHA is held so the recovery commit is re-parsed rather than skipped. Nothing is lost: the rows are still listed upstream, so they are re-derived once upstream is consistent and delivered then. See [Whole-table re-key](#whole-table-re-key).
 
 Including the text costs a duplicate whenever upstream edits a role or location string in place. Measured across 2,060 state snapshots spanning 18 days and 475 distinct `(source, URL)` pairs, that happened **zero** times — so the protection is effectively free.
 
@@ -104,6 +106,7 @@ Misses are caught by reconciling what was *observed* against what was *delivered
 | `outbox_size` not trending to zero | `logs/runs-*.jsonl`, and `outbox` in `.watcher_state.json` | jobs were observed as new but never delivered — the queue is stuck |
 | `⚠️ outbox-overflow` | Telegram | the queue exceeded `OUTBOX_CAP` and jobs were dropped. This is a real miss |
 | `⚠️ fetch-failed` / `⚠️ zero-rows` | Telegram, and `skip_reason` in the run log | a source produced nothing; anything posted there while it was broken was never seen |
+| `⚠️ identity-reset` | Telegram, and `skip_reason=identity_reset:<n>` in the run log | a source re-keyed its whole table; its discoveries were dropped unsent. Not a miss on its own — they redeliver once upstream is consistent — but the source is blind until then. See [Whole-table re-key](#whole-table-re-key) |
 | `queued_before + identities_new` vs `sent_ok + sent_failed` | `logs/runs-*.jsonl` | should always match. `identities_new` counts only fresh discoveries, so `queued_before` is needed to balance a backlog drain |
 | `outbox_size` vs `sent_failed` | `logs/runs-*.jsonl` | should match. `outbox_size` is always the depth *after* the run, on every code path |
 | pings stopped | your healthcheck provider | either the dispatch died or a source is unreadable (see below) |
@@ -118,6 +121,7 @@ Operational faults are sent to the same chat with a `⚠️ watcher:` prefix, ra
 - a source parsed **0 rows** (renamed heading or reshaped table — otherwise indistinguishable from "no new listings")
 - the outbox overflowed `OUTBOX_CAP`, dropping undelivered jobs
 - a parse returned under 70% of its previous row count
+- a source discovered `IDENTITY_RESET_MIN` (25) more listings than its row-count growth explains — the whole-table re-key breaker, below
 - a send failed (the listing stays unrecorded and will be retried)
 - `SEEN_CAP` eviction
 - no successful run for over 2 hours
@@ -209,6 +213,38 @@ cron-job.org / token side. Diagnose in this order:
      secrets, or there were simply no new listings.
 3. **Verify the PAT** at GitHub → Settings → Developer settings → Personal access tokens —
    check its **expiry** and that it still grants `Actions: write` on `kiankian/repo-watcher`.
+
+### Whole-table re-key
+
+The opposite failure: instead of going quiet, one source alerts its entire board at once.
+
+This happened on **2026-08-01 01:56 UTC**. Upstream commit `zapplyjobs/Internships-2027@8eb9fd34`
+replaced every apply URL in the README with the placeholder `#` — 499 of them, the whole file,
+not just the watched section. The identity is URL-first, so all 100 rows in the Software
+Engineering table re-keyed at once, `select_new` correctly reported 100 discoveries, and the run
+alerted 25 (`BURST_CAP`) and queued 75. The next two runs drained 25 each. Every one of those
+messages carried a `#` where the apply link belongs, so none of them were actionable. No existing
+guard caught it: the fetch worked, the section markers matched, and the parse returned exactly
+100 rows as always — only the *contents* of one column had degraded.
+
+`IDENTITY_RESET_MIN` now stops this (see [Delivery guarantee](#delivery-guarantee), property 4).
+If it fires:
+
+1. **Read the alert.** It names the source, the discovery count, and the row counts either side.
+2. **Open the upstream table** and compare a row against `PARSING_REFERENCE.md`. Look for an
+   apply-URL column that has gone blank or become a placeholder, a reordered or inserted column,
+   or a heading change that shifted the section slice.
+3. **If upstream is broken**, do nothing. The breaker re-arms every run, holds the SHA, and
+   resumes delivery by itself once upstream is consistent. Genuinely new listings that appeared
+   during the outage are still in the upstream table and go out on the first healthy run.
+4. **If upstream changed shape deliberately**, fix the column indexes in `WATCHERS` — the
+   breaker is telling you the parser config is stale. Rehearse with `dry_run` before merging.
+5. **Only if the table legitimately turned over** (a season rollover republishing everything
+   under new URLs) is the suppression unwanted. Re-run after the breaker clears, or raise
+   `IDENTITY_RESET_MIN` for that rollover and put it back afterwards.
+
+Note the breaker suppresses *discoveries*, not the queue: anything already in the `outbox` was
+vetted on the run that found it and keeps draining while the breaker holds.
 
 ## Application tracker (Telegram → Google Sheet)
 

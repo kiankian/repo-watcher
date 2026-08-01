@@ -168,6 +168,37 @@ def row_key(r):
 # logged when it happens.
 SEEN_CAP = 5000
 
+# An upstream generator that stops emitting apply URLs re-keys every row in one commit: the
+# identity is URL-first, so a table whose links all become "#" yields a full set of identities no
+# source has ever seen, and every listing on the board looks like a discovery. Nothing about an
+# individual row gives this away — each one is genuinely new *as an identity*.
+#
+# What gives it away is that the discoveries are not accompanied by a table that grew to hold
+# them. Real listings arrive by being added upstream, so a run that discovers N rows almost
+# always sees the row count rise by about N. A re-key mints new identities for rows that were
+# already there, so the count does not move at all. Measuring discoveries the table's own growth
+# does not explain separates the two cleanly, and — unlike a share-of-table ratio — it does not
+# mistake a large legitimate influx for a fault.
+#
+# Across the 253 runs recorded before the 2026-08-01 Zapply incident, no run left more than 2
+# discoveries unexplained (ordinary churn on a size-capped board: a row rotates out, another
+# rotates in). The incident left 100. The floor sits in that gap, high enough to absorb a burst
+# of churn many times worse than anything observed.
+IDENTITY_RESET_MIN = 25
+
+
+def is_identity_reset(new_count, row_count, prev_row_count):
+    """True when a run's discoveries look like the table re-keying, not new listings.
+
+    prev_row_count is None on a source's first parse, where the whole table is legitimately
+    growth and nothing can be unexplained.
+    """
+    if row_count <= 0:
+        return False
+    growth = row_count - (prev_row_count or 0)
+    unexplained = new_count - max(0, growth)
+    return unexplained >= IDENTITY_RESET_MIN
+
 
 def identity_stem(entry):
     # URL first so the stem stays greppable in state and logs, then every text field.

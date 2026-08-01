@@ -705,3 +705,104 @@ def test_the_request_timeout_shrinks_with_the_remaining_budget(run_watcher, fixt
         f"timeouts should taper as the budget drains, saw {sorted(set(r.timeouts))}"
     )
     assert all(t > 0 for t in r.timeouts), "never zero or negative, which would fail instantly"
+
+
+# --- the 2026-08-01 whole-table re-key ---------------------------------------------------
+
+def _blank_the_apply_urls(rows):
+    """What zapplyjobs/Internships-2027 shipped at 8eb9fd34: every `](url)` became `](#)`."""
+    return [row[:4] + ["#"] for row in rows]
+
+
+def test_a_whole_table_rekey_is_not_alerted(run_watcher):
+    """The recorded 2026-08-01 01:56 UTC event. Upstream's generator emitted "#" for every
+    apply URL in one commit; the identity is URL-first, so all 100 rows became identities the
+    watcher had never seen and it sent 100 alerts carrying a "#" in place of a link — 25 that
+    run and the rest queued for the runs after it."""
+    before = load_fixture("collapse_84.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    assert len(seeded.seen) == 84
+
+    rekeyed = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
+
+    assert rekeyed.sent == [], "not one re-keyed row is delivered"
+    assert rekeyed.outbox == [], "and none are queued to leak out on a later run"
+    assert rekeyed.health_matching("re-keying"), "the operator is told instead"
+
+
+def test_a_rekey_leaves_no_trace_in_state_to_re_alert_later(run_watcher):
+    """Recording the "#" identities as seen would be the worse failure: when upstream fixes its
+    generator the rows revert to their real identities, and every one whose real identity was
+    never recorded alerts a second time. Holding the SHA matters for the same reason — the
+    recovery commit must be re-parsed, not skipped as already-processed."""
+    before = load_fixture("collapse_84.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    rekeyed = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
+
+    assert rekeyed.seen == seeded.seen, "no `#` identity is recorded"
+    assert rekeyed.last_sha == seeded.last_sha, "the SHA is held for a re-parse"
+
+
+def test_delivery_resumes_by_itself_once_upstream_is_fixed(run_watcher):
+    """The breaker must not need a human to reset it, and must not have cost anything: the rows
+    that were genuinely new during the outage are still listed upstream, so they go out on the
+    first healthy run — exactly once, with their real links."""
+    before = load_fixture("collapse_84.json")
+    arrival = ["Newcorp", "SWE Intern", "Austin, TX", "Summer 2027",
+               "https://newcorp.test/jobs/1"]
+
+    seeded = run_watcher(before, drop_target_state=True)
+    rekeyed = run_watcher(_blank_the_apply_urls(before + [arrival]),
+                          start_files=seeded.files)
+    assert rekeyed.sent == []
+
+    recovered = run_watcher(before + [arrival], start_files=rekeyed.files)
+
+    assert len(recovered.sent) == 1, "only the row that genuinely arrived"
+    assert recovered.sent_matching("newcorp.test/jobs/1"), "and with its real link"
+    assert len(recovered.seen) == 84 + 1
+
+
+def test_a_rekey_does_not_stall_the_outbox(run_watcher):
+    """Queued jobs were vetted on the run that discovered them, so the breaker must suppress
+    only fresh discoveries. Stranding the queue behind a broken upstream is the failure the
+    outbox exists to prevent."""
+    before = load_fixture("collapse_84.json")
+    extra = [
+        [f"BurstCorp {i:03d}", "SWE Intern", "Testville, TS", "Summer 2027",
+         f"https://example.com/apply/burst{i}"]
+        for i in range(30)
+    ]
+
+    seeded = run_watcher(before, drop_target_state=True)
+    # 30 arrivals on an 84-row table: growth explains them, so this is a normal burst that
+    # caps at BURST_CAP and leaves the remainder queued.
+    burst = run_watcher(before + extra, start_files=seeded.files)
+    assert len(burst.sent) == 25 and len(burst.outbox) == 5
+
+    rekeyed = run_watcher(_blank_the_apply_urls(before + extra),
+                          start_files=burst.files)
+
+    assert len(rekeyed.sent) == 5, "the queue drains even while the breaker holds"
+    assert rekeyed.outbox == []
+    assert rekeyed.health_matching("re-keying")
+
+
+def test_the_rekey_is_recorded_in_the_run_log(run_watcher):
+    """The run log is the forensic record. A suppressed run must be distinguishable from a
+    quiet one, and its counters must still reconcile."""
+    before = load_fixture("collapse_84.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    rekeyed = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
+
+    rec = [r for r in rekeyed.log_records("runs") if r.get("watcher")][0]
+    assert rec["skip_reason"] == "identity_reset:84", "the suppressed count is preserved"
+    assert rec["rows_extracted"] == 84, "the parse itself was fine"
+    assert rec["identities_new"] == 0, (
+        "suppressed rows are not discoveries: they were neither recorded nor sent, and "
+        "counting them would break queued_before + identities_new == sent_ok + sent_failed"
+    )
+    assert rec["queued_before"] + rec["identities_new"] == rec["sent_ok"] + rec["sent_failed"]

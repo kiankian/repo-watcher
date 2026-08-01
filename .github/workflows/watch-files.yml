@@ -56,10 +56,12 @@ jobs:
           # Pure parsing/dedup logic lives in watcher/core.py so it can be unit tested; this
           # block keeps only the I/O. cwd is the repo root under actions/checkout.
           from watcher.core import (
+              IDENTITY_RESET_MIN,
               SEEN_CAP,
               assign_identities,
               extract_section,
               fmt,
+              is_identity_reset,
               job_hash,
               migrate_state,
               parse_html_rows,
@@ -710,10 +712,45 @@ jobs:
               # discovery on the run that first saw it, so counting it again here would double it
               # against queued_before and break the reconciliation invariant.
               fresh_new = [p for p in fresh_pairs if p[1] not in queued]
+
+              # Circuit breaker for a whole-table re-key (see is_identity_reset). A source that
+              # discovers most of its own table in one run has almost certainly had its identity
+              # inputs rewritten upstream, not gained a hundred openings, so the discoveries are
+              # dropped rather than sent or recorded.
+              #
+              # Dropped, specifically, means: not delivered, not added to `seen`, and not queued
+              # in the outbox. Queuing would only defer the flood, and recording them as seen
+              # would poison dedup — when upstream is fixed the rows revert to their real
+              # identities and would alert a second time. Nothing is lost by dropping: these rows
+              # are still listed upstream, so select_new re-derives them on the next run, and the
+              # first run after the breaker clears delivers whatever is genuinely new.
+              #
+              # The SHA is deliberately not advanced, so the next run re-fetches and re-parses
+              # instead of short-circuiting on upstream_unchanged and sitting out the recovery.
+              identity_reset = (
+                  seen_list and curr_rows is not None
+                  and is_identity_reset(len(fresh_new), len(curr_rows), prev_row_count)
+              )
+              if identity_reset:
+                  health_alert(
+                      f"identity-reset:{state_key}",
+                      f"{w['label']} discovered {len(fresh_new)} new identities while its table "
+                      f"went from {prev_row_count} rows to {len(curr_rows)} — at least "
+                      f"{IDENTITY_RESET_MIN} more discoveries than that growth explains. That is "
+                      "the signature of the upstream table re-keying (an apply-URL column going "
+                      "blank, or a column order change), not real listings. They have been "
+                      "dropped unsent; delivery resumes by itself once upstream is consistent "
+                      "again. Check the source table before changing parser config.",
+                  )
+                  skip_reason = skip_reason or f"identity_reset:{len(fresh_new)}"
+                  fresh_new = []
+
               # Queued work first, so the oldest jobs drain ahead of newly-seen rows and cannot be
               # starved by a steady stream of new listings. This runs even when the snapshot could
               # not be fetched or parsed — otherwise a permanent upstream rename would strand
-              # every already-discovered job behind a source that never recovers.
+              # every already-discovered job behind a source that never recovers. The breaker
+              # above suppresses only fresh discoveries; already-queued jobs were vetted on the
+              # run that found them and keep draining.
               to_send = list(outbox) + fresh_new
 
               delivered, undelivered = deliver_listings(to_send, w["label"])
@@ -747,7 +784,12 @@ jobs:
               state[state_key] = {
                   # Only advance when a snapshot was actually parsed. Anything undelivered is
                   # durably queued rather than depending on being re-derived from a later parse.
-                  "last_sha": latest_sha if curr_rows is not None else last_sha,
+                  # A tripped breaker also holds the SHA: its discoveries were dropped rather
+                  # than recorded, so the run has not accounted for this snapshot and must not
+                  # let a later upstream_unchanged skip stand in for having processed it.
+                  "last_sha": (
+                      latest_sha if curr_rows is not None and not identity_reset else last_sha
+                  ),
                   "seen": merged[-SEEN_CAP:],
                   "seen_legacy_urls": legacy_urls,
                   "last_row_count": len(curr_rows) if curr_rows is not None else prev_row_count,

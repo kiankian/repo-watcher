@@ -555,3 +555,49 @@ def test_url_less_rows_are_still_told_apart_by_their_text():
     b = ["Acme", "Frontend Intern", "NYC", "T", ""]
 
     assert core.row_identity(a, 1) != core.row_identity(b, 1)
+
+
+# --- is_identity_reset: the whole-table re-key breaker -----------------------------------
+
+def test_a_whole_table_rekey_is_detected():
+    """The 2026-08-01 Zapply incident: upstream replaced every apply URL with "#", so all 100
+    rows re-keyed at once while the table stayed exactly 100 rows long."""
+    assert core.is_identity_reset(100, 100, 100)
+
+
+def test_discoveries_a_growing_table_explains_are_not_a_reset():
+    """The signal is discoveries the table did not grow to hold. A board that gains 40 listings
+    and alerts 40 is the watcher working, however large the batch."""
+    assert not core.is_identity_reset(40, 140, 100)
+
+
+def test_a_first_parse_is_never_a_reset():
+    """prev_row_count is None before a source has ever been parsed, so the whole table is
+    growth. Speedyapply's first real parse discovered 14 rows of 125 this way."""
+    assert not core.is_identity_reset(14, 125, None)
+
+
+def test_ordinary_churn_on_a_size_capped_board_is_not_a_reset():
+    """Zapply is capped at ~100 rows, so a new listing displaces an old one and the count never
+    moves. No run on record left more than 2 discoveries unexplained."""
+    assert not core.is_identity_reset(2, 100, 100)
+
+
+@pytest.mark.parametrize("unexplained,expected", [
+    (core.IDENTITY_RESET_MIN - 1, False),
+    (core.IDENTITY_RESET_MIN, True),
+])
+def test_the_reset_floor_is_inclusive(unexplained, expected):
+    assert core.is_identity_reset(unexplained, 100, 100) is expected
+
+
+def test_a_rekey_still_trips_when_the_table_also_grew():
+    """Growth is subtracted, not used as an excuse: 120 discoveries on a table that grew by 20
+    still leaves 100 the growth cannot account for."""
+    assert core.is_identity_reset(120, 120, 100)
+
+
+def test_a_shrinking_table_does_not_borrow_growth():
+    """Negative growth is floored at zero. Crediting a shrink would make the breaker *harder*
+    to trip on a truncating parse, which is the opposite of what it is for."""
+    assert core.is_identity_reset(core.IDENTITY_RESET_MIN, 40, 100)

@@ -79,10 +79,30 @@ Each entry in `.watcher_state.json` has the same shape:
 7. **Silent bootstrap:** no `seen` yet → seed identities from the current rows and alert nothing.
    `seen_legacy_urls` stays empty, or a requisition relisted for a new season could never alert.
 8. Otherwise select rows whose identity is absent from `seen` and whose URL is absent from
-   `seen_legacy_urls`. Prepend anything already in the `outbox` so the oldest work drains first.
-9. Deliver, capped at `BURST_CAP` attempts and the whole-run time budget.
-10. Union the confirmed identities into `seen` (capped at `SEEN_CAP`, oldest evicted). Undelivered
-    rows go back to the `outbox`. Advance `last_sha` only if a snapshot was actually parsed.
+   `seen_legacy_urls`.
+9. **Re-key guard:** count the discoveries that the table's growth since `last_row_count` does not
+   explain (`new − max(0, rows − last_row_count)`). At `IDENTITY_RESET_MIN` (25) or more, the
+   identity inputs have been rewritten upstream rather than a hundred openings appearing at once.
+   Report `⚠️ identity-reset`, drop the discoveries unsent *and unrecorded*, and hold the SHA so
+   the recovery commit is re-parsed. Queued rows still drain.
+10. Prepend anything already in the `outbox` so the oldest work drains first.
+11. Deliver, capped at `BURST_CAP` attempts and the whole-run time budget.
+12. Union the confirmed identities into `seen` (capped at `SEEN_CAP`, oldest evicted). Undelivered
+    rows go back to the `outbox`. Advance `last_sha` only if a snapshot was actually parsed and the
+    re-key guard did not fire.
+
+The re-key guard drops rather than queues, and drops rather than records, on purpose. Queuing would
+only defer the flood by a few runs. Recording the degraded identities as seen would be worse than
+sending them: when upstream restores the real URLs the rows revert to their real identities, and
+every row whose real identity was never recorded alerts a second time. Dropping costs nothing,
+because a suppressed row is still listed upstream and is re-derived on the next run — so the first
+healthy run delivers exactly what is genuinely new, with real links.
+
+It keys on row-count growth rather than a share of the table because growth is what separates the
+two populations. Across the 253 runs before the 2026-08-01 Zapply re-key, no run left more than 2
+discoveries unexplained; that incident left 100. A share-of-table ratio would instead have to
+choose between suppressing a large legitimate influx and missing a re-key of a table that also
+grew.
 
 Why an append-only identity set rather than a snapshot diff:
 
@@ -168,9 +188,16 @@ Column quirks (0-indexed after `strip('|').split('|')`):
 - `[0]` **Company** — bold plaintext `**Name**` (no link); the `**` is stripped via `strip_bold=True`.
 - `[1]` **Role** — plaintext, **truncated to ~40 chars with a literal `...`** when long.
 - `[2]` **Location** — plaintext, also truncated with `...`.
-- `[3]` **Posted** — always the literal `Recently` (no usable date) → not used.
-- `[4]` **Visa** — always empty → not used.
+- `[3]` **Posted** — no usable date, and not stable: observed as the literal `Recently`, then `Undated` / `Date unknown`, then relative ages (`1h`, `1d`, `2d`). Never used — `term_col=None` stamps `default_term` instead, which is why this churn has never produced an alert.
+- `[4]` **Visa** — `🏛 H-1B Co.`, `✅ Sponsor`, or empty → not used.
 - `[5]` **Apply** — `[<img src="images/apply.png" width="80" alt="Apply">](REAL_ATS_URL)`. `extract_apply_url` finds no `href=`, so it falls through to the `](url)` regex and captures the full ATS URL (Greenhouse / Workday / Ashby / Lever / SmartRecruiters / Oracle / etc.).
+
+> ⚠️ **This column is not reliably populated.** On 2026-08-01 (`8eb9fd34`) the generator emitted
+> `](#)` for every apply link in the file — 499 of them — and kept doing so. The markup is
+> unchanged, so `extract_apply_url` captures `#` and the row parses "successfully" with a
+> placeholder where the URL belongs. Because the identity is URL-first and this table's other
+> fields are truncated, that re-keys all ~100 rows at once. This is the incident the
+> `IDENTITY_RESET_MIN` guard exists for; see the State + Delivery Flow section above.
 
 Config: `parser="markdown"`, `role_col=1`, `loc_col=2`, `apply_col=5`, `term_col=None` (stamps `default_term="Summer 2027"`), `min_cells=6`, `strip_bold=True`.
 
@@ -178,7 +205,7 @@ Parsing behavior:
 - Shares `parse_markdown_rows` with Vansh; its keyword args override the column layout (defaults reproduce Vansh, so the Vansh call is untouched).
 - The header row (`| Company | ... |`) is skipped by the `parts[0].lower().replace('*','') == 'company'` check; the `|---|` separator is skipped by the dash/colon check.
 - The `<p align="center">…</p>` promo lines and `</details>` tag between the table and the next section are ignored (they don't start with `|`).
-- Its Role/Location are truncated and its Posted column is the constant `Recently`, so the apply URL is the only field here that identifies a row. The shared identity leads with the URL for exactly this reason.
+- Its Role/Location are truncated and its Posted column is unusable, so the apply URL is the only field here that identifies a row. The shared identity leads with the URL for exactly this reason — and it is also why this source is the most exposed to the URL column degrading, since there is nothing else left to tell two rows apart.
 
 Example row → parsed output:
 
