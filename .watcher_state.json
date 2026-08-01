@@ -1833,7 +1833,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "2209e7c810c8367569e248502f12b013ad074f28",
+    "last_sha": "3a0bcf17613165318947fcbf5e84b569424785c1",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -1872,11 +1872,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 18,
+    "last_row_count": 17,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "2209e7c810c8367569e248502f12b013ad074f28",
+    "last_sha": "3a0bcf17613165318947fcbf5e84b569424785c1",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -1914,7 +1914,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "2209e7c810c8367569e248502f12b013ad074f28",
+    "last_sha": "3a0bcf17613165318947fcbf5e84b569424785c1",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -1941,7 +1941,9 @@
       "https://jobs.ashbyhq.com/astera/c2a48c1b-c4c4-4333-addf-313c47e26066|Astera Institute|Software Engineering Intern - Distributed Simulation Systems|Emeryville, CA|Other#1",
       "https://jobs.ashbyhq.com/dexmate/eac26b6f-1a53-441f-8e52-ee0a0b1bc119|Dexmate|Frontend Engineer Intern|Fremont, CA|Other#1",
       "https://careers-sig.icims.com/jobs/10838/quantitative-strategy-developer-internship%3a-summer-2027/job|Susquehanna International Group|Quantitative Strategy Developer Internship: Summer 2027|Bala Cynwyd, PA|Other#1",
-      "https://jobs.ashbyhq.com/spacial/67b76194-6cc0-4d37-a3e3-c21a14ff4a26|Spacial AI|Software Engineering Intern - Summer 2026|Palo Alto, CA|Other#1"
+      "https://jobs.ashbyhq.com/spacial/67b76194-6cc0-4d37-a3e3-c21a14ff4a26|Spacial AI|Software Engineering Intern - Summer 2026|Palo Alto, CA|Other#1",
+      "https://jobs.ashbyhq.com/heliux/c71c0650-b6f7-491f-b291-6b280f58ee9c|Heliux|Software Engineer - Internship - Spring 2027|San Francisco, CA|Other#1",
+      "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef|Heliux|Software Engineer - Internship - Summer 2027|San Francisco, CA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -2085,7 +2087,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 125,
+    "last_row_count": 121,
     "outbox": []
   }
 }
