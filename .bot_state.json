@@ -8504,6 +8504,18 @@
       "chat_id": 7582459199,
       "seq": 151,
       "identity": "#|Motorola Solutions|Intern - Embedded Software, System, a...|Irvine, CA|Summer 2027#1"
+    },
+    "2e32857fd380": {
+      "company": "GlobalFoundries",
+      "role": "Robotics and Automation Engineering I...",
+      "location": "Essex Junction",
+      "term": "Summer 2027",
+      "apply_url": "#",
+      "source": "Zapply Summer Repo",
+      "message_id": 1249,
+      "chat_id": 7582459199,
+      "seq": 152,
+      "identity": "#|GlobalFoundries|Robotics and Automation Engineering I...|Essex Junction|Summer 2027#1"
     }
   },
   "applied": {
@@ -8871,9 +8883,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 151,
+  "seq": 152,
   "health": {
     "last_heartbeat": "2026-08-01T03:28:13Z",
-    "last_ok_run": "2026-08-01T03:54:10Z"
+    "last_ok_run": "2026-08-01T03:55:15Z"
   }
 }
