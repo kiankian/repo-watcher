@@ -8696,6 +8696,42 @@
       "chat_id": 7582459199,
       "seq": 167,
       "identity": "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630?utm_source=Simplify&ref=Simplify|Medtronic|Software Engineer Intern|21 locationsBoston, MA Santa Ana, CA Fridley, MN Santa Rosa, CA Irvine, CA Mansfield, MA Mounds View, MN Tempe, AZ Memphis, TN Brooklyn Center, MN Plymouth, MN Brooklyn Park, MN Fort Worth, TX Dexter, MI North Haven, CT Lafayette, CO Minneapolis, MN Newton, MA Jacksonville, FL Eatontown, NJ Boulder, CO|Summer 2026#1"
+    },
+    "14699d25675c": {
+      "company": "Hyannis Port Research",
+      "role": "Software Engineering Intern - Summer 2027",
+      "location": "Needham, MA",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1265,
+      "chat_id": 7582459199,
+      "seq": 168,
+      "identity": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003|Hyannis Port Research|Software Engineering Intern - Summer 2027|Needham, MA|Other#1"
+    },
+    "92d9997b0737": {
+      "company": "Medtronic",
+      "role": "Software Engineering Intern - Summer 2027",
+      "location": "Fridley, MN +20",
+      "term": "Other",
+      "apply_url": "https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1266,
+      "chat_id": 7582459199,
+      "seq": 169,
+      "identity": "https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1|Medtronic|Software Engineering Intern - Summer 2027|Fridley, MN +20|Other#1"
+    },
+    "60b0db2e60ed": {
+      "company": "Virtu Financial",
+      "role": "2027 Internship - Frontend Engineer - UI",
+      "location": "Austin, TX +1",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1267,
+      "chat_id": 7582459199,
+      "seq": 170,
+      "identity": "https://job-boards.greenhouse.io/virtu/jobs/8657500002|Virtu Financial|2027 Internship - Frontend Engineer - UI|Austin, TX +1|Other#1"
     }
   },
   "applied": {
@@ -9063,9 +9099,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 167,
+  "seq": 170,
   "health": {
     "last_heartbeat": "2026-08-02T12:57:12Z",
-    "last_ok_run": "2026-08-02T13:40:16Z"
+    "last_ok_run": "2026-08-02T13:41:15Z"
   }
 }
