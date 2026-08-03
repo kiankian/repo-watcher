@@ -9452,6 +9452,30 @@
       "chat_id": 7582459199,
       "seq": 230,
       "identity": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Technology-Internship-Program---Summer-2027_R244387-1?utm_source=Simplify&ref=Simplify|Capital One|Technology Intern|Plano, TX McLean, VA Richmond, VA|Summer 2026#1"
+    },
+    "61546ca64ade": {
+      "company": "Capital One",
+      "role": "Cyber Security Intern \ud83d\udec2",
+      "location": "McLean, VA Plano, TX",
+      "term": "Aug 03",
+      "apply_url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Cyber-Security-Internship-Program---Summer-2027_R244319?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1329,
+      "chat_id": 7582459199,
+      "seq": 231,
+      "identity": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Cyber-Security-Internship-Program---Summer-2027_R244319?utm_source=github-vansh-ouckah|Capital One|Cyber Security Intern \ud83d\udec2|McLean, VA Plano, TX|Aug 03#1"
+    },
+    "fb4253e49ad6": {
+      "company": "Capital One",
+      "role": "Software Engineer Intern \ud83d\udec2",
+      "location": "McLean, VA Plano, TX Richmond, VA",
+      "term": "Aug 03",
+      "apply_url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Technology-Internship-Program---Summer-2027_R244387-1?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1330,
+      "chat_id": 7582459199,
+      "seq": 232,
+      "identity": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Technology-Internship-Program---Summer-2027_R244387-1?utm_source=github-vansh-ouckah|Capital One|Software Engineer Intern \ud83d\udec2|McLean, VA Plano, TX Richmond, VA|Aug 03#1"
     }
   },
   "applied": {
@@ -9819,9 +9843,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 230,
+  "seq": 232,
   "health": {
     "last_heartbeat": "2026-08-03T15:20:20Z",
-    "last_ok_run": "2026-08-03T16:07:15Z"
+    "last_ok_run": "2026-08-03T16:08:25Z"
   }
 }
