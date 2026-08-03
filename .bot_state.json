@@ -8984,6 +8984,18 @@
       "chat_id": 7582459199,
       "seq": 191,
       "identity": "https://jobs.ashbyhq.com/auctor/9d67c881-3ca7-4616-a059-e94c03e19607|Auctor|Software Engineering Intern|New York|Summer 2027#1"
+    },
+    "98afa6891360": {
+      "company": "Medtronic",
+      "role": "Software Engineering Intern \u2013 Summer ...",
+      "location": "21 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1289,
+      "chat_id": 7582459199,
+      "seq": 192,
+      "identity": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1|Medtronic|Software Engineering Intern \u2013 Summer ...|21 Locations|Summer 2027#1"
     }
   },
   "applied": {
@@ -9351,9 +9363,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 191,
+  "seq": 192,
   "health": {
     "last_heartbeat": "2026-08-03T00:08:12Z",
-    "last_ok_run": "2026-08-03T00:19:11Z"
+    "last_ok_run": "2026-08-03T00:20:21Z"
   }
 }
