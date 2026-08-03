@@ -9296,6 +9296,42 @@
       "chat_id": 7582459199,
       "seq": 217,
       "identity": "https://lifeattiktok.com/search/7668675500744837381?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern|San Jose, CA|Summer 2026#1"
+    },
+    "4e44a7266e12": {
+      "company": "Medtronic",
+      "role": "Software Engineering Intern \ud83d\udec2",
+      "location": "**5 locations**Fridley, MN Tempe, AZ Eatontown, NJ Santa Rosa, CA Lafayette, CO",
+      "term": "Aug 03",
+      "apply_url": "https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1315,
+      "chat_id": 7582459199,
+      "seq": 218,
+      "identity": "https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1?utm_source=github-vansh-ouckah|Medtronic|Software Engineering Intern \ud83d\udec2|**5 locations**Fridley, MN Tempe, AZ Eatontown, NJ Santa Rosa, CA Lafayette, CO|Aug 03#1"
+    },
+    "8a3ad1142e82": {
+      "company": "HPR",
+      "role": "Software Engineering Intern \ud83d\udec2",
+      "location": "Needham, MA",
+      "term": "Aug 03",
+      "apply_url": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1316,
+      "chat_id": 7582459199,
+      "seq": 219,
+      "identity": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003?utm_source=github-vansh-ouckah|HPR|Software Engineering Intern \ud83d\udec2|Needham, MA|Aug 03#1"
+    },
+    "7b0b7a47eada": {
+      "company": "Heliux",
+      "role": "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "San Francisco, CA",
+      "term": "Aug 03",
+      "apply_url": "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1317,
+      "chat_id": 7582459199,
+      "seq": 220,
+      "identity": "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef?utm_source=github-vansh-ouckah|Heliux|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|Aug 03#1"
     }
   },
   "applied": {
@@ -9663,9 +9699,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 217,
+  "seq": 220,
   "health": {
     "last_heartbeat": "2026-08-03T07:11:27Z",
-    "last_ok_run": "2026-08-03T07:18:40Z"
+    "last_ok_run": "2026-08-03T07:19:35Z"
   }
 }
