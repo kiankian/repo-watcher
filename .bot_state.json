@@ -9416,6 +9416,30 @@
       "chat_id": 7582459199,
       "seq": 227,
       "identity": "https://apply.careers.microsoft.com/careers/job/1970393556951950?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Microsoft|Software Engineer Intern - CoreAI|Redmond, WA|Summer 2026#1"
+    },
+    "03b914110ff9": {
+      "company": "Palo Alto Networks",
+      "role": "Intern - Software Engineer",
+      "location": "",
+      "term": "Summer 2027",
+      "apply_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011603",
+      "source": "Zapply Summer Repo",
+      "message_id": 1326,
+      "chat_id": 7582459199,
+      "seq": 228,
+      "identity": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011603|Palo Alto Networks|Intern - Software Engineer||Summer 2027#1"
+    },
+    "60bc890dd692": {
+      "company": "Palo Alto Networks",
+      "role": "Intern - Software Engineer",
+      "location": "",
+      "term": "Summer 2027",
+      "apply_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011605",
+      "source": "Zapply Summer Repo",
+      "message_id": 1327,
+      "chat_id": 7582459199,
+      "seq": 229,
+      "identity": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011605|Palo Alto Networks|Intern - Software Engineer||Summer 2027#1"
     }
   },
   "applied": {
@@ -9783,9 +9807,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 227,
+  "seq": 229,
   "health": {
     "last_heartbeat": "2026-08-03T11:15:19Z",
-    "last_ok_run": "2026-08-03T11:49:16Z"
+    "last_ok_run": "2026-08-03T11:50:27Z"
   }
 }
