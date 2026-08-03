@@ -9620,6 +9620,42 @@
       "chat_id": 7582459199,
       "seq": 244,
       "identity": "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005?utm_source=Simplify&ref=Simplify|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Summer 2026#1"
+    },
+    "7adc3c0f13b5": {
+      "company": "\ud83d\udd25 SpaceX",
+      "role": "Software Engineering Intern/Co-op",
+      "location": "8 locationsPalo Alto, CA Bastrop, TX Irvine, CA Cape Canaveral, FL Brownsville, TX Redmond, WA McGregor, TX Hawthorne, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/spacex/jobs/8621757002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1343,
+      "chat_id": 7582459199,
+      "seq": 245,
+      "identity": "https://boards.greenhouse.io/spacex/jobs/8621757002?utm_source=Simplify&ref=Simplify|\ud83d\udd25 SpaceX|Software Engineering Intern/Co-op|8 locationsPalo Alto, CA Bastrop, TX Irvine, CA Cape Canaveral, FL Brownsville, TX Redmond, WA McGregor, TX Hawthorne, CA|Summer 2026#1"
+    },
+    "4eebbc7ef942": {
+      "company": "Uline",
+      "role": "Software Development Intern",
+      "location": "5 locationsWaukegan, IL Milwaukee, WI Glenview, IL Pleasant Prairie, WI Kenosha, WI",
+      "term": "Summer 2026",
+      "apply_url": "https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Software-Development-Internship---Summer-2027_R265684?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1344,
+      "chat_id": 7582459199,
+      "seq": 246,
+      "identity": "https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Software-Development-Internship---Summer-2027_R265684?utm_source=Simplify&ref=Simplify|Uline|Software Development Intern|5 locationsWaukegan, IL Milwaukee, WI Glenview, IL Pleasant Prairie, WI Kenosha, WI|Summer 2026#1"
+    },
+    "0446e7d90593": {
+      "company": "Netsmart",
+      "role": "Software Engineer Intern",
+      "location": "Overland Park, KS",
+      "term": "Summer 2026",
+      "apply_url": "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1345,
+      "chat_id": 7582459199,
+      "seq": 247,
+      "identity": "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667?utm_source=Simplify&ref=Simplify|Netsmart|Software Engineer Intern|Overland Park, KS|Summer 2026#1"
     }
   },
   "applied": {
@@ -9987,9 +10023,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 244,
+  "seq": 247,
   "health": {
     "last_heartbeat": "2026-08-03T23:23:10Z",
-    "last_ok_run": "2026-08-03T23:30:20Z"
+    "last_ok_run": "2026-08-03T23:31:12Z"
   }
 }
