@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "3ce11f6c51a91c69411eeeffe50a135a4267ead0",
+    "last_sha": "8e70aedae1bfa700eb73d5a0415874d75e340bd9",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -1279,10 +1279,31 @@
       "https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280/application?embed=true&utm_source=Simplify&ref=Simplify|Melius|Software Engineer Intern|NYC|Summer 2026#1",
       "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Genworth-IT-Development-Program-Intern---Summer-2027_REQ-260269-1?utm_source=Simplify&ref=Simplify|Genworth Financial|IT Development Program Intern - IT Development Program|Richmond, VA|Summer 2026#1",
       "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003?utm_source=Simplify&ref=Simplify|HPR (Hyannis Port Research)|Software Engineer Intern|Needham, MA|Summer 2026#1",
-      "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630?utm_source=Simplify&ref=Simplify|Medtronic|Software Engineer Intern|21 locationsBoston, MA Santa Ana, CA Fridley, MN Santa Rosa, CA Irvine, CA Mansfield, MA Mounds View, MN Tempe, AZ Memphis, TN Brooklyn Center, MN Plymouth, MN Brooklyn Park, MN Fort Worth, TX Dexter, MI North Haven, CT Lafayette, CO Minneapolis, MN Newton, MA Jacksonville, FL Eatontown, NJ Boulder, CO|Summer 2026#1"
+      "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630?utm_source=Simplify&ref=Simplify|Medtronic|Software Engineer Intern|21 locationsBoston, MA Santa Ana, CA Fridley, MN Santa Rosa, CA Irvine, CA Mansfield, MA Mounds View, MN Tempe, AZ Memphis, TN Brooklyn Center, MN Plymouth, MN Brooklyn Park, MN Fort Worth, TX Dexter, MI North Haven, CT Lafayette, CO Minneapolis, MN Newton, MA Jacksonville, FL Eatontown, NJ Boulder, CO|Summer 2026#1",
+      "https://lifeattiktok.com/search/7662700594251958581?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7662684280234232117?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Trust and Safety Engineering|Seattle, WA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7667935565120112949?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7667934860750063925?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern - Innovative Growth|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7667934302872537397?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern - Digital Content Center|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7667935399050692917?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Social Friending|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7667933335084124469?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7667934635573692725?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7667933770819897605?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7667935739300792629?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Frontend Engineer Intern - Open Platform|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7667935739300317493?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7667935738376227077?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7668582146236631349?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Data Architecture - E-commerce|Seattle, WA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7668445566565321013?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Agentic Creation-Effect Platform|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7668584916620527925?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Business Integrity|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7668642761473902901?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Creative Intelligence and Brand Innovation|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7668581636242016565?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7668582031916435717?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Ads Measurement Signal and Privacy|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7668582086899763461?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern|Seattle, WA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7668584161852229893?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Frontend Software Engineer Intern - Ads Measurement Signal and Privacy|San Jose, CA|Summer 2026#1",
+      "https://lifeattiktok.com/search/7668675500744837381?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern|San Jose, CA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 35,
+    "last_row_count": 56,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
