@@ -9608,6 +9608,18 @@
       "chat_id": 7582459199,
       "seq": 243,
       "identity": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&utm_source=github-vansh-ouckah|Microsoft|Software Engineer Intern, CoreAI|Multiple Locations, United States|Aug 03#1"
+    },
+    "2b090c99e6eb": {
+      "company": "Chicago Trading Company",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1342,
+      "chat_id": 7582459199,
+      "seq": 244,
+      "identity": "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005?utm_source=Simplify&ref=Simplify|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Summer 2026#1"
     }
   },
   "applied": {
@@ -9975,9 +9987,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 243,
+  "seq": 244,
   "health": {
     "last_heartbeat": "2026-08-03T22:23:09Z",
-    "last_ok_run": "2026-08-03T23:00:26Z"
+    "last_ok_run": "2026-08-03T23:01:21Z"
   }
 }
