@@ -9356,6 +9356,66 @@
       "chat_id": 7582459199,
       "seq": 222,
       "identity": "https://apply.careers.microsoft.com/careers/job/1970393556951950|Microsoft|Software Engineer: Intern Opportuniti...|Redmond, Washingt...|Summer 2027#1"
+    },
+    "b0efb1c083a4": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Software Engineer Intern - AI Infra Compute \ud83c\udf93",
+      "location": "Seattle, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7667378931599214853/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1321,
+      "chat_id": 7582459199,
+      "seq": 223,
+      "identity": "https://jobs.bytedance.com/en/position/7667378931599214853/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Software Engineer Intern - AI Infra Compute \ud83c\udf93|Seattle, WA|Summer 2026#1"
+    },
+    "62017c39fec9": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Software Engineer Intern - AI Infrastructure Compute \ud83c\udf93",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7667377525182662965/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1322,
+      "chat_id": 7582459199,
+      "seq": 224,
+      "identity": "https://jobs.bytedance.com/en/position/7667377525182662965/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Software Engineer Intern - AI Infrastructure Compute \ud83c\udf93|San Jose, CA|Summer 2026#1"
+    },
+    "627413e36f5a": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Software Engineer Intern - Distributed NoSQL Database Systems",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7668374190764050741/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1323,
+      "chat_id": 7582459199,
+      "seq": 225,
+      "identity": "https://jobs.bytedance.com/en/position/7668374190764050741/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Software Engineer Intern - Distributed NoSQL Database Systems|San Jose, CA|Summer 2026#1"
+    },
+    "9d26330a64d9": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Software Engineer Intern",
+      "location": "Seattle, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7668373268886161669/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1324,
+      "chat_id": 7582459199,
+      "seq": 226,
+      "identity": "https://jobs.bytedance.com/en/position/7668373268886161669/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Software Engineer Intern|Seattle, WA|Summer 2026#1"
+    },
+    "6ef294f04658": {
+      "company": "\ud83d\udd25 Microsoft",
+      "role": "Software Engineer Intern - CoreAI",
+      "location": "Redmond, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556951950?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1325,
+      "chat_id": 7582459199,
+      "seq": 227,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556951950?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Microsoft|Software Engineer Intern - CoreAI|Redmond, WA|Summer 2026#1"
     }
   },
   "applied": {
@@ -9723,9 +9783,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 222,
+  "seq": 227,
   "health": {
     "last_heartbeat": "2026-08-03T09:14:02Z",
-    "last_ok_run": "2026-08-03T09:29:11Z"
+    "last_ok_run": "2026-08-03T09:33:28Z"
   }
 }
