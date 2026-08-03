@@ -9536,6 +9536,18 @@
       "chat_id": 7582459199,
       "seq": 237,
       "identity": "https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091|Samsara|Software Engineering Internship 2027|SF9|Summer 2027#1"
+    },
+    "b2c76e5415c8": {
+      "company": "Uline",
+      "role": "Network Engineer Internship - Summer ...",
+      "location": "Pleasant Prairie, WI",
+      "term": "Summer 2027",
+      "apply_url": "https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Network-Engineer-Internship---Summer-2027_R265689",
+      "source": "Zapply Summer Repo",
+      "message_id": 1336,
+      "chat_id": 7582459199,
+      "seq": 238,
+      "identity": "https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Network-Engineer-Internship---Summer-2027_R265689|Uline|Network Engineer Internship - Summer ...|Pleasant Prairie, WI|Summer 2027#1"
     }
   },
   "applied": {
@@ -9903,9 +9915,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 237,
+  "seq": 238,
   "health": {
     "last_heartbeat": "2026-08-03T16:20:24Z",
-    "last_ok_run": "2026-08-03T16:43:20Z"
+    "last_ok_run": "2026-08-03T16:44:13Z"
   }
 }
