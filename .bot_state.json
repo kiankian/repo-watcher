@@ -9596,6 +9596,18 @@
       "chat_id": 7582459199,
       "seq": 242,
       "identity": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Engineering-Intern_JR2026520439-1|Boeing|Boeing Summer 2027 Internship Program...|Seattle, WA|Summer 2027#1"
+    },
+    "5ec9a2dbbebe": {
+      "company": "Microsoft",
+      "role": "Software Engineer Intern, CoreAI",
+      "location": "Multiple Locations, United States",
+      "term": "Aug 03",
+      "apply_url": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1341,
+      "chat_id": 7582459199,
+      "seq": 243,
+      "identity": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&utm_source=github-vansh-ouckah|Microsoft|Software Engineer Intern, CoreAI|Multiple Locations, United States|Aug 03#1"
     }
   },
   "applied": {
@@ -9963,9 +9975,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 242,
+  "seq": 243,
   "health": {
     "last_heartbeat": "2026-08-03T21:22:18Z",
-    "last_ok_run": "2026-08-03T21:35:15Z"
+    "last_ok_run": "2026-08-03T21:36:16Z"
   }
 }
