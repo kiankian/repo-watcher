@@ -9512,6 +9512,30 @@
       "chat_id": 7582459199,
       "seq": 235,
       "identity": "NOURL|Walleye Capital|Investment Data Science Intern|New York, NY|Jul 24#1"
+    },
+    "847aca1645d9": {
+      "company": "Microchip Technology",
+      "role": "Intern-Engineering (Software Developm...",
+      "location": "Houston, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://microchiphr.wd5.myworkdayjobs.com/External/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Software-Development-_R3371-26",
+      "source": "Zapply Summer Repo",
+      "message_id": 1334,
+      "chat_id": 7582459199,
+      "seq": 236,
+      "identity": "https://microchiphr.wd5.myworkdayjobs.com/External/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Software-Development-_R3371-26|Microchip Technology|Intern-Engineering (Software Developm...|Houston, TX|Summer 2027#1"
+    },
+    "3951325eaf1e": {
+      "company": "Samsara",
+      "role": "Software Engineering Internship 2027",
+      "location": "SF9",
+      "term": "Summer 2027",
+      "apply_url": "https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091",
+      "source": "Zapply Summer Repo",
+      "message_id": 1335,
+      "chat_id": 7582459199,
+      "seq": 237,
+      "identity": "https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091|Samsara|Software Engineering Internship 2027|SF9|Summer 2027#1"
     }
   },
   "applied": {
@@ -9879,9 +9903,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 235,
+  "seq": 237,
   "health": {
     "last_heartbeat": "2026-08-03T15:20:20Z",
-    "last_ok_run": "2026-08-03T16:14:23Z"
+    "last_ok_run": "2026-08-03T16:15:27Z"
   }
 }
