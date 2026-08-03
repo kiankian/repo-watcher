@@ -9332,6 +9332,18 @@
       "chat_id": 7582459199,
       "seq": 220,
       "identity": "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef?utm_source=github-vansh-ouckah|Heliux|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|Aug 03#1"
+    },
+    "4b541ab01d80": {
+      "company": "JP Morgan Chase",
+      "role": "Software Engineer Intern - Software Engineer Program",
+      "location": "9 locationsPalo Alto, CA Houston, TX Tampa, FL Plano, TX Chicago, IL Jersey City, NJ Columbus, OH NYC Wilmington, DE",
+      "term": "Summer 2026",
+      "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773759?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1318,
+      "chat_id": 7582459199,
+      "seq": 221,
+      "identity": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773759?utm_source=Simplify&ref=Simplify|JP Morgan Chase|Software Engineer Intern - Software Engineer Program|9 locationsPalo Alto, CA Houston, TX Tampa, FL Plano, TX Chicago, IL Jersey City, NJ Columbus, OH NYC Wilmington, DE|Summer 2026#1"
     }
   },
   "applied": {
@@ -9699,9 +9711,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 220,
+  "seq": 221,
   "health": {
     "last_heartbeat": "2026-08-03T07:11:27Z",
-    "last_ok_run": "2026-08-03T07:30:05Z"
+    "last_ok_run": "2026-08-03T07:33:10Z"
   }
 }
