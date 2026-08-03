@@ -9440,6 +9440,18 @@
       "chat_id": 7582459199,
       "seq": 229,
       "identity": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011605|Palo Alto Networks|Intern - Software Engineer||Summer 2027#1"
+    },
+    "d194e537a638": {
+      "company": "Capital One",
+      "role": "Technology Intern",
+      "location": "Plano, TX McLean, VA Richmond, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Technology-Internship-Program---Summer-2027_R244387-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1328,
+      "chat_id": 7582459199,
+      "seq": 230,
+      "identity": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Technology-Internship-Program---Summer-2027_R244387-1?utm_source=Simplify&ref=Simplify|Capital One|Technology Intern|Plano, TX McLean, VA Richmond, VA|Summer 2026#1"
     }
   },
   "applied": {
@@ -9807,9 +9819,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 229,
+  "seq": 230,
   "health": {
     "last_heartbeat": "2026-08-03T14:16:21Z",
-    "last_ok_run": "2026-08-03T14:30:24Z"
+    "last_ok_run": "2026-08-03T14:31:25Z"
   }
 }
