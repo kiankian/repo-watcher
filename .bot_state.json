@@ -9020,6 +9020,30 @@
       "chat_id": 7582459199,
       "seq": 194,
       "identity": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610|DoorDash|Software Engineer I, Entry-Level (Gra...|New York, NY|Summer 2027#1"
+    },
+    "63e4cf8e056f": {
+      "company": "JPMorgan Chase",
+      "role": "2027 Code for Good Hackathon - Softwa...",
+      "location": "Chicago, IL, Unit...",
+      "term": "Summer 2027",
+      "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773759",
+      "source": "Zapply Summer Repo",
+      "message_id": 1292,
+      "chat_id": 7582459199,
+      "seq": 195,
+      "identity": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773759|JPMorgan Chase|2027 Code for Good Hackathon - Softwa...|Chicago, IL, Unit...|Summer 2027#1"
+    },
+    "f054ce3f1770": {
+      "company": "JP Morgan Chase",
+      "role": "2027 Code for Good Hackathon - Softwa...",
+      "location": "Chicago, IL, Unit...",
+      "term": "Summer 2027",
+      "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773759",
+      "source": "Zapply Summer Repo",
+      "message_id": 1293,
+      "chat_id": 7582459199,
+      "seq": 196,
+      "identity": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773759|JP Morgan Chase|2027 Code for Good Hackathon - Softwa...|Chicago, IL, Unit...|Summer 2027#1"
     }
   },
   "applied": {
@@ -9387,9 +9411,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 194,
+  "seq": 196,
   "health": {
     "last_heartbeat": "2026-08-03T04:09:16Z",
-    "last_ok_run": "2026-08-03T04:34:12Z"
+    "last_ok_run": "2026-08-03T04:35:23Z"
   }
 }
