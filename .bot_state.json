@@ -9476,6 +9476,42 @@
       "chat_id": 7582459199,
       "seq": 232,
       "identity": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Technology-Internship-Program---Summer-2027_R244387-1?utm_source=github-vansh-ouckah|Capital One|Software Engineer Intern \ud83d\udec2|McLean, VA Plano, TX Richmond, VA|Aug 03#1"
+    },
+    "df604fdb4546": {
+      "company": "Walleye Capital",
+      "role": "Risk Technology Analyst Intern",
+      "location": "New York, NY",
+      "term": "Jul 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 1331,
+      "chat_id": 7582459199,
+      "seq": 233,
+      "identity": "NOURL|Walleye Capital|Risk Technology Analyst Intern|New York, NY|Jul 24#1"
+    },
+    "4e2d148b74f3": {
+      "company": "Walleye Capital",
+      "role": "Technology Intern",
+      "location": "New York, NY",
+      "term": "Jul 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 1332,
+      "chat_id": 7582459199,
+      "seq": 234,
+      "identity": "NOURL|Walleye Capital|Technology Intern|New York, NY|Jul 24#1"
+    },
+    "208463db3fc2": {
+      "company": "Walleye Capital",
+      "role": "Investment Data Science Intern",
+      "location": "New York, NY",
+      "term": "Jul 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 1333,
+      "chat_id": 7582459199,
+      "seq": 235,
+      "identity": "NOURL|Walleye Capital|Investment Data Science Intern|New York, NY|Jul 24#1"
     }
   },
   "applied": {
@@ -9843,9 +9879,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 232,
+  "seq": 235,
   "health": {
     "last_heartbeat": "2026-08-03T15:20:20Z",
-    "last_ok_run": "2026-08-03T16:11:14Z"
+    "last_ok_run": "2026-08-03T16:12:18Z"
   }
 }
