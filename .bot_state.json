@@ -9560,6 +9560,18 @@
       "chat_id": 7582459199,
       "seq": 239,
       "identity": "https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Software-Development-Internship---Summer-2027_R265684|Uline|Software Development Internship - Sum...|Pleasant Prairie, WI|Summer 2027#1"
+    },
+    "59ffd21ffef1": {
+      "company": "Samsara",
+      "role": "Software Engineering Internship - San...",
+      "location": "SF9",
+      "term": "Summer 2027",
+      "apply_url": "https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091",
+      "source": "Zapply Summer Repo",
+      "message_id": 1338,
+      "chat_id": 7582459199,
+      "seq": 240,
+      "identity": "https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091|Samsara|Software Engineering Internship - San...|SF9|Summer 2027#1"
     }
   },
   "applied": {
@@ -9927,9 +9939,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 239,
+  "seq": 240,
   "health": {
     "last_heartbeat": "2026-08-03T17:21:12Z",
-    "last_ok_run": "2026-08-03T17:28:18Z"
+    "last_ok_run": "2026-08-03T17:29:12Z"
   }
 }
