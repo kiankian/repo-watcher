@@ -9584,6 +9584,18 @@
       "chat_id": 7582459199,
       "seq": 241,
       "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000141334799|Bosch Group|Project Management / Test Engineering...|Plymouth, MI|Summer 2027#1"
+    },
+    "2ed9378b6af2": {
+      "company": "Boeing",
+      "role": "Boeing Summer 2027 Internship Program...",
+      "location": "Seattle, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Engineering-Intern_JR2026520439-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1340,
+      "chat_id": 7582459199,
+      "seq": 242,
+      "identity": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Engineering-Intern_JR2026520439-1|Boeing|Boeing Summer 2027 Internship Program...|Seattle, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -9951,9 +9963,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 241,
+  "seq": 242,
   "health": {
     "last_heartbeat": "2026-08-03T20:21:19Z",
-    "last_ok_run": "2026-08-03T20:31:12Z"
+    "last_ok_run": "2026-08-03T20:32:21Z"
   }
 }
