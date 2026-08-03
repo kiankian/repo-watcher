@@ -707,12 +707,13 @@ def test_the_request_timeout_shrinks_with_the_remaining_budget(run_watcher, fixt
     assert all(t > 0 for t in r.timeouts), "never zero or negative, which would fail instantly"
 
 
-# --- the 2026-08-01 incident: dead apply links, and whole-table re-keys generally ---------
+# --- the 2026-08-01 incident: dead apply links and whole-table re-keys --------------------
 #
-# The bargain this file exists to protect is that residual failures produce a duplicate, never a
-# miss. That is what decides both behaviours below: a dead-link row still alerts (it may be a new
-# posting), and a re-keyed table is recorded rather than dropped (dropping leaves recognition
-# collapsed, so the breaker re-fires forever and the source goes mute for the whole outage).
+# Both are reported and neither is acted on. Suppressing the re-key flood was built and then
+# deliberately reverted: all 100 messages that day turned out to be listings already delivered
+# under an older identity, so suppression bought nothing that mattered, while a listing that was
+# genuinely new in the same snapshot would have been swallowed silently. A duplicate costs a
+# notification; a miss costs an application. Nothing here may withhold a listing.
 
 def _blank_the_apply_urls(rows):
     """What zapplyjobs/Internships-2027 shipped at 8eb9fd34: every `](url)` became `](#)`."""
@@ -728,15 +729,13 @@ def _rehost_the_apply_urls(rows):
 
 def test_a_new_job_with_a_dead_link_still_alerts(run_watcher, fixture_rows, baseline):
     """The drip that followed the flood: rows arriving on a churning board a few at a time, each
-    carrying a "#". These are real new postings. Withholding them was a miss — during an outage
-    that ran 14+ hours, a new listing would have been invisible for its whole duration."""
+    carrying a "#". These are real postings, and an alert with no link still says where to look."""
     arrival = ["Neuralink", "Software Engineer Intern, BCI", "Fremont, CA", "Summer 2026", "#"]
 
     r = run_watcher(fixture_rows + [arrival])
 
-    assert len(r.sent) == 1, "the new posting is delivered"
-    assert r.sent_matching("Neuralink")
-    assert len(r.seen) == len(baseline.seen) + 1, "and recorded, like any delivered listing"
+    assert len(r.sent) == 1 and r.sent_matching("Neuralink")
+    assert len(r.seen) == len(baseline.seen) + 1
     assert r.healthy is True, "a dead link upstream is not an outage here"
 
 
@@ -765,10 +764,11 @@ def test_a_row_with_no_link_at_all_is_unaffected(run_watcher, fixture_rows, base
     assert r.health_matching("dead apply link") == [], "an absent link is not a dead link"
 
 
-def test_a_whole_table_rekey_is_resynced_not_alerted(run_watcher):
-    """The recorded 2026-08-01 01:56 UTC event, and the same shape from any other cause. All 84
-    rows re-key at once, so the source recognizes none of a board it has watched for weeks. It
-    must not replay the board into the chat."""
+def test_a_whole_table_rekey_is_reported_but_never_withheld(run_watcher):
+    """The core promise. A re-key makes every row look new and produces a burst of duplicates.
+    That burst goes out: among it could be a listing that really is new, and there is no way to
+    tell which — judged on text rather than URL, 71 of the 100 rows re-keyed on 2026-08-01 looked
+    new, because 67 were known only through seen_legacy_urls, which stores no text at all."""
     before = load_fixture("collapse_84.json")
 
     seeded = run_watcher(before, drop_target_state=True)
@@ -776,115 +776,79 @@ def test_a_whole_table_rekey_is_resynced_not_alerted(run_watcher):
 
     rekeyed = run_watcher(_rehost_the_apply_urls(before), start_files=seeded.files)
 
-    assert rekeyed.sent == [], "not one re-keyed row is delivered"
-    assert rekeyed.outbox == [], "and none are queued to leak out on a later run"
-    assert rekeyed.health_matching("re-keying"), "the operator is told instead"
-    assert len(rekeyed.seen) == 84 + 84, "they are recorded, so the breaker disarms"
+    assert len(rekeyed.sent) == 25, "BURST_CAP sends this run; nothing is dropped"
+    assert len(rekeyed.outbox) == 84 - 25, "the rest queue durably and drain on later runs"
+    assert rekeyed.health_matching("re-keying"), "and the burst is explained while it arrives"
+    assert rekeyed.health_matching("Nothing is being withheld")
 
 
-def test_the_same_holds_when_the_rekey_is_dead_links(run_watcher):
-    """The incident's actual cause. The dead-link path does not exempt a row from the breaker:
-    100 unusable alerts at once is exactly what must not happen."""
+def test_the_rekey_burst_is_delivered_in_full_across_runs(run_watcher):
+    """Not one listing may be lost to the burst, however long it takes to drain."""
     before = load_fixture("collapse_84.json")
 
     seeded = run_watcher(before, drop_target_state=True)
-    rekeyed = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
+    rekeyed = _rehost_the_apply_urls(before)
 
-    assert rekeyed.sent == [], "the flood is stopped"
-    assert rekeyed.health_matching("re-keying")
+    result = run_watcher(rekeyed, start_files=seeded.files)
+    delivered = list(result.sent)
+    for _ in range(4):
+        if not result.outbox:
+            break
+        result = run_watcher(rekeyed, start_files=result.files)
+        delivered += result.sent
 
-
-def test_new_listings_alert_normally_on_the_run_after_a_resync(run_watcher):
-    """Why the resync records instead of dropping. Dropping leaves recognition collapsed, so the
-    breaker re-fires every run and the source stays mute for the whole outage — taking genuinely
-    new postings with it. One resync run restores recognition and delivery resumes."""
-    before = load_fixture("collapse_84.json")
-    arrival = ["Newcorp", "SWE Intern", "Austin, TX", "Summer 2027", "#"]
-
-    seeded = run_watcher(before, drop_target_state=True)
-    resync = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
-    assert resync.sent == []
-
-    later = run_watcher(_blank_the_apply_urls(before) + [arrival], start_files=resync.files)
-
-    assert len(later.sent) == 1, "the new posting gets through during the outage"
-    assert later.sent_matching("Newcorp")
-    assert later.healthy is True, "and the source is no longer suppressed"
+    assert result.outbox == [], "the queue drains completely"
+    assert len(delivered) == 84, "every re-keyed row is delivered exactly once"
+    assert len(result.seen) == 84 + 84
 
 
-def test_a_relinked_row_alerts_again_with_its_real_url(run_watcher, fixture_rows):
-    """The accepted cost of alerting during an outage: when upstream restores the URL the row
-    re-keys and alerts a second time. A duplicate carrying a working link, which is the trade
-    this repo makes everywhere else too."""
-    arrival = ["Latecorp", "SWE Intern", "Austin, TX", "Summer 2026", "#"]
-    linkless = run_watcher(fixture_rows + [arrival])
-    assert len(linkless.sent) == 1
-
-    fixed = arrival[:4] + ["https://latecorp.test/jobs/9"]
-    relinked = run_watcher(fixture_rows + [fixed], start_files=linkless.files)
-
-    assert len(relinked.sent) == 1, "it comes back once, now with something to tap"
-    assert relinked.sent_matching("latecorp.test/jobs/9")
-
-
-def test_a_rekey_is_caught_while_the_table_recovers_from_a_collapse(run_watcher):
-    """Regression for the breaker's first design, which subtracted the table's row-count growth
-    since the last parse on the theory that real listings come with a count that rose to match.
-
-    That credits a table *recovering* from a truncating parse as new capacity. Here the source
-    collapses to 20 rows, then returns to 84 in the same update that re-keys every row: growth of
-    64 absorbs all but 20 of the 84 discoveries, which slips under IDENTITY_RESET_MIN and sends
-    the whole board. Recognition never asks how many rows there used to be.
-    """
+def test_a_dead_link_rekey_is_also_delivered(run_watcher):
+    """The incident's actual cause, held to the same promise: reported, rendered without dead
+    links, and never withheld."""
     before = load_fixture("collapse_84.json")
 
     seeded = run_watcher(before, drop_target_state=True)
-    collapsed = run_watcher(before[:20], start_files=seeded.files)
-    assert collapsed.sent == [], "the 20 surviving rows were all already seen"
-    assert collapsed.state[TARGET_KEY]["last_row_count"] == 20, "the shrink is what gets stored"
+    dead = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
 
-    rekeyed = run_watcher(_rehost_the_apply_urls(before), start_files=collapsed.files)
-
-    assert rekeyed.sent == [], "the re-key is caught despite the row count recovering"
-    assert rekeyed.health_matching("re-keying")
+    assert len(dead.sent) == 25, "nothing is withheld"
+    assert dead.health_matching("re-keying") and dead.health_matching("dead apply link")
+    assert not any("#" in body.split("|")[-1] for body in dead.sent), "no dead links rendered"
 
 
-def test_a_rekey_does_not_stall_the_outbox(run_watcher):
-    """Queued jobs were vetted on the run that discovered them, so the breaker must suppress only
-    fresh discoveries. Stranding the queue behind a broken upstream is the failure the outbox
-    exists to prevent."""
-    before = load_fixture("collapse_84.json")
-    extra = [
-        [f"BurstCorp {i:03d}", "SWE Intern", "Testville, TS", "Summer 2027",
-         f"https://example.com/apply/burst{i}"]
-        for i in range(30)
-    ]
-
-    seeded = run_watcher(before, drop_target_state=True)
-    burst = run_watcher(before + extra, start_files=seeded.files)
-    assert len(burst.sent) == 25 and len(burst.outbox) == 5
-
-    rekeyed = run_watcher(_rehost_the_apply_urls(before + extra), start_files=burst.files)
-
-    assert len(rekeyed.sent) == 5, "the queue drains even while the breaker holds"
-    assert rekeyed.outbox == []
-    assert rekeyed.health_matching("re-keying")
-
-
-def test_the_resync_is_recorded_in_the_run_log(run_watcher):
-    """The run log is the forensic record. A resync must be distinguishable from a quiet run, and
-    its counters must still reconcile."""
+def test_the_rekey_warning_does_not_stop_the_healthcheck(run_watcher):
+    """The source is delivering, so it is not silent. Withholding the ping would raise an outage
+    over a burst of duplicates, and would mask a real dispatch failure behind it."""
     before = load_fixture("collapse_84.json")
 
     seeded = run_watcher(before, drop_target_state=True)
     rekeyed = run_watcher(_rehost_the_apply_urls(before), start_files=seeded.files)
 
-    rec = [r for r in rekeyed.log_records("runs") if r.get("watcher")][0]
-    assert rec["skip_reason"] == "identity_reset:84", "the resynced count is preserved"
-    assert rec["rows_extracted"] == 84, "the parse itself was fine"
-    assert rec["seen_size"] == 84 + 84, "and the resync is visible as the jump in seen"
-    assert rec["identities_new"] == 0, (
-        "resynced rows are not discoveries: they were never sent, and counting them would "
-        "break queued_before + identities_new == sent_ok + sent_failed"
-    )
-    assert rec["queued_before"] + rec["identities_new"] == rec["sent_ok"] + rec["sent_failed"]
+    assert rekeyed.healthy is True
+
+
+def test_the_rekey_warning_fires_while_a_table_recovers_from_a_collapse(run_watcher):
+    """Regression for a detector that subtracted the table's row-count growth since the last
+    parse. That credits a table *recovering* from a truncating parse as new capacity: collapse to
+    20 rows, return to 84 while re-keying, and growth of 64 absorbs all but 20 of the 84
+    discoveries, so the warning never fired. Recognition never asks how many rows there used to
+    be."""
+    before = load_fixture("collapse_84.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    collapsed = run_watcher(before[:20], start_files=seeded.files)
+    assert collapsed.state[TARGET_KEY]["last_row_count"] == 20, "the shrink is what gets stored"
+
+    rekeyed = run_watcher(_rehost_the_apply_urls(before), start_files=collapsed.files)
+
+    assert rekeyed.health_matching("re-keying"), "reported despite the row count recovering"
+    assert len(rekeyed.sent) == 25, "and still not withheld"
+
+
+def test_an_ordinary_run_raises_neither_warning(run_watcher, fixture_rows, baseline):
+    """Neither detector may fire on normal traffic, or they become noise to be ignored."""
+    r = run_watcher(fixture_rows + [NEW_A, NEW_B, NEW_C])
+
+    assert len(r.sent) == 3
+    assert r.health_matching("re-keying") == []
+    assert r.health_matching("dead apply link") == []
+    assert r.healthy is True

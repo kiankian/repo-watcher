@@ -86,25 +86,24 @@ Each entry in `.watcher_state.json` has the same shape:
    ~20% of Vansh rows that have no URL at all. Report `⚠️ placeholder-urls` so the degradation is
    visible. Only the message text changes: the identity and `job_hash` keep the raw URL, so
    nothing already sent is invalidated and no row is re-keyed.
-10. **Re-key guard:** measure how much of the parsed table the source still recognizes
+10. **Re-key warning:** measure how much of the parsed table the source still recognizes
    (`rows − new`, where `new` excludes anything already queued). When a run discovers at least
    `IDENTITY_RESET_MIN` (25) rows *and* recognizes under `IDENTITY_RESET_RECOGNITION` (10%) of
    what it parsed, the identity inputs have been rewritten upstream rather than a hundred
-   openings appearing at once. Report `⚠️ identity-reset`, drop the discoveries unsent *and
-   unrecorded*, and hold the SHA so the recovery commit is re-parsed. Queued rows still drain.
+   openings appearing at once. Report `⚠️ identity-reset`. **Delivery is unaffected** — the burst
+   goes out, capped at `BURST_CAP` per run with the rest queued.
 11. Prepend anything already in the `outbox` so the oldest work drains first.
 12. Deliver, capped at `BURST_CAP` attempts and the whole-run time budget.
 13. Union the confirmed identities into `seen` (capped at `SEEN_CAP`, oldest evicted). Undelivered
-    rows go back to the `outbox`. Advance `last_sha` only if a snapshot was actually parsed and
-    neither guard withheld anything — withheld rows were not recorded, so the run has not
-    accounted for that snapshot.
+    rows go back to the `outbox`. Advance `last_sha` only if a snapshot was actually parsed.
 
-Both guards drop rather than queue, and drop rather than record, on purpose. Queuing would
-only defer the flood by a few runs. Recording the degraded identities as seen would be worse than
-sending them: when upstream restores the real URLs the rows revert to their real identities, and
-every row whose real identity was never recorded alerts a second time. Dropping costs nothing,
-because a suppressed row is still listed upstream and is re-derived on the next run — so the first
-healthy run delivers exactly what is genuinely new, with real links.
+Neither condition withholds a listing, on purpose. Suppressing the re-key burst was built and
+reverted: every one of the 100 messages on 2026-08-01 turned out to be a listing already delivered
+under an older identity, so suppression bought nothing that mattered, while a listing that was
+genuinely new in the same snapshot would have been swallowed. Nor can the two be told apart while
+it is happening — judged on text rather than URL, 71 of those 100 rows looked new, because 67 were
+known only through `seen_legacy_urls`, which stores bare URLs and no text. A duplicate costs a
+notification; a miss costs an application.
 
 It deliberately does **not** consult the row count. An earlier version subtracted the table's
 growth since `last_row_count`, on the theory that real listings come with a count that rose to

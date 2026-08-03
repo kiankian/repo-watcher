@@ -732,50 +732,31 @@ jobs:
                       "No action is needed here unless it stays broken.",
                   )
 
-              # Circuit breaker for a whole-table re-key (see is_identity_reset). A source that
-              # recognizes almost none of its own table has had its identity inputs rewritten
-              # upstream; it did not gain a hundred openings.
+              # Report a whole-table re-key; do not act on it. A source that recognizes almost
+              # none of its own table has had its identity inputs rewritten upstream, and every
+              # row will alert as though it were new. Suppressing that flood was tried and
+              # deliberately reverted: every one of the 100 messages on 2026-08-01 turned out to
+              # be a listing already delivered under an older identity, so suppression bought
+              # nothing that mattered, while any listing that was genuinely new in the same
+              # snapshot would have been silently swallowed. A duplicate costs a notification. A
+              # miss costs an application, and this watcher exists to not miss.
               #
-              # These are resynced rather than sent: recorded as seen, with no message. That is
-              # the one place this workflow records an identity it never delivered, and it is
-              # deliberate. The alternative -- dropping them unrecorded -- leaves recognition
-              # collapsed on every subsequent run, so the breaker re-fires forever and the source
-              # stays mute for the whole outage, swallowing genuinely new postings with it. That
-              # was the behaviour on the branch before this change and it is the worse failure:
-              # this repo would rather duplicate than miss.
-              #
-              # Resyncing costs a bounded, one-run risk instead: a listing that was genuinely new
-              # in the same snapshot as the re-key is recorded without being sent. Historically
-              # that is 1-2 rows against 19 and counting on the other side of the trade. After
-              # this single run recognition is restored, the breaker disarms, and ordinary
-              # delivery resumes -- so a new posting during the outage alerts normally, and when
-              # upstream restores its URLs the rows re-key back and alert again with real links.
-              identity_reset = (
-                  seen_list and curr_rows is not None
-                  and is_identity_reset(len(fresh_new), len(curr_rows))
-              )
-              resynced = []
-              if identity_reset:
-                  # Unlike a failed fetch or a zero-row parse, this does not silence the source:
-                  # it resyncs in one run and delivers normally from the next. The ping is still
-                  # withheld for this run, so a source that re-keys every run -- the case where
-                  # it really is mute -- keeps the pings stopped. last_ok_run is deliberately not
-                  # gated this way; it tracks the dispatch pipeline, not any one source.
-                  broken_sources.append(state_key)
+              # So the detection is kept purely as a signal. It explains a burst of duplicates
+              # while it is arriving, which is the difference between "my watcher is broken" and
+              # "their generator is broken" -- the question this whole incident turned on.
+              if (seen_list and curr_rows is not None
+                      and is_identity_reset(len(fresh_new), len(curr_rows))):
                   health_alert(
                       f"identity-reset:{state_key}",
                       f"{w['label']} recognized only {len(curr_rows) - len(fresh_new)} of "
                       f"{len(curr_rows)} parsed rows — under "
                       f"{IDENTITY_RESET_RECOGNITION:.0%}, with {len(fresh_new)} looking new. "
                       "That is the signature of the upstream table re-keying (an apply-URL "
-                      "column going blank, or a column order change), not real listings. They "
-                      "have been recorded without alerting, so the board is not replayed into "
-                      "the chat; new listings alert normally from the next run. Check the "
-                      "source table before changing parser config.",
+                      "column going blank, or a column order change) rather than real listings, "
+                      "so expect a burst of duplicates for listings you have already had. "
+                      "Nothing is being withheld. Check the source table before changing parser "
+                      "config.",
                   )
-                  skip_reason = skip_reason or f"identity_reset:{len(fresh_new)}"
-                  resynced = fresh_new
-                  fresh_new = []
 
               # Queued work first, so the oldest jobs drain ahead of newly-seen rows and cannot be
               # starved by a steady stream of new listings. This runs even when the snapshot could
@@ -788,13 +769,8 @@ jobs:
               delivered, undelivered = deliver_listings(to_send, w["label"])
               total_alerted += len(delivered)
 
-              # Union in what Telegram confirmed, plus any re-keyed identities resynced above.
-              # Those are the sole exception to "record nothing undelivered": they are not new
-              # listings, they are listings the source already knows under a stale identity, and
-              # recording them is what lets the breaker disarm instead of muting the source.
-              merged = (seen_list
-                        + [identity for _r, identity, _o in delivered]
-                        + [identity for _r, identity, _o in resynced])
+              # Union in only what Telegram confirmed.
+              merged = seen_list + [identity for _r, identity, _o in delivered]
               if len(merged) > SEEN_CAP:
                   health_alert(
                       f"cap:{state_key}",
@@ -821,8 +797,6 @@ jobs:
               state[state_key] = {
                   # Only advance when a snapshot was actually parsed. Anything undelivered is
                   # durably queued rather than depending on being re-derived from a later parse.
-                  # A resync run does advance it: every parsed row was accounted for, either
-                  # delivered or recorded, so there is nothing left for a re-parse to recover.
                   "last_sha": latest_sha if curr_rows is not None else last_sha,
                   "seen": merged[-SEEN_CAP:],
                   "seen_legacy_urls": legacy_urls,
