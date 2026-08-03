@@ -8996,6 +8996,18 @@
       "chat_id": 7582459199,
       "seq": 192,
       "identity": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1|Medtronic|Software Engineering Intern \u2013 Summer ...|21 Locations|Summer 2027#1"
+    },
+    "054422173482": {
+      "company": "Copart",
+      "role": "Software Engineering Intern",
+      "location": "Dallas, TX - Head...",
+      "term": "Summer 2027",
+      "apply_url": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353",
+      "source": "Zapply Summer Repo",
+      "message_id": 1290,
+      "chat_id": 7582459199,
+      "seq": 193,
+      "identity": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353|Copart|Software Engineering Intern|Dallas, TX - Head...|Summer 2027#1"
     }
   },
   "applied": {
@@ -9363,9 +9375,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 192,
+  "seq": 193,
   "health": {
     "last_heartbeat": "2026-08-03T02:09:09Z",
-    "last_ok_run": "2026-08-03T02:49:18Z"
+    "last_ok_run": "2026-08-03T02:50:22Z"
   }
 }
