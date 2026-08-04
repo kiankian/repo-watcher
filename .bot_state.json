@@ -10460,6 +10460,18 @@
       "chat_id": 7582459199,
       "seq": 314,
       "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Developer Intern|Annapolis Junction, MD|Summer 2026#1"
+    },
+    "e96b9c1a8f68": {
+      "company": "GDIT",
+      "role": "Summer 2027 Software Developer Intern...",
+      "location": "USA MD Annapolis ...",
+      "term": "Summer 2027",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1413,
+      "chat_id": 7582459199,
+      "seq": 315,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1|GDIT|Summer 2027 Software Developer Intern...|USA MD Annapolis ...|Summer 2027#1"
     }
   },
   "applied": {
@@ -10827,9 +10839,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 314,
+  "seq": 315,
   "health": {
     "last_heartbeat": "2026-08-04T22:39:09Z",
-    "last_ok_run": "2026-08-04T22:53:08Z"
+    "last_ok_run": "2026-08-04T22:54:14Z"
   }
 }
