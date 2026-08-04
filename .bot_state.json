@@ -9680,6 +9680,90 @@
       "chat_id": 7582459199,
       "seq": 249,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-REMOTE/Software-Engineering--Intern--Summer-2027-_01863749?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Texas|Summer 2026#1"
+    },
+    "fce49989b1ec": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Backend Software Engineer Intern - Product Infrastructure",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7667935633764370741?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1348,
+      "chat_id": 7582459199,
+      "seq": 250,
+      "identity": "https://lifeattiktok.com/search/7667935633764370741?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern - Product Infrastructure|San Jose, CA|Summer 2026#1"
+    },
+    "fd8a9d6dc6f2": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Intern - Effects Performance",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7668725183121000757?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1349,
+      "chat_id": 7582459199,
+      "seq": 251,
+      "identity": "https://lifeattiktok.com/search/7668725183121000757?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Effects Performance|San Jose, CA|Summer 2026#1"
+    },
+    "2f9096624134": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Backend Software Engineer Intern - Global E-Commerce",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7668834837268138293?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1350,
+      "chat_id": 7582459199,
+      "seq": 252,
+      "identity": "https://lifeattiktok.com/search/7668834837268138293?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern - Global E-Commerce|San Jose, CA|Summer 2026#1"
+    },
+    "be2a052d1f44": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Backend Software Engineer Intern - Global E-Commerce",
+      "location": "Seattle, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7668834837268416821?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1351,
+      "chat_id": 7582459199,
+      "seq": 253,
+      "identity": "https://lifeattiktok.com/search/7668834837268416821?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern - Global E-Commerce|Seattle, WA|Summer 2026#1"
+    },
+    "65d08dd189bc": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Intern - Ads Interface",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7669705785962727733?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1352,
+      "chat_id": 7582459199,
+      "seq": 254,
+      "identity": "https://lifeattiktok.com/search/7669705785962727733?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Ads Interface|San Jose, CA|Summer 2026#1"
+    },
+    "3e13ab39c97d": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7668921505254410549?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1353,
+      "chat_id": 7582459199,
+      "seq": 255,
+      "identity": "https://lifeattiktok.com/search/7668921505254410549?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern|San Jose, CA|Summer 2026#1"
+    },
+    "93c90f78717c": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Intern - Global CRM",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7669711844487399685?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1354,
+      "chat_id": 7582459199,
+      "seq": 256,
+      "identity": "https://lifeattiktok.com/search/7669711844487399685?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Global CRM|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -10047,9 +10131,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 249,
+  "seq": 256,
   "health": {
     "last_heartbeat": "2026-08-04T06:28:14Z",
-    "last_ok_run": "2026-08-04T07:00:24Z"
+    "last_ok_run": "2026-08-04T07:01:20Z"
   }
 }
