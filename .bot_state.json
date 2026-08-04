@@ -10448,6 +10448,18 @@
       "chat_id": 7582459199,
       "seq": 313,
       "identity": "https://boards.greenhouse.io/redwoodmaterials/jobs/6126785004?gh_jid=6126785004|Redwood Materials|Test Automation Engineer Intern - Fal...|San Francisco, Ca...|Summer 2027#1"
+    },
+    "4bab6520cc80": {
+      "company": "General Dynamics Information Technology",
+      "role": "Software Developer Intern",
+      "location": "Annapolis Junction, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1412,
+      "chat_id": 7582459199,
+      "seq": 314,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Developer Intern|Annapolis Junction, MD|Summer 2026#1"
     }
   },
   "applied": {
@@ -10815,9 +10827,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 313,
+  "seq": 314,
   "health": {
     "last_heartbeat": "2026-08-04T21:38:24Z",
-    "last_ok_run": "2026-08-04T22:30:18Z"
+    "last_ok_run": "2026-08-04T22:31:10Z"
   }
 }
