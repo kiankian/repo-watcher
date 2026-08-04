@@ -9836,6 +9836,66 @@
       "chat_id": 7582459199,
       "seq": 262,
       "identity": "https://jobs.bytedance.com/en/position/7668212952030841093/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Software Engineer Intern - AI Platform|San Jose, CA|Summer 2026#1"
+    },
+    "f141b3c39fb0": {
+      "company": "Microsoft",
+      "role": "Software Engineer Intern, Fullstack Product (Web + Services)",
+      "location": "Multiple Locations, United States",
+      "term": "Aug 04",
+      "apply_url": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922922&utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1361,
+      "chat_id": 7582459199,
+      "seq": 263,
+      "identity": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922922&utm_source=github-vansh-ouckah|Microsoft|Software Engineer Intern, Fullstack Product (Web + Services)|Multiple Locations, United States|Aug 04#1"
+    },
+    "a4380e23442b": {
+      "company": "Microsoft",
+      "role": "Software Engineer Intern, Cloud & Distributed Backend",
+      "location": "Redmond, WA",
+      "term": "Aug 04",
+      "apply_url": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922923&utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1362,
+      "chat_id": 7582459199,
+      "seq": 264,
+      "identity": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922923&utm_source=github-vansh-ouckah|Microsoft|Software Engineer Intern, Cloud & Distributed Backend|Redmond, WA|Aug 04#1"
+    },
+    "b775b641950f": {
+      "company": "Microsoft",
+      "role": "Software Engineer Intern, AI/ML & LLM",
+      "location": "Redmond, WA",
+      "term": "Aug 04",
+      "apply_url": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922929&utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1363,
+      "chat_id": 7582459199,
+      "seq": 265,
+      "identity": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922929&utm_source=github-vansh-ouckah|Microsoft|Software Engineer Intern, AI/ML & LLM|Redmond, WA|Aug 04#1"
+    },
+    "8faf82cde72c": {
+      "company": "Microsoft",
+      "role": "Software Engineer Intern, Security & Identity",
+      "location": "Redmond, WA",
+      "term": "Aug 04",
+      "apply_url": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922930&utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1364,
+      "chat_id": 7582459199,
+      "seq": 266,
+      "identity": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922930&utm_source=github-vansh-ouckah|Microsoft|Software Engineer Intern, Security & Identity|Redmond, WA|Aug 04#1"
+    },
+    "c8f9b800bb95": {
+      "company": "Microsoft",
+      "role": "Software Engineer Intern, Data Platform/Analytics",
+      "location": "Redmond, WA",
+      "term": "Aug 04",
+      "apply_url": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922931&utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1365,
+      "chat_id": 7582459199,
+      "seq": 267,
+      "identity": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922931&utm_source=github-vansh-ouckah|Microsoft|Software Engineer Intern, Data Platform/Analytics|Redmond, WA|Aug 04#1"
     }
   },
   "applied": {
@@ -10203,9 +10263,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 262,
+  "seq": 267,
   "health": {
     "last_heartbeat": "2026-08-04T13:32:20Z",
-    "last_ok_run": "2026-08-04T14:12:14Z"
+    "last_ok_run": "2026-08-04T14:13:26Z"
   }
 }
