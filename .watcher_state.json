@@ -1332,7 +1332,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "ea8bfb9135767d3eb134058a6ce4c0a2eec64caa",
+    "last_sha": "660429b84532784f477bf2768e5b38991d4d7e89",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -1573,89 +1573,21 @@
       "https://lifeattiktok.com/search/7668921505254410549?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern, Shoot Experience Optimization|San Jose, CA|Aug 04#1",
       "https://lifeattiktok.com/search/7669705785962727733?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern, Ads Interface|San Jose, CA|Aug 04#1",
       "https://lifeattiktok.com/search/7668834837268416821?utm_source=github-vansh-ouckah|TikTok|Backend Software Engineer Intern, Global E-Commerce|Seattle, WA|Aug 04#1",
-      "https://lifeattiktok.com/search/7668834837268138293?utm_source=github-vansh-ouckah|TikTok|Backend Software Engineer Intern, Global E-Commerce|San Jose, CA|Aug 04#1"
+      "https://lifeattiktok.com/search/7668834837268138293?utm_source=github-vansh-ouckah|TikTok|Backend Software Engineer Intern, Global E-Commerce|San Jose, CA|Aug 04#1",
+      "https://lifeattiktok.com/search/7668725183121000757?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern|San Jose, CA|Aug 04#1",
+      "https://lifeattiktok.com/search/7667935633764370741?utm_source=github-vansh-ouckah|TikTok|Backend Software Engineer Intern, Product Infrastructure|San Jose, CA|Aug 04#1",
+      "https://lifeattiktok.com/search/7669943120351906053?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern, Transaction Platform|San Jose, CA|Aug 04#1",
+      "https://lifeattiktok.com/search/7668862422178318597?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern, Intelligent Creation-Camera|San Jose, CA|Aug 04#1",
+      "https://lifeattiktok.com/search/7669712589169117445?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern, AI Agent & Global Revenue Platform|San Jose, CA|Aug 04#1",
+      "https://lifeattiktok.com/search/7669711026846058757?utm_source=github-vansh-ouckah|TikTok|Frontend Engineer Intern, Global CRM|San Jose, CA|Aug 04#1",
+      "https://lifeattiktok.com/search/7667935150530840837?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern, Global Live-Foundation \ud83d\udec2|San Jose, CA|Aug 04#1",
+      "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=github-vansh-ouckah|RTX|Software Engineer Intern, Fleet Health Instrumentation \ud83c\uddfa\ud83c\uddf8|McKinney, TX|Aug 04#1",
+      "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-FULLERTON-675--1801-Hughes-Dr--BLDG-675/Software-Engineering-Intern--Summer-2027-_01863012?utm_source=github-vansh-ouckah|RTX|Software Engineer Intern, Fleet Health Instrumentation \ud83c\uddfa\ud83c\uddf8|Fullerton, CA|Aug 04#1",
+      "https://job-boards.greenhouse.io/eventsandinterns/jobs/7820942003?utm_source=github-vansh-ouckah|GoDaddy|Software Development Engineer Intern \ud83d\udec2|Tempe, AZ|Aug 04#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 212,
-    "outbox": [
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern",
-          "San Jose, CA",
-          "Aug 04",
-          "https://lifeattiktok.com/search/7668725183121000757?utm_source=github-vansh-ouckah"
-        ],
-        "https://lifeattiktok.com/search/7668725183121000757?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Backend Software Engineer Intern, Product Infrastructure",
-          "San Jose, CA",
-          "Aug 04",
-          "https://lifeattiktok.com/search/7667935633764370741?utm_source=github-vansh-ouckah"
-        ],
-        "https://lifeattiktok.com/search/7667935633764370741?utm_source=github-vansh-ouckah|TikTok|Backend Software Engineer Intern, Product Infrastructure|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Transaction Platform",
-          "San Jose, CA",
-          "Aug 04",
-          "https://lifeattiktok.com/search/7669943120351906053?utm_source=github-vansh-ouckah"
-        ],
-        "https://lifeattiktok.com/search/7669943120351906053?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern, Transaction Platform|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Intelligent Creation-Camera",
-          "San Jose, CA",
-          "Aug 04",
-          "https://lifeattiktok.com/search/7668862422178318597?utm_source=github-vansh-ouckah"
-        ],
-        "https://lifeattiktok.com/search/7668862422178318597?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern, Intelligent Creation-Camera|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, AI Agent & Global Revenue Platform",
-          "San Jose, CA",
-          "Aug 04",
-          "https://lifeattiktok.com/search/7669712589169117445?utm_source=github-vansh-ouckah"
-        ],
-        "https://lifeattiktok.com/search/7669712589169117445?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern, AI Agent & Global Revenue Platform|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Frontend Engineer Intern, Global CRM",
-          "San Jose, CA",
-          "Aug 04",
-          "https://lifeattiktok.com/search/7669711026846058757?utm_source=github-vansh-ouckah"
-        ],
-        "https://lifeattiktok.com/search/7669711026846058757?utm_source=github-vansh-ouckah|TikTok|Frontend Engineer Intern, Global CRM|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Global Live-Foundation \ud83d\udec2",
-          "San Jose, CA",
-          "Aug 04",
-          "https://lifeattiktok.com/search/7667935150530840837?utm_source=github-vansh-ouckah"
-        ],
-        "https://lifeattiktok.com/search/7667935150530840837?utm_source=github-vansh-ouckah|TikTok|Software Engineer Intern, Global Live-Foundation \ud83d\udec2|San Jose, CA|Aug 04#1",
-        1
-      ]
-    ]
+    "last_row_count": 215,
+    "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
     "last_sha": "e903947c4ff74bdd58f4e3ef8c83ae040fe7739b",
