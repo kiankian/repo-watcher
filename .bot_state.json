@@ -9764,6 +9764,78 @@
       "chat_id": 7582459199,
       "seq": 256,
       "identity": "https://lifeattiktok.com/search/7669711844487399685?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Global CRM|San Jose, CA|Summer 2026#1"
+    },
+    "e50ff49db63c": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Backend Software Engineer Intern - LIVE Foundation Governance Engineering",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7667935150530840837?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1355,
+      "chat_id": 7582459199,
+      "seq": 257,
+      "identity": "https://lifeattiktok.com/search/7667935150530840837?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern - LIVE Foundation Governance Engineering|San Jose, CA|Summer 2026#1"
+    },
+    "1a898bbc8495": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Frontend Engineer Intern - Global CRM",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7669711026846058757?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1356,
+      "chat_id": 7582459199,
+      "seq": 258,
+      "identity": "https://lifeattiktok.com/search/7669711026846058757?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Frontend Engineer Intern - Global CRM|San Jose, CA|Summer 2026#1"
+    },
+    "70291c89b8d9": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7669712589169117445?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1357,
+      "chat_id": 7582459199,
+      "seq": 259,
+      "identity": "https://lifeattiktok.com/search/7669712589169117445?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern|San Jose, CA|Summer 2026#1"
+    },
+    "81f20bb0487c": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Intern - Intelligent Creation-Camera",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7668862422178318597?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1358,
+      "chat_id": 7582459199,
+      "seq": 260,
+      "identity": "https://lifeattiktok.com/search/7668862422178318597?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Intelligent Creation-Camera|San Jose, CA|Summer 2026#1"
+    },
+    "501c676239ce": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Intern - Transaction Platform",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7669943120351906053?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1359,
+      "chat_id": 7582459199,
+      "seq": 261,
+      "identity": "https://lifeattiktok.com/search/7669943120351906053?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Transaction Platform|San Jose, CA|Summer 2026#1"
+    },
+    "894c62649318": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Software Engineer Intern - AI Platform",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7668212952030841093/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1360,
+      "chat_id": 7582459199,
+      "seq": 262,
+      "identity": "https://jobs.bytedance.com/en/position/7668212952030841093/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Software Engineer Intern - AI Platform|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -10131,9 +10203,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 256,
+  "seq": 262,
   "health": {
     "last_heartbeat": "2026-08-04T09:29:15Z",
-    "last_ok_run": "2026-08-04T09:30:19Z"
+    "last_ok_run": "2026-08-04T09:31:19Z"
   }
 }
