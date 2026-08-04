@@ -10436,6 +10436,18 @@
       "chat_id": 7582459199,
       "seq": 312,
       "identity": "https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280?utm_source=github-vansh-ouckah|Melius|Software Engineering Intern|New York City, NY|Aug 04#1"
+    },
+    "ef2217b648b7": {
+      "company": "Redwood Materials",
+      "role": "Test Automation Engineer Intern - Fal...",
+      "location": "San Francisco, Ca...",
+      "term": "Summer 2027",
+      "apply_url": "https://boards.greenhouse.io/redwoodmaterials/jobs/6126785004?gh_jid=6126785004",
+      "source": "Zapply Summer Repo",
+      "message_id": 1411,
+      "chat_id": 7582459199,
+      "seq": 313,
+      "identity": "https://boards.greenhouse.io/redwoodmaterials/jobs/6126785004?gh_jid=6126785004|Redwood Materials|Test Automation Engineer Intern - Fal...|San Francisco, Ca...|Summer 2027#1"
     }
   },
   "applied": {
@@ -10803,9 +10815,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 312,
+  "seq": 313,
   "health": {
     "last_heartbeat": "2026-08-04T18:38:13Z",
-    "last_ok_run": "2026-08-04T18:56:19Z"
+    "last_ok_run": "2026-08-04T18:57:14Z"
   }
 }
