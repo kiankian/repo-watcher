@@ -10424,6 +10424,18 @@
       "chat_id": 7582459199,
       "seq": 311,
       "identity": "https://job-boards.greenhouse.io/eventsandinterns/jobs/7820942003?utm_source=github-vansh-ouckah|GoDaddy|Software Development Engineer Intern \ud83d\udec2|Tempe, AZ|Aug 04#1"
+    },
+    "539db586a3ea": {
+      "company": "Melius",
+      "role": "Software Engineering Intern",
+      "location": "New York City, NY",
+      "term": "Aug 04",
+      "apply_url": "https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1410,
+      "chat_id": 7582459199,
+      "seq": 312,
+      "identity": "https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280?utm_source=github-vansh-ouckah|Melius|Software Engineering Intern|New York City, NY|Aug 04#1"
     }
   },
   "applied": {
@@ -10791,9 +10803,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 311,
+  "seq": 312,
   "health": {
     "last_heartbeat": "2026-08-04T16:35:20Z",
-    "last_ok_run": "2026-08-04T17:36:16Z"
+    "last_ok_run": "2026-08-04T17:37:15Z"
   }
 }
