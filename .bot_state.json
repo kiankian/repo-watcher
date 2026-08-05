@@ -10472,6 +10472,18 @@
       "chat_id": 7582459199,
       "seq": 315,
       "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1|GDIT|Summer 2027 Software Developer Intern...|USA MD Annapolis ...|Summer 2027#1"
+    },
+    "998694cd5eac": {
+      "company": "Boeing",
+      "role": "Data Analytics Intern \ud83d\udec2",
+      "location": "**31 locations**Everett, WA Saint Charles, MO Huntsville, AL Charleston, SC Oklahoma City, OK Berkeley, MO Huntington Beach, CA Hazelwood, MO El Segundo, CA Herndon, VA Plano, TX Arlington, VA Ridley Park, PA Tukwila, WA North Charleston, SC Fairfax, VA Colorado Springs, CO Chicago, IL Seal Beach, CA Mukilteo, WA Long Beach, CA Atlanta, GA Renton, WA Dallas, TX Seattle, WA Auburn, WA Bellevue, WA San Antonio, TX Kent, WA Mesa, AZ Tukwila, WA",
+      "term": "Aug 05",
+      "apply_url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/details/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1?q=JR2026520976&utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1414,
+      "chat_id": 7582459199,
+      "seq": 316,
+      "identity": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/details/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1?q=JR2026520976&utm_source=github-vansh-ouckah|Boeing|Data Analytics Intern \ud83d\udec2|**31 locations**Everett, WA Saint Charles, MO Huntsville, AL Charleston, SC Oklahoma City, OK Berkeley, MO Huntington Beach, CA Hazelwood, MO El Segundo, CA Herndon, VA Plano, TX Arlington, VA Ridley Park, PA Tukwila, WA North Charleston, SC Fairfax, VA Colorado Springs, CO Chicago, IL Seal Beach, CA Mukilteo, WA Long Beach, CA Atlanta, GA Renton, WA Dallas, TX Seattle, WA Auburn, WA Bellevue, WA San Antonio, TX Kent, WA Mesa, AZ Tukwila, WA|Aug 05#1"
     }
   },
   "applied": {
@@ -10839,9 +10851,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 315,
+  "seq": 316,
   "health": {
     "last_heartbeat": "2026-08-05T07:42:13Z",
-    "last_ok_run": "2026-08-05T08:06:12Z"
+    "last_ok_run": "2026-08-05T08:07:12Z"
   }
 }
