@@ -11456,6 +11456,30 @@
       "chat_id": 7582459199,
       "seq": 397,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Intern--Summer-2027-_01864033?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Cedar Rapids, IA|Summer 2026#1"
+    },
+    "7684ed8878e0": {
+      "company": "Northrop Grumman",
+      "role": "2027 Intern Software Engineer",
+      "location": "Florida",
+      "term": "Summer 2027",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573",
+      "source": "Zapply Summer Repo",
+      "message_id": 1559,
+      "chat_id": 7582459199,
+      "seq": 398,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573|Northrop Grumman|2027 Intern Software Engineer|Florida|Summer 2027#1"
+    },
+    "330c678bf201": {
+      "company": "Zipline",
+      "role": "Embedded Software Engineer Intern (Fa...",
+      "location": "South San Francis...",
+      "term": "Summer 2027",
+      "apply_url": "https://www.zipline.com/open-roles?gh_jid=7765240003",
+      "source": "Zapply Summer Repo",
+      "message_id": 1560,
+      "chat_id": 7582459199,
+      "seq": 399,
+      "identity": "https://www.zipline.com/open-roles?gh_jid=7765240003|Zipline|Embedded Software Engineer Intern (Fa...|South San Francis...|Summer 2027#1"
     }
   },
   "applied": {
@@ -11823,9 +11847,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 397,
+  "seq": 399,
   "health": {
     "last_heartbeat": "2026-08-05T22:49:21Z",
-    "last_ok_run": "2026-08-05T23:38:13Z"
+    "last_ok_run": "2026-08-05T23:39:21Z"
   }
 }
