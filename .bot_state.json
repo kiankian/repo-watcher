@@ -11432,6 +11432,30 @@
       "chat_id": 7582459199,
       "seq": 395,
       "identity": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278512?utm_source=Simplify&ref=Simplify|Vertiv|Thermal Application Engineer Intern - Summer 2027|Westerville, OH|Summer 2026#1"
+    },
+    "0fd643e67b8e": {
+      "company": "\ud83d\udd25 Roblox",
+      "role": "Software Engineer Intern",
+      "location": "San Mateo, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1557,
+      "chat_id": 7582459199,
+      "seq": 396,
+      "identity": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Roblox|Software Engineer Intern|San Mateo, CA|Summer 2026#1"
+    },
+    "eb1e6e17ac40": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Cedar Rapids, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Intern--Summer-2027-_01864033?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1558,
+      "chat_id": 7582459199,
+      "seq": 397,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Intern--Summer-2027-_01864033?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Cedar Rapids, IA|Summer 2026#1"
     }
   },
   "applied": {
@@ -11799,9 +11823,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 395,
+  "seq": 397,
   "health": {
     "last_heartbeat": "2026-08-05T22:49:21Z",
-    "last_ok_run": "2026-08-05T23:00:19Z"
+    "last_ok_run": "2026-08-05T23:01:14Z"
   }
 }
