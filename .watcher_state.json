@@ -1982,7 +1982,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "635bde278fc66cd540415d73c1f2fabc19b82686",
+    "last_sha": "ee0235b2c730caacaf0f1757ef48e02a2b1bd127",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -1995,7 +1995,32 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000140089589-powertrain-controls-software-engineering-intern-6-months-?oga=true|Bosch|Powertrain Controls Software Engineering Intern - 6-Months|Farmington Hills, MI|Other#1",
       "https://jobs.smartrecruiters.com/BoschGroup/744000140317669-adas-software-engineering-intern?oga=true|Bosch|ADAS Software Engineering Intern|Plymouth, MI|Other#1",
       "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378|Northrop Grumman|2027 Returning Intern Software Engineer|Melbourne, FL|Other#1",
-      "https://www.pathai.com/careers/8651564002?gh_jid=8651564002|PathAI|Software Engineering Co-op MLOps: September - December 2026|Boston, MA|Other#1"
+      "https://www.pathai.com/careers/8651564002?gh_jid=8651564002|PathAI|Software Engineering Co-op MLOps: September - December 2026|Boston, MA|Other#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556955518|Microsoft|Research Intern - Firmware Security|Washington, DC|FAANG+#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556922931|Microsoft|Software Engineer: Data Platform/Analytics Intern Opportunities for University Students - Redmond|Washington, DC|FAANG+#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556922922|Microsoft|Software Engineer: Fullstack Product - Web + Services Intern Opportunities for University Students|Washington, DC|FAANG+#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556922923|Microsoft|Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students - Redmond|Washington, DC|FAANG+#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556922929|Microsoft|Software Engineer: AI/ML & LLM Intern Opportunities for University Students - Redmond|Washington, DC|FAANG+#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556922930|Microsoft|Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond|Washington, DC|FAANG+#1",
+      "https://lifeattiktok.com/search/7669943120351906053|TikTok|Software Engineer Intern - Transaction Platform - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556951950|Microsoft|Software Engineer: Intern Opportunities for University Students - CoreAI|Washington, DC|FAANG+#1",
+      "https://lifeattiktok.com/search/7669705785962727733|TikTok|Software Engineer Intern - Ads Interface - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7669711026846058757|TikTok|Frontend Engineer Intern - Global CRM - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7669711844487399685|TikTok|Software Engineer Intern - Global CRM - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7669712589169117445|TikTok|Software Engineer Intern - AI Agent & Global Revenue Platform - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668834837268138293|TikTok|Backend Software Engineer Intern - Global E-Commerce - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668921505254410549|TikTok|Software Engineer Intern - TikTok - Shoot Experience Optimization - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668862422178318597|TikTok|Software Engineer Intern - TikTok-Intelligent Creation-Camera - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668837276597127477|TikTok|Software Development Engineer in Test Intern - Global E-Commerce - 2027 Summer|Seattle, WA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668837275459324213|TikTok|Software Development Engineer in Test Intern - Global E-Commerce - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668834837268416821|TikTok|Backend Software Engineer Intern - Global E-Commerce - 2027 Summer|Seattle, WA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668725183121000757|TikTok|Software Engineer Intern - TikTok - Effects Performance - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668582086899763461|TikTok|Software Engineer Intern - Data Arch - E-commerce - 2027 Summer|Seattle, WA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668582031916435717|TikTok|Software Engineer Intern - Ads Measurement Signal and Privacy - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668581636242016565|TikTok|Software Engineer Intern - Ads Infrastructure - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668445566565321013|TikTok|Software Engineer Intern - TikTok-Agentic Creation-Effect Platform - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668696895234197813|TikTok|Software Engineer Intern - ML Infra - 2027 Start - PhD|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668675500744837381|TikTok|Software Engineer Intern - TikTok-Agentic Creation-AIGC - 2027 Summer|San Jose, CA|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -2021,11 +2046,221 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 17,
-    "outbox": []
+    "last_row_count": 58,
+    "outbox": [
+      [
+        [
+          "TikTok",
+          "Software Engineer Intern - Creative Intelligence and Brand Innovation - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7668642761473902901"
+        ],
+        "https://lifeattiktok.com/search/7668642761473902901|TikTok|Software Engineer Intern - Creative Intelligence and Brand Innovation - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Software Engineer Intern - Business Integrity - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7668584916620527925"
+        ],
+        "https://lifeattiktok.com/search/7668584916620527925|TikTok|Software Engineer Intern - Business Integrity - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Frontend Software Engineer Intern - Ads Measurement Signal and Privacy - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7668584161852229893"
+        ],
+        "https://lifeattiktok.com/search/7668584161852229893|TikTok|Frontend Software Engineer Intern - Ads Measurement Signal and Privacy - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Software Engineer Intern - Data Arch - E-commerce - 2027 Summer",
+          "Seattle, WA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7668582146236631349"
+        ],
+        "https://lifeattiktok.com/search/7668582146236631349|TikTok|Software Engineer Intern - Data Arch - E-commerce - 2027 Summer|Seattle, WA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Backend Software Engineer Intern - TikTok - Product Infrastructure - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667935633764370741"
+        ],
+        "https://lifeattiktok.com/search/7667935633764370741|TikTok|Backend Software Engineer Intern - TikTok - Product Infrastructure - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Backend Software Engineer Intern - TikTok-Privacy and Security - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667935739300317493"
+        ],
+        "https://lifeattiktok.com/search/7667935739300317493|TikTok|Backend Software Engineer Intern - TikTok-Privacy and Security - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Frontend Engineer Intern - TikTok-Open Platform - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667935739300792629"
+        ],
+        "https://lifeattiktok.com/search/7667935739300792629|TikTok|Frontend Engineer Intern - TikTok-Open Platform - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Software Engineer Intern - TikTok-Generalized Arch-Code Intelligence & Quality Validation - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667935738376227077"
+        ],
+        "https://lifeattiktok.com/search/7667935738376227077|TikTok|Software Engineer Intern - TikTok-Generalized Arch-Code Intelligence & Quality Validation - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Backend Software Engineer Intern - TikTok-Social-Foundation - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667935565120112949"
+        ],
+        "https://lifeattiktok.com/search/7667935565120112949|TikTok|Backend Software Engineer Intern - TikTok-Social-Foundation - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Software Engineer Intern - TikTok-Social-Friending - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667935399050692917"
+        ],
+        "https://lifeattiktok.com/search/7667935399050692917|TikTok|Software Engineer Intern - TikTok-Social-Friending - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Backend Software Engineer Intern - TikTok-Global Live-Foundation - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667935150530840837"
+        ],
+        "https://lifeattiktok.com/search/7667935150530840837|TikTok|Backend Software Engineer Intern - TikTok-Global Live-Foundation - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Backend Software Engineer Intern - TikTok-Growth-Innovative Growth - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667934860750063925"
+        ],
+        "https://lifeattiktok.com/search/7667934860750063925|TikTok|Backend Software Engineer Intern - TikTok-Growth-Innovative Growth - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Software Development Engineer in Test Intern\uff08TikTok-Testing\uff09- 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667934759481526581"
+        ],
+        "https://lifeattiktok.com/search/7667934759481526581|TikTok|Software Development Engineer in Test Intern\uff08TikTok-Testing\uff09- 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Backend Software Engineer Intern - TikTok-Social-Friending - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667934635573692725"
+        ],
+        "https://lifeattiktok.com/search/7667934635573692725|TikTok|Backend Software Engineer Intern - TikTok-Social-Friending - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Backend Software Engineer Intern - TikTok- PGC-Digital Content Center - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667934302872537397"
+        ],
+        "https://lifeattiktok.com/search/7667934302872537397|TikTok|Backend Software Engineer Intern - TikTok- PGC-Digital Content Center - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Backend Software Engineer Intern - TikTok-PGC-Creator Strategy - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667933770819897605"
+        ],
+        "https://lifeattiktok.com/search/7667933770819897605|TikTok|Backend Software Engineer Intern - TikTok-PGC-Creator Strategy - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "Backend Software Engineer Intern - TikTok-Search - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7667933335084124469"
+        ],
+        "https://lifeattiktok.com/search/7667933335084124469|TikTok|Backend Software Engineer Intern - TikTok-Search - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "General Hire Software Engineer Intern - Trust and Safety-Engineering - 2027 Summer",
+          "Seattle, WA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7662684280234232117"
+        ],
+        "https://lifeattiktok.com/search/7662684280234232117|TikTok|General Hire Software Engineer Intern - Trust and Safety-Engineering - 2027 Summer|Seattle, WA|FAANG+#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "General Hire Software Engineer Intern - Trust and Safety-Engineering - 2027 Summer",
+          "San Jose, CA",
+          "FAANG+",
+          "https://lifeattiktok.com/search/7662700594251958581"
+        ],
+        "https://lifeattiktok.com/search/7662700594251958581|TikTok|General Hire Software Engineer Intern - Trust and Safety-Engineering - 2027 Summer|San Jose, CA|FAANG+#1",
+        1
+      ]
+    ]
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "635bde278fc66cd540415d73c1f2fabc19b82686",
+    "last_sha": "ee0235b2c730caacaf0f1757ef48e02a2b1bd127",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2063,7 +2298,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "635bde278fc66cd540415d73c1f2fabc19b82686",
+    "last_sha": "ee0235b2c730caacaf0f1757ef48e02a2b1bd127",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2095,7 +2330,26 @@
       "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef|Heliux|Software Engineer - Internship - Summer 2027|San Francisco, CA|Other#1",
       "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003|Hyannis Port Research|Software Engineering Intern - Summer 2027|Needham, MA|Other#1",
       "https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630-1|Medtronic|Software Engineering Intern - Summer 2027|Fridley, MN +20|Other#1",
-      "https://job-boards.greenhouse.io/virtu/jobs/8657500002|Virtu Financial|2027 Internship - Frontend Engineer - UI|Austin, TX +1|Other#1"
+      "https://job-boards.greenhouse.io/virtu/jobs/8657500002|Virtu Financial|2027 Internship - Frontend Engineer - UI|Austin, TX +1|Other#1",
+      "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005|Chicago Trading Company|Software Engineering Internship - Summer 2027|Chicago, IL|Other#1",
+      "https://jobs.dayforcehcm.com/en-US/corpay/candidateportal/jobs/55812|Corpay|Web Application Developer Intern|Louisville, KY|Other#1",
+      "https://job-boards.greenhouse.io/densityai/jobs/4336452009|DensityAI|Technical Intern- Software - Fall 2026|Mountain View, CA|Other#1",
+      "https://jobs.lever.co/diversified-automation/827a092d-b8a3-4ca9-a84a-e8c236d1aabc|Diversified Automation|Software Engineering Co-op|Louisville, KY|Other#1",
+      "https://gdit.wd5.myworkdayjobs.com/en-US/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1|GDIT|Summer 2027 Software Developer Internship|USA|Other#1",
+      "https://jobs.ashbyhq.com/persona.ai/fd514a3f-4138-48d5-9862-05ff74a4ca08|Persona AI|Autonomy Software Engineering Internship - World Modeling|Houston, TX|Other#1",
+      "https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091|Samsara|Software Engineering Internship - San Francisco|San Francisco, CA|Other#1",
+      "https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002|SpaceX|Summer 2027 Software Engineering Internship/Co-op|Bastrop, TX +6|Other#1",
+      "https://boards.greenhouse.io/spacex/jobs/8621756002?gh_jid=8621756002|SpaceX|Spring 2027 Software Engineering Internship/Co-op|Bastrop, TX +6|Other#1",
+      "https://intel.wd1.myworkdayjobs.com/en-US/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989|Intel|AI Software Engineer Graduate Intern|Remote - USA|Other#1",
+      "https://microchiphr.wd5.myworkdayjobs.com/en-US/external/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Firmware-Development-_R3372-26|Microchip|Intern-Engineering - Firmware Development|Houston, TX|Other#1",
+      "https://microchiphr.wd5.myworkdayjobs.com/en-US/external/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Software-Development-_R3371-26|Microchip|Intern-Engineering - Software Development|Houston, TX|Other#1",
+      "https://ntst.wd1.myworkdayjobs.com/en-US/careers/job/Overland-Park-KS/Cloud-Engineer-Future---Summer-2027-Internship-_R015668|Netsmart|Cloud Engineer Future - Summer 2027 Internship|Overland Park, KS|Other#1",
+      "https://ntst.wd1.myworkdayjobs.com/en-US/careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667|Netsmart|Software Engineer Intern - Summer 2027 Internship|Overland Park, KS|Other#1",
+      "https://careers-sri.icims.com/jobs/6431/drexel-university-co-op%3a-embedded-software-engineering/job|SRI International|Drexel University Co-op: Embedded Software Engineering|Princeton, NJ|Other#1",
+      "https://uline.wd1.myworkdayjobs.com/en-US/uline_careers/job/Pleasant-Prairie-WI/Business-Intelligence-Developer-Internship---Summer-2027_R265685|Uline|Business Intelligence Developer Internship - Summer 2027|Pleasant Prairie, WI +4|Other#1",
+      "https://uline.wd1.myworkdayjobs.com/en-US/uline_careers/job/Pleasant-Prairie-WI/Software-Development-Internship---Summer-2027_R265684|Uline|Software Development Internship - Summer 2027|Pleasant Prairie, WI +4|Other#1",
+      "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353|Copart|Software Engineering Intern|Dallas, TX|Other#1",
+      "https://medtronic.wd1.myworkdayjobs.com/en-US/redeploymentmedtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630|Medtronic|Software Engineering Intern - Summer 2027|Fridley, MN +20|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -2239,7 +2493,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 120,
+    "last_row_count": 127,
     "outbox": []
   }
 }
