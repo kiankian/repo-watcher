@@ -11420,6 +11420,18 @@
       "chat_id": 7582459199,
       "seq": 394,
       "identity": "https://apply.careers.microsoft.com/careers/job/1970393556922929|Microsoft|Software Engineer: AI/ML & LLM Intern...|Redmond, Washingt...|Summer 2027#1"
+    },
+    "ab8527ca4b6b": {
+      "company": "Vertiv",
+      "role": "Thermal Application Engineer Intern - Summer 2027",
+      "location": "Westerville, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278512?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1556,
+      "chat_id": 7582459199,
+      "seq": 395,
+      "identity": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278512?utm_source=Simplify&ref=Simplify|Vertiv|Thermal Application Engineer Intern - Summer 2027|Westerville, OH|Summer 2026#1"
     }
   },
   "applied": {
@@ -11787,9 +11799,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 394,
+  "seq": 395,
   "health": {
     "last_heartbeat": "2026-08-05T21:48:20Z",
-    "last_ok_run": "2026-08-05T22:30:19Z"
+    "last_ok_run": "2026-08-05T22:31:19Z"
   }
 }
