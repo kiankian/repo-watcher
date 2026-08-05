@@ -11252,6 +11252,42 @@
       "chat_id": 7582459199,
       "seq": 380,
       "identity": "https://lifeattiktok.com/search/7662700594251958581|TikTok|General Hire Software Engineer Intern - Trust and Safety-Engineering - 2027 Summer|San Jose, CA|FAANG+#1"
+    },
+    "ee4196a8f75c": {
+      "company": "General Dynamics Information Technology",
+      "role": "Software Developer Intern",
+      "location": "Annapolis Junction, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225450-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1542,
+      "chat_id": 7582459199,
+      "seq": 381,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225450-1?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Developer Intern|Annapolis Junction, MD|Summer 2026#1"
+    },
+    "deb6eaf13eec": {
+      "company": "GE Appliances",
+      "role": "Engineering Co-op",
+      "location": "LaFayette, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-LaFayette-GA/Engineering-Co-op-Summer-2027_REQ-26431?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1543,
+      "chat_id": 7582459199,
+      "seq": 382,
+      "identity": "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-LaFayette-GA/Engineering-Co-op-Summer-2027_REQ-26431?utm_source=Simplify&ref=Simplify|GE Appliances|Engineering Co-op|LaFayette, GA|Summer 2026#1"
+    },
+    "04d52d6bed2b": {
+      "company": "GE Appliances",
+      "role": "Software Engineer Co-op - Software Engineering",
+      "location": "Louisville, KY",
+      "term": "Summer 2026",
+      "apply_url": "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Summer-2027_REQ-26427?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1544,
+      "chat_id": 7582459199,
+      "seq": 383,
+      "identity": "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Summer-2027_REQ-26427?utm_source=Simplify&ref=Simplify|GE Appliances|Software Engineer Co-op - Software Engineering|Louisville, KY|Summer 2026#1"
     }
   },
   "applied": {
@@ -11619,9 +11655,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 380,
+  "seq": 383,
   "health": {
     "last_heartbeat": "2026-08-05T13:44:20Z",
-    "last_ok_run": "2026-08-05T14:30:18Z"
+    "last_ok_run": "2026-08-05T14:31:25Z"
   }
 }
