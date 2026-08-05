@@ -11348,6 +11348,78 @@
       "chat_id": 7582459199,
       "seq": 388,
       "identity": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713&gh_src=nnh32o631us&utm_source=github-vansh-ouckah|Roblox|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|Aug 05#1"
+    },
+    "6bbd2d5ccefd": {
+      "company": "ByteDance",
+      "role": "Production System Engineer Project In...",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7662449816279419141",
+      "source": "Zapply Summer Repo",
+      "message_id": 1550,
+      "chat_id": 7582459199,
+      "seq": 389,
+      "identity": "https://joinbytedance.com/search/7662449816279419141|ByteDance|Production System Engineer Project In...|San Jose, California|Summer 2027#1"
+    },
+    "629b63e24135": {
+      "company": "ByteDance",
+      "role": "AI Infrastructure Engineer Intern (Co...",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7668801556469762357",
+      "source": "Zapply Summer Repo",
+      "message_id": 1551,
+      "chat_id": 7582459199,
+      "seq": 390,
+      "identity": "https://joinbytedance.com/search/7668801556469762357|ByteDance|AI Infrastructure Engineer Intern (Co...|San Jose, California|Summer 2027#1"
+    },
+    "018d8aa76293": {
+      "company": "ByteDance",
+      "role": "Software Engineer Intern (AI Platform...",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7668212952030841093",
+      "source": "Zapply Summer Repo",
+      "message_id": 1552,
+      "chat_id": 7582459199,
+      "seq": 391,
+      "identity": "https://joinbytedance.com/search/7668212952030841093|ByteDance|Software Engineer Intern (AI Platform...|San Jose, California|Summer 2027#1"
+    },
+    "11f6b9ff13ca": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Data Platform/Anal...",
+      "location": "Redmond, Washingt...",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556922931",
+      "source": "Zapply Summer Repo",
+      "message_id": 1553,
+      "chat_id": 7582459199,
+      "seq": 392,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556922931|Microsoft|Software Engineer: Data Platform/Anal...|Redmond, Washingt...|Summer 2027#1"
+    },
+    "e99be0cf9330": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Security & Identit...",
+      "location": "Redmond, Washingt...",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
+      "source": "Zapply Summer Repo",
+      "message_id": 1554,
+      "chat_id": 7582459199,
+      "seq": 393,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556922930|Microsoft|Software Engineer: Security & Identit...|Redmond, Washingt...|Summer 2027#1"
+    },
+    "8c620398b957": {
+      "company": "Microsoft",
+      "role": "Software Engineer: AI/ML & LLM Intern...",
+      "location": "Redmond, Washingt...",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556922929",
+      "source": "Zapply Summer Repo",
+      "message_id": 1555,
+      "chat_id": 7582459199,
+      "seq": 394,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556922929|Microsoft|Software Engineer: AI/ML & LLM Intern...|Redmond, Washingt...|Summer 2027#1"
     }
   },
   "applied": {
@@ -11715,9 +11787,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 388,
+  "seq": 394,
   "health": {
     "last_heartbeat": "2026-08-05T21:48:20Z",
-    "last_ok_run": "2026-08-05T21:49:18Z"
+    "last_ok_run": "2026-08-05T21:50:24Z"
   }
 }
