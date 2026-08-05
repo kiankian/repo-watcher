@@ -10484,6 +10484,18 @@
       "chat_id": 7582459199,
       "seq": 316,
       "identity": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/details/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1?q=JR2026520976&utm_source=github-vansh-ouckah|Boeing|Data Analytics Intern \ud83d\udec2|**31 locations**Everett, WA Saint Charles, MO Huntsville, AL Charleston, SC Oklahoma City, OK Berkeley, MO Huntington Beach, CA Hazelwood, MO El Segundo, CA Herndon, VA Plano, TX Arlington, VA Ridley Park, PA Tukwila, WA North Charleston, SC Fairfax, VA Colorado Springs, CO Chicago, IL Seal Beach, CA Mukilteo, WA Long Beach, CA Atlanta, GA Renton, WA Dallas, TX Seattle, WA Auburn, WA Bellevue, WA San Antonio, TX Kent, WA Mesa, AZ Tukwila, WA|Aug 05#1"
+    },
+    "20624ae2835b": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Backend Software Engineer Intern - Creation Platform",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7670289874020993285?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1415,
+      "chat_id": 7582459199,
+      "seq": 317,
+      "identity": "https://lifeattiktok.com/search/7670289874020993285?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Backend Software Engineer Intern - Creation Platform|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -10851,9 +10863,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 316,
+  "seq": 317,
   "health": {
     "last_heartbeat": "2026-08-05T08:42:13Z",
-    "last_ok_run": "2026-08-05T09:30:18Z"
+    "last_ok_run": "2026-08-05T09:31:10Z"
   }
 }
