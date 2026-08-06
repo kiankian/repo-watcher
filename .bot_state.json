@@ -11540,6 +11540,18 @@
       "chat_id": 7582459199,
       "seq": 404,
       "identity": "https://lifeattiktok.com/search/7670281449668905269?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Foundation Platform|San Jose, CA|Summer 2026#1"
+    },
+    "a75a6d4bf509": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "AI Network Automation Engineer Intern - Global Physical Network Infrastructure",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7670690923748870405/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1566,
+      "chat_id": 7582459199,
+      "seq": 405,
+      "identity": "https://jobs.bytedance.com/en/position/7670690923748870405/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|AI Network Automation Engineer Intern - Global Physical Network Infrastructure|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -11907,9 +11919,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 404,
+  "seq": 405,
   "health": {
     "last_heartbeat": "2026-08-06T05:54:15Z",
-    "last_ok_run": "2026-08-06T06:30:17Z"
+    "last_ok_run": "2026-08-06T06:31:13Z"
   }
 }
