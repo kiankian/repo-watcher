@@ -879,10 +879,18 @@ jobs:
 
   process_applies:
     needs: watch
-    # always() so taps are still processed when the watch job fails, but never on a dry run:
+    # !cancelled() so taps are still processed when the watch job fails, but never on a dry run:
     # this job appends to the Google Sheet, edits Telegram messages and commits .bot_state.json,
     # so leaving it ungated would make a supposed rehearsal mutate external state.
-    if: ${{ always() && !inputs.dry_run && github.ref_name == github.event.repository.default_branch }}
+    #
+    # It is deliberately *not* always(). A cancelled watch is overwhelmingly the runner-starvation
+    # case — the job never started, so there are no fresh alerts and nothing new to tap — and
+    # running anyway holds the repo-watcher-state concurrency group for a second no-runner wait
+    # while every dispatch behind it is cancelled. On 2026-08-06 that turned a 15-minute stall into
+    # 30 minutes of silence per stuck run (watch 17:17:49-17:32:50, then process_applies
+    # 17:32:51-17:47:53, neither ever assigned a runner). Taps are not lost by skipping: the offset
+    # only advances once this job commits, so the next run that does get a runner re-reads them.
+    if: ${{ !cancelled() && !inputs.dry_run && github.ref_name == github.event.repository.default_branch }}
     runs-on: ubuntu-latest
 
     steps:
