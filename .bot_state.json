@@ -11648,6 +11648,18 @@
       "chat_id": 7582459199,
       "seq": 413,
       "identity": "https://cnoinc.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419?jr_id=6a70f504e2b7476e7b20bfd4&utm_source=github-vansh-ouckah|CNO Financial Group|Cyber Security IT Intern|Remote Carmel, IN|Aug 06#1"
+    },
+    "64a1736bd219": {
+      "company": "GlobalFoundries",
+      "role": "Factory Automation Engineering Intern...",
+      "location": "New York",
+      "term": "Summer 2027",
+      "apply_url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Factory-Automation-Engineering-Intern--Fall-2026-_JR-2503358",
+      "source": "Zapply Summer Repo",
+      "message_id": 1575,
+      "chat_id": 7582459199,
+      "seq": 414,
+      "identity": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Factory-Automation-Engineering-Intern--Fall-2026-_JR-2503358|GlobalFoundries|Factory Automation Engineering Intern...|New York|Summer 2027#1"
     }
   },
   "applied": {
@@ -12015,9 +12027,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 413,
+  "seq": 414,
   "health": {
     "last_heartbeat": "2026-08-06T14:00:33Z",
-    "last_ok_run": "2026-08-06T14:20:16Z"
+    "last_ok_run": "2026-08-06T14:21:13Z"
   }
 }
