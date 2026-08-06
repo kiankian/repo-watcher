@@ -11576,6 +11576,66 @@
       "chat_id": 7582459199,
       "seq": 407,
       "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000141923029|Bosch Group|Quality Engineering Co-op - Fall 2026|Pineville, NC|Summer 2027#1"
+    },
+    "0178b45f0328": {
+      "company": "DV Group",
+      "role": "Quantitative Risk Intern",
+      "location": "Chicago, IL",
+      "term": "Aug 06",
+      "apply_url": "https://job-boards.greenhouse.io/dvtrading/jobs/4719118005?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1569,
+      "chat_id": 7582459199,
+      "seq": 408,
+      "identity": "https://job-boards.greenhouse.io/dvtrading/jobs/4719118005?utm_source=github-vansh-ouckah|DV Group|Quantitative Risk Intern|Chicago, IL|Aug 06#1"
+    },
+    "443844f36a68": {
+      "company": "Chicago Trading Company",
+      "role": "Quant Trading Intern",
+      "location": "Chicago, IL",
+      "term": "Aug 06",
+      "apply_url": "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716930005?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1570,
+      "chat_id": 7582459199,
+      "seq": 409,
+      "identity": "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716930005?utm_source=github-vansh-ouckah|Chicago Trading Company|Quant Trading Intern|Chicago, IL|Aug 06#1"
+    },
+    "f90be02af02a": {
+      "company": "ByteDance",
+      "role": "Applied Machine Learning Production Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Aug 06",
+      "apply_url": "https://joinbytedance.com/search/7670009669494704437?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1571,
+      "chat_id": 7582459199,
+      "seq": 410,
+      "identity": "https://joinbytedance.com/search/7670009669494704437?utm_source=github-vansh-ouckah|ByteDance|Applied Machine Learning Production Engineer Intern|San Jose, CA|Aug 06#1"
+    },
+    "4994972e719e": {
+      "company": "ByteDance",
+      "role": "GPU/AI Application System Software Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Aug 06",
+      "apply_url": "https://joinbytedance.com/search/7668464504736876853?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1572,
+      "chat_id": 7582459199,
+      "seq": 411,
+      "identity": "https://joinbytedance.com/search/7668464504736876853?utm_source=github-vansh-ouckah|ByteDance|GPU/AI Application System Software Engineer Intern|San Jose, CA|Aug 06#1"
+    },
+    "0c9297e4286e": {
+      "company": "ByteDance",
+      "role": "AI Network Automation Engineer Intern, Global Physical Network Infra",
+      "location": "San Jose, CA",
+      "term": "Aug 06",
+      "apply_url": "https://joinbytedance.com/search/7670690923748870405?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1573,
+      "chat_id": 7582459199,
+      "seq": 412,
+      "identity": "https://joinbytedance.com/search/7670690923748870405?utm_source=github-vansh-ouckah|ByteDance|AI Network Automation Engineer Intern, Global Physical Network Infra|San Jose, CA|Aug 06#1"
     }
   },
   "applied": {
@@ -11943,9 +12003,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 407,
+  "seq": 412,
   "health": {
     "last_heartbeat": "2026-08-06T12:58:22Z",
-    "last_ok_run": "2026-08-06T13:53:11Z"
+    "last_ok_run": "2026-08-06T13:54:24Z"
   }
 }
