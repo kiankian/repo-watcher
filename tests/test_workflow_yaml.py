@@ -51,6 +51,10 @@ def test_the_callback_job_is_gated_on_dry_run():
 
     assert "dry_run" in guard, "a dry run must not process callbacks"
     assert "!cancelled()" in guard, "but a real run still processes taps when the watch job fails"
+    assert "vars.PROCESS_APPLIES == 'true'" in guard, (
+        "the tracker is paused behind a repository variable so it can be resumed without a "
+        "commit; unset means paused, which is the current state"
+    )
     assert "always()" not in guard, (
         "always() also runs this job when watch was cancelled without ever starting, which is the "
         "runner-starvation case: it holds the concurrency group for a second 15-minute no-runner "

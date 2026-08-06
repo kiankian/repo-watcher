@@ -185,7 +185,7 @@ Leaving it unticked is a live run that sends and commits, so the tick is the who
 
 A dry run deliberately **ignores the unchanged-SHA short-circuit** that a normal run uses, and re-fetches every enabled source. It has to: the watcher stores the current head on every run, so a rehearsal launched a minute later would find every source unchanged, skip all of them, and report "no new listings" without having parsed anything — silently passing whatever parser or config edit it was meant to validate. The per-run summary table shows `rows` extracted per watcher, which is what tells you the extraction still works.
 
-The `process_applies` job is skipped entirely on a dry run. It has to be: it appends to the Google Sheet, edits Telegram messages and commits `.bot_state.json`, so leaving it to run would make a rehearsal mutate external state.
+The `process_applies` job is skipped entirely on a dry run. It has to be: it appends to the Google Sheet, edits Telegram messages and commits `.bot_state.json`, so leaving it to run would make a rehearsal mutate external state. (It is currently skipped on *every* run — see [Application tracker](#application-tracker-telegram--google-sheet).)
 
 ### If alerts stop (troubleshooting runbook)
 
@@ -214,6 +214,22 @@ cron-job.org / token side. Diagnose in this order:
    check its **expiry** and that it still grants `Actions: write` on `kiankian/repo-watcher`.
 
 ## Application tracker (Telegram → Google Sheet)
+
+> ⏸️ **Paused since 2026-08-06.** `process_applies` is gated on the repository variable
+> `PROCESS_APPLIES`, which is unset, so the job is skipped on every run. **Alerts are unaffected** —
+> job links keep arriving exactly as before. What stops: tapping `✅ Applied` does nothing (the
+> button still renders, but no Sheet row is written and the message is never ticked). To resume, set
+> `PROCESS_APPLIES` to `true` under Settings → Secrets and variables → Actions → Variables; no commit
+> or workflow edit is needed, and the secrets below are all still in place.
+>
+> It was paused for latency, not because it was broken. The job holds the `repo-watcher-state`
+> concurrency group for its entire life, and since acquiring a hosted runner takes minutes, that was
+> ~5 minutes of group time per run for ~15 seconds of actual work — roughly halving how often the
+> watcher could poll. Usage did not justify it: 1,094 alerts sent against 33 taps ever recorded.
+>
+> Note that `bot_state["pending"]` keeps growing while paused, since entries are only deleted when a
+> tap is processed. That is not a new cost: at 33 taps against 1,094 entries the drain was removing
+> ~3% of what the alert path adds, so the file grows at essentially the same rate either way.
 
 Each new job alert includes an inline `✅ Applied` button. Tapping it appends a row to a Google Sheet and edits the Telegram message to confirm.
 

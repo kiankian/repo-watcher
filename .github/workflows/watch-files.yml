@@ -890,7 +890,17 @@ jobs:
     # 30 minutes of silence per stuck run (watch 17:17:49-17:32:50, then process_applies
     # 17:32:51-17:47:53, neither ever assigned a runner). Taps are not lost by skipping: the offset
     # only advances once this job commits, so the next run that does get a runner re-reads them.
-    if: ${{ !cancelled() && !inputs.dry_run && github.ref_name == github.event.repository.default_branch }}
+    #
+    # PAUSED 2026-08-06. The tracker is unused (1,094 alerts sent, 33 ever tapped) and this job
+    # costs the alert path real latency: it holds the repo-watcher-state concurrency group for its
+    # whole life, and because acquiring a runner takes minutes, that is ~5 minutes per run for ~15
+    # seconds of work (16:41:35-16:46:56 to run steps 16:45:45-16:46:00). Skipping it releases the
+    # group as soon as `watch` is done, so the next dispatch starts in ~4 minutes instead of ~9.
+    #
+    # Resume with no commit: set the repository variable PROCESS_APPLIES to `true` (Settings ->
+    # Secrets and variables -> Actions -> Variables). Unset or anything else keeps it paused.
+    # Nothing is lost while paused -- taps simply do not register.
+    if: ${{ vars.PROCESS_APPLIES == 'true' && !cancelled() && !inputs.dry_run && github.ref_name == github.event.repository.default_branch }}
     runs-on: ubuntu-latest
 
     steps:
