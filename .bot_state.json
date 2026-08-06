@@ -11780,6 +11780,18 @@
       "chat_id": 7582459199,
       "seq": 424,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Intern--Summer-2027-_01864033|Raytheon|Software Engineering Intern - Summer 2027|Cedar Rapids, IA|Other#1"
+    },
+    "bbf607e85180": {
+      "company": "Northrop Grumman",
+      "role": "2027 Intern Software Engineer",
+      "location": "Florida",
+      "term": "Summer 2027",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
+      "source": "Zapply Summer Repo",
+      "message_id": 1586,
+      "chat_id": 7582459199,
+      "seq": 425,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395|Northrop Grumman|2027 Intern Software Engineer|Florida|Summer 2027#1"
     }
   },
   "applied": {
@@ -12147,9 +12159,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 424,
+  "seq": 425,
   "health": {
     "last_heartbeat": "2026-08-06T15:03:11Z",
-    "last_ok_run": "2026-08-06T15:06:16Z"
+    "last_ok_run": "2026-08-06T15:07:11Z"
   }
 }
