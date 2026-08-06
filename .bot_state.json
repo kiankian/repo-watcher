@@ -11636,6 +11636,18 @@
       "chat_id": 7582459199,
       "seq": 412,
       "identity": "https://joinbytedance.com/search/7670690923748870405?utm_source=github-vansh-ouckah|ByteDance|AI Network Automation Engineer Intern, Global Physical Network Infra|San Jose, CA|Aug 06#1"
+    },
+    "9f46636a207d": {
+      "company": "CNO Financial Group",
+      "role": "Cyber Security IT Intern",
+      "location": "Remote Carmel, IN",
+      "term": "Aug 06",
+      "apply_url": "https://cnoinc.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419?jr_id=6a70f504e2b7476e7b20bfd4&utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1574,
+      "chat_id": 7582459199,
+      "seq": 413,
+      "identity": "https://cnoinc.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419?jr_id=6a70f504e2b7476e7b20bfd4&utm_source=github-vansh-ouckah|CNO Financial Group|Cyber Security IT Intern|Remote Carmel, IN|Aug 06#1"
     }
   },
   "applied": {
@@ -12003,9 +12015,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 412,
+  "seq": 413,
   "health": {
     "last_heartbeat": "2026-08-06T12:58:22Z",
-    "last_ok_run": "2026-08-06T13:58:17Z"
+    "last_ok_run": "2026-08-06T13:59:21Z"
   }
 }
