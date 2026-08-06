@@ -11552,6 +11552,30 @@
       "chat_id": 7582459199,
       "seq": 405,
       "identity": "https://jobs.bytedance.com/en/position/7670690923748870405/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|AI Network Automation Engineer Intern - Global Physical Network Infrastructure|San Jose, CA|Summer 2026#1"
+    },
+    "1e736c7b3a98": {
+      "company": "KBR",
+      "role": "Software Intern",
+      "location": "Houston, Texas",
+      "term": "Summer 2027",
+      "apply_url": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Houston-Texas/Software-Intern_R2127863",
+      "source": "Zapply Summer Repo",
+      "message_id": 1567,
+      "chat_id": 7582459199,
+      "seq": 406,
+      "identity": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Houston-Texas/Software-Intern_R2127863|KBR|Software Intern|Houston, Texas|Summer 2027#1"
+    },
+    "c8451d781ca0": {
+      "company": "Bosch Group",
+      "role": "Quality Engineering Co-op - Fall 2026",
+      "location": "Pineville, NC",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000141923029",
+      "source": "Zapply Summer Repo",
+      "message_id": 1568,
+      "chat_id": 7582459199,
+      "seq": 407,
+      "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000141923029|Bosch Group|Quality Engineering Co-op - Fall 2026|Pineville, NC|Summer 2027#1"
     }
   },
   "applied": {
@@ -11919,9 +11943,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 405,
+  "seq": 407,
   "health": {
     "last_heartbeat": "2026-08-06T12:58:22Z",
-    "last_ok_run": "2026-08-06T13:35:14Z"
+    "last_ok_run": "2026-08-06T13:36:15Z"
   }
 }
