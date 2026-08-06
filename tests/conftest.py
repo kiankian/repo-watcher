@@ -83,7 +83,7 @@ class _Resp(io.BytesIO):
 
 def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_at=None,
                   fetch_status=None, fetches=None, fail_all=False, retry_after=0,
-                  timeouts=None):
+                  timeouts=None, payloads=None):
     """Stub urlopen.
 
     fail_for:     substring of the message text that 429s on every attempt (permanent failure)
@@ -130,6 +130,10 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
             # Health notices share sendMessage but are not job alerts; keep them apart so a
             # test asserting "no alerts" is not satisfied or broken by an operational notice.
             (health if body["text"].startswith("\u26a0\ufe0f") else sent).append(body["text"])
+            # The whole request too: `sent` is text-only, so it cannot see reply_markup, which
+            # is what says whether the Applied button was attached.
+            if payloads is not None:
+                payloads.append(body)
             if fail_all or (fail_for and fail_for in body["text"]) or i == fail_once_at:
                 raise urllib.error.HTTPError(
                     url, 429, "Too Many Requests", {},
@@ -150,9 +154,11 @@ def _make_urlopen(state, html, sent, health, head_sha, fail_for=None, fail_once_
 class Result:
     def __init__(self, sent, health, files, log, head_sha, logs=None, summary="",
                  step_output="", fetches=None, sleeps=None, timeouts=None,
-                 key=TARGET_KEY):
+                 key=TARGET_KEY, payloads=None):
         self.sent = sent
         self.health = health
+        # Full sendMessage request bodies, job alerts and health notices alike.
+        self.payloads = payloads or []
         self.logs = logs or {}
         self.summary = summary
         self.step_output = step_output
@@ -216,7 +222,7 @@ def run_watcher():
     def run(upstream_rows, start_files=None, fail_for=None, fail_once_at=None,
             drop_target_state=False, dry_run=False, capture_summary=False,
             fetch_status=None, reuse_sha=None, monotonic_step=None, fail_all=False,
-            retry_after=0):
+            retry_after=0, process_applies=False):
         work = Path(tempfile.mkdtemp())
         try:
             for name in (".watcher_state.json", ".bot_state.json"):
@@ -236,7 +242,7 @@ def run_watcher():
             # takes its unchanged-sha path -- the only way to test that the outbox still drains.
             head_sha = reuse_sha or next_sha()
             fetches, sleeps, timeouts = [], [], []
-            sent, health = [], []
+            sent, health, payloads = [], [], []
             saved_cwd, saved_sleep = os.getcwd(), time.sleep
             saved_monotonic = time.monotonic
             saved_urlopen = urllib.request.urlopen
@@ -249,6 +255,8 @@ def run_watcher():
                     TELEGRAM_BOT_TOKEN="test-bot-token",
                     TELEGRAM_CHAT_ID="7582459199",
                     DRY_RUN="true" if dry_run else "false",
+                    # Paused by default, mirroring the unset repository variable in production.
+                    PROCESS_APPLIES="true" if process_applies else "",
                 )
                 os.environ.pop("HEALTHCHECK_PING_URL", None)
                 if capture_summary:
@@ -263,7 +271,7 @@ def run_watcher():
                 urllib.request.urlopen = _make_urlopen(
                     state_before, build_html(upstream_rows), sent, health, head_sha,
                     fail_for, fail_once_at, fetch_status, fetches, fail_all, retry_after,
-                    timeouts
+                    timeouts, payloads
                 )
                 # Record what the code *asks* to sleep for without actually waiting. Asserting
                 # on the requested duration is the only way to show a deadline is respected --
@@ -305,7 +313,8 @@ def run_watcher():
             return Result(sent, health, files, buf.getvalue(), head_sha, logs,
                           summary.read_text() if summary.exists() else "",
                           step_output.read_text() if step_output.exists() else "",
-                          fetches=fetches, sleeps=sleeps, timeouts=timeouts)
+                          fetches=fetches, sleeps=sleeps, timeouts=timeouts,
+                          payloads=payloads)
         finally:
             shutil.rmtree(work, ignore_errors=True)
 

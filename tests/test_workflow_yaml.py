@@ -62,6 +62,16 @@ def test_the_callback_job_is_gated_on_dry_run():
     )
 
 
+def test_the_tracker_switch_reaches_both_ends():
+    """One variable has to gate the job *and* the button. Gating only the job leaves an Applied
+    button on every alert with nothing running to answer it."""
+    watcher = next(s for s in watch_steps() if s["name"] == "Run watcher")
+    guard = load_workflow()["jobs"]["process_applies"]["if"]
+
+    assert watcher["env"]["PROCESS_APPLIES"] == "${{ vars.PROCESS_APPLIES }}"
+    assert "vars.PROCESS_APPLIES" in guard
+
+
 def test_the_commit_step_is_gated_on_dry_run():
     commit = next(s for s in watch_steps() if s["name"] == "Commit updated state")
 
