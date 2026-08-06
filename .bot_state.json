@@ -11528,6 +11528,18 @@
       "chat_id": 7582459199,
       "seq": 403,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Engineer Intern - Aeronautics Systems|Melbourne, FL|Summer 2026#1"
+    },
+    "9630a16254ac": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Intern - Foundation Platform",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7670281449668905269?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1565,
+      "chat_id": 7582459199,
+      "seq": 404,
+      "identity": "https://lifeattiktok.com/search/7670281449668905269?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Foundation Platform|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -11895,9 +11907,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 403,
+  "seq": 404,
   "health": {
     "last_heartbeat": "2026-08-06T01:51:18Z",
-    "last_ok_run": "2026-08-06T02:00:25Z"
+    "last_ok_run": "2026-08-06T02:01:10Z"
   }
 }
