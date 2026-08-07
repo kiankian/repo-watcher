@@ -12308,6 +12308,18 @@
       "chat_id": 7582459199,
       "seq": 468,
       "identity": "https://apply.careers.microsoft.com/careers/job/1970393556957962|Microsoft|Software Engineering INTERN|United States|Summer 2027#1"
+    },
+    "c200941d5c23": {
+      "company": "GDIT",
+      "role": "ServiceNow Test Engineer Associate (I...",
+      "location": "USA LA Bossier City",
+      "term": "Summer 2027",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-LA-Bossier-City/ServiceNow-Test-Engineer-Associate--Intern-_RQ225487",
+      "source": "Zapply Summer Repo",
+      "message_id": 1630,
+      "chat_id": 7582459199,
+      "seq": 469,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-LA-Bossier-City/ServiceNow-Test-Engineer-Associate--Intern-_RQ225487|GDIT|ServiceNow Test Engineer Associate (I...|USA LA Bossier City|Summer 2027#1"
     }
   },
   "applied": {
@@ -12675,9 +12687,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 468,
+  "seq": 469,
   "health": {
     "last_heartbeat": "2026-08-07T14:55:16Z",
-    "last_ok_run": "2026-08-07T14:55:16Z"
+    "last_ok_run": "2026-08-07T15:00:25Z"
   }
 }
