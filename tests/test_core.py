@@ -555,3 +555,101 @@ def test_url_less_rows_are_still_told_apart_by_their_text():
     b = ["Acme", "Frontend Intern", "NYC", "T", ""]
 
     assert core.row_identity(a, 1) != core.row_identity(b, 1)
+
+
+# --- is_identity_reset: the whole-table re-key breaker -----------------------------------
+
+def test_a_whole_table_rekey_is_detected():
+    """The 2026-08-01 Zapply incident: upstream replaced every apply URL with "#", so all 100
+    rows re-keyed at once and the source recognized none of the board it had been watching."""
+    assert core.is_identity_reset(100, 100)
+
+
+def test_a_large_legitimate_influx_is_not_a_reset():
+    """Most of the table is still recognized, however large the batch — this is the watcher
+    working. A board gaining 40 listings keeps 100 familiar rows underneath them."""
+    assert not core.is_identity_reset(40, 140)
+
+
+def test_ordinary_churn_on_a_size_capped_board_is_not_a_reset():
+    """Zapply is capped at ~100 rows, so a new listing displaces an old one. Recognition on a
+    healthy run sits at 96-99%."""
+    assert not core.is_identity_reset(1, 100)
+
+
+def test_the_recorded_collapse_still_alerts_its_genuinely_new_rows():
+    """The 84 -> 28 collapse is the worst legitimate case on record: 5 of 28 rows recognized
+    (18%) while 23 were genuinely new. The floor sits below it, so the breaker stays out of the
+    way of a truncating parse that dedup already survives."""
+    assert not core.is_identity_reset(23, 28)
+
+
+def test_discoveries_below_the_floor_never_trip_it():
+    """Recognition is only consulted once a run discovers enough to be worth suppressing, so a
+    small or mostly-empty table cannot trip on a handful of rows."""
+    assert not core.is_identity_reset(core.IDENTITY_RESET_MIN - 1, core.IDENTITY_RESET_MIN)
+
+
+def test_an_empty_parse_is_not_a_reset():
+    """Zero rows is the empty-parse guard's job, and it runs earlier."""
+    assert not core.is_identity_reset(0, 0)
+
+
+@pytest.mark.parametrize("row_count,recognized,expected", [
+    (100, 10, False),  # exactly at the threshold
+    (100, 9, True),  # just under it
+])
+def test_the_recognition_threshold_boundary(row_count, recognized, expected):
+    assert core.is_identity_reset(row_count - recognized, row_count) is expected
+
+
+# --- is_placeholder_url: a link that exists but goes nowhere ------------------------------
+
+@pytest.mark.parametrize("url", ["#", " # ", "#apply", "javascript:void(0)", "JavaScript:;"])
+def test_dead_links_are_placeholders(url):
+    """What the 2026-08-01 generator emitted, plus the other shapes of the same mistake."""
+    assert core.is_placeholder_url(url)
+
+
+def test_an_absent_link_is_not_a_placeholder():
+    """Roughly a fifth of the rows on the Vansh boards have no parseable URL at all. Those
+    alerts are still useful — company, role, location and term are all there — so treating them
+    as degraded would silence a large, healthy slice of a working source."""
+    assert not core.is_placeholder_url("")
+    assert not core.is_placeholder_url(None)
+
+
+@pytest.mark.parametrize("url", [
+    "https://job-boards.greenhouse.io/appian/jobs/8041237",
+    "https://www.asm.com/open-vacancies/?gh_jid=4830113101#apply",
+])
+def test_real_links_are_not_placeholders(url):
+    """Including one whose *fragment* is #apply — the target is what matters, not the tail."""
+    assert not core.is_placeholder_url(url)
+
+
+def test_fmt_omits_a_dead_link_rather_than_printing_it():
+    """A "#" under a listing reads as something to tap. Omitting it leaves the alert looking
+    exactly like the ~20% of Vansh rows that have no URL, which is the honest rendering."""
+    dead = ["Neuralink", "SWE Intern, BCI", "Fremont, CA", "Summer 2027", "#"]
+
+    assert core.fmt(dead) == "Neuralink — SWE Intern, BCI | Fremont, CA | Summer 2027"
+    assert "#" not in core.fmt(dead)
+
+
+def test_fmt_still_prints_a_real_link():
+    live = ["Appian", "SWE Intern", "McLean, VA", "Summer 2027", "https://x.test/j/1"]
+
+    assert core.fmt(live).endswith("\n  https://x.test/j/1")
+
+
+def test_a_dead_link_does_not_change_the_identity_or_the_hash():
+    """The rendering change must not touch dedup. If it did, every row already recorded under a
+    "#" identity would re-key and the whole board would re-alert — the original incident."""
+    dead = ["Neuralink", "SWE Intern, BCI", "Fremont, CA", "Summer 2027", "#"]
+
+    assert core.row_identity(dead, 1).startswith("#|"), "identity keeps the raw URL"
+    assert core.job_hash(dead, "Zapply Summer Repo") == core.job_hash(dead, "Zapply Summer Repo")
+    assert core.job_hash(dead, "Zapply Summer Repo") != core.job_hash(
+        dead[:4] + [""], "Zapply Summer Repo"
+    ), "a dead link and an absent link stay distinct rows"
