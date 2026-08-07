@@ -12464,6 +12464,66 @@
       "chat_id": 7582459199,
       "seq": 481,
       "identity": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=Simplify&ref=Simplify|Chicago Trading Company|Software Engineering Intern|Chicago, IL|Summer 2026#1"
+    },
+    "4fed938063b3": {
+      "company": "Trillium",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://www.trlm.com/apply/5207089007?gh_jid=5207089007&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1643,
+      "chat_id": 7582459199,
+      "seq": 482,
+      "identity": "https://www.trlm.com/apply/5207089007?gh_jid=5207089007&utm_source=Simplify&ref=Simplify|Trillium|Software Engineer Intern - Summer 2027|NYC|Summer 2026#1"
+    },
+    "c4d25ff7f12c": {
+      "company": "Axon",
+      "role": "Software Engineer Intern",
+      "location": "Boston, MA Seattle, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837133003?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1644,
+      "chat_id": 7582459199,
+      "seq": 483,
+      "identity": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837133003?utm_source=Simplify&ref=Simplify|Axon|Software Engineer Intern|Boston, MA Seattle, WA|Summer 2026#1"
+    },
+    "94ba63c7a9fc": {
+      "company": "The Nuclear Company",
+      "role": "Software Engineering Intern - Product - Platform",
+      "location": "Washington, DC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383236008?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1645,
+      "chat_id": 7582459199,
+      "seq": 484,
+      "identity": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383236008?utm_source=Simplify&ref=Simplify|The Nuclear Company|Software Engineering Intern - Product - Platform|Washington, DC|Summer 2026#1"
+    },
+    "fd9f0b5a19a8": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Frontend Engineer Intern - Ads Interface",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7671211313289398581?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1646,
+      "chat_id": 7582459199,
+      "seq": 485,
+      "identity": "https://lifeattiktok.com/search/7671211313289398581?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Frontend Engineer Intern - Ads Interface|San Jose, CA|Summer 2026#1"
+    },
+    "1b04baa33b40": {
+      "company": "Atoms",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "5 locationsSeattle, WA SF LA NYC Mountain View, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/cssmerge/jobs/8687896002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1647,
+      "chat_id": 7582459199,
+      "seq": 486,
+      "identity": "https://job-boards.greenhouse.io/cssmerge/jobs/8687896002?utm_source=Simplify&ref=Simplify|Atoms|Software Engineer Intern - Summer 2027|5 locationsSeattle, WA SF LA NYC Mountain View, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -12831,9 +12891,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 481,
+  "seq": 486,
   "health": {
     "last_heartbeat": "2026-08-07T22:25:13Z",
-    "last_ok_run": "2026-08-07T23:00:23Z"
+    "last_ok_run": "2026-08-07T23:05:20Z"
   }
 }
