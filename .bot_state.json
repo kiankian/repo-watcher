@@ -12392,6 +12392,18 @@
       "chat_id": 7582459199,
       "seq": 475,
       "identity": "https://job-boards.greenhouse.io/vardaspace/jobs/7824766003|Varda Space|Cybersecurity Internship - Spring 2027|El Segundo, California...|Summer 2027#1"
+    },
+    "dad554082a83": {
+      "company": "Copart",
+      "role": "Software Engineering Intern",
+      "location": "Dallas, TX - Headquarters",
+      "term": "Summer 2027",
+      "apply_url": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109441",
+      "source": "Zapply Summer Repo",
+      "message_id": 1637,
+      "chat_id": 7582459199,
+      "seq": 476,
+      "identity": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109441|Copart|Software Engineering Intern|Dallas, TX - Headquarters|Summer 2027#1"
     }
   },
   "applied": {
@@ -12759,9 +12771,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 475,
+  "seq": 476,
   "health": {
     "last_heartbeat": "2026-08-07T17:15:17Z",
-    "last_ok_run": "2026-08-07T17:15:17Z"
+    "last_ok_run": "2026-08-07T17:20:19Z"
   }
 }
