@@ -12404,6 +12404,18 @@
       "chat_id": 7582459199,
       "seq": 476,
       "identity": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109441|Copart|Software Engineering Intern|Dallas, TX - Headquarters|Summer 2027#1"
+    },
+    "69d64751886e": {
+      "company": "Belvedere Trading",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Chicago, Illinois",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0",
+      "source": "Zapply Summer Repo",
+      "message_id": 1638,
+      "chat_id": 7582459199,
+      "seq": 477,
+      "identity": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0|Belvedere Trading|Software Engineer Intern - Summer 2027|Chicago, Illinois|Summer 2027#1"
     }
   },
   "applied": {
@@ -12771,9 +12783,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 476,
+  "seq": 477,
   "health": {
     "last_heartbeat": "2026-08-07T17:15:17Z",
-    "last_ok_run": "2026-08-07T17:45:16Z"
+    "last_ok_run": "2026-08-07T17:50:21Z"
   }
 }
