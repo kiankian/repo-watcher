@@ -12344,6 +12344,54 @@
       "chat_id": 7582459199,
       "seq": 471,
       "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000142173185|Bosch Group|Internship Vehicle Thermal Systems En...|Farmington Hills, MI|Summer 2027#1"
+    },
+    "26fd39dc51be": {
+      "company": "Varda Space",
+      "role": "Site Reliability Internship - Spring ...",
+      "location": "El Segundo, California...",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824814003",
+      "source": "Zapply Summer Repo",
+      "message_id": 1633,
+      "chat_id": 7582459199,
+      "seq": 472,
+      "identity": "https://job-boards.greenhouse.io/vardaspace/jobs/7824814003|Varda Space|Site Reliability Internship - Spring ...|El Segundo, California...|Summer 2027#1"
+    },
+    "f9196dd36086": {
+      "company": "Copart",
+      "role": "Software Engineering Intern",
+      "location": "Dallas, TX - Headquarters",
+      "term": "Summer 2027",
+      "apply_url": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510",
+      "source": "Zapply Summer Repo",
+      "message_id": 1634,
+      "chat_id": 7582459199,
+      "seq": 473,
+      "identity": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510|Copart|Software Engineering Intern|Dallas, TX - Headquarters|Summer 2027#1"
+    },
+    "b99d97c7ac12": {
+      "company": "Varda Space",
+      "role": "Flight Software Internship - Spring 2027",
+      "location": "El Segundo, California...",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824815003",
+      "source": "Zapply Summer Repo",
+      "message_id": 1635,
+      "chat_id": 7582459199,
+      "seq": 474,
+      "identity": "https://job-boards.greenhouse.io/vardaspace/jobs/7824815003|Varda Space|Flight Software Internship - Spring 2027|El Segundo, California...|Summer 2027#1"
+    },
+    "29d7245e9c78": {
+      "company": "Varda Space",
+      "role": "Cybersecurity Internship - Spring 2027",
+      "location": "El Segundo, California...",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824766003",
+      "source": "Zapply Summer Repo",
+      "message_id": 1636,
+      "chat_id": 7582459199,
+      "seq": 475,
+      "identity": "https://job-boards.greenhouse.io/vardaspace/jobs/7824766003|Varda Space|Cybersecurity Internship - Spring 2027|El Segundo, California...|Summer 2027#1"
     }
   },
   "applied": {
@@ -12711,9 +12759,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 471,
+  "seq": 475,
   "health": {
     "last_heartbeat": "2026-08-07T16:10:26Z",
-    "last_ok_run": "2026-08-07T17:00:23Z"
+    "last_ok_run": "2026-08-07T17:05:18Z"
   }
 }
