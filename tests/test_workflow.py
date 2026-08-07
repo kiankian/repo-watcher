@@ -9,7 +9,7 @@ also exercises the migration.
 """
 import pytest
 
-from conftest import load_fixture
+from conftest import TARGET_KEY, load_fixture
 
 NEW_A = ["TestCorp Alpha", "SWE Intern", "Testville, TS", "Summer 2026",
          "https://example.com/apply/alpha"]
@@ -124,7 +124,8 @@ def test_migration_alerts_nothing_on_the_first_run(run_watcher, fixture_rows):
     assert "Migrated" in r.log
     entry = r.state["SimplifyJobs/Summer2026-Internships#summer"]
     assert set(entry) == {
-        "last_sha", "seen", "seen_legacy_urls", "last_row_count", "outbox",
+        "last_sha", "seen", "seen_legacy_urls", "bootstrap", "bootstrap_legacy_urls",
+        "last_row_count", "outbox",
     }
     assert entry["last_row_count"] == len(fixture_rows)
 
@@ -141,15 +142,15 @@ def test_a_collapsing_parse_does_not_resurrect_old_listings(run_watcher):
     # bootstrap rather than diffed against the unrelated trimmed fixture.
     seeded = run_watcher(before, drop_target_state=True)
     assert seeded.sent == [], "bootstrap stays silent"
-    assert len(seeded.seen) == 84
+    assert len(seeded.muted) == 84, "the seed is recorded as mute, not as history"
 
     collapsed = run_watcher(after, start_files=seeded.files)
     assert len(collapsed.sent) == 23, "only the genuinely-new listings alert"
-    assert len(collapsed.seen) == 84 + 23, "seen grew; nothing was dropped"
+    assert len(collapsed.suppressed) == 84 + 23, "grew; nothing was dropped"
 
     recovered = run_watcher(before, start_files=collapsed.files)
     assert recovered.sent == [], "the 79 returning rows must not re-alert"
-    assert len(recovered.seen) == 84 + 23, "and nothing new is recorded either"
+    assert len(recovered.suppressed) == 84 + 23, "and nothing new is recorded either"
 
 
 def test_openings_differing_only_by_url_all_alert(run_watcher, fixture_rows):
@@ -298,7 +299,7 @@ def test_the_step_summary_tabulates_every_watcher(run_watcher, fixture_rows):
     before = run_watcher(fixture_rows)
     r = run_watcher(fixture_rows + [NEW_A], start_files=before.files, capture_summary=True)
 
-    assert "| Watcher | rows | prev | new | sent | failed | note |" in r.summary
+    assert "| Watcher | rows | prev | new | sent | failed | muted | note |" in r.summary
     assert "| Simplify Summer Repo |" in r.summary
     assert "Watcher run" in r.summary
 
@@ -347,7 +348,9 @@ def test_bootstrap_does_not_record_current_urls_as_legacy(run_watcher, fixture_r
 
     entry = r.state["SimplifyJobs/Summer2026-Internships#summer"]
     assert entry["seen_legacy_urls"] == []
-    assert len(entry["seen"]) == len(fixture_rows), "identities do the silencing"
+    assert entry["bootstrap_legacy_urls"] == []
+    assert len(entry["bootstrap"]) == len(fixture_rows), "identities do the silencing"
+    assert entry["seen"] == [], "nothing was delivered, so nothing is recorded as delivered"
 
 
 def test_a_second_copy_of_a_bootstrapped_url_still_alerts(run_watcher, fixture_rows):
@@ -362,6 +365,101 @@ def test_a_second_copy_of_a_bootstrapped_url_still_alerts(run_watcher, fixture_r
 
     assert len(r.sent) == 1, "the second occurrence is a new opening"
     assert r.sent_matching("https://acme.test/job/1")
+
+
+# --- releasing the bootstrap mute -------------------------------------------------------
+#
+# The gap these cover: Zapply was initialized on 2026-07-21 with 100 listings muted, and 13
+# days later 51 of them were still on the board, still unsent, with nothing in state saying
+# they had never been delivered. Silence at init is deliberate; permanence was not.
+
+def test_a_quiet_run_never_releases_the_mute_by_itself(run_watcher, fixture_rows):
+    """The mute is only lifted on an explicit dispatch. Ordinary runs -- which is all of them --
+    must keep behaving exactly as before, or every source re-alerts its own seed."""
+    seeded = run_watcher(fixture_rows, drop_target_state=True)
+    assert seeded.sent == []
+
+    for _ in range(3):
+        again = run_watcher(fixture_rows, start_files=seeded.files)
+        assert again.sent == [], "a muted listing stays muted without release_bootstrap"
+        assert len(again.muted) == len(fixture_rows), "and the mute is not eroded by running"
+        seeded = again
+
+
+def test_releasing_alerts_the_still_listed_muted_jobs(run_watcher, fixture_rows):
+    seeded = run_watcher(fixture_rows, drop_target_state=True)
+    assert seeded.sent == [], "bootstrap stays silent"
+    assert len(seeded.muted) == len(fixture_rows)
+
+    r = run_watcher(fixture_rows, start_files=seeded.files, release_bootstrap=TARGET_KEY)
+
+    assert len(r.sent) == len(fixture_rows), "every muted row still listed goes out"
+    assert r.muted == [], "the mute is spent"
+    assert len(r.seen) == len(fixture_rows), "and they are now genuinely delivered"
+
+
+def test_releasing_does_not_resend_what_was_already_delivered(run_watcher, fixture_rows):
+    """`seen` and the mute are separate sets, so lifting one cannot disturb the other."""
+    extra = ["Fresh Co", "SWE Intern", "NYC", "Summer 2026", "https://fresh.test/job/1"]
+    seeded = run_watcher(fixture_rows, drop_target_state=True)
+    delivered = run_watcher(fixture_rows + [extra], start_files=seeded.files)
+    assert len(delivered.sent) == 1, "only the genuinely-new row alerts"
+
+    r = run_watcher(fixture_rows + [extra], start_files=delivered.files,
+                    release_bootstrap=TARGET_KEY)
+
+    assert not r.sent_matching("https://fresh.test/job/1"), "a delivered alert never repeats"
+    assert len(r.sent) == len(fixture_rows)
+
+
+def test_releasing_skips_rows_that_have_left_the_board(run_watcher, fixture_rows):
+    """Release un-mutes; it does not replay. A muted row that is no longer listed produces no
+    alert, because selection only ever runs against the current snapshot."""
+    seeded = run_watcher(fixture_rows, drop_target_state=True)
+    survivors = fixture_rows[:3]
+
+    r = run_watcher(survivors, start_files=seeded.files, release_bootstrap=TARGET_KEY)
+
+    assert len(r.sent) == 3, "only what is still on the board is worth an alert"
+
+
+def test_release_targets_one_source_and_leaves_the_others_muted(run_watcher, fixture_rows):
+    seeded = run_watcher(fixture_rows, drop_target_state=True)
+
+    r = run_watcher(fixture_rows, start_files=seeded.files,
+                    release_bootstrap="some/other-source#key")
+
+    assert r.sent == [], "a key that matches nothing releases nothing"
+    assert len(r.muted) == len(fixture_rows)
+    assert "matched no source" in r.log
+
+
+def test_release_is_capped_by_the_burst_limit_like_any_backlog(run_watcher):
+    """A released mute is ordinary work: it drains through the outbox rather than attempting
+    hundreds of sends in one job, which is what flood control would reject anyway."""
+    rows = _burst(60, prefix="Muted")
+    seeded = run_watcher(rows, drop_target_state=True)
+
+    r = run_watcher(rows, start_files=seeded.files, release_bootstrap=TARGET_KEY)
+
+    assert len(r.sent) == 25, "BURST_CAP still applies"
+    assert len(r.outbox) == 35, "the rest is queued, not dropped"
+
+    drained = run_watcher(rows, start_files=r.files)
+    assert len(drained.sent) == 25, "and drains on later runs without re-dispatching"
+
+
+def test_bootstrap_says_how_many_listings_it_muted(run_watcher, fixture_rows):
+    """Silence about the silence is what made this invisible for a fortnight."""
+    r = run_watcher(fixture_rows, drop_target_state=True)
+
+    assert r.sent == []
+    alert = next(h for h in r.health if "initialized" in h)
+    assert f"{len(fixture_rows)} currently-listed" in alert
+    assert f"release_bootstrap={TARGET_KEY}" in alert, "and how to undo it"
+
+    record = next(rec for rec in r.log_records("runs") if rec["skip_reason"] == "bootstrap")
+    assert record["bootstrap_muted"] == len(fixture_rows)
 
 
 # --- durable outbox ---------------------------------------------------------------------

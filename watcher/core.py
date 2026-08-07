@@ -195,11 +195,58 @@ def assign_identities(rows):
     return triples
 
 
+# --- Bootstrap mute ---------------------------------------------------------------------
+#
+# Initializing a source seeds it from what is currently listed and alerts none of it, so
+# adding a watcher cannot flood the chat. That silence is permanent, and for a board like
+# Zapply -- capped at ~100 rows and re-sorted by recency -- the seed *is* the whole visible
+# board, so weeks later half of it is still listed and still muted. Those rows were never
+# delivered, but nothing in the state said so: they sat in `seen` next to genuine deliveries,
+# indistinguishable from them.
+#
+# So the two reasons a row is silenced are now stored apart:
+#
+#   seen / seen_legacy_urls            delivered -- you have had this alert
+#   bootstrap / bootstrap_legacy_urls  muted at init -- you never had it
+#
+# Both suppress, so day-to-day behavior is unchanged and no source re-alerts on upgrade. The
+# difference is that the bootstrap mute is now nameable, countable, and can be lifted per
+# source (release_bootstrap) instead of being a permanent hole nothing records.
+
+
+def suppression_sets(entry):
+    """(identities, urls) that silence a row: delivered plus bootstrap-muted.
+
+    Unioned rather than checked separately because every caller wants both -- keeping them
+    apart in state is for auditing and release, not for the hot path.
+    """
+    identities = set(entry.get("seen") or ()) | set(entry.get("bootstrap") or ())
+    urls = set(entry.get("seen_legacy_urls") or ()) | set(entry.get("bootstrap_legacy_urls") or ())
+    return identities, urls
+
+
+def release_bootstrap(entry):
+    """Lift a source's bootstrap mute. Returns (new_entry, count_released).
+
+    Only the mute is dropped; `seen` is untouched, so nothing already delivered can repeat.
+    Released rows are simply no longer suppressed, which means they re-enter selection as new
+    on the next parse and go out through the normal outbox at BURST_CAP per run.
+    """
+    released = len(entry.get("bootstrap") or ()) + len(entry.get("bootstrap_legacy_urls") or ())
+    lifted = dict(entry)
+    lifted["bootstrap"] = []
+    lifted["bootstrap_legacy_urls"] = []
+    return lifted, released
+
+
 def select_new(rows, seen, legacy_urls=()):
     """Rows never delivered before, as (row, identity, occurrence) triples.
 
     seen holds identities. legacy_urls holds bare apply URLs recorded before identities
     existed -- those predate the term/occurrence suffix, so they can only be matched on URL.
+
+    Callers pass the unions from suppression_sets, so a bootstrap-muted row is rejected here
+    exactly like a delivered one.
     """
     legacy = set(legacy_urls)
     fresh = []
@@ -230,11 +277,19 @@ def migrate_state(state, bot_records, watchers, cap=SEEN_CAP):
         {last_sha, seen: [url]}  cumulative-URL sources (bare URLs, no term recorded)
 
     Unified shape:
-        {last_sha, seen: [identity], seen_legacy_urls: [url], last_row_count: int}
+        {last_sha, seen: [identity], seen_legacy_urls: [url], bootstrap: [identity],
+         bootstrap_legacy_urls: [url], last_row_count: int}
 
     Seeded from the currently-listed rows *and* everything in bot_state, so the first run after
-    the change alerts nothing. Idempotent: a source already carrying seen_legacy_urls is
+    the change alerts nothing. Idempotent: a source already carrying bootstrap_legacy_urls is
     returned untouched.
+
+    A source already on the unified shape gets its legacy URLs split by delivery: any URL with
+    no record in bot_state was never sent to anyone, so it is bootstrap mute rather than
+    history, and it moves to bootstrap_legacy_urls. Both sets still suppress, so this
+    reclassification cannot change what the next run alerts. It can only be as accurate as
+    bot_state: a delivery whose record has been evicted reads as never-delivered, and the cost
+    of that is one duplicate if the mute is later released.
     """
     families = {}
     for w in watchers:
@@ -254,13 +309,25 @@ def migrate_state(state, bot_records, watchers, cap=SEEN_CAP):
             if entry[4]:
                 urls.add(entry[4])
 
+    delivered_urls = {rec.get("apply_url") for rec in bot_records if rec.get("apply_url")}
+
     migrated = {}
     for key, val in state.items():
         if not isinstance(val, dict) or "last_sha" not in val:
             migrated[key] = val  # not a source entry; leave alone
             continue
+        if "bootstrap_legacy_urls" in val:
+            migrated[key] = val  # already split
+            continue
         if "seen_legacy_urls" in val:
-            migrated[key] = val  # already migrated
+            # On the unified shape but predating the split. Separate the legacy URLs that
+            # correspond to a real delivery from the ones only a silent bootstrap ever wrote.
+            legacy_urls = val.get("seen_legacy_urls") or []
+            entry = dict(val)
+            entry["seen_legacy_urls"] = [u for u in legacy_urls if u in delivered_urls]
+            entry["bootstrap_legacy_urls"] = [u for u in legacy_urls if u not in delivered_urls]
+            entry.setdefault("bootstrap", [])
+            migrated[key] = entry
             continue
 
         rows = val.get("rows")
@@ -282,7 +349,11 @@ def migrate_state(state, bot_records, watchers, cap=SEEN_CAP):
         migrated[key] = {
             "last_sha": val["last_sha"],
             "seen": seen[-cap:],
-            "seen_legacy_urls": sorted(legacy),
+            "seen_legacy_urls": sorted(u for u in legacy if u in delivered_urls),
+            # Legacy state carries no record of why a URL is in it, so delivery is the test:
+            # anything bot_state cannot account for was silenced without ever being sent.
+            "bootstrap": [],
+            "bootstrap_legacy_urls": sorted(u for u in legacy if u not in delivered_urls),
             "last_row_count": len(rows) if rows is not None else 0,
             # Nothing was ever queued under the old shape, so migration starts it empty.
             "outbox": [],

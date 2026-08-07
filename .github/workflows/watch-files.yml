@@ -9,6 +9,12 @@ on:
         description: 'Parse and report only: send no Telegram messages and write no state.'
         type: boolean
         default: false
+      release_bootstrap:
+        description: >-
+          Lift the silent-bootstrap mute on a source and alert its still-listed jobs: a
+          state_key, or "all". Leave empty for normal runs. Pair with dry_run first to count.
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -42,6 +48,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_TOKEN: ${{ github.token }}
           DRY_RUN: ${{ inputs.dry_run || github.ref_name != github.event.repository.default_branch }}
+          RELEASE_BOOTSTRAP: ${{ inputs.release_bootstrap }}
         run: |
           python - <<'PY'
           import datetime
@@ -64,7 +71,9 @@ jobs:
               migrate_state,
               parse_html_rows,
               parse_markdown_rows,
+              release_bootstrap,
               select_new,
+              suppression_sets,
           )
 
           WATCHERS = [
@@ -220,6 +229,9 @@ jobs:
           # RUN_DEADLINE checks are ever reached, because they all sit on the failure path.
           REQUEST_TIMEOUT = 30
           DRY_RUN = os.environ.get("DRY_RUN", "").strip().lower() == "true"
+          # A state_key, or "all", whose bootstrap mute this run should lift. Empty on every
+          # ordinary run — this is a deliberate, operator-initiated backfill, not a schedule.
+          RELEASE_BOOTSTRAP = os.environ.get("RELEASE_BOOTSTRAP", "").strip()
           RUN_ID = os.environ.get("GITHUB_RUN_ID", "local")
           SILENCE_ALARM_AFTER = 2 * 3600  # gap without a successful run that is worth reporting
           ALARM_REPEAT_AFTER = 30 * 60  # min gap between repeats of one alarm kind
@@ -529,7 +541,33 @@ jobs:
               if isinstance(val, dict) and shapes_before.get(key) != sorted(val):
                   print(
                       f"Migrated {key}: {len(val.get('seen', []))} identities, "
-                      f"{len(val.get('seen_legacy_urls', []))} legacy URLs."
+                      f"{len(val.get('seen_legacy_urls', []))} legacy URLs, "
+                      f"{len(val.get('bootstrap_legacy_urls', []))} bootstrap-muted URLs."
+                  )
+
+          # --- Optional bootstrap release ---
+          #
+          # Lifting the mute does not send anything by itself: the released rows simply stop
+          # being suppressed, so the ordinary selection below sees them as new and they leave
+          # through the outbox at BURST_CAP per run like any other backlog. Rows that have since
+          # dropped off the upstream table are not resurrected — only what is still listed goes
+          # out, which is the point, since a delisted job is not worth an alert.
+          if RELEASE_BOOTSTRAP:
+              targets = [
+                  key for key, val in state.items()
+                  if isinstance(val, dict) and "bootstrap" in val
+                  and RELEASE_BOOTSTRAP in ("all", key)
+              ]
+              if not targets:
+                  print(
+                      f"release_bootstrap={RELEASE_BOOTSTRAP!r} matched no source; "
+                      f"expected 'all' or one of: {', '.join(sorted(state))}"
+                  )
+              for key in targets:
+                  state[key], released = release_bootstrap(state[key])
+                  print(
+                      f"Released bootstrap mute on {key}: {released} identity/URL(s) "
+                      "un-muted; the still-listed ones will alert from this run on."
                   )
 
           # --- Process each watcher ---
@@ -565,6 +603,11 @@ jobs:
               last_sha = saved.get("last_sha")
               seen_list = saved.get("seen")
               legacy_urls = saved.get("seen_legacy_urls") or []
+              bootstrap_idents = saved.get("bootstrap") or []
+              bootstrap_urls = saved.get("bootstrap_legacy_urls") or []
+              # Delivered and bootstrap-muted both silence a row; they are kept apart in state
+              # so the mute can be counted and lifted, not so it can be bypassed.
+              suppressed_idents, suppressed_urls = suppression_sets(saved)
               # Rows observed as new but not yet delivered, persisted as [row, identity,
               # occurrence]. Withholding them from `seen` alone was not enough: the retry
               # re-derived them from a fresh parse, so anything that left the upstream table in
@@ -670,13 +713,18 @@ jobs:
                               seeded = [i for _r, i, _o in assign_identities(curr_rows)]
                               state[state_key] = {
                                   "last_sha": latest_sha,
-                                  "seen": seeded[-SEEN_CAP:],
+                                  # Empty, and it matters: `seen` means delivered. Filing the
+                                  # seed here instead is what made the mute indistinguishable
+                                  # from history and so impossible to undo.
+                                  "seen": [],
                                   # Deliberately empty: the seeded identities already silence
                                   # this snapshot, and a legacy URL suppresses a row whatever its
                                   # term, so seeding URLs here would stop a requisition relisted
                                   # for a new season from ever alerting. Same reasoning as
                                   # migrate_state — legacy is only for state with no term.
                                   "seen_legacy_urls": [],
+                                  "bootstrap": seeded[-SEEN_CAP:],
+                                  "bootstrap_legacy_urls": [],
                                   "last_row_count": len(curr_rows),
                                   "outbox": [],
                               }
@@ -684,12 +732,23 @@ jobs:
                                   f"Bootstrapped {state_key} at {latest_sha} "
                                   f"with {len(seeded)} identities."
                               )
+                              # Say so out loud. A capped, recency-sorted board seeds its entire
+                              # visible self here, and staying quiet about that is how 51 live
+                              # listings sat muted for a fortnight with nothing recording it.
+                              health_alert(
+                                  f"bootstrap:{state_key}",
+                                  f"{w['label']} initialized: {len(seeded)} currently-listed "
+                                  "jobs were muted so this did not flood the chat. You will not "
+                                  "be alerted about any of them. To receive the ones still "
+                                  f"listed, dispatch with release_bootstrap={state_key}",
+                              )
                               record_run(
                                   w["label"], state_key, prev_sha=last_sha,
                                   latest_sha=latest_sha, rows_extracted=len(curr_rows),
                                   prev_row_count=prev_row_count, seen_size=len(seeded),
                                   queued_before=0, identities_new=0, sent_ok=0, sent_failed=0,
-                                  outbox_size=0, skip_reason="bootstrap",
+                                  outbox_size=0, bootstrap_muted=len(seeded),
+                                  skip_reason="bootstrap",
                               )
                               continue
 
@@ -699,11 +758,13 @@ jobs:
                   record_run(w["label"], state_key, prev_sha=last_sha, latest_sha=latest_sha,
                              rows_extracted=0, prev_row_count=prev_row_count, seen_size=0,
                              queued_before=queued_before, identities_new=0, sent_ok=0,
-                             sent_failed=0, outbox_size=queued_before,
+                             sent_failed=0, outbox_size=queued_before, bootstrap_muted=0,
                              skip_reason=skip_reason or "unbootstrapped")
                   continue
 
-              fresh_pairs = select_new(curr_rows, set(seen_list), legacy_urls) if curr_rows else []
+              fresh_pairs = (
+                  select_new(curr_rows, suppressed_idents, suppressed_urls) if curr_rows else []
+              )
               queued = {ident for _r, ident, _o in outbox}
               # A queued row is still absent from `seen` — it was never delivered — so select_new
               # hands it back on every run where it is still listed upstream. It was counted as a
@@ -743,6 +804,9 @@ jobs:
                          identities_new=len(fresh_new), sent_ok=len(delivered),
                          sent_failed=len(undelivered),
                          outbox_size=min(len(undelivered), OUTBOX_CAP),
+                         # Listings this source will never alert unless the mute is released.
+                         # Logged every run so the hole is measurable instead of inferred.
+                         bootstrap_muted=len(bootstrap_idents) + len(bootstrap_urls),
                          skip_reason=skip_reason)
               state[state_key] = {
                   # Only advance when a snapshot was actually parsed. Anything undelivered is
@@ -750,6 +814,10 @@ jobs:
                   "last_sha": latest_sha if curr_rows is not None else last_sha,
                   "seen": merged[-SEEN_CAP:],
                   "seen_legacy_urls": legacy_urls,
+                  # Carried through untouched. A delivery never clears a mute: releasing is the
+                  # only thing that does, so the count cannot drift on its own.
+                  "bootstrap": bootstrap_idents,
+                  "bootstrap_legacy_urls": bootstrap_urls,
                   "last_row_count": len(curr_rows) if curr_rows is not None else prev_row_count,
                   # Keep the oldest on overflow: newer rows can still be re-derived from the next
                   # parse, while the oldest may already have left the upstream table.
@@ -795,14 +863,14 @@ jobs:
               lines = [
                   f"### Watcher run {'(dry run) ' if DRY_RUN else ''}— {iso(utcnow())}",
                   "",
-                  "| Watcher | rows | prev | new | sent | failed | note |",
-                  "|---|---:|---:|---:|---:|---:|---|",
+                  "| Watcher | rows | prev | new | sent | failed | muted | note |",
+                  "|---|---:|---:|---:|---:|---:|---:|---|",
               ]
               for r in run_records:
                   lines.append(
                       f"| {r['watcher']} | {r['rows_extracted']} | {r['prev_row_count'] or '-'} "
                       f"| {r['identities_new']} | {r['sent_ok']} | {r['sent_failed']} "
-                      f"| {r['skip_reason'] or ''} |"
+                      f"| {r.get('bootstrap_muted') or ''} | {r['skip_reason'] or ''} |"
                   )
               if anomalies:
                   lines += ["", "**Anomalies**", ""]
