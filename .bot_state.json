@@ -12320,6 +12320,18 @@
       "chat_id": 7582459199,
       "seq": 469,
       "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-LA-Bossier-City/ServiceNow-Test-Engineer-Associate--Intern-_RQ225487|GDIT|ServiceNow Test Engineer Associate (I...|USA LA Bossier City|Summer 2027#1"
+    },
+    "66aeabacb35c": {
+      "company": "Johnson & Johnson",
+      "role": "Software Engineer Coop",
+      "location": "Cincinnati, Ohio, Unit...",
+      "term": "Summer 2027",
+      "apply_url": "https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820",
+      "source": "Zapply Summer Repo",
+      "message_id": 1631,
+      "chat_id": 7582459199,
+      "seq": 470,
+      "identity": "https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820|Johnson & Johnson|Software Engineer Coop|Cincinnati, Ohio, Unit...|Summer 2027#1"
     }
   },
   "applied": {
@@ -12687,9 +12699,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 469,
+  "seq": 470,
   "health": {
     "last_heartbeat": "2026-08-07T14:55:16Z",
-    "last_ok_run": "2026-08-07T15:40:19Z"
+    "last_ok_run": "2026-08-07T15:45:18Z"
   }
 }
