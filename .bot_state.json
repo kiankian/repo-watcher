@@ -12104,6 +12104,54 @@
       "chat_id": 7582459199,
       "seq": 451,
       "identity": "https://apply.careers.microsoft.com/careers/job/1970393556922923|Microsoft|Software Engineer: Cloud & Distribute...|Redmond, Washington, U...|Summer 2027#1"
+    },
+    "d721a3576859": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Fullstack Software Engineer Intern - Global E-Commerce",
+      "location": "Seattle, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7670700387322300677?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1613,
+      "chat_id": 7582459199,
+      "seq": 452,
+      "identity": "https://lifeattiktok.com/search/7670700387322300677?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Fullstack Software Engineer Intern - Global E-Commerce|Seattle, WA|Summer 2026#1"
+    },
+    "3314879dd4e8": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7670738362521520437?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1614,
+      "chat_id": 7582459199,
+      "seq": 453,
+      "identity": "https://lifeattiktok.com/search/7670738362521520437?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer|San Jose, CA|Summer 2026#1"
+    },
+    "09aa1b4077e7": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Network Software Engineer Intern - Network Switch",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7670778018960542005/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1615,
+      "chat_id": 7582459199,
+      "seq": 454,
+      "identity": "https://jobs.bytedance.com/en/position/7670778018960542005/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Network Software Engineer Intern - Network Switch|San Jose, CA|Summer 2026#1"
+    },
+    "3920400478e0": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Network Software Engineer Intern - Network Observation",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7670772641439041797/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1616,
+      "chat_id": 7582459199,
+      "seq": 455,
+      "identity": "https://jobs.bytedance.com/en/position/7670772641439041797/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Network Software Engineer Intern - Network Observation|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -12471,9 +12519,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 451,
+  "seq": 455,
   "health": {
     "last_heartbeat": "2026-08-07T01:10:17Z",
-    "last_ok_run": "2026-08-07T01:30:20Z"
+    "last_ok_run": "2026-08-07T01:35:20Z"
   }
 }
