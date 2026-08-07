@@ -12092,6 +12092,18 @@
       "chat_id": 7582459199,
       "seq": 450,
       "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225469-1?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Developer Intern|Annapolis Junction, MD|Summer 2026#1"
+    },
+    "719eea2d179b": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Cloud & Distribute...",
+      "location": "Redmond, Washington, U...",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556922923",
+      "source": "Zapply Summer Repo",
+      "message_id": 1612,
+      "chat_id": 7582459199,
+      "seq": 451,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556922923|Microsoft|Software Engineer: Cloud & Distribute...|Redmond, Washington, U...|Summer 2027#1"
     }
   },
   "applied": {
@@ -12459,9 +12471,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 450,
+  "seq": 451,
   "health": {
     "last_heartbeat": "2026-08-07T00:00:24Z",
-    "last_ok_run": "2026-08-07T00:15:19Z"
+    "last_ok_run": "2026-08-07T00:20:17Z"
   }
 }
