@@ -12332,6 +12332,18 @@
       "chat_id": 7582459199,
       "seq": 470,
       "identity": "https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820|Johnson & Johnson|Software Engineer Coop|Cincinnati, Ohio, Unit...|Summer 2027#1"
+    },
+    "2406fba5934d": {
+      "company": "Bosch Group",
+      "role": "Internship Vehicle Thermal Systems En...",
+      "location": "Farmington Hills, MI",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000142173185",
+      "source": "Zapply Summer Repo",
+      "message_id": 1632,
+      "chat_id": 7582459199,
+      "seq": 471,
+      "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000142173185|Bosch Group|Internship Vehicle Thermal Systems En...|Farmington Hills, MI|Summer 2027#1"
     }
   },
   "applied": {
@@ -12699,9 +12711,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 470,
+  "seq": 471,
   "health": {
     "last_heartbeat": "2026-08-07T16:10:26Z",
-    "last_ok_run": "2026-08-07T16:10:26Z"
+    "last_ok_run": "2026-08-07T16:15:23Z"
   }
 }
