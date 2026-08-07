@@ -12416,6 +12416,54 @@
       "chat_id": 7582459199,
       "seq": 477,
       "identity": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0|Belvedere Trading|Software Engineer Intern - Summer 2027|Chicago, Illinois|Summer 2027#1"
+    },
+    "d11c77285206": {
+      "company": "Belvedere Trading",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1639,
+      "chat_id": 7582459199,
+      "seq": 478,
+      "identity": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0/apply?utm_source=Simplify&ref=Simplify|Belvedere Trading|Software Engineer Intern - Summer 2027|Chicago, IL|Summer 2026#1"
+    },
+    "614a8364b895": {
+      "company": "Ameren",
+      "role": "DERMS Co-op/Intern",
+      "location": "St. Louis, MO Illinois",
+      "term": "Summer 2026",
+      "apply_url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/DERMS-Co-Op-Intern_033809-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1640,
+      "chat_id": 7582459199,
+      "seq": 479,
+      "identity": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/DERMS-Co-Op-Intern_033809-1?utm_source=Simplify&ref=Simplify|Ameren|DERMS Co-op/Intern|St. Louis, MO Illinois|Summer 2026#1"
+    },
+    "a33d35069381": {
+      "company": "Ameren",
+      "role": "Digital Co-op",
+      "location": "St. Louis, MO",
+      "term": "Summer 2026",
+      "apply_url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Digital-Co-op_033841-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1641,
+      "chat_id": 7582459199,
+      "seq": 480,
+      "identity": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Digital-Co-op_033841-1?utm_source=Simplify&ref=Simplify|Ameren|Digital Co-op|St. Louis, MO|Summer 2026#1"
+    },
+    "16ea635eecf5": {
+      "company": "Chicago Trading Company",
+      "role": "Software Engineering Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1642,
+      "chat_id": 7582459199,
+      "seq": 481,
+      "identity": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=Simplify&ref=Simplify|Chicago Trading Company|Software Engineering Intern|Chicago, IL|Summer 2026#1"
     }
   },
   "applied": {
@@ -12783,9 +12831,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 477,
+  "seq": 481,
   "health": {
     "last_heartbeat": "2026-08-07T22:25:13Z",
-    "last_ok_run": "2026-08-07T22:30:22Z"
+    "last_ok_run": "2026-08-07T22:35:21Z"
   }
 }
