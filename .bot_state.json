@@ -12296,6 +12296,18 @@
       "chat_id": 7582459199,
       "seq": 467,
       "identity": "https://careers-sargentlundy.icims.com/jobs/25889/software-engineer-intern-%28summer-2027%29/job|Sargent & Lundy|Software Engineer Intern - Summer 2027|Chicago, IL|Other#1"
+    },
+    "63a4ff0f5be0": {
+      "company": "Microsoft",
+      "role": "Software Engineering INTERN",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556957962",
+      "source": "Zapply Summer Repo",
+      "message_id": 1629,
+      "chat_id": 7582459199,
+      "seq": 468,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556957962|Microsoft|Software Engineering INTERN|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -12663,9 +12675,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 467,
+  "seq": 468,
   "health": {
     "last_heartbeat": "2026-08-07T13:50:21Z",
-    "last_ok_run": "2026-08-07T14:40:23Z"
+    "last_ok_run": "2026-08-07T14:45:16Z"
   }
 }
