@@ -12572,6 +12572,18 @@
       "chat_id": 7582459199,
       "seq": 490,
       "identity": "https://apply.careers.microsoft.com/careers/job/1970393556951950|Microsoft|Software Engineer: Intern Opportuniti...|Redmond, Washington, U...|Summer 2027#1"
+    },
+    "b3f3a5aa0ee2": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Software Development Engineer Intern - Network Automation - 2027 Summer",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7671147251943213317/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1652,
+      "chat_id": 7582459199,
+      "seq": 491,
+      "identity": "https://jobs.bytedance.com/en/position/7671147251943213317/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Software Development Engineer Intern - Network Automation - 2027 Summer|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -12939,9 +12951,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 490,
+  "seq": 491,
   "health": {
     "last_heartbeat": "2026-08-08T00:40:18Z",
-    "last_ok_run": "2026-08-08T01:30:17Z"
+    "last_ok_run": "2026-08-08T01:35:15Z"
   }
 }
