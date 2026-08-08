@@ -12584,6 +12584,18 @@
       "chat_id": 7582459199,
       "seq": 491,
       "identity": "https://jobs.bytedance.com/en/position/7671147251943213317/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Software Development Engineer Intern - Network Automation - 2027 Summer|San Jose, CA|Summer 2026#1"
+    },
+    "a817dff2b482": {
+      "company": "ByteDance",
+      "role": "Software Development Engineer Intern ...",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7671147251943213317",
+      "source": "Zapply Summer Repo",
+      "message_id": 1653,
+      "chat_id": 7582459199,
+      "seq": 492,
+      "identity": "https://joinbytedance.com/search/7671147251943213317|ByteDance|Software Development Engineer Intern ...|San Jose, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -12951,9 +12963,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 491,
+  "seq": 492,
   "health": {
     "last_heartbeat": "2026-08-08T19:30:19Z",
-    "last_ok_run": "2026-08-08T20:10:15Z"
+    "last_ok_run": "2026-08-08T20:15:16Z"
   }
 }
