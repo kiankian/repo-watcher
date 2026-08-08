@@ -12524,6 +12524,54 @@
       "chat_id": 7582459199,
       "seq": 486,
       "identity": "https://job-boards.greenhouse.io/cssmerge/jobs/8687896002?utm_source=Simplify&ref=Simplify|Atoms|Software Engineer Intern - Summer 2027|5 locationsSeattle, WA SF LA NYC Mountain View, CA|Summer 2026#1"
+    },
+    "1f5ef1ae66d4": {
+      "company": "ByteDance",
+      "role": "Network Software Development Engineer...",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7670778018960542005",
+      "source": "Zapply Summer Repo",
+      "message_id": 1648,
+      "chat_id": 7582459199,
+      "seq": 487,
+      "identity": "https://joinbytedance.com/search/7670778018960542005|ByteDance|Network Software Development Engineer...|San Jose, California|Summer 2027#1"
+    },
+    "cb9c28f72271": {
+      "company": "ByteDance",
+      "role": "AI Network Automation Engineer intern...",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7670690923748870405",
+      "source": "Zapply Summer Repo",
+      "message_id": 1649,
+      "chat_id": 7582459199,
+      "seq": 488,
+      "identity": "https://joinbytedance.com/search/7670690923748870405|ByteDance|AI Network Automation Engineer intern...|San Jose, California|Summer 2027#1"
+    },
+    "8669d5f69b60": {
+      "company": "ByteDance",
+      "role": "Software Engineer Intern (AI Infra Co...",
+      "location": "Seattle, Washington",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7667378931599214853",
+      "source": "Zapply Summer Repo",
+      "message_id": 1650,
+      "chat_id": 7582459199,
+      "seq": 489,
+      "identity": "https://joinbytedance.com/search/7667378931599214853|ByteDance|Software Engineer Intern (AI Infra Co...|Seattle, Washington|Summer 2027#1"
+    },
+    "f2516d070036": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Intern Opportuniti...",
+      "location": "Redmond, Washington, U...",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+      "source": "Zapply Summer Repo",
+      "message_id": 1651,
+      "chat_id": 7582459199,
+      "seq": 490,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556951950|Microsoft|Software Engineer: Intern Opportuniti...|Redmond, Washington, U...|Summer 2027#1"
     }
   },
   "applied": {
@@ -12891,9 +12939,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 486,
+  "seq": 490,
   "health": {
     "last_heartbeat": "2026-08-08T00:40:18Z",
-    "last_ok_run": "2026-08-08T00:45:16Z"
+    "last_ok_run": "2026-08-08T00:50:22Z"
   }
 }
