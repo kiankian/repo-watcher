@@ -12776,6 +12776,18 @@
       "chat_id": 7582459199,
       "seq": 507,
       "identity": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473|Rockwell Automation|Spring 2027 Co-op, Embedded Software ...|Mayfield Heights, Ohio...|Summer 2027#1"
+    },
+    "411b193b971b": {
+      "company": "ByteDance",
+      "role": "Multi-Cloud CDN Scheduling Platform E...",
+      "location": "Seattle, Washington",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7670359288608114949",
+      "source": "Zapply Summer Repo",
+      "message_id": 1669,
+      "chat_id": 7582459199,
+      "seq": 508,
+      "identity": "https://joinbytedance.com/search/7670359288608114949|ByteDance|Multi-Cloud CDN Scheduling Platform E...|Seattle, Washington|Summer 2027#1"
     }
   },
   "applied": {
@@ -13143,9 +13155,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 507,
+  "seq": 508,
   "health": {
     "last_heartbeat": "2026-08-10T19:45:24Z",
-    "last_ok_run": "2026-08-10T20:15:30Z"
+    "last_ok_run": "2026-08-10T20:20:23Z"
   }
 }
