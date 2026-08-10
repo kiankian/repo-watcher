@@ -12668,6 +12668,18 @@
       "chat_id": 7582459199,
       "seq": 498,
       "identity": "https://job-boards.greenhouse.io/vardaspace/jobs/7824814003|Varda|Site Reliability Internship - Spring 2027|El Segundo, CA|Other#1"
+    },
+    "ba8116684e1b": {
+      "company": "Amentum",
+      "role": "Network Engineer Internship IRES - SSFB",
+      "location": "Colorado Springs, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-CO-Colorado-Springs/Network-Engineer-Internship-IRES---SSFB_R0167863",
+      "source": "Zapply Summer Repo",
+      "message_id": 1660,
+      "chat_id": 7582459199,
+      "seq": 499,
+      "identity": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-CO-Colorado-Springs/Network-Engineer-Internship-IRES---SSFB_R0167863|Amentum|Network Engineer Internship IRES - SSFB|Colorado Springs, CO|Summer 2027#1"
     }
   },
   "applied": {
@@ -13035,9 +13047,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 498,
+  "seq": 499,
   "health": {
     "last_heartbeat": "2026-08-10T13:20:16Z",
-    "last_ok_run": "2026-08-10T13:50:20Z"
+    "last_ok_run": "2026-08-10T13:55:17Z"
   }
 }
