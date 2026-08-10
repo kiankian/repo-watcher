@@ -12680,6 +12680,30 @@
       "chat_id": 7582459199,
       "seq": 499,
       "identity": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-CO-Colorado-Springs/Network-Engineer-Internship-IRES---SSFB_R0167863|Amentum|Network Engineer Internship IRES - SSFB|Colorado Springs, CO|Summer 2027#1"
+    },
+    "861bf1563d72": {
+      "company": "Vertiv",
+      "role": "Software Engineering Intern (Summer 2...",
+      "location": "Delaware, OH, United S...",
+      "term": "Summer 2027",
+      "apply_url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278777",
+      "source": "Zapply Summer Repo",
+      "message_id": 1661,
+      "chat_id": 7582459199,
+      "seq": 500,
+      "identity": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278777|Vertiv|Software Engineering Intern (Summer 2...|Delaware, OH, United S...|Summer 2027#1"
+    },
+    "137460b8b16f": {
+      "company": "Vertiv",
+      "role": "Test Engineering Intern (Summer 2027)",
+      "location": "Delaware, OH, United S...",
+      "term": "Summer 2027",
+      "apply_url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279024",
+      "source": "Zapply Summer Repo",
+      "message_id": 1662,
+      "chat_id": 7582459199,
+      "seq": 501,
+      "identity": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279024|Vertiv|Test Engineering Intern (Summer 2027)|Delaware, OH, United S...|Summer 2027#1"
     }
   },
   "applied": {
@@ -13047,9 +13071,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 499,
+  "seq": 501,
   "health": {
     "last_heartbeat": "2026-08-10T13:20:16Z",
-    "last_ok_run": "2026-08-10T14:05:22Z"
+    "last_ok_run": "2026-08-10T14:10:19Z"
   }
 }
