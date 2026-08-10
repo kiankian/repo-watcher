@@ -12836,6 +12836,30 @@
       "chat_id": 7582459199,
       "seq": 512,
       "identity": "https://mckesson.wd3.myworkdayjobs.com/sourcer_on_req/job/USA-OH-Columbus/CMM-Technology-Intern---Summer-2027_JR0151979?utm_source=Simplify&ref=Simplify|McKesson|Technology Intern|Columbus, OH|Summer 2026#1"
+    },
+    "7b92c9645df8": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Software Engineer Intern - AML-Engine-Orchestration",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7671162985123907845/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1674,
+      "chat_id": 7582459199,
+      "seq": 513,
+      "identity": "https://jobs.bytedance.com/en/position/7671162985123907845/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Software Engineer Intern - AML-Engine-Orchestration|San Jose, CA|Summer 2026#1"
+    },
+    "57dcfece5efc": {
+      "company": "Altamira Technologies",
+      "role": "Software Development Intern",
+      "location": "Fairborn, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.jobvite.com/altamiracorps/job/oMqCAfw8?nl=1&nl=1&fr=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1675,
+      "chat_id": 7582459199,
+      "seq": 514,
+      "identity": "https://jobs.jobvite.com/altamiracorps/job/oMqCAfw8?nl=1&nl=1&fr=false&utm_source=Simplify&ref=Simplify|Altamira Technologies|Software Development Intern|Fairborn, OH|Summer 2026#1"
     }
   },
   "applied": {
@@ -13203,9 +13227,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 512,
+  "seq": 514,
   "health": {
     "last_heartbeat": "2026-08-10T23:00:20Z",
-    "last_ok_run": "2026-08-10T23:00:20Z"
+    "last_ok_run": "2026-08-10T23:05:17Z"
   }
 }
