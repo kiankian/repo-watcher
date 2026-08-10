@@ -1631,7 +1631,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "ee9d85c06aee9b96fd02a3548a8b1d7cf72c433e",
+    "last_sha": "9f108522e2a90a25308ab5fa5fe524ff1b938c68",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -2072,7 +2072,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "355df29e6480e34d080917070bb0c2fe2b9fd6aa",
+    "last_sha": "2d53f3d6127c5f518425114eaf98765e53d627ff",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2137,7 +2137,9 @@
       "https://lifeattiktok.com/search/7670281449668905269|TikTok|Software Engineer Intern - Foundation Platform - 2027 Summer|San Jose, CA|FAANG+#1",
       "https://lifeattiktok.com/search/7670700387322300677|TikTok|Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer|Seattle, WA|FAANG+#1",
       "https://lifeattiktok.com/search/7670738362521520437|TikTok|Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer|San Jose, CA|FAANG+#1",
-      "https://lifeattiktok.com/search/7662594807715072261|TikTok|Software Engineer Project Intern - Global E-Commerce Search Infrastructure - 2026 Start|Seattle, WA|FAANG+#1"
+      "https://lifeattiktok.com/search/7662594807715072261|TikTok|Software Engineer Project Intern - Global E-Commerce Search Infrastructure - 2026 Start|Seattle, WA|FAANG+#1",
+      "https://lifeattiktok.com/search/7671211313289398581|TikTok|Frontend Engineer Intern - Ads Interface - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7667935739300792629|TikTok|Software Engineer Intern - TikTok- Developer Platform - 2027 Summer|San Jose, CA|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -2167,7 +2169,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "355df29e6480e34d080917070bb0c2fe2b9fd6aa",
+    "last_sha": "2d53f3d6127c5f518425114eaf98765e53d627ff",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2180,7 +2182,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000140089589-powertrain-controls-software-engineering-intern-6-months-?oga=true|Bosch|Powertrain Controls Software Engineering Intern - 6-Months|Farmington Hills, MI|Other#1",
       "https://jobs.smartrecruiters.com/BoschGroup/744000140317669-adas-software-engineering-intern?oga=true|Bosch|ADAS Software Engineering Intern|Plymouth, MI|Other#1",
       "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378|Northrop Grumman|2027 Returning Intern Software Engineer|Melbourne, FL|Other#1",
-      "https://www.pathai.com/careers/8651564002?gh_jid=8651564002|PathAI|Software Engineering Co-op MLOps: September - December 2026|Boston, MA|Other#1"
+      "https://www.pathai.com/careers/8651564002?gh_jid=8651564002|PathAI|Software Engineering Co-op MLOps: September - December 2026|Boston, MA|Other#1",
+      "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0|Belvedere Trading|Software Engineer Intern - Summer 2027|Chicago, IL|Quant#1"
     ],
     "seen_legacy_urls": [
       "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008",
@@ -2201,11 +2204,11 @@
       "https://www.optiver.com/join-us/jobs/8401052002/?gh_jid=8401052002",
       "https://www.optiver.com/join-us/jobs/8604760002/?gh_jid=8604760002"
     ],
-    "last_row_count": 17,
+    "last_row_count": 18,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "355df29e6480e34d080917070bb0c2fe2b9fd6aa",
+    "last_sha": "2d53f3d6127c5f518425114eaf98765e53d627ff",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2270,7 +2273,10 @@
       "https://job-boards.greenhouse.io/impact/jobs/8645964002|Impact|Associate Software Engineer intern|Santa Barbara, CA|Other#1",
       "https://kbr.wd5.myworkdayjobs.com/en-US/kbr_careers/job/Houston-Texas/Software-Intern_R2127863|KBR|Software Intern|Houston, TX|Other#1",
       "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395|Northrop Grumman|2027 Intern Software Engineer|Melbourne, FL|Other#1",
-      "https://careers-sargentlundy.icims.com/jobs/25889/software-engineer-intern-%28summer-2027%29/job|Sargent & Lundy|Software Engineer Intern - Summer 2027|Chicago, IL|Other#1"
+      "https://careers-sargentlundy.icims.com/jobs/25889/software-engineer-intern-%28summer-2027%29/job|Sargent & Lundy|Software Engineer Intern - Summer 2027|Chicago, IL|Other#1",
+      "https://www.trlm.com/apply/5207089007?gh_jid=5207089007|Trillium|Software Engineer Intern - Summer 2027|New York City, NY|Other#1",
+      "https://job-boards.greenhouse.io/vardaspace/jobs/7824815003|Varda|Flight Software Internship - Spring 2027|El Segundo, CA|Other#1",
+      "https://job-boards.greenhouse.io/vardaspace/jobs/7824814003|Varda|Site Reliability Internship - Spring 2027|El Segundo, CA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -2414,7 +2420,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 135,
+    "last_row_count": 133,
     "outbox": []
   }
 }

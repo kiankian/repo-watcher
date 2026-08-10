@@ -12596,6 +12596,78 @@
       "chat_id": 7582459199,
       "seq": 492,
       "identity": "https://joinbytedance.com/search/7671147251943213317|ByteDance|Software Development Engineer Intern ...|San Jose, California|Summer 2027#1"
+    },
+    "2ab8d69c3ea6": {
+      "company": "TikTok",
+      "role": "Frontend Engineer Intern - Ads Interface - 2027 Summer",
+      "location": "San Jose, CA",
+      "term": "FAANG+",
+      "apply_url": "https://lifeattiktok.com/search/7671211313289398581",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1654,
+      "chat_id": 7582459199,
+      "seq": 493,
+      "identity": "https://lifeattiktok.com/search/7671211313289398581|TikTok|Frontend Engineer Intern - Ads Interface - 2027 Summer|San Jose, CA|FAANG+#1"
+    },
+    "6bcdcc1f4b1d": {
+      "company": "TikTok",
+      "role": "Software Engineer Intern - TikTok- Developer Platform - 2027 Summer",
+      "location": "San Jose, CA",
+      "term": "FAANG+",
+      "apply_url": "https://lifeattiktok.com/search/7667935739300792629",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1655,
+      "chat_id": 7582459199,
+      "seq": 494,
+      "identity": "https://lifeattiktok.com/search/7667935739300792629|TikTok|Software Engineer Intern - TikTok- Developer Platform - 2027 Summer|San Jose, CA|FAANG+#1"
+    },
+    "aa549f806735": {
+      "company": "Belvedere Trading",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Chicago, IL",
+      "term": "Quant",
+      "apply_url": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1656,
+      "chat_id": 7582459199,
+      "seq": 495,
+      "identity": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0|Belvedere Trading|Software Engineer Intern - Summer 2027|Chicago, IL|Quant#1"
+    },
+    "093561dea9b8": {
+      "company": "Trillium",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "New York City, NY",
+      "term": "Other",
+      "apply_url": "https://www.trlm.com/apply/5207089007?gh_jid=5207089007",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1657,
+      "chat_id": 7582459199,
+      "seq": 496,
+      "identity": "https://www.trlm.com/apply/5207089007?gh_jid=5207089007|Trillium|Software Engineer Intern - Summer 2027|New York City, NY|Other#1"
+    },
+    "d0299c2b503c": {
+      "company": "Varda",
+      "role": "Flight Software Internship - Spring 2027",
+      "location": "El Segundo, CA",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824815003",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1658,
+      "chat_id": 7582459199,
+      "seq": 497,
+      "identity": "https://job-boards.greenhouse.io/vardaspace/jobs/7824815003|Varda|Flight Software Internship - Spring 2027|El Segundo, CA|Other#1"
+    },
+    "a4bbf07b69a8": {
+      "company": "Varda",
+      "role": "Site Reliability Internship - Spring 2027",
+      "location": "El Segundo, CA",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824814003",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1659,
+      "chat_id": 7582459199,
+      "seq": 498,
+      "identity": "https://job-boards.greenhouse.io/vardaspace/jobs/7824814003|Varda|Site Reliability Internship - Spring 2027|El Segundo, CA|Other#1"
     }
   },
   "applied": {
@@ -12963,9 +13035,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 492,
+  "seq": 498,
   "health": {
     "last_heartbeat": "2026-08-10T13:20:16Z",
-    "last_ok_run": "2026-08-10T13:20:16Z"
+    "last_ok_run": "2026-08-10T13:25:29Z"
   }
 }
