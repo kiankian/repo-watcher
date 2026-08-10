@@ -12764,6 +12764,18 @@
       "chat_id": 7582459199,
       "seq": 506,
       "identity": "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/New-York/Summer-2027-Internship---Tech--Innovation-_REQ-10119619?utm_source=Simplify&ref=Simplify|ING|Technology Intern - Innovation|NYC|Summer 2026#1"
+    },
+    "ce6abb50bfff": {
+      "company": "Rockwell Automation",
+      "role": "Spring 2027 Co-op, Embedded Software ...",
+      "location": "Mayfield Heights, Ohio...",
+      "term": "Summer 2027",
+      "apply_url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473",
+      "source": "Zapply Summer Repo",
+      "message_id": 1668,
+      "chat_id": 7582459199,
+      "seq": 507,
+      "identity": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473|Rockwell Automation|Spring 2027 Co-op, Embedded Software ...|Mayfield Heights, Ohio...|Summer 2027#1"
     }
   },
   "applied": {
@@ -13131,9 +13143,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 506,
+  "seq": 507,
   "health": {
     "last_heartbeat": "2026-08-10T19:45:24Z",
-    "last_ok_run": "2026-08-10T19:45:24Z"
+    "last_ok_run": "2026-08-10T19:50:19Z"
   }
 }
