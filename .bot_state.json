@@ -12788,6 +12788,54 @@
       "chat_id": 7582459199,
       "seq": 508,
       "identity": "https://joinbytedance.com/search/7670359288608114949|ByteDance|Multi-Cloud CDN Scheduling Platform E...|Seattle, Washington|Summer 2027#1"
+    },
+    "b1b49829d3b4": {
+      "company": "Atoms",
+      "role": "Machine Learning PhD Software Engineer Intern \ud83c\udf93",
+      "location": "4 locationsSeattle, WA LA NYC Mountain View, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/cssmerge/jobs/8693034002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1670,
+      "chat_id": 7582459199,
+      "seq": 509,
+      "identity": "https://job-boards.greenhouse.io/cssmerge/jobs/8693034002?utm_source=Simplify&ref=Simplify|Atoms|Machine Learning PhD Software Engineer Intern \ud83c\udf93|4 locationsSeattle, WA LA NYC Mountain View, CA|Summer 2026#1"
+    },
+    "e599c0ac2614": {
+      "company": "Gulfstream",
+      "role": "Computer Science Intern - Advanced Structures and Materials",
+      "location": "Savannah, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-Advanced-Structures-and-Materials-(ASMI)-College-Associate-Intern-GA-31401/1417869000/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1671,
+      "chat_id": 7582459199,
+      "seq": 510,
+      "identity": "https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-Advanced-Structures-and-Materials-(ASMI)-College-Associate-Intern-GA-31401/1417869000/?ats=successfactors&utm_source=Simplify&ref=Simplify|Gulfstream|Computer Science Intern - Advanced Structures and Materials|Savannah, GA|Summer 2026#1"
+    },
+    "1d2ac68c991e": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Largo, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-LARGO-382SR--7887-Bryan-Dairy-Rd--BLDG-600/Software-Engineer-Intern--Summer-2027-_01864811-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1672,
+      "chat_id": 7582459199,
+      "seq": 511,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-LARGO-382SR--7887-Bryan-Dairy-Rd--BLDG-600/Software-Engineer-Intern--Summer-2027-_01864811-1?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Largo, FL|Summer 2026#1"
+    },
+    "0b027101111d": {
+      "company": "McKesson",
+      "role": "Technology Intern",
+      "location": "Columbus, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://mckesson.wd3.myworkdayjobs.com/sourcer_on_req/job/USA-OH-Columbus/CMM-Technology-Intern---Summer-2027_JR0151979?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1673,
+      "chat_id": 7582459199,
+      "seq": 512,
+      "identity": "https://mckesson.wd3.myworkdayjobs.com/sourcer_on_req/job/USA-OH-Columbus/CMM-Technology-Intern---Summer-2027_JR0151979?utm_source=Simplify&ref=Simplify|McKesson|Technology Intern|Columbus, OH|Summer 2026#1"
     }
   },
   "applied": {
@@ -13155,9 +13203,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 508,
+  "seq": 512,
   "health": {
     "last_heartbeat": "2026-08-10T21:55:22Z",
-    "last_ok_run": "2026-08-10T22:30:19Z"
+    "last_ok_run": "2026-08-10T22:35:18Z"
   }
 }
