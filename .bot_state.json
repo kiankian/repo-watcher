@@ -12728,6 +12728,18 @@
       "chat_id": 7582459199,
       "seq": 503,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineering-Intern--Summer-2027-_01865158?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Marlborough, MA|Summer 2026#1"
+    },
+    "9c8940669230": {
+      "company": "Figma",
+      "role": "Software Engineer Intern (Winter 2027)",
+      "location": "San Francisco, CA \u2022 Ne...",
+      "term": "Summer 2027",
+      "apply_url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
+      "source": "Zapply Summer Repo",
+      "message_id": 1665,
+      "chat_id": 7582459199,
+      "seq": 504,
+      "identity": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004|Figma|Software Engineer Intern (Winter 2027)|San Francisco, CA \u2022 Ne...|Summer 2027#1"
     }
   },
   "applied": {
@@ -13095,9 +13107,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 503,
+  "seq": 504,
   "health": {
     "last_heartbeat": "2026-08-10T18:40:23Z",
-    "last_ok_run": "2026-08-10T19:15:26Z"
+    "last_ok_run": "2026-08-10T19:20:19Z"
   }
 }
