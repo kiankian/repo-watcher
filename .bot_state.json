@@ -12704,6 +12704,18 @@
       "chat_id": 7582459199,
       "seq": 501,
       "identity": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279024|Vertiv|Test Engineering Intern (Summer 2027)|Delaware, OH, United S...|Summer 2027#1"
+    },
+    "058f7a533a9d": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Intern - Global E-commerce-Search",
+      "location": "Seattle, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7670839727059339525?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1663,
+      "chat_id": 7582459199,
+      "seq": 502,
+      "identity": "https://lifeattiktok.com/search/7670839727059339525?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - Global E-commerce-Search|Seattle, WA|Summer 2026#1"
     }
   },
   "applied": {
@@ -13071,9 +13083,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 501,
+  "seq": 502,
   "health": {
     "last_heartbeat": "2026-08-10T14:25:16Z",
-    "last_ok_run": "2026-08-10T14:30:21Z"
+    "last_ok_run": "2026-08-10T14:35:17Z"
   }
 }
