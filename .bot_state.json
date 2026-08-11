@@ -13040,6 +13040,18 @@
       "chat_id": 7582459199,
       "seq": 529,
       "identity": "https://jobs.smartrecruiters.com/Codeage/743999669081604|Codeage|Web Developer Intern - WordPress and ...|Beverly Hills, CA|Summer 2027#1"
+    },
+    "3130e06d67a1": {
+      "company": "Bosch Group",
+      "role": "Powertrain Controls Software Engineer...",
+      "location": "Farmington Hills, MI",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000142898574",
+      "source": "Zapply Summer Repo",
+      "message_id": 1691,
+      "chat_id": 7582459199,
+      "seq": 530,
+      "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000142898574|Bosch Group|Powertrain Controls Software Engineer...|Farmington Hills, MI|Summer 2027#1"
     }
   },
   "applied": {
@@ -13407,9 +13419,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 529,
+  "seq": 530,
   "health": {
     "last_heartbeat": "2026-08-11T14:45:16Z",
-    "last_ok_run": "2026-08-11T14:55:15Z"
+    "last_ok_run": "2026-08-11T15:00:24Z"
   }
 }
