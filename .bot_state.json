@@ -13148,6 +13148,30 @@
       "chat_id": 7582459199,
       "seq": 538,
       "identity": "https://www.pathai.com/careers/8623056002?gh_jid=8623056002|PathAI|Software Engineering Co-op: September...|Boston, MA|Summer 2027#1"
+    },
+    "e7fac563cafe": {
+      "company": "ByteDance",
+      "role": "Software Engineer Intern (AML-Engine-...",
+      "location": "Seattle, Washington",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7672386983965100341",
+      "source": "Zapply Summer Repo",
+      "message_id": 1700,
+      "chat_id": 7582459199,
+      "seq": 539,
+      "identity": "https://joinbytedance.com/search/7672386983965100341|ByteDance|Software Engineer Intern (AML-Engine-...|Seattle, Washington|Summer 2027#1"
+    },
+    "c0c758cc6b9b": {
+      "company": "ByteDance",
+      "role": "Software Engineer Intern (AML-Engine-...",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7671162985123907845",
+      "source": "Zapply Summer Repo",
+      "message_id": 1701,
+      "chat_id": 7582459199,
+      "seq": 540,
+      "identity": "https://joinbytedance.com/search/7671162985123907845|ByteDance|Software Engineer Intern (AML-Engine-...|San Jose, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -13515,9 +13539,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 538,
+  "seq": 540,
   "health": {
     "last_heartbeat": "2026-08-11T19:55:13Z",
-    "last_ok_run": "2026-08-11T20:20:19Z"
+    "last_ok_run": "2026-08-11T20:25:19Z"
   }
 }
