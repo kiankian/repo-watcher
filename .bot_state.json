@@ -13124,6 +13124,30 @@
       "chat_id": 7582459199,
       "seq": 536,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Development-Intern--Summer-2027-_01865635?utm_source=Simplify&ref=Simplify|RTX|Software Development Intern - Summer 2027|Tewksbury, MA|Summer 2026#1"
+    },
+    "284be8c27348": {
+      "company": "MKS Instruments",
+      "role": "2027 Summer Mechanical Automation Eng...",
+      "location": "Milpitas, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://mksinst.wd1.myworkdayjobs.com/MKSCareersUniversity/job/Milpitas-CA/XMLNAME-2027-Summer-Mechanical-Automation-Engineering-Intern_R20744",
+      "source": "Zapply Summer Repo",
+      "message_id": 1698,
+      "chat_id": 7582459199,
+      "seq": 537,
+      "identity": "https://mksinst.wd1.myworkdayjobs.com/MKSCareersUniversity/job/Milpitas-CA/XMLNAME-2027-Summer-Mechanical-Automation-Engineering-Intern_R20744|MKS Instruments|2027 Summer Mechanical Automation Eng...|Milpitas, CA|Summer 2027#1"
+    },
+    "b588cd70cb9d": {
+      "company": "PathAI",
+      "role": "Software Engineering Co-op: September...",
+      "location": "Boston, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://www.pathai.com/careers/8623056002?gh_jid=8623056002",
+      "source": "Zapply Summer Repo",
+      "message_id": 1699,
+      "chat_id": 7582459199,
+      "seq": 538,
+      "identity": "https://www.pathai.com/careers/8623056002?gh_jid=8623056002|PathAI|Software Engineering Co-op: September...|Boston, MA|Summer 2027#1"
     }
   },
   "applied": {
@@ -13491,9 +13515,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 536,
+  "seq": 538,
   "health": {
     "last_heartbeat": "2026-08-11T17:50:18Z",
-    "last_ok_run": "2026-08-11T18:05:13Z"
+    "last_ok_run": "2026-08-11T18:10:20Z"
   }
 }
