@@ -13352,6 +13352,42 @@
       "chat_id": 7582459199,
       "seq": 555,
       "identity": "https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4|Palantir|Software Engineer, Internship - Infra...|Palo Alto, CA|Summer 2027#1"
+    },
+    "d47fd6ffecaa": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship",
+      "location": "Denver, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
+      "source": "Zapply Summer Repo",
+      "message_id": 1717,
+      "chat_id": 7582459199,
+      "seq": 556,
+      "identity": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249|Palantir|Software Engineer, Internship|Denver, CO|Summer 2027#1"
+    },
+    "b1dd67373642": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "source": "Zapply Summer Repo",
+      "message_id": 1718,
+      "chat_id": 7582459199,
+      "seq": 557,
+      "identity": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d|Palantir|Software Engineer, Internship|New York, NY|Summer 2027#1"
+    },
+    "9ec448078e9d": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship",
+      "location": "Washington, D.C.",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "source": "Zapply Summer Repo",
+      "message_id": 1719,
+      "chat_id": 7582459199,
+      "seq": 558,
+      "identity": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0|Palantir|Software Engineer, Internship|Washington, D.C.|Summer 2027#1"
     }
   },
   "applied": {
@@ -13719,9 +13755,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 555,
+  "seq": 558,
   "health": {
     "last_heartbeat": "2026-08-11T23:20:19Z",
-    "last_ok_run": "2026-08-11T23:45:17Z"
+    "last_ok_run": "2026-08-11T23:50:20Z"
   }
 }
