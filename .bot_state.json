@@ -13424,6 +13424,18 @@
       "chat_id": 7582459199,
       "seq": 561,
       "identity": "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86|Palantir|Software Engineer, Internship - Produ...|Washington, D.C.|Summer 2027#1"
+    },
+    "cb8e7e5af277": {
+      "company": "Palantir",
+      "role": "Year at Palantir - Forward Deployed S...",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333",
+      "source": "Zapply Summer Repo",
+      "message_id": 1723,
+      "chat_id": 7582459199,
+      "seq": 562,
+      "identity": "https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333|Palantir|Year at Palantir - Forward Deployed S...|New York, NY|Summer 2027#1"
     }
   },
   "applied": {
@@ -13791,9 +13803,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 561,
+  "seq": 562,
   "health": {
     "last_heartbeat": "2026-08-12T00:30:24Z",
-    "last_ok_run": "2026-08-12T00:30:24Z"
+    "last_ok_run": "2026-08-12T00:35:16Z"
   }
 }
