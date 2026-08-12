@@ -13688,6 +13688,18 @@
       "chat_id": 7582459199,
       "seq": 583,
       "identity": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c|Palantir|Software Engineer, Internship|Palo Alto, CA|Summer 2027#1"
+    },
+    "7e1c28f65fa7": {
+      "company": "Western Digital",
+      "role": "Summer 2027 Intern - Software Enginee...",
+      "location": "San Jose, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/WesternDigital/744000143171017",
+      "source": "Zapply Summer Repo",
+      "message_id": 1745,
+      "chat_id": 7582459199,
+      "seq": 584,
+      "identity": "https://jobs.smartrecruiters.com/WesternDigital/744000143171017|Western Digital|Summer 2027 Intern - Software Enginee...|San Jose, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -14055,9 +14067,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 583,
+  "seq": 584,
   "health": {
     "last_heartbeat": "2026-08-12T19:45:19Z",
-    "last_ok_run": "2026-08-12T19:55:12Z"
+    "last_ok_run": "2026-08-12T20:00:24Z"
   }
 }
