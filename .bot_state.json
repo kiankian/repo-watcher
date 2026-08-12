@@ -13736,6 +13736,18 @@
       "chat_id": 7582459199,
       "seq": 587,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Engineer Intern - Aeronautics Systems|Melbourne, FL|Summer 2026#1"
+    },
+    "d08363ebcdbd": {
+      "company": "Schweitzer Engineering Laboratories",
+      "role": "Software Engineering Intern (AI Focus)",
+      "location": "Pullman",
+      "term": "Summer 2027",
+      "apply_url": "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601",
+      "source": "Zapply Summer Repo",
+      "message_id": 1749,
+      "chat_id": 7582459199,
+      "seq": 588,
+      "identity": "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601|Schweitzer Engineering Laboratories|Software Engineering Intern (AI Focus)|Pullman|Summer 2027#1"
     }
   },
   "applied": {
@@ -14103,9 +14115,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 587,
+  "seq": 588,
   "health": {
     "last_heartbeat": "2026-08-12T23:15:18Z",
-    "last_ok_run": "2026-08-12T23:50:17Z"
+    "last_ok_run": "2026-08-12T23:55:24Z"
   }
 }
