@@ -13700,6 +13700,30 @@
       "chat_id": 7582459199,
       "seq": 584,
       "identity": "https://jobs.smartrecruiters.com/WesternDigital/744000143171017|Western Digital|Summer 2027 Intern - Software Enginee...|San Jose, CA|Summer 2027#1"
+    },
+    "89e88d42d79e": {
+      "company": "GE Vernova",
+      "role": "Engineering Intern",
+      "location": "Niskayuna, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Niskayuna/Engineering-Intern---Power-Conversion---Storage-AI-Tool-Developer--2027_R5049957-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1746,
+      "chat_id": 7582459199,
+      "seq": 585,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Niskayuna/Engineering-Intern---Power-Conversion---Storage-AI-Tool-Developer--2027_R5049957-2?utm_source=Simplify&ref=Simplify|GE Vernova|Engineering Intern|Niskayuna, NY|Summer 2026#1"
+    },
+    "7ef59b4452d9": {
+      "company": "GE Vernova",
+      "role": "Engineering Intern",
+      "location": "Niskayuna, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Niskayuna/Engineering-Intern---Power-Conversion---Storage-AI-Tool-Developer--2027_R5049957-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1747,
+      "chat_id": 7582459199,
+      "seq": 586,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Niskayuna/Engineering-Intern---Power-Conversion---Storage-AI-Tool-Developer--2027_R5049957-1?utm_source=Simplify&ref=Simplify|GE Vernova|Engineering Intern|Niskayuna, NY|Summer 2026#1"
     }
   },
   "applied": {
@@ -14067,9 +14091,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 584,
+  "seq": 586,
   "health": {
     "last_heartbeat": "2026-08-12T22:00:21Z",
-    "last_ok_run": "2026-08-12T22:30:18Z"
+    "last_ok_run": "2026-08-12T22:35:15Z"
   }
 }
