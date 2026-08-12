@@ -13652,6 +13652,18 @@
       "chat_id": 7582459199,
       "seq": 580,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/Summer-2027--Software-Intern-OnSite_01865160?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Huntsville, AL|Summer 2026#1"
+    },
+    "d6349a037397": {
+      "company": "Palo Alto Networks",
+      "role": "Intern - Software Engineer",
+      "location": "",
+      "term": "Summer 2027",
+      "apply_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011602",
+      "source": "Zapply Summer Repo",
+      "message_id": 1742,
+      "chat_id": 7582459199,
+      "seq": 581,
+      "identity": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011602|Palo Alto Networks|Intern - Software Engineer||Summer 2027#1"
     }
   },
   "applied": {
@@ -14019,9 +14031,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 580,
+  "seq": 581,
   "health": {
     "last_heartbeat": "2026-08-12T16:50:15Z",
-    "last_ok_run": "2026-08-12T16:50:15Z"
+    "last_ok_run": "2026-08-12T16:55:18Z"
   }
 }
