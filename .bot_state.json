@@ -13640,6 +13640,18 @@
       "chat_id": 7582459199,
       "seq": 579,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875|RTX|Software Engineering Intern (Summer 2...|Cedar Rapids, IA|Summer 2027#1"
+    },
+    "763a36c1d389": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Huntsville, AL",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/Summer-2027--Software-Intern-OnSite_01865160?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1741,
+      "chat_id": 7582459199,
+      "seq": 580,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/Summer-2027--Software-Intern-OnSite_01865160?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Huntsville, AL|Summer 2026#1"
     }
   },
   "applied": {
@@ -14007,9 +14019,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 579,
+  "seq": 580,
   "health": {
     "last_heartbeat": "2026-08-12T15:45:25Z",
-    "last_ok_run": "2026-08-12T16:00:21Z"
+    "last_ok_run": "2026-08-12T16:05:14Z"
   }
 }
