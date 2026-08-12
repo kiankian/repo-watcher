@@ -13676,6 +13676,18 @@
       "chat_id": 7582459199,
       "seq": 582,
       "identity": "https://boards.greenhouse.io/assuredguaranty/jobs/8700953002?gh_jid=8700953002|Assured Guaranty|Fall 2026 Intern - Product Software D...|New York, NY, United S...|Summer 2027#1"
+    },
+    "7ba2fd313f5b": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
+      "source": "Zapply Summer Repo",
+      "message_id": 1744,
+      "chat_id": 7582459199,
+      "seq": 583,
+      "identity": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c|Palantir|Software Engineer, Internship|Palo Alto, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -14043,9 +14055,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 582,
+  "seq": 583,
   "health": {
     "last_heartbeat": "2026-08-12T18:15:18Z",
-    "last_ok_run": "2026-08-12T18:20:16Z"
+    "last_ok_run": "2026-08-12T18:25:14Z"
   }
 }
