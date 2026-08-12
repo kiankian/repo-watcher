@@ -13724,6 +13724,18 @@
       "chat_id": 7582459199,
       "seq": 586,
       "identity": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Niskayuna/Engineering-Intern---Power-Conversion---Storage-AI-Tool-Developer--2027_R5049957-1?utm_source=Simplify&ref=Simplify|GE Vernova|Engineering Intern|Niskayuna, NY|Summer 2026#1"
+    },
+    "8a4d193a9ff3": {
+      "company": "Northrop Grumman",
+      "role": "Software Engineer Intern - Aeronautics Systems",
+      "location": "Melbourne, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1748,
+      "chat_id": 7582459199,
+      "seq": 587,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Engineer Intern - Aeronautics Systems|Melbourne, FL|Summer 2026#1"
     }
   },
   "applied": {
@@ -14091,9 +14103,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 586,
+  "seq": 587,
   "health": {
     "last_heartbeat": "2026-08-12T22:00:21Z",
-    "last_ok_run": "2026-08-12T23:00:20Z"
+    "last_ok_run": "2026-08-12T23:05:14Z"
   }
 }
