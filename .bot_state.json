@@ -13856,6 +13856,18 @@
       "chat_id": 7582459199,
       "seq": 597,
       "identity": "https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601|SEL|Software Engineering Intern - AI Focus|Washington, DC +1|Other#1"
+    },
+    "e81eaf336320": {
+      "company": "RTX",
+      "role": "Methods Intern - Hot Section Engineering",
+      "location": "East Hartford, CT",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Methods-Intern---Hot-Section-Engineering--Summer-2027---Onsite-_01864520?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1759,
+      "chat_id": 7582459199,
+      "seq": 598,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Methods-Intern---Hot-Section-Engineering--Summer-2027---Onsite-_01864520?utm_source=Simplify&ref=Simplify|RTX|Methods Intern - Hot Section Engineering|East Hartford, CT|Summer 2026#1"
     }
   },
   "applied": {
@@ -14223,9 +14235,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 597,
+  "seq": 598,
   "health": {
     "last_heartbeat": "2026-08-13T15:20:17Z",
-    "last_ok_run": "2026-08-13T15:30:22Z"
+    "last_ok_run": "2026-08-13T15:35:16Z"
   }
 }
