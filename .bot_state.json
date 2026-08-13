@@ -13796,6 +13796,66 @@
       "chat_id": 7582459199,
       "seq": 592,
       "identity": "https://specteraerospace.bamboohr.com/careers/122/?utm_source=Simplify&ref=Simplify|Specter Aerospace|Full Stack Developer Co-op|Boston, MA Peabody, MA|Summer 2026#1"
+    },
+    "d94a1ce126fa": {
+      "company": "Northrop Grumman",
+      "role": "2027 Intern Software Engineer",
+      "location": "Melbourne, FL",
+      "term": "Other",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1754,
+      "chat_id": 7582459199,
+      "seq": 593,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255|Northrop Grumman|2027 Intern Software Engineer|Melbourne, FL|Other#1"
+    },
+    "9e1f72af5029": {
+      "company": "Oracle",
+      "role": "Platform Software Engineer 1 - Full-time Intern Conversion",
+      "location": "USA",
+      "term": "Other",
+      "apply_url": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/342415",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1755,
+      "chat_id": 7582459199,
+      "seq": 594,
+      "identity": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/342415|Oracle|Platform Software Engineer 1 - Full-time Intern Conversion|USA|Other#1"
+    },
+    "384e62e8cb60": {
+      "company": "Raytheon",
+      "role": "Software Engineering Intern - Summer 2027",
+      "location": "Cedar Rapids, IA",
+      "term": "Other",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1756,
+      "chat_id": 7582459199,
+      "seq": 595,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875|Raytheon|Software Engineering Intern - Summer 2027|Cedar Rapids, IA|Other#1"
+    },
+    "5a373e9d60e5": {
+      "company": "Security Risk Advisors",
+      "role": "DevOps Engineering Generalist Co-op",
+      "location": "Rochester, NY",
+      "term": "Other",
+      "apply_url": "https://apply.workable.com/securityriskadvisors/j/3B23FB7BEB/",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1757,
+      "chat_id": 7582459199,
+      "seq": 596,
+      "identity": "https://apply.workable.com/securityriskadvisors/j/3B23FB7BEB/|Security Risk Advisors|DevOps Engineering Generalist Co-op|Rochester, NY|Other#1"
+    },
+    "633bbc51ed17": {
+      "company": "SEL",
+      "role": "Software Engineering Intern - AI Focus",
+      "location": "Washington, DC +1",
+      "term": "Other",
+      "apply_url": "https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1758,
+      "chat_id": 7582459199,
+      "seq": 597,
+      "identity": "https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601|SEL|Software Engineering Intern - AI Focus|Washington, DC +1|Other#1"
     }
   },
   "applied": {
@@ -14163,9 +14223,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 592,
+  "seq": 597,
   "health": {
     "last_heartbeat": "2026-08-13T13:15:16Z",
-    "last_ok_run": "2026-08-13T13:20:18Z"
+    "last_ok_run": "2026-08-13T13:25:21Z"
   }
 }

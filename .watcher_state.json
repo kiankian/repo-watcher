@@ -2146,7 +2146,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "e1ce7f56c9a97e10f38ab3e939d27541ae9ec4bd",
+    "last_sha": "c7fb0f30413e66f9827faddb042340cd4b5f330c",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2243,11 +2243,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 64,
+    "last_row_count": 62,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "e1ce7f56c9a97e10f38ab3e939d27541ae9ec4bd",
+    "last_sha": "c7fb0f30413e66f9827faddb042340cd4b5f330c",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2286,7 +2286,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "e1ce7f56c9a97e10f38ab3e939d27541ae9ec4bd",
+    "last_sha": "c7fb0f30413e66f9827faddb042340cd4b5f330c",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2370,7 +2370,12 @@
       "https://careers-kimley-horn.icims.com/jobs/25761/software-developer-intern/job|Kimley-Horn|Software Developer Intern|Cary, NC|Other#1",
       "https://www.quantbot.com/careers/4299458009?gh_jid=4299458009|Quantbot Technologies|Software Engineer Summer Internship - 2027 - New York|New York City, NY|Other#1",
       "https://www.quantbot.com/careers/4341038009?gh_jid=4341038009|Quantbot Technologies|Quantitative Developer Internship - 2027 - New York|New York City, NY|Other#1",
-      "https://jobs.ashbyhq.com/sentry/672e2a76-d8e1-49c1-b227-4a189c4e49a1|Sentry|Software Engineer - Intern - Summer 2027|San Francisco, CA|Other#1"
+      "https://jobs.ashbyhq.com/sentry/672e2a76-d8e1-49c1-b227-4a189c4e49a1|Sentry|Software Engineer - Intern - Summer 2027|San Francisco, CA|Other#1",
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255|Northrop Grumman|2027 Intern Software Engineer|Melbourne, FL|Other#1",
+      "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/342415|Oracle|Platform Software Engineer 1 - Full-time Intern Conversion|USA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875|Raytheon|Software Engineering Intern - Summer 2027|Cedar Rapids, IA|Other#1",
+      "https://apply.workable.com/securityriskadvisors/j/3B23FB7BEB/|Security Risk Advisors|DevOps Engineering Generalist Co-op|Rochester, NY|Other#1",
+      "https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601|SEL|Software Engineering Intern - AI Focus|Washington, DC +1|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -2514,7 +2519,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 138,
+    "last_row_count": 139,
     "outbox": []
   }
 }
