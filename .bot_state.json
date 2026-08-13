@@ -13868,6 +13868,66 @@
       "chat_id": 7582459199,
       "seq": 598,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Methods-Intern---Hot-Section-Engineering--Summer-2027---Onsite-_01864520?utm_source=Simplify&ref=Simplify|RTX|Methods Intern - Hot Section Engineering|East Hartford, CT|Summer 2026#1"
+    },
+    "5c3336bf2d8b": {
+      "company": "Teledyne",
+      "role": "NHRC Software Engineering Internship ...",
+      "location": "Huntsville, AL",
+      "term": "Summer 2027",
+      "apply_url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 1760,
+      "chat_id": 7582459199,
+      "seq": 599,
+      "identity": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2|Teledyne|NHRC Software Engineering Internship ...|Huntsville, AL|Summer 2027#1"
+    },
+    "3f670e057d4a": {
+      "company": "Teledyne",
+      "role": "NHRC Software Engineering Internship ...",
+      "location": "Huntsville, AL",
+      "term": "Summer 2027",
+      "apply_url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193",
+      "source": "Zapply Summer Repo",
+      "message_id": 1761,
+      "chat_id": 7582459199,
+      "seq": 600,
+      "identity": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193|Teledyne|NHRC Software Engineering Internship ...|Huntsville, AL|Summer 2027#1"
+    },
+    "5847eafab234": {
+      "company": "FLIR Systems",
+      "role": "NHRC Software Engineering Internship ...",
+      "location": "Huntsville, AL",
+      "term": "Summer 2027",
+      "apply_url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 1762,
+      "chat_id": 7582459199,
+      "seq": 601,
+      "identity": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2|FLIR Systems|NHRC Software Engineering Internship ...|Huntsville, AL|Summer 2027#1"
+    },
+    "25fd55727836": {
+      "company": "FLIR Systems",
+      "role": "NHRC Software Engineering Internship ...",
+      "location": "Huntsville, AL",
+      "term": "Summer 2027",
+      "apply_url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193",
+      "source": "Zapply Summer Repo",
+      "message_id": 1763,
+      "chat_id": 7582459199,
+      "seq": 602,
+      "identity": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193|FLIR Systems|NHRC Software Engineering Internship ...|Huntsville, AL|Summer 2027#1"
+    },
+    "25b99af755f4": {
+      "company": "Amazon.com Services LLC",
+      "role": "Automation Engineer Intern, (Nationwi...",
+      "location": "Mt. Juliet, TN",
+      "term": "Summer 2027",
+      "apply_url": "https://www.amazon.jobs/en/jobs/10501526/automation-engineer-intern-nationwide-summer-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 1764,
+      "chat_id": 7582459199,
+      "seq": 603,
+      "identity": "https://www.amazon.jobs/en/jobs/10501526/automation-engineer-intern-nationwide-summer-2027|Amazon.com Services LLC|Automation Engineer Intern, (Nationwi...|Mt. Juliet, TN|Summer 2027#1"
     }
   },
   "applied": {
@@ -14235,9 +14295,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 598,
+  "seq": 603,
   "health": {
     "last_heartbeat": "2026-08-13T22:45:16Z",
-    "last_ok_run": "2026-08-13T22:50:17Z"
+    "last_ok_run": "2026-08-13T22:55:23Z"
   }
 }
