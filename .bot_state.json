@@ -13784,6 +13784,18 @@
       "chat_id": 7582459199,
       "seq": 591,
       "identity": "https://jobs.smartrecruiters.com/RRSGroup/744000142513209?utm_source=Simplify&ref=Simplify|RRS Group|Software Engineer Intern - Placement Year|SF|Summer 2026#1"
+    },
+    "6c6290a8272b": {
+      "company": "Specter Aerospace",
+      "role": "Full Stack Developer Co-op",
+      "location": "Boston, MA Peabody, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://specteraerospace.bamboohr.com/careers/122/?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1753,
+      "chat_id": 7582459199,
+      "seq": 592,
+      "identity": "https://specteraerospace.bamboohr.com/careers/122/?utm_source=Simplify&ref=Simplify|Specter Aerospace|Full Stack Developer Co-op|Boston, MA Peabody, MA|Summer 2026#1"
     }
   },
   "applied": {
@@ -14151,9 +14163,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 591,
+  "seq": 592,
   "health": {
     "last_heartbeat": "2026-08-13T06:25:15Z",
-    "last_ok_run": "2026-08-13T07:00:30Z"
+    "last_ok_run": "2026-08-13T07:05:17Z"
   }
 }
