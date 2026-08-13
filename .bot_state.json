@@ -13748,6 +13748,30 @@
       "chat_id": 7582459199,
       "seq": 588,
       "identity": "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern--AI-Focus-_2026-22601|Schweitzer Engineering Laboratories|Software Engineering Intern (AI Focus)|Pullman|Summer 2027#1"
+    },
+    "737ef4f6a81e": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Defen...",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e",
+      "source": "Zapply Summer Repo",
+      "message_id": 1750,
+      "chat_id": 7582459199,
+      "seq": 589,
+      "identity": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e|Palantir|Software Engineer, Internship - Defen...|New York, NY|Summer 2027#1"
+    },
+    "dceef6b456d3": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Defen...",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d",
+      "source": "Zapply Summer Repo",
+      "message_id": 1751,
+      "chat_id": 7582459199,
+      "seq": 590,
+      "identity": "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d|Palantir|Software Engineer, Internship - Defen...|Palo Alto, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -14115,9 +14139,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 588,
+  "seq": 590,
   "health": {
     "last_heartbeat": "2026-08-13T00:20:19Z",
-    "last_ok_run": "2026-08-13T01:00:19Z"
+    "last_ok_run": "2026-08-13T01:05:18Z"
   }
 }
