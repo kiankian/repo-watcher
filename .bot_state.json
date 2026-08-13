@@ -13772,6 +13772,18 @@
       "chat_id": 7582459199,
       "seq": 590,
       "identity": "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d|Palantir|Software Engineer, Internship - Defen...|Palo Alto, CA|Summer 2027#1"
+    },
+    "29901551bd8b": {
+      "company": "RRS Group",
+      "role": "Software Engineer Intern - Placement Year",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/RRSGroup/744000142513209?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1752,
+      "chat_id": 7582459199,
+      "seq": 591,
+      "identity": "https://jobs.smartrecruiters.com/RRSGroup/744000142513209?utm_source=Simplify&ref=Simplify|RRS Group|Software Engineer Intern - Placement Year|SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -14139,9 +14151,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 590,
+  "seq": 591,
   "health": {
     "last_heartbeat": "2026-08-13T06:25:15Z",
-    "last_ok_run": "2026-08-13T06:30:22Z"
+    "last_ok_run": "2026-08-13T06:35:13Z"
   }
 }
