@@ -13952,6 +13952,54 @@
       "chat_id": 7582459199,
       "seq": 605,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MD-ANNAPOLIS-906--2551-Riva-Rd--BLDG-906/Software-Intern--Summer-2027-_01864400?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Annapolis, MD|Summer 2026#1"
+    },
+    "50b359d0813a": {
+      "company": "KPMG",
+      "role": "Product Specialist Intern Co-op - Asset Management Digital Solutions",
+      "location": "Toronto, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.kpmg.ca/jobs/33301?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1767,
+      "chat_id": 7582459199,
+      "seq": 606,
+      "identity": "https://careers.kpmg.ca/jobs/33301?icims=1&utm_source=Simplify&ref=Simplify|KPMG|Product Specialist Intern Co-op - Asset Management Digital Solutions|Toronto, ON, Canada|Summer 2026#1"
+    },
+    "0ba788487cce": {
+      "company": "KPMG",
+      "role": "Software Developer Intern Co-op - Asset Management Digital Solutions - Software Developer",
+      "location": "Toronto, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.kpmg.ca/jobs/33306?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1768,
+      "chat_id": 7582459199,
+      "seq": 607,
+      "identity": "https://careers.kpmg.ca/jobs/33306?icims=1&utm_source=Simplify&ref=Simplify|KPMG|Software Developer Intern Co-op - Asset Management Digital Solutions - Software Developer|Toronto, ON, Canada|Summer 2026#1"
+    },
+    "46a8b447d762": {
+      "company": "Teledyne",
+      "role": "Software Engineer Intern - NHRC",
+      "location": "Huntsville, AL",
+      "term": "Summer 2026",
+      "apply_url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1769,
+      "chat_id": 7582459199,
+      "seq": 608,
+      "identity": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193?utm_source=Simplify&ref=Simplify|Teledyne|Software Engineer Intern - NHRC|Huntsville, AL|Summer 2026#1"
+    },
+    "19c54ba2670e": {
+      "company": "Teledyne",
+      "role": "Software Engineer Intern - NHRC",
+      "location": "Huntsville, AL",
+      "term": "Summer 2026",
+      "apply_url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1770,
+      "chat_id": 7582459199,
+      "seq": 609,
+      "identity": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2?utm_source=Simplify&ref=Simplify|Teledyne|Software Engineer Intern - NHRC|Huntsville, AL|Summer 2026#1"
     }
   },
   "applied": {
@@ -14319,9 +14367,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 605,
+  "seq": 609,
   "health": {
     "last_heartbeat": "2026-08-14T03:00:21Z",
-    "last_ok_run": "2026-08-14T04:00:22Z"
+    "last_ok_run": "2026-08-14T04:05:26Z"
   }
 }
