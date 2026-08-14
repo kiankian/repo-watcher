@@ -14192,6 +14192,18 @@
       "chat_id": 7582459199,
       "seq": 625,
       "identity": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8|Notion|Software Engineer Intern (Winter 2027)|San Francisco, California|Summer 2027#1"
+    },
+    "7190c7b550a9": {
+      "company": "Motorola",
+      "role": "Android Platform Software Engineer Intern - Summer 2027",
+      "location": "Schaumburg, IL Plantation, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1787,
+      "chat_id": 7582459199,
+      "seq": 626,
+      "identity": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1?utm_source=Simplify&ref=Simplify|Motorola|Android Platform Software Engineer Intern - Summer 2027|Schaumburg, IL Plantation, FL|Summer 2026#1"
     }
   },
   "applied": {
@@ -14559,9 +14571,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 625,
+  "seq": 626,
   "health": {
     "last_heartbeat": "2026-08-14T21:55:14Z",
-    "last_ok_run": "2026-08-14T22:30:17Z"
+    "last_ok_run": "2026-08-14T22:35:14Z"
   }
 }
