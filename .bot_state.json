@@ -14156,6 +14156,18 @@
       "chat_id": 7582459199,
       "seq": 622,
       "identity": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1|Motorola Solutions|Android Platform Software Engineering...|Plantation, FL, More...|Summer 2027#1"
+    },
+    "84bb0d3a4421": {
+      "company": "TransMarket Group",
+      "role": "Software Engineering Intern",
+      "location": "Chicago, Illinois, Uni...",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5212335007?gh_jid=5212335007",
+      "source": "Zapply Summer Repo",
+      "message_id": 1784,
+      "chat_id": 7582459199,
+      "seq": 623,
+      "identity": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5212335007?gh_jid=5212335007|TransMarket Group|Software Engineering Intern|Chicago, Illinois, Uni...|Summer 2027#1"
     }
   },
   "applied": {
@@ -14523,9 +14535,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 622,
+  "seq": 623,
   "health": {
     "last_heartbeat": "2026-08-14T15:45:13Z",
-    "last_ok_run": "2026-08-14T15:45:13Z"
+    "last_ok_run": "2026-08-14T15:50:15Z"
   }
 }
