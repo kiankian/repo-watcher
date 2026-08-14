@@ -14000,6 +14000,42 @@
       "chat_id": 7582459199,
       "seq": 609,
       "identity": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2?utm_source=Simplify&ref=Simplify|Teledyne|Software Engineer Intern - NHRC|Huntsville, AL|Summer 2026#1"
+    },
+    "95b01742466d": {
+      "company": "SharkNinja",
+      "role": "Fall 2026: SQA Automation Engineering...",
+      "location": "Needham, MA, United St...",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4646894006",
+      "source": "Zapply Summer Repo",
+      "message_id": 1771,
+      "chat_id": 7582459199,
+      "seq": 610,
+      "identity": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4646894006|SharkNinja|Fall 2026: SQA Automation Engineering...|Needham, MA, United St...|Summer 2027#1"
+    },
+    "f8683de45428": {
+      "company": "Nuro",
+      "role": "Software Engineer, AI Platform - Intern",
+      "location": "Mountain View, Califor...",
+      "term": "Summer 2027",
+      "apply_url": "https://nuro.ai/careersitem?gh_jid=7351061",
+      "source": "Zapply Summer Repo",
+      "message_id": 1772,
+      "chat_id": 7582459199,
+      "seq": 611,
+      "identity": "https://nuro.ai/careersitem?gh_jid=7351061|Nuro|Software Engineer, AI Platform - Intern|Mountain View, Califor...|Summer 2027#1"
+    },
+    "0a33a7c70a91": {
+      "company": "Neuralink",
+      "role": "Software Engineer Intern, BCI Applica...",
+      "location": "South San Francisco, C...",
+      "term": "Summer 2027",
+      "apply_url": "https://boards.greenhouse.io/neuralink/jobs/6594422003?gh_jid=6594422003",
+      "source": "Zapply Summer Repo",
+      "message_id": 1773,
+      "chat_id": 7582459199,
+      "seq": 612,
+      "identity": "https://boards.greenhouse.io/neuralink/jobs/6594422003?gh_jid=6594422003|Neuralink|Software Engineer Intern, BCI Applica...|South San Francisco, C...|Summer 2027#1"
     }
   },
   "applied": {
@@ -14367,9 +14403,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 609,
+  "seq": 612,
   "health": {
     "last_heartbeat": "2026-08-14T03:00:21Z",
-    "last_ok_run": "2026-08-14T04:05:26Z"
+    "last_ok_run": "2026-08-14T04:10:21Z"
   }
 }
