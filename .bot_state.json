@@ -14168,6 +14168,30 @@
       "chat_id": 7582459199,
       "seq": 623,
       "identity": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5212335007?gh_jid=5212335007|TransMarket Group|Software Engineering Intern|Chicago, Illinois, Uni...|Summer 2027#1"
+    },
+    "19b2adf6e7d1": {
+      "company": "Notion",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "San Francisco, California",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+      "source": "Zapply Summer Repo",
+      "message_id": 1785,
+      "chat_id": 7582459199,
+      "seq": 624,
+      "identity": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c|Notion|Software Engineer Intern (Summer 2027)|San Francisco, California|Summer 2027#1"
+    },
+    "afb3b9a55d8b": {
+      "company": "Notion",
+      "role": "Software Engineer Intern (Winter 2027)",
+      "location": "San Francisco, California",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
+      "source": "Zapply Summer Repo",
+      "message_id": 1786,
+      "chat_id": 7582459199,
+      "seq": 625,
+      "identity": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8|Notion|Software Engineer Intern (Winter 2027)|San Francisco, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -14535,9 +14559,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 623,
+  "seq": 625,
   "health": {
     "last_heartbeat": "2026-08-14T18:45:17Z",
-    "last_ok_run": "2026-08-14T19:30:16Z"
+    "last_ok_run": "2026-08-14T19:35:17Z"
   }
 }
