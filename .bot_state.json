@@ -14144,6 +14144,18 @@
       "chat_id": 7582459199,
       "seq": 621,
       "identity": "https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193|Teledyne|NHRC Software Engineering Internship - Summer 2027|Huntsville, AL|Other#1"
+    },
+    "c52f13e65ca7": {
+      "company": "Motorola Solutions",
+      "role": "Android Platform Software Engineering...",
+      "location": "Plantation, FL, More...",
+      "term": "Summer 2027",
+      "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1783,
+      "chat_id": 7582459199,
+      "seq": 622,
+      "identity": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1|Motorola Solutions|Android Platform Software Engineering...|Plantation, FL, More...|Summer 2027#1"
     }
   },
   "applied": {
@@ -14511,9 +14523,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 621,
+  "seq": 622,
   "health": {
     "last_heartbeat": "2026-08-14T13:40:14Z",
-    "last_ok_run": "2026-08-14T14:15:13Z"
+    "last_ok_run": "2026-08-14T14:20:14Z"
   }
 }
