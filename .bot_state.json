@@ -14036,6 +14036,42 @@
       "chat_id": 7582459199,
       "seq": 612,
       "identity": "https://boards.greenhouse.io/neuralink/jobs/6594422003?gh_jid=6594422003|Neuralink|Software Engineer Intern, BCI Applica...|South San Francisco, C...|Summer 2027#1"
+    },
+    "2c46d88078d5": {
+      "company": "Neuralink",
+      "role": "Software Engineer Intern, Implant",
+      "location": "Austin, Texas, United ...",
+      "term": "Summer 2027",
+      "apply_url": "https://boards.greenhouse.io/neuralink/jobs/6569018003?gh_jid=6569018003",
+      "source": "Zapply Summer Repo",
+      "message_id": 1774,
+      "chat_id": 7582459199,
+      "seq": 613,
+      "identity": "https://boards.greenhouse.io/neuralink/jobs/6569018003?gh_jid=6569018003|Neuralink|Software Engineer Intern, Implant|Austin, Texas, United ...|Summer 2027#1"
+    },
+    "e1c73214ca64": {
+      "company": "Defense Unicorns",
+      "role": "SkillBridge Intern - Platform Engineer",
+      "location": "Remote, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/defenseunicorns/jobs/4661526007",
+      "source": "Zapply Summer Repo",
+      "message_id": 1775,
+      "chat_id": 7582459199,
+      "seq": 614,
+      "identity": "https://job-boards.greenhouse.io/defenseunicorns/jobs/4661526007|Defense Unicorns|SkillBridge Intern - Platform Engineer|Remote, United States|Summer 2027#1"
+    },
+    "2e102526e068": {
+      "company": "Point72",
+      "role": "Quantitative Software Developer Intern",
+      "location": "New York, London, or P...",
+      "term": "Summer 2027",
+      "apply_url": "https://boards.greenhouse.io/point72/jobs/7297666002?gh_jid=7297666002",
+      "source": "Zapply Summer Repo",
+      "message_id": 1776,
+      "chat_id": 7582459199,
+      "seq": 615,
+      "identity": "https://boards.greenhouse.io/point72/jobs/7297666002?gh_jid=7297666002|Point72|Quantitative Software Developer Intern|New York, London, or P...|Summer 2027#1"
     }
   },
   "applied": {
@@ -14403,9 +14439,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 612,
+  "seq": 615,
   "health": {
     "last_heartbeat": "2026-08-14T04:20:16Z",
-    "last_ok_run": "2026-08-14T04:20:16Z"
+    "last_ok_run": "2026-08-14T04:25:19Z"
   }
 }
