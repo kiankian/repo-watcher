@@ -14456,6 +14456,18 @@
       "chat_id": 7582459199,
       "seq": 647,
       "identity": "https://valeo.wd3.myworkdayjobs.com/en-US/valeo_jobs/job/Troy-MI/Software-Engineer-Intern_REQ2026076575|Valeo|Software Engineer Intern|Troy, MI|Other#1"
+    },
+    "534390e126ce": {
+      "company": "Replit",
+      "role": "Software Engineering Intern (Summer 2...",
+      "location": "Foster City, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1809,
+      "chat_id": 7582459199,
+      "seq": 648,
+      "identity": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1|Replit|Software Engineering Intern (Summer 2...|Foster City, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -14823,9 +14835,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 647,
+  "seq": 648,
   "health": {
     "last_heartbeat": "2026-08-15T18:25:14Z",
-    "last_ok_run": "2026-08-15T19:15:12Z"
+    "last_ok_run": "2026-08-15T19:20:15Z"
   }
 }
