@@ -14480,6 +14480,18 @@
       "chat_id": 7582459199,
       "seq": 649,
       "identity": "https://joinbytedance.com/search/7668315137242351925|ByteDance|Software Engineer Intern (Global Paym...|San Jose, California|Summer 2027#1"
+    },
+    "141efcb43946": {
+      "company": "Replit",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Foster City, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1811,
+      "chat_id": 7582459199,
+      "seq": 650,
+      "identity": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1/application?embed=true&utm_source=Simplify&ref=Simplify|Replit|Software Engineer Intern - Summer 2027|Foster City, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -14847,9 +14859,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 649,
+  "seq": 650,
   "health": {
     "last_heartbeat": "2026-08-15T21:55:13Z",
-    "last_ok_run": "2026-08-15T23:00:20Z"
+    "last_ok_run": "2026-08-15T23:05:15Z"
   }
 }
