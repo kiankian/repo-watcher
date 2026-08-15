@@ -14300,6 +14300,18 @@
       "chat_id": 7582459199,
       "seq": 634,
       "identity": "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7872198003|Freeform|Software Engineering Intern (Summer 2...|Los Angeles, CA (On-site)|Summer 2027#1"
+    },
+    "662c295f6691": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-SAN-JOSE-826--200-Holger-Way--BLDG-826/Software-Engineering-Intern--Summer-2027-_01867392?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1796,
+      "chat_id": 7582459199,
+      "seq": 635,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-SAN-JOSE-826--200-Holger-Way--BLDG-826/Software-Engineering-Intern--Summer-2027-_01867392?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -14667,9 +14679,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 634,
+  "seq": 635,
   "health": {
     "last_heartbeat": "2026-08-15T08:45:18Z",
-    "last_ok_run": "2026-08-15T09:30:17Z"
+    "last_ok_run": "2026-08-15T09:35:11Z"
   }
 }
