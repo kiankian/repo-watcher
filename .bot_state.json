@@ -14252,6 +14252,42 @@
       "chat_id": 7582459199,
       "seq": 630,
       "identity": "https://jobs.bytedance.com/en/position/7672626707586746629/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Software Engineer Intern - Traffic Infrastructure|San Jose, CA|Summer 2026#1"
+    },
+    "6a426cadd3d9": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "West Valley City, UT",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-UT-WEST-VALLEY-CITY-338--1127--1128-w-2400-S--BLDG-338/Software-Engineering-Intern--Summer-2027-_01865952?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1792,
+      "chat_id": 7582459199,
+      "seq": 631,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-UT-WEST-VALLEY-CITY-338--1127--1128-w-2400-S--BLDG-338/Software-Engineering-Intern--Summer-2027-_01865952?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|West Valley City, UT|Summer 2026#1"
+    },
+    "01ee9ad21028": {
+      "company": "RTX",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Fullerton, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-FULLERTON-676--1801-Hughes-Dr--BLDG-676/Software-Engineering-Intern--Summer-2027-_01867439?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1793,
+      "chat_id": 7582459199,
+      "seq": 632,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CA-FULLERTON-676--1801-Hughes-Dr--BLDG-676/Software-Engineering-Intern--Summer-2027-_01867439?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Fullerton, CA|Summer 2026#1"
+    },
+    "012b1e790d58": {
+      "company": "RTX",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Cedar Rapids, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1794,
+      "chat_id": 7582459199,
+      "seq": 633,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Cedar Rapids, IA|Summer 2026#1"
     }
   },
   "applied": {
@@ -14619,9 +14655,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 630,
+  "seq": 633,
   "health": {
     "last_heartbeat": "2026-08-15T01:10:16Z",
-    "last_ok_run": "2026-08-15T01:30:17Z"
+    "last_ok_run": "2026-08-15T01:35:18Z"
   }
 }
