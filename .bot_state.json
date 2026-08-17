@@ -14576,6 +14576,42 @@
       "chat_id": 7582459199,
       "seq": 657,
       "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Fall-2027_R5030143-1|GE Aerospace|Systems Engineering Co-op - Electrica...|Dayton|Summer 2027#1"
+    },
+    "71c8d7117ab2": {
+      "company": "GE Aerospace",
+      "role": "Systems Engineering Intern - Electric...",
+      "location": "Grand Rapids",
+      "term": "Summer 2027",
+      "apply_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Summer-2027_R5030118-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1819,
+      "chat_id": 7582459199,
+      "seq": 658,
+      "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Summer-2027_R5030118-1|GE Aerospace|Systems Engineering Intern - Electric...|Grand Rapids|Summer 2027#1"
+    },
+    "97a946189431": {
+      "company": "GE Aerospace",
+      "role": "Systems Engineering Intern - Electric...",
+      "location": "Dayton",
+      "term": "Summer 2027",
+      "apply_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Summer-2027_R5030137-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1820,
+      "chat_id": 7582459199,
+      "seq": 659,
+      "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Summer-2027_R5030137-1|GE Aerospace|Systems Engineering Intern - Electric...|Dayton|Summer 2027#1"
+    },
+    "1e3bc38241ec": {
+      "company": "GE Aerospace",
+      "role": "Systems Engineering Intern - Mechanic...",
+      "location": "Dayton",
+      "term": "Summer 2027",
+      "apply_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Intern---Mechanical-Aerospace-Engineering--Electric-Power----US---Summer-2027_R5030140-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1821,
+      "chat_id": 7582459199,
+      "seq": 660,
+      "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Intern---Mechanical-Aerospace-Engineering--Electric-Power----US---Summer-2027_R5030140-1|GE Aerospace|Systems Engineering Intern - Mechanic...|Dayton|Summer 2027#1"
     }
   },
   "applied": {
@@ -14943,9 +14979,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 657,
+  "seq": 660,
   "health": {
     "last_heartbeat": "2026-08-17T09:50:16Z",
-    "last_ok_run": "2026-08-17T10:40:13Z"
+    "last_ok_run": "2026-08-17T10:45:20Z"
   }
 }
