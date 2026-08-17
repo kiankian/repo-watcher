@@ -14672,6 +14672,18 @@
       "chat_id": 7582459199,
       "seq": 665,
       "identity": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082?utm_source=Simplify&ref=Simplify|American Express|Software Engineer Intern - Enterprise Technology Services \ud83c\udf93|NYC|Summer 2026#1"
+    },
+    "6bf3b258f356": {
+      "company": "FAST Enterprises",
+      "role": "Implementation Intern",
+      "location": "United States",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.fastenterprises.com/jobs/1709?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1827,
+      "chat_id": 7582459199,
+      "seq": 666,
+      "identity": "https://careers.fastenterprises.com/jobs/1709?icims=1&utm_source=Simplify&ref=Simplify|FAST Enterprises|Implementation Intern|United States|Summer 2026#1"
     }
   },
   "applied": {
@@ -15039,9 +15051,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 665,
+  "seq": 666,
   "health": {
     "last_heartbeat": "2026-08-17T14:10:26Z",
-    "last_ok_run": "2026-08-17T14:30:21Z"
+    "last_ok_run": "2026-08-17T14:36:02Z"
   }
 }
