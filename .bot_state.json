@@ -14684,6 +14684,18 @@
       "chat_id": 7582459199,
       "seq": 666,
       "identity": "https://careers.fastenterprises.com/jobs/1709?icims=1&utm_source=Simplify&ref=Simplify|FAST Enterprises|Implementation Intern|United States|Summer 2026#1"
+    },
+    "7d4ac1925ccb": {
+      "company": "Datadog",
+      "role": "Software Engineering Intern (Winter)",
+      "location": "Boston, Massachusetts,...",
+      "term": "Summer 2027",
+      "apply_url": "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095",
+      "source": "Zapply Summer Repo",
+      "message_id": 1829,
+      "chat_id": 7582459199,
+      "seq": 667,
+      "identity": "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095|Datadog|Software Engineering Intern (Winter)|Boston, Massachusetts,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -15051,10 +15063,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 666,
+  "seq": 667,
   "health": {
     "last_heartbeat": "2026-08-17T15:20:25Z",
-    "last_ok_run": "2026-08-17T15:20:25Z",
+    "last_ok_run": "2026-08-17T15:25:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z"
     }
