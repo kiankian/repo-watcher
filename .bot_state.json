@@ -14636,6 +14636,42 @@
       "chat_id": 7582459199,
       "seq": 662,
       "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Spring-2027_R5030099-1|GE Aerospace|Systems Engineering Co-op - Electrica...|Dayton|Summer 2027#1"
+    },
+    "8975c7e49d3d": {
+      "company": "W.W. Grainger",
+      "role": "Software Engineer Intern - Grainger Technology Group",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.grainger.com/job/CHICAGO-GTG-Intern-Software-Engineer-IL-60661-4555/1419930800/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1824,
+      "chat_id": 7582459199,
+      "seq": 663,
+      "identity": "https://jobs.grainger.com/job/CHICAGO-GTG-Intern-Software-Engineer-IL-60661-4555/1419930800/?ats=successfactors&utm_source=Simplify&ref=Simplify|W.W. Grainger|Software Engineer Intern - Grainger Technology Group|Chicago, IL|Summer 2026#1"
+    },
+    "3d1e17c26af1": {
+      "company": "American Express",
+      "role": "Software Engineer Intern - Enterprise Technology Services \ud83c\udf93",
+      "location": "Charlotte, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1825,
+      "chat_id": 7582459199,
+      "seq": 664,
+      "identity": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987?utm_source=Simplify&ref=Simplify|American Express|Software Engineer Intern - Enterprise Technology Services \ud83c\udf93|Charlotte, NC|Summer 2026#1"
+    },
+    "784141b4a77e": {
+      "company": "American Express",
+      "role": "Software Engineer Intern - Enterprise Technology Services \ud83c\udf93",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1826,
+      "chat_id": 7582459199,
+      "seq": 665,
+      "identity": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082?utm_source=Simplify&ref=Simplify|American Express|Software Engineer Intern - Enterprise Technology Services \ud83c\udf93|NYC|Summer 2026#1"
     }
   },
   "applied": {
@@ -15003,9 +15039,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 662,
+  "seq": 665,
   "health": {
     "last_heartbeat": "2026-08-17T13:10:15Z",
-    "last_ok_run": "2026-08-17T14:00:24Z"
+    "last_ok_run": "2026-08-17T14:05:55Z"
   }
 }
