@@ -14912,6 +14912,54 @@
       "chat_id": 7582459199,
       "seq": 685,
       "identity": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Livonia/Digital-Technology-Intern---US---Livonia--MI---Summer-2027_R5038079-1?utm_source=Simplify&ref=Simplify|GE Aerospace|Digital Technology Intern - Summer 2027|Livonia, MI|Summer 2026#1"
+    },
+    "d3620b4ee29a": {
+      "company": "American Express",
+      "role": "Software Engineer Intern - Enterprise Technology Services",
+      "location": "Phoenix, AZ",
+      "term": "Summer 2026",
+      "apply_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1848,
+      "chat_id": 7582459199,
+      "seq": 686,
+      "identity": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784?utm_source=Simplify&ref=Simplify|American Express|Software Engineer Intern - Enterprise Technology Services|Phoenix, AZ|Summer 2026#1"
+    },
+    "4078bb13df56": {
+      "company": "Deutsche Bank",
+      "role": "Technology, Data and Innovation Intern - Technology, Data and Innovation",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://db.recsolu.com/external/requisitions/utrM7YhSIN2pudx_g6Rh2w?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1849,
+      "chat_id": 7582459199,
+      "seq": 687,
+      "identity": "https://db.recsolu.com/external/requisitions/utrM7YhSIN2pudx_g6Rh2w?utm_source=Simplify&ref=Simplify|Deutsche Bank|Technology, Data and Innovation Intern - Technology, Data and Innovation|NYC|Summer 2026#1"
+    },
+    "c906771163c3": {
+      "company": "Dee Zee",
+      "role": "Software Development Intern",
+      "location": "Des Moines, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://deezee.wd108.myworkdayjobs.com/DeeZee_Careers/job/Des-Moines/Software-Development-Intern_REQ00368?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1850,
+      "chat_id": 7582459199,
+      "seq": 688,
+      "identity": "https://deezee.wd108.myworkdayjobs.com/DeeZee_Careers/job/Des-Moines/Software-Development-Intern_REQ00368?utm_source=Simplify&ref=Simplify|Dee Zee|Software Development Intern|Des Moines, IA|Summer 2026#1"
+    },
+    "ee1be608a8b7": {
+      "company": "CACI",
+      "role": "GMU Scholar Program Intern",
+      "location": "Sterling, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/external/job/Sterling-VA-US/GMU-Scholar-Program---Summer-2027-Internship_330557?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1851,
+      "chat_id": 7582459199,
+      "seq": 689,
+      "identity": "https://caci.wd1.myworkdayjobs.com/external/job/Sterling-VA-US/GMU-Scholar-Program---Summer-2027-Internship_330557?utm_source=Simplify&ref=Simplify|CACI|GMU Scholar Program Intern|Sterling, VA|Summer 2026#1"
     }
   },
   "applied": {
@@ -15279,10 +15327,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 685,
+  "seq": 689,
   "health": {
     "last_heartbeat": "2026-08-17T22:20:12Z",
-    "last_ok_run": "2026-08-17T23:00:17Z",
+    "last_ok_run": "2026-08-17T23:05:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z"
     }
