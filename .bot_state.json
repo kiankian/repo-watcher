@@ -14768,6 +14768,18 @@
       "chat_id": 7582459199,
       "seq": 673,
       "identity": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011598|Palo Alto Networks|Intern - Software Engineer||Summer 2027#1"
+    },
+    "440f04e23362": {
+      "company": "Intel",
+      "role": "Software Development Graduate Intern",
+      "location": "US, California, Folsom",
+      "term": "Summer 2027",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1836,
+      "chat_id": 7582459199,
+      "seq": 674,
+      "identity": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1|Intel|Software Development Graduate Intern|US, California, Folsom|Summer 2027#1"
     }
   },
   "applied": {
@@ -15135,10 +15147,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 673,
+  "seq": 674,
   "health": {
     "last_heartbeat": "2026-08-17T19:55:16Z",
-    "last_ok_run": "2026-08-17T20:55:17Z",
+    "last_ok_run": "2026-08-17T21:00:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z"
     }
