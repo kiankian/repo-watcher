@@ -14708,6 +14708,30 @@
       "chat_id": 7582459199,
       "seq": 668,
       "identity": "https://www.optiver.com/join-us/jobs/8713435002/?gh_jid=8713435002&utm_source=Simplify&ref=Simplify|Optiver|Software Engineer Intern|London, UK|Summer 2026#1"
+    },
+    "b59c48e9619d": {
+      "company": "KeyBank",
+      "role": "2027 Summer Key Technology & Services...",
+      "location": "Brooklyn, OH",
+      "term": "Summer 2027",
+      "apply_url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384",
+      "source": "Zapply Summer Repo",
+      "message_id": 1831,
+      "chat_id": 7582459199,
+      "seq": 669,
+      "identity": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384|KeyBank|2027 Summer Key Technology & Services...|Brooklyn, OH|Summer 2027#1"
+    },
+    "5b2aa3d2a64d": {
+      "company": "Carrier Global",
+      "role": "Quality Engineering \u2013 Co-op",
+      "location": "CAI23: Carrier-Indiana...",
+      "term": "Summer 2027",
+      "apply_url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAI23-Carrier-Indianapolis-7310-West-Morris-Street-Indianapolis-IN-46231-USA/Quality-Engineering---Co-op_30215649",
+      "source": "Zapply Summer Repo",
+      "message_id": 1832,
+      "chat_id": 7582459199,
+      "seq": 670,
+      "identity": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAI23-Carrier-Indianapolis-7310-West-Morris-Street-Indianapolis-IN-46231-USA/Quality-Engineering---Co-op_30215649|Carrier Global|Quality Engineering \u2013 Co-op|CAI23: Carrier-Indiana...|Summer 2027#1"
     }
   },
   "applied": {
@@ -15075,10 +15099,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 668,
+  "seq": 670,
   "health": {
     "last_heartbeat": "2026-08-17T16:25:12Z",
-    "last_ok_run": "2026-08-17T16:25:12Z",
+    "last_ok_run": "2026-08-17T16:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z"
     }
