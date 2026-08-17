@@ -14612,6 +14612,18 @@
       "chat_id": 7582459199,
       "seq": 660,
       "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Intern---Mechanical-Aerospace-Engineering--Electric-Power----US---Summer-2027_R5030140-1|GE Aerospace|Systems Engineering Intern - Mechanic...|Dayton|Summer 2027#1"
+    },
+    "3781441112bc": {
+      "company": "Replit",
+      "role": "Software Engineering Intern - Summer 2027",
+      "location": "Foster City, CA",
+      "term": "Other",
+      "apply_url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1822,
+      "chat_id": 7582459199,
+      "seq": 661,
+      "identity": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1|Replit|Software Engineering Intern - Summer 2027|Foster City, CA|Other#1"
     }
   },
   "applied": {
@@ -14979,9 +14991,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 660,
+  "seq": 661,
   "health": {
     "last_heartbeat": "2026-08-17T12:10:15Z",
-    "last_ok_run": "2026-08-17T12:50:13Z"
+    "last_ok_run": "2026-08-17T12:55:12Z"
   }
 }
