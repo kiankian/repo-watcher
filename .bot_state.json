@@ -14732,6 +14732,30 @@
       "chat_id": 7582459199,
       "seq": 670,
       "identity": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAI23-Carrier-Indianapolis-7310-West-Morris-Street-Indianapolis-IN-46231-USA/Quality-Engineering---Co-op_30215649|Carrier Global|Quality Engineering \u2013 Co-op|CAI23: Carrier-Indiana...|Summer 2027#1"
+    },
+    "c86ce103f396": {
+      "company": "GlobalFoundries",
+      "role": "Robotics and Automation Engineering I...",
+      "location": "Vermont",
+      "term": "Summer 2027",
+      "apply_url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Robotics-and-Automation-Engineering-Intern--Junior--Summer-2027-_JR-2604655",
+      "source": "Zapply Summer Repo",
+      "message_id": 1833,
+      "chat_id": 7582459199,
+      "seq": 671,
+      "identity": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Robotics-and-Automation-Engineering-Intern--Junior--Summer-2027-_JR-2604655|GlobalFoundries|Robotics and Automation Engineering I...|Vermont|Summer 2027#1"
+    },
+    "9df76d535db5": {
+      "company": "GlobalFoundries",
+      "role": "Robotics and Automation Engineering I...",
+      "location": "Vermont",
+      "term": "Summer 2027",
+      "apply_url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Robotics-and-Automation-Engineering-Intern--Junior--Summer-2027-_JR-2604660",
+      "source": "Zapply Summer Repo",
+      "message_id": 1834,
+      "chat_id": 7582459199,
+      "seq": 672,
+      "identity": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Robotics-and-Automation-Engineering-Intern--Junior--Summer-2027-_JR-2604660|GlobalFoundries|Robotics and Automation Engineering I...|Vermont|Summer 2027#1"
     }
   },
   "applied": {
@@ -15099,10 +15123,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 670,
+  "seq": 672,
   "health": {
     "last_heartbeat": "2026-08-17T18:50:14Z",
-    "last_ok_run": "2026-08-17T18:50:14Z",
+    "last_ok_run": "2026-08-17T18:55:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z"
     }
