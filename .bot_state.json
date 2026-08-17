@@ -14540,6 +14540,42 @@
       "chat_id": 7582459199,
       "seq": 654,
       "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Engines-Engineering-Intern---Computer-or-Software-Engineering---US---Summer-2027_R5029622-1|GE Aerospace|Engines Engineering Intern \u2013 Computer...|Evendale|Summer 2027#1"
+    },
+    "b5c3866f6246": {
+      "company": "GE Aerospace",
+      "role": "Systems Engineering Co-op - Electrica...",
+      "location": "Grand Rapids",
+      "term": "Summer 2027",
+      "apply_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Fall-2027_R5030141-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1816,
+      "chat_id": 7582459199,
+      "seq": 655,
+      "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Fall-2027_R5030141-1|GE Aerospace|Systems Engineering Co-op - Electrica...|Grand Rapids|Summer 2027#1"
+    },
+    "587ad49bd071": {
+      "company": "GE Aerospace",
+      "role": "Systems Engineering Co-op - Electrica...",
+      "location": "Grand Rapids",
+      "term": "Summer 2027",
+      "apply_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Spring-2027_R5030096-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 1817,
+      "chat_id": 7582459199,
+      "seq": 656,
+      "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Spring-2027_R5030096-2|GE Aerospace|Systems Engineering Co-op - Electrica...|Grand Rapids|Summer 2027#1"
+    },
+    "c68199e025b4": {
+      "company": "GE Aerospace",
+      "role": "Systems Engineering Co-op - Electrica...",
+      "location": "Dayton",
+      "term": "Summer 2027",
+      "apply_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Fall-2027_R5030143-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1818,
+      "chat_id": 7582459199,
+      "seq": 657,
+      "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Fall-2027_R5030143-1|GE Aerospace|Systems Engineering Co-op - Electrica...|Dayton|Summer 2027#1"
     }
   },
   "applied": {
@@ -14907,9 +14943,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 654,
+  "seq": 657,
   "health": {
     "last_heartbeat": "2026-08-17T04:40:16Z",
-    "last_ok_run": "2026-08-17T04:40:16Z"
+    "last_ok_run": "2026-08-17T04:45:16Z"
   }
 }
