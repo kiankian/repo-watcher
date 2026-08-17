@@ -14492,6 +14492,18 @@
       "chat_id": 7582459199,
       "seq": 650,
       "identity": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1/application?embed=true&utm_source=Simplify&ref=Simplify|Replit|Software Engineer Intern - Summer 2027|Foster City, CA|Summer 2026#1"
+    },
+    "ab4098651706": {
+      "company": "Belvedere Trading",
+      "role": "Quantitative Trading Intern",
+      "location": "Chicago, IL",
+      "term": "Aug 16",
+      "apply_url": "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 1812,
+      "chat_id": 7582459199,
+      "seq": 651,
+      "identity": "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab?utm_source=github-vansh-ouckah|Belvedere Trading|Quantitative Trading Intern|Chicago, IL|Aug 16#1"
     }
   },
   "applied": {
@@ -14859,9 +14871,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 650,
+  "seq": 651,
   "health": {
     "last_heartbeat": "2026-08-17T02:30:16Z",
-    "last_ok_run": "2026-08-17T02:40:13Z"
+    "last_ok_run": "2026-08-17T02:45:15Z"
   }
 }
