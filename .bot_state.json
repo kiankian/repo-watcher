@@ -14624,6 +14624,18 @@
       "chat_id": 7582459199,
       "seq": 661,
       "identity": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1|Replit|Software Engineering Intern - Summer 2027|Foster City, CA|Other#1"
+    },
+    "f15f9b638ec8": {
+      "company": "GE Aerospace",
+      "role": "Systems Engineering Co-op - Electrica...",
+      "location": "Dayton",
+      "term": "Summer 2027",
+      "apply_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Spring-2027_R5030099-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1823,
+      "chat_id": 7582459199,
+      "seq": 662,
+      "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Spring-2027_R5030099-1|GE Aerospace|Systems Engineering Co-op - Electrica...|Dayton|Summer 2027#1"
     }
   },
   "applied": {
@@ -14991,9 +15003,9 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 661,
+  "seq": 662,
   "health": {
     "last_heartbeat": "2026-08-17T13:10:15Z",
-    "last_ok_run": "2026-08-17T13:10:15Z"
+    "last_ok_run": "2026-08-17T13:15:13Z"
   }
 }
