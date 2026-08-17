@@ -14780,6 +14780,18 @@
       "chat_id": 7582459199,
       "seq": 674,
       "identity": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1|Intel|Software Development Graduate Intern|US, California, Folsom|Summer 2027#1"
+    },
+    "a2e8e50bf31a": {
+      "company": "Uline",
+      "role": "Systems Administrator Internship - Su...",
+      "location": "Pleasant Prairie, WI",
+      "term": "Summer 2027",
+      "apply_url": "https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Systems-Administrator-Internship---Summer-2027_R265691",
+      "source": "Zapply Summer Repo",
+      "message_id": 1837,
+      "chat_id": 7582459199,
+      "seq": 675,
+      "identity": "https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Systems-Administrator-Internship---Summer-2027_R265691|Uline|Systems Administrator Internship - Su...|Pleasant Prairie, WI|Summer 2027#1"
     }
   },
   "applied": {
@@ -15147,10 +15159,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 674,
+  "seq": 675,
   "health": {
     "last_heartbeat": "2026-08-17T21:10:18Z",
-    "last_ok_run": "2026-08-17T21:40:15Z",
+    "last_ok_run": "2026-08-17T21:45:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z"
     }
