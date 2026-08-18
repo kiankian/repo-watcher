@@ -15284,6 +15284,54 @@
       "chat_id": 7582459199,
       "seq": 716,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Software-Engineering-Intern--Summer-2027-_01867814?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Marlborough, MA|Summer 2026#1"
+    },
+    "1f39ee907723": {
+      "company": "Garda Capital Partners",
+      "role": "Software Engineer Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/gardacp/jobs/6146213004?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1882,
+      "chat_id": 7582459199,
+      "seq": 717,
+      "identity": "https://job-boards.greenhouse.io/gardacp/jobs/6146213004?utm_source=Simplify&ref=Simplify|Garda Capital Partners|Software Engineer Intern|NYC|Summer 2026#1"
+    },
+    "2dbede546646": {
+      "company": "American Express",
+      "role": "Software Engineer Intern - Enterprise Technology Services",
+      "location": "Sunrise, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011015?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1883,
+      "chat_id": 7582459199,
+      "seq": 718,
+      "identity": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011015?utm_source=Simplify&ref=Simplify|American Express|Software Engineer Intern - Enterprise Technology Services|Sunrise, FL|Summer 2026#1"
+    },
+    "47a029dd3e3f": {
+      "company": "Truist Bank",
+      "role": "Technology and Operations Intern - Data",
+      "location": "Charlotte, NC Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://truist.wd1.myworkdayjobs.com/en-US/Careers/job/Charlotte-NC/XMLNAME-2027-Technology--Data--and-Operations-Internship_R0118061?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1884,
+      "chat_id": 7582459199,
+      "seq": 719,
+      "identity": "https://truist.wd1.myworkdayjobs.com/en-US/Careers/job/Charlotte-NC/XMLNAME-2027-Technology--Data--and-Operations-Internship_R0118061?utm_source=Simplify&ref=Simplify|Truist Bank|Technology and Operations Intern - Data|Charlotte, NC Atlanta, GA|Summer 2026#1"
+    },
+    "532b0ec3a894": {
+      "company": "PIMCO",
+      "role": "Software Engineering Intern - Technology Analyst",
+      "location": "Austin, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1885,
+      "chat_id": 7582459199,
+      "seq": 720,
+      "identity": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745?utm_source=Simplify&ref=Simplify|PIMCO|Software Engineering Intern - Technology Analyst|Austin, TX|Summer 2026#1"
     }
   },
   "applied": {
@@ -15651,10 +15699,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 716,
+  "seq": 720,
   "health": {
     "last_heartbeat": "2026-08-18T23:00:17Z",
-    "last_ok_run": "2026-08-18T23:00:17Z",
+    "last_ok_run": "2026-08-18T23:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
