@@ -15152,6 +15152,30 @@
       "chat_id": 7582459199,
       "seq": 705,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage-Hiver-2027---Analyste-de-Fabrication-Qualite---Internship-Winter-2027-Winter---Manufacturing---Quality-Analyst_01864107|RTX|Stage Hiver 2027 - Analyste de Fabric...|Qc, CA|Summer 2027#1"
+    },
+    "2040b2e0b1a6": {
+      "company": "LPL Financial",
+      "role": "Intern 2027- Platform Engineer",
+      "location": "Fort MillCharlotte",
+      "term": "Summer 2027",
+      "apply_url": "https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1871,
+      "chat_id": 7582459199,
+      "seq": 706,
+      "identity": "https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1|LPL Financial|Intern 2027- Platform Engineer|Fort MillCharlotte|Summer 2027#1"
+    },
+    "13e4385f265b": {
+      "company": "LPL Financial",
+      "role": "Intern 2027- Software Engineer",
+      "location": "Fort MillCharlotte",
+      "term": "Summer 2027",
+      "apply_url": "https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921",
+      "source": "Zapply Summer Repo",
+      "message_id": 1872,
+      "chat_id": 7582459199,
+      "seq": 707,
+      "identity": "https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921|LPL Financial|Intern 2027- Software Engineer|Fort MillCharlotte|Summer 2027#1"
     }
   },
   "applied": {
@@ -15519,10 +15543,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 705,
+  "seq": 707,
   "health": {
     "last_heartbeat": "2026-08-18T17:40:14Z",
-    "last_ok_run": "2026-08-18T18:05:13Z",
+    "last_ok_run": "2026-08-18T18:10:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
