@@ -15212,6 +15212,54 @@
       "chat_id": 7582459199,
       "seq": 710,
       "identity": "https://www.zipline.com/open-roles?gh_jid=7893926003|Zipline|Enterprise Systems Software Engineer ...|South San Francisco, C...|Summer 2027#1"
+    },
+    "6f3e02176fc6": {
+      "company": "GardaWorld",
+      "role": "Software Engineer Intern",
+      "location": "New York, New York, Un...",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/gardacp/jobs/6146213004",
+      "source": "Zapply Summer Repo",
+      "message_id": 1876,
+      "chat_id": 7582459199,
+      "seq": 711,
+      "identity": "https://job-boards.greenhouse.io/gardacp/jobs/6146213004|GardaWorld|Software Engineer Intern|New York, New York, Un...|Summer 2027#1"
+    },
+    "ce9e35bc86d2": {
+      "company": "ByteDance",
+      "role": "Site Reliability Engineer Intern (Dat...",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7672922348676647221",
+      "source": "Zapply Summer Repo",
+      "message_id": 1877,
+      "chat_id": 7582459199,
+      "seq": 712,
+      "identity": "https://joinbytedance.com/search/7672922348676647221|ByteDance|Site Reliability Engineer Intern (Dat...|San Jose, California|Summer 2027#1"
+    },
+    "ad0ccb89b725": {
+      "company": "ByteDance",
+      "role": "Video/Image AI/ML Software Engineer I...",
+      "location": "San Diego, California",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7670354329765464373",
+      "source": "Zapply Summer Repo",
+      "message_id": 1878,
+      "chat_id": 7582459199,
+      "seq": 713,
+      "identity": "https://joinbytedance.com/search/7670354329765464373|ByteDance|Video/Image AI/ML Software Engineer I...|San Diego, California|Summer 2027#1"
+    },
+    "3508f8c35960": {
+      "company": "ByteDance",
+      "role": "GPU/AI Application Platform Engineer ...",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7668475133954197765",
+      "source": "Zapply Summer Repo",
+      "message_id": 1879,
+      "chat_id": 7582459199,
+      "seq": 714,
+      "identity": "https://joinbytedance.com/search/7668475133954197765|ByteDance|GPU/AI Application Platform Engineer ...|San Jose, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -15579,10 +15627,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 710,
+  "seq": 714,
   "health": {
     "last_heartbeat": "2026-08-18T19:45:15Z",
-    "last_ok_run": "2026-08-18T20:15:15Z",
+    "last_ok_run": "2026-08-18T20:20:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
