@@ -15260,6 +15260,30 @@
       "chat_id": 7582459199,
       "seq": 714,
       "identity": "https://joinbytedance.com/search/7668475133954197765|ByteDance|GPU/AI Application Platform Engineer ...|San Jose, California|Summer 2027#1"
+    },
+    "ec89c37ee2eb": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Westford, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-WESTFORD-WFD7--7-Technology-Park-Dr--BLDG-7/Software-Engineering-Intern--Summer-2027-_01867678?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1880,
+      "chat_id": 7582459199,
+      "seq": 715,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-WESTFORD-WFD7--7-Technology-Park-Dr--BLDG-7/Software-Engineering-Intern--Summer-2027-_01867678?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Westford, MA|Summer 2026#1"
+    },
+    "18ad7536b1d7": {
+      "company": "RTX",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Marlborough, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Software-Engineering-Intern--Summer-2027-_01867814?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1881,
+      "chat_id": 7582459199,
+      "seq": 716,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Software-Engineering-Intern--Summer-2027-_01867814?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Marlborough, MA|Summer 2026#1"
     }
   },
   "applied": {
@@ -15627,10 +15651,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 714,
+  "seq": 716,
   "health": {
     "last_heartbeat": "2026-08-18T22:00:16Z",
-    "last_ok_run": "2026-08-18T22:30:17Z",
+    "last_ok_run": "2026-08-18T22:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
