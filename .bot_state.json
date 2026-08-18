@@ -14960,6 +14960,30 @@
       "chat_id": 7582459199,
       "seq": 689,
       "identity": "https://caci.wd1.myworkdayjobs.com/external/job/Sterling-VA-US/GMU-Scholar-Program---Summer-2027-Internship_330557?utm_source=Simplify&ref=Simplify|CACI|GMU Scholar Program Intern|Sterling, VA|Summer 2026#1"
+    },
+    "2bf8fc3a68e2": {
+      "company": "GE Aerospace",
+      "role": "Systems Engineering Co-op - Mechanica...",
+      "location": "Dayton",
+      "term": "Summer 2027",
+      "apply_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Mechanical-Aerospace-Engineering--Electric-Power----US---Fall-2027_R5030145-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1852,
+      "chat_id": 7582459199,
+      "seq": 690,
+      "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Mechanical-Aerospace-Engineering--Electric-Power----US---Fall-2027_R5030145-1|GE Aerospace|Systems Engineering Co-op - Mechanica...|Dayton|Summer 2027#1"
+    },
+    "c6745d5e7c5e": {
+      "company": "GE Aerospace",
+      "role": "Systems Engineering Co-op - Mechanica...",
+      "location": "Dayton",
+      "term": "Summer 2027",
+      "apply_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Mechanical-Aerospace-Engineering--Electric-Power----US---Spring-2027_R5030103-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1853,
+      "chat_id": 7582459199,
+      "seq": 691,
+      "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Mechanical-Aerospace-Engineering--Electric-Power----US---Spring-2027_R5030103-1|GE Aerospace|Systems Engineering Co-op - Mechanica...|Dayton|Summer 2027#1"
     }
   },
   "applied": {
@@ -15327,10 +15351,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 689,
+  "seq": 691,
   "health": {
     "last_heartbeat": "2026-08-18T00:50:12Z",
-    "last_ok_run": "2026-08-18T01:30:20Z",
+    "last_ok_run": "2026-08-18T01:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z"
     }
