@@ -15116,6 +15116,30 @@
       "chat_id": 7582459199,
       "seq": 702,
       "identity": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1|Intel|Software Development Graduate Intern|Folsom, CA|Other#1"
+    },
+    "dd224bfe76df": {
+      "company": "PIMCO",
+      "role": "2027 Summer Intern - Technology Analy...",
+      "location": "Austin, TX USA",
+      "term": "Summer 2027",
+      "apply_url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745",
+      "source": "Zapply Summer Repo",
+      "message_id": 1868,
+      "chat_id": 7582459199,
+      "seq": 703,
+      "identity": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745|PIMCO|2027 Summer Intern - Technology Analy...|Austin, TX USA|Summer 2027#1"
+    },
+    "d68e8a570abe": {
+      "company": "Draper",
+      "role": "Full Stack Web Development Co-Op (Spr...",
+      "location": "Cambridge, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1869,
+      "chat_id": 7582459199,
+      "seq": 704,
+      "identity": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1|Draper|Full Stack Web Development Co-Op (Spr...|Cambridge, MA|Summer 2027#1"
     }
   },
   "applied": {
@@ -15483,10 +15507,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 702,
+  "seq": 704,
   "health": {
     "last_heartbeat": "2026-08-18T14:10:15Z",
-    "last_ok_run": "2026-08-18T14:45:14Z",
+    "last_ok_run": "2026-08-18T14:50:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
