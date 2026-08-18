@@ -15140,6 +15140,18 @@
       "chat_id": 7582459199,
       "seq": 704,
       "identity": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1|Draper|Full Stack Web Development Co-Op (Spr...|Cambridge, MA|Summer 2027#1"
+    },
+    "57ff3d8857c4": {
+      "company": "RTX",
+      "role": "Stage Hiver 2027 - Analyste de Fabric...",
+      "location": "Qc, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage-Hiver-2027---Analyste-de-Fabrication-Qualite---Internship-Winter-2027-Winter---Manufacturing---Quality-Analyst_01864107",
+      "source": "Zapply Summer Repo",
+      "message_id": 1870,
+      "chat_id": 7582459199,
+      "seq": 705,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage-Hiver-2027---Analyste-de-Fabrication-Qualite---Internship-Winter-2027-Winter---Manufacturing---Quality-Analyst_01864107|RTX|Stage Hiver 2027 - Analyste de Fabric...|Qc, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -15507,10 +15519,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 704,
+  "seq": 705,
   "health": {
     "last_heartbeat": "2026-08-18T15:15:15Z",
-    "last_ok_run": "2026-08-18T15:45:14Z",
+    "last_ok_run": "2026-08-18T15:50:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
