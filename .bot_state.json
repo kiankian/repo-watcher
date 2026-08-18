@@ -14984,6 +14984,66 @@
       "chat_id": 7582459199,
       "seq": 691,
       "identity": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Mechanical-Aerospace-Engineering--Electric-Power----US---Spring-2027_R5030103-1|GE Aerospace|Systems Engineering Co-op - Mechanica...|Dayton|Summer 2027#1"
+    },
+    "5cbda9821ba5": {
+      "company": "American Express",
+      "role": "AI Engineer Intern - Enterprise Technology Services \ud83c\udf93",
+      "location": "Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1854,
+      "chat_id": 7582459199,
+      "seq": 692,
+      "identity": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000?utm_source=Simplify&ref=Simplify|American Express|AI Engineer Intern - Enterprise Technology Services \ud83c\udf93|Atlanta, GA|Summer 2026#1"
+    },
+    "cee832bbe212": {
+      "company": "American Express",
+      "role": "Software Engineer Intern - Enterprise Technology Services",
+      "location": "Phoenix, AZ",
+      "term": "Summer 2026",
+      "apply_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011781?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1855,
+      "chat_id": 7582459199,
+      "seq": 693,
+      "identity": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011781?utm_source=Simplify&ref=Simplify|American Express|Software Engineer Intern - Enterprise Technology Services|Phoenix, AZ|Summer 2026#1"
+    },
+    "bade4fdeb2c5": {
+      "company": "RTX",
+      "role": "Software Engineer Intern - Intelligent Software & Systems",
+      "location": "Cambridge, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/XMLNAME-2027-Software-Engineer-Intern--Onsite-_01866914?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1856,
+      "chat_id": 7582459199,
+      "seq": 694,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/XMLNAME-2027-Software-Engineer-Intern--Onsite-_01866914?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Intelligent Software & Systems|Cambridge, MA|Summer 2026#1"
+    },
+    "d1db80b08c42": {
+      "company": "RTX",
+      "role": "Software Engineering Intern",
+      "location": "Cambridge, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/XMLNAME-2027-Software-Engineering-Intern--Onsite-_01864698?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1857,
+      "chat_id": 7582459199,
+      "seq": 695,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/XMLNAME-2027-Software-Engineering-Intern--Onsite-_01864698?utm_source=Simplify&ref=Simplify|RTX|Software Engineering Intern|Cambridge, MA|Summer 2026#1"
+    },
+    "7d25d78d0784": {
+      "company": "RTX",
+      "role": "Software Engineer Intern - Spring 2027",
+      "location": "Melbourne, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Spring-2027-_01864146?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1858,
+      "chat_id": 7582459199,
+      "seq": 696,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Spring-2027-_01864146?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Spring 2027|Melbourne, FL|Summer 2026#1"
     }
   },
   "applied": {
@@ -15351,10 +15411,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 691,
+  "seq": 696,
   "health": {
     "last_heartbeat": "2026-08-18T06:10:14Z",
-    "last_ok_run": "2026-08-18T06:30:18Z",
+    "last_ok_run": "2026-08-18T06:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z"
     }
