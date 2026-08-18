@@ -15044,6 +15044,18 @@
       "chat_id": 7582459199,
       "seq": 696,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Spring-2027-_01864146?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Spring 2027|Melbourne, FL|Summer 2026#1"
+    },
+    "1b0379f75ec6": {
+      "company": "\ud83d\udd25 TikTok",
+      "role": "Software Engineer Intern - TikTok Search Data Infra",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://lifeattiktok.com/search/7675128776856029445?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1859,
+      "chat_id": 7582459199,
+      "seq": 697,
+      "identity": "https://lifeattiktok.com/search/7675128776856029445?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - TikTok Search Data Infra|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -15411,10 +15423,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 696,
+  "seq": 697,
   "health": {
     "last_heartbeat": "2026-08-18T09:30:16Z",
-    "last_ok_run": "2026-08-18T09:30:16Z",
+    "last_ok_run": "2026-08-18T09:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z"
     }
