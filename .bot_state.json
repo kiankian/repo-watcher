@@ -15056,6 +15056,66 @@
       "chat_id": 7582459199,
       "seq": 697,
       "identity": "https://lifeattiktok.com/search/7675128776856029445?utm_source=Simplify&ref=Simplify|\ud83d\udd25 TikTok|Software Engineer Intern - TikTok Search Data Infra|San Jose, CA|Summer 2026#1"
+    },
+    "c8ba4faec1ef": {
+      "company": "Datadog",
+      "role": "Software Engineering Intern - Winter",
+      "location": "Boston, MA +1",
+      "term": "FAANG+",
+      "apply_url": "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1862,
+      "chat_id": 7582459199,
+      "seq": 698,
+      "identity": "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095|Datadog|Software Engineering Intern - Winter|Boston, MA +1|FAANG+#1"
+    },
+    "4e46a191532c": {
+      "company": "Arkansas Center for Data Sciences",
+      "role": "Align AI Software Development Intern",
+      "location": "Bentonville, AR",
+      "term": "Other",
+      "apply_url": "https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1863,
+      "chat_id": 7582459199,
+      "seq": 699,
+      "identity": "https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787|Arkansas Center for Data Sciences|Align AI Software Development Intern|Bentonville, AR|Other#1"
+    },
+    "ac7b578cb8d9": {
+      "company": "Point72",
+      "role": "Quantitative Developer Intern",
+      "location": "New York City, NY",
+      "term": "Other",
+      "apply_url": "https://boards.greenhouse.io/point72/jobs/8721562002?gh_jid=8721562002",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1864,
+      "chat_id": 7582459199,
+      "seq": 700,
+      "identity": "https://boards.greenhouse.io/point72/jobs/8721562002?gh_jid=8721562002|Point72|Quantitative Developer Intern|New York City, NY|Other#1"
+    },
+    "9d1ead8e725b": {
+      "company": "Conagra Brands",
+      "role": "Software Development Internship - Summer 2027",
+      "location": "Omaha, NE",
+      "term": "Other",
+      "apply_url": "https://conagrabrands.wd1.myworkdayjobs.com/en-US/careers_us/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1865,
+      "chat_id": 7582459199,
+      "seq": 701,
+      "identity": "https://conagrabrands.wd1.myworkdayjobs.com/en-US/careers_us/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787|Conagra Brands|Software Development Internship - Summer 2027|Omaha, NE|Other#1"
+    },
+    "985e05a0de25": {
+      "company": "Intel",
+      "role": "Software Development Graduate Intern",
+      "location": "Folsom, CA",
+      "term": "Other",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 1866,
+      "chat_id": 7582459199,
+      "seq": 702,
+      "identity": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1|Intel|Software Development Graduate Intern|Folsom, CA|Other#1"
     }
   },
   "applied": {
@@ -15423,13 +15483,13 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 697,
+  "seq": 702,
   "health": {
     "last_heartbeat": "2026-08-18T11:30:18Z",
-    "last_ok_run": "2026-08-18T12:55:14Z",
+    "last_ok_run": "2026-08-18T13:00:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
-      "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T12:30:17Z"
+      "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:00:19Z"
     }
   }
 }

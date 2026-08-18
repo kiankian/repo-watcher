@@ -2229,7 +2229,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "efec290fdd7df28c250da3647a24811681b2e13c",
+    "last_sha": "6aaef8c46110d93b8eee1db5e8c704e34c5be883",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2301,7 +2301,8 @@
       "https://lifeattiktok.com/search/7670839752644233525|TikTok|Software Engineer Intern - Global E-commerce-Search - 2027 Fall|Seattle, WA|FAANG+#1",
       "https://lifeattiktok.com/search/7670839727059339525|TikTok|Software Engineer Intern - Global E-commerce-Search - 2027 Summer|Seattle, WA|FAANG+#1",
       "https://salesforce.wd12.myworkdayjobs.com/en-US/external_career_site/job/California---San-Francisco/Software-Engineering-Intern---Future-Pathways_JR355842|Salesforce|Software Engineering Intern - Future Pathways|California, USA +3|FAANG+#1",
-      "https://lifeattiktok.com/search/7673663349758675205|TikTok|Mobile Software Engineer Intern - Global E-Commerce - 2027 Summer|San Jose, CA|FAANG+#1"
+      "https://lifeattiktok.com/search/7673663349758675205|TikTok|Mobile Software Engineer Intern - Global E-Commerce - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095|Datadog|Software Engineering Intern - Winter|Boston, MA +1|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -2327,11 +2328,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 62,
+    "last_row_count": 63,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "efec290fdd7df28c250da3647a24811681b2e13c",
+    "last_sha": "6aaef8c46110d93b8eee1db5e8c704e34c5be883",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2370,7 +2371,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "efec290fdd7df28c250da3647a24811681b2e13c",
+    "last_sha": "6aaef8c46110d93b8eee1db5e8c704e34c5be883",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2475,7 +2476,11 @@
       "https://generac.wd5.myworkdayjobs.com/en-US/external/job/Reno-NV---USA/Intern-Firmware-Engineering_JR16149|Generac|Intern Firmware Engineering|Reno, NV|Other#1",
       "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1|Motorola Solutions|Android Platform Software Engineering Intern - Summer 2027|Plantation, FL +1|Other#1",
       "https://valeo.wd3.myworkdayjobs.com/en-US/valeo_jobs/job/Troy-MI/Software-Engineer-Intern_REQ2026076575|Valeo|Software Engineer Intern|Troy, MI|Other#1",
-      "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1|Replit|Software Engineering Intern - Summer 2027|Foster City, CA|Other#1"
+      "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1|Replit|Software Engineering Intern - Summer 2027|Foster City, CA|Other#1",
+      "https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787|Arkansas Center for Data Sciences|Align AI Software Development Intern|Bentonville, AR|Other#1",
+      "https://boards.greenhouse.io/point72/jobs/8721562002?gh_jid=8721562002|Point72|Quantitative Developer Intern|New York City, NY|Other#1",
+      "https://conagrabrands.wd1.myworkdayjobs.com/en-US/careers_us/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787|Conagra Brands|Software Development Internship - Summer 2027|Omaha, NE|Other#1",
+      "https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1|Intel|Software Development Graduate Intern|Folsom, CA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -2619,7 +2624,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 138,
+    "last_row_count": 137,
     "outbox": []
   }
 }
