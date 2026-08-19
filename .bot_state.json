@@ -15368,6 +15368,42 @@
       "chat_id": 7582459199,
       "seq": 723,
       "identity": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005|Chicago Trading Company|Software Engineering Internship - Sum...|Chicago, Illinois, Uni...|Summer 2027#1"
+    },
+    "0b14e6239733": {
+      "company": "The Nuclear Company",
+      "role": "Summer 2027 Software Engineering Intern",
+      "location": "Washington, DC",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383236008",
+      "source": "Zapply Summer Repo",
+      "message_id": 1889,
+      "chat_id": 7582459199,
+      "seq": 724,
+      "identity": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383236008|The Nuclear Company|Summer 2027 Software Engineering Intern|Washington, DC|Summer 2027#1"
+    },
+    "a8e72d28eda1": {
+      "company": "The Nuclear Company",
+      "role": "Spring 2027 Software Engineering Intern",
+      "location": "Washington, DC",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383171008",
+      "source": "Zapply Summer Repo",
+      "message_id": 1890,
+      "chat_id": 7582459199,
+      "seq": 725,
+      "identity": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383171008|The Nuclear Company|Spring 2027 Software Engineering Intern|Washington, DC|Summer 2027#1"
+    },
+    "965c90f10066": {
+      "company": "The Nuclear Company",
+      "role": "Fall 2026 AI Software Engineering Intern",
+      "location": "Washington, DC",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383113008",
+      "source": "Zapply Summer Repo",
+      "message_id": 1891,
+      "chat_id": 7582459199,
+      "seq": 726,
+      "identity": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383113008|The Nuclear Company|Fall 2026 AI Software Engineering Intern|Washington, DC|Summer 2027#1"
     }
   },
   "applied": {
@@ -15735,10 +15771,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 723,
+  "seq": 726,
   "health": {
     "last_heartbeat": "2026-08-19T03:30:16Z",
-    "last_ok_run": "2026-08-19T03:30:16Z",
+    "last_ok_run": "2026-08-19T03:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
