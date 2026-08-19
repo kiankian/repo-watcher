@@ -15776,6 +15776,18 @@
       "chat_id": 7582459199,
       "seq": 757,
       "identity": "https://job-boards.greenhouse.io/generalmatter/jobs/5377118008|General Matter|Software Engineer Intern|South Bay, Los Angeles|Summer 2027#1"
+    },
+    "2329fc9751a2": {
+      "company": "Humana",
+      "role": "Technology Intern - Early ID Participants",
+      "location": "Louisville, KY",
+      "term": "Summer 2026",
+      "apply_url": "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Humana-Technology-Internship---Summer-2027--Early-ID-Participants-_R-427451?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1923,
+      "chat_id": 7582459199,
+      "seq": 758,
+      "identity": "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Humana-Technology-Internship---Summer-2027--Early-ID-Participants-_R-427451?utm_source=Simplify&ref=Simplify|Humana|Technology Intern - Early ID Participants|Louisville, KY|Summer 2026#1"
     }
   },
   "applied": {
@@ -16143,10 +16155,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 757,
+  "seq": 758,
   "health": {
     "last_heartbeat": "2026-08-19T21:25:11Z",
-    "last_ok_run": "2026-08-19T22:30:18Z",
+    "last_ok_run": "2026-08-19T22:35:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
