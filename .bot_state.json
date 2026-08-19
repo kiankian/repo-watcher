@@ -15692,6 +15692,54 @@
       "chat_id": 7582459199,
       "seq": 750,
       "identity": "https://joinbytedance.com/search/7672626707586746629|ByteDance|Software Engineer Intern (Traffic Inf...|San Jose, California|Summer 2027#1"
+    },
+    "702b43241f94": {
+      "company": "RTX",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Sterling, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--Summer-2027-_01864691?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1916,
+      "chat_id": 7582459199,
+      "seq": 751,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--Summer-2027-_01864691?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Sterling, VA|Summer 2026#1"
+    },
+    "7c5cb477a77e": {
+      "company": "RTX",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Aurora, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Engineering-Intern--Summer-2027-_01867892?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1917,
+      "chat_id": 7582459199,
+      "seq": 752,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Engineering-Intern--Summer-2027-_01867892?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Aurora, CO|Summer 2026#1"
+    },
+    "25c9dddb1c23": {
+      "company": "GE Vernova",
+      "role": "Application Engineer Co-op/Intern - PCS",
+      "location": "Findlay Township, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Findlay-Township/PCS-Application-Engineering-Co-Op-Intern---Summer-2027_R5050417-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1918,
+      "chat_id": 7582459199,
+      "seq": 753,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Findlay-Township/PCS-Application-Engineering-Co-Op-Intern---Summer-2027_R5050417-2?utm_source=Simplify&ref=Simplify|GE Vernova|Application Engineer Co-op/Intern - PCS|Findlay Township, PA|Summer 2026#1"
+    },
+    "7d3c2e5bb30b": {
+      "company": "GE Vernova",
+      "role": "Application Engineer Co-op/Intern - PCS",
+      "location": "Findlay Township, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Findlay-Township/PCS-Application-Engineering-Co-Op-Intern---Summer-2027_R5050417-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1919,
+      "chat_id": 7582459199,
+      "seq": 754,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Findlay-Township/PCS-Application-Engineering-Co-Op-Intern---Summer-2027_R5050417-1?utm_source=Simplify&ref=Simplify|GE Vernova|Application Engineer Co-op/Intern - PCS|Findlay Township, PA|Summer 2026#1"
     }
   },
   "applied": {
@@ -16059,10 +16107,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 750,
+  "seq": 754,
   "health": {
     "last_heartbeat": "2026-08-19T20:20:16Z",
-    "last_ok_run": "2026-08-19T21:00:19Z",
+    "last_ok_run": "2026-08-19T21:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
