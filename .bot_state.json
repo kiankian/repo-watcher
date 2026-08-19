@@ -15428,6 +15428,18 @@
       "chat_id": 7582459199,
       "seq": 728,
       "identity": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495|NVIDIA|NVIDIA 2027 Internships: Software Eng...|US, CA, Santa Clara|Summer 2027#1"
+    },
+    "015b7c74b1a0": {
+      "company": "\ud83d\udd25 NVIDIA",
+      "role": "Software Engineering Intern",
+      "location": "Canada Santa Clara, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1894,
+      "chat_id": 7582459199,
+      "seq": 729,
+      "identity": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495?utm_source=Simplify&ref=Simplify|\ud83d\udd25 NVIDIA|Software Engineering Intern|Canada Santa Clara, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -15795,10 +15807,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 728,
+  "seq": 729,
   "health": {
     "last_heartbeat": "2026-08-19T09:00:22Z",
-    "last_ok_run": "2026-08-19T10:00:17Z",
+    "last_ok_run": "2026-08-19T10:05:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
