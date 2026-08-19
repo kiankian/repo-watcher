@@ -15584,6 +15584,90 @@
       "chat_id": 7582459199,
       "seq": 741,
       "identity": "https://apply.careers.microsoft.com/careers/job/1970393556962891|Microsoft|AI Software Engineering Intern|Redmond, Washington, U...|Summer 2027#1"
+    },
+    "8eb477760cc4": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "role": "Software Engineering Intern - Embedde...",
+      "location": "Palo Alto, California",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/rivianvw.tech/4dfbf1e6-3778-4101-8ac7-cd4015d47eff",
+      "source": "Zapply Summer Repo",
+      "message_id": 1907,
+      "chat_id": 7582459199,
+      "seq": 742,
+      "identity": "https://jobs.ashbyhq.com/rivianvw.tech/4dfbf1e6-3778-4101-8ac7-cd4015d47eff|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Embedde...|Palo Alto, California|Summer 2027#1"
+    },
+    "4d4957c7c617": {
+      "company": "Rilla",
+      "role": "Software Engineering Intern - 2027 Gr...",
+      "location": "New York City",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/rilla/123a6a38-c7f9-4378-b00d-c6ae54688bd5",
+      "source": "Zapply Summer Repo",
+      "message_id": 1908,
+      "chat_id": 7582459199,
+      "seq": 743,
+      "identity": "https://jobs.ashbyhq.com/rilla/123a6a38-c7f9-4378-b00d-c6ae54688bd5|Rilla|Software Engineering Intern - 2027 Gr...|New York City|Summer 2027#1"
+    },
+    "1b7c3a9cfa23": {
+      "company": "Ramp",
+      "role": "Software Engineer Internship, Android",
+      "location": "New York, NY (",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b",
+      "source": "Zapply Summer Repo",
+      "message_id": 1909,
+      "chat_id": 7582459199,
+      "seq": 744,
+      "identity": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b|Ramp|Software Engineer Internship, Android|New York, NY (|Summer 2027#1"
+    },
+    "cdbaf295e038": {
+      "company": "N1",
+      "role": "Software Engineer Intern (Fullstack)",
+      "location": "New York City",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/N1/298585c3-96b1-4728-8d37-31482f85a064",
+      "source": "Zapply Summer Repo",
+      "message_id": 1910,
+      "chat_id": 7582459199,
+      "seq": 745,
+      "identity": "https://jobs.ashbyhq.com/N1/298585c3-96b1-4728-8d37-31482f85a064|N1|Software Engineer Intern (Fullstack)|New York City|Summer 2027#1"
+    },
+    "5f8bcefcb625": {
+      "company": "N1",
+      "role": "Software Engineer Intern (Backend, Rust)",
+      "location": "New York City",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/N1/afe7deb5-9cfd-4926-bcb4-058d418592a6",
+      "source": "Zapply Summer Repo",
+      "message_id": 1911,
+      "chat_id": 7582459199,
+      "seq": 746,
+      "identity": "https://jobs.ashbyhq.com/N1/afe7deb5-9cfd-4926-bcb4-058d418592a6|N1|Software Engineer Intern (Backend, Rust)|New York City|Summer 2027#1"
+    },
+    "14b1f8c75488": {
+      "company": "Mechanize",
+      "role": "Software Engineering Intern",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/mechanize/d148d54f-6db7-4c28-9699-0304596f554e",
+      "source": "Zapply Summer Repo",
+      "message_id": 1912,
+      "chat_id": 7582459199,
+      "seq": 747,
+      "identity": "https://jobs.ashbyhq.com/mechanize/d148d54f-6db7-4c28-9699-0304596f554e|Mechanize|Software Engineering Intern|San Francisco|Summer 2027#1"
+    },
+    "cd735a13c56f": {
+      "company": "Ellipsis Labs",
+      "role": "Software Engineer - 2027 Interns",
+      "location": "New York, New York",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849",
+      "source": "Zapply Summer Repo",
+      "message_id": 1913,
+      "chat_id": 7582459199,
+      "seq": 748,
+      "identity": "https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849|Ellipsis Labs|Software Engineer - 2027 Interns|New York, New York|Summer 2027#1"
     }
   },
   "applied": {
@@ -15951,10 +16035,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 741,
+  "seq": 748,
   "health": {
     "last_heartbeat": "2026-08-19T14:50:16Z",
-    "last_ok_run": "2026-08-19T15:05:17Z",
+    "last_ok_run": "2026-08-19T15:10:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
