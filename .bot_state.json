@@ -15764,6 +15764,18 @@
       "chat_id": 7582459199,
       "seq": 756,
       "identity": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631|Copart|Site Reliability Engineer Intern|Dallas, TX - Headquarters|Summer 2027#1"
+    },
+    "dc15633b2e57": {
+      "company": "General Matter",
+      "role": "Software Engineer Intern",
+      "location": "South Bay, Los Angeles",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/generalmatter/jobs/5377118008",
+      "source": "Zapply Summer Repo",
+      "message_id": 1922,
+      "chat_id": 7582459199,
+      "seq": 757,
+      "identity": "https://job-boards.greenhouse.io/generalmatter/jobs/5377118008|General Matter|Software Engineer Intern|South Bay, Los Angeles|Summer 2027#1"
     }
   },
   "applied": {
@@ -16131,10 +16143,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 756,
+  "seq": 757,
   "health": {
     "last_heartbeat": "2026-08-19T21:25:11Z",
-    "last_ok_run": "2026-08-19T22:20:16Z",
+    "last_ok_run": "2026-08-19T22:25:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
