@@ -15404,6 +15404,30 @@
       "chat_id": 7582459199,
       "seq": 726,
       "identity": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383113008|The Nuclear Company|Fall 2026 AI Software Engineering Intern|Washington, DC|Summer 2027#1"
+    },
+    "f4d0432a4b81": {
+      "company": "NVIDIA",
+      "role": "NVIDIA 2027 Internships: Systems Soft...",
+      "location": "US, CA, Santa Clara",
+      "term": "Summer 2027",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+      "source": "Zapply Summer Repo",
+      "message_id": 1892,
+      "chat_id": 7582459199,
+      "seq": 727,
+      "identity": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492|NVIDIA|NVIDIA 2027 Internships: Systems Soft...|US, CA, Santa Clara|Summer 2027#1"
+    },
+    "068010c4510c": {
+      "company": "NVIDIA",
+      "role": "NVIDIA 2027 Internships: Software Eng...",
+      "location": "US, CA, Santa Clara",
+      "term": "Summer 2027",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+      "source": "Zapply Summer Repo",
+      "message_id": 1893,
+      "chat_id": 7582459199,
+      "seq": 728,
+      "identity": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495|NVIDIA|NVIDIA 2027 Internships: Software Eng...|US, CA, Santa Clara|Summer 2027#1"
     }
   },
   "applied": {
@@ -15771,10 +15795,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 726,
+  "seq": 728,
   "health": {
     "last_heartbeat": "2026-08-19T06:50:17Z",
-    "last_ok_run": "2026-08-19T07:15:16Z",
+    "last_ok_run": "2026-08-19T07:20:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
