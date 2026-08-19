@@ -15668,6 +15668,18 @@
       "chat_id": 7582459199,
       "seq": 748,
       "identity": "https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849|Ellipsis Labs|Software Engineer - 2027 Interns|New York, New York|Summer 2027#1"
+    },
+    "971675727933": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "role": "Software Engineering Intern - Connect...",
+      "location": "Irvine, California",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92",
+      "source": "Zapply Summer Repo",
+      "message_id": 1914,
+      "chat_id": 7582459199,
+      "seq": 749,
+      "identity": "https://jobs.ashbyhq.com/rivianvw.tech/50e43cbe-01ea-4b8b-be4c-bb5f48a2be92|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Connect...|Irvine, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -16035,10 +16047,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 748,
+  "seq": 749,
   "health": {
     "last_heartbeat": "2026-08-19T19:10:18Z",
-    "last_ok_run": "2026-08-19T19:10:18Z",
+    "last_ok_run": "2026-08-19T19:15:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
