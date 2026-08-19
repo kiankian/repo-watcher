@@ -15800,6 +15800,18 @@
       "chat_id": 7582459199,
       "seq": 759,
       "identity": "https://job-boards.greenhouse.io/generalmatter/jobs/5377118008|General Matter|Summer 2027 Internship - Software Eng...|Los Angeles, CA|Summer 2027#1"
+    },
+    "de4831a82197": {
+      "company": "LiveRamp",
+      "role": "Co-Op, DevOps Engineer",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://liveramp.wd5.myworkdayjobs.com/LiveRampCareers/job/San-Francisco/Co-Op--DevOps-Engineer_JR162095",
+      "source": "Zapply Summer Repo",
+      "message_id": 1925,
+      "chat_id": 7582459199,
+      "seq": 760,
+      "identity": "https://liveramp.wd5.myworkdayjobs.com/LiveRampCareers/job/San-Francisco/Co-Op--DevOps-Engineer_JR162095|LiveRamp|Co-Op, DevOps Engineer|San Francisco|Summer 2027#1"
     }
   },
   "applied": {
@@ -16167,10 +16179,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 759,
+  "seq": 760,
   "health": {
     "last_heartbeat": "2026-08-19T22:45:13Z",
-    "last_ok_run": "2026-08-19T22:55:14Z",
+    "last_ok_run": "2026-08-19T23:00:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
