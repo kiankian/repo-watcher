@@ -15572,6 +15572,18 @@
       "chat_id": 7582459199,
       "seq": 740,
       "identity": "https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Internship-Artificial-Intelligence-Agent-Developer_REQ-10120054|ING|Internship Artificial Intelligence Agent Developer|Waco, TX +1|Other#1"
+    },
+    "8722cf8fddd7": {
+      "company": "Microsoft",
+      "role": "AI Software Engineering Intern",
+      "location": "Redmond, Washington, U...",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556962891",
+      "source": "Zapply Summer Repo",
+      "message_id": 1906,
+      "chat_id": 7582459199,
+      "seq": 741,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556962891|Microsoft|AI Software Engineering Intern|Redmond, Washington, U...|Summer 2027#1"
     }
   },
   "applied": {
@@ -15939,10 +15951,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 740,
+  "seq": 741,
   "health": {
     "last_heartbeat": "2026-08-19T13:45:13Z",
-    "last_ok_run": "2026-08-19T14:25:13Z",
+    "last_ok_run": "2026-08-19T14:30:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
