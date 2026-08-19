@@ -15344,6 +15344,30 @@
       "chat_id": 7582459199,
       "seq": 721,
       "identity": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Calgary/May-2027---SAP---Summer-Intern---Calgary_752589WD?utm_source=Simplify&ref=Simplify|PricewaterhouseCoopers (PwC)|Summer Intern - SAP|Calgary, AB, Canada|Summer 2026#1"
+    },
+    "34107c323a97": {
+      "company": "Chicago Trading Company (Campus)",
+      "role": "Software Engineering Internship - Sum...",
+      "location": "Chicago, Illinois, Uni...",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005",
+      "source": "Zapply Summer Repo",
+      "message_id": 1887,
+      "chat_id": 7582459199,
+      "seq": 722,
+      "identity": "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005|Chicago Trading Company (Campus)|Software Engineering Internship - Sum...|Chicago, Illinois, Uni...|Summer 2027#1"
+    },
+    "5cac5abacfd9": {
+      "company": "Chicago Trading Company",
+      "role": "Software Engineering Internship - Sum...",
+      "location": "Chicago, Illinois, Uni...",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005",
+      "source": "Zapply Summer Repo",
+      "message_id": 1888,
+      "chat_id": 7582459199,
+      "seq": 723,
+      "identity": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005|Chicago Trading Company|Software Engineering Internship - Sum...|Chicago, Illinois, Uni...|Summer 2027#1"
     }
   },
   "applied": {
@@ -15711,10 +15735,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 721,
+  "seq": 723,
   "health": {
     "last_heartbeat": "2026-08-19T02:20:16Z",
-    "last_ok_run": "2026-08-19T03:15:16Z",
+    "last_ok_run": "2026-08-19T03:20:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
