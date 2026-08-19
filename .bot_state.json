@@ -15740,6 +15740,18 @@
       "chat_id": 7582459199,
       "seq": 754,
       "identity": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Findlay-Township/PCS-Application-Engineering-Co-Op-Intern---Summer-2027_R5050417-1?utm_source=Simplify&ref=Simplify|GE Vernova|Application Engineer Co-op/Intern - PCS|Findlay Township, PA|Summer 2026#1"
+    },
+    "c989f840e9b1": {
+      "company": "Johnson & Johnson",
+      "role": "Spring 2027 Quality Engineering Co-op",
+      "location": "Cornelia, Georgia, Uni...",
+      "term": "Summer 2027",
+      "apply_url": "https://jj.wd5.myworkdayjobs.com/jj/job/Cornelia-Georgia-United-States-of-America/Spring-2027-Quality-Engineering-Co-op_R-094937",
+      "source": "Zapply Summer Repo",
+      "message_id": 1920,
+      "chat_id": 7582459199,
+      "seq": 755,
+      "identity": "https://jj.wd5.myworkdayjobs.com/jj/job/Cornelia-Georgia-United-States-of-America/Spring-2027-Quality-Engineering-Co-op_R-094937|Johnson & Johnson|Spring 2027 Quality Engineering Co-op|Cornelia, Georgia, Uni...|Summer 2027#1"
     }
   },
   "applied": {
@@ -16107,10 +16119,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 754,
+  "seq": 755,
   "health": {
     "last_heartbeat": "2026-08-19T20:20:16Z",
-    "last_ok_run": "2026-08-19T21:10:16Z",
+    "last_ok_run": "2026-08-19T21:15:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
