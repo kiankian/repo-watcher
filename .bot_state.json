@@ -16328,6 +16328,18 @@
       "chat_id": 7582459199,
       "seq": 803,
       "identity": "https://campus-amd.icims.com/jobs/90891/login|AMD|2027 Undergrad Software Engineer Inte...|Santa Clara, CA, Unite...|Summer 2027#1"
+    },
+    "85c9a8b689e6": {
+      "company": "Databricks",
+      "role": "Software Engineering Intern (2027 Sta...",
+      "location": "Bellevue, Washington",
+      "term": "Summer 2027",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002",
+      "source": "Zapply Summer Repo",
+      "message_id": 1969,
+      "chat_id": 7582459199,
+      "seq": 804,
+      "identity": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002|Databricks|Software Engineering Intern (2027 Sta...|Bellevue, Washington|Summer 2027#1"
     }
   },
   "applied": {
@@ -16695,10 +16707,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 803,
+  "seq": 804,
   "health": {
     "last_heartbeat": "2026-08-20T23:40:15Z",
-    "last_ok_run": "2026-08-20T23:50:16Z",
+    "last_ok_run": "2026-08-20T23:55:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
