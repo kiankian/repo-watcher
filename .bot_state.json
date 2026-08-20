@@ -16184,6 +16184,30 @@
       "chat_id": 7582459199,
       "seq": 791,
       "identity": "https://jobs.smartrecruiters.com/AbbVie/3743990014697918|AbbVie|2027 Business Technology Solutions In...|North Chicago, IL|Summer 2027#1"
+    },
+    "7eec3973a6ab": {
+      "company": "AbbVie",
+      "role": "Business Technology Solutions Intern - Data & Software Engineering - Undergraduate",
+      "location": "North Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/AbbVie/3743990014697918?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1957,
+      "chat_id": 7582459199,
+      "seq": 792,
+      "identity": "https://jobs.smartrecruiters.com/AbbVie/3743990014697918?utm_source=Simplify&ref=Simplify|AbbVie|Business Technology Solutions Intern - Data & Software Engineering - Undergraduate|North Chicago, IL|Summer 2026#1"
+    },
+    "4449d7dbe902": {
+      "company": "RTX",
+      "role": "Software Development Intern",
+      "location": "Tewksbury, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Development-Intern--Summer-2027-_01867943?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1958,
+      "chat_id": 7582459199,
+      "seq": 793,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Development-Intern--Summer-2027-_01867943?utm_source=Simplify&ref=Simplify|RTX|Software Development Intern|Tewksbury, MA|Summer 2026#1"
     }
   },
   "applied": {
@@ -16551,10 +16575,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 791,
+  "seq": 793,
   "health": {
     "last_heartbeat": "2026-08-20T13:40:16Z",
-    "last_ok_run": "2026-08-20T14:30:20Z",
+    "last_ok_run": "2026-08-20T14:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
