@@ -16292,6 +16292,42 @@
       "chat_id": 7582459199,
       "seq": 800,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-801--1151-E-Hermans-Rd--BLDG-801-External-Site/Software-Engineer-Intern--Summer-2027-_01867664?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Tucson, AZ|Summer 2026#1"
+    },
+    "bff6d3192ce6": {
+      "company": "AMD",
+      "role": "2027 Masters Software Engineer Intern...",
+      "location": "Austin, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://campus-amd.icims.com/jobs/91180/login",
+      "source": "Zapply Summer Repo",
+      "message_id": 1966,
+      "chat_id": 7582459199,
+      "seq": 801,
+      "identity": "https://campus-amd.icims.com/jobs/91180/login|AMD|2027 Masters Software Engineer Intern...|Austin, TX, United States|Summer 2027#1"
+    },
+    "1b9180dcc936": {
+      "company": "AMD",
+      "role": "2027 Undergrad Software Engineer Inte...",
+      "location": "Austin, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://campus-amd.icims.com/jobs/90947/login",
+      "source": "Zapply Summer Repo",
+      "message_id": 1967,
+      "chat_id": 7582459199,
+      "seq": 802,
+      "identity": "https://campus-amd.icims.com/jobs/90947/login|AMD|2027 Undergrad Software Engineer Inte...|Austin, TX, United States|Summer 2027#1"
+    },
+    "400f33acd72c": {
+      "company": "AMD",
+      "role": "2027 Undergrad Software Engineer Inte...",
+      "location": "Santa Clara, CA, Unite...",
+      "term": "Summer 2027",
+      "apply_url": "https://campus-amd.icims.com/jobs/90891/login",
+      "source": "Zapply Summer Repo",
+      "message_id": 1968,
+      "chat_id": 7582459199,
+      "seq": 803,
+      "identity": "https://campus-amd.icims.com/jobs/90891/login|AMD|2027 Undergrad Software Engineer Inte...|Santa Clara, CA, Unite...|Summer 2027#1"
     }
   },
   "applied": {
@@ -16659,10 +16695,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 800,
+  "seq": 803,
   "health": {
     "last_heartbeat": "2026-08-20T23:40:15Z",
-    "last_ok_run": "2026-08-20T23:40:15Z",
+    "last_ok_run": "2026-08-20T23:45:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
