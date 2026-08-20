@@ -1719,7 +1719,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "e423e8035acad55eea3c5ec1f21c284ca667560a",
+    "last_sha": "b3303d71f9fcfdc0c24aebc0bd35d11be2b8b33d",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -2282,7 +2282,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "d058245dda217171521afedf888a2af71da32103",
+    "last_sha": "8b547a1d7881f40ed9ecaab6f974a1856b10b1cf",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2359,7 +2359,20 @@
       "https://apply.careers.microsoft.com/careers/job/1970393556962891|Microsoft|AI Software Engineering Intern|Washington, DC +1|FAANG+#1",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492|NVIDIA|NVIDIA 2027 Internships: Systems Software Engineering|Santa Clara, CA|FAANG+#1",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495|NVIDIA|NVIDIA 2027 Internships: Software Engineering|Santa Clara, CA|FAANG+#1",
-      "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499|NVIDIA|NVIDIA Spring 2027 Internships: Developer and Performance Technology|Santa Clara, CA|FAANG+#1"
+      "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499|NVIDIA|NVIDIA Spring 2027 Internships: Developer and Performance Technology|Santa Clara, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7675517686256863541|TikTok|Software Engineer Intern - TikTok Search Architecture - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7675524738811218229|TikTok|Software Engineer Intern - TikTok Search Architecture - 2027 Fall|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7675128776856029445|TikTok|Software Engineer Intern - TikTok Search Data Infra - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7675159726676101381|TikTok|Software Engineer Intern - Recommendation Infra - Performance Efficiency - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7675129440242010421|TikTok|Software Engineer Intern - TikTok Search Data Infra - 2027 Fall|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7675163472469444917|TikTok|Software Engineer Intern - Recommendation Infra - Performance Efficiency - 2027 Fall|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7674029284224092421|TikTok|Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Fall|Seattle, WA|FAANG+#1",
+      "https://lifeattiktok.com/search/7672930401597671733|TikTok|Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7672926068681951493|TikTok|Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Summer|Seattle, WA|FAANG+#1",
+      "https://lifeattiktok.com/search/7672934842451577141|TikTok|Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Fall|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7670874691332212997|TikTok|Site Reliability Engineer Intern - Global SRE - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668837276597127477|TikTok|Software Development Engineer Intern - Global E-Commerce-Quality Platform & AI Test Automation - 2027 Summer|Seattle, WA|FAANG+#1",
+      "https://lifeattiktok.com/search/7668837275459324213|TikTok|Software Development Engineer Intern - Global E-Commerce - Quality Platform & AI Test Automation - 2027 Summer|San Jose, CA|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -2385,11 +2398,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 67,
+    "last_row_count": 77,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "d058245dda217171521afedf888a2af71da32103",
+    "last_sha": "8b547a1d7881f40ed9ecaab6f974a1856b10b1cf",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2428,7 +2441,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "d058245dda217171521afedf888a2af71da32103",
+    "last_sha": "8b547a1d7881f40ed9ecaab6f974a1856b10b1cf",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2544,7 +2557,18 @@
       "https://www.zipline.com/open-roles?gh_jid=7893926003|Zipline|Enterprise Systems Software Engineer Intern - Spring 2027|South San Francisco, CA|Other#1",
       "https://www.zipline.com/open-roles?gh_jid=7886501003|Zipline|Enterprise Systems Software Engineer Intern - Spring 2027|South San Francisco, CA|Other#1",
       "https://jobs-bylight.icims.com/jobs/11204/software-design-engineer-intern/job|By Light|Software Design Engineer Intern|Orlando, FL|Other#1",
-      "https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Internship-Artificial-Intelligence-Agent-Developer_REQ-10120054|ING|Internship Artificial Intelligence Agent Developer|Waco, TX +1|Other#1"
+      "https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Internship-Artificial-Intelligence-Agent-Developer_REQ-10120054|ING|Internship Artificial Intelligence Agent Developer|Waco, TX +1|Other#1",
+      "https://job-boards.greenhouse.io/eulerity/jobs/4706780006|Eulerity|Website Developer & Technical Content Marketing Intern - AI & Automation|New York City, NY|Other#1",
+      "https://job-boards.greenhouse.io/generalmatter/jobs/5377118008|General Matter|Summer 2027 Internship - Software Engineering|Los Angeles, CA|Other#1",
+      "http://metecs.applytojob.com/apply/XTBhKHIVhQ/Summer-Software-Internship|METECS|Summer Software Internship|Houston, TX|Other#1",
+      "https://jobs.ashbyhq.com/n1/afe7deb5-9cfd-4926-bcb4-058d418592a6|N1|Software Engineer Intern - Backend - Rust|New York City, NY|Other#1",
+      "http://specialisterne.applytojob.com/apply/gOkVN8zGTL/Software-Engineer-Intern-Neurodiversity-Hiring-Initiative|Specialisterne|Software Engineer Intern - Neurodiversity Hiring Initiative|Dallas, TX|Other#1",
+      "https://www.zipline.com/open-roles?gh_jid=7893955003|Zipline|Software Systems Validation Intern - Spring 2027|South San Francisco, CA|Other#1",
+      "https://www.zipline.com/open-roles?gh_jid=7894335003|Zipline|Software Systems Validation Intern - Summer 2027|South San Francisco, CA|Other#1",
+      "https://apply.workable.com/fooji/j/6563DA99B5/|Fooji|Software Engineering Intern|Lexington, KY|Other#1",
+      "https://www.zipline.com/open-roles?gh_jid=7886501003|Zipline|Enterprise Systems Software Engineer Intern - Summer 2027|South San Francisco, CA|Other#1",
+      "https://draper.wd5.myworkdayjobs.com/en-US/draper_careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1|Draper|Full Stack Web Development Co-Op - Spring 2027|Cambridge, MA|Other#1",
+      "https://pimco.wd1.myworkdayjobs.com/en-US/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745|PIMCO|2027 Summer Intern - Technology Analyst - Software Engineering|Austin, TX|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -2688,7 +2712,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 143,
+    "last_row_count": 149,
     "outbox": []
   }
 }
