@@ -15824,6 +15824,18 @@
       "chat_id": 7582459199,
       "seq": 761,
       "identity": "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7895902003|Freeform|Software Engineer (New Grad Summer 2027)|Los Angeles, CA (On-site)|Summer 2027#1"
+    },
+    "918b95ceb70a": {
+      "company": "General Matter",
+      "role": "Software Engineering Intern",
+      "location": "LA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/generalmatter/jobs/5377118008?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1927,
+      "chat_id": 7582459199,
+      "seq": 762,
+      "identity": "https://job-boards.greenhouse.io/generalmatter/jobs/5377118008?utm_source=Simplify&ref=Simplify|General Matter|Software Engineering Intern|LA|Summer 2026#1"
     }
   },
   "applied": {
@@ -16191,10 +16203,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 761,
+  "seq": 762,
   "health": {
     "last_heartbeat": "2026-08-20T01:00:17Z",
-    "last_ok_run": "2026-08-20T01:30:17Z",
+    "last_ok_run": "2026-08-20T01:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
