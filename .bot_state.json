@@ -16172,6 +16172,18 @@
       "chat_id": 7582459199,
       "seq": 790,
       "identity": "https://pimco.wd1.myworkdayjobs.com/en-US/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745|PIMCO|2027 Summer Intern - Technology Analyst - Software Engineering|Austin, TX|Other#1"
+    },
+    "bb1ae44514fe": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions In...",
+      "location": "North Chicago, IL",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/AbbVie/3743990014697918",
+      "source": "Zapply Summer Repo",
+      "message_id": 1956,
+      "chat_id": 7582459199,
+      "seq": 791,
+      "identity": "https://jobs.smartrecruiters.com/AbbVie/3743990014697918|AbbVie|2027 Business Technology Solutions In...|North Chicago, IL|Summer 2027#1"
     }
   },
   "applied": {
@@ -16539,10 +16551,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 790,
+  "seq": 791,
   "health": {
     "last_heartbeat": "2026-08-20T13:40:16Z",
-    "last_ok_run": "2026-08-20T14:00:20Z",
+    "last_ok_run": "2026-08-20T14:05:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
