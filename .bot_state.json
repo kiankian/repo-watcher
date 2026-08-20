@@ -16256,6 +16256,18 @@
       "chat_id": 7582459199,
       "seq": 797,
       "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ226237-1|GDIT|Summer 2027 Software Development Inte...|USA VA Falls Church|Summer 2027#1"
+    },
+    "2ffae6737f6a": {
+      "company": "Sony",
+      "role": "Intern, Information Security Risk and...",
+      "location": "New York",
+      "term": "Summer 2027",
+      "apply_url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/New-York/Intern--Information-Security-Risk-and-Compliance_JR-119512",
+      "source": "Zapply Summer Repo",
+      "message_id": 1963,
+      "chat_id": 7582459199,
+      "seq": 798,
+      "identity": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/New-York/Intern--Information-Security-Risk-and-Compliance_JR-119512|Sony|Intern, Information Security Risk and...|New York|Summer 2027#1"
     }
   },
   "applied": {
@@ -16623,10 +16635,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 797,
+  "seq": 798,
   "health": {
     "last_heartbeat": "2026-08-20T17:55:14Z",
-    "last_ok_run": "2026-08-20T18:25:12Z",
+    "last_ok_run": "2026-08-20T18:30:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
