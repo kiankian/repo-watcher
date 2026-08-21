@@ -16652,6 +16652,90 @@
       "chat_id": 7582459199,
       "seq": 830,
       "identity": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/Clinton-IN/Quality-Assurance-Intern---Clinton--Indiana--Summer-2027-_R0026895|Elanco|Quality Assurance Intern \u2013 Clinton, I...|Clinton, IN|Summer 2027#1"
+    },
+    "ab81dcc7d642": {
+      "company": "CNO Financial Group",
+      "role": "Cyber Security IT Intern",
+      "location": "Remote Carmel, IN",
+      "term": "Aug 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 1996,
+      "chat_id": 7582459199,
+      "seq": 831,
+      "identity": "NOURL|CNO Financial Group|Cyber Security IT Intern|Remote Carmel, IN|Aug 06#1"
+    },
+    "cb65a629522d": {
+      "company": "RenderATL",
+      "role": "Software Engineer Intern",
+      "location": "Seattle, WA",
+      "term": "Aug 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 1997,
+      "chat_id": 7582459199,
+      "seq": 832,
+      "identity": "NOURL|RenderATL|Software Engineer Intern|Seattle, WA|Aug 04#1"
+    },
+    "2ccb43e966c2": {
+      "company": "Netsmart",
+      "role": "Software Engineer Intern \ud83d\udec2",
+      "location": "Overland Park, KS",
+      "term": "Aug 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 1998,
+      "chat_id": 7582459199,
+      "seq": 833,
+      "identity": "NOURL|Netsmart|Software Engineer Intern \ud83d\udec2|Overland Park, KS|Aug 04#1"
+    },
+    "33da55e0a99a": {
+      "company": "GoDaddy",
+      "role": "Software Development Engineer Intern \ud83d\udec2",
+      "location": "Tempe, AZ",
+      "term": "Aug 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 1999,
+      "chat_id": 7582459199,
+      "seq": 834,
+      "identity": "NOURL|GoDaddy|Software Development Engineer Intern \ud83d\udec2|Tempe, AZ|Aug 04#1"
+    },
+    "7cacda639e10": {
+      "company": "Capital One",
+      "role": "Software Engineer Intern \ud83d\udec2",
+      "location": "McLean, VA Plano, TX Richmond, VA",
+      "term": "Aug 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 2000,
+      "chat_id": 7582459199,
+      "seq": 835,
+      "identity": "NOURL|Capital One|Software Engineer Intern \ud83d\udec2|McLean, VA Plano, TX Richmond, VA|Aug 03#1"
+    },
+    "0df1ae985ceb": {
+      "company": "Capital One",
+      "role": "Cyber Security Intern \ud83d\udec2",
+      "location": "McLean, VA Plano, TX",
+      "term": "Aug 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 2001,
+      "chat_id": 7582459199,
+      "seq": 836,
+      "identity": "NOURL|Capital One|Cyber Security Intern \ud83d\udec2|McLean, VA Plano, TX|Aug 03#1"
+    },
+    "7b9a6fa20610": {
+      "company": "Walleye Capital",
+      "role": "Equity Volatility Quant Researcher Intern",
+      "location": "Miami, FL",
+      "term": "Jul 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 2002,
+      "chat_id": 7582459199,
+      "seq": 837,
+      "identity": "NOURL|Walleye Capital|Equity Volatility Quant Researcher Intern|Miami, FL|Jul 24#1"
     }
   },
   "applied": {
@@ -17019,10 +17103,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 830,
+  "seq": 837,
   "health": {
     "last_heartbeat": "2026-08-21T14:45:14Z",
-    "last_ok_run": "2026-08-21T15:30:16Z",
+    "last_ok_run": "2026-08-21T15:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
