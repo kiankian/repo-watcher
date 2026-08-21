@@ -2310,7 +2310,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "8b547a1d7881f40ed9ecaab6f974a1856b10b1cf",
+    "last_sha": "cbbcdb360faaab09e96f9e4a41e6b98b2953d76c",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2400,7 +2400,8 @@
       "https://lifeattiktok.com/search/7672934842451577141|TikTok|Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure - 2027 Fall|San Jose, CA|FAANG+#1",
       "https://lifeattiktok.com/search/7670874691332212997|TikTok|Site Reliability Engineer Intern - Global SRE - 2027 Summer|San Jose, CA|FAANG+#1",
       "https://lifeattiktok.com/search/7668837276597127477|TikTok|Software Development Engineer Intern - Global E-Commerce-Quality Platform & AI Test Automation - 2027 Summer|Seattle, WA|FAANG+#1",
-      "https://lifeattiktok.com/search/7668837275459324213|TikTok|Software Development Engineer Intern - Global E-Commerce - Quality Platform & AI Test Automation - 2027 Summer|San Jose, CA|FAANG+#1"
+      "https://lifeattiktok.com/search/7668837275459324213|TikTok|Software Development Engineer Intern - Global E-Commerce - Quality Platform & AI Test Automation - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002|Databricks|Software Engineering Intern - 2027 Start - Winter|Mountain View, CA +2|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -2426,11 +2427,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 77,
+    "last_row_count": 78,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "8b547a1d7881f40ed9ecaab6f974a1856b10b1cf",
+    "last_sha": "cbbcdb360faaab09e96f9e4a41e6b98b2953d76c",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2469,7 +2470,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "8b547a1d7881f40ed9ecaab6f974a1856b10b1cf",
+    "last_sha": "cbbcdb360faaab09e96f9e4a41e6b98b2953d76c",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2596,7 +2597,17 @@
       "https://apply.workable.com/fooji/j/6563DA99B5/|Fooji|Software Engineering Intern|Lexington, KY|Other#1",
       "https://www.zipline.com/open-roles?gh_jid=7886501003|Zipline|Enterprise Systems Software Engineer Intern - Summer 2027|South San Francisco, CA|Other#1",
       "https://draper.wd5.myworkdayjobs.com/en-US/draper_careers/job/Cambridge-MA/Full-Stack-Web-Development-Co-Op--Spring-2027-_JR002832-1|Draper|Full Stack Web Development Co-Op - Spring 2027|Cambridge, MA|Other#1",
-      "https://pimco.wd1.myworkdayjobs.com/en-US/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745|PIMCO|2027 Summer Intern - Technology Analyst - Software Engineering|Austin, TX|Other#1"
+      "https://pimco.wd1.myworkdayjobs.com/en-US/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745|PIMCO|2027 Summer Intern - Technology Analyst - Software Engineering|Austin, TX|Other#1",
+      "https://jobs.ashbyhq.com/phoebe-work/1ffe3e63-2163-447e-a8b0-1fff8b87e0ca|Phoebe|Software Engineering Intern|New York City, NY|Other#1",
+      "https://www.zipline.com/open-roles?gh_jid=7907191003|Zipline|Software Engineer Intern - Spring 2027|South San Francisco, CA|Other#1",
+      "https://jobs.lever.co/espace/1e189295-a315-414d-8c0b-686f204e3cb3|E-Space|Embedded Software Engineering Intern|Arlington, TX|Other#1",
+      "https://lthc.wd1.myworkdayjobs.com/en-US/excellusbcbscareers/job/Rochester/College-Intern---Software-Engineering---Fall-2026--Multiple-Openings-_JR103878-2|Excellus BCBS|College Intern - Software Engineering - Fall 2026 - Multiple Openings|Buffalo, NY +1|Other#1",
+      "https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Summer-2027_R71588|Fifth Third Bank|Software Engineer Co-Op - Enterprise Finance Applications - Summer 2027|Cincinnati, OH|Other#1",
+      "https://geico.wd1.myworkdayjobs.com/en-US/external/job/Bethesda-MD/Technology-Development-Program---Software-Engineer-Development-Track_R0065373|GEICO|Technology Development Program - Software Engineer Development Track - 2026 Summer Interns Only|Bethesda, MD +1|Other#1",
+      "https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Internship---Artificial-Intelligence-Agent-Developer_REQ-10120227|ING|Internship - Artificial Intelligence Agent Developer|Waco, TX +1|Other#1",
+      "https://microchiphr.wd5.myworkdayjobs.com/en-US/external/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26|Microchip|Intern - Engineering - Device Software and Test|Chandler, AZ|Other#1",
+      "https://lthc.wd1.myworkdayjobs.com/en-US/univerahealthcarecareers/job/Rochester/College-Intern---Software-Engineering---Fall-2026--Multiple-Openings-_JR103878-1|Univera Healthcare|College Intern - Software Engineering - Fall 2026 - Multiple Openings|Buffalo, NY +1|Other#1",
+      "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631|Copart|Site Reliability Engineer Intern|Dallas, TX|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -2740,7 +2751,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 149,
+    "last_row_count": 150,
     "outbox": []
   }
 }
