@@ -16736,6 +16736,42 @@
       "chat_id": 7582459199,
       "seq": 837,
       "identity": "NOURL|Walleye Capital|Equity Volatility Quant Researcher Intern|Miami, FL|Jul 24#1"
+    },
+    "8314c132c124": {
+      "company": "Cubist Systematic Strategies",
+      "role": "Quantitative Developer Intern",
+      "location": "New York, NY",
+      "term": "May 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 2003,
+      "chat_id": 7582459199,
+      "seq": 838,
+      "identity": "NOURL|Cubist Systematic Strategies|Quantitative Developer Intern|New York, NY|May 22#1"
+    },
+    "3ac7f3b0173f": {
+      "company": "Veeam Software",
+      "role": "Software Engineering Intern, Platform, Security & AI",
+      "location": "San Jose, CA",
+      "term": "May 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 2004,
+      "chat_id": 7582459199,
+      "seq": 839,
+      "identity": "NOURL|Veeam Software|Software Engineering Intern, Platform, Security & AI|San Jose, CA|May 09#1"
+    },
+    "fa17278ec6a5": {
+      "company": "Veeam Software",
+      "role": "Software Engineering Intern, Policy Engineering",
+      "location": "San Jose, CA",
+      "term": "May 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 2005,
+      "chat_id": 7582459199,
+      "seq": 840,
+      "identity": "NOURL|Veeam Software|Software Engineering Intern, Policy Engineering|San Jose, CA|May 09#1"
     }
   },
   "applied": {
@@ -17103,10 +17139,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 837,
+  "seq": 840,
   "health": {
     "last_heartbeat": "2026-08-21T14:45:14Z",
-    "last_ok_run": "2026-08-21T15:40:13Z",
+    "last_ok_run": "2026-08-21T15:45:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
