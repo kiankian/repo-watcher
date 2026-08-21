@@ -16448,6 +16448,54 @@
       "chat_id": 7582459199,
       "seq": 813,
       "identity": "https://jobs.smartrecruiters.com/llnl/3743990014731646|LLNL|National Security Engineering Divisio...|Livermore, CA|Summer 2027#1"
+    },
+    "b5b1fc5c3389": {
+      "company": "\ud83d\udd25 AMD",
+      "role": "Software Engineer Intern/Co-op - Masters \ud83c\udf93",
+      "location": "San Jose, CA Santa Clara, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.amd.com/jobs/91176?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1979,
+      "chat_id": 7582459199,
+      "seq": 814,
+      "identity": "https://careers.amd.com/jobs/91176?icims=1&utm_source=Simplify&ref=Simplify|\ud83d\udd25 AMD|Software Engineer Intern/Co-op - Masters \ud83c\udf93|San Jose, CA Santa Clara, CA|Summer 2026#1"
+    },
+    "f7a66b36b315": {
+      "company": "\ud83d\udd25 AMD",
+      "role": "Software Engineer Intern/Co-op",
+      "location": "6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.amd.com/jobs/90947?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1980,
+      "chat_id": 7582459199,
+      "seq": 815,
+      "identity": "https://careers.amd.com/jobs/90947?icims=1&utm_source=Simplify&ref=Simplify|\ud83d\udd25 AMD|Software Engineer Intern/Co-op|6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA|Summer 2026#1"
+    },
+    "aaea2f557e63": {
+      "company": "\ud83d\udd25 AMD",
+      "role": "Software Engineer Intern/Co-op",
+      "location": "San Jose, CA Santa Clara, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.amd.com/jobs/90891?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1981,
+      "chat_id": 7582459199,
+      "seq": 816,
+      "identity": "https://careers.amd.com/jobs/90891?icims=1&utm_source=Simplify&ref=Simplify|\ud83d\udd25 AMD|Software Engineer Intern/Co-op|San Jose, CA Santa Clara, CA|Summer 2026#1"
+    },
+    "bb35951539bb": {
+      "company": "\ud83d\udd25 AMD",
+      "role": "Software Engineer Intern/Co-op \ud83c\udf93",
+      "location": "6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.amd.com/jobs/91180?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1982,
+      "chat_id": 7582459199,
+      "seq": 817,
+      "identity": "https://careers.amd.com/jobs/91180?icims=1&utm_source=Simplify&ref=Simplify|\ud83d\udd25 AMD|Software Engineer Intern/Co-op \ud83c\udf93|6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA|Summer 2026#1"
     }
   },
   "applied": {
@@ -16815,10 +16863,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 813,
+  "seq": 817,
   "health": {
     "last_heartbeat": "2026-08-21T06:25:13Z",
-    "last_ok_run": "2026-08-21T06:30:17Z",
+    "last_ok_run": "2026-08-21T06:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
