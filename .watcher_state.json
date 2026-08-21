@@ -1460,7 +1460,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "a570edc4beec2c2c7482c04d853e0ae5ca3d8cd6",
+    "last_sha": "4bd5d6d378b5a447f2766e254d85f8f4f304bf8f",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -1731,11 +1731,202 @@
       "NOURL|Walleye Capital|Equity Volatility Quant Researcher Intern|Miami, FL|Jul 24#1",
       "NOURL|Cubist Systematic Strategies|Quantitative Developer Intern|New York, NY|May 22#1",
       "NOURL|Veeam Software|Software Engineering Intern, Platform, Security & AI|San Jose, CA|May 09#1",
-      "NOURL|Veeam Software|Software Engineering Intern, Policy Engineering|San Jose, CA|May 09#1"
+      "NOURL|Veeam Software|Software Engineering Intern, Policy Engineering|San Jose, CA|May 09#1",
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278933?utm_source=github-vansh-ouckah|Vertiv|Product Management Intern \ud83d\udec2|Westerville, OH|Aug 21#1",
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278958?utm_source=github-vansh-ouckah|Vertiv|Product Management Intern, MBA \ud83d\udec2|Delaware, OH|Aug 21#1",
+      "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5391923008?utm_source=github-vansh-ouckah|The Nuclear Company|AI Applied Research Intern \ud83d\udec2|Washington, DC|Aug 21#1",
+      "https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193?utm_source=github-vansh-ouckah|Teledyne Technologies Incorporated|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Huntsville, AL|Aug 21#1",
+      "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1?utm_source=github-vansh-ouckah|Replit|Software Engineering Intern|Foster City, CA|Aug 21#1",
+      "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Development-Intern--Summer-2027-_01865635?utm_source=github-vansh-ouckah|Raytheon|Software Development Intern \ud83c\uddfa\ud83c\uddf8|Tewksbury, MA|Aug 21#1",
+      "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c?utm_source=github-vansh-ouckah|Notion|Software Engineer Intern|San Francisco, CA New York, NY|Aug 21#1",
+      "https://career.mlp.com/careers/job/755957819661?utm_source=github-vansh-ouckah|Millennium|Quantitative Developer Intern|New York, NY|Aug 21#1",
+      "https://career.mlp.com/careers/job/755957778848?utm_source=github-vansh-ouckah|Millennium|Applied AI Engineer Intern|Miami, FL|Aug 21#1",
+      "https://jobs.ashbyhq.com/kastle/6f32db51-de45-472f-a9c8-d9419d3634ee?utm_source=github-vansh-ouckah|Kastle|Software Engineer Intern|San Francisco, CA|Aug 21#1",
+      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774074?utm_source=github-vansh-ouckah|JPMorgan Chase|Quantitative Research, Asset Management Summer Analyst \ud83d\udec2|New York, NY|Aug 21#1",
+      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038?utm_source=github-vansh-ouckah|JPMorgan Chase|Quantitative Research, Markets, Summer Internship - Analyst|New York, NY|Aug 21#1",
+      "https://jobs.ashbyhq.com/hypercubic/ab7a23f9-7280-4443-b442-2813dc39d490?utm_source=github-vansh-ouckah|Hypercubic|Software Engineering Intern|San Francisco, CA|Aug 21#1",
+      "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Humana-Technology-Internship---Summer-2027_R-424692-1?utm_source=github-vansh-ouckah|Humana|Software Engineer Intern, CenterWell and Humana Military \ud83d\udec2|Louisville, KY|Aug 21#1",
+      "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003?utm_source=github-vansh-ouckah|HPR|FPGA Engineering Intern \ud83d\udec2|Needham, MA|Aug 21#1",
+      "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7872198003?utm_source=github-vansh-ouckah|Freeform|Software Engineering Intern|Los Angeles, CA|Aug 21#1",
+      "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16?utm_source=github-vansh-ouckah|Exa|Software Engineer Intern|San Francisco, CA|Aug 21#1",
+      "https://www.epicgames.com/site/careers/jobs/6138140004?gh_jid=6138140004&utm_source=github-vansh-ouckah|Epic Games|Machine Learning Research Intern \ud83d\udec2|Montreal, Canada|Aug 21#1",
+      "https://www.epicgames.com/site/careers/jobs/6141180004?gh_jid=6141180004&utm_source=github-vansh-ouckah|Epic Games|Gameplay Programmer Intern|Cary, United States|Aug 21#1",
+      "https://job-boards.greenhouse.io/dvtrading/jobs/4719119005?utm_source=github-vansh-ouckah|DV Group|Software Engineer Intern, Commodities|New York, NY|Aug 21#1",
+      "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/QA-Engineering-Intern_JR109671?utm_source=github-vansh-ouckah|Copart|QA Engineering Intern|Dallas, TX|Aug 21#1",
+      "https://job-boards.greenhouse.io/cssmerge/jobs/8687896002?utm_source=github-vansh-ouckah|Atoms|Software Engineer Intern|**5 locations**New York, NY Seattle, WA Los Angeles, CA Mountain View, CA San Francisco, CA|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012148?utm_source=github-vansh-ouckah|American Express|Product Management Intern, Global Merchant & Network Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011698?utm_source=github-vansh-ouckah|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|New York, NY|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011745?utm_source=github-vansh-ouckah|American Express|AI Engineer Intern, Enterprise Technology Services|Sunrise, FL|Aug 21#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 225,
-    "outbox": []
+    "last_row_count": 265,
+    "outbox": [
+      [
+        [
+          "American Express",
+          "AI Engineer Intern, Enterprise Technology Services \ud83d\udec2",
+          "Atlanta, GA",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011796?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011796?utm_source=github-vansh-ouckah|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Atlanta, GA|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "AI Engineer Intern, Enterprise Technology Services \ud83d\udec2",
+          "Phoenix, AZ",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012375?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012375?utm_source=github-vansh-ouckah|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "AI Engineer Intern, Enterprise Technology Services \ud83d\udec2",
+          "New York, NY",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011991?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011991?utm_source=github-vansh-ouckah|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|New York, NY|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "AI Engineer Intern, Enterprise Technology Services \ud83d\udec2",
+          "Sunrise, FL",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011999?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011999?utm_source=github-vansh-ouckah|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Sunrise, FL|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "AI Engineer Intern, Enterprise Technology Services \ud83d\udec2",
+          "Atlanta, GA",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000?utm_source=github-vansh-ouckah|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Atlanta, GA|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "AI Engineer Intern, Enterprise Technology Services \ud83d\udec2",
+          "Phoenix, AZ",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012392?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012392?utm_source=github-vansh-ouckah|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "Software Engineer Intern, Technology \ud83c\uddfa\ud83c\uddf8",
+          "New York, NY",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010970?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010970?utm_source=github-vansh-ouckah|American Express|Software Engineer Intern, Technology \ud83c\uddfa\ud83c\uddf8|New York, NY|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "Software Engineer Intern, Enterprise Technology Services \ud83d\udec2",
+          "Charlotte, NC",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011679?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011679?utm_source=github-vansh-ouckah|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Charlotte, NC|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "Software Engineer Intern, Enterprise Technology Services \ud83d\udec2",
+          "Phoenix, AZ",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011781?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011781?utm_source=github-vansh-ouckah|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8",
+          "New York, NY",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082?utm_source=github-vansh-ouckah|American Express|Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8|New York, NY|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "Software Engineer Intern, Enterprise Technology Services \ud83d\udec2",
+          "Sunrise, FL",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011084?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011084?utm_source=github-vansh-ouckah|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Sunrise, FL|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8",
+          "Charlotte, NC",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987?utm_source=github-vansh-ouckah|American Express|Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8|Charlotte, NC|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "Software Engineer Intern, Enterprise Technology Services \ud83d\udec2",
+          "Phoenix, AZ",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784?utm_source=github-vansh-ouckah|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "Cybersecurity Intern \ud83d\udec2",
+          "Phoenix, AZ",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012460?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012460?utm_source=github-vansh-ouckah|American Express|Cybersecurity Intern \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "American Express",
+          "Cybersecurity Intern \ud83d\udec2",
+          "Phoenix, AZ",
+          "Aug 21",
+          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012462?utm_source=github-vansh-ouckah"
+        ],
+        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012462?utm_source=github-vansh-ouckah|American Express|Cybersecurity Intern \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+        1
+      ]
+    ]
   },
   "zapplyjobs/Internships-2027#swe": {
     "last_sha": "13b4767210a77360d2fb06a305bcb652fc1dcab6",
