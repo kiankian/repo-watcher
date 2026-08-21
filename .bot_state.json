@@ -16496,6 +16496,18 @@
       "chat_id": 7582459199,
       "seq": 817,
       "identity": "https://careers.amd.com/jobs/91180?icims=1&utm_source=Simplify&ref=Simplify|\ud83d\udd25 AMD|Software Engineer Intern/Co-op \ud83c\udf93|6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA|Summer 2026#1"
+    },
+    "e82a8af5c0b5": {
+      "company": "Old Mission",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 1983,
+      "chat_id": 7582459199,
+      "seq": 818,
+      "identity": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003&utm_source=Simplify&ref=Simplify|Old Mission|Software Engineer Intern|Chicago, IL|Summer 2026#1"
     }
   },
   "applied": {
@@ -16863,10 +16875,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 817,
+  "seq": 818,
   "health": {
     "last_heartbeat": "2026-08-21T11:15:15Z",
-    "last_ok_run": "2026-08-21T11:30:16Z",
+    "last_ok_run": "2026-08-21T11:35:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
