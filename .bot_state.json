@@ -17360,6 +17360,18 @@
       "chat_id": 7582459199,
       "seq": 889,
       "identity": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906-1|HP Inc|Software Internship Roles - HP Soluti...|Spring, Texas, United ...|Summer 2027#1"
+    },
+    "0db7b3f36285": {
+      "company": "Zipline",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "South SF",
+      "term": "Summer 2026",
+      "apply_url": "https://www.zipline.com/open-roles?gh_jid=7929236003&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2055,
+      "chat_id": 7582459199,
+      "seq": 890,
+      "identity": "https://www.zipline.com/open-roles?gh_jid=7929236003&utm_source=Simplify&ref=Simplify|Zipline|Software Engineer Intern - Summer 2027|South SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -17727,10 +17739,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 889,
+  "seq": 890,
   "health": {
     "last_heartbeat": "2026-08-21T19:00:21Z",
-    "last_ok_run": "2026-08-21T20:00:23Z",
+    "last_ok_run": "2026-08-21T20:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
