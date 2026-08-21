@@ -16412,6 +16412,18 @@
       "chat_id": 7582459199,
       "seq": 810,
       "identity": "https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787|Conagra Brands|Software Development Internship - Sum...|Omaha, Nebraska|Summer 2027#1"
+    },
+    "99987787ed56": {
+      "company": "Deepgram",
+      "role": "Software Engineering- Internship (Fal...",
+      "location": "USA  Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
+      "source": "Zapply Summer Repo",
+      "message_id": 1976,
+      "chat_id": 7582459199,
+      "seq": 811,
+      "identity": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1|Deepgram|Software Engineering- Internship (Fal...|USA  Remote|Summer 2027#1"
     }
   },
   "applied": {
@@ -16779,10 +16791,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 810,
+  "seq": 811,
   "health": {
     "last_heartbeat": "2026-08-20T23:40:15Z",
-    "last_ok_run": "2026-08-21T00:15:15Z",
+    "last_ok_run": "2026-08-21T00:20:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
