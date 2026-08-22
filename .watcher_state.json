@@ -2376,7 +2376,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "cbbcdb360faaab09e96f9e4a41e6b98b2953d76c",
+    "last_sha": "a54e4778d838e92d1dbbe7d9b26a2d4e3882de5a",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2467,7 +2467,9 @@
       "https://lifeattiktok.com/search/7670874691332212997|TikTok|Site Reliability Engineer Intern - Global SRE - 2027 Summer|San Jose, CA|FAANG+#1",
       "https://lifeattiktok.com/search/7668837276597127477|TikTok|Software Development Engineer Intern - Global E-Commerce-Quality Platform & AI Test Automation - 2027 Summer|Seattle, WA|FAANG+#1",
       "https://lifeattiktok.com/search/7668837275459324213|TikTok|Software Development Engineer Intern - Global E-Commerce - Quality Platform & AI Test Automation - 2027 Summer|San Jose, CA|FAANG+#1",
-      "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002|Databricks|Software Engineering Intern - 2027 Start - Winter|Mountain View, CA +2|FAANG+#1"
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002|Databricks|Software Engineering Intern - 2027 Start - Winter|Mountain View, CA +2|FAANG+#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556979054|Microsoft|AI Software Engineering Intern - Edge|Washington, DC +1|FAANG+#1",
+      "https://lifeattiktok.com/search/7676276048527214901|TikTok|Software Engineer Intern - TikTok AI Search & Visual Search Infra Team - 2027 Summer|San Jose, CA|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -2493,11 +2495,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 78,
+    "last_row_count": 75,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "cbbcdb360faaab09e96f9e4a41e6b98b2953d76c",
+    "last_sha": "a54e4778d838e92d1dbbe7d9b26a2d4e3882de5a",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2536,7 +2538,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "cbbcdb360faaab09e96f9e4a41e6b98b2953d76c",
+    "last_sha": "a54e4778d838e92d1dbbe7d9b26a2d4e3882de5a",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2673,7 +2675,17 @@
       "https://ing.wd3.myworkdayjobs.com/en-US/icsgblcor/job/ACT-Amsterdam---Acanthus/Internship---Artificial-Intelligence-Agent-Developer_REQ-10120227|ING|Internship - Artificial Intelligence Agent Developer|Waco, TX +1|Other#1",
       "https://microchiphr.wd5.myworkdayjobs.com/en-US/external/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26|Microchip|Intern - Engineering - Device Software and Test|Chandler, AZ|Other#1",
       "https://lthc.wd1.myworkdayjobs.com/en-US/univerahealthcarecareers/job/Rochester/College-Intern---Software-Engineering---Fall-2026--Multiple-Openings-_JR103878-1|Univera Healthcare|College Intern - Software Engineering - Fall 2026 - Multiple Openings|Buffalo, NY +1|Other#1",
-      "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631|Copart|Site Reliability Engineer Intern|Dallas, TX|Other#1"
+      "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631|Copart|Site Reliability Engineer Intern|Dallas, TX|Other#1",
+      "https://jobs.ashbyhq.com/ambrook/e458b046-aa7f-4022-bca5-63cdfd495456|Ambrook|Software Engineering Intern|New York City, NY|Other#1",
+      "https://staff-emory.icims.com/jobs/172196/internship-gps-sample-tester-and-junior-developer-%28ets%29%7c-temporary/job|Emory University|Internship GPS Sample Tester and Junior Developer - ETS- Temporary|Decatur, GA|Other#1",
+      "https://jobs.ashbyhq.com/h3x-technologies/d406e4b4-9b48-438c-a2af-b7feb8563a40|H3X Technologies|Embedded Controls Intern - Spring|Louisville, CO|Other#1",
+      "http://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern|SimIS|Aerospace/Aviation Artificial Intelligence Developer - Intern|Suffolk, VA|Other#1",
+      "https://job-boards.greenhouse.io/syskahennessy/jobs/8147733|Syska Hennessy Group|Innovations Intern - Full Stack/Front End Engineering|New York City, NY|Other#1",
+      "https://www.zipline.com/open-roles?gh_jid=7929236003|Zipline|Software Engineer Intern - Summer 2027|South San Francisco, CA|Other#1",
+      "https://availity.wd1.myworkdayjobs.com/en-US/availity_careers_us/job/Remote---United-States/Software-Engineering-Intern_R0008436|Availity|Software Engineering Intern|Remote - USA|Other#1",
+      "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Tulsa-OK/Software-Engineering-Intern_JR-051321|Brunswick|Software Engineering Intern|Tulsa, OK|Other#1",
+      "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906-1|HP|Software Internship Roles - HP Solutions - HPS|Spring, TX|Other#1",
+      "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906|HP|Software Internship Roles - HP Solutions - HPS|Spring, TX|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -2817,7 +2829,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 150,
+    "last_row_count": 155,
     "outbox": []
   }
 }
