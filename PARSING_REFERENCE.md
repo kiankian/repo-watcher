@@ -79,10 +79,46 @@ Each entry in `.watcher_state.json` has the same shape:
 7. **Silent bootstrap:** no `seen` yet → seed identities from the current rows and alert nothing.
    `seen_legacy_urls` stays empty, or a requisition relisted for a new season could never alert.
 8. Otherwise select rows whose identity is absent from `seen` and whose URL is absent from
-   `seen_legacy_urls`. Prepend anything already in the `outbox` so the oldest work drains first.
-9. Deliver, capped at `BURST_CAP` attempts and the whole-run time budget.
-10. Union the confirmed identities into `seen` (capped at `SEEN_CAP`, oldest evicted). Undelivered
+   `seen_legacy_urls`.
+9. **Dead links:** a row whose apply URL is present but goes nowhere (`#`, `#anything`,
+   `javascript:`) still alerts — it may be a genuinely new posting, and withholding it would be a
+   miss. `fmt` renders it with no link rather than a `#` that looks tappable, exactly like the
+   ~20% of Vansh rows that have no URL at all. Report `⚠️ placeholder-urls` so the degradation is
+   visible. Only the message text changes: the identity and `job_hash` keep the raw URL, so
+   nothing already sent is invalidated and no row is re-keyed.
+10. **Re-key warning:** measure how much of the parsed table the source still recognizes
+   (`rows − new`, where `new` excludes anything already queued). When a run discovers at least
+   `IDENTITY_RESET_MIN` (25) rows *and* recognizes under `IDENTITY_RESET_RECOGNITION` (10%) of
+   what it parsed, the identity inputs have been rewritten upstream rather than a hundred
+   openings appearing at once. Report `⚠️ identity-reset`. **Delivery is unaffected** — the burst
+   goes out, capped at `BURST_CAP` per run with the rest queued.
+11. Prepend anything already in the `outbox` so the oldest work drains first.
+12. Deliver, capped at `BURST_CAP` attempts and the whole-run time budget.
+13. Union the confirmed identities into `seen` (capped at `SEEN_CAP`, oldest evicted). Undelivered
     rows go back to the `outbox`. Advance `last_sha` only if a snapshot was actually parsed.
+
+Neither condition withholds a listing, on purpose. Suppressing the re-key burst was built and
+reverted: every one of the 100 messages on 2026-08-01 turned out to be a listing already delivered
+under an older identity, so suppression bought nothing that mattered, while a listing that was
+genuinely new in the same snapshot would have been swallowed. Nor can the two be told apart while
+it is happening — judged on text rather than URL, 71 of those 100 rows looked new, because 67 were
+known only through `seen_legacy_urls`, which stores bare URLs and no text. A duplicate costs a
+notification; a miss costs an application.
+
+It deliberately does **not** consult the row count. An earlier version subtracted the table's
+growth since `last_row_count`, on the theory that real listings come with a count that rose to
+match. That is true, but it credits a table *recovering* from a truncating parse as new capacity:
+a source that shrank to 20 rows and returned to 100 in the same update that re-keyed it computes
+`100 − 80 = 20` unexplained, slips under the floor, and sends the whole board. Those two failures
+are correlated rather than independent — an upstream generator misfiring badly enough to truncate
+a read can blank a column in the same breath — so that was the shape the guard was most likely to
+meet in the wild. Recognition never asks how many rows there used to be.
+
+Bounds, from the 253 runs before the 2026-08-01 re-key: recognition on a healthy run sits at
+96–99%; the worst legitimate case on record is the 84→28 collapse, which still recognized 5 of 28
+(18%) while alerting 23 genuinely-new rows; the incident recognized 0 of 100. The cost is a false
+positive on an extreme legitimate expansion, where little of the new table is in `seen` either —
+which fails in the safe direction, holding delivery and saying so rather than flooding the chat.
 
 Why an append-only identity set rather than a snapshot diff:
 
@@ -168,9 +204,17 @@ Column quirks (0-indexed after `strip('|').split('|')`):
 - `[0]` **Company** — bold plaintext `**Name**` (no link); the `**` is stripped via `strip_bold=True`.
 - `[1]` **Role** — plaintext, **truncated to ~40 chars with a literal `...`** when long.
 - `[2]` **Location** — plaintext, also truncated with `...`.
-- `[3]` **Posted** — always the literal `Recently` (no usable date) → not used.
-- `[4]` **Visa** — always empty → not used.
+- `[3]` **Posted** — no usable date, and not stable: observed as the literal `Recently`, then `Undated` / `Date unknown`, then relative ages (`1h`, `1d`, `2d`). Never used — `term_col=None` stamps `default_term` instead, which is why this churn has never produced an alert.
+- `[4]` **Visa** — `🏛 H-1B Co.`, `✅ Sponsor`, or empty → not used.
 - `[5]` **Apply** — `[<img src="images/apply.png" width="80" alt="Apply">](REAL_ATS_URL)`. `extract_apply_url` finds no `href=`, so it falls through to the `](url)` regex and captures the full ATS URL (Greenhouse / Workday / Ashby / Lever / SmartRecruiters / Oracle / etc.).
+
+> ⚠️ **This column is not reliably populated.** On 2026-08-01 (`8eb9fd34`) the generator emitted
+> `](#)` for every apply link in the file — 499 of them — and kept doing so. The markup is
+> unchanged, so `extract_apply_url` captures `#` and the row parses "successfully" with a
+> placeholder where the URL belongs. Because the identity is URL-first and this table's other
+> fields are truncated, that re-keys all ~100 rows at once. The dead-link guard withholds these
+> rows outright, since an alert with `#` in place of the link is not actionable; see the State +
+> Delivery Flow section above.
 
 Config: `parser="markdown"`, `role_col=1`, `loc_col=2`, `apply_col=5`, `term_col=None` (stamps `default_term="Summer 2027"`), `min_cells=6`, `strip_bold=True`.
 
@@ -178,7 +222,7 @@ Parsing behavior:
 - Shares `parse_markdown_rows` with Vansh; its keyword args override the column layout (defaults reproduce Vansh, so the Vansh call is untouched).
 - The header row (`| Company | ... |`) is skipped by the `parts[0].lower().replace('*','') == 'company'` check; the `|---|` separator is skipped by the dash/colon check.
 - The `<p align="center">…</p>` promo lines and `</details>` tag between the table and the next section are ignored (they don't start with `|`).
-- Its Role/Location are truncated and its Posted column is the constant `Recently`, so the apply URL is the only field here that identifies a row. The shared identity leads with the URL for exactly this reason.
+- Its Role/Location are truncated and its Posted column is unusable, so the apply URL is the only field here that identifies a row. The shared identity leads with the URL for exactly this reason — and it is also why this source is the most exposed to the URL column degrading, since there is nothing else left to tell two rows apart.
 
 Example row → parsed output:
 
