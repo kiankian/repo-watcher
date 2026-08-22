@@ -17420,6 +17420,18 @@
       "chat_id": 7582459199,
       "seq": 894,
       "identity": "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Saint-Paul/Digital---AI-Technology-Intern_R00303249?utm_source=Simplify&ref=Simplify|Ecolab|Digital & AI Technology Intern|Naperville, IL Eagan, MN St Paul, MN|Summer 2026#1"
+    },
+    "746130207d9e": {
+      "company": "Hitachi",
+      "role": "Engineering Intern",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/XMLNAME-2027-Summer-Engineering-Intern---Raleigh_R0142571?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2060,
+      "chat_id": 7582459199,
+      "seq": 895,
+      "identity": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/XMLNAME-2027-Summer-Engineering-Intern---Raleigh_R0142571?utm_source=Simplify&ref=Simplify|Hitachi|Engineering Intern|Raleigh, NC|Summer 2026#1"
     }
   },
   "applied": {
@@ -17787,10 +17799,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 894,
+  "seq": 895,
   "health": {
     "last_heartbeat": "2026-08-22T09:45:14Z",
-    "last_ok_run": "2026-08-22T10:30:15Z",
+    "last_ok_run": "2026-08-22T10:35:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
