@@ -45,14 +45,15 @@ The `run_watcher` fixture returns a `Result` exposing everything a run did:
 | Attribute | Contents |
 |---|---|
 | `sent` / `health` | Job alerts and `⚠️` notices, kept apart so "no alerts" is not satisfied by an operational notice |
-| `seen` / `outbox` | The target source's identity set and queue after the run |
+| `seen` / `outbox` | The target source's *delivered* identity set and queue after the run |
+| `muted` / `suppressed` | Bootstrap-muted entries, and everything that silences a row |
 | `state` / `bot_state` / `files` | The written files — pass `files` as `start_files=` to chain runs |
 | `logs` / `log_records(prefix)` | The JSONL the run appended |
 | `sleeps` / `timeouts` / `fetches` | Durations requested, per-call timeouts, and raw-file fetches |
 | `summary` / `step_output` / `healthy` | The Actions job summary and the ping-gating output |
 
 Options: `fail_for=`, `fail_all=`, `fail_once_at=`, `retry_after=`, `fetch_status=`, `dry_run=`,
-`reuse_sha=`, `drop_target_state=`, `monotonic_step=`, `capture_summary=`.
+`reuse_sha=`, `drop_target_state=`, `monotonic_step=`, `capture_summary=`, `release_bootstrap=`.
 
 ### Fixtures are frozen on purpose
 
