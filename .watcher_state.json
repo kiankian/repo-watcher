@@ -2377,7 +2377,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "a54e4778d838e92d1dbbe7d9b26a2d4e3882de5a",
+    "last_sha": "7839dcdd44a6712950ca99a80e1a4b55ca51a424",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2500,7 +2500,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "a54e4778d838e92d1dbbe7d9b26a2d4e3882de5a",
+    "last_sha": "7839dcdd44a6712950ca99a80e1a4b55ca51a424",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2539,7 +2539,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "a54e4778d838e92d1dbbe7d9b26a2d4e3882de5a",
+    "last_sha": "7839dcdd44a6712950ca99a80e1a4b55ca51a424",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2830,7 +2830,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 155,
+    "last_row_count": 154,
     "outbox": []
   }
 }
