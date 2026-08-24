@@ -17672,6 +17672,18 @@
       "chat_id": 7582459199,
       "seq": 915,
       "identity": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer-Intern--Summer-2027---United-States_R-287618-1?utm_source=Simplify&ref=Simplify|Mastercard|Software Engineer Intern|4 locationsO'Fallon, MO Arlington County, Arlington, VA NYC Atlanta, GA|Summer 2026#1"
+    },
+    "75cc8fd5d1a7": {
+      "company": "GE Vernova",
+      "role": "GE Vernova GridOS  Software Test Engi...",
+      "location": "Atlanta",
+      "term": "Summer 2027",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Atlanta/GE-Vernova-GridOS--Software-Test-Engineer---Intern---Summer-2027_R5049907-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 2081,
+      "chat_id": 7582459199,
+      "seq": 916,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Atlanta/GE-Vernova-GridOS--Software-Test-Engineer---Intern---Summer-2027_R5049907-2|GE Vernova|GE Vernova GridOS  Software Test Engi...|Atlanta|Summer 2027#1"
     }
   },
   "applied": {
@@ -18039,10 +18051,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 915,
+  "seq": 916,
   "health": {
     "last_heartbeat": "2026-08-24T14:15:16Z",
-    "last_ok_run": "2026-08-24T14:40:17Z",
+    "last_ok_run": "2026-08-24T14:45:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
