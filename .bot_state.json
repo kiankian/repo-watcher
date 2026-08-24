@@ -17684,6 +17684,78 @@
       "chat_id": 7582459199,
       "seq": 916,
       "identity": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Atlanta/GE-Vernova-GridOS--Software-Test-Engineer---Intern---Summer-2027_R5049907-2|GE Vernova|GE Vernova GridOS  Software Test Engi...|Atlanta|Summer 2027#1"
+    },
+    "ef9bfdc5ba64": {
+      "company": "Medpace",
+      "role": "Python Intern - Summer 2027",
+      "location": "Cincinnati, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.medpace.com/jobs/12962?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2082,
+      "chat_id": 7582459199,
+      "seq": 917,
+      "identity": "https://careers.medpace.com/jobs/12962?icims=1&utm_source=Simplify&ref=Simplify|Medpace|Python Intern - Summer 2027|Cincinnati, OH|Summer 2026#1"
+    },
+    "8f0b0dafd85c": {
+      "company": "\ud83d\udd25 Google",
+      "role": "Software Developer Intern \ud83c\udf93",
+      "location": "Montreal, QC, Canada Toronto, ON, Canada Waterloo, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://www.google.com/about/careers/applications/jobs/results/112518690523488966?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2083,
+      "chat_id": 7582459199,
+      "seq": 918,
+      "identity": "https://www.google.com/about/careers/applications/jobs/results/112518690523488966?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Google|Software Developer Intern \ud83c\udf93|Montreal, QC, Canada Toronto, ON, Canada Waterloo, ON, Canada|Summer 2026#1"
+    },
+    "10a7eee9df99": {
+      "company": "BNY",
+      "role": "Software Engineer Intern - Engineering - Developer",
+      "location": "Jersey City, NJ",
+      "term": "Summer 2026",
+      "apply_url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81251?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2084,
+      "chat_id": 7582459199,
+      "seq": 919,
+      "identity": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81251?utm_source=Simplify&ref=Simplify|BNY|Software Engineer Intern - Engineering - Developer|Jersey City, NJ|Summer 2026#1"
+    },
+    "075d37a8dacc": {
+      "company": "BNY",
+      "role": "Engineering Intern - Engineering - Developer",
+      "location": "Pittsburgh, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81254?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2085,
+      "chat_id": 7582459199,
+      "seq": 920,
+      "identity": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81254?utm_source=Simplify&ref=Simplify|BNY|Engineering Intern - Engineering - Developer|Pittsburgh, PA|Summer 2026#1"
+    },
+    "1fe3348917e2": {
+      "company": "BNY",
+      "role": "Engineering Intern - Developer",
+      "location": "Greater Manchester, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81318?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2086,
+      "chat_id": 7582459199,
+      "seq": 921,
+      "identity": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81318?utm_source=Simplify&ref=Simplify|BNY|Engineering Intern - Developer|Greater Manchester, UK|Summer 2026#1"
+    },
+    "885dee91771d": {
+      "company": "BNY",
+      "role": "Software Developer Intern - Engineering",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81253?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2087,
+      "chat_id": 7582459199,
+      "seq": 922,
+      "identity": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81253?utm_source=Simplify&ref=Simplify|BNY|Software Developer Intern - Engineering|NYC|Summer 2026#1"
     }
   },
   "applied": {
@@ -18051,10 +18123,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 916,
+  "seq": 922,
   "health": {
     "last_heartbeat": "2026-08-24T14:15:16Z",
-    "last_ok_run": "2026-08-24T15:00:19Z",
+    "last_ok_run": "2026-08-24T15:05:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
