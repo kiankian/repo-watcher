@@ -17804,6 +17804,18 @@
       "chat_id": 7582459199,
       "seq": 926,
       "identity": "https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Multifamily-Software-Development-Intern---Summer-2027_JR17564|Freddie Mac|Multifamily Software Development Inte...|McLean, VA|Summer 2027#1"
+    },
+    "0e671fed1c45": {
+      "company": "RTX",
+      "role": "Systems Engineering Test Equipment In...",
+      "location": "El Segundo, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Systems-Engineering-Test-Equipment-Intern--Summer-2027-_01867450",
+      "source": "Zapply Summer Repo",
+      "message_id": 2092,
+      "chat_id": 7582459199,
+      "seq": 927,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Systems-Engineering-Test-Equipment-Intern--Summer-2027-_01867450|RTX|Systems Engineering Test Equipment In...|El Segundo, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -18171,10 +18183,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 926,
+  "seq": 927,
   "health": {
     "last_heartbeat": "2026-08-24T19:40:16Z",
-    "last_ok_run": "2026-08-24T19:40:16Z",
+    "last_ok_run": "2026-08-24T19:45:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
