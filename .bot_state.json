@@ -17600,6 +17600,42 @@
       "chat_id": 7582459199,
       "seq": 909,
       "identity": "https://apply.careers.microsoft.com/careers/job/1970393556971803|Microsoft|Software Engineering Intern - Azure Core|United States|Summer 2027#1"
+    },
+    "d5b749ad3ca2": {
+      "company": "Disney",
+      "role": "Glendale System Software Engineering ...",
+      "location": "Glendale, CA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137",
+      "source": "Zapply Summer Repo",
+      "message_id": 2075,
+      "chat_id": 7582459199,
+      "seq": 910,
+      "identity": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137|Disney|Glendale System Software Engineering ...|Glendale, CA, USA|Summer 2027#1"
+    },
+    "d5f4bc8d4d06": {
+      "company": "Disney",
+      "role": "Disneyland Quality Engineering Intern...",
+      "location": "Anaheim, CA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/Disneyland-Quality-Engineering-Intern--Fall-2026_10158416-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 2076,
+      "chat_id": 7582459199,
+      "seq": 911,
+      "identity": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Anaheim-CA-USA/Disneyland-Quality-Engineering-Intern--Fall-2026_10158416-2|Disney|Disneyland Quality Engineering Intern...|Anaheim, CA, USA|Summer 2027#1"
+    },
+    "723c2acdbc97": {
+      "company": "Google",
+      "role": "Software Engineering Intern, PhD, Sum...",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://www.google.com/about/careers/applications/jobs/results/91436104816698054",
+      "source": "Zapply Summer Repo",
+      "message_id": 2077,
+      "chat_id": 7582459199,
+      "seq": 912,
+      "identity": "https://www.google.com/about/careers/applications/jobs/results/91436104816698054|Google|Software Engineering Intern, PhD, Sum...|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -17967,10 +18003,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 909,
+  "seq": 912,
   "health": {
     "last_heartbeat": "2026-08-24T07:55:14Z",
-    "last_ok_run": "2026-08-24T08:35:14Z",
+    "last_ok_run": "2026-08-24T08:40:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
