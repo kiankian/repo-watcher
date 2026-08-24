@@ -17972,6 +17972,30 @@
       "chat_id": 7582459199,
       "seq": 940,
       "identity": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1?utm_source=Simplify&ref=Simplify|The Hartford|Software Engineer Intern - Tech & Data Program|Hartford, CT|Summer 2026#1"
+    },
+    "19df2f1915f3": {
+      "company": "BTI360",
+      "role": "Software Engineer Intern",
+      "location": "Herndon, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/bti36021/jobs/8155152?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2106,
+      "chat_id": 7582459199,
+      "seq": 941,
+      "identity": "https://job-boards.greenhouse.io/bti36021/jobs/8155152?utm_source=Simplify&ref=Simplify|BTI360|Software Engineer Intern|Herndon, VA|Summer 2026#1"
+    },
+    "fa19229e0099": {
+      "company": "Johnson & Johnson",
+      "role": "Technology Intern - Technology LDP",
+      "location": "11 locationsWest Chester, PA Horsham, PA Spring House, PA New Brunswick, NJ Irvine, CA Raritan, NJ Santa Clara, CA Hopewell Township, NJ Fort Washington, PA Jacksonville, FL Palm Beach Gardens, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Technology-2027-Summer-Internship_R-095602?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2107,
+      "chat_id": 7582459199,
+      "seq": 942,
+      "identity": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Technology-2027-Summer-Internship_R-095602?utm_source=Simplify&ref=Simplify|Johnson & Johnson|Technology Intern - Technology LDP|11 locationsWest Chester, PA Horsham, PA Spring House, PA New Brunswick, NJ Irvine, CA Raritan, NJ Santa Clara, CA Hopewell Township, NJ Fort Washington, PA Jacksonville, FL Palm Beach Gardens, FL|Summer 2026#1"
     }
   },
   "applied": {
@@ -18339,10 +18363,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 940,
+  "seq": 942,
   "health": {
     "last_heartbeat": "2026-08-24T21:45:16Z",
-    "last_ok_run": "2026-08-24T22:30:18Z",
+    "last_ok_run": "2026-08-24T22:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
