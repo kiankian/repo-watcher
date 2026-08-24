@@ -17636,6 +17636,42 @@
       "chat_id": 7582459199,
       "seq": 912,
       "identity": "https://www.google.com/about/careers/applications/jobs/results/91436104816698054|Google|Software Engineering Intern, PhD, Sum...|United States|Summer 2027#1"
+    },
+    "3b4c988a5d1b": {
+      "company": "BNY",
+      "role": "Engineering Developer Intern - Engineering",
+      "location": "Lake Mary, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81252?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2078,
+      "chat_id": 7582459199,
+      "seq": 913,
+      "identity": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81252?utm_source=Simplify&ref=Simplify|BNY|Engineering Developer Intern - Engineering|Lake Mary, FL|Summer 2026#1"
+    },
+    "cc8e00f7b38b": {
+      "company": "Gulfstream",
+      "role": "Software Engineer Intern - IEF",
+      "location": "Savannah, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421863200/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2079,
+      "chat_id": 7582459199,
+      "seq": 914,
+      "identity": "https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421863200/?ats=successfactors&utm_source=Simplify&ref=Simplify|Gulfstream|Software Engineer Intern - IEF|Savannah, GA|Summer 2026#1"
+    },
+    "f5fd0f28a209": {
+      "company": "Mastercard",
+      "role": "Software Engineer Intern",
+      "location": "4 locationsO'Fallon, MO Arlington County, Arlington, VA NYC Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer-Intern--Summer-2027---United-States_R-287618-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2080,
+      "chat_id": 7582459199,
+      "seq": 915,
+      "identity": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer-Intern--Summer-2027---United-States_R-287618-1?utm_source=Simplify&ref=Simplify|Mastercard|Software Engineer Intern|4 locationsO'Fallon, MO Arlington County, Arlington, VA NYC Atlanta, GA|Summer 2026#1"
     }
   },
   "applied": {
@@ -18003,10 +18039,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 912,
+  "seq": 915,
   "health": {
     "last_heartbeat": "2026-08-24T14:15:16Z",
-    "last_ok_run": "2026-08-24T14:30:20Z",
+    "last_ok_run": "2026-08-24T14:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
