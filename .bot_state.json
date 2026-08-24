@@ -17912,6 +17912,66 @@
       "chat_id": 7582459199,
       "seq": 935,
       "identity": "https://dmainc.wd5.myworkdayjobs.com/dma/job/Fort-Wayne-IN/Software-Development-Intern---Summer-2027_REQ636?utm_source=Simplify&ref=Simplify|DuCharme, McMillen & Associates|Software Developer Intern|Indianapolis, IN Fort Wayne, IN|Summer 2026#1"
+    },
+    "37cde2b90f82": {
+      "company": "Springs Window Fashions",
+      "role": "Software Engineering Intern - Summer 2027",
+      "location": "Long Island City, Queens, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-springswindowfashions.icims.com/jobs/12891/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2101,
+      "chat_id": 7582459199,
+      "seq": 936,
+      "identity": "https://careers-springswindowfashions.icims.com/jobs/12891/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Springs Window Fashions|Software Engineering Intern - Summer 2027|Long Island City, Queens, NY|Summer 2026#1"
+    },
+    "8c9bba8cf7c7": {
+      "company": "Sage",
+      "role": "Software Engineer Intern - Edge - Summer 2027",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/sage49/jobs/6131191004?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2102,
+      "chat_id": 7582459199,
+      "seq": 937,
+      "identity": "https://job-boards.greenhouse.io/sage49/jobs/6131191004?utm_source=Simplify&ref=Simplify|Sage|Software Engineer Intern - Edge - Summer 2027|NYC|Summer 2026#1"
+    },
+    "328350f49023": {
+      "company": "Sage",
+      "role": "Software Engineer Intern - Full Stack",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/sage49/jobs/6131185004?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2103,
+      "chat_id": 7582459199,
+      "seq": 938,
+      "identity": "https://job-boards.greenhouse.io/sage49/jobs/6131185004?utm_source=Simplify&ref=Simplify|Sage|Software Engineer Intern - Full Stack|NYC|Summer 2026#1"
+    },
+    "c4c62be4df86": {
+      "company": "Westinghouse Electric Company",
+      "role": "Computer Engineering / Software Engineering Intern",
+      "location": "Cranberry Township, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Engineering-Software-Engineering-NC/1422595200/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2104,
+      "chat_id": 7582459199,
+      "seq": 939,
+      "identity": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Engineering-Software-Engineering-NC/1422595200/?ats=successfactors&utm_source=Simplify&ref=Simplify|Westinghouse Electric Company|Computer Engineering / Software Engineering Intern|Cranberry Township, PA|Summer 2026#1"
+    },
+    "f7d9594bdebe": {
+      "company": "The Hartford",
+      "role": "Software Engineer Intern - Tech & Data Program",
+      "location": "Hartford, CT",
+      "term": "Summer 2026",
+      "apply_url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2105,
+      "chat_id": 7582459199,
+      "seq": 940,
+      "identity": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1?utm_source=Simplify&ref=Simplify|The Hartford|Software Engineer Intern - Tech & Data Program|Hartford, CT|Summer 2026#1"
     }
   },
   "applied": {
@@ -18279,10 +18339,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 935,
+  "seq": 940,
   "health": {
     "last_heartbeat": "2026-08-24T20:40:16Z",
-    "last_ok_run": "2026-08-24T21:00:20Z",
+    "last_ok_run": "2026-08-24T21:05:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
