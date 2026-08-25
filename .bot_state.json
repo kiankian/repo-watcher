@@ -18080,6 +18080,18 @@
       "chat_id": 7582459199,
       "seq": 949,
       "identity": "https://campus-amd.icims.com/jobs/91475/login|AMD|2027 Masters Software Test Engineerin...|Santa Clara, CA, Unite...|Summer 2027#1"
+    },
+    "fde06b574dec": {
+      "company": "The Trade Desk",
+      "role": "Software Engineering Intern",
+      "location": "6 locationsSeattle, WA Irvine, CA NYC Bellevue, WA Denver, CO Boulder, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2115,
+      "chat_id": 7582459199,
+      "seq": 950,
+      "identity": "https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007?utm_source=Simplify&ref=Simplify|The Trade Desk|Software Engineering Intern|6 locationsSeattle, WA Irvine, CA NYC Bellevue, WA Denver, CO Boulder, CO|Summer 2026#1"
     }
   },
   "applied": {
@@ -18447,10 +18459,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 949,
+  "seq": 950,
   "health": {
     "last_heartbeat": "2026-08-25T08:55:13Z",
-    "last_ok_run": "2026-08-25T09:00:20Z",
+    "last_ok_run": "2026-08-25T09:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
