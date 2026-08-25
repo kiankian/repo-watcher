@@ -18692,6 +18692,78 @@
       "chat_id": 7582459199,
       "seq": 1000,
       "identity": "https://jobs.ashbyhq.com/zip/249837b3-106f-4751-a4f2-03a2c5df5faf|Zip|Software Engineer Intern (Summer 2027)|San Francisco|Summer 2027#1"
+    },
+    "473e63999119": {
+      "company": "The Voleon Group",
+      "role": "Software Engineer Intern",
+      "location": "Berkeley, CA NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/voleon/57f1b666-2f4b-4bad-aac0-fa42a1c8fdf6/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2166,
+      "chat_id": 7582459199,
+      "seq": 1001,
+      "identity": "https://jobs.ashbyhq.com/voleon/57f1b666-2f4b-4bad-aac0-fa42a1c8fdf6/application?embed=true&utm_source=Simplify&ref=Simplify|The Voleon Group|Software Engineer Intern|Berkeley, CA NYC|Summer 2026#1"
+    },
+    "a07e86780219": {
+      "company": "Compeer Financial",
+      "role": "Engineering Intern",
+      "location": "Sun Prairie, WI Mankato, MN Bloomington, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/compeerfinancial/jobs/5404850008?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2167,
+      "chat_id": 7582459199,
+      "seq": 1002,
+      "identity": "https://job-boards.greenhouse.io/compeerfinancial/jobs/5404850008?utm_source=Simplify&ref=Simplify|Compeer Financial|Engineering Intern|Sun Prairie, WI Mankato, MN Bloomington, IL|Summer 2026#1"
+    },
+    "d4956674a67c": {
+      "company": "Compeer Financial",
+      "role": "Engineering Intern",
+      "location": "Lakeville, MN Mankato, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/compeerfinancial/jobs/5405050008?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2168,
+      "chat_id": 7582459199,
+      "seq": 1003,
+      "identity": "https://job-boards.greenhouse.io/compeerfinancial/jobs/5405050008?utm_source=Simplify&ref=Simplify|Compeer Financial|Engineering Intern|Lakeville, MN Mankato, MN|Summer 2026#1"
+    },
+    "8ca28659805b": {
+      "company": "Compeer Financial",
+      "role": "Engineering Intern",
+      "location": "Sun Prairie, WI",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/compeerfinancial/jobs/5405015008?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2169,
+      "chat_id": 7582459199,
+      "seq": 1004,
+      "identity": "https://job-boards.greenhouse.io/compeerfinancial/jobs/5405015008?utm_source=Simplify&ref=Simplify|Compeer Financial|Engineering Intern|Sun Prairie, WI|Summer 2026#1"
+    },
+    "eca2daba5513": {
+      "company": "Compeer Financial",
+      "role": "Engineering Intern",
+      "location": "Sun Prairie, WI Mankato, MN Bloomington, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/compeerfinancial/jobs/5404994008?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2170,
+      "chat_id": 7582459199,
+      "seq": 1005,
+      "identity": "https://job-boards.greenhouse.io/compeerfinancial/jobs/5404994008?utm_source=Simplify&ref=Simplify|Compeer Financial|Engineering Intern|Sun Prairie, WI Mankato, MN Bloomington, IL|Summer 2026#1"
+    },
+    "192861fbbd2c": {
+      "company": "Empirical Foods",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Dakota Dunes, SD",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-empiricalfoods.icims.com/jobs/4161/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2171,
+      "chat_id": 7582459199,
+      "seq": 1006,
+      "identity": "https://careers-empiricalfoods.icims.com/jobs/4161/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Empirical Foods|Software Engineer Intern - Summer 2027|Dakota Dunes, SD|Summer 2026#1"
     }
   },
   "applied": {
@@ -19059,10 +19131,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1000,
+  "seq": 1006,
   "health": {
     "last_heartbeat": "2026-08-25T21:15:14Z",
-    "last_ok_run": "2026-08-25T21:30:19Z",
+    "last_ok_run": "2026-08-25T21:35:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
