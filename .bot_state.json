@@ -18680,6 +18680,18 @@
       "chat_id": 7582459199,
       "seq": 999,
       "identity": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115637|Grant Thornton|Cybersecurity and Privacy Intern - Su...|New York, NY, United S...|Summer 2027#1"
+    },
+    "3b02f4cbb8c1": {
+      "company": "Zip",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/zip/249837b3-106f-4751-a4f2-03a2c5df5faf",
+      "source": "Zapply Summer Repo",
+      "message_id": 2165,
+      "chat_id": 7582459199,
+      "seq": 1000,
+      "identity": "https://jobs.ashbyhq.com/zip/249837b3-106f-4751-a4f2-03a2c5df5faf|Zip|Software Engineer Intern (Summer 2027)|San Francisco|Summer 2027#1"
     }
   },
   "applied": {
@@ -19047,10 +19059,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 999,
+  "seq": 1000,
   "health": {
     "last_heartbeat": "2026-08-25T21:15:14Z",
-    "last_ok_run": "2026-08-25T21:25:12Z",
+    "last_ok_run": "2026-08-25T21:30:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
