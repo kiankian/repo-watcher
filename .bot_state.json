@@ -18644,6 +18644,18 @@
       "chat_id": 7582459199,
       "seq": 996,
       "identity": "https://apply.careers.microsoft.com/careers/job/1970393556979054|Microsoft|AI Software Engineering Intern|Redmond, Washington, U...|Summer 2027#1"
+    },
+    "d424825ae025": {
+      "company": "The Hartford",
+      "role": "Tech & Data Program Summer 2027 - Sof...",
+      "location": "Columbus, OH",
+      "term": "Summer 2027",
+      "apply_url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Columbus-OH/Tech---Data-Summer-Program-2027---Software-Engineer-Intern--Columbus-_R2626609",
+      "source": "Zapply Summer Repo",
+      "message_id": 2162,
+      "chat_id": 7582459199,
+      "seq": 997,
+      "identity": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Columbus-OH/Tech---Data-Summer-Program-2027---Software-Engineer-Intern--Columbus-_R2626609|The Hartford|Tech & Data Program Summer 2027 - Sof...|Columbus, OH|Summer 2027#1"
     }
   },
   "applied": {
@@ -19011,10 +19023,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 996,
+  "seq": 997,
   "health": {
     "last_heartbeat": "2026-08-25T19:00:18Z",
-    "last_ok_run": "2026-08-25T19:50:13Z",
+    "last_ok_run": "2026-08-25T19:55:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
