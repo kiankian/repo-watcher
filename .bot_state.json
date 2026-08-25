@@ -18620,6 +18620,18 @@
       "chat_id": 7582459199,
       "seq": 994,
       "identity": "https://job-boards.greenhouse.io/verkada/jobs/5210942007|Verkada|Frontend Software Engineering Intern ...|San Mateo, CA United S...|Summer 2027#1"
+    },
+    "80a473479eec": {
+      "company": "Nokia",
+      "role": "Software Engineer Co-op - Deepfield",
+      "location": "Ann Arbor, MI",
+      "term": "Summer 2026",
+      "apply_url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39908?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2160,
+      "chat_id": 7582459199,
+      "seq": 995,
+      "identity": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39908?utm_source=Simplify&ref=Simplify|Nokia|Software Engineer Co-op - Deepfield|Ann Arbor, MI|Summer 2026#1"
     }
   },
   "applied": {
@@ -18987,10 +18999,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 994,
+  "seq": 995,
   "health": {
     "last_heartbeat": "2026-08-25T19:00:18Z",
-    "last_ok_run": "2026-08-25T19:00:18Z",
+    "last_ok_run": "2026-08-25T19:05:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
