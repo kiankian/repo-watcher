@@ -18776,6 +18776,30 @@
       "chat_id": 7582459199,
       "seq": 1007,
       "identity": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155558|Honeywell|Software Engineer & Computer Science ...|United States|Summer 2027#1"
+    },
+    "9a5927a39116": {
+      "company": "Grant Thornton",
+      "role": "Cybersecurity and Privacy Intern - Su...",
+      "location": "San Francisco, CA, Uni...",
+      "term": "Summer 2027",
+      "apply_url": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115449",
+      "source": "Zapply Summer Repo",
+      "message_id": 2173,
+      "chat_id": 7582459199,
+      "seq": 1008,
+      "identity": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115449|Grant Thornton|Cybersecurity and Privacy Intern - Su...|San Francisco, CA, Uni...|Summer 2027#1"
+    },
+    "e298af276c7d": {
+      "company": "Honeywell",
+      "role": "Software Engineer & Computer Science ...",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155557",
+      "source": "Zapply Summer Repo",
+      "message_id": 2174,
+      "chat_id": 7582459199,
+      "seq": 1009,
+      "identity": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155557|Honeywell|Software Engineer & Computer Science ...|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -19143,10 +19167,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1007,
+  "seq": 1009,
   "health": {
     "last_heartbeat": "2026-08-25T22:15:15Z",
-    "last_ok_run": "2026-08-25T22:25:13Z",
+    "last_ok_run": "2026-08-25T22:30:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
