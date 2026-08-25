@@ -18032,6 +18032,30 @@
       "chat_id": 7582459199,
       "seq": 945,
       "identity": "https://campus-amd.icims.com/jobs/91176/login|AMD|2027 Masters Software Engineer Intern...|Santa Clara, CA, Unite...|Summer 2027#1"
+    },
+    "ea2d28540364": {
+      "company": "AMD",
+      "role": "2027 Undergrad Software Test Engineer...",
+      "location": "Austin, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://campus-amd.icims.com/jobs/91451/login",
+      "source": "Zapply Summer Repo",
+      "message_id": 2111,
+      "chat_id": 7582459199,
+      "seq": 946,
+      "identity": "https://campus-amd.icims.com/jobs/91451/login|AMD|2027 Undergrad Software Test Engineer...|Austin, TX, United States|Summer 2027#1"
+    },
+    "64445c2b39d0": {
+      "company": "AMD",
+      "role": "2027 Undergrad Software Test Engineer...",
+      "location": "San Jose, CA, United S...",
+      "term": "Summer 2027",
+      "apply_url": "https://campus-amd.icims.com/jobs/91448/login",
+      "source": "Zapply Summer Repo",
+      "message_id": 2112,
+      "chat_id": 7582459199,
+      "seq": 947,
+      "identity": "https://campus-amd.icims.com/jobs/91448/login|AMD|2027 Undergrad Software Test Engineer...|San Jose, CA, United S...|Summer 2027#1"
     }
   },
   "applied": {
@@ -18399,10 +18423,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 945,
+  "seq": 947,
   "health": {
     "last_heartbeat": "2026-08-25T05:30:17Z",
-    "last_ok_run": "2026-08-25T06:25:13Z",
+    "last_ok_run": "2026-08-25T06:30:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
