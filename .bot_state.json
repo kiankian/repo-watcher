@@ -18440,6 +18440,18 @@
       "chat_id": 7582459199,
       "seq": 979,
       "identity": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Cybersecurity-Intern--Summer-2027-_JR-2604459|GlobalFoundries|Cybersecurity Intern (Summer 2027)|New York|Summer 2027#1"
+    },
+    "837adc29d998": {
+      "company": "Northrop Grumman",
+      "role": "Software Engineer Intern - Strategic Deterrent Systems Division - Sentinel",
+      "location": "Huntsville, AL",
+      "term": "Summer 2026",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2145,
+      "chat_id": 7582459199,
+      "seq": 980,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Engineer Intern - Strategic Deterrent Systems Division - Sentinel|Huntsville, AL|Summer 2026#1"
     }
   },
   "applied": {
@@ -18807,10 +18819,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 979,
+  "seq": 980,
   "health": {
     "last_heartbeat": "2026-08-25T14:40:16Z",
-    "last_ok_run": "2026-08-25T15:00:22Z",
+    "last_ok_run": "2026-08-25T15:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
