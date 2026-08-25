@@ -18764,6 +18764,18 @@
       "chat_id": 7582459199,
       "seq": 1006,
       "identity": "https://careers-empiricalfoods.icims.com/jobs/4161/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Empirical Foods|Software Engineer Intern - Summer 2027|Dakota Dunes, SD|Summer 2026#1"
+    },
+    "f31428e68acb": {
+      "company": "Honeywell",
+      "role": "Software Engineer & Computer Science ...",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155558",
+      "source": "Zapply Summer Repo",
+      "message_id": 2172,
+      "chat_id": 7582459199,
+      "seq": 1007,
+      "identity": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155558|Honeywell|Software Engineer & Computer Science ...|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -19131,10 +19143,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1006,
+  "seq": 1007,
   "health": {
     "last_heartbeat": "2026-08-25T21:15:14Z",
-    "last_ok_run": "2026-08-25T21:55:12Z",
+    "last_ok_run": "2026-08-25T22:00:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
