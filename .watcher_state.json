@@ -2422,7 +2422,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "8520891c76a56ff823fdcd27c029ce82274677db",
+    "last_sha": "570c9604a6b90a287f91e560c202d0f1825b2486",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2515,7 +2515,8 @@
       "https://lifeattiktok.com/search/7668837275459324213|TikTok|Software Development Engineer Intern - Global E-Commerce - Quality Platform & AI Test Automation - 2027 Summer|San Jose, CA|FAANG+#1",
       "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002|Databricks|Software Engineering Intern - 2027 Start - Winter|Mountain View, CA +2|FAANG+#1",
       "https://apply.careers.microsoft.com/careers/job/1970393556979054|Microsoft|AI Software Engineering Intern - Edge|Washington, DC +1|FAANG+#1",
-      "https://lifeattiktok.com/search/7676276048527214901|TikTok|Software Engineer Intern - TikTok AI Search & Visual Search Infra Team - 2027 Summer|San Jose, CA|FAANG+#1"
+      "https://lifeattiktok.com/search/7676276048527214901|TikTok|Software Engineer Intern - TikTok AI Search & Visual Search Infra Team - 2027 Summer|San Jose, CA|FAANG+#1",
+      "https://www.google.com/about/careers/applications/jobs/results/91436104816698054|Google|Software Engineering Intern - PhD - Summer 2027|Mountain View, CA +29|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -2541,11 +2542,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 74,
+    "last_row_count": 76,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "8520891c76a56ff823fdcd27c029ce82274677db",
+    "last_sha": "570c9604a6b90a287f91e560c202d0f1825b2486",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2584,7 +2585,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "8520891c76a56ff823fdcd27c029ce82274677db",
+    "last_sha": "570c9604a6b90a287f91e560c202d0f1825b2486",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2731,7 +2732,31 @@
       "https://availity.wd1.myworkdayjobs.com/en-US/availity_careers_us/job/Remote---United-States/Software-Engineering-Intern_R0008436|Availity|Software Engineering Intern|Remote - USA|Other#1",
       "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Tulsa-OK/Software-Engineering-Intern_JR-051321|Brunswick|Software Engineering Intern|Tulsa, OK|Other#1",
       "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906-1|HP|Software Internship Roles - HP Solutions - HPS|Spring, TX|Other#1",
-      "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906|HP|Software Internship Roles - HP Solutions - HPS|Spring, TX|Other#1"
+      "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906|HP|Software Internship Roles - HP Solutions - HPS|Spring, TX|Other#1",
+      "https://job-boards.greenhouse.io/advancedspace/jobs/4333179009|Advanced Space|2027 DevOps Summer Internship|Westminster, CO|Other#1",
+      "https://job-boards.greenhouse.io/advancedspace/jobs/4324855009|Advanced Space|2027 Software Engineering Summer Internship|Westminster, CO|Other#1",
+      "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003|MORSE Corp Co-op Opportunities|Full Stack Software Engineer Graduate Co-op|Arlington, VA +2|Other#1",
+      "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003|MORSE Corp Co-op Opportunities|Python Software Engineer Co-op|Arlington, VA +2|Other#1",
+      "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003|MORSE Corp Co-op Opportunities|Python Software Engineer Graduate Co-op|Arlington, VA +2|Other#1",
+      "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968523003|MORSE Corp Co-op Opportunities|Embedded Software Engineer Graduate Co-op|Cambridge, MA|Other#1",
+      "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968605003|MORSE Corp Co-op Opportunities|Embedded Software Engineer Co-op|Cambridge, MA|Other#1",
+      "https://job-boards.greenhouse.io/sage49/jobs/6131191004|SAGE|Software Engineering Intern - Edge - Summer 2027|New York City, NY|Other#1",
+      "https://job-boards.greenhouse.io/sage49/jobs/6131185004|SAGE|Software Engineering Intern - Full Stack - Summer 2027|New York City, NY|Other#1",
+      "https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Bremerton-WA/Software-Engineer---Intern_R0247218|Booz Allen|Software Engineer - Intern|Bremerton, WA +1|Other#1",
+      "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316|Brunswick|Software Engineering Intern|Champaign, IL|Other#1",
+      "https://careers-daktronics.icims.com/jobs/7518/firmware-hardware-design-co-op-intern/job|Daktronics|Firmware/Hardware Design Co-op Intern|Brookings, SD|Other#1",
+      "https://dmainc.wd5.myworkdayjobs.com/en-US/dma/job/Fort-Wayne-IN/Software-Development-Intern---Summer-2027_REQ636|DMA|Software Development Intern - Summer 2027|Fort Wayne, IN +1|Other#1",
+      "https://dmainc.wd5.myworkdayjobs.com/en-US/dma/job/Fort-Wayne-IN/Software-Development-Intern---Spring-2027_REQ634|DMA|Software Development Intern - Spring 2027|Fort Wayne, IN +1|Other#1",
+      "https://freddiemac.wd5.myworkdayjobs.com/en-US/external/job/McLean-VA/Single-Family-Software-Developer-Intern--Summer-2027_JR17544|Freddie Mac|Single-Family Software Developer Intern- Summer 2027|McLean, VA|Other#1",
+      "https://freddiemac.wd5.myworkdayjobs.com/en-US/external/job/McLean-VA/Multifamily-Software-Development-Intern---Summer-2027_JR17564|Freddie Mac|Multifamily Software Development Intern - Summer 2027|McLean, VA|Other#1",
+      "https://gevernova.wd5.myworkdayjobs.com/en-US/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-GridOS--Software-Test-Engineer---Intern---Summer-2027_R5049907-1|GE Vernova|GE Vernova GridOS Software Test Engineer - Intern - Summer 2027|Atlanta, GA +1|Other#1",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740|Motorola Solutions|Android Applications Developer Intern - Summer 2027|Chicago, IL|Other#1",
+      "https://jobs.lever.co/Nomagic/c7a6445d-3fd8-4bf1-90c0-ec01c2bef2af|Nomagic|Engineering Intern - Software or Hardware|Alpharetta, GA|Other#1",
+      "https://pg.wd5.myworkdayjobs.com/en-US/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering-Internship--Software--Platform----Network-_R000157503|P&G - Procter & Gamble|IT Engineering Internship - Software - Platform - & Network|Cincinnati, OH|Other#1",
+      "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern-Co-op---Software-System-Engineering---Plymouth--MN---Summer-2027_590406|Philips|Co-op - Software System Engineering - Plymouth - MN - January 2027|Plymouth, MN|Other#1",
+      "https://thehartford.wd5.myworkdayjobs.com/en-US/careers_external/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1|The Hartford|Tech & Data Program Summer 2027 - Software Engineer Intern - Hartford|Hartford, CT|Other#1",
+      "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137|Walt Disney|Glendale System Software Engineering Internship - Spring 2027|Glendale, CA|Other#1",
+      "https://disney.wd5.myworkdayjobs.com/en-US/disneycareerdc/job/Glendale-CA-USA/Glendale-System-Software-Engineering-Internship--Spring-2027_10158137-1|Walt Disney|Glendale System Software Engineering Internship - Spring 2027|Glendale, CA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -2875,7 +2900,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 153,
+    "last_row_count": 169,
     "outbox": []
   }
 }
