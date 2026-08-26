@@ -19184,6 +19184,30 @@
       "chat_id": 7582459199,
       "seq": 1041,
       "identity": "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Denver/Software-Intern--Summer-2027-_R185388?utm_source=Simplify&ref=Simplify|Parsons|Software Intern - Summer 2027|Denver, CO|Summer 2026#1"
+    },
+    "bb96c36a6af1": {
+      "company": "Zipline",
+      "role": "Embedded Software Engineer Intern (Sp...",
+      "location": "South San Francisco, C...",
+      "term": "Summer 2027",
+      "apply_url": "https://www.zipline.com/open-roles?gh_jid=7974890003",
+      "source": "Zapply Summer Repo",
+      "message_id": 2207,
+      "chat_id": 7582459199,
+      "seq": 1042,
+      "identity": "https://www.zipline.com/open-roles?gh_jid=7974890003|Zipline|Embedded Software Engineer Intern (Sp...|South San Francisco, C...|Summer 2027#1"
+    },
+    "f9cfb29cc285": {
+      "company": "Netflix",
+      "role": "Machine Learning/AI Infrastructure En...",
+      "location": "Los Gatos, California",
+      "term": "Summer 2027",
+      "apply_url": "https://explore.jobs.netflix.net/careers/job/790317917022",
+      "source": "Zapply Summer Repo",
+      "message_id": 2208,
+      "chat_id": 7582459199,
+      "seq": 1043,
+      "identity": "https://explore.jobs.netflix.net/careers/job/790317917022|Netflix|Machine Learning/AI Infrastructure En...|Los Gatos, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -19551,10 +19575,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1041,
+  "seq": 1043,
   "health": {
     "last_heartbeat": "2026-08-26T17:15:27Z",
-    "last_ok_run": "2026-08-26T18:05:14Z",
+    "last_ok_run": "2026-08-26T18:10:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
