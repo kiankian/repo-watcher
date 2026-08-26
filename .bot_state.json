@@ -19148,6 +19148,30 @@
       "chat_id": 7582459199,
       "seq": 1038,
       "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000145785190|Bosch Group|Phone as a Key Software Engineering -...|Plymouth, MI|Summer 2027#1"
+    },
+    "ccdf9af2090c": {
+      "company": "Johnson & Johnson",
+      "role": "Software Engineering Co-Op, Spring 2027",
+      "location": "Cincinnati, Ohio, Unit...",
+      "term": "Summer 2027",
+      "apply_url": "https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op--Spring-2027_R-095741",
+      "source": "Zapply Summer Repo",
+      "message_id": 2204,
+      "chat_id": 7582459199,
+      "seq": 1039,
+      "identity": "https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op--Spring-2027_R-095741|Johnson & Johnson|Software Engineering Co-Op, Spring 2027|Cincinnati, Ohio, Unit...|Summer 2027#1"
+    },
+    "dbc3ef763329": {
+      "company": "Parsons",
+      "role": "Software Intern (Summer 2027)",
+      "location": "CO, Denver, R185388",
+      "term": "Summer 2027",
+      "apply_url": "https://parsons.wd5.myworkdayjobs.com/search/job/US---CO-Denver/Software-Intern--Summer-2027-_R185388",
+      "source": "Zapply Summer Repo",
+      "message_id": 2205,
+      "chat_id": 7582459199,
+      "seq": 1040,
+      "identity": "https://parsons.wd5.myworkdayjobs.com/search/job/US---CO-Denver/Software-Intern--Summer-2027-_R185388|Parsons|Software Intern (Summer 2027)|CO, Denver, R185388|Summer 2027#1"
     }
   },
   "applied": {
@@ -19515,10 +19539,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1038,
+  "seq": 1040,
   "health": {
     "last_heartbeat": "2026-08-26T17:15:27Z",
-    "last_ok_run": "2026-08-26T17:35:15Z",
+    "last_ok_run": "2026-08-26T17:40:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
