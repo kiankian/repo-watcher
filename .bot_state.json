@@ -18896,6 +18896,18 @@
       "chat_id": 7582459199,
       "seq": 1017,
       "identity": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine---Systems-Software-Engineering-Co-op_JR-051212?utm_source=Simplify&ref=Simplify|Brunswick|Systems Engineer Co-op - Software Engineering|Fond du Lac, WI|Summer 2026#1"
+    },
+    "ac27e4d605aa": {
+      "company": "Steven's Capital Management",
+      "role": "Software Engineer",
+      "location": "Radnor, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://grnh.se/abfli75k1us?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2183,
+      "chat_id": 7582459199,
+      "seq": 1018,
+      "identity": "https://grnh.se/abfli75k1us?utm_source=Simplify&ref=Simplify|Steven's Capital Management|Software Engineer|Radnor, PA|Summer 2026#1"
     }
   },
   "applied": {
@@ -19263,10 +19275,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1017,
+  "seq": 1018,
   "health": {
     "last_heartbeat": "2026-08-26T00:20:16Z",
-    "last_ok_run": "2026-08-26T01:15:13Z",
+    "last_ok_run": "2026-08-26T01:20:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
