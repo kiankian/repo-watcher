@@ -18908,6 +18908,42 @@
       "chat_id": 7582459199,
       "seq": 1018,
       "identity": "https://grnh.se/abfli75k1us?utm_source=Simplify&ref=Simplify|Steven's Capital Management|Software Engineer|Radnor, PA|Summer 2026#1"
+    },
+    "11c46eaf0ee3": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions In...",
+      "location": "South San Francisco, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/AbbVie/3743990014860391",
+      "source": "Zapply Summer Repo",
+      "message_id": 2184,
+      "chat_id": 7582459199,
+      "seq": 1019,
+      "identity": "https://jobs.smartrecruiters.com/AbbVie/3743990014860391|AbbVie|2027 Business Technology Solutions In...|South San Francisco, CA|Summer 2027#1"
+    },
+    "44eec3b5af9a": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions In...",
+      "location": "South San Francisco, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/AbbVie/3743990014860456",
+      "source": "Zapply Summer Repo",
+      "message_id": 2185,
+      "chat_id": 7582459199,
+      "seq": 1020,
+      "identity": "https://jobs.smartrecruiters.com/AbbVie/3743990014860456|AbbVie|2027 Business Technology Solutions In...|South San Francisco, CA|Summer 2027#1"
+    },
+    "8e37491f5489": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions In...",
+      "location": "Irvine, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/AbbVie/3743990014860211",
+      "source": "Zapply Summer Repo",
+      "message_id": 2186,
+      "chat_id": 7582459199,
+      "seq": 1021,
+      "identity": "https://jobs.smartrecruiters.com/AbbVie/3743990014860211|AbbVie|2027 Business Technology Solutions In...|Irvine, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -19275,10 +19311,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1018,
+  "seq": 1021,
   "health": {
     "last_heartbeat": "2026-08-26T00:20:16Z",
-    "last_ok_run": "2026-08-26T01:20:13Z",
+    "last_ok_run": "2026-08-26T01:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
