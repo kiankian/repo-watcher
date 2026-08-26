@@ -19136,6 +19136,18 @@
       "chat_id": 7582459199,
       "seq": 1037,
       "identity": "https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Quality-Engineering-Co-op_JR-051391|Brunswick|Mercury Marine: Quality Engineering C...|Fond du Lac, WI|Summer 2027#1"
+    },
+    "8f218dac0f8e": {
+      "company": "Bosch Group",
+      "role": "Phone as a Key Software Engineering -...",
+      "location": "Plymouth, MI",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000145785190",
+      "source": "Zapply Summer Repo",
+      "message_id": 2203,
+      "chat_id": 7582459199,
+      "seq": 1038,
+      "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000145785190|Bosch Group|Phone as a Key Software Engineering -...|Plymouth, MI|Summer 2027#1"
     }
   },
   "applied": {
@@ -19503,10 +19515,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1037,
+  "seq": 1038,
   "health": {
     "last_heartbeat": "2026-08-26T16:10:15Z",
-    "last_ok_run": "2026-08-26T16:35:15Z",
+    "last_ok_run": "2026-08-26T16:40:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
