@@ -18848,6 +18848,54 @@
       "chat_id": 7582459199,
       "seq": 1013,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-M10--3360-E-Hemisphere-Loop--BLDG-M10/Software-Engineering-Intern--Summer-2027-_01869473?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Tucson, AZ|Summer 2026#1"
+    },
+    "7d4992285883": {
+      "company": "Honeywell",
+      "role": "Software Engineer Intern - Computer Science",
+      "location": "United States",
+      "term": "Summer 2026",
+      "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155557?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2179,
+      "chat_id": 7582459199,
+      "seq": 1014,
+      "identity": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155557?utm_source=Simplify&ref=Simplify|Honeywell|Software Engineer Intern - Computer Science|United States|Summer 2026#1"
+    },
+    "87e35f5cef4c": {
+      "company": "Honeywell",
+      "role": "Software Engineer Intern - Computer Science",
+      "location": "United States",
+      "term": "Summer 2026",
+      "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155558?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2180,
+      "chat_id": 7582459199,
+      "seq": 1015,
+      "identity": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155558?utm_source=Simplify&ref=Simplify|Honeywell|Software Engineer Intern - Computer Science|United States|Summer 2026#1"
+    },
+    "bfee2d4bb81a": {
+      "company": "Epic Games",
+      "role": "Gameplay Programmer Intern",
+      "location": "Cary, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://epicgames.com/careers/jobs/6152263004?gh_jid=6152263004&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2181,
+      "chat_id": 7582459199,
+      "seq": 1016,
+      "identity": "https://epicgames.com/careers/jobs/6152263004?gh_jid=6152263004&utm_source=Simplify&ref=Simplify|Epic Games|Gameplay Programmer Intern|Cary, NC|Summer 2026#1"
+    },
+    "39d579abce30": {
+      "company": "Brunswick",
+      "role": "Systems Engineer Co-op - Software Engineering",
+      "location": "Fond du Lac, WI",
+      "term": "Summer 2026",
+      "apply_url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine---Systems-Software-Engineering-Co-op_JR-051212?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2182,
+      "chat_id": 7582459199,
+      "seq": 1017,
+      "identity": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fond-du-Lac-WI/Mercury-Marine---Systems-Software-Engineering-Co-op_JR-051212?utm_source=Simplify&ref=Simplify|Brunswick|Systems Engineer Co-op - Software Engineering|Fond du Lac, WI|Summer 2026#1"
     }
   },
   "applied": {
@@ -19215,10 +19263,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1013,
+  "seq": 1017,
   "health": {
     "last_heartbeat": "2026-08-26T00:20:16Z",
-    "last_ok_run": "2026-08-26T00:30:17Z",
+    "last_ok_run": "2026-08-26T00:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
