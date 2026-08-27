@@ -19388,6 +19388,18 @@
       "chat_id": 7582459199,
       "seq": 1058,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-401--401-Jan-Davis-Dr-NW--JAN-DAVIS-401/Software-Engineering-Intern--Summer-2027-_01870007|RTX|Software Engineering Intern (Summer 2...|Huntsville, AL|Summer 2027#1"
+    },
+    "69b8e6936445": {
+      "company": "RTX",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "Woburn, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-Intern--Summer-2027-_01869890-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 2224,
+      "chat_id": 7582459199,
+      "seq": 1059,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-Intern--Summer-2027-_01869890-1|RTX|Software Engineer Intern (Summer 2027)|Woburn, MA|Summer 2027#1"
     }
   },
   "applied": {
@@ -19755,10 +19767,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1058,
+  "seq": 1059,
   "health": {
     "last_heartbeat": "2026-08-27T13:30:19Z",
-    "last_ok_run": "2026-08-27T13:35:12Z",
+    "last_ok_run": "2026-08-27T13:40:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
