@@ -19760,6 +19760,42 @@
       "chat_id": 7582459199,
       "seq": 1089,
       "identity": "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109441|Copart|Software Engineering Intern|Dallas, TX|Other#1"
+    },
+    "217abd927b9d": {
+      "company": "Medtronic",
+      "role": "Engineering Intern",
+      "location": "20 locationsBoston, MA Santa Ana, CA Santa Rosa, CA Irvine, CA Mansfield, MA Mounds View, MN Tempe, AZ Memphis, TN Brooklyn Center, MN Plymouth, MN Brooklyn Park, MN Fort Worth, TX Dexter, MI North Haven, CT Lafayette, CO Minneapolis, MN Newton, MA Jacksonville, FL Eatontown, NJ Boulder, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Mounds-View-Minnesota-United-States-of-America/Engineering-Intern-Summer-2027--Candidates-Attending-2026-SWE-National-Conference-_R76021?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2255,
+      "chat_id": 7582459199,
+      "seq": 1090,
+      "identity": "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Mounds-View-Minnesota-United-States-of-America/Engineering-Intern-Summer-2027--Candidates-Attending-2026-SWE-National-Conference-_R76021?utm_source=Simplify&ref=Simplify|Medtronic|Engineering Intern|20 locationsBoston, MA Santa Ana, CA Santa Rosa, CA Irvine, CA Mansfield, MA Mounds View, MN Tempe, AZ Memphis, TN Brooklyn Center, MN Plymouth, MN Brooklyn Park, MN Fort Worth, TX Dexter, MI North Haven, CT Lafayette, CO Minneapolis, MN Newton, MA Jacksonville, FL Eatontown, NJ Boulder, CO|Summer 2026#1"
+    },
+    "65e4133f272b": {
+      "company": "Manulife Financial",
+      "role": "Software Engineering Intern",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---Software-Engineering_JR26081680?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2256,
+      "chat_id": 7582459199,
+      "seq": 1091,
+      "identity": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---Software-Engineering_JR26081680?utm_source=Simplify&ref=Simplify|Manulife Financial|Software Engineering Intern|Boston, MA|Summer 2026#1"
+    },
+    "fa0eff0dcc0f": {
+      "company": "Air Products",
+      "role": "Information Technology/Digital Technology Intern - Infrastructure Services",
+      "location": "Allentown, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://airproducts.wd5.myworkdayjobs.com/en-US/AP0001/job/Allentown-Pennsylvania/Summer-Intern--IT-Digital-Technology--2027-_JR-2026-21953?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2257,
+      "chat_id": 7582459199,
+      "seq": 1092,
+      "identity": "https://airproducts.wd5.myworkdayjobs.com/en-US/AP0001/job/Allentown-Pennsylvania/Summer-Intern--IT-Digital-Technology--2027-_JR-2026-21953?utm_source=Simplify&ref=Simplify|Air Products|Information Technology/Digital Technology Intern - Infrastructure Services|Allentown, PA|Summer 2026#1"
     }
   },
   "applied": {
@@ -20127,10 +20163,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1089,
+  "seq": 1092,
   "health": {
     "last_heartbeat": "2026-08-27T22:15:15Z",
-    "last_ok_run": "2026-08-27T22:30:18Z",
+    "last_ok_run": "2026-08-27T22:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
