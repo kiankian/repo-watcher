@@ -19424,6 +19424,42 @@
       "chat_id": 7582459199,
       "seq": 1061,
       "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038|Booz Allen Hamilton|University - 2027 Summer Games Softwa...|San Diego, CA|Summer 2027#1"
+    },
+    "36d2d183d604": {
+      "company": "RTX",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Woburn, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-Intern--Summer-2027-_01869890-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2227,
+      "chat_id": 7582459199,
+      "seq": 1062,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-Intern--Summer-2027-_01869890-1?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Woburn, MA|Summer 2026#1"
+    },
+    "3b52c6b43569": {
+      "company": "RTX",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "State College, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/Software-Engineer-Intern--Summer-2027-_01868801?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2228,
+      "chat_id": 7582459199,
+      "seq": 1063,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/Software-Engineer-Intern--Summer-2027-_01868801?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|State College, PA|Summer 2026#1"
+    },
+    "600c6466679c": {
+      "company": "RTX",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Huntsville, AL",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-401--401-Jan-Davis-Dr-NW--JAN-DAVIS-401/Software-Engineering-Intern--Summer-2027-_01870007?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2229,
+      "chat_id": 7582459199,
+      "seq": 1064,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-401--401-Jan-Davis-Dr-NW--JAN-DAVIS-401/Software-Engineering-Intern--Summer-2027-_01870007?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Huntsville, AL|Summer 2026#1"
     }
   },
   "applied": {
@@ -19791,10 +19827,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1061,
+  "seq": 1064,
   "health": {
     "last_heartbeat": "2026-08-27T14:30:20Z",
-    "last_ok_run": "2026-08-27T14:30:20Z",
+    "last_ok_run": "2026-08-27T14:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
