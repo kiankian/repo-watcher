@@ -19544,6 +19544,30 @@
       "chat_id": 7582459199,
       "seq": 1071,
       "identity": "https://jobs.smartrecruiters.com/AbbVie/3743990014896329|AbbVie|2027 Business Technology Solutions In...|North Chicago, IL|Summer 2027#1"
+    },
+    "2fcbc2a1a16c": {
+      "company": "Booz Allen",
+      "role": "Software Developer Intern - Summer Games",
+      "location": "El Segundo, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2237,
+      "chat_id": 7582459199,
+      "seq": 1072,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046?utm_source=Simplify&ref=Simplify|Booz Allen|Software Developer Intern - Summer Games|El Segundo, CA|Summer 2026#1"
+    },
+    "0730d8c24173": {
+      "company": "Booz Allen",
+      "role": "Software Developer Intern - Summer Games",
+      "location": "San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2238,
+      "chat_id": 7582459199,
+      "seq": 1073,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038?utm_source=Simplify&ref=Simplify|Booz Allen|Software Developer Intern - Summer Games|San Diego, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -19911,10 +19935,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1071,
+  "seq": 1073,
   "health": {
     "last_heartbeat": "2026-08-27T16:50:14Z",
-    "last_ok_run": "2026-08-27T17:00:23Z",
+    "last_ok_run": "2026-08-27T17:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
