@@ -19460,6 +19460,30 @@
       "chat_id": 7582459199,
       "seq": 1064,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-401--401-Jan-Davis-Dr-NW--JAN-DAVIS-401/Software-Engineering-Intern--Summer-2027-_01870007?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|Huntsville, AL|Summer 2026#1"
+    },
+    "c20033d3429f": {
+      "company": "Ambarella",
+      "role": "Software Engineer Intern",
+      "location": "Headquarters",
+      "term": "Summer 2027",
+      "apply_url": "https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Engineer-Intern_JR100363",
+      "source": "Zapply Summer Repo",
+      "message_id": 2230,
+      "chat_id": 7582459199,
+      "seq": 1065,
+      "identity": "https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Engineer-Intern_JR100363|Ambarella|Software Engineer Intern|Headquarters|Summer 2027#1"
+    },
+    "15a21f24cac5": {
+      "company": "Ambarella",
+      "role": "Software Development Engineer Intern",
+      "location": "Headquarters",
+      "term": "Summer 2027",
+      "apply_url": "https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 2231,
+      "chat_id": 7582459199,
+      "seq": 1066,
+      "identity": "https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1|Ambarella|Software Development Engineer Intern|Headquarters|Summer 2027#1"
     }
   },
   "applied": {
@@ -19827,10 +19851,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1064,
+  "seq": 1066,
   "health": {
     "last_heartbeat": "2026-08-27T14:30:20Z",
-    "last_ok_run": "2026-08-27T14:45:15Z",
+    "last_ok_run": "2026-08-27T14:50:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
