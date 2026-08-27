@@ -19628,6 +19628,30 @@
       "chat_id": 7582459199,
       "seq": 1078,
       "identity": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---Software-Engineering_JR26081680|Manulife|Summer Intern 2027 - Software Enginee...|Boston, Massachusetts|Summer 2027#1"
+    },
+    "d1cb65dd3335": {
+      "company": "Leidos",
+      "role": "Software Developer Co-op",
+      "location": "Bethesda, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Software-Developer-Co-op_R-00190766",
+      "source": "Zapply Summer Repo",
+      "message_id": 2244,
+      "chat_id": 7582459199,
+      "seq": 1079,
+      "identity": "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Software-Developer-Co-op_R-00190766|Leidos|Software Developer Co-op|Bethesda, MD|Summer 2027#1"
+    },
+    "3595a383bec6": {
+      "company": "Leidos",
+      "role": "Cybersecurity Engineer Co-op",
+      "location": "Bethesda, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
+      "source": "Zapply Summer Repo",
+      "message_id": 2245,
+      "chat_id": 7582459199,
+      "seq": 1080,
+      "identity": "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764|Leidos|Cybersecurity Engineer Co-op|Bethesda, MD|Summer 2027#1"
     }
   },
   "applied": {
@@ -19995,10 +20019,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1078,
+  "seq": 1080,
   "health": {
     "last_heartbeat": "2026-08-27T21:10:16Z",
-    "last_ok_run": "2026-08-27T21:25:14Z",
+    "last_ok_run": "2026-08-27T21:30:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
