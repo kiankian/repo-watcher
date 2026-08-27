@@ -19832,6 +19832,18 @@
       "chat_id": 7582459199,
       "seq": 1095,
       "identity": "https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern---IT--Summer-2027-_38395?utm_source=Simplify&ref=Simplify|Commerce Bank|IT Intern - Summer 2027|Kansas City, MO|Summer 2026#1"
+    },
+    "6e58329465ff": {
+      "company": "AnaVation",
+      "role": "Computer Science Intern",
+      "location": "Huntsville, AL",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/anavationllc/f7c83978-8510-409c-a5a3-17618511f819/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2261,
+      "chat_id": 7582459199,
+      "seq": 1096,
+      "identity": "https://jobs.lever.co/anavationllc/f7c83978-8510-409c-a5a3-17618511f819/apply?utm_source=Simplify&ref=Simplify|AnaVation|Computer Science Intern|Huntsville, AL|Summer 2026#1"
     }
   },
   "applied": {
@@ -20199,10 +20211,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1095,
+  "seq": 1096,
   "health": {
     "last_heartbeat": "2026-08-27T23:20:15Z",
-    "last_ok_run": "2026-08-27T23:30:17Z",
+    "last_ok_run": "2026-08-27T23:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
