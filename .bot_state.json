@@ -19722,7 +19722,7 @@
   "seq": 1055,
   "health": {
     "last_heartbeat": "2026-08-27T06:55:12Z",
-    "last_ok_run": "2026-08-27T07:40:14Z",
+    "last_ok_run": "2026-08-27T07:45:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
