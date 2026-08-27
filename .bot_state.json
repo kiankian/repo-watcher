@@ -19364,6 +19364,18 @@
       "chat_id": 7582459199,
       "seq": 1056,
       "identity": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Nottingham--Eng/Technology-Summer-Internship_R999269?utm_source=Simplify&ref=Simplify|Capital One|Technology Intern|Nottingham, UK|Summer 2026#1"
+    },
+    "e81a4f4cb5e8": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2...",
+      "location": "State College, PA",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/Software-Engineer-Intern--Summer-2027-_01868801",
+      "source": "Zapply Summer Repo",
+      "message_id": 2222,
+      "chat_id": 7582459199,
+      "seq": 1057,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/Software-Engineer-Intern--Summer-2027-_01868801|RTX|Software Engineering Intern (Summer 2...|State College, PA|Summer 2027#1"
     }
   },
   "applied": {
@@ -19731,10 +19743,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1056,
+  "seq": 1057,
   "health": {
     "last_heartbeat": "2026-08-27T11:25:13Z",
-    "last_ok_run": "2026-08-27T12:20:15Z",
+    "last_ok_run": "2026-08-27T12:25:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
