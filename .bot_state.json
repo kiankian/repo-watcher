@@ -19520,6 +19520,18 @@
       "chat_id": 7582459199,
       "seq": 1069,
       "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern_R0248029|Booz Allen Hamilton|University, 2027 Summer Games Softwar...|McLean, VA|Summer 2027#1"
+    },
+    "368a1157d297": {
+      "company": "Micron Technology",
+      "role": "Intern - Process Quality Engineering",
+      "location": "Boise, ID - ID1",
+      "term": "Summer 2027",
+      "apply_url": "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---ID1/Intern---Process-Quality-Engineering_JR109159",
+      "source": "Zapply Summer Repo",
+      "message_id": 2235,
+      "chat_id": 7582459199,
+      "seq": 1070,
+      "identity": "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---ID1/Intern---Process-Quality-Engineering_JR109159|Micron Technology|Intern - Process Quality Engineering|Boise, ID - ID1|Summer 2027#1"
     }
   },
   "applied": {
@@ -19887,10 +19899,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1069,
+  "seq": 1070,
   "health": {
     "last_heartbeat": "2026-08-27T15:30:20Z",
-    "last_ok_run": "2026-08-27T16:10:15Z",
+    "last_ok_run": "2026-08-27T16:15:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
