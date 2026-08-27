@@ -19796,6 +19796,42 @@
       "chat_id": 7582459199,
       "seq": 1092,
       "identity": "https://airproducts.wd5.myworkdayjobs.com/en-US/AP0001/job/Allentown-Pennsylvania/Summer-Intern--IT-Digital-Technology--2027-_JR-2026-21953?utm_source=Simplify&ref=Simplify|Air Products|Information Technology/Digital Technology Intern - Infrastructure Services|Allentown, PA|Summer 2026#1"
+    },
+    "a08bc5795bf1": {
+      "company": "\ud83d\udd25 Tesla",
+      "role": "Software Engineer Intern - Vehicle Software - Summer 2027",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://www.tesla.com/careers/search/job/281097?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2258,
+      "chat_id": 7582459199,
+      "seq": 1093,
+      "identity": "https://www.tesla.com/careers/search/job/281097?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Tesla|Software Engineer Intern - Vehicle Software - Summer 2027|Palo Alto, CA|Summer 2026#1"
+    },
+    "a68399ad135a": {
+      "company": "IMC Trading",
+      "role": "Performance Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4842595101?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2259,
+      "chat_id": 7582459199,
+      "seq": 1094,
+      "identity": "https://job-boards.eu.greenhouse.io/imc/jobs/4842595101?utm_source=Simplify&ref=Simplify|IMC Trading|Performance Engineer Intern|Chicago, IL|Summer 2026#1"
+    },
+    "8cc9e2a07f42": {
+      "company": "Commerce Bank",
+      "role": "IT Intern - Summer 2027",
+      "location": "Kansas City, MO",
+      "term": "Summer 2026",
+      "apply_url": "https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern---IT--Summer-2027-_38395?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2260,
+      "chat_id": 7582459199,
+      "seq": 1095,
+      "identity": "https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern---IT--Summer-2027-_38395?utm_source=Simplify&ref=Simplify|Commerce Bank|IT Intern - Summer 2027|Kansas City, MO|Summer 2026#1"
     }
   },
   "applied": {
@@ -20163,10 +20199,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1092,
+  "seq": 1095,
   "health": {
     "last_heartbeat": "2026-08-27T22:15:15Z",
-    "last_ok_run": "2026-08-27T23:00:20Z",
+    "last_ok_run": "2026-08-27T23:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
