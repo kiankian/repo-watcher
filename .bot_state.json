@@ -19316,6 +19316,42 @@
       "chat_id": 7582459199,
       "seq": 1052,
       "identity": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Software-Developer-Internship_R_2121?utm_source=Simplify&ref=Simplify|Auto-Owners Insurance|Software Developer Intern - Summer 2027|Lansing, MI|Summer 2026#1"
+    },
+    "2fe123da1a46": {
+      "company": "Leidos",
+      "role": "Software Engineering & AI Intern",
+      "location": "6314 RemoteTeleworker US",
+      "term": "Summer 2027",
+      "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineering---AI-Intern_R-00190648",
+      "source": "Zapply Summer Repo",
+      "message_id": 2218,
+      "chat_id": 7582459199,
+      "seq": 1053,
+      "identity": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineering---AI-Intern_R-00190648|Leidos|Software Engineering & AI Intern|6314 RemoteTeleworker US|Summer 2027#1"
+    },
+    "34c2522e115c": {
+      "company": "Leidos",
+      "role": "Systems Engineering Intern",
+      "location": "Odenton, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Odenton-MD/Systems-Engineering-Intern_R-00190647",
+      "source": "Zapply Summer Repo",
+      "message_id": 2219,
+      "chat_id": 7582459199,
+      "seq": 1054,
+      "identity": "https://leidos.wd5.myworkdayjobs.com/External/job/Odenton-MD/Systems-Engineering-Intern_R-00190647|Leidos|Systems Engineering Intern|Odenton, MD|Summer 2027#1"
+    },
+    "c7fc151133ba": {
+      "company": "Leidos",
+      "role": "Transport Network Engineer Intern",
+      "location": "Shiloh, IL",
+      "term": "Summer 2027",
+      "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Shiloh-IL/Transport-Network-Engineer-Intern_R-00190655",
+      "source": "Zapply Summer Repo",
+      "message_id": 2220,
+      "chat_id": 7582459199,
+      "seq": 1055,
+      "identity": "https://leidos.wd5.myworkdayjobs.com/External/job/Shiloh-IL/Transport-Network-Engineer-Intern_R-00190655|Leidos|Transport Network Engineer Intern|Shiloh, IL|Summer 2027#1"
     }
   },
   "applied": {
@@ -19683,10 +19719,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1052,
+  "seq": 1055,
   "health": {
     "last_heartbeat": "2026-08-26T23:55:14Z",
-    "last_ok_run": "2026-08-27T00:35:14Z",
+    "last_ok_run": "2026-08-27T00:40:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
