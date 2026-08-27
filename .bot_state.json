@@ -19484,6 +19484,30 @@
       "chat_id": 7582459199,
       "seq": 1066,
       "identity": "https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1|Ambarella|Software Development Engineer Intern|Headquarters|Summer 2027#1"
+    },
+    "e633b7eae77d": {
+      "company": "ASM",
+      "role": "Software Engineer - Early Career (Fal...",
+      "location": "> Arizona > Phoenix",
+      "term": "Summer 2027",
+      "apply_url": "https://www.asm.com/open-vacancies/?gh_jid=4876722101",
+      "source": "Zapply Summer Repo",
+      "message_id": 2232,
+      "chat_id": 7582459199,
+      "seq": 1067,
+      "identity": "https://www.asm.com/open-vacancies/?gh_jid=4876722101|ASM|Software Engineer - Early Career (Fal...|> Arizona > Phoenix|Summer 2027#1"
+    },
+    "56820599c7ba": {
+      "company": "Grant Thornton",
+      "role": "Cybersecurity and Privacy Intern - Su...",
+      "location": "Chicago, IL, United St...",
+      "term": "Summer 2027",
+      "apply_url": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115640",
+      "source": "Zapply Summer Repo",
+      "message_id": 2233,
+      "chat_id": 7582459199,
+      "seq": 1068,
+      "identity": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115640|Grant Thornton|Cybersecurity and Privacy Intern - Su...|Chicago, IL, United St...|Summer 2027#1"
     }
   },
   "applied": {
@@ -19851,10 +19875,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1066,
+  "seq": 1068,
   "health": {
     "last_heartbeat": "2026-08-27T14:30:20Z",
-    "last_ok_run": "2026-08-27T15:10:18Z",
+    "last_ok_run": "2026-08-27T15:15:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
