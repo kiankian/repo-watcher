@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "61272070b961b69bf1009a3aaee56d333ed3c004",
+    "last_sha": "54b56870962d296682f4a17ba60016ac6aba5f33",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -1536,10 +1536,15 @@
       "https://jobs.lever.co/anavationllc/f7c83978-8510-409c-a5a3-17618511f819/apply?utm_source=Simplify&ref=Simplify|AnaVation|Computer Science Intern|Huntsville, AL|Summer 2026#1",
       "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-AI-Innovation/364696?utm_source=Simplify&ref=Simplify|Deloitte|AI Innovation Summer Scholar Intern - AI Innovation|McLean, VA|Summer 2026#1",
       "https://jobs.ashbyhq.com/telus-digital/32ee6ede-d3cf-4827-b7af-f8d64f2bca11/application?embed=true&utm_source=Simplify&ref=Simplify|TELUS Digital|Software Engineer Intern - US - Summer 2027|Durham, NC Columbus, OH Charlottesville, VA|Summer 2026#1",
-      "https://abinbev.wd1.myworkdayjobs.com/en-US/USA/job/St-Louis-Missouri/Technology-Internship_30102525?utm_source=Simplify&ref=Simplify|Anheuser-Busch|Technology Intern|St. Louis, MO|Summer 2026#1"
+      "https://abinbev.wd1.myworkdayjobs.com/en-US/USA/job/St-Louis-Missouri/Technology-Internship_30102525?utm_source=Simplify&ref=Simplify|Anheuser-Busch|Technology Intern|St. Louis, MO|Summer 2026#1",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Software-Developer-Intern_R0248130?utm_source=Simplify&ref=Simplify|Booz Allen|Software Developer Intern - University - 2027 Summer Games|Colorado Springs, CO|Summer 2026#1",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/University--2027-Summer-Games-Software-Developer-Intern_R0248141?utm_source=Simplify&ref=Simplify|Booz Allen|Software Developer Intern - Summer Games|Rome, NY|Summer 2026#1",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Charleston-SC/University---2027-Summer-Games-Software-Developer-Intern_R0248134?utm_source=Simplify&ref=Simplify|Booz Allen|Software Developer Intern - University|Charleston, SC|Summer 2026#1",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/University---2027-Summer-Games-Software-Developer-Intern---Atlanta--GA_R0248138?utm_source=Simplify&ref=Simplify|Booz Allen|Software Developer Intern - University|Atlanta, GA|Summer 2026#1",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/AI-Software-Developer-Intern_R0248115?utm_source=Simplify&ref=Simplify|Booz Allen|AI Software Developer Intern|San Diego, CA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 229,
+    "last_row_count": 234,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -2543,7 +2548,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "eae1b60a04629c550c5addad35eeafbd05fb28f2",
+    "last_sha": "d675e2e84ae61a1190f475d39f7c9006a179bad2",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2638,7 +2643,8 @@
       "https://apply.careers.microsoft.com/careers/job/1970393556979054|Microsoft|AI Software Engineering Intern - Edge|Washington, DC +1|FAANG+#1",
       "https://lifeattiktok.com/search/7676276048527214901|TikTok|Software Engineer Intern - TikTok AI Search & Visual Search Infra Team - 2027 Summer|San Jose, CA|FAANG+#1",
       "https://www.google.com/about/careers/applications/jobs/results/91436104816698054|Google|Software Engineering Intern - PhD - Summer 2027|Mountain View, CA +29|FAANG+#1",
-      "https://apply.careers.microsoft.com/careers/job/1970393556979054|Microsoft|AI Software Engineering Intern|Washington, DC +1|FAANG+#1"
+      "https://apply.careers.microsoft.com/careers/job/1970393556979054|Microsoft|AI Software Engineering Intern|Washington, DC +1|FAANG+#1",
+      "https://www.amazon.jobs/jobs/10517149/apply|Amazon|Robotics - Software Development Engineer Fall Intern/Co-op - 2026|Westboro, WI|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -2664,11 +2670,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 75,
+    "last_row_count": 76,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "eae1b60a04629c550c5addad35eeafbd05fb28f2",
+    "last_sha": "d675e2e84ae61a1190f475d39f7c9006a179bad2",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2707,7 +2713,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "eae1b60a04629c550c5addad35eeafbd05fb28f2",
+    "last_sha": "d675e2e84ae61a1190f475d39f7c9006a179bad2",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -2895,7 +2901,32 @@
       "https://plexus.wd504.myworkdayjobs.com/en-US/plexus_careers/job/Neenah-WI/Intern---Software-Engineer--Spring-2027-_R041060|Plexus|Intern - Software Engineer - Spring 2027|Neenah, WI|Other#1",
       "https://thehartford.wd5.myworkdayjobs.com/en-US/careers_external/job/Columbus-OH/Tech---Data-Summer-Program-2027---Software-Engineer-Intern--Columbus-_R2626609|The Hartford|Tech & Data Program Summer 2027 - Software Engineer Intern - Columbus|Columbus, OH|Other#1",
       "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510|Copart|Software Engineering Intern|Dallas, TX|Other#1",
-      "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109441|Copart|Software Engineering Intern|Dallas, TX|Other#1"
+      "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109441|Copart|Software Engineering Intern|Dallas, TX|Other#1",
+      "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Orange-OH-Ohio-United-States/Co-op---Software-Test-Automation-Engineer---Orange--OH---January-2027_581888|Philips|Co-op - Software Test Automation Engineer - Orange - OH - January 2027|Austintown, OH|Other#1",
+      "https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038|Booz Allen|University - 2027 Summer Games Software Developer Intern|San Diego, CA|Other#1",
+      "https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern_R0248029|Booz Allen|University - 2027 Summer Games Software Developer Intern|McLean, VA|Other#1",
+      "https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046|Booz Allen|University - 2027 Summer Games Software Developer Intern|El Segundo, CA|Other#1",
+      "https://jobs.lever.co/CesiumAstro/d406d2ed-cc05-4346-90ea-b13dfa07e411|CesiumAstro|Summer 2027 - Software Engineering Internship|Austin, TX|Other#1",
+      "https://jobs.lever.co/CesiumAstro/a4f5cae0-43fc-434f-9e14-1b5caacb6bc7|CesiumAstro|Summer 2027 - Embedded Software Engineering Internship|Austin, TX|Other#1",
+      "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Bethesda-MD/Software-Developer-Co-op_R-00190766|Leidos|Software Developer Co-op|Bethesda, MD|Other#1",
+      "https://manulife.wd3.myworkdayjobs.com/en-US/mfcjh_jobs/job/Boston-Massachusetts/Summer-Intern-2027---Software-Engineering_JR26081680|Manulife|Summer Intern 2027 - Software Engineering|Boston, MA|Other#1",
+      "https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Mounds-View-Minnesota-United-States-of-America/Engineering-Intern-Summer-2027--Candidates-Attending-2026-SWE-National-Conference-_R76021-1|Medtronic|Engineering Intern Summer 2027- Candidates Attending 2026 SWE National Conference|Mounds View, MN +19|Other#1",
+      "https://medtronic.wd1.myworkdayjobs.com/en-US/redeploymentmedtroniccareers/job/Mounds-View-Minnesota-United-States-of-America/Engineering-Intern-Summer-2027--Candidates-Attending-2026-SWE-National-Conference-_R76021|Medtronic|Engineering Intern Summer 2027- Candidates Attending 2026 SWE National Conference|Mounds View, MN +19|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-Intern--Summer-2027-_01869890-1|Raytheon|Software Engineer Intern - Summer 2027|Woburn, MA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Platform-Intern--Summer-2027-_01870216|Raytheon|Software Platform Intern - Summer 2027|Aurora, CO|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-401--401-Jan-Davis-Dr-NW--JAN-DAVIS-401/Software-Engineering-Intern--Summer-2027-_01870007|Raytheon|Software Engineering Intern - Summer 2027|Huntsville, AL|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C27--1727-Cityline-Dr--CITYLINE-C27/Software-Platform-Intern--Summer-2027-_01870211|Raytheon|Software Platform Intern - Summer 2027|Richardson, TX|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/Software-Engineer-Intern--Summer-2027-_01868801|Raytheon|Software Engineering Intern - Summer 2027|State College, PA|Other#1",
+      "https://jobs.ashbyhq.com/telus-digital/32ee6ede-d3cf-4827-b7af-f8d64f2bca11|TELUS Digital|Software Engineering Intern - US - Summer 2027|Charlottesville, VA +2|Other#1",
+      "https://workiva.wd503.myworkdayjobs.com/en-US/careers/job/USA---Remote/Summer-2027-Intern---Software-Engineering_R12190|Workiva|Summer 2027 Intern - Software Engineering|Remote - USA|Other#1",
+      "https://www.zipline.com/open-roles?gh_jid=7978843003|Zipline|Embedded Engineering Intern - Summer 2027|South San Francisco, CA|Other#1",
+      "https://aoins.wd5.myworkdayjobs.com/en-US/autoowners/job/Lansing-MI/Intern---Analytics-Web-Systems-Developer_R_14272|Auto-Owners Insurance|Intern - Analytics Web Systems Developer|Lansing, MI|Other#1",
+      "https://aoins.wd5.myworkdayjobs.com/en-US/autoowners/job/Lansing-MI/Software-Developer-Internship_R_2121|Auto-Owners Insurance|Software Developer Internship - Summer 2027|Lansing, MI|Other#1",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000145785190-phone-as-a-key-software-engineering-intern?oga=true|Bosch|Phone as a Key Software Engineering - Intern|Plymouth, MI|Other#1",
+      "https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op--Spring-2027_R-095741|Johnson & Johnson|Software Engineering Co-Op - Spring 2027|Cincinnati, OH|Other#1",
+      "https://jobs.ashbyhq.com/kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5|Kognitos|Software Engineer Intern - AI-Native \u2014 Fall 2026|San Jose, CA|Other#1",
+      "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/6314-RemoteTeleworker-US/Software-Engineering---AI-Intern_R-00190648|Leidos|Software Engineering & AI Intern|Remote - Odenton, MD +1|Other#1",
+      "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Denver/Software-Intern--Summer-2027-_R185388|Parsons|Software Intern - Summer 2027|Denver, CO|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -3039,7 +3070,63 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 175,
-    "outbox": []
+    "last_row_count": 196,
+    "outbox": [
+      [
+        [
+          "The Hartford",
+          "Tech & Data Program Summer 2027 - Software Engineer Intern - Charlotte",
+          "Charlotte, NC",
+          "Other",
+          "https://thehartford.wd5.myworkdayjobs.com/en-US/careers_external/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Charlotte-_R2626649"
+        ],
+        "https://thehartford.wd5.myworkdayjobs.com/en-US/careers_external/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Charlotte-_R2626649|The Hartford|Tech & Data Program Summer 2027 - Software Engineer Intern - Charlotte|Charlotte, NC|Other#1",
+        1
+      ],
+      [
+        [
+          "Northrop Grumman",
+          "2027 Software Test Engineering Intern- Huntsville AL",
+          "Huntsville, AL",
+          "Other",
+          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485"
+        ],
+        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485|Northrop Grumman|2027 Software Test Engineering Intern- Huntsville AL|Huntsville, AL|Other#1",
+        1
+      ],
+      [
+        [
+          "Northrop Grumman",
+          "2027 Software Engineering Intern- Huntsville AL",
+          "Huntsville, AL",
+          "Other",
+          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486"
+        ],
+        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486|Northrop Grumman|2027 Software Engineering Intern- Huntsville AL|Huntsville, AL|Other#1",
+        1
+      ],
+      [
+        [
+          "Northrop Grumman",
+          "2027 Software Test Engineering Intern- Huntsville AL",
+          "Huntsville, AL",
+          "Other",
+          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483"
+        ],
+        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483|Northrop Grumman|2027 Software Test Engineering Intern- Huntsville AL|Huntsville, AL|Other#1",
+        1
+      ],
+      [
+        [
+          "Emory University",
+          "Internship - GPS Sample Tester and Junior Developer - ETS - Temporary",
+          "Decatur, GA",
+          "Other",
+          "https://staff-emory.icims.com/jobs/172196/internship%2c-gps-sample-tester-and-junior-developer-%28ets%29-%7c-temporary/job"
+        ],
+        "https://staff-emory.icims.com/jobs/172196/internship%2c-gps-sample-tester-and-junior-developer-%28ets%29-%7c-temporary/job|Emory University|Internship - GPS Sample Tester and Junior Developer - ETS - Temporary|Decatur, GA|Other#1",
+        1
+      ]
+    ]
   }
 }
