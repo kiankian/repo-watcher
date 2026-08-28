@@ -20072,6 +20072,18 @@
       "chat_id": 7582459199,
       "seq": 1115,
       "identity": "https://jobs.ashbyhq.com/persona.ai/1e8d195c-e28e-423d-a06a-9eeb401ed4fc|Persona AI|Software Engineering Internship, Mani...|Houston, TX|Summer 2027#1"
+    },
+    "38c79ef44a58": {
+      "company": "Anheuser-Busch",
+      "role": "Technology Intern",
+      "location": "St. Louis, MO",
+      "term": "Summer 2026",
+      "apply_url": "https://abinbev.wd1.myworkdayjobs.com/en-US/USA/job/St-Louis-Missouri/Technology-Internship_30102525?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2281,
+      "chat_id": 7582459199,
+      "seq": 1116,
+      "identity": "https://abinbev.wd1.myworkdayjobs.com/en-US/USA/job/St-Louis-Missouri/Technology-Internship_30102525?utm_source=Simplify&ref=Simplify|Anheuser-Busch|Technology Intern|St. Louis, MO|Summer 2026#1"
     }
   },
   "applied": {
@@ -20439,10 +20451,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1115,
+  "seq": 1116,
   "health": {
     "last_heartbeat": "2026-08-28T20:25:15Z",
-    "last_ok_run": "2026-08-28T21:00:24Z",
+    "last_ok_run": "2026-08-28T21:05:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
