@@ -20000,6 +20000,18 @@
       "chat_id": 7582459199,
       "seq": 1109,
       "identity": "https://brunswick.wd1.myworkdayjobs.com/search/job/Menomonee-Falls-WI/Software-Engineer-Intern_JR-051426-1|Brunswick|Software Engineer Intern|Menomonee Falls, WI|Summer 2027#1"
+    },
+    "f42e4afc6804": {
+      "company": "Booz Allen Hamilton",
+      "role": "AI Software Developer Intern",
+      "location": "San Diego, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/AI-Software-Developer-Intern_R0248115",
+      "source": "Zapply Summer Repo",
+      "message_id": 2275,
+      "chat_id": 7582459199,
+      "seq": 1110,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/AI-Software-Developer-Intern_R0248115|Booz Allen Hamilton|AI Software Developer Intern|San Diego, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -20367,10 +20379,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1109,
+  "seq": 1110,
   "health": {
     "last_heartbeat": "2026-08-28T18:25:15Z",
-    "last_ok_run": "2026-08-28T18:35:12Z",
+    "last_ok_run": "2026-08-28T18:40:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
