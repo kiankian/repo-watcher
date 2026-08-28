@@ -2926,7 +2926,12 @@
       "https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op--Spring-2027_R-095741|Johnson & Johnson|Software Engineering Co-Op - Spring 2027|Cincinnati, OH|Other#1",
       "https://jobs.ashbyhq.com/kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5|Kognitos|Software Engineer Intern - AI-Native \u2014 Fall 2026|San Jose, CA|Other#1",
       "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/6314-RemoteTeleworker-US/Software-Engineering---AI-Intern_R-00190648|Leidos|Software Engineering & AI Intern|Remote - Odenton, MD +1|Other#1",
-      "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Denver/Software-Intern--Summer-2027-_R185388|Parsons|Software Intern - Summer 2027|Denver, CO|Other#1"
+      "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Denver/Software-Intern--Summer-2027-_R185388|Parsons|Software Intern - Summer 2027|Denver, CO|Other#1",
+      "https://thehartford.wd5.myworkdayjobs.com/en-US/careers_external/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Charlotte-_R2626649|The Hartford|Tech & Data Program Summer 2027 - Software Engineer Intern - Charlotte|Charlotte, NC|Other#1",
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485|Northrop Grumman|2027 Software Test Engineering Intern- Huntsville AL|Huntsville, AL|Other#1",
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486|Northrop Grumman|2027 Software Engineering Intern- Huntsville AL|Huntsville, AL|Other#1",
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483|Northrop Grumman|2027 Software Test Engineering Intern- Huntsville AL|Huntsville, AL|Other#1",
+      "https://staff-emory.icims.com/jobs/172196/internship%2c-gps-sample-tester-and-junior-developer-%28ets%29-%7c-temporary/job|Emory University|Internship - GPS Sample Tester and Junior Developer - ETS - Temporary|Decatur, GA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -3071,62 +3076,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 196,
-    "outbox": [
-      [
-        [
-          "The Hartford",
-          "Tech & Data Program Summer 2027 - Software Engineer Intern - Charlotte",
-          "Charlotte, NC",
-          "Other",
-          "https://thehartford.wd5.myworkdayjobs.com/en-US/careers_external/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Charlotte-_R2626649"
-        ],
-        "https://thehartford.wd5.myworkdayjobs.com/en-US/careers_external/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Charlotte-_R2626649|The Hartford|Tech & Data Program Summer 2027 - Software Engineer Intern - Charlotte|Charlotte, NC|Other#1",
-        1
-      ],
-      [
-        [
-          "Northrop Grumman",
-          "2027 Software Test Engineering Intern- Huntsville AL",
-          "Huntsville, AL",
-          "Other",
-          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485"
-        ],
-        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485|Northrop Grumman|2027 Software Test Engineering Intern- Huntsville AL|Huntsville, AL|Other#1",
-        1
-      ],
-      [
-        [
-          "Northrop Grumman",
-          "2027 Software Engineering Intern- Huntsville AL",
-          "Huntsville, AL",
-          "Other",
-          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486"
-        ],
-        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486|Northrop Grumman|2027 Software Engineering Intern- Huntsville AL|Huntsville, AL|Other#1",
-        1
-      ],
-      [
-        [
-          "Northrop Grumman",
-          "2027 Software Test Engineering Intern- Huntsville AL",
-          "Huntsville, AL",
-          "Other",
-          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483"
-        ],
-        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483|Northrop Grumman|2027 Software Test Engineering Intern- Huntsville AL|Huntsville, AL|Other#1",
-        1
-      ],
-      [
-        [
-          "Emory University",
-          "Internship - GPS Sample Tester and Junior Developer - ETS - Temporary",
-          "Decatur, GA",
-          "Other",
-          "https://staff-emory.icims.com/jobs/172196/internship%2c-gps-sample-tester-and-junior-developer-%28ets%29-%7c-temporary/job"
-        ],
-        "https://staff-emory.icims.com/jobs/172196/internship%2c-gps-sample-tester-and-junior-developer-%28ets%29-%7c-temporary/job|Emory University|Internship - GPS Sample Tester and Junior Developer - ETS - Temporary|Decatur, GA|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }

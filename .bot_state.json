@@ -20468,6 +20468,66 @@
       "chat_id": 7582459199,
       "seq": 1148,
       "identity": "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Denver/Software-Intern--Summer-2027-_R185388|Parsons|Software Intern - Summer 2027|Denver, CO|Other#1"
+    },
+    "3fd34621f8f4": {
+      "company": "The Hartford",
+      "role": "Tech & Data Program Summer 2027 - Software Engineer Intern - Charlotte",
+      "location": "Charlotte, NC",
+      "term": "Other",
+      "apply_url": "https://thehartford.wd5.myworkdayjobs.com/en-US/careers_external/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Charlotte-_R2626649",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2314,
+      "chat_id": 7582459199,
+      "seq": 1149,
+      "identity": "https://thehartford.wd5.myworkdayjobs.com/en-US/careers_external/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Charlotte-_R2626649|The Hartford|Tech & Data Program Summer 2027 - Software Engineer Intern - Charlotte|Charlotte, NC|Other#1"
+    },
+    "641fecfe18df": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Test Engineering Intern- Huntsville AL",
+      "location": "Huntsville, AL",
+      "term": "Other",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2315,
+      "chat_id": 7582459199,
+      "seq": 1150,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485|Northrop Grumman|2027 Software Test Engineering Intern- Huntsville AL|Huntsville, AL|Other#1"
+    },
+    "ad0f8aae6e11": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Engineering Intern- Huntsville AL",
+      "location": "Huntsville, AL",
+      "term": "Other",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2316,
+      "chat_id": 7582459199,
+      "seq": 1151,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486|Northrop Grumman|2027 Software Engineering Intern- Huntsville AL|Huntsville, AL|Other#1"
+    },
+    "b20ec9baff22": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Test Engineering Intern- Huntsville AL",
+      "location": "Huntsville, AL",
+      "term": "Other",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2317,
+      "chat_id": 7582459199,
+      "seq": 1152,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483|Northrop Grumman|2027 Software Test Engineering Intern- Huntsville AL|Huntsville, AL|Other#1"
+    },
+    "1561ddf11d0d": {
+      "company": "Emory University",
+      "role": "Internship - GPS Sample Tester and Junior Developer - ETS - Temporary",
+      "location": "Decatur, GA",
+      "term": "Other",
+      "apply_url": "https://staff-emory.icims.com/jobs/172196/internship%2c-gps-sample-tester-and-junior-developer-%28ets%29-%7c-temporary/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2318,
+      "chat_id": 7582459199,
+      "seq": 1153,
+      "identity": "https://staff-emory.icims.com/jobs/172196/internship%2c-gps-sample-tester-and-junior-developer-%28ets%29-%7c-temporary/job|Emory University|Internship - GPS Sample Tester and Junior Developer - ETS - Temporary|Decatur, GA|Other#1"
     }
   },
   "applied": {
@@ -20835,10 +20895,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1148,
+  "seq": 1153,
   "health": {
     "last_heartbeat": "2026-08-28T21:30:20Z",
-    "last_ok_run": "2026-08-28T22:05:55Z",
+    "last_ok_run": "2026-08-28T22:10:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
