@@ -19868,6 +19868,18 @@
       "chat_id": 7582459199,
       "seq": 1098,
       "identity": "https://jobs.ashbyhq.com/telus-digital/32ee6ede-d3cf-4827-b7af-f8d64f2bca11/application?embed=true&utm_source=Simplify&ref=Simplify|TELUS Digital|Software Engineer Intern - US - Summer 2027|Durham, NC Columbus, OH Charlottesville, VA|Summer 2026#1"
+    },
+    "f6a1bb52c7c1": {
+      "company": "Fortive",
+      "role": "Test Engineer Intern Co-Op",
+      "location": "Everett, WA, United St...",
+      "term": "Summer 2027",
+      "apply_url": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10562",
+      "source": "Zapply Summer Repo",
+      "message_id": 2264,
+      "chat_id": 7582459199,
+      "seq": 1099,
+      "identity": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10562|Fortive|Test Engineer Intern Co-Op|Everett, WA, United St...|Summer 2027#1"
     }
   },
   "applied": {
@@ -20235,10 +20247,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1098,
+  "seq": 1099,
   "health": {
     "last_heartbeat": "2026-08-28T01:25:16Z",
-    "last_ok_run": "2026-08-28T02:10:14Z",
+    "last_ok_run": "2026-08-28T02:15:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
