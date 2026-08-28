@@ -19880,6 +19880,18 @@
       "chat_id": 7582459199,
       "seq": 1099,
       "identity": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10562|Fortive|Test Engineer Intern Co-Op|Everett, WA, United St...|Summer 2027#1"
+    },
+    "0e5bdf5e2d8c": {
+      "company": "Philips",
+      "role": "Co-op \u2013 Software Test Automation Engi...",
+      "location": "Orange (OH), Ohio, Uni...",
+      "term": "Summer 2027",
+      "apply_url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Orange-OH-Ohio-United-States/Co-op---Software-Test-Automation-Engineer---Orange--OH---January-2027_581888",
+      "source": "Zapply Summer Repo",
+      "message_id": 2265,
+      "chat_id": 7582459199,
+      "seq": 1100,
+      "identity": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Orange-OH-Ohio-United-States/Co-op---Software-Test-Automation-Engineer---Orange--OH---January-2027_581888|Philips|Co-op \u2013 Software Test Automation Engi...|Orange (OH), Ohio, Uni...|Summer 2027#1"
     }
   },
   "applied": {
@@ -20247,10 +20259,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1099,
+  "seq": 1100,
   "health": {
     "last_heartbeat": "2026-08-28T03:50:15Z",
-    "last_ok_run": "2026-08-28T04:20:15Z",
+    "last_ok_run": "2026-08-28T04:25:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
