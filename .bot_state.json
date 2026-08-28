@@ -20024,6 +20024,54 @@
       "chat_id": 7582459199,
       "seq": 1111,
       "identity": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Orlando-FL-USA/Software-Engineering-Intern--Spring-2027_10158599|Disney|Software Engineering Intern, Spring 2027|Orlando, FL, USA|Summer 2027#1"
+    },
+    "df42dfdce4a9": {
+      "company": "Booz Allen Hamilton",
+      "role": "University \u2013 Summer 27, Cybersecurity...",
+      "location": "McLean, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Cybersecurity-Analyst-Intern_R0248214",
+      "source": "Zapply Summer Repo",
+      "message_id": 2277,
+      "chat_id": 7582459199,
+      "seq": 1112,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Cybersecurity-Analyst-Intern_R0248214|Booz Allen Hamilton|University \u2013 Summer 27, Cybersecurity...|McLean, VA|Summer 2027#1"
+    },
+    "cb1f78023c50": {
+      "company": "Nidec",
+      "role": "Quality Engineer Co-op",
+      "location": "North America/USA/Miss...",
+      "term": "Summer 2027",
+      "apply_url": "https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSAMissouriSt-Louis---WPE-MO/Quality-Engineer-Co-op_R0017397",
+      "source": "Zapply Summer Repo",
+      "message_id": 2278,
+      "chat_id": 7582459199,
+      "seq": 1113,
+      "identity": "https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSAMissouriSt-Louis---WPE-MO/Quality-Engineer-Co-op_R0017397|Nidec|Quality Engineer Co-op|North America/USA/Miss...|Summer 2027#1"
+    },
+    "06f7a5a3f33e": {
+      "company": "Brunswick",
+      "role": "Software Engineering Intern",
+      "location": "Champaign, IL",
+      "term": "Summer 2027",
+      "apply_url": "https://brunswick.wd1.myworkdayjobs.com/search/job/Champaign-IL/Software-Engineering-Intern_JR-051449",
+      "source": "Zapply Summer Repo",
+      "message_id": 2279,
+      "chat_id": 7582459199,
+      "seq": 1114,
+      "identity": "https://brunswick.wd1.myworkdayjobs.com/search/job/Champaign-IL/Software-Engineering-Intern_JR-051449|Brunswick|Software Engineering Intern|Champaign, IL|Summer 2027#1"
+    },
+    "33af61477b0b": {
+      "company": "Persona AI",
+      "role": "Software Engineering Internship, Mani...",
+      "location": "Houston, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/persona.ai/1e8d195c-e28e-423d-a06a-9eeb401ed4fc",
+      "source": "Zapply Summer Repo",
+      "message_id": 2280,
+      "chat_id": 7582459199,
+      "seq": 1115,
+      "identity": "https://jobs.ashbyhq.com/persona.ai/1e8d195c-e28e-423d-a06a-9eeb401ed4fc|Persona AI|Software Engineering Internship, Mani...|Houston, TX|Summer 2027#1"
     }
   },
   "applied": {
@@ -20391,10 +20439,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1111,
+  "seq": 1115,
   "health": {
     "last_heartbeat": "2026-08-28T20:25:15Z",
-    "last_ok_run": "2026-08-28T20:45:16Z",
+    "last_ok_run": "2026-08-28T20:50:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
