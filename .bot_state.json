@@ -19916,6 +19916,18 @@
       "chat_id": 7582459199,
       "seq": 1102,
       "identity": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1|Salesforce|Summer 2027 Intern - Software Engineer|California San Francisco|Summer 2027#1"
+    },
+    "3cd0f25aa467": {
+      "company": "Motorola Solutions",
+      "role": "Mission Critical Networks Software En...",
+      "location": "Schaumburg, IL, More...",
+      "term": "Summer 2027",
+      "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782",
+      "source": "Zapply Summer Repo",
+      "message_id": 2268,
+      "chat_id": 7582459199,
+      "seq": 1103,
+      "identity": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782|Motorola Solutions|Mission Critical Networks Software En...|Schaumburg, IL, More...|Summer 2027#1"
     }
   },
   "applied": {
@@ -20283,10 +20295,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1102,
+  "seq": 1103,
   "health": {
     "last_heartbeat": "2026-08-28T14:00:22Z",
-    "last_ok_run": "2026-08-28T14:35:13Z",
+    "last_ok_run": "2026-08-28T14:40:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
