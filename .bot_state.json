@@ -20564,6 +20564,30 @@
       "chat_id": 7582459199,
       "seq": 1156,
       "identity": "https://career-schwab.icims.com/jobs/126228/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Charles Schwab|Software Engineering Intern - Technology|6 locationsAustin, TX Westlake, TX Ann Arbor, MI Southlake, TX Omaha, NE Phoenix, AZ|Summer 2026#1"
+    },
+    "0701afb16078": {
+      "company": "Northwood Space",
+      "role": "Software Engineering Intern (2027 Sum...",
+      "location": "Torrance, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/northwoodspace/ce3d4b73-461e-4128-a6f1-f933897e8119",
+      "source": "Zapply Summer Repo",
+      "message_id": 2322,
+      "chat_id": 7582459199,
+      "seq": 1157,
+      "identity": "https://jobs.ashbyhq.com/northwoodspace/ce3d4b73-461e-4128-a6f1-f933897e8119|Northwood Space|Software Engineering Intern (2027 Sum...|Torrance, CA|Summer 2027#1"
+    },
+    "0a634b7b79ed": {
+      "company": "Northwood Space",
+      "role": "Embedded Software Engineering Intern ...",
+      "location": "Torrance, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/northwoodspace/d0cca9dd-ea90-4c3b-94b4-17761932d11c",
+      "source": "Zapply Summer Repo",
+      "message_id": 2323,
+      "chat_id": 7582459199,
+      "seq": 1158,
+      "identity": "https://jobs.ashbyhq.com/northwoodspace/d0cca9dd-ea90-4c3b-94b4-17761932d11c|Northwood Space|Embedded Software Engineering Intern ...|Torrance, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -20931,10 +20955,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1156,
+  "seq": 1158,
   "health": {
     "last_heartbeat": "2026-08-29T00:55:14Z",
-    "last_ok_run": "2026-08-29T01:05:19Z",
+    "last_ok_run": "2026-08-29T01:10:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
