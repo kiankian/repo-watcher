@@ -20888,6 +20888,30 @@
       "chat_id": 7582459199,
       "seq": 1183,
       "identity": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Orlando-FL-USA/Software-Engineering-Intern--Spring-2027_10158599|Walt Disney|Software Engineering Intern - Spring 2027|Orlando, FL|Other#1"
+    },
+    "1a6d33626f4b": {
+      "company": "Micron Technology",
+      "role": "Intern - DRAM Product Test Engineer",
+      "location": "Boise, ID - Main Site",
+      "term": "Summer 2027",
+      "apply_url": "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/DRAM-Product-Test-Engineer-Intern_JR110025",
+      "source": "Zapply Summer Repo",
+      "message_id": 2349,
+      "chat_id": 7582459199,
+      "seq": 1184,
+      "identity": "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/DRAM-Product-Test-Engineer-Intern_JR110025|Micron Technology|Intern - DRAM Product Test Engineer|Boise, ID - Main Site|Summer 2027#1"
+    },
+    "c48140c1e96a": {
+      "company": "Micron Technology",
+      "role": "Intern - DRAM Product Test Engineer",
+      "location": "Boise, ID - Main Site",
+      "term": "Summer 2027",
+      "apply_url": "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/DRAM-Prodcut-Test-Engineer-Intern_JR109996",
+      "source": "Zapply Summer Repo",
+      "message_id": 2350,
+      "chat_id": 7582459199,
+      "seq": 1185,
+      "identity": "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/DRAM-Prodcut-Test-Engineer-Intern_JR109996|Micron Technology|Intern - DRAM Product Test Engineer|Boise, ID - Main Site|Summer 2027#1"
     }
   },
   "applied": {
@@ -21255,10 +21279,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1183,
+  "seq": 1185,
   "health": {
     "last_heartbeat": "2026-08-30T21:25:13Z",
-    "last_ok_run": "2026-08-30T22:10:17Z",
+    "last_ok_run": "2026-08-30T22:15:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
