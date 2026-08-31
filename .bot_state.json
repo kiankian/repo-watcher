@@ -20948,6 +20948,54 @@
       "chat_id": 7582459199,
       "seq": 1188,
       "identity": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/London-GBR/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering--EMEA_R106800?utm_source=Simplify&ref=Simplify|PIMCO|Software Engineering Intern - Technology Analyst|London, UK|Summer 2026#1"
+    },
+    "c207f8bc245a": {
+      "company": "Qorvo",
+      "role": "Full-Stack Web Developer Intern",
+      "location": "Richardson, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.qorvo.com/job/Richardson-Full-Stack-Web-Developer-Intern-TX-75080/1424716200/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2354,
+      "chat_id": 7582459199,
+      "seq": 1189,
+      "identity": "https://careers.qorvo.com/job/Richardson-Full-Stack-Web-Developer-Intern-TX-75080/1424716200/?ats=successfactors&utm_source=Simplify&ref=Simplify|Qorvo|Full-Stack Web Developer Intern|Richardson, TX|Summer 2026#1"
+    },
+    "6af9be415f08": {
+      "company": "Stryker",
+      "role": "Software Engineering Intern - Multiple Teams",
+      "location": "Fort Wayne, IN",
+      "term": "Summer 2026",
+      "apply_url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2355,
+      "chat_id": 7582459199,
+      "seq": 1190,
+      "identity": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631?utm_source=Simplify&ref=Simplify|Stryker|Software Engineering Intern - Multiple Teams|Fort Wayne, IN|Summer 2026#1"
+    },
+    "77855ac70b74": {
+      "company": "Stryker",
+      "role": "Software Engineering Intern - Software Engineering",
+      "location": "Fort Lauderdale, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2356,
+      "chat_id": 7582459199,
+      "seq": 1191,
+      "identity": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1?utm_source=Simplify&ref=Simplify|Stryker|Software Engineering Intern - Software Engineering|Fort Lauderdale, FL|Summer 2026#1"
+    },
+    "40fc42f86eae": {
+      "company": "Stryker",
+      "role": "Software Engineering Intern - Software Engineering",
+      "location": "Portage, MI",
+      "term": "Summer 2026",
+      "apply_url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2357,
+      "chat_id": 7582459199,
+      "seq": 1192,
+      "identity": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1?utm_source=Simplify&ref=Simplify|Stryker|Software Engineering Intern - Software Engineering|Portage, MI|Summer 2026#1"
     }
   },
   "applied": {
@@ -21315,10 +21363,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1188,
+  "seq": 1192,
   "health": {
     "last_heartbeat": "2026-08-31T05:10:13Z",
-    "last_ok_run": "2026-08-31T05:30:19Z",
+    "last_ok_run": "2026-08-31T05:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
