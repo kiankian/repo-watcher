@@ -21728,6 +21728,18 @@
       "chat_id": 7582459199,
       "seq": 1253,
       "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000146546849?utm_source=Simplify&ref=Simplify|Bosch Home Comfort|Software Engineer Intern|Farmington Hills, MI|Summer 2026#1"
+    },
+    "d299fc09312d": {
+      "company": "Stripe",
+      "role": "Software Engineer, Intern",
+      "location": "San Francisco, Seattle, New York...",
+      "term": "Summer 2027",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=8128745",
+      "source": "Zapply Summer Repo",
+      "message_id": 2419,
+      "chat_id": 7582459199,
+      "seq": 1254,
+      "identity": "https://stripe.com/jobs/search?gh_jid=8128745|Stripe|Software Engineer, Intern|San Francisco, Seattle, New York...|Summer 2027#1"
     }
   },
   "applied": {
@@ -22095,10 +22107,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1253,
+  "seq": 1254,
   "health": {
     "last_heartbeat": "2026-08-31T22:20:13Z",
-    "last_ok_run": "2026-08-31T22:40:15Z",
+    "last_ok_run": "2026-08-31T22:45:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
