@@ -21476,6 +21476,54 @@
       "chat_id": 7582459199,
       "seq": 1232,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/XMLNAME-2026-Part-Time-Cyber-Security-Engineering-Intern---Aurora-CO_R10248520|Northrop Grumman|2026 Part-Time Cyber Security Enginee...|United States-Colorado-Aurora|Summer 2027#1"
+    },
+    "2f4c42818fca": {
+      "company": "The Home Depot",
+      "role": "Software Engineer Intern",
+      "location": "Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Software-Engineering_Req191937?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2398,
+      "chat_id": 7582459199,
+      "seq": 1233,
+      "identity": "https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Software-Engineering_Req191937?utm_source=Simplify&ref=Simplify|The Home Depot|Software Engineer Intern|Atlanta, GA|Summer 2026#1"
+    },
+    "da1a19ee6807": {
+      "company": "Medline",
+      "role": "RPA & Agentic AI Software Technologies Intern - Summer 2027",
+      "location": "Northbrook, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://medline.wd5.myworkdayjobs.com/en-US/Medline/job/Northbrook-Illinois/RPA---Agentic-AI-Software-Technologies-Intern---Summer-2027_R2617378?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2399,
+      "chat_id": 7582459199,
+      "seq": 1234,
+      "identity": "https://medline.wd5.myworkdayjobs.com/en-US/Medline/job/Northbrook-Illinois/RPA---Agentic-AI-Software-Technologies-Intern---Summer-2027_R2617378?utm_source=Simplify&ref=Simplify|Medline|RPA & Agentic AI Software Technologies Intern - Summer 2027|Northbrook, IL|Summer 2026#1"
+    },
+    "049f974de9c0": {
+      "company": "Leidos",
+      "role": "SharePoint & Systems Engineering Intern",
+      "location": "6314 Remote/Teleworker US",
+      "term": "Summer 2027",
+      "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/SharePoint---Systems-Engineering-Intern_R-00190982",
+      "source": "Zapply Summer Repo",
+      "message_id": 2400,
+      "chat_id": 7582459199,
+      "seq": 1235,
+      "identity": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/SharePoint---Systems-Engineering-Intern_R-00190982|Leidos|SharePoint & Systems Engineering Intern|6314 Remote/Teleworker US|Summer 2027#1"
+    },
+    "bddcdff733c9": {
+      "company": "Epic Games",
+      "role": "Frontend Programmer Intern",
+      "location": "Cary,North Carolina,United States",
+      "term": "Summer 2027",
+      "apply_url": "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004",
+      "source": "Zapply Summer Repo",
+      "message_id": 2401,
+      "chat_id": 7582459199,
+      "seq": 1236,
+      "identity": "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004|Epic Games|Frontend Programmer Intern|Cary,North Carolina,United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -21843,10 +21891,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1232,
+  "seq": 1236,
   "health": {
     "last_heartbeat": "2026-08-31T19:00:20Z",
-    "last_ok_run": "2026-08-31T19:30:20Z",
+    "last_ok_run": "2026-08-31T19:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
