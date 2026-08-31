@@ -21536,6 +21536,42 @@
       "chat_id": 7582459199,
       "seq": 1237,
       "identity": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279193|Vertiv|IT Quality Assurance Intern (Summer 2...|Westerville, OH, United States|Summer 2027#1"
+    },
+    "f280e658ca90": {
+      "company": "CACI",
+      "role": "Embedded Software Engineering Co-op -...",
+      "location": "Danbury, CT, US",
+      "term": "Summer 2027",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/External/job/Danbury-CT-US/Embedded-Software-Engineering-Co-op---Spring-2027_331368",
+      "source": "Zapply Summer Repo",
+      "message_id": 2403,
+      "chat_id": 7582459199,
+      "seq": 1238,
+      "identity": "https://caci.wd1.myworkdayjobs.com/External/job/Danbury-CT-US/Embedded-Software-Engineering-Co-op---Spring-2027_331368|CACI|Embedded Software Engineering Co-op -...|Danbury, CT, US|Summer 2027#1"
+    },
+    "1d85c889f184": {
+      "company": "Bosch Group",
+      "role": "Software Engineering Intern (8 months...",
+      "location": "Farmington Hills, MI",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000146546849",
+      "source": "Zapply Summer Repo",
+      "message_id": 2404,
+      "chat_id": 7582459199,
+      "seq": 1239,
+      "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000146546849|Bosch Group|Software Engineering Intern (8 months...|Farmington Hills, MI|Summer 2027#1"
+    },
+    "2a5f96009c4a": {
+      "company": "Whatnot",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "San Francisco, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/whatnot/928ffdca-b316-40ce-b82b-94b570919bcd",
+      "source": "Zapply Summer Repo",
+      "message_id": 2405,
+      "chat_id": 7582459199,
+      "seq": 1240,
+      "identity": "https://jobs.ashbyhq.com/whatnot/928ffdca-b316-40ce-b82b-94b570919bcd|Whatnot|Software Engineer Intern (Summer 2027)|San Francisco, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -21903,10 +21939,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1237,
+  "seq": 1240,
   "health": {
     "last_heartbeat": "2026-08-31T20:10:14Z",
-    "last_ok_run": "2026-08-31T20:20:16Z",
+    "last_ok_run": "2026-08-31T20:25:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
