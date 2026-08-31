@@ -21704,6 +21704,30 @@
       "chat_id": 7582459199,
       "seq": 1251,
       "identity": "https://www.ixl.com/company/jobs?gh_jid=8765770002|IXL Learning|Software Engineer, Intern|San Mateo, CA|Summer 2027#1"
+    },
+    "0edc683aaaa4": {
+      "company": "Epic Games",
+      "role": "Frontend Programmer Intern",
+      "location": "Cary, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2417,
+      "chat_id": 7582459199,
+      "seq": 1252,
+      "identity": "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004&utm_source=Simplify&ref=Simplify|Epic Games|Frontend Programmer Intern|Cary, NC|Summer 2026#1"
+    },
+    "84a69b457a45": {
+      "company": "Bosch Home Comfort",
+      "role": "Software Engineer Intern",
+      "location": "Farmington Hills, MI",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000146546849?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2418,
+      "chat_id": 7582459199,
+      "seq": 1253,
+      "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000146546849?utm_source=Simplify&ref=Simplify|Bosch Home Comfort|Software Engineer Intern|Farmington Hills, MI|Summer 2026#1"
     }
   },
   "applied": {
@@ -22071,10 +22095,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1251,
+  "seq": 1253,
   "health": {
     "last_heartbeat": "2026-08-31T22:20:13Z",
-    "last_ok_run": "2026-08-31T22:30:17Z",
+    "last_ok_run": "2026-08-31T22:35:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
