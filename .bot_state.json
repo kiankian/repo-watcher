@@ -21524,6 +21524,18 @@
       "chat_id": 7582459199,
       "seq": 1236,
       "identity": "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004|Epic Games|Frontend Programmer Intern|Cary,North Carolina,United States|Summer 2027#1"
+    },
+    "c44e34b0784a": {
+      "company": "Vertiv",
+      "role": "IT Quality Assurance Intern (Summer 2...",
+      "location": "Westerville, OH, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279193",
+      "source": "Zapply Summer Repo",
+      "message_id": 2402,
+      "chat_id": 7582459199,
+      "seq": 1237,
+      "identity": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279193|Vertiv|IT Quality Assurance Intern (Summer 2...|Westerville, OH, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -21891,10 +21903,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1236,
+  "seq": 1237,
   "health": {
     "last_heartbeat": "2026-08-31T19:00:20Z",
-    "last_ok_run": "2026-08-31T19:50:15Z",
+    "last_ok_run": "2026-08-31T19:55:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
