@@ -21452,6 +21452,30 @@
       "chat_id": 7582459199,
       "seq": 1230,
       "identity": "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1|Stryker|Summer 2027 Internship - Software Engineering - Florida|Fort Lauderdale, FL|Other#1"
+    },
+    "eaa42518f2fc": {
+      "company": "Parsons",
+      "role": "Software Developer Intern",
+      "location": "Remote (Any Location), R185565",
+      "term": "Summer 2027",
+      "apply_url": "https://parsons.wd5.myworkdayjobs.com/search/job/US---Remote-Any-Location/Software-Developer-Intern_R185565",
+      "source": "Zapply Summer Repo",
+      "message_id": 2396,
+      "chat_id": 7582459199,
+      "seq": 1231,
+      "identity": "https://parsons.wd5.myworkdayjobs.com/search/job/US---Remote-Any-Location/Software-Developer-Intern_R185565|Parsons|Software Developer Intern|Remote (Any Location), R185565|Summer 2027#1"
+    },
+    "d109a2ab72f8": {
+      "company": "Northrop Grumman",
+      "role": "2026 Part-Time Cyber Security Enginee...",
+      "location": "United States-Colorado-Aurora",
+      "term": "Summer 2027",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/XMLNAME-2026-Part-Time-Cyber-Security-Engineering-Intern---Aurora-CO_R10248520",
+      "source": "Zapply Summer Repo",
+      "message_id": 2397,
+      "chat_id": 7582459199,
+      "seq": 1232,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/XMLNAME-2026-Part-Time-Cyber-Security-Engineering-Intern---Aurora-CO_R10248520|Northrop Grumman|2026 Part-Time Cyber Security Enginee...|United States-Colorado-Aurora|Summer 2027#1"
     }
   },
   "applied": {
@@ -21819,10 +21843,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1230,
+  "seq": 1232,
   "health": {
     "last_heartbeat": "2026-08-31T19:00:20Z",
-    "last_ok_run": "2026-08-31T19:10:15Z",
+    "last_ok_run": "2026-08-31T19:15:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
