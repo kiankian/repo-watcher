@@ -21824,6 +21824,18 @@
       "chat_id": 7582459199,
       "seq": 1261,
       "identity": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/IL-Rosemont/Connected-Physical-Products-Intern---Summer-2027_757231WD?utm_source=Simplify&ref=Simplify|PricewaterhouseCoopers (PwC)|Connected Physical Products Intern - Summer 2027|14 locationsBoston, MA Seattle, WA Houston, TX Washington, DC SF LA Dallas, TX Philadelphia, PA Rosemont, IL Chicago, IL Silicon Valley, CA NYC Minneapolis, MN Atlanta, GA|Summer 2026#1"
+    },
+    "9394d1aa774e": {
+      "company": "Stripe",
+      "role": "Software Engineer, Intern (Summer or ...",
+      "location": "San Francisco, Seattle, New York...",
+      "term": "Summer 2027",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=8128745",
+      "source": "Zapply Summer Repo",
+      "message_id": 2427,
+      "chat_id": 7582459199,
+      "seq": 1262,
+      "identity": "https://stripe.com/jobs/search?gh_jid=8128745|Stripe|Software Engineer, Intern (Summer or ...|San Francisco, Seattle, New York...|Summer 2027#1"
     }
   },
   "applied": {
@@ -22191,10 +22203,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1261,
+  "seq": 1262,
   "health": {
     "last_heartbeat": "2026-08-31T23:20:17Z",
-    "last_ok_run": "2026-08-31T23:30:16Z",
+    "last_ok_run": "2026-08-31T23:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
