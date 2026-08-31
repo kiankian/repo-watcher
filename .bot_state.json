@@ -21020,6 +21020,18 @@
       "chat_id": 7582459199,
       "seq": 1194,
       "identity": "https://jobs.smartrecruiters.com/CapTechConsulting/744000146449269|CapTech Consulting|Software Engineering Associate Consul...|Richmond, VA|Summer 2027#1"
+    },
+    "20dfd5b9f955": {
+      "company": "Elanco",
+      "role": "Junior IT Engineer \u2013 Information Tech...",
+      "location": "Indianapolis, IN",
+      "term": "Summer 2027",
+      "apply_url": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/Indianapolis-IN/Junior-IT-Engineer---Information-Technology-Intern--Summer-2027-_R0026986-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 2360,
+      "chat_id": 7582459199,
+      "seq": 1195,
+      "identity": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/Indianapolis-IN/Junior-IT-Engineer---Information-Technology-Intern--Summer-2027-_R0026986-1|Elanco|Junior IT Engineer \u2013 Information Tech...|Indianapolis, IN|Summer 2027#1"
     }
   },
   "applied": {
@@ -21387,10 +21399,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1194,
+  "seq": 1195,
   "health": {
     "last_heartbeat": "2026-08-31T13:25:15Z",
-    "last_ok_run": "2026-08-31T14:05:14Z",
+    "last_ok_run": "2026-08-31T14:10:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
