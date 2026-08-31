@@ -21164,6 +21164,30 @@
       "chat_id": 7582459199,
       "seq": 1206,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Systems-Engineering-Intern--Roy-UT_R10248475|Northrop Grumman|2027 Systems Engineering Intern- Roy UT|Utah|Summer 2027#1"
+    },
+    "2836a083e0cd": {
+      "company": "Nike",
+      "role": "NIKE, Inc. Software Engineering Under...",
+      "location": "Beaverton, Oregon",
+      "term": "Summer 2027",
+      "apply_url": "https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Software-Engineering-Undergraduate-Internship_R-91111",
+      "source": "Zapply Summer Repo",
+      "message_id": 2372,
+      "chat_id": 7582459199,
+      "seq": 1207,
+      "identity": "https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Software-Engineering-Undergraduate-Internship_R-91111|Nike|NIKE, Inc. Software Engineering Under...|Beaverton, Oregon|Summer 2027#1"
+    },
+    "c07fe2c1cc05": {
+      "company": "Fortive",
+      "role": "Test Engineer Co-Op",
+      "location": "Everett, WA, United St...",
+      "term": "Summer 2027",
+      "apply_url": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10562",
+      "source": "Zapply Summer Repo",
+      "message_id": 2373,
+      "chat_id": 7582459199,
+      "seq": 1208,
+      "identity": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10562|Fortive|Test Engineer Co-Op|Everett, WA, United St...|Summer 2027#1"
     }
   },
   "applied": {
@@ -21531,10 +21555,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1206,
+  "seq": 1208,
   "health": {
     "last_heartbeat": "2026-08-31T16:55:13Z",
-    "last_ok_run": "2026-08-31T17:25:15Z",
+    "last_ok_run": "2026-08-31T17:30:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
