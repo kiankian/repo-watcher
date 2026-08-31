@@ -21116,6 +21116,30 @@
       "chat_id": 7582459199,
       "seq": 1202,
       "identity": "https://caci.wd1.myworkdayjobs.com/External/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359|CACI|Software Engineering Intern \u2013 Summer ...|Sarasota, FL, US|Summer 2027#1"
+    },
+    "860a6f8b98c0": {
+      "company": "Google",
+      "role": "Software Engineering Intern, MS, Summ...",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://www.google.com/about/careers/applications/jobs/results/94172495052972742",
+      "source": "Zapply Summer Repo",
+      "message_id": 2368,
+      "chat_id": 7582459199,
+      "seq": 1203,
+      "identity": "https://www.google.com/about/careers/applications/jobs/results/94172495052972742|Google|Software Engineering Intern, MS, Summ...|United States|Summer 2027#1"
+    },
+    "d77adc45aec4": {
+      "company": "Google",
+      "role": "Software Engineering Intern, BS, Summ...",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://www.google.com/about/careers/applications/jobs/results/100648618540573382",
+      "source": "Zapply Summer Repo",
+      "message_id": 2369,
+      "chat_id": 7582459199,
+      "seq": 1204,
+      "identity": "https://www.google.com/about/careers/applications/jobs/results/100648618540573382|Google|Software Engineering Intern, BS, Summ...|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -21483,10 +21507,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1202,
+  "seq": 1204,
   "health": {
     "last_heartbeat": "2026-08-31T15:45:14Z",
-    "last_ok_run": "2026-08-31T15:45:14Z",
+    "last_ok_run": "2026-08-31T15:50:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
