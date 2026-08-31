@@ -21068,6 +21068,18 @@
       "chat_id": 7582459199,
       "seq": 1198,
       "identity": "https://caci.wd1.myworkdayjobs.com/External/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1|CACI|Software Engineering Co-op - Spring &...|Danbury, CT, US|Summer 2027#1"
+    },
+    "9e8801c28971": {
+      "company": "Trane Technologies",
+      "role": "Automation Engineering Co-op",
+      "location": "La Crosse, Wisconsin",
+      "term": "Summer 2027",
+      "apply_url": "https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/La-Crosse-Wisconsin/Automation-Engineering-Co-op_JR-8912",
+      "source": "Zapply Summer Repo",
+      "message_id": 2364,
+      "chat_id": 7582459199,
+      "seq": 1199,
+      "identity": "https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/La-Crosse-Wisconsin/Automation-Engineering-Co-op_JR-8912|Trane Technologies|Automation Engineering Co-op|La Crosse, Wisconsin|Summer 2027#1"
     }
   },
   "applied": {
@@ -21435,10 +21447,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1198,
+  "seq": 1199,
   "health": {
     "last_heartbeat": "2026-08-31T14:45:14Z",
-    "last_ok_run": "2026-08-31T14:55:15Z",
+    "last_ok_run": "2026-08-31T15:00:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
