@@ -21416,6 +21416,42 @@
       "chat_id": 7582459199,
       "seq": 1227,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486|Northrop Grumman|2027 Software Engineering Intern- Hun...|United States-Alabama-Huntsville|Summer 2027#1"
+    },
+    "9f5d148d22f5": {
+      "company": "Stryker",
+      "role": "Summer 2027 Internship - Software Engineering - Indiana",
+      "location": "Fort Wayne, IN",
+      "term": "Other",
+      "apply_url": "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2393,
+      "chat_id": 7582459199,
+      "seq": 1228,
+      "identity": "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631|Stryker|Summer 2027 Internship - Software Engineering - Indiana|Fort Wayne, IN|Other#1"
+    },
+    "e6920b7a573e": {
+      "company": "Stryker",
+      "role": "Summer 2027 Internship - Software Engineering - Michigan",
+      "location": "Portage, MI",
+      "term": "Other",
+      "apply_url": "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2394,
+      "chat_id": 7582459199,
+      "seq": 1229,
+      "identity": "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1|Stryker|Summer 2027 Internship - Software Engineering - Michigan|Portage, MI|Other#1"
+    },
+    "278955070aff": {
+      "company": "Stryker",
+      "role": "Summer 2027 Internship - Software Engineering - Florida",
+      "location": "Fort Lauderdale, FL",
+      "term": "Other",
+      "apply_url": "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2395,
+      "chat_id": 7582459199,
+      "seq": 1230,
+      "identity": "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1|Stryker|Summer 2027 Internship - Software Engineering - Florida|Fort Lauderdale, FL|Other#1"
     }
   },
   "applied": {
@@ -21783,10 +21819,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1227,
+  "seq": 1230,
   "health": {
     "last_heartbeat": "2026-08-31T19:00:20Z",
-    "last_ok_run": "2026-08-31T19:00:20Z",
+    "last_ok_run": "2026-08-31T19:05:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
