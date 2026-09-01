@@ -21992,6 +21992,30 @@
       "chat_id": 7582459199,
       "seq": 1275,
       "identity": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009323|Emerson Electric|Test Engineering Co-op (Jan27-May27)|Shakopee, MN, United States|Summer 2027#1"
+    },
+    "7c6cfabddb47": {
+      "company": "Southwest Airlines",
+      "role": "Spring 2027 Cybersecurity Analyst Int...",
+      "location": "Dallas, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Cybersecurity-Analyst-Internships_R-2026-71387",
+      "source": "Zapply Summer Repo",
+      "message_id": 2441,
+      "chat_id": 7582459199,
+      "seq": 1276,
+      "identity": "https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Cybersecurity-Analyst-Internships_R-2026-71387|Southwest Airlines|Spring 2027 Cybersecurity Analyst Int...|Dallas, TX|Summer 2027#1"
+    },
+    "25a787c2836c": {
+      "company": "Southwest Airlines",
+      "role": "Spring 2027 Software Engineering Inte...",
+      "location": "Dallas, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Software-Engineering-Internships_R-2026-71386",
+      "source": "Zapply Summer Repo",
+      "message_id": 2442,
+      "chat_id": 7582459199,
+      "seq": 1277,
+      "identity": "https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Software-Engineering-Internships_R-2026-71386|Southwest Airlines|Spring 2027 Software Engineering Inte...|Dallas, TX|Summer 2027#1"
     }
   },
   "applied": {
@@ -22359,10 +22383,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1275,
+  "seq": 1277,
   "health": {
     "last_heartbeat": "2026-09-01T04:55:14Z",
-    "last_ok_run": "2026-09-01T05:22:17Z",
+    "last_ok_run": "2026-09-01T05:26:50Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"

@@ -1906,7 +1906,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "08557bbf29f86a3cf692a76105a16f80a26bf1e5",
+    "last_sha": "86544be3616c2e7a80a4e65efe9a7303aa06ae7a",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -2479,7 +2479,9 @@
       "https://stripe.com/jobs/search?gh_jid=8128745|Stripe|Software Engineer, Intern (Summer or ...|San Francisco, Seattle, New York...|Summer 2027#1",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008442|Emerson Electric|Software Engineering Co-Op|Marshalltown, IA, United States|Summer 2027#1",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009321|Emerson Electric|Cybersecurity Engineering Co-op (Jan2...|Shakopee, MN, United States|Summer 2027#1",
-      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009323|Emerson Electric|Test Engineering Co-op (Jan27-May27)|Shakopee, MN, United States|Summer 2027#1"
+      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009323|Emerson Electric|Test Engineering Co-op (Jan27-May27)|Shakopee, MN, United States|Summer 2027#1",
+      "https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Cybersecurity-Analyst-Internships_R-2026-71387|Southwest Airlines|Spring 2027 Cybersecurity Analyst Int...|Dallas, TX|Summer 2027#1",
+      "https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Software-Engineering-Internships_R-2026-71386|Southwest Airlines|Spring 2027 Software Engineering Inte...|Dallas, TX|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
