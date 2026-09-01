@@ -23588,6 +23588,42 @@
       "chat_id": 7582459199,
       "seq": 1408,
       "identity": "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply?utm_source=Simplify&ref=Simplify|Hermeus|Software Engineer Intern - Modeling & Simulation - Multiple Teams|LA|Summer 2026#1"
+    },
+    "38763be156c4": {
+      "company": "Blue Origin",
+      "role": "Summer 2027 Test Engineering Internsh...",
+      "location": "Van Horn, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Van-Horn-TX/Summer-2027-Test-Engineering-Internship---Graduate_R71432",
+      "source": "Zapply Summer Repo",
+      "message_id": 2574,
+      "chat_id": 7582459199,
+      "seq": 1409,
+      "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Van-Horn-TX/Summer-2027-Test-Engineering-Internship---Graduate_R71432|Blue Origin|Summer 2027 Test Engineering Internsh...|Van Horn, TX|Summer 2027#1"
+    },
+    "55a9bfb30eca": {
+      "company": "Blue Origin",
+      "role": "Summer 2027 Software Developer Intern...",
+      "location": "Greater Seattle Area",
+      "term": "Summer 2027",
+      "apply_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Software-Developer-Internship---Graduate_R71434",
+      "source": "Zapply Summer Repo",
+      "message_id": 2575,
+      "chat_id": 7582459199,
+      "seq": 1410,
+      "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Software-Developer-Internship---Graduate_R71434|Blue Origin|Summer 2027 Software Developer Intern...|Greater Seattle Area|Summer 2027#1"
+    },
+    "9d47a7276d0d": {
+      "company": "Blue Origin",
+      "role": "Summer 2027 Software Developer Intern...",
+      "location": "Greater Seattle Area",
+      "term": "Summer 2027",
+      "apply_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Software-Developer-Internship---Undergraduate_R71425",
+      "source": "Zapply Summer Repo",
+      "message_id": 2576,
+      "chat_id": 7582459199,
+      "seq": 1411,
+      "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Software-Developer-Internship---Undergraduate_R71425|Blue Origin|Summer 2027 Software Developer Intern...|Greater Seattle Area|Summer 2027#1"
     }
   },
   "applied": {
@@ -23955,10 +23991,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1408,
+  "seq": 1411,
   "health": {
     "last_heartbeat": "2026-09-01T20:25:15Z",
-    "last_ok_run": "2026-09-01T20:25:15Z",
+    "last_ok_run": "2026-09-01T20:30:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
