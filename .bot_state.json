@@ -23204,6 +23204,30 @@
       "chat_id": 7582459199,
       "seq": 1376,
       "identity": "https://jobs.bytedance.com/en/position/7678449088065997109/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Software Engineer Intern - Relational Database|San Jose, CA|Summer 2026#1"
+    },
+    "73694b598fd9": {
+      "company": "Johnson & Johnson",
+      "role": "Software Engineering Co-Op. Summer 2027",
+      "location": "Cincinnati, Ohio, United States ...",
+      "term": "Summer 2027",
+      "apply_url": "https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743",
+      "source": "Zapply Summer Repo",
+      "message_id": 2542,
+      "chat_id": 7582459199,
+      "seq": 1377,
+      "identity": "https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743|Johnson & Johnson|Software Engineering Co-Op. Summer 2027|Cincinnati, Ohio, United States ...|Summer 2027#1"
+    },
+    "2ca932ab096d": {
+      "company": "Grant Thornton",
+      "role": "Cybersecurity and Privacy Associate -...",
+      "location": "Los Angeles, CA, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115751",
+      "source": "Zapply Summer Repo",
+      "message_id": 2543,
+      "chat_id": 7582459199,
+      "seq": 1378,
+      "identity": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115751|Grant Thornton|Cybersecurity and Privacy Associate -...|Los Angeles, CA, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -23571,10 +23595,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1376,
+  "seq": 1378,
   "health": {
     "last_heartbeat": "2026-09-01T18:00:22Z",
-    "last_ok_run": "2026-09-01T18:15:13Z",
+    "last_ok_run": "2026-09-01T18:20:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
