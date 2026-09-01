@@ -22340,6 +22340,18 @@
       "chat_id": 7582459199,
       "seq": 1304,
       "identity": "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Houston-Office-TC-Energy-Cente/Student-Intern--Engineering_JR-10742?utm_source=Simplify&ref=Simplify|TC Energy|Engineering Intern - Engineering|Houston, TX|Summer 2026#1"
+    },
+    "9eea7a799f5a": {
+      "company": "Microsoft",
+      "role": "Software Engineer: AI/ML & LLM Intern...",
+      "location": "Redmond, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556922929",
+      "source": "Zapply Summer Repo",
+      "message_id": 2470,
+      "chat_id": 7582459199,
+      "seq": 1305,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556922929|Microsoft|Software Engineer: AI/ML & LLM Intern...|Redmond, Washington, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -22707,10 +22719,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1304,
+  "seq": 1305,
   "health": {
     "last_heartbeat": "2026-09-01T10:30:19Z",
-    "last_ok_run": "2026-09-01T11:25:14Z",
+    "last_ok_run": "2026-09-01T11:30:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
