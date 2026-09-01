@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "2566408bce6cfe26f6262053e61aac5299eec97a",
+    "last_sha": "a94e1f1d52b35bb46a4da2b6d792baaff2a8c38e",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -1913,7 +1913,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "8c10310012f6e84421221b652b2c6f19136322c1",
+    "last_sha": "d8f6412b7f0eafc25a5ae1e1f04fb130ce2d6ab5",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -2489,7 +2489,10 @@
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009323|Emerson Electric|Test Engineering Co-op (Jan27-May27)|Shakopee, MN, United States|Summer 2027#1",
       "https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Cybersecurity-Analyst-Internships_R-2026-71387|Southwest Airlines|Spring 2027 Cybersecurity Analyst Int...|Dallas, TX|Summer 2027#1",
       "https://swa.wd1.myworkdayjobs.com/external/job/TX-Dallas/Spring-2027-Software-Engineering-Internships_R-2026-71386|Southwest Airlines|Spring 2027 Software Engineering Inte...|Dallas, TX|Summer 2027#1",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-Intern--Summer-2027-_01869890-1|RTX|Software Engineer Intern (Summer 2027)|MA-WOBURN-WB1|Summer 2027#1"
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-Intern--Summer-2027-_01869890-1|RTX|Software Engineer Intern (Summer 2027)|MA-WOBURN-WB1|Summer 2027#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556972687|Microsoft|Software Engineer: Intern Opportuniti...|Mountain View, California, Unite...|Summer 2027#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556922922|Microsoft|Software Engineer: Fullstack Product ...|Redmond, Washington, United States|Summer 2027#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556922930|Microsoft|Software Engineer: Security & Identit...|Redmond, Washington, United States|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",

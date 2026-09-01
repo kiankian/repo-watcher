@@ -22112,6 +22112,42 @@
       "chat_id": 7582459199,
       "seq": 1285,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-Intern--Summer-2027-_01869890-1|RTX|Software Engineer Intern (Summer 2027)|MA-WOBURN-WB1|Summer 2027#1"
+    },
+    "7ce0de32e6f1": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Intern Opportuniti...",
+      "location": "Mountain View, California, Unite...",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556972687",
+      "source": "Zapply Summer Repo",
+      "message_id": 2451,
+      "chat_id": 7582459199,
+      "seq": 1286,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556972687|Microsoft|Software Engineer: Intern Opportuniti...|Mountain View, California, Unite...|Summer 2027#1"
+    },
+    "8b95ca55d578": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Fullstack Product ...",
+      "location": "Redmond, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556922922",
+      "source": "Zapply Summer Repo",
+      "message_id": 2452,
+      "chat_id": 7582459199,
+      "seq": 1287,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556922922|Microsoft|Software Engineer: Fullstack Product ...|Redmond, Washington, United States|Summer 2027#1"
+    },
+    "8f557ef9bc73": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Security & Identit...",
+      "location": "Redmond, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
+      "source": "Zapply Summer Repo",
+      "message_id": 2453,
+      "chat_id": 7582459199,
+      "seq": 1288,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556922930|Microsoft|Software Engineer: Security & Identit...|Redmond, Washington, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -22479,10 +22515,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1285,
+  "seq": 1288,
   "health": {
     "last_heartbeat": "2026-09-01T07:15:15Z",
-    "last_ok_run": "2026-09-01T07:30:20Z",
+    "last_ok_run": "2026-09-01T07:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
