@@ -21956,6 +21956,42 @@
       "chat_id": 7582459199,
       "seq": 1272,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Engineering-Intern--Summer-2027-_01870410?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Aurora, CO|Summer 2026#1"
+    },
+    "1780f1c69868": {
+      "company": "Emerson Electric",
+      "role": "Software Engineering Co-Op",
+      "location": "Marshalltown, IA, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008442",
+      "source": "Zapply Summer Repo",
+      "message_id": 2438,
+      "chat_id": 7582459199,
+      "seq": 1273,
+      "identity": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008442|Emerson Electric|Software Engineering Co-Op|Marshalltown, IA, United States|Summer 2027#1"
+    },
+    "0408a3d65179": {
+      "company": "Emerson Electric",
+      "role": "Cybersecurity Engineering Co-op (Jan2...",
+      "location": "Shakopee, MN, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009321",
+      "source": "Zapply Summer Repo",
+      "message_id": 2439,
+      "chat_id": 7582459199,
+      "seq": 1274,
+      "identity": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009321|Emerson Electric|Cybersecurity Engineering Co-op (Jan2...|Shakopee, MN, United States|Summer 2027#1"
+    },
+    "bb656287cd7c": {
+      "company": "Emerson Electric",
+      "role": "Test Engineering Co-op (Jan27-May27)",
+      "location": "Shakopee, MN, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009323",
+      "source": "Zapply Summer Repo",
+      "message_id": 2440,
+      "chat_id": 7582459199,
+      "seq": 1275,
+      "identity": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009323|Emerson Electric|Test Engineering Co-op (Jan27-May27)|Shakopee, MN, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -22323,10 +22359,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1272,
+  "seq": 1275,
   "health": {
     "last_heartbeat": "2026-09-01T03:50:16Z",
-    "last_ok_run": "2026-09-01T03:50:16Z",
+    "last_ok_run": "2026-09-01T03:55:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
