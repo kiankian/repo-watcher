@@ -22496,6 +22496,18 @@
       "chat_id": 7582459199,
       "seq": 1317,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677|Northrop Grumman|2027 Cybersecurity Analyst Intern -  ...|United States-Colorado-Boulder|Summer 2027#1"
+    },
+    "57fc1b2ad3b8": {
+      "company": "Booz Allen Hamilton",
+      "role": "University - 2027 Summer Games System...",
+      "location": "Honolulu, HI",
+      "term": "Summer 2027",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Systems-Engineer-Intern---Honolulu--HI_R0248370",
+      "source": "Zapply Summer Repo",
+      "message_id": 2483,
+      "chat_id": 7582459199,
+      "seq": 1318,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Systems-Engineer-Intern---Honolulu--HI_R0248370|Booz Allen Hamilton|University - 2027 Summer Games System...|Honolulu, HI|Summer 2027#1"
     }
   },
   "applied": {
@@ -22863,10 +22875,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1317,
+  "seq": 1318,
   "health": {
     "last_heartbeat": "2026-09-01T14:55:14Z",
-    "last_ok_run": "2026-09-01T15:25:12Z",
+    "last_ok_run": "2026-09-01T15:30:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
