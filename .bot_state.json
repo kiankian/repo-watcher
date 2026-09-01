@@ -23564,6 +23564,30 @@
       "chat_id": 7582459199,
       "seq": 1406,
       "identity": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743?utm_source=Simplify&ref=Simplify|Johnson & Johnson|Software Engineer Co-op|Cincinnati, OH|Summer 2026#1"
+    },
+    "935a7849cd29": {
+      "company": "Hermeus",
+      "role": "Software Engineer Intern - Hardware in the Loop",
+      "location": "Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/hermeus/d87ed913-affc-475e-b721-c5b5f11c3c7b/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2572,
+      "chat_id": 7582459199,
+      "seq": 1407,
+      "identity": "https://jobs.lever.co/hermeus/d87ed913-affc-475e-b721-c5b5f11c3c7b/apply?utm_source=Simplify&ref=Simplify|Hermeus|Software Engineer Intern - Hardware in the Loop|Atlanta, GA|Summer 2026#1"
+    },
+    "8a943c1bbf97": {
+      "company": "Hermeus",
+      "role": "Software Engineer Intern - Modeling & Simulation - Multiple Teams",
+      "location": "LA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2573,
+      "chat_id": 7582459199,
+      "seq": 1408,
+      "identity": "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply?utm_source=Simplify&ref=Simplify|Hermeus|Software Engineer Intern - Modeling & Simulation - Multiple Teams|LA|Summer 2026#1"
     }
   },
   "applied": {
@@ -23931,10 +23955,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1406,
+  "seq": 1408,
   "health": {
     "last_heartbeat": "2026-09-01T19:15:16Z",
-    "last_ok_run": "2026-09-01T20:00:21Z",
+    "last_ok_run": "2026-09-01T20:05:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
