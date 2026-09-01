@@ -22508,6 +22508,18 @@
       "chat_id": 7582459199,
       "seq": 1318,
       "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Systems-Engineer-Intern---Honolulu--HI_R0248370|Booz Allen Hamilton|University - 2027 Summer Games System...|Honolulu, HI|Summer 2027#1"
+    },
+    "31d719798ffc": {
+      "company": "FLIR Systems",
+      "role": "EADSIM Software Engineering Intern (S...",
+      "location": "Huntsville, AL",
+      "term": "Summer 2027",
+      "apply_url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/EADSIM-Software-Engineering-Intern--Summer-2027-_REQ36667",
+      "source": "Zapply Summer Repo",
+      "message_id": 2484,
+      "chat_id": 7582459199,
+      "seq": 1319,
+      "identity": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/EADSIM-Software-Engineering-Intern--Summer-2027-_REQ36667|FLIR Systems|EADSIM Software Engineering Intern (S...|Huntsville, AL|Summer 2027#1"
     }
   },
   "applied": {
@@ -22875,10 +22887,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1318,
+  "seq": 1319,
   "health": {
     "last_heartbeat": "2026-09-01T14:55:14Z",
-    "last_ok_run": "2026-09-01T15:35:12Z",
+    "last_ok_run": "2026-09-01T15:40:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
