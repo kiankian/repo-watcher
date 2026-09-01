@@ -23648,6 +23648,18 @@
       "chat_id": 7582459199,
       "seq": 1413,
       "identity": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Information-Security-Co-Op-Internship---2027_JR205939|Elevance Health|Information Security Co-Op Internship...|2 Locations|Summer 2027#1"
+    },
+    "020b020a1b3e": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2...",
+      "location": "FL-MELBOURNE",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Summer-2027-_01871423",
+      "source": "Zapply Summer Repo",
+      "message_id": 2579,
+      "chat_id": 7582459199,
+      "seq": 1414,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Summer-2027-_01871423|RTX|Software Engineering Intern (Summer 2...|FL-MELBOURNE|Summer 2027#1"
     }
   },
   "applied": {
@@ -24015,10 +24027,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1413,
+  "seq": 1414,
   "health": {
     "last_heartbeat": "2026-09-01T20:25:15Z",
-    "last_ok_run": "2026-09-01T21:10:17Z",
+    "last_ok_run": "2026-09-01T21:15:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
