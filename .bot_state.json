@@ -22160,6 +22160,30 @@
       "chat_id": 7582459199,
       "seq": 1289,
       "identity": "https://apply.careers.microsoft.com/careers/job/1970393556922923|Microsoft|Software Engineer: Cloud & Distribute...|Redmond, Washington, United States|Summer 2027#1"
+    },
+    "90ac3fbf44f1": {
+      "company": "BlueCross BlueShield of Nebraska",
+      "role": "Digital Experience Information Systems Intern",
+      "location": "Omaha, NE",
+      "term": "Summer 2026",
+      "apply_url": "https://nebraskablue.wd1.myworkdayjobs.com/BCBSNE/job/Omaha-NE/IS-Intern--Summer-2027_JR101404?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2455,
+      "chat_id": 7582459199,
+      "seq": 1290,
+      "identity": "https://nebraskablue.wd1.myworkdayjobs.com/BCBSNE/job/Omaha-NE/IS-Intern--Summer-2027_JR101404?utm_source=Simplify&ref=Simplify|BlueCross BlueShield of Nebraska|Digital Experience Information Systems Intern|Omaha, NE|Summer 2026#1"
+    },
+    "61bde79de634": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Intern Opportuniti...",
+      "location": "Redmond, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+      "source": "Zapply Summer Repo",
+      "message_id": 2456,
+      "chat_id": 7582459199,
+      "seq": 1291,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556951950|Microsoft|Software Engineer: Intern Opportuniti...|Redmond, Washington, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -22527,10 +22551,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1289,
+  "seq": 1291,
   "health": {
     "last_heartbeat": "2026-09-01T08:20:18Z",
-    "last_ok_run": "2026-09-01T09:00:26Z",
+    "last_ok_run": "2026-09-01T09:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
