@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "c3835b8d2bcb669c83748853b76a791f745edb93",
+    "last_sha": "9b426e3a402b6c1103816e2f6f744514d70e65e1",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -1645,10 +1645,12 @@
       "https://newrez.wd1.myworkdayjobs.com/NRZ/job/TX-Coppell/XMLNAME-2027-Summer-Internship---Software-Developer_R10390?utm_source=Simplify&ref=Simplify|Newrez|Software Developer Intern|Coppell, TX|Summer 2026#1",
       "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743?utm_source=Simplify&ref=Simplify|Johnson & Johnson|Software Engineer Co-op|Cincinnati, OH|Summer 2026#1",
       "https://jobs.lever.co/hermeus/d87ed913-affc-475e-b721-c5b5f11c3c7b/apply?utm_source=Simplify&ref=Simplify|Hermeus|Software Engineer Intern - Hardware in the Loop|Atlanta, GA|Summer 2026#1",
-      "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply?utm_source=Simplify&ref=Simplify|Hermeus|Software Engineer Intern - Modeling & Simulation - Multiple Teams|LA|Summer 2026#1"
+      "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply?utm_source=Simplify&ref=Simplify|Hermeus|Software Engineer Intern - Modeling & Simulation - Multiple Teams|LA|Summer 2026#1",
+      "https://careers.kindermorgan.com/jobs/6032?icims=1&utm_source=Simplify&ref=Simplify|Kinder Morgan|Information Technology Intern - Application Development|Houston, TX|Summer 2026#1",
+      "https://job-boards.greenhouse.io/eulerity/jobs/4709040006?utm_source=Simplify&ref=Simplify|Eulerity|Backend Developer Intern|NYC|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 321,
+    "last_row_count": 323,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -1970,7 +1972,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "55a3560f89b08cab70af5200c8621c4e52630e4b",
+    "last_sha": "c812549d752ae1daeccaaa41cfff1366e9a34fbf",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -2585,7 +2587,8 @@
       "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Software-Developer-Internship---Undergraduate_R71425|Blue Origin|Summer 2027 Software Developer Intern...|Greater Seattle Area|Summer 2027#1",
       "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Bay-City-Michigan-United-States-of-America/XMLNAME-2027-Co-Op-Student---Manufacturing-Quality-Engineer_JR-202619309|General Motors|2027 Co-Op Student \u2013 Manufacturing Qu...|4 Locations|Summer 2027#1",
       "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Information-Security-Co-Op-Internship---2027_JR205939|Elevance Health|Information Security Co-Op Internship...|2 Locations|Summer 2027#1",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Summer-2027-_01871423|RTX|Software Engineering Intern (Summer 2...|FL-MELBOURNE|Summer 2027#1"
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Summer-2027-_01871423|RTX|Software Engineering Intern (Summer 2...|FL-MELBOURNE|Summer 2027#1",
+      "https://job-boards.greenhouse.io/eulerity/jobs/4709040006|Eulerity|Backend Developer Intern|New York, New York|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
