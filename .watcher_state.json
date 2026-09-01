@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "32f4ab64d63cece24487d96ccd31d02f18f3c4f8",
+    "last_sha": "37e810d2890b50aedca7d49e652ed517ef5c27f7",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -1571,10 +1571,14 @@
       "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---UPS-TECHNOLOGY-HEADQUARTERS--DATACENTER-NJRAR/UPS-Technology-Group-Summer-2027-Internship---NJ_R26029748?utm_source=Simplify&ref=Simplify|United Parcel Service|Information Technology Intern - Multiple Teams|Mahwah, NJ|Summer 2026#1",
       "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---IS-MARYLAND-MDROA/UPS-Technology-Group-Summer-2027-Internship---MD_R26029757?utm_source=Simplify&ref=Simplify|United Parcel Service|Information Technology Intern - Multiple Teams|Timonium, MD|Summer 2026#1",
       "https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/IL-Rosemont/Tax-Innovation-Delivery-Experience--TIDE----Software-Engineering---Intern---Summer-2027_756410WD?utm_source=Simplify&ref=Simplify|PricewaterhouseCoopers (PwC)|Tax Innovation Delivery Experience Intern - Multiple Teams|Rosemont, IL|Summer 2026#1",
-      "https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/IL-Rosemont/Connected-Physical-Products-Intern---Summer-2027_757231WD?utm_source=Simplify&ref=Simplify|PricewaterhouseCoopers (PwC)|Connected Physical Products Intern - Summer 2027|14 locationsBoston, MA Seattle, WA Houston, TX Washington, DC SF LA Dallas, TX Philadelphia, PA Rosemont, IL Chicago, IL Silicon Valley, CA NYC Minneapolis, MN Atlanta, GA|Summer 2026#1"
+      "https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/IL-Rosemont/Connected-Physical-Products-Intern---Summer-2027_757231WD?utm_source=Simplify&ref=Simplify|PricewaterhouseCoopers (PwC)|Connected Physical Products Intern - Summer 2027|14 locationsBoston, MA Seattle, WA Houston, TX Washington, DC SF LA Dallas, TX Philadelphia, PA Rosemont, IL Chicago, IL Silicon Valley, CA NYC Minneapolis, MN Atlanta, GA|Summer 2026#1",
+      "https://job-boards.greenhouse.io/hpiq/jobs/6111955004?utm_source=Simplify&ref=Simplify|HP IQ|Software Engineer Intern - Cloud Services - Summer 2027 \ud83c\udf93|SF|Summer 2026#1",
+      "https://job-boards.greenhouse.io/hpiq/jobs/6140119004?utm_source=Simplify&ref=Simplify|HP IQ|Software Engineer Intern - Software Systems|SF|Summer 2026#1",
+      "https://job-boards.greenhouse.io/hpiq/jobs/6114912004?utm_source=Simplify&ref=Simplify|HP IQ|Software Engineer Intern|SF|Summer 2026#1",
+      "https://job-boards.greenhouse.io/hpiq/jobs/6116398004?utm_source=Simplify&ref=Simplify|HP IQ|Software Engineer Intern - Product Security|SF|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 250,
+    "last_row_count": 254,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -1896,7 +1900,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "3b91b15845b5689757ed3061314be4a24e59499b",
+    "last_sha": "80c98d912628a36ecfd38dfd03d0abb5c59fbe05",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
