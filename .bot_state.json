@@ -23708,6 +23708,18 @@
       "chat_id": 7582459199,
       "seq": 1418,
       "identity": "https://medline.wd5.myworkdayjobs.com/en-US/Medline/job/Northbrook-Illinois/Software-Engineering-Intern---Summer-2027_R2617623?utm_source=Simplify&ref=Simplify|Medline|Software Engineer Intern - Summer 2027|Northbrook, IL|Summer 2026#1"
+    },
+    "1a6395ee1199": {
+      "company": "General Motors",
+      "role": "Electrical & SDV Intern - Global Manufacturing",
+      "location": "Warren, MI",
+      "term": "Summer 2026",
+      "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Global-Manufacturing-Electrical---SDV_JR-202619352?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2584,
+      "chat_id": 7582459199,
+      "seq": 1419,
+      "identity": "https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Global-Manufacturing-Electrical---SDV_JR-202619352?utm_source=Simplify&ref=Simplify|General Motors|Electrical & SDV Intern - Global Manufacturing|Warren, MI|Summer 2026#1"
     }
   },
   "applied": {
@@ -24075,10 +24087,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1418,
+  "seq": 1419,
   "health": {
     "last_heartbeat": "2026-09-01T23:30:17Z",
-    "last_ok_run": "2026-09-01T23:30:17Z",
+    "last_ok_run": "2026-09-01T23:35:11Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
