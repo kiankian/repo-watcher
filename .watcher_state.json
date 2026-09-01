@@ -3138,7 +3138,12 @@
       "https://homedepot.wd5.myworkdayjobs.com/en-US/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Software-Engineering_Req191937|Home Depot|2027 Summer Internship - Software Engineering|Atlanta, GA|Other#1",
       "https://igsenergy.wd1.myworkdayjobs.com/en-US/igs/job/Ohio-Remote/Software-Engineer-Intern_R6263|IGS Energy|Software Engineer Intern|Remote - Ohio, USA|Other#1",
       "https://medline.wd5.myworkdayjobs.com/en-US/medline/job/Northbrook-Illinois/RPA---Agentic-AI-Software-Technologies-Intern---Summer-2027_R2617378|Medline|RPA & Agentic AI Software Technologies Intern - Summer 2027|Northbrook, IL|Other#1",
-      "https://nike.wd1.myworkdayjobs.com/en-US/nke/job/Beaverton-Oregon/NIKE--Inc-Software-Engineering-Undergraduate-Internship_R-91111|Nike|NIKE - Inc. Software Engineering Undergraduate Internship|Beaverton, OR|Other#1"
+      "https://nike.wd1.myworkdayjobs.com/en-US/nke/job/Beaverton-Oregon/NIKE--Inc-Software-Engineering-Undergraduate-Internship_R-91111|Nike|NIKE - Inc. Software Engineering Undergraduate Internship|Beaverton, OR|Other#1",
+      "https://nisource.wd1.myworkdayjobs.com/en-US/nisource/job/Merrillville-IN-SLC/Intern-IT---Software-Engineer_R00943449|NiSource|Intern IT - Software Engineer|Merrillville, IN +1|Other#1",
+      "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Greenville-Wisconsin-United-States/Engineer-Intern---Software--Summer-2027-_R49745|Oshkosh|Engineer Intern - Software - Summer 2027|Greenville, NC +1|Other#1",
+      "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786|Oshkosh|Engineer Intern - Software - Summer 2027|Dodge Center, MN|Other#1",
+      "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/San-Jose-California/Summer-2027-Internship---Software-Engineering---California_R572624|Stryker|Summer 2027 Internship - Software Engineering - California|San Jose, CA +1|Other#1",
+      "http://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027|Aerotech|Software Engineering Internship or Co-op 2027|Pittsburgh, PA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -3283,62 +3288,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 218,
-    "outbox": [
-      [
-        [
-          "NiSource",
-          "Intern IT - Software Engineer",
-          "Merrillville, IN +1",
-          "Other",
-          "https://nisource.wd1.myworkdayjobs.com/en-US/nisource/job/Merrillville-IN-SLC/Intern-IT---Software-Engineer_R00943449"
-        ],
-        "https://nisource.wd1.myworkdayjobs.com/en-US/nisource/job/Merrillville-IN-SLC/Intern-IT---Software-Engineer_R00943449|NiSource|Intern IT - Software Engineer|Merrillville, IN +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Oshkosh",
-          "Engineer Intern - Software - Summer 2027",
-          "Greenville, NC +1",
-          "Other",
-          "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Greenville-Wisconsin-United-States/Engineer-Intern---Software--Summer-2027-_R49745"
-        ],
-        "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Greenville-Wisconsin-United-States/Engineer-Intern---Software--Summer-2027-_R49745|Oshkosh|Engineer Intern - Software - Summer 2027|Greenville, NC +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Oshkosh",
-          "Engineer Intern - Software - Summer 2027",
-          "Dodge Center, MN",
-          "Other",
-          "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786"
-        ],
-        "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786|Oshkosh|Engineer Intern - Software - Summer 2027|Dodge Center, MN|Other#1",
-        1
-      ],
-      [
-        [
-          "Stryker",
-          "Summer 2027 Internship - Software Engineering - California",
-          "San Jose, CA +1",
-          "Other",
-          "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/San-Jose-California/Summer-2027-Internship---Software-Engineering---California_R572624"
-        ],
-        "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/San-Jose-California/Summer-2027-Internship---Software-Engineering---California_R572624|Stryker|Summer 2027 Internship - Software Engineering - California|San Jose, CA +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Aerotech",
-          "Software Engineering Internship or Co-op 2027",
-          "Pittsburgh, PA",
-          "Other",
-          "http://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027"
-        ],
-        "http://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027|Aerotech|Software Engineering Internship or Co-op 2027|Pittsburgh, PA|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }

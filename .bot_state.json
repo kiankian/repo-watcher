@@ -23012,6 +23012,66 @@
       "chat_id": 7582459199,
       "seq": 1360,
       "identity": "https://nike.wd1.myworkdayjobs.com/en-US/nke/job/Beaverton-Oregon/NIKE--Inc-Software-Engineering-Undergraduate-Internship_R-91111|Nike|NIKE - Inc. Software Engineering Undergraduate Internship|Beaverton, OR|Other#1"
+    },
+    "3ce0f843085d": {
+      "company": "NiSource",
+      "role": "Intern IT - Software Engineer",
+      "location": "Merrillville, IN +1",
+      "term": "Other",
+      "apply_url": "https://nisource.wd1.myworkdayjobs.com/en-US/nisource/job/Merrillville-IN-SLC/Intern-IT---Software-Engineer_R00943449",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2526,
+      "chat_id": 7582459199,
+      "seq": 1361,
+      "identity": "https://nisource.wd1.myworkdayjobs.com/en-US/nisource/job/Merrillville-IN-SLC/Intern-IT---Software-Engineer_R00943449|NiSource|Intern IT - Software Engineer|Merrillville, IN +1|Other#1"
+    },
+    "f68985dc88d6": {
+      "company": "Oshkosh",
+      "role": "Engineer Intern - Software - Summer 2027",
+      "location": "Greenville, NC +1",
+      "term": "Other",
+      "apply_url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Greenville-Wisconsin-United-States/Engineer-Intern---Software--Summer-2027-_R49745",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2527,
+      "chat_id": 7582459199,
+      "seq": 1362,
+      "identity": "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Greenville-Wisconsin-United-States/Engineer-Intern---Software--Summer-2027-_R49745|Oshkosh|Engineer Intern - Software - Summer 2027|Greenville, NC +1|Other#1"
+    },
+    "9eb05a6ac7af": {
+      "company": "Oshkosh",
+      "role": "Engineer Intern - Software - Summer 2027",
+      "location": "Dodge Center, MN",
+      "term": "Other",
+      "apply_url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2528,
+      "chat_id": 7582459199,
+      "seq": 1363,
+      "identity": "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786|Oshkosh|Engineer Intern - Software - Summer 2027|Dodge Center, MN|Other#1"
+    },
+    "2be012215487": {
+      "company": "Stryker",
+      "role": "Summer 2027 Internship - Software Engineering - California",
+      "location": "San Jose, CA +1",
+      "term": "Other",
+      "apply_url": "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/San-Jose-California/Summer-2027-Internship---Software-Engineering---California_R572624",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2529,
+      "chat_id": 7582459199,
+      "seq": 1364,
+      "identity": "https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/San-Jose-California/Summer-2027-Internship---Software-Engineering---California_R572624|Stryker|Summer 2027 Internship - Software Engineering - California|San Jose, CA +1|Other#1"
+    },
+    "721863ef0313": {
+      "company": "Aerotech",
+      "role": "Software Engineering Internship or Co-op 2027",
+      "location": "Pittsburgh, PA",
+      "term": "Other",
+      "apply_url": "http://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 2530,
+      "chat_id": 7582459199,
+      "seq": 1365,
+      "identity": "http://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027|Aerotech|Software Engineering Internship or Co-op 2027|Pittsburgh, PA|Other#1"
     }
   },
   "applied": {
@@ -23379,10 +23439,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1360,
+  "seq": 1365,
   "health": {
     "last_heartbeat": "2026-09-01T15:55:16Z",
-    "last_ok_run": "2026-09-01T16:25:53Z",
+    "last_ok_run": "2026-09-01T16:30:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
