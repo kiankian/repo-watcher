@@ -22472,6 +22472,18 @@
       "chat_id": 7582459199,
       "seq": 1315,
       "identity": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Three-Nationwide-Plaza/Summer-2027-Technology-Internship_100105?utm_source=Simplify&ref=Simplify|Nationwide|Technology Intern|Des Moines, IA Scottsdale, AZ Columbus, OH|Summer 2026#1"
+    },
+    "47bebfc1b5bd": {
+      "company": "CACI",
+      "role": "AWS Cloud Engineering Intern - Summer...",
+      "location": "Sarasota, FL, US",
+      "term": "Summer 2027",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/External/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
+      "source": "Zapply Summer Repo",
+      "message_id": 2481,
+      "chat_id": 7582459199,
+      "seq": 1316,
+      "identity": "https://caci.wd1.myworkdayjobs.com/External/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437|CACI|AWS Cloud Engineering Intern - Summer...|Sarasota, FL, US|Summer 2027#1"
     }
   },
   "applied": {
@@ -22839,10 +22851,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1315,
+  "seq": 1316,
   "health": {
     "last_heartbeat": "2026-09-01T13:50:17Z",
-    "last_ok_run": "2026-09-01T14:35:19Z",
+    "last_ok_run": "2026-09-01T14:40:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
