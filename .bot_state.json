@@ -23516,6 +23516,54 @@
       "chat_id": 7582459199,
       "seq": 1402,
       "identity": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Sunrise-FL/Software-Engineering-Intern_8589|AeroVironment|Software Engineering Intern|Sunrise, FL|Summer 2027#1"
+    },
+    "4b845bf776c5": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "role": "Systems Exploitation Intern - Reverse Engineer - Systems Exploitation",
+      "location": "Laurel, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.jhuapl.edu/jobs/59798?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2568,
+      "chat_id": 7582459199,
+      "seq": 1403,
+      "identity": "https://careers.jhuapl.edu/jobs/59798?icims=1&utm_source=Simplify&ref=Simplify|Johns Hopkins Applied Physics Laboratory|Systems Exploitation Intern - Reverse Engineer - Systems Exploitation|Laurel, MD|Summer 2026#1"
+    },
+    "18627d54e4b9": {
+      "company": "Verisk",
+      "role": "Technology Intern - Summer Internship Program",
+      "location": "Holmdel, NJ Jersey City, NJ Lehi, UT",
+      "term": "Summer 2026",
+      "apply_url": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4722?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2569,
+      "chat_id": 7582459199,
+      "seq": 1404,
+      "identity": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4722?utm_source=Simplify&ref=Simplify|Verisk|Technology Intern - Summer Internship Program|Holmdel, NJ Jersey City, NJ Lehi, UT|Summer 2026#1"
+    },
+    "d82590aa8822": {
+      "company": "Newrez",
+      "role": "Software Developer Intern",
+      "location": "Coppell, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://newrez.wd1.myworkdayjobs.com/NRZ/job/TX-Coppell/XMLNAME-2027-Summer-Internship---Software-Developer_R10390?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2570,
+      "chat_id": 7582459199,
+      "seq": 1405,
+      "identity": "https://newrez.wd1.myworkdayjobs.com/NRZ/job/TX-Coppell/XMLNAME-2027-Summer-Internship---Software-Developer_R10390?utm_source=Simplify&ref=Simplify|Newrez|Software Developer Intern|Coppell, TX|Summer 2026#1"
+    },
+    "239271fd59bb": {
+      "company": "Johnson & Johnson",
+      "role": "Software Engineer Co-op",
+      "location": "Cincinnati, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2571,
+      "chat_id": 7582459199,
+      "seq": 1406,
+      "identity": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743?utm_source=Simplify&ref=Simplify|Johnson & Johnson|Software Engineer Co-op|Cincinnati, OH|Summer 2026#1"
     }
   },
   "applied": {
@@ -23883,10 +23931,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1402,
+  "seq": 1406,
   "health": {
     "last_heartbeat": "2026-09-01T19:15:16Z",
-    "last_ok_run": "2026-09-01T19:30:20Z",
+    "last_ok_run": "2026-09-01T19:35:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
