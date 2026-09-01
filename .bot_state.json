@@ -23456,6 +23456,42 @@
       "chat_id": 7582459199,
       "seq": 1397,
       "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0248403?utm_source=Simplify&ref=Simplify|Booz Allen|Software Developer Intern - University|Annapolis Junction, MD|Summer 2026#1"
+    },
+    "0b3de512b147": {
+      "company": "Blue Origin",
+      "role": "Summer 2027 Structural & Mechanical S...",
+      "location": "Greater Seattle Area",
+      "term": "Summer 2027",
+      "apply_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Structural---Mechanical-Systems-Engineering-Internship---Graduate_R71445",
+      "source": "Zapply Summer Repo",
+      "message_id": 2563,
+      "chat_id": 7582459199,
+      "seq": 1398,
+      "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Structural---Mechanical-Systems-Engineering-Internship---Graduate_R71445|Blue Origin|Summer 2027 Structural & Mechanical S...|Greater Seattle Area|Summer 2027#1"
+    },
+    "dafcfc328e59": {
+      "company": "Blue Origin",
+      "role": "Summer 2027 Electrical Systems Engine...",
+      "location": "Greater Seattle Area",
+      "term": "Summer 2027",
+      "apply_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Electrical-Systems-Engineering-Internship---Graduate_R71437",
+      "source": "Zapply Summer Repo",
+      "message_id": 2564,
+      "chat_id": 7582459199,
+      "seq": 1399,
+      "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Electrical-Systems-Engineering-Internship---Graduate_R71437|Blue Origin|Summer 2027 Electrical Systems Engine...|Greater Seattle Area|Summer 2027#1"
+    },
+    "d59f41ae86c9": {
+      "company": "Blue Origin",
+      "role": "Summer 2027 Electrical Systems Engine...",
+      "location": "Greater Seattle Area",
+      "term": "Summer 2027",
+      "apply_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Electrical-Systems-Engineering-Internship---Undergraduate_R71438",
+      "source": "Zapply Summer Repo",
+      "message_id": 2565,
+      "chat_id": 7582459199,
+      "seq": 1400,
+      "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Electrical-Systems-Engineering-Internship---Undergraduate_R71438|Blue Origin|Summer 2027 Electrical Systems Engine...|Greater Seattle Area|Summer 2027#1"
     }
   },
   "applied": {
@@ -23823,10 +23859,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1397,
+  "seq": 1400,
   "health": {
     "last_heartbeat": "2026-09-01T18:00:22Z",
-    "last_ok_run": "2026-09-01T19:05:31Z",
+    "last_ok_run": "2026-09-01T19:10:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
