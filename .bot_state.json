@@ -23624,6 +23624,30 @@
       "chat_id": 7582459199,
       "seq": 1411,
       "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Software-Developer-Internship---Undergraduate_R71425|Blue Origin|Summer 2027 Software Developer Intern...|Greater Seattle Area|Summer 2027#1"
+    },
+    "82e6be4c6f2c": {
+      "company": "General Motors",
+      "role": "2027 Co-Op Student \u2013 Manufacturing Qu...",
+      "location": "4 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Bay-City-Michigan-United-States-of-America/XMLNAME-2027-Co-Op-Student---Manufacturing-Quality-Engineer_JR-202619309",
+      "source": "Zapply Summer Repo",
+      "message_id": 2577,
+      "chat_id": 7582459199,
+      "seq": 1412,
+      "identity": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Bay-City-Michigan-United-States-of-America/XMLNAME-2027-Co-Op-Student---Manufacturing-Quality-Engineer_JR-202619309|General Motors|2027 Co-Op Student \u2013 Manufacturing Qu...|4 Locations|Summer 2027#1"
+    },
+    "e48d2f6e432c": {
+      "company": "Elevance Health",
+      "role": "Information Security Co-Op Internship...",
+      "location": "2 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Information-Security-Co-Op-Internship---2027_JR205939",
+      "source": "Zapply Summer Repo",
+      "message_id": 2578,
+      "chat_id": 7582459199,
+      "seq": 1413,
+      "identity": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Information-Security-Co-Op-Internship---2027_JR205939|Elevance Health|Information Security Co-Op Internship...|2 Locations|Summer 2027#1"
     }
   },
   "applied": {
@@ -23991,10 +24015,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1411,
+  "seq": 1413,
   "health": {
     "last_heartbeat": "2026-09-01T20:25:15Z",
-    "last_ok_run": "2026-09-01T20:45:18Z",
+    "last_ok_run": "2026-09-01T20:50:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
