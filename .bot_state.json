@@ -25052,6 +25052,18 @@
       "chat_id": 7582459199,
       "seq": 1530,
       "identity": "https://joinbytedance.com/search/7678449088065997109|ByteDance|Software Engineer Intern (Relational ...|San Jose, California|Summer 2027#1"
+    },
+    "1fa664c67649": {
+      "company": "HP Inc",
+      "role": "Software Product Security Engineer In...",
+      "location": "Spring, Texas, United States of ...",
+      "term": "Summer 2027",
+      "apply_url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4744-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 2696,
+      "chat_id": 7582459199,
+      "seq": 1531,
+      "identity": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4744-1|HP Inc|Software Product Security Engineer In...|Spring, Texas, United States of ...|Summer 2027#1"
     }
   },
   "applied": {
@@ -25419,10 +25431,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1530,
+  "seq": 1531,
   "health": {
     "last_heartbeat": "2026-09-02T20:10:15Z",
-    "last_ok_run": "2026-09-02T20:40:19Z",
+    "last_ok_run": "2026-09-02T20:45:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
