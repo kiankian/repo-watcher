@@ -23864,6 +23864,18 @@
       "chat_id": 7582459199,
       "seq": 1431,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Systems-Engineering-Intern--Summer-2027----Onsite_01869961|RTX|Systems Engineering Intern (Summer 20...|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "2ba92437879f": {
+      "company": "\ud83d\udd25 Tesla",
+      "role": "Physics Engine Development Engineer Intern - Optimus",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://www.tesla.com/careers/search/job/282147?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2597,
+      "chat_id": 7582459199,
+      "seq": 1432,
+      "identity": "https://www.tesla.com/careers/search/job/282147?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Tesla|Physics Engine Development Engineer Intern - Optimus|Palo Alto, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -24231,10 +24243,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1431,
+  "seq": 1432,
   "health": {
     "last_heartbeat": "2026-09-02T03:50:15Z",
-    "last_ok_run": "2026-09-02T04:00:19Z",
+    "last_ok_run": "2026-09-02T04:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
