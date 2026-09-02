@@ -24068,6 +24068,42 @@
       "chat_id": 7582459199,
       "seq": 1448,
       "identity": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Bedford-Indiana-United-States-of-America/XMLNAME-2027-Summer-Intern---Manufacturing-Quality-Engineer_JR-202619307|General Motors|2027 Summer Intern \u2013 Manufacturing Qu...|7 Locations|Summer 2027#1"
+    },
+    "c73f82176aa4": {
+      "company": "RTX",
+      "role": "Systems Engineering Intern (Onsite)",
+      "location": "AL-HUNTSVILLE",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-401--401-Jan-Davis-Dr-NW--JAN-DAVIS-401/Systems-Engineering-Intern--Onsite-_01871921",
+      "source": "Zapply Summer Repo",
+      "message_id": 2614,
+      "chat_id": 7582459199,
+      "seq": 1449,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-401--401-Jan-Davis-Dr-NW--JAN-DAVIS-401/Systems-Engineering-Intern--Onsite-_01871921|RTX|Systems Engineering Intern (Onsite)|AL-HUNTSVILLE|Summer 2027#1"
+    },
+    "c4b078a5b529": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2...",
+      "location": "MD-ANNAPOLIS",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-904--2551-Riva-Rd--BLDG-904/Software-Engineering-Intern--Summer-2027-_01870699",
+      "source": "Zapply Summer Repo",
+      "message_id": 2615,
+      "chat_id": 7582459199,
+      "seq": 1450,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-904--2551-Riva-Rd--BLDG-904/Software-Engineering-Intern--Summer-2027-_01870699|RTX|Software Engineering Intern (Summer 2...|MD-ANNAPOLIS|Summer 2027#1"
+    },
+    "5308003ca188": {
+      "company": "Apex Technology",
+      "role": "Software Engineering Internship, Embe...",
+      "location": "Los Angeles",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/apex-technology-inc/4203604c-2330-4c89-8432-37af718a6bda",
+      "source": "Zapply Summer Repo",
+      "message_id": 2616,
+      "chat_id": 7582459199,
+      "seq": 1451,
+      "identity": "https://jobs.ashbyhq.com/apex-technology-inc/4203604c-2330-4c89-8432-37af718a6bda|Apex Technology|Software Engineering Internship, Embe...|Los Angeles|Summer 2027#1"
     }
   },
   "applied": {
@@ -24435,10 +24471,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1448,
+  "seq": 1451,
   "health": {
     "last_heartbeat": "2026-09-02T15:45:17Z",
-    "last_ok_run": "2026-09-02T16:10:15Z",
+    "last_ok_run": "2026-09-02T16:15:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
