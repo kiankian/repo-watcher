@@ -24896,6 +24896,42 @@
       "chat_id": 7582459199,
       "seq": 1517,
       "identity": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Development-Engineer--Automation----Cambridge--MA---Fall-2026_590708|Philips|Co-op - Software Development Engineer...|Cambridge (US), Massachusetts, U...|Summer 2027#1"
+    },
+    "1b651972eab8": {
+      "company": "RTX",
+      "role": "Software Engineering Co-op (Summer/Fa...",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
+      "source": "Zapply Summer Repo",
+      "message_id": 2683,
+      "chat_id": 7582459199,
+      "seq": 1518,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194|RTX|Software Engineering Co-op (Summer/Fa...|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "191f5f2ef20f": {
+      "company": "RTX",
+      "role": "Software Engineering Co-op (Winter/Sp...",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Winter-Spring-2027-_01870191",
+      "source": "Zapply Summer Repo",
+      "message_id": 2684,
+      "chat_id": 7582459199,
+      "seq": 1519,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Winter-Spring-2027-_01870191|RTX|Software Engineering Co-op (Winter/Sp...|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "f8637a98a3e2": {
+      "company": "CACI",
+      "role": "Software Engineering Co-op - Fall 2026",
+      "location": "King of Prussia, PA, US",
+      "term": "Summer 2027",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/External/job/King-of-Prussia-PA-US/Software-Engineering-Co-op---Fall-2026_331472",
+      "source": "Zapply Summer Repo",
+      "message_id": 2685,
+      "chat_id": 7582459199,
+      "seq": 1520,
+      "identity": "https://caci.wd1.myworkdayjobs.com/External/job/King-of-Prussia-PA-US/Software-Engineering-Co-op---Fall-2026_331472|CACI|Software Engineering Co-op - Fall 2026|King of Prussia, PA, US|Summer 2027#1"
     }
   },
   "applied": {
@@ -25263,10 +25299,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1517,
+  "seq": 1520,
   "health": {
     "last_heartbeat": "2026-09-02T17:50:17Z",
-    "last_ok_run": "2026-09-02T17:55:14Z",
+    "last_ok_run": "2026-09-02T18:00:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
