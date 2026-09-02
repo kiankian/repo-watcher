@@ -23960,6 +23960,30 @@
       "chat_id": 7582459199,
       "seq": 1439,
       "identity": "https://careers-steeldynamics.icims.com/jobs/7994/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Steel Dynamics|Software Development Intern|Fort Wayne, IN|Summer 2026#1"
+    },
+    "389d1d35ae89": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Engineer Intern - Linth...",
+      "location": "United States-Maryland-Linthicum",
+      "term": "Summer 2027",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
+      "source": "Zapply Summer Repo",
+      "message_id": 2605,
+      "chat_id": 7582459199,
+      "seq": 1440,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910|Northrop Grumman|2027 Software Engineer Intern - Linth...|United States-Maryland-Linthicum|Summer 2027#1"
+    },
+    "46059dd07419": {
+      "company": "CACI",
+      "role": "DevOps/Software Engineering Intern - ...",
+      "location": "Sterling, VA, US",
+      "term": "Summer 2027",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/External/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
+      "source": "Zapply Summer Repo",
+      "message_id": 2606,
+      "chat_id": 7582459199,
+      "seq": 1441,
+      "identity": "https://caci.wd1.myworkdayjobs.com/External/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466|CACI|DevOps/Software Engineering Intern - ...|Sterling, VA, US|Summer 2027#1"
     }
   },
   "applied": {
@@ -24327,10 +24351,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1439,
+  "seq": 1441,
   "health": {
     "last_heartbeat": "2026-09-02T13:40:17Z",
-    "last_ok_run": "2026-09-02T14:25:16Z",
+    "last_ok_run": "2026-09-02T14:30:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
