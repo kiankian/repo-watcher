@@ -23912,6 +23912,30 @@
       "chat_id": 7582459199,
       "seq": 1435,
       "identity": "https://careers.jhuapl.edu/jobs/59883?icims=1&utm_source=Simplify&ref=Simplify|Johns Hopkins Applied Physics Laboratory|Mission Systems Engineering Intern|Laurel, MD|Summer 2026#1"
+    },
+    "d141bee05b75": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Research Intern - AI-Native Databases \ud83c\udf93",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7678450462765254965/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2601,
+      "chat_id": 7582459199,
+      "seq": 1436,
+      "identity": "https://jobs.bytedance.com/en/position/7678450462765254965/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Research Intern - AI-Native Databases \ud83c\udf93|San Jose, CA|Summer 2026#1"
+    },
+    "5110baf0393a": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Research Intern - AI-Native Databases \ud83c\udf93",
+      "location": "Seattle, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7678451067500529925/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2602,
+      "chat_id": 7582459199,
+      "seq": 1437,
+      "identity": "https://jobs.bytedance.com/en/position/7678451067500529925/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Research Intern - AI-Native Databases \ud83c\udf93|Seattle, WA|Summer 2026#1"
     }
   },
   "applied": {
@@ -24279,10 +24303,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1435,
+  "seq": 1437,
   "health": {
     "last_heartbeat": "2026-09-02T06:55:16Z",
-    "last_ok_run": "2026-09-02T08:00:22Z",
+    "last_ok_run": "2026-09-02T08:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
