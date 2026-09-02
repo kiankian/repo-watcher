@@ -23852,6 +23852,18 @@
       "chat_id": 7582459199,
       "seq": 1430,
       "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Avionics-Software-Internship---Graduate_R71423|Blue Origin|Summer 2027 Avionics Software Interns...|Greater Seattle Area|Summer 2027#1"
+    },
+    "0b2836fad041": {
+      "company": "RTX",
+      "role": "Systems Engineering Intern (Summer 20...",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Systems-Engineering-Intern--Summer-2027----Onsite_01869961",
+      "source": "Zapply Summer Repo",
+      "message_id": 2596,
+      "chat_id": 7582459199,
+      "seq": 1431,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Systems-Engineering-Intern--Summer-2027----Onsite_01869961|RTX|Systems Engineering Intern (Summer 20...|IA-CEDAR RAPIDS|Summer 2027#1"
     }
   },
   "applied": {
@@ -24219,10 +24231,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1430,
+  "seq": 1431,
   "health": {
     "last_heartbeat": "2026-09-02T02:50:12Z",
-    "last_ok_run": "2026-09-02T03:40:15Z",
+    "last_ok_run": "2026-09-02T03:45:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
