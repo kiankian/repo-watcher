@@ -23744,6 +23744,54 @@
       "chat_id": 7582459199,
       "seq": 1421,
       "identity": "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Application-Development-Intern_2026-01847?utm_source=Simplify&ref=Simplify|First National Bank|Application Development Intern|Pittsburgh, PA|Summer 2026#1"
+    },
+    "4d23d85403c7": {
+      "company": "Vermeer",
+      "role": "Software Engineer Intern - IT",
+      "location": "Pella, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/IT-Software-Engineer-Internship-Summer-2027_REQ-22178?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2587,
+      "chat_id": 7582459199,
+      "seq": 1422,
+      "identity": "https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/IT-Software-Engineer-Internship-Summer-2027_REQ-22178?utm_source=Simplify&ref=Simplify|Vermeer|Software Engineer Intern - IT|Pella, IA|Summer 2026#1"
+    },
+    "f3d260ffc0cc": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Melbourne, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Summer-2027-_01871423?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2588,
+      "chat_id": 7582459199,
+      "seq": 1423,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Summer-2027-_01871423?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Melbourne, FL|Summer 2026#1"
+    },
+    "3e58cdb4a935": {
+      "company": "Ameriprise Financial",
+      "role": "Asset Management Technology Intern - Data Enablement",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://ameriprise.wd5.myworkdayjobs.com/en-US/Ameriprise/job/Boston-Massachusetts/Asset-Management-Technology-Intern---Data-Enablement_R26_3538?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2589,
+      "chat_id": 7582459199,
+      "seq": 1424,
+      "identity": "https://ameriprise.wd5.myworkdayjobs.com/en-US/Ameriprise/job/Boston-Massachusetts/Asset-Management-Technology-Intern---Data-Enablement_R26_3538?utm_source=Simplify&ref=Simplify|Ameriprise Financial|Asset Management Technology Intern - Data Enablement|Boston, MA|Summer 2026#1"
+    },
+    "5a97b2026007": {
+      "company": "AeroVironment",
+      "role": "Software Engineer Intern",
+      "location": "14 locationsGermantown, MD Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington County, Arlington, VA Melbourne, FL Petaluma, CA Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Simi-Valley-CA/Summer-2027-Software-Engineering-Intern_8611?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2590,
+      "chat_id": 7582459199,
+      "seq": 1425,
+      "identity": "https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Simi-Valley-CA/Summer-2027-Software-Engineering-Intern_8611?utm_source=Simplify&ref=Simplify|AeroVironment|Software Engineer Intern|14 locationsGermantown, MD Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington County, Arlington, VA Melbourne, FL Petaluma, CA Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -24111,10 +24159,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1421,
+  "seq": 1425,
   "health": {
     "last_heartbeat": "2026-09-02T00:40:12Z",
-    "last_ok_run": "2026-09-02T01:00:23Z",
+    "last_ok_run": "2026-09-02T01:05:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
