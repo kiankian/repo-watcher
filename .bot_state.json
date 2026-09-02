@@ -24884,6 +24884,18 @@
       "chat_id": 7582459199,
       "seq": 1516,
       "identity": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Bachelor-s_JR0286827|Intel|Platform Hardware and Systems Enginee...|Oregon Hillsboro|Summer 2027#1"
+    },
+    "eaa8cb4d3fcd": {
+      "company": "Philips",
+      "role": "Co-op - Software Development Engineer...",
+      "location": "Cambridge (US), Massachusetts, U...",
+      "term": "Summer 2027",
+      "apply_url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Development-Engineer--Automation----Cambridge--MA---Fall-2026_590708",
+      "source": "Zapply Summer Repo",
+      "message_id": 2682,
+      "chat_id": 7582459199,
+      "seq": 1517,
+      "identity": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Development-Engineer--Automation----Cambridge--MA---Fall-2026_590708|Philips|Co-op - Software Development Engineer...|Cambridge (US), Massachusetts, U...|Summer 2027#1"
     }
   },
   "applied": {
@@ -25251,10 +25263,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1516,
+  "seq": 1517,
   "health": {
     "last_heartbeat": "2026-09-02T16:50:15Z",
-    "last_ok_run": "2026-09-02T17:00:23Z",
+    "last_ok_run": "2026-09-02T17:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
