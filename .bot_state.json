@@ -23816,6 +23816,30 @@
       "chat_id": 7582459199,
       "seq": 1427,
       "identity": "https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1?utm_source=Simplify&ref=Simplify|Northern Trust|Technology Intern - Software Engineering|Chicago, IL|Summer 2026#1"
+    },
+    "5006f3fa1a5e": {
+      "company": "Textron",
+      "role": "Software Engineer Intern",
+      "location": "Augusta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=343299&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2593,
+      "chat_id": 7582459199,
+      "seq": 1428,
+      "identity": "https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=343299&utm_source=Simplify&ref=Simplify|Textron|Software Engineer Intern|Augusta, GA|Summer 2026#1"
+    },
+    "d6bcca405dd6": {
+      "company": "John Deere",
+      "role": "Product Engineering Intern",
+      "location": "Fargo, ND",
+      "term": "Summer 2026",
+      "apply_url": "https://johndeere.eightfold.ai/careers/job/137482769212?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2594,
+      "chat_id": 7582459199,
+      "seq": 1429,
+      "identity": "https://johndeere.eightfold.ai/careers/job/137482769212?utm_source=Simplify&ref=Simplify|John Deere|Product Engineering Intern|Fargo, ND|Summer 2026#1"
     }
   },
   "applied": {
@@ -24183,10 +24207,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1427,
+  "seq": 1429,
   "health": {
     "last_heartbeat": "2026-09-02T01:40:17Z",
-    "last_ok_run": "2026-09-02T02:30:16Z",
+    "last_ok_run": "2026-09-02T02:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
