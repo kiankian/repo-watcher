@@ -25040,6 +25040,18 @@
       "chat_id": 7582459199,
       "seq": 1529,
       "identity": "https://job-boards.greenhouse.io/generalmatter/jobs/5377131008|General Matter|Summer 2027 Internship - Embedded Sof...|Los Angeles, CA|Summer 2027#1"
+    },
+    "ed9f95d4c3e2": {
+      "company": "ByteDance",
+      "role": "Software Engineer Intern (Relational ...",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7678449088065997109",
+      "source": "Zapply Summer Repo",
+      "message_id": 2695,
+      "chat_id": 7582459199,
+      "seq": 1530,
+      "identity": "https://joinbytedance.com/search/7678449088065997109|ByteDance|Software Engineer Intern (Relational ...|San Jose, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -25407,10 +25419,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1529,
+  "seq": 1530,
   "health": {
     "last_heartbeat": "2026-09-02T20:10:15Z",
-    "last_ok_run": "2026-09-02T20:20:15Z",
+    "last_ok_run": "2026-09-02T20:25:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
