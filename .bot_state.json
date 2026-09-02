@@ -24056,6 +24056,18 @@
       "chat_id": 7582459199,
       "seq": 1447,
       "identity": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836|Intel|Software Engineering - Intern, Graduate|Oregon Hillsboro|Summer 2027#1"
+    },
+    "c9f67c72a289": {
+      "company": "General Motors",
+      "role": "2027 Summer Intern \u2013 Manufacturing Qu...",
+      "location": "7 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Bedford-Indiana-United-States-of-America/XMLNAME-2027-Summer-Intern---Manufacturing-Quality-Engineer_JR-202619307",
+      "source": "Zapply Summer Repo",
+      "message_id": 2613,
+      "chat_id": 7582459199,
+      "seq": 1448,
+      "identity": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Bedford-Indiana-United-States-of-America/XMLNAME-2027-Summer-Intern---Manufacturing-Quality-Engineer_JR-202619307|General Motors|2027 Summer Intern \u2013 Manufacturing Qu...|7 Locations|Summer 2027#1"
     }
   },
   "applied": {
@@ -24423,10 +24435,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1447,
+  "seq": 1448,
   "health": {
     "last_heartbeat": "2026-09-02T15:45:17Z",
-    "last_ok_run": "2026-09-02T15:50:16Z",
+    "last_ok_run": "2026-09-02T15:55:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
