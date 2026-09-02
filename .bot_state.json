@@ -24020,6 +24020,42 @@
       "chat_id": 7582459199,
       "seq": 1444,
       "identity": "https://jobs.uhsinc.com/jobs/367247?icims=1&utm_source=Simplify&ref=Simplify|Universal Health Services|Software Engineer Intern - Data Analytics|King of Prussia, PA|Summer 2026#1"
+    },
+    "7ffb53fd679c": {
+      "company": "Intel",
+      "role": "Platform Hardware and Systems Enginee...",
+      "location": "Oregon Hillsboro",
+      "term": "Summer 2027",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Graduate_JR0286828",
+      "source": "Zapply Summer Repo",
+      "message_id": 2610,
+      "chat_id": 7582459199,
+      "seq": 1445,
+      "identity": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Graduate_JR0286828|Intel|Platform Hardware and Systems Enginee...|Oregon Hillsboro|Summer 2027#1"
+    },
+    "fa884d9cb37c": {
+      "company": "Intel",
+      "role": "Software Engineering - Intern, Bachel...",
+      "location": "Oregon Hillsboro",
+      "term": "Summer 2027",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Bachelor-s_JR0286834",
+      "source": "Zapply Summer Repo",
+      "message_id": 2611,
+      "chat_id": 7582459199,
+      "seq": 1446,
+      "identity": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Bachelor-s_JR0286834|Intel|Software Engineering - Intern, Bachel...|Oregon Hillsboro|Summer 2027#1"
+    },
+    "8ad929e6065d": {
+      "company": "Intel",
+      "role": "Software Engineering - Intern, Graduate",
+      "location": "Oregon Hillsboro",
+      "term": "Summer 2027",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836",
+      "source": "Zapply Summer Repo",
+      "message_id": 2612,
+      "chat_id": 7582459199,
+      "seq": 1447,
+      "identity": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836|Intel|Software Engineering - Intern, Graduate|Oregon Hillsboro|Summer 2027#1"
     }
   },
   "applied": {
@@ -24387,10 +24423,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1444,
+  "seq": 1447,
   "health": {
     "last_heartbeat": "2026-09-02T14:40:20Z",
-    "last_ok_run": "2026-09-02T15:10:17Z",
+    "last_ok_run": "2026-09-02T15:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
