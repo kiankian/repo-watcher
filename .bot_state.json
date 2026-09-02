@@ -25064,6 +25064,42 @@
       "chat_id": 7582459199,
       "seq": 1531,
       "identity": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4744-1|HP Inc|Software Product Security Engineer In...|Spring, Texas, United States of ...|Summer 2027#1"
+    },
+    "3b20e05a08c2": {
+      "company": "Northrop Grumman",
+      "role": "2027 Systems Engineer Intern - Gilber...",
+      "location": "United States-Arizona-Gilbert",
+      "term": "Summer 2027",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Arizona-Gilbert/XMLNAME-2027-Systems-Engineer-Intern---Gilbert-AZ_R10249114-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 2697,
+      "chat_id": 7582459199,
+      "seq": 1532,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Arizona-Gilbert/XMLNAME-2027-Systems-Engineer-Intern---Gilbert-AZ_R10249114-1|Northrop Grumman|2027 Systems Engineer Intern - Gilber...|United States-Arizona-Gilbert|Summer 2027#1"
+    },
+    "6a2eeb7cb86f": {
+      "company": "Northrop Grumman",
+      "role": "2027 Systems Engineer Intern - Redond...",
+      "location": "United States-California-Redondo...",
+      "term": "Summer 2027",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/XMLNAME-2027-Systems-Engineer-Intern---Redondo-Beach-CA_R10249113",
+      "source": "Zapply Summer Repo",
+      "message_id": 2698,
+      "chat_id": 7582459199,
+      "seq": 1533,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/XMLNAME-2027-Systems-Engineer-Intern---Redondo-Beach-CA_R10249113|Northrop Grumman|2027 Systems Engineer Intern - Redond...|United States-California-Redondo...|Summer 2027#1"
+    },
+    "368eabb27534": {
+      "company": "HP Inc",
+      "role": "Quality Engineering Intern",
+      "location": "Spring, Texas, United States of ...",
+      "term": "Summer 2027",
+      "apply_url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Quality-Engineering-Intern_UNI4756-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 2699,
+      "chat_id": 7582459199,
+      "seq": 1534,
+      "identity": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Quality-Engineering-Intern_UNI4756-1|HP Inc|Quality Engineering Intern|Spring, Texas, United States of ...|Summer 2027#1"
     }
   },
   "applied": {
@@ -25431,10 +25467,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1531,
+  "seq": 1534,
   "health": {
     "last_heartbeat": "2026-09-02T23:20:15Z",
-    "last_ok_run": "2026-09-02T23:20:15Z",
+    "last_ok_run": "2026-09-02T23:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
