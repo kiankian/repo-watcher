@@ -24932,6 +24932,30 @@
       "chat_id": 7582459199,
       "seq": 1520,
       "identity": "https://caci.wd1.myworkdayjobs.com/External/job/King-of-Prussia-PA-US/Software-Engineering-Co-op---Fall-2026_331472|CACI|Software Engineering Co-op - Fall 2026|King of Prussia, PA, US|Summer 2027#1"
+    },
+    "056c16d0a1c8": {
+      "company": "Brunswick",
+      "role": "Supplier Quality Engineering Co-op",
+      "location": "Fond du Lac, WI",
+      "term": "Summer 2027",
+      "apply_url": "https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Co-op-Supplier-Quality-Engineering_JR-051340",
+      "source": "Zapply Summer Repo",
+      "message_id": 2686,
+      "chat_id": 7582459199,
+      "seq": 1521,
+      "identity": "https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Co-op-Supplier-Quality-Engineering_JR-051340|Brunswick|Supplier Quality Engineering Co-op|Fond du Lac, WI|Summer 2027#1"
+    },
+    "a9abbb82fe36": {
+      "company": "Workiva",
+      "role": "Software Engineering Intern",
+      "location": "Ames",
+      "term": "Summer 2027",
+      "apply_url": "https://workiva.wd503.myworkdayjobs.com/careers/job/Ames/Software-Engineering-Intern_R12420",
+      "source": "Zapply Summer Repo",
+      "message_id": 2687,
+      "chat_id": 7582459199,
+      "seq": 1522,
+      "identity": "https://workiva.wd503.myworkdayjobs.com/careers/job/Ames/Software-Engineering-Intern_R12420|Workiva|Software Engineering Intern|Ames|Summer 2027#1"
     }
   },
   "applied": {
@@ -25299,10 +25323,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1520,
+  "seq": 1522,
   "health": {
     "last_heartbeat": "2026-09-02T19:00:21Z",
-    "last_ok_run": "2026-09-02T19:05:15Z",
+    "last_ok_run": "2026-09-02T19:10:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
