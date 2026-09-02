@@ -24968,6 +24968,78 @@
       "chat_id": 7582459199,
       "seq": 1523,
       "identity": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR111173|Copart|Software Engineering Intern|Dallas, TX - Headquarters|Summer 2027#1"
+    },
+    "f13539f730e1": {
+      "company": "ABB",
+      "role": "Systems Engineering Co-op -Spring 2027",
+      "location": "USA, OH, Cleveland",
+      "term": "Summer 2027",
+      "apply_url": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-OH-Cleveland/Systems-Engineering-Co-op--Spring-2027_JR00043940",
+      "source": "Zapply Summer Repo",
+      "message_id": 2689,
+      "chat_id": 7582459199,
+      "seq": 1524,
+      "identity": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-OH-Cleveland/Systems-Engineering-Co-op--Spring-2027_JR00043940|ABB|Systems Engineering Co-op -Spring 2027|USA, OH, Cleveland|Summer 2027#1"
+    },
+    "1d10a223e376": {
+      "company": "Cadence",
+      "role": "Graduate Student Intern - Software En...",
+      "location": "AUSTIN",
+      "term": "Summer 2027",
+      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56029-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 2690,
+      "chat_id": 7582459199,
+      "seq": 1525,
+      "identity": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56029-2|Cadence|Graduate Student Intern - Software En...|AUSTIN|Summer 2027#1"
+    },
+    "44489244e4e3": {
+      "company": "Cadence",
+      "role": "Graduate Student Intern - Software En...",
+      "location": "AUSTIN",
+      "term": "Summer 2027",
+      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56028-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 2691,
+      "chat_id": 7582459199,
+      "seq": 1526,
+      "identity": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56028-1|Cadence|Graduate Student Intern - Software En...|AUSTIN|Summer 2027#1"
+    },
+    "469d13bfab1a": {
+      "company": "Cadence (University)",
+      "role": "Graduate Student Intern - Software En...",
+      "location": "AUSTIN",
+      "term": "Summer 2027",
+      "apply_url": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56029-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 2692,
+      "chat_id": 7582459199,
+      "seq": 1527,
+      "identity": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56029-1|Cadence (University)|Graduate Student Intern - Software En...|AUSTIN|Summer 2027#1"
+    },
+    "80c6db6cd0c8": {
+      "company": "Cadence (University)",
+      "role": "Graduate Student Intern - Software En...",
+      "location": "AUSTIN",
+      "term": "Summer 2027",
+      "apply_url": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56028",
+      "source": "Zapply Summer Repo",
+      "message_id": 2693,
+      "chat_id": 7582459199,
+      "seq": 1528,
+      "identity": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56028|Cadence (University)|Graduate Student Intern - Software En...|AUSTIN|Summer 2027#1"
+    },
+    "430c4d0fecb3": {
+      "company": "General Matter",
+      "role": "Summer 2027 Internship - Embedded Sof...",
+      "location": "Los Angeles, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/generalmatter/jobs/5377131008",
+      "source": "Zapply Summer Repo",
+      "message_id": 2694,
+      "chat_id": 7582459199,
+      "seq": 1529,
+      "identity": "https://job-boards.greenhouse.io/generalmatter/jobs/5377131008|General Matter|Summer 2027 Internship - Embedded Sof...|Los Angeles, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -25335,10 +25407,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1523,
+  "seq": 1529,
   "health": {
     "last_heartbeat": "2026-09-02T20:10:15Z",
-    "last_ok_run": "2026-09-02T20:10:15Z",
+    "last_ok_run": "2026-09-02T20:15:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
