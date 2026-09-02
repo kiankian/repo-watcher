@@ -23900,6 +23900,18 @@
       "chat_id": 7582459199,
       "seq": 1434,
       "identity": "https://parsons.wd5.myworkdayjobs.com/search/job/US---Remote-Any-Location/Software-Developer-Intern_R185565|Parsons|Software Developer Intern - Fall 2026...|Remote (Any Location), R185565|Summer 2027#1"
+    },
+    "8871d4be2ecd": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "role": "Mission Systems Engineering Intern",
+      "location": "Laurel, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.jhuapl.edu/jobs/59883?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2600,
+      "chat_id": 7582459199,
+      "seq": 1435,
+      "identity": "https://careers.jhuapl.edu/jobs/59883?icims=1&utm_source=Simplify&ref=Simplify|Johns Hopkins Applied Physics Laboratory|Mission Systems Engineering Intern|Laurel, MD|Summer 2026#1"
     }
   },
   "applied": {
@@ -24267,10 +24279,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1434,
+  "seq": 1435,
   "health": {
     "last_heartbeat": "2026-09-02T06:55:16Z",
-    "last_ok_run": "2026-09-02T07:00:21Z",
+    "last_ok_run": "2026-09-02T07:05:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
