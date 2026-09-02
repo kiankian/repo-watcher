@@ -23948,6 +23948,18 @@
       "chat_id": 7582459199,
       "seq": 1438,
       "identity": "https://ekkh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/35613?utm_source=Simplify&ref=Simplify|Hormel Foods|Packaging Intern|Austin, MN|Summer 2026#1"
+    },
+    "760529dbb4af": {
+      "company": "Steel Dynamics",
+      "role": "Software Development Intern",
+      "location": "Fort Wayne, IN",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-steeldynamics.icims.com/jobs/7994/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2604,
+      "chat_id": 7582459199,
+      "seq": 1439,
+      "identity": "https://careers-steeldynamics.icims.com/jobs/7994/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Steel Dynamics|Software Development Intern|Fort Wayne, IN|Summer 2026#1"
     }
   },
   "applied": {
@@ -24315,10 +24327,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1438,
+  "seq": 1439,
   "health": {
     "last_heartbeat": "2026-09-02T13:40:17Z",
-    "last_ok_run": "2026-09-02T14:00:22Z",
+    "last_ok_run": "2026-09-02T14:05:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
