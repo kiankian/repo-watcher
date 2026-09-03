@@ -26060,6 +26060,18 @@
       "chat_id": 7582459199,
       "seq": 1614,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Systems-Engineer---CA---ND_R10249236|Northrop Grumman|2027 Intern Systems Engineer - CA & ND|7 Locations|Summer 2027#1"
+    },
+    "fe10e4b94c2a": {
+      "company": "DriveTime",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "1720 W Rio Salado Pkwy Tempe, AZ...",
+      "term": "Summer 2027",
+      "apply_url": "https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294",
+      "source": "Zapply Summer Repo",
+      "message_id": 2780,
+      "chat_id": 7582459199,
+      "seq": 1615,
+      "identity": "https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294|DriveTime|Software Engineer Intern (Summer 2027)|1720 W Rio Salado Pkwy Tempe, AZ...|Summer 2027#1"
     }
   },
   "applied": {
@@ -26427,10 +26439,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1614,
+  "seq": 1615,
   "health": {
     "last_heartbeat": "2026-09-03T17:55:13Z",
-    "last_ok_run": "2026-09-03T18:30:23Z",
+    "last_ok_run": "2026-09-03T18:35:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
