@@ -26132,6 +26132,78 @@
       "chat_id": 7582459199,
       "seq": 1620,
       "identity": "https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7|Hermeus|GNC & Flight Software Intern - Spring...|Atlanta, GA|Summer 2027#1"
+    },
+    "3d449c1b2fc4": {
+      "company": "Five Rings Capital",
+      "role": "Software Developer Intern - Software Developer",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2786,
+      "chat_id": 7582459199,
+      "seq": 1621,
+      "identity": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008?utm_source=Simplify&ref=Simplify|Five Rings Capital|Software Developer Intern - Software Developer|NYC|Summer 2026#1"
+    },
+    "4001c9c38f3b": {
+      "company": "Akuna Capital University",
+      "role": "Software Engineer Intern - C++",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2787,
+      "chat_id": 7582459199,
+      "seq": 1622,
+      "identity": "https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847&utm_source=Simplify&ref=Simplify|Akuna Capital University|Software Engineer Intern - C++|Chicago, IL|Summer 2026#1"
+    },
+    "e5e55de121b6": {
+      "company": "Akuna Capital University",
+      "role": "Quantitative Development & Strategy Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://www.akunacapital.com/careers/job/8021481/?gh_jid=8021481&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2788,
+      "chat_id": 7582459199,
+      "seq": 1623,
+      "identity": "https://www.akunacapital.com/careers/job/8021481/?gh_jid=8021481&utm_source=Simplify&ref=Simplify|Akuna Capital University|Quantitative Development & Strategy Intern|Chicago, IL|Summer 2026#1"
+    },
+    "2ccf63b781ff": {
+      "company": "Akuna Capital University",
+      "role": "Software Engineer Intern - C# .NET Desktop",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://www.akunacapital.com/careers/job/8018886/?gh_jid=8018886&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2789,
+      "chat_id": 7582459199,
+      "seq": 1624,
+      "identity": "https://www.akunacapital.com/careers/job/8018886/?gh_jid=8018886&utm_source=Simplify&ref=Simplify|Akuna Capital University|Software Engineer Intern - C# .NET Desktop|Chicago, IL|Summer 2026#1"
+    },
+    "4178494e30e9": {
+      "company": "Akuna Capital University",
+      "role": "Software Engineer Intern - Full Stack Web",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://www.akunacapital.com/careers/job/8018893/?gh_jid=8018893&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2790,
+      "chat_id": 7582459199,
+      "seq": 1625,
+      "identity": "https://www.akunacapital.com/careers/job/8018893/?gh_jid=8018893&utm_source=Simplify&ref=Simplify|Akuna Capital University|Software Engineer Intern - Full Stack Web|Chicago, IL|Summer 2026#1"
+    },
+    "409cd54f92ff": {
+      "company": "Akuna Capital University",
+      "role": "Software Engineer Intern - Python",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2791,
+      "chat_id": 7582459199,
+      "seq": 1626,
+      "identity": "https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853&utm_source=Simplify&ref=Simplify|Akuna Capital University|Software Engineer Intern - Python|Chicago, IL|Summer 2026#1"
     }
   },
   "applied": {
@@ -26499,10 +26571,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1620,
+  "seq": 1626,
   "health": {
     "last_heartbeat": "2026-09-03T20:00:20Z",
-    "last_ok_run": "2026-09-03T20:00:20Z",
+    "last_ok_run": "2026-09-03T20:05:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
