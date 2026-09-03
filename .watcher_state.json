@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "4154a8c863c86e7ee3dab712d319df73467b4f37",
+    "last_sha": "009beec74c1b490a3d95ebdf58269996aaa2dcc1",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -1672,10 +1672,25 @@
       "https://careers-westernsouthern.icims.com/jobs/25222/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Western & Southern Financial Group|Software Engineer Intern|Cincinnati, OH|Summer 2026#1",
       "https://apply.edisoncareers.com/job/Alhambra-2027-Summer-Internship-Computer-Science-(AlhambraRosemeadPomona)-CA-91803-0000/1425151100/?ats=successfactors&utm_source=Simplify&ref=Simplify|Edison International|Computer Science Intern|Alhambra, CA Pomona, CA Rosemead, CA|Summer 2026#1",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0248384?utm_source=Simplify&ref=Simplify|Booz Allen|Systems Engineer Intern - University - 2027 Summer Games|Annapolis Junction, MD|Summer 2026#1",
-      "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Methods-Intern---Hot-Section-Engineering--Summer-2027---Onsite-_01870611?utm_source=Simplify&ref=Simplify|RTX|Methods Intern - Hot Section Engineering|East Hartford, CT|Summer 2026#1"
+      "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Methods-Intern---Hot-Section-Engineering--Summer-2027---Onsite-_01870611?utm_source=Simplify&ref=Simplify|RTX|Methods Intern - Hot Section Engineering|East Hartford, CT|Summer 2026#1",
+      "https://careersus-shure.icims.com/jobs/4955/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Shure|Application Software Engineer Intern|Niles, IL|Summer 2026#1",
+      "https://careersus-shure.icims.com/jobs/5007/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Shure|Mobile Applications Intern - iOS|Niles, IL|Summer 2026#1",
+      "https://careersus-shure.icims.com/jobs/4965/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Shure|Cloud Applications Development Intern|Niles, IL|Summer 2026#1",
+      "https://careersus-shure.icims.com/jobs/4964/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Shure|Automated Test Software Engineering Intern|Niles, IL|Summer 2026#1",
+      "https://careersus-shure.icims.com/jobs/4996/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Shure|Software Engineer Intern \ud83c\udf93|Niles, IL|Summer 2026#1",
+      "https://careersus-shure.icims.com/jobs/4976/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Shure|Cloud Software Engineer Intern|Niles, IL|Summer 2026#1",
+      "https://careersus-shure.icims.com/jobs/5021/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Shure|Application Systems Development Intern - Motive Mix|Niles, IL|Summer 2026#1",
+      "https://careersus-shure.icims.com/jobs/5006/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Shure|Mobile Applications Intern - Android|Niles, IL|Summer 2026#1",
+      "https://careersus-shure.icims.com/jobs/5020/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Shure|Application Software Development Intern|Niles, IL|Summer 2026#1",
+      "https://campus-globalcareers-atlassian.icims.com/jobs/26275/software-engineer-intern%2c-2027-canada/job?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Atlassian|Software Engineer Intern|Burnaby, BC, Canada Vancouver, BC, Canada Richmond, BC, Canada|Summer 2026#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-904--2551-Riva-Rd--BLDG-904/Software-Engineering-Intern--Summer-2027-_01870699?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Annapolis, MD|Summer 2026#1",
+      "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-GA-Atlanta/Software-Engineer-Intern---Summer-2027_JR0153235?utm_source=Simplify&ref=Simplify|McKesson|Software Engineer Intern|Irving, TX Atlanta, GA|Summer 2026#1",
+      "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-TX-Irving/Software-Development-Intern---Summer-2027_JR0152635?utm_source=Simplify&ref=Simplify|McKesson|Software Development Intern - Summer 2027|Irving, TX|Summer 2026#1",
+      "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152742?utm_source=Simplify&ref=Simplify|McKesson|Software Engineer Intern|Longmont, CO|Summer 2026#1",
+      "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152469?utm_source=Simplify&ref=Simplify|McKesson|Software Engineer Intern|Longmont, CO|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 319,
+    "last_row_count": 334,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
