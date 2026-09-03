@@ -25220,6 +25220,18 @@
       "chat_id": 7582459199,
       "seq": 1544,
       "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Aerospace-Systems-Engineering-Intern---Graduate_R71435|Blue Origin|Summer 2027 Aerospace Systems Enginee...|Greater Seattle Area|Summer 2027#1"
+    },
+    "46dc5d820d34": {
+      "company": "RTX",
+      "role": "Methods Intern - Hot Section Engineering",
+      "location": "East Hartford, CT",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Methods-Intern---Hot-Section-Engineering--Summer-2027---Onsite-_01870611?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2710,
+      "chat_id": 7582459199,
+      "seq": 1545,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Methods-Intern---Hot-Section-Engineering--Summer-2027---Onsite-_01870611?utm_source=Simplify&ref=Simplify|RTX|Methods Intern - Hot Section Engineering|East Hartford, CT|Summer 2026#1"
     }
   },
   "applied": {
@@ -25587,10 +25599,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1544,
+  "seq": 1545,
   "health": {
     "last_heartbeat": "2026-09-03T03:40:13Z",
-    "last_ok_run": "2026-09-03T04:30:18Z",
+    "last_ok_run": "2026-09-03T04:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
