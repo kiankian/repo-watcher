@@ -26300,6 +26300,42 @@
       "chat_id": 7582459199,
       "seq": 1634,
       "identity": "https://careers.withwaymo.com/jobs?gh_jid=8174504|Waymo|2027 Summer Intern, MS, Software Engi...|San Francisco, California, USA|Summer 2027#1"
+    },
+    "464ebd6137f8": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Systems Security Engineering Intern (...",
+      "location": "Hagerstown, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Systems-Security-Engineering-Intern--Summer-2027-_R0030783",
+      "source": "Zapply Summer Repo",
+      "message_id": 2800,
+      "chat_id": 7582459199,
+      "seq": 1635,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Systems-Security-Engineering-Intern--Summer-2027-_R0030783|Sierra Nevada Corporation|Systems Security Engineering Intern (...|Hagerstown, MD|Summer 2027#1"
+    },
+    "db6f1260c0d1": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Test Engineering Intern (Summer 2027)",
+      "location": "Hagerstown, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Test-Engineering-Intern--Summer-2027-_R0030772",
+      "source": "Zapply Summer Repo",
+      "message_id": 2801,
+      "chat_id": 7582459199,
+      "seq": 1636,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Test-Engineering-Intern--Summer-2027-_R0030772|Sierra Nevada Corporation|Test Engineering Intern (Summer 2027)|Hagerstown, MD|Summer 2027#1"
+    },
+    "87138ea33054": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Test Engineering Intern (Summer 2027)",
+      "location": "Dayton, OH",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Dayton-OH/Test-Engineering-Intern--Summer-2027-_R0030766",
+      "source": "Zapply Summer Repo",
+      "message_id": 2802,
+      "chat_id": 7582459199,
+      "seq": 1637,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Dayton-OH/Test-Engineering-Intern--Summer-2027-_R0030766|Sierra Nevada Corporation|Test Engineering Intern (Summer 2027)|Dayton, OH|Summer 2027#1"
     }
   },
   "applied": {
@@ -26667,10 +26703,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1634,
+  "seq": 1637,
   "health": {
     "last_heartbeat": "2026-09-03T21:00:30Z",
-    "last_ok_run": "2026-09-03T21:20:15Z",
+    "last_ok_run": "2026-09-03T21:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
