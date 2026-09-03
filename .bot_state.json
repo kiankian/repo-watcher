@@ -26036,6 +26036,18 @@
       "chat_id": 7582459199,
       "seq": 1612,
       "identity": "https://jobs.lever.co/hermeus/9229aa88-f54d-4ecd-85ee-b31f53b4207d|Hermeus|Mission Systems Engineering Intern|Atlanta, GA|Summer 2027#1"
+    },
+    "d282846ad17e": {
+      "company": "Transcard Payments",
+      "role": "Software Engineer Intern",
+      "location": "Chattanooga, TN",
+      "term": "Summer 2026",
+      "apply_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4476288?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2778,
+      "chat_id": 7582459199,
+      "seq": 1613,
+      "identity": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4476288?utm_source=Simplify&ref=Simplify|Transcard Payments|Software Engineer Intern|Chattanooga, TN|Summer 2026#1"
     }
   },
   "applied": {
@@ -26403,10 +26415,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1612,
+  "seq": 1613,
   "health": {
     "last_heartbeat": "2026-09-03T16:45:18Z",
-    "last_ok_run": "2026-09-03T17:00:29Z",
+    "last_ok_run": "2026-09-03T17:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
