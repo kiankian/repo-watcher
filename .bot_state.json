@@ -26264,6 +26264,18 @@
       "chat_id": 7582459199,
       "seq": 1631,
       "identity": "https://jobs.ashbyhq.com/apex-technology-inc/2d5ad921-241f-4e7a-b9ff-9d01763da88c|Apex Technology|Ground Software Engineering Internshi...|Los Angeles|Summer 2027#1"
+    },
+    "b730590dc57d": {
+      "company": "Caterpillar",
+      "role": "2027 Summer Corporate Intern - Autono...",
+      "location": "Mossville Illinois",
+      "term": "Summer 2027",
+      "apply_url": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Autonomy---Intelligent-Systems-Engineering_R0000392394",
+      "source": "Zapply Summer Repo",
+      "message_id": 2797,
+      "chat_id": 7582459199,
+      "seq": 1632,
+      "identity": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Autonomy---Intelligent-Systems-Engineering_R0000392394|Caterpillar|2027 Summer Corporate Intern - Autono...|Mossville Illinois|Summer 2027#1"
     }
   },
   "applied": {
@@ -26631,10 +26643,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1631,
+  "seq": 1632,
   "health": {
     "last_heartbeat": "2026-09-03T20:00:20Z",
-    "last_ok_run": "2026-09-03T20:30:20Z",
+    "last_ok_run": "2026-09-03T20:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
