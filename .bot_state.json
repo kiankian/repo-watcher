@@ -26348,6 +26348,30 @@
       "chat_id": 7582459199,
       "seq": 1638,
       "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Quality-Engineering-Intern--Summer-2027-_R0030785|Sierra Nevada Corporation|Quality Engineering Intern (Summer 2027)|Hagerstown, MD|Summer 2027#1"
+    },
+    "2582832ec507": {
+      "company": "DriveTime",
+      "role": "Software Engineering Intern (Summer 2...",
+      "location": "1720 W Rio Salado Pkwy Tempe, AZ...",
+      "term": "Summer 2027",
+      "apply_url": "https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294",
+      "source": "Zapply Summer Repo",
+      "message_id": 2804,
+      "chat_id": 7582459199,
+      "seq": 1639,
+      "identity": "https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294|DriveTime|Software Engineering Intern (Summer 2...|1720 W Rio Salado Pkwy Tempe, AZ...|Summer 2027#1"
+    },
+    "bb142fae01d4": {
+      "company": "Microsoft",
+      "role": "Penetration Tester: Internship Opport...",
+      "location": "Redmond, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556962158",
+      "source": "Zapply Summer Repo",
+      "message_id": 2805,
+      "chat_id": 7582459199,
+      "seq": 1640,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556962158|Microsoft|Penetration Tester: Internship Opport...|Redmond, Washington, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -26715,10 +26739,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1638,
+  "seq": 1640,
   "health": {
     "last_heartbeat": "2026-09-03T21:00:30Z",
-    "last_ok_run": "2026-09-03T21:50:16Z",
+    "last_ok_run": "2026-09-03T21:55:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
