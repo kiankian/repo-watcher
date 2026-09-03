@@ -26204,6 +26204,54 @@
       "chat_id": 7582459199,
       "seq": 1626,
       "identity": "https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853&utm_source=Simplify&ref=Simplify|Akuna Capital University|Software Engineer Intern - Python|Chicago, IL|Summer 2026#1"
+    },
+    "8047ba1a1ac3": {
+      "company": "GE Vernova",
+      "role": "GE Vernova Software Engineering - Co-...",
+      "location": "Rochester",
+      "term": "Summer 2027",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-Software-Engineering---Co-op--Summer---Fall_R5051794-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 2792,
+      "chat_id": 7582459199,
+      "seq": 1627,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-Software-Engineering---Co-op--Summer---Fall_R5051794-2|GE Vernova|GE Vernova Software Engineering - Co-...|Rochester|Summer 2027#1"
+    },
+    "db6aaff19016": {
+      "company": "GE Vernova",
+      "role": "GE Vernova Software Engineering - Co-...",
+      "location": "Rochester",
+      "term": "Summer 2027",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-Software-Engineering---Co-op---Spring-Summer-2027_R5051780-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 2793,
+      "chat_id": 7582459199,
+      "seq": 1628,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-Software-Engineering---Co-op---Spring-Summer-2027_R5051780-2|GE Vernova|GE Vernova Software Engineering - Co-...|Rochester|Summer 2027#1"
+    },
+    "e112cd33f43e": {
+      "company": "Motorola Solutions",
+      "role": "Android Platform Software Engineering...",
+      "location": "Plantation, FL, More...",
+      "term": "Summer 2027",
+      "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363",
+      "source": "Zapply Summer Repo",
+      "message_id": 2794,
+      "chat_id": 7582459199,
+      "seq": 1629,
+      "identity": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363|Motorola Solutions|Android Platform Software Engineering...|Plantation, FL, More...|Summer 2027#1"
+    },
+    "563953f0fd72": {
+      "company": "Apex Technology",
+      "role": "Software Engineering Internship - Tes...",
+      "location": "Los Angeles",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/apex-technology-inc/692bb497-59ba-44df-bacf-fffd2f7c6344",
+      "source": "Zapply Summer Repo",
+      "message_id": 2795,
+      "chat_id": 7582459199,
+      "seq": 1630,
+      "identity": "https://jobs.ashbyhq.com/apex-technology-inc/692bb497-59ba-44df-bacf-fffd2f7c6344|Apex Technology|Software Engineering Internship - Tes...|Los Angeles|Summer 2027#1"
     }
   },
   "applied": {
@@ -26571,10 +26619,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1626,
+  "seq": 1630,
   "health": {
     "last_heartbeat": "2026-09-03T20:00:20Z",
-    "last_ok_run": "2026-09-03T20:05:28Z",
+    "last_ok_run": "2026-09-03T20:10:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
