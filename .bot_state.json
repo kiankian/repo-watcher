@@ -25136,6 +25136,18 @@
       "chat_id": 7582459199,
       "seq": 1537,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Systems-Engineering-Intern--Summer-2027-_01867106?utm_source=Simplify&ref=Simplify|RTX|Systems Engineering Intern|Woburn, MA|Summer 2026#1"
+    },
+    "eadefc843ab7": {
+      "company": "Hermeus",
+      "role": "Software Engineering Intern (Command ...",
+      "location": "Atlanta, GA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796",
+      "source": "Zapply Summer Repo",
+      "message_id": 2703,
+      "chat_id": 7582459199,
+      "seq": 1538,
+      "identity": "https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796|Hermeus|Software Engineering Intern (Command ...|Atlanta, GA|Summer 2027#1"
     }
   },
   "applied": {
@@ -25503,10 +25515,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1537,
+  "seq": 1538,
   "health": {
     "last_heartbeat": "2026-09-03T02:30:18Z",
-    "last_ok_run": "2026-09-03T02:40:15Z",
+    "last_ok_run": "2026-09-03T02:45:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
