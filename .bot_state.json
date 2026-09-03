@@ -25148,6 +25148,30 @@
       "chat_id": 7582459199,
       "seq": 1538,
       "identity": "https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796|Hermeus|Software Engineering Intern (Command ...|Atlanta, GA|Summer 2027#1"
+    },
+    "e24c617b0b8f": {
+      "company": "Western & Southern Financial Group",
+      "role": "Software Development Intern",
+      "location": "Cincinnati, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-westernsouthern.icims.com/jobs/25245/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2704,
+      "chat_id": 7582459199,
+      "seq": 1539,
+      "identity": "https://careers-westernsouthern.icims.com/jobs/25245/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Western & Southern Financial Group|Software Development Intern|Cincinnati, OH|Summer 2026#1"
+    },
+    "4022c1db1930": {
+      "company": "Booz Allen",
+      "role": "Systems Engineer Intern - Summer Games",
+      "location": "Fort Walton Beach, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Systems-Engineer-Intern---Ft-Walton-Beach--FL_R0248388?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2705,
+      "chat_id": 7582459199,
+      "seq": 1540,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Systems-Engineer-Intern---Ft-Walton-Beach--FL_R0248388?utm_source=Simplify&ref=Simplify|Booz Allen|Systems Engineer Intern - Summer Games|Fort Walton Beach, FL|Summer 2026#1"
     }
   },
   "applied": {
@@ -25515,10 +25539,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1538,
+  "seq": 1540,
   "health": {
     "last_heartbeat": "2026-09-03T02:30:18Z",
-    "last_ok_run": "2026-09-03T03:30:16Z",
+    "last_ok_run": "2026-09-03T03:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
