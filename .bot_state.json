@@ -25172,6 +25172,54 @@
       "chat_id": 7582459199,
       "seq": 1540,
       "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Systems-Engineer-Intern---Ft-Walton-Beach--FL_R0248388?utm_source=Simplify&ref=Simplify|Booz Allen|Systems Engineer Intern - Summer Games|Fort Walton Beach, FL|Summer 2026#1"
+    },
+    "3546b024f59d": {
+      "company": "Western & Southern Financial Group",
+      "role": "Software Engineer Intern",
+      "location": "Cincinnati, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-westernsouthern.icims.com/jobs/25222/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2706,
+      "chat_id": 7582459199,
+      "seq": 1541,
+      "identity": "https://careers-westernsouthern.icims.com/jobs/25222/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Western & Southern Financial Group|Software Engineer Intern|Cincinnati, OH|Summer 2026#1"
+    },
+    "fda25bd95e18": {
+      "company": "Edison International",
+      "role": "Computer Science Intern",
+      "location": "Alhambra, CA Pomona, CA Rosemead, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://apply.edisoncareers.com/job/Alhambra-2027-Summer-Internship-Computer-Science-(AlhambraRosemeadPomona)-CA-91803-0000/1425151100/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2707,
+      "chat_id": 7582459199,
+      "seq": 1542,
+      "identity": "https://apply.edisoncareers.com/job/Alhambra-2027-Summer-Internship-Computer-Science-(AlhambraRosemeadPomona)-CA-91803-0000/1425151100/?ats=successfactors&utm_source=Simplify&ref=Simplify|Edison International|Computer Science Intern|Alhambra, CA Pomona, CA Rosemead, CA|Summer 2026#1"
+    },
+    "5743106e6795": {
+      "company": "Booz Allen",
+      "role": "Systems Engineer Intern - University - 2027 Summer Games",
+      "location": "Annapolis Junction, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0248384?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2708,
+      "chat_id": 7582459199,
+      "seq": 1543,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0248384?utm_source=Simplify&ref=Simplify|Booz Allen|Systems Engineer Intern - University - 2027 Summer Games|Annapolis Junction, MD|Summer 2026#1"
+    },
+    "956d73aef406": {
+      "company": "Blue Origin",
+      "role": "Summer 2027 Aerospace Systems Enginee...",
+      "location": "Greater Seattle Area",
+      "term": "Summer 2027",
+      "apply_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Aerospace-Systems-Engineering-Intern---Graduate_R71435",
+      "source": "Zapply Summer Repo",
+      "message_id": 2709,
+      "chat_id": 7582459199,
+      "seq": 1544,
+      "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Summer-2027-Aerospace-Systems-Engineering-Intern---Graduate_R71435|Blue Origin|Summer 2027 Aerospace Systems Enginee...|Greater Seattle Area|Summer 2027#1"
     }
   },
   "applied": {
@@ -25539,10 +25587,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1540,
+  "seq": 1544,
   "health": {
     "last_heartbeat": "2026-09-03T03:40:13Z",
-    "last_ok_run": "2026-09-03T04:00:18Z",
+    "last_ok_run": "2026-09-03T04:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
