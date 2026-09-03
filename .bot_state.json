@@ -26336,6 +26336,18 @@
       "chat_id": 7582459199,
       "seq": 1637,
       "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Dayton-OH/Test-Engineering-Intern--Summer-2027-_R0030766|Sierra Nevada Corporation|Test Engineering Intern (Summer 2027)|Dayton, OH|Summer 2027#1"
+    },
+    "386e85968887": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Quality Engineering Intern (Summer 2027)",
+      "location": "Hagerstown, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Quality-Engineering-Intern--Summer-2027-_R0030785",
+      "source": "Zapply Summer Repo",
+      "message_id": 2803,
+      "chat_id": 7582459199,
+      "seq": 1638,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Quality-Engineering-Intern--Summer-2027-_R0030785|Sierra Nevada Corporation|Quality Engineering Intern (Summer 2027)|Hagerstown, MD|Summer 2027#1"
     }
   },
   "applied": {
@@ -26703,10 +26715,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1637,
+  "seq": 1638,
   "health": {
     "last_heartbeat": "2026-09-03T21:00:30Z",
-    "last_ok_run": "2026-09-03T21:30:16Z",
+    "last_ok_run": "2026-09-03T21:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
