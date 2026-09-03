@@ -25664,6 +25664,18 @@
       "chat_id": 7582459199,
       "seq": 1581,
       "identity": "https://regions.wd5.myworkdayjobs.com/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/XMLNAME-2027-ETP-Intern---Technology--Operations--Digital--and-Data---Technology_R105425?utm_source=Simplify&ref=Simplify|Regions Bank|Technology Intern - Multiple Teams|Hoover, AL|Summer 2026#1"
+    },
+    "964a84740352": {
+      "company": "POET",
+      "role": "Plant Engineer Intern - Summer 2027",
+      "location": "Corning, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://poet.wd1.myworkdayjobs.com/POET/job/Corning-IA/Plant-Engineering-Intern---Summer-2027_R101665-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2747,
+      "chat_id": 7582459199,
+      "seq": 1582,
+      "identity": "https://poet.wd1.myworkdayjobs.com/POET/job/Corning-IA/Plant-Engineering-Intern---Summer-2027_R101665-1?utm_source=Simplify&ref=Simplify|POET|Plant Engineer Intern - Summer 2027|Corning, IA|Summer 2026#1"
     }
   },
   "applied": {
@@ -26031,10 +26043,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1581,
+  "seq": 1582,
   "health": {
     "last_heartbeat": "2026-09-03T14:30:18Z",
-    "last_ok_run": "2026-09-03T15:30:18Z",
+    "last_ok_run": "2026-09-03T15:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
