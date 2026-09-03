@@ -25448,6 +25448,54 @@
       "chat_id": 7582459199,
       "seq": 1563,
       "identity": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017572|Texas Instruments|Quality Engineering Intern|Dallas, TX, United States|Summer 2027#1"
+    },
+    "d9c0bf3da968": {
+      "company": "Shure",
+      "role": "Unified Communications Technology Intern",
+      "location": "Skokie, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://careersus-shure.icims.com/jobs/5002/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2729,
+      "chat_id": 7582459199,
+      "seq": 1564,
+      "identity": "https://careersus-shure.icims.com/jobs/5002/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Shure|Unified Communications Technology Intern|Skokie, IL|Summer 2026#1"
+    },
+    "7ff2d74ec1a3": {
+      "company": "\ud83d\udd25 Intel",
+      "role": "Software Engineer Intern \ud83c\udf93",
+      "location": "5 locationsAustin, TX Santa Clara, CA Hillsboro, OR Folsom, CA Phoenix, AZ",
+      "term": "Summer 2026",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2730,
+      "chat_id": 7582459199,
+      "seq": 1565,
+      "identity": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Intel|Software Engineer Intern \ud83c\udf93|5 locationsAustin, TX Santa Clara, CA Hillsboro, OR Folsom, CA Phoenix, AZ|Summer 2026#1"
+    },
+    "d68791280ce5": {
+      "company": "\ud83d\udd25 Intel",
+      "role": "Software Engineer Intern",
+      "location": "5 locationsAustin, TX Santa Clara, CA Hillsboro, OR Folsom, CA Phoenix, AZ",
+      "term": "Summer 2026",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Bachelor-s_JR0286834?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2731,
+      "chat_id": 7582459199,
+      "seq": 1566,
+      "identity": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Bachelor-s_JR0286834?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Intel|Software Engineer Intern|5 locationsAustin, TX Santa Clara, CA Hillsboro, OR Folsom, CA Phoenix, AZ|Summer 2026#1"
+    },
+    "ddd9c69976be": {
+      "company": "Zipline",
+      "role": "Maps Intern - Summer 2027",
+      "location": "South SF",
+      "term": "Summer 2026",
+      "apply_url": "https://www.zipline.com/open-roles?gh_jid=7980866003&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2732,
+      "chat_id": 7582459199,
+      "seq": 1567,
+      "identity": "https://www.zipline.com/open-roles?gh_jid=7980866003&utm_source=Simplify&ref=Simplify|Zipline|Maps Intern - Summer 2027|South SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -25815,10 +25863,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1563,
+  "seq": 1567,
   "health": {
     "last_heartbeat": "2026-09-03T05:45:13Z",
-    "last_ok_run": "2026-09-03T06:00:21Z",
+    "last_ok_run": "2026-09-03T06:05:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
