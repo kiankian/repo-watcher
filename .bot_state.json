@@ -25616,6 +25616,18 @@
       "chat_id": 7582459199,
       "seq": 1577,
       "identity": "https://job-boards.greenhouse.io/testnisc/jobs/8174088?utm_source=Simplify&ref=Simplify|National Information Solutions Cooperative|Software Development Intern|Lake St Louis, MO Mandan, ND Cedar Rapids, IA|Summer 2026#1"
+    },
+    "29fd65d8ab76": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Research Scientist Intern \ud83c\udf93",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7668590365398993205/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2743,
+      "chat_id": 7582459199,
+      "seq": 1578,
+      "identity": "https://jobs.bytedance.com/en/position/7668590365398993205/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Research Scientist Intern \ud83c\udf93|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -25983,10 +25995,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1577,
+  "seq": 1578,
   "health": {
     "last_heartbeat": "2026-09-03T10:20:15Z",
-    "last_ok_run": "2026-09-03T10:30:20Z",
+    "last_ok_run": "2026-09-03T10:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
