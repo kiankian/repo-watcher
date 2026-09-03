@@ -25496,6 +25496,42 @@
       "chat_id": 7582459199,
       "seq": 1567,
       "identity": "https://www.zipline.com/open-roles?gh_jid=7980866003&utm_source=Simplify&ref=Simplify|Zipline|Maps Intern - Summer 2027|South SF|Summer 2026#1"
+    },
+    "1af929efff98": {
+      "company": "Hermeus",
+      "role": "Software Engineer Intern - Command & Control",
+      "location": "Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2733,
+      "chat_id": 7582459199,
+      "seq": 1568,
+      "identity": "https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796/apply?utm_source=Simplify&ref=Simplify|Hermeus|Software Engineer Intern - Command & Control|Atlanta, GA|Summer 2026#1"
+    },
+    "1fb72788b4b9": {
+      "company": "Northrop Grumman",
+      "role": "Software Engineer Intern",
+      "location": "Linthicum Heights, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2734,
+      "chat_id": 7582459199,
+      "seq": 1569,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Engineer Intern|Linthicum Heights, MD|Summer 2026#1"
+    },
+    "8a4228f2d38f": {
+      "company": "Allied Solutions",
+      "role": "Software Engineer Intern",
+      "location": "Carmel, IN",
+      "term": "Summer 2026",
+      "apply_url": "https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/Carmel-IN/Software-Engineering-Intern_R-011087?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2735,
+      "chat_id": 7582459199,
+      "seq": 1570,
+      "identity": "https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/Carmel-IN/Software-Engineering-Intern_R-011087?utm_source=Simplify&ref=Simplify|Allied Solutions|Software Engineer Intern|Carmel, IN|Summer 2026#1"
     }
   },
   "applied": {
@@ -25863,10 +25899,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1567,
+  "seq": 1570,
   "health": {
     "last_heartbeat": "2026-09-03T05:45:13Z",
-    "last_ok_run": "2026-09-03T06:30:35Z",
+    "last_ok_run": "2026-09-03T06:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
