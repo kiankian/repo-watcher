@@ -27032,6 +27032,18 @@
       "chat_id": 7582459199,
       "seq": 1695,
       "identity": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/XMLNAME-2027-Summer-Analyst---Software-Engineering-Rotational-Program--New-York-City-_R_1508053?utm_source=Simplify&ref=Simplify|TD Bank|Software Engineer Intern - Software Engineering Rotational Program|NYC|Summer 2026#1"
+    },
+    "f57271d296cc": {
+      "company": "Elanco",
+      "role": "Quality Assurance Intern \u2013 Fort Dodge...",
+      "location": "Fort Dodge, IA",
+      "term": "Summer 2027",
+      "apply_url": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/Fort-Dodge-IA/Quality-Assurance-Intern---Fort-Dodge--Iowa--Summer-2027-_R0027087",
+      "source": "Zapply Summer Repo",
+      "message_id": 2861,
+      "chat_id": 7582459199,
+      "seq": 1696,
+      "identity": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/Fort-Dodge-IA/Quality-Assurance-Intern---Fort-Dodge--Iowa--Summer-2027-_R0027087|Elanco|Quality Assurance Intern \u2013 Fort Dodge...|Fort Dodge, IA|Summer 2027#1"
     }
   },
   "applied": {
@@ -27399,10 +27411,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1695,
+  "seq": 1696,
   "health": {
     "last_heartbeat": "2026-09-04T13:15:16Z",
-    "last_ok_run": "2026-09-04T13:55:13Z",
+    "last_ok_run": "2026-09-04T14:00:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
