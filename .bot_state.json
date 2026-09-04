@@ -26420,6 +26420,18 @@
       "chat_id": 7582459199,
       "seq": 1644,
       "identity": "https://jobs.bytedance.com/en/position/7668489218234157365/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Backend Developer Intern - Infrastructure Platform Delivery|San Jose, CA|Summer 2026#1"
+    },
+    "8094df1bee05": {
+      "company": "Amazon.com Services LLC",
+      "role": "Software Development Engineer Intern,...",
+      "location": "North Reading, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 2810,
+      "chat_id": 7582459199,
+      "seq": 1645,
+      "identity": "https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027|Amazon.com Services LLC|Software Development Engineer Intern,...|North Reading, MA|Summer 2027#1"
     }
   },
   "applied": {
@@ -26787,10 +26799,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1644,
+  "seq": 1645,
   "health": {
     "last_heartbeat": "2026-09-04T00:20:15Z",
-    "last_ok_run": "2026-09-04T01:10:12Z",
+    "last_ok_run": "2026-09-04T01:15:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
