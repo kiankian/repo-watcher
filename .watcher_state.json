@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "efea060786aaf02ad5e8e9c934d2d7165d654176",
+    "last_sha": "66e755f936add9cdbac76d9c1a8231d832b1a2d0",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -1789,10 +1789,21 @@
       "https://cibc.wd3.myworkdayjobs.com/campus/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322?utm_source=Simplify&ref=Simplify|CIBC|Software Engineer Intern|Chicago, IL|Summer 2026#1",
       "https://caci.wd1.myworkdayjobs.com/external/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern|Ypsilanti, MI|Summer 2026#1",
       "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Wilmington-125-South-West-Street/XMLNAME-2027-Technology-Developer-Summer-Internship-Program-Wilmington_JR-0000123236?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Intern|Wilmington, DE|Summer 2026#1",
-      "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Building-400-Whippany-Campus-Jefferson-Park/XMLNAME-2027-Technology-Developer-Summer-Internship-Program-Whippany_JR-0000123234?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Intern - Technology|Hanover, NJ|Summer 2026#1"
+      "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Building-400-Whippany-Campus-Jefferson-Park/XMLNAME-2027-Technology-Developer-Summer-Internship-Program-Whippany_JR-0000123234?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Intern - Technology|Hanover, NJ|Summer 2026#1",
+      "https://job-boards.greenhouse.io/schonfeld/jobs/8180089?utm_source=Simplify&ref=Simplify|Schonfeld|Software Engineering Intern|NYC|Summer 2026#1",
+      "https://job-boards.greenhouse.io/schonfeld/jobs/8171772?utm_source=Simplify&ref=Simplify|Schonfeld|Technology Intern - DMFI|NYC|Summer 2026#1",
+      "https://apply.workable.com/enfos-inc/j/CA15908E0A/apply?utm_source=Simplify&ref=Simplify|ENFOS|Software Engineer Intern - Summer 2027|Durham, NC|Summer 2026#1",
+      "https://paypal.eightfold.ai/careers/job/274922260559?utm_source=Simplify&ref=Simplify|\ud83d\udd25 PayPal|Software Engineer Intern|Austin, TX San Jose, CA Chicago, IL|Summer 2026#1",
+      "https://jobs.ashbyhq.com/rivianvw.tech/c5c0f2e3-ae78-4ca6-94f8-b6940d3cdb69/application?embed=true&utm_source=Simplify&ref=Simplify|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Applications - Infotainment & Mobile|Palo Alto, CA Irvine, CA|Summer 2026#1",
+      "https://www.zipline.com/open-roles/7986848003?gh_jid=7986848003&utm_source=Simplify&ref=Simplify|Zipline|Aircraft Software Integration Intern|South SF|Summer 2026#1",
+      "https://job-boards.greenhouse.io/scaleai/jobs/4730845005?utm_source=Simplify&ref=Simplify|Scale AI|Software Engineer Intern - Summer 2027|SF|Summer 2026#1",
+      "https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980429003?utm_source=Simplify&ref=Simplify|ID.me|Software Development Engineer Intern|Mountain View, CA|Summer 2026#1",
+      "https://pg.wd5.myworkdayjobs.com/1000/job/TORONTO-GO/Digital-Technologies-Internship-Co-op---Stage-ou-programme-coopratif-en-en-technologies-digitales_R000158595?utm_source=Simplify&ref=Simplify|Procter & Gamble|Digital Technologies Intern/Co-op|Toronto, ON, Canada|Summer 2026#1",
+      "https://modernatx.wd1.myworkdayjobs.com/en-US/M_tx/job/Norwood-Massachusetts/Intern--Applied-Technologies--Summer-2027-_R19734?utm_source=Simplify&ref=Simplify|Moderna|Applied Technologies Intern|Norwood, MA|Summer 2026#1",
+      "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050026-2?utm_source=Simplify&ref=Simplify|GE Vernova|Project Engineer Intern - Summer 2027 \ud83c\udf93|Bellevue, WA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 392,
+    "last_row_count": 403,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -2114,7 +2125,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "bda27202b641b1715e52d2484d0cfdbae09cf78f",
+    "last_sha": "47574f5b36b12dec216902072d1c478ab74d1d31",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
