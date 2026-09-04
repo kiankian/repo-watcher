@@ -27068,6 +27068,30 @@
       "chat_id": 7582459199,
       "seq": 1698,
       "identity": "https://careers.principal.com/jobs/52513?icims=1&utm_source=Simplify&ref=Simplify|Principal Financial Group|Software Engineer Intern - Summer 2027|Charlotte, NC|Summer 2026#1"
+    },
+    "c27b07caeaa0": {
+      "company": "GE Vernova",
+      "role": "AI Digitization Co-op - HDNU Global Operations",
+      "location": "Schenectady, NY Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Atlanta/GE-Vernova-HDNU-Global-Operations---AI-Digitization-Co-op---Spring-Summer-2027_R5049275-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2864,
+      "chat_id": 7582459199,
+      "seq": 1699,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Atlanta/GE-Vernova-HDNU-Global-Operations---AI-Digitization-Co-op---Spring-Summer-2027_R5049275-2?utm_source=Simplify&ref=Simplify|GE Vernova|AI Digitization Co-op - HDNU Global Operations|Schenectady, NY Atlanta, GA|Summer 2026#1"
+    },
+    "016daa32f573": {
+      "company": "DIRECTV",
+      "role": "Customer Operations Intern",
+      "location": "El Segundo, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://directv.wd1.myworkdayjobs.com/careers/job/El-Segundo-CA/Customer-Operations-Intern_R260273?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2865,
+      "chat_id": 7582459199,
+      "seq": 1700,
+      "identity": "https://directv.wd1.myworkdayjobs.com/careers/job/El-Segundo-CA/Customer-Operations-Intern_R260273?utm_source=Simplify&ref=Simplify|DIRECTV|Customer Operations Intern|El Segundo, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -27435,10 +27459,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1698,
+  "seq": 1700,
   "health": {
     "last_heartbeat": "2026-09-04T14:25:12Z",
-    "last_ok_run": "2026-09-04T15:00:21Z",
+    "last_ok_run": "2026-09-04T15:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"

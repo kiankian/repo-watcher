@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "5b6cf6ff62344b1e46c435d1bc2ed29f1cd64233",
+    "last_sha": "d7c5a03c33c014adc8e249e7779bcc4cbf8d340b",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -1764,10 +1764,12 @@
       "https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Application-Development---TX-_181846?utm_source=Simplify&ref=Simplify|Vanguard|Application Development Intern|Dallas, TX|Summer 2026#1",
       "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/XMLNAME-2027-Summer-Analyst---Software-Engineering-Rotational-Program--New-York-City-_R_1508053?utm_source=Simplify&ref=Simplify|TD Bank|Software Engineer Intern - Software Engineering Rotational Program|NYC|Summer 2026#1",
       "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/RF-Technology-Development-Automation-Engineering-Intern--Summer-2027-_JR-2604272?utm_source=Simplify&ref=Simplify|GlobalFoundries|RF Technology Development Automation Engineer Intern - Summer 2027|Malta, NY|Summer 2026#1",
-      "https://careers.principal.com/jobs/52513?icims=1&utm_source=Simplify&ref=Simplify|Principal Financial Group|Software Engineer Intern - Summer 2027|Charlotte, NC|Summer 2026#1"
+      "https://careers.principal.com/jobs/52513?icims=1&utm_source=Simplify&ref=Simplify|Principal Financial Group|Software Engineer Intern - Summer 2027|Charlotte, NC|Summer 2026#1",
+      "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Atlanta/GE-Vernova-HDNU-Global-Operations---AI-Digitization-Co-op---Spring-Summer-2027_R5049275-2?utm_source=Simplify&ref=Simplify|GE Vernova|AI Digitization Co-op - HDNU Global Operations|Schenectady, NY Atlanta, GA|Summer 2026#1",
+      "https://directv.wd1.myworkdayjobs.com/careers/job/El-Segundo-CA/Customer-Operations-Intern_R260273?utm_source=Simplify&ref=Simplify|DIRECTV|Customer Operations Intern|El Segundo, CA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 367,
+    "last_row_count": 373,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -2089,7 +2091,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "6c383b8270af45761895b6924e91b92585f231c5",
+    "last_sha": "b8c5bf5327b0ec56e057b51c46adf22791b2f5cd",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
