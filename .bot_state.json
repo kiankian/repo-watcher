@@ -28028,6 +28028,30 @@
       "chat_id": 7582459199,
       "seq": 1778,
       "identity": "https://caci.wd1.myworkdayjobs.com/External/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648|CACI|Software Engineer Intern - Summer 2027|Ypsilanti, MI, US|Summer 2027#1"
+    },
+    "8285eb190333": {
+      "company": "Booz Allen Hamilton",
+      "role": "University - 2027 Summer Games System...",
+      "location": "Fort Walton Beach, FL",
+      "term": "Summer 2027",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Systems-Engineer-Intern---Ft-Walton-Beach--FL_R0248388",
+      "source": "Zapply Summer Repo",
+      "message_id": 2944,
+      "chat_id": 7582459199,
+      "seq": 1779,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Systems-Engineer-Intern---Ft-Walton-Beach--FL_R0248388|Booz Allen Hamilton|University - 2027 Summer Games System...|Fort Walton Beach, FL|Summer 2027#1"
+    },
+    "193c063d752d": {
+      "company": "Booz Allen Hamilton",
+      "role": "University - 2027 Summer Games System...",
+      "location": "Annapolis Junction, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0248384",
+      "source": "Zapply Summer Repo",
+      "message_id": 2945,
+      "chat_id": 7582459199,
+      "seq": 1780,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0248384|Booz Allen Hamilton|University - 2027 Summer Games System...|Annapolis Junction, MD|Summer 2027#1"
     }
   },
   "applied": {
@@ -28395,10 +28419,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1778,
+  "seq": 1780,
   "health": {
     "last_heartbeat": "2026-09-04T19:55:11Z",
-    "last_ok_run": "2026-09-04T19:55:11Z",
+    "last_ok_run": "2026-09-04T20:00:55Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
