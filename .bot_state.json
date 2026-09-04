@@ -27920,6 +27920,18 @@
       "chat_id": 7582459199,
       "seq": 1769,
       "identity": "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Eagan/Research-and-Development-Intern_R00304540?utm_source=Simplify&ref=Simplify|Ecolab|Research and Development Intern|Naperville, IL Eagan, MN|Summer 2026#1"
+    },
+    "12d430f483cf": {
+      "company": "Texas Instruments",
+      "role": "Systems Engineering Intern - Machine ...",
+      "location": "Dallas, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017705",
+      "source": "Zapply Summer Repo",
+      "message_id": 2935,
+      "chat_id": 7582459199,
+      "seq": 1770,
+      "identity": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017705|Texas Instruments|Systems Engineering Intern - Machine ...|Dallas, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -28287,10 +28299,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1769,
+  "seq": 1770,
   "health": {
     "last_heartbeat": "2026-09-04T16:25:14Z",
-    "last_ok_run": "2026-09-04T16:45:16Z",
+    "last_ok_run": "2026-09-04T16:50:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
