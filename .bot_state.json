@@ -26960,6 +26960,30 @@
       "chat_id": 7582459199,
       "seq": 1689,
       "identity": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Automation-Engineer--Drug-Product-Assembly---Packaging_R-254530|Amgen|Undergrad Co-op - Automation Engineer...|Massachusetts - Cambridge|Summer 2027#1"
+    },
+    "15506c1e9288": {
+      "company": "Procter & Gamble",
+      "role": "IT Engineering Internship - Software, Platform, Network",
+      "location": "Cincinnati, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering-Internship--Software--Platform----Network-_R000157503?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2855,
+      "chat_id": 7582459199,
+      "seq": 1690,
+      "identity": "https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering-Internship--Software--Platform----Network-_R000157503?utm_source=Simplify&ref=Simplify|Procter & Gamble|IT Engineering Internship - Software, Platform, Network|Cincinnati, OH|Summer 2026#1"
+    },
+    "da81711a0b77": {
+      "company": "Deloitte",
+      "role": "Data & AI Solutions Engineering Summer Scholar Intern",
+      "location": "Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-Data-AI-Solutions-Engineering/363475?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2856,
+      "chat_id": 7582459199,
+      "seq": 1691,
+      "identity": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-Data-AI-Solutions-Engineering/363475?utm_source=Simplify&ref=Simplify|Deloitte|Data & AI Solutions Engineering Summer Scholar Intern|Atlanta, GA|Summer 2026#1"
     }
   },
   "applied": {
@@ -27327,10 +27351,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1689,
+  "seq": 1691,
   "health": {
     "last_heartbeat": "2026-09-04T12:15:15Z",
-    "last_ok_run": "2026-09-04T13:00:20Z",
+    "last_ok_run": "2026-09-04T13:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
