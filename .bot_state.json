@@ -28052,6 +28052,30 @@
       "chat_id": 7582459199,
       "seq": 1780,
       "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0248384|Booz Allen Hamilton|University - 2027 Summer Games System...|Annapolis Junction, MD|Summer 2027#1"
+    },
+    "f65d3bd1b20f": {
+      "company": "RTX",
+      "role": "Systems Engineering Co-op \u2013 Special O...",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineering-Co-op---Special-Operations-Aviation-Mainline--Summer-Fall-2027-----Onsite_01872909",
+      "source": "Zapply Summer Repo",
+      "message_id": 2946,
+      "chat_id": 7582459199,
+      "seq": 1781,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineering-Co-op---Special-Operations-Aviation-Mainline--Summer-Fall-2027-----Onsite_01872909|RTX|Systems Engineering Co-op \u2013 Special O...|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "5a7413906d99": {
+      "company": "ByteDance",
+      "role": "Site Reliability Engineer Intern (Dat...",
+      "location": "Seattle, Washington",
+      "term": "Summer 2027",
+      "apply_url": "https://joinbytedance.com/search/7672922352988342533",
+      "source": "Zapply Summer Repo",
+      "message_id": 2947,
+      "chat_id": 7582459199,
+      "seq": 1782,
+      "identity": "https://joinbytedance.com/search/7672922352988342533|ByteDance|Site Reliability Engineer Intern (Dat...|Seattle, Washington|Summer 2027#1"
     }
   },
   "applied": {
@@ -28419,10 +28443,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1780,
+  "seq": 1782,
   "health": {
     "last_heartbeat": "2026-09-04T19:55:11Z",
-    "last_ok_run": "2026-09-04T20:25:15Z",
+    "last_ok_run": "2026-09-04T20:30:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
