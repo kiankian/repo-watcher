@@ -27884,6 +27884,42 @@
       "chat_id": 7582459199,
       "seq": 1766,
       "identity": "https://jobs.ashbyhq.com/reflect-orbital/d2ad1427-89aa-404d-8678-7b8e6dace5e2|Reflect Orbital|Flight Software Engineering Intern|Hawthorne, CA|Summer 2027#1"
+    },
+    "f4520faa3a43": {
+      "company": "GE Vernova",
+      "role": "Project Engineer Intern - Summer 2027 \ud83c\udf93",
+      "location": "Bellevue, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050026-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2932,
+      "chat_id": 7582459199,
+      "seq": 1767,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050026-1?utm_source=Simplify&ref=Simplify|GE Vernova|Project Engineer Intern - Summer 2027 \ud83c\udf93|Bellevue, WA|Summer 2026#1"
+    },
+    "d9fa34c04ce4": {
+      "company": "GE Vernova",
+      "role": "AI Digitization Co-op - HDNU Global Operations",
+      "location": "Schenectady, NY Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-HDNU-Global-Operations---AI-Digitization-Co-op---Spring-Summer-2027_R5049275-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2933,
+      "chat_id": 7582459199,
+      "seq": 1768,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Atlanta/GE-Vernova-HDNU-Global-Operations---AI-Digitization-Co-op---Spring-Summer-2027_R5049275-1?utm_source=Simplify&ref=Simplify|GE Vernova|AI Digitization Co-op - HDNU Global Operations|Schenectady, NY Atlanta, GA|Summer 2026#1"
+    },
+    "55c2543c6219": {
+      "company": "Ecolab",
+      "role": "Research and Development Intern",
+      "location": "Naperville, IL Eagan, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Eagan/Research-and-Development-Intern_R00304540?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2934,
+      "chat_id": 7582459199,
+      "seq": 1769,
+      "identity": "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Eagan/Research-and-Development-Intern_R00304540?utm_source=Simplify&ref=Simplify|Ecolab|Research and Development Intern|Naperville, IL Eagan, MN|Summer 2026#1"
     }
   },
   "applied": {
@@ -28251,10 +28287,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1766,
+  "seq": 1769,
   "health": {
     "last_heartbeat": "2026-09-04T16:25:14Z",
-    "last_ok_run": "2026-09-04T16:30:17Z",
+    "last_ok_run": "2026-09-04T16:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
