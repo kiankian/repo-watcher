@@ -27330,7 +27330,7 @@
   "seq": 1689,
   "health": {
     "last_heartbeat": "2026-09-04T12:15:15Z",
-    "last_ok_run": "2026-09-04T12:50:17Z",
+    "last_ok_run": "2026-09-04T12:55:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
