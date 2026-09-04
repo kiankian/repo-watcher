@@ -27044,6 +27044,18 @@
       "chat_id": 7582459199,
       "seq": 1696,
       "identity": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/Fort-Dodge-IA/Quality-Assurance-Intern---Fort-Dodge--Iowa--Summer-2027-_R0027087|Elanco|Quality Assurance Intern \u2013 Fort Dodge...|Fort Dodge, IA|Summer 2027#1"
+    },
+    "509c74c6b18c": {
+      "company": "GlobalFoundries",
+      "role": "RF Technology Development Automation Engineer Intern - Summer 2027",
+      "location": "Malta, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/RF-Technology-Development-Automation-Engineering-Intern--Summer-2027-_JR-2604272?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2862,
+      "chat_id": 7582459199,
+      "seq": 1697,
+      "identity": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/RF-Technology-Development-Automation-Engineering-Intern--Summer-2027-_JR-2604272?utm_source=Simplify&ref=Simplify|GlobalFoundries|RF Technology Development Automation Engineer Intern - Summer 2027|Malta, NY|Summer 2026#1"
     }
   },
   "applied": {
@@ -27411,10 +27423,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1696,
+  "seq": 1697,
   "health": {
     "last_heartbeat": "2026-09-04T13:15:16Z",
-    "last_ok_run": "2026-09-04T14:00:21Z",
+    "last_ok_run": "2026-09-04T14:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
