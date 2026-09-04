@@ -27872,6 +27872,18 @@
       "chat_id": 7582459199,
       "seq": 1765,
       "identity": "https://www.zipline.com/open-roles/7893955003?gh_jid=7893955003|Zipline|Software Systems Validation Intern - Spring 2027|South San Francisco, CA|Other#1"
+    },
+    "6ad7dcaceb82": {
+      "company": "Reflect Orbital",
+      "role": "Flight Software Engineering Intern",
+      "location": "Hawthorne, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/reflect-orbital/d2ad1427-89aa-404d-8678-7b8e6dace5e2",
+      "source": "Zapply Summer Repo",
+      "message_id": 2931,
+      "chat_id": 7582459199,
+      "seq": 1766,
+      "identity": "https://jobs.ashbyhq.com/reflect-orbital/d2ad1427-89aa-404d-8678-7b8e6dace5e2|Reflect Orbital|Flight Software Engineering Intern|Hawthorne, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -28239,10 +28251,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1765,
+  "seq": 1766,
   "health": {
     "last_heartbeat": "2026-09-04T16:25:14Z",
-    "last_ok_run": "2026-09-04T16:25:14Z",
+    "last_ok_run": "2026-09-04T16:30:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
