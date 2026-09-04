@@ -27056,6 +27056,18 @@
       "chat_id": 7582459199,
       "seq": 1697,
       "identity": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/RF-Technology-Development-Automation-Engineering-Intern--Summer-2027-_JR-2604272?utm_source=Simplify&ref=Simplify|GlobalFoundries|RF Technology Development Automation Engineer Intern - Summer 2027|Malta, NY|Summer 2026#1"
+    },
+    "87cb4c5f8d23": {
+      "company": "Principal Financial Group",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Charlotte, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.principal.com/jobs/52513?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2863,
+      "chat_id": 7582459199,
+      "seq": 1698,
+      "identity": "https://careers.principal.com/jobs/52513?icims=1&utm_source=Simplify&ref=Simplify|Principal Financial Group|Software Engineer Intern - Summer 2027|Charlotte, NC|Summer 2026#1"
     }
   },
   "applied": {
@@ -27423,10 +27435,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1697,
+  "seq": 1698,
   "health": {
     "last_heartbeat": "2026-09-04T14:25:12Z",
-    "last_ok_run": "2026-09-04T14:30:21Z",
+    "last_ok_run": "2026-09-04T14:35:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
