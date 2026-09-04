@@ -26984,6 +26984,54 @@
       "chat_id": 7582459199,
       "seq": 1691,
       "identity": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-Data-AI-Solutions-Engineering/363475?utm_source=Simplify&ref=Simplify|Deloitte|Data & AI Solutions Engineering Summer Scholar Intern|Atlanta, GA|Summer 2026#1"
+    },
+    "2eceb9f52249": {
+      "company": "Dev Technology Group",
+      "role": "AI/Agentic Solution Engineer Intern - Summer 2027",
+      "location": "Reston, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/devtechnology/jobs/8728292002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2857,
+      "chat_id": 7582459199,
+      "seq": 1692,
+      "identity": "https://job-boards.greenhouse.io/devtechnology/jobs/8728292002?utm_source=Simplify&ref=Simplify|Dev Technology Group|AI/Agentic Solution Engineer Intern - Summer 2027|Reston, VA|Summer 2026#1"
+    },
+    "8c4f1500cbb3": {
+      "company": "John Deere",
+      "role": "Information Technology Intern - Technology",
+      "location": "Moline, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://johndeere.eightfold.ai/careers/job/137482633322?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2858,
+      "chat_id": 7582459199,
+      "seq": 1693,
+      "identity": "https://johndeere.eightfold.ai/careers/job/137482633322?utm_source=Simplify&ref=Simplify|John Deere|Information Technology Intern - Technology|Moline, IL|Summer 2026#1"
+    },
+    "b34ec8d1f7ee": {
+      "company": "Vanguard",
+      "role": "Application Development Intern",
+      "location": "Dallas, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Application-Development---TX-_181846?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2859,
+      "chat_id": 7582459199,
+      "seq": 1694,
+      "identity": "https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Application-Development---TX-_181846?utm_source=Simplify&ref=Simplify|Vanguard|Application Development Intern|Dallas, TX|Summer 2026#1"
+    },
+    "ee5328ea0ff4": {
+      "company": "TD Bank",
+      "role": "Software Engineer Intern - Software Engineering Rotational Program",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/XMLNAME-2027-Summer-Analyst---Software-Engineering-Rotational-Program--New-York-City-_R_1508053?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2860,
+      "chat_id": 7582459199,
+      "seq": 1695,
+      "identity": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/XMLNAME-2027-Summer-Analyst---Software-Engineering-Rotational-Program--New-York-City-_R_1508053?utm_source=Simplify&ref=Simplify|TD Bank|Software Engineer Intern - Software Engineering Rotational Program|NYC|Summer 2026#1"
     }
   },
   "applied": {
@@ -27351,10 +27399,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1691,
+  "seq": 1695,
   "health": {
     "last_heartbeat": "2026-09-04T13:15:16Z",
-    "last_ok_run": "2026-09-04T13:30:16Z",
+    "last_ok_run": "2026-09-04T13:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
