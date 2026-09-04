@@ -26924,6 +26924,30 @@
       "chat_id": 7582459199,
       "seq": 1686,
       "identity": "https://corningjobs.corning.com/job/Concord-Digital-&-IT-Intern,-Analyst,-Concord-Manufacturing-Summer-2027-NC-28026/1425549000/?ats=successfactors&utm_source=Simplify&ref=Simplify|Corning|Digital and Information Technology Intern - Analyst|Concord, NC|Summer 2026#1"
+    },
+    "96c338e54a3d": {
+      "company": "Vanguard",
+      "role": "IT Intern - Application Development",
+      "location": "Charlotte, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Application-Development--NC-_177681-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2852,
+      "chat_id": 7582459199,
+      "seq": 1687,
+      "identity": "https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Application-Development--NC-_177681-1?utm_source=Simplify&ref=Simplify|Vanguard|IT Intern - Application Development|Charlotte, NC|Summer 2026#1"
+    },
+    "16201cdb28f7": {
+      "company": "Vanguard",
+      "role": "IT Intern - Investment Systems",
+      "location": "Malvern, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Investment-Systems--PA-_177685-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2853,
+      "chat_id": 7582459199,
+      "seq": 1688,
+      "identity": "https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Investment-Systems--PA-_177685-1?utm_source=Simplify&ref=Simplify|Vanguard|IT Intern - Investment Systems|Malvern, PA|Summer 2026#1"
     }
   },
   "applied": {
@@ -27291,10 +27315,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1686,
+  "seq": 1688,
   "health": {
     "last_heartbeat": "2026-09-04T12:15:15Z",
-    "last_ok_run": "2026-09-04T12:30:17Z",
+    "last_ok_run": "2026-09-04T12:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
