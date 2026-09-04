@@ -26408,6 +26408,18 @@
       "chat_id": 7582459199,
       "seq": 1643,
       "identity": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Software-Intern_R56258|Cadence|Software Intern|SAN JOSE|Summer 2027#1"
+    },
+    "254f85f5b570": {
+      "company": "\ud83d\udd25 ByteDance",
+      "role": "Backend Developer Intern - Infrastructure Platform Delivery",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.bytedance.com/en/position/7668489218234157365/detail?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2809,
+      "chat_id": 7582459199,
+      "seq": 1644,
+      "identity": "https://jobs.bytedance.com/en/position/7668489218234157365/detail?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ByteDance|Backend Developer Intern - Infrastructure Platform Delivery|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -26775,10 +26787,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1643,
+  "seq": 1644,
   "health": {
     "last_heartbeat": "2026-09-04T00:20:15Z",
-    "last_ok_run": "2026-09-04T01:00:18Z",
+    "last_ok_run": "2026-09-04T01:05:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
