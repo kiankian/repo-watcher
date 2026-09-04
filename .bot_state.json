@@ -28076,6 +28076,66 @@
       "chat_id": 7582459199,
       "seq": 1782,
       "identity": "https://joinbytedance.com/search/7672922352988342533|ByteDance|Site Reliability Engineer Intern (Dat...|Seattle, Washington|Summer 2027#1"
+    },
+    "e2dd38f36cf1": {
+      "company": "Cox",
+      "role": "Software Engineering Intern - Summer ...",
+      "location": "Long Island NY",
+      "term": "Summer 2027",
+      "apply_url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 2948,
+      "chat_id": 7582459199,
+      "seq": 1783,
+      "identity": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1|Cox|Software Engineering Intern - Summer ...|Long Island NY|Summer 2027#1"
+    },
+    "da4c41ce5431": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "role": "Software Engineering Intern - Connect...",
+      "location": "Irvine, California",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2",
+      "source": "Zapply Summer Repo",
+      "message_id": 2949,
+      "chat_id": 7582459199,
+      "seq": 1784,
+      "identity": "https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Connect...|Irvine, California|Summer 2027#1"
+    },
+    "1cdaa2a001c5": {
+      "company": "Garner Health",
+      "role": "Software Engineering Intern",
+      "location": "New York City, New York",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6164698004",
+      "source": "Zapply Summer Repo",
+      "message_id": 2950,
+      "chat_id": 7582459199,
+      "seq": 1785,
+      "identity": "https://job-boards.greenhouse.io/garnerhealth/jobs/6164698004|Garner Health|Software Engineering Intern|New York City, New York|Summer 2027#1"
+    },
+    "2d3a71aa8055": {
+      "company": "Apex Technology",
+      "role": "Simulation Software Engineering Inter...",
+      "location": "Los Angeles",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/apex-technology-inc/d3e21f84-3637-4521-833d-fd07b3ca5f2e",
+      "source": "Zapply Summer Repo",
+      "message_id": 2951,
+      "chat_id": 7582459199,
+      "seq": 1786,
+      "identity": "https://jobs.ashbyhq.com/apex-technology-inc/d3e21f84-3637-4521-833d-fd07b3ca5f2e|Apex Technology|Simulation Software Engineering Inter...|Los Angeles|Summer 2027#1"
+    },
+    "3758767d7d20": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "role": "Software Engineering Intern - Applica...",
+      "location": "Irvine, California",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/rivianvw.tech/c5c0f2e3-ae78-4ca6-94f8-b6940d3cdb69",
+      "source": "Zapply Summer Repo",
+      "message_id": 2952,
+      "chat_id": 7582459199,
+      "seq": 1787,
+      "identity": "https://jobs.ashbyhq.com/rivianvw.tech/c5c0f2e3-ae78-4ca6-94f8-b6940d3cdb69|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Applica...|Irvine, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -28443,10 +28503,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1782,
+  "seq": 1787,
   "health": {
     "last_heartbeat": "2026-09-04T22:00:20Z",
-    "last_ok_run": "2026-09-04T22:20:16Z",
+    "last_ok_run": "2026-09-04T22:25:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
