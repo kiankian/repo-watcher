@@ -31,8 +31,11 @@ network stubbed, so the end-to-end tests drive the shipped code rather than a co
 ## Architecture and data flow
 
 The workflow is manually dispatchable only. An external cron-job.org request
-dispatches it every minute; **do not add a GitHub Actions `schedule` trigger**.
-Concurrency is serialized because both jobs write committed state.
+dispatches it every 5 minutes; **do not add a GitHub Actions `schedule` trigger**.
+Concurrency is serialized because both jobs write committed state — which is why
+the dispatch rate is not the polling rate, and why raising it back to once a
+minute only manufactures cancelled runs. The `process_applies` job is currently
+paused behind the `PROCESS_APPLIES` repository variable.
 
 1. The `watch` job fetches each enabled upstream branch SHA and skips unchanged
    sources that already have initialized state.
