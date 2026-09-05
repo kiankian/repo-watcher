@@ -29816,6 +29816,18 @@
       "chat_id": 7582459199,
       "seq": 1927,
       "identity": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Bedford-Indiana-United-States-of-America/XMLNAME-2027-Summer-Intern---Manufacturing-Quality-Engineer_JR-202619307|General Motors|2027 Summer Intern \u2013 Manufacturing Quality Engineer|7 Locations|Summer 2027#1"
+    },
+    "2faff8e192a7": {
+      "company": "HP Inc",
+      "role": "Software Product Security Engineer Intern",
+      "location": "Spring, Texas, United States of ...",
+      "term": "Summer 2027",
+      "apply_url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4744-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 3093,
+      "chat_id": 7582459199,
+      "seq": 1928,
+      "identity": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4744-1|HP Inc|Software Product Security Engineer Intern|Spring, Texas, United States of ...|Summer 2027#1"
     }
   },
   "applied": {
@@ -30183,10 +30195,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1927,
+  "seq": 1928,
   "health": {
     "last_heartbeat": "2026-09-05T23:15:13Z",
-    "last_ok_run": "2026-09-05T23:35:15Z",
+    "last_ok_run": "2026-09-05T23:40:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
