@@ -28484,6 +28484,18 @@
       "chat_id": 7582459199,
       "seq": 1816,
       "identity": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050026-2?utm_source=Simplify&ref=Simplify|GE Vernova|Project Engineer Intern - Summer 2027 \ud83c\udf93|Bellevue, WA|Summer 2026#1"
+    },
+    "69a1ed2669bc": {
+      "company": "Solidigm",
+      "role": "2027 Undergraduate Software Developme...",
+      "location": "Rancho Cordova, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/solidigm/744000147613629",
+      "source": "Zapply Summer Repo",
+      "message_id": 2982,
+      "chat_id": 7582459199,
+      "seq": 1817,
+      "identity": "https://jobs.smartrecruiters.com/solidigm/744000147613629|Solidigm|2027 Undergraduate Software Developme...|Rancho Cordova, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -28851,10 +28863,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1816,
+  "seq": 1817,
   "health": {
     "last_heartbeat": "2026-09-05T00:10:15Z",
-    "last_ok_run": "2026-09-05T00:10:15Z",
+    "last_ok_run": "2026-09-05T00:15:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
