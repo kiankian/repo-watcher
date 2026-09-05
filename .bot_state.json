@@ -28568,6 +28568,18 @@
       "chat_id": 7582459199,
       "seq": 1823,
       "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Systems-Engineering-Intern--Summer-2027-_R0030753|Sierra Nevada Corporation|Systems Engineering Intern (Summer 2027)|Hagerstown, MD|Summer 2027#1"
+    },
+    "38dfd129e548": {
+      "company": "Greenheck Group",
+      "role": "Engineering Co-op",
+      "location": "Tulsa, OK",
+      "term": "Summer 2026",
+      "apply_url": "https://greenheckgroup.wd5.myworkdayjobs.com/external/job/Tulsa-OK/Engineering-Co-op-Opportunities--OK-_JR104348?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 2989,
+      "chat_id": 7582459199,
+      "seq": 1824,
+      "identity": "https://greenheckgroup.wd5.myworkdayjobs.com/external/job/Tulsa-OK/Engineering-Co-op-Opportunities--OK-_JR104348?utm_source=Simplify&ref=Simplify|Greenheck Group|Engineering Co-op|Tulsa, OK|Summer 2026#1"
     }
   },
   "applied": {
@@ -28935,10 +28947,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1823,
+  "seq": 1824,
   "health": {
     "last_heartbeat": "2026-09-05T13:15:12Z",
-    "last_ok_run": "2026-09-05T13:30:16Z",
+    "last_ok_run": "2026-09-05T13:35:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
