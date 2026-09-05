@@ -28532,6 +28532,42 @@
       "chat_id": 7582459199,
       "seq": 1820,
       "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760|Sierra Nevada Corporation|Software Engineering Intern (Summer 2...|Sparks, NV|Summer 2027#1"
+    },
+    "731d84a45967": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Software Engineering Intern (Summer 2...",
+      "location": "Lone Tree, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/Software-Engineering-Intern--Summer-2027-_R0030757",
+      "source": "Zapply Summer Repo",
+      "message_id": 2986,
+      "chat_id": 7582459199,
+      "seq": 1821,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/Software-Engineering-Intern--Summer-2027-_R0030757|Sierra Nevada Corporation|Software Engineering Intern (Summer 2...|Lone Tree, CO|Summer 2027#1"
+    },
+    "88e93028055e": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Software Engineering Intern (Summer 2...",
+      "location": "Plano, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Plano-TX/Software-Engineering-Intern--Summer-2027-_R0030758",
+      "source": "Zapply Summer Repo",
+      "message_id": 2987,
+      "chat_id": 7582459199,
+      "seq": 1822,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Plano-TX/Software-Engineering-Intern--Summer-2027-_R0030758|Sierra Nevada Corporation|Software Engineering Intern (Summer 2...|Plano, TX|Summer 2027#1"
+    },
+    "4c6c94212f96": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Systems Engineering Intern (Summer 2027)",
+      "location": "Hagerstown, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Systems-Engineering-Intern--Summer-2027-_R0030753",
+      "source": "Zapply Summer Repo",
+      "message_id": 2988,
+      "chat_id": 7582459199,
+      "seq": 1823,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Systems-Engineering-Intern--Summer-2027-_R0030753|Sierra Nevada Corporation|Systems Engineering Intern (Summer 2027)|Hagerstown, MD|Summer 2027#1"
     }
   },
   "applied": {
@@ -28899,10 +28935,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1820,
+  "seq": 1823,
   "health": {
     "last_heartbeat": "2026-09-05T04:20:16Z",
-    "last_ok_run": "2026-09-05T04:40:12Z",
+    "last_ok_run": "2026-09-05T04:45:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
