@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "f1191811a20b7989bbe76850c5fd94cc67592e83",
+    "last_sha": "bf9a193a12d5f113269eeb7eba66af099d8c5200",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2874,7 +2874,32 @@
       "https://www.google.com/about/careers/applications/jobs/results/94172495052972742|Google|Software Engineering Intern, MS, Summer 2027|United States|Summer 2027#1",
       "https://www.google.com/about/careers/applications/jobs/results/100648618540573382|Google|Software Engineering Intern, BS, Summer 2027|United States|Summer 2027#1",
       "https://www.google.com/about/careers/applications/jobs/results/91436104816698054|Google|Software Engineering Intern, PhD, Summer 2027|United States|Summer 2027#1",
-      "https://jobs.smartrecruiters.com/solidigm/744000147613629|Solidigm|2027 Undergraduate Software Development & Firmware Engineering Internships \u2013 US|Rancho Cordova, CA|Summer 2027#1"
+      "https://jobs.smartrecruiters.com/solidigm/744000147613629|Solidigm|2027 Undergraduate Software Development & Firmware Engineering Internships \u2013 US|Rancho Cordova, CA|Summer 2027#1",
+      "https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Connected Systems (January - August 2027)|Irvine, California|Summer 2027#1",
+      "https://jobs.ashbyhq.com/apex-technology-inc/d3e21f84-3637-4521-833d-fd07b3ca5f2e|Apex Technology|Simulation Software Engineering Internship (Spring or Summer 2027)|Los Angeles|Summer 2027#1",
+      "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1|Cox|Software Engineering Intern - Summer 2027 (North Hills, NY)|Long Island NY|Summer 2027#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineering-Co-op---Special-Operations-Aviation-Mainline--Summer-Fall-2027-----Onsite_01872909|RTX|Systems Engineering Co-op \u2013 Special Operations Aviation Mainline (Summer/Fall 2027) -  Onsite|IA-CEDAR RAPIDS|Summer 2027#1",
+      "https://jobs.ashbyhq.com/rivianvw.tech/c5c0f2e3-ae78-4ca6-94f8-b6940d3cdb69|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Applications, Infotainment & Mobile (January - August 2027)|Irvine, California|Summer 2027#1",
+      "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384|KeyBank|2027 Summer Key Technology & Services: Cyber/Information Security Track Internship- Cleveland|Brooklyn, OH|Summer 2027#1",
+      "https://elanco.wd5.myworkdayjobs.com/External_Career/job/Fort-Dodge-IA/Quality-Assurance-Intern---Fort-Dodge--Iowa--Summer-2027-_R0027087|Elanco|Quality Assurance Intern \u2013 Fort Dodge, Iowa (Summer 2027)|Fort Dodge, IA|Summer 2027#1",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0248403|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Annapolis Junction, MD|Annapolis Junction, MD|Summer 2027#1",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Software-Developer-Intern---Ft-Walton-Beach--FL_R0248404|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Ft. Walton Beach, FL|Fort Walton Beach, FL|Summer 2027#1",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Huntsville, AL|Huntsville, AL|Summer 2027#1",
+      "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Autonomy---Intelligent-Systems-Engineering_R0000392394|Caterpillar|2027 Summer Corporate Intern - Autonomy & Intelligent Systems Engineering|Mossville Illinois|Summer 2027#1",
+      "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1|CIBC|2027 Summer Intern - Software Engineering|Chicago, IL|Summer 2027#1",
+      "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Automation-Engineer--Drug-Product-Assembly---Packaging_R-254530|Amgen|Undergrad Co-op - Automation Engineer, Drug Product Assembly & Packaging|Massachusetts - Cambridge|Summer 2027#1",
+      "https://job-boards.greenhouse.io/scaleai/jobs/4730845005|Scale AI|Software Engineering Intern (Summer 2027)|San Francisco, CA|Summer 2027#1",
+      "https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027|Amazon.com Services LLC|Software Development Engineer Intern, ROBOTICS - 2027|North Reading, MA|Summer 2027#1",
+      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017705|Texas Instruments|Systems Engineering Intern - Machine Learning Expert|Dallas, TX, United States|Summer 2027#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556962158|Microsoft|Penetration Tester: Internship Opportunities|Redmond, Washington, United States|Summer 2027#1",
+      "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Systems-Security-Engineering-Intern--Summer-2027-_R0030783|Sierra Nevada Corporation|Systems Security Engineering Intern (Summer 2027)|Hagerstown, MD|Summer 2027#1",
+      "https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Software-Engineering-Undergraduate-Internship_R-91111|Nike|NIKE, Inc. Software Engineering Undergraduate Internship|Beaverton, Oregon|Summer 2027#1",
+      "https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Software-Development_R9756|Momentive|Summer 2027 Intern - Software Development|NY Niskayuna|Summer 2027#1",
+      "https://careers.withwaymo.com/jobs?gh_jid=8174504|Waymo|2027 Summer Intern, MS, Software Engineering, Behavior Test|San Francisco, California, USA|Summer 2027#1",
+      "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Robotics-and-Automation-Engineering-Intern---Summer-2027-_JR-2604645|GlobalFoundries|Robotics and Automation Engineering Intern, (Summer 2027)|USA - Vermont - Essex Junction|Summer 2027#1",
+      "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/RF-Technology-Development-Automation-Engineering-Intern--Summer-2027-_JR-2604272|GlobalFoundries|RF Technology Development Automation Engineering Intern (Summer 2027)|USA - New York - Malta|Summer 2027#1",
+      "https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294|DriveTime|Software Engineering Intern (Summer 2027)|1720 W Rio Salado Pkwy Tempe, AZ...|Summer 2027#1",
+      "https://jobs.ashbyhq.com/apex-technology-inc/2d5ad921-241f-4e7a-b9ff-9d01763da88c|Apex Technology|Ground Software Engineering Internship (Spring or Summer 2027)|Los Angeles|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
@@ -3036,281 +3061,6 @@
     ],
     "last_row_count": 100,
     "outbox": [
-      [
-        [
-          "Rivian and Volkswagen Group Technologies",
-          "Software Engineering Intern - Connected Systems (January - August 2027)",
-          "Irvine, California",
-          "Summer 2027",
-          "https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2"
-        ],
-        "https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Connected Systems (January - August 2027)|Irvine, California|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Apex Technology",
-          "Simulation Software Engineering Internship (Spring or Summer 2027)",
-          "Los Angeles",
-          "Summer 2027",
-          "https://jobs.ashbyhq.com/apex-technology-inc/d3e21f84-3637-4521-833d-fd07b3ca5f2e"
-        ],
-        "https://jobs.ashbyhq.com/apex-technology-inc/d3e21f84-3637-4521-833d-fd07b3ca5f2e|Apex Technology|Simulation Software Engineering Internship (Spring or Summer 2027)|Los Angeles|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Cox",
-          "Software Engineering Intern - Summer 2027 (North Hills, NY)",
-          "Long Island NY",
-          "Summer 2027",
-          "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1"
-        ],
-        "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1|Cox|Software Engineering Intern - Summer 2027 (North Hills, NY)|Long Island NY|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "RTX",
-          "Systems Engineering Co-op \u2013 Special Operations Aviation Mainline (Summer/Fall 2027) -  Onsite",
-          "IA-CEDAR RAPIDS",
-          "Summer 2027",
-          "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineering-Co-op---Special-Operations-Aviation-Mainline--Summer-Fall-2027-----Onsite_01872909"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineering-Co-op---Special-Operations-Aviation-Mainline--Summer-Fall-2027-----Onsite_01872909|RTX|Systems Engineering Co-op \u2013 Special Operations Aviation Mainline (Summer/Fall 2027) -  Onsite|IA-CEDAR RAPIDS|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Rivian and Volkswagen Group Technologies",
-          "Software Engineering Intern - Applications, Infotainment & Mobile (January - August 2027)",
-          "Irvine, California",
-          "Summer 2027",
-          "https://jobs.ashbyhq.com/rivianvw.tech/c5c0f2e3-ae78-4ca6-94f8-b6940d3cdb69"
-        ],
-        "https://jobs.ashbyhq.com/rivianvw.tech/c5c0f2e3-ae78-4ca6-94f8-b6940d3cdb69|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Applications, Infotainment & Mobile (January - August 2027)|Irvine, California|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "KeyBank",
-          "2027 Summer Key Technology & Services: Cyber/Information Security Track Internship- Cleveland",
-          "Brooklyn, OH",
-          "Summer 2027",
-          "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384"
-        ],
-        "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384|KeyBank|2027 Summer Key Technology & Services: Cyber/Information Security Track Internship- Cleveland|Brooklyn, OH|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Elanco",
-          "Quality Assurance Intern \u2013 Fort Dodge, Iowa (Summer 2027)",
-          "Fort Dodge, IA",
-          "Summer 2027",
-          "https://elanco.wd5.myworkdayjobs.com/External_Career/job/Fort-Dodge-IA/Quality-Assurance-Intern---Fort-Dodge--Iowa--Summer-2027-_R0027087"
-        ],
-        "https://elanco.wd5.myworkdayjobs.com/External_Career/job/Fort-Dodge-IA/Quality-Assurance-Intern---Fort-Dodge--Iowa--Summer-2027-_R0027087|Elanco|Quality Assurance Intern \u2013 Fort Dodge, Iowa (Summer 2027)|Fort Dodge, IA|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Booz Allen Hamilton",
-          "University - 2027 Summer Games Software Developer Intern - Annapolis Junction, MD",
-          "Annapolis Junction, MD",
-          "Summer 2027",
-          "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0248403"
-        ],
-        "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0248403|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Annapolis Junction, MD|Annapolis Junction, MD|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Booz Allen Hamilton",
-          "University - 2027 Summer Games Software Developer Intern - Ft. Walton Beach, FL",
-          "Fort Walton Beach, FL",
-          "Summer 2027",
-          "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Software-Developer-Intern---Ft-Walton-Beach--FL_R0248404"
-        ],
-        "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Software-Developer-Intern---Ft-Walton-Beach--FL_R0248404|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Ft. Walton Beach, FL|Fort Walton Beach, FL|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Booz Allen Hamilton",
-          "University - 2027 Summer Games Software Developer Intern - Huntsville, AL",
-          "Huntsville, AL",
-          "Summer 2027",
-          "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394"
-        ],
-        "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Huntsville, AL|Huntsville, AL|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Caterpillar",
-          "2027 Summer Corporate Intern - Autonomy & Intelligent Systems Engineering",
-          "Mossville Illinois",
-          "Summer 2027",
-          "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Autonomy---Intelligent-Systems-Engineering_R0000392394"
-        ],
-        "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Autonomy---Intelligent-Systems-Engineering_R0000392394|Caterpillar|2027 Summer Corporate Intern - Autonomy & Intelligent Systems Engineering|Mossville Illinois|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "CIBC",
-          "2027 Summer Intern - Software Engineering",
-          "Chicago, IL",
-          "Summer 2027",
-          "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1"
-        ],
-        "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1|CIBC|2027 Summer Intern - Software Engineering|Chicago, IL|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Amgen",
-          "Undergrad Co-op - Automation Engineer, Drug Product Assembly & Packaging",
-          "Massachusetts - Cambridge",
-          "Summer 2027",
-          "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Automation-Engineer--Drug-Product-Assembly---Packaging_R-254530"
-        ],
-        "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Automation-Engineer--Drug-Product-Assembly---Packaging_R-254530|Amgen|Undergrad Co-op - Automation Engineer, Drug Product Assembly & Packaging|Massachusetts - Cambridge|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Scale AI",
-          "Software Engineering Intern (Summer 2027)",
-          "San Francisco, CA",
-          "Summer 2027",
-          "https://job-boards.greenhouse.io/scaleai/jobs/4730845005"
-        ],
-        "https://job-boards.greenhouse.io/scaleai/jobs/4730845005|Scale AI|Software Engineering Intern (Summer 2027)|San Francisco, CA|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Amazon.com Services LLC",
-          "Software Development Engineer Intern, ROBOTICS - 2027",
-          "North Reading, MA",
-          "Summer 2027",
-          "https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027"
-        ],
-        "https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027|Amazon.com Services LLC|Software Development Engineer Intern, ROBOTICS - 2027|North Reading, MA|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Texas Instruments",
-          "Systems Engineering Intern - Machine Learning Expert",
-          "Dallas, TX, United States",
-          "Summer 2027",
-          "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017705"
-        ],
-        "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017705|Texas Instruments|Systems Engineering Intern - Machine Learning Expert|Dallas, TX, United States|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Microsoft",
-          "Penetration Tester: Internship Opportunities",
-          "Redmond, Washington, United States",
-          "Summer 2027",
-          "https://apply.careers.microsoft.com/careers/job/1970393556962158"
-        ],
-        "https://apply.careers.microsoft.com/careers/job/1970393556962158|Microsoft|Penetration Tester: Internship Opportunities|Redmond, Washington, United States|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Sierra Nevada Corporation",
-          "Systems Security Engineering Intern (Summer 2027)",
-          "Hagerstown, MD",
-          "Summer 2027",
-          "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Systems-Security-Engineering-Intern--Summer-2027-_R0030783"
-        ],
-        "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Systems-Security-Engineering-Intern--Summer-2027-_R0030783|Sierra Nevada Corporation|Systems Security Engineering Intern (Summer 2027)|Hagerstown, MD|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Nike",
-          "NIKE, Inc. Software Engineering Undergraduate Internship",
-          "Beaverton, Oregon",
-          "Summer 2027",
-          "https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Software-Engineering-Undergraduate-Internship_R-91111"
-        ],
-        "https://nike.wd1.myworkdayjobs.com/NKE/job/Beaverton-Oregon/NIKE--Inc-Software-Engineering-Undergraduate-Internship_R-91111|Nike|NIKE, Inc. Software Engineering Undergraduate Internship|Beaverton, Oregon|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Momentive",
-          "Summer 2027 Intern - Software Development",
-          "NY Niskayuna",
-          "Summer 2027",
-          "https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Software-Development_R9756"
-        ],
-        "https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Software-Development_R9756|Momentive|Summer 2027 Intern - Software Development|NY Niskayuna|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Waymo",
-          "2027 Summer Intern, MS, Software Engineering, Behavior Test",
-          "San Francisco, California, USA",
-          "Summer 2027",
-          "https://careers.withwaymo.com/jobs?gh_jid=8174504"
-        ],
-        "https://careers.withwaymo.com/jobs?gh_jid=8174504|Waymo|2027 Summer Intern, MS, Software Engineering, Behavior Test|San Francisco, California, USA|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "GlobalFoundries",
-          "Robotics and Automation Engineering Intern, (Summer 2027)",
-          "USA - Vermont - Essex Junction",
-          "Summer 2027",
-          "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Robotics-and-Automation-Engineering-Intern---Summer-2027-_JR-2604645"
-        ],
-        "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Robotics-and-Automation-Engineering-Intern---Summer-2027-_JR-2604645|GlobalFoundries|Robotics and Automation Engineering Intern, (Summer 2027)|USA - Vermont - Essex Junction|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "GlobalFoundries",
-          "RF Technology Development Automation Engineering Intern (Summer 2027)",
-          "USA - New York - Malta",
-          "Summer 2027",
-          "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/RF-Technology-Development-Automation-Engineering-Intern--Summer-2027-_JR-2604272"
-        ],
-        "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/RF-Technology-Development-Automation-Engineering-Intern--Summer-2027-_JR-2604272|GlobalFoundries|RF Technology Development Automation Engineering Intern (Summer 2027)|USA - New York - Malta|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "DriveTime",
-          "Software Engineering Intern (Summer 2027)",
-          "1720 W Rio Salado Pkwy Tempe, AZ...",
-          "Summer 2027",
-          "https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294"
-        ],
-        "https://drivetime.wd1.myworkdayjobs.com/DriveTime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294|DriveTime|Software Engineering Intern (Summer 2027)|1720 W Rio Salado Pkwy Tempe, AZ...|Summer 2027#1",
-        1
-      ],
-      [
-        [
-          "Apex Technology",
-          "Ground Software Engineering Internship (Spring or Summer 2027)",
-          "Los Angeles",
-          "Summer 2027",
-          "https://jobs.ashbyhq.com/apex-technology-inc/2d5ad921-241f-4e7a-b9ff-9d01763da88c"
-        ],
-        "https://jobs.ashbyhq.com/apex-technology-inc/2d5ad921-241f-4e7a-b9ff-9d01763da88c|Apex Technology|Ground Software Engineering Internship (Spring or Summer 2027)|Los Angeles|Summer 2027#1",
-        1
-      ],
       [
         [
           "Apex Technology",
