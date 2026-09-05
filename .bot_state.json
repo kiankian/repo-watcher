@@ -28496,6 +28496,42 @@
       "chat_id": 7582459199,
       "seq": 1817,
       "identity": "https://jobs.smartrecruiters.com/solidigm/744000147613629|Solidigm|2027 Undergraduate Software Developme...|Rancho Cordova, CA|Summer 2027#1"
+    },
+    "d3df871a8d70": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Software Engineering Intern (Summer 2...",
+      "location": "Folsom, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 2983,
+      "chat_id": 7582459199,
+      "seq": 1818,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1|Sierra Nevada Corporation|Software Engineering Intern (Summer 2...|Folsom, CA|Summer 2027#1"
+    },
+    "da7ea4d716ad": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Software Engineering Intern (Summer 2...",
+      "location": "Southern Pines, NC",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Southern-Pines-NC/Software-Engineering-Intern--Summer-2027-_R0030759",
+      "source": "Zapply Summer Repo",
+      "message_id": 2984,
+      "chat_id": 7582459199,
+      "seq": 1819,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Southern-Pines-NC/Software-Engineering-Intern--Summer-2027-_R0030759|Sierra Nevada Corporation|Software Engineering Intern (Summer 2...|Southern Pines, NC|Summer 2027#1"
+    },
+    "e1c012ff3eb4": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Software Engineering Intern (Summer 2...",
+      "location": "Sparks, NV",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760",
+      "source": "Zapply Summer Repo",
+      "message_id": 2985,
+      "chat_id": 7582459199,
+      "seq": 1820,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760|Sierra Nevada Corporation|Software Engineering Intern (Summer 2...|Sparks, NV|Summer 2027#1"
     }
   },
   "applied": {
@@ -28863,10 +28899,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1817,
+  "seq": 1820,
   "health": {
     "last_heartbeat": "2026-09-05T00:10:15Z",
-    "last_ok_run": "2026-09-05T00:50:12Z",
+    "last_ok_run": "2026-09-05T00:55:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
