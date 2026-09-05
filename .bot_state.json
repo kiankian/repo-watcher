@@ -29804,6 +29804,18 @@
       "chat_id": 7582459199,
       "seq": 1926,
       "identity": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56028-1|Cadence|Graduate Student Intern - Software Engineering|AUSTIN|Summer 2027#1"
+    },
+    "3467eddae29a": {
+      "company": "General Motors",
+      "role": "2027 Summer Intern \u2013 Manufacturing Quality Engineer",
+      "location": "7 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Bedford-Indiana-United-States-of-America/XMLNAME-2027-Summer-Intern---Manufacturing-Quality-Engineer_JR-202619307",
+      "source": "Zapply Summer Repo",
+      "message_id": 3092,
+      "chat_id": 7582459199,
+      "seq": 1927,
+      "identity": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Bedford-Indiana-United-States-of-America/XMLNAME-2027-Summer-Intern---Manufacturing-Quality-Engineer_JR-202619307|General Motors|2027 Summer Intern \u2013 Manufacturing Quality Engineer|7 Locations|Summer 2027#1"
     }
   },
   "applied": {
@@ -30171,10 +30183,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1926,
+  "seq": 1927,
   "health": {
     "last_heartbeat": "2026-09-05T23:15:13Z",
-    "last_ok_run": "2026-09-05T23:25:12Z",
+    "last_ok_run": "2026-09-05T23:30:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
