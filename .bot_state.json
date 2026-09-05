@@ -29720,6 +29720,18 @@
       "chat_id": 7582459199,
       "seq": 1919,
       "identity": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56028|Cadence (University)|Graduate Student Intern - Software Engineering|AUSTIN|Summer 2027#1"
+    },
+    "7d529b3fc711": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Defense Tech",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e",
+      "source": "Zapply Summer Repo",
+      "message_id": 3085,
+      "chat_id": 7582459199,
+      "seq": 1920,
+      "identity": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e|Palantir|Software Engineer, Internship - Defense Tech|New York, NY|Summer 2027#1"
     }
   },
   "applied": {
@@ -30087,10 +30099,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1919,
+  "seq": 1920,
   "health": {
     "last_heartbeat": "2026-09-05T22:15:11Z",
-    "last_ok_run": "2026-09-05T22:25:13Z",
+    "last_ok_run": "2026-09-05T22:30:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
