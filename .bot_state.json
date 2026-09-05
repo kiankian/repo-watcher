@@ -29780,6 +29780,30 @@
       "chat_id": 7582459199,
       "seq": 1924,
       "identity": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3|Palantir|Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial|Chicago, IL|Summer 2027#1"
+    },
+    "f423c1ac8112": {
+      "company": "Cadence",
+      "role": "Graduate Student Intern - Software Engineering",
+      "location": "AUSTIN",
+      "term": "Summer 2027",
+      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56029-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 3090,
+      "chat_id": 7582459199,
+      "seq": 1925,
+      "identity": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56029-2|Cadence|Graduate Student Intern - Software Engineering|AUSTIN|Summer 2027#1"
+    },
+    "6696df39a6d8": {
+      "company": "Cadence",
+      "role": "Graduate Student Intern - Software Engineering",
+      "location": "AUSTIN",
+      "term": "Summer 2027",
+      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56028-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 3091,
+      "chat_id": 7582459199,
+      "seq": 1926,
+      "identity": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Graduate-Student-Intern---Software-Engineering_R56028-1|Cadence|Graduate Student Intern - Software Engineering|AUSTIN|Summer 2027#1"
     }
   },
   "applied": {
@@ -30147,10 +30171,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1924,
+  "seq": 1926,
   "health": {
     "last_heartbeat": "2026-09-05T22:15:11Z",
-    "last_ok_run": "2026-09-05T22:55:12Z",
+    "last_ok_run": "2026-09-05T23:00:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
