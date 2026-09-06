@@ -29996,6 +29996,18 @@
       "chat_id": 7582459199,
       "seq": 1942,
       "identity": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-CIC-Systems-Engineer-Co-op---Spring---Summer-2027_R5051807-2|GE Vernova|GE Vernova CIC Systems Engineer Co-op - Spring - Summer 2027|Rochester|Summer 2027#1"
+    },
+    "ad6ad34a3926": {
+      "company": "General Matter",
+      "role": "Summer 2027 Internship - Embedded Software Engineering",
+      "location": "Los Angeles, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/generalmatter/jobs/5377131008",
+      "source": "Zapply Summer Repo",
+      "message_id": 3108,
+      "chat_id": 7582459199,
+      "seq": 1943,
+      "identity": "https://job-boards.greenhouse.io/generalmatter/jobs/5377131008|General Matter|Summer 2027 Internship - Embedded Software Engineering|Los Angeles, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -30363,10 +30375,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1942,
+  "seq": 1943,
   "health": {
     "last_heartbeat": "2026-09-06T10:15:13Z",
-    "last_ok_run": "2026-09-06T10:55:14Z",
+    "last_ok_run": "2026-09-06T11:00:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
