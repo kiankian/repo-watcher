@@ -30008,6 +30008,42 @@
       "chat_id": 7582459199,
       "seq": 1943,
       "identity": "https://job-boards.greenhouse.io/generalmatter/jobs/5377131008|General Matter|Summer 2027 Internship - Embedded Software Engineering|Los Angeles, CA|Summer 2027#1"
+    },
+    "a75c0b739243": {
+      "company": "Shure",
+      "role": "Cloud Applications Development Intern",
+      "location": "Niles, IL",
+      "term": "Other",
+      "apply_url": "https://careersus-shure.icims.com/jobs/4965/cloud-applications-development-intern/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 3109,
+      "chat_id": 7582459199,
+      "seq": 1944,
+      "identity": "https://careersus-shure.icims.com/jobs/4965/cloud-applications-development-intern/job|Shure|Cloud Applications Development Intern|Niles, IL|Other#1"
+    },
+    "e3c4c78b6458": {
+      "company": "Clearwater Analytics",
+      "role": "Software Development Intern",
+      "location": "Chicago, IL",
+      "term": "Other",
+      "apply_url": "https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Chicago/Software-Development-Intern_R12187",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 3110,
+      "chat_id": 7582459199,
+      "seq": 1945,
+      "identity": "https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Chicago/Software-Development-Intern_R12187|Clearwater Analytics|Software Development Intern|Chicago, IL|Other#1"
+    },
+    "9f1c43f50323": {
+      "company": "Clearwater Analytics",
+      "role": "Software Development Intern",
+      "location": "Chicago, IL",
+      "term": "Other",
+      "apply_url": "https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Chicago/Software-Development-Intern_R12186",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 3111,
+      "chat_id": 7582459199,
+      "seq": 1946,
+      "identity": "https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Chicago/Software-Development-Intern_R12186|Clearwater Analytics|Software Development Intern|Chicago, IL|Other#1"
     }
   },
   "applied": {
@@ -30375,10 +30411,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1943,
+  "seq": 1946,
   "health": {
     "last_heartbeat": "2026-09-06T14:45:15Z",
-    "last_ok_run": "2026-09-06T15:15:15Z",
+    "last_ok_run": "2026-09-06T15:20:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
