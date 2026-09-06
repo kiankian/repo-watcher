@@ -52,7 +52,7 @@ Identities are stored in full rather than hashed, so `git log -p .watcher_state.
 > block in `.github/workflows/watch-files.yml` is intentionally limited to
 > `workflow_dispatch:` — do **not** add a `schedule:` trigger.
 
-A cron-job.org job runs every 1 minute and fires the workflow via the GitHub REST API's
+A cron-job.org job runs every 5 minutes and fires the workflow via the GitHub REST API's
 `workflow_dispatch` endpoint:
 
 - **Method:** `POST`
@@ -62,6 +62,15 @@ A cron-job.org job runs every 1 minute and fires the workflow via the GitHub RES
   - `Accept: application/vnd.github+json`
   - `X-GitHub-Api-Version: 2022-11-28`
   - `Authorization: Bearer <GITHUB_PAT>`
+
+**Why 5 minutes and not 1** (changed 2026-08-06). The dispatch rate is not the polling rate. Every
+run takes the `repo-watcher-state` concurrency group, so runs execute one at a time — and since
+acquiring a GitHub-hosted runner routinely takes 2–4 minutes, a run occupies that group for far
+longer than it works. At one dispatch a minute, roughly eight of every nine runs were cancelled
+while pending on the group without ever parsing anything, and each of those cancellations is an
+Actions notification. Dispatching every 5 minutes costs no measurable detection latency, because
+the group was already serialising runs to roughly that cadence, and it removes the noise. Do not
+raise it back without first measuring how long a run actually holds the group.
 
 A successful dispatch returns **HTTP 204** (no body). The `<GITHUB_PAT>` must be a token
 authorized to dispatch workflows on this repo:
@@ -85,7 +94,7 @@ Two append-only logs are committed alongside the state, rotated monthly:
 
 The alert log exists because `.bot_state.json` cannot serve as one: `pending` is a dict keyed by job hash, so a re-sent alert **overwrites its own record** and the evidence disappears. Reconstructing past duplicates meant diffing gaps in Telegram message IDs; these logs make it a one-line query. The run log turns a shrinking parse into a visible time series rather than something only findable by diffing state commits.
 
-Quiet runs are collapsed into the hourly heartbeat on purpose — at one dispatch a minute, logging unconditionally would be ~8,600 lines a day.
+Quiet runs are collapsed into the hourly heartbeat on purpose — even at one dispatch every 5 minutes, logging unconditionally would be ~1,700 lines a day (it was ~8,600 under the old 1-minute cron).
 
 ### Sequence numbers
 
@@ -138,7 +147,7 @@ Live on [healthchecks.io](https://healthchecks.io) since 2026-07-30, notifying b
 | Grace | **55 minutes** — how long a late check waits before alerting |
 | Time to alert | **≈ 1 hour** from the last healthy run |
 
-**The knob is the total, not the split.** The watcher pings roughly once a minute, so the 5-minute period is just slack for a slow run, a run queued behind the `repo-watcher-state` concurrency group, or a push that needed a retry. One hour was chosen so that (a) an hour with zero healthy runs is unambiguous rather than noise, and (b) it fires *before* the in-band 2-hour silence check can, so the out-of-band switch is what tells you first. Shorten it if you would rather know sooner and can tolerate false alarms, but not below ~15 minutes.
+**The knob is the total, not the split.** The watcher pings once per completed run — roughly every 5 minutes since the cron was slowed to match (it was nominally once a minute before, though the concurrency group already throttled real completions to about this rate). The 5-minute period therefore has no slack left in it on its own, and healthchecks.io will often show the check as *late*; that is cosmetic, since only the grace expiring alerts. Slack for a slow run, a run queued behind the `repo-watcher-state` concurrency group, or a push that needed a retry now comes out of the 55-minute grace, which is ample. One hour was chosen so that (a) an hour with zero healthy runs is unambiguous rather than noise, and (b) it fires *before* the in-band 2-hour silence check can, so the out-of-band switch is what tells you first. Shorten it if you would rather know sooner and can tolerate false alarms, but not below ~15 minutes.
 
 **Two channels on purpose.** healthchecks.io is external, so it can still reach you when the watcher is dead — but if the outage *is* Telegram, only email gets through. The failure modes are independent, so neither channel alone is sufficient.
 
@@ -161,10 +170,13 @@ The notification says only "no ping received". It does not say why, and the caus
 | Recent runs, green | **A source broke.** Runs are fine; `healthy` came back `false` so the ping was withheld | Check Telegram for `⚠️ zero-rows` or `⚠️ fetch-failed` — it names the source. Fix the section marker or parser |
 | Recent runs, **`watch` red** | That job is failing — commonly the state push exhausting its retries | Open the failing run. The ping is correctly withheld: alerts may have gone out unrecorded |
 | Nothing since the last ping | **Dispatch stopped.** cron-job.org disabled, or its PAT expired | The runbook below |
+| Runs every 5 minutes, all **cancelled**, none executing | **GitHub is not allocating runners.** Nothing to fix here — see below | Wait. Confirm with the job API: `runner_id: 0` and no `started_at` progress means it never got a machine |
+
+The runner-starvation row looks alarming and is the one case where the correct response is to do nothing. It reads as a wall of cancelled runs in the Actions tab, but those cancellations are the `repo-watcher-state` concurrency group working normally: one run holds the group while its job waits for a machine that never arrives, and each new dispatch supersedes the previous pending one. Check `runner_id` on the job at the front of the queue rather than counting cancelled runs — that is the field that distinguishes "GitHub gave us nothing" from a fault of ours. Recovery is automatic and lossless: `seen` is a union and the outbox is durable, so the first run that completes catches up on everything. On 2026-08-06 this produced a 1-hour outage in which nothing was actually missed. Do not re-run the cancelled runs (they queue behind the same starvation) and do not dispatch from a branch to force one through (it is forced dry and writes nothing).
 
 The first row is the likelier one — upstream repos get reorganised regularly — so check the Actions tab *before* assuming the watcher is dead. Only `fetch-failed` and `zero-rows` set `healthy=false`; a `⚠️ shrink` warning does **not** withhold the ping, so it will never be the cause of a healthcheck alert on its own.
 
-> **A red run is not always a withheld ping — check which job is red.** `Ping healthcheck` is the last step of `watch`; `process_applies` is a separate job that starts only after `watch` has finished and already pinged. So a run that is red *because `process_applies` failed* — a Google Sheets append, a Telegram edit, its own `.bot_state.json` push — still pinged, and no dead-man alert will ever fire for it.
+> **A red run is not always a withheld ping — check which job is red.** `Ping healthcheck` is the last step of `watch`; `process_applies` is a separate job that starts only after `watch` has finished and already pinged — and, since 2026-08-06, only when `watch` was not *cancelled*, so that a run whose job never got a runner releases the concurrency group after one no-runner wait instead of two. So a run that is red *because `process_applies` failed* — a Google Sheets append, a Telegram edit, its own `.bot_state.json` push — still pinged, and no dead-man alert will ever fire for it.
 >
 > **The callback path is therefore not covered by this switch, by design.** Gating the ping on both jobs would mean a Sheets hiccup raising a "the watcher is dead" alert while job alerting is perfectly healthy — a false alarm on the highest-severity channel for a much lower-severity fault, which is how you teach yourself to ignore it. The tradeoff is that a persistently failing `process_applies` (revoked service account, deleted spreadsheet) is silent apart from red runs in the Actions tab: taps stop reaching the Sheet and buttons stop being ticked, while alerts keep arriving normally. A transient failure re-reads the tap on the next run rather than losing it, since `last_update_id` only advances once the job commits — but **the retry is not clean.** Within one tap the order is `append_row` → `answerCallbackQuery` → `editMessageText` → offset. A failure after the append but before the commit lands leaves the row in the Sheet while `pending` still holds the hash, so the retry appends it a second time. Expect duplicate Sheet rows after any red `process_applies`, and check the Sheet rather than assuming the retry cleaned up after itself. Closing both this and the persistent case needs its own signal — see `FUTURE_IMPROVEMENTS.md`.
 
@@ -182,7 +194,7 @@ Leaving it unticked is a live run that sends and commits, so the tick is the who
 
 A dry run deliberately **ignores the unchanged-SHA short-circuit** that a normal run uses, and re-fetches every enabled source. It has to: the watcher stores the current head on every run, so a rehearsal launched a minute later would find every source unchanged, skip all of them, and report "no new listings" without having parsed anything — silently passing whatever parser or config edit it was meant to validate. The per-run summary table shows `rows` extracted per watcher, which is what tells you the extraction still works.
 
-The `process_applies` job is skipped entirely on a dry run. It has to be: it appends to the Google Sheet, edits Telegram messages and commits `.bot_state.json`, so leaving it to run would make a rehearsal mutate external state.
+The `process_applies` job is skipped entirely on a dry run. It has to be: it appends to the Google Sheet, edits Telegram messages and commits `.bot_state.json`, so leaving it to run would make a rehearsal mutate external state. (It is currently skipped on *every* run — see [Application tracker](#application-tracker-telegram--google-sheet).)
 
 ### If alerts stop (troubleshooting runbook)
 
@@ -212,7 +224,24 @@ cron-job.org / token side. Diagnose in this order:
 
 ## Application tracker (Telegram → Google Sheet)
 
-Each new job alert includes an inline `✅ Applied` button. Tapping it appends a row to a Google Sheet and edits the Telegram message to confirm.
+> ⏸️ **Paused since 2026-08-06.** The whole tracker is gated on the repository variable
+> `PROCESS_APPLIES`, which is unset. That switch reaches both ends: `process_applies` is skipped on
+> every run, **and** the `Mark as Applied` button is no longer attached to alerts, so there is no
+> control that spins and never ticks. **Alerts are unaffected** — job links keep arriving exactly as
+> before. To resume, set `PROCESS_APPLIES` to `true` under Settings → Secrets and variables →
+> Actions → Variables; no commit or workflow edit is needed, the secrets below are all still in
+> place, and the button returns on the next run.
+>
+> It was paused for latency, not because it was broken. The job holds the `repo-watcher-state`
+> concurrency group for its entire life, and since acquiring a hosted runner takes minutes, that was
+> ~5 minutes of group time per run for ~15 seconds of actual work — roughly halving how often the
+> watcher could poll. Usage did not justify it: 1,094 alerts sent against 33 taps ever recorded.
+>
+> Note that `bot_state["pending"]` keeps growing while paused, since entries are only deleted when a
+> tap is processed. That is not a new cost: at 33 taps against 1,094 entries the drain was removing
+> ~3% of what the alert path adds, so the file grows at essentially the same rate either way.
+
+Each new job alert includes an inline `✅ Applied` button (when the tracker is enabled — see above). Tapping it appends a row to a Google Sheet and edits the Telegram message to confirm.
 
 The same workflow (`watch-files.yml`) runs both jobs in order:
 
