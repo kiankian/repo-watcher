@@ -30080,6 +30080,42 @@
       "chat_id": 7582459199,
       "seq": 1949,
       "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/Test-Engineering-Intern--Summer-2027-_R0030771|Sierra Nevada Corporation|Test Engineering Intern (Summer 2027)|Lone Tree, CO|Summer 2027#1"
+    },
+    "e1f0d0255005": {
+      "company": "Booz Allen Hamilton",
+      "role": "University - 2027 Summer Games Systems Engineer Intern - Annapolis Junction, MD",
+      "location": "Annapolis Junction, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0248384",
+      "source": "Zapply Summer Repo",
+      "message_id": 3115,
+      "chat_id": 7582459199,
+      "seq": 1950,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Systems-Engineer-Intern---Annapolis-Junction--MD_R0248384|Booz Allen Hamilton|University - 2027 Summer Games Systems Engineer Intern - Annapolis Junction, MD|Annapolis Junction, MD|Summer 2027#1"
+    },
+    "a093c5ea793c": {
+      "company": "Booz Allen Hamilton",
+      "role": "University - 2027 Summer Games, Systems Engineer Intern - Atlanta, GA",
+      "location": "Atlanta, GA",
+      "term": "Summer 2027",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/University---2027-Summer-Games--Systems-Engineer-Intern---Atlanta--GA_R0248381",
+      "source": "Zapply Summer Repo",
+      "message_id": 3116,
+      "chat_id": 7582459199,
+      "seq": 1951,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/University---2027-Summer-Games--Systems-Engineer-Intern---Atlanta--GA_R0248381|Booz Allen Hamilton|University - 2027 Summer Games, Systems Engineer Intern - Atlanta, GA|Atlanta, GA|Summer 2027#1"
+    },
+    "78f6c77d1c36": {
+      "company": "Booz Allen Hamilton",
+      "role": "University, 2027 Summer Games Software Developer Intern - McLean, VA",
+      "location": "McLean, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern_R0248029",
+      "source": "Zapply Summer Repo",
+      "message_id": 3117,
+      "chat_id": 7582459199,
+      "seq": 1952,
+      "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern_R0248029|Booz Allen Hamilton|University, 2027 Summer Games Software Developer Intern - McLean, VA|McLean, VA|Summer 2027#1"
     }
   },
   "applied": {
@@ -30447,10 +30483,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1949,
+  "seq": 1952,
   "health": {
     "last_heartbeat": "2026-09-06T23:25:13Z",
-    "last_ok_run": "2026-09-06T23:25:13Z",
+    "last_ok_run": "2026-09-06T23:30:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
