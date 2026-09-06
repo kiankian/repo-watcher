@@ -30044,6 +30044,30 @@
       "chat_id": 7582459199,
       "seq": 1946,
       "identity": "https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Chicago/Software-Development-Intern_R12186|Clearwater Analytics|Software Development Intern|Chicago, IL|Other#1"
+    },
+    "790cf5a32830": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Infrastructure",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
+      "source": "Zapply Summer Repo",
+      "message_id": 3112,
+      "chat_id": 7582459199,
+      "seq": 1947,
+      "identity": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3|Palantir|Software Engineer, Internship - Infrastructure|New York, NY|Summer 2027#1"
+    },
+    "3f48c348090d": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Infrastructure",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4",
+      "source": "Zapply Summer Repo",
+      "message_id": 3113,
+      "chat_id": 7582459199,
+      "seq": 1948,
+      "identity": "https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4|Palantir|Software Engineer, Internship - Infrastructure|Palo Alto, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -30411,10 +30435,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1946,
+  "seq": 1948,
   "health": {
     "last_heartbeat": "2026-09-06T21:25:10Z",
-    "last_ok_run": "2026-09-06T22:05:12Z",
+    "last_ok_run": "2026-09-06T22:10:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
