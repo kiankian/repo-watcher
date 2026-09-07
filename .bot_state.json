@@ -30128,6 +30128,18 @@
       "chat_id": 7582459199,
       "seq": 1953,
       "identity": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bloomington-Minnesota-United-States-of-America/HPC-AI-Systems-Administrator-Intern_1213396|HPE (University)|HPC AI Systems Administrator Intern|Bloomington, Minnesota, United S...|Summer 2027#1"
+    },
+    "b650c978a0c3": {
+      "company": "ICF",
+      "role": "2027 Summer Intern, Software Developer (Reston, VA)",
+      "location": "Reston, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002",
+      "source": "Zapply Summer Repo",
+      "message_id": 3119,
+      "chat_id": 7582459199,
+      "seq": 1954,
+      "identity": "https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002|ICF|2027 Summer Intern, Software Developer (Reston, VA)|Reston, VA|Summer 2027#1"
     }
   },
   "applied": {
@@ -30495,10 +30507,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1953,
+  "seq": 1954,
   "health": {
     "last_heartbeat": "2026-09-07T03:55:12Z",
-    "last_ok_run": "2026-09-07T04:15:15Z",
+    "last_ok_run": "2026-09-07T04:20:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
