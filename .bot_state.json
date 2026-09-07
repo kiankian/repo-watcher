@@ -30188,6 +30188,18 @@
       "chat_id": 7582459199,
       "seq": 1958,
       "identity": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002?utm_source=Simplify&ref=Simplify|ICF International|Software Developer Intern|Reston, VA|Summer 2026#1"
+    },
+    "609046ab7a40": {
+      "company": "NXP",
+      "role": "Systems Engineer Intern - Summer 2027",
+      "location": "Irvine",
+      "term": "Summer 2027",
+      "apply_url": "https://nxp.wd3.myworkdayjobs.com/Careers/job/Irvine/Systems-Engineer-Intern---Summer-2027_R-10064723",
+      "source": "Zapply Summer Repo",
+      "message_id": 3124,
+      "chat_id": 7582459199,
+      "seq": 1959,
+      "identity": "https://nxp.wd3.myworkdayjobs.com/Careers/job/Irvine/Systems-Engineer-Intern---Summer-2027_R-10064723|NXP|Systems Engineer Intern - Summer 2027|Irvine|Summer 2027#1"
     }
   },
   "applied": {
@@ -30555,10 +30567,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1958,
+  "seq": 1959,
   "health": {
     "last_heartbeat": "2026-09-07T07:15:14Z",
-    "last_ok_run": "2026-09-07T07:20:14Z",
+    "last_ok_run": "2026-09-07T07:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
