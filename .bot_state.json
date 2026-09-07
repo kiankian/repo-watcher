@@ -30140,6 +30140,54 @@
       "chat_id": 7582459199,
       "seq": 1954,
       "identity": "https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002|ICF|2027 Summer Intern, Software Developer (Reston, VA)|Reston, VA|Summer 2027#1"
+    },
+    "59e04cfedf50": {
+      "company": "Xcel Energy",
+      "role": "AI Solutions Development Intern",
+      "location": "Minneapolis, MN Denver, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI-Solutions-Development-Intern-CO--MN_JR116329-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3120,
+      "chat_id": 7582459199,
+      "seq": 1955,
+      "identity": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI-Solutions-Development-Intern-CO--MN_JR116329-1?utm_source=Simplify&ref=Simplify|Xcel Energy|AI Solutions Development Intern|Minneapolis, MN Denver, CO|Summer 2026#1"
+    },
+    "bcc25c9bfb36": {
+      "company": "Xcel Energy",
+      "role": "AI & Automation Intern - Regulatory",
+      "location": "Denver, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI---Automation-Intern--CO_JR115739-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3121,
+      "chat_id": 7582459199,
+      "seq": 1956,
+      "identity": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI---Automation-Intern--CO_JR115739-1?utm_source=Simplify&ref=Simplify|Xcel Energy|AI & Automation Intern - Regulatory|Denver, CO|Summer 2026#1"
+    },
+    "8c71458e70e5": {
+      "company": "Tokyo Electron",
+      "role": "Automation Developer/Analyst Intern",
+      "location": "Austin, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://tel.wd3.myworkdayjobs.com/tel-careers/job/Austin-RiverSouth/Automation-Developer-Analyst-Intern_R26-01497?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3122,
+      "chat_id": 7582459199,
+      "seq": 1957,
+      "identity": "https://tel.wd3.myworkdayjobs.com/tel-careers/job/Austin-RiverSouth/Automation-Developer-Analyst-Intern_R26-01497?utm_source=Simplify&ref=Simplify|Tokyo Electron|Automation Developer/Analyst Intern|Austin, TX|Summer 2026#1"
+    },
+    "4dcd095382c4": {
+      "company": "ICF International",
+      "role": "Software Developer Intern",
+      "location": "Reston, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3123,
+      "chat_id": 7582459199,
+      "seq": 1958,
+      "identity": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002?utm_source=Simplify&ref=Simplify|ICF International|Software Developer Intern|Reston, VA|Summer 2026#1"
     }
   },
   "applied": {
@@ -30507,10 +30555,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1954,
+  "seq": 1958,
   "health": {
     "last_heartbeat": "2026-09-07T06:15:12Z",
-    "last_ok_run": "2026-09-07T06:30:16Z",
+    "last_ok_run": "2026-09-07T06:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
