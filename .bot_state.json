@@ -30692,6 +30692,90 @@
       "chat_id": 7582459199,
       "seq": 2000,
       "identity": "https://jobs.ashbyhq.com/apex-technology-inc/692bb497-59ba-44df-bacf-fffd2f7c6344|Apex Technology|Software Engineering Internship, Test & Automation (Summer 2027)|Los Angeles|Summer 2027#1"
+    },
+    "216ca0a00ccb": {
+      "company": "Red Hat",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh",
+      "term": "Summer 2027",
+      "apply_url": "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Software-Engineer-Intern_R-059038",
+      "source": "Zapply Summer Repo",
+      "message_id": 3166,
+      "chat_id": 7582459199,
+      "seq": 2001,
+      "identity": "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Software-Engineer-Intern_R-059038|Red Hat|Software Engineer Intern|Raleigh|Summer 2027#1"
+    },
+    "aedb3aa6ad5d": {
+      "company": "Red Hat",
+      "role": "Software Engineer Co-op",
+      "location": "Raleigh",
+      "term": "Summer 2027",
+      "apply_url": "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Software-Engineer-Co-op_R-059039",
+      "source": "Zapply Summer Repo",
+      "message_id": 3167,
+      "chat_id": 7582459199,
+      "seq": 2002,
+      "identity": "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Software-Engineer-Co-op_R-059039|Red Hat|Software Engineer Co-op|Raleigh|Summer 2027#1"
+    },
+    "b69388af156d": {
+      "company": "Danaher",
+      "role": "Software Engineering Intern",
+      "location": "Chaska, Minnesota, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1316911",
+      "source": "Zapply Summer Repo",
+      "message_id": 3168,
+      "chat_id": 7582459199,
+      "seq": 2003,
+      "identity": "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1316911|Danaher|Software Engineering Intern|Chaska, Minnesota, United States|Summer 2027#1"
+    },
+    "edd7b1b9d3f5": {
+      "company": "Danaher",
+      "role": "Software Engineering Intern",
+      "location": "Chaska, Minnesota, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747",
+      "source": "Zapply Summer Repo",
+      "message_id": 3169,
+      "chat_id": 7582459199,
+      "seq": 2004,
+      "identity": "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747|Danaher|Software Engineering Intern|Chaska, Minnesota, United States|Summer 2027#1"
+    },
+    "c480083173f8": {
+      "company": "Talos Trading",
+      "role": "Software Engineer Intern, Dealer",
+      "location": "New York",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/talos-trading/91fd5274-3b6b-43cf-b366-9f6dc2ae5977",
+      "source": "Zapply Summer Repo",
+      "message_id": 3170,
+      "chat_id": 7582459199,
+      "seq": 2005,
+      "identity": "https://jobs.ashbyhq.com/talos-trading/91fd5274-3b6b-43cf-b366-9f6dc2ae5977|Talos Trading|Software Engineer Intern, Dealer|New York|Summer 2027#1"
+    },
+    "1fe6acc4a050": {
+      "company": "Vercel",
+      "role": "Software Engineering Intern - Winter '27",
+      "location": "Hybrid - San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6181755004",
+      "source": "Zapply Summer Repo",
+      "message_id": 3171,
+      "chat_id": 7582459199,
+      "seq": 2006,
+      "identity": "https://job-boards.greenhouse.io/vercel/jobs/6181755004|Vercel|Software Engineering Intern - Winter '27|Hybrid - San Francisco|Summer 2027#1"
+    },
+    "c8d8d1bd786b": {
+      "company": "Vercel",
+      "role": "Software Engineering Intern - Summer '27",
+      "location": "Hybrid - San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6181759004",
+      "source": "Zapply Summer Repo",
+      "message_id": 3172,
+      "chat_id": 7582459199,
+      "seq": 2007,
+      "identity": "https://job-boards.greenhouse.io/vercel/jobs/6181759004|Vercel|Software Engineering Intern - Summer '27|Hybrid - San Francisco|Summer 2027#1"
     }
   },
   "applied": {
@@ -31059,10 +31143,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2000,
+  "seq": 2007,
   "health": {
     "last_heartbeat": "2026-09-08T15:40:52Z",
-    "last_ok_run": "2026-09-08T15:55:18Z",
+    "last_ok_run": "2026-09-08T16:00:33Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
