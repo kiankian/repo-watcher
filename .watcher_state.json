@@ -3165,7 +3165,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "db51840d838f43d4f0edcf6fb77fad262249ad5d",
+    "last_sha": "93eb43a7cf769995c877341575101a5eae9ee0e2",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -3303,7 +3303,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "db51840d838f43d4f0edcf6fb77fad262249ad5d",
+    "last_sha": "93eb43a7cf769995c877341575101a5eae9ee0e2",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -3343,7 +3343,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "db51840d838f43d4f0edcf6fb77fad262249ad5d",
+    "last_sha": "93eb43a7cf769995c877341575101a5eae9ee0e2",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -3786,7 +3786,20 @@
       "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6176786004|Stoke Space|Summer 2027 Internship - Software|Kent, WA|Other#1",
       "https://careersus-shure.icims.com/jobs/4965/cloud-applications-development-intern/job|Shure|Cloud Applications Development Intern|Niles, IL|Other#1",
       "https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Chicago/Software-Development-Intern_R12187|Clearwater Analytics|Software Development Intern|Chicago, IL|Other#1",
-      "https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Chicago/Software-Development-Intern_R12186|Clearwater Analytics|Software Development Intern|Chicago, IL|Other#1"
+      "https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/clearwater_analytics_careers/job/Office---Chicago/Software-Development-Intern_R12186|Clearwater Analytics|Software Development Intern|Chicago, IL|Other#1",
+      "https://cox.wd1.myworkdayjobs.com/en-US/cox_external_career_site_1/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166|Cox|Software Engineering Intern - Summer 2027 - Atlanta - GA|Atlanta, GA|Other#1",
+      "https://cox.wd1.myworkdayjobs.com/en-US/cox_external_career_site_1/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168|Cox|Software Engineering Intern - Summer 2027 - Austin - TX|Austin, TX|Other#1",
+      "https://cox.wd1.myworkdayjobs.com/en-US/cox_external_career_site_1/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169|Cox|Software Engineering Intern - Summer 2027 - Draper UT|Draper, UT|Other#1",
+      "https://cox.wd1.myworkdayjobs.com/en-US/cox_external_career_site_1/job/Burlington-VT/Software-Engineering-Intern---Summer-2027--Burlington--VT-_R202682172-1|Cox|Software Engineering Intern - Summer 2027 - Burlington - VT|Burlington, VT|Other#1",
+      "https://cox.wd1.myworkdayjobs.com/en-US/cox_external_career_site_1/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173|Cox|Software Engineering Intern - Summer 2027 - Irvine - CA|Irvine, CA|Other#1",
+      "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---North-Carolina---Raleigh/Intern---CFO---IT--Cloud-Platform-_R0054839|Gilead Sciences|Intern - CFO - IT - Cloud Platform|Raleigh, NC|Other#1",
+      "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---DevOps-Business-Strategy-Leader_R0054772|Gilead Sciences|Intern - Development - DevOps Business Strategy Leader|Foster City, CA|Other#1",
+      "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---Software-Engineer_JR108550|Micron Technology|Intern - Software Engineer|Boise, ID|Other#1",
+      "https://jobs.dropbox.com/listing/8106224?gh_jid=8106224|Dropbox|Software Engineering Intern - Summer 2027|Remote - Canada +1|Other#1",
+      "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4740|HP|Software Product Security Engineer Intern|Spring, TX|Other#1",
+      "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4740-1|HP|Software Product Security Engineer Intern|Spring, TX|Other#1",
+      "https://icf.wd5.myworkdayjobs.com/en-US/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002|ICF|2027 Summer Intern - Software Developer - Reston - VA|Reston, VA|Other#1",
+      "https://tel.wd3.myworkdayjobs.com/en-US/tel-careers/job/Austin-RiverSouth/Automation-Developer-Analyst-Intern_R26-01497|Tokyo Electron|Automation Developer/Analyst Summer 2027 Intern|Austin, TX|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -3930,7 +3943,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 332,
+    "last_row_count": 336,
     "outbox": []
   }
 }
