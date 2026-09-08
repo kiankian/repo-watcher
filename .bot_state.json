@@ -31124,6 +31124,30 @@
       "chat_id": 7582459199,
       "seq": 2036,
       "identity": "https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---Software-Engineer---New-Ventures---Starting-Summer-2026_R23098|Nelnet|Intern - Software Engineer - New Ventures - Starting Summer 2026|Lincoln, NE|Summer 2027#1"
+    },
+    "fbb3271d7fd7": {
+      "company": "RTX",
+      "role": "CH-53K Systems Engineering Coop (Spring/Summer 2027) - Onsite",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/CH-53K-Systems-Engineering-Coop--Spring-Summer-2027----Onsite_01872916",
+      "source": "Zapply Summer Repo",
+      "message_id": 3202,
+      "chat_id": 7582459199,
+      "seq": 2037,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/CH-53K-Systems-Engineering-Coop--Spring-Summer-2027----Onsite_01872916|RTX|CH-53K Systems Engineering Coop (Spring/Summer 2027) - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "79d01fcc06d1": {
+      "company": "Texas Instruments",
+      "role": "Facilities Controls and Automation Engineering Intern",
+      "location": "Dallas, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017815",
+      "source": "Zapply Summer Repo",
+      "message_id": 3203,
+      "chat_id": 7582459199,
+      "seq": 2038,
+      "identity": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017815|Texas Instruments|Facilities Controls and Automation Engineering Intern|Dallas, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -31491,10 +31515,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2036,
+  "seq": 2038,
   "health": {
     "last_heartbeat": "2026-09-08T17:45:16Z",
-    "last_ok_run": "2026-09-08T18:25:14Z",
+    "last_ok_run": "2026-09-08T18:30:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
