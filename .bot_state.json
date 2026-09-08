@@ -30512,6 +30512,18 @@
       "chat_id": 7582459199,
       "seq": 1985,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Systems-Engineering-Intern--Huntsville-AL_R10249774|Northrop Grumman|2027 Systems Engineering Intern- Huntsville AL|United States-Alabama-Huntsville|Summer 2027#1"
+    },
+    "973a33807ef1": {
+      "company": "Northrop Grumman",
+      "role": "2027  Systems Engineer Intern - Colorado Springs CO",
+      "location": "United States-Colorado-Colorado ...",
+      "term": "Summer 2027",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027--Systems-Engineer-Intern---Colorado-Springs-CO_R10249777",
+      "source": "Zapply Summer Repo",
+      "message_id": 3151,
+      "chat_id": 7582459199,
+      "seq": 1986,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027--Systems-Engineer-Intern---Colorado-Springs-CO_R10249777|Northrop Grumman|2027  Systems Engineer Intern - Colorado Springs CO|United States-Colorado-Colorado ...|Summer 2027#1"
     }
   },
   "applied": {
@@ -30879,10 +30891,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1985,
+  "seq": 1986,
   "health": {
     "last_heartbeat": "2026-09-08T13:25:17Z",
-    "last_ok_run": "2026-09-08T13:30:18Z",
+    "last_ok_run": "2026-09-08T13:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
