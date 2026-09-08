@@ -30356,6 +30356,30 @@
       "chat_id": 7582459199,
       "seq": 1972,
       "identity": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168|Cox|Software Engineering Intern - Summer 2027 (Austin, TX)|Austin TX|Summer 2027#1"
+    },
+    "e10b802dbd04": {
+      "company": "Micron Technology",
+      "role": "Intern - Software Engineer",
+      "location": "Boise, ID - Main Site",
+      "term": "Summer 2027",
+      "apply_url": "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---Software-Engineer_JR108550",
+      "source": "Zapply Summer Repo",
+      "message_id": 3138,
+      "chat_id": 7582459199,
+      "seq": 1973,
+      "identity": "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---Software-Engineer_JR108550|Micron Technology|Intern - Software Engineer|Boise, ID - Main Site|Summer 2027#1"
+    },
+    "5484972162b0": {
+      "company": "Cox",
+      "role": "Software Engineering Intern - Summer 2027 (Draper UT)",
+      "location": "Draper UT",
+      "term": "Summer 2027",
+      "apply_url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169",
+      "source": "Zapply Summer Repo",
+      "message_id": 3139,
+      "chat_id": 7582459199,
+      "seq": 1974,
+      "identity": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169|Cox|Software Engineering Intern - Summer 2027 (Draper UT)|Draper UT|Summer 2027#1"
     }
   },
   "applied": {
@@ -30723,10 +30747,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1972,
+  "seq": 1974,
   "health": {
     "last_heartbeat": "2026-09-08T06:15:15Z",
-    "last_ok_run": "2026-09-08T06:15:15Z",
+    "last_ok_run": "2026-09-08T06:20:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
