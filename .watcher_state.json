@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "1e342b2f4f9c69dbc8acc856006caa62801e961b",
+    "last_sha": "f4d40834c78c8ddd8717861d7e7fc53753843577",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -1821,11 +1821,70 @@
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Current-Master-s--AI-Engineering-Internship-Program---Summer-2027_R249109-1?utm_source=Simplify&ref=Simplify|Capital One|AI Engineer Intern \ud83c\udf93|San Jose, CA McLean, VA NYC|Summer 2026#1",
       "https://careers-peraton.icims.com/jobs/169665/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Peraton|Software Engineer Intern|Blacksburg, VA Herndon, VA|Summer 2026#1",
       "https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Technology---Software-Engineer_2026-9022?utm_source=Simplify&ref=Simplify|Dimensional Fund Advisors|Software Engineer Intern|Austin, TX|Summer 2026#1",
-      "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323?utm_source=Simplify&ref=Simplify|C.H. Robinson|Software Engineer Intern|Eden Prairie, MN|Summer 2026#1"
+      "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323?utm_source=Simplify&ref=Simplify|C.H. Robinson|Software Engineer Intern|Eden Prairie, MN|Summer 2026#1",
+      "https://job-boards.greenhouse.io/rfsmart/jobs/5409034008?utm_source=Simplify&ref=Simplify|RF-SMART|Software Support Engineer Intern - Netsuite|Jacksonville, FL|Summer 2026#1",
+      "https://job-boards.greenhouse.io/viamrobotics/jobs/6185046004?utm_source=Simplify&ref=Simplify|Viam|Software Engineer Intern|NYC|Summer 2026#1",
+      "https://jobs.ashbyhq.com/semgrep/8e64dc7f-e925-4361-86d5-b01ee518c987/application?embed=true&utm_source=Simplify&ref=Simplify|Semgrep|Software Engineer Intern - Cloud Platform|SF|Summer 2026#1",
+      "https://jobs.ashbyhq.com/oneapp/ba18d004-3212-44e4-8a0c-bd1215bae770/application?embed=true&utm_source=Simplify&ref=Simplify|ONE Finance|Software Engineer Intern|Remote in USA|Summer 2026#1",
+      "https://twosigma.avature.net/careers/JobDetail/14016?utm_source=Simplify&ref=Simplify|Two Sigma|Software Engineering Intern - Summer 2027|NYC|Summer 2026#1",
+      "https://jobs.ashbyhq.com/revel/29968ce1-8838-44e8-ac4e-6b1c87ce5314/application?embed=true&utm_source=Simplify&ref=Simplify|Revel|Full Stack Software Engineer Intern|SF LA|Summer 2026#1",
+      "https://jobs.ashbyhq.com/revel/34f97b81-c981-4c4b-9f4d-d471c33b46cc/application?embed=true&utm_source=Simplify&ref=Simplify|Revel|Forward Deployed Engineer Intern - Software|SF LA|Summer 2026#1",
+      "https://jobs.ashbyhq.com/Talos-Trading/2c833180-484f-4657-80e3-f822cf1a0285/application?embed=true&utm_source=Simplify&ref=Simplify|Talos|Software Engineer Intern - RFQ|NYC|Summer 2026#1",
+      "https://jobs.ashbyhq.com/Talos-Trading/91fd5274-3b6b-43cf-b366-9f6dc2ae5977/application?embed=true&utm_source=Simplify&ref=Simplify|Talos|Software Engineer Intern - Dealer|NYC|Summer 2026#1",
+      "https://jobs.ashbyhq.com/rivianvw.tech/e00c49b7-44c1-4f0c-af3c-2c7a7402185b/application?embed=true&utm_source=Simplify&ref=Simplify|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Vehicle Controls|Vancouver, BC, Canada|Summer 2026#1",
+      "https://jobs.lever.co/anavationllc/a5c70b6a-2d16-4774-9043-677456614b1b/apply?utm_source=Simplify&ref=Simplify|AnaVation|Computer Science Intern - Summer Program|San Antonio, TX|Summer 2026#1",
+      "https://careers-gdms.icims.com/jobs/74687/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|General Dynamics Mission Systems|Software Engineer Intern|Pittsfield, MA|Summer 2026#1",
+      "https://careers-steeldynamics.icims.com/jobs/8017/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Steel Dynamics|Software Development Intern|Columbus, MS|Summer 2026#1",
+      "https://careers-aluminumdynamics.icims.com/jobs/8017/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Steel Dynamics|Software Development Intern|Columbus, MS|Summer 2026#1",
+      "https://careers.spiritaero.com/jobs/17481?icims=1&utm_source=Simplify&ref=Simplify|Spirit AeroSystems|Programmer Analyst / Developer Intern - IDT&S|Wichita, KS|Summer 2026#1",
+      "https://jobs.lever.co/neighbor/7d66629f-3f4b-41ee-a324-fe0154e13c46/apply?utm_source=Simplify&ref=Simplify|Neighbor|Software Engineer Intern|Lehi, UT|Summer 2026#1",
+      "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Datadog|Software Engineer Intern - Summer|Boston, MA NYC|Summer 2026#1",
+      "https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---CO-Westminster/Software-Engineering-Intern_R57676?utm_source=Simplify&ref=Simplify|Trimble|Software Engineer Intern|8 locationsDayton, OH Knoxville, TN Portsmouth, NH Princeton, NJ Lake Oswego, OR Westminster, CO Sunnyvale, CA Atlanta, GA|Summer 2026#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Platform-System-Engineering-Co-op--2027----Onsite_01871078?utm_source=Simplify&ref=Simplify|RTX|Platform System Engineering Co-op|Cedar Rapids, IA|Summer 2026#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-179--855-35Th-St-NE--BLDG-179/Software-Engineering-Intern--Summer-Fall-2027-_01873006?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer/Fall 2027 - Mission Engineering / Operational Analysis|Cedar Rapids, IA|Summer 2026#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Cedar Rapids, IA|Summer 2026#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineer-Co-op--Summer-Fall-2027----Onsite_01871347?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Co-op|Cedar Rapids, IA|Summer 2026#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Spring-Summer-Co-Op---Systems---AVI-MIL-FMS-DAS_01872835?utm_source=Simplify&ref=Simplify|RTX|Systems Co-op|Cedar Rapids, IA|Summer 2026#1",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Engineer Intern|Roy, UT|Summer 2026#1",
+      "https://countryfinancial.wd5.myworkdayjobs.com/COUNTRYCorporateInternships/job/Bloomington-IL/Information-Technology-Services-Intern_R26_0000000977?utm_source=Simplify&ref=Simplify|COUNTRY Financial|Information Technology Services Intern|Bloomington, IL|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 410,
-    "outbox": []
+    "last_row_count": 435,
+    "outbox": [
+      [
+        [
+          "COUNTRY Financial",
+          "Automation Developer Intern",
+          "Bloomington, IL",
+          "Summer 2026",
+          "https://countryfinancial.wd5.myworkdayjobs.com/COUNTRYCorporateInternships/job/Bloomington-IL/Automation-Developer-Intern_R26_0000001000?utm_source=Simplify&ref=Simplify"
+        ],
+        "https://countryfinancial.wd5.myworkdayjobs.com/COUNTRYCorporateInternships/job/Bloomington-IL/Automation-Developer-Intern_R26_0000001000?utm_source=Simplify&ref=Simplify|COUNTRY Financial|Automation Developer Intern|Bloomington, IL|Summer 2026#1",
+        1
+      ],
+      [
+        [
+          "Boeing",
+          "Artificial Intelligence Software Engineer Intern - Graduate Researcher Program \ud83c\udf93",
+          "Tukwila, WA",
+          "Summer 2026",
+          "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Software-Engineering-Artificial-Intelligence-Intern_JR2026523687?utm_source=Simplify&ref=Simplify"
+        ],
+        "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Software-Engineering-Artificial-Intelligence-Intern_JR2026523687?utm_source=Simplify&ref=Simplify|Boeing|Artificial Intelligence Software Engineer Intern - Graduate Researcher Program \ud83c\udf93|Tukwila, WA|Summer 2026#1",
+        1
+      ],
+      [
+        [
+          "ABB",
+          "Application Engineering Intern - Summer 2027",
+          "Lombard, IL Alpharetta, GA",
+          "Summer 2026",
+          "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Alpharetta-Georgia-United-States-of-America/Application-Engineering-Intern---Summer-2027_JR00045706?utm_source=Simplify&ref=Simplify"
+        ],
+        "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Alpharetta-Georgia-United-States-of-America/Application-Engineering-Intern---Summer-2027_JR00045706?utm_source=Simplify&ref=Simplify|ABB|Application Engineering Intern - Summer 2027|Lombard, IL Alpharetta, GA|Summer 2026#1",
+        1
+      ]
+    ]
   },
   "vanshb03/Summer2027-Internships#summer": {
     "last_sha": "609cac4e49c775f77cd419c76026251a4b62163b",
