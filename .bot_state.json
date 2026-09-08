@@ -31052,6 +31052,30 @@
       "chat_id": 7582459199,
       "seq": 2030,
       "identity": "https://jobs.ashbyhq.com/rivianvw.tech/f5aa59d9-4fdc-42d5-931d-efd9e6d96f2f|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Vehicle Controls (January - August 2027)|Irvine, California|Summer 2027#1"
+    },
+    "e5ccefa0417a": {
+      "company": "Semgrep",
+      "role": "Software Engineer Intern, Cloud Platform",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/semgrep/8e64dc7f-e925-4361-86d5-b01ee518c987",
+      "source": "Zapply Summer Repo",
+      "message_id": 3196,
+      "chat_id": 7582459199,
+      "seq": 2031,
+      "identity": "https://jobs.ashbyhq.com/semgrep/8e64dc7f-e925-4361-86d5-b01ee518c987|Semgrep|Software Engineer Intern, Cloud Platform|San Francisco|Summer 2027#1"
+    },
+    "a037ac87b227": {
+      "company": "Talos Trading",
+      "role": "Software Engineer Intern, RFQ",
+      "location": "New York",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/talos-trading/2c833180-484f-4657-80e3-f822cf1a0285",
+      "source": "Zapply Summer Repo",
+      "message_id": 3197,
+      "chat_id": 7582459199,
+      "seq": 2032,
+      "identity": "https://jobs.ashbyhq.com/talos-trading/2c833180-484f-4657-80e3-f822cf1a0285|Talos Trading|Software Engineer Intern, RFQ|New York|Summer 2027#1"
     }
   },
   "applied": {
@@ -31419,10 +31443,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2030,
+  "seq": 2032,
   "health": {
     "last_heartbeat": "2026-09-08T16:45:15Z",
-    "last_ok_run": "2026-09-08T17:35:14Z",
+    "last_ok_run": "2026-09-08T17:40:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
