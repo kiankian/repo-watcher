@@ -31316,6 +31316,42 @@
       "chat_id": 7582459199,
       "seq": 2052,
       "identity": "https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Arden---North-Carolina---USA/Quality-Engineering-Intern_R2026-3555|BorgWarner|Quality Engineering Intern|Arden - North Carolina - USA|Summer 2027#1"
+    },
+    "bb6d19b3cc16": {
+      "company": "SWBC",
+      "role": "DevOps Intern",
+      "location": "San Antonio, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/DevOps-Intern_R0015484-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 3218,
+      "chat_id": 7582459199,
+      "seq": 2053,
+      "identity": "https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/DevOps-Intern_R0015484-2|SWBC|DevOps Intern|San Antonio, TX|Summer 2027#1"
+    },
+    "60ca6decab73": {
+      "company": "SWBC",
+      "role": "Quality Engineering Intern",
+      "location": "San Antonio, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/Quality-Engineering-Intern_R0015483-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 3219,
+      "chat_id": 7582459199,
+      "seq": 2054,
+      "identity": "https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/Quality-Engineering-Intern_R0015483-2|SWBC|Quality Engineering Intern|San Antonio, TX|Summer 2027#1"
+    },
+    "fdc6019ada65": {
+      "company": "SWBC",
+      "role": "Software Engineering Intern",
+      "location": "San Antonio, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/Software-Engineering-Intern_R0015482-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 3220,
+      "chat_id": 7582459199,
+      "seq": 2055,
+      "identity": "https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/Software-Engineering-Intern_R0015482-2|SWBC|Software Engineering Intern|San Antonio, TX|Summer 2027#1"
     }
   },
   "applied": {
@@ -31683,10 +31719,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2052,
+  "seq": 2055,
   "health": {
     "last_heartbeat": "2026-09-08T21:00:19Z",
-    "last_ok_run": "2026-09-08T21:20:13Z",
+    "last_ok_run": "2026-09-08T21:25:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
