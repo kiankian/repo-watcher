@@ -31016,6 +31016,42 @@
       "chat_id": 7582459199,
       "seq": 2027,
       "identity": "https://jobs.smartrecruiters.com/llnl/3743990015113316|LLNL|Laser and Experimental Systems Engineering Undergraduate Intern - Summer 2027|Livermore, CA|Summer 2027#1"
+    },
+    "ee77e3be056e": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer/Fall 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-179--855-35Th-St-NE--BLDG-179/Software-Engineering-Intern--Summer-Fall-2027-_01873006",
+      "source": "Zapply Summer Repo",
+      "message_id": 3193,
+      "chat_id": 7582459199,
+      "seq": 2028,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-179--855-35Th-St-NE--BLDG-179/Software-Engineering-Intern--Summer-Fall-2027-_01873006|RTX|Software Engineering Intern (Summer/Fall 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "d2bcfb9201db": {
+      "company": "ONE Finance",
+      "role": "Software Engineer, Intern",
+      "location": "United States (Remote)",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/oneapp/ba18d004-3212-44e4-8a0c-bd1215bae770",
+      "source": "Zapply Summer Repo",
+      "message_id": 3194,
+      "chat_id": 7582459199,
+      "seq": 2029,
+      "identity": "https://jobs.ashbyhq.com/oneapp/ba18d004-3212-44e4-8a0c-bd1215bae770|ONE Finance|Software Engineer, Intern|United States (Remote)|Summer 2027#1"
+    },
+    "ae002e301110": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "role": "Software Engineering Intern - Vehicle Controls (January - August 2027)",
+      "location": "Irvine, California",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/rivianvw.tech/f5aa59d9-4fdc-42d5-931d-efd9e6d96f2f",
+      "source": "Zapply Summer Repo",
+      "message_id": 3195,
+      "chat_id": 7582459199,
+      "seq": 2030,
+      "identity": "https://jobs.ashbyhq.com/rivianvw.tech/f5aa59d9-4fdc-42d5-931d-efd9e6d96f2f|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Vehicle Controls (January - August 2027)|Irvine, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -31383,10 +31419,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2027,
+  "seq": 2030,
   "health": {
     "last_heartbeat": "2026-09-08T16:45:15Z",
-    "last_ok_run": "2026-09-08T17:10:14Z",
+    "last_ok_run": "2026-09-08T17:15:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
