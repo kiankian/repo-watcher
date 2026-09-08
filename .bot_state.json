@@ -30980,6 +30980,42 @@
       "chat_id": 7582459199,
       "seq": 2024,
       "identity": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323?utm_source=Simplify&ref=Simplify|C.H. Robinson|Software Engineer Intern|Eden Prairie, MN|Summer 2026#1"
+    },
+    "d9181d066093": {
+      "company": "Northrop Grumman",
+      "role": "2027 Systems Security Engineering Intern - Roy UT",
+      "location": "United States-Utah-Roy",
+      "term": "Summer 2027",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Systems-Security-Engineering-Intern---Roy-UT_R10249815",
+      "source": "Zapply Summer Repo",
+      "message_id": 3190,
+      "chat_id": 7582459199,
+      "seq": 2025,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Systems-Security-Engineering-Intern---Roy-UT_R10249815|Northrop Grumman|2027 Systems Security Engineering Intern - Roy UT|United States-Utah-Roy|Summer 2027#1"
+    },
+    "ed13ca30137f": {
+      "company": "RTX",
+      "role": "Systems Engineering Co-op (Summer/Fall 2027) - Onsite",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Systems-Engineering-Co-op--Summer-Fall-2027----Onsite_01872651",
+      "source": "Zapply Summer Repo",
+      "message_id": 3191,
+      "chat_id": 7582459199,
+      "seq": 2026,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Systems-Engineering-Co-op--Summer-Fall-2027----Onsite_01872651|RTX|Systems Engineering Co-op (Summer/Fall 2027) - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "c42c917edbb8": {
+      "company": "LLNL",
+      "role": "Laser and Experimental Systems Engineering Undergraduate Intern - Summer 2027",
+      "location": "Livermore, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/llnl/3743990015113316",
+      "source": "Zapply Summer Repo",
+      "message_id": 3192,
+      "chat_id": 7582459199,
+      "seq": 2027,
+      "identity": "https://jobs.smartrecruiters.com/llnl/3743990015113316|LLNL|Laser and Experimental Systems Engineering Undergraduate Intern - Summer 2027|Livermore, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -31347,10 +31383,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2024,
+  "seq": 2027,
   "health": {
     "last_heartbeat": "2026-09-08T16:45:15Z",
-    "last_ok_run": "2026-09-08T16:45:15Z",
+    "last_ok_run": "2026-09-08T16:50:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
