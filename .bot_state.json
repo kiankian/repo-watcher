@@ -31244,6 +31244,18 @@
       "chat_id": 7582459199,
       "seq": 2046,
       "identity": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bloomington-Minnesota-United-States-of-America/HPC-AI-Systems-Administrator-Intern_1213396|HPE (University)|HPC AI Systems Administrator Intern|Bloomington, Minnesota, United...|Summer 2027#1"
+    },
+    "1a0b665111fa": {
+      "company": "Allegion",
+      "role": "Summer Intern - Software Engineering - DevOps",
+      "location": "Carmel, IN",
+      "term": "Summer 2027",
+      "apply_url": "https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Software-Engineering-Intern---DevOps_JR37379",
+      "source": "Zapply Summer Repo",
+      "message_id": 3212,
+      "chat_id": 7582459199,
+      "seq": 2047,
+      "identity": "https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Software-Engineering-Intern---DevOps_JR37379|Allegion|Summer Intern - Software Engineering - DevOps|Carmel, IN|Summer 2027#1"
     }
   },
   "applied": {
@@ -31611,10 +31623,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2046,
+  "seq": 2047,
   "health": {
     "last_heartbeat": "2026-09-08T18:50:20Z",
-    "last_ok_run": "2026-09-08T18:55:15Z",
+    "last_ok_run": "2026-09-08T19:00:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
