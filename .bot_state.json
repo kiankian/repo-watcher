@@ -31088,6 +31088,42 @@
       "chat_id": 7582459199,
       "seq": 2033,
       "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Los-Angeles-CA/Electronics-Electrical-Systems-Engineer-Co-Op_R71548|Blue Origin|Electronics/Electrical Systems Engineer Co-Op|Los Angeles, CA|Summer 2027#1"
+    },
+    "fd5470edc3fc": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Engineering Intern - Roy UT",
+      "location": "United States-Utah-Roy",
+      "term": "Summer 2027",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
+      "source": "Zapply Summer Repo",
+      "message_id": 3199,
+      "chat_id": 7582459199,
+      "seq": 2034,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842|Northrop Grumman|2027 Software Engineering Intern - Roy UT|United States-Utah-Roy|Summer 2027#1"
+    },
+    "54da6a155702": {
+      "company": "RTX",
+      "role": "Software Engineer Intern ( Summer 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613",
+      "source": "Zapply Summer Repo",
+      "message_id": 3200,
+      "chat_id": 7582459199,
+      "seq": 2035,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613|RTX|Software Engineer Intern ( Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "30d73a631192": {
+      "company": "Nelnet",
+      "role": "Intern - Software Engineer - New Ventures - Starting Summer 2026",
+      "location": "Lincoln, NE",
+      "term": "Summer 2027",
+      "apply_url": "https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---Software-Engineer---New-Ventures---Starting-Summer-2026_R23098",
+      "source": "Zapply Summer Repo",
+      "message_id": 3201,
+      "chat_id": 7582459199,
+      "seq": 2036,
+      "identity": "https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---Software-Engineer---New-Ventures---Starting-Summer-2026_R23098|Nelnet|Intern - Software Engineer - New Ventures - Starting Summer 2026|Lincoln, NE|Summer 2027#1"
     }
   },
   "applied": {
@@ -31455,10 +31491,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2033,
+  "seq": 2036,
   "health": {
     "last_heartbeat": "2026-09-08T17:45:16Z",
-    "last_ok_run": "2026-09-08T18:15:15Z",
+    "last_ok_run": "2026-09-08T18:20:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
