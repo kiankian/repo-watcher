@@ -31076,6 +31076,18 @@
       "chat_id": 7582459199,
       "seq": 2032,
       "identity": "https://jobs.ashbyhq.com/talos-trading/2c833180-484f-4657-80e3-f822cf1a0285|Talos Trading|Software Engineer Intern, RFQ|New York|Summer 2027#1"
+    },
+    "07b6103f8391": {
+      "company": "Blue Origin",
+      "role": "Electronics/Electrical Systems Engineer Co-Op",
+      "location": "Los Angeles, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Los-Angeles-CA/Electronics-Electrical-Systems-Engineer-Co-Op_R71548",
+      "source": "Zapply Summer Repo",
+      "message_id": 3198,
+      "chat_id": 7582459199,
+      "seq": 2033,
+      "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Los-Angeles-CA/Electronics-Electrical-Systems-Engineer-Co-Op_R71548|Blue Origin|Electronics/Electrical Systems Engineer Co-Op|Los Angeles, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -31443,10 +31455,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2032,
+  "seq": 2033,
   "health": {
     "last_heartbeat": "2026-09-08T17:45:16Z",
-    "last_ok_run": "2026-09-08T17:55:12Z",
+    "last_ok_run": "2026-09-08T18:00:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
