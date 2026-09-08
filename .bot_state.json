@@ -30944,6 +30944,42 @@
       "chat_id": 7582459199,
       "seq": 2021,
       "identity": "https://tel.wd3.myworkdayjobs.com/en-US/tel-careers/job/Austin-RiverSouth/Automation-Developer-Analyst-Intern_R26-01497|Tokyo Electron|Automation Developer/Analyst Summer 2027 Intern|Austin, TX|Other#1"
+    },
+    "02df5971e262": {
+      "company": "Peraton",
+      "role": "Software Engineer Intern",
+      "location": "Blacksburg, VA Herndon, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-peraton.icims.com/jobs/169665/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3187,
+      "chat_id": 7582459199,
+      "seq": 2022,
+      "identity": "https://careers-peraton.icims.com/jobs/169665/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Peraton|Software Engineer Intern|Blacksburg, VA Herndon, VA|Summer 2026#1"
+    },
+    "a30bb82a6dc5": {
+      "company": "Dimensional Fund Advisors",
+      "role": "Software Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Technology---Software-Engineer_2026-9022?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3188,
+      "chat_id": 7582459199,
+      "seq": 2023,
+      "identity": "https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Technology---Software-Engineer_2026-9022?utm_source=Simplify&ref=Simplify|Dimensional Fund Advisors|Software Engineer Intern|Austin, TX|Summer 2026#1"
+    },
+    "9be983d8c720": {
+      "company": "C.H. Robinson",
+      "role": "Software Engineer Intern",
+      "location": "Eden Prairie, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3189,
+      "chat_id": 7582459199,
+      "seq": 2024,
+      "identity": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323?utm_source=Simplify&ref=Simplify|C.H. Robinson|Software Engineer Intern|Eden Prairie, MN|Summer 2026#1"
     }
   },
   "applied": {
@@ -31311,10 +31347,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2021,
+  "seq": 2024,
   "health": {
     "last_heartbeat": "2026-09-08T15:40:52Z",
-    "last_ok_run": "2026-09-08T16:30:40Z",
+    "last_ok_run": "2026-09-08T16:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
