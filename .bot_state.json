@@ -31304,6 +31304,18 @@
       "chat_id": 7582459199,
       "seq": 2051,
       "identity": "https://joinbytedance.com/search/7673636205233490181|ByteDance|Multi-Cloud CDN Scheduling Platform Engineer Intern (CDN Platform) - 2027 Summer|San Jose, California|Summer 2027#1"
+    },
+    "0181c2391f24": {
+      "company": "BorgWarner",
+      "role": "Quality Engineering Intern",
+      "location": "Arden - North Carolina - USA",
+      "term": "Summer 2027",
+      "apply_url": "https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Arden---North-Carolina---USA/Quality-Engineering-Intern_R2026-3555",
+      "source": "Zapply Summer Repo",
+      "message_id": 3217,
+      "chat_id": 7582459199,
+      "seq": 2052,
+      "identity": "https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Arden---North-Carolina---USA/Quality-Engineering-Intern_R2026-3555|BorgWarner|Quality Engineering Intern|Arden - North Carolina - USA|Summer 2027#1"
     }
   },
   "applied": {
@@ -31671,10 +31683,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2051,
+  "seq": 2052,
   "health": {
     "last_heartbeat": "2026-09-08T20:00:19Z",
-    "last_ok_run": "2026-09-08T20:45:13Z",
+    "last_ok_run": "2026-09-08T20:50:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
