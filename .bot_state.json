@@ -30560,6 +30560,54 @@
       "chat_id": 7582459199,
       "seq": 1989,
       "identity": "https://jobs.ulalaunch.com/job/Centennial-Software-Engineering-Internship-Summer-2027-CO-80112/1427398300/?ats=successfactors&utm_source=Simplify&ref=Simplify|United Launch Alliance|Software Engineer Intern|Centennial, CO|Summer 2026#1"
+    },
+    "1a2ee646eef2": {
+      "company": "Bosch Group",
+      "role": "Test Engineer Intern",
+      "location": "Vernon Hills, IL",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000148253129",
+      "source": "Zapply Summer Repo",
+      "message_id": 3155,
+      "chat_id": 7582459199,
+      "seq": 1990,
+      "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000148253129|Bosch Group|Test Engineer Intern|Vernon Hills, IL|Summer 2027#1"
+    },
+    "69a7ac0aec28": {
+      "company": "Datadog",
+      "role": "Software Engineering Intern",
+      "location": "Boston, Massachusetts, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118",
+      "source": "Zapply Summer Repo",
+      "message_id": 3156,
+      "chat_id": 7582459199,
+      "seq": 1991,
+      "identity": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118|Datadog|Software Engineering Intern|Boston, Massachusetts, USA|Summer 2027#1"
+    },
+    "7ec0f1726fe8": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Systems Engineering Intern (Summer 2027)",
+      "location": "Plano, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Plano-TX/Systems-Engineering-Intern--Summer-2027-_R0030752",
+      "source": "Zapply Summer Repo",
+      "message_id": 3157,
+      "chat_id": 7582459199,
+      "seq": 1992,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Plano-TX/Systems-Engineering-Intern--Summer-2027-_R0030752|Sierra Nevada Corporation|Systems Engineering Intern (Summer 2027)|Plano, TX|Summer 2027#1"
+    },
+    "5f7805b22d78": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Systems Engineer Intern (Summer 2027)",
+      "location": "Dayton, OH",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Dayton-OH/Systems-Engineer-Intern--Summer-2027-_R0030749",
+      "source": "Zapply Summer Repo",
+      "message_id": 3158,
+      "chat_id": 7582459199,
+      "seq": 1993,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Dayton-OH/Systems-Engineer-Intern--Summer-2027-_R0030749|Sierra Nevada Corporation|Systems Engineer Intern (Summer 2027)|Dayton, OH|Summer 2027#1"
     }
   },
   "applied": {
@@ -30927,10 +30975,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1989,
+  "seq": 1993,
   "health": {
     "last_heartbeat": "2026-09-08T14:40:15Z",
-    "last_ok_run": "2026-09-08T14:40:15Z",
+    "last_ok_run": "2026-09-08T14:45:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
