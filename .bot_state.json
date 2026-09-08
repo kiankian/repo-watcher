@@ -30416,6 +30416,30 @@
       "chat_id": 7582459199,
       "seq": 1977,
       "identity": "https://dickssportinggoods.wd1.myworkdayjobs.com/en-US/DSG/job/Customer-Support-Center/Software-Engineering---Summer-2027-Corporate-Internship_202608792-1?utm_source=Simplify&ref=Simplify|Dick's Sporting Goods|Software Engineer Intern - Corporate Internship|Pittsburgh, PA|Summer 2026#1"
+    },
+    "3bc8eefacaef": {
+      "company": "Gilead Sciences",
+      "role": "Intern - Development - DevOps Business Strategy Leader",
+      "location": "United States - California - Fos...",
+      "term": "Summer 2027",
+      "apply_url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Development---DevOps-Business-Strategy-Leader_R0054772",
+      "source": "Zapply Summer Repo",
+      "message_id": 3143,
+      "chat_id": 7582459199,
+      "seq": 1978,
+      "identity": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Development---DevOps-Business-Strategy-Leader_R0054772|Gilead Sciences|Intern - Development - DevOps Business Strategy Leader|United States - California - Fos...|Summer 2027#1"
+    },
+    "45f7d8b8889d": {
+      "company": "Cox",
+      "role": "Software Engineering Intern - Summer 2027 (Irvine, CA)",
+      "location": "Irvine CA",
+      "term": "Summer 2027",
+      "apply_url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173",
+      "source": "Zapply Summer Repo",
+      "message_id": 3144,
+      "chat_id": 7582459199,
+      "seq": 1979,
+      "identity": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173|Cox|Software Engineering Intern - Summer 2027 (Irvine, CA)|Irvine CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -30783,10 +30807,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1977,
+  "seq": 1979,
   "health": {
     "last_heartbeat": "2026-09-08T06:15:15Z",
-    "last_ok_run": "2026-09-08T07:15:13Z",
+    "last_ok_run": "2026-09-08T07:20:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
