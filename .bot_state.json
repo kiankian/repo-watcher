@@ -30680,6 +30680,18 @@
       "chat_id": 7582459199,
       "seq": 1999,
       "identity": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Software-Engineering-Intern_R57676|Trimble|Software Engineering Intern|CO Westminster|Summer 2027#1"
+    },
+    "58b7aa80b934": {
+      "company": "Apex Technology",
+      "role": "Software Engineering Internship, Test & Automation (Summer 2027)",
+      "location": "Los Angeles",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/apex-technology-inc/692bb497-59ba-44df-bacf-fffd2f7c6344",
+      "source": "Zapply Summer Repo",
+      "message_id": 3165,
+      "chat_id": 7582459199,
+      "seq": 2000,
+      "identity": "https://jobs.ashbyhq.com/apex-technology-inc/692bb497-59ba-44df-bacf-fffd2f7c6344|Apex Technology|Software Engineering Internship, Test & Automation (Summer 2027)|Los Angeles|Summer 2027#1"
     }
   },
   "applied": {
@@ -31047,10 +31059,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1999,
+  "seq": 2000,
   "health": {
     "last_heartbeat": "2026-09-08T15:40:52Z",
-    "last_ok_run": "2026-09-08T15:40:52Z",
+    "last_ok_run": "2026-09-08T15:45:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
