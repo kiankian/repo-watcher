@@ -31700,6 +31700,66 @@
       "chat_id": 7582459199,
       "seq": 2084,
       "identity": "https://countryfinancial.wd5.myworkdayjobs.com/COUNTRYCorporateInternships/job/Bloomington-IL/Information-Technology-Services-Intern_R26_0000000977?utm_source=Simplify&ref=Simplify|COUNTRY Financial|Information Technology Services Intern|Bloomington, IL|Summer 2026#1"
+    },
+    "0f3bc9592b8f": {
+      "company": "COUNTRY Financial",
+      "role": "Automation Developer Intern",
+      "location": "Bloomington, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://countryfinancial.wd5.myworkdayjobs.com/COUNTRYCorporateInternships/job/Bloomington-IL/Automation-Developer-Intern_R26_0000001000?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3250,
+      "chat_id": 7582459199,
+      "seq": 2085,
+      "identity": "https://countryfinancial.wd5.myworkdayjobs.com/COUNTRYCorporateInternships/job/Bloomington-IL/Automation-Developer-Intern_R26_0000001000?utm_source=Simplify&ref=Simplify|COUNTRY Financial|Automation Developer Intern|Bloomington, IL|Summer 2026#1"
+    },
+    "e894e07f6ac0": {
+      "company": "Boeing",
+      "role": "Artificial Intelligence Software Engineer Intern - Graduate Researcher Program \ud83c\udf93",
+      "location": "Tukwila, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Software-Engineering-Artificial-Intelligence-Intern_JR2026523687?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3251,
+      "chat_id": 7582459199,
+      "seq": 2086,
+      "identity": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Software-Engineering-Artificial-Intelligence-Intern_JR2026523687?utm_source=Simplify&ref=Simplify|Boeing|Artificial Intelligence Software Engineer Intern - Graduate Researcher Program \ud83c\udf93|Tukwila, WA|Summer 2026#1"
+    },
+    "4024bb4bce1d": {
+      "company": "ABB",
+      "role": "Application Engineering Intern - Summer 2027",
+      "location": "Lombard, IL Alpharetta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Alpharetta-Georgia-United-States-of-America/Application-Engineering-Intern---Summer-2027_JR00045706?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3252,
+      "chat_id": 7582459199,
+      "seq": 2087,
+      "identity": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Alpharetta-Georgia-United-States-of-America/Application-Engineering-Intern---Summer-2027_JR00045706?utm_source=Simplify&ref=Simplify|ABB|Application Engineering Intern - Summer 2027|Lombard, IL Alpharetta, GA|Summer 2026#1"
+    },
+    "280ffeefd4a3": {
+      "company": "Cboe",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2027",
+      "apply_url": "https://cboe.wd1.myworkdayjobs.com/External_Career_CBOE/job/Chicago-IL/Software-Engineer-Intern_R-4654",
+      "source": "Zapply Summer Repo",
+      "message_id": 3253,
+      "chat_id": 7582459199,
+      "seq": 2088,
+      "identity": "https://cboe.wd1.myworkdayjobs.com/External_Career_CBOE/job/Chicago-IL/Software-Engineer-Intern_R-4654|Cboe|Software Engineer Intern|Chicago, IL|Summer 2027#1"
+    },
+    "851acf098575": {
+      "company": "Emerson Electric",
+      "role": "Software Development Intern",
+      "location": "Austin, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010396",
+      "source": "Zapply Summer Repo",
+      "message_id": 3254,
+      "chat_id": 7582459199,
+      "seq": 2089,
+      "identity": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010396|Emerson Electric|Software Development Intern|Austin, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -32067,10 +32127,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2084,
+  "seq": 2089,
   "health": {
     "last_heartbeat": "2026-09-08T22:10:16Z",
-    "last_ok_run": "2026-09-08T23:05:55Z",
+    "last_ok_run": "2026-09-08T23:10:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
