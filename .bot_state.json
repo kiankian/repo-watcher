@@ -30608,6 +30608,30 @@
       "chat_id": 7582459199,
       "seq": 1993,
       "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Dayton-OH/Systems-Engineer-Intern--Summer-2027-_R0030749|Sierra Nevada Corporation|Systems Engineer Intern (Summer 2027)|Dayton, OH|Summer 2027#1"
+    },
+    "7d43729f3b18": {
+      "company": "Datadog",
+      "role": "Software Engineering Intern (Summer)",
+      "location": "Boston, Massachusetts, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118",
+      "source": "Zapply Summer Repo",
+      "message_id": 3159,
+      "chat_id": 7582459199,
+      "seq": 1994,
+      "identity": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118|Datadog|Software Engineering Intern (Summer)|Boston, Massachusetts, USA|Summer 2027#1"
+    },
+    "5267735c261b": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Systems Engineering Intern (Summer 2027)",
+      "location": "Lone Tree, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/Systems-Engineering-Intern--Summer-2027-_R0030750",
+      "source": "Zapply Summer Repo",
+      "message_id": 3160,
+      "chat_id": 7582459199,
+      "seq": 1995,
+      "identity": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Lone-Tree-CO/Systems-Engineering-Intern--Summer-2027-_R0030750|Sierra Nevada Corporation|Systems Engineering Intern (Summer 2027)|Lone Tree, CO|Summer 2027#1"
     }
   },
   "applied": {
@@ -30975,10 +30999,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 1993,
+  "seq": 1995,
   "health": {
     "last_heartbeat": "2026-09-08T14:40:15Z",
-    "last_ok_run": "2026-09-08T14:50:16Z",
+    "last_ok_run": "2026-09-08T14:55:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
