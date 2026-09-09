@@ -31856,6 +31856,18 @@
       "chat_id": 7582459199,
       "seq": 2097,
       "identity": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5418727008?utm_source=Simplify&ref=Simplify|K2 Space|Simulation Software Engineering Intern|LA|Summer 2026#1"
+    },
+    "f726d6f0fa5d": {
+      "company": "Microsoft",
+      "role": "Penetration Tester, SERPENT: Internship Opportunities",
+      "location": "Redmond, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556988202",
+      "source": "Zapply Summer Repo",
+      "message_id": 3263,
+      "chat_id": 7582459199,
+      "seq": 2098,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556988202|Microsoft|Penetration Tester, SERPENT: Internship Opportunities|Redmond, Washington, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -32223,10 +32235,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2097,
+  "seq": 2098,
   "health": {
     "last_heartbeat": "2026-09-09T06:50:16Z",
-    "last_ok_run": "2026-09-09T07:40:15Z",
+    "last_ok_run": "2026-09-09T07:45:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
