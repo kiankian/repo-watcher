@@ -32984,6 +32984,18 @@
       "chat_id": 7582459199,
       "seq": 2191,
       "identity": "https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2|Saronic Technologies|Software Engineer Intern (Summer 2027)|Austin, TX|Summer 2027#1"
+    },
+    "59cb9f3cc410": {
+      "company": "Kognitos",
+      "role": "Software Engineer Intern (AI-Native) \u2014 Fall 2026",
+      "location": "San Jose -",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5",
+      "source": "Zapply Summer Repo",
+      "message_id": 3357,
+      "chat_id": 7582459199,
+      "seq": 2192,
+      "identity": "https://jobs.ashbyhq.com/kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5|Kognitos|Software Engineer Intern (AI-Native) \u2014 Fall 2026|San Jose -|Summer 2027#1"
     }
   },
   "applied": {
@@ -33351,10 +33363,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2191,
+  "seq": 2192,
   "health": {
     "last_heartbeat": "2026-09-09T19:55:15Z",
-    "last_ok_run": "2026-09-09T20:45:17Z",
+    "last_ok_run": "2026-09-09T20:50:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
