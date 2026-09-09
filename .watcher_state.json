@@ -1895,34 +1895,13 @@
       "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Developer-Degree-Apprenticeship-Programme-Northampton_JR-0000129431?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Apprentice - Digital & Technology Solutions|Northampton, UK|Summer 2026#1",
       "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-London_JR-0000129397?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Intern|London, UK|Summer 2026#1",
       "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Developer-Degree-Apprenticeship-Programme-Knutsford_JR-0000129443?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Apprentice|Knutsford, UK|Summer 2026#1",
-      "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Glasgow-Campus/XMLNAME-2027-Technology-Developer-Graduate-Apprenticeship-Programme-Glasgow_JR-0000129447?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Apprentice|Glasgow, UK|Summer 2026#1"
+      "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Glasgow-Campus/XMLNAME-2027-Technology-Developer-Graduate-Apprenticeship-Programme-Glasgow_JR-0000129447?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Apprentice|Glasgow, UK|Summer 2026#1",
+      "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-Knutsford_JR-0000129381?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Intern|Knutsford, UK|Summer 2026#1",
+      "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-Northampton_JR-0000129379?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Intern - Programme|Northampton, UK|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 486,
-    "outbox": [
-      [
-        [
-          "Barclays",
-          "Technology Developer Intern",
-          "Knutsford, UK",
-          "Summer 2026",
-          "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-Knutsford_JR-0000129381?utm_source=Simplify&ref=Simplify"
-        ],
-        "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-Knutsford_JR-0000129381?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Intern|Knutsford, UK|Summer 2026#1",
-        1
-      ],
-      [
-        [
-          "Barclays",
-          "Technology Developer Intern - Programme",
-          "Northampton, UK",
-          "Summer 2026",
-          "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-Northampton_JR-0000129379?utm_source=Simplify&ref=Simplify"
-        ],
-        "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-Northampton_JR-0000129379?utm_source=Simplify&ref=Simplify|Barclays|Technology Developer Intern - Programme|Northampton, UK|Summer 2026#1",
-        1
-      ]
-    ]
+    "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
     "last_sha": "609cac4e49c775f77cd419c76026251a4b62163b",
