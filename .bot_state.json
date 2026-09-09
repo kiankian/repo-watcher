@@ -31772,6 +31772,30 @@
       "chat_id": 7582459199,
       "seq": 2090,
       "identity": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265|Applied Materials|2027 Software Engineering Intern (Masters - Santa Clara, CA)|Santa Clara,CA|Summer 2027#1"
+    },
+    "af144782fbc3": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions Intern - Data & Software Engineering (Undergraduate)",
+      "location": "South San Francisco, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/AbbVie/3743990014860391",
+      "source": "Zapply Summer Repo",
+      "message_id": 3256,
+      "chat_id": 7582459199,
+      "seq": 2091,
+      "identity": "https://jobs.smartrecruiters.com/AbbVie/3743990014860391|AbbVie|2027 Business Technology Solutions Intern - Data & Software Engineering (Undergraduate)|South San Francisco, CA|Summer 2027#1"
+    },
+    "ccea19b1b51b": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)",
+      "location": "South San Francisco, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/AbbVie/3743990014860456",
+      "source": "Zapply Summer Repo",
+      "message_id": 3257,
+      "chat_id": 7582459199,
+      "seq": 2092,
+      "identity": "https://jobs.smartrecruiters.com/AbbVie/3743990014860456|AbbVie|2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)|South San Francisco, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -32139,10 +32163,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2090,
+  "seq": 2092,
   "health": {
     "last_heartbeat": "2026-09-09T00:25:11Z",
-    "last_ok_run": "2026-09-09T01:20:15Z",
+    "last_ok_run": "2026-09-09T01:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
