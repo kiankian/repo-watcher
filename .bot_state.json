@@ -31832,6 +31832,18 @@
       "chat_id": 7582459199,
       "seq": 2095,
       "identity": "https://job-boards.greenhouse.io/gallup/jobs/4395897009?utm_source=Simplify&ref=Simplify|Gallup|Software Engineer Intern - Summer 2027|SF|Summer 2026#1"
+    },
+    "bc5f67b5d21d": {
+      "company": "Moog",
+      "role": "Intern, Software Engineering",
+      "location": "Mineral Wells, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Mineral-Wells-TX/Intern--Software-Engineering_R-26-19888-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 3261,
+      "chat_id": 7582459199,
+      "seq": 2096,
+      "identity": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Mineral-Wells-TX/Intern--Software-Engineering_R-26-19888-1|Moog|Intern, Software Engineering|Mineral Wells, TX|Summer 2027#1"
     }
   },
   "applied": {
@@ -32199,10 +32211,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2095,
+  "seq": 2096,
   "health": {
     "last_heartbeat": "2026-09-09T04:50:15Z",
-    "last_ok_run": "2026-09-09T05:20:17Z",
+    "last_ok_run": "2026-09-09T05:25:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
