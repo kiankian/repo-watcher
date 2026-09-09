@@ -32864,6 +32864,30 @@
       "chat_id": 7582459199,
       "seq": 2181,
       "identity": "https://caci.wd1.myworkdayjobs.com/External/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798|CACI|DevOps/Software Engineering Intern - Summer 2027|Denver, CO, US|Summer 2027#1"
+    },
+    "0f201f13f93d": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "CO-AURORA-S75",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Engineering-Intern--Summer-2027-_01873646",
+      "source": "Zapply Summer Repo",
+      "message_id": 3347,
+      "chat_id": 7582459199,
+      "seq": 2182,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Engineering-Intern--Summer-2027-_01873646|RTX|Software Engineering Intern (Summer 2027)|CO-AURORA-S75|Summer 2027#1"
+    },
+    "ab44acef25fd": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027) (Open)",
+      "location": "CO-AURORA-S77",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/Software-Engineering-Intern--Summer-2027---Open-_01873623",
+      "source": "Zapply Summer Repo",
+      "message_id": 3348,
+      "chat_id": 7582459199,
+      "seq": 2183,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/Software-Engineering-Intern--Summer-2027---Open-_01873623|RTX|Software Engineering Intern (Summer 2027) (Open)|CO-AURORA-S77|Summer 2027#1"
     }
   },
   "applied": {
@@ -33231,10 +33255,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2181,
+  "seq": 2183,
   "health": {
     "last_heartbeat": "2026-09-09T17:40:19Z",
-    "last_ok_run": "2026-09-09T18:15:16Z",
+    "last_ok_run": "2026-09-09T18:20:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
