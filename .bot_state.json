@@ -31796,6 +31796,30 @@
       "chat_id": 7582459199,
       "seq": 2092,
       "identity": "https://jobs.smartrecruiters.com/AbbVie/3743990014860456|AbbVie|2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)|South San Francisco, CA|Summer 2027#1"
+    },
+    "f0a2e231ab1d": {
+      "company": "\ud83d\udd25 Coinbase",
+      "role": "Software Engineer Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/embed/job_app?token=8168315&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3258,
+      "chat_id": 7582459199,
+      "seq": 2093,
+      "identity": "https://boards.greenhouse.io/embed/job_app?token=8168315&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Coinbase|Software Engineer Intern|SF|Summer 2026#1"
+    },
+    "9c7c1a1cc618": {
+      "company": "SECURE",
+      "role": "Software Developer Intern",
+      "location": "Calgary, AB, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-canada-secure.icims.com/jobs/1934/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3259,
+      "chat_id": 7582459199,
+      "seq": 2094,
+      "identity": "https://careers-canada-secure.icims.com/jobs/1934/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|SECURE|Software Developer Intern|Calgary, AB, Canada|Summer 2026#1"
     }
   },
   "applied": {
@@ -32163,10 +32187,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2092,
+  "seq": 2094,
   "health": {
     "last_heartbeat": "2026-09-09T01:30:19Z",
-    "last_ok_run": "2026-09-09T01:30:19Z",
+    "last_ok_run": "2026-09-09T01:35:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
