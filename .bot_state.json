@@ -31964,6 +31964,66 @@
       "chat_id": 7582459199,
       "seq": 2106,
       "identity": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32368?utm_source=Simplify&ref=Simplify|Navy Federal|Mobile Developer Intern - Summer Associate|4 locationsWinchester, VA Pensacola, FL Vienna, VA San Diego, CA|Summer 2026#1"
+    },
+    "e73600fe986d": {
+      "company": "Navy Federal",
+      "role": "AI Engineer Intern",
+      "location": "Vienna, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32261?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3272,
+      "chat_id": 7582459199,
+      "seq": 2107,
+      "identity": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32261?utm_source=Simplify&ref=Simplify|Navy Federal|AI Engineer Intern|Vienna, VA|Summer 2026#1"
+    },
+    "504ffd2cbad4": {
+      "company": "Leidos",
+      "role": "Software Developer Intern",
+      "location": "Annapolis Junction, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3273,
+      "chat_id": 7582459199,
+      "seq": 2108,
+      "identity": "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713?utm_source=Simplify&ref=Simplify|Leidos|Software Developer Intern|Annapolis Junction, MD|Summer 2026#1"
+    },
+    "1d570f6c84e3": {
+      "company": "GE Vernova",
+      "role": "Energy Optimization Software Engineer Intern - Summer 2027 \ud83c\udf93",
+      "location": "Bellevue, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue/GE-Vernova---Energy-Optimization-Software-Engineer-Intern---Summer-2027_R5050015-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3274,
+      "chat_id": 7582459199,
+      "seq": 2109,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue/GE-Vernova---Energy-Optimization-Software-Engineer-Intern---Summer-2027_R5050015-2?utm_source=Simplify&ref=Simplify|GE Vernova|Energy Optimization Software Engineer Intern - Summer 2027 \ud83c\udf93|Bellevue, WA|Summer 2026#1"
+    },
+    "5660231087fe": {
+      "company": "GE Vernova",
+      "role": "Energy Optimization Software Engineer Intern - Summer 2027 \ud83c\udf93",
+      "location": "Bellevue, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Bellevue/GE-Vernova---Energy-Optimization-Software-Engineer-Intern---Summer-2027_R5050015-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3275,
+      "chat_id": 7582459199,
+      "seq": 2110,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Bellevue/GE-Vernova---Energy-Optimization-Software-Engineer-Intern---Summer-2027_R5050015-1?utm_source=Simplify&ref=Simplify|GE Vernova|Energy Optimization Software Engineer Intern - Summer 2027 \ud83c\udf93|Bellevue, WA|Summer 2026#1"
+    },
+    "07df41df82a5": {
+      "company": "CACI",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Lisle, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/external/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3276,
+      "chat_id": 7582459199,
+      "seq": 2111,
+      "identity": "https://caci.wd1.myworkdayjobs.com/external/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern - Summer 2027|Lisle, IL|Summer 2026#1"
     }
   },
   "applied": {
@@ -32331,10 +32391,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2106,
+  "seq": 2111,
   "health": {
     "last_heartbeat": "2026-09-09T14:20:15Z",
-    "last_ok_run": "2026-09-09T15:00:21Z",
+    "last_ok_run": "2026-09-09T15:05:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
