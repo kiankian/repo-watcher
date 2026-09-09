@@ -32888,6 +32888,18 @@
       "chat_id": 7582459199,
       "seq": 2183,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/Software-Engineering-Intern--Summer-2027---Open-_01873623|RTX|Software Engineering Intern (Summer 2027) (Open)|CO-AURORA-S77|Summer 2027#1"
+    },
+    "347746f9a977": {
+      "company": "Entegris",
+      "role": "Quality Engineer Co-Op",
+      "location": "San Luis Obispo, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/San-Luis-Obispo-CA/Quality-Engineer-Co-Op_REQ-14434",
+      "source": "Zapply Summer Repo",
+      "message_id": 3349,
+      "chat_id": 7582459199,
+      "seq": 2184,
+      "identity": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/San-Luis-Obispo-CA/Quality-Engineer-Co-Op_REQ-14434|Entegris|Quality Engineer Co-Op|San Luis Obispo, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -33255,10 +33267,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2183,
+  "seq": 2184,
   "health": {
     "last_heartbeat": "2026-09-09T17:40:19Z",
-    "last_ok_run": "2026-09-09T18:40:14Z",
+    "last_ok_run": "2026-09-09T18:45:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
