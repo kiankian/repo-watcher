@@ -31928,6 +31928,42 @@
       "chat_id": 7582459199,
       "seq": 2103,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01872878|RTX|Software Engineering Intern (Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "6f90e77c8a89": {
+      "company": "Navy Federal",
+      "role": "Payments AI Engineer Intern \ud83c\udf93",
+      "location": "Pensacola, FL Vienna, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32400?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3269,
+      "chat_id": 7582459199,
+      "seq": 2104,
+      "identity": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32400?utm_source=Simplify&ref=Simplify|Navy Federal|Payments AI Engineer Intern \ud83c\udf93|Pensacola, FL Vienna, VA|Summer 2026#1"
+    },
+    "ed7959505de1": {
+      "company": "Navy Federal",
+      "role": "Security Workflow Engineer Intern",
+      "location": "Vienna, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32382?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3270,
+      "chat_id": 7582459199,
+      "seq": 2105,
+      "identity": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32382?utm_source=Simplify&ref=Simplify|Navy Federal|Security Workflow Engineer Intern|Vienna, VA|Summer 2026#1"
+    },
+    "5ba0e09c9669": {
+      "company": "Navy Federal",
+      "role": "Mobile Developer Intern - Summer Associate",
+      "location": "4 locationsWinchester, VA Pensacola, FL Vienna, VA San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32368?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3271,
+      "chat_id": 7582459199,
+      "seq": 2106,
+      "identity": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32368?utm_source=Simplify&ref=Simplify|Navy Federal|Mobile Developer Intern - Summer Associate|4 locationsWinchester, VA Pensacola, FL Vienna, VA San Diego, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -32295,10 +32331,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2103,
+  "seq": 2106,
   "health": {
     "last_heartbeat": "2026-09-09T14:20:15Z",
-    "last_ok_run": "2026-09-09T14:30:20Z",
+    "last_ok_run": "2026-09-09T14:35:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
