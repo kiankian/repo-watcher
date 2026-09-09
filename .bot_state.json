@@ -32828,6 +32828,18 @@
       "chat_id": 7582459199,
       "seq": 2178,
       "identity": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-Hardware-Automation-and-Test-Engineering-Intern---Summer-Fall-2027_R5051790-2|GE Vernova|GE Vernova Hardware Automation and Test Engineering Intern \u2013 Summer/Fall 2027|Rochester|Summer 2027#1"
+    },
+    "99fcdde73f36": {
+      "company": "Bosch Group",
+      "role": "Phone as a Key Software Engineering - Intern",
+      "location": "Plymouth, MI",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000145785190",
+      "source": "Zapply Summer Repo",
+      "message_id": 3344,
+      "chat_id": 7582459199,
+      "seq": 2179,
+      "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000145785190|Bosch Group|Phone as a Key Software Engineering - Intern|Plymouth, MI|Summer 2027#1"
     }
   },
   "applied": {
@@ -33195,10 +33207,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2178,
+  "seq": 2179,
   "health": {
     "last_heartbeat": "2026-09-09T16:40:17Z",
-    "last_ok_run": "2026-09-09T16:55:15Z",
+    "last_ok_run": "2026-09-09T17:00:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
