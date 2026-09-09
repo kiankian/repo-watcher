@@ -32924,6 +32924,66 @@
       "chat_id": 7582459199,
       "seq": 2186,
       "identity": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017573|Texas Instruments|Software Engineering Intern|Dallas, TX, United States|Summer 2027#1"
+    },
+    "43f2e6af517a": {
+      "company": "Northrop Grumman",
+      "role": "2027 Intern Software Engineer",
+      "location": "6 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Software-Engineer_R10250150",
+      "source": "Zapply Summer Repo",
+      "message_id": 3352,
+      "chat_id": 7582459199,
+      "seq": 2187,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Software-Engineer_R10250150|Northrop Grumman|2027 Intern Software Engineer|6 Locations|Summer 2027#1"
+    },
+    "5785acecb51d": {
+      "company": "Cigna",
+      "role": "The Cigna Group's Technology Development Program  - Software Engineering Track Summer Internship",
+      "location": "St Louis, MO",
+      "term": "Summer 2027",
+      "apply_url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/The-Cigna-Group-s-Technology-Development-Program----Software-Engineering-Track-Summer-Internship_26009527",
+      "source": "Zapply Summer Repo",
+      "message_id": 3353,
+      "chat_id": 7582459199,
+      "seq": 2188,
+      "identity": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/The-Cigna-Group-s-Technology-Development-Program----Software-Engineering-Track-Summer-Internship_26009527|Cigna|The Cigna Group's Technology Development Program  - Software Engineering Track Summer Internship|St Louis, MO|Summer 2027#1"
+    },
+    "05a0acaaa4eb": {
+      "company": "Leidos",
+      "role": "Software Developer Intern",
+      "location": "Annapolis Junction, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
+      "source": "Zapply Summer Repo",
+      "message_id": 3354,
+      "chat_id": 7582459199,
+      "seq": 2189,
+      "identity": "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713|Leidos|Software Developer Intern|Annapolis Junction, MD|Summer 2027#1"
+    },
+    "ce512205d27c": {
+      "company": "Blue Origin",
+      "role": "Electronics/Electrical Systems Engineer Co-Op (Fixed Term)",
+      "location": "Los Angeles, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Los-Angeles-CA/Electronics-Electrical-Systems-Engineer-Co-Op_R71548",
+      "source": "Zapply Summer Repo",
+      "message_id": 3355,
+      "chat_id": 7582459199,
+      "seq": 2190,
+      "identity": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Los-Angeles-CA/Electronics-Electrical-Systems-Engineer-Co-Op_R71548|Blue Origin|Electronics/Electrical Systems Engineer Co-Op (Fixed Term)|Los Angeles, CA|Summer 2027#1"
+    },
+    "1e7624527ac3": {
+      "company": "Saronic Technologies",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "Austin, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2",
+      "source": "Zapply Summer Repo",
+      "message_id": 3356,
+      "chat_id": 7582459199,
+      "seq": 2191,
+      "identity": "https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2|Saronic Technologies|Software Engineer Intern (Summer 2027)|Austin, TX|Summer 2027#1"
     }
   },
   "applied": {
@@ -33291,10 +33351,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2186,
+  "seq": 2191,
   "health": {
     "last_heartbeat": "2026-09-09T19:55:15Z",
-    "last_ok_run": "2026-09-09T20:25:15Z",
+    "last_ok_run": "2026-09-09T20:30:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
