@@ -32792,6 +32792,42 @@
       "chat_id": 7582459199,
       "seq": 2175,
       "identity": "https://internal-melaleuca.icims.com/jobs/9817/internship-2027---software-development/job|Melaleuca|Internship 2027 - Software Development|Idaho Falls, ID|Other#1"
+    },
+    "cdd1d3fcf260": {
+      "company": "TEL",
+      "role": "Software Engineer, AI Research Summer 2027 Intern",
+      "location": "San Jose",
+      "term": "Summer 2027",
+      "apply_url": "https://tel.wd3.myworkdayjobs.com/en-US/tel-careers/job/San-Jose/Software-Engineer--AI-Research-Summer-2027-Intern_R26-01531",
+      "source": "Zapply Summer Repo",
+      "message_id": 3341,
+      "chat_id": 7582459199,
+      "seq": 2176,
+      "identity": "https://tel.wd3.myworkdayjobs.com/en-US/tel-careers/job/San-Jose/Software-Engineer--AI-Research-Summer-2027-Intern_R26-01531|TEL|Software Engineer, AI Research Summer 2027 Intern|San Jose|Summer 2027#1"
+    },
+    "19e3ae938eea": {
+      "company": "GE Vernova",
+      "role": "GE Vernova Hardware Automation and Test Engineering Intern \u2013 Spring/Summer 2027",
+      "location": "Rochester",
+      "term": "Summer 2027",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-Hardware-Automation-and-Test-Engineering-Intern---Spring-Summer-2027_R5051788-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 3342,
+      "chat_id": 7582459199,
+      "seq": 2177,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-Hardware-Automation-and-Test-Engineering-Intern---Spring-Summer-2027_R5051788-2|GE Vernova|GE Vernova Hardware Automation and Test Engineering Intern \u2013 Spring/Summer 2027|Rochester|Summer 2027#1"
+    },
+    "f24325936d69": {
+      "company": "GE Vernova",
+      "role": "GE Vernova Hardware Automation and Test Engineering Intern \u2013 Summer/Fall 2027",
+      "location": "Rochester",
+      "term": "Summer 2027",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-Hardware-Automation-and-Test-Engineering-Intern---Summer-Fall-2027_R5051790-2",
+      "source": "Zapply Summer Repo",
+      "message_id": 3343,
+      "chat_id": 7582459199,
+      "seq": 2178,
+      "identity": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-Hardware-Automation-and-Test-Engineering-Intern---Summer-Fall-2027_R5051790-2|GE Vernova|GE Vernova Hardware Automation and Test Engineering Intern \u2013 Summer/Fall 2027|Rochester|Summer 2027#1"
     }
   },
   "applied": {
@@ -33159,10 +33195,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2175,
+  "seq": 2178,
   "health": {
     "last_heartbeat": "2026-09-09T16:40:17Z",
-    "last_ok_run": "2026-09-09T16:40:17Z",
+    "last_ok_run": "2026-09-09T16:45:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
