@@ -33128,6 +33128,18 @@
       "chat_id": 7582459199,
       "seq": 2203,
       "identity": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/The-Cigna-Group-s-Technology-Development-Program----Software-Engineering-Track-Summer-Internship_26009527?utm_source=Simplify&ref=Simplify|Cigna Group|Software Engineering Intern - Technology Development Program - Software Engineering Track|5 locationsBloomington, MN Austin, TX Morris Plains, NJ St. Louis, MO Bloomfield, CT|Summer 2026#1"
+    },
+    "ec2423fb6167": {
+      "company": "Dell Technologies",
+      "role": "CSG Software Engineering Undergraduate Intern",
+      "location": "TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/298217",
+      "source": "Zapply Summer Repo",
+      "message_id": 3369,
+      "chat_id": 7582459199,
+      "seq": 2204,
+      "identity": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/298217|Dell Technologies|CSG Software Engineering Undergraduate Intern|TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -33495,10 +33507,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2203,
+  "seq": 2204,
   "health": {
     "last_heartbeat": "2026-09-09T22:10:16Z",
-    "last_ok_run": "2026-09-09T23:00:19Z",
+    "last_ok_run": "2026-09-09T23:05:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
