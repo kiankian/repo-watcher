@@ -32036,6 +32036,18 @@
       "chat_id": 7582459199,
       "seq": 2112,
       "identity": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Product-Quality-Engineer-Co-op----Bachelor-s--Gloucester--MA-_R2628291|Applied Materials|2027 Spring Product Quality Engineer Co-op  - Bachelor's (Gloucester, MA)|Gloucester,MA|Summer 2027#1"
+    },
+    "7dc8d4c51bba": {
+      "company": "RTX",
+      "role": "Software Engineering Co-op (Summer/Fall 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op--Summer-Fall-2027-_01872236",
+      "source": "Zapply Summer Repo",
+      "message_id": 3278,
+      "chat_id": 7582459199,
+      "seq": 2113,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op--Summer-Fall-2027-_01872236|RTX|Software Engineering Co-op (Summer/Fall 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
     }
   },
   "applied": {
@@ -32403,10 +32415,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2112,
+  "seq": 2113,
   "health": {
     "last_heartbeat": "2026-09-09T15:20:18Z",
-    "last_ok_run": "2026-09-09T15:25:16Z",
+    "last_ok_run": "2026-09-09T15:30:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
