@@ -33596,6 +33596,54 @@
       "chat_id": 7582459199,
       "seq": 2242,
       "identity": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301906|Tradeweb|Summer 2027 IFI Application Software Engineering Internship|Jersey City, NJ, United States|Summer 2027#1"
+    },
+    "f9ae86456fbe": {
+      "company": "Allegion",
+      "role": "Summer Intern - Systems Engineering",
+      "location": "Indianapolis, IN - Hague Rd",
+      "term": "Summer 2027",
+      "apply_url": "https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Systems-Engineering_JR37479-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 3408,
+      "chat_id": 7582459199,
+      "seq": 2243,
+      "identity": "https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Systems-Engineering_JR37479-1|Allegion|Summer Intern - Systems Engineering|Indianapolis, IN - Hague Rd|Summer 2027#1"
+    },
+    "c77f30547fa4": {
+      "company": "ICD",
+      "role": "Summer 2027 IFI Application Software Engineering Internship",
+      "location": "Jersey City, NJ, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301906",
+      "source": "Zapply Summer Repo",
+      "message_id": 3409,
+      "chat_id": 7582459199,
+      "seq": 2244,
+      "identity": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301906|ICD|Summer 2027 IFI Application Software Engineering Internship|Jersey City, NJ, United States|Summer 2027#1"
+    },
+    "e0c557506840": {
+      "company": "ICD",
+      "role": "Summer 2027 Java Software Engineering Internship",
+      "location": "Jersey City, NJ, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301907",
+      "source": "Zapply Summer Repo",
+      "message_id": 3410,
+      "chat_id": 7582459199,
+      "seq": 2245,
+      "identity": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301907|ICD|Summer 2027 Java Software Engineering Internship|Jersey City, NJ, United States|Summer 2027#1"
+    },
+    "7ba01e37ac0a": {
+      "company": "Tradeweb",
+      "role": "Summer 2027 Java Software Engineering Internship",
+      "location": "Jersey City, NJ, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301907",
+      "source": "Zapply Summer Repo",
+      "message_id": 3411,
+      "chat_id": 7582459199,
+      "seq": 2246,
+      "identity": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301907|Tradeweb|Summer 2027 Java Software Engineering Internship|Jersey City, NJ, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -33963,10 +34011,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2242,
+  "seq": 2246,
   "health": {
     "last_heartbeat": "2026-09-10T00:10:16Z",
-    "last_ok_run": "2026-09-10T01:05:13Z",
+    "last_ok_run": "2026-09-10T01:10:55Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
