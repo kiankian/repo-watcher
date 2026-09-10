@@ -34724,6 +34724,54 @@
       "chat_id": 7582459199,
       "seq": 2336,
       "identity": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Quality-Assurance-Engineering-Intern---Summer-2027_R202682363|Cox|Quality Assurance Engineering Intern - Summer 2027|Atlanta GA|Summer 2027#1"
+    },
+    "1dd679768f0e": {
+      "company": "Gulfstream",
+      "role": "Flight Sciences / Mass Properties College Intern - IEF",
+      "location": "Savannah, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-Flight-Sciences-Mass-Properties-College-Intern-GA-31401/1428564800/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3502,
+      "chat_id": 7582459199,
+      "seq": 2337,
+      "identity": "https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-Flight-Sciences-Mass-Properties-College-Intern-GA-31401/1428564800/?ats=successfactors&utm_source=Simplify&ref=Simplify|Gulfstream|Flight Sciences / Mass Properties College Intern - IEF|Savannah, GA|Summer 2026#1"
+    },
+    "5e2b94383281": {
+      "company": "Wellington Management",
+      "role": "Technology Undergraduate Intern",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://wellington.wd5.myworkdayjobs.com/Campus/job/Boston-MA-United-States/Technology-Undergraduate-Summer-Internship_R94778?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3503,
+      "chat_id": 7582459199,
+      "seq": 2338,
+      "identity": "https://wellington.wd5.myworkdayjobs.com/Campus/job/Boston-MA-United-States/Technology-Undergraduate-Summer-Internship_R94778?utm_source=Simplify&ref=Simplify|Wellington Management|Technology Undergraduate Intern|Boston, MA|Summer 2026#1"
+    },
+    "130da66b6e2a": {
+      "company": "Target",
+      "role": "Software Engineer Intern",
+      "location": "Brooklyn Park, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3504,
+      "chat_id": 7582459199,
+      "seq": 2339,
+      "identity": "https://target.wd5.myworkdayjobs.com/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082?utm_source=Simplify&ref=Simplify|Target|Software Engineer Intern|Brooklyn Park, MN|Summer 2026#1"
+    },
+    "1966c1bccc23": {
+      "company": "Cox",
+      "role": "AI/Automation Intern",
+      "location": "Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3505,
+      "chat_id": 7582459199,
+      "seq": 2340,
+      "identity": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342?utm_source=Simplify&ref=Simplify|Cox|AI/Automation Intern|Atlanta, GA|Summer 2026#1"
     }
   },
   "applied": {
@@ -35091,10 +35139,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2336,
+  "seq": 2340,
   "health": {
     "last_heartbeat": "2026-09-10T21:50:13Z",
-    "last_ok_run": "2026-09-10T22:30:16Z",
+    "last_ok_run": "2026-09-10T22:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
