@@ -3361,7 +3361,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "21dbb439a22bf5e9ba97102fd6f8e2942bcdb0fd",
+    "last_sha": "c7f9831b8adf0b8c8cd3aa30337e71ce0b3aa8f6",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -3471,7 +3471,8 @@
       "https://jobs.ashbyhq.com/rivianvw.tech/c5c0f2e3-ae78-4ca6-94f8-b6940d3cdb69|Rivian|Software Engineering Intern - Applications - Infotainment & Mobile - January - August 2027|Irvine, CA +1|FAANG+#1",
       "https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2|Rivian|Software Engineering Intern - Connected Systems - January - August 2027|Irvine, CA +1|FAANG+#1",
       "https://jobs.ashbyhq.com/rivianvw.tech/f5aa59d9-4fdc-42d5-931d-efd9e6d96f2f|Rivian|Software Engineering Intern - Vehicle Controls - January - August 2027|Irvine, CA +1|FAANG+#1",
-      "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118|Datadog|Software Engineering Intern - Summer|Boston, MA +1|FAANG+#1"
+      "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118|Datadog|Software Engineering Intern - Summer|Boston, MA +1|FAANG+#1",
+      "https://www.amazon.jobs/jobs/10529525/apply|Amazon|Software Development Engineer Intern/Co-Op - ROBOTICS - 2027|North Reading, MA|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -3501,7 +3502,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "21dbb439a22bf5e9ba97102fd6f8e2942bcdb0fd",
+    "last_sha": "c7f9831b8adf0b8c8cd3aa30337e71ce0b3aa8f6",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -3541,7 +3542,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "21dbb439a22bf5e9ba97102fd6f8e2942bcdb0fd",
+    "last_sha": "c7f9831b8adf0b8c8cd3aa30337e71ce0b3aa8f6",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -4049,7 +4050,32 @@
       "https://jobs.ashbyhq.com/apex-technology-inc/692bb497-59ba-44df-bacf-fffd2f7c6344|Apex Technology|Software Engineering Internship - Test & Automation - Summer 2027|Los Angeles, CA|Other#1",
       "https://jobs.lever.co/neighbor/7d66629f-3f4b-41ee-a324-fe0154e13c46|Neighbor|Software Engineer Intern 2027|Lehi, UT|Other#1",
       "https://equifax.wd5.myworkdayjobs.com/en-US/ur_external/job/USA---Missouri---St-Louis---Lackland/Site-Reliability-Engineer-Intern_J00178674|Equifax|Site Reliability Engineer Intern|St. Louis, MO|Other#1",
-      "https://internal-melaleuca.icims.com/jobs/9817/internship-2027---software-development/job|Melaleuca|Internship 2027 - Software Development|Idaho Falls, ID|Other#1"
+      "https://internal-melaleuca.icims.com/jobs/9817/internship-2027---software-development/job|Melaleuca|Internship 2027 - Software Development|Idaho Falls, ID|Other#1",
+      "https://jobs.lever.co/crestoperations/e012721c-e731-483d-a4e3-1a240c48bfbd|Crest Industries|Developer Intern|Pineville, LA|Other#1",
+      "https://app.careerpuck.com/job-board/domino-data-lab/job/7992560?gh_jid=7992560|Domino Data Lab|Software Engineer - Intern - Campus Recruiting 2027|Remote - New York City, NY|Other#1",
+      "https://job-boards.greenhouse.io/dvtrading/jobs/4730886005|DV Trading|DevOps Engineer Intern - Summer 2027|Chicago, IL|Other#1",
+      "https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004|Epic Games|Backend Services Programmer Intern|Cary, NC|Other#1",
+      "https://jobs.lever.co/immuta/b9b21075-74a4-4b64-8f1b-f0be1fb0b24d|Immuta|Full-Stack Engineering Internship - Summer 2027|Columbus, OH|Other#1",
+      "https://jobs.lever.co/immuta/3c4cb235-6138-4a50-add2-666a5216427e|Immuta|Platform & Site Reliability Engineering Internship - Summer 2027|Columbus, OH|Other#1",
+      "https://job-boards.greenhouse.io/pacificfusion/jobs/4398373009|Pacific Fusion|Summer 2027 Internship- Software Engineering|San Leandro, CA +1|Other#1",
+      "https://job-boards.greenhouse.io/rocketlab/jobs/7989724003|Rocket Lab|Flight Software Intern Spring 2027|Littleton, CO|Other#1",
+      "https://job-boards.greenhouse.io/rocketlab/jobs/7989722003|Rocket Lab|Flight Software Intern Summer 2027|Littleton, CO|Other#1",
+      "https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2|Saronic Technologies|Software Engineer Intern - Summer 2027|Austin, TX|Other#1",
+      "https://careersus-shure.icims.com/jobs/4956/application-software-engineering-intern/job|Shure|Application Software Engineering Intern|Niles, IL|Other#1",
+      "https://allegion.wd5.myworkdayjobs.com/en-US/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Firmware-Engineer_JR37333-1|Allegion|Summer Intern - Firmware Engineer|Indianapolis, IN +1|Other#1",
+      "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-TN-Tullahoma/Software-Programmer-Intern_R0169775|Amentum|Software Programmer Intern|Tullahoma, TN|Other#1",
+      "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-MI-Detroit/Software-Programmer-Intern_R0169773|Amentum|Software Programmer Intern|Detroit, MI|Other#1",
+      "https://aoins.wd5.myworkdayjobs.com/en-US/autoowners/job/Lansing-MI/IT-Document-Automation-Developer-Internship---Summer-2027_R_14471|Auto-Owners Insurance|IT Document Automation Developer Internship - Summer 2027|Lansing, MI|Other#1",
+      "https://aoins.wd5.myworkdayjobs.com/en-US/autoowners/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474|Auto-Owners Insurance|Intelligent Automation Developer Internship - Summer 2027|Lansing, MI|Other#1",
+      "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798|CACI|DevOps/Software Engineering Intern - Summer 2027|Denver, CO|Other#1",
+      "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742|CACI|Software Engineering Intern - Summer 2027|Lisle, IL|Other#1",
+      "https://careers.formlabs.com/job/8188578/apply/?gh_jid=8188578|Formlabs|Embedded Software Intern - Winter/Spring 2027|Somerville, MA|Other#1",
+      "https://careers-gdms.icims.com/jobs/74848/payload-control-system---software-systems-engineering-intern-%28summer-2027%29/job|General Dynamics Mission Systems|Payload Control System - Software/Systems Engineering Intern - Summer 2027|Manassas, VA +1|Other#1",
+      "https://greatamerica.wd12.myworkdayjobs.com/en-US/greatamericacareers/job/Cedar-Rapids-IA/Software-Engineer-Intern_JR1221|GreatAmerica Financial Services|Software Engineer Intern|Cedar Rapids, IA|Other#1",
+      "https://hypertherm.wd503.myworkdayjobs.com/en-US/hypertherm-careers/job/Lockport-NY/Software-Engineering---CAM---Spring-Summer-Internship-or-Co-Op_R4038|Hypertherm Associates|Software Engineering - CAM - Spring/Summer Internship or Co-Op|Lockport, NY +5|Other#1",
+      "https://hypertherm.wd503.myworkdayjobs.com/en-US/hypertherm-careers/job/West-Lebanon-NH/Summer-Intern---Software-Engineering_R4005|Hypertherm Associates|Summer Intern - Software Engineering|West Lebanon, NH|Other#1",
+      "https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Oregon-Hillsboro/Software-Research-Engineering----PhD-Intern-_JR0287019|Intel|Software Research Engineering - PhD Intern|Hillsboro, OR|Other#1",
+      "https://spgi.wd5.myworkdayjobs.com/en-US/kensho_careers/job/Cambridge-MA/Software-Engineer---Summer-Intern-2027_331717-1|Kensho|Software Engineer - Summer Intern 2027|Cambridge, MA +1|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -4193,7 +4219,217 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 384,
-    "outbox": []
+    "last_row_count": 410,
+    "outbox": [
+      [
+        [
+          "Lexington Medical",
+          "Electrical/Embedded Software Engineer Intern",
+          "Bedford, MA",
+          "Other",
+          "https://job-boards.greenhouse.io/lexingtonmedical/jobs/5400236008"
+        ],
+        "https://job-boards.greenhouse.io/lexingtonmedical/jobs/5400236008|Lexington Medical|Electrical/Embedded Software Engineer Intern|Bedford, MA|Other#1",
+        1
+      ],
+      [
+        [
+          "Northrop Grumman",
+          "2027 Intern Software Engineer",
+          "San Diego, CA +5",
+          "Other",
+          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Software-Engineer_R10250150"
+        ],
+        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Software-Engineer_R10250150|Northrop Grumman|2027 Intern Software Engineer|San Diego, CA +5|Other#1",
+        1
+      ],
+      [
+        [
+          "Nova-Tech Engineering",
+          "Software Development Co-Op - Located Onsite in Willmar - MN",
+          "Willmar, MN",
+          "Other",
+          "http://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN"
+        ],
+        "http://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN|Nova-Tech Engineering|Software Development Co-Op - Located Onsite in Willmar - MN|Willmar, MN|Other#1",
+        1
+      ],
+      [
+        [
+          "OneMain Financial",
+          "Software Developer Intern - Document Shared Services - Part-Time",
+          "Evansville, IN",
+          "Other",
+          "https://myhrhome.wd1.myworkdayjobs.com/en-US/onemaincareers/job/Evansville-IN/Software-Developer-Intern---Document-Shared-Services--Part-Time-_R2608-52284"
+        ],
+        "https://myhrhome.wd1.myworkdayjobs.com/en-US/onemaincareers/job/Evansville-IN/Software-Developer-Intern---Document-Shared-Services--Part-Time-_R2608-52284|OneMain Financial|Software Developer Intern - Document Shared Services - Part-Time|Evansville, IN|Other#1",
+        1
+      ],
+      [
+        [
+          "Raytheon",
+          "Software Engineering Intern - Summer 2027",
+          "Huntsville, AL",
+          "Other",
+          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/Software-Engineering-Intern--Summer-2027-_01872655"
+        ],
+        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/Software-Engineering-Intern--Summer-2027-_01872655|Raytheon|Software Engineering Intern - Summer 2027|Huntsville, AL|Other#1",
+        1
+      ],
+      [
+        [
+          "Raytheon",
+          "Software Engineering Co-op - Summer/Fall 2027",
+          "Cedar Rapids, IA",
+          "Other",
+          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op--Summer-Fall-2027-_01872236"
+        ],
+        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op--Summer-Fall-2027-_01872236|Raytheon|Software Engineering Co-op - Summer/Fall 2027|Cedar Rapids, IA|Other#1",
+        1
+      ],
+      [
+        [
+          "Raytheon",
+          "Software Engineering Co-op - Spring/Summer 2027",
+          "Cedar Rapids, IA",
+          "Other",
+          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op---Spring-Summer-2027-_01872230"
+        ],
+        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op---Spring-Summer-2027-_01872230|Raytheon|Software Engineering Co-op - Spring/Summer 2027|Cedar Rapids, IA|Other#1",
+        1
+      ],
+      [
+        [
+          "Raytheon",
+          "Software Engineering Intern - Summer 2027",
+          "Aurora, CO",
+          "Other",
+          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Engineering-Intern--Summer-2027-_01873646"
+        ],
+        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Engineering-Intern--Summer-2027-_01873646|Raytheon|Software Engineering Intern - Summer 2027|Aurora, CO|Other#1",
+        1
+      ],
+      [
+        [
+          "Raytheon",
+          "Software Engineering Intern - Summer 2027 - Open",
+          "Aurora, CO",
+          "Other",
+          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/Software-Engineering-Intern--Summer-2027---Open-_01873623"
+        ],
+        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/Software-Engineering-Intern--Summer-2027---Open-_01873623|Raytheon|Software Engineering Intern - Summer 2027 - Open|Aurora, CO|Other#1",
+        1
+      ],
+      [
+        [
+          "Shield AI",
+          "Summer 2027 - Software Engineer Intern",
+          "San Diego, CA +3",
+          "Other",
+          "https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010"
+        ],
+        "https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010|Shield AI|Summer 2027 - Software Engineer Intern|San Diego, CA +3|Other#1",
+        1
+      ],
+      [
+        [
+          "Siemens Healthineers",
+          "Software Engineering Co-op - Hoffman Estates - IL",
+          "Hermiston, OR",
+          "Other",
+          "https://onehealthineers.wd3.myworkdayjobs.com/en-US/shsjb/job/HES/Software-Engineering-Co-op---Hoffman-Estates--IL_R-30649"
+        ],
+        "https://onehealthineers.wd3.myworkdayjobs.com/en-US/shsjb/job/HES/Software-Engineering-Co-op---Hoffman-Estates--IL_R-30649|Siemens Healthineers|Software Engineering Co-op - Hoffman Estates - IL|Hermiston, OR|Other#1",
+        1
+      ],
+      [
+        [
+          "S&P Global",
+          "Software Engineer - Summer Intern 2027",
+          "Cambridge, MA +1",
+          "Other",
+          "https://spgi.wd5.myworkdayjobs.com/en-US/spgi_careers/job/Cambridge-MA/Software-Engineer---Summer-Intern-2027_331717-2"
+        ],
+        "https://spgi.wd5.myworkdayjobs.com/en-US/spgi_careers/job/Cambridge-MA/Software-Engineer---Summer-Intern-2027_331717-2|S&P Global|Software Engineer - Summer Intern 2027|Cambridge, MA +1|Other#1",
+        1
+      ],
+      [
+        [
+          "The Cigna Group",
+          "The Cigna Group's Technology Development Program - Software Engineering Track Summer Internship",
+          "St. Louis, MO +4",
+          "Other",
+          "https://cigna.wd5.myworkdayjobs.com/en-US/cignacareers/job/St-Louis-MO/The-Cigna-Group-s-Technology-Development-Program----Software-Engineering-Track-Summer-Internship_26009527"
+        ],
+        "https://cigna.wd5.myworkdayjobs.com/en-US/cignacareers/job/St-Louis-MO/The-Cigna-Group-s-Technology-Development-Program----Software-Engineering-Track-Summer-Internship_26009527|The Cigna Group|The Cigna Group's Technology Development Program - Software Engineering Track Summer Internship|St. Louis, MO +4|Other#1",
+        1
+      ],
+      [
+        [
+          "Tokyo Electron",
+          "Software Engineer - AI Research Summer 2027 Intern",
+          "San Jose, CA",
+          "Other",
+          "https://tel.wd3.myworkdayjobs.com/en-US/tel-careers/job/San-Jose/Software-Engineer--AI-Research-Summer-2027-Intern_R26-01531"
+        ],
+        "https://tel.wd3.myworkdayjobs.com/en-US/tel-careers/job/San-Jose/Software-Engineer--AI-Research-Summer-2027-Intern_R26-01531|Tokyo Electron|Software Engineer - AI Research Summer 2027 Intern|San Jose, CA|Other#1",
+        1
+      ],
+      [
+        [
+          "TTM Technologies",
+          "Software Engineering Internship",
+          "Farmingdale, NY",
+          "Other",
+          "https://ttmtech.wd5.myworkdayjobs.com/en-US/jobs/job/Farmingdale-NY/Software-Engineering-Internship_R17948"
+        ],
+        "https://ttmtech.wd5.myworkdayjobs.com/en-US/jobs/job/Farmingdale-NY/Software-Engineering-Internship_R17948|TTM Technologies|Software Engineering Internship|Farmingdale, NY|Other#1",
+        1
+      ],
+      [
+        [
+          "Otis",
+          "Embedded Software Engineering Intern",
+          "Farmington, CT",
+          "Other",
+          "https://otis.wd504.myworkdayjobs.com/en-US/rec_ext_gateway/job/OT494-5FS---Farmington-CT-5-Farm-Springs-Farmington-CT-06032-USA/Embedded-Software-Engineering-Intern_20166770"
+        ],
+        "https://otis.wd504.myworkdayjobs.com/en-US/rec_ext_gateway/job/OT494-5FS---Farmington-CT-5-Farm-Springs-Farmington-CT-06032-USA/Embedded-Software-Engineering-Intern_20166770|Otis|Embedded Software Engineering Intern|Farmington, CT|Other#1",
+        1
+      ],
+      [
+        [
+          "Shure",
+          "Cloud Software Engineering Intern",
+          "Niles, IL",
+          "Other",
+          "https://careersus-shure.icims.com/jobs/4976/cloud-software-engineering-intern/job"
+        ],
+        "https://careersus-shure.icims.com/jobs/4976/cloud-software-engineering-intern/job|Shure|Cloud Software Engineering Intern|Niles, IL|Other#1",
+        1
+      ],
+      [
+        [
+          "Sierra",
+          "Software Engineer Intern - Agent - Summer 2027",
+          "San Francisco, CA +1",
+          "Other",
+          "https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e"
+        ],
+        "https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e|Sierra|Software Engineer Intern - Agent - Summer 2027|San Francisco, CA +1|Other#1",
+        1
+      ],
+      [
+        [
+          "Sierra",
+          "Software Engineer Intern - Agent - Winter 2027",
+          "San Francisco, CA",
+          "Other",
+          "https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4"
+        ],
+        "https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4|Sierra|Software Engineer Intern - Agent - Winter 2027|San Francisco, CA|Other#1",
+        1
+      ]
+    ]
   }
 }
