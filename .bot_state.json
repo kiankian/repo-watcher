@@ -33896,6 +33896,18 @@
       "chat_id": 7582459199,
       "seq": 2267,
       "identity": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Systems-Engineer-Co-Op_REQ-14437|Entegris|Manufacturing Systems Engineer Co-Op|Rockrimmon, Colorado Springs, CO|Summer 2027#1"
+    },
+    "d6c95e460dcb": {
+      "company": "Planview",
+      "role": "Software Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.planview.com/jobs/5128?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3433,
+      "chat_id": 7582459199,
+      "seq": 2268,
+      "identity": "https://careers.planview.com/jobs/5128?icims=1&utm_source=Simplify&ref=Simplify|Planview|Software Engineer Intern|Austin, TX|Summer 2026#1"
     }
   },
   "applied": {
@@ -34263,10 +34275,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2267,
+  "seq": 2268,
   "health": {
     "last_heartbeat": "2026-09-10T14:20:17Z",
-    "last_ok_run": "2026-09-10T15:00:24Z",
+    "last_ok_run": "2026-09-10T15:05:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
