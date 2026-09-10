@@ -33848,6 +33848,18 @@
       "chat_id": 7582459199,
       "seq": 2263,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/Software-Engineering-Intern--Summer-2027-_01872655?utm_source=Simplify&ref=Simplify|RTX|Software Engineering Intern|Huntsville, AL|Summer 2026#1"
+    },
+    "5d9851cdf535": {
+      "company": "CACI",
+      "role": "Software Engineering Intern - Summer 2027",
+      "location": "Denver, CO, US",
+      "term": "Summer 2027",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/External/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 3429,
+      "chat_id": 7582459199,
+      "seq": 2264,
+      "identity": "https://caci.wd1.myworkdayjobs.com/External/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1|CACI|Software Engineering Intern - Summer 2027|Denver, CO, US|Summer 2027#1"
     }
   },
   "applied": {
@@ -34215,10 +34227,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2263,
+  "seq": 2264,
   "health": {
     "last_heartbeat": "2026-09-10T13:10:17Z",
-    "last_ok_run": "2026-09-10T13:50:15Z",
+    "last_ok_run": "2026-09-10T13:55:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
