@@ -33860,6 +33860,42 @@
       "chat_id": 7582459199,
       "seq": 2264,
       "identity": "https://caci.wd1.myworkdayjobs.com/External/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1|CACI|Software Engineering Intern - Summer 2027|Denver, CO, US|Summer 2027#1"
+    },
+    "a1f8f6dc19d8": {
+      "company": "CACI",
+      "role": "Software Engineer Intern",
+      "location": "Denver, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/external/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3430,
+      "chat_id": 7582459199,
+      "seq": 2265,
+      "identity": "https://caci.wd1.myworkdayjobs.com/external/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern|Denver, CO|Summer 2026#1"
+    },
+    "c37cd635c2a5": {
+      "company": "CACI",
+      "role": "Configuration Control/Data Management Co-op - Engineering Department",
+      "location": "Danbury, CT",
+      "term": "Summer 2026",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Configuration-Control-Data-Management-Co-op---Spring---Summer-2027_331440?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3431,
+      "chat_id": 7582459199,
+      "seq": 2266,
+      "identity": "https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Configuration-Control-Data-Management-Co-op---Spring---Summer-2027_331440?utm_source=Simplify&ref=Simplify|CACI|Configuration Control/Data Management Co-op - Engineering Department|Danbury, CT|Summer 2026#1"
+    },
+    "c1a9133d62d7": {
+      "company": "Entegris",
+      "role": "Manufacturing Systems Engineer Co-Op",
+      "location": "Rockrimmon, Colorado Springs, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Systems-Engineer-Co-Op_REQ-14437",
+      "source": "Zapply Summer Repo",
+      "message_id": 3432,
+      "chat_id": 7582459199,
+      "seq": 2267,
+      "identity": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Systems-Engineer-Co-Op_REQ-14437|Entegris|Manufacturing Systems Engineer Co-Op|Rockrimmon, Colorado Springs, CO|Summer 2027#1"
     }
   },
   "applied": {
@@ -34227,10 +34263,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2264,
+  "seq": 2267,
   "health": {
     "last_heartbeat": "2026-09-10T14:20:17Z",
-    "last_ok_run": "2026-09-10T14:30:27Z",
+    "last_ok_run": "2026-09-10T14:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
