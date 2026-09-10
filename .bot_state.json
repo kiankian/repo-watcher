@@ -33812,6 +33812,18 @@
       "chat_id": 7582459199,
       "seq": 2260,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/Software-Engineering-Intern--Summer-2027-_01872655|RTX|Software Engineering Intern (Summer 2027)|AL-HUNTSVILLE|Summer 2027#1"
+    },
+    "14b612b6f669": {
+      "company": "Shield AI",
+      "role": "Summer 2027 - Software Engineer Intern",
+      "location": "San Diego, California",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010",
+      "source": "Zapply Summer Repo",
+      "message_id": 3426,
+      "chat_id": 7582459199,
+      "seq": 2261,
+      "identity": "https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010|Shield AI|Summer 2027 - Software Engineer Intern|San Diego, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -34179,10 +34191,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2260,
+  "seq": 2261,
   "health": {
     "last_heartbeat": "2026-09-10T02:20:14Z",
-    "last_ok_run": "2026-09-10T02:35:13Z",
+    "last_ok_run": "2026-09-10T02:40:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
