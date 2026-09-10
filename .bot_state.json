@@ -33908,6 +33908,42 @@
       "chat_id": 7582459199,
       "seq": 2268,
       "identity": "https://careers.planview.com/jobs/5128?icims=1&utm_source=Simplify&ref=Simplify|Planview|Software Engineer Intern|Austin, TX|Summer 2026#1"
+    },
+    "c3140dda0903": {
+      "company": "Northrop Grumman",
+      "role": "2027 Spring Co-op Cyber Software Engineer\u00a0Intern - Cincinnati OH",
+      "location": "United States-Ohio-Cincinnati",
+      "term": "Summer 2027",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Spring-Co-op-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10250275-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 3434,
+      "chat_id": 7582459199,
+      "seq": 2269,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Spring-Co-op-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10250275-1|Northrop Grumman|2027 Spring Co-op Cyber Software Engineer\u00a0Intern - Cincinnati OH|United States-Ohio-Cincinnati|Summer 2027#1"
+    },
+    "c9fd18f3fa5c": {
+      "company": "Cox",
+      "role": "Cybersecurity Intern - Summer 2027",
+      "location": "Atlanta GA",
+      "term": "Summer 2027",
+      "apply_url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
+      "source": "Zapply Summer Repo",
+      "message_id": 3435,
+      "chat_id": 7582459199,
+      "seq": 2270,
+      "identity": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288|Cox|Cybersecurity Intern - Summer 2027|Atlanta GA|Summer 2027#1"
+    },
+    "e39b515f4af7": {
+      "company": "Nelnet",
+      "role": "Intern - Software Engineer - New Ventures - Starting Summer 2027",
+      "location": "Lincoln, NE",
+      "term": "Summer 2027",
+      "apply_url": "https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---Software-Engineer---New-Ventures---Starting-Summer-2026_R23098",
+      "source": "Zapply Summer Repo",
+      "message_id": 3436,
+      "chat_id": 7582459199,
+      "seq": 2271,
+      "identity": "https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---Software-Engineer---New-Ventures---Starting-Summer-2026_R23098|Nelnet|Intern - Software Engineer - New Ventures - Starting Summer 2027|Lincoln, NE|Summer 2027#1"
     }
   },
   "applied": {
@@ -34275,10 +34311,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2268,
+  "seq": 2271,
   "health": {
     "last_heartbeat": "2026-09-10T15:25:13Z",
-    "last_ok_run": "2026-09-10T15:25:13Z",
+    "last_ok_run": "2026-09-10T15:30:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
