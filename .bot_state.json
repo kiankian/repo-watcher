@@ -34556,6 +34556,18 @@
       "chat_id": 7582459199,
       "seq": 2322,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op--Spring-Summer-2027-_01871551|RTX|Software Engineering Co-op (Spring/Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "978e14b52fc4": {
+      "company": "RTX",
+      "role": "Avionics Systems Engineering Intern - Hybrid",
+      "location": "WA-BOTHELL",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-WA-BOTHELL-3350--3350-Monte-Villa-Pkwy--CREEKVIEW-BLDG-Ste-210/Avionics-Systems-Engineering-Intern---Hybrid_01872126",
+      "source": "Zapply Summer Repo",
+      "message_id": 3488,
+      "chat_id": 7582459199,
+      "seq": 2323,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-WA-BOTHELL-3350--3350-Monte-Villa-Pkwy--CREEKVIEW-BLDG-Ste-210/Avionics-Systems-Engineering-Intern---Hybrid_01872126|RTX|Avionics Systems Engineering Intern - Hybrid|WA-BOTHELL|Summer 2027#1"
     }
   },
   "applied": {
@@ -34923,10 +34935,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2322,
+  "seq": 2323,
   "health": {
     "last_heartbeat": "2026-09-10T17:30:18Z",
-    "last_ok_run": "2026-09-10T17:55:12Z",
+    "last_ok_run": "2026-09-10T18:00:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
