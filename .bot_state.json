@@ -34652,6 +34652,78 @@
       "chat_id": 7582459199,
       "seq": 2330,
       "identity": "https://job-boards.greenhouse.io/rocketlab/jobs/7987159003|Rocket Lab|Test Engineering Intern - Avionics Summer 2027|Long Beach, CA|Summer 2027#1"
+    },
+    "ccb8addce2f1": {
+      "company": "Momentive",
+      "role": "Summer 2027 Silanes Production & Energy Systems Engineer Intern",
+      "location": "WV Friendly",
+      "term": "Summer 2027",
+      "apply_url": "https://momentive.wd1.myworkdayjobs.com/MC/job/US-WV-Friendly/Summer-2027-Silanes-Production---Energy-Systems-Engineer-Intern_R9776",
+      "source": "Zapply Summer Repo",
+      "message_id": 3496,
+      "chat_id": 7582459199,
+      "seq": 2331,
+      "identity": "https://momentive.wd1.myworkdayjobs.com/MC/job/US-WV-Friendly/Summer-2027-Silanes-Production---Energy-Systems-Engineer-Intern_R9776|Momentive|Summer 2027 Silanes Production & Energy Systems Engineer Intern|WV Friendly|Summer 2027#1"
+    },
+    "70f9f3feeeb9": {
+      "company": "AeroVironment",
+      "role": "Software Engineering Intern",
+      "location": "Melbourne, FL",
+      "term": "Summer 2027",
+      "apply_url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Melbourne-FL/Software-Engineering-Intern_8613",
+      "source": "Zapply Summer Repo",
+      "message_id": 3497,
+      "chat_id": 7582459199,
+      "seq": 2332,
+      "identity": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Melbourne-FL/Software-Engineering-Intern_8613|AeroVironment|Software Engineering Intern|Melbourne, FL|Summer 2027#1"
+    },
+    "ba5fed3ef3b1": {
+      "company": "AeroVironment",
+      "role": "Quality Engineering Intern",
+      "location": "Simi Valley, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Quality-Engineering-Intern_8586",
+      "source": "Zapply Summer Repo",
+      "message_id": 3498,
+      "chat_id": 7582459199,
+      "seq": 2333,
+      "identity": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Quality-Engineering-Intern_8586|AeroVironment|Quality Engineering Intern|Simi Valley, CA|Summer 2027#1"
+    },
+    "a15476fc3324": {
+      "company": "AeroVironment",
+      "role": "Summer 2027 Embedded Software Engineering Intern",
+      "location": "Simi Valley, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549",
+      "source": "Zapply Summer Repo",
+      "message_id": 3499,
+      "chat_id": 7582459199,
+      "seq": 2334,
+      "identity": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549|AeroVironment|Summer 2027 Embedded Software Engineering Intern|Simi Valley, CA|Summer 2027#1"
+    },
+    "08b87ce7e802": {
+      "company": "Exegy",
+      "role": "Software Engineer Intern",
+      "location": "St. Louis",
+      "term": "Summer 2027",
+      "apply_url": "https://jobs.ashbyhq.com/exegy/dc2b27b5-9569-4d86-9b30-456a4ccf29a5",
+      "source": "Zapply Summer Repo",
+      "message_id": 3500,
+      "chat_id": 7582459199,
+      "seq": 2335,
+      "identity": "https://jobs.ashbyhq.com/exegy/dc2b27b5-9569-4d86-9b30-456a4ccf29a5|Exegy|Software Engineer Intern|St. Louis|Summer 2027#1"
+    },
+    "e2937231aba6": {
+      "company": "Cox",
+      "role": "Quality Assurance Engineering Intern - Summer 2027",
+      "location": "Atlanta GA",
+      "term": "Summer 2027",
+      "apply_url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Quality-Assurance-Engineering-Intern---Summer-2027_R202682363",
+      "source": "Zapply Summer Repo",
+      "message_id": 3501,
+      "chat_id": 7582459199,
+      "seq": 2336,
+      "identity": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Quality-Assurance-Engineering-Intern---Summer-2027_R202682363|Cox|Quality Assurance Engineering Intern - Summer 2027|Atlanta GA|Summer 2027#1"
     }
   },
   "applied": {
@@ -35019,10 +35091,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2330,
+  "seq": 2336,
   "health": {
     "last_heartbeat": "2026-09-10T19:40:15Z",
-    "last_ok_run": "2026-09-10T19:40:15Z",
+    "last_ok_run": "2026-09-10T19:45:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
