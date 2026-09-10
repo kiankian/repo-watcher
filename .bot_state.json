@@ -33644,6 +33644,18 @@
       "chat_id": 7582459199,
       "seq": 2246,
       "identity": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301907|Tradeweb|Summer 2027 Java Software Engineering Internship|Jersey City, NJ, United States|Summer 2027#1"
+    },
+    "737e42b7a619": {
+      "company": "Allegion",
+      "role": "Summer Intern - Systems Engineer",
+      "location": "Indianapolis, IN - Hague Rd",
+      "term": "Summer 2027",
+      "apply_url": "https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Systems-Engineer_JR37310-1",
+      "source": "Zapply Summer Repo",
+      "message_id": 3412,
+      "chat_id": 7582459199,
+      "seq": 2247,
+      "identity": "https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Systems-Engineer_JR37310-1|Allegion|Summer Intern - Systems Engineer|Indianapolis, IN - Hague Rd|Summer 2027#1"
     }
   },
   "applied": {
@@ -34011,10 +34023,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2246,
+  "seq": 2247,
   "health": {
     "last_heartbeat": "2026-09-10T01:15:16Z",
-    "last_ok_run": "2026-09-10T01:20:17Z",
+    "last_ok_run": "2026-09-10T01:25:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
