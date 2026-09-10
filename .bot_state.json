@@ -34484,6 +34484,66 @@
       "chat_id": 7582459199,
       "seq": 2316,
       "identity": "https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4|Sierra|Software Engineer Intern - Agent - Winter 2027|San Francisco, CA|Other#1"
+    },
+    "54e2a25185f8": {
+      "company": "RTX",
+      "role": "Co-Op, Software Engineer- Onsite",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-109--400-Collins-Rd-NE--BLDG-109/Co-Op--Software-Engineer--Onsite_01871298",
+      "source": "Zapply Summer Repo",
+      "message_id": 3482,
+      "chat_id": 7582459199,
+      "seq": 2317,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-109--400-Collins-Rd-NE--BLDG-109/Co-Op--Software-Engineer--Onsite_01871298|RTX|Co-Op, Software Engineer- Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "2c4de3393822": {
+      "company": "Entegris",
+      "role": "Analytical Quality Engineering Co-Op",
+      "location": "Round Rock, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Round-Rock-TX/Analytical-Quality-Engineering-Co-Op_REQ-14464",
+      "source": "Zapply Summer Repo",
+      "message_id": 3483,
+      "chat_id": 7582459199,
+      "seq": 2318,
+      "identity": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Round-Rock-TX/Analytical-Quality-Engineering-Co-Op_REQ-14464|Entegris|Analytical Quality Engineering Co-Op|Round Rock, TX|Summer 2027#1"
+    },
+    "57673c56c7e8": {
+      "company": "Schonfeld",
+      "role": "2027 Platform Engineering Intern",
+      "location": "New York, New York, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171699",
+      "source": "Zapply Summer Repo",
+      "message_id": 3484,
+      "chat_id": 7582459199,
+      "seq": 2319,
+      "identity": "https://job-boards.greenhouse.io/schonfeld/jobs/8171699|Schonfeld|2027 Platform Engineering Intern|New York, New York, United States|Summer 2027#1"
+    },
+    "7c61a85e1e01": {
+      "company": "Hudl",
+      "role": "Quality Assurance Engineering Intern",
+      "location": "Lincoln, NE, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/hudl/jobs/8155102",
+      "source": "Zapply Summer Repo",
+      "message_id": 3485,
+      "chat_id": 7582459199,
+      "seq": 2320,
+      "identity": "https://job-boards.greenhouse.io/hudl/jobs/8155102|Hudl|Quality Assurance Engineering Intern|Lincoln, NE, United States|Summer 2027#1"
+    },
+    "e8a2391a5ac5": {
+      "company": "Hudl",
+      "role": "Software Engineering Intern",
+      "location": "Lincoln, NE, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://job-boards.greenhouse.io/hudl/jobs/8114314",
+      "source": "Zapply Summer Repo",
+      "message_id": 3486,
+      "chat_id": 7582459199,
+      "seq": 2321,
+      "identity": "https://job-boards.greenhouse.io/hudl/jobs/8114314|Hudl|Software Engineering Intern|Lincoln, NE, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -34851,10 +34911,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2316,
+  "seq": 2321,
   "health": {
     "last_heartbeat": "2026-09-10T16:30:18Z",
-    "last_ok_run": "2026-09-10T16:30:18Z",
+    "last_ok_run": "2026-09-10T16:35:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
