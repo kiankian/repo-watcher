@@ -36848,6 +36848,78 @@
       "chat_id": 7582459199,
       "seq": 2513,
       "identity": "https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14468?s=gh-internships-2027|Entegris|Quality Engineering Co-Op|Rockrimmon, Colorado Springs, CO|Summer 2027#1"
+    },
+    "6536b26256f8": {
+      "company": "Draper",
+      "role": "Systems Engineering Co-Op (Spring 2027)",
+      "location": "Cambridge, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-draper-draper-careers-JR002882?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3679,
+      "chat_id": 7582459199,
+      "seq": 2514,
+      "identity": "https://zapply.jobs/l/d/workday-draper-draper-careers-JR002882?s=gh-internships-2027|Draper|Systems Engineering Co-Op (Spring 2027)|Cambridge, MA|Summer 2027#1"
+    },
+    "070f25e47d87": {
+      "company": "Texas Instruments",
+      "role": "Systems Engineering Intern(SEM) - A&D",
+      "location": "Dallas, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-texas-instruments-25017914?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3680,
+      "chat_id": 7582459199,
+      "seq": 2515,
+      "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25017914?s=gh-internships-2027|Texas Instruments|Systems Engineering Intern(SEM) - A&D|Dallas, TX, United States|Summer 2027#1"
+    },
+    "a8e2a6057e79": {
+      "company": "Hudl",
+      "role": "Software Quality Assurance Engineering Intern",
+      "location": "Lincoln, NE, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-hudl-8155102?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3681,
+      "chat_id": 7582459199,
+      "seq": 2516,
+      "identity": "https://zapply.jobs/l/d/greenhouse-hudl-8155102?s=gh-internships-2027|Hudl|Software Quality Assurance Engineering Intern|Lincoln, NE, United States|Summer 2027#1"
+    },
+    "da9596fe8b53": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "MN-BURNSVILLE-WEST",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872977?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3682,
+      "chat_id": 7582459199,
+      "seq": 2517,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872977?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|MN-BURNSVILLE-WEST|Summer 2027#1"
+    },
+    "ba50dce1fc9e": {
+      "company": "RTX",
+      "role": "Software Engineering Co-op (Summer/ Fall 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873293?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3683,
+      "chat_id": 7582459199,
+      "seq": 2518,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873293?s=gh-internships-2027|RTX|Software Engineering Co-op (Summer/ Fall 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "436fd1a67e4a": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "PA-STATE COLLEGE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01869001?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3684,
+      "chat_id": 7582459199,
+      "seq": 2519,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01869001?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|PA-STATE COLLEGE|Summer 2027#1"
     }
   },
   "applied": {
@@ -37215,10 +37287,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2513,
+  "seq": 2519,
   "health": {
     "last_heartbeat": "2026-09-11T14:10:17Z",
-    "last_ok_run": "2026-09-11T15:10:15Z",
+    "last_ok_run": "2026-09-11T15:15:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
