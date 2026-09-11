@@ -37664,6 +37664,18 @@
       "chat_id": 7582459199,
       "seq": 2581,
       "identity": "https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2025245?s=gh-internships-2027|NVIDIA|Solutions Architecture Intern - Summer 2027|US, CA, Santa Clara|Summer 2027#1"
+    },
+    "b77b4c3e6be5": {
+      "company": "Blue Origin",
+      "role": "Summer 2027 Marine Mechanical & Test Engineering Internship - Undergraduate",
+      "location": "Space Coast, FL",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R72238?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3747,
+      "chat_id": 7582459199,
+      "seq": 2582,
+      "identity": "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R72238?s=gh-internships-2027|Blue Origin|Summer 2027 Marine Mechanical & Test Engineering Internship - Undergraduate|Space Coast, FL|Summer 2027#1"
     }
   },
   "applied": {
@@ -38031,10 +38043,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2581,
+  "seq": 2582,
   "health": {
     "last_heartbeat": "2026-09-11T21:00:21Z",
-    "last_ok_run": "2026-09-11T21:55:14Z",
+    "last_ok_run": "2026-09-11T22:00:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
