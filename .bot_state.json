@@ -37556,6 +37556,18 @@
       "chat_id": 7582459199,
       "seq": 2572,
       "identity": "https://zapply.jobs/l/d/workday-aptiv-aptiv-careers-J000702994?s=gh-internships-2027|Aptiv|Quality Engineering Intern|Troy, MI - USA|Summer 2027#1"
+    },
+    "b7fb0fec34f1": {
+      "company": "Amgen",
+      "role": "Grad Intern \u2013 Software Engineer \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
+      "location": "United States - Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-amgen-careers-R-255745?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3738,
+      "chat_id": 7582459199,
+      "seq": 2573,
+      "identity": "https://zapply.jobs/l/d/workday-amgen-careers-R-255745?s=gh-internships-2027|Amgen|Grad Intern \u2013 Software Engineer \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)|United States - Remote|Summer 2027#1"
     }
   },
   "applied": {
@@ -37923,10 +37935,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2572,
+  "seq": 2573,
   "health": {
     "last_heartbeat": "2026-09-11T18:50:20Z",
-    "last_ok_run": "2026-09-11T19:35:13Z",
+    "last_ok_run": "2026-09-11T19:40:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
