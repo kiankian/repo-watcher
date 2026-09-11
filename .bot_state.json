@@ -36932,6 +36932,18 @@
       "chat_id": 7582459199,
       "seq": 2520,
       "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249225?s=gh-internships-2027|Booz Allen Hamilton|University - Summer 2027, Software Engineer Intern|Fayetteville, NC|Summer 2027#1"
+    },
+    "63e88cbffcfb": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "role": "Decision Science Intern - Software Engineer",
+      "location": "Laurel, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.jhuapl.edu/jobs/60040?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3686,
+      "chat_id": 7582459199,
+      "seq": 2521,
+      "identity": "https://careers.jhuapl.edu/jobs/60040?icims=1&utm_source=Simplify&ref=Simplify|Johns Hopkins Applied Physics Laboratory|Decision Science Intern - Software Engineer|Laurel, MD|Summer 2026#1"
     }
   },
   "applied": {
@@ -37299,10 +37311,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2520,
+  "seq": 2521,
   "health": {
     "last_heartbeat": "2026-09-11T15:20:17Z",
-    "last_ok_run": "2026-09-11T16:00:19Z",
+    "last_ok_run": "2026-09-11T16:05:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
