@@ -36596,6 +36596,102 @@
       "chat_id": 7582459199,
       "seq": 2492,
       "identity": "https://zapply.jobs/l/d/lever-palantir-655f9937-a4ce-4e7d-80e2-a6659af07329?s=gh-internships-2027|Palantir|Year at Palantir - Software Engineer, Internship|New York, NY|Summer 2027#1"
+    },
+    "bf3e600c1f96": {
+      "company": "LabCorp",
+      "role": "Intern - Quality Engineer",
+      "location": "Baltimore MD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-labcorp-external-2630918?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3658,
+      "chat_id": 7582459199,
+      "seq": 2493,
+      "identity": "https://zapply.jobs/l/d/workday-labcorp-external-2630918?s=gh-internships-2027|LabCorp|Intern - Quality Engineer|Baltimore MD|Summer 2027#1"
+    },
+    "9ba5d2cbab34": {
+      "company": "Disney",
+      "role": "Disneyland Cybersecurity Intern, Spring 2027",
+      "location": "Anaheim, CA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-disney-disneycareer-FOS-0000451207?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3659,
+      "chat_id": 7582459199,
+      "seq": 2494,
+      "identity": "https://zapply.jobs/l/d/workday-disney-disneycareer-FOS-0000451207?s=gh-internships-2027|Disney|Disneyland Cybersecurity Intern, Spring 2027|Anaheim, CA, USA|Summer 2027#1"
+    },
+    "b296b2869071": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship",
+      "location": "Denver, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-373eb939-6f57-4836-8479-be79a5e07249?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3660,
+      "chat_id": 7582459199,
+      "seq": 2495,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-373eb939-6f57-4836-8479-be79a5e07249?s=gh-internships-2027|Palantir|Software Engineer, Internship|Denver, CO|Summer 2027#1"
+    },
+    "407592172255": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-7d69cf8a-06fd-4f05-bd84-27149db29c4d?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3661,
+      "chat_id": 7582459199,
+      "seq": 2496,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-7d69cf8a-06fd-4f05-bd84-27149db29c4d?s=gh-internships-2027|Palantir|Software Engineer, Internship|New York, NY|Summer 2027#1"
+    },
+    "8f6b1d66e4d2": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship",
+      "location": "Washington, D.C.",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-bdcfb29f-4f27-42de-933f-7f83a359b9f0?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3662,
+      "chat_id": 7582459199,
+      "seq": 2497,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-bdcfb29f-4f27-42de-933f-7f83a359b9f0?s=gh-internships-2027|Palantir|Software Engineer, Internship|Washington, D.C.|Summer 2027#1"
+    },
+    "f47d326e73aa": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate)",
+      "location": "Irvine, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-AbbVie-3743990014900496?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3663,
+      "chat_id": 7582459199,
+      "seq": 2498,
+      "identity": "https://zapply.jobs/l/d/sr-AbbVie-3743990014900496?s=gh-internships-2027|AbbVie|2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate)|Irvine, CA|Summer 2027#1"
+    },
+    "87574da67ea4": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate)",
+      "location": "North Chicago, IL",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-AbbVie-3743990014896329?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3664,
+      "chat_id": 7582459199,
+      "seq": 2499,
+      "identity": "https://zapply.jobs/l/d/sr-AbbVie-3743990014896329?s=gh-internships-2027|AbbVie|2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate)|North Chicago, IL|Summer 2027#1"
+    },
+    "b3914956bd47": {
+      "company": "Ambarella",
+      "role": "Software Engineer Intern",
+      "location": "Headquarters",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ambarella-ambarella-JR100363?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3665,
+      "chat_id": 7582459199,
+      "seq": 2500,
+      "identity": "https://zapply.jobs/l/d/workday-ambarella-ambarella-JR100363?s=gh-internships-2027|Ambarella|Software Engineer Intern|Headquarters|Summer 2027#1"
     }
   },
   "applied": {
@@ -36963,10 +37059,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2492,
+  "seq": 2500,
   "health": {
     "last_heartbeat": "2026-09-11T13:00:20Z",
-    "last_ok_run": "2026-09-11T13:45:13Z",
+    "last_ok_run": "2026-09-11T13:50:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
