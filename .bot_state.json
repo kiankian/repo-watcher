@@ -36548,6 +36548,42 @@
       "chat_id": 7582459199,
       "seq": 2488,
       "identity": "https://zapply.jobs/l/d/workday-gevernova-vernova-externalsite-R5051790?s=gh-internships-2027|GE Vernova|GE Vernova Hardware Automation and Test Engineering Intern \u2013 Summer/Fall 2027|Rochester|Summer 2027#1"
+    },
+    "1434aba1e328": {
+      "company": "Palantir",
+      "role": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-5c7bb70c-83ea-43e7-8055-0c8f319f4333?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3654,
+      "chat_id": 7582459199,
+      "seq": 2489,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-5c7bb70c-83ea-43e7-8055-0c8f319f4333?s=gh-internships-2027|Palantir|Year at Palantir - Forward Deployed Software Engineer, Internship - USG|New York, NY|Summer 2027#1"
+    },
+    "537b68a822b6": {
+      "company": "Insulet Corporation",
+      "role": "Co-op, Systems Engineering: January-June 2027 (Hybrid)",
+      "location": "Acton, Massachusetts",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18061?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3655,
+      "chat_id": 7582459199,
+      "seq": 2490,
+      "identity": "https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18061?s=gh-internships-2027|Insulet Corporation|Co-op, Systems Engineering: January-June 2027 (Hybrid)|Acton, Massachusetts|Summer 2027#1"
+    },
+    "74c1d044d2ac": {
+      "company": "DriveTime",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "1720 W Rio Salado Pkwy Tempe,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-drivetime-drivetime-R16294?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3656,
+      "chat_id": 7582459199,
+      "seq": 2491,
+      "identity": "https://zapply.jobs/l/d/workday-drivetime-drivetime-R16294?s=gh-internships-2027|DriveTime|Software Engineering Intern (Summer 2027)|1720 W Rio Salado Pkwy Tempe,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -36915,10 +36951,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2488,
+  "seq": 2491,
   "health": {
     "last_heartbeat": "2026-09-11T13:00:20Z",
-    "last_ok_run": "2026-09-11T13:05:14Z",
+    "last_ok_run": "2026-09-11T13:10:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
