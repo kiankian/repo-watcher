@@ -35204,6 +35204,42 @@
       "chat_id": 7582459199,
       "seq": 2376,
       "identity": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Billerica-MA/Material-Quality-Engineering-Co-Op_REQ-14469|Entegris|Material Quality Engineering Co-Op|Billerica, MA|Summer 2027#1"
+    },
+    "c968a20754a9": {
+      "company": "TD Bank",
+      "role": "2027 Spring Co-op - Global Technology & Solutions - Cloud/DevOps",
+      "location": "Mount Laurel, New Jersey",
+      "term": "Summer 2027",
+      "apply_url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Cloud-DevOps_R_1510235",
+      "source": "Zapply Summer Repo",
+      "message_id": 3542,
+      "chat_id": 7582459199,
+      "seq": 2377,
+      "identity": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Cloud-DevOps_R_1510235|TD Bank|2027 Spring Co-op - Global Technology & Solutions - Cloud/DevOps|Mount Laurel, New Jersey|Summer 2027#1"
+    },
+    "36d3327a3e4d": {
+      "company": "TD Bank",
+      "role": "2027 Spring Co-op - Global Technology & Solutions - Software Engineer (SWE)",
+      "location": "Mount Laurel, New Jersey",
+      "term": "Summer 2027",
+      "apply_url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Software-Engineer--SWE-_R_1509773",
+      "source": "Zapply Summer Repo",
+      "message_id": 3543,
+      "chat_id": 7582459199,
+      "seq": 2378,
+      "identity": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Software-Engineer--SWE-_R_1509773|TD Bank|2027 Spring Co-op - Global Technology & Solutions - Software Engineer (SWE)|Mount Laurel, New Jersey|Summer 2027#1"
+    },
+    "40d6b750828b": {
+      "company": "Entegris",
+      "role": "Quality Engineering Co-Op",
+      "location": "Rockrimmon, Colorado Springs, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Rockrimmon-Colorado-Springs-CO/Quality-Engineering-Co-Op_REQ-14468",
+      "source": "Zapply Summer Repo",
+      "message_id": 3544,
+      "chat_id": 7582459199,
+      "seq": 2379,
+      "identity": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Rockrimmon-Colorado-Springs-CO/Quality-Engineering-Co-Op_REQ-14468|Entegris|Quality Engineering Co-Op|Rockrimmon, Colorado Springs, CO|Summer 2027#1"
     }
   },
   "applied": {
@@ -35571,10 +35607,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2376,
+  "seq": 2379,
   "health": {
     "last_heartbeat": "2026-09-11T05:20:15Z",
-    "last_ok_run": "2026-09-11T06:15:14Z",
+    "last_ok_run": "2026-09-11T06:20:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
