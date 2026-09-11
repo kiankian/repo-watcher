@@ -37496,6 +37496,30 @@
       "chat_id": 7582459199,
       "seq": 2567,
       "identity": "https://zapply.jobs/l/d/lever-palantir-3ab9e715-1ea9-4c6c-ad50-7340eac14e86?s=gh-internships-2027|Palantir|Software Engineer, Internship - Production Infrastructure|Washington, D.C.|Summer 2027#1"
+    },
+    "a705ca5a1ec9": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions Intern - Data & Software Engineering (Undergraduate)",
+      "location": "Irvine, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-AbbVie-3743990014860306?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3733,
+      "chat_id": 7582459199,
+      "seq": 2568,
+      "identity": "https://zapply.jobs/l/d/sr-AbbVie-3743990014860306?s=gh-internships-2027|AbbVie|2027 Business Technology Solutions Intern - Data & Software Engineering (Undergraduate)|Irvine, CA|Summer 2027#1"
+    },
+    "8458e400c793": {
+      "company": "Commure",
+      "role": "Software Engineering Intern, Summer 2027",
+      "location": "Mountain View, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-commure-62841aa1-3ee5-4547-8380-637b737b2cb3?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3734,
+      "chat_id": 7582459199,
+      "seq": 2569,
+      "identity": "https://zapply.jobs/l/d/ashby-commure-62841aa1-3ee5-4547-8380-637b737b2cb3?s=gh-internships-2027|Commure|Software Engineering Intern, Summer 2027|Mountain View, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -37863,10 +37887,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2567,
+  "seq": 2569,
   "health": {
     "last_heartbeat": "2026-09-11T17:45:14Z",
-    "last_ok_run": "2026-09-11T18:25:16Z",
+    "last_ok_run": "2026-09-11T18:30:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
