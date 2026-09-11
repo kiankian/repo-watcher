@@ -37436,6 +37436,30 @@
       "chat_id": 7582459199,
       "seq": 2562,
       "identity": "https://zapply.jobs/l/d/greenhouse-lyft-8767726002?s=gh-internships-2027|Lyft|Software Engineer Intern, Backend (Summer 2027)|San Francisco, CA|Summer 2027#1"
+    },
+    "971a1a9d7ec7": {
+      "company": "Amgen",
+      "role": "Undergrad Intern \u2013 Software Engineer \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
+      "location": "United States - Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-amgen-careers-R-255719?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3728,
+      "chat_id": 7582459199,
+      "seq": 2563,
+      "identity": "https://zapply.jobs/l/d/workday-amgen-careers-R-255719?s=gh-internships-2027|Amgen|Undergrad Intern \u2013 Software Engineer \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)|United States - Remote|Summer 2027#1"
+    },
+    "45b4a7417a45": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Defense Tech",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3729,
+      "chat_id": 7582459199,
+      "seq": 2564,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e?s=gh-internships-2027|Palantir|Software Engineer, Internship - Defense Tech|New York, NY|Summer 2027#1"
     }
   },
   "applied": {
@@ -37803,10 +37827,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2562,
+  "seq": 2564,
   "health": {
     "last_heartbeat": "2026-09-11T16:30:18Z",
-    "last_ok_run": "2026-09-11T17:20:17Z",
+    "last_ok_run": "2026-09-11T17:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
