@@ -36716,6 +36716,78 @@
       "chat_id": 7582459199,
       "seq": 2502,
       "identity": "https://zapply.jobs/l/d/sr-AbbVie-3743990014860386?s=gh-internships-2027|AbbVie|2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)|North Chicago, IL|Summer 2027#1"
+    },
+    "3cff3803bf33": {
+      "company": "Citizens Financial Group",
+      "role": "Cloud Engineer Summer 2027 Intern   Enterprise Technology & Security Summer Internship Program",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-citizens-financial-49284?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3668,
+      "chat_id": 7582459199,
+      "seq": 2503,
+      "identity": "https://zapply.jobs/l/d/oracle-citizens-financial-49284?s=gh-internships-2027|Citizens Financial Group|Cloud Engineer Summer 2027 Intern   Enterprise Technology & Security Summer Internship Program|United States|Summer 2027#1"
+    },
+    "3be440bb8985": {
+      "company": "Citizens Financial Group",
+      "role": "Software Engineer Summer 2027 Intern   Enterprise Technology & Security Summer Internship Program",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-citizens-financial-49286?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3669,
+      "chat_id": 7582459199,
+      "seq": 2504,
+      "identity": "https://zapply.jobs/l/d/oracle-citizens-financial-49286?s=gh-internships-2027|Citizens Financial Group|Software Engineer Summer 2027 Intern   Enterprise Technology & Security Summer Internship Program|United States|Summer 2027#1"
+    },
+    "1c807e834c4f": {
+      "company": "Citizens Financial Group",
+      "role": "Network Engineer Summer 2027 Intern   Enterprise Technology & Security Summer Internship Program",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-citizens-financial-49287?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3670,
+      "chat_id": 7582459199,
+      "seq": 2505,
+      "identity": "https://zapply.jobs/l/d/oracle-citizens-financial-49287?s=gh-internships-2027|Citizens Financial Group|Network Engineer Summer 2027 Intern   Enterprise Technology & Security Summer Internship Program|United States|Summer 2027#1"
+    },
+    "514615bbf3f9": {
+      "company": "Entegris",
+      "role": "Analytical Quality Engineering Co-Op",
+      "location": "Round Rock, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14464?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3671,
+      "chat_id": 7582459199,
+      "seq": 2506,
+      "identity": "https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14464?s=gh-internships-2027|Entegris|Analytical Quality Engineering Co-Op|Round Rock, TX|Summer 2027#1"
+    },
+    "8bb958ed6c45": {
+      "company": "Entegris",
+      "role": "Manufacturing Systems Engineer Co-Op",
+      "location": "Rockrimmon, Colorado Springs, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14437?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3672,
+      "chat_id": 7582459199,
+      "seq": 2507,
+      "identity": "https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14437?s=gh-internships-2027|Entegris|Manufacturing Systems Engineer Co-Op|Rockrimmon, Colorado Springs, CO|Summer 2027#1"
+    },
+    "b46d2f688585": {
+      "company": "Tradeweb",
+      "role": "Summer 2027 Technology Internship U.S. Credit Software Engineering Internship",
+      "location": "Jersey City, NJ, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-tradeweb-301915?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3673,
+      "chat_id": 7582459199,
+      "seq": 2508,
+      "identity": "https://zapply.jobs/l/d/oracle-tradeweb-301915?s=gh-internships-2027|Tradeweb|Summer 2027 Technology Internship U.S. Credit Software Engineering Internship|Jersey City, NJ, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -37083,10 +37155,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2502,
+  "seq": 2508,
   "health": {
     "last_heartbeat": "2026-09-11T14:10:17Z",
-    "last_ok_run": "2026-09-11T14:10:17Z",
+    "last_ok_run": "2026-09-11T14:15:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
