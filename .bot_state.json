@@ -37676,6 +37676,18 @@
       "chat_id": 7582459199,
       "seq": 2582,
       "identity": "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R72238?s=gh-internships-2027|Blue Origin|Summer 2027 Marine Mechanical & Test Engineering Internship - Undergraduate|Space Coast, FL|Summer 2027#1"
+    },
+    "fdc24d3212e0": {
+      "company": "RTX",
+      "role": "Avionics Systems Engineering Intern - Hybrid",
+      "location": "WA-BOTHELL",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872126?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3748,
+      "chat_id": 7582459199,
+      "seq": 2583,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872126?s=gh-internships-2027|RTX|Avionics Systems Engineering Intern - Hybrid|WA-BOTHELL|Summer 2027#1"
     }
   },
   "applied": {
@@ -38043,10 +38055,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2582,
+  "seq": 2583,
   "health": {
     "last_heartbeat": "2026-09-11T22:15:15Z",
-    "last_ok_run": "2026-09-11T22:20:13Z",
+    "last_ok_run": "2026-09-11T22:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
