@@ -37652,6 +37652,18 @@
       "chat_id": 7582459199,
       "seq": 2580,
       "identity": "https://zapply.jobs/l/d/ashby-persona.ai-1e8d195c-e28e-423d-a06a-9eeb401ed4fc?s=gh-internships-2027|Persona AI|Robotics Software Internship, Manipulation|Houston, TX|Summer 2027#1"
+    },
+    "bb19e2490bae": {
+      "company": "NVIDIA",
+      "role": "Solutions Architecture Intern - Summer 2027",
+      "location": "US, CA, Santa Clara",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2025245?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3746,
+      "chat_id": 7582459199,
+      "seq": 2581,
+      "identity": "https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2025245?s=gh-internships-2027|NVIDIA|Solutions Architecture Intern - Summer 2027|US, CA, Santa Clara|Summer 2027#1"
     }
   },
   "applied": {
@@ -38019,10 +38031,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2580,
+  "seq": 2581,
   "health": {
     "last_heartbeat": "2026-09-11T21:00:21Z",
-    "last_ok_run": "2026-09-11T21:00:21Z",
+    "last_ok_run": "2026-09-11T21:05:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
