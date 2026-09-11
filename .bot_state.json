@@ -37388,6 +37388,18 @@
       "chat_id": 7582459199,
       "seq": 2558,
       "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25017542?s=gh-internships-2027|Texas Instruments|Systems Engineering Intern - MS/PhD|Dallas, TX, United States|Summer 2027#1"
+    },
+    "50c6eae36f02": {
+      "company": "Texas Instruments",
+      "role": "Systems Engineering Intern",
+      "location": "Dallas, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-texas-instruments-25017917?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3724,
+      "chat_id": 7582459199,
+      "seq": 2559,
+      "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25017917?s=gh-internships-2027|Texas Instruments|Systems Engineering Intern|Dallas, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -37755,10 +37767,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2558,
+  "seq": 2559,
   "health": {
     "last_heartbeat": "2026-09-11T16:30:18Z",
-    "last_ok_run": "2026-09-11T16:50:16Z",
+    "last_ok_run": "2026-09-11T16:55:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
