@@ -37328,6 +37328,66 @@
       "chat_id": 7582459199,
       "seq": 2553,
       "identity": "https://walmart.wd504.myworkdayjobs.com/en-US/walmartexternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/Summer-2027-Intern---Software-Engineer-II_R-2630029-1|Walmart|Summer 2027 Intern:: Software Engineer II|USA|Other#1"
+    },
+    "61b6d02aef71": {
+      "company": "Motorola Solutions",
+      "role": "DSP (Digital Signal Processing) Software Engineering Intern - Summer 2027",
+      "location": "Plantation, FL",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68734?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3719,
+      "chat_id": 7582459199,
+      "seq": 2554,
+      "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68734?s=gh-internships-2027|Motorola Solutions|DSP (Digital Signal Processing) Software Engineering Intern - Summer 2027|Plantation, FL|Summer 2027#1"
+    },
+    "2db1ca07908c": {
+      "company": "Motorola Solutions",
+      "role": "2027 Software Engineering Summer Internship",
+      "location": "Plantation, FL",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68125?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3720,
+      "chat_id": 7582459199,
+      "seq": 2555,
+      "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68125?s=gh-internships-2027|Motorola Solutions|2027 Software Engineering Summer Internship|Plantation, FL|Summer 2027#1"
+    },
+    "882a3ffc5a6a": {
+      "company": "LabCorp",
+      "role": "Intern - Quality Engineer - Oncology",
+      "location": "Baltimore MD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-labcorp-external-2630918?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3721,
+      "chat_id": 7582459199,
+      "seq": 2556,
+      "identity": "https://zapply.jobs/l/d/workday-labcorp-external-2630918?s=gh-internships-2027|LabCorp|Intern - Quality Engineer - Oncology|Baltimore MD|Summer 2027#1"
+    },
+    "6e521d5c9fe0": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Infrastructure",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-f221738b-e97c-4ce3-a12a-17ada2b855e4?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3722,
+      "chat_id": 7582459199,
+      "seq": 2557,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-f221738b-e97c-4ce3-a12a-17ada2b855e4?s=gh-internships-2027|Palantir|Software Engineer, Internship - Infrastructure|Palo Alto, CA|Summer 2027#1"
+    },
+    "d567bbb80256": {
+      "company": "Texas Instruments",
+      "role": "Systems Engineering Intern - MS/PhD",
+      "location": "Dallas, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-texas-instruments-25017542?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3723,
+      "chat_id": 7582459199,
+      "seq": 2558,
+      "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25017542?s=gh-internships-2027|Texas Instruments|Systems Engineering Intern - MS/PhD|Dallas, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -37695,10 +37755,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2553,
+  "seq": 2558,
   "health": {
     "last_heartbeat": "2026-09-11T16:30:18Z",
-    "last_ok_run": "2026-09-11T16:35:12Z",
+    "last_ok_run": "2026-09-11T16:40:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
