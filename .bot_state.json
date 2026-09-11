@@ -36788,6 +36788,30 @@
       "chat_id": 7582459199,
       "seq": 2508,
       "identity": "https://zapply.jobs/l/d/oracle-tradeweb-301915?s=gh-internships-2027|Tradeweb|Summer 2027 Technology Internship U.S. Credit Software Engineering Internship|Jersey City, NJ, United States|Summer 2027#1"
+    },
+    "5f15b804cb8a": {
+      "company": "Momentive",
+      "role": "Summer 2027 Quality Assurance / Quality Management Intern",
+      "location": "WV Friendly",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-momentive-mc-R9815?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3674,
+      "chat_id": 7582459199,
+      "seq": 2509,
+      "identity": "https://zapply.jobs/l/d/workday-momentive-mc-R9815?s=gh-internships-2027|Momentive|Summer 2027 Quality Assurance / Quality Management Intern|WV Friendly|Summer 2027#1"
+    },
+    "1b3478399eb7": {
+      "company": "ICD",
+      "role": "Summer 2027 Technology Internship U.S. Credit Software Engineering Internship",
+      "location": "Jersey City, NJ, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-icd-301915?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3675,
+      "chat_id": 7582459199,
+      "seq": 2510,
+      "identity": "https://zapply.jobs/l/d/oracle-icd-301915?s=gh-internships-2027|ICD|Summer 2027 Technology Internship U.S. Credit Software Engineering Internship|Jersey City, NJ, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -37155,10 +37179,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2508,
+  "seq": 2510,
   "health": {
     "last_heartbeat": "2026-09-11T14:10:17Z",
-    "last_ok_run": "2026-09-11T14:20:16Z",
+    "last_ok_run": "2026-09-11T14:25:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
