@@ -37268,6 +37268,66 @@
       "chat_id": 7582459199,
       "seq": 2548,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Software-Engineering-Intern--Summer-2027-_01872977|Raytheon|Software Engineering Intern - Summer 2027|BURNSVILLE-WEST, MN|Other#1"
+    },
+    "19dc225eff6d": {
+      "company": "RSM",
+      "role": "Cyber ServiceNow Developer Intern - Summer 2027",
+      "location": "Chicago, IL +1",
+      "term": "Other",
+      "apply_url": "https://rsm.wd1.myworkdayjobs.com/en-US/rsmcareers/job/Chicago/Cyber-ServiceNow-Developer-Intern---Summer-2027_JR117289",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 3714,
+      "chat_id": 7582459199,
+      "seq": 2549,
+      "identity": "https://rsm.wd1.myworkdayjobs.com/en-US/rsmcareers/job/Chicago/Cyber-ServiceNow-Developer-Intern---Summer-2027_JR117289|RSM|Cyber ServiceNow Developer Intern - Summer 2027|Chicago, IL +1|Other#1"
+    },
+    "64a213a71909": {
+      "company": "Target",
+      "role": "Software Engineering Summer Internship-Minneapolis - MN - Starting June 2027",
+      "location": "NCD Brooklyn Park, MN",
+      "term": "Other",
+      "apply_url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 3715,
+      "chat_id": 7582459199,
+      "seq": 2550,
+      "identity": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082|Target|Software Engineering Summer Internship-Minneapolis - MN - Starting June 2027|NCD Brooklyn Park, MN|Other#1"
+    },
+    "b7333cd862fd": {
+      "company": "The Toro Company",
+      "role": "Hardware and Software Engineering Intern - Ditch Witch",
+      "location": "Perry, OK",
+      "term": "Other",
+      "apply_url": "https://ttc.wd1.myworkdayjobs.com/en-US/toro_external_careers/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 3716,
+      "chat_id": 7582459199,
+      "seq": 2551,
+      "identity": "https://ttc.wd1.myworkdayjobs.com/en-US/toro_external_careers/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183|The Toro Company|Hardware and Software Engineering Intern - Ditch Witch|Perry, OK|Other#1"
+    },
+    "7111f60b00e5": {
+      "company": "Thomson Reuters",
+      "role": "Software Engineer Co-Op",
+      "location": "Rochester, NY",
+      "term": "Other",
+      "apply_url": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/external_career_site/job/United-States-of-America-Rochester-New-York/Software-Engineer-Co-Op_JREQ203587",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 3717,
+      "chat_id": 7582459199,
+      "seq": 2552,
+      "identity": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/external_career_site/job/United-States-of-America-Rochester-New-York/Software-Engineer-Co-Op_JREQ203587|Thomson Reuters|Software Engineer Co-Op|Rochester, NY|Other#1"
+    },
+    "44b32edb0c52": {
+      "company": "Walmart",
+      "role": "Summer 2027 Intern:: Software Engineer II",
+      "location": "USA",
+      "term": "Other",
+      "apply_url": "https://walmart.wd504.myworkdayjobs.com/en-US/walmartexternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/Summer-2027-Intern---Software-Engineer-II_R-2630029-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 3718,
+      "chat_id": 7582459199,
+      "seq": 2553,
+      "identity": "https://walmart.wd504.myworkdayjobs.com/en-US/walmartexternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/Summer-2027-Intern---Software-Engineer-II_R-2630029-1|Walmart|Summer 2027 Intern:: Software Engineer II|USA|Other#1"
     }
   },
   "applied": {
@@ -37635,10 +37695,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2548,
+  "seq": 2553,
   "health": {
     "last_heartbeat": "2026-09-11T15:20:17Z",
-    "last_ok_run": "2026-09-11T16:16:01Z",
+    "last_ok_run": "2026-09-11T16:20:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
