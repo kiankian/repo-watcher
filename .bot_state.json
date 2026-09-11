@@ -36692,6 +36692,30 @@
       "chat_id": 7582459199,
       "seq": 2500,
       "identity": "https://zapply.jobs/l/d/workday-ambarella-ambarella-JR100363?s=gh-internships-2027|Ambarella|Software Engineer Intern|Headquarters|Summer 2027#1"
+    },
+    "27c8ca070062": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)",
+      "location": "Irvine, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-AbbVie-3743990014860211?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3666,
+      "chat_id": 7582459199,
+      "seq": 2501,
+      "identity": "https://zapply.jobs/l/d/sr-AbbVie-3743990014860211?s=gh-internships-2027|AbbVie|2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)|Irvine, CA|Summer 2027#1"
+    },
+    "8fc030e2b76b": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)",
+      "location": "North Chicago, IL",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-AbbVie-3743990014860386?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3667,
+      "chat_id": 7582459199,
+      "seq": 2502,
+      "identity": "https://zapply.jobs/l/d/sr-AbbVie-3743990014860386?s=gh-internships-2027|AbbVie|2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)|North Chicago, IL|Summer 2027#1"
     }
   },
   "applied": {
@@ -37059,10 +37083,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2500,
+  "seq": 2502,
   "health": {
     "last_heartbeat": "2026-09-11T13:00:20Z",
-    "last_ok_run": "2026-09-11T13:55:12Z",
+    "last_ok_run": "2026-09-11T14:00:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
