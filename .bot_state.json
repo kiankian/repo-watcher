@@ -37520,6 +37520,18 @@
       "chat_id": 7582459199,
       "seq": 2569,
       "identity": "https://zapply.jobs/l/d/ashby-commure-62841aa1-3ee5-4547-8380-637b737b2cb3?s=gh-internships-2027|Commure|Software Engineering Intern, Summer 2027|Mountain View, CA|Summer 2027#1"
+    },
+    "e2c722e359bf": {
+      "company": "NXP",
+      "role": "Test Engineer Intern - Summer 2027",
+      "location": "Austin",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-nxp-careers-R-10064679?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3735,
+      "chat_id": 7582459199,
+      "seq": 2570,
+      "identity": "https://zapply.jobs/l/d/workday-nxp-careers-R-10064679?s=gh-internships-2027|NXP|Test Engineer Intern - Summer 2027|Austin|Summer 2027#1"
     }
   },
   "applied": {
@@ -37887,10 +37899,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2569,
+  "seq": 2570,
   "health": {
     "last_heartbeat": "2026-09-11T17:45:14Z",
-    "last_ok_run": "2026-09-11T18:40:14Z",
+    "last_ok_run": "2026-09-11T18:45:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
