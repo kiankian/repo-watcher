@@ -36464,6 +36464,90 @@
       "chat_id": 7582459199,
       "seq": 2481,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-331742?s=gh-internships-2027|CACI|Software Engineering Intern \u2013 Summer 2027|Lisle, IL, US|Summer 2027#1"
+    },
+    "e4928b2a65c4": {
+      "company": "CACI",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Ypsilanti, MI, US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-caci-external-331648?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3647,
+      "chat_id": 7582459199,
+      "seq": 2482,
+      "identity": "https://zapply.jobs/l/d/workday-caci-external-331648?s=gh-internships-2027|CACI|Software Engineer Intern - Summer 2027|Ypsilanti, MI, US|Summer 2027#1"
+    },
+    "3b712ce0e48e": {
+      "company": "Allegion",
+      "role": "Summer Intern - Systems Engineer",
+      "location": "Indianapolis, IN - Hague Rd",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-allegion-careers-JR37310?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3648,
+      "chat_id": 7582459199,
+      "seq": 2483,
+      "identity": "https://zapply.jobs/l/d/workday-allegion-careers-JR37310?s=gh-internships-2027|Allegion|Summer Intern - Systems Engineer|Indianapolis, IN - Hague Rd|Summer 2027#1"
+    },
+    "6fd96b645c6e": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Defense Tech",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3649,
+      "chat_id": 7582459199,
+      "seq": 2484,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d?s=gh-internships-2027|Palantir|Software Engineer, Internship - Defense Tech|Palo Alto, CA|Summer 2027#1"
+    },
+    "2499ec5b9f25": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Defense Tech",
+      "location": "Washington, D.C.",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3650,
+      "chat_id": 7582459199,
+      "seq": 2485,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7?s=gh-internships-2027|Palantir|Software Engineer, Internship - Defense Tech|Washington, D.C.|Summer 2027#1"
+    },
+    "b706fd372872": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Infrastructure",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-b229baac-494b-4a0d-9a13-2e38806e06f3?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3651,
+      "chat_id": 7582459199,
+      "seq": 2486,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-b229baac-494b-4a0d-9a13-2e38806e06f3?s=gh-internships-2027|Palantir|Software Engineer, Internship - Infrastructure|New York, NY|Summer 2027#1"
+    },
+    "c4adc5f70da6": {
+      "company": "GE Vernova",
+      "role": "GE Vernova Hardware Automation and Test Engineering Intern \u2013 Spring/Summer 2027",
+      "location": "Rochester",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-gevernova-vernova-externalsite-R5051788?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3652,
+      "chat_id": 7582459199,
+      "seq": 2487,
+      "identity": "https://zapply.jobs/l/d/workday-gevernova-vernova-externalsite-R5051788?s=gh-internships-2027|GE Vernova|GE Vernova Hardware Automation and Test Engineering Intern \u2013 Spring/Summer 2027|Rochester|Summer 2027#1"
+    },
+    "740a88d94d87": {
+      "company": "GE Vernova",
+      "role": "GE Vernova Hardware Automation and Test Engineering Intern \u2013 Summer/Fall 2027",
+      "location": "Rochester",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-gevernova-vernova-externalsite-R5051790?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3653,
+      "chat_id": 7582459199,
+      "seq": 2488,
+      "identity": "https://zapply.jobs/l/d/workday-gevernova-vernova-externalsite-R5051790?s=gh-internships-2027|GE Vernova|GE Vernova Hardware Automation and Test Engineering Intern \u2013 Summer/Fall 2027|Rochester|Summer 2027#1"
     }
   },
   "applied": {
@@ -36831,10 +36915,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2481,
+  "seq": 2488,
   "health": {
     "last_heartbeat": "2026-09-11T11:55:13Z",
-    "last_ok_run": "2026-09-11T12:40:57Z",
+    "last_ok_run": "2026-09-11T12:45:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
