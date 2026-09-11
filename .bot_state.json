@@ -37460,6 +37460,42 @@
       "chat_id": 7582459199,
       "seq": 2564,
       "identity": "https://zapply.jobs/l/d/lever-palantir-8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e?s=gh-internships-2027|Palantir|Software Engineer, Internship - Defense Tech|New York, NY|Summer 2027#1"
+    },
+    "551865d3b804": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Production Infrastructure",
+      "location": "Seattle, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-373367a9-3160-49d8-b7af-2efec062fad1?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3730,
+      "chat_id": 7582459199,
+      "seq": 2565,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-373367a9-3160-49d8-b7af-2efec062fad1?s=gh-internships-2027|Palantir|Software Engineer, Internship - Production Infrastructure|Seattle, WA|Summer 2027#1"
+    },
+    "b3ef1ef4d0e5": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Production Infrastructure",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-37964982-9b4c-471e-a1d8-fb8f45d7f116?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3731,
+      "chat_id": 7582459199,
+      "seq": 2566,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-37964982-9b4c-471e-a1d8-fb8f45d7f116?s=gh-internships-2027|Palantir|Software Engineer, Internship - Production Infrastructure|New York, NY|Summer 2027#1"
+    },
+    "849a11f0e2ee": {
+      "company": "Palantir",
+      "role": "Software Engineer, Internship - Production Infrastructure",
+      "location": "Washington, D.C.",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-palantir-3ab9e715-1ea9-4c6c-ad50-7340eac14e86?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3732,
+      "chat_id": 7582459199,
+      "seq": 2567,
+      "identity": "https://zapply.jobs/l/d/lever-palantir-3ab9e715-1ea9-4c6c-ad50-7340eac14e86?s=gh-internships-2027|Palantir|Software Engineer, Internship - Production Infrastructure|Washington, D.C.|Summer 2027#1"
     }
   },
   "applied": {
@@ -37827,10 +37863,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2564,
+  "seq": 2567,
   "health": {
     "last_heartbeat": "2026-09-11T17:45:14Z",
-    "last_ok_run": "2026-09-11T17:45:14Z",
+    "last_ok_run": "2026-09-11T17:50:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
