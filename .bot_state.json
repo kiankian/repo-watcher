@@ -37580,6 +37580,18 @@
       "chat_id": 7582459199,
       "seq": 2574,
       "identity": "https://zapply.jobs/l/d/microsoft-200052631?s=gh-internships-2027|Microsoft|Software Engineering Intern - CTJ - TS|Redmond, Washington, United States|Summer 2027#1"
+    },
+    "5110ba4a4c2e": {
+      "company": "Emerson Electric",
+      "role": "Test Engineering Intern",
+      "location": "Austin, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-emerson-electric-26010099?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3740,
+      "chat_id": 7582459199,
+      "seq": 2575,
+      "identity": "https://zapply.jobs/l/d/oracle-emerson-electric-26010099?s=gh-internships-2027|Emerson Electric|Test Engineering Intern|Austin, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -37947,10 +37959,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2574,
+  "seq": 2575,
   "health": {
     "last_heartbeat": "2026-09-11T20:00:20Z",
-    "last_ok_run": "2026-09-11T20:00:20Z",
+    "last_ok_run": "2026-09-11T20:05:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
