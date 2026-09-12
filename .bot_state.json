@@ -38372,6 +38372,42 @@
       "chat_id": 7582459199,
       "seq": 2640,
       "identity": "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003?utm_source=Simplify&ref=Simplify|Klaviyo|Software Engineer Intern - Summer 2027|Boston, MA|Summer 2026#1"
+    },
+    "826fefe31c28": {
+      "company": "Impulse Space",
+      "role": "RF Test Engineering Intern (Summer 2027)",
+      "location": "Redondo Beach, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/pinpoint-impulsespace-568599?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3806,
+      "chat_id": 7582459199,
+      "seq": 2641,
+      "identity": "https://zapply.jobs/l/d/pinpoint-impulsespace-568599?s=gh-internships-2027|Impulse Space|RF Test Engineering Intern (Summer 2027)|Redondo Beach, California|Summer 2027#1"
+    },
+    "7477ca8ca3b9": {
+      "company": "Impulse Space",
+      "role": "Avionics Test Engineering Intern (Summer 2027)",
+      "location": "Redondo Beach, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/pinpoint-impulsespace-569190?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3807,
+      "chat_id": 7582459199,
+      "seq": 2642,
+      "identity": "https://zapply.jobs/l/d/pinpoint-impulsespace-569190?s=gh-internships-2027|Impulse Space|Avionics Test Engineering Intern (Summer 2027)|Redondo Beach, California|Summer 2027#1"
+    },
+    "25ca8d5b2d61": {
+      "company": "Impulse Space",
+      "role": "Propulsion Test Engineering Intern (Mojave - Summer 2027)",
+      "location": "Mojave, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/pinpoint-impulsespace-569277?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3808,
+      "chat_id": 7582459199,
+      "seq": 2643,
+      "identity": "https://zapply.jobs/l/d/pinpoint-impulsespace-569277?s=gh-internships-2027|Impulse Space|Propulsion Test Engineering Intern (Mojave - Summer 2027)|Mojave, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -38739,10 +38775,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2640,
+  "seq": 2643,
   "health": {
     "last_heartbeat": "2026-09-12T17:15:13Z",
-    "last_ok_run": "2026-09-12T18:05:14Z",
+    "last_ok_run": "2026-09-12T18:10:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
