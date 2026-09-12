@@ -3625,7 +3625,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "a77044836d81005298464906203a9cb0d0ae0199",
+    "last_sha": "ff1a21dcf261f022926cafb6e283499e138bf8e4",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -3736,7 +3736,11 @@
       "https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2|Rivian|Software Engineering Intern - Connected Systems - January - August 2027|Irvine, CA +1|FAANG+#1",
       "https://jobs.ashbyhq.com/rivianvw.tech/f5aa59d9-4fdc-42d5-931d-efd9e6d96f2f|Rivian|Software Engineering Intern - Vehicle Controls - January - August 2027|Irvine, CA +1|FAANG+#1",
       "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118|Datadog|Software Engineering Intern - Summer|Boston, MA +1|FAANG+#1",
-      "https://www.amazon.jobs/jobs/10529525/apply|Amazon|Software Development Engineer Intern/Co-Op - ROBOTICS - 2027|North Reading, MA|FAANG+#1"
+      "https://www.amazon.jobs/jobs/10529525/apply|Amazon|Software Development Engineer Intern/Co-Op - ROBOTICS - 2027|North Reading, MA|FAANG+#1",
+      "https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002|Lyft|Software Engineer Intern - Fullstack - Summer 2027|New York City, NY|FAANG+#1",
+      "https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002|Lyft|Software Engineer Intern - Backend - Summer 2027|San Francisco, CA|FAANG+#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556983223|Microsoft|Software Engineering Intern - CTJ - TS|Virginia, MN|FAANG+#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393556983221|Microsoft|Software Engineering Intern - CTJ - TS|Washington, DC|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -3762,11 +3766,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 85,
+    "last_row_count": 88,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "a77044836d81005298464906203a9cb0d0ae0199",
+    "last_sha": "ff1a21dcf261f022926cafb6e283499e138bf8e4",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -3806,7 +3810,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "a77044836d81005298464906203a9cb0d0ae0199",
+    "last_sha": "ff1a21dcf261f022926cafb6e283499e138bf8e4",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -4388,7 +4392,32 @@
       "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082|Target|Software Engineering Summer Internship-Minneapolis - MN - Starting June 2027|NCD Brooklyn Park, MN|Other#1",
       "https://ttc.wd1.myworkdayjobs.com/en-US/toro_external_careers/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183|The Toro Company|Hardware and Software Engineering Intern - Ditch Witch|Perry, OK|Other#1",
       "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/external_career_site/job/United-States-of-America-Rochester-New-York/Software-Engineer-Co-Op_JREQ203587|Thomson Reuters|Software Engineer Co-Op|Rochester, NY|Other#1",
-      "https://walmart.wd504.myworkdayjobs.com/en-US/walmartexternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/Summer-2027-Intern---Software-Engineer-II_R-2630029-1|Walmart|Summer 2027 Intern:: Software Engineer II|USA|Other#1"
+      "https://walmart.wd504.myworkdayjobs.com/en-US/walmartexternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/Summer-2027-Intern---Software-Engineer-II_R-2630029-1|Walmart|Summer 2027 Intern:: Software Engineer II|USA|Other#1",
+      "https://jobs.ashbyhq.com/abridge/3f07a457-dc14-4238-bf4e-5c33b5c1f883|Abridge|Software Engineer - Intern|San Francisco, CA|Other#1",
+      "https://jobs.ashbyhq.com/commure/62841aa1-3ee5-4547-8380-637b737b2cb3|Commure|Software Engineering Intern - Summer 2027|Mountain View, CA|Other#1",
+      "https://jobs.ashbyhq.com/megazone/e2889469-cf20-4227-bf24-2a6e885f8dca|Megazone Cloud US|Software Engineer Co-op 2027|Rochester, NY|Other#1",
+      "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4955293101|Veeam|Software Engineering Intern - Summer 2027|San Jose, CA|Other#1",
+      "https://amgen.wd1.myworkdayjobs.com/en-US/careers/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745|Amgen|Grad Intern - Software Engineer - Amgen\u2019s Technology & Medical Organizations - Summer 2027|Remote - USA|Other#1",
+      "https://amgen.wd1.myworkdayjobs.com/en-US/careers/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719|Amgen|Undergrad Intern - Software Engineer - Amgen\u2019s Technology & Medical Organizations - Summer 2027|Remote - USA|Other#1",
+      "https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Fayetteville-NC/University---Summer-2027--Software-Engineer-Intern_R0249225|Booz Allen|University - Summer 2027 - Software Engineer Intern|Fayetteville, NC|Other#1",
+      "https://job-boards.greenhouse.io/dvtrading/jobs/4733138005|DV Trading|Software Developer Intern - Summer 2027 - DV Equities|New York City, NY|Other#1",
+      "https://fmr.wd1.myworkdayjobs.com/en-US/targeted/job/Boston-MA/Co-op--Software-Engineer_2135200|Fidelity Investments|Co-op - Software Engineer|Boston, MA|Other#1",
+      "https://fmr.wd1.myworkdayjobs.com/en-US/targeted/job/Boston-MA/Co-op--Software-Engineer_2135230|Fidelity Investments|Co-op - Software Engineer|Boston, MA +1|Other#1",
+      "https://fmr.wd1.myworkdayjobs.com/en-US/targeted/job/Boston-MA/Co-op--Software-Full-Stack-Engineer_2135236|Fidelity Investments|Co-op - Software Full Stack Engineer|Boston, MA +1|Other#1",
+      "https://job-boards.greenhouse.io/hudl/jobs/8155102|Hudl|Software Quality Assurance Engineering Intern|Lincoln, NE|Other#1",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125|Motorola Solutions|2027 Software Engineering Summer Internship|Plantation, FL|Other#1",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734|Motorola Solutions|DSP - Digital Signal Processing Software Engineering Intern - Summer 2027|Plantation, FL|Other#1",
+      "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=c5cf1d0c-643f-4e8c-85a5-37a75957c4c1&jobId=574505|New Leader Manufacturing|Software Engineer Intern|Cedar Rapids, IA|Other#1",
+      "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Plymouth-Minnesota-United-States/Co-op---Software-Design-Assurance--IGTD----Plymouth--MN---January-2027_592000|Philips|Co-op - Software Design Assurance - IGTD - Plymouth - MN - January 2027|Plymouth, MN +1|Other#1",
+      "https://jobs.eu.lever.co/quantinuum/782bea0b-1959-48cc-8872-1305aece51bf|Quantinuum|Software Engineering Intern - 989|Broomfield, CO|Other#1",
+      "https://jobs.eu.lever.co/quantinuum/550a6e3c-2556-4ac3-8cc4-862cb0681dc0|Quantinuum|Layout Automation Developer Intern - 993|Brooklyn Park, MN|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Co-op--Spring-Summer-2027-_01873682|Raytheon|Software Engineering Co-op - Spring/Summer 2027|Cedar Rapids, IA|Other#1",
+      "https://jobs.ashbyhq.com/swarmaero/7b82c290-036e-4444-8407-e7f6ce583c52|Swarm Aero|Embedded Software Intern - Summer 2027|Oxnard, CA|Other#1",
+      "https://ttc.wd1.myworkdayjobs.com/en-US/toro_external_careers/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114|The Toro Company|Embedded Software Engineering Intern - The Toro Company|Bloomington, MN|Other#1",
+      "https://ttc.wd1.myworkdayjobs.com/en-US/toro_external_careers/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17125|The Toro Company|Embedded Software Engineering Intern - The Toro Company|Bloomington, MN|Other#1",
+      "https://jobs.lever.co/xcimer/fee9965c-8040-4614-8fd1-10bddfe3b911|Xcimer Energy|Summer 2027 Internship - Computational and Software Engineering|Denver, CO|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-109--400-Collins-Rd-NE--BLDG-109/Co-Op--Software-Engineer--Onsite_01871298|Raytheon|Co-Op - Software Engineer- Onsite|Cedar Rapids, IA|Other#1",
+      "https://careersus-shure.icims.com/jobs/4975/cloud-devops-engineer-intern/job|Shure|Cloud DevOps Engineer Intern|Niles, IL|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -4532,7 +4561,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 429,
+    "last_row_count": 450,
     "outbox": []
   }
 }
