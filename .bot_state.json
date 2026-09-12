@@ -37916,6 +37916,54 @@
       "chat_id": 7582459199,
       "seq": 2602,
       "identity": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745?utm_source=Simplify&ref=Simplify|Amgen|Software Engineer Intern - Amgen\u2019s Technology & Medical Organizations|Remote in USA|Summer 2026#1"
+    },
+    "9793add0350c": {
+      "company": "MegazoneCloud",
+      "role": "Software Engineer Co-op",
+      "location": "Rochester, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/megazone/e2889469-cf20-4227-bf24-2a6e885f8dca/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3768,
+      "chat_id": 7582459199,
+      "seq": 2603,
+      "identity": "https://jobs.ashbyhq.com/megazone/e2889469-cf20-4227-bf24-2a6e885f8dca/application?embed=true&utm_source=Simplify&ref=Simplify|MegazoneCloud|Software Engineer Co-op|Rochester, NY|Summer 2026#1"
+    },
+    "95dbf86b7b08": {
+      "company": "Commure",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Mountain View, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/Commure/62841aa1-3ee5-4547-8380-637b737b2cb3/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3769,
+      "chat_id": 7582459199,
+      "seq": 2604,
+      "identity": "https://jobs.ashbyhq.com/Commure/62841aa1-3ee5-4547-8380-637b737b2cb3/application?embed=true&utm_source=Simplify&ref=Simplify|Commure|Software Engineer Intern - Summer 2027|Mountain View, CA|Summer 2026#1"
+    },
+    "5d01f551a00c": {
+      "company": "ibotta",
+      "role": "Software Engineer Intern",
+      "location": "Denver, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/ibotta/3130669e-16aa-4f63-834d-b83571c8d269/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3770,
+      "chat_id": 7582459199,
+      "seq": 2605,
+      "identity": "https://jobs.ashbyhq.com/ibotta/3130669e-16aa-4f63-834d-b83571c8d269/application?embed=true&utm_source=Simplify&ref=Simplify|ibotta|Software Engineer Intern|Denver, CO|Summer 2026#1"
+    },
+    "1aa5283487ca": {
+      "company": "Avis Budget Group",
+      "role": "Transformation Engineer Intern - Accelerate",
+      "location": "Parsippany-Troy Hills, NJ",
+      "term": "Summer 2026",
+      "apply_url": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---Transformation-Engineer-Summer-2027-Intern_R0190388?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3771,
+      "chat_id": 7582459199,
+      "seq": 2606,
+      "identity": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---Transformation-Engineer-Summer-2027-Intern_R0190388?utm_source=Simplify&ref=Simplify|Avis Budget Group|Transformation Engineer Intern - Accelerate|Parsippany-Troy Hills, NJ|Summer 2026#1"
     }
   },
   "applied": {
@@ -38283,10 +38331,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2602,
+  "seq": 2606,
   "health": {
     "last_heartbeat": "2026-09-11T23:20:16Z",
-    "last_ok_run": "2026-09-12T00:00:21Z",
+    "last_ok_run": "2026-09-12T00:05:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
