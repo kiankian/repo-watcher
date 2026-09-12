@@ -292,6 +292,74 @@ def test_select_new_ignores_legacy_urls_for_rows_without_one():
     assert core.select_new([row], seen=set(), legacy_urls={""}) != []
 
 
+# --- bootstrap mute ---------------------------------------------------------------------
+
+def test_suppression_unions_delivered_and_muted():
+    """Both silence a row. Keeping them in separate lists is for auditing and release; it must
+    not create a path by which a muted row starts alerting on an ordinary run."""
+    entry = {
+        "seen": ["https://a.test/1|A|R|L|T#1"],
+        "seen_legacy_urls": ["https://a.test/legacy"],
+        "bootstrap": ["https://b.test/1|B|R|L|T#1"],
+        "bootstrap_legacy_urls": ["https://b.test/legacy"],
+    }
+
+    idents, urls = core.suppression_sets(entry)
+
+    assert idents == {"https://a.test/1|A|R|L|T#1", "https://b.test/1|B|R|L|T#1"}
+    assert urls == {"https://a.test/legacy", "https://b.test/legacy"}
+
+
+def test_suppression_tolerates_state_written_before_the_split():
+    """State committed by an older run has no bootstrap keys at all, and the watcher reads it
+    before the migration has necessarily touched it."""
+    idents, urls = core.suppression_sets({"seen": ["i#1"], "seen_legacy_urls": ["u"]})
+
+    assert idents == {"i#1"} and urls == {"u"}
+
+
+def test_release_clears_the_mute_and_leaves_deliveries_alone():
+    entry = {
+        "seen": ["delivered#1"],
+        "seen_legacy_urls": ["https://delivered.test"],
+        "bootstrap": ["muted#1", "muted#2"],
+        "bootstrap_legacy_urls": ["https://muted.test"],
+    }
+
+    lifted, released = core.release_bootstrap(entry)
+
+    assert released == 3
+    assert lifted["bootstrap"] == [] and lifted["bootstrap_legacy_urls"] == []
+    assert lifted["seen"] == ["delivered#1"], "history is untouched, so nothing repeats"
+    assert lifted["seen_legacy_urls"] == ["https://delivered.test"]
+    assert entry["bootstrap"] == ["muted#1", "muted#2"], "the input is not mutated"
+
+
+def test_a_released_row_is_selected_as_new():
+    """The point of the whole exercise: after release, a still-listed muted row alerts."""
+    row = ["Acme", "R", "L", "T", "https://acme.test/1"]
+    entry = {"seen": [], "seen_legacy_urls": [],
+             "bootstrap": ["https://acme.test/1|Acme|R|L|T#1"], "bootstrap_legacy_urls": []}
+
+    assert core.select_new([row], *core.suppression_sets(entry)) == [], "muted before release"
+
+    lifted, _released = core.release_bootstrap(entry)
+
+    assert [r for r, _i, _o in core.select_new([row], *core.suppression_sets(lifted))] == [row]
+
+
+def test_release_is_idempotent():
+    """Dispatching it twice must not be a way to re-alert; the second run has nothing to lift."""
+    entry = {"seen": [], "seen_legacy_urls": [], "bootstrap": ["m#1"],
+             "bootstrap_legacy_urls": []}
+
+    once, first = core.release_bootstrap(entry)
+    twice, second = core.release_bootstrap(once)
+
+    assert (first, second) == (1, 0)
+    assert once == twice
+
+
 # --- migrate_state ----------------------------------------------------------------------
 
 WATCHERS = [
@@ -306,7 +374,8 @@ def test_migrate_converts_a_rows_snapshot_to_identities():
 
     out = core.migrate_state(state, [], WATCHERS)["simplify#summer"]
 
-    assert set(out) == {"last_sha", "seen", "seen_legacy_urls", "last_row_count", "outbox"}
+    assert set(out) == {"last_sha", "seen", "seen_legacy_urls", "bootstrap",
+                        "bootstrap_legacy_urls", "last_row_count", "outbox"}
     assert out["seen"] == ["https://acme.test/1|Acme|R|L|T#1"]
     assert out["outbox"] == [], "nothing was ever queued under the old shape"
     assert out["seen_legacy_urls"] == [], "rows carry a term, so no legacy fallback is needed"
@@ -315,11 +384,18 @@ def test_migrate_converts_a_rows_snapshot_to_identities():
 
 def test_migrate_moves_bare_url_seen_lists_into_legacy():
     state = {"zapply#swe": {"last_sha": "abc", "seen": ["https://z.test/1", "https://z.test/2"]}}
+    records = [{"company": "Acme", "role": "R", "location": "L", "term": "T",
+                "apply_url": "https://z.test/1", "source": "Zapply Summer Repo"}]
 
-    out = core.migrate_state(state, [], WATCHERS)["zapply#swe"]
+    out = core.migrate_state(state, records, WATCHERS)["zapply#swe"]
 
-    assert out["seen"] == [], "no identity can be reconstructed without a term"
-    assert out["seen_legacy_urls"] == ["https://z.test/1", "https://z.test/2"]
+    assert out["seen"] == ["https://z.test/1|Acme|R|L|T#1"], (
+        "only the delivered record reconstructs an identity; the bare URLs cannot"
+    )
+    assert out["seen_legacy_urls"] == ["https://z.test/1"], "this one was actually delivered"
+    assert out["bootstrap_legacy_urls"] == ["https://z.test/2"], (
+        "no delivery record, so it was only ever silenced by the bootstrap"
+    )
 
 
 def test_migrate_seeds_from_previously_sent_jobs():
@@ -416,30 +492,39 @@ def test_migrating_the_real_state_files_is_safe():
     ]
 
     migrated = core.migrate_state(state, records, watchers)
-    already_migrated = all(
-        "seen_legacy_urls" in v for v in state.values() if isinstance(v, dict)
+    already_split = all(
+        "bootstrap_legacy_urls" in v for v in state.values() if isinstance(v, dict)
     )
 
     for key, val in state.items():
         out = migrated[key]
         assert set(out) == {
-            "last_sha", "seen", "seen_legacy_urls", "last_row_count", "outbox",
+            "last_sha", "seen", "seen_legacy_urls", "bootstrap", "bootstrap_legacy_urls",
+            "last_row_count", "outbox",
         }
-        if already_migrated:
-            assert out == val, f"{key}: migration must not touch already-migrated state"
+        if already_split:
+            assert out == val, f"{key}: migration must not touch already-split state"
             continue
+        # Splitting the mute out of the suppression set must not release anything: every URL
+        # that silenced a row before still silences it, whichever list it now lives in.
+        if "seen_legacy_urls" in val:
+            assert sorted(out["seen_legacy_urls"] + out["bootstrap_legacy_urls"]) == sorted(
+                val["seen_legacy_urls"]
+            ), f"{key}: the split lost or invented a URL"
+        idents, urls = core.suppression_sets(out)
         # Nothing currently listed may be treated as new on the next run.
         rows = val.get("rows")
         if rows:
-            assert core.select_new(
-                rows, set(out["seen"]), out["seen_legacy_urls"]
-            ) == [], f"{key} would re-alert its own rows"
+            assert core.select_new(rows, idents, urls) == [], (
+                f"{key} would re-alert its own rows"
+            )
         # Nor may any URL the old cumulative-URL sources had already seen. Pre-cutover only:
         # after it, `seen` holds identities rather than bare URLs.
-        for url in val.get("seen") or []:
-            assert core.select_new(
-                [["C", "R", "L", "T", url]], set(out["seen"]), out["seen_legacy_urls"]
-            ) == [], f"{key} would re-alert {url}"
+        if "seen_legacy_urls" not in val:
+            for url in val.get("seen") or []:
+                assert core.select_new([["C", "R", "L", "T", url]], idents, urls) == [], (
+                    f"{key} would re-alert {url}"
+                )
 
     assert core.migrate_state(migrated, records, watchers) == migrated, "idempotent either way"
 
