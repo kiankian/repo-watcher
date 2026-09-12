@@ -37976,6 +37976,30 @@
       "chat_id": 7582459199,
       "seq": 2607,
       "identity": "https://qualcomm.eightfold.ai/careers/job/446721064018?utm_source=Simplify&ref=Simplify|Qualcomm|Machine Learning Compiler & Performance Engineering Intern - Systems|Markham, ON, Canada|Summer 2026#1"
+    },
+    "c24ba57b4148": {
+      "company": "Northwood Space",
+      "role": "Embedded Software Engineering Intern (2027 Summer Internship)",
+      "location": "Torrance, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-northwoodspace-d0cca9dd-ea90-4c3b-94b4-17761932d11c?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3773,
+      "chat_id": 7582459199,
+      "seq": 2608,
+      "identity": "https://zapply.jobs/l/d/ashby-northwoodspace-d0cca9dd-ea90-4c3b-94b4-17761932d11c?s=gh-internships-2027|Northwood Space|Embedded Software Engineering Intern (2027 Summer Internship)|Torrance, CA|Summer 2027#1"
+    },
+    "118947db250f": {
+      "company": "Northwood Space",
+      "role": "Software Engineering Intern (2027 Summer Internship)",
+      "location": "Torrance, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-northwoodspace-ce3d4b73-461e-4128-a6f1-f933897e8119?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3774,
+      "chat_id": 7582459199,
+      "seq": 2609,
+      "identity": "https://zapply.jobs/l/d/ashby-northwoodspace-ce3d4b73-461e-4128-a6f1-f933897e8119?s=gh-internships-2027|Northwood Space|Software Engineering Intern (2027 Summer Internship)|Torrance, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -38343,10 +38367,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2607,
+  "seq": 2609,
   "health": {
     "last_heartbeat": "2026-09-12T00:25:14Z",
-    "last_ok_run": "2026-09-12T01:20:14Z",
+    "last_ok_run": "2026-09-12T01:25:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
