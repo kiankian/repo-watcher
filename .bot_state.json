@@ -38000,6 +38000,18 @@
       "chat_id": 7582459199,
       "seq": 2609,
       "identity": "https://zapply.jobs/l/d/ashby-northwoodspace-ce3d4b73-461e-4128-a6f1-f933897e8119?s=gh-internships-2027|Northwood Space|Software Engineering Intern (2027 Summer Internship)|Torrance, CA|Summer 2027#1"
+    },
+    "b23e592e906a": {
+      "company": "Constellation Energy",
+      "role": "Information Technology Software Development Intern",
+      "location": "Baltimore, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.constellationenergy.com/jobs/138708?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3775,
+      "chat_id": 7582459199,
+      "seq": 2610,
+      "identity": "https://jobs.constellationenergy.com/jobs/138708?icims=1&utm_source=Simplify&ref=Simplify|Constellation Energy|Information Technology Software Development Intern|Baltimore, MD|Summer 2026#1"
     }
   },
   "applied": {
@@ -38367,10 +38379,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2609,
+  "seq": 2610,
   "health": {
     "last_heartbeat": "2026-09-12T06:15:13Z",
-    "last_ok_run": "2026-09-12T06:30:16Z",
+    "last_ok_run": "2026-09-12T06:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
