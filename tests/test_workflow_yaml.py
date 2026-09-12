@@ -130,6 +130,20 @@ def test_a_non_default_branch_is_forced_into_dry_mode():
     )
 
 
+def test_the_bot_state_commit_step_is_not_gated_back_on_after_failure():
+    """`Commit updated bot state` supplies no `if:`, so it is implicitly `if: success()` -- and
+    the poll-failure alarm depends on that. The run that trips the alarm writes the incremented
+    count and exits non-zero, so the write is never committed: the stored count sticks one short
+    of the limit and every later run re-reaches it, staying red until a poll succeeds. Adding
+    `if: always()` here would let the count climb in a file nobody reads instead."""
+    commit = next(
+        s for s in load_workflow()["jobs"]["process_applies"]["steps"]
+        if s.get("name") == "Commit updated bot state"
+    )
+
+    assert "if" not in commit
+
+
 def test_state_writing_is_confined_to_the_default_branch():
     commit = next(s for s in watch_steps() if s["name"] == "Commit updated state")
     ping = next(s for s in watch_steps() if s["name"] == "Ping healthcheck")
