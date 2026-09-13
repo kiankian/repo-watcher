@@ -38432,6 +38432,30 @@
       "chat_id": 7582459199,
       "seq": 2645,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01867818?s=gh-internships-2027|RTX|Intern Systems Engineer- (Onsite)|CO-SCHRIEVER-AFB-CUST|Summer 2027#1"
+    },
+    "a25a1d86b19e": {
+      "company": "Klaviyo",
+      "role": "Software Engineer Co-op - Spring 2027",
+      "location": "Boston, MA",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989365003",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 3811,
+      "chat_id": 7582459199,
+      "seq": 2646,
+      "identity": "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989365003|Klaviyo|Software Engineer Co-op - Spring 2027|Boston, MA|Other#1"
+    },
+    "061808b02e3d": {
+      "company": "Klaviyo",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Boston, MA",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 3812,
+      "chat_id": 7582459199,
+      "seq": 2647,
+      "identity": "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003|Klaviyo|Software Engineer Intern - Summer 2027|Boston, MA|Other#1"
     }
   },
   "applied": {
@@ -38799,10 +38823,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2645,
+  "seq": 2647,
   "health": {
     "last_heartbeat": "2026-09-13T15:00:18Z",
-    "last_ok_run": "2026-09-13T15:55:14Z",
+    "last_ok_run": "2026-09-13T16:00:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"

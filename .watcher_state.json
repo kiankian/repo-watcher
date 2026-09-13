@@ -3631,7 +3631,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "ff1a21dcf261f022926cafb6e283499e138bf8e4",
+    "last_sha": "6e4a6dc30978931e7bdbae094dbef2915fc488d7",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -3776,7 +3776,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "ff1a21dcf261f022926cafb6e283499e138bf8e4",
+    "last_sha": "6e4a6dc30978931e7bdbae094dbef2915fc488d7",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -3816,7 +3816,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "ff1a21dcf261f022926cafb6e283499e138bf8e4",
+    "last_sha": "6e4a6dc30978931e7bdbae094dbef2915fc488d7",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -4423,7 +4423,9 @@
       "https://ttc.wd1.myworkdayjobs.com/en-US/toro_external_careers/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17125|The Toro Company|Embedded Software Engineering Intern - The Toro Company|Bloomington, MN|Other#1",
       "https://jobs.lever.co/xcimer/fee9965c-8040-4614-8fd1-10bddfe3b911|Xcimer Energy|Summer 2027 Internship - Computational and Software Engineering|Denver, CO|Other#1",
       "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-109--400-Collins-Rd-NE--BLDG-109/Co-Op--Software-Engineer--Onsite_01871298|Raytheon|Co-Op - Software Engineer- Onsite|Cedar Rapids, IA|Other#1",
-      "https://careersus-shure.icims.com/jobs/4975/cloud-devops-engineer-intern/job|Shure|Cloud DevOps Engineer Intern|Niles, IL|Other#1"
+      "https://careersus-shure.icims.com/jobs/4975/cloud-devops-engineer-intern/job|Shure|Cloud DevOps Engineer Intern|Niles, IL|Other#1",
+      "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989365003|Klaviyo|Software Engineer Co-op - Spring 2027|Boston, MA|Other#1",
+      "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003|Klaviyo|Software Engineer Intern - Summer 2027|Boston, MA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -4567,7 +4569,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 450,
+    "last_row_count": 452,
     "outbox": []
   }
 }
