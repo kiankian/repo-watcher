@@ -38420,6 +38420,18 @@
       "chat_id": 7582459199,
       "seq": 2644,
       "identity": "https://jobs.lever.co/anavationllc/4a82ae00-30f0-410c-bf3c-f1cdd18739e7/apply?utm_source=Simplify&ref=Simplify|AnaVation|Computer Science Intern - Summer 2027|Chantilly, VA|Summer 2026#1"
+    },
+    "594db5162d09": {
+      "company": "RTX",
+      "role": "Intern Systems Engineer- (Onsite)",
+      "location": "CO-SCHRIEVER-AFB-CUST",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01867818?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3810,
+      "chat_id": 7582459199,
+      "seq": 2645,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01867818?s=gh-internships-2027|RTX|Intern Systems Engineer- (Onsite)|CO-SCHRIEVER-AFB-CUST|Summer 2027#1"
     }
   },
   "applied": {
@@ -38787,10 +38799,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2644,
+  "seq": 2645,
   "health": {
     "last_heartbeat": "2026-09-13T15:00:18Z",
-    "last_ok_run": "2026-09-13T15:10:13Z",
+    "last_ok_run": "2026-09-13T15:15:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
