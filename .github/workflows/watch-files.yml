@@ -42,6 +42,9 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_TOKEN: ${{ github.token }}
           DRY_RUN: ${{ inputs.dry_run || github.ref_name != github.event.repository.default_branch }}
+          # The same switch that gates the process_applies job, so the Applied button is only
+          # attached when something is actually there to answer the tap. One variable, both ends.
+          PROCESS_APPLIES: ${{ vars.PROCESS_APPLIES }}
         run: |
           python - <<'PY'
           import datetime
@@ -220,6 +223,12 @@ jobs:
           # RUN_DEADLINE checks are ever reached, because they all sit on the failure path.
           REQUEST_TIMEOUT = 30
           DRY_RUN = os.environ.get("DRY_RUN", "").strip().lower() == "true"
+          # Whether the application tracker is live. Unset means paused, which is the current
+          # state: no Applied button is attached, because no job runs to answer a tap on it.
+          # Pending records are still written either way -- they carry the message id, identity
+          # and sequence number that the alert log and the state migration read, so dropping
+          # them would cost far more than the button does.
+          APPLIES_ENABLED = os.environ.get("PROCESS_APPLIES", "").strip().lower() == "true"
           RUN_ID = os.environ.get("GITHUB_RUN_ID", "local")
           SILENCE_ALARM_AFTER = 2 * 3600  # gap without a successful run that is worth reporting
           ALARM_REPEAT_AFTER = 30 * 60  # min gap between repeats of one alarm kind
@@ -346,16 +355,18 @@ jobs:
                   return json.loads(resp.read().decode())
 
           def telegram_send_job(text, callback_data):
-              body = telegram_post("sendMessage", {
+              payload = {
                   "chat_id": os.environ["TELEGRAM_CHAT_ID"],
                   "text": text,
                   "disable_web_page_preview": True,
-                  "reply_markup": {
+              }
+              if APPLIES_ENABLED:
+                  payload["reply_markup"] = {
                       "inline_keyboard": [[
                           {"text": "Mark as Applied", "callback_data": callback_data}
                       ]],
-                  },
-              })
+                  }
+              body = telegram_post("sendMessage", payload)
               return body["result"]["message_id"], body["result"]["chat"]["id"]
 
           def telegram_send_text(text):
@@ -879,10 +890,28 @@ jobs:
 
   process_applies:
     needs: watch
-    # always() so taps are still processed when the watch job fails, but never on a dry run:
+    # !cancelled() so taps are still processed when the watch job fails, but never on a dry run:
     # this job appends to the Google Sheet, edits Telegram messages and commits .bot_state.json,
     # so leaving it ungated would make a supposed rehearsal mutate external state.
-    if: ${{ always() && !inputs.dry_run && github.ref_name == github.event.repository.default_branch }}
+    #
+    # It is deliberately *not* always(). A cancelled watch is overwhelmingly the runner-starvation
+    # case — the job never started, so there are no fresh alerts and nothing new to tap — and
+    # running anyway holds the repo-watcher-state concurrency group for a second no-runner wait
+    # while every dispatch behind it is cancelled. On 2026-08-06 that turned a 15-minute stall into
+    # 30 minutes of silence per stuck run (watch 17:17:49-17:32:50, then process_applies
+    # 17:32:51-17:47:53, neither ever assigned a runner). Taps are not lost by skipping: the offset
+    # only advances once this job commits, so the next run that does get a runner re-reads them.
+    #
+    # PAUSED 2026-08-06. The tracker is unused (1,094 alerts sent, 33 ever tapped) and this job
+    # costs the alert path real latency: it holds the repo-watcher-state concurrency group for its
+    # whole life, and because acquiring a runner takes minutes, that is ~5 minutes per run for ~15
+    # seconds of work (16:41:35-16:46:56 to run steps 16:45:45-16:46:00). Skipping it releases the
+    # group as soon as `watch` is done, so the next dispatch starts in ~4 minutes instead of ~9.
+    #
+    # Resume with no commit: set the repository variable PROCESS_APPLIES to `true` (Settings ->
+    # Secrets and variables -> Actions -> Variables). Unset or anything else keeps it paused.
+    # Nothing is lost while paused -- taps simply do not register.
+    if: ${{ vars.PROCESS_APPLIES == 'true' && !cancelled() && !inputs.dry_run && github.ref_name == github.event.repository.default_branch }}
     runs-on: ubuntu-latest
 
     steps:
