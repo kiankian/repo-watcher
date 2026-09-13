@@ -38456,6 +38456,18 @@
       "chat_id": 7582459199,
       "seq": 2647,
       "identity": "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003|Klaviyo|Software Engineer Intern - Summer 2027|Boston, MA|Other#1"
+    },
+    "f2f9a23bd619": {
+      "company": "ByteDance",
+      "role": "Software Engineer Intern (AML-Engine-Orchestration) - 2027 Start",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/bytedance-7671162985123907845?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3813,
+      "chat_id": 7582459199,
+      "seq": 2648,
+      "identity": "https://zapply.jobs/l/d/bytedance-7671162985123907845?s=gh-internships-2027|ByteDance|Software Engineer Intern (AML-Engine-Orchestration) - 2027 Start|San Jose, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -38823,10 +38835,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2647,
+  "seq": 2648,
   "health": {
     "last_heartbeat": "2026-09-13T19:20:16Z",
-    "last_ok_run": "2026-09-13T20:10:15Z",
+    "last_ok_run": "2026-09-13T20:15:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
