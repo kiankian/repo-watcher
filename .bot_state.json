@@ -39896,6 +39896,30 @@
       "chat_id": 7582459199,
       "seq": 2767,
       "identity": "https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054772?s=gh-internships-2027|Gilead Sciences|Intern - Development - DevOps Business Strategy|United States - California -...|Summer 2027#1"
+    },
+    "883e8e420148": {
+      "company": "LabCorp",
+      "role": "Intern - Software Developer",
+      "location": "Durham NC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-labcorp-external-2632330?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3933,
+      "chat_id": 7582459199,
+      "seq": 2768,
+      "identity": "https://zapply.jobs/l/d/workday-labcorp-external-2632330?s=gh-internships-2027|LabCorp|Intern - Software Developer|Durham NC|Summer 2027#1"
+    },
+    "8322a4cd27ba": {
+      "company": "Cisco",
+      "role": "Software Engineer Data & AI I (Intern) - United States",
+      "location": "San Jose California US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024510?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3934,
+      "chat_id": 7582459199,
+      "seq": 2769,
+      "identity": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024510?s=gh-internships-2027|Cisco|Software Engineer Data & AI I (Intern) - United States|San Jose California US|Summer 2027#1"
     }
   },
   "applied": {
@@ -40263,10 +40287,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2767,
+  "seq": 2769,
   "health": {
     "last_heartbeat": "2026-09-14T20:20:17Z",
-    "last_ok_run": "2026-09-14T21:20:13Z",
+    "last_ok_run": "2026-09-14T21:25:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
