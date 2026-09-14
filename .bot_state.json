@@ -40100,6 +40100,66 @@
       "chat_id": 7582459199,
       "seq": 2784,
       "identity": "https://zapply.jobs/l/d/ashby-sierra-34b31b67-268c-4270-b48f-72e59064c96e?s=gh-internships-2027|Sierra|Software Engineer Intern, Agent (Summer 2027)|San Francisco, CA|Summer 2027#1"
+    },
+    "4bbd7144ffae": {
+      "company": "Awardco",
+      "role": "Front-End Software Engineer Intern",
+      "location": "Lindon, UT",
+      "term": "Summer 2026",
+      "apply_url": "https://award.co/position?gh_jid=4136562004&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3950,
+      "chat_id": 7582459199,
+      "seq": 2785,
+      "identity": "https://award.co/position?gh_jid=4136562004&utm_source=Simplify&ref=Simplify|Awardco|Front-End Software Engineer Intern|Lindon, UT|Summer 2026#1"
+    },
+    "21521ac2dd95": {
+      "company": "Awardco",
+      "role": "Back-End Software Engineer Intern",
+      "location": "Lindon, UT",
+      "term": "Summer 2026",
+      "apply_url": "https://award.co/position?gh_jid=4322220004&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3951,
+      "chat_id": 7582459199,
+      "seq": 2786,
+      "identity": "https://award.co/position?gh_jid=4322220004&utm_source=Simplify&ref=Simplify|Awardco|Back-End Software Engineer Intern|Lindon, UT|Summer 2026#1"
+    },
+    "e7305bd45640": {
+      "company": "Western Digital",
+      "role": "Systems Architecture Co-op - AI Systems Strategy \ud83c\udf93",
+      "location": "Rochester, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/WesternDigital/744000149367234?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3952,
+      "chat_id": 7582459199,
+      "seq": 2787,
+      "identity": "https://jobs.smartrecruiters.com/WesternDigital/744000149367234?utm_source=Simplify&ref=Simplify|Western Digital|Systems Architecture Co-op - AI Systems Strategy \ud83c\udf93|Rochester, MN|Summer 2026#1"
+    },
+    "8cfe36971d6c": {
+      "company": "Workshop",
+      "role": "Software Engineer Intern",
+      "location": "Omaha, NE",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/workshop/jobs/5237900007?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3953,
+      "chat_id": 7582459199,
+      "seq": 2788,
+      "identity": "https://job-boards.greenhouse.io/workshop/jobs/5237900007?utm_source=Simplify&ref=Simplify|Workshop|Software Engineer Intern|Omaha, NE|Summer 2026#1"
+    },
+    "f8ef3efd3dca": {
+      "company": "CIBC",
+      "role": "Global Markets Analyst - Electronic Trading",
+      "location": "Toronto, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Global-Markets--Electronic-Trading---Summer-2027-Analyst--4-months-_2618801?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3954,
+      "chat_id": 7582459199,
+      "seq": 2789,
+      "identity": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Global-Markets--Electronic-Trading---Summer-2027-Analyst--4-months-_2618801?utm_source=Simplify&ref=Simplify|CIBC|Global Markets Analyst - Electronic Trading|Toronto, ON, Canada|Summer 2026#1"
     }
   },
   "applied": {
@@ -40467,10 +40527,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2784,
+  "seq": 2789,
   "health": {
     "last_heartbeat": "2026-09-14T21:30:16Z",
-    "last_ok_run": "2026-09-14T22:30:19Z",
+    "last_ok_run": "2026-09-14T22:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
