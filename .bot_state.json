@@ -39620,6 +39620,30 @@
       "chat_id": 7582459199,
       "seq": 2744,
       "identity": "https://caci.wd1.myworkdayjobs.com/external/job/437-DENVER-CO/Cleared-Software-Engineer-Intern---Summer-2027_331999?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern - Summer 2027|Remote in USA Sterling, VA Denver, CO|Summer 2026#1"
+    },
+    "8a29e573ef57": {
+      "company": "Lowe's",
+      "role": "Software Engineer \u2013 Undergrad Internship \u2013 Summer 2027",
+      "location": "Lowe's Charlotte Technology Hub...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-lowes-lws-external-cs-JR-02623576?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3910,
+      "chat_id": 7582459199,
+      "seq": 2745,
+      "identity": "https://zapply.jobs/l/d/workday-lowes-lws-external-cs-JR-02623576?s=gh-internships-2027|Lowe's|Software Engineer \u2013 Undergrad Internship \u2013 Summer 2027|Lowe's Charlotte Technology Hub...|Summer 2027#1"
+    },
+    "4f80d91fa5f4": {
+      "company": "Lowe's",
+      "role": "Exploratory Software Engineering - Undergrad Internship - Summer 2027",
+      "location": "Lowe's Charlotte Technology Hub...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-lowes-lws-external-cs-JR-02623542?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3911,
+      "chat_id": 7582459199,
+      "seq": 2746,
+      "identity": "https://zapply.jobs/l/d/workday-lowes-lws-external-cs-JR-02623542?s=gh-internships-2027|Lowe's|Exploratory Software Engineering - Undergrad Internship - Summer 2027|Lowe's Charlotte Technology Hub...|Summer 2027#1"
     }
   },
   "applied": {
@@ -39987,10 +40011,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2744,
+  "seq": 2746,
   "health": {
     "last_heartbeat": "2026-09-14T18:10:16Z",
-    "last_ok_run": "2026-09-14T19:10:13Z",
+    "last_ok_run": "2026-09-14T19:15:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
