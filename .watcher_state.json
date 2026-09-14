@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "7501d3a1fa121a4ea315b8e966e34544ab17cce6",
+    "last_sha": "fac65bed5ca64fc9651b4226c5579ea7af7dac38",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -1992,10 +1992,13 @@
       "https://jobs.statefarm.com/jobs/45592?icims=1&utm_source=Simplify&ref=Simplify|State Farm|Mainframe Software Engineer Intern - Enterprise Technology|4 locationsTempe, AZ Dunwoody, GA Richardson, TX Bloomington, IL|Summer 2026#1",
       "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Technology-Summer-Internship---Early-Careers--Software-Engineering-_R-574285?utm_source=Simplify&ref=Simplify|Wells Fargo|Software Engineer Intern - Early Careers - Software Engineering|6 locationsIselin, Woodbridge Township, NJ Charlotte, NC St. Louis, MO Phoenix, AZ Chandler, AZ Irving, TX|Summer 2026#1",
       "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Huntersville-North-Carolina-United-States/Software-Engineer-Intern---Summer-2027_R50321?utm_source=Simplify&ref=Simplify|Oshkosh|Software Engineer Intern|Huntersville, NC|Summer 2026#1",
-      "https://aksteel.wd1.myworkdayjobs.com/careers/job/Rockport-Works/Computer-Science-Engineering-Intern_R13553?utm_source=Simplify&ref=Simplify|Cleveland-Cliffs|Computer Science Engineer Intern|Rockport, IN|Summer 2026#1"
+      "https://aksteel.wd1.myworkdayjobs.com/careers/job/Rockport-Works/Computer-Science-Engineering-Intern_R13553?utm_source=Simplify&ref=Simplify|Cleveland-Cliffs|Computer Science Engineer Intern|Rockport, IN|Summer 2026#1",
+      "https://costar.wd1.myworkdayjobs.com/Costar_Campus/job/US-TN-Nashville/Technology-Intern---Nashville--TN--Summer-2027-_R39670?utm_source=Simplify&ref=Simplify|CoStar Group|Technology Intern - Multiple Teams|Nashville, TN|Summer 2026#1",
+      "https://costar.wd1.myworkdayjobs.com/Costar_Campus/job/US-VA-Arlington/Technology-Intern---Arlington--VA--Summer-2027-_R39666?utm_source=Simplify&ref=Simplify|CoStar Group|Technology Intern|Arlington County, Arlington, VA|Summer 2026#1",
+      "https://costar.wd1.myworkdayjobs.com/Costar_Campus/job/US-VA-Richmond---CoStar-Tower/Technology-Intern---Richmond--VA--Summer-2027-_R39665?utm_source=Simplify&ref=Simplify|CoStar Group|Technology Intern - Summer 2027|Richmond, VA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 546,
+    "last_row_count": 550,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -2317,7 +2320,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "4e1ca24021e9594cb6a4945fcdfd996d22327777",
+    "last_sha": "60737656a02b3beca86c30b3c32462e8053ecdc8",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -3523,7 +3526,11 @@
       "https://zapply.jobs/l/d/greenhouse-fspco-op012325-8796996002?s=gh-internships-2027|Flagship Pioneering|Flagship Pioneering: AI Automation Engineering Co-Op|Cambridge, MA USA|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-lowes-lws-external-cs-JR-02648572?s=gh-internships-2027|Lowe's|Quality Assurance Engineering - Undergrad Internship - Summer 2027|Mooresville, NC (SSC) 1999|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-574294?s=gh-internships-2027|Wells Fargo|2027 Technology Summer Internship \u2013 Early Careers (Software Engineering - California)|SAN FRANCISCO, CA|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-574285?s=gh-internships-2027|Wells Fargo|2027 Technology Summer Internship \u2013 Early Careers (Software Engineering)|CHARLOTTE, NC|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-574285?s=gh-internships-2027|Wells Fargo|2027 Technology Summer Internship \u2013 Early Careers (Software Engineering)|CHARLOTTE, NC|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-copart-copart-JR109673?s=gh-internships-2027|Copart|Software Engineering Intern|Dallas, TX - Headquarters|Summer 2027#1",
+      "https://zapply.jobs/l/d/oracle-dell-technologies-297773?s=gh-internships-2027|Dell Technologies|ISG Software Engineering Undergrad Internship|Round Rock, TX, United States|Summer 2027#1",
+      "https://zapply.jobs/l/d/oracle-dell-technologies-299004?s=gh-internships-2027|Dell Technologies|Cybersecurity Undergraduate Intern|Round Rock, TX, United States|Summer 2027#1",
+      "https://zapply.jobs/l/d/oracle-dell-technologies-299002?s=gh-internships-2027|Dell Technologies|Product & Application Security Intern Undergraduate Intern|Round Rock, TX, United States|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
