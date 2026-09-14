@@ -39524,6 +39524,90 @@
       "chat_id": 7582459199,
       "seq": 2736,
       "identity": "https://zapply.jobs/l/d/greenhouse-figma-6143238004?s=gh-internships-2027|Figma|Software Engineer Intern (Summer 2027)|San Francisco, CA \u2022 New York, NY|Summer 2027#1"
+    },
+    "959447dedf4c": {
+      "company": "Emerson Electric",
+      "role": "Software Engineer Co-op",
+      "location": "Eden Prairie, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010048?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3902,
+      "chat_id": 7582459199,
+      "seq": 2737,
+      "identity": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010048?utm_source=Simplify&ref=Simplify|Emerson Electric|Software Engineer Co-op|Eden Prairie, MN|Summer 2026#1"
+    },
+    "aee0bf50ade9": {
+      "company": "Genworth Financial",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3903,
+      "chat_id": 7582459199,
+      "seq": 2738,
+      "identity": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367-1?utm_source=Simplify&ref=Simplify|Genworth Financial|Software Engineer Intern|Raleigh, NC|Summer 2026#1"
+    },
+    "4838f97b2560": {
+      "company": "Enact Mortgage Insurance",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://gnw.wd1.myworkdayjobs.com/enact_mi/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3904,
+      "chat_id": 7582459199,
+      "seq": 2739,
+      "identity": "https://gnw.wd1.myworkdayjobs.com/enact_mi/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367?utm_source=Simplify&ref=Simplify|Enact Mortgage Insurance|Software Engineer Intern|Raleigh, NC|Summer 2026#1"
+    },
+    "01d552cc7a8c": {
+      "company": "Wex",
+      "role": "Backend Software Engineer Intern - C#, Cloud Security & AI (Undergraduate)",
+      "location": "Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22589?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3905,
+      "chat_id": 7582459199,
+      "seq": 2740,
+      "identity": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22589?s=gh-internships-2027|Wex|Backend Software Engineer Intern - C#, Cloud Security & AI (Undergraduate)|Remote|Summer 2027#1"
+    },
+    "c86ad6c115da": {
+      "company": "Wex",
+      "role": "Backend Software Engineer Intern - C#/Java & AI Workflows (Undergraduate)",
+      "location": "Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22586?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3906,
+      "chat_id": 7582459199,
+      "seq": 2741,
+      "identity": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22586?s=gh-internships-2027|Wex|Backend Software Engineer Intern - C#/Java & AI Workflows (Undergraduate)|Remote|Summer 2027#1"
+    },
+    "cc722d0e0e42": {
+      "company": "Wex",
+      "role": "Backend Software Engineer Intern (Undergraduate)",
+      "location": "Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22593?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3907,
+      "chat_id": 7582459199,
+      "seq": 2742,
+      "identity": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22593?s=gh-internships-2027|Wex|Backend Software Engineer Intern (Undergraduate)|Remote|Summer 2027#1"
+    },
+    "f156add51321": {
+      "company": "SingleStore",
+      "role": "Software Engineer Intern",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-singlestore-8154399?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3908,
+      "chat_id": 7582459199,
+      "seq": 2743,
+      "identity": "https://zapply.jobs/l/d/greenhouse-singlestore-8154399?s=gh-internships-2027|SingleStore|Software Engineer Intern|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -39891,10 +39975,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2736,
+  "seq": 2743,
   "health": {
     "last_heartbeat": "2026-09-14T18:10:16Z",
-    "last_ok_run": "2026-09-14T18:30:19Z",
+    "last_ok_run": "2026-09-14T18:35:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
