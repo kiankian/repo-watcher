@@ -39440,6 +39440,18 @@
       "chat_id": 7582459199,
       "seq": 2729,
       "identity": "https://moog.wd5.myworkdayjobs.com/en-US/moog_external_career_site/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053|Moog|Intern - Embedded Design Engineering|Blacksburg, VA|Other#1"
+    },
+    "63f7f3a03dc3": {
+      "company": "Wells Fargo",
+      "role": "Software Engineering Intern - Early Careers - Software Engineering",
+      "location": "Concord, CA SF San Leandro, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/SAN-FRANCISCO-CA/XMLNAME-2027-Technology-Summer-Internship---Early-Careers--Software-Engineering---California-_R-574294?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3895,
+      "chat_id": 7582459199,
+      "seq": 2730,
+      "identity": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/SAN-FRANCISCO-CA/XMLNAME-2027-Technology-Summer-Internship---Early-Careers--Software-Engineering---California-_R-574294?utm_source=Simplify&ref=Simplify|Wells Fargo|Software Engineering Intern - Early Careers - Software Engineering|Concord, CA SF San Leandro, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -39807,10 +39819,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2729,
+  "seq": 2730,
   "health": {
     "last_heartbeat": "2026-09-14T17:00:19Z",
-    "last_ok_run": "2026-09-14T18:00:29Z",
+    "last_ok_run": "2026-09-14T18:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
