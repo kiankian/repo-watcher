@@ -40088,6 +40088,18 @@
       "chat_id": 7582459199,
       "seq": 2783,
       "identity": "https://zapply.jobs/l/d/greenhouse-waymo-8198218?s=gh-internships-2027|Waymo|2027 Summer Intern, BS/MS, Software Engineering, Commercialization|Mountain View, California,...|Summer 2027#1"
+    },
+    "d844d1767ac9": {
+      "company": "Sierra",
+      "role": "Software Engineer Intern, Agent (Summer 2027)",
+      "location": "San Francisco, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-sierra-34b31b67-268c-4270-b48f-72e59064c96e?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3949,
+      "chat_id": 7582459199,
+      "seq": 2784,
+      "identity": "https://zapply.jobs/l/d/ashby-sierra-34b31b67-268c-4270-b48f-72e59064c96e?s=gh-internships-2027|Sierra|Software Engineer Intern, Agent (Summer 2027)|San Francisco, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -40455,10 +40467,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2783,
+  "seq": 2784,
   "health": {
     "last_heartbeat": "2026-09-14T21:30:16Z",
-    "last_ok_run": "2026-09-14T22:05:12Z",
+    "last_ok_run": "2026-09-14T22:10:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
