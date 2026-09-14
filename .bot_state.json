@@ -40064,6 +40064,30 @@
       "chat_id": 7582459199,
       "seq": 2781,
       "identity": "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineer-Co-Op--Summer-2027-_R-03264-1?utm_source=Simplify&ref=Simplify|Saab|Software Engineer Co-op|East Syracuse, NY|Summer 2026#1"
+    },
+    "2c3ea1f62954": {
+      "company": "Tencent",
+      "role": "Cyber Security Engineer Intern",
+      "location": "California-Palo Alto",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108141?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3947,
+      "chat_id": 7582459199,
+      "seq": 2782,
+      "identity": "https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108141?s=gh-internships-2027|Tencent|Cyber Security Engineer Intern|California-Palo Alto|Summer 2027#1"
+    },
+    "1bf8971e7641": {
+      "company": "Waymo",
+      "role": "2027 Summer Intern, BS/MS, Software Engineering, Commercialization",
+      "location": "Mountain View, California,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-waymo-8198218?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3948,
+      "chat_id": 7582459199,
+      "seq": 2783,
+      "identity": "https://zapply.jobs/l/d/greenhouse-waymo-8198218?s=gh-internships-2027|Waymo|2027 Summer Intern, BS/MS, Software Engineering, Commercialization|Mountain View, California,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -40431,10 +40455,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2781,
+  "seq": 2783,
   "health": {
     "last_heartbeat": "2026-09-14T21:30:16Z",
-    "last_ok_run": "2026-09-14T21:40:16Z",
+    "last_ok_run": "2026-09-14T21:45:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
