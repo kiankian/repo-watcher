@@ -38528,6 +38528,30 @@
       "chat_id": 7582459199,
       "seq": 2653,
       "identity": "https://zapply.jobs/l/d/ashby-whatnot-928ffdca-b316-40ce-b82b-94b570919bcd?s=gh-internships-2027|Whatnot|Software Engineer Intern (Summer 2027)|San Francisco, CA|Summer 2027#1"
+    },
+    "83dcbada1bf0": {
+      "company": "RTX",
+      "role": "Systems Engineering Intern- Onsite",
+      "location": "MA-MARLBOROUGH-MA1",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873911?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3819,
+      "chat_id": 7582459199,
+      "seq": 2654,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873911?s=gh-internships-2027|RTX|Systems Engineering Intern- Onsite|MA-MARLBOROUGH-MA1|Summer 2027#1"
+    },
+    "11fb0df28711": {
+      "company": "RTX",
+      "role": "Systems Engineering Intern- Onsite",
+      "location": "MA-TEWKSBURY-TB1",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874255?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3820,
+      "chat_id": 7582459199,
+      "seq": 2655,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874255?s=gh-internships-2027|RTX|Systems Engineering Intern- Onsite|MA-TEWKSBURY-TB1|Summer 2027#1"
     }
   },
   "applied": {
@@ -38895,10 +38919,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2653,
+  "seq": 2655,
   "health": {
     "last_heartbeat": "2026-09-14T04:55:15Z",
-    "last_ok_run": "2026-09-14T04:55:15Z",
+    "last_ok_run": "2026-09-14T05:00:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
