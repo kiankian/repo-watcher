@@ -39692,6 +39692,78 @@
       "chat_id": 7582459199,
       "seq": 2750,
       "identity": "https://zapply.jobs/l/d/workday-micron-external-JR110641?s=gh-internships-2027|Micron Technology|Intern - PHY Digital Design & Automation Engineer, HBM|Richardson, TX|Summer 2027#1"
+    },
+    "72a130af06a5": {
+      "company": "National Life",
+      "role": "IT Application Development Intern",
+      "location": "Montpelier, VT Addison, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4402184009?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3916,
+      "chat_id": 7582459199,
+      "seq": 2751,
+      "identity": "https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4402184009?utm_source=Simplify&ref=Simplify|National Life|IT Application Development Intern|Montpelier, VT Addison, TX|Summer 2026#1"
+    },
+    "96debc8417c0": {
+      "company": "Tive",
+      "role": "Software Engineer Co-op",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://ats.rippling.com/tive-careers/jobs/c88ab3d3-a8e7-4639-b95b-d6c9b5290dd0?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3917,
+      "chat_id": 7582459199,
+      "seq": 2752,
+      "identity": "https://ats.rippling.com/tive-careers/jobs/c88ab3d3-a8e7-4639-b95b-d6c9b5290dd0?utm_source=Simplify&ref=Simplify|Tive|Software Engineer Co-op|Boston, MA|Summer 2026#1"
+    },
+    "d8f3b1e2942a": {
+      "company": "\ud83d\udd25 Figma",
+      "role": "Software Engineer Intern - Multiple Teams",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/figma/jobs/6152695004?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3918,
+      "chat_id": 7582459199,
+      "seq": 2753,
+      "identity": "https://boards.greenhouse.io/figma/jobs/6152695004?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Figma|Software Engineer Intern - Multiple Teams|London, UK|Summer 2026#1"
+    },
+    "3dac12ad389f": {
+      "company": "\ud83d\udd25 Figma",
+      "role": "Software Engineer Intern",
+      "location": "SF NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/figma/jobs/6143238004?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3919,
+      "chat_id": 7582459199,
+      "seq": 2754,
+      "identity": "https://boards.greenhouse.io/figma/jobs/6143238004?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Figma|Software Engineer Intern|SF NYC|Summer 2026#1"
+    },
+    "368e5cc57c7b": {
+      "company": "Northrop Grumman",
+      "role": "Software Engineer Intern - Aeronautics Systems",
+      "location": "4 locationsRedondo Beach, CA Palmdale, CA San Diego, CA El Segundo, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Software-Engineer_R10250669?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3920,
+      "chat_id": 7582459199,
+      "seq": 2755,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Software-Engineer_R10250669?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Engineer Intern - Aeronautics Systems|4 locationsRedondo Beach, CA Palmdale, CA San Diego, CA El Segundo, CA|Summer 2026#1"
+    },
+    "e3afbecb2b6b": {
+      "company": "Demco Products",
+      "role": "IT Intern",
+      "location": "Boyden, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4492652?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3921,
+      "chat_id": 7582459199,
+      "seq": 2756,
+      "identity": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4492652?utm_source=Simplify&ref=Simplify|Demco Products|IT Intern|Boyden, IA|Summer 2026#1"
     }
   },
   "applied": {
@@ -40059,10 +40131,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2750,
+  "seq": 2756,
   "health": {
     "last_heartbeat": "2026-09-14T19:20:16Z",
-    "last_ok_run": "2026-09-14T20:00:19Z",
+    "last_ok_run": "2026-09-14T20:05:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
