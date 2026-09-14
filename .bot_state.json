@@ -39608,6 +39608,18 @@
       "chat_id": 7582459199,
       "seq": 2743,
       "identity": "https://zapply.jobs/l/d/greenhouse-singlestore-8154399?s=gh-internships-2027|SingleStore|Software Engineer Intern|United States|Summer 2027#1"
+    },
+    "1ce918edc258": {
+      "company": "CACI",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Remote in USA Sterling, VA Denver, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/external/job/437-DENVER-CO/Cleared-Software-Engineer-Intern---Summer-2027_331999?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3909,
+      "chat_id": 7582459199,
+      "seq": 2744,
+      "identity": "https://caci.wd1.myworkdayjobs.com/external/job/437-DENVER-CO/Cleared-Software-Engineer-Intern---Summer-2027_331999?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern - Summer 2027|Remote in USA Sterling, VA Denver, CO|Summer 2026#1"
     }
   },
   "applied": {
@@ -39975,10 +39987,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2743,
+  "seq": 2744,
   "health": {
     "last_heartbeat": "2026-09-14T18:10:16Z",
-    "last_ok_run": "2026-09-14T19:00:23Z",
+    "last_ok_run": "2026-09-14T19:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
