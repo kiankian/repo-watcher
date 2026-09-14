@@ -38660,6 +38660,18 @@
       "chat_id": 7582459199,
       "seq": 2664,
       "identity": "https://zapply.jobs/l/d/greenhouse-robinhood-8123225?s=gh-internships-2027|Robinhood|Software Engineering Intern, Backend (Summer 2027)|Bellevue, WA|Summer 2027#1"
+    },
+    "a02c1afdd53a": {
+      "company": "Oshkosh Corporation",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Huntersville, North Carolina,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R50321?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3830,
+      "chat_id": 7582459199,
+      "seq": 2665,
+      "identity": "https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R50321?s=gh-internships-2027|Oshkosh Corporation|Software Engineer Intern - Summer 2027|Huntersville, North Carolina,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -39027,10 +39039,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2664,
+  "seq": 2665,
   "health": {
     "last_heartbeat": "2026-09-14T12:45:15Z",
-    "last_ok_run": "2026-09-14T12:45:15Z",
+    "last_ok_run": "2026-09-14T12:50:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
