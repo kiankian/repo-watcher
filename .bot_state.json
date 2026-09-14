@@ -38624,6 +38624,42 @@
       "chat_id": 7582459199,
       "seq": 2661,
       "identity": "https://zapply.jobs/l/d/sr-CapTechConsulting-744000146449269?s=gh-internships-2027|CapTech Consulting|Software Engineering Associate Consultant (Graduating Dec. 2026 - Summer 2027)|Richmond, VA|Summer 2027#1"
+    },
+    "7d8be0b18a72": {
+      "company": "Robinhood",
+      "role": "Software Engineering Intern, Android (Summer 2027)",
+      "location": "Menlo Park, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-robinhood-8142961?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3827,
+      "chat_id": 7582459199,
+      "seq": 2662,
+      "identity": "https://zapply.jobs/l/d/greenhouse-robinhood-8142961?s=gh-internships-2027|Robinhood|Software Engineering Intern, Android (Summer 2027)|Menlo Park, CA|Summer 2027#1"
+    },
+    "46de86b1cc8b": {
+      "company": "Robinhood",
+      "role": "Software Engineering Intern, iOS (Summer 2027)",
+      "location": "Menlo Park, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-robinhood-8142959?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3828,
+      "chat_id": 7582459199,
+      "seq": 2663,
+      "identity": "https://zapply.jobs/l/d/greenhouse-robinhood-8142959?s=gh-internships-2027|Robinhood|Software Engineering Intern, iOS (Summer 2027)|Menlo Park, CA|Summer 2027#1"
+    },
+    "3977ee530e42": {
+      "company": "Robinhood",
+      "role": "Software Engineering Intern, Backend (Summer 2027)",
+      "location": "Bellevue, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-robinhood-8123225?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3829,
+      "chat_id": 7582459199,
+      "seq": 2664,
+      "identity": "https://zapply.jobs/l/d/greenhouse-robinhood-8123225?s=gh-internships-2027|Robinhood|Software Engineering Intern, Backend (Summer 2027)|Bellevue, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -38991,10 +39027,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2661,
+  "seq": 2664,
   "health": {
     "last_heartbeat": "2026-09-14T11:45:15Z",
-    "last_ok_run": "2026-09-14T12:15:14Z",
+    "last_ok_run": "2026-09-14T12:20:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
