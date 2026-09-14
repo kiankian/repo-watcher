@@ -2322,7 +2322,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "7a07442d8baac5986e9e87ef6597ed28007bbe23",
+    "last_sha": "d8a1de8ebbfd0e2d927dfb980af8f39283f30695",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -3707,7 +3707,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "6e4a6dc30978931e7bdbae094dbef2915fc488d7",
+    "last_sha": "8907df8fbd7802b89f36d407f66bc25269aee41b",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -3852,7 +3852,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "6e4a6dc30978931e7bdbae094dbef2915fc488d7",
+    "last_sha": "8907df8fbd7802b89f36d407f66bc25269aee41b",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -3892,7 +3892,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "6e4a6dc30978931e7bdbae094dbef2915fc488d7",
+    "last_sha": "8907df8fbd7802b89f36d407f66bc25269aee41b",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -4501,7 +4501,13 @@
       "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-109--400-Collins-Rd-NE--BLDG-109/Co-Op--Software-Engineer--Onsite_01871298|Raytheon|Co-Op - Software Engineer- Onsite|Cedar Rapids, IA|Other#1",
       "https://careersus-shure.icims.com/jobs/4975/cloud-devops-engineer-intern/job|Shure|Cloud DevOps Engineer Intern|Niles, IL|Other#1",
       "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989365003|Klaviyo|Software Engineer Co-op - Spring 2027|Boston, MA|Other#1",
-      "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003|Klaviyo|Software Engineer Intern - Summer 2027|Boston, MA|Other#1"
+      "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003|Klaviyo|Software Engineer Intern - Summer 2027|Boston, MA|Other#1",
+      "https://redhat.wd5.myworkdayjobs.com/en-US/jobs/job/Waterford-City/Software-Engineering-Internship---Agent-Operations--Waterford-Dublin-office--Ireland-_R-059228|Red Hat|Software Engineering Internship - Agent Operations - Waterford/Dublin office - Ireland|Waterford, Ireland +2|Other#1",
+      "https://redhat.wd5.myworkdayjobs.com/en-US/jobs/job/Dublin---MSO/Software-Engineering-Intern---OpenShift-AI--Dublin-office--Ireland-_R-059198|Red Hat|Software Engineering Intern - OpenShift AI - Dublin office - Ireland|Dublin, Ireland +1|Other#1",
+      "https://autostore.wd3.myworkdayjobs.com/en-US/autostore/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692|AutoStore|Co-Op - Software Engineering|Atlanta, GA|Other#1",
+      "https://allegion.wd5.myworkdayjobs.com/en-US/careers/job/Carmel-IN/Summer-Intern---Marketing--Global-Software-Solutions--GSS-_JR37435-2|Allegion|Summer Intern - Marketing - Global Software Solutions - GSS|Remote - Indiana, USA|Other#1",
+      "https://directsupply.wd501.myworkdayjobs.com/en-US/direct-supply-careers/job/Milwaukee-WI/Software-Engineer-Intern_REQ-2026-2559|Direct Supply|Software Engineer Intern|Milwaukee, WI|Other#1",
+      "https://moog.wd5.myworkdayjobs.com/en-US/moog_external_career_site/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053|Moog|Intern - Embedded Design Engineering|Blacksburg, VA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -4645,7 +4651,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 452,
+    "last_row_count": 455,
     "outbox": []
   }
 }
