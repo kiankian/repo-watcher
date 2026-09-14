@@ -38744,6 +38744,18 @@
       "chat_id": 7582459199,
       "seq": 2671,
       "identity": "https://zapply.jobs/l/d/google-139129176165622470?s=gh-internships-2027|Google|Security Consultant Intern, BS/MS, Summer 2027|United States|Summer 2027#1"
+    },
+    "85a8041d2c8c": {
+      "company": "LSEG",
+      "role": "Engineering Intern - Multiple Teams",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/London-United-Kingdom/Engineering-Summer-Internship-Programme_R0123389-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3837,
+      "chat_id": 7582459199,
+      "seq": 2672,
+      "identity": "https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/London-United-Kingdom/Engineering-Summer-Internship-Programme_R0123389-1?utm_source=Simplify&ref=Simplify|LSEG|Engineering Intern - Multiple Teams|London, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -39111,10 +39123,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2671,
+  "seq": 2672,
   "health": {
     "last_heartbeat": "2026-09-14T13:45:16Z",
-    "last_ok_run": "2026-09-14T14:00:23Z",
+    "last_ok_run": "2026-09-14T14:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
