@@ -38756,6 +38756,66 @@
       "chat_id": 7582459199,
       "seq": 2672,
       "identity": "https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/London-United-Kingdom/Engineering-Summer-Internship-Programme_R0123389-1?utm_source=Simplify&ref=Simplify|LSEG|Engineering Intern - Multiple Teams|London, UK|Summer 2026#1"
+    },
+    "5262b046ec26": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "IN-INDIANAPOLIS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874145?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3838,
+      "chat_id": 7582459199,
+      "seq": 2673,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874145?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IN-INDIANAPOLIS|Summer 2027#1"
+    },
+    "1b5dc159fc14": {
+      "company": "CACI",
+      "role": "Cleared Software Engineer Intern - Summer 2027",
+      "location": "437 DENVER, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-caci-external-331999?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3839,
+      "chat_id": 7582459199,
+      "seq": 2674,
+      "identity": "https://zapply.jobs/l/d/workday-caci-external-331999?s=gh-internships-2027|CACI|Cleared Software Engineer Intern - Summer 2027|437 DENVER, CO|Summer 2027#1"
+    },
+    "7b94a4ec6891": {
+      "company": "CoStar Group",
+      "role": "Security Engineer Intern - Arlington, VA",
+      "location": "VA Arlington",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-costar-costar-campus-R39727?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3840,
+      "chat_id": 7582459199,
+      "seq": 2675,
+      "identity": "https://zapply.jobs/l/d/workday-costar-costar-campus-R39727?s=gh-internships-2027|CoStar Group|Security Engineer Intern - Arlington, VA|VA Arlington|Summer 2027#1"
+    },
+    "165edb17c04d": {
+      "company": "CoStar Group",
+      "role": "Security Engineer Intern - Richmond, VA",
+      "location": "VA Richmond",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-costar-costar-campus-R39726?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3841,
+      "chat_id": 7582459199,
+      "seq": 2676,
+      "identity": "https://zapply.jobs/l/d/workday-costar-costar-campus-R39726?s=gh-internships-2027|CoStar Group|Security Engineer Intern - Richmond, VA|VA Richmond|Summer 2027#1"
+    },
+    "fb695587623a": {
+      "company": "Flagship Pioneering",
+      "role": "Flagship Pioneering: AI Automation Engineering Co-Op",
+      "location": "Cambridge, MA USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-fspco-op012325-8796996002?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3842,
+      "chat_id": 7582459199,
+      "seq": 2677,
+      "identity": "https://zapply.jobs/l/d/greenhouse-fspco-op012325-8796996002?s=gh-internships-2027|Flagship Pioneering|Flagship Pioneering: AI Automation Engineering Co-Op|Cambridge, MA USA|Summer 2027#1"
     }
   },
   "applied": {
@@ -39123,10 +39183,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2672,
+  "seq": 2677,
   "health": {
     "last_heartbeat": "2026-09-14T13:45:16Z",
-    "last_ok_run": "2026-09-14T14:05:17Z",
+    "last_ok_run": "2026-09-14T14:10:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
