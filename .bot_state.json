@@ -38468,6 +38468,42 @@
       "chat_id": 7582459199,
       "seq": 2648,
       "identity": "https://zapply.jobs/l/d/bytedance-7671162985123907845?s=gh-internships-2027|ByteDance|Software Engineer Intern (AML-Engine-Orchestration) - 2027 Start|San Jose, California|Summer 2027#1"
+    },
+    "b0ce206ff836": {
+      "company": "TD Bank",
+      "role": "2027 Summer Internship Program - Global Technology & Solutions - Cloud/DevOps",
+      "location": "Mount Laurel, New Jersey",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1510799?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3814,
+      "chat_id": 7582459199,
+      "seq": 2649,
+      "identity": "https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1510799?s=gh-internships-2027|TD Bank|2027 Summer Internship Program - Global Technology & Solutions - Cloud/DevOps|Mount Laurel, New Jersey|Summer 2027#1"
+    },
+    "15e75b3ddf0e": {
+      "company": "TD Bank",
+      "role": "2027 Summer Internship Program - Global Technology & Solutions - Quality Engineer",
+      "location": "Mount Laurel, New Jersey",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1510798?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3815,
+      "chat_id": 7582459199,
+      "seq": 2650,
+      "identity": "https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1510798?s=gh-internships-2027|TD Bank|2027 Summer Internship Program - Global Technology & Solutions - Quality Engineer|Mount Laurel, New Jersey|Summer 2027#1"
+    },
+    "dd56300678fd": {
+      "company": "TD Bank",
+      "role": "2027 Summer Internship Program - Global Technology & Solutions - Software Engineer (SWE)",
+      "location": "Mount Laurel, New Jersey",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1510796?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3816,
+      "chat_id": 7582459199,
+      "seq": 2651,
+      "identity": "https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1510796?s=gh-internships-2027|TD Bank|2027 Summer Internship Program - Global Technology & Solutions - Software Engineer (SWE)|Mount Laurel, New Jersey|Summer 2027#1"
     }
   },
   "applied": {
@@ -38835,10 +38871,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2648,
+  "seq": 2651,
   "health": {
     "last_heartbeat": "2026-09-13T23:45:14Z",
-    "last_ok_run": "2026-09-14T00:25:12Z",
+    "last_ok_run": "2026-09-14T00:30:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
