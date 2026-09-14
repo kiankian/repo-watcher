@@ -38564,6 +38564,42 @@
       "chat_id": 7582459199,
       "seq": 2656,
       "identity": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-590403?s=gh-internships-2027|Philips|Intern \u2013 Software Engineering \u2013 Plymouth, MN \u2013 Summer 2027|Plymouth, Minnesota, United States|Summer 2027#1"
+    },
+    "6a1be7804aa5": {
+      "company": "Philips",
+      "role": "Software Engineer Intern",
+      "location": "Plymouth, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3822,
+      "chat_id": 7582459199,
+      "seq": 2657,
+      "identity": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403?utm_source=Simplify&ref=Simplify|Philips|Software Engineer Intern|Plymouth, MN|Summer 2026#1"
+    },
+    "9dcec891c63c": {
+      "company": "Guardian Life",
+      "role": "Summer Intern - Digital & Technology - AI & Machine Learning",
+      "location": "Holmdel, NJ NYC Bethlehem, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---AI---Machine-Learning_R000110205?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3823,
+      "chat_id": 7582459199,
+      "seq": 2658,
+      "identity": "https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---AI---Machine-Learning_R000110205?utm_source=Simplify&ref=Simplify|Guardian Life|Summer Intern - Digital & Technology - AI & Machine Learning|Holmdel, NJ NYC Bethlehem, PA|Summer 2026#1"
+    },
+    "322ccae787ff": {
+      "company": "Guardian Life",
+      "role": "Application Development Intern - Digital & Technology",
+      "location": "Holmdel, NJ NYC Bethlehem, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Application-Development_R000110209?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3824,
+      "chat_id": 7582459199,
+      "seq": 2659,
+      "identity": "https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Application-Development_R000110209?utm_source=Simplify&ref=Simplify|Guardian Life|Application Development Intern - Digital & Technology|Holmdel, NJ NYC Bethlehem, PA|Summer 2026#1"
     }
   },
   "applied": {
@@ -38931,10 +38967,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2656,
+  "seq": 2659,
   "health": {
     "last_heartbeat": "2026-09-14T06:10:15Z",
-    "last_ok_run": "2026-09-14T06:30:18Z",
+    "last_ok_run": "2026-09-14T06:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
