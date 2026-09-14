@@ -39452,6 +39452,78 @@
       "chat_id": 7582459199,
       "seq": 2730,
       "identity": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/SAN-FRANCISCO-CA/XMLNAME-2027-Technology-Summer-Internship---Early-Careers--Software-Engineering---California-_R-574294?utm_source=Simplify&ref=Simplify|Wells Fargo|Software Engineering Intern - Early Careers - Software Engineering|Concord, CA SF San Leandro, CA|Summer 2026#1"
+    },
+    "a92cece5dce9": {
+      "company": "Wex",
+      "role": "DevOps & Backend Software Engineer Intern (Undergraduate)",
+      "location": "Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22584?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3896,
+      "chat_id": 7582459199,
+      "seq": 2731,
+      "identity": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22584?s=gh-internships-2027|Wex|DevOps & Backend Software Engineer Intern (Undergraduate)|Remote|Summer 2027#1"
+    },
+    "1c283ff17ae1": {
+      "company": "Wex",
+      "role": "Backend Software Engineer Intern - Java & AI (Master\u2019s)",
+      "location": "Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22547?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3897,
+      "chat_id": 7582459199,
+      "seq": 2732,
+      "identity": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22547?s=gh-internships-2027|Wex|Backend Software Engineer Intern - Java & AI (Master\u2019s)|Remote|Summer 2027#1"
+    },
+    "c594f22f2830": {
+      "company": "Wex",
+      "role": "Software Engineer Intern \u2013 AI & Cloud (Graduate/Master\u2019s)",
+      "location": "Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22546?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3898,
+      "chat_id": 7582459199,
+      "seq": 2733,
+      "identity": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22546?s=gh-internships-2027|Wex|Software Engineer Intern \u2013 AI & Cloud (Graduate/Master\u2019s)|Remote|Summer 2027#1"
+    },
+    "9ea469c962a4": {
+      "company": "Northrop Grumman",
+      "role": "2027 Intern Software Engineer",
+      "location": "4 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10250669?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3899,
+      "chat_id": 7582459199,
+      "seq": 2734,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10250669?s=gh-internships-2027|Northrop Grumman|2027 Intern Software Engineer|4 Locations|Summer 2027#1"
+    },
+    "3f4adc343bce": {
+      "company": "RTX",
+      "role": "Systems Engineering Intern (Summer 2027)",
+      "location": "NM-WHITE SANDS-LC38",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872539?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3900,
+      "chat_id": 7582459199,
+      "seq": 2735,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872539?s=gh-internships-2027|RTX|Systems Engineering Intern (Summer 2027)|NM-WHITE SANDS-LC38|Summer 2027#1"
+    },
+    "1298f7fffb92": {
+      "company": "Figma",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "San Francisco, CA \u2022 New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-figma-6143238004?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3901,
+      "chat_id": 7582459199,
+      "seq": 2736,
+      "identity": "https://zapply.jobs/l/d/greenhouse-figma-6143238004?s=gh-internships-2027|Figma|Software Engineer Intern (Summer 2027)|San Francisco, CA \u2022 New York, NY|Summer 2027#1"
     }
   },
   "applied": {
@@ -39819,10 +39891,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2730,
+  "seq": 2736,
   "health": {
     "last_heartbeat": "2026-09-14T18:10:16Z",
-    "last_ok_run": "2026-09-14T18:10:16Z",
+    "last_ok_run": "2026-09-14T18:15:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
