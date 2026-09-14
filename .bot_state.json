@@ -39320,6 +39320,18 @@
       "chat_id": 7582459199,
       "seq": 2719,
       "identity": "https://careers.withwaymo.com/jobs?gh_jid=8193731&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|Software Engineer Intern - BS/MS|SF|Summer 2026#1"
+    },
+    "dfd0cd3bb928": {
+      "company": "Micron Technology",
+      "role": "Intern - IT Software Engineer",
+      "location": "Boise, ID - Main Site",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-micron-external-JR111582?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3885,
+      "chat_id": 7582459199,
+      "seq": 2720,
+      "identity": "https://zapply.jobs/l/d/workday-micron-external-JR111582?s=gh-internships-2027|Micron Technology|Intern - IT Software Engineer|Boise, ID - Main Site|Summer 2027#1"
     }
   },
   "applied": {
@@ -39687,10 +39699,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2719,
+  "seq": 2720,
   "health": {
     "last_heartbeat": "2026-09-14T15:55:13Z",
-    "last_ok_run": "2026-09-14T16:40:19Z",
+    "last_ok_run": "2026-09-14T16:45:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
