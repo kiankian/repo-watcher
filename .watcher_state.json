@@ -2359,7 +2359,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "f2d6bd35170a9d7a6f7f25c19356a3f376a21064",
+    "last_sha": "a162c073b056859e59b33425c82e40fc244cbd7f",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -3607,7 +3607,10 @@
       "https://zapply.jobs/l/d/ashby-sierra-34b31b67-268c-4270-b48f-72e59064c96e?s=gh-internships-2027|Sierra|Software Engineer Intern, Agent (Summer 2027)|San Francisco, CA|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22494?s=gh-internships-2027|Wex|SRE & Application Services Intern (Graduate/Master's)|Remote|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-jj-jj-R-096697?s=gh-internships-2027|Johnson & Johnson|Co-Op Automation Engineer|Wilson, North Carolina, United...|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-wexinc-wexinc-R23055?s=gh-internships-2027|Wex|AI & Data Platform Engineering Intern (Undergraduate)|Remote|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-wexinc-wexinc-R23055?s=gh-internships-2027|Wex|AI & Data Platform Engineering Intern (Undergraduate)|Remote|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-wexinc-wexinc-R23056?s=gh-internships-2027|Wex|DevOps & AI Engineering Intern (Undergraduate)|Remote|Summer 2027#1",
+      "https://zapply.jobs/l/d/greenhouse-doordashusa-8171041?s=gh-internships-2027|DoorDash|Software Engineer, Intern (Summer 2027) - US|New York, NY|Summer 2027#1",
+      "https://zapply.jobs/l/d/ashby-semgrep-8e64dc7f-e925-4361-86d5-b01ee518c987?s=gh-internships-2027|Semgrep|Software Engineer Intern|San Francisco|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
