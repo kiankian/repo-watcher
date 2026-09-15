@@ -41420,6 +41420,54 @@
       "chat_id": 7582459199,
       "seq": 2894,
       "identity": "https://zapply.jobs/l/d/ashby-rilla-0e111ca4-3837-43d2-8507-6030a0dc32d9?s=gh-internships-2027|Rilla|Software Engineering Intern, 2028 Grads|New York City|Summer 2027#1"
+    },
+    "fb5224e59cd7": {
+      "company": "Brunswick",
+      "role": "Mercury Racing Systems Engineering Co-Op",
+      "location": "Fond du Lac, WI",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-brunswick-search-JR-051290?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4060,
+      "chat_id": 7582459199,
+      "seq": 2895,
+      "identity": "https://zapply.jobs/l/d/workday-brunswick-search-JR-051290?s=gh-internships-2027|Brunswick|Mercury Racing Systems Engineering Co-Op|Fond du Lac, WI|Summer 2027#1"
+    },
+    "0020336089eb": {
+      "company": "Trane Technologies",
+      "role": "Software Development Engineering Intern",
+      "location": "St Paul, Minnesota",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tranetechnologies-trane-technologies-car-JR-15648?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4061,
+      "chat_id": 7582459199,
+      "seq": 2896,
+      "identity": "https://zapply.jobs/l/d/workday-tranetechnologies-trane-technologies-car-JR-15648?s=gh-internships-2027|Trane Technologies|Software Development Engineering Intern|St Paul, Minnesota|Summer 2027#1"
+    },
+    "34d0c3e1db2f": {
+      "company": "Anduril",
+      "role": "2027 Flight Software Engineer Intern",
+      "location": "Costa Mesa, California, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5239083007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4062,
+      "chat_id": 7582459199,
+      "seq": 2897,
+      "identity": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5239083007?s=gh-internships-2027|Anduril|2027 Flight Software Engineer Intern|Costa Mesa, California, United...|Summer 2027#1"
+    },
+    "a84550d9207d": {
+      "company": "Texas Instruments",
+      "role": "Systems Engineering Intern(SEM) - A&D",
+      "location": "Dallas, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-texas-instruments-25017921?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4063,
+      "chat_id": 7582459199,
+      "seq": 2898,
+      "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25017921?s=gh-internships-2027|Texas Instruments|Systems Engineering Intern(SEM) - A&D|Dallas, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -41787,10 +41835,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2894,
+  "seq": 2898,
   "health": {
     "last_heartbeat": "2026-09-15T19:30:19Z",
-    "last_ok_run": "2026-09-15T20:35:14Z",
+    "last_ok_run": "2026-09-15T20:40:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
