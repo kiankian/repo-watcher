@@ -40592,6 +40592,42 @@
       "chat_id": 7582459199,
       "seq": 2825,
       "identity": "https://zapply.jobs/l/d/workday-gdit-external-career-site-RQ228406?s=gh-internships-2027|GDIT|Summer 2027 Software Development Internship|USA VA Falls Church|Summer 2027#1"
+    },
+    "950f56eeb336": {
+      "company": "Huntington Ingalls Industries",
+      "role": "Computer Engineering Intern",
+      "location": "Pascagoula, MS",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.huntingtoningalls.com/job/Pascagoula-2027-COLLEGE-SUMMER-INTERN-COMPUTER-ENGINEERING-Miss/1430053700/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3991,
+      "chat_id": 7582459199,
+      "seq": 2826,
+      "identity": "https://careers.huntingtoningalls.com/job/Pascagoula-2027-COLLEGE-SUMMER-INTERN-COMPUTER-ENGINEERING-Miss/1430053700/?ats=successfactors&utm_source=Simplify&ref=Simplify|Huntington Ingalls Industries|Computer Engineering Intern|Pascagoula, MS|Summer 2026#1"
+    },
+    "4048b7c1256c": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "State College, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/Software-Engineering-Intern--Summer-2027-_01871987?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3992,
+      "chat_id": 7582459199,
+      "seq": 2827,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/Software-Engineering-Intern--Summer-2027-_01871987?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|State College, PA|Summer 2026#1"
+    },
+    "07df60b31b76": {
+      "company": "General Dynamics Information Technology",
+      "role": "Software Development Intern",
+      "location": "Falls Church, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3993,
+      "chat_id": 7582459199,
+      "seq": 2828,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Development Intern|Falls Church, VA|Summer 2026#1"
     }
   },
   "applied": {
@@ -40959,10 +40995,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2825,
+  "seq": 2828,
   "health": {
     "last_heartbeat": "2026-09-15T14:20:16Z",
-    "last_ok_run": "2026-09-15T14:30:23Z",
+    "last_ok_run": "2026-09-15T14:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
