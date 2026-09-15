@@ -40628,6 +40628,18 @@
       "chat_id": 7582459199,
       "seq": 2828,
       "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Development Intern|Falls Church, VA|Summer 2026#1"
+    },
+    "735270128945": {
+      "company": "Analog Devices",
+      "role": "Embedded Software Engineer Intern",
+      "location": "MA Wilmington",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-analogdevices-external-R266132?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3994,
+      "chat_id": 7582459199,
+      "seq": 2829,
+      "identity": "https://zapply.jobs/l/d/workday-analogdevices-external-R266132?s=gh-internships-2027|Analog Devices|Embedded Software Engineer Intern|MA Wilmington|Summer 2027#1"
     }
   },
   "applied": {
@@ -40995,10 +41007,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2828,
+  "seq": 2829,
   "health": {
     "last_heartbeat": "2026-09-15T14:20:16Z",
-    "last_ok_run": "2026-09-15T14:35:17Z",
+    "last_ok_run": "2026-09-15T14:40:53Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
