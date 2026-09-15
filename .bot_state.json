@@ -40400,6 +40400,30 @@
       "chat_id": 7582459199,
       "seq": 2809,
       "identity": "https://careers.jhuapl.edu/jobs/60049?icims=1&utm_source=Simplify&ref=Simplify|Johns Hopkins Applied Physics Laboratory|Computer Engineer Intern - Shipboard Systems Group|Laurel, MD|Summer 2026#1"
+    },
+    "554fde9f836b": {
+      "company": "AeroVironment",
+      "role": "Software Engineering Intern",
+      "location": "Centreville, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-avav-avav-8593?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3975,
+      "chat_id": 7582459199,
+      "seq": 2810,
+      "identity": "https://zapply.jobs/l/d/workday-avav-avav-8593?s=gh-internships-2027|AeroVironment|Software Engineering Intern|Centreville, VA|Summer 2027#1"
+    },
+    "c823a5d80dba": {
+      "company": "AeroVironment",
+      "role": "Summer 2027 Systems Engineering/Test Intern",
+      "location": "Moorpark, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-avav-avav-8552?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3976,
+      "chat_id": 7582459199,
+      "seq": 2811,
+      "identity": "https://zapply.jobs/l/d/workday-avav-avav-8552?s=gh-internships-2027|AeroVironment|Summer 2027 Systems Engineering/Test Intern|Moorpark, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -40767,10 +40791,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2809,
+  "seq": 2811,
   "health": {
     "last_heartbeat": "2026-09-15T00:55:14Z",
-    "last_ok_run": "2026-09-15T01:55:11Z",
+    "last_ok_run": "2026-09-15T02:00:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
