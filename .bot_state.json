@@ -40484,6 +40484,18 @@
       "chat_id": 7582459199,
       "seq": 2816,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Software-Engineering-Co-op--Summer-Fall-2027-_01873970?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Co-op - Summer/Fall 2027|Wilsonville, OR|Summer 2026#1"
+    },
+    "7a49e3907540": {
+      "company": "RTX",
+      "role": "Systems Engineering Intern \u2013 Integration and Test, Onsite",
+      "location": "MA-ANDOVER-AN1",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874598?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3982,
+      "chat_id": 7582459199,
+      "seq": 2817,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874598?s=gh-internships-2027|RTX|Systems Engineering Intern \u2013 Integration and Test, Onsite|MA-ANDOVER-AN1|Summer 2027#1"
     }
   },
   "applied": {
@@ -40851,10 +40863,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2816,
+  "seq": 2817,
   "health": {
     "last_heartbeat": "2026-09-15T06:25:11Z",
-    "last_ok_run": "2026-09-15T07:05:14Z",
+    "last_ok_run": "2026-09-15T07:10:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
