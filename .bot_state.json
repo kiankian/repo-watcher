@@ -41780,6 +41780,78 @@
       "chat_id": 7582459199,
       "seq": 2924,
       "identity": "https://zapply.jobs/l/d/oracle-emerson-electric-26010928?s=gh-internships-2027|Emerson Electric|Software Engineering Intern|Austin, TX, United States|Summer 2027#1"
+    },
+    "3b76239095fe": {
+      "company": "\ud83d\udd25 Duolingo",
+      "role": "Software Engineer Intern - Thrive",
+      "location": "Pittsburgh, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806115002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4090,
+      "chat_id": 7582459199,
+      "seq": 2925,
+      "identity": "https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806115002?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Duolingo|Software Engineer Intern - Thrive|Pittsburgh, PA|Summer 2026#1"
+    },
+    "b6ee3f18850c": {
+      "company": "\ud83d\udd25 Duolingo",
+      "role": "Software Engineer Intern",
+      "location": "Seattle, WA Pittsburgh, PA NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4091,
+      "chat_id": 7582459199,
+      "seq": 2926,
+      "identity": "https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Duolingo|Software Engineer Intern|Seattle, WA Pittsburgh, PA NYC|Summer 2026#1"
+    },
+    "e45b28fc63ee": {
+      "company": "\ud83d\udd25 Duolingo",
+      "role": "Software Engineer Intern",
+      "location": "Seattle, WA Pittsburgh, PA NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806878002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4092,
+      "chat_id": 7582459199,
+      "seq": 2927,
+      "identity": "https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806878002?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Duolingo|Software Engineer Intern|Seattle, WA Pittsburgh, PA NYC|Summer 2026#1"
+    },
+    "f028edd2c388": {
+      "company": "\ud83d\udd25 Duolingo",
+      "role": "Software Engineer Intern - Thrive",
+      "location": "Pittsburgh, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4093,
+      "chat_id": 7582459199,
+      "seq": 2928,
+      "identity": "https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Duolingo|Software Engineer Intern - Thrive|Pittsburgh, PA|Summer 2026#1"
+    },
+    "9fd780a05c91": {
+      "company": "Q2",
+      "role": "Software Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4094,
+      "chat_id": 7582459199,
+      "seq": 2929,
+      "identity": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794?utm_source=Simplify&ref=Simplify|Q2|Software Engineer Intern|Austin, TX|Summer 2026#1"
+    },
+    "692e17eb0af3": {
+      "company": "Johnson & Johnson",
+      "role": "Software Engineer Intern - Robotics R&D",
+      "location": "Santa Clara, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Santa-Clara-California-United-States-of-America/Software-Engineering-Intern---Robotics-R-D_R-099919?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4095,
+      "chat_id": 7582459199,
+      "seq": 2930,
+      "identity": "https://jj.wd5.myworkdayjobs.com/JJ/job/Santa-Clara-California-United-States-of-America/Software-Engineering-Intern---Robotics-R-D_R-099919?utm_source=Simplify&ref=Simplify|Johnson & Johnson|Software Engineer Intern - Robotics R&D|Santa Clara, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -42147,10 +42219,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2924,
+  "seq": 2930,
   "health": {
     "last_heartbeat": "2026-09-15T23:00:21Z",
-    "last_ok_run": "2026-09-15T23:30:17Z",
+    "last_ok_run": "2026-09-15T23:35:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
