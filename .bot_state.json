@@ -41564,6 +41564,42 @@
       "chat_id": 7582459199,
       "seq": 2906,
       "identity": "https://zapply.jobs/l/d/greenhouse-singlestore-8205514?s=gh-internships-2027|SingleStore|Software Engineer Intern|United States|Summer 2027#1"
+    },
+    "e2e87066ace5": {
+      "company": "Entergy",
+      "role": "AI Agent Development Intern",
+      "location": "New Orleans, LA The Woodlands, TX Hammond, LA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.entergy.com/job/New-Orleans-Student-Intern-AI-Summer-2027-Loui/1430182400/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4072,
+      "chat_id": 7582459199,
+      "seq": 2907,
+      "identity": "https://jobs.entergy.com/job/New-Orleans-Student-Intern-AI-Summer-2027-Loui/1430182400/?ats=successfactors&utm_source=Simplify&ref=Simplify|Entergy|AI Agent Development Intern|New Orleans, LA The Woodlands, TX Hammond, LA|Summer 2026#1"
+    },
+    "bd3f74afbf74": {
+      "company": "SimVentions",
+      "role": "Software Development Intern",
+      "location": "Fredericksburg, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://simventions.jibeapply.com/jobs/1631?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4073,
+      "chat_id": 7582459199,
+      "seq": 2908,
+      "identity": "https://simventions.jibeapply.com/jobs/1631?icims=1&utm_source=Simplify&ref=Simplify|SimVentions|Software Development Intern|Fredericksburg, VA|Summer 2026#1"
+    },
+    "a261de3ba482": {
+      "company": "LexisNexis Legal & Professional",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://relx.wd3.myworkdayjobs.com/en-US/LexisNexisLegal/job/Raleigh-NC/Software-Engineer-Internship_R118692?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4074,
+      "chat_id": 7582459199,
+      "seq": 2909,
+      "identity": "https://relx.wd3.myworkdayjobs.com/en-US/LexisNexisLegal/job/Raleigh-NC/Software-Engineer-Internship_R118692?utm_source=Simplify&ref=Simplify|LexisNexis Legal & Professional|Software Engineer Intern|Raleigh, NC|Summer 2026#1"
     }
   },
   "applied": {
@@ -41931,10 +41967,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2906,
+  "seq": 2909,
   "health": {
     "last_heartbeat": "2026-09-15T21:50:18Z",
-    "last_ok_run": "2026-09-15T22:30:18Z",
+    "last_ok_run": "2026-09-15T22:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
