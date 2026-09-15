@@ -41408,6 +41408,18 @@
       "chat_id": 7582459199,
       "seq": 2893,
       "identity": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5236563007?s=gh-internships-2027|Anduril|Winter 2027 Software Engineer Co-op|Quincy, Massachusetts, United...|Summer 2027#1"
+    },
+    "42f1ce7850c3": {
+      "company": "Rilla",
+      "role": "Software Engineering Intern, 2028 Grads",
+      "location": "New York City",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-rilla-0e111ca4-3837-43d2-8507-6030a0dc32d9?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4059,
+      "chat_id": 7582459199,
+      "seq": 2894,
+      "identity": "https://zapply.jobs/l/d/ashby-rilla-0e111ca4-3837-43d2-8507-6030a0dc32d9?s=gh-internships-2027|Rilla|Software Engineering Intern, 2028 Grads|New York City|Summer 2027#1"
     }
   },
   "applied": {
@@ -41775,10 +41787,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2893,
+  "seq": 2894,
   "health": {
     "last_heartbeat": "2026-09-15T18:30:18Z",
-    "last_ok_run": "2026-09-15T18:45:16Z",
+    "last_ok_run": "2026-09-15T18:50:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
