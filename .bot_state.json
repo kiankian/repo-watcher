@@ -40640,6 +40640,30 @@
       "chat_id": 7582459199,
       "seq": 2829,
       "identity": "https://zapply.jobs/l/d/workday-analogdevices-external-R266132?s=gh-internships-2027|Analog Devices|Embedded Software Engineer Intern|MA Wilmington|Summer 2027#1"
+    },
+    "da3970157655": {
+      "company": "General Dynamics Information Technology",
+      "role": "Software Development Intern",
+      "location": "Falls Church, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3995,
+      "chat_id": 7582459199,
+      "seq": 2830,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Development Intern|Falls Church, VA|Summer 2026#1"
+    },
+    "0cacf2ec296a": {
+      "company": "General Dynamics Information Technology",
+      "role": "Software Development Intern",
+      "location": "Falls Church, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3996,
+      "chat_id": 7582459199,
+      "seq": 2831,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Development Intern|Falls Church, VA|Summer 2026#1"
     }
   },
   "applied": {
@@ -41007,10 +41031,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2829,
+  "seq": 2831,
   "health": {
     "last_heartbeat": "2026-09-15T14:20:16Z",
-    "last_ok_run": "2026-09-15T15:00:21Z",
+    "last_ok_run": "2026-09-15T15:05:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
