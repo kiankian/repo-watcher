@@ -40700,6 +40700,42 @@
       "chat_id": 7582459199,
       "seq": 2834,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-331368?s=gh-internships-2027|CACI|Embedded Software Engineering Co-op - Spring 2027|Danbury, CT, US|Summer 2027#1"
+    },
+    "fd308eb712d8": {
+      "company": "Nelnet",
+      "role": "Intern - UX/UI Front End Engineer",
+      "location": "Madison, WI",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-nelnet-mynelnet-R23118?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4000,
+      "chat_id": 7582459199,
+      "seq": 2835,
+      "identity": "https://zapply.jobs/l/d/workday-nelnet-mynelnet-R23118?s=gh-internships-2027|Nelnet|Intern - UX/UI Front End Engineer|Madison, WI|Summer 2027#1"
+    },
+    "a445db2dd347": {
+      "company": "Nelnet",
+      "role": "2026 Summer Intern - IT Software Engineer - .NET/Web",
+      "location": "Madison, WI",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-nelnet-mynelnet-R23106?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4001,
+      "chat_id": 7582459199,
+      "seq": 2836,
+      "identity": "https://zapply.jobs/l/d/workday-nelnet-mynelnet-R23106?s=gh-internships-2027|Nelnet|2026 Summer Intern - IT Software Engineer - .NET/Web|Madison, WI|Summer 2027#1"
+    },
+    "acd7578d3cca": {
+      "company": "CACI",
+      "role": "Embedded Software Engineering Co-Op - Fall 2027",
+      "location": "Danbury, CT, US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-caci-external-331393?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4002,
+      "chat_id": 7582459199,
+      "seq": 2837,
+      "identity": "https://zapply.jobs/l/d/workday-caci-external-331393?s=gh-internships-2027|CACI|Embedded Software Engineering Co-Op - Fall 2027|Danbury, CT, US|Summer 2027#1"
     }
   },
   "applied": {
@@ -41067,10 +41103,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2834,
+  "seq": 2837,
   "health": {
     "last_heartbeat": "2026-09-15T15:20:21Z",
-    "last_ok_run": "2026-09-15T15:35:16Z",
+    "last_ok_run": "2026-09-15T15:40:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
