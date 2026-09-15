@@ -41336,6 +41336,78 @@
       "chat_id": 7582459199,
       "seq": 2887,
       "identity": "https://zapply.jobs/l/d/ashby-gecko-robotics-24561868-f075-4edf-a991-59ff0174e92a?s=gh-internships-2027|Gecko Robotics|Embedded Software Engineering Intern|Pittsburgh|Summer 2027#1"
+    },
+    "35a92216ec6e": {
+      "company": "RTX",
+      "role": "Software Engineering Co-op (Summer/Fall 2027)",
+      "location": "IL-ROCKFORD-P6",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01869928?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4053,
+      "chat_id": 7582459199,
+      "seq": 2888,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01869928?s=gh-internships-2027|RTX|Software Engineering Co-op (Summer/Fall 2027)|IL-ROCKFORD-P6|Summer 2027#1"
+    },
+    "487329b8f39a": {
+      "company": "RTX",
+      "role": "Internship \u2013 Raytheon Systems Security Engineer -Onsite",
+      "location": "MA-MARLBOROUGH-MA2",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874700?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4054,
+      "chat_id": 7582459199,
+      "seq": 2889,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874700?s=gh-internships-2027|RTX|Internship \u2013 Raytheon Systems Security Engineer -Onsite|MA-MARLBOROUGH-MA2|Summer 2027#1"
+    },
+    "3859fc6f9be7": {
+      "company": "Wellmark, Inc.",
+      "role": "Software Engineer Internship \u2013 Technology Business Development & Client Solutions",
+      "location": "Des Moines, IA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-WellmarkInc-744000149684819?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4055,
+      "chat_id": 7582459199,
+      "seq": 2890,
+      "identity": "https://zapply.jobs/l/d/sr-WellmarkInc-744000149684819?s=gh-internships-2027|Wellmark, Inc.|Software Engineer Internship \u2013 Technology Business Development & Client Solutions|Des Moines, IA|Summer 2027#1"
+    },
+    "e4810f5bf0aa": {
+      "company": "Anduril",
+      "role": "Winter 2027 Test Automation Engineer Co-op",
+      "location": "Washington, District of...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5236573007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4056,
+      "chat_id": 7582459199,
+      "seq": 2891,
+      "identity": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5236573007?s=gh-internships-2027|Anduril|Winter 2027 Test Automation Engineer Co-op|Washington, District of...|Summer 2027#1"
+    },
+    "0ba65ef88b89": {
+      "company": "Anduril",
+      "role": "Winter 2027 Systems Engineer Co-op",
+      "location": "Quincy, Massachusetts, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5236599007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4057,
+      "chat_id": 7582459199,
+      "seq": 2892,
+      "identity": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5236599007?s=gh-internships-2027|Anduril|Winter 2027 Systems Engineer Co-op|Quincy, Massachusetts, United...|Summer 2027#1"
+    },
+    "d46abc1f71b9": {
+      "company": "Anduril",
+      "role": "Winter 2027 Software Engineer Co-op",
+      "location": "Quincy, Massachusetts, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5236563007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4058,
+      "chat_id": 7582459199,
+      "seq": 2893,
+      "identity": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5236563007?s=gh-internships-2027|Anduril|Winter 2027 Software Engineer Co-op|Quincy, Massachusetts, United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -41703,10 +41775,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2887,
+  "seq": 2893,
   "health": {
     "last_heartbeat": "2026-09-15T18:30:18Z",
-    "last_ok_run": "2026-09-15T18:35:15Z",
+    "last_ok_run": "2026-09-15T18:40:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
