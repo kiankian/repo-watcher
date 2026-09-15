@@ -40532,6 +40532,30 @@
       "chat_id": 7582459199,
       "seq": 2820,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-331999?s=gh-internships-2027|CACI|Cleared Software Engineer Intern - Summer 2027|Denver CO US|Summer 2027#1"
+    },
+    "3e6e222542cb": {
+      "company": "Northrop Grumman",
+      "role": "2027 Cyber Systems Engineer Intern - Roy UT",
+      "location": "United States-Utah-Roy",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10249471?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3986,
+      "chat_id": 7582459199,
+      "seq": 2821,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10249471?s=gh-internships-2027|Northrop Grumman|2027 Cyber Systems Engineer Intern - Roy UT|United States-Utah-Roy|Summer 2027#1"
+    },
+    "df43ec67c881": {
+      "company": "Oshkosh Corporation",
+      "role": "Software Engineering Intern",
+      "location": "San Francisco, California,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R49493?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3987,
+      "chat_id": 7582459199,
+      "seq": 2822,
+      "identity": "https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R49493?s=gh-internships-2027|Oshkosh Corporation|Software Engineering Intern|San Francisco, California,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -40899,10 +40923,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2820,
+  "seq": 2822,
   "health": {
     "last_heartbeat": "2026-09-15T13:20:16Z",
-    "last_ok_run": "2026-09-15T13:50:17Z",
+    "last_ok_run": "2026-09-15T13:55:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
