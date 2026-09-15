@@ -40496,6 +40496,18 @@
       "chat_id": 7582459199,
       "seq": 2817,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874598?s=gh-internships-2027|RTX|Systems Engineering Intern \u2013 Integration and Test, Onsite|MA-ANDOVER-AN1|Summer 2027#1"
+    },
+    "6a5ace751e4b": {
+      "company": "Baird",
+      "role": "IT AI & Automation Intern",
+      "location": "Milwaukee, WI",
+      "term": "Summer 2026",
+      "apply_url": "https://baird.wd1.myworkdayjobs.com/careers/job/WI-Milwaukee/Internship---IT-Operations-Automation---AI--Year-Round-_R2026986-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 3983,
+      "chat_id": 7582459199,
+      "seq": 2818,
+      "identity": "https://baird.wd1.myworkdayjobs.com/careers/job/WI-Milwaukee/Internship---IT-Operations-Automation---AI--Year-Round-_R2026986-1?utm_source=Simplify&ref=Simplify|Baird|IT AI & Automation Intern|Milwaukee, WI|Summer 2026#1"
     }
   },
   "applied": {
@@ -40863,10 +40875,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2817,
+  "seq": 2818,
   "health": {
     "last_heartbeat": "2026-09-15T12:20:15Z",
-    "last_ok_run": "2026-09-15T12:30:19Z",
+    "last_ok_run": "2026-09-15T12:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
