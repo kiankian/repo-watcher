@@ -40328,6 +40328,18 @@
       "chat_id": 7582459199,
       "seq": 2803,
       "identity": "https://zapply.jobs/l/d/bytedance-7668373268886161669?s=gh-internships-2027|ByteDance|Software Engineer Intern (Distributed NoSQL Database Systems) - 2027 Summer|Seattle, Washington|Summer 2027#1"
+    },
+    "af4ed725eaf9": {
+      "company": "Microsoft",
+      "role": "AI Software Engineering Intern",
+      "location": "Redmond, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/microsoft-200049019?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 3969,
+      "chat_id": 7582459199,
+      "seq": 2804,
+      "identity": "https://zapply.jobs/l/d/microsoft-200049019?s=gh-internships-2027|Microsoft|AI Software Engineering Intern|Redmond, Washington, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -40695,10 +40707,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2803,
+  "seq": 2804,
   "health": {
     "last_heartbeat": "2026-09-15T00:55:14Z",
-    "last_ok_run": "2026-09-15T00:55:14Z",
+    "last_ok_run": "2026-09-15T01:00:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
