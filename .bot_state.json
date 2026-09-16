@@ -41852,6 +41852,18 @@
       "chat_id": 7582459199,
       "seq": 2930,
       "identity": "https://jj.wd5.myworkdayjobs.com/JJ/job/Santa-Clara-California-United-States-of-America/Software-Engineering-Intern---Robotics-R-D_R-099919?utm_source=Simplify&ref=Simplify|Johnson & Johnson|Software Engineer Intern - Robotics R&D|Santa Clara, CA|Summer 2026#1"
+    },
+    "38129dba1ef9": {
+      "company": "Nokia",
+      "role": "Embedded Software Development Coop",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-nokia-40172?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4096,
+      "chat_id": 7582459199,
+      "seq": 2931,
+      "identity": "https://zapply.jobs/l/d/oracle-nokia-40172?s=gh-internships-2027|Nokia|Embedded Software Development Coop|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -42219,10 +42231,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2930,
+  "seq": 2931,
   "health": {
     "last_heartbeat": "2026-09-16T00:15:16Z",
-    "last_ok_run": "2026-09-16T00:25:13Z",
+    "last_ok_run": "2026-09-16T00:30:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
