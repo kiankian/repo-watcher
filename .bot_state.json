@@ -42128,6 +42128,30 @@
       "chat_id": 7582459199,
       "seq": 2953,
       "identity": "https://careers-gdeb.icims.com/jobs/20341/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|General Dynamics|Information Technology Intern - Software Engineering - Computer Science|5 locationsNewport, RI New London, CT North Kingstown, RI North Stonington, CT Groton, CT|Summer 2026#1"
+    },
+    "fcc43b317eaf": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Marlborough, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Intern--Summer-2027-_01875743?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4119,
+      "chat_id": 7582459199,
+      "seq": 2954,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Intern--Summer-2027-_01875743?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Marlborough, MA|Summer 2026#1"
+    },
+    "3ebaf5704dc5": {
+      "company": "Bass Pro Shops",
+      "role": "IT Developer Intern",
+      "location": "Springfield, MO",
+      "term": "Summer 2026",
+      "apply_url": "https://basspro.wd1.myworkdayjobs.com/careers/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4120,
+      "chat_id": 7582459199,
+      "seq": 2955,
+      "identity": "https://basspro.wd1.myworkdayjobs.com/careers/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1?utm_source=Simplify&ref=Simplify|Bass Pro Shops|IT Developer Intern|Springfield, MO|Summer 2026#1"
     }
   },
   "applied": {
@@ -42495,10 +42519,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2953,
+  "seq": 2955,
   "health": {
     "last_heartbeat": "2026-09-16T14:40:16Z",
-    "last_ok_run": "2026-09-16T15:00:22Z",
+    "last_ok_run": "2026-09-16T15:05:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
