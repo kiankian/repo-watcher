@@ -42032,6 +42032,30 @@
       "chat_id": 7582459199,
       "seq": 2945,
       "identity": "https://zapply.jobs/l/d/ashby-gecko-robotics-01138338-ff3c-4982-8ba3-5401386bf082?s=gh-internships-2027|Gecko Robotics|Full Stack Software Engineering Intern|New York City|Summer 2027#1"
+    },
+    "2b248317d063": {
+      "company": "RTX",
+      "role": "Receiver, Exciter, & Processing Architecture Software Engineer Intern (Summer 2027)",
+      "location": "MA-MARLBOROUGH-MA2",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873484?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4111,
+      "chat_id": 7582459199,
+      "seq": 2946,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873484?s=gh-internships-2027|RTX|Receiver, Exciter, & Processing Architecture Software Engineer Intern (Summer 2027)|MA-MARLBOROUGH-MA2|Summer 2027#1"
+    },
+    "79f0f1916d6e": {
+      "company": "CACI",
+      "role": "Software Test Engineer Intern - Summer 2027",
+      "location": "Colorado Springs, CO, US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-caci-external-332003?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4112,
+      "chat_id": 7582459199,
+      "seq": 2947,
+      "identity": "https://zapply.jobs/l/d/workday-caci-external-332003?s=gh-internships-2027|CACI|Software Test Engineer Intern - Summer 2027|Colorado Springs, CO, US|Summer 2027#1"
     }
   },
   "applied": {
@@ -42399,10 +42423,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2945,
+  "seq": 2947,
   "health": {
     "last_heartbeat": "2026-09-16T13:40:16Z",
-    "last_ok_run": "2026-09-16T14:10:15Z",
+    "last_ok_run": "2026-09-16T14:15:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
