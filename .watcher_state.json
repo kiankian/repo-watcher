@@ -4768,7 +4768,8 @@
       "https://saabusa.wd1.myworkdayjobs.com/en-US/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineer-Co-Op--Summer-2027-_R-03264-1|Saab|Software Engineer Co-Op - Summer 2027|East Syracuse, NY +1|Other#1",
       "https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/SAN-FRANCISCO-CA/XMLNAME-2027-Technology-Summer-Internship---Early-Careers--Software-Engineering---California-_R-574294|Wells Fargo|2027 Technology Summer Internship - Early Careers - Software Engineering - California|San Francisco, CA +2|Other#1",
       "https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/CHARLOTTE-NC/XMLNAME-2027-Technology-Summer-Internship---Early-Careers--Software-Engineering-_R-574285|Wells Fargo|2027 Technology Summer Internship - Early Careers - Software Engineering|Charlotte, NC +5|Other#1",
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4484980|Choice Solutions|DevOps Intern|Overland Park, KS|Other#1"
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4484980|Choice Solutions|DevOps Intern|Overland Park, KS|Other#1",
+      "https://jobs.ashbyhq.com/ambrook/29ffbcea-17c3-4488-9d57-a9f7249b49a5|Ambrook|Software Engineering Co-op|New York City, NY|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -4913,18 +4914,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 500,
-    "outbox": [
-      [
-        [
-          "Ambrook",
-          "Software Engineering Co-op",
-          "New York City, NY",
-          "Other",
-          "https://jobs.ashbyhq.com/ambrook/29ffbcea-17c3-4488-9d57-a9f7249b49a5"
-        ],
-        "https://jobs.ashbyhq.com/ambrook/29ffbcea-17c3-4488-9d57-a9f7249b49a5|Ambrook|Software Engineering Co-op|New York City, NY|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }
