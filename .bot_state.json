@@ -42188,6 +42188,30 @@
       "chat_id": 7582459199,
       "seq": 2958,
       "identity": "https://zapply.jobs/l/d/greenhouse-relaypro-8180836?s=gh-internships-2027|Relay|Relay Launchpad Intern - Software Engineer (Device Team)|Raleigh, NC|Summer 2027#1"
+    },
+    "a577d0f1178c": {
+      "company": "RTX",
+      "role": "Software Engineering Co-op (Winter/Spring 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875464?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4124,
+      "chat_id": 7582459199,
+      "seq": 2959,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875464?s=gh-internships-2027|RTX|Software Engineering Co-op (Winter/Spring 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "9235ceaf4271": {
+      "company": "AMD",
+      "role": "2027 PhD AI Model Optimization & Software Engineer Intern/Co-op",
+      "location": "San Jose, CA, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/amd-92522?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4125,
+      "chat_id": 7582459199,
+      "seq": 2960,
+      "identity": "https://zapply.jobs/l/d/amd-92522?s=gh-internships-2027|AMD|2027 PhD AI Model Optimization & Software Engineer Intern/Co-op|San Jose, CA, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -42555,10 +42579,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2958,
+  "seq": 2960,
   "health": {
     "last_heartbeat": "2026-09-16T14:40:16Z",
-    "last_ok_run": "2026-09-16T15:35:13Z",
+    "last_ok_run": "2026-09-16T15:40:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
