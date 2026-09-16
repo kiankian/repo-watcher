@@ -41996,6 +41996,18 @@
       "chat_id": 7582459199,
       "seq": 2942,
       "identity": "https://zapply.jobs/l/d/ashby-antares-922a527d-9826-446d-9aba-ffc611995830?s=gh-internships-2027|Antares|Software Intern - Summer 2027|Los Angeles|Summer 2027#1"
+    },
+    "3ef076bf7c81": {
+      "company": "RAVE Aerospace",
+      "role": "Software Engineer Intern",
+      "location": "Laramie, WY",
+      "term": "Summer 2026",
+      "apply_url": "https://apply.workable.com/raveaerospace/j/739753C003/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4108,
+      "chat_id": 7582459199,
+      "seq": 2943,
+      "identity": "https://apply.workable.com/raveaerospace/j/739753C003/apply?utm_source=Simplify&ref=Simplify|RAVE Aerospace|Software Engineer Intern|Laramie, WY|Summer 2026#1"
     }
   },
   "applied": {
@@ -42363,10 +42375,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2942,
+  "seq": 2943,
   "health": {
     "last_heartbeat": "2026-09-16T09:10:14Z",
-    "last_ok_run": "2026-09-16T10:00:19Z",
+    "last_ok_run": "2026-09-16T10:05:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
