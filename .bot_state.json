@@ -42152,6 +42152,42 @@
       "chat_id": 7582459199,
       "seq": 2955,
       "identity": "https://basspro.wd1.myworkdayjobs.com/careers/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1?utm_source=Simplify&ref=Simplify|Bass Pro Shops|IT Developer Intern|Springfield, MO|Summer 2026#1"
+    },
+    "fbdd4d2cc400": {
+      "company": "Oshkosh Corporation",
+      "role": "Quality Engineering Intern",
+      "location": "Shippensburg, Pennsylvania,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R49669?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4121,
+      "chat_id": 7582459199,
+      "seq": 2956,
+      "identity": "https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R49669?s=gh-internships-2027|Oshkosh Corporation|Quality Engineering Intern|Shippensburg, Pennsylvania,...|Summer 2027#1"
+    },
+    "af2b12568594": {
+      "company": "Relay",
+      "role": "Relay Launchpad Intern - Software Engineer (AI/ML)",
+      "location": "Raleigh, NC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-relaypro-8176774?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4122,
+      "chat_id": 7582459199,
+      "seq": 2957,
+      "identity": "https://zapply.jobs/l/d/greenhouse-relaypro-8176774?s=gh-internships-2027|Relay|Relay Launchpad Intern - Software Engineer (AI/ML)|Raleigh, NC|Summer 2027#1"
+    },
+    "997ac7e0ad0b": {
+      "company": "Relay",
+      "role": "Relay Launchpad Intern - Software Engineer (Device Team)",
+      "location": "Raleigh, NC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-relaypro-8180836?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4123,
+      "chat_id": 7582459199,
+      "seq": 2958,
+      "identity": "https://zapply.jobs/l/d/greenhouse-relaypro-8180836?s=gh-internships-2027|Relay|Relay Launchpad Intern - Software Engineer (Device Team)|Raleigh, NC|Summer 2027#1"
     }
   },
   "applied": {
@@ -42519,10 +42555,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2955,
+  "seq": 2958,
   "health": {
     "last_heartbeat": "2026-09-16T14:40:16Z",
-    "last_ok_run": "2026-09-16T15:25:15Z",
+    "last_ok_run": "2026-09-16T15:30:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
