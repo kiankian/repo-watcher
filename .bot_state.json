@@ -42068,6 +42068,66 @@
       "chat_id": 7582459199,
       "seq": 2948,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875743?s=gh-internships-2027|RTX|Software Engineer Intern (Summer 2027)|MA-MARLBOROUGH-MA2|Summer 2027#1"
+    },
+    "27a10e42c469": {
+      "company": "Enterprise Holdings",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "St. Louis, MO",
+      "term": "Summer 2026",
+      "apply_url": "https://us-erac.icims.com/jobs/566721/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4114,
+      "chat_id": 7582459199,
+      "seq": 2949,
+      "identity": "https://us-erac.icims.com/jobs/566721/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Enterprise Holdings|Software Engineer Intern - Summer 2027|St. Louis, MO|Summer 2026#1"
+    },
+    "d8ea089c6ec7": {
+      "company": "Bedrock Robotics",
+      "role": "Software Engineer Intern - Fleet Platform",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4115,
+      "chat_id": 7582459199,
+      "seq": 2950,
+      "identity": "https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4/application?embed=true&utm_source=Simplify&ref=Simplify|Bedrock Robotics|Software Engineer Intern - Fleet Platform|NYC|Summer 2026#1"
+    },
+    "7cee8078bc68": {
+      "company": "Gecko Robotics",
+      "role": "Full Stack Software Engineer Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/gecko-robotics/01138338-ff3c-4982-8ba3-5401386bf082/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4116,
+      "chat_id": 7582459199,
+      "seq": 2951,
+      "identity": "https://jobs.ashbyhq.com/gecko-robotics/01138338-ff3c-4982-8ba3-5401386bf082/application?embed=true&utm_source=Simplify&ref=Simplify|Gecko Robotics|Full Stack Software Engineer Intern|NYC|Summer 2026#1"
+    },
+    "0d660d613ed2": {
+      "company": "Talos",
+      "role": "Software Engineer Intern - Trading",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/Talos-Trading/42cad756-c312-4142-a9b7-18ed76f61c5d/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4117,
+      "chat_id": 7582459199,
+      "seq": 2952,
+      "identity": "https://jobs.ashbyhq.com/Talos-Trading/42cad756-c312-4142-a9b7-18ed76f61c5d/application?embed=true&utm_source=Simplify&ref=Simplify|Talos|Software Engineer Intern - Trading|London, UK|Summer 2026#1"
+    },
+    "935e4a6b2908": {
+      "company": "General Dynamics",
+      "role": "Information Technology Intern - Software Engineering - Computer Science",
+      "location": "5 locationsNewport, RI New London, CT North Kingstown, RI North Stonington, CT Groton, CT",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-gdeb.icims.com/jobs/20341/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4118,
+      "chat_id": 7582459199,
+      "seq": 2953,
+      "identity": "https://careers-gdeb.icims.com/jobs/20341/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|General Dynamics|Information Technology Intern - Software Engineering - Computer Science|5 locationsNewport, RI New London, CT North Kingstown, RI North Stonington, CT Groton, CT|Summer 2026#1"
     }
   },
   "applied": {
@@ -42435,10 +42495,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2948,
+  "seq": 2953,
   "health": {
     "last_heartbeat": "2026-09-16T13:40:16Z",
-    "last_ok_run": "2026-09-16T14:30:19Z",
+    "last_ok_run": "2026-09-16T14:35:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
