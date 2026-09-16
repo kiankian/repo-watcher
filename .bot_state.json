@@ -42056,6 +42056,18 @@
       "chat_id": 7582459199,
       "seq": 2947,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-332003?s=gh-internships-2027|CACI|Software Test Engineer Intern - Summer 2027|Colorado Springs, CO, US|Summer 2027#1"
+    },
+    "bff718877791": {
+      "company": "RTX",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "MA-MARLBOROUGH-MA2",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875743?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4113,
+      "chat_id": 7582459199,
+      "seq": 2948,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875743?s=gh-internships-2027|RTX|Software Engineer Intern (Summer 2027)|MA-MARLBOROUGH-MA2|Summer 2027#1"
     }
   },
   "applied": {
@@ -42423,10 +42435,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2947,
+  "seq": 2948,
   "health": {
     "last_heartbeat": "2026-09-16T13:40:16Z",
-    "last_ok_run": "2026-09-16T14:25:13Z",
+    "last_ok_run": "2026-09-16T14:30:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
