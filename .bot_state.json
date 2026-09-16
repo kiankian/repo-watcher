@@ -42884,6 +42884,66 @@
       "chat_id": 7582459199,
       "seq": 3016,
       "identity": "https://zapply.jobs/l/d/amazon-3229689f-74e2-46f6-958e-ecee4b92074d?s=gh-internships-2027|Amazon Web Services, Inc.|Solutions Architect Intern, AWSI - 2027|Dallas, TX|Summer 2027#1"
+    },
+    "1df56b7eb4ba": {
+      "company": "Relay",
+      "role": "Software Engineer Intern - Device Team",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/relaypro/jobs/8180836?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4209,
+      "chat_id": 7582459199,
+      "seq": 3017,
+      "identity": "https://job-boards.greenhouse.io/relaypro/jobs/8180836?utm_source=Simplify&ref=Simplify|Relay|Software Engineer Intern - Device Team|Raleigh, NC|Summer 2026#1"
+    },
+    "09fef594b2ea": {
+      "company": "Tokyo Electron",
+      "role": "Software Engineer Intern",
+      "location": "Chaska, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://tel.wd3.myworkdayjobs.com/tel-careers/job/Chaska/Software-Engineer-2027-Summer-Intern_R26-01573?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4210,
+      "chat_id": 7582459199,
+      "seq": 3018,
+      "identity": "https://tel.wd3.myworkdayjobs.com/tel-careers/job/Chaska/Software-Engineer-2027-Summer-Intern_R26-01573?utm_source=Simplify&ref=Simplify|Tokyo Electron|Software Engineer Intern|Chaska, MN|Summer 2026#1"
+    },
+    "03db41149cb7": {
+      "company": "Tokyo Electron",
+      "role": "Decision Analysis & AI Intern",
+      "location": "Chaska, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://tel.wd3.myworkdayjobs.com/tel-careers/job/Chaska/Decision-Analysis---AI-Summer-2027-Intern_R26-01574?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4211,
+      "chat_id": 7582459199,
+      "seq": 3019,
+      "identity": "https://tel.wd3.myworkdayjobs.com/tel-careers/job/Chaska/Decision-Analysis---AI-Summer-2027-Intern_R26-01574?utm_source=Simplify&ref=Simplify|Tokyo Electron|Decision Analysis & AI Intern|Chaska, MN|Summer 2026#1"
+    },
+    "296b45aed865": {
+      "company": "Nasdaq",
+      "role": "Software Developer/Engineer Intern",
+      "location": "Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/GA---Glenridge-Point/Software-Developer--Engineer-Intern---2027-Summer-Internship_R0026972?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4212,
+      "chat_id": 7582459199,
+      "seq": 3020,
+      "identity": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/GA---Glenridge-Point/Software-Developer--Engineer-Intern---2027-Summer-Internship_R0026972?utm_source=Simplify&ref=Simplify|Nasdaq|Software Developer/Engineer Intern|Atlanta, GA|Summer 2026#1"
+    },
+    "6155f9020b1c": {
+      "company": "AeroVironment",
+      "role": "Software Engineer Intern",
+      "location": "Melbourne, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4213,
+      "chat_id": 7582459199,
+      "seq": 3021,
+      "identity": "https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550?utm_source=Simplify&ref=Simplify|AeroVironment|Software Engineer Intern|Melbourne, FL|Summer 2026#1"
     }
   },
   "applied": {
@@ -43251,10 +43311,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3016,
+  "seq": 3021,
   "health": {
     "last_heartbeat": "2026-09-16T21:30:24Z",
-    "last_ok_run": "2026-09-16T22:30:18Z",
+    "last_ok_run": "2026-09-16T22:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
