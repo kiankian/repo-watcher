@@ -41912,6 +41912,18 @@
       "chat_id": 7582459199,
       "seq": 2935,
       "identity": "https://zapply.jobs/l/d/workday-analogdevices-external-R266146?s=gh-internships-2027|Analog Devices|Test Engineering Intern|NC Durham|Summer 2027#1"
+    },
+    "b4cc47c91caf": {
+      "company": "Aerospace Corporation",
+      "role": "2027 Aerospace Software Engineer Undergraduate Intern",
+      "location": "El Segundo, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-aero-external-R016605?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4101,
+      "chat_id": 7582459199,
+      "seq": 2936,
+      "identity": "https://zapply.jobs/l/d/workday-aero-external-R016605?s=gh-internships-2027|Aerospace Corporation|2027 Aerospace Software Engineer Undergraduate Intern|El Segundo, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -42279,10 +42291,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2935,
+  "seq": 2936,
   "health": {
     "last_heartbeat": "2026-09-16T04:50:16Z",
-    "last_ok_run": "2026-09-16T05:10:16Z",
+    "last_ok_run": "2026-09-16T05:15:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
