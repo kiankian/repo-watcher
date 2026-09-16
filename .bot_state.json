@@ -41948,6 +41948,42 @@
       "chat_id": 7582459199,
       "seq": 2938,
       "identity": "https://zapply.jobs/l/d/ashby-antares-419ef2df-f0aa-4b68-994a-077e08a959e3?s=gh-internships-2027|Antares|Software Engineering Intern - Summer 2027|Los Angeles|Summer 2027#1"
+    },
+    "eaf49b7c0c02": {
+      "company": "Live Oak Bank",
+      "role": "Architecture/Engineering Intern",
+      "location": "Wilmington, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://liveoakbancshares.wd1.myworkdayjobs.com/en-US/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--Architecture-Engineering_R-002630?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4104,
+      "chat_id": 7582459199,
+      "seq": 2939,
+      "identity": "https://liveoakbancshares.wd1.myworkdayjobs.com/en-US/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--Architecture-Engineering_R-002630?utm_source=Simplify&ref=Simplify|Live Oak Bank|Architecture/Engineering Intern|Wilmington, NC|Summer 2026#1"
+    },
+    "4626b24835e5": {
+      "company": "Live Oak Bank",
+      "role": "Artificial Intelligence Enablement & Forward-Deployed Engineering Intern",
+      "location": "Wilmington, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://liveoakbancshares.wd1.myworkdayjobs.com/en-US/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4105,
+      "chat_id": 7582459199,
+      "seq": 2940,
+      "identity": "https://liveoakbancshares.wd1.myworkdayjobs.com/en-US/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624?utm_source=Simplify&ref=Simplify|Live Oak Bank|Artificial Intelligence Enablement & Forward-Deployed Engineering Intern|Wilmington, NC|Summer 2026#1"
+    },
+    "e61db1898945": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "St. Petersburg, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-ST-PETERSBURG-381BD--7401-22nd-Ave-N--BLDG-D/Software-Engineering-Intern--Summer-2027-_01874926?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4106,
+      "chat_id": 7582459199,
+      "seq": 2941,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-ST-PETERSBURG-381BD--7401-22nd-Ave-N--BLDG-D/Software-Engineering-Intern--Summer-2027-_01874926?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|St. Petersburg, FL|Summer 2026#1"
     }
   },
   "applied": {
@@ -42315,10 +42351,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 2938,
+  "seq": 2941,
   "health": {
     "last_heartbeat": "2026-09-16T06:00:17Z",
-    "last_ok_run": "2026-09-16T06:30:18Z",
+    "last_ok_run": "2026-09-16T06:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
