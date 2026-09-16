@@ -42728,6 +42728,18 @@
       "chat_id": 7582459199,
       "seq": 3003,
       "identity": "https://zapply.jobs/l/d/ashby-persona-eb77c97c-fa9d-4bf0-9566-e5ba4453b7d3?s=gh-internships-2027|Persona|Software Engineer, Intern (Summer 2027)|San Francisco|Summer 2027#1"
+    },
+    "7b7c8bf746b4": {
+      "company": "Microsoft",
+      "role": "Software Engineering INTERN",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/microsoft-200055967?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4169,
+      "chat_id": 7582459199,
+      "seq": 3004,
+      "identity": "https://zapply.jobs/l/d/microsoft-200055967?s=gh-internships-2027|Microsoft|Software Engineering INTERN|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -43095,10 +43107,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3003,
+  "seq": 3004,
   "health": {
     "last_heartbeat": "2026-09-16T19:00:20Z",
-    "last_ok_run": "2026-09-16T19:35:14Z",
+    "last_ok_run": "2026-09-16T19:40:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
