@@ -44300,6 +44300,30 @@
       "chat_id": 7582459199,
       "seq": 3134,
       "identity": "https://zapply.jobs/l/d/workday-labcorp-external-2632795?s=gh-internships-2027|LabCorp|Intern \u2013 Network Infrastructure & Automation Engineering|Durham NC|Summer 2027#1"
+    },
+    "4c9735720389": {
+      "company": "FIS",
+      "role": "Intern, Software Engineer, FIS University Program",
+      "location": "FL JAX 347",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-fis-searchjobs-JR0309512?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4327,
+      "chat_id": 7582459199,
+      "seq": 3135,
+      "identity": "https://zapply.jobs/l/d/workday-fis-searchjobs-JR0309512?s=gh-internships-2027|FIS|Intern, Software Engineer, FIS University Program|FL JAX 347|Summer 2027#1"
+    },
+    "11d48fdd0b75": {
+      "company": "Tower Research Capital",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-towerresearchcapital-8212158?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4328,
+      "chat_id": 7582459199,
+      "seq": 3136,
+      "identity": "https://zapply.jobs/l/d/greenhouse-towerresearchcapital-8212158?s=gh-internships-2027|Tower Research Capital|Software Engineer Intern (Summer 2027)|New York|Summer 2027#1"
     }
   },
   "applied": {
@@ -44667,10 +44691,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3134,
+  "seq": 3136,
   "health": {
     "last_heartbeat": "2026-09-17T20:20:14Z",
-    "last_ok_run": "2026-09-17T21:10:17Z",
+    "last_ok_run": "2026-09-17T21:15:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
