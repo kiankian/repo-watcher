@@ -44204,6 +44204,30 @@
       "chat_id": 7582459199,
       "seq": 3126,
       "identity": "https://zapply.jobs/l/d/oracle-gm-financial-260818?s=gh-internships-2027|GM Financial|Intern - Software Development Engineer|Arlington, TX, United States|Summer 2027#1"
+    },
+    "b466cccea1f6": {
+      "company": "Marvell",
+      "role": "SRAM Software Engineer Intern, BS - Summer 2027",
+      "location": "Burlington, VT",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-marvell-marvellcareers-2603760?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4319,
+      "chat_id": 7582459199,
+      "seq": 3127,
+      "identity": "https://zapply.jobs/l/d/workday-marvell-marvellcareers-2603760?s=gh-internships-2027|Marvell|SRAM Software Engineer Intern, BS - Summer 2027|Burlington, VT|Summer 2027#1"
+    },
+    "2f94821002fa": {
+      "company": "Leidos",
+      "role": "Software Developer Co-op",
+      "location": "Bethesda, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-leidos-external-R-00190766?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4320,
+      "chat_id": 7582459199,
+      "seq": 3128,
+      "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00190766?s=gh-internships-2027|Leidos|Software Developer Co-op|Bethesda, MD|Summer 2027#1"
     }
   },
   "applied": {
@@ -44571,10 +44595,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3126,
+  "seq": 3128,
   "health": {
     "last_heartbeat": "2026-09-17T17:10:15Z",
-    "last_ok_run": "2026-09-17T17:45:13Z",
+    "last_ok_run": "2026-09-17T17:50:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
