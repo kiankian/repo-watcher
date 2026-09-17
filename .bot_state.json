@@ -44144,6 +44144,42 @@
       "chat_id": 7582459199,
       "seq": 3121,
       "identity": "https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d|Mercor|Software Engineer Intern|San Francisco, CA|Other#1"
+    },
+    "6e7610ea0989": {
+      "company": "FIS",
+      "role": "Intern, Risk and Cybersecurity, FIS University Program",
+      "location": "FL JAX 347",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-fis-searchjobs-JR0309680?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4314,
+      "chat_id": 7582459199,
+      "seq": 3122,
+      "identity": "https://zapply.jobs/l/d/workday-fis-searchjobs-JR0309680?s=gh-internships-2027|FIS|Intern, Risk and Cybersecurity, FIS University Program|FL JAX 347|Summer 2027#1"
+    },
+    "cc6692cac268": {
+      "company": "GM Financial",
+      "role": "Intern - Software Development Engineer",
+      "location": "Arlington, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-gm-financial-260795?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4315,
+      "chat_id": 7582459199,
+      "seq": 3123,
+      "identity": "https://zapply.jobs/l/d/oracle-gm-financial-260795?s=gh-internships-2027|GM Financial|Intern - Software Development Engineer|Arlington, TX, United States|Summer 2027#1"
+    },
+    "a9aad73af924": {
+      "company": "GM Financial",
+      "role": "Intern - Software Development Engineer",
+      "location": "Arlington, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-gm-financial-260831?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4316,
+      "chat_id": 7582459199,
+      "seq": 3124,
+      "identity": "https://zapply.jobs/l/d/oracle-gm-financial-260831?s=gh-internships-2027|GM Financial|Intern - Software Development Engineer|Arlington, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -44511,10 +44547,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3121,
+  "seq": 3124,
   "health": {
     "last_heartbeat": "2026-09-17T15:55:14Z",
-    "last_ok_run": "2026-09-17T16:55:17Z",
+    "last_ok_run": "2026-09-17T17:00:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
