@@ -43256,6 +43256,42 @@
       "chat_id": 7582459199,
       "seq": 3047,
       "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF088587W?s=gh-internships-2027|Visa|Software Engineer, Intern - Foster City 2027|Foster City, CA|Summer 2027#1"
+    },
+    "09996381ff31": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern, Ashburn",
+      "location": "Ashburn, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF088599W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4240,
+      "chat_id": 7582459199,
+      "seq": 3048,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF088599W?s=gh-internships-2027|Visa|2027 Sophomore Internship Program - Software Engineer Intern, Ashburn|Ashburn, VA|Summer 2027#1"
+    },
+    "c3736309c47d": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch",
+      "location": "Denver, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF088597W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4241,
+      "chat_id": 7582459199,
+      "seq": 3049,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF088597W?s=gh-internships-2027|Visa|2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch|Denver, CO|Summer 2027#1"
+    },
+    "c65a31dd6d60": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern, Austin",
+      "location": "Austin, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF088596W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4242,
+      "chat_id": 7582459199,
+      "seq": 3050,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF088596W?s=gh-internships-2027|Visa|2027 Sophomore Internship Program - Software Engineer Intern, Austin|Austin, TX|Summer 2027#1"
     }
   },
   "applied": {
@@ -43623,10 +43659,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3047,
+  "seq": 3050,
   "health": {
     "last_heartbeat": "2026-09-17T12:25:17Z",
-    "last_ok_run": "2026-09-17T13:15:15Z",
+    "last_ok_run": "2026-09-17T13:20:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
