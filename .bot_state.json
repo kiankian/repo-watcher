@@ -43424,6 +43424,18 @@
       "chat_id": 7582459199,
       "seq": 3061,
       "identity": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---IT-Engineering-Intern-Summer-2027_R0190463?utm_source=Simplify&ref=Simplify|Avis Budget Group|IT Engineering Intern - Accelerate|Parsippany-Troy Hills, NJ|Summer 2026#1"
+    },
+    "7c7c98f32a9b": {
+      "company": "Unisys",
+      "role": "Software Engineer Intern",
+      "location": "Blue Bell, PA, United States of...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-unisys-external-REQ573111?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4254,
+      "chat_id": 7582459199,
+      "seq": 3062,
+      "identity": "https://zapply.jobs/l/d/workday-unisys-external-REQ573111?s=gh-internships-2027|Unisys|Software Engineer Intern|Blue Bell, PA, United States of...|Summer 2027#1"
     }
   },
   "applied": {
@@ -43791,10 +43803,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3061,
+  "seq": 3062,
   "health": {
     "last_heartbeat": "2026-09-17T14:45:16Z",
-    "last_ok_run": "2026-09-17T15:15:16Z",
+    "last_ok_run": "2026-09-17T15:20:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
