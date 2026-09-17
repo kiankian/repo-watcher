@@ -43460,6 +43460,18 @@
       "chat_id": 7582459199,
       "seq": 3064,
       "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF088544W?s=gh-internships-2027|Visa|Software Engineer, Intern - 2027 Austin, TX|Austin, TX|Summer 2027#1"
+    },
+    "048d34feaf21": {
+      "company": "Micron Technology",
+      "role": "Intern - Software Engineer",
+      "location": "Boise, ID - Main Site",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-micron-external-JR108550?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4257,
+      "chat_id": 7582459199,
+      "seq": 3065,
+      "identity": "https://zapply.jobs/l/d/workday-micron-external-JR108550?s=gh-internships-2027|Micron Technology|Intern - Software Engineer|Boise, ID - Main Site|Summer 2027#1"
     }
   },
   "applied": {
@@ -43827,10 +43839,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3064,
+  "seq": 3065,
   "health": {
     "last_heartbeat": "2026-09-17T14:45:16Z",
-    "last_ok_run": "2026-09-17T15:45:19Z",
+    "last_ok_run": "2026-09-17T15:50:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
