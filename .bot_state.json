@@ -43184,6 +43184,30 @@
       "chat_id": 7582459199,
       "seq": 3041,
       "identity": "https://bci.wd10.myworkdayjobs.com/BCI_Careers/job/Victoria-BC/AI-and-Automation-Engineer-Co-op-Internship--Winter---Summer-2027-_JR101597-1?utm_source=Simplify&ref=Simplify|British Columbia Investment|AI and Automation Engineer Co-op Intern - Winter 2027 - Summer 2027|Victoria, BC, Canada|Summer 2026#1"
+    },
+    "f8950db7e52a": {
+      "company": "Relay",
+      "role": "Software Engineering Intern (AI/ML) - Summer 2027",
+      "location": "Raleigh, NC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-relaypro-8176774?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4234,
+      "chat_id": 7582459199,
+      "seq": 3042,
+      "identity": "https://zapply.jobs/l/d/greenhouse-relaypro-8176774?s=gh-internships-2027|Relay|Software Engineering Intern (AI/ML) - Summer 2027|Raleigh, NC|Summer 2027#1"
+    },
+    "6c3a3b63adeb": {
+      "company": "Relay",
+      "role": "Software Engineering Intern (Device Team) - Summer 2027",
+      "location": "Raleigh, NC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-relaypro-8180836?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4235,
+      "chat_id": 7582459199,
+      "seq": 3043,
+      "identity": "https://zapply.jobs/l/d/greenhouse-relaypro-8180836?s=gh-internships-2027|Relay|Software Engineering Intern (Device Team) - Summer 2027|Raleigh, NC|Summer 2027#1"
     }
   },
   "applied": {
@@ -43551,10 +43575,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3041,
+  "seq": 3043,
   "health": {
     "last_heartbeat": "2026-09-17T10:15:17Z",
-    "last_ok_run": "2026-09-17T10:55:12Z",
+    "last_ok_run": "2026-09-17T11:00:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
