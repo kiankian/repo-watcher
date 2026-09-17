@@ -43172,6 +43172,18 @@
       "chat_id": 7582459199,
       "seq": 3040,
       "identity": "https://careers.withwaymo.com/jobs?gh_jid=8203200&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|Software Engineering Intern - Maneuvering Tech|SF|Summer 2026#1"
+    },
+    "c0f7fd21fb0c": {
+      "company": "British Columbia Investment",
+      "role": "AI and Automation Engineer Co-op Intern - Winter 2027 - Summer 2027",
+      "location": "Victoria, BC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://bci.wd10.myworkdayjobs.com/BCI_Careers/job/Victoria-BC/AI-and-Automation-Engineer-Co-op-Internship--Winter---Summer-2027-_JR101597-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4233,
+      "chat_id": 7582459199,
+      "seq": 3041,
+      "identity": "https://bci.wd10.myworkdayjobs.com/BCI_Careers/job/Victoria-BC/AI-and-Automation-Engineer-Co-op-Internship--Winter---Summer-2027-_JR101597-1?utm_source=Simplify&ref=Simplify|British Columbia Investment|AI and Automation Engineer Co-op Intern - Winter 2027 - Summer 2027|Victoria, BC, Canada|Summer 2026#1"
     }
   },
   "applied": {
@@ -43539,10 +43551,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3040,
+  "seq": 3041,
   "health": {
     "last_heartbeat": "2026-09-17T10:15:17Z",
-    "last_ok_run": "2026-09-17T10:30:18Z",
+    "last_ok_run": "2026-09-17T10:35:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
