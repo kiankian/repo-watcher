@@ -43220,6 +43220,42 @@
       "chat_id": 7582459199,
       "seq": 3044,
       "identity": "https://bci.wd10.myworkdayjobs.com/BCI_Careers/job/Victoria-BC/Investment-Tech-Data---Analytics----Software-Engineer-Co-op-Internship--Winter-2027-or-Winter---Summer-2027-_JR101596?utm_source=Simplify&ref=Simplify|British Columbia Investment|Software Engineer Co-op Intern - Investment Tech/Data & Analytics|Victoria, BC, Canada Vancouver, BC, Canada|Summer 2026#1"
+    },
+    "8d927e15a3d2": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern, Foster City",
+      "location": "Foster City, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF088591W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4237,
+      "chat_id": 7582459199,
+      "seq": 3045,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF088591W?s=gh-internships-2027|Visa|2027 Sophomore Internship Program - Software Engineer Intern, Foster City|Foster City, CA|Summer 2027#1"
+    },
+    "3f4dce0d7cf4": {
+      "company": "Visa",
+      "role": "Software Engineer, Intern, Highlands Ranch, CO - 2027",
+      "location": "Denver, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF088583W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4238,
+      "chat_id": 7582459199,
+      "seq": 3046,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF088583W?s=gh-internships-2027|Visa|Software Engineer, Intern, Highlands Ranch, CO - 2027|Denver, CO|Summer 2027#1"
+    },
+    "fff44b7acfb0": {
+      "company": "Visa",
+      "role": "Software Engineer, Intern - Foster City 2027",
+      "location": "Foster City, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF088587W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4239,
+      "chat_id": 7582459199,
+      "seq": 3047,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF088587W?s=gh-internships-2027|Visa|Software Engineer, Intern - Foster City 2027|Foster City, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -43587,10 +43623,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3044,
+  "seq": 3047,
   "health": {
     "last_heartbeat": "2026-09-17T12:25:17Z",
-    "last_ok_run": "2026-09-17T13:05:22Z",
+    "last_ok_run": "2026-09-17T13:10:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
