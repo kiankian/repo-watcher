@@ -43208,6 +43208,18 @@
       "chat_id": 7582459199,
       "seq": 3043,
       "identity": "https://zapply.jobs/l/d/greenhouse-relaypro-8180836?s=gh-internships-2027|Relay|Software Engineering Intern (Device Team) - Summer 2027|Raleigh, NC|Summer 2027#1"
+    },
+    "51b76f7ab321": {
+      "company": "British Columbia Investment",
+      "role": "Software Engineer Co-op Intern - Investment Tech/Data & Analytics",
+      "location": "Victoria, BC, Canada Vancouver, BC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://bci.wd10.myworkdayjobs.com/BCI_Careers/job/Victoria-BC/Investment-Tech-Data---Analytics----Software-Engineer-Co-op-Internship--Winter-2027-or-Winter---Summer-2027-_JR101596?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4236,
+      "chat_id": 7582459199,
+      "seq": 3044,
+      "identity": "https://bci.wd10.myworkdayjobs.com/BCI_Careers/job/Victoria-BC/Investment-Tech-Data---Analytics----Software-Engineer-Co-op-Internship--Winter-2027-or-Winter---Summer-2027-_JR101596?utm_source=Simplify&ref=Simplify|British Columbia Investment|Software Engineer Co-op Intern - Investment Tech/Data & Analytics|Victoria, BC, Canada Vancouver, BC, Canada|Summer 2026#1"
     }
   },
   "applied": {
@@ -43575,10 +43587,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3043,
+  "seq": 3044,
   "health": {
     "last_heartbeat": "2026-09-17T12:25:17Z",
-    "last_ok_run": "2026-09-17T13:00:21Z",
+    "last_ok_run": "2026-09-17T13:05:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
