@@ -43400,6 +43400,30 @@
       "chat_id": 7582459199,
       "seq": 3059,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875838?s=gh-internships-2027|RTX|Systems Engineering Intern (Summer 2027)|CO-AURORA-S75|Summer 2027#1"
+    },
+    "5e8ea94a2839": {
+      "company": "\ud83d\udd25 Visa",
+      "role": "Software Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF088544W-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4252,
+      "chat_id": 7582459199,
+      "seq": 3060,
+      "identity": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF088544W-1?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Visa|Software Engineer Intern|Austin, TX|Summer 2026#1"
+    },
+    "0c1c50b8fbb1": {
+      "company": "Avis Budget Group",
+      "role": "IT Engineering Intern - Accelerate",
+      "location": "Parsippany-Troy Hills, NJ",
+      "term": "Summer 2026",
+      "apply_url": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---IT-Engineering-Intern-Summer-2027_R0190463?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4253,
+      "chat_id": 7582459199,
+      "seq": 3061,
+      "identity": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---IT-Engineering-Intern-Summer-2027_R0190463?utm_source=Simplify&ref=Simplify|Avis Budget Group|IT Engineering Intern - Accelerate|Parsippany-Troy Hills, NJ|Summer 2026#1"
     }
   },
   "applied": {
@@ -43767,10 +43791,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3059,
+  "seq": 3061,
   "health": {
     "last_heartbeat": "2026-09-17T14:45:16Z",
-    "last_ok_run": "2026-09-17T15:00:21Z",
+    "last_ok_run": "2026-09-17T15:05:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
