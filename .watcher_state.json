@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "56055ebbec6c904dff413fbc261d74165692ce16",
+    "last_sha": "b1b0bedc7061665d27f67a8d4361435aff3444fe",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2119,10 +2119,25 @@
       "https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/Boston-Massachusetts/Engineering-Summer-Internship-Programme_R0123570-2?utm_source=Simplify&ref=Simplify|LSEG|Engineering Intern - Multiple Teams|Boston, MA|Summer 2026#1",
       "https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/New-York-City-United-States/Engineering-Summer-Internship-Programme_R0123569-1?utm_source=Simplify&ref=Simplify|LSEG|Engineering Intern|NYC|Summer 2026#1",
       "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/New-York-City-United-States/Engineering-Summer-Internship-Programme_R0123569?utm_source=Simplify&ref=Simplify|LSEG|Engineering Intern|NYC|Summer 2026#1",
-      "https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-FL-JAX-347/Intern--Software-Engineer--FIS-University-Program_JR0309512?utm_source=Simplify&ref=Simplify|Fidelity National Information Services|Software Engineer Intern - FIS University Program|Milwaukee, WI Jacksonville, FL Atlanta, GA|Summer 2026#1"
+      "https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-FL-JAX-347/Intern--Software-Engineer--FIS-University-Program_JR0309512?utm_source=Simplify&ref=Simplify|Fidelity National Information Services|Software Engineer Intern - FIS University Program|Milwaukee, WI Jacksonville, FL Atlanta, GA|Summer 2026#1",
+      "https://careers.withwaymo.com/jobs?gh_jid=8210170&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|Scenes Intern|Mountain View, CA|Summer 2026#1",
+      "https://www.tower-research.com/open-positions/?gh_jid=8212179&utm_source=Simplify&ref=Simplify|Tower Research Capital|Software Developer Intern|Montreal, QC, Canada|Summer 2026#1",
+      "https://job-boards.greenhouse.io/genevatrading/jobs/5240107007?utm_source=Simplify&ref=Simplify|Geneva Trading|AI Engineer Intern|Chicago, IL|Summer 2026#1",
+      "https://www.tower-research.com/open-positions/?gh_jid=8212158&utm_source=Simplify&ref=Simplify|Tower Research Capital|Software Engineer Intern - Summer 2027|NYC|Summer 2026#1",
+      "https://uscareers-lennox.icims.com/jobs/54893/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Lennox International|IoT Intern \ud83c\udf93|Richardson, TX|Summer 2026#1",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158088?utm_source=Simplify&ref=Simplify|Honeywell|Software Engineer Co-op|Pittsford, NY|Summer 2026#1",
+      "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260818?utm_source=Simplify&ref=Simplify|GM financial|Software Development Engineer Intern|Arlington, TX|Summer 2026#1",
+      "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260795?utm_source=Simplify&ref=Simplify|GM financial|Software Development Engineer Intern|Arlington, TX|Summer 2026#1",
+      "https://careers-berkley.icims.com/jobs/14437/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|W.R. Berkley|Software Developer Intern - Java|Urbandale, IA|Summer 2026#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Development-Intern--Summer-2027-_01875413?utm_source=Simplify&ref=Simplify|RTX|Software Development Intern - Summer 2027|Tewksbury, MA|Summer 2026#1",
+      "https://theocc.wd5.myworkdayjobs.com/careers/job/Chicago---125-S-Franklin/Year-Round-Intern---AI-Research---Engineering_REQ-4833?utm_source=Simplify&ref=Simplify|OCC|AI Research & Engineering Intern|Chicago, IL|Summer 2026#1",
+      "https://theocc.wd5.myworkdayjobs.com/careers/job/Chicago---125-S-Franklin/Summer-Intern---Software-Engineering--UI-UX_REQ-4868?utm_source=Simplify&ref=Simplify|OCC|Software Engineering Intern - UI/UX|Chicago, IL|Summer 2026#1",
+      "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/Greater-Charlotte-Area-United-States/Engineering-Summer-Internship-Programme_R0123571?utm_source=Simplify&ref=Simplify|LSEG|Engineering Intern|Charlotte, NC|Summer 2026#1",
+      "https://churchdwight.wd1.myworkdayjobs.com/chdcareers/job/USA-Ewing-NJ/AI-Developer-Co-op---Graduate-Program--9-Months-_R2026-15686?utm_source=Simplify&ref=Simplify|Church & Dwight|AI Developer Co-op - Graduate Program \ud83c\udf93|Ewing Township, NJ|Summer 2026#1",
+      "https://bcbsks.wd1.myworkdayjobs.com/External/job/Topeka/RPA-Engineering-Developer-Intern_R2026350?utm_source=Simplify&ref=Simplify|Blue Cross and Blue Shield of Kansas|RPA Engineer Intern|Topeka, KS|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 648,
+    "last_row_count": 667,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -2444,7 +2459,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "318d4cd2f4582eb23d570b7632f99f6ffa4adf3e",
+    "last_sha": "57acf679b4ce99c0eaae2f6ae48e607c6bbd7439",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
