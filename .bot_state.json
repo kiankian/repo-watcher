@@ -43328,6 +43328,66 @@
       "chat_id": 7582459199,
       "seq": 3053,
       "identity": "https://zapply.jobs/l/d/workday-avisbudget-abg-careers-R0190463?s=gh-internships-2027|Avis Budget Group|Accelerate - IT Engineering Intern Summer 2027|379 Interpace Pkwy, Parsippany,...|Summer 2027#1"
+    },
+    "59fc4039f246": {
+      "company": "\ud83d\udd25 Visa",
+      "role": "Software Engineer Intern",
+      "location": "Bellevue, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4246,
+      "chat_id": 7582459199,
+      "seq": 3054,
+      "identity": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W-1?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Visa|Software Engineer Intern|Bellevue, WA|Summer 2026#1"
+    },
+    "1102de938aa9": {
+      "company": "\ud83d\udd25 Visa",
+      "role": "Software Engineer Intern",
+      "location": "Foster City, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4247,
+      "chat_id": 7582459199,
+      "seq": 3055,
+      "identity": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Visa|Software Engineer Intern|Foster City, CA|Summer 2026#1"
+    },
+    "7d58b7412cdf": {
+      "company": "\ud83d\udd25 Visa",
+      "role": "Software Engineer Intern - Sophomore Internship Program",
+      "location": "Austin, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4248,
+      "chat_id": 7582459199,
+      "seq": 3056,
+      "identity": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W-1?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Visa|Software Engineer Intern - Sophomore Internship Program|Austin, TX|Summer 2026#1"
+    },
+    "cbb1aeb16a92": {
+      "company": "\ud83d\udd25 Visa",
+      "role": "Software Engineer Intern",
+      "location": "Denver, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4249,
+      "chat_id": 7582459199,
+      "seq": 3057,
+      "identity": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Visa|Software Engineer Intern|Denver, CO|Summer 2026#1"
+    },
+    "12a124daf263": {
+      "company": "\ud83d\udd25 Visa",
+      "role": "Software Engineer Intern",
+      "location": "Denver, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4250,
+      "chat_id": 7582459199,
+      "seq": 3058,
+      "identity": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Visa|Software Engineer Intern|Denver, CO|Summer 2026#1"
     }
   },
   "applied": {
@@ -43695,10 +43755,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3053,
+  "seq": 3058,
   "health": {
     "last_heartbeat": "2026-09-17T13:45:14Z",
-    "last_ok_run": "2026-09-17T14:30:20Z",
+    "last_ok_run": "2026-09-17T14:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
