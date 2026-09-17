@@ -43136,6 +43136,30 @@
       "chat_id": 7582459199,
       "seq": 3037,
       "identity": "https://zapply.jobs/l/d/workday-disney-disneycareer-10160946?s=gh-internships-2027|Disney|WDI Show Control Software Intern, Spring 2027|Lake Buena Vista, FL|Summer 2027#1"
+    },
+    "9d17de178b06": {
+      "company": "Vanguard",
+      "role": "Co-op - Multiple Teams",
+      "location": "Dallas, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/DallasFt-Worth-TX/XMLNAME-2027-Spring-Summer-Co-op-Opportunities---Dallas_182410?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4230,
+      "chat_id": 7582459199,
+      "seq": 3038,
+      "identity": "https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/DallasFt-Worth-TX/XMLNAME-2027-Spring-Summer-Co-op-Opportunities---Dallas_182410?utm_source=Simplify&ref=Simplify|Vanguard|Co-op - Multiple Teams|Dallas, TX|Summer 2026#1"
+    },
+    "c11cfb3acdb9": {
+      "company": "Smith+Nephew",
+      "role": "Robotics Software Engineer Intern",
+      "location": "Pittsburgh, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://smithnephew.wd5.myworkdayjobs.com/External/job/US---Pittsburgh-PA/Intern-Robotics-Software-Engineering_R92482?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4231,
+      "chat_id": 7582459199,
+      "seq": 3039,
+      "identity": "https://smithnephew.wd5.myworkdayjobs.com/External/job/US---Pittsburgh-PA/Intern-Robotics-Software-Engineering_R92482?utm_source=Simplify&ref=Simplify|Smith+Nephew|Robotics Software Engineer Intern|Pittsburgh, PA|Summer 2026#1"
     }
   },
   "applied": {
@@ -43503,10 +43527,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3037,
+  "seq": 3039,
   "health": {
     "last_heartbeat": "2026-09-17T05:45:14Z",
-    "last_ok_run": "2026-09-17T06:30:17Z",
+    "last_ok_run": "2026-09-17T06:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
