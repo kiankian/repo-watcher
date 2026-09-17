@@ -43304,6 +43304,30 @@
       "chat_id": 7582459199,
       "seq": 3051,
       "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF088585W?s=gh-internships-2027|Visa|Software Engineer, Intern, Bellevue - 2027|Bellevue, WA|Summer 2027#1"
+    },
+    "917409325070": {
+      "company": "Avis Budget Group",
+      "role": "Accelerate - IT Engineering Intern",
+      "location": "379 Interpace Pkwy, Parsippany,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-avisbudget-abg-careers-R0190464?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4244,
+      "chat_id": 7582459199,
+      "seq": 3052,
+      "identity": "https://zapply.jobs/l/d/workday-avisbudget-abg-careers-R0190464?s=gh-internships-2027|Avis Budget Group|Accelerate - IT Engineering Intern|379 Interpace Pkwy, Parsippany,...|Summer 2027#1"
+    },
+    "1da2b9ec4334": {
+      "company": "Avis Budget Group",
+      "role": "Accelerate - IT Engineering Intern Summer 2027",
+      "location": "379 Interpace Pkwy, Parsippany,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-avisbudget-abg-careers-R0190463?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4245,
+      "chat_id": 7582459199,
+      "seq": 3053,
+      "identity": "https://zapply.jobs/l/d/workday-avisbudget-abg-careers-R0190463?s=gh-internships-2027|Avis Budget Group|Accelerate - IT Engineering Intern Summer 2027|379 Interpace Pkwy, Parsippany,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -43671,10 +43695,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3051,
+  "seq": 3053,
   "health": {
     "last_heartbeat": "2026-09-17T13:45:14Z",
-    "last_ok_run": "2026-09-17T14:10:18Z",
+    "last_ok_run": "2026-09-17T14:15:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
