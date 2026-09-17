@@ -4895,7 +4895,11 @@
       "https://nelnet.wd1.myworkdayjobs.com/en-US/mynelnet/job/Madison-WI/Intern---UX-UI-Front-End-Engineer_R23118|Nelnet|Intern - UX/UI Front End Engineer|Madison, WI|Other#1",
       "https://nelnet.wd1.myworkdayjobs.com/en-US/mynelnet/job/Madison-WI/XMLNAME-2026-Summer-Intern---IT-Software-Engineer---NET-Web_R23106|Nelnet|2026 Summer Intern - IT Software Engineer - .NET/Web|Madison, WI +1|Other#1",
       "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186|Northrop Grumman|2027 Cyber Software Engineer Intern - Cincinnati OH|Cincinnati, OH|Other#1",
-      "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493|Oshkosh|Software Engineering Intern|San Francisco, CA|Other#1"
+      "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493|Oshkosh|Software Engineering Intern|San Francisco, CA|Other#1",
+      "https://q2ebanking.wd5.myworkdayjobs.com/en-US/q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794|Q2|2027 Summer Internship - Software Engineer|Austin, TX|Other#1",
+      "https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Backend-Software-Engineer-Intern--Undergraduate-_R22593|WEX|Fullstack Software Engineer Intern - Undergraduate|Remote - USA|Other#1",
+      "http://ragleinc.applytojob.com/apply/lonTfWhOqm/Software-Engineer-Intern|Ragle|Software Engineer Intern|North Richland Hills, TX|Other#1",
+      "https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d|Mercor|Software Engineer Intern|San Francisco, CA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -5040,51 +5044,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 532,
-    "outbox": [
-      [
-        [
-          "Q2",
-          "2027 Summer Internship - Software Engineer",
-          "Austin, TX",
-          "Other",
-          "https://q2ebanking.wd5.myworkdayjobs.com/en-US/q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794"
-        ],
-        "https://q2ebanking.wd5.myworkdayjobs.com/en-US/q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794|Q2|2027 Summer Internship - Software Engineer|Austin, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "WEX",
-          "Fullstack Software Engineer Intern - Undergraduate",
-          "Remote - USA",
-          "Other",
-          "https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Backend-Software-Engineer-Intern--Undergraduate-_R22593"
-        ],
-        "https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Backend-Software-Engineer-Intern--Undergraduate-_R22593|WEX|Fullstack Software Engineer Intern - Undergraduate|Remote - USA|Other#1",
-        1
-      ],
-      [
-        [
-          "Ragle",
-          "Software Engineer Intern",
-          "North Richland Hills, TX",
-          "Other",
-          "http://ragleinc.applytojob.com/apply/lonTfWhOqm/Software-Engineer-Intern"
-        ],
-        "http://ragleinc.applytojob.com/apply/lonTfWhOqm/Software-Engineer-Intern|Ragle|Software Engineer Intern|North Richland Hills, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "Mercor",
-          "Software Engineer Intern",
-          "San Francisco, CA",
-          "Other",
-          "https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d"
-        ],
-        "https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d|Mercor|Software Engineer Intern|San Francisco, CA|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }

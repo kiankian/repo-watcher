@@ -44096,6 +44096,54 @@
       "chat_id": 7582459199,
       "seq": 3117,
       "identity": "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493|Oshkosh|Software Engineering Intern|San Francisco, CA|Other#1"
+    },
+    "3c4b13623d4c": {
+      "company": "Q2",
+      "role": "2027 Summer Internship - Software Engineer",
+      "location": "Austin, TX",
+      "term": "Other",
+      "apply_url": "https://q2ebanking.wd5.myworkdayjobs.com/en-US/q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4310,
+      "chat_id": 7582459199,
+      "seq": 3118,
+      "identity": "https://q2ebanking.wd5.myworkdayjobs.com/en-US/q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794|Q2|2027 Summer Internship - Software Engineer|Austin, TX|Other#1"
+    },
+    "81bea020ddf8": {
+      "company": "WEX",
+      "role": "Fullstack Software Engineer Intern - Undergraduate",
+      "location": "Remote - USA",
+      "term": "Other",
+      "apply_url": "https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Backend-Software-Engineer-Intern--Undergraduate-_R22593",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4311,
+      "chat_id": 7582459199,
+      "seq": 3119,
+      "identity": "https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Backend-Software-Engineer-Intern--Undergraduate-_R22593|WEX|Fullstack Software Engineer Intern - Undergraduate|Remote - USA|Other#1"
+    },
+    "d769f5da2252": {
+      "company": "Ragle",
+      "role": "Software Engineer Intern",
+      "location": "North Richland Hills, TX",
+      "term": "Other",
+      "apply_url": "http://ragleinc.applytojob.com/apply/lonTfWhOqm/Software-Engineer-Intern",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4312,
+      "chat_id": 7582459199,
+      "seq": 3120,
+      "identity": "http://ragleinc.applytojob.com/apply/lonTfWhOqm/Software-Engineer-Intern|Ragle|Software Engineer Intern|North Richland Hills, TX|Other#1"
+    },
+    "9945d8237ed0": {
+      "company": "Mercor",
+      "role": "Software Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Other",
+      "apply_url": "https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4313,
+      "chat_id": 7582459199,
+      "seq": 3121,
+      "identity": "https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d|Mercor|Software Engineer Intern|San Francisco, CA|Other#1"
     }
   },
   "applied": {
@@ -44463,10 +44511,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3117,
+  "seq": 3121,
   "health": {
     "last_heartbeat": "2026-09-17T15:55:14Z",
-    "last_ok_run": "2026-09-17T16:50:58Z",
+    "last_ok_run": "2026-09-17T16:55:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
