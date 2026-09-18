@@ -45152,6 +45152,18 @@
       "chat_id": 7582459199,
       "seq": 3205,
       "identity": "https://zapply.jobs/l/d/qualcomm-3095750?s=gh-internships-2027|Qualcomm|Wireless Systems Engineering Internship - Summer 2027|San Diego, CA|Summer 2027#1"
+    },
+    "3fd149bcefc7": {
+      "company": "Qualcomm",
+      "role": "IT Infrastructure & Cloud Engineering Internship \u2013 Summer 2027",
+      "location": "San Diego, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/qualcomm-3095760?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4398,
+      "chat_id": 7582459199,
+      "seq": 3206,
+      "identity": "https://zapply.jobs/l/d/qualcomm-3095760?s=gh-internships-2027|Qualcomm|IT Infrastructure & Cloud Engineering Internship \u2013 Summer 2027|San Diego, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -45519,10 +45531,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3205,
+  "seq": 3206,
   "health": {
     "last_heartbeat": "2026-09-18T18:20:16Z",
-    "last_ok_run": "2026-09-18T18:40:23Z",
+    "last_ok_run": "2026-09-18T18:45:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
