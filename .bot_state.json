@@ -44648,6 +44648,42 @@
       "chat_id": 7582459199,
       "seq": 3163,
       "identity": "https://zapply.jobs/l/d/amazon-146ec6fd-d497-4119-8f37-d4eabb6d3139?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Internship - Summer -2027 (USA)|Seattle, WA|Summer 2027#1"
+    },
+    "125350b8d7d5": {
+      "company": "TRC Companies",
+      "role": "Software Engineer Intern",
+      "location": "Calgary, AB, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.trccompanies.com/jobs/26840?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4356,
+      "chat_id": 7582459199,
+      "seq": 3164,
+      "identity": "https://careers.trccompanies.com/jobs/26840?icims=1&utm_source=Simplify&ref=Simplify|TRC Companies|Software Engineer Intern|Calgary, AB, Canada|Summer 2026#1"
+    },
+    "a90539897c1c": {
+      "company": "\ud83d\udd25 Amazon",
+      "role": "Software Development Engineer Intern - Summer",
+      "location": "Seattle, WA Arlington County, Arlington, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://amazon.jobs/en/jobs/10552937/software-development-engineer-internship-summer-2027-usa?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4357,
+      "chat_id": 7582459199,
+      "seq": 3165,
+      "identity": "https://amazon.jobs/en/jobs/10552937/software-development-engineer-internship-summer-2027-usa?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Amazon|Software Development Engineer Intern - Summer|Seattle, WA Arlington County, Arlington, VA|Summer 2026#1"
+    },
+    "01b75548e405": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Colorado Springs, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4358,
+      "chat_id": 7582459199,
+      "seq": 3166,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Colorado Springs, CO|Summer 2026#1"
     }
   },
   "applied": {
@@ -45015,10 +45051,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3163,
+  "seq": 3166,
   "health": {
     "last_heartbeat": "2026-09-18T00:50:14Z",
-    "last_ok_run": "2026-09-18T01:30:18Z",
+    "last_ok_run": "2026-09-18T01:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
