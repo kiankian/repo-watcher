@@ -44732,6 +44732,18 @@
       "chat_id": 7582459199,
       "seq": 3170,
       "identity": "https://zapply.jobs/l/d/ashby-antares-419ef2df-f0aa-4b68-994a-077e08a959e3?s=gh-internships-2027|Antares|Reactor Software Engineering Intern - Summer 2027|Los Angeles|Summer 2027#1"
+    },
+    "60fa099aa733": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern, Bellevue",
+      "location": "Bellevue, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF088594W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4363,
+      "chat_id": 7582459199,
+      "seq": 3171,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF088594W?s=gh-internships-2027|Visa|2027 Sophomore Internship Program - Software Engineer Intern, Bellevue|Bellevue, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -45099,10 +45111,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3170,
+  "seq": 3171,
   "health": {
     "last_heartbeat": "2026-09-18T03:50:16Z",
-    "last_ok_run": "2026-09-18T04:40:14Z",
+    "last_ok_run": "2026-09-18T04:45:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
