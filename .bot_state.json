@@ -45092,6 +45092,18 @@
       "chat_id": 7582459199,
       "seq": 3200,
       "identity": "https://zapply.jobs/l/d/workday-cmegroup-cme-careers-34824?s=gh-internships-2027|CME Group|Software Engineering Fellowship - Summer 2027|Chicago|Summer 2027#1"
+    },
+    "704a76bc3639": {
+      "company": "Rubrik",
+      "role": "Software Engineering Winter Internship",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-rubrik-8171088?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4393,
+      "chat_id": 7582459199,
+      "seq": 3201,
+      "identity": "https://zapply.jobs/l/d/greenhouse-rubrik-8171088?s=gh-internships-2027|Rubrik|Software Engineering Winter Internship|Palo Alto, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -45459,10 +45471,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3200,
+  "seq": 3201,
   "health": {
     "last_heartbeat": "2026-09-18T17:20:16Z",
-    "last_ok_run": "2026-09-18T17:20:16Z",
+    "last_ok_run": "2026-09-18T17:25:12Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
