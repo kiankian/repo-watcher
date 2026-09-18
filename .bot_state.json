@@ -45044,6 +45044,30 @@
       "chat_id": 7582459199,
       "seq": 3196,
       "identity": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2cc1abe5-fdf4-41ed-b82d-9b34c651ef79&jobId=574457|Bascom Hunter|Embedded Software Eng Intern - Baton Rouge - LA/Frederick - MD|Baton Rouge, LA +1|Other#1"
+    },
+    "51e8b32ae37b": {
+      "company": "Northrop Grumman",
+      "role": "2027 Intern Software Engineer",
+      "location": "United States-Florida-Melbourne",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10239275?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4389,
+      "chat_id": 7582459199,
+      "seq": 3197,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10239275?s=gh-internships-2027|Northrop Grumman|2027 Intern Software Engineer|United States-Florida-Melbourne|Summer 2027#1"
+    },
+    "8c676ea636ff": {
+      "company": "Amazon.com Services LLC",
+      "role": "Software Development Engineer Intern - Summer 2027 (USA)",
+      "location": "Seattle, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/amazon-146ec6fd-d497-4119-8f37-d4eabb6d3139?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4390,
+      "chat_id": 7582459199,
+      "seq": 3198,
+      "identity": "https://zapply.jobs/l/d/amazon-146ec6fd-d497-4119-8f37-d4eabb6d3139?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern - Summer 2027 (USA)|Seattle, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -45411,10 +45435,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3196,
+  "seq": 3198,
   "health": {
     "last_heartbeat": "2026-09-18T16:10:18Z",
-    "last_ok_run": "2026-09-18T16:30:37Z",
+    "last_ok_run": "2026-09-18T16:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
