@@ -44756,6 +44756,18 @@
       "chat_id": 7582459199,
       "seq": 3172,
       "identity": "https://zapply.jobs/l/d/microsoft-200041085?s=gh-internships-2027|Microsoft|Software Engineering INTERN|United States|Summer 2027#1"
+    },
+    "5dc80c0bfd01": {
+      "company": "RTX",
+      "role": "Flight Controls Systems Engineering Intern (Summer 2027) - Onsite",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871091?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4365,
+      "chat_id": 7582459199,
+      "seq": 3173,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871091?s=gh-internships-2027|RTX|Flight Controls Systems Engineering Intern (Summer 2027) - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
     }
   },
   "applied": {
@@ -45123,10 +45135,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3172,
+  "seq": 3173,
   "health": {
     "last_heartbeat": "2026-09-18T05:00:19Z",
-    "last_ok_run": "2026-09-18T05:10:15Z",
+    "last_ok_run": "2026-09-18T05:15:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
