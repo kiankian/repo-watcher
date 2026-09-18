@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "e5f5614104994db5abc55af100c3c79945a9f73f",
+    "last_sha": "eba05fbf9ea7a316aaadf8f09380685eae06fb7d",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2463,7 +2463,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "ae160b62020fe827925042ea4f7a51bceec81272",
+    "last_sha": "601222c2ca6cee2e9ad67460686a31d87be1841a",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -3870,7 +3870,10 @@
       "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871091?s=gh-internships-2027|RTX|Flight Controls Systems Engineering Intern (Summer 2027) - Onsite|IA-CEDAR RAPIDS|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-adobe-external-experienced-R171666?s=gh-internships-2027|Adobe|2027 Intern - Software Engineer|San Jose|Summer 2027#1",
       "https://zapply.jobs/l/d/greenhouse-formlabs-8196515?s=gh-internships-2027|Formlabs|Hardware Test Engineering Intern (Winter/Spring 2027)|Somerville, MA|Summer 2027#1",
-      "https://zapply.jobs/l/d/oracle-nokia-40535?s=gh-internships-2027|Nokia|AI Assisted Software Development Co-op|United States|Summer 2027#1"
+      "https://zapply.jobs/l/d/oracle-nokia-40535?s=gh-internships-2027|Nokia|AI Assisted Software Development Co-op|United States|Summer 2027#1",
+      "https://zapply.jobs/l/d/greenhouse-togetherai-5238031007?s=gh-internships-2027|Together AI|Software Engineer Intern (Winter 2027)|San Francisco|Summer 2027#1",
+      "https://zapply.jobs/l/d/greenhouse-togetherai-5232036007?s=gh-internships-2027|Together AI|Software Engineer Intern (Summer 2027)|San Francisco|Summer 2027#1",
+      "https://zapply.jobs/l/d/greenhouse-togetherai-5238472007?s=gh-internships-2027|Together AI|Software Development In Test Intern (Summer 2027)|San Francisco|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",

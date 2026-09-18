@@ -44816,6 +44816,42 @@
       "chat_id": 7582459199,
       "seq": 3177,
       "identity": "https://zapply.jobs/l/d/oracle-nokia-40535?s=gh-internships-2027|Nokia|AI Assisted Software Development Co-op|United States|Summer 2027#1"
+    },
+    "ec9fbe53de76": {
+      "company": "Together AI",
+      "role": "Software Engineer Intern (Winter 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-togetherai-5238031007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4370,
+      "chat_id": 7582459199,
+      "seq": 3178,
+      "identity": "https://zapply.jobs/l/d/greenhouse-togetherai-5238031007?s=gh-internships-2027|Together AI|Software Engineer Intern (Winter 2027)|San Francisco|Summer 2027#1"
+    },
+    "78b410c332f1": {
+      "company": "Together AI",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-togetherai-5232036007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4371,
+      "chat_id": 7582459199,
+      "seq": 3179,
+      "identity": "https://zapply.jobs/l/d/greenhouse-togetherai-5232036007?s=gh-internships-2027|Together AI|Software Engineer Intern (Summer 2027)|San Francisco|Summer 2027#1"
+    },
+    "4a5b54441402": {
+      "company": "Together AI",
+      "role": "Software Development In Test Intern (Summer 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-togetherai-5238472007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4372,
+      "chat_id": 7582459199,
+      "seq": 3180,
+      "identity": "https://zapply.jobs/l/d/greenhouse-togetherai-5238472007?s=gh-internships-2027|Together AI|Software Development In Test Intern (Summer 2027)|San Francisco|Summer 2027#1"
     }
   },
   "applied": {
@@ -45183,10 +45219,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3177,
+  "seq": 3180,
   "health": {
     "last_heartbeat": "2026-09-18T15:00:20Z",
-    "last_ok_run": "2026-09-18T16:00:19Z",
+    "last_ok_run": "2026-09-18T16:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
