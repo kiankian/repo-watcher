@@ -45236,6 +45236,18 @@
       "chat_id": 7582459199,
       "seq": 3212,
       "identity": "https://zapply.jobs/l/d/greenhouse-waymo-8214519?s=gh-internships-2027|Waymo|2027 Summer Intern, MS/PhD, Software Engineer, Multiverse|Mountain View, California, USA|Summer 2027#1"
+    },
+    "817d80569d33": {
+      "company": "LLNL",
+      "role": "Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027",
+      "location": "Livermore, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-llnl-3743990015408206?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4405,
+      "chat_id": 7582459199,
+      "seq": 3213,
+      "identity": "https://zapply.jobs/l/d/sr-llnl-3743990015408206?s=gh-internships-2027|LLNL|Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027|Livermore, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -45603,10 +45615,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3212,
+  "seq": 3213,
   "health": {
     "last_heartbeat": "2026-09-18T22:55:47Z",
-    "last_ok_run": "2026-09-18T23:15:17Z",
+    "last_ok_run": "2026-09-18T23:20:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
