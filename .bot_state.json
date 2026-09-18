@@ -45188,6 +45188,30 @@
       "chat_id": 7582459199,
       "seq": 3208,
       "identity": "https://zapply.jobs/l/d/workday-bmo-external-R260027197?s=gh-internships-2027|BMO|Software Developer, Winter 2027 (Internship) - 4 months|San Ramon, CA, USA|Summer 2027#1"
+    },
+    "83c28d4ef13f": {
+      "company": "Tyler Technologies",
+      "role": "Software Development Intern",
+      "location": "Lawrenceville, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.jobvite.com/tylertech/job/oAVOAfwD?nl=1&nl=1&fr=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4401,
+      "chat_id": 7582459199,
+      "seq": 3209,
+      "identity": "https://jobs.jobvite.com/tylertech/job/oAVOAfwD?nl=1&nl=1&fr=false&utm_source=Simplify&ref=Simplify|Tyler Technologies|Software Development Intern|Lawrenceville, GA|Summer 2026#1"
+    },
+    "cb73b2dd771a": {
+      "company": "Cogna",
+      "role": "Software Engineer Intern \ud83c\udf93",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://apply.workable.com/cogna/j/45A6283F88/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4402,
+      "chat_id": 7582459199,
+      "seq": 3210,
+      "identity": "https://apply.workable.com/cogna/j/45A6283F88/apply?utm_source=Simplify&ref=Simplify|Cogna|Software Engineer Intern \ud83c\udf93|London, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -45555,10 +45579,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3208,
+  "seq": 3210,
   "health": {
     "last_heartbeat": "2026-09-18T20:40:14Z",
-    "last_ok_run": "2026-09-18T21:00:28Z",
+    "last_ok_run": "2026-09-18T21:05:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
