@@ -45176,6 +45176,18 @@
       "chat_id": 7582459199,
       "seq": 3207,
       "identity": "https://zapply.jobs/l/d/ashby-fable-3fd04c23-a63d-4b40-bfae-feafaa478caf?s=gh-internships-2027|Fable|Software Engineering Intern|San Francisco, CA (Hybrid)|Summer 2027#1"
+    },
+    "1a8e047843d1": {
+      "company": "BMO",
+      "role": "Software Developer, Winter 2027 (Internship) - 4 months",
+      "location": "San Ramon, CA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bmo-external-R260027197?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4400,
+      "chat_id": 7582459199,
+      "seq": 3208,
+      "identity": "https://zapply.jobs/l/d/workday-bmo-external-R260027197?s=gh-internships-2027|BMO|Software Developer, Winter 2027 (Internship) - 4 months|San Ramon, CA, USA|Summer 2027#1"
     }
   },
   "applied": {
@@ -45543,10 +45555,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3207,
+  "seq": 3208,
   "health": {
     "last_heartbeat": "2026-09-18T20:40:14Z",
-    "last_ok_run": "2026-09-18T20:40:14Z",
+    "last_ok_run": "2026-09-18T20:45:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
