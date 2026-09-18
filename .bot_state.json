@@ -44768,6 +44768,18 @@
       "chat_id": 7582459199,
       "seq": 3173,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871091?s=gh-internships-2027|RTX|Flight Controls Systems Engineering Intern (Summer 2027) - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "477ad66f5d81": {
+      "company": "\ud83d\udd25 Tesla",
+      "role": "Internship - Software Engineering - People Products - Summer 2027",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://www.tesla.com/careers/search/job/284004?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4366,
+      "chat_id": 7582459199,
+      "seq": 3174,
+      "identity": "https://www.tesla.com/careers/search/job/284004?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Tesla|Internship - Software Engineering - People Products - Summer 2027|Palo Alto, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -45135,10 +45147,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3173,
+  "seq": 3174,
   "health": {
     "last_heartbeat": "2026-09-18T06:00:19Z",
-    "last_ok_run": "2026-09-18T06:30:18Z",
+    "last_ok_run": "2026-09-18T06:35:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
