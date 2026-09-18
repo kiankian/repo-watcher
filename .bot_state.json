@@ -44684,6 +44684,18 @@
       "chat_id": 7582459199,
       "seq": 3166,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Colorado Springs, CO|Summer 2026#1"
+    },
+    "bab887ca7915": {
+      "company": "Wellmark, Inc.",
+      "role": "Security Analyst Internship",
+      "location": "Des Moines, IA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-WellmarkInc-744000150269748?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4359,
+      "chat_id": 7582459199,
+      "seq": 3167,
+      "identity": "https://zapply.jobs/l/d/sr-WellmarkInc-744000150269748?s=gh-internships-2027|Wellmark, Inc.|Security Analyst Internship|Des Moines, IA|Summer 2027#1"
     }
   },
   "applied": {
@@ -45051,10 +45063,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3166,
+  "seq": 3167,
   "health": {
     "last_heartbeat": "2026-09-18T01:50:14Z",
-    "last_ok_run": "2026-09-18T02:40:15Z",
+    "last_ok_run": "2026-09-18T02:45:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
