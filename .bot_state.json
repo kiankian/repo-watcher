@@ -45452,6 +45452,30 @@
       "chat_id": 7582459199,
       "seq": 3230,
       "identity": "https://zapply.jobs/l/d/greenhouse-astranis-4705652006?s=gh-internships-2027|Astranis|Environmental Test Engineer Intern (Winter 2027)|San Francisco|Summer 2027#1"
+    },
+    "b34d9708efd7": {
+      "company": "Epic Games",
+      "role": "Tools Programmer Intern",
+      "location": "Cary, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://epicgames.com/careers/jobs/6200355004?gh_jid=6200355004&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4423,
+      "chat_id": 7582459199,
+      "seq": 3231,
+      "identity": "https://epicgames.com/careers/jobs/6200355004?gh_jid=6200355004&utm_source=Simplify&ref=Simplify|Epic Games|Tools Programmer Intern|Cary, NC|Summer 2026#1"
+    },
+    "091e6a29b6ff": {
+      "company": "RTX",
+      "role": "Software Engineering Intern",
+      "location": "Sterling, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--Summer-2027-_01875780?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4424,
+      "chat_id": 7582459199,
+      "seq": 3232,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--Summer-2027-_01875780?utm_source=Simplify&ref=Simplify|RTX|Software Engineering Intern|Sterling, VA|Summer 2026#1"
     }
   },
   "applied": {
@@ -45819,10 +45843,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3230,
+  "seq": 3232,
   "health": {
     "last_heartbeat": "2026-09-19T03:30:19Z",
-    "last_ok_run": "2026-09-19T03:30:19Z",
+    "last_ok_run": "2026-09-19T03:35:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
