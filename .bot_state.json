@@ -45428,6 +45428,30 @@
       "chat_id": 7582459199,
       "seq": 3228,
       "identity": "https://athene.wd5.myworkdayjobs.com/athene_careers/job/West-Des-Moines-Iowa/Software-Developer-Internship-_R255125?utm_source=Simplify&ref=Simplify|Athene|Software Developer Intern|West Des Moines, IA|Summer 2026#1"
+    },
+    "d36aead82c8c": {
+      "company": "Astranis",
+      "role": "Environmental Test Engineer Associate (Winter 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-astranis-4705660006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4421,
+      "chat_id": 7582459199,
+      "seq": 3229,
+      "identity": "https://zapply.jobs/l/d/greenhouse-astranis-4705660006?s=gh-internships-2027|Astranis|Environmental Test Engineer Associate (Winter 2027)|San Francisco|Summer 2027#1"
+    },
+    "9adcbcbeb50d": {
+      "company": "Astranis",
+      "role": "Environmental Test Engineer Intern (Winter 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-astranis-4705652006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4422,
+      "chat_id": 7582459199,
+      "seq": 3230,
+      "identity": "https://zapply.jobs/l/d/greenhouse-astranis-4705652006?s=gh-internships-2027|Astranis|Environmental Test Engineer Intern (Winter 2027)|San Francisco|Summer 2027#1"
     }
   },
   "applied": {
@@ -45795,10 +45819,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3228,
+  "seq": 3230,
   "health": {
     "last_heartbeat": "2026-09-19T01:15:14Z",
-    "last_ok_run": "2026-09-19T01:15:14Z",
+    "last_ok_run": "2026-09-19T01:20:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
