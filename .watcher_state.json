@@ -5037,7 +5037,19 @@
       "https://greatamerica.wd12.myworkdayjobs.com/en-US/greatamericacareers/job/Cedar-Rapids-IA/Software-Quality-Engineer-Intern_JR1235|GreatAmerica Financial Services|Software Quality Engineer Intern|Cedar Rapids, IA +1|Other#1",
       "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1|Marvell|SRAM Software Engineer Intern - BS - Summer 2027|Burlington, VT|Other#1",
       "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers2/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760|Marvell|SRAM Software Engineer Intern - BS - Summer 2027|Burlington, VT|Other#1",
-      "https://theocc.wd5.myworkdayjobs.com/en-US/careers/job/Chicago---125-S-Franklin/Summer-Intern---Software-Engineering--UI-UX_REQ-4868|OCC|Summer Intern - Software Engineering: UI/UX|Chicago, IL|Other#1"
+      "https://theocc.wd5.myworkdayjobs.com/en-US/careers/job/Chicago---125-S-Franklin/Summer-Intern---Software-Engineering--UI-UX_REQ-4868|OCC|Summer Intern - Software Engineering: UI/UX|Chicago, IL|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Development-Intern--Summer-2027-_01875413|Raytheon|Software Development Intern - Summer 2027|Tewksbury, MA|Other#1",
+      "https://ttmtech.wd5.myworkdayjobs.com/en-US/jobs/job/Farmingdale-NY/Software-Engineering-Internship_R18038|TTM Technologies|Software Engineering Internship|Farmingdale, NY|Other#1",
+      "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1|Visa|Software Engineer - Intern - Foster City 2027|Foster City, CA|Other#1",
+      "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Bellevue|USA +1|Other#1",
+      "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2|Visa|Software Engineer - Intern - Bellevue - 2027|USA +1|Other#1",
+      "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Foster City|Foster City, CA|Other#1",
+      "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W-1|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Bellevue|USA +1|Other#1",
+      "https://apply.workable.com/talentpluto/j/6A02556484/|talentpluto|Backend Engineering Intern|USA|Other#1",
+      "https://apply.workable.com/talentpluto/j/717116FEE8/|talentpluto|Full Stack Engineering Intern|New York City, NY|Other#1",
+      "https://ninjaholdings.breezy.hr/p/23a015fea536-software-engineer-intern|NinjaHoldings|Software Engineer Intern|Chicago, IL|Other#1",
+      "https://priceline.wd1.myworkdayjobs.com/en-US/priceline-collegehiring/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822|Priceline|Software Engineering - Full Stack - Northeastern Co-op|New York City, NY|Other#1",
+      "https://priceline.wd1.myworkdayjobs.com/en-US/priceline-collegehiring/job/New-York/Software-Engineering---Web-Javascript--Northeastern-Co-op-_R5818|Priceline|Software Engineering - Web/Javascript - Northeastern Co-op|New York City, NY|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -5182,139 +5194,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 568,
-    "outbox": [
-      [
-        [
-          "Raytheon",
-          "Software Development Intern - Summer 2027",
-          "Tewksbury, MA",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Development-Intern--Summer-2027-_01875413"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Development-Intern--Summer-2027-_01875413|Raytheon|Software Development Intern - Summer 2027|Tewksbury, MA|Other#1",
-        1
-      ],
-      [
-        [
-          "TTM Technologies",
-          "Software Engineering Internship",
-          "Farmingdale, NY",
-          "Other",
-          "https://ttmtech.wd5.myworkdayjobs.com/en-US/jobs/job/Farmingdale-NY/Software-Engineering-Internship_R18038"
-        ],
-        "https://ttmtech.wd5.myworkdayjobs.com/en-US/jobs/job/Farmingdale-NY/Software-Engineering-Internship_R18038|TTM Technologies|Software Engineering Internship|Farmingdale, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "Visa",
-          "Software Engineer - Intern - Foster City 2027",
-          "Foster City, CA",
-          "Other",
-          "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1"
-        ],
-        "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1|Visa|Software Engineer - Intern - Foster City 2027|Foster City, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Visa",
-          "2027 Sophomore Internship Program - Software Engineer Intern - Bellevue",
-          "USA +1",
-          "Other",
-          "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W"
-        ],
-        "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Bellevue|USA +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Visa",
-          "Software Engineer - Intern - Bellevue - 2027",
-          "USA +1",
-          "Other",
-          "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2"
-        ],
-        "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2|Visa|Software Engineer - Intern - Bellevue - 2027|USA +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Visa",
-          "2027 Sophomore Internship Program - Software Engineer Intern - Foster City",
-          "Foster City, CA",
-          "Other",
-          "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1"
-        ],
-        "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Foster City|Foster City, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Visa",
-          "2027 Sophomore Internship Program - Software Engineer Intern - Bellevue",
-          "USA +1",
-          "Other",
-          "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W-1"
-        ],
-        "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W-1|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Bellevue|USA +1|Other#1",
-        1
-      ],
-      [
-        [
-          "talentpluto",
-          "Backend Engineering Intern",
-          "USA",
-          "Other",
-          "https://apply.workable.com/talentpluto/j/6A02556484/"
-        ],
-        "https://apply.workable.com/talentpluto/j/6A02556484/|talentpluto|Backend Engineering Intern|USA|Other#1",
-        1
-      ],
-      [
-        [
-          "talentpluto",
-          "Full Stack Engineering Intern",
-          "New York City, NY",
-          "Other",
-          "https://apply.workable.com/talentpluto/j/717116FEE8/"
-        ],
-        "https://apply.workable.com/talentpluto/j/717116FEE8/|talentpluto|Full Stack Engineering Intern|New York City, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "NinjaHoldings",
-          "Software Engineer Intern",
-          "Chicago, IL",
-          "Other",
-          "https://ninjaholdings.breezy.hr/p/23a015fea536-software-engineer-intern"
-        ],
-        "https://ninjaholdings.breezy.hr/p/23a015fea536-software-engineer-intern|NinjaHoldings|Software Engineer Intern|Chicago, IL|Other#1",
-        1
-      ],
-      [
-        [
-          "Priceline",
-          "Software Engineering - Full Stack - Northeastern Co-op",
-          "New York City, NY",
-          "Other",
-          "https://priceline.wd1.myworkdayjobs.com/en-US/priceline-collegehiring/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822"
-        ],
-        "https://priceline.wd1.myworkdayjobs.com/en-US/priceline-collegehiring/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822|Priceline|Software Engineering - Full Stack - Northeastern Co-op|New York City, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "Priceline",
-          "Software Engineering - Web/Javascript - Northeastern Co-op",
-          "New York City, NY",
-          "Other",
-          "https://priceline.wd1.myworkdayjobs.com/en-US/priceline-collegehiring/job/New-York/Software-Engineering---Web-Javascript--Northeastern-Co-op-_R5818"
-        ],
-        "https://priceline.wd1.myworkdayjobs.com/en-US/priceline-collegehiring/job/New-York/Software-Engineering---Web-Javascript--Northeastern-Co-op-_R5818|Priceline|Software Engineering - Web/Javascript - Northeastern Co-op|New York City, NY|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }
