@@ -46148,6 +46148,18 @@
       "chat_id": 7582459199,
       "seq": 3288,
       "identity": "https://jobs.ashbyhq.com/antares/419ef2df-f0aa-4b68-994a-077e08a959e3|Antares|Reactor Software Engineering Intern - Summer 2027|Los Angeles, CA|Other#1"
+    },
+    "e29793d3b772": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "MD-ANNAPOLIS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870699?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4481,
+      "chat_id": 7582459199,
+      "seq": 3289,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870699?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|MD-ANNAPOLIS|Summer 2027#1"
     }
   },
   "applied": {
@@ -46515,10 +46527,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3288,
+  "seq": 3289,
   "health": {
     "last_heartbeat": "2026-09-20T20:45:13Z",
-    "last_ok_run": "2026-09-20T21:25:12Z",
+    "last_ok_run": "2026-09-20T21:30:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
