@@ -46184,6 +46184,42 @@
       "chat_id": 7582459199,
       "seq": 3291,
       "identity": "https://zapply.jobs/l/d/greenhouse-botauto-5429357008?s=gh-internships-2027|Bot Auto|Intern, Software Engineer AI Agents (Fall/Winter 2026)|Houston, TX|Summer 2027#1"
+    },
+    "22f4d9148c3d": {
+      "company": "Northrop Grumman",
+      "role": "2027 Embedded Software Engineer Intern - Baltimore MD",
+      "location": "United States-Maryland-Baltimore",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10251464?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4484,
+      "chat_id": 7582459199,
+      "seq": 3292,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10251464?s=gh-internships-2027|Northrop Grumman|2027 Embedded Software Engineer Intern - Baltimore MD|United States-Maryland-Baltimore|Summer 2027#1"
+    },
+    "295d81c4b22e": {
+      "company": "Northrop Grumman",
+      "role": "2027 Systems Engineer Intern - Baltimore MD",
+      "location": "United States-Maryland-Baltimore",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10251094?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4485,
+      "chat_id": 7582459199,
+      "seq": 3293,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10251094?s=gh-internships-2027|Northrop Grumman|2027 Systems Engineer Intern - Baltimore MD|United States-Maryland-Baltimore|Summer 2027#1"
+    },
+    "95b8c303f238": {
+      "company": "ICF",
+      "role": "2027 Summer Intern, Software Developer (Reston, VA)",
+      "location": "Reston, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-icf-icfexternal-career-site-R2603002?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4486,
+      "chat_id": 7582459199,
+      "seq": 3294,
+      "identity": "https://zapply.jobs/l/d/workday-icf-icfexternal-career-site-R2603002?s=gh-internships-2027|ICF|2027 Summer Intern, Software Developer (Reston, VA)|Reston, VA|Summer 2027#1"
     }
   },
   "applied": {
@@ -46551,10 +46587,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3291,
+  "seq": 3294,
   "health": {
     "last_heartbeat": "2026-09-21T03:25:12Z",
-    "last_ok_run": "2026-09-21T04:15:13Z",
+    "last_ok_run": "2026-09-21T04:20:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
