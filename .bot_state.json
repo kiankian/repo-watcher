@@ -47180,6 +47180,78 @@
       "chat_id": 7582459199,
       "seq": 3374,
       "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249818?utm_source=Simplify&ref=Simplify|Booz Allen|Software Developer Intern - Summer Games|McLean, VA|Summer 2026#1"
+    },
+    "de3d1534e19a": {
+      "company": "RTX",
+      "role": "CH-53K Systems Engineering Co-Op - Summer/Fall 2027 - Onsite",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872672?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4567,
+      "chat_id": 7582459199,
+      "seq": 3375,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872672?s=gh-internships-2027|RTX|CH-53K Systems Engineering Co-Op - Summer/Fall 2027 - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "aabdac3ef592": {
+      "company": "RTX",
+      "role": "CH-53K Systems Engineering Co-Op - Summer/Fall 2027 - Onsite",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872917?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4568,
+      "chat_id": 7582459199,
+      "seq": 3376,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872917?s=gh-internships-2027|RTX|CH-53K Systems Engineering Co-Op - Summer/Fall 2027 - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "3919b678bc82": {
+      "company": "Waymo",
+      "role": "2027 Summer Intern, BS/MS, Embedded, Software Engineer",
+      "location": "Mountain View, CA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-waymo-8221198?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4569,
+      "chat_id": 7582459199,
+      "seq": 3377,
+      "identity": "https://zapply.jobs/l/d/greenhouse-waymo-8221198?s=gh-internships-2027|Waymo|2027 Summer Intern, BS/MS, Embedded, Software Engineer|Mountain View, CA, USA|Summer 2027#1"
+    },
+    "11e7859dcc36": {
+      "company": "ONE Finance",
+      "role": "Software Engineer, Intern",
+      "location": "United States (Remote)",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-oneapp-ba18d004-3212-44e4-8a0c-bd1215bae770?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4570,
+      "chat_id": 7582459199,
+      "seq": 3378,
+      "identity": "https://zapply.jobs/l/d/ashby-oneapp-ba18d004-3212-44e4-8a0c-bd1215bae770?s=gh-internships-2027|ONE Finance|Software Engineer, Intern|United States (Remote)|Summer 2027#1"
+    },
+    "b00e2702907d": {
+      "company": "SingleStore",
+      "role": "MIT- Software Engineer Intern   Engine",
+      "location": "San Francisco, CA, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-singlestore-8221924?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4571,
+      "chat_id": 7582459199,
+      "seq": 3379,
+      "identity": "https://zapply.jobs/l/d/greenhouse-singlestore-8221924?s=gh-internships-2027|SingleStore|MIT- Software Engineer Intern   Engine|San Francisco, CA, United States|Summer 2027#1"
+    },
+    "d195c5ae508e": {
+      "company": "Waymo",
+      "role": "2027 Summer Intern, MS/PhD, Software Engineer, Simulation Evaluation ML Model",
+      "location": "Mountain View, California, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-waymo-8221795?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4572,
+      "chat_id": 7582459199,
+      "seq": 3380,
+      "identity": "https://zapply.jobs/l/d/greenhouse-waymo-8221795?s=gh-internships-2027|Waymo|2027 Summer Intern, MS/PhD, Software Engineer, Simulation Evaluation ML Model|Mountain View, California, USA|Summer 2027#1"
     }
   },
   "applied": {
@@ -47547,10 +47619,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3374,
+  "seq": 3380,
   "health": {
     "last_heartbeat": "2026-09-21T22:30:18Z",
-    "last_ok_run": "2026-09-21T23:10:17Z",
+    "last_ok_run": "2026-09-21T23:15:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
