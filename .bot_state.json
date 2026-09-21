@@ -46412,6 +46412,30 @@
       "chat_id": 7582459199,
       "seq": 3310,
       "identity": "https://zapply.jobs/l/d/greenhouse-assuredguaranty-8827460002?s=gh-internships-2027|Assured Guaranty|Product Software Developer \u2013 Front-End - Summer 2027|New York, NY, United States|Summer 2027#1"
+    },
+    "d74f3b231f76": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "IN-FT WAYNE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875725?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4503,
+      "chat_id": 7582459199,
+      "seq": 3311,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875725?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IN-FT WAYNE|Summer 2027#1"
+    },
+    "d2824ae88369": {
+      "company": "RTX",
+      "role": "Systems Engineering Intern  \u2013 Integrated Platforms (Onsite)",
+      "location": "TX-RICHARDSON",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875874?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4504,
+      "chat_id": 7582459199,
+      "seq": 3312,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875874?s=gh-internships-2027|RTX|Systems Engineering Intern  \u2013 Integrated Platforms (Onsite)|TX-RICHARDSON|Summer 2027#1"
     }
   },
   "applied": {
@@ -46779,10 +46803,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3310,
+  "seq": 3312,
   "health": {
     "last_heartbeat": "2026-09-21T15:15:14Z",
-    "last_ok_run": "2026-09-21T16:05:23Z",
+    "last_ok_run": "2026-09-21T16:10:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
