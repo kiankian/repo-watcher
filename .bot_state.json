@@ -46172,6 +46172,18 @@
       "chat_id": 7582459199,
       "seq": 3290,
       "identity": "https://job-boards.greenhouse.io/perpay/jobs/4076988007?utm_source=Simplify&ref=Simplify|Perpay|Software Engineer Intern|Philadelphia, PA|Summer 2026#1"
+    },
+    "e641ea8b4bf2": {
+      "company": "Bot Auto",
+      "role": "Intern, Software Engineer AI Agents (Fall/Winter 2026)",
+      "location": "Houston, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-botauto-5429357008?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4483,
+      "chat_id": 7582459199,
+      "seq": 3291,
+      "identity": "https://zapply.jobs/l/d/greenhouse-botauto-5429357008?s=gh-internships-2027|Bot Auto|Intern, Software Engineer AI Agents (Fall/Winter 2026)|Houston, TX|Summer 2027#1"
     }
   },
   "applied": {
@@ -46539,10 +46551,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3290,
+  "seq": 3291,
   "health": {
     "last_heartbeat": "2026-09-21T02:15:20Z",
-    "last_ok_run": "2026-09-21T03:05:12Z",
+    "last_ok_run": "2026-09-21T03:10:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
