@@ -46232,6 +46232,30 @@
       "chat_id": 7582459199,
       "seq": 3295,
       "identity": "https://egud.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155451?utm_source=Simplify&ref=Simplify|AutoZone|Information Technology Intern|Memphis, TN|Summer 2026#1"
+    },
+    "c4a8f2cad4ab": {
+      "company": "Northrop Grumman",
+      "role": "2027 Embedded Software Engineer Intern - Camarillo CA",
+      "location": "United States-California-Camarillo",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10251835?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4488,
+      "chat_id": 7582459199,
+      "seq": 3296,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10251835?s=gh-internships-2027|Northrop Grumman|2027 Embedded Software Engineer Intern - Camarillo CA|United States-California-Camarillo|Summer 2027#1"
+    },
+    "c79afd4a8a34": {
+      "company": "Mercury",
+      "role": "Software Engineering Intern - Spring 2027",
+      "location": "San Francisco, CA, New York,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-mercury-6199367004?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4489,
+      "chat_id": 7582459199,
+      "seq": 3297,
+      "identity": "https://zapply.jobs/l/d/greenhouse-mercury-6199367004?s=gh-internships-2027|Mercury|Software Engineering Intern - Spring 2027|San Francisco, CA, New York,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -46599,10 +46623,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3295,
+  "seq": 3297,
   "health": {
     "last_heartbeat": "2026-09-21T06:30:16Z",
-    "last_ok_run": "2026-09-21T07:20:16Z",
+    "last_ok_run": "2026-09-21T07:25:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
