@@ -46796,6 +46796,78 @@
       "chat_id": 7582459199,
       "seq": 3342,
       "identity": "https://zapply.jobs/l/d/workday-gehc-gehc-externalsite-R4046627?s=gh-internships-2027|GE Healthcare|Summer 2027 Systems Engineering Internship|Salt Lake City|Summer 2027#1"
+    },
+    "459ed74d932e": {
+      "company": "Booz Allen Hamilton",
+      "role": "University - 2027 Summer Games Software Developer Intern - Annapolis Junction, MD",
+      "location": "Annapolis Junction, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249873?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4535,
+      "chat_id": 7582459199,
+      "seq": 3343,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249873?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Annapolis Junction, MD|Annapolis Junction, MD|Summer 2027#1"
+    },
+    "5edea4fa40b8": {
+      "company": "Booz Allen Hamilton",
+      "role": "University, 2027 Summer Games Software Developer Intern - McLean, VA",
+      "location": "McLean, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249828?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4536,
+      "chat_id": 7582459199,
+      "seq": 3344,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249828?s=gh-internships-2027|Booz Allen Hamilton|University, 2027 Summer Games Software Developer Intern - McLean, VA|McLean, VA|Summer 2027#1"
+    },
+    "a7af72e49ae9": {
+      "company": "Booz Allen Hamilton",
+      "role": "University, 2027 Summer Games Software Developer Intern - McLean, VA",
+      "location": "McLean, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249827?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4537,
+      "chat_id": 7582459199,
+      "seq": 3345,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249827?s=gh-internships-2027|Booz Allen Hamilton|University, 2027 Summer Games Software Developer Intern - McLean, VA|McLean, VA|Summer 2027#1"
+    },
+    "299d1af5ec58": {
+      "company": "Cadence",
+      "role": "Graduate Student Intern - Software Engineering",
+      "location": "AUSTIN",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cadence-external-careers-R56405?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4538,
+      "chat_id": 7582459199,
+      "seq": 3346,
+      "identity": "https://zapply.jobs/l/d/workday-cadence-external-careers-R56405?s=gh-internships-2027|Cadence|Graduate Student Intern - Software Engineering|AUSTIN|Summer 2027#1"
+    },
+    "4135a8a6ccda": {
+      "company": "Cadence (University)",
+      "role": "Graduate Student Intern - Software Engineering",
+      "location": "AUSTIN",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cadence-univ-careers-R56405?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4539,
+      "chat_id": 7582459199,
+      "seq": 3347,
+      "identity": "https://zapply.jobs/l/d/workday-cadence-univ-careers-R56405?s=gh-internships-2027|Cadence (University)|Graduate Student Intern - Software Engineering|AUSTIN|Summer 2027#1"
+    },
+    "9320a1a55a69": {
+      "company": "AeroVironment",
+      "role": "Software Engineering Intern",
+      "location": "Simi Valley, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-avav-avav-8813?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4540,
+      "chat_id": 7582459199,
+      "seq": 3348,
+      "identity": "https://zapply.jobs/l/d/workday-avav-avav-8813?s=gh-internships-2027|AeroVironment|Software Engineering Intern|Simi Valley, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -47163,10 +47235,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3342,
+  "seq": 3348,
   "health": {
     "last_heartbeat": "2026-09-21T21:30:18Z",
-    "last_ok_run": "2026-09-21T22:10:14Z",
+    "last_ok_run": "2026-09-21T22:15:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
