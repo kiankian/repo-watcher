@@ -46160,6 +46160,18 @@
       "chat_id": 7582459199,
       "seq": 3289,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870699?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|MD-ANNAPOLIS|Summer 2027#1"
+    },
+    "9490bb7e2150": {
+      "company": "Perpay",
+      "role": "Software Engineer Intern",
+      "location": "Philadelphia, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/perpay/jobs/4076988007?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4482,
+      "chat_id": 7582459199,
+      "seq": 3290,
+      "identity": "https://job-boards.greenhouse.io/perpay/jobs/4076988007?utm_source=Simplify&ref=Simplify|Perpay|Software Engineer Intern|Philadelphia, PA|Summer 2026#1"
     }
   },
   "applied": {
@@ -46527,10 +46539,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3289,
+  "seq": 3290,
   "health": {
     "last_heartbeat": "2026-09-20T22:55:13Z",
-    "last_ok_run": "2026-09-21T00:00:23Z",
+    "last_ok_run": "2026-09-21T00:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
