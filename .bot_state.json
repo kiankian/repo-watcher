@@ -46220,6 +46220,18 @@
       "chat_id": 7582459199,
       "seq": 3294,
       "identity": "https://zapply.jobs/l/d/workday-icf-icfexternal-career-site-R2603002?s=gh-internships-2027|ICF|2027 Summer Intern, Software Developer (Reston, VA)|Reston, VA|Summer 2027#1"
+    },
+    "442a1f2db03e": {
+      "company": "AutoZone",
+      "role": "Information Technology Intern",
+      "location": "Memphis, TN",
+      "term": "Summer 2026",
+      "apply_url": "https://egud.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155451?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4487,
+      "chat_id": 7582459199,
+      "seq": 3295,
+      "identity": "https://egud.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155451?utm_source=Simplify&ref=Simplify|AutoZone|Information Technology Intern|Memphis, TN|Summer 2026#1"
     }
   },
   "applied": {
@@ -46587,10 +46599,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3294,
+  "seq": 3295,
   "health": {
     "last_heartbeat": "2026-09-21T06:30:16Z",
-    "last_ok_run": "2026-09-21T06:30:16Z",
+    "last_ok_run": "2026-09-21T06:35:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
