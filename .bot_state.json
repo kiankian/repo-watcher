@@ -46628,6 +46628,102 @@
       "chat_id": 7582459199,
       "seq": 3328,
       "identity": "https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18027?s=gh-internships-2027|Insulet Corporation|Co-op, DevOps Engineer: January - June 2027 (Hybrid)|Acton, Massachusetts|Summer 2027#1"
+    },
+    "e346e6065636": {
+      "company": "General Motors",
+      "role": "2027 Summer Intern - Digital Product: Software Engineering",
+      "location": "4 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202620546?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4521,
+      "chat_id": 7582459199,
+      "seq": 3329,
+      "identity": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202620546?s=gh-internships-2027|General Motors|2027 Summer Intern - Digital Product: Software Engineering|4 Locations|Summer 2027#1"
+    },
+    "d0a5e2388c08": {
+      "company": "RTX",
+      "role": "Test Engineering Specialist Co-Op (Onsite)",
+      "location": "MA-ANDOVER-AN1",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874746?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4522,
+      "chat_id": 7582459199,
+      "seq": 3330,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874746?s=gh-internships-2027|RTX|Test Engineering Specialist Co-Op (Onsite)|MA-ANDOVER-AN1|Summer 2027#1"
+    },
+    "b0f62678c7c1": {
+      "company": "Booz Allen Hamilton",
+      "role": "University, 2027 Summer Games Software Developer Intern - McLean, VA",
+      "location": "McLean, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249802?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4523,
+      "chat_id": 7582459199,
+      "seq": 3331,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249802?s=gh-internships-2027|Booz Allen Hamilton|University, 2027 Summer Games Software Developer Intern - McLean, VA|McLean, VA|Summer 2027#1"
+    },
+    "00be19399af7": {
+      "company": "Booz Allen Hamilton",
+      "role": "University, 2027 Summer Games Software Developer Intern - McLean, VA",
+      "location": "McLean, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249801?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4524,
+      "chat_id": 7582459199,
+      "seq": 3332,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249801?s=gh-internships-2027|Booz Allen Hamilton|University, 2027 Summer Games Software Developer Intern - McLean, VA|McLean, VA|Summer 2027#1"
+    },
+    "1a79f64fa95a": {
+      "company": "Booz Allen Hamilton",
+      "role": "University - 2027 Summer Games Software Developer Intern - San Diego, CA",
+      "location": "San Diego, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249799?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4525,
+      "chat_id": 7582459199,
+      "seq": 3333,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249799?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - San Diego, CA|San Diego, CA|Summer 2027#1"
+    },
+    "e9078b6d9878": {
+      "company": "Philips",
+      "role": "Intern \u2013 Medical Imaging Software Engineering, IVUS \u2013 Plymouth, MN \u2013 Summer 2027",
+      "location": "Plymouth, Minnesota, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-590403?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4526,
+      "chat_id": 7582459199,
+      "seq": 3334,
+      "identity": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-590403?s=gh-internships-2027|Philips|Intern \u2013 Medical Imaging Software Engineering, IVUS \u2013 Plymouth, MN \u2013 Summer 2027|Plymouth, Minnesota, United States|Summer 2027#1"
+    },
+    "5ac2286829ba": {
+      "company": "SingleStore",
+      "role": "MIT- Software Engineer Intern  Helios",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-singlestore-8220948?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4527,
+      "chat_id": 7582459199,
+      "seq": 3335,
+      "identity": "https://zapply.jobs/l/d/greenhouse-singlestore-8220948?s=gh-internships-2027|SingleStore|MIT- Software Engineer Intern  Helios|United States|Summer 2027#1"
+    },
+    "831dceca23cb": {
+      "company": "SingleStore",
+      "role": "MIT- Software Engineer Intern  Helios",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-singlestore-8220941?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4528,
+      "chat_id": 7582459199,
+      "seq": 3336,
+      "identity": "https://zapply.jobs/l/d/greenhouse-singlestore-8220941?s=gh-internships-2027|SingleStore|MIT- Software Engineer Intern  Helios|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -46995,10 +47091,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3328,
+  "seq": 3336,
   "health": {
     "last_heartbeat": "2026-09-21T19:25:14Z",
-    "last_ok_run": "2026-09-21T19:40:15Z",
+    "last_ok_run": "2026-09-21T19:45:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
