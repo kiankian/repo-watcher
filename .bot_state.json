@@ -47384,6 +47384,30 @@
       "chat_id": 7582459199,
       "seq": 3391,
       "identity": "https://careers.withwaymo.com/jobs?gh_jid=8221795&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|Software Engineer Intern - Simulation Evaluation ML Model \ud83c\udf93|Mountain View, CA|Summer 2026#1"
+    },
+    "2d199fb64a2e": {
+      "company": "Cisco",
+      "role": "Software Engineer Full Stack / Backend I (Intern) \u2013 United States",
+      "location": "San Jose California US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2025924?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4584,
+      "chat_id": 7582459199,
+      "seq": 3392,
+      "identity": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2025924?s=gh-internships-2027|Cisco|Software Engineer Full Stack / Backend I (Intern) \u2013 United States|San Jose California US|Summer 2027#1"
+    },
+    "b9457501cf78": {
+      "company": "Cisco",
+      "role": "Software Engineer Embedded Systems I (Intern) \u2013 United States",
+      "location": "San Jose California US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2025926?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4585,
+      "chat_id": 7582459199,
+      "seq": 3393,
+      "identity": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2025926?s=gh-internships-2027|Cisco|Software Engineer Embedded Systems I (Intern) \u2013 United States|San Jose California US|Summer 2027#1"
     }
   },
   "applied": {
@@ -47751,10 +47775,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3391,
+  "seq": 3393,
   "health": {
     "last_heartbeat": "2026-09-22T03:00:22Z",
-    "last_ok_run": "2026-09-22T03:20:15Z",
+    "last_ok_run": "2026-09-22T03:25:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
