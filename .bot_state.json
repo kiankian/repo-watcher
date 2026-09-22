@@ -47672,6 +47672,30 @@
       "chat_id": 7582459199,
       "seq": 3415,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10249530?s=gh-internships-2027|Northrop Grumman|2027 Cyber Software Engineer Intern - Tampa FL|United States-Florida-Tampa|Summer 2027#1"
+    },
+    "1b0e14126054": {
+      "company": "Disney",
+      "role": "Infrastructure Engineering Intern, Spring 2027",
+      "location": "Burbank, CA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-disney-disneycareer-10159957?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4608,
+      "chat_id": 7582459199,
+      "seq": 3416,
+      "identity": "https://zapply.jobs/l/d/workday-disney-disneycareer-10159957?s=gh-internships-2027|Disney|Infrastructure Engineering Intern, Spring 2027|Burbank, CA, USA|Summer 2027#1"
+    },
+    "f21a3e39a863": {
+      "company": "Tencent",
+      "role": "Site Reliability Engineer (SRE) Intern \u2014 AI Infrastructure",
+      "location": "California-Palo Alto",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108158?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4609,
+      "chat_id": 7582459199,
+      "seq": 3417,
+      "identity": "https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108158?s=gh-internships-2027|Tencent|Site Reliability Engineer (SRE) Intern \u2014 AI Infrastructure|California-Palo Alto|Summer 2027#1"
     }
   },
   "applied": {
@@ -48039,10 +48063,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3415,
+  "seq": 3417,
   "health": {
     "last_heartbeat": "2026-09-22T17:00:20Z",
-    "last_ok_run": "2026-09-22T17:55:14Z",
+    "last_ok_run": "2026-09-22T18:01:00Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
