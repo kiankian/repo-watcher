@@ -47588,6 +47588,54 @@
       "chat_id": 7582459199,
       "seq": 3408,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876185?s=gh-internships-2027|RTX|Cybersecurity Engineering Intern (Summer 2027)|CT-WINDSOR LOCKS-B1|Summer 2027#1"
+    },
+    "9071acacd152": {
+      "company": "Cowboy Space",
+      "role": "Intern - Software Engineering - 2027",
+      "location": "San Carlos, CA",
+      "term": "Other",
+      "apply_url": "https://jobs.ashbyhq.com/cowboyspace/56d1d7e4-fa7e-4c25-aa8b-6828447fc64a",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4601,
+      "chat_id": 7582459199,
+      "seq": 3409,
+      "identity": "https://jobs.ashbyhq.com/cowboyspace/56d1d7e4-fa7e-4c25-aa8b-6828447fc64a|Cowboy Space|Intern - Software Engineering - 2027|San Carlos, CA|Other#1"
+    },
+    "1aea18a73520": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern - Austin",
+      "location": "Austin, TX",
+      "term": "Other",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4602,
+      "chat_id": 7582459199,
+      "seq": 3410,
+      "identity": "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Austin|Austin, TX|Other#1"
+    },
+    "f54ed7b0a356": {
+      "company": "Visa",
+      "role": "Software Engineer - Intern - 2027 Austin - TX",
+      "location": "Austin, TX",
+      "term": "Other",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF088544W-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4603,
+      "chat_id": 7582459199,
+      "seq": 3411,
+      "identity": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF088544W-1|Visa|Software Engineer - Intern - 2027 Austin - TX|Austin, TX|Other#1"
+    },
+    "ff7287180ad4": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern - Highlands Ranch",
+      "location": "Denver, CO",
+      "term": "Other",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4604,
+      "chat_id": 7582459199,
+      "seq": 3412,
+      "identity": "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Highlands Ranch|Denver, CO|Other#1"
     }
   },
   "applied": {
@@ -47955,10 +48003,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3408,
+  "seq": 3412,
   "health": {
     "last_heartbeat": "2026-09-22T15:30:20Z",
-    "last_ok_run": "2026-09-22T16:40:16Z",
+    "last_ok_run": "2026-09-22T16:45:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
