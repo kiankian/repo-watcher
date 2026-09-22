@@ -47324,6 +47324,30 @@
       "chat_id": 7582459199,
       "seq": 3386,
       "identity": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Systems-Engineer-Intern---Huntsville--AL_R0249877?utm_source=Simplify&ref=Simplify|Booz Allen|Systems Engineer Intern - Summer Games|Huntsville, AL|Summer 2026#1"
+    },
+    "002a5b66d0a1": {
+      "company": "Marvell",
+      "role": "Test Engineering Intern, BS - Summer 2027",
+      "location": "Santa Clara, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-marvell-marvellcareers-2604537?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4579,
+      "chat_id": 7582459199,
+      "seq": 3387,
+      "identity": "https://zapply.jobs/l/d/workday-marvell-marvellcareers-2604537?s=gh-internships-2027|Marvell|Test Engineering Intern, BS - Summer 2027|Santa Clara, CA|Summer 2027#1"
+    },
+    "a27b98a625f1": {
+      "company": "ONE Finance",
+      "role": "Software Engineer Intern",
+      "location": "United States (Remote)",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-oneapp-ba18d004-3212-44e4-8a0c-bd1215bae770?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4580,
+      "chat_id": 7582459199,
+      "seq": 3388,
+      "identity": "https://zapply.jobs/l/d/ashby-oneapp-ba18d004-3212-44e4-8a0c-bd1215bae770?s=gh-internships-2027|ONE Finance|Software Engineer Intern|United States (Remote)|Summer 2027#1"
     }
   },
   "applied": {
@@ -47691,10 +47715,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3386,
+  "seq": 3388,
   "health": {
     "last_heartbeat": "2026-09-21T23:40:17Z",
-    "last_ok_run": "2026-09-22T00:05:19Z",
+    "last_ok_run": "2026-09-22T00:10:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
