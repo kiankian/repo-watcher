@@ -47528,6 +47528,42 @@
       "chat_id": 7582459199,
       "seq": 3403,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876065?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|RI-PORTSMOUTH-PS1|Summer 2027#1"
+    },
+    "abc2f2996c05": {
+      "company": "Udig",
+      "role": "Software Engineer Intern",
+      "location": "Nashville, TN Richmond, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://udig.com/careers/job-listing/?gh_jid=7999436003&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4596,
+      "chat_id": 7582459199,
+      "seq": 3404,
+      "identity": "https://udig.com/careers/job-listing/?gh_jid=7999436003&utm_source=Simplify&ref=Simplify|Udig|Software Engineer Intern|Nashville, TN Richmond, VA|Summer 2026#1"
+    },
+    "6503c8e8dba3": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Portsmouth, RI",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-RI-PORTSMOUTH-PS1--1847-W-Main-Rd--NIMITZ-BLDG/Software-Engineering-Intern--Summer-2027-_01876065?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4597,
+      "chat_id": 7582459199,
+      "seq": 3405,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-RI-PORTSMOUTH-PS1--1847-W-Main-Rd--NIMITZ-BLDG/Software-Engineering-Intern--Summer-2027-_01876065?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Portsmouth, RI|Summer 2026#1"
+    },
+    "4e2ac1e0813d": {
+      "company": "GuideStone",
+      "role": "Software Developer Intern - Software Development",
+      "location": "Dallas, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://guidestone.wd1.myworkdayjobs.com/guidestone/job/Dallas-TX/Summer-Intern---Software-Developer_R2129?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4598,
+      "chat_id": 7582459199,
+      "seq": 3406,
+      "identity": "https://guidestone.wd1.myworkdayjobs.com/guidestone/job/Dallas-TX/Summer-Intern---Software-Developer_R2129?utm_source=Simplify&ref=Simplify|GuideStone|Software Developer Intern - Software Development|Dallas, TX|Summer 2026#1"
     }
   },
   "applied": {
@@ -47895,10 +47931,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3403,
+  "seq": 3406,
   "health": {
     "last_heartbeat": "2026-09-22T15:30:20Z",
-    "last_ok_run": "2026-09-22T15:30:20Z",
+    "last_ok_run": "2026-09-22T15:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
