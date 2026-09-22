@@ -47492,6 +47492,30 @@
       "chat_id": 7582459199,
       "seq": 3400,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Engineer Intern - Navigation Intelligence and Connectivity Division|San Diego, CA|Summer 2026#1"
+    },
+    "8d8408e67426": {
+      "company": "GE Healthcare",
+      "role": "Full-Stack Software Engineering Intern \u2013 MIM Commercialized Web Applications",
+      "location": "OH05",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-gehc-gehc-externalsite-R4046583?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4593,
+      "chat_id": 7582459199,
+      "seq": 3401,
+      "identity": "https://zapply.jobs/l/d/workday-gehc-gehc-externalsite-R4046583?s=gh-internships-2027|GE Healthcare|Full-Stack Software Engineering Intern \u2013 MIM Commercialized Web Applications|OH05|Summer 2027#1"
+    },
+    "eb25a2db2afb": {
+      "company": "Optiver",
+      "role": "Software Engineer Co-Op (January - April 2027)",
+      "location": "Chicago, Illinois, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-optiverprivate-8784302002?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4594,
+      "chat_id": 7582459199,
+      "seq": 3402,
+      "identity": "https://zapply.jobs/l/d/greenhouse-optiverprivate-8784302002?s=gh-internships-2027|Optiver|Software Engineer Co-Op (January - April 2027)|Chicago, Illinois, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -47859,10 +47883,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3400,
+  "seq": 3402,
   "health": {
     "last_heartbeat": "2026-09-22T13:15:18Z",
-    "last_ok_run": "2026-09-22T13:55:13Z",
+    "last_ok_run": "2026-09-22T14:00:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
