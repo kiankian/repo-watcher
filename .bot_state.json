@@ -47756,6 +47756,30 @@
       "chat_id": 7582459199,
       "seq": 3422,
       "identity": "https://zapply.jobs/l/d/oracle-emerson-electric-26009266?s=gh-internships-2027|Emerson Electric|Process Automation Engineer Intern|Houston, TX, United States|Summer 2027#1"
+    },
+    "2d733aa8ff72": {
+      "company": "Aerospace Corporation",
+      "role": "2027 Cloud Solutions Engineer / Site Reliability Engineer Intern",
+      "location": "El Segundo, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-aero-external-R016428?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4615,
+      "chat_id": 7582459199,
+      "seq": 3423,
+      "identity": "https://zapply.jobs/l/d/workday-aero-external-R016428?s=gh-internships-2027|Aerospace Corporation|2027 Cloud Solutions Engineer / Site Reliability Engineer Intern|El Segundo, CA|Summer 2027#1"
+    },
+    "dd48644edb19": {
+      "company": "Emerson Electric",
+      "role": "Graduate Software Engineering Intern",
+      "location": "Round Rock, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-emerson-electric-26011295?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4616,
+      "chat_id": 7582459199,
+      "seq": 3424,
+      "identity": "https://zapply.jobs/l/d/oracle-emerson-electric-26011295?s=gh-internships-2027|Emerson Electric|Graduate Software Engineering Intern|Round Rock, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -48123,10 +48147,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3422,
+  "seq": 3424,
   "health": {
     "last_heartbeat": "2026-09-22T20:30:21Z",
-    "last_ok_run": "2026-09-22T21:10:15Z",
+    "last_ok_run": "2026-09-22T21:15:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
