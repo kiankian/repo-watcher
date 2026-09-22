@@ -47480,6 +47480,18 @@
       "chat_id": 7582459199,
       "seq": 3399,
       "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249823?s=gh-internships-2027|Booz Allen Hamilton|University, 2027 Summer Games Software Developer Intern - McLean, VA|McLean, VA|Summer 2027#1"
+    },
+    "4a17ad32eeef": {
+      "company": "Northrop Grumman",
+      "role": "Software Engineer Intern - Navigation Intelligence and Connectivity Division",
+      "location": "San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4592,
+      "chat_id": 7582459199,
+      "seq": 3400,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Engineer Intern - Navigation Intelligence and Connectivity Division|San Diego, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -47847,10 +47859,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3399,
+  "seq": 3400,
   "health": {
     "last_heartbeat": "2026-09-22T09:50:16Z",
-    "last_ok_run": "2026-09-22T10:30:19Z",
+    "last_ok_run": "2026-09-22T10:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
