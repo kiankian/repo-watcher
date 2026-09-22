@@ -47696,6 +47696,42 @@
       "chat_id": 7582459199,
       "seq": 3417,
       "identity": "https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108158?s=gh-internships-2027|Tencent|Site Reliability Engineer (SRE) Intern \u2014 AI Infrastructure|California-Palo Alto|Summer 2027#1"
+    },
+    "cf6dc4aae996": {
+      "company": "Symbotic",
+      "role": "Intern- Software Engineer",
+      "location": "USA Wilmington,  MA -",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-symbotic-symbotic-R7963?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4610,
+      "chat_id": 7582459199,
+      "seq": 3418,
+      "identity": "https://zapply.jobs/l/d/workday-symbotic-symbotic-R7963?s=gh-internships-2027|Symbotic|Intern- Software Engineer|USA Wilmington,  MA -|Summer 2027#1"
+    },
+    "2440f0c0d647": {
+      "company": "CACI",
+      "role": "Software Engineering Intern - Summer 2027",
+      "location": "Sterling, VA, US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-caci-external-332386?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4611,
+      "chat_id": 7582459199,
+      "seq": 3419,
+      "identity": "https://zapply.jobs/l/d/workday-caci-external-332386?s=gh-internships-2027|CACI|Software Engineering Intern - Summer 2027|Sterling, VA, US|Summer 2027#1"
+    },
+    "a0a46b4fbcb1": {
+      "company": "RTX",
+      "role": "Spring/Summer  Coop - Systems Engineering - Onsite",
+      "location": "MN-BURNSVILLE-WEST",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874528?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4612,
+      "chat_id": 7582459199,
+      "seq": 3420,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874528?s=gh-internships-2027|RTX|Spring/Summer  Coop - Systems Engineering - Onsite|MN-BURNSVILLE-WEST|Summer 2027#1"
     }
   },
   "applied": {
@@ -48063,10 +48099,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3417,
+  "seq": 3420,
   "health": {
     "last_heartbeat": "2026-09-22T18:10:18Z",
-    "last_ok_run": "2026-09-22T18:45:16Z",
+    "last_ok_run": "2026-09-22T18:50:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
