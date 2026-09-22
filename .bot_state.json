@@ -47864,6 +47864,30 @@
       "chat_id": 7582459199,
       "seq": 3431,
       "identity": "https://zapply.jobs/l/d/greenhouse-astranis-4705214006?s=gh-internships-2027|Astranis|Software Engineer Backend Intern (Summer 2027)|San Francisco, CA|Summer 2027#1"
+    },
+    "80a1294bc550": {
+      "company": "Astranis",
+      "role": "Flight Software Intern (Winter 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-astranis-4704595006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4624,
+      "chat_id": 7582459199,
+      "seq": 3432,
+      "identity": "https://zapply.jobs/l/d/greenhouse-astranis-4704595006?s=gh-internships-2027|Astranis|Flight Software Intern (Winter 2027)|San Francisco|Summer 2027#1"
+    },
+    "7da71c5f4113": {
+      "company": "Astranis",
+      "role": "Flight Software Intern (Summer 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-astranis-4704598006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4625,
+      "chat_id": 7582459199,
+      "seq": 3433,
+      "identity": "https://zapply.jobs/l/d/greenhouse-astranis-4704598006?s=gh-internships-2027|Astranis|Flight Software Intern (Summer 2027)|San Francisco|Summer 2027#1"
     }
   },
   "applied": {
@@ -48231,10 +48255,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3431,
+  "seq": 3433,
   "health": {
     "last_heartbeat": "2026-09-22T22:55:15Z",
-    "last_ok_run": "2026-09-22T22:55:15Z",
+    "last_ok_run": "2026-09-22T23:00:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
