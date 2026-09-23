@@ -49328,6 +49328,30 @@
       "chat_id": 7582459199,
       "seq": 3553,
       "identity": "https://zapply.jobs/l/d/workday-jj-jj-R-099094?s=gh-internships-2027|Johnson & Johnson|AIC Systems Test Engineering Co-Op|Danvers, Massachusetts, United...|Summer 2027#1"
+    },
+    "cd34a878417a": {
+      "company": "State Farm",
+      "role": "Software Developer Intern - HR&D",
+      "location": "4 locationsTempe, AZ Dunwoody, GA Richardson, TX Bloomington, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.statefarm.com/jobs/45689?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4746,
+      "chat_id": 7582459199,
+      "seq": 3554,
+      "identity": "https://jobs.statefarm.com/jobs/45689?icims=1&utm_source=Simplify&ref=Simplify|State Farm|Software Developer Intern - HR&D|4 locationsTempe, AZ Dunwoody, GA Richardson, TX Bloomington, IL|Summer 2026#1"
+    },
+    "1469fcfea6b6": {
+      "company": "General Dynamics Information Technology",
+      "role": "Software Development Intern",
+      "location": "Bossier City, LA",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship_RQ228931-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4747,
+      "chat_id": 7582459199,
+      "seq": 3555,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship_RQ228931-2?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Development Intern|Bossier City, LA|Summer 2026#1"
     }
   },
   "applied": {
@@ -49695,10 +49719,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3553,
+  "seq": 3555,
   "health": {
     "last_heartbeat": "2026-09-23T22:20:15Z",
-    "last_ok_run": "2026-09-23T22:30:20Z",
+    "last_ok_run": "2026-09-23T22:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
