@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "ecce496fc8a4812ecb91c19a54f4f15c37b77960",
+    "last_sha": "80644bbe13a1456a9be7301e25d2ce5ace816c36",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2225,10 +2225,14 @@
       "https://job-boards.greenhouse.io/astranis/jobs/4705610006?utm_source=Simplify&ref=Simplify|Astranis|Software Engineer Enterprise Systems Intern - Summer 2027|SF|Summer 2026#1",
       "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429?utm_source=Simplify&ref=Simplify|The Aerospace Corporation|Software Tools and Assurance Intern - Information Systems and Cyber Division|El Segundo, CA|Summer 2026#1",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-G--400-Main-St--BLDG-G/Summer-2027-Software-Engineering-Intern--Onsite-_01873645?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|East Hartford, CT|Summer 2026#1",
-      "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10637?utm_source=Simplify&ref=Simplify|Ralliant|Research and Development Co-op|Fairport, NY|Summer 2026#1"
+      "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10637?utm_source=Simplify&ref=Simplify|Ralliant|Research and Development Co-op|Fairport, NY|Summer 2026#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Factory-Enablement-Digital-Engineer--Spring-Summer-Co-op-_01876473?utm_source=Simplify&ref=Simplify|RTX|Factory Enablement Digital Engineer Co-op|Cedar Rapids, IA|Summer 2026#1",
+      "https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Summer-2027---Software-Engineering--Multiple-Openings-Available-_JR104022-1?utm_source=Simplify&ref=Simplify|Excellus BCBS|Software Engineering Intern|6 locationsRochester, NY De Witt, NY Utica, NY Albany, NY Binghamton, NY Buffalo, NY|Summer 2026#1",
+      "https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/Rochester/College-Intern---Summer-2027---Mobile-Software-Engineering-Team_JR104025-3?utm_source=Simplify&ref=Simplify|Excellus BCBS|College Intern - Mobile Software Engineering Team|6 locationsRochester, NY De Witt, NY Utica, NY Albany, NY Binghamton, NY Buffalo, NY|Summer 2026#1",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332372?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern - Summer 2027|Sterling, VA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 715,
+    "last_row_count": 721,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -2550,7 +2554,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "fec3f8e2f07722f24165b43586c376eee26708e8",
+    "last_sha": "510c9f47427156036c11c721a09078cdf3f3fe89",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -4078,7 +4082,9 @@
       "https://zapply.jobs/l/d/workday-leidos-external-R-00192858?s=gh-internships-2027|Leidos|Software Developer Intern|Annapolis Junction, MD|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10249319?s=gh-internships-2027|Northrop Grumman|2027 Systems Engineer Intern - Woodland Hills CA|United...|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-caci-external-332372?s=gh-internships-2027|CACI|Software Engineering Intern - Summer 2027|Sterling, VA, US|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-caci-external-332506?s=gh-internships-2027|CACI|AI Systems Engineering Intern -  Summer 2027|Annapolis Junction MD US|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-caci-external-332506?s=gh-internships-2027|CACI|AI Systems Engineering Intern -  Summer 2027|Annapolis Junction MD US|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-symbotic-symbotic-R8111?s=gh-internships-2027|Symbotic|Co-op - Software Engineer|USA Wilmington,  MA -|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10249359?s=gh-internships-2027|Northrop Grumman|2027 Software Engineer Intern \u2013 Woodland Hills CA|United...|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
