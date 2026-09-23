@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "3b78d5d8f0968f41b04e05317f5712f5c88e12c6",
+    "last_sha": "c0ff69a6256f744d8ca5844868a712ca8b737eb9",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2220,10 +2220,13 @@
       "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858?utm_source=Simplify&ref=Simplify|Leidos|Software Developer Intern - Cyber & Analytics Business Area|Annapolis Junction, MD|Summer 2026#1",
       "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Project-Delivery-Digital-Engineering---Property-Services-Co-Op_R-096717?utm_source=Simplify&ref=Simplify|Johnson & Johnson|Project Delivery Digital Engineering & Property Services Co-op|New Brunswick, NJ|Summer 2026#1",
       "https://chartermfg.wd5.myworkdayjobs.com/Charter_Careers/job/Charter-Manufacturing-Company-Inc---Mequon-WI/Digital-Integration-Intern--Year-Round-_R08129?utm_source=Simplify&ref=Simplify|Charter Manufacturing|Digital Integration Intern|Mequon, WI|Summer 2026#1",
-      "https://caci.wd1.myworkdayjobs.com/external/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern|Sterling, VA|Summer 2026#1"
+      "https://caci.wd1.myworkdayjobs.com/external/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern|Sterling, VA|Summer 2026#1",
+      "https://job-boards.greenhouse.io/astranis/jobs/4705214006?utm_source=Simplify&ref=Simplify|Astranis|Backend Software Engineer Intern - Summer 2027|SF|Summer 2026#1",
+      "https://job-boards.greenhouse.io/astranis/jobs/4705610006?utm_source=Simplify&ref=Simplify|Astranis|Software Engineer Enterprise Systems Intern - Summer 2027|SF|Summer 2026#1",
+      "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429?utm_source=Simplify&ref=Simplify|The Aerospace Corporation|Software Tools and Assurance Intern - Information Systems and Cyber Division|El Segundo, CA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 720,
+    "last_row_count": 726,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -2545,7 +2548,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "85d95aa82753935affae677f49ae47071ed14487",
+    "last_sha": "7d9223298369dcdbc89f6db3d4edb6f781bffdc8",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -4062,7 +4065,8 @@
       "https://zapply.jobs/l/d/greenhouse-astranis-4704598006?s=gh-internships-2027|Astranis|Flight Software Intern (Summer 2027)|San Francisco|Summer 2027#1",
       "https://zapply.jobs/l/d/amazon-d6de5e7b-04a1-4904-909f-9bb12b1ca9af?s=gh-internships-2027|Amazon.com Services LLC - A57|Security Engineer Internship \u2013 2027 (US)|Seattle, WA|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10252418?s=gh-internships-2027|Northrop Grumman|2027 Intern - Systems Security/Cybersecurity Engineer|United States-Florida-Melbourne|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R71548?s=gh-internships-2027|Blue Origin|Electronics/Electrical Systems Engineer Co-Op (Fixed Term)|Los Angeles, CA|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R71548?s=gh-internships-2027|Blue Origin|Electronics/Electrical Systems Engineer Co-Op (Fixed Term)|Los Angeles, CA|Summer 2027#1",
+      "https://zapply.jobs/l/d/lever-hermeus-d2651ecb-9aab-4d84-8e69-cbcf7cece28d?s=gh-internships-2027|Hermeus|Propulsion Test Engineering Intern - Spring 2027|Jacksonville, FL|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
