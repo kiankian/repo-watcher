@@ -49292,6 +49292,30 @@
       "chat_id": 7582459199,
       "seq": 3550,
       "identity": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202620546?s=gh-internships-2027|General Motors|2027 Summer Intern - Digital Product: Software Engineering|5 Locations|Summer 2027#1"
+    },
+    "7274aa7b2d2a": {
+      "company": "Johnson & Johnson",
+      "role": "Software Test Engineering Co-op (Beatbox)",
+      "location": "Danvers, Massachusetts, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-jj-jj-R-098707?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4743,
+      "chat_id": 7582459199,
+      "seq": 3551,
+      "identity": "https://zapply.jobs/l/d/workday-jj-jj-R-098707?s=gh-internships-2027|Johnson & Johnson|Software Test Engineering Co-op (Beatbox)|Danvers, Massachusetts, United...|Summer 2027#1"
+    },
+    "cf0132276875": {
+      "company": "Johnson & Johnson",
+      "role": "Software Test Engineering Co-op (RLM)",
+      "location": "Danvers, Massachusetts, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-jj-jj-R-098669?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4744,
+      "chat_id": 7582459199,
+      "seq": 3552,
+      "identity": "https://zapply.jobs/l/d/workday-jj-jj-R-098669?s=gh-internships-2027|Johnson & Johnson|Software Test Engineering Co-op (RLM)|Danvers, Massachusetts, United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -49659,10 +49683,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3550,
+  "seq": 3552,
   "health": {
     "last_heartbeat": "2026-09-23T21:10:14Z",
-    "last_ok_run": "2026-09-23T22:05:15Z",
+    "last_ok_run": "2026-09-23T22:10:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
