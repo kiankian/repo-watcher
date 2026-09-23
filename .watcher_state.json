@@ -5304,7 +5304,18 @@
       "https://insulet.wd5.myworkdayjobs.com/en-US/insuletcareers/job/Acton-Massachusetts/Co-op--DevOps-Engineer--January---June-2027--Hybrid-_REQ-2026-18027|Insulet|Co-op - DevOps Engineer: January - June 2027 - Hybrid|Acton, MA|Other#1",
       "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Tucson-AZ/Jr-Software-Engineer-Intern_R-00192184|Leidos|Jr. Software Engineer Intern|Tucson, AZ|Other#1",
       "https://liveoakbancshares.wd1.myworkdayjobs.com/en-US/live_oak/job/Wilmington-NC/Summer-2027-Intern--Software-Engineering_R-002643|Live Oak Bank|Summer 2027 Intern: Software Engineering|Wilmington, NC|Other#1",
-      "https://job-boards.greenhouse.io/mercury/jobs/6199367004|Mercury|Software Engineering Intern - Spring 2027|Remote - San Francisco, CA +2|Other#1"
+      "https://job-boards.greenhouse.io/mercury/jobs/6199367004|Mercury|Software Engineering Intern - Spring 2027|Remote - San Francisco, CA +2|Other#1",
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835|Northrop Grumman|2027 Embedded Software Engineer Intern - Camarillo CA|Camarillo, CA|Other#1",
+      "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403|Philips|Intern - Medical Imaging Software Engineering - IVUS - Plymouth - MN - Summer 2027|Plymouth, MN|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Software-Engineering-Intern--Summer-2027-_01875725|Raytheon|Software Engineering Intern - Summer 2027|FT WAYNE, IN|Other#1",
+      "https://apply.workable.com/rentvision/j/0F1C7992BF/|RentVision|Software Engineering Intern|Lincoln, NE|Other#1",
+      "https://synnex.wd5.myworkdayjobs.com/en-US/tdsynnexcareers/job/Greenville-SC/Summer-2027-Internship-Program---Technical--Applied-Innovation-Track----Information-Technology---Supply-Chain---Systems-and-Cloud---Artificial-Intelligence_R56571|TD SYNNEX|Summer 2027 Internship Program - Technical - Applied Innovation Track: \u2022 Information Technology \u2022 Supply Chain \u2022 Systems and Cloud \u2022 Artificial Intelligence|Greenville, SC +1|Other#1",
+      "https://careers-berkley.icims.com/jobs/14444/software-developer-%28.net%29-intern/job|Berkley Insurance|Software Developer - .NET Intern|Urbandale, IA|Other#1",
+      "https://job-boards.greenhouse.io/singlestore/jobs/8205514|SingleStore|Software Engineer Intern- Helios- 2027|Seattle, WA|Other#1",
+      "https://jobs.lever.co/cscgeneration-2/3a04b45f-a2eb-438a-a8ac-b07324223813|CSC Generation|Software Engineer - Legacy Applications & Modernization - Intern/Part Time|Houston, TX|Other#1",
+      "https://job-boards.greenhouse.io/singlestore/jobs/8154399|SingleStore|Software Engineer Intern- Engine-2027|San Francisco, CA|Other#1",
+      "https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf|Melius|Software Engineering Intern - Fall/Winter 2026|New York City, NY|Other#1",
+      "https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280|Melius|Software Engineering Intern - Spring/Summer 2027|New York City, NY|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -5449,128 +5460,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 604,
-    "outbox": [
-      [
-        [
-          "Northrop Grumman",
-          "2027 Embedded Software Engineer Intern - Camarillo CA",
-          "Camarillo, CA",
-          "Other",
-          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835"
-        ],
-        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835|Northrop Grumman|2027 Embedded Software Engineer Intern - Camarillo CA|Camarillo, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Philips",
-          "Intern - Medical Imaging Software Engineering - IVUS - Plymouth - MN - Summer 2027",
-          "Plymouth, MN",
-          "Other",
-          "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403"
-        ],
-        "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403|Philips|Intern - Medical Imaging Software Engineering - IVUS - Plymouth - MN - Summer 2027|Plymouth, MN|Other#1",
-        1
-      ],
-      [
-        [
-          "Raytheon",
-          "Software Engineering Intern - Summer 2027",
-          "FT WAYNE, IN",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Software-Engineering-Intern--Summer-2027-_01875725"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Software-Engineering-Intern--Summer-2027-_01875725|Raytheon|Software Engineering Intern - Summer 2027|FT WAYNE, IN|Other#1",
-        1
-      ],
-      [
-        [
-          "RentVision",
-          "Software Engineering Intern",
-          "Lincoln, NE",
-          "Other",
-          "https://apply.workable.com/rentvision/j/0F1C7992BF/"
-        ],
-        "https://apply.workable.com/rentvision/j/0F1C7992BF/|RentVision|Software Engineering Intern|Lincoln, NE|Other#1",
-        1
-      ],
-      [
-        [
-          "TD SYNNEX",
-          "Summer 2027 Internship Program - Technical - Applied Innovation Track: \u2022 Information Technology \u2022 Supply Chain \u2022 Systems and Cloud \u2022 Artificial Intelligence",
-          "Greenville, SC +1",
-          "Other",
-          "https://synnex.wd5.myworkdayjobs.com/en-US/tdsynnexcareers/job/Greenville-SC/Summer-2027-Internship-Program---Technical--Applied-Innovation-Track----Information-Technology---Supply-Chain---Systems-and-Cloud---Artificial-Intelligence_R56571"
-        ],
-        "https://synnex.wd5.myworkdayjobs.com/en-US/tdsynnexcareers/job/Greenville-SC/Summer-2027-Internship-Program---Technical--Applied-Innovation-Track----Information-Technology---Supply-Chain---Systems-and-Cloud---Artificial-Intelligence_R56571|TD SYNNEX|Summer 2027 Internship Program - Technical - Applied Innovation Track: \u2022 Information Technology \u2022 Supply Chain \u2022 Systems and Cloud \u2022 Artificial Intelligence|Greenville, SC +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Berkley Insurance",
-          "Software Developer - .NET Intern",
-          "Urbandale, IA",
-          "Other",
-          "https://careers-berkley.icims.com/jobs/14444/software-developer-%28.net%29-intern/job"
-        ],
-        "https://careers-berkley.icims.com/jobs/14444/software-developer-%28.net%29-intern/job|Berkley Insurance|Software Developer - .NET Intern|Urbandale, IA|Other#1",
-        1
-      ],
-      [
-        [
-          "SingleStore",
-          "Software Engineer Intern- Helios- 2027",
-          "Seattle, WA",
-          "Other",
-          "https://job-boards.greenhouse.io/singlestore/jobs/8205514"
-        ],
-        "https://job-boards.greenhouse.io/singlestore/jobs/8205514|SingleStore|Software Engineer Intern- Helios- 2027|Seattle, WA|Other#1",
-        1
-      ],
-      [
-        [
-          "CSC Generation",
-          "Software Engineer - Legacy Applications & Modernization - Intern/Part Time",
-          "Houston, TX",
-          "Other",
-          "https://jobs.lever.co/cscgeneration-2/3a04b45f-a2eb-438a-a8ac-b07324223813"
-        ],
-        "https://jobs.lever.co/cscgeneration-2/3a04b45f-a2eb-438a-a8ac-b07324223813|CSC Generation|Software Engineer - Legacy Applications & Modernization - Intern/Part Time|Houston, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "SingleStore",
-          "Software Engineer Intern- Engine-2027",
-          "San Francisco, CA",
-          "Other",
-          "https://job-boards.greenhouse.io/singlestore/jobs/8154399"
-        ],
-        "https://job-boards.greenhouse.io/singlestore/jobs/8154399|SingleStore|Software Engineer Intern- Engine-2027|San Francisco, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Melius",
-          "Software Engineering Intern - Fall/Winter 2026",
-          "New York City, NY",
-          "Other",
-          "https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf"
-        ],
-        "https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf|Melius|Software Engineering Intern - Fall/Winter 2026|New York City, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "Melius",
-          "Software Engineering Intern - Spring/Summer 2027",
-          "New York City, NY",
-          "Other",
-          "https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280"
-        ],
-        "https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280|Melius|Software Engineering Intern - Spring/Summer 2027|New York City, NY|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }
