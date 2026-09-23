@@ -48152,6 +48152,54 @@
       "chat_id": 7582459199,
       "seq": 3455,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872715?s=gh-internships-2027|RTX|Avionics Computer Systems Engineering Co-op (Summer/Fall 2027) - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "d130fdc3ec67": {
+      "company": "KLA",
+      "role": "Algorithm Engineering Intern (AI, Computer Vision & Software Engineering)",
+      "location": "Milpitas, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-kla-search-2641392?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4648,
+      "chat_id": 7582459199,
+      "seq": 3456,
+      "identity": "https://zapply.jobs/l/d/workday-kla-search-2641392?s=gh-internships-2027|KLA|Algorithm Engineering Intern (AI, Computer Vision & Software Engineering)|Milpitas, CA|Summer 2027#1"
+    },
+    "9f17cb701e55": {
+      "company": "KLA",
+      "role": "Software Engineering Intern (C++, Unix)",
+      "location": "Milpitas, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-kla-search-2641325?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4649,
+      "chat_id": 7582459199,
+      "seq": 3457,
+      "identity": "https://zapply.jobs/l/d/workday-kla-search-2641325?s=gh-internships-2027|KLA|Software Engineering Intern (C++, Unix)|Milpitas, CA|Summer 2027#1"
+    },
+    "ab2df581011e": {
+      "company": "Booz Allen Hamilton",
+      "role": "University - 2027 Summer Games Software Developer Intern - Huntsville, AL",
+      "location": "Huntsville, AL",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249872?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4650,
+      "chat_id": 7582459199,
+      "seq": 3458,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249872?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Huntsville, AL|Huntsville, AL|Summer 2027#1"
+    },
+    "59b4b2b32a11": {
+      "company": "Booz Allen Hamilton",
+      "role": "University - 2027 Summer Games Systems Engineer Intern - El Segundo, CA",
+      "location": "El Segundo, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249870?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4651,
+      "chat_id": 7582459199,
+      "seq": 3459,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249870?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Systems Engineer Intern - El Segundo, CA|El Segundo, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -48519,10 +48567,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3455,
+  "seq": 3459,
   "health": {
     "last_heartbeat": "2026-09-23T03:30:19Z",
-    "last_ok_run": "2026-09-23T04:20:15Z",
+    "last_ok_run": "2026-09-23T04:25:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
