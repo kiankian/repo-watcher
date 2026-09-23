@@ -48200,6 +48200,18 @@
       "chat_id": 7582459199,
       "seq": 3459,
       "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249870?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Systems Engineer Intern - El Segundo, CA|El Segundo, CA|Summer 2027#1"
+    },
+    "4cf1cae159ee": {
+      "company": "RTX",
+      "role": "Summer 2027 Software Engineering Intern (Onsite)",
+      "location": "CT-EAST HARTFORD-G",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873645?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4652,
+      "chat_id": 7582459199,
+      "seq": 3460,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873645?s=gh-internships-2027|RTX|Summer 2027 Software Engineering Intern (Onsite)|CT-EAST HARTFORD-G|Summer 2027#1"
     }
   },
   "applied": {
@@ -48567,10 +48579,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3459,
+  "seq": 3460,
   "health": {
     "last_heartbeat": "2026-09-23T04:40:14Z",
-    "last_ok_run": "2026-09-23T04:45:16Z",
+    "last_ok_run": "2026-09-23T04:50:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
