@@ -48272,6 +48272,18 @@
       "chat_id": 7582459199,
       "seq": 3465,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-332506?s=gh-internships-2027|CACI|AI Systems Engineering Intern -  Summer 2027|Annapolis Junction MD US|Summer 2027#1"
+    },
+    "876f842e46f8": {
+      "company": "Ralliant",
+      "role": "Research and Development Co-op",
+      "location": "Fairport, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10637?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4658,
+      "chat_id": 7582459199,
+      "seq": 3466,
+      "identity": "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10637?utm_source=Simplify&ref=Simplify|Ralliant|Research and Development Co-op|Fairport, NY|Summer 2026#1"
     }
   },
   "applied": {
@@ -48639,10 +48651,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3465,
+  "seq": 3466,
   "health": {
     "last_heartbeat": "2026-09-23T14:25:15Z",
-    "last_ok_run": "2026-09-23T14:30:20Z",
+    "last_ok_run": "2026-09-23T14:35:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
