@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "aba891b7d6b9eb4995860dc9abedea1bf80ae367",
+    "last_sha": "6daaae3bfd732594253238ae3f62e66af5394a43",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2244,10 +2244,28 @@
       "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Generative-AI-Software-Development-Internship_RQ228933-1?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Generative AI Software Development Intern|Bossier City, LA|Summer 2026#1",
       "https://caci.wd1.myworkdayjobs.com/external/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern|Reston, VA|Summer 2026#1",
       "https://hdnn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/114233?utm_source=Simplify&ref=Simplify|Arconic|Software Developer Intern|Davenport, IA|Summer 2026#1",
-      "https://job-boards.greenhouse.io/astranis/jobs/4705597006?utm_source=Simplify&ref=Simplify|Astranis|Network Software Intern|SF|Summer 2026#1"
+      "https://job-boards.greenhouse.io/astranis/jobs/4705597006?utm_source=Simplify&ref=Simplify|Astranis|Network Software Intern|SF|Summer 2026#1",
+      "https://jobs.ashbyhq.com/genesis-molecular-ai/44e3cbdc-949c-426e-a80a-b41c73ad6a99/application?embed=true&utm_source=Simplify&ref=Simplify|Genesis Molecular AI|Software Engineer Intern|San Mateo, CA NYC|Summer 2026#1",
+      "https://job-boards.greenhouse.io/drwuniversityjobs/jobs/8220587?utm_source=Simplify&ref=Simplify|DRW|Software Developer Intern|Chicago, IL|Summer 2026#1",
+      "https://bostonscientific.eightfold.ai/careers/job/563602813542900?utm_source=Simplify&ref=Simplify|Boston Scientific|Software Engineer Intern - R&D|Arden Hills, MN|Summer 2026#1",
+      "https://bostonscientific.eightfold.ai/careers/job/563602813567960?utm_source=Simplify&ref=Simplify|Boston Scientific|Software Development Engineer Intern|Waltham, MA|Summer 2026#1",
+      "https://bostonscientific.eightfold.ai/careers/job/563602813567963?utm_source=Simplify&ref=Simplify|Boston Scientific|Software Development Engineer Co-op|Waltham, MA|Summer 2026#1",
+      "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6650?utm_source=Simplify&ref=Simplify|Lazard|AI and Data Transformation Intern|NYC|Summer 2026#1",
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102442?utm_source=Simplify&ref=Simplify|Radiance Technologies|Software Engineer Intern|Dayton, OH|Summer 2026#1",
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/XMLNAME-2027-Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102438?utm_source=Simplify&ref=Simplify|Radiance Technologies|Modeling Engineer Intern - Analytics and Simulation Sciences|Beavercreek, OH|Summer 2026#1",
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/XMLNAME-2027-Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102440-1?utm_source=Simplify&ref=Simplify|Radiance Technologies|Modeling Engineer Intern - Analytics, Simulation Sciences, Mass|Beavercreek, OH|Summer 2026#1",
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/XMLNAME-2027-Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102439?utm_source=Simplify&ref=Simplify|Radiance Technologies|Modeling Engineer Intern - Analytics - Simulation Sciences|Beavercreek, OH|Summer 2026#1",
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/XMLNAME-2027-Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102441?utm_source=Simplify&ref=Simplify|Radiance Technologies|Modeling Engineer Intern - Analytics, Simulation Sciences, Mass|Beavercreek, OH|Summer 2026#1",
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102436?utm_source=Simplify&ref=Simplify|Radiance Technologies|Modeling Engineer Intern - Analytics & Simulation Sciences - Mass|Beavercreek, OH|Summer 2026#1",
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102445?utm_source=Simplify&ref=Simplify|Radiance Technologies|Software Engineer Intern|Dayton, OH|Summer 2026#1",
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102443?utm_source=Simplify&ref=Simplify|Radiance Technologies|Software Engineer Intern|Dayton, OH|Summer 2026#1",
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102446?utm_source=Simplify&ref=Simplify|Radiance Technologies|Software Engineer Intern|Dayton, OH|Summer 2026#1",
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102444?utm_source=Simplify&ref=Simplify|Radiance Technologies|Software Engineer Intern|Dayton, OH|Summer 2026#1",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/CPE-SW-E2E-Triage-Intern---Summer-2027_R68165?utm_source=Simplify&ref=Simplify|Motorola|CPE Software End-to-End Triage Intern - Summer 2027|Plantation, FL|Summer 2026#1",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136?utm_source=Simplify&ref=Simplify|Motorola|Software Engineer Intern - Summer 2027|Plantation, FL|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 712,
+    "last_row_count": 731,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -2569,7 +2587,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "ea78dd62ceb1eda8a4ad7d938f9ed9a045148110",
+    "last_sha": "842e288da9b631fb05bfae8e687a922a48303e40",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
