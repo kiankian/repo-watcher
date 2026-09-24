@@ -49544,6 +49544,30 @@
       "chat_id": 7582459199,
       "seq": 3571,
       "identity": "https://zapply.jobs/l/d/greenhouse-graphcore-8841978002?s=gh-internships-2027|Graphcore|Systems Engineering Intern|Austin, Texas, United States|Summer 2027#1"
+    },
+    "2a4e64993bbc": {
+      "company": "Ramp",
+      "role": "Software Engineering Intern, Android",
+      "location": "New York, NY (",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-ramp-fcf118cc-521a-4a62-9d13-945e5b6e3cb8?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4764,
+      "chat_id": 7582459199,
+      "seq": 3572,
+      "identity": "https://zapply.jobs/l/d/ashby-ramp-fcf118cc-521a-4a62-9d13-945e5b6e3cb8?s=gh-internships-2027|Ramp|Software Engineering Intern, Android|New York, NY (|Summer 2027#1"
+    },
+    "a06607d2ac3c": {
+      "company": "Ramp",
+      "role": "Software Engineer Internship, Frontend",
+      "location": "New York, NY (",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-ramp-a13ae586-f4cb-4385-8822-c42b9b54ed74?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4765,
+      "chat_id": 7582459199,
+      "seq": 3573,
+      "identity": "https://zapply.jobs/l/d/ashby-ramp-a13ae586-f4cb-4385-8822-c42b9b54ed74?s=gh-internships-2027|Ramp|Software Engineer Internship, Frontend|New York, NY (|Summer 2027#1"
     }
   },
   "applied": {
@@ -49911,10 +49935,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3571,
+  "seq": 3573,
   "health": {
     "last_heartbeat": "2026-09-24T00:30:17Z",
-    "last_ok_run": "2026-09-24T01:00:22Z",
+    "last_ok_run": "2026-09-24T01:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
