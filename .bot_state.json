@@ -50084,6 +50084,66 @@
       "chat_id": 7582459199,
       "seq": 3616,
       "identity": "https://fmr.wd1.myworkdayjobs.com/en-US/fidelitycareers/job/One-Destiny-Way-Westlake-TX/Summer-2027-Undergraduate-Internship---Software_2134524|Fidelity Investments|Summer 2027 Undergraduate Internship - Software|Westlake, TX +2|Other#1"
+    },
+    "b03b0bb46d0c": {
+      "company": "Gordon Food Service Canada",
+      "role": "Software Engineer Internship",
+      "location": "Wyoming, MI",
+      "term": "Other",
+      "apply_url": "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Internship_R-57377",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4809,
+      "chat_id": 7582459199,
+      "seq": 3617,
+      "identity": "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Internship_R-57377|Gordon Food Service Canada|Software Engineer Internship|Wyoming, MI|Other#1"
+    },
+    "92b32ce03875": {
+      "company": "Gordon Food Service Canada",
+      "role": "Software Engineer Intern - Low Code",
+      "location": "Wyoming, MI",
+      "term": "Other",
+      "apply_url": "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4810,
+      "chat_id": 7582459199,
+      "seq": 3618,
+      "identity": "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375|Gordon Food Service Canada|Software Engineer Intern - Low Code|Wyoming, MI|Other#1"
+    },
+    "b463656ad761": {
+      "company": "Kitware",
+      "role": "Software Developer Internship",
+      "location": "Clifton Park, NY +2",
+      "term": "Other",
+      "apply_url": "https://jobs.lever.co/kitware/7b6ff8f9-34c6-4338-845d-4e1bbc142906",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4811,
+      "chat_id": 7582459199,
+      "seq": 3619,
+      "identity": "https://jobs.lever.co/kitware/7b6ff8f9-34c6-4338-845d-4e1bbc142906|Kitware|Software Developer Internship|Clifton Park, NY +2|Other#1"
+    },
+    "1178667fdd1f": {
+      "company": "Gordon Food Service Canada",
+      "role": "Cloud DevOps Internship",
+      "location": "Atlanta, GA",
+      "term": "Other",
+      "apply_url": "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Atlanta-Georgia/Cloud-DevOps-Internship_R-57259",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4812,
+      "chat_id": 7582459199,
+      "seq": 3620,
+      "identity": "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Atlanta-Georgia/Cloud-DevOps-Internship_R-57259|Gordon Food Service Canada|Cloud DevOps Internship|Atlanta, GA|Other#1"
+    },
+    "a9a6bdd6b03d": {
+      "company": "LiveRamp",
+      "role": "Co-Op - DevOps Engineer",
+      "location": "San Francisco, CA +3",
+      "term": "Other",
+      "apply_url": "https://liveramp.wd5.myworkdayjobs.com/en-US/liverampcareers/job/San-Francisco/Co-Op--DevOps-Engineer_JR162095",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4813,
+      "chat_id": 7582459199,
+      "seq": 3621,
+      "identity": "https://liveramp.wd5.myworkdayjobs.com/en-US/liverampcareers/job/San-Francisco/Co-Op--DevOps-Engineer_JR162095|LiveRamp|Co-Op - DevOps Engineer|San Francisco, CA +3|Other#1"
     }
   },
   "applied": {
@@ -50451,10 +50511,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3616,
+  "seq": 3621,
   "health": {
     "last_heartbeat": "2026-09-24T16:40:17Z",
-    "last_ok_run": "2026-09-24T17:01:03Z",
+    "last_ok_run": "2026-09-24T17:05:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"

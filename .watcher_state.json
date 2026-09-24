@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "b2695507614e9b3d0b5565625aabd805f2c44991",
+    "last_sha": "231330c9d5b474dfcf9341073770d79c17e32612",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -5394,7 +5394,12 @@
       "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1|KLA|Software Engineering Intern - C++ - Unix|Milpitas, CA|Other#1",
       "https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/Software-Engineer_R7963|Symbotic|Intern- Software Engineer|Wilmington, MA|Other#1",
       "https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249820|Booz Allen|University - 2027 Summer Games Software Developer Intern - McLean - VA|McLean, VA|Other#1",
-      "https://fmr.wd1.myworkdayjobs.com/en-US/fidelitycareers/job/One-Destiny-Way-Westlake-TX/Summer-2027-Undergraduate-Internship---Software_2134524|Fidelity Investments|Summer 2027 Undergraduate Internship - Software|Westlake, TX +2|Other#1"
+      "https://fmr.wd1.myworkdayjobs.com/en-US/fidelitycareers/job/One-Destiny-Way-Westlake-TX/Summer-2027-Undergraduate-Internship---Software_2134524|Fidelity Investments|Summer 2027 Undergraduate Internship - Software|Westlake, TX +2|Other#1",
+      "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Internship_R-57377|Gordon Food Service Canada|Software Engineer Internship|Wyoming, MI|Other#1",
+      "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375|Gordon Food Service Canada|Software Engineer Intern - Low Code|Wyoming, MI|Other#1",
+      "https://jobs.lever.co/kitware/7b6ff8f9-34c6-4338-845d-4e1bbc142906|Kitware|Software Developer Internship|Clifton Park, NY +2|Other#1",
+      "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Atlanta-Georgia/Cloud-DevOps-Internship_R-57259|Gordon Food Service Canada|Cloud DevOps Internship|Atlanta, GA|Other#1",
+      "https://liveramp.wd5.myworkdayjobs.com/en-US/liverampcareers/job/San-Francisco/Co-Op--DevOps-Engineer_JR162095|LiveRamp|Co-Op - DevOps Engineer|San Francisco, CA +3|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -5539,62 +5544,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 619,
-    "outbox": [
-      [
-        [
-          "Gordon Food Service Canada",
-          "Software Engineer Internship",
-          "Wyoming, MI",
-          "Other",
-          "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Internship_R-57377"
-        ],
-        "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Internship_R-57377|Gordon Food Service Canada|Software Engineer Internship|Wyoming, MI|Other#1",
-        1
-      ],
-      [
-        [
-          "Gordon Food Service Canada",
-          "Software Engineer Intern - Low Code",
-          "Wyoming, MI",
-          "Other",
-          "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375"
-        ],
-        "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375|Gordon Food Service Canada|Software Engineer Intern - Low Code|Wyoming, MI|Other#1",
-        1
-      ],
-      [
-        [
-          "Kitware",
-          "Software Developer Internship",
-          "Clifton Park, NY +2",
-          "Other",
-          "https://jobs.lever.co/kitware/7b6ff8f9-34c6-4338-845d-4e1bbc142906"
-        ],
-        "https://jobs.lever.co/kitware/7b6ff8f9-34c6-4338-845d-4e1bbc142906|Kitware|Software Developer Internship|Clifton Park, NY +2|Other#1",
-        1
-      ],
-      [
-        [
-          "Gordon Food Service Canada",
-          "Cloud DevOps Internship",
-          "Atlanta, GA",
-          "Other",
-          "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Atlanta-Georgia/Cloud-DevOps-Internship_R-57259"
-        ],
-        "https://gfs.wd5.myworkdayjobs.com/en-US/usjobs-gen-gfs/job/Atlanta-Georgia/Cloud-DevOps-Internship_R-57259|Gordon Food Service Canada|Cloud DevOps Internship|Atlanta, GA|Other#1",
-        1
-      ],
-      [
-        [
-          "LiveRamp",
-          "Co-Op - DevOps Engineer",
-          "San Francisco, CA +3",
-          "Other",
-          "https://liveramp.wd5.myworkdayjobs.com/en-US/liverampcareers/job/San-Francisco/Co-Op--DevOps-Engineer_JR162095"
-        ],
-        "https://liveramp.wd5.myworkdayjobs.com/en-US/liverampcareers/job/San-Francisco/Co-Op--DevOps-Engineer_JR162095|LiveRamp|Co-Op - DevOps Engineer|San Francisco, CA +3|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }
