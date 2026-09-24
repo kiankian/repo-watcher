@@ -50324,6 +50324,54 @@
       "chat_id": 7582459199,
       "seq": 3636,
       "identity": "https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102443?s=gh-internships-2027|Radiance Technologies|Software Engineer Intern Spring/Summer 2027|Dayton|Summer 2027#1"
+    },
+    "5aa28baa4ef3": {
+      "company": "Radiance Technologies",
+      "role": "Software Engineer Intern Spring/Summer 2027",
+      "location": "Dayton",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102446?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4829,
+      "chat_id": 7582459199,
+      "seq": 3637,
+      "identity": "https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102446?s=gh-internships-2027|Radiance Technologies|Software Engineer Intern Spring/Summer 2027|Dayton|Summer 2027#1"
+    },
+    "efc4aab9dd8f": {
+      "company": "Radiance Technologies",
+      "role": "Software Engineer Intern Spring/Summer 2027",
+      "location": "Dayton",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102445?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4830,
+      "chat_id": 7582459199,
+      "seq": 3638,
+      "identity": "https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102445?s=gh-internships-2027|Radiance Technologies|Software Engineer Intern Spring/Summer 2027|Dayton|Summer 2027#1"
+    },
+    "1fba01b22eb0": {
+      "company": "Astranis",
+      "role": "Software Developer, Network Software Intern (Summer 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-astranis-4705597006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4831,
+      "chat_id": 7582459199,
+      "seq": 3639,
+      "identity": "https://zapply.jobs/l/d/greenhouse-astranis-4705597006?s=gh-internships-2027|Astranis|Software Developer, Network Software Intern (Summer 2027)|San Francisco|Summer 2027#1"
+    },
+    "2ec0b4f875b5": {
+      "company": "Astranis",
+      "role": "Software Developer, Network Software Intern (Winter 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-astranis-4705599006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4832,
+      "chat_id": 7582459199,
+      "seq": 3640,
+      "identity": "https://zapply.jobs/l/d/greenhouse-astranis-4705599006?s=gh-internships-2027|Astranis|Software Developer, Network Software Intern (Winter 2027)|San Francisco|Summer 2027#1"
     }
   },
   "applied": {
@@ -50691,10 +50739,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3636,
+  "seq": 3640,
   "health": {
     "last_heartbeat": "2026-09-24T18:50:17Z",
-    "last_ok_run": "2026-09-24T19:30:17Z",
+    "last_ok_run": "2026-09-24T19:35:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
