@@ -50732,6 +50732,18 @@
       "chat_id": 7582459199,
       "seq": 3670,
       "identity": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136?utm_source=Simplify&ref=Simplify|Motorola|Software Engineer Intern - Summer 2027|Plantation, FL|Summer 2026#1"
+    },
+    "0e0e1678f889": {
+      "company": "Rocket Lab",
+      "role": "Test Engineering Intern Summer 2027",
+      "location": "Wallops Island, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-rocketlab-8003529003?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4863,
+      "chat_id": 7582459199,
+      "seq": 3671,
+      "identity": "https://zapply.jobs/l/d/greenhouse-rocketlab-8003529003?s=gh-internships-2027|Rocket Lab|Test Engineering Intern Summer 2027|Wallops Island, VA|Summer 2027#1"
     }
   },
   "applied": {
@@ -51099,10 +51111,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3670,
+  "seq": 3671,
   "health": {
     "last_heartbeat": "2026-09-24T23:10:14Z",
-    "last_ok_run": "2026-09-24T23:20:14Z",
+    "last_ok_run": "2026-09-24T23:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
