@@ -50144,6 +50144,18 @@
       "chat_id": 7582459199,
       "seq": 3621,
       "identity": "https://liveramp.wd5.myworkdayjobs.com/en-US/liverampcareers/job/San-Francisco/Co-Op--DevOps-Engineer_JR162095|LiveRamp|Co-Op - DevOps Engineer|San Francisco, CA +3|Other#1"
+    },
+    "445e7c0bf4e0": {
+      "company": "BAE Systems",
+      "role": "Software Developer Intern III, Summer 2027 (Onsite)",
+      "location": "Rome, New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-bae-systems-129774BR?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4814,
+      "chat_id": 7582459199,
+      "seq": 3622,
+      "identity": "https://zapply.jobs/l/d/phenom-bae-systems-129774BR?s=gh-internships-2027|BAE Systems|Software Developer Intern III, Summer 2027 (Onsite)|Rome, New York|Summer 2027#1"
     }
   },
   "applied": {
@@ -50511,10 +50523,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3621,
+  "seq": 3622,
   "health": {
     "last_heartbeat": "2026-09-24T16:40:17Z",
-    "last_ok_run": "2026-09-24T17:05:20Z",
+    "last_ok_run": "2026-09-24T17:10:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
