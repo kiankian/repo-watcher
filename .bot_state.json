@@ -50300,6 +50300,30 @@
       "chat_id": 7582459199,
       "seq": 3634,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10252909?s=gh-internships-2027|Northrop Grumman|2027 Quality Engineering Intern - Utah|United States Utah Corinne|Summer 2027#1"
+    },
+    "ba9fda132015": {
+      "company": "Radiance Technologies",
+      "role": "Software Engineer Intern Spring/Summer 2027",
+      "location": "Dayton",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102444?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4827,
+      "chat_id": 7582459199,
+      "seq": 3635,
+      "identity": "https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102444?s=gh-internships-2027|Radiance Technologies|Software Engineer Intern Spring/Summer 2027|Dayton|Summer 2027#1"
+    },
+    "e6bfe205b007": {
+      "company": "Radiance Technologies",
+      "role": "Software Engineer Intern Spring/Summer 2027",
+      "location": "Dayton",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102443?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4828,
+      "chat_id": 7582459199,
+      "seq": 3636,
+      "identity": "https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102443?s=gh-internships-2027|Radiance Technologies|Software Engineer Intern Spring/Summer 2027|Dayton|Summer 2027#1"
     }
   },
   "applied": {
@@ -50667,10 +50691,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3634,
+  "seq": 3636,
   "health": {
     "last_heartbeat": "2026-09-24T18:50:17Z",
-    "last_ok_run": "2026-09-24T19:10:15Z",
+    "last_ok_run": "2026-09-24T19:15:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
