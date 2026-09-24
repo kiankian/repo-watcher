@@ -50480,6 +50480,18 @@
       "chat_id": 7582459199,
       "seq": 3649,
       "identity": "https://zapply.jobs/l/d/workday-irhythmtech-irhythm-JR1785?s=gh-internships-2027|iRhythm|Electrical Test Engineering Co-op Intern January-June 2027|San Francisco, CA|Summer 2027#1"
+    },
+    "ddd50a84625e": {
+      "company": "Astranis",
+      "role": "Network Software Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/astranis/jobs/4705597006?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4842,
+      "chat_id": 7582459199,
+      "seq": 3650,
+      "identity": "https://job-boards.greenhouse.io/astranis/jobs/4705597006?utm_source=Simplify&ref=Simplify|Astranis|Network Software Intern|SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -50847,10 +50859,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3649,
+  "seq": 3650,
   "health": {
     "last_heartbeat": "2026-09-24T22:00:21Z",
-    "last_ok_run": "2026-09-24T22:30:18Z",
+    "last_ok_run": "2026-09-24T22:35:50Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
