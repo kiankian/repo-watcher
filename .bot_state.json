@@ -50156,6 +50156,78 @@
       "chat_id": 7582459199,
       "seq": 3622,
       "identity": "https://zapply.jobs/l/d/phenom-bae-systems-129774BR?s=gh-internships-2027|BAE Systems|Software Developer Intern III, Summer 2027 (Onsite)|Rome, New York|Summer 2027#1"
+    },
+    "0e1be623bc5d": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873687?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4815,
+      "chat_id": 7582459199,
+      "seq": 3623,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873687?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "62fd08f83c88": {
+      "company": "RTX",
+      "role": "Systems Engineering CNS Intern - Onsite",
+      "location": "FL-MELBOURNE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876732?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4816,
+      "chat_id": 7582459199,
+      "seq": 3624,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876732?s=gh-internships-2027|RTX|Systems Engineering CNS Intern - Onsite|FL-MELBOURNE|Summer 2027#1"
+    },
+    "88b080c08300": {
+      "company": "The Hartford",
+      "role": "Tech & Data Program Summer 2027 - Software Engineer Intern (Hartford)",
+      "location": "Hartford, CT",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-thehartford-careers-external-R2626105?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4817,
+      "chat_id": 7582459199,
+      "seq": 3625,
+      "identity": "https://zapply.jobs/l/d/workday-thehartford-careers-external-R2626105?s=gh-internships-2027|The Hartford|Tech & Data Program Summer 2027 - Software Engineer Intern (Hartford)|Hartford, CT|Summer 2027#1"
+    },
+    "fa64d9d9020f": {
+      "company": "Waymo",
+      "role": "2027 Summer Intern, PhD, Software Engineer, Simulation",
+      "location": "Mountain View, CA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-waymo-8227640?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4818,
+      "chat_id": 7582459199,
+      "seq": 3626,
+      "identity": "https://zapply.jobs/l/d/greenhouse-waymo-8227640?s=gh-internships-2027|Waymo|2027 Summer Intern, PhD, Software Engineer, Simulation|Mountain View, CA, USA|Summer 2027#1"
+    },
+    "716b2d800385": {
+      "company": "Astranis",
+      "role": "Supplier Quality Engineer Associate (Winter 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-astranis-4705665006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4819,
+      "chat_id": 7582459199,
+      "seq": 3627,
+      "identity": "https://zapply.jobs/l/d/greenhouse-astranis-4705665006?s=gh-internships-2027|Astranis|Supplier Quality Engineer Associate (Winter 2027)|San Francisco|Summer 2027#1"
+    },
+    "551ba55b9473": {
+      "company": "Astranis",
+      "role": "Supplier Quality Engineer Intern (Winter 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-astranis-4715989006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4820,
+      "chat_id": 7582459199,
+      "seq": 3628,
+      "identity": "https://zapply.jobs/l/d/greenhouse-astranis-4715989006?s=gh-internships-2027|Astranis|Supplier Quality Engineer Intern (Winter 2027)|San Francisco|Summer 2027#1"
     }
   },
   "applied": {
@@ -50523,10 +50595,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3622,
+  "seq": 3628,
   "health": {
     "last_heartbeat": "2026-09-24T17:40:18Z",
-    "last_ok_run": "2026-09-24T17:40:18Z",
+    "last_ok_run": "2026-09-24T17:45:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
