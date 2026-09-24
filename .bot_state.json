@@ -49616,6 +49616,18 @@
       "chat_id": 7582459199,
       "seq": 3577,
       "identity": "https://zapply.jobs/l/d/phenom-cisco-2025924?s=gh-internships-2027|Cisco|Software Engineer Full Stack / Backend I (Intern) \u2013 United States|San Jose, California|Summer 2027#1"
+    },
+    "d0f1fb32e07d": {
+      "company": "Booz Allen Hamilton",
+      "role": "University - 2027 Summer Games Systems Engineer Intern - Annapolis Junction, MD",
+      "location": "Annapolis Junction, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249871?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4770,
+      "chat_id": 7582459199,
+      "seq": 3578,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0249871?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Systems Engineer Intern - Annapolis Junction, MD|Annapolis Junction, MD|Summer 2027#1"
     }
   },
   "applied": {
@@ -49983,10 +49995,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3577,
+  "seq": 3578,
   "health": {
     "last_heartbeat": "2026-09-24T10:10:16Z",
-    "last_ok_run": "2026-09-24T10:40:16Z",
+    "last_ok_run": "2026-09-24T10:45:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
