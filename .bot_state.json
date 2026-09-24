@@ -50492,6 +50492,30 @@
       "chat_id": 7582459199,
       "seq": 3650,
       "identity": "https://job-boards.greenhouse.io/astranis/jobs/4705597006?utm_source=Simplify&ref=Simplify|Astranis|Network Software Intern|SF|Summer 2026#1"
+    },
+    "1e9a7a9095ed": {
+      "company": "Amazon.com Services LLC",
+      "role": "Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA)",
+      "location": "Redmond, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/amazon-bd7c7be4-e81e-4d4e-a507-cded5b0c2dd1?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4843,
+      "chat_id": 7582459199,
+      "seq": 3651,
+      "identity": "https://zapply.jobs/l/d/amazon-bd7c7be4-e81e-4d4e-a507-cded5b0c2dd1?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA)|Redmond, WA|Summer 2027#1"
+    },
+    "3985a91faeed": {
+      "company": "Amazon.com Services LLC",
+      "role": "Software Development Engineer Intern - Summer 2027 (USA) , Amazon Dedicated Cloud (ADC)",
+      "location": "Seattle, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/amazon-ceadb620-ccc0-46ad-8ec8-387100f517a6?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4844,
+      "chat_id": 7582459199,
+      "seq": 3652,
+      "identity": "https://zapply.jobs/l/d/amazon-ceadb620-ccc0-46ad-8ec8-387100f517a6?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern - Summer 2027 (USA) , Amazon Dedicated Cloud (ADC)|Seattle, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -50859,10 +50883,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3650,
+  "seq": 3652,
   "health": {
     "last_heartbeat": "2026-09-24T22:00:21Z",
-    "last_ok_run": "2026-09-24T22:45:13Z",
+    "last_ok_run": "2026-09-24T22:50:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
