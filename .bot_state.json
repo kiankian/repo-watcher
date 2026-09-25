@@ -50840,6 +50840,54 @@
       "chat_id": 7582459199,
       "seq": 3679,
       "identity": "https://zapply.jobs/l/d/greenhouse-flyzipline-8004729003?s=gh-internships-2027|Zipline|Field Systems Engineer Intern (Spring 2027)|South San Francisco,...|Summer 2027#1"
+    },
+    "152eb7cb9391": {
+      "company": "Lutron Electronics",
+      "role": "Software Engineering Co-op",
+      "location": "Philadelphia, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.lutron.com/jobs/5616?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4872,
+      "chat_id": 7582459199,
+      "seq": 3680,
+      "identity": "https://careers.lutron.com/jobs/5616?icims=1&utm_source=Simplify&ref=Simplify|Lutron Electronics|Software Engineering Co-op|Philadelphia, PA|Summer 2026#1"
+    },
+    "aefd22915b18": {
+      "company": "First Citizens BancShares",
+      "role": "IT Intern - Software Developer",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://firstcitizens.jibeapply.com/jobs/35709?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4873,
+      "chat_id": 7582459199,
+      "seq": 3681,
+      "identity": "https://firstcitizens.jibeapply.com/jobs/35709?icims=1&utm_source=Simplify&ref=Simplify|First Citizens BancShares|IT Intern - Software Developer|Raleigh, NC|Summer 2026#1"
+    },
+    "92dfb13a3810": {
+      "company": "Barrios",
+      "role": "Data and Computer Engineering/Computer Science Intern",
+      "location": "Houston, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-barrios.icims.com/jobs/2897/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4874,
+      "chat_id": 7582459199,
+      "seq": 3682,
+      "identity": "https://careers-barrios.icims.com/jobs/2897/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Barrios|Data and Computer Engineering/Computer Science Intern|Houston, TX|Summer 2026#1"
+    },
+    "3c79e2d141f6": {
+      "company": "Greenheck Group",
+      "role": "Application Developer Co-op",
+      "location": "Schofield, WI",
+      "term": "Summer 2026",
+      "apply_url": "https://greenheckgroup.wd5.myworkdayjobs.com/external/job/Schofield-WI/Application-Developer-Co-op_JR104721?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4875,
+      "chat_id": 7582459199,
+      "seq": 3683,
+      "identity": "https://greenheckgroup.wd5.myworkdayjobs.com/external/job/Schofield-WI/Application-Developer-Co-op_JR104721?utm_source=Simplify&ref=Simplify|Greenheck Group|Application Developer Co-op|Schofield, WI|Summer 2026#1"
     }
   },
   "applied": {
@@ -51207,10 +51255,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3679,
+  "seq": 3683,
   "health": {
     "last_heartbeat": "2026-09-25T13:55:14Z",
-    "last_ok_run": "2026-09-25T14:30:19Z",
+    "last_ok_run": "2026-09-25T14:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
