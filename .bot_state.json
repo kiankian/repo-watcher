@@ -50816,6 +50816,18 @@
       "chat_id": 7582459199,
       "seq": 3677,
       "identity": "https://zapply.jobs/l/d/ashby-snowflake-5315b6f6-2c14-4cb9-a884-c2bae69f2c69?s=gh-internships-2027|Snowflake|Software Engineer Intern (Core, Infrastructure & Security) \u2014 Spring 2027|CA-Menlo Park|Summer 2027#1"
+    },
+    "77fcb71a6e0b": {
+      "company": "Electronic Arts",
+      "role": "Gameplay Engineer Intern",
+      "location": "LA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ea.com/en_US/careers/JobDetail/Gameplay-Engineer-Intern/216245?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 4870,
+      "chat_id": 7582459199,
+      "seq": 3678,
+      "identity": "https://jobs.ea.com/en_US/careers/JobDetail/Gameplay-Engineer-Intern/216245?utm_source=Simplify&ref=Simplify|Electronic Arts|Gameplay Engineer Intern|LA|Summer 2026#1"
     }
   },
   "applied": {
@@ -51183,10 +51195,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3677,
+  "seq": 3678,
   "health": {
     "last_heartbeat": "2026-09-25T01:15:12Z",
-    "last_ok_run": "2026-09-25T01:30:23Z",
+    "last_ok_run": "2026-09-25T01:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
