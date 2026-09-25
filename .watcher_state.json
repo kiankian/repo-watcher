@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "b7e0f43b313e8a0ca61f8a414df913f18180bd3e",
+    "last_sha": "a8b4270bd680188875edace2c466747dc9ac4e47",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2270,7 +2270,7 @@
       "https://greenheckgroup.wd5.myworkdayjobs.com/external/job/Schofield-WI/Application-Developer-Co-op_JR104721?utm_source=Simplify&ref=Simplify|Greenheck Group|Application Developer Co-op|Schofield, WI|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 722,
+    "last_row_count": 716,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -2592,7 +2592,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "7eb0895e6dae569d9e04b9e02019db646a0c5c96",
+    "last_sha": "3952637c370aedc369eb549f278cbd2d817a4e5e",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -5495,7 +5495,32 @@
       "https://radiancetech.wd12.myworkdayjobs.com/en-US/radiance_external/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102446|Radiance Technologies|Software Engineer Intern Spring/Summer 2027|Dayton, OH|Other#1",
       "https://radiancetech.wd12.myworkdayjobs.com/en-US/radiance_external/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102443|Radiance Technologies|Software Engineer Intern Spring/Summer 2027|Dayton, OH|Other#1",
       "https://radiancetech.wd12.myworkdayjobs.com/en-US/radiance_external/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102445|Radiance Technologies|Software Engineer Intern Spring/Summer 2027|Dayton, OH|Other#1",
-      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Intern--Summer-2027-_01873687|Raytheon|Software Engineering Intern - Summer 2027|Cedar Rapids, IA|Other#1"
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Intern--Summer-2027-_01873687|Raytheon|Software Engineering Intern - Summer 2027|Cedar Rapids, IA|Other#1",
+      "https://revantage.wd1.myworkdayjobs.com/en-US/revantage/job/Remote---Illinois/Quantitative-Developer-Intern_JR104315|Revantage|Quantitative Developer Intern|Remote - Illinois, USA|Other#1",
+      "https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Software-Engineering-Intern---Enterprise-Data---Systems--Salesforce---Snowflake---Graduate-Master-s-_R22543|WEX|Software Engineering Intern - Enterprise Data & Systems - Salesforce & Snowflake - Graduate/Master's|Remote - USA|Other#1",
+      "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041|CACI|Software Engineering Intern - Summer 2027|Reston, VA|Other#1",
+      "https://cae.wd3.myworkdayjobs.com/en-US/career/job/Arlington-TX/Weapons-Simulation-Software-Co-Op_123873|CAE|Weapons Simulation Software Co-Op|Arlington, TX|Other#1",
+      "https://lthc.wd1.myworkdayjobs.com/en-US/excellusbcbscareers/job/Rochester/College-Intern---Summer-2027---Software-Testing-and-Automation_JR104024-2|Excellus BCBS|College Intern - Summer 2027 - Software Testing and Automation|Buffalo, NY +1|Other#1",
+      "https://lthc.wd1.myworkdayjobs.com/en-US/excellusbcbscareers/job/Rochester/College-Intern---Summer-2027---Software-Engineering--Multiple-Openings-Available-_JR104022-1|Excellus BCBS|College Intern - Summer 2027 - Software Engineering - Multiple Openings Available|Buffalo, NY +1|Other#1",
+      "https://lthc.wd1.myworkdayjobs.com/en-US/excellusbcbscareers/job/Rochester/College-Intern---Summer-2027---Mobile-Software-Engineering-Team_JR104025-3|Excellus BCBS|College Intern - Summer 2027 - Mobile Software Engineering Team|Buffalo, NY +1|Other#1",
+      "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Seattle/Software-Development-Engineer-II--Former-Summer-2026-Interns-_RP1038883|F5|Software Development Engineer II - Former Summer 2026 Interns|Seattle, WA +1|Other#1",
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359|Northrop Grumman|2027 Software Engineer Intern - Woodland Hills CA|Woodland Hills, CA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-905--2551-Riva-Rd--BLDG-905/Software-Engineer-Intern--Summer-2027-_01873556|Raytheon|Software Engineer Intern - Summer 2027|Annapolis, MD|Other#1",
+      "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584|Sierra Nevada Corporation|Software Engineer I - For 2026 Interns Only|Plano, TX|Other#1",
+      "https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/Co-op---Software-Engineer_R8111|Symbotic|Co-op - Software Engineer|Wilmington, MA|Other#1",
+      "https://lthc.wd1.myworkdayjobs.com/en-US/univerahealthcarecareers/job/Rochester/College-Intern---Summer-2027---Software-Engineering--Multiple-Openings-Available-_JR104022|Univera Healthcare|College Intern - Summer 2027 - Software Engineering - Multiple Openings Available|Buffalo, NY +1|Other#1",
+      "https://lthc.wd1.myworkdayjobs.com/en-US/univerahealthcarecareers/job/Rochester/College-Intern---Summer-2027---Software-Testing-and-Automation_JR104024-1|Univera Healthcare|College Intern - Summer 2027 - Software Testing and Automation|Buffalo, NY +1|Other#1",
+      "https://lthc.wd1.myworkdayjobs.com/en-US/univerahealthcarecareers/job/Rochester/College-Intern---Summer-2027---Mobile-Software-Engineering-Team_JR104025-2|Univera Healthcare|College Intern - Summer 2027 - Mobile Software Engineering Team|Buffalo, NY +1|Other#1",
+      "https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249805|Booz Allen|University - 2027 Summer Games Software Developer Intern - McLean - VA|McLean, VA|Other#1",
+      "https://appliedinnovation.applytojob.com/apply/DWiAHxQUJn/Software-Solutions-Intern-Grand-Rapids-MI|Applied Innovation|Software Solutions Intern - Grand Rapids MI|Grand Rapids, MI|Other#1",
+      "https://camba.applytojob.com/apply/wv3YppWJJF/Internship-Developer-Learning-To-Work-Program|CAMBA|Internship Developer - Learning to Work Program|Brooklyn, NY|Other#1",
+      "https://d3engineering.applytojob.com/apply/uixxAbdlV5/Embedded-Systems-Design-Coop|D3 Embedded|Embedded Systems Design Co-op|West Henrietta, NY|Other#1",
+      "https://deka.applytojob.com/apply/ulNhn2xOvG/Software-Engineering-CoOp-Spring-2027|DEKA Research & Development|Software Engineering Co-Op- Spring 2027|Manchester, NH|Other#1",
+      "https://munichairportusholdingllc.applytojob.com/apply/Fi3oDpdaO3/FM-Software-And-Data-Analyst-Internship|Munich Airport NJ|FM Software and Data Analyst Internship|Newark, NJ|Other#1",
+      "https://ragleinc.applytojob.com/apply/lonTfWhOqm/Software-Engineer-Intern|Ragle|Software Engineer Intern|North Richland Hills, TX|Other#1",
+      "https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN|Nova-Tech Engineering|Software Development Co-Op - Located Onsite in Willmar - MN|Willmar, MN|Other#1",
+      "https://career.innovativesystems.com/apply/wJuSCjOOqx/InternCoopSpring-2027-Software-Engineering|Innovative Systems|Intern/Co-op-Spring 2027 - Software Engineering|Pittsburgh, PA|Other#1",
+      "https://career.innovativesystems.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering|Innovative Systems|Intern/Co-op- Summer 2027 - Software Engineering|Pittsburgh, PA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -5641,281 +5666,6 @@
     ],
     "last_row_count": 630,
     "outbox": [
-      [
-        [
-          "Revantage",
-          "Quantitative Developer Intern",
-          "Remote - Illinois, USA",
-          "Other",
-          "https://revantage.wd1.myworkdayjobs.com/en-US/revantage/job/Remote---Illinois/Quantitative-Developer-Intern_JR104315"
-        ],
-        "https://revantage.wd1.myworkdayjobs.com/en-US/revantage/job/Remote---Illinois/Quantitative-Developer-Intern_JR104315|Revantage|Quantitative Developer Intern|Remote - Illinois, USA|Other#1",
-        1
-      ],
-      [
-        [
-          "WEX",
-          "Software Engineering Intern - Enterprise Data & Systems - Salesforce & Snowflake - Graduate/Master's",
-          "Remote - USA",
-          "Other",
-          "https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Software-Engineering-Intern---Enterprise-Data---Systems--Salesforce---Snowflake---Graduate-Master-s-_R22543"
-        ],
-        "https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Software-Engineering-Intern---Enterprise-Data---Systems--Salesforce---Snowflake---Graduate-Master-s-_R22543|WEX|Software Engineering Intern - Enterprise Data & Systems - Salesforce & Snowflake - Graduate/Master's|Remote - USA|Other#1",
-        1
-      ],
-      [
-        [
-          "CACI",
-          "Software Engineering Intern - Summer 2027",
-          "Reston, VA",
-          "Other",
-          "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041"
-        ],
-        "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041|CACI|Software Engineering Intern - Summer 2027|Reston, VA|Other#1",
-        1
-      ],
-      [
-        [
-          "CAE",
-          "Weapons Simulation Software Co-Op",
-          "Arlington, TX",
-          "Other",
-          "https://cae.wd3.myworkdayjobs.com/en-US/career/job/Arlington-TX/Weapons-Simulation-Software-Co-Op_123873"
-        ],
-        "https://cae.wd3.myworkdayjobs.com/en-US/career/job/Arlington-TX/Weapons-Simulation-Software-Co-Op_123873|CAE|Weapons Simulation Software Co-Op|Arlington, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "Excellus BCBS",
-          "College Intern - Summer 2027 - Software Testing and Automation",
-          "Buffalo, NY +1",
-          "Other",
-          "https://lthc.wd1.myworkdayjobs.com/en-US/excellusbcbscareers/job/Rochester/College-Intern---Summer-2027---Software-Testing-and-Automation_JR104024-2"
-        ],
-        "https://lthc.wd1.myworkdayjobs.com/en-US/excellusbcbscareers/job/Rochester/College-Intern---Summer-2027---Software-Testing-and-Automation_JR104024-2|Excellus BCBS|College Intern - Summer 2027 - Software Testing and Automation|Buffalo, NY +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Excellus BCBS",
-          "College Intern - Summer 2027 - Software Engineering - Multiple Openings Available",
-          "Buffalo, NY +1",
-          "Other",
-          "https://lthc.wd1.myworkdayjobs.com/en-US/excellusbcbscareers/job/Rochester/College-Intern---Summer-2027---Software-Engineering--Multiple-Openings-Available-_JR104022-1"
-        ],
-        "https://lthc.wd1.myworkdayjobs.com/en-US/excellusbcbscareers/job/Rochester/College-Intern---Summer-2027---Software-Engineering--Multiple-Openings-Available-_JR104022-1|Excellus BCBS|College Intern - Summer 2027 - Software Engineering - Multiple Openings Available|Buffalo, NY +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Excellus BCBS",
-          "College Intern - Summer 2027 - Mobile Software Engineering Team",
-          "Buffalo, NY +1",
-          "Other",
-          "https://lthc.wd1.myworkdayjobs.com/en-US/excellusbcbscareers/job/Rochester/College-Intern---Summer-2027---Mobile-Software-Engineering-Team_JR104025-3"
-        ],
-        "https://lthc.wd1.myworkdayjobs.com/en-US/excellusbcbscareers/job/Rochester/College-Intern---Summer-2027---Mobile-Software-Engineering-Team_JR104025-3|Excellus BCBS|College Intern - Summer 2027 - Mobile Software Engineering Team|Buffalo, NY +1|Other#1",
-        1
-      ],
-      [
-        [
-          "F5",
-          "Software Development Engineer II - Former Summer 2026 Interns",
-          "Seattle, WA +1",
-          "Other",
-          "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Seattle/Software-Development-Engineer-II--Former-Summer-2026-Interns-_RP1038883"
-        ],
-        "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Seattle/Software-Development-Engineer-II--Former-Summer-2026-Interns-_RP1038883|F5|Software Development Engineer II - Former Summer 2026 Interns|Seattle, WA +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Northrop Grumman",
-          "2027 Software Engineer Intern - Woodland Hills CA",
-          "Woodland Hills, CA",
-          "Other",
-          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359"
-        ],
-        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359|Northrop Grumman|2027 Software Engineer Intern - Woodland Hills CA|Woodland Hills, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Raytheon",
-          "Software Engineer Intern - Summer 2027",
-          "Annapolis, MD",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-905--2551-Riva-Rd--BLDG-905/Software-Engineer-Intern--Summer-2027-_01873556"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-905--2551-Riva-Rd--BLDG-905/Software-Engineer-Intern--Summer-2027-_01873556|Raytheon|Software Engineer Intern - Summer 2027|Annapolis, MD|Other#1",
-        1
-      ],
-      [
-        [
-          "Sierra Nevada Corporation",
-          "Software Engineer I - For 2026 Interns Only",
-          "Plano, TX",
-          "Other",
-          "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584"
-        ],
-        "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584|Sierra Nevada Corporation|Software Engineer I - For 2026 Interns Only|Plano, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "Symbotic",
-          "Co-op - Software Engineer",
-          "Wilmington, MA",
-          "Other",
-          "https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/Co-op---Software-Engineer_R8111"
-        ],
-        "https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington--MA---HQ/Co-op---Software-Engineer_R8111|Symbotic|Co-op - Software Engineer|Wilmington, MA|Other#1",
-        1
-      ],
-      [
-        [
-          "Univera Healthcare",
-          "College Intern - Summer 2027 - Software Engineering - Multiple Openings Available",
-          "Buffalo, NY +1",
-          "Other",
-          "https://lthc.wd1.myworkdayjobs.com/en-US/univerahealthcarecareers/job/Rochester/College-Intern---Summer-2027---Software-Engineering--Multiple-Openings-Available-_JR104022"
-        ],
-        "https://lthc.wd1.myworkdayjobs.com/en-US/univerahealthcarecareers/job/Rochester/College-Intern---Summer-2027---Software-Engineering--Multiple-Openings-Available-_JR104022|Univera Healthcare|College Intern - Summer 2027 - Software Engineering - Multiple Openings Available|Buffalo, NY +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Univera Healthcare",
-          "College Intern - Summer 2027 - Software Testing and Automation",
-          "Buffalo, NY +1",
-          "Other",
-          "https://lthc.wd1.myworkdayjobs.com/en-US/univerahealthcarecareers/job/Rochester/College-Intern---Summer-2027---Software-Testing-and-Automation_JR104024-1"
-        ],
-        "https://lthc.wd1.myworkdayjobs.com/en-US/univerahealthcarecareers/job/Rochester/College-Intern---Summer-2027---Software-Testing-and-Automation_JR104024-1|Univera Healthcare|College Intern - Summer 2027 - Software Testing and Automation|Buffalo, NY +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Univera Healthcare",
-          "College Intern - Summer 2027 - Mobile Software Engineering Team",
-          "Buffalo, NY +1",
-          "Other",
-          "https://lthc.wd1.myworkdayjobs.com/en-US/univerahealthcarecareers/job/Rochester/College-Intern---Summer-2027---Mobile-Software-Engineering-Team_JR104025-2"
-        ],
-        "https://lthc.wd1.myworkdayjobs.com/en-US/univerahealthcarecareers/job/Rochester/College-Intern---Summer-2027---Mobile-Software-Engineering-Team_JR104025-2|Univera Healthcare|College Intern - Summer 2027 - Mobile Software Engineering Team|Buffalo, NY +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Booz Allen",
-          "University - 2027 Summer Games Software Developer Intern - McLean - VA",
-          "McLean, VA",
-          "Other",
-          "https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249805"
-        ],
-        "https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249805|Booz Allen|University - 2027 Summer Games Software Developer Intern - McLean - VA|McLean, VA|Other#1",
-        1
-      ],
-      [
-        [
-          "Applied Innovation",
-          "Software Solutions Intern - Grand Rapids MI",
-          "Grand Rapids, MI",
-          "Other",
-          "https://appliedinnovation.applytojob.com/apply/DWiAHxQUJn/Software-Solutions-Intern-Grand-Rapids-MI"
-        ],
-        "https://appliedinnovation.applytojob.com/apply/DWiAHxQUJn/Software-Solutions-Intern-Grand-Rapids-MI|Applied Innovation|Software Solutions Intern - Grand Rapids MI|Grand Rapids, MI|Other#1",
-        1
-      ],
-      [
-        [
-          "CAMBA",
-          "Internship Developer - Learning to Work Program",
-          "Brooklyn, NY",
-          "Other",
-          "https://camba.applytojob.com/apply/wv3YppWJJF/Internship-Developer-Learning-To-Work-Program"
-        ],
-        "https://camba.applytojob.com/apply/wv3YppWJJF/Internship-Developer-Learning-To-Work-Program|CAMBA|Internship Developer - Learning to Work Program|Brooklyn, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "D3 Embedded",
-          "Embedded Systems Design Co-op",
-          "West Henrietta, NY",
-          "Other",
-          "https://d3engineering.applytojob.com/apply/uixxAbdlV5/Embedded-Systems-Design-Coop"
-        ],
-        "https://d3engineering.applytojob.com/apply/uixxAbdlV5/Embedded-Systems-Design-Coop|D3 Embedded|Embedded Systems Design Co-op|West Henrietta, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "DEKA Research & Development",
-          "Software Engineering Co-Op- Spring 2027",
-          "Manchester, NH",
-          "Other",
-          "https://deka.applytojob.com/apply/ulNhn2xOvG/Software-Engineering-CoOp-Spring-2027"
-        ],
-        "https://deka.applytojob.com/apply/ulNhn2xOvG/Software-Engineering-CoOp-Spring-2027|DEKA Research & Development|Software Engineering Co-Op- Spring 2027|Manchester, NH|Other#1",
-        1
-      ],
-      [
-        [
-          "Munich Airport NJ",
-          "FM Software and Data Analyst Internship",
-          "Newark, NJ",
-          "Other",
-          "https://munichairportusholdingllc.applytojob.com/apply/Fi3oDpdaO3/FM-Software-And-Data-Analyst-Internship"
-        ],
-        "https://munichairportusholdingllc.applytojob.com/apply/Fi3oDpdaO3/FM-Software-And-Data-Analyst-Internship|Munich Airport NJ|FM Software and Data Analyst Internship|Newark, NJ|Other#1",
-        1
-      ],
-      [
-        [
-          "Ragle",
-          "Software Engineer Intern",
-          "North Richland Hills, TX",
-          "Other",
-          "https://ragleinc.applytojob.com/apply/lonTfWhOqm/Software-Engineer-Intern"
-        ],
-        "https://ragleinc.applytojob.com/apply/lonTfWhOqm/Software-Engineer-Intern|Ragle|Software Engineer Intern|North Richland Hills, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "Nova-Tech Engineering",
-          "Software Development Co-Op - Located Onsite in Willmar - MN",
-          "Willmar, MN",
-          "Other",
-          "https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN"
-        ],
-        "https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN|Nova-Tech Engineering|Software Development Co-Op - Located Onsite in Willmar - MN|Willmar, MN|Other#1",
-        1
-      ],
-      [
-        [
-          "Innovative Systems",
-          "Intern/Co-op-Spring 2027 - Software Engineering",
-          "Pittsburgh, PA",
-          "Other",
-          "https://career.innovativesystems.com/apply/wJuSCjOOqx/InternCoopSpring-2027-Software-Engineering"
-        ],
-        "https://career.innovativesystems.com/apply/wJuSCjOOqx/InternCoopSpring-2027-Software-Engineering|Innovative Systems|Intern/Co-op-Spring 2027 - Software Engineering|Pittsburgh, PA|Other#1",
-        1
-      ],
-      [
-        [
-          "Innovative Systems",
-          "Intern/Co-op- Summer 2027 - Software Engineering",
-          "Pittsburgh, PA",
-          "Other",
-          "https://career.innovativesystems.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering"
-        ],
-        "https://career.innovativesystems.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering|Innovative Systems|Intern/Co-op- Summer 2027 - Software Engineering|Pittsburgh, PA|Other#1",
-        1
-      ],
       [
         [
           "SimIS",
