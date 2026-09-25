@@ -50912,6 +50912,18 @@
       "chat_id": 7582459199,
       "seq": 3685,
       "identity": "https://zapply.jobs/l/d/workday-abb-external-career-page-JR00047388?s=gh-internships-2027|ABB|Systems Engineering Intern \u2013 Summer 2027|USA, OH, Cleveland|Summer 2027#1"
+    },
+    "38b7a172cc73": {
+      "company": "AbbVie",
+      "role": "2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate)",
+      "location": "North Chicago, IL",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-AbbVie-3743990015679246?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4878,
+      "chat_id": 7582459199,
+      "seq": 3686,
+      "identity": "https://zapply.jobs/l/d/sr-AbbVie-3743990015679246?s=gh-internships-2027|AbbVie|2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate)|North Chicago, IL|Summer 2027#1"
     }
   },
   "applied": {
@@ -51279,10 +51291,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3685,
+  "seq": 3686,
   "health": {
     "last_heartbeat": "2026-09-25T16:00:20Z",
-    "last_ok_run": "2026-09-25T16:00:20Z",
+    "last_ok_run": "2026-09-25T16:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
