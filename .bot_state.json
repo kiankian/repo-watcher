@@ -50768,6 +50768,18 @@
       "chat_id": 7582459199,
       "seq": 3673,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873117?s=gh-internships-2027|RTX|Systems Engineering Co-Op (Summer/Fall 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "0106cb9fb32b": {
+      "company": "Reflect Orbital",
+      "role": "Ground Software Engineering Intern",
+      "location": "Hawthorne, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-reflect-orbital-c394615d-26c6-4435-ad84-3ca3269c2952?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4866,
+      "chat_id": 7582459199,
+      "seq": 3674,
+      "identity": "https://zapply.jobs/l/d/ashby-reflect-orbital-c394615d-26c6-4435-ad84-3ca3269c2952?s=gh-internships-2027|Reflect Orbital|Ground Software Engineering Intern|Hawthorne, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -51135,10 +51147,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3673,
+  "seq": 3674,
   "health": {
     "last_heartbeat": "2026-09-25T00:10:16Z",
-    "last_ok_run": "2026-09-25T00:25:12Z",
+    "last_ok_run": "2026-09-25T00:30:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
