@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "cd3333a7f2fc89b6b667b881f0a3db22ef4a1464",
+    "last_sha": "e7ca125e2afc76f23e77f3f9337cbd1352209144",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2271,10 +2271,24 @@
       "https://jobs.smartrecruiters.com/AbbVie/3743990015684476?utm_source=Simplify&ref=Simplify|AbbVie|Business Technology Solutions Intern - Data & Software Engineering|Irvine, CA|Summer 2026#1",
       "https://jobs.smartrecruiters.com/RRSGroup/744000151931819?utm_source=Simplify&ref=Simplify|RRS Group|Associate Software Engineer Intern - Sophomore Only|SF|Summer 2026#1",
       "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982?utm_source=Simplify&ref=Simplify|Rockwell Automation|AI Software Engineering Co-op - 6 months - 8 months|Mayfield Heights, OH Milwaukee, WI|Summer 2026#1",
-      "https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Actuarial-Systems-Intern--Summer-2027_JR-46073?utm_source=Simplify&ref=Simplify|Northwestern Mutual|Actuarial Systems Intern|Milwaukee, WI|Summer 2026#1"
+      "https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Actuarial-Systems-Intern--Summer-2027_JR-46073?utm_source=Simplify&ref=Simplify|Northwestern Mutual|Actuarial Systems Intern|Milwaukee, WI|Summer 2026#1",
+      "https://careers.withwaymo.com/jobs?gh_jid=8224900&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|Software Engineer Intern - Driver Refinement Foundations|Mountain View, CA|Summer 2026#1",
+      "https://jobs.ashbyhq.com/bedrock-robotics/cb06dc4f-3e78-4546-897d-b39ba12a9178/application?embed=true&utm_source=Simplify&ref=Simplify|Bedrock Robotics|Safety Engineer Intern - Agentic Safety Case Assessment|SF|Summer 2026#1",
+      "https://careers.withwaymo.com/jobs?gh_jid=8234161&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|Software Engineering Intern - MS/PhD - Sys Intel & ML \ud83c\udf93|Mountain View, CA|Summer 2026#1",
+      "https://careers.withwaymo.com/jobs?gh_jid=8231711&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|Systems Engineer Intern - Autonomous Vehicle Networks & Diagnostics \ud83c\udf93|Mountain View, CA|Summer 2026#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-UT-WEST-VALLEY-CITY-338--1127--1128-w-2400-S--BLDG-338/Software-Engineering-Intern--Summer-2027-_01875358?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern - Summer 2027|West Valley City, UT|Summer 2026#1",
+      "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--AI-Software-Engineering--June-August-2027-_R26-6980?utm_source=Simplify&ref=Simplify|Rockwell Automation|AI Software Engineer Intern|Mayfield Heights, OH Milwaukee, WI|Summer 2026#1",
+      "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--AI-Software-Engineering--June-August-2027-_R26-6980-1?utm_source=Simplify&ref=Simplify|Rockwell Automation|AI Software Engineer Intern|Mayfield Heights, OH Milwaukee, WI|Summer 2026#1",
+      "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982-1?utm_source=Simplify&ref=Simplify|Rockwell Automation|AI Software Engineering Co-op - 6 months - 8 months|Mayfield Heights, OH Milwaukee, WI|Summer 2026#1",
+      "https://pacificlife.wd1.myworkdayjobs.com/en-US/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Software-Engineering-Internship_R17826?utm_source=Simplify&ref=Simplify|Pacific Life|Software Engineering Intern|Newport Beach, CA|Summer 2026#1",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Greater-Chicago-Area/Software-Engineer-Intern---Summer-2027_R68679?utm_source=Simplify&ref=Simplify|Motorola|Software Engineer Intern - Summer 2027|Elgin, IL|Summer 2026#1",
+      "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Solutions-PhD-Intern-New-2027_JR0287314?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Intel|Software Research Intern - PhD \ud83c\udf93|Hillsboro, OR|Summer 2026#1",
+      "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/System-Software-Engineering---PhD-Intern_JR0287457?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Intel|System Software Engineer PhD Intern - Intel Foundry - LTD CMT Litho Tools \ud83c\udf93|Hillsboro, OR|Summer 2026#1",
+      "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Remote-USA/Software-Intern_R2613763?utm_source=Simplify&ref=Simplify|Cencora|Software Intern|Remote in USA|Summer 2026#1",
+      "https://americancentury.wd5.myworkdayjobs.com/AmericanCenturyInvestments/job/Kansas-City-Missouri/Software-Developer-Intern_R0005749-1?utm_source=Simplify&ref=Simplify|American Century Investments|Software Developer Intern|Kansas City, MO|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 712,
+    "last_row_count": 726,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
