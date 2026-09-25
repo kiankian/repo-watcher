@@ -50780,6 +50780,42 @@
       "chat_id": 7582459199,
       "seq": 3674,
       "identity": "https://zapply.jobs/l/d/ashby-reflect-orbital-c394615d-26c6-4435-ad84-3ca3269c2952?s=gh-internships-2027|Reflect Orbital|Ground Software Engineering Intern|Hawthorne, CA|Summer 2027#1"
+    },
+    "15247413673b": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern (AI / ML) - Spring 2027",
+      "location": "CA-Menlo Park",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-snowflake-4be290ae-dd9d-488c-9d90-56fcd69101ca?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4867,
+      "chat_id": 7582459199,
+      "seq": 3675,
+      "identity": "https://zapply.jobs/l/d/ashby-snowflake-4be290ae-dd9d-488c-9d90-56fcd69101ca?s=gh-internships-2027|Snowflake|Software Engineer Intern (AI / ML) - Spring 2027|CA-Menlo Park|Summer 2027#1"
+    },
+    "4149dbe94eab": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern (Database Engineering) - Spring 2027",
+      "location": "CA-Menlo Park",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-snowflake-7bd393df-67d7-4009-ba4f-1cd79a82b0be?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4868,
+      "chat_id": 7582459199,
+      "seq": 3676,
+      "identity": "https://zapply.jobs/l/d/ashby-snowflake-7bd393df-67d7-4009-ba4f-1cd79a82b0be?s=gh-internships-2027|Snowflake|Software Engineer Intern (Database Engineering) - Spring 2027|CA-Menlo Park|Summer 2027#1"
+    },
+    "94182bc71034": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern (Core, Infrastructure & Security) \u2014 Spring 2027",
+      "location": "CA-Menlo Park",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-snowflake-5315b6f6-2c14-4cb9-a884-c2bae69f2c69?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4869,
+      "chat_id": 7582459199,
+      "seq": 3677,
+      "identity": "https://zapply.jobs/l/d/ashby-snowflake-5315b6f6-2c14-4cb9-a884-c2bae69f2c69?s=gh-internships-2027|Snowflake|Software Engineer Intern (Core, Infrastructure & Security) \u2014 Spring 2027|CA-Menlo Park|Summer 2027#1"
     }
   },
   "applied": {
@@ -51147,10 +51183,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3674,
+  "seq": 3677,
   "health": {
     "last_heartbeat": "2026-09-25T01:15:12Z",
-    "last_ok_run": "2026-09-25T01:25:14Z",
+    "last_ok_run": "2026-09-25T01:30:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
