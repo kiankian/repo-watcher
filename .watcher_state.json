@@ -5520,7 +5520,12 @@
       "https://ragleinc.applytojob.com/apply/lonTfWhOqm/Software-Engineer-Intern|Ragle|Software Engineer Intern|North Richland Hills, TX|Other#1",
       "https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN|Nova-Tech Engineering|Software Development Co-Op - Located Onsite in Willmar - MN|Willmar, MN|Other#1",
       "https://career.innovativesystems.com/apply/wJuSCjOOqx/InternCoopSpring-2027-Software-Engineering|Innovative Systems|Intern/Co-op-Spring 2027 - Software Engineering|Pittsburgh, PA|Other#1",
-      "https://career.innovativesystems.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering|Innovative Systems|Intern/Co-op- Summer 2027 - Software Engineering|Pittsburgh, PA|Other#1"
+      "https://career.innovativesystems.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering|Innovative Systems|Intern/Co-op- Summer 2027 - Software Engineering|Pittsburgh, PA|Other#1",
+      "https://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern|SimIS|Aerospace/Aviation Artificial Intelligence Developer - Intern|Suffolk, VA|Other#1",
+      "https://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027|Aerotech|Software Engineering Internship or Co-op 2027|Pittsburgh, PA|Other#1",
+      "https://metecs.applytojob.com/apply/XTBhKHIVhQ/Summer-Software-Internship|METECS|Summer Software Internship|Houston, TX|Other#1",
+      "https://hiebing.applytojob.com/apply/GYiQqWe8cL/AI-Agent-Developer-Intern|Hiebing|AI Agent Developer Intern|Madison, WI|Other#1",
+      "https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA|Black Cape|US Military Skillbridge Internship - Software Engineer_Arlington - VA|Arlington, VA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -5665,62 +5670,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 630,
-    "outbox": [
-      [
-        [
-          "SimIS",
-          "Aerospace/Aviation Artificial Intelligence Developer - Intern",
-          "Suffolk, VA",
-          "Other",
-          "https://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern"
-        ],
-        "https://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern|SimIS|Aerospace/Aviation Artificial Intelligence Developer - Intern|Suffolk, VA|Other#1",
-        1
-      ],
-      [
-        [
-          "Aerotech",
-          "Software Engineering Internship or Co-op 2027",
-          "Pittsburgh, PA",
-          "Other",
-          "https://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027"
-        ],
-        "https://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027|Aerotech|Software Engineering Internship or Co-op 2027|Pittsburgh, PA|Other#1",
-        1
-      ],
-      [
-        [
-          "METECS",
-          "Summer Software Internship",
-          "Houston, TX",
-          "Other",
-          "https://metecs.applytojob.com/apply/XTBhKHIVhQ/Summer-Software-Internship"
-        ],
-        "https://metecs.applytojob.com/apply/XTBhKHIVhQ/Summer-Software-Internship|METECS|Summer Software Internship|Houston, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "Hiebing",
-          "AI Agent Developer Intern",
-          "Madison, WI",
-          "Other",
-          "https://hiebing.applytojob.com/apply/GYiQqWe8cL/AI-Agent-Developer-Intern"
-        ],
-        "https://hiebing.applytojob.com/apply/GYiQqWe8cL/AI-Agent-Developer-Intern|Hiebing|AI Agent Developer Intern|Madison, WI|Other#1",
-        1
-      ],
-      [
-        [
-          "Black Cape",
-          "US Military Skillbridge Internship - Software Engineer_Arlington - VA",
-          "Arlington, VA",
-          "Other",
-          "https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA"
-        ],
-        "https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA|Black Cape|US Military Skillbridge Internship - Software Engineer_Arlington - VA|Arlington, VA|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }

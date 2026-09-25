@@ -51596,6 +51596,66 @@
       "chat_id": 7582459199,
       "seq": 3742,
       "identity": "https://career.innovativesystems.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering|Innovative Systems|Intern/Co-op- Summer 2027 - Software Engineering|Pittsburgh, PA|Other#1"
+    },
+    "9516b83a175f": {
+      "company": "SimIS",
+      "role": "Aerospace/Aviation Artificial Intelligence Developer - Intern",
+      "location": "Suffolk, VA",
+      "term": "Other",
+      "apply_url": "https://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4935,
+      "chat_id": 7582459199,
+      "seq": 3743,
+      "identity": "https://simisinc.applytojob.com/apply/U1yOSyvkvH/AerospaceAviation-Artificial-Intelligence-Developer-Intern|SimIS|Aerospace/Aviation Artificial Intelligence Developer - Intern|Suffolk, VA|Other#1"
+    },
+    "7c6b0244b5d4": {
+      "company": "Aerotech",
+      "role": "Software Engineering Internship or Co-op 2027",
+      "location": "Pittsburgh, PA",
+      "term": "Other",
+      "apply_url": "https://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4936,
+      "chat_id": 7582459199,
+      "seq": 3744,
+      "identity": "https://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027|Aerotech|Software Engineering Internship or Co-op 2027|Pittsburgh, PA|Other#1"
+    },
+    "a229aa483fff": {
+      "company": "METECS",
+      "role": "Summer Software Internship",
+      "location": "Houston, TX",
+      "term": "Other",
+      "apply_url": "https://metecs.applytojob.com/apply/XTBhKHIVhQ/Summer-Software-Internship",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4937,
+      "chat_id": 7582459199,
+      "seq": 3745,
+      "identity": "https://metecs.applytojob.com/apply/XTBhKHIVhQ/Summer-Software-Internship|METECS|Summer Software Internship|Houston, TX|Other#1"
+    },
+    "1e75de4a2f2b": {
+      "company": "Hiebing",
+      "role": "AI Agent Developer Intern",
+      "location": "Madison, WI",
+      "term": "Other",
+      "apply_url": "https://hiebing.applytojob.com/apply/GYiQqWe8cL/AI-Agent-Developer-Intern",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4938,
+      "chat_id": 7582459199,
+      "seq": 3746,
+      "identity": "https://hiebing.applytojob.com/apply/GYiQqWe8cL/AI-Agent-Developer-Intern|Hiebing|AI Agent Developer Intern|Madison, WI|Other#1"
+    },
+    "f7e36dc8f43d": {
+      "company": "Black Cape",
+      "role": "US Military Skillbridge Internship - Software Engineer_Arlington - VA",
+      "location": "Arlington, VA",
+      "term": "Other",
+      "apply_url": "https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 4939,
+      "chat_id": 7582459199,
+      "seq": 3747,
+      "identity": "https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA|Black Cape|US Military Skillbridge Internship - Software Engineer_Arlington - VA|Arlington, VA|Other#1"
     }
   },
   "applied": {
@@ -51963,10 +52023,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3742,
+  "seq": 3747,
   "health": {
     "last_heartbeat": "2026-09-25T16:00:20Z",
-    "last_ok_run": "2026-09-25T17:05:51Z",
+    "last_ok_run": "2026-09-25T17:10:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
