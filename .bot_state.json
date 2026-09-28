@@ -52208,6 +52208,18 @@
       "chat_id": 7582459199,
       "seq": 3793,
       "identity": "https://zapply.jobs/l/d/oracle-onsemi-2506604?s=gh-internships-2027|onsemi|Summer 2027 - Test Engineer Intern|Nampa, ID, United States|Summer 2027#1"
+    },
+    "95cbd1bb8910": {
+      "company": "Philips",
+      "role": "Intern \u2013 Embedded Systems Test Automation Engineer \u2013 Bothell, WA \u2013 Summer 2027",
+      "location": "Bothell, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-592074?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4986,
+      "chat_id": 7582459199,
+      "seq": 3794,
+      "identity": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-592074?s=gh-internships-2027|Philips|Intern \u2013 Embedded Systems Test Automation Engineer \u2013 Bothell, WA \u2013 Summer 2027|Bothell, Washington, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -52575,10 +52587,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3793,
+  "seq": 3794,
   "health": {
     "last_heartbeat": "2026-09-28T06:55:15Z",
-    "last_ok_run": "2026-09-28T07:20:15Z",
+    "last_ok_run": "2026-09-28T07:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
