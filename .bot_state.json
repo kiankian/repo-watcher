@@ -52892,6 +52892,30 @@
       "chat_id": 7582459199,
       "seq": 3850,
       "identity": "https://zapply.jobs/l/d/oracle-onsemi-2506420?s=gh-internships-2027|onsemi|Summer 2027 - Probe Test Engineer Intern|Hopewell Junction, NY, United...|Summer 2027#1"
+    },
+    "426beb1d4f53": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01877155?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5043,
+      "chat_id": 7582459199,
+      "seq": 3851,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01877155?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "a5061cd2be3f": {
+      "company": "RTX",
+      "role": "Software Engineering Co-op (Summer/Fall 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01877158?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5044,
+      "chat_id": 7582459199,
+      "seq": 3852,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01877158?s=gh-internships-2027|RTX|Software Engineering Co-op (Summer/Fall 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
     }
   },
   "applied": {
@@ -53259,10 +53283,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3850,
+  "seq": 3852,
   "health": {
     "last_heartbeat": "2026-09-28T20:20:15Z",
-    "last_ok_run": "2026-09-28T20:50:17Z",
+    "last_ok_run": "2026-09-28T20:55:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
