@@ -52172,6 +52172,18 @@
       "chat_id": 7582459199,
       "seq": 3790,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872108?s=gh-internships-2027|RTX|2027 Summer Intern, Systems Engineering (Onsite)|CT-EAST HARTFORD-ETC|Summer 2027#1"
+    },
+    "a810dd95a4ce": {
+      "company": "RTX",
+      "role": "Platform Systems Engineering Co-Op (Spring/Summer 2027) - Onsite",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870366?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4983,
+      "chat_id": 7582459199,
+      "seq": 3791,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870366?s=gh-internships-2027|RTX|Platform Systems Engineering Co-Op (Spring/Summer 2027) - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
     }
   },
   "applied": {
@@ -52539,10 +52551,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3790,
+  "seq": 3791,
   "health": {
     "last_heartbeat": "2026-09-28T04:40:17Z",
-    "last_ok_run": "2026-09-28T05:20:19Z",
+    "last_ok_run": "2026-09-28T05:25:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
