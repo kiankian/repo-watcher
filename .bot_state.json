@@ -52220,6 +52220,42 @@
       "chat_id": 7582459199,
       "seq": 3794,
       "identity": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-592074?s=gh-internships-2027|Philips|Intern \u2013 Embedded Systems Test Automation Engineer \u2013 Bothell, WA \u2013 Summer 2027|Bothell, Washington, United States|Summer 2027#1"
+    },
+    "2bced6c74ca7": {
+      "company": "D. E. Shaw",
+      "role": "Software Developer Intern (New York) \u2013 Summer 2027",
+      "location": "New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/deshaw-5894?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4987,
+      "chat_id": 7582459199,
+      "seq": 3795,
+      "identity": "https://zapply.jobs/l/d/deshaw-5894?s=gh-internships-2027|D. E. Shaw|Software Developer Intern (New York) \u2013 Summer 2027|New York|Summer 2027#1"
+    },
+    "b2f38ba28292": {
+      "company": "D. E. Shaw",
+      "role": "Software Developer, Ph.D. Intern (New York) \u2013 Summer 2027",
+      "location": "New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/deshaw-5893?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4988,
+      "chat_id": 7582459199,
+      "seq": 3796,
+      "identity": "https://zapply.jobs/l/d/deshaw-5893?s=gh-internships-2027|D. E. Shaw|Software Developer, Ph.D. Intern (New York) \u2013 Summer 2027|New York|Summer 2027#1"
+    },
+    "97656c755627": {
+      "company": "D. E. Shaw",
+      "role": "Systems Engineering Intern (New York) - Summer 2027",
+      "location": "New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/deshaw-5916?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 4989,
+      "chat_id": 7582459199,
+      "seq": 3797,
+      "identity": "https://zapply.jobs/l/d/deshaw-5916?s=gh-internships-2027|D. E. Shaw|Systems Engineering Intern (New York) - Summer 2027|New York|Summer 2027#1"
     }
   },
   "applied": {
@@ -52587,10 +52623,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3794,
+  "seq": 3797,
   "health": {
     "last_heartbeat": "2026-09-28T08:00:22Z",
-    "last_ok_run": "2026-09-28T08:50:15Z",
+    "last_ok_run": "2026-09-28T08:55:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
