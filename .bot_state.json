@@ -52856,6 +52856,30 @@
       "chat_id": 7582459199,
       "seq": 3847,
       "identity": "https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4|Bedrock Robotics|2027 Internship Software Engineer - Fleet Platform|New York City, NY|Other#1"
+    },
+    "ec25bde6cdf7": {
+      "company": "Wellmark, Inc.",
+      "role": "Software Engineer Internship \u2013 Marketing and Digital Team",
+      "location": "Des Moines, IA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-WellmarkInc-744000152260188?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5040,
+      "chat_id": 7582459199,
+      "seq": 3848,
+      "identity": "https://zapply.jobs/l/d/sr-WellmarkInc-744000152260188?s=gh-internships-2027|Wellmark, Inc.|Software Engineer Internship \u2013 Marketing and Digital Team|Des Moines, IA|Summer 2027#1"
+    },
+    "ceaf83b93f71": {
+      "company": "Waymo",
+      "role": "2027 Summer Intern, PhD, Perception Systems Engineering: Pedestrian Detection Precision",
+      "location": "San Francisco, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-waymo-8234670?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5041,
+      "chat_id": 7582459199,
+      "seq": 3849,
+      "identity": "https://zapply.jobs/l/d/greenhouse-waymo-8234670?s=gh-internships-2027|Waymo|2027 Summer Intern, PhD, Perception Systems Engineering: Pedestrian Detection Precision|San Francisco, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -53223,10 +53247,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3847,
+  "seq": 3849,
   "health": {
     "last_heartbeat": "2026-09-28T19:15:17Z",
-    "last_ok_run": "2026-09-28T19:55:15Z",
+    "last_ok_run": "2026-09-28T20:00:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
