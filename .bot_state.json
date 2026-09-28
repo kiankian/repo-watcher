@@ -52436,6 +52436,18 @@
       "chat_id": 7582459199,
       "seq": 3812,
       "identity": "https://zapply.jobs/l/d/ashby-rivianvw.tech-f421a524-72da-4dd6-a549-bbee9e98622e?s=gh-internships-2027|Rivian and Volkswagen Group Technologies|Embedded Systems Software Engineering Intern at UIUC Research Park (RVT-1644)|Champaign, Illinois|Summer 2027#1"
+    },
+    "a63457441086": {
+      "company": "RTX",
+      "role": "Maritime Engineering - Systems Engineering Intern- Onsite",
+      "location": "CT-WINDSOR LOCKS-B2",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01878217?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5005,
+      "chat_id": 7582459199,
+      "seq": 3813,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01878217?s=gh-internships-2027|RTX|Maritime Engineering - Systems Engineering Intern- Onsite|CT-WINDSOR LOCKS-B2|Summer 2027#1"
     }
   },
   "applied": {
@@ -52803,10 +52815,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3812,
+  "seq": 3813,
   "health": {
     "last_heartbeat": "2026-09-28T16:50:17Z",
-    "last_ok_run": "2026-09-28T17:00:22Z",
+    "last_ok_run": "2026-09-28T17:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
