@@ -52784,6 +52784,78 @@
       "chat_id": 7582459199,
       "seq": 3841,
       "identity": "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R107794|Tencent|Cloud Media Services Intern|Palo Alto, CA +1|Other#1"
+    },
+    "898d98fbac0b": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Intern Opportunities for University Students - Atlanta",
+      "location": "Atlanta, GA",
+      "term": "FAANG+",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393557008714",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5034,
+      "chat_id": 7582459199,
+      "seq": 3842,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393557008714|Microsoft|Software Engineer: Intern Opportunities for University Students - Atlanta|Atlanta, GA|FAANG+#1"
+    },
+    "7bc5807fbe2d": {
+      "company": "Rivian",
+      "role": "Embedded Systems Software Engineering Intern at UIUC Research Park - January - August 2027",
+      "location": "Champaign, IL",
+      "term": "FAANG+",
+      "apply_url": "https://jobs.ashbyhq.com/rivianvw.tech/f421a524-72da-4dd6-a549-bbee9e98622e",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5035,
+      "chat_id": 7582459199,
+      "seq": 3843,
+      "identity": "https://jobs.ashbyhq.com/rivianvw.tech/f421a524-72da-4dd6-a549-bbee9e98622e|Rivian|Embedded Systems Software Engineering Intern at UIUC Research Park - January - August 2027|Champaign, IL|FAANG+#1"
+    },
+    "0fdc5732486f": {
+      "company": "Tencent",
+      "role": "Cloud Media Services Intern",
+      "location": "Palo Alto, CA",
+      "term": "Other",
+      "apply_url": "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R108186",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5036,
+      "chat_id": 7582459199,
+      "seq": 3844,
+      "identity": "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R108186|Tencent|Cloud Media Services Intern|Palo Alto, CA|Other#1"
+    },
+    "e1829745ed1a": {
+      "company": "Zurn Elkay Water Solutions",
+      "role": "Embedded Hardware Intern - Summer 2027",
+      "location": "Milwaukee, WI",
+      "term": "Other",
+      "apply_url": "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5037,
+      "chat_id": 7582459199,
+      "seq": 3845,
+      "identity": "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151|Zurn Elkay Water Solutions|Embedded Hardware Intern - Summer 2027|Milwaukee, WI|Other#1"
+    },
+    "c82b6f6dcf65": {
+      "company": "Zurn Elkay Water Solutions",
+      "role": "Embedded Firmware Intern - Summer 2027",
+      "location": "Milwaukee, WI",
+      "term": "Other",
+      "apply_url": "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5038,
+      "chat_id": 7582459199,
+      "seq": 3846,
+      "identity": "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1|Zurn Elkay Water Solutions|Embedded Firmware Intern - Summer 2027|Milwaukee, WI|Other#1"
+    },
+    "37f28959918a": {
+      "company": "Bedrock Robotics",
+      "role": "2027 Internship Software Engineer - Fleet Platform",
+      "location": "New York City, NY",
+      "term": "Other",
+      "apply_url": "https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5039,
+      "chat_id": 7582459199,
+      "seq": 3847,
+      "identity": "https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4|Bedrock Robotics|2027 Internship Software Engineer - Fleet Platform|New York City, NY|Other#1"
     }
   },
   "applied": {
@@ -53151,10 +53223,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3841,
+  "seq": 3847,
   "health": {
     "last_heartbeat": "2026-09-28T19:15:17Z",
-    "last_ok_run": "2026-09-28T19:31:01Z",
+    "last_ok_run": "2026-09-28T19:35:56Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"

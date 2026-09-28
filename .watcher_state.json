@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "94d2e7175e02a9a672704e22bff5743ddc6ea9aa",
+    "last_sha": "89035a778178b522f6d1d121a9aea62cef694890",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2290,7 +2290,7 @@
       "https://jobs.ashbyhq.com/flint/39f9e665-7037-4dff-b77a-ff7039df2bfc/application?embed=true&utm_source=Simplify&ref=Simplify|Flint|Engineering Intern - Summer 2027|SF|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 687,
+    "last_row_count": 685,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -4439,7 +4439,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "1fe0de3d32448d75b6b965e405c0923a7976b654",
+    "last_sha": "d07ae1322a3036ec4145682f38f4953b939bc417",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -4566,7 +4566,9 @@
       "https://jobs.ashbyhq.com/ramp/b66be397-240b-41a6-9b05-493299b270a9|Ramp|Software Engineering Intern - iOS|New York City, NY|FAANG+#1",
       "https://apply.careers.microsoft.com/careers/job/1970393557004819|Microsoft|Software Engineer: Intern Opportunity for University Students|California, MD|FAANG+#1",
       "https://www.amazon.jobs/jobs/10559746/apply|Amazon|Software Development Engineer Intern - Summer 2027 - USA - Amazon Dedicated Cloud - ADC|Seattle, WA|FAANG+#1",
-      "https://www.amazon.jobs/jobs/10559762/apply|Amazon|Software Development Engineer Intern - Amazon Leo - Summer 2027 - USA|Redmond, WA|FAANG+#1"
+      "https://www.amazon.jobs/jobs/10559762/apply|Amazon|Software Development Engineer Intern - Amazon Leo - Summer 2027 - USA|Redmond, WA|FAANG+#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393557008714|Microsoft|Software Engineer: Intern Opportunities for University Students - Atlanta|Atlanta, GA|FAANG+#1",
+      "https://jobs.ashbyhq.com/rivianvw.tech/f421a524-72da-4dd6-a549-bbee9e98622e|Rivian|Embedded Systems Software Engineering Intern at UIUC Research Park - January - August 2027|Champaign, IL|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -4592,11 +4594,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 90,
+    "last_row_count": 92,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "1fe0de3d32448d75b6b965e405c0923a7976b654",
+    "last_sha": "d07ae1322a3036ec4145682f38f4953b939bc417",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -4633,7 +4635,7 @@
       "https://www.optiver.com/join-us/jobs/8401052002/?gh_jid=8401052002",
       "https://www.optiver.com/join-us/jobs/8604760002/?gh_jid=8604760002"
     ],
-    "last_row_count": 15,
+    "last_row_count": 16,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
@@ -5619,7 +5621,11 @@
       "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Mayfield-Heights-Ohio-United-States/Intern--AI-Software-Engineering--June-August-2027-_R26-6980-1|Rockwell Automation|Intern - AI Software Engineering - June-August 2027|Mayfield Heights, OH +1|Other#1",
       "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982-1|Rockwell Automation|Co-op - AI Software Engineering - 6-8 months|Mayfield Heights, OH +1|Other#1",
       "https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Idaho---Boise/Software-Engineer-Intern_2026-23076|SEL|Software Engineer Intern|Boise, ID|Other#1",
-      "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R107794|Tencent|Cloud Media Services Intern|Palo Alto, CA +1|Other#1"
+      "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R107794|Tencent|Cloud Media Services Intern|Palo Alto, CA +1|Other#1",
+      "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R108186|Tencent|Cloud Media Services Intern|Palo Alto, CA|Other#1",
+      "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151|Zurn Elkay Water Solutions|Embedded Hardware Intern - Summer 2027|Milwaukee, WI|Other#1",
+      "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1|Zurn Elkay Water Solutions|Embedded Firmware Intern - Summer 2027|Milwaukee, WI|Other#1",
+      "https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4|Bedrock Robotics|2027 Internship Software Engineer - Fleet Platform|New York City, NY|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -5764,51 +5770,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 631,
-    "outbox": [
-      [
-        [
-          "Tencent",
-          "Cloud Media Services Intern",
-          "Palo Alto, CA",
-          "Other",
-          "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R108186"
-        ],
-        "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R108186|Tencent|Cloud Media Services Intern|Palo Alto, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Zurn Elkay Water Solutions",
-          "Embedded Hardware Intern - Summer 2027",
-          "Milwaukee, WI",
-          "Other",
-          "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151"
-        ],
-        "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151|Zurn Elkay Water Solutions|Embedded Hardware Intern - Summer 2027|Milwaukee, WI|Other#1",
-        1
-      ],
-      [
-        [
-          "Zurn Elkay Water Solutions",
-          "Embedded Firmware Intern - Summer 2027",
-          "Milwaukee, WI",
-          "Other",
-          "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1"
-        ],
-        "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1|Zurn Elkay Water Solutions|Embedded Firmware Intern - Summer 2027|Milwaukee, WI|Other#1",
-        1
-      ],
-      [
-        [
-          "Bedrock Robotics",
-          "2027 Internship Software Engineer - Fleet Platform",
-          "New York City, NY",
-          "Other",
-          "https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4"
-        ],
-        "https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4|Bedrock Robotics|2027 Internship Software Engineer - Fleet Platform|New York City, NY|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }
