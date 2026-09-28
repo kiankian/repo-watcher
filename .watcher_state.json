@@ -2612,7 +2612,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "f690c1bcd57519bfaf449dbf7ee460cbb52f81fb",
+    "last_sha": "82de2dc54c1fcd4e5bbe785ba2753735f1ffb356",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -4637,7 +4637,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "1fe0de3d32448d75b6b965e405c0923a7976b654",
+    "last_sha": "d07ae1322a3036ec4145682f38f4953b939bc417",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -5594,7 +5594,32 @@
       "https://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027|Aerotech|Software Engineering Internship or Co-op 2027|Pittsburgh, PA|Other#1",
       "https://metecs.applytojob.com/apply/XTBhKHIVhQ/Summer-Software-Internship|METECS|Summer Software Internship|Houston, TX|Other#1",
       "https://hiebing.applytojob.com/apply/GYiQqWe8cL/AI-Agent-Developer-Intern|Hiebing|AI Agent Developer Intern|Madison, WI|Other#1",
-      "https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA|Black Cape|US Military Skillbridge Internship - Software Engineer_Arlington - VA|Arlington, VA|Other#1"
+      "https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA|Black Cape|US Military Skillbridge Internship - Software Engineer_Arlington - VA|Arlington, VA|Other#1",
+      "https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228939|GDIT|GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship|Bossier City, LA|Other#1",
+      "https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ229142|GDIT|GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship|Bossier City, LA|Other#1",
+      "https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ229141|GDIT|GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship|Bossier City, LA|Other#1",
+      "https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228941|GDIT|GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship|Bossier City, LA|Other#1",
+      "https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228940|GDIT|GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship|Bossier City, LA|Other#1",
+      "https://careers.withwaymo.com/jobs?gh_jid=8224900|Waymo|2027 Summer Intern - BS - Software Engineer - Driver Refinement Foundations|Mountain View, CA|Other#1",
+      "https://careers.withwaymo.com/jobs?gh_jid=8234161|Waymo|2027 Summer Intern - MS/PhD - Software Engineering - Sys Intel & ML|Mountain View, CA|Other#1",
+      "https://careers.withwaymo.com/jobs?gh_jid=8233746|Waymo|2027 Summer Intern - MS/PhD - Software Engineer - Sys Intel & Machine Learning|Mountain View, CA|Other#1",
+      "https://allegion.wd5.myworkdayjobs.com/en-US/careers/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795-1|Allegion|Summer Intern - Software Engineering|Golden, CO|Other#1",
+      "https://americancentury.wd5.myworkdayjobs.com/en-US/americancenturyinvestments/job/Kansas-City-Missouri/Software-Developer-Intern_R0005749-1|American Century Investments|Software Developer Intern|Kansas City, MO|Other#1",
+      "https://myhrabc.wd5.myworkdayjobs.com/en-US/global/job/Remote-USA/Software-Intern_R2613763|AmerisourceBergen|Software Intern|Remote - USA|Other#1",
+      "https://myhrabc.wd5.myworkdayjobs.com/en-US/global/job/Conshohocken-PA/EDI-IT-Software-Developer-Intern_R2612376|AmerisourceBergen|EDI IT Software Developer Intern|Conshohocken, PA|Other#1",
+      "https://greenheckgroup.wd5.myworkdayjobs.com/en-US/external/job/Schofield-WI/Application-Developer-Co-op_JR104721|Greenheck Group|Application Developer Co-op|Schofield, WI|Other#1",
+      "https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Oregon-Hillsboro/Software-Solutions-PhD-Intern-New-2027_JR0287314|Intel|Software Solutions PhD Intern New 2027|Hillsboro, OR|Other#1",
+      "https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Oregon-Hillsboro/System-Software-Engineering---PhD-Intern_JR0287457|Intel|System Software Engineering - PhD Intern|Hillsboro, OR|Other#1",
+      "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Gaithersburg-MD/Software-Development-Intern_R-00193103|Leidos|Software Development Intern|Gaithersburg, MD|Other#1",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Greater-Chicago-Area/Software-Engineer-Intern---Summer-2027_R68679|Motorola Solutions|Software Engineer Intern - Summer 2027|Chicago, IL|Other#1",
+      "https://novanta.wd5.myworkdayjobs.com/en-US/novanta-careers/job/Apex-NC/Computer-Software-Engineering-Co-op_R009760|Novanta|Computer Software Engineering Co-op|Apex, NC|Other#1",
+      "https://pacificlife.wd1.myworkdayjobs.com/en-US/pacificlifecareers/job/Newport-Beach-CA-700/Summer-2027-Software-Engineering-Internship_R17826|Pacific Life|Summer 2027 Software Engineering Internship|Newport Beach, CA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-UT-WEST-VALLEY-CITY-338--1127--1128-w-2400-S--BLDG-338/Software-Engineering-Intern--Summer-2027-_01875358|Raytheon|Software Engineering Intern - Summer 2027|West Valley City, UT|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Co-op--Fall-Spring-2027-_01872683|Raytheon|Software Engineering Co-op - Fall/Spring 2027|Cedar Rapids, IA|Other#1",
+      "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Mayfield-Heights-Ohio-United-States/Intern--AI-Software-Engineering--June-August-2027-_R26-6980-1|Rockwell Automation|Intern - AI Software Engineering - June-August 2027|Mayfield Heights, OH +1|Other#1",
+      "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982-1|Rockwell Automation|Co-op - AI Software Engineering - 6-8 months|Mayfield Heights, OH +1|Other#1",
+      "https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Idaho---Boise/Software-Engineer-Intern_2026-23076|SEL|Software Engineer Intern|Boise, ID|Other#1",
+      "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R107794|Tencent|Cloud Media Services Intern|Palo Alto, CA +1|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -5738,7 +5763,52 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 630,
-    "outbox": []
+    "last_row_count": 631,
+    "outbox": [
+      [
+        [
+          "Tencent",
+          "Cloud Media Services Intern",
+          "Palo Alto, CA",
+          "Other",
+          "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R108186"
+        ],
+        "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R108186|Tencent|Cloud Media Services Intern|Palo Alto, CA|Other#1",
+        1
+      ],
+      [
+        [
+          "Zurn Elkay Water Solutions",
+          "Embedded Hardware Intern - Summer 2027",
+          "Milwaukee, WI",
+          "Other",
+          "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151"
+        ],
+        "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151|Zurn Elkay Water Solutions|Embedded Hardware Intern - Summer 2027|Milwaukee, WI|Other#1",
+        1
+      ],
+      [
+        [
+          "Zurn Elkay Water Solutions",
+          "Embedded Firmware Intern - Summer 2027",
+          "Milwaukee, WI",
+          "Other",
+          "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1"
+        ],
+        "https://elkay.wd1.myworkdayjobs.com/en-US/elkay_external/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1|Zurn Elkay Water Solutions|Embedded Firmware Intern - Summer 2027|Milwaukee, WI|Other#1",
+        1
+      ],
+      [
+        [
+          "Bedrock Robotics",
+          "2027 Internship Software Engineer - Fleet Platform",
+          "New York City, NY",
+          "Other",
+          "https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4"
+        ],
+        "https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4|Bedrock Robotics|2027 Internship Software Engineer - Fleet Platform|New York City, NY|Other#1",
+        1
+      ]
+    ]
   }
 }
