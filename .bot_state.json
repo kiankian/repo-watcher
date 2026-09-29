@@ -53000,6 +53000,30 @@
       "chat_id": 7582459199,
       "seq": 3859,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10249236?s=gh-internships-2027|Northrop Grumman|2027 Intern Systems Engineer - CA & ND|8 Locations|Summer 2027#1"
+    },
+    "de952d98a40e": {
+      "company": "Aerospace Corporation",
+      "role": "2027 Software Engineering Grad Intern",
+      "location": "Chantilly, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-aero-external-R016759?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5052,
+      "chat_id": 7582459199,
+      "seq": 3860,
+      "identity": "https://zapply.jobs/l/d/workday-aero-external-R016759?s=gh-internships-2027|Aerospace Corporation|2027 Software Engineering Grad Intern|Chantilly, VA|Summer 2027#1"
+    },
+    "c73be4c01bfe": {
+      "company": "Aerospace Corporation",
+      "role": "2027 Software Engineering Undergrad Intern",
+      "location": "Chantilly, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-aero-external-R016758?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5053,
+      "chat_id": 7582459199,
+      "seq": 3861,
+      "identity": "https://zapply.jobs/l/d/workday-aero-external-R016758?s=gh-internships-2027|Aerospace Corporation|2027 Software Engineering Undergrad Intern|Chantilly, VA|Summer 2027#1"
     }
   },
   "applied": {
@@ -53367,10 +53391,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3859,
+  "seq": 3861,
   "health": {
     "last_heartbeat": "2026-09-28T23:30:19Z",
-    "last_ok_run": "2026-09-29T00:00:26Z",
+    "last_ok_run": "2026-09-29T00:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
