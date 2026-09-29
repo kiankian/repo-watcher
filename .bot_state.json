@@ -53264,6 +53264,42 @@
       "chat_id": 7582459199,
       "seq": 3881,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10253497?s=gh-internships-2027|Northrop Grumman|2027 Test Engineering Intern - VSFB CA|United...|Summer 2027#1"
+    },
+    "ec90a0bcda4f": {
+      "company": "Perchwell",
+      "role": "Software Engineer Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/Perchwell/194eec78-26db-4d8e-850f-a99ea2733e9f/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5074,
+      "chat_id": 7582459199,
+      "seq": 3882,
+      "identity": "https://jobs.ashbyhq.com/Perchwell/194eec78-26db-4d8e-850f-a99ea2733e9f/application?embed=true&utm_source=Simplify&ref=Simplify|Perchwell|Software Engineer Intern|NYC|Summer 2026#1"
+    },
+    "8d1a4dc305df": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Woburn, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineering--Intern--Summer-2027-_01877561?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5075,
+      "chat_id": 7582459199,
+      "seq": 3883,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineering--Intern--Summer-2027-_01877561?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Woburn, MA|Summer 2026#1"
+    },
+    "8e8ff80c89db": {
+      "company": "Q2",
+      "role": "Software Engineer Intern",
+      "location": "Cary, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5076,
+      "chat_id": 7582459199,
+      "seq": 3884,
+      "identity": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798?utm_source=Simplify&ref=Simplify|Q2|Software Engineer Intern|Cary, NC|Summer 2026#1"
     }
   },
   "applied": {
@@ -53631,10 +53667,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3881,
+  "seq": 3884,
   "health": {
     "last_heartbeat": "2026-09-29T16:20:19Z",
-    "last_ok_run": "2026-09-29T17:00:23Z",
+    "last_ok_run": "2026-09-29T17:05:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
