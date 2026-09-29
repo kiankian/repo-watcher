@@ -53216,6 +53216,42 @@
       "chat_id": 7582459199,
       "seq": 3877,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873623?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|CO-AURORA-S77|Summer 2027#1"
+    },
+    "f4efe0db3d96": {
+      "company": "RTX",
+      "role": "2027 Systems Engineering Co-op \u2013 Special Operations Aviation Mainline (Onsite)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870331?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5070,
+      "chat_id": 7582459199,
+      "seq": 3878,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870331?s=gh-internships-2027|RTX|2027 Systems Engineering Co-op \u2013 Special Operations Aviation Mainline (Onsite)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "a045ae887d5b": {
+      "company": "RTX",
+      "role": "Systems Engineering Co-op \u2013 Special Operations Aviation Mainline",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870329?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5071,
+      "chat_id": 7582459199,
+      "seq": 3879,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870329?s=gh-internships-2027|RTX|Systems Engineering Co-op \u2013 Special Operations Aviation Mainline|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "3ae25dfa955a": {
+      "company": "Honeywell",
+      "role": "Spring 2027 Software Engineering Co-op",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-honeywell-158957?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5072,
+      "chat_id": 7582459199,
+      "seq": 3880,
+      "identity": "https://zapply.jobs/l/d/oracle-honeywell-158957?s=gh-internships-2027|Honeywell|Spring 2027 Software Engineering Co-op|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -53583,10 +53619,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3877,
+  "seq": 3880,
   "health": {
     "last_heartbeat": "2026-09-29T16:20:19Z",
-    "last_ok_run": "2026-09-29T16:20:19Z",
+    "last_ok_run": "2026-09-29T16:25:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
