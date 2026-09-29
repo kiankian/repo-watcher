@@ -53744,6 +53744,30 @@
       "chat_id": 7582459199,
       "seq": 3921,
       "identity": "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R71435?s=gh-internships-2027|Blue Origin|Summer 2027 Aerospace Systems Engineering Intern - Graduate|Greater Seattle Area|Summer 2027#1"
+    },
+    "64d9f8fa4037": {
+      "company": "Marvell",
+      "role": "AI-Native Development Platform Engineer Intern",
+      "location": "Santa Clara, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5114,
+      "chat_id": 7582459199,
+      "seq": 3922,
+      "identity": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1?utm_source=Simplify&ref=Simplify|Marvell|AI-Native Development Platform Engineer Intern|Santa Clara, CA|Summer 2026#1"
+    },
+    "691d6500c564": {
+      "company": "Marvell",
+      "role": "AI-Native Development Platform Engineer Intern",
+      "location": "Santa Clara, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5115,
+      "chat_id": 7582459199,
+      "seq": 3923,
+      "identity": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848?utm_source=Simplify&ref=Simplify|Marvell|AI-Native Development Platform Engineer Intern|Santa Clara, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -54111,10 +54135,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3921,
+  "seq": 3923,
   "health": {
     "last_heartbeat": "2026-09-29T22:00:25Z",
-    "last_ok_run": "2026-09-29T22:30:19Z",
+    "last_ok_run": "2026-09-29T22:35:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
