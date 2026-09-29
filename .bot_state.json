@@ -53024,6 +53024,18 @@
       "chat_id": 7582459199,
       "seq": 3861,
       "identity": "https://zapply.jobs/l/d/workday-aero-external-R016758?s=gh-internships-2027|Aerospace Corporation|2027 Software Engineering Undergrad Intern|Chantilly, VA|Summer 2027#1"
+    },
+    "99f6135655d4": {
+      "company": "RTX",
+      "role": "Software Engineering Co-op (Spring/Summer 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871645?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5054,
+      "chat_id": 7582459199,
+      "seq": 3862,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871645?s=gh-internships-2027|RTX|Software Engineering Co-op (Spring/Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
     }
   },
   "applied": {
@@ -53391,10 +53403,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3861,
+  "seq": 3862,
   "health": {
     "last_heartbeat": "2026-09-29T00:30:21Z",
-    "last_ok_run": "2026-09-29T01:20:16Z",
+    "last_ok_run": "2026-09-29T01:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
