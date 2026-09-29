@@ -53036,6 +53036,18 @@
       "chat_id": 7582459199,
       "seq": 3862,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871645?s=gh-internships-2027|RTX|Software Engineering Co-op (Spring/Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "99d18b68252c": {
+      "company": "Boston Scientific",
+      "role": "Software Engineer Intern - Interns/Graduates",
+      "location": "Maple Grove, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://bostonscientific.eightfold.ai/careers/job/563602813584985?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5055,
+      "chat_id": 7582459199,
+      "seq": 3863,
+      "identity": "https://bostonscientific.eightfold.ai/careers/job/563602813584985?utm_source=Simplify&ref=Simplify|Boston Scientific|Software Engineer Intern - Interns/Graduates|Maple Grove, MN|Summer 2026#1"
     }
   },
   "applied": {
@@ -53403,10 +53415,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3862,
+  "seq": 3863,
   "health": {
     "last_heartbeat": "2026-09-29T00:30:21Z",
-    "last_ok_run": "2026-09-29T01:30:18Z",
+    "last_ok_run": "2026-09-29T01:35:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
