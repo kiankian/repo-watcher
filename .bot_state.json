@@ -53300,6 +53300,18 @@
       "chat_id": 7582459199,
       "seq": 3884,
       "identity": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798?utm_source=Simplify&ref=Simplify|Q2|Software Engineer Intern|Cary, NC|Summer 2026#1"
+    },
+    "4c8b28914ead": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "AL-HUNTSVILLE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5077,
+      "chat_id": 7582459199,
+      "seq": 3885,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870007?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|AL-HUNTSVILLE|Summer 2027#1"
     }
   },
   "applied": {
@@ -53667,10 +53679,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3884,
+  "seq": 3885,
   "health": {
     "last_heartbeat": "2026-09-29T16:20:19Z",
-    "last_ok_run": "2026-09-29T17:20:17Z",
+    "last_ok_run": "2026-09-29T17:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
