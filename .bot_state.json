@@ -53768,6 +53768,66 @@
       "chat_id": 7582459199,
       "seq": 3923,
       "identity": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848?utm_source=Simplify&ref=Simplify|Marvell|AI-Native Development Platform Engineer Intern|Santa Clara, CA|Summer 2026#1"
+    },
+    "fecf91acc2a2": {
+      "company": "Enova",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/enova/jobs/8239619?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5116,
+      "chat_id": 7582459199,
+      "seq": 3924,
+      "identity": "https://job-boards.greenhouse.io/enova/jobs/8239619?utm_source=Simplify&ref=Simplify|Enova|Software Engineer Intern|Chicago, IL|Summer 2026#1"
+    },
+    "0ca93323f381": {
+      "company": "Westinghouse Electric Company",
+      "role": "Software Developer Intern - Tools & Apps",
+      "location": "Warrendale, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Tools-&-Apps-OR/1434869300/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5117,
+      "chat_id": 7582459199,
+      "seq": 3925,
+      "identity": "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Tools-&-Apps-OR/1434869300/?ats=successfactors&utm_source=Simplify&ref=Simplify|Westinghouse Electric Company|Software Developer Intern - Tools & Apps|Warrendale, PA|Summer 2026#1"
+    },
+    "d855bd874fb2": {
+      "company": "Honeywell",
+      "role": "Software Engineering Co-op",
+      "location": "United States",
+      "term": "Summer 2026",
+      "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158957?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5118,
+      "chat_id": 7582459199,
+      "seq": 3926,
+      "identity": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158957?utm_source=Simplify&ref=Simplify|Honeywell|Software Engineering Co-op|United States|Summer 2026#1"
+    },
+    "434a7b79e123": {
+      "company": "Iridium Communications",
+      "role": "Software Engineering Intern",
+      "location": "Tempe, AZ McLean, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-iridium.icims.com/jobs/5136/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5119,
+      "chat_id": 7582459199,
+      "seq": 3927,
+      "identity": "https://careers-iridium.icims.com/jobs/5136/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Iridium Communications|Software Engineering Intern|Tempe, AZ McLean, VA|Summer 2026#1"
+    },
+    "594d04295800": {
+      "company": "Acuity",
+      "role": "Finance AI Engineering Intern",
+      "location": "Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.acuityinc.com/job/Atlanta-Finance-AI-Engineering-Intern-Onsite-GA-30309/1434878900/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5120,
+      "chat_id": 7582459199,
+      "seq": 3928,
+      "identity": "https://careers.acuityinc.com/job/Atlanta-Finance-AI-Engineering-Intern-Onsite-GA-30309/1434878900/?ats=successfactors&utm_source=Simplify&ref=Simplify|Acuity|Finance AI Engineering Intern|Atlanta, GA|Summer 2026#1"
     }
   },
   "applied": {
@@ -54135,10 +54195,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3923,
+  "seq": 3928,
   "health": {
     "last_heartbeat": "2026-09-29T22:00:25Z",
-    "last_ok_run": "2026-09-29T23:00:22Z",
+    "last_ok_run": "2026-09-29T23:05:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"

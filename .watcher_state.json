@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "2413075352c914c3812cf1607d55bed8a0da5529",
+    "last_sha": "f15bc172d4da1519e7dd4221ad2b54d1919ab318",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2301,10 +2301,15 @@
       "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Lowell-MA/Digital-Engineering---Requirements-Engineering-Intern--Summer-2027-_JR002945-1?utm_source=Simplify&ref=Simplify|Draper|Requirements Engineering Intern - Digital Engineering|Cambridge, MA Lowell, MA Huntsville, AL|Summer 2026#1",
       "https://caci.wd1.myworkdayjobs.com/external/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern|Omaha, NE|Summer 2026#1",
       "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1?utm_source=Simplify&ref=Simplify|Marvell|AI-Native Development Platform Engineer Intern|Santa Clara, CA|Summer 2026#1",
-      "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848?utm_source=Simplify&ref=Simplify|Marvell|AI-Native Development Platform Engineer Intern|Santa Clara, CA|Summer 2026#1"
+      "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848?utm_source=Simplify&ref=Simplify|Marvell|AI-Native Development Platform Engineer Intern|Santa Clara, CA|Summer 2026#1",
+      "https://job-boards.greenhouse.io/enova/jobs/8239619?utm_source=Simplify&ref=Simplify|Enova|Software Engineer Intern|Chicago, IL|Summer 2026#1",
+      "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Tools-&-Apps-OR/1434869300/?ats=successfactors&utm_source=Simplify&ref=Simplify|Westinghouse Electric Company|Software Developer Intern - Tools & Apps|Warrendale, PA|Summer 2026#1",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158957?utm_source=Simplify&ref=Simplify|Honeywell|Software Engineering Co-op|United States|Summer 2026#1",
+      "https://careers-iridium.icims.com/jobs/5136/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Iridium Communications|Software Engineering Intern|Tempe, AZ McLean, VA|Summer 2026#1",
+      "https://careers.acuityinc.com/job/Atlanta-Finance-AI-Engineering-Intern-Onsite-GA-30309/1434878900/?ats=successfactors&utm_source=Simplify&ref=Simplify|Acuity|Finance AI Engineering Intern|Atlanta, GA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 668,
+    "last_row_count": 676,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -2626,7 +2631,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "5f38a501ea7e8caeeb8c48afa53bf8dbfc9569cc",
+    "last_sha": "7282904c827e30dd893aa00e254fb8ef8ae5c240",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
