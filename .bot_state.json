@@ -53660,6 +53660,30 @@
       "chat_id": 7582459199,
       "seq": 3914,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10248910?s=gh-internships-2027|Northrop Grumman|2027 Software Engineer Intern - Linthicum Maryland|United States-Maryland-Linthicum|Summer 2027#1"
+    },
+    "30c60c2f85e4": {
+      "company": "Insulet Corporation",
+      "role": "Co-op, Software Development Engineer in Test: January - June 2027 (Hybrid)",
+      "location": "Acton, Massachusetts",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18026?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5107,
+      "chat_id": 7582459199,
+      "seq": 3915,
+      "identity": "https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18026?s=gh-internships-2027|Insulet Corporation|Co-op, Software Development Engineer in Test: January - June 2027 (Hybrid)|Acton, Massachusetts|Summer 2027#1"
+    },
+    "ad3346707758": {
+      "company": "Amazon Web Services, Inc. - A97",
+      "role": "Solutions Architect Intern Cohort, AGS-Tech - 2027",
+      "location": "Seattle, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/amazon-b61b47a5-18a3-4cec-9371-21a4d0707592?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5108,
+      "chat_id": 7582459199,
+      "seq": 3916,
+      "identity": "https://zapply.jobs/l/d/amazon-b61b47a5-18a3-4cec-9371-21a4d0707592?s=gh-internships-2027|Amazon Web Services, Inc. - A97|Solutions Architect Intern Cohort, AGS-Tech - 2027|Seattle, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -54027,10 +54051,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3914,
+  "seq": 3916,
   "health": {
     "last_heartbeat": "2026-09-29T18:45:15Z",
-    "last_ok_run": "2026-09-29T19:10:17Z",
+    "last_ok_run": "2026-09-29T19:16:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
