@@ -53120,6 +53120,30 @@
       "chat_id": 7582459199,
       "seq": 3869,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871506?s=gh-internships-2027|RTX|Systems Engineer - Spring/Summer Co-op 2027 - (Onsite)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "565478d4fa25": {
+      "company": "Boston Scientific",
+      "role": "Software Development Engineer Co-op",
+      "location": "Waltham, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://bostonscientific.eightfold.ai/careers/job/563602813674232?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5062,
+      "chat_id": 7582459199,
+      "seq": 3870,
+      "identity": "https://bostonscientific.eightfold.ai/careers/job/563602813674232?utm_source=Simplify&ref=Simplify|Boston Scientific|Software Development Engineer Co-op|Waltham, MA|Summer 2026#1"
+    },
+    "0b74edb6068d": {
+      "company": "Thrivent",
+      "role": "Application Engineer Intern - Investments",
+      "location": "Minneapolis, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://thrivent.wd5.myworkdayjobs.com/external/job/Mpls-Investments-Office/IT-Application-Engineer-Intern--Investments---Summer-2027_REQ-48511-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5063,
+      "chat_id": 7582459199,
+      "seq": 3871,
+      "identity": "https://thrivent.wd5.myworkdayjobs.com/external/job/Mpls-Investments-Office/IT-Application-Engineer-Intern--Investments---Summer-2027_REQ-48511-2?utm_source=Simplify&ref=Simplify|Thrivent|Application Engineer Intern - Investments|Minneapolis, MN|Summer 2026#1"
     }
   },
   "applied": {
@@ -53487,10 +53511,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3869,
+  "seq": 3871,
   "health": {
     "last_heartbeat": "2026-09-29T06:15:22Z",
-    "last_ok_run": "2026-09-29T06:30:19Z",
+    "last_ok_run": "2026-09-29T06:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
