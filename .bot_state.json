@@ -53252,6 +53252,18 @@
       "chat_id": 7582459199,
       "seq": 3880,
       "identity": "https://zapply.jobs/l/d/oracle-honeywell-158957?s=gh-internships-2027|Honeywell|Spring 2027 Software Engineering Co-op|United States|Summer 2027#1"
+    },
+    "275260ef6db0": {
+      "company": "Northrop Grumman",
+      "role": "2027 Test Engineering Intern - VSFB CA",
+      "location": "United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10253497?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5073,
+      "chat_id": 7582459199,
+      "seq": 3881,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10253497?s=gh-internships-2027|Northrop Grumman|2027 Test Engineering Intern - VSFB CA|United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -53619,10 +53631,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3880,
+  "seq": 3881,
   "health": {
     "last_heartbeat": "2026-09-29T16:20:19Z",
-    "last_ok_run": "2026-09-29T16:35:14Z",
+    "last_ok_run": "2026-09-29T16:40:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
