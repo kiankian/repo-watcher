@@ -53192,6 +53192,18 @@
       "chat_id": 7582459199,
       "seq": 3875,
       "identity": "https://zapply.jobs/l/d/workday-marvell-marvellcareers-2603848?s=gh-internships-2027|Marvell|AI-Native Development Platform Engineer Intern, MS - Summer 2027|Santa Clara, CA|Summer 2027#1"
+    },
+    "4ac497053a7a": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "IL-ROCKFORD-P6",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876848?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5068,
+      "chat_id": 7582459199,
+      "seq": 3876,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876848?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IL-ROCKFORD-P6|Summer 2027#1"
     }
   },
   "applied": {
@@ -53559,10 +53571,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3875,
+  "seq": 3876,
   "health": {
     "last_heartbeat": "2026-09-29T14:10:17Z",
-    "last_ok_run": "2026-09-29T14:50:17Z",
+    "last_ok_run": "2026-09-29T14:55:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
