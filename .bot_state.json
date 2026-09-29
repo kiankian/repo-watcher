@@ -53072,6 +53072,18 @@
       "chat_id": 7582459199,
       "seq": 3865,
       "identity": "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753?utm_source=Simplify&ref=Simplify|The Aerospace Corporation|Software Engineering Intern - Software Tools and Assurance \ud83c\udf93|El Segundo, CA|Summer 2026#1"
+    },
+    "922df68c3775": {
+      "company": "Hermeus",
+      "role": "Flight Software Engineering Intern (Simulation/Hardware-In-The-Loop) - Spring & Summer 2027",
+      "location": "Los Angeles, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-hermeus-78008094-ca81-4a0c-9a18-93b30f932acd?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5058,
+      "chat_id": 7582459199,
+      "seq": 3866,
+      "identity": "https://zapply.jobs/l/d/lever-hermeus-78008094-ca81-4a0c-9a18-93b30f932acd?s=gh-internships-2027|Hermeus|Flight Software Engineering Intern (Simulation/Hardware-In-The-Loop) - Spring & Summer 2027|Los Angeles, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -53439,10 +53451,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3865,
+  "seq": 3866,
   "health": {
     "last_heartbeat": "2026-09-29T02:50:16Z",
-    "last_ok_run": "2026-09-29T03:10:15Z",
+    "last_ok_run": "2026-09-29T03:15:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
