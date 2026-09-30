@@ -54584,6 +54584,30 @@
       "chat_id": 7582459199,
       "seq": 3991,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879053?s=gh-internships-2027|RTX|Systems Engineer - Intern- Onsite|MA-TEWKSBURY-TB3|Summer 2027#1"
+    },
+    "ddfb54d15c4b": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Systems Security Engineer I (For 2026 Interns Only)",
+      "location": "Lone Tree, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030608?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5184,
+      "chat_id": 7582459199,
+      "seq": 3992,
+      "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030608?s=gh-internships-2027|Sierra Nevada Corporation|Systems Security Engineer I (For 2026 Interns Only)|Lone Tree, CO|Summer 2027#1"
+    },
+    "3a5c83fab44f": {
+      "company": "Grant Thornton",
+      "role": "Cybersecurity and Privacy Associate - Summer 2027",
+      "location": "Los Angeles, CA, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-grant-thornton-115751?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5185,
+      "chat_id": 7582459199,
+      "seq": 3993,
+      "identity": "https://zapply.jobs/l/d/oracle-grant-thornton-115751?s=gh-internships-2027|Grant Thornton|Cybersecurity and Privacy Associate - Summer 2027|Los Angeles, CA, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -54951,10 +54975,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3991,
+  "seq": 3993,
   "health": {
     "last_heartbeat": "2026-09-30T18:25:17Z",
-    "last_ok_run": "2026-09-30T19:05:15Z",
+    "last_ok_run": "2026-09-30T19:10:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
