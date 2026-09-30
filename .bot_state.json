@@ -54512,6 +54512,30 @@
       "chat_id": 7582459199,
       "seq": 3985,
       "identity": "https://www.zipline.com/open-roles/7978843003?gh_jid=7978843003|Zipline|Embedded Software Engineering Intern - Summer 2027|South San Francisco, CA|Other#1"
+    },
+    "6a7f1ec3416f": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Engineer Intern - Rolling Meadows IL",
+      "location": "United States-Illinois-Rolling...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10253772?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5178,
+      "chat_id": 7582459199,
+      "seq": 3986,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10253772?s=gh-internships-2027|Northrop Grumman|2027 Software Engineer Intern - Rolling Meadows IL|United States-Illinois-Rolling...|Summer 2027#1"
+    },
+    "6280122adb32": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Engineer Intern - Morrisville NC",
+      "location": "United States-North...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10253768?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5179,
+      "chat_id": 7582459199,
+      "seq": 3987,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10253768?s=gh-internships-2027|Northrop Grumman|2027 Software Engineer Intern - Morrisville NC|United States-North...|Summer 2027#1"
     }
   },
   "applied": {
@@ -54879,10 +54903,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3985,
+  "seq": 3987,
   "health": {
     "last_heartbeat": "2026-09-30T17:15:19Z",
-    "last_ok_run": "2026-09-30T18:05:17Z",
+    "last_ok_run": "2026-09-30T18:10:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
