@@ -54176,6 +54176,30 @@
       "chat_id": 7582459199,
       "seq": 3957,
       "identity": "https://zapply.jobs/l/d/ashby-rivianvw.tech-f421a524-72da-4dd6-a549-bbee9e98622e?s=gh-internships-2027|Rivian and Volkswagen Group Technologies|Embedded Systems Software Engineering Intern at UIUC Research Park (January- August 2027)|Champaign, Illinois|Summer 2027#1"
+    },
+    "3db0d068a42a": {
+      "company": "Bose",
+      "role": "Associate Customer Quality Engineer Co-op",
+      "location": "US, MI - Bloomfield Hills",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-boseallaboutme-bose-careers-R29223?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5150,
+      "chat_id": 7582459199,
+      "seq": 3958,
+      "identity": "https://zapply.jobs/l/d/workday-boseallaboutme-bose-careers-R29223?s=gh-internships-2027|Bose|Associate Customer Quality Engineer Co-op|US, MI - Bloomfield Hills|Summer 2027#1"
+    },
+    "e2a696619ac2": {
+      "company": "Dandy",
+      "role": "Summer 2027 Internship - Full Stack Software Engineering",
+      "location": "USA - New York NY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-dandy-d43558e9-8e51-4980-b00d-39275063f099?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5151,
+      "chat_id": 7582459199,
+      "seq": 3959,
+      "identity": "https://zapply.jobs/l/d/ashby-dandy-d43558e9-8e51-4980-b00d-39275063f099?s=gh-internships-2027|Dandy|Summer 2027 Internship - Full Stack Software Engineering|USA - New York NY|Summer 2027#1"
     }
   },
   "applied": {
@@ -54543,10 +54567,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3957,
+  "seq": 3959,
   "health": {
     "last_heartbeat": "2026-09-30T17:15:19Z",
-    "last_ok_run": "2026-09-30T17:30:21Z",
+    "last_ok_run": "2026-09-30T17:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
