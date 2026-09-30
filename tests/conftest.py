@@ -176,7 +176,19 @@ class Result:
 
     @property
     def seen(self):
+        """Identities actually delivered. Bootstrap-muted ones live in `muted`, not here."""
         return self.state[self._key].get("seen", [])
+
+    @property
+    def muted(self):
+        """Identities and URLs silenced by bootstrap without ever being sent."""
+        entry = self.state[self._key]
+        return (entry.get("bootstrap") or []) + (entry.get("bootstrap_legacy_urls") or [])
+
+    @property
+    def suppressed(self):
+        """Everything that stops a row alerting, whatever the reason it was recorded."""
+        return self.seen + self.muted
 
     @property
     def outbox(self):
@@ -216,7 +228,7 @@ def run_watcher():
     def run(upstream_rows, start_files=None, fail_for=None, fail_once_at=None,
             drop_target_state=False, dry_run=False, capture_summary=False,
             fetch_status=None, reuse_sha=None, monotonic_step=None, fail_all=False,
-            retry_after=0):
+            retry_after=0, release_bootstrap=""):
         work = Path(tempfile.mkdtemp())
         try:
             for name in (".watcher_state.json", ".bot_state.json"):
@@ -249,6 +261,7 @@ def run_watcher():
                     TELEGRAM_BOT_TOKEN="test-bot-token",
                     TELEGRAM_CHAT_ID="7582459199",
                     DRY_RUN="true" if dry_run else "false",
+                    RELEASE_BOOTSTRAP=release_bootstrap,
                 )
                 os.environ.pop("HEALTHCHECK_PING_URL", None)
                 if capture_summary:
