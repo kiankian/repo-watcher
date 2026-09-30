@@ -54704,6 +54704,18 @@
       "chat_id": 7582459199,
       "seq": 4001,
       "identity": "https://zapply.jobs/l/d/greenhouse-muonspace-5247725007?s=gh-internships-2027|Muon Space|Flight Software Engineering Intern (Summer 2027)|San Jose, CA|Summer 2027#1"
+    },
+    "3e6bb399a48c": {
+      "company": "Stripe",
+      "role": "High School Internship, Software Engineering (Summer 2027)",
+      "location": "Seattle, San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-stripe-8241260?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5194,
+      "chat_id": 7582459199,
+      "seq": 4002,
+      "identity": "https://zapply.jobs/l/d/greenhouse-stripe-8241260?s=gh-internships-2027|Stripe|High School Internship, Software Engineering (Summer 2027)|Seattle, San Francisco|Summer 2027#1"
     }
   },
   "applied": {
@@ -55071,10 +55083,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4001,
+  "seq": 4002,
   "health": {
     "last_heartbeat": "2026-09-30T19:30:18Z",
-    "last_ok_run": "2026-09-30T20:25:13Z",
+    "last_ok_run": "2026-09-30T20:30:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
