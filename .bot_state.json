@@ -54020,6 +54020,18 @@
       "chat_id": 7582459199,
       "seq": 3944,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01875411?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Richardson, TX|Summer 2026#1"
+    },
+    "f9d0373c615b": {
+      "company": "RTX",
+      "role": "Software Engineering  Intern (Summer 2027)",
+      "location": "IN-FT WAYNE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01878986?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5137,
+      "chat_id": 7582459199,
+      "seq": 3945,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01878986?s=gh-internships-2027|RTX|Software Engineering  Intern (Summer 2027)|IN-FT WAYNE|Summer 2027#1"
     }
   },
   "applied": {
@@ -54387,10 +54399,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3944,
+  "seq": 3945,
   "health": {
     "last_heartbeat": "2026-09-30T09:55:13Z",
-    "last_ok_run": "2026-09-30T10:50:17Z",
+    "last_ok_run": "2026-09-30T10:55:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
