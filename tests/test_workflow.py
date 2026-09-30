@@ -9,7 +9,7 @@ also exercises the migration.
 """
 import pytest
 
-from conftest import load_fixture
+from conftest import TARGET_KEY, load_fixture
 
 NEW_A = ["TestCorp Alpha", "SWE Intern", "Testville, TS", "Summer 2026",
          "https://example.com/apply/alpha"]
@@ -705,3 +705,150 @@ def test_the_request_timeout_shrinks_with_the_remaining_budget(run_watcher, fixt
         f"timeouts should taper as the budget drains, saw {sorted(set(r.timeouts))}"
     )
     assert all(t > 0 for t in r.timeouts), "never zero or negative, which would fail instantly"
+
+
+# --- the 2026-08-01 incident: dead apply links and whole-table re-keys --------------------
+#
+# Both are reported and neither is acted on. Suppressing the re-key flood was built and then
+# deliberately reverted: all 100 messages that day turned out to be listings already delivered
+# under an older identity, so suppression bought nothing that mattered, while a listing that was
+# genuinely new in the same snapshot would have been swallowed silently. A duplicate costs a
+# notification; a miss costs an application. Nothing here may withhold a listing.
+
+def _blank_the_apply_urls(rows):
+    """What zapplyjobs/Internships-2027 shipped at 8eb9fd34: every `](url)` became `](#)`."""
+    return [row[:4] + ["#"] for row in rows]
+
+
+def _rehost_the_apply_urls(rows):
+    """A re-key with no dead links anywhere — every row keeps a real, working URL, but a
+    different one. A column reorder or an ATS migration looks like this."""
+    return [row[:4] + [row[4].replace("https://", "https://careers.") + "?src=new"]
+            for row in rows]
+
+
+def test_a_new_job_with_a_dead_link_still_alerts(run_watcher, fixture_rows, baseline):
+    """The drip that followed the flood: rows arriving on a churning board a few at a time, each
+    carrying a "#". These are real postings, and an alert with no link still says where to look."""
+    arrival = ["Neuralink", "Software Engineer Intern, BCI", "Fremont, CA", "Summer 2026", "#"]
+
+    r = run_watcher(fixture_rows + [arrival])
+
+    assert len(r.sent) == 1 and r.sent_matching("Neuralink")
+    assert len(r.seen) == len(baseline.seen) + 1
+    assert r.healthy is True, "a dead link upstream is not an outage here"
+
+
+def test_a_dead_link_is_rendered_as_no_link_at_all(run_watcher, fixture_rows):
+    """A "#" under a listing reads as something to tap and goes nowhere. Omitting it is more
+    honest, and the remaining fields are enough to go find the posting."""
+    arrival = ["Neuralink", "Software Engineer Intern, BCI", "Fremont, CA", "Summer 2026", "#"]
+
+    r = run_watcher(fixture_rows + [arrival])
+
+    body = r.sent_matching("Neuralink")[0]
+    assert "#" not in body.split("Neuralink", 1)[1], "no placeholder link in the message"
+    assert "Fremont, CA" in body and "Summer 2026" in body, "the usable fields still go out"
+    assert r.health_matching("dead apply link"), "the degradation is still reported"
+
+
+def test_a_row_with_no_link_at_all_is_unaffected(run_watcher, fixture_rows, baseline):
+    """~20% of the Vansh rows have no parseable URL. Those alerts are normal and must not be
+    caught up in any of this."""
+    arrival = ["Kudu Dynamics", "Software Engineer Intern", "Chantilly, VA", "May 22", ""]
+
+    r = run_watcher(fixture_rows + [arrival])
+
+    assert len(r.sent) == 1 and r.sent_matching("Kudu Dynamics")
+    assert len(r.seen) == len(baseline.seen) + 1
+    assert r.health_matching("dead apply link") == [], "an absent link is not a dead link"
+
+
+def test_a_whole_table_rekey_is_reported_but_never_withheld(run_watcher):
+    """The core promise. A re-key makes every row look new and produces a burst of duplicates.
+    That burst goes out: among it could be a listing that really is new, and there is no way to
+    tell which — judged on text rather than URL, 71 of the 100 rows re-keyed on 2026-08-01 looked
+    new, because 67 were known only through seen_legacy_urls, which stores no text at all."""
+    before = load_fixture("collapse_84.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    assert len(seeded.seen) == 84
+
+    rekeyed = run_watcher(_rehost_the_apply_urls(before), start_files=seeded.files)
+
+    assert len(rekeyed.sent) == 25, "BURST_CAP sends this run; nothing is dropped"
+    assert len(rekeyed.outbox) == 84 - 25, "the rest queue durably and drain on later runs"
+    assert rekeyed.health_matching("re-keying"), "and the burst is explained while it arrives"
+    assert rekeyed.health_matching("Nothing is being withheld")
+
+
+def test_the_rekey_burst_is_delivered_in_full_across_runs(run_watcher):
+    """Not one listing may be lost to the burst, however long it takes to drain."""
+    before = load_fixture("collapse_84.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    rekeyed = _rehost_the_apply_urls(before)
+
+    result = run_watcher(rekeyed, start_files=seeded.files)
+    delivered = list(result.sent)
+    for _ in range(4):
+        if not result.outbox:
+            break
+        result = run_watcher(rekeyed, start_files=result.files)
+        delivered += result.sent
+
+    assert result.outbox == [], "the queue drains completely"
+    assert len(delivered) == 84, "every re-keyed row is delivered exactly once"
+    assert len(result.seen) == 84 + 84
+
+
+def test_a_dead_link_rekey_is_also_delivered(run_watcher):
+    """The incident's actual cause, held to the same promise: reported, rendered without dead
+    links, and never withheld."""
+    before = load_fixture("collapse_84.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    dead = run_watcher(_blank_the_apply_urls(before), start_files=seeded.files)
+
+    assert len(dead.sent) == 25, "nothing is withheld"
+    assert dead.health_matching("re-keying") and dead.health_matching("dead apply link")
+    assert not any("#" in body.split("|")[-1] for body in dead.sent), "no dead links rendered"
+
+
+def test_the_rekey_warning_does_not_stop_the_healthcheck(run_watcher):
+    """The source is delivering, so it is not silent. Withholding the ping would raise an outage
+    over a burst of duplicates, and would mask a real dispatch failure behind it."""
+    before = load_fixture("collapse_84.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    rekeyed = run_watcher(_rehost_the_apply_urls(before), start_files=seeded.files)
+
+    assert rekeyed.healthy is True
+
+
+def test_the_rekey_warning_fires_while_a_table_recovers_from_a_collapse(run_watcher):
+    """Regression for a detector that subtracted the table's row-count growth since the last
+    parse. That credits a table *recovering* from a truncating parse as new capacity: collapse to
+    20 rows, return to 84 while re-keying, and growth of 64 absorbs all but 20 of the 84
+    discoveries, so the warning never fired. Recognition never asks how many rows there used to
+    be."""
+    before = load_fixture("collapse_84.json")
+
+    seeded = run_watcher(before, drop_target_state=True)
+    collapsed = run_watcher(before[:20], start_files=seeded.files)
+    assert collapsed.state[TARGET_KEY]["last_row_count"] == 20, "the shrink is what gets stored"
+
+    rekeyed = run_watcher(_rehost_the_apply_urls(before), start_files=collapsed.files)
+
+    assert rekeyed.health_matching("re-keying"), "reported despite the row count recovering"
+    assert len(rekeyed.sent) == 25, "and still not withheld"
+
+
+def test_an_ordinary_run_raises_neither_warning(run_watcher, fixture_rows, baseline):
+    """Neither detector may fire on normal traffic, or they become noise to be ignored."""
+    r = run_watcher(fixture_rows + [NEW_A, NEW_B, NEW_C])
+
+    assert len(r.sent) == 3
+    assert r.health_matching("re-keying") == []
+    assert r.health_matching("dead apply link") == []
+    assert r.healthy is True
