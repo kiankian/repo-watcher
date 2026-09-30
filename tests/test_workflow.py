@@ -315,6 +315,33 @@ def test_the_step_summary_lists_anomalies(run_watcher):
 KUDU = ["Kudu Dynamics", "Software Engineer Intern", "Chantilly, VA", "May 22", ""]
 
 
+def test_no_applied_button_while_the_tracker_is_paused(run_watcher, fixture_rows):
+    """PROCESS_APPLIES unset skips the process_applies job, so nothing is left to answer a tap.
+    A button that spins and never ticks is worse than no button: it reads as a lost tap."""
+    r = run_watcher(fixture_rows + [NEW_A])
+
+    assert len(r.sent) == 1, "the alert itself is unaffected by the pause"
+    alert = next(p for p in r.payloads if not p["text"].startswith("⚠️"))
+    assert "reply_markup" not in alert
+    assert r.bot_state["pending"], (
+        "the pending record still has to be written: the alert log and the state migration "
+        "both read it, and it is what a resumed tracker would resolve a tap against"
+    )
+
+
+def test_the_applied_button_comes_back_when_the_tracker_is_resumed(run_watcher, fixture_rows):
+    """Setting the repository variable has to restore the whole path, not just the job."""
+    r = run_watcher(fixture_rows + [NEW_A], process_applies=True)
+
+    alert = next(p for p in r.payloads if not p["text"].startswith("⚠️"))
+    button = alert["reply_markup"]["inline_keyboard"][0][0]
+    assert button["text"] == "Mark as Applied"
+    assert button["callback_data"].startswith("apply:")
+    assert button["callback_data"][len("apply:"):] in r.bot_state["pending"], (
+        "the callback data must name a pending record, or the tap resolves to nothing"
+    )
+
+
 def test_identical_rows_get_separate_applied_button_records(run_watcher, fixture_rows):
     """The occurrence index made all three copies alert, but they shared one job_hash, so each
     send overwrote bot_state["pending"][h]. Tapping an earlier alert then edited and logged the
