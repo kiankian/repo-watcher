@@ -54716,6 +54716,30 @@
       "chat_id": 7582459199,
       "seq": 4002,
       "identity": "https://zapply.jobs/l/d/greenhouse-stripe-8241260?s=gh-internships-2027|Stripe|High School Internship, Software Engineering (Summer 2027)|Seattle, San Francisco|Summer 2027#1"
+    },
+    "ccc6802828e3": {
+      "company": "Patch My PC",
+      "role": "Software Engineer Intern",
+      "location": "Castle Rock, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/patchmypc/e2bbd0a9-5810-4cf0-bb71-3fd2e1125341/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5195,
+      "chat_id": 7582459199,
+      "seq": 4003,
+      "identity": "https://jobs.lever.co/patchmypc/e2bbd0a9-5810-4cf0-bb71-3fd2e1125341/apply?utm_source=Simplify&ref=Simplify|Patch My PC|Software Engineer Intern|Castle Rock, CO|Summer 2026#1"
+    },
+    "f2825fc83f0a": {
+      "company": "Assurant",
+      "role": "Software Engineer Intern",
+      "location": "Miami, FL Chicago, IL Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Atlanta-GA/Summer-2027-Intern--Software-Engineering-Intern_R-115727?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5196,
+      "chat_id": 7582459199,
+      "seq": 4004,
+      "identity": "https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Atlanta-GA/Summer-2027-Intern--Software-Engineering-Intern_R-115727?utm_source=Simplify&ref=Simplify|Assurant|Software Engineer Intern|Miami, FL Chicago, IL Atlanta, GA|Summer 2026#1"
     }
   },
   "applied": {
@@ -55083,10 +55107,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4002,
+  "seq": 4004,
   "health": {
     "last_heartbeat": "2026-09-30T21:40:16Z",
-    "last_ok_run": "2026-09-30T22:30:18Z",
+    "last_ok_run": "2026-09-30T22:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
