@@ -53888,6 +53888,30 @@
       "chat_id": 7582459199,
       "seq": 3933,
       "identity": "https://zapply.jobs/l/d/greenhouse-muonspace-5252680007?s=gh-internships-2027|Muon Space|GNC Software Engineering Intern (Summer 2027)|Mountain View, CA|Summer 2027#1"
+    },
+    "63f0482c2983": {
+      "company": "RTX",
+      "role": "Software Engineer Co-op - Spring/Summer 2027",
+      "location": "Cedar Rapids, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5126,
+      "chat_id": 7582459199,
+      "seq": 3934,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Co-op - Spring/Summer 2027|Cedar Rapids, IA|Summer 2026#1"
+    },
+    "02e7f1892681": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Cedar Rapids, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01876388?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5127,
+      "chat_id": 7582459199,
+      "seq": 3935,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01876388?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Cedar Rapids, IA|Summer 2026#1"
     }
   },
   "applied": {
@@ -54255,10 +54279,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3933,
+  "seq": 3935,
   "health": {
     "last_heartbeat": "2026-09-30T01:20:17Z",
-    "last_ok_run": "2026-09-30T01:30:17Z",
+    "last_ok_run": "2026-09-30T01:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
