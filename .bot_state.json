@@ -54200,6 +54200,18 @@
       "chat_id": 7582459199,
       "seq": 3959,
       "identity": "https://zapply.jobs/l/d/ashby-dandy-d43558e9-8e51-4980-b00d-39275063f099?s=gh-internships-2027|Dandy|Summer 2027 Internship - Full Stack Software Engineering|USA - New York NY|Summer 2027#1"
+    },
+    "ccb3507dd176": {
+      "company": "Amazon.com Services LLC",
+      "role": "Software Development Engineer Intern, AWS Database - 2027 (US)",
+      "location": "Seattle, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/amazon-c5d6e861-e94a-4086-b21e-b77bdf7e95bb?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5152,
+      "chat_id": 7582459199,
+      "seq": 3960,
+      "identity": "https://zapply.jobs/l/d/amazon-c5d6e861-e94a-4086-b21e-b77bdf7e95bb?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern, AWS Database - 2027 (US)|Seattle, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -54567,10 +54579,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 3959,
+  "seq": 3960,
   "health": {
     "last_heartbeat": "2026-09-30T17:15:19Z",
-    "last_ok_run": "2026-09-30T17:45:14Z",
+    "last_ok_run": "2026-09-30T17:50:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
