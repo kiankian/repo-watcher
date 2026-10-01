@@ -55064,6 +55064,30 @@
       "chat_id": 7582459199,
       "seq": 4031,
       "identity": "https://zapply.jobs/l/d/microsoft-200042200?s=gh-internships-2027|Microsoft|Software Engineer: Data Platform/Analytics Intern Opportunities for University Students, Redmond|Redmond, Washington, United States|Summer 2027#1"
+    },
+    "b2790cc18599": {
+      "company": "Hitachi",
+      "role": "Intern - Test Engineering",
+      "location": "Batesburg-Leesville, South...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-hitachi-hitachi-R0144019?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5224,
+      "chat_id": 7582459199,
+      "seq": 4032,
+      "identity": "https://zapply.jobs/l/d/workday-hitachi-hitachi-R0144019?s=gh-internships-2027|Hitachi|Intern - Test Engineering|Batesburg-Leesville, South...|Summer 2027#1"
+    },
+    "7f63d8a08e68": {
+      "company": "Northrop Grumman",
+      "role": "2027 Intern - Systems Engineering - Nuclear Survivability/Ionizing Radiation",
+      "location": "United States-Florida-Melbourne",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10251198?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5225,
+      "chat_id": 7582459199,
+      "seq": 4033,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10251198?s=gh-internships-2027|Northrop Grumman|2027 Intern - Systems Engineering - Nuclear Survivability/Ionizing Radiation|United States-Florida-Melbourne|Summer 2027#1"
     }
   },
   "applied": {
@@ -55431,10 +55455,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4031,
+  "seq": 4033,
   "health": {
     "last_heartbeat": "2026-10-01T14:10:17Z",
-    "last_ok_run": "2026-10-01T14:55:14Z",
+    "last_ok_run": "2026-10-01T15:00:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
