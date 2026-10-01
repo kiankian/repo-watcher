@@ -55748,6 +55748,54 @@
       "chat_id": 7582459199,
       "seq": 4088,
       "identity": "https://zapply.jobs/l/d/greenhouse-pinterest-7838577?s=gh-internships-2027|Pinterest|Software Engineer Intern 2027 (USA)|San Francisco, CA, US|Summer 2027#1"
+    },
+    "e2cb8d869702": {
+      "company": "RTX",
+      "role": "Flight Control Software Engineering Intern (Summer 2027) (Open)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870974?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5281,
+      "chat_id": 7582459199,
+      "seq": 4089,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01870974?s=gh-internships-2027|RTX|Flight Control Software Engineering Intern (Summer 2027) (Open)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "e0c7cf31c4d3": {
+      "company": "RTX",
+      "role": "Production Test Engineering Intern (Summer 2027)",
+      "location": "AZ-TUCSON",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872992?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5282,
+      "chat_id": 7582459199,
+      "seq": 4090,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872992?s=gh-internships-2027|RTX|Production Test Engineering Intern (Summer 2027)|AZ-TUCSON|Summer 2027#1"
+    },
+    "8cf8360f3076": {
+      "company": "CoStar Group",
+      "role": "Embedded Software Engineering Intern",
+      "location": "Sunnyvale",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-costar-costar-campus-R39950?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5283,
+      "chat_id": 7582459199,
+      "seq": 4091,
+      "identity": "https://zapply.jobs/l/d/workday-costar-costar-campus-R39950?s=gh-internships-2027|CoStar Group|Embedded Software Engineering Intern|Sunnyvale|Summer 2027#1"
+    },
+    "a3129e777517": {
+      "company": "Boeing",
+      "role": "Boeing Engineering & Technology Innovation Graduate Researcher Program, Software Engineering...",
+      "location": "USA - Tukwila, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-boeing-external-careers-JR2026523687?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5284,
+      "chat_id": 7582459199,
+      "seq": 4092,
+      "identity": "https://zapply.jobs/l/d/workday-boeing-external-careers-JR2026523687?s=gh-internships-2027|Boeing|Boeing Engineering & Technology Innovation Graduate Researcher Program, Software Engineering...|USA - Tukwila, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -56115,10 +56163,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4088,
+  "seq": 4092,
   "health": {
     "last_heartbeat": "2026-10-01T20:40:14Z",
-    "last_ok_run": "2026-10-01T21:25:14Z",
+    "last_ok_run": "2026-10-01T21:30:59Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
