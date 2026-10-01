@@ -54896,6 +54896,18 @@
       "chat_id": 7582459199,
       "seq": 4017,
       "identity": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-592516?s=gh-internships-2027|Philips|Intern - System Test Automation Engineer \u2013 San Diego, CA \u2013 Summer 2027|San Diego, California, United...|Summer 2027#1"
+    },
+    "c29449ecdf1b": {
+      "company": "\ud83d\udd25 Stripe",
+      "role": "Software Engineer Intern",
+      "location": "Seattle, WA SF",
+      "term": "Summer 2026",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=8241260&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5210,
+      "chat_id": 7582459199,
+      "seq": 4018,
+      "identity": "https://stripe.com/jobs/search?gh_jid=8241260&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Stripe|Software Engineer Intern|Seattle, WA SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -55263,10 +55275,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4017,
+  "seq": 4018,
   "health": {
     "last_heartbeat": "2026-10-01T00:50:13Z",
-    "last_ok_run": "2026-10-01T01:30:19Z",
+    "last_ok_run": "2026-10-01T01:35:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
