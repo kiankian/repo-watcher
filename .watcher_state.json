@@ -5853,7 +5853,10 @@
       "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Software-Engineering--Intern--Summer-2027-_01878986|Raytheon|Software Engineering Intern - Summer 2027|FT WAYNE, IN|Other#1",
       "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Summer-2027-Embedded-Software-Engineering-Intern--Onsite-_01878014|Raytheon|Summer 2027 Embedded Software Engineering Intern - Onsite|EAST HARTFORD-ETC, CT|Other#1",
       "https://careers.withwaymo.com/jobs?gh_jid=8240198|Waymo|2027 Summer Intern - MS/PhD - Software Engineer - Onboard Developer Platform|Mountain View, CA|Other#1",
-      "https://careers.withwaymo.com/jobs?gh_jid=8238525|Waymo|2027 Summer Intern - BS - Software Engineering - Labeling|Mountain View, CA|Other#1"
+      "https://careers.withwaymo.com/jobs?gh_jid=8238525|Waymo|2027 Summer Intern - BS - Software Engineering - Labeling|Mountain View, CA|Other#1",
+      "https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa|Clay|Software Engineering Intern|New York City, NY|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01875411|Raytheon|Software Engineering Intern - Summer 2027|Richardson, TX|Other#1",
+      "https://jobs.lever.co/patchmypc/e2bbd0a9-5810-4cf0-bb71-3fd2e1125341|Patch My PC|Software Engineering Intern - Summer 2027|Castle Rock, CO|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -5998,40 +6001,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 628,
-    "outbox": [
-      [
-        [
-          "Clay",
-          "Software Engineering Intern",
-          "New York City, NY",
-          "Other",
-          "https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa"
-        ],
-        "https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa|Clay|Software Engineering Intern|New York City, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "Raytheon",
-          "Software Engineering Intern - Summer 2027",
-          "Richardson, TX",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01875411"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01875411|Raytheon|Software Engineering Intern - Summer 2027|Richardson, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "Patch My PC",
-          "Software Engineering Intern - Summer 2027",
-          "Castle Rock, CO",
-          "Other",
-          "https://jobs.lever.co/patchmypc/e2bbd0a9-5810-4cf0-bb71-3fd2e1125341"
-        ],
-        "https://jobs.lever.co/patchmypc/e2bbd0a9-5810-4cf0-bb71-3fd2e1125341|Patch My PC|Software Engineering Intern - Summer 2027|Castle Rock, CO|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }

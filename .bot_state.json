@@ -55592,6 +55592,42 @@
       "chat_id": 7582459199,
       "seq": 4075,
       "identity": "https://careers.withwaymo.com/jobs?gh_jid=8238525|Waymo|2027 Summer Intern - BS - Software Engineering - Labeling|Mountain View, CA|Other#1"
+    },
+    "c31b49a4a701": {
+      "company": "Clay",
+      "role": "Software Engineering Intern",
+      "location": "New York City, NY",
+      "term": "Other",
+      "apply_url": "https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5268,
+      "chat_id": 7582459199,
+      "seq": 4076,
+      "identity": "https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa|Clay|Software Engineering Intern|New York City, NY|Other#1"
+    },
+    "56f58f7a0d64": {
+      "company": "Raytheon",
+      "role": "Software Engineering Intern - Summer 2027",
+      "location": "Richardson, TX",
+      "term": "Other",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01875411",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5269,
+      "chat_id": 7582459199,
+      "seq": 4077,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01875411|Raytheon|Software Engineering Intern - Summer 2027|Richardson, TX|Other#1"
+    },
+    "58621629bc11": {
+      "company": "Patch My PC",
+      "role": "Software Engineering Intern - Summer 2027",
+      "location": "Castle Rock, CO",
+      "term": "Other",
+      "apply_url": "https://jobs.lever.co/patchmypc/e2bbd0a9-5810-4cf0-bb71-3fd2e1125341",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5270,
+      "chat_id": 7582459199,
+      "seq": 4078,
+      "identity": "https://jobs.lever.co/patchmypc/e2bbd0a9-5810-4cf0-bb71-3fd2e1125341|Patch My PC|Software Engineering Intern - Summer 2027|Castle Rock, CO|Other#1"
     }
   },
   "applied": {
@@ -55959,10 +55995,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4075,
+  "seq": 4078,
   "health": {
     "last_heartbeat": "2026-10-01T17:20:16Z",
-    "last_ok_run": "2026-10-01T18:21:00Z",
+    "last_ok_run": "2026-10-01T18:25:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
