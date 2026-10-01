@@ -55796,6 +55796,30 @@
       "chat_id": 7582459199,
       "seq": 4092,
       "identity": "https://zapply.jobs/l/d/workday-boeing-external-careers-JR2026523687?s=gh-internships-2027|Boeing|Boeing Engineering & Technology Innovation Graduate Researcher Program, Software Engineering...|USA - Tukwila, WA|Summer 2027#1"
+    },
+    "b9af4136be2d": {
+      "company": "RTX",
+      "role": "Compression Systems Engineer Co-Op - Structures Engineering (January 2027) (Hybrid)",
+      "location": "PR-AGUADILLA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876176?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5285,
+      "chat_id": 7582459199,
+      "seq": 4093,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876176?s=gh-internships-2027|RTX|Compression Systems Engineer Co-Op - Structures Engineering (January 2027) (Hybrid)|PR-AGUADILLA|Summer 2027#1"
+    },
+    "6e35c85d5922": {
+      "company": "SeatGeek",
+      "role": "Security Engineer - Internship",
+      "location": "New York, New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-seatgeek-8248151?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5286,
+      "chat_id": 7582459199,
+      "seq": 4094,
+      "identity": "https://zapply.jobs/l/d/greenhouse-seatgeek-8248151?s=gh-internships-2027|SeatGeek|Security Engineer - Internship|New York, New York|Summer 2027#1"
     }
   },
   "applied": {
@@ -56163,10 +56187,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4092,
+  "seq": 4094,
   "health": {
     "last_heartbeat": "2026-10-01T21:40:17Z",
-    "last_ok_run": "2026-10-01T21:40:17Z",
+    "last_ok_run": "2026-10-01T21:45:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
