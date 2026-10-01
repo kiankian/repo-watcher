@@ -55916,6 +55916,54 @@
       "chat_id": 7582459199,
       "seq": 4102,
       "identity": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Toronto-ON-CAN/Software-Development-Internship--Summer-2027-_26WD101436?utm_source=Simplify&ref=Simplify|Autodesk|Software Developer Intern|Toronto, ON, Canada|Summer 2026#1"
+    },
+    "7843568f7503": {
+      "company": "RTX",
+      "role": "Software Engineering Co-Op (Avionics) (Summer/Fall 2027) (Hybrid)",
+      "location": "PR-AGUADILLA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874664?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5295,
+      "chat_id": 7582459199,
+      "seq": 4103,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874664?s=gh-internships-2027|RTX|Software Engineering Co-Op (Avionics) (Summer/Fall 2027) (Hybrid)|PR-AGUADILLA|Summer 2027#1"
+    },
+    "71aaed246a7f": {
+      "company": "RTX",
+      "role": "Software Engineering Co-Op (Summer/Fall 2027) (Hybrid)",
+      "location": "PR-AGUADILLA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874124?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5296,
+      "chat_id": 7582459199,
+      "seq": 4104,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874124?s=gh-internships-2027|RTX|Software Engineering Co-Op (Summer/Fall 2027) (Hybrid)|PR-AGUADILLA|Summer 2027#1"
+    },
+    "2a8f6a15b254": {
+      "company": "RTX",
+      "role": "Software Engineer, DevSecOps Co-Op (Summer/Fall 2027) (Hybrid)",
+      "location": "PR-AGUADILLA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873555?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5297,
+      "chat_id": 7582459199,
+      "seq": 4105,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873555?s=gh-internships-2027|RTX|Software Engineer, DevSecOps Co-Op (Summer/Fall 2027) (Hybrid)|PR-AGUADILLA|Summer 2027#1"
+    },
+    "e22c68d170d7": {
+      "company": "Intel",
+      "role": "Software Engineering PhD Intern New 2027",
+      "location": "US, Oregon, Hillsboro",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-intel-external-JR0287458?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5298,
+      "chat_id": 7582459199,
+      "seq": 4106,
+      "identity": "https://zapply.jobs/l/d/workday-intel-external-JR0287458?s=gh-internships-2027|Intel|Software Engineering PhD Intern New 2027|US, Oregon, Hillsboro|Summer 2027#1"
     }
   },
   "applied": {
@@ -56283,10 +56331,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4102,
+  "seq": 4106,
   "health": {
     "last_heartbeat": "2026-10-01T22:45:16Z",
-    "last_ok_run": "2026-10-01T22:45:16Z",
+    "last_ok_run": "2026-10-01T22:50:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
