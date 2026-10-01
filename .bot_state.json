@@ -55004,6 +55004,42 @@
       "chat_id": 7582459199,
       "seq": 4026,
       "identity": "https://zapply.jobs/l/d/workday-allisontransmission-ati-external-R008206?s=gh-internships-2027|Allison Transmission|Quality Engineering Intern - Summer 2027|Indianapolis, IN|Summer 2027#1"
+    },
+    "e5466c07e73d": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Fullstack Product (Web + Services)  Intern Opportunities for University Students,",
+      "location": "Redmond, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/microsoft-200042195?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5219,
+      "chat_id": 7582459199,
+      "seq": 4027,
+      "identity": "https://zapply.jobs/l/d/microsoft-200042195?s=gh-internships-2027|Microsoft|Software Engineer: Fullstack Product (Web + Services)  Intern Opportunities for University Students,|Redmond, Washington, United States|Summer 2027#1"
+    },
+    "4baaf9b94fd4": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students, Redmond",
+      "location": "Redmond, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/microsoft-200042196?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5220,
+      "chat_id": 7582459199,
+      "seq": 4028,
+      "identity": "https://zapply.jobs/l/d/microsoft-200042196?s=gh-internships-2027|Microsoft|Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students, Redmond|Redmond, Washington, United States|Summer 2027#1"
+    },
+    "07980724fec3": {
+      "company": "Microsoft",
+      "role": "Software Engineer: AI/ML & LLM Intern Opportunities for University Students, Redmond",
+      "location": "Redmond, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/microsoft-200042197?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5221,
+      "chat_id": 7582459199,
+      "seq": 4029,
+      "identity": "https://zapply.jobs/l/d/microsoft-200042197?s=gh-internships-2027|Microsoft|Software Engineer: AI/ML & LLM Intern Opportunities for University Students, Redmond|Redmond, Washington, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -55371,10 +55407,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4026,
+  "seq": 4029,
   "health": {
     "last_heartbeat": "2026-10-01T07:55:16Z",
-    "last_ok_run": "2026-10-01T08:40:18Z",
+    "last_ok_run": "2026-10-01T08:45:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
