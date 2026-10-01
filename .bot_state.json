@@ -55088,6 +55088,54 @@
       "chat_id": 7582459199,
       "seq": 4033,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10251198?s=gh-internships-2027|Northrop Grumman|2027 Intern - Systems Engineering - Nuclear Survivability/Ionizing Radiation|United States-Florida-Melbourne|Summer 2027#1"
+    },
+    "465d750e5207": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Annapolis, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-906--2551-Riva-Rd--BLDG-906/Software-Engineering-Intern--Summer-2027-_01873235?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5226,
+      "chat_id": 7582459199,
+      "seq": 4034,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-906--2551-Riva-Rd--BLDG-906/Software-Engineering-Intern--Summer-2027-_01873235?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Annapolis, MD|Summer 2026#1"
+    },
+    "5a90b2311fcb": {
+      "company": "Federal Reserve System",
+      "role": "Summer 2027 Intern-Cloud Engineering",
+      "location": "Chicago, IL",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-rb-frs-R-0000033614?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5227,
+      "chat_id": 7582459199,
+      "seq": 4035,
+      "identity": "https://zapply.jobs/l/d/workday-rb-frs-R-0000033614?s=gh-internships-2027|Federal Reserve System|Summer 2027 Intern-Cloud Engineering|Chicago, IL|Summer 2027#1"
+    },
+    "75ceae9c8931": {
+      "company": "Federal Reserve System",
+      "role": "Summer 2027 Intern-Cybersecurity and Information Security",
+      "location": "Chicago, IL",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-rb-frs-R-0000033612?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5228,
+      "chat_id": 7582459199,
+      "seq": 4036,
+      "identity": "https://zapply.jobs/l/d/workday-rb-frs-R-0000033612?s=gh-internships-2027|Federal Reserve System|Summer 2027 Intern-Cybersecurity and Information Security|Chicago, IL|Summer 2027#1"
+    },
+    "7c4c262e2c3c": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "MD-ANNAPOLIS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873235?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5229,
+      "chat_id": 7582459199,
+      "seq": 4037,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873235?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|MD-ANNAPOLIS|Summer 2027#1"
     }
   },
   "applied": {
@@ -55455,10 +55503,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4033,
+  "seq": 4037,
   "health": {
     "last_heartbeat": "2026-10-01T15:15:15Z",
-    "last_ok_run": "2026-10-01T15:30:19Z",
+    "last_ok_run": "2026-10-01T15:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
