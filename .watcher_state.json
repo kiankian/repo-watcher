@@ -5952,7 +5952,16 @@
       "https://apply.workable.com/mindex/j/84B10DB922/|Mindex|Software Engineer Co-Op - On-site|Rochester, NY|Other#1",
       "https://nordsonhcm.wd501.myworkdayjobs.com/en-US/nordsoncareers/job/USA---Minnesota---Minneapolis---5900-Golden-Hills-Drive/Software-Intern_REQ52945|Nordson|Software Intern|Minneapolis, MN|Other#1",
       "https://nordsonhcm.wd501.myworkdayjobs.com/en-US/nordsoncareers/job/USA---Rhode-Island---East-Providence/Intern--Software-Engineering-_REQ53006|Nordson|Intern - Software Engineering|East Providence, RI|Other#1",
-      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs-CO_R10254007|Northrop Grumman|2027 Software Engineering Intern - Colorado Springs CO|Roy, UT|Other#1"
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs-CO_R10254007|Northrop Grumman|2027 Software Engineering Intern - Colorado Springs CO|Roy, UT|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-906--2551-Riva-Rd--BLDG-906/Software-Engineering-Intern--Summer-2027-_01873235|Raytheon|Software Engineering Intern - Summer 2027|Annapolis, MD|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01870343|Raytheon|Software Engineering Intern - Summer 2027|Cedar Rapids, IA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027---Open-_01870974|Raytheon|Flight Control Software Engineering Intern - Summer 2027 - Open|Cedar Rapids, IA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Software-Engineering-Intern--Summer-2027-_01878820|Raytheon|Software Engineering Intern - Summer 2027|El Segundo, CA|Other#1",
+      "https://www.riotgames.com/en/work-with-us/job/8222014?gh_jid=8222014|Riot Games|Software Engineering Intern - Summer 2027 - Remote|Los Angeles, CA|Other#1",
+      "https://careers-sas.icims.com/jobs/42964/summer-2027---software-development-and-testing-intern/job|SAS|Summer 2027 - Software Development and Testing Intern|Cary, NC|Other#1",
+      "https://careers-sas.icims.com/jobs/42964/summer-2027---software-development-and-testing-intern/job|SAS|Summer 2027 - Software Development and Testing Intern|Cary, NC|Other#2",
+      "https://spe.wd1.myworkdayjobs.com/en-US/sonypicturesentertainment/job/Culver-City-California/Intern--Cloud---Security-Operations---Spring-2027_JR114719|Sony Pictures Entertainment|Intern - Cloud & Security Operations - Spring 2027|Culver City, CA|Other#1",
+      "https://job-boards.greenhouse.io/vardaspace/jobs/8010159003|Varda|Flight Software Internship - Summer 2027|El Segundo, CA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -6097,106 +6106,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 639,
-    "outbox": [
-      [
-        [
-          "Raytheon",
-          "Software Engineering Intern - Summer 2027",
-          "Annapolis, MD",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-906--2551-Riva-Rd--BLDG-906/Software-Engineering-Intern--Summer-2027-_01873235"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-906--2551-Riva-Rd--BLDG-906/Software-Engineering-Intern--Summer-2027-_01873235|Raytheon|Software Engineering Intern - Summer 2027|Annapolis, MD|Other#1",
-        1
-      ],
-      [
-        [
-          "Raytheon",
-          "Software Engineering Intern - Summer 2027",
-          "Cedar Rapids, IA",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01870343"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01870343|Raytheon|Software Engineering Intern - Summer 2027|Cedar Rapids, IA|Other#1",
-        1
-      ],
-      [
-        [
-          "Raytheon",
-          "Flight Control Software Engineering Intern - Summer 2027 - Open",
-          "Cedar Rapids, IA",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027---Open-_01870974"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027---Open-_01870974|Raytheon|Flight Control Software Engineering Intern - Summer 2027 - Open|Cedar Rapids, IA|Other#1",
-        1
-      ],
-      [
-        [
-          "Raytheon",
-          "Software Engineering Intern - Summer 2027",
-          "El Segundo, CA",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Software-Engineering-Intern--Summer-2027-_01878820"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Software-Engineering-Intern--Summer-2027-_01878820|Raytheon|Software Engineering Intern - Summer 2027|El Segundo, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Riot Games",
-          "Software Engineering Intern - Summer 2027 - Remote",
-          "Los Angeles, CA",
-          "Other",
-          "https://www.riotgames.com/en/work-with-us/job/8222014?gh_jid=8222014"
-        ],
-        "https://www.riotgames.com/en/work-with-us/job/8222014?gh_jid=8222014|Riot Games|Software Engineering Intern - Summer 2027 - Remote|Los Angeles, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "SAS",
-          "Summer 2027 - Software Development and Testing Intern",
-          "Cary, NC",
-          "Other",
-          "https://careers-sas.icims.com/jobs/42964/summer-2027---software-development-and-testing-intern/job"
-        ],
-        "https://careers-sas.icims.com/jobs/42964/summer-2027---software-development-and-testing-intern/job|SAS|Summer 2027 - Software Development and Testing Intern|Cary, NC|Other#1",
-        1
-      ],
-      [
-        [
-          "SAS",
-          "Summer 2027 - Software Development and Testing Intern",
-          "Cary, NC",
-          "Other",
-          "https://careers-sas.icims.com/jobs/42964/summer-2027---software-development-and-testing-intern/job"
-        ],
-        "https://careers-sas.icims.com/jobs/42964/summer-2027---software-development-and-testing-intern/job|SAS|Summer 2027 - Software Development and Testing Intern|Cary, NC|Other#2",
-        2
-      ],
-      [
-        [
-          "Sony Pictures Entertainment",
-          "Intern - Cloud & Security Operations - Spring 2027",
-          "Culver City, CA",
-          "Other",
-          "https://spe.wd1.myworkdayjobs.com/en-US/sonypicturesentertainment/job/Culver-City-California/Intern--Cloud---Security-Operations---Spring-2027_JR114719"
-        ],
-        "https://spe.wd1.myworkdayjobs.com/en-US/sonypicturesentertainment/job/Culver-City-California/Intern--Cloud---Security-Operations---Spring-2027_JR114719|Sony Pictures Entertainment|Intern - Cloud & Security Operations - Spring 2027|Culver City, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Varda",
-          "Flight Software Internship - Summer 2027",
-          "El Segundo, CA",
-          "Other",
-          "https://job-boards.greenhouse.io/vardaspace/jobs/8010159003"
-        ],
-        "https://job-boards.greenhouse.io/vardaspace/jobs/8010159003|Varda|Flight Software Internship - Summer 2027|El Segundo, CA|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }
