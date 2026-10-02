@@ -56888,6 +56888,18 @@
       "chat_id": 7582459199,
       "seq": 4183,
       "identity": "https://job-boards.greenhouse.io/vardaspace/jobs/8010159003|Varda|Flight Software Internship - Summer 2027|El Segundo, CA|Other#1"
+    },
+    "5d2b93f35b7d": {
+      "company": "Cox",
+      "role": "Cybersecurity Intern - Summer 2027",
+      "location": "Atlanta GA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202683372?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5376,
+      "chat_id": 7582459199,
+      "seq": 4184,
+      "identity": "https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202683372?s=gh-internships-2027|Cox|Cybersecurity Intern - Summer 2027|Atlanta GA|Summer 2027#1"
     }
   },
   "applied": {
@@ -57255,10 +57267,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4183,
+  "seq": 4184,
   "health": {
     "last_heartbeat": "2026-10-02T17:40:16Z",
-    "last_ok_run": "2026-10-02T18:25:15Z",
+    "last_ok_run": "2026-10-02T18:30:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
