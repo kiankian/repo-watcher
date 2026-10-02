@@ -56408,6 +56408,18 @@
       "chat_id": 7582459199,
       "seq": 4143,
       "identity": "https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship-Application-Development--PA-_182757?utm_source=Simplify&ref=Simplify|Vanguard|College to Corporate IT Intern - Application Development|Malvern, PA|Summer 2026#1"
+    },
+    "bf6afe1bc021": {
+      "company": "Amazon.com Services LLC",
+      "role": "Software Development Engineer Intern (Embedded Systems) - Summer 2027 (USA)",
+      "location": "Seattle, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/amazon-f9319769-d29f-40d9-aa55-ae37e338cf83?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5336,
+      "chat_id": 7582459199,
+      "seq": 4144,
+      "identity": "https://zapply.jobs/l/d/amazon-f9319769-d29f-40d9-aa55-ae37e338cf83?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern (Embedded Systems) - Summer 2027 (USA)|Seattle, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -56775,10 +56787,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4143,
+  "seq": 4144,
   "health": {
     "last_heartbeat": "2026-10-02T15:25:18Z",
-    "last_ok_run": "2026-10-02T16:10:15Z",
+    "last_ok_run": "2026-10-02T16:18:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
