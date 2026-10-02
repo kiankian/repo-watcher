@@ -56288,6 +56288,18 @@
       "chat_id": 7582459199,
       "seq": 4133,
       "identity": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503?utm_source=Simplify&ref=Simplify|General Motors|Simulation Intern - Software Engineer - Autonomous Vehicle: Simulation|Sunnyvale, CA|Summer 2026#1"
+    },
+    "93562371f4ec": {
+      "company": "Mindex",
+      "role": "Software Engineer Co-op",
+      "location": "Rochester, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://apply.workable.com/mindex/j/84B10DB922/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5326,
+      "chat_id": 7582459199,
+      "seq": 4134,
+      "identity": "https://apply.workable.com/mindex/j/84B10DB922/apply?utm_source=Simplify&ref=Simplify|Mindex|Software Engineer Co-op|Rochester, NY|Summer 2026#1"
     }
   },
   "applied": {
@@ -56655,10 +56667,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4133,
+  "seq": 4134,
   "health": {
     "last_heartbeat": "2026-10-02T08:55:12Z",
-    "last_ok_run": "2026-10-02T09:30:18Z",
+    "last_ok_run": "2026-10-02T09:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
