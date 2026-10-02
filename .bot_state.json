@@ -57032,6 +57032,66 @@
       "chat_id": 7582459199,
       "seq": 4195,
       "identity": "https://zapply.jobs/l/d/greenhouse-affirm-8011590003?s=gh-internships-2027|Affirm|Software Engineer Intern (Summer 2027)|San Francisco, California,...|Summer 2027#1"
+    },
+    "24f1baed8eae": {
+      "company": "Affirm",
+      "role": "Software Engineer Intern - Machine Learning",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8008645003?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5388,
+      "chat_id": 7582459199,
+      "seq": 4196,
+      "identity": "https://job-boards.greenhouse.io/affirm/jobs/8008645003?utm_source=Simplify&ref=Simplify|Affirm|Software Engineer Intern - Machine Learning|SF|Summer 2026#1"
+    },
+    "259a7a198eb5": {
+      "company": "Affirm",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8011590003?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5389,
+      "chat_id": 7582459199,
+      "seq": 4197,
+      "identity": "https://job-boards.greenhouse.io/affirm/jobs/8011590003?utm_source=Simplify&ref=Simplify|Affirm|Software Engineer Intern - Summer 2027|SF|Summer 2026#1"
+    },
+    "551765de40f8": {
+      "company": "xAI",
+      "role": "Software Engineer Intern/Co-op",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/xai/jobs/5255111007?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5390,
+      "chat_id": 7582459199,
+      "seq": 4198,
+      "identity": "https://job-boards.greenhouse.io/xai/jobs/5255111007?utm_source=Simplify&ref=Simplify|xAI|Software Engineer Intern/Co-op|Palo Alto, CA|Summer 2026#1"
+    },
+    "19f5a6fba918": {
+      "company": "Elevance Health",
+      "role": "Engineering Intern",
+      "location": "4 locationsIndianapolis, IN Richmond, VA Chicago, IL Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://elevancehealth.wd1.myworkdayjobs.com/ELV-ET/job/GA-ATLANTA-740-W-PEACHTREE-ST-NW/Engineering-Undergraduate-Intern---Summer-2027_JR209081?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5391,
+      "chat_id": 7582459199,
+      "seq": 4199,
+      "identity": "https://elevancehealth.wd1.myworkdayjobs.com/ELV-ET/job/GA-ATLANTA-740-W-PEACHTREE-ST-NW/Engineering-Undergraduate-Intern---Summer-2027_JR209081?utm_source=Simplify&ref=Simplify|Elevance Health|Engineering Intern|4 locationsIndianapolis, IN Richmond, VA Chicago, IL Atlanta, GA|Summer 2026#1"
+    },
+    "d3020456d4ae": {
+      "company": "Elevance Health",
+      "role": "Engineering Graduate Intern \ud83c\udf93",
+      "location": "4 locationsIndianapolis, IN Richmond, VA Chicago, IL Atlanta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://elevancehealth.wd1.myworkdayjobs.com/ELV-ET/job/GA-ATLANTA-740-W-PEACHTREE-ST-NW/Engineering-Graduate-Intern---Summer-2027_JR209082?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5392,
+      "chat_id": 7582459199,
+      "seq": 4200,
+      "identity": "https://elevancehealth.wd1.myworkdayjobs.com/ELV-ET/job/GA-ATLANTA-740-W-PEACHTREE-ST-NW/Engineering-Graduate-Intern---Summer-2027_JR209082?utm_source=Simplify&ref=Simplify|Elevance Health|Engineering Graduate Intern \ud83c\udf93|4 locationsIndianapolis, IN Richmond, VA Chicago, IL Atlanta, GA|Summer 2026#1"
     }
   },
   "applied": {
@@ -57399,10 +57459,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4195,
+  "seq": 4200,
   "health": {
     "last_heartbeat": "2026-10-02T21:50:15Z",
-    "last_ok_run": "2026-10-02T22:30:24Z",
+    "last_ok_run": "2026-10-02T22:35:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
