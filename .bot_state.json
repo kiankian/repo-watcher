@@ -56900,6 +56900,78 @@
       "chat_id": 7582459199,
       "seq": 4184,
       "identity": "https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202683372?s=gh-internships-2027|Cox|Cybersecurity Intern - Summer 2027|Atlanta GA|Summer 2027#1"
+    },
+    "75fc39b02585": {
+      "company": "Pentair",
+      "role": "IT & Cybersecurity Leadership Development Internship Program -  Summer 2027",
+      "location": "Golden Valley, MN",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-pentair-pentair-careers-R23700?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5377,
+      "chat_id": 7582459199,
+      "seq": 4185,
+      "identity": "https://zapply.jobs/l/d/workday-pentair-pentair-careers-R23700?s=gh-internships-2027|Pentair|IT & Cybersecurity Leadership Development Internship Program -  Summer 2027|Golden Valley, MN|Summer 2027#1"
+    },
+    "cd55ec467f1f": {
+      "company": "Nelnet",
+      "role": "Intern - IT Software Engineer .NET (Summer 2027)",
+      "location": "Lincoln, NE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-nelnet-mynelnet-R23198?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5378,
+      "chat_id": 7582459199,
+      "seq": 4186,
+      "identity": "https://zapply.jobs/l/d/workday-nelnet-mynelnet-R23198?s=gh-internships-2027|Nelnet|Intern - IT Software Engineer .NET (Summer 2027)|Lincoln, NE|Summer 2027#1"
+    },
+    "c369af4e9672": {
+      "company": "Generac",
+      "role": "Micro-Grid Systems Engineering Co-Op / Summer Intern",
+      "location": "USA - CO Fort Collins",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-generac-external-JR17249?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5379,
+      "chat_id": 7582459199,
+      "seq": 4187,
+      "identity": "https://zapply.jobs/l/d/workday-generac-external-JR17249?s=gh-internships-2027|Generac|Micro-Grid Systems Engineering Co-Op / Summer Intern|USA - CO Fort Collins|Summer 2027#1"
+    },
+    "f9fda4c4483c": {
+      "company": "xAI",
+      "role": "Spring 2027 Software Engineering Internship/Co-op",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-xai-5252108007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5380,
+      "chat_id": 7582459199,
+      "seq": 4188,
+      "identity": "https://zapply.jobs/l/d/greenhouse-xai-5252108007?s=gh-internships-2027|xAI|Spring 2027 Software Engineering Internship/Co-op|Palo Alto, CA|Summer 2027#1"
+    },
+    "dc20711b5493": {
+      "company": "xAI",
+      "role": "Summer 2027 Software Engineering Internship/Co-op",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-xai-5255111007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5381,
+      "chat_id": 7582459199,
+      "seq": 4189,
+      "identity": "https://zapply.jobs/l/d/greenhouse-xai-5255111007?s=gh-internships-2027|xAI|Summer 2027 Software Engineering Internship/Co-op|Palo Alto, CA|Summer 2027#1"
+    },
+    "fed93995f5bd": {
+      "company": "ByteDance",
+      "role": "Production System Engineer Project Intern (Server DevOps) - 2027 Start",
+      "location": "New York, New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/bytedance-7665468666810370309?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5382,
+      "chat_id": 7582459199,
+      "seq": 4190,
+      "identity": "https://zapply.jobs/l/d/bytedance-7665468666810370309?s=gh-internships-2027|ByteDance|Production System Engineer Project Intern (Server DevOps) - 2027 Start|New York, New York|Summer 2027#1"
     }
   },
   "applied": {
@@ -57267,10 +57339,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4184,
+  "seq": 4190,
   "health": {
     "last_heartbeat": "2026-10-02T20:50:14Z",
-    "last_ok_run": "2026-10-02T21:05:14Z",
+    "last_ok_run": "2026-10-02T21:10:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
