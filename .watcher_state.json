@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "a654c6446959f8133f56728d7c25a5990b816621",
+    "last_sha": "30501a38f91da2c96f1b9ecb0e6042cf3306f162",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2376,10 +2376,13 @@
       "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Technical-Intern_R-00193820?utm_source=Simplify&ref=Simplify|Leidos|Technical Intern \ud83c\udf93|Remote in USA|Summer 2026#1",
       "https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/GM-Automation---Sunnyvale---GM-Automation---Sunnyvale/XMLNAME-2027-Summer-Intern---Software-Engineer--AV-AI-Platform_JR-202621696?utm_source=Simplify&ref=Simplify|General Motors|Software Engineer Intern - AV/AI Platform|Sunnyvale, CA Warren, MI|Summer 2026#1",
       "https://caci.wd1.myworkdayjobs.com/external/job/Austin-TX-US/Software-Engineer-Intern---Summer-2027_333037?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern|Austin, TX|Summer 2026#1",
-      "https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051?utm_source=Simplify&ref=Simplify|CACI|Software Development Intern|Ashburn, VA|Summer 2026#1"
+      "https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051?utm_source=Simplify&ref=Simplify|CACI|Software Development Intern|Ashburn, VA|Summer 2026#1",
+      "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Summer-2027/216239?utm_source=Simplify&ref=Simplify|Electronic Arts|Software Engineer Intern|Austin, TX|Summer 2026#1",
+      "https://hntb.wd5.myworkdayjobs.com/hntb_university_careers/job/Austin-TX/Intern---AI-Business-Process-Developer--Summer-2027-_R-31865?utm_source=Simplify&ref=Simplify|HNTB|AI Business Process Developer Intern|Austin, TX|Summer 2026#1",
+      "https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Austin-TX/Intern---AI-Business-Process-Developer--Summer-2027-_R-31865-1?utm_source=Simplify&ref=Simplify|HNTB|AI Business Process Developer Intern|Austin, TX|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 661,
+    "last_row_count": 664,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -2701,7 +2704,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "468a909517b336228b4e75d53a1acfaa7462f25a",
+    "last_sha": "ec2ef95f5cd0035d9e07c8adde163cd6e7c66353",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
