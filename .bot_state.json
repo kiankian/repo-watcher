@@ -57620,6 +57620,18 @@
       "chat_id": 7582459199,
       "seq": 4244,
       "identity": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32359?utm_source=Simplify&ref=Simplify|Navy Federal|Associate Intern - Lending Automation Technology & Solutions|Pensacola, FL Vienna, VA|Summer 2026#1"
+    },
+    "7b60bf5f641a": {
+      "company": "Saab",
+      "role": "Systems Engineer Co-op",
+      "location": "East Syracuse, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Systems-Engineering-Co-Op--Summer-2027-_R-03231-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5437,
+      "chat_id": 7582459199,
+      "seq": 4245,
+      "identity": "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Systems-Engineering-Co-Op--Summer-2027-_R-03231-1?utm_source=Simplify&ref=Simplify|Saab|Systems Engineer Co-op|East Syracuse, NY|Summer 2026#1"
     }
   },
   "applied": {
@@ -57987,10 +57999,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4244,
+  "seq": 4245,
   "health": {
     "last_heartbeat": "2026-10-04T13:20:17Z",
-    "last_ok_run": "2026-10-04T13:30:21Z",
+    "last_ok_run": "2026-10-04T13:35:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
