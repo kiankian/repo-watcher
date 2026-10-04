@@ -57584,6 +57584,18 @@
       "chat_id": 7582459199,
       "seq": 4241,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876518?s=gh-internships-2027|RTX|Avionics Test Engineering -Systems Engineer Intern (Onsite)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "b810096c296e": {
+      "company": "Gartner",
+      "role": "IT Intern",
+      "location": "Stamford, CT",
+      "term": "Summer 2026",
+      "apply_url": "https://gartner.wd5.myworkdayjobs.com/EXT/job/Stamford-CT/Summer-2027-IT-Intern--May-2028-Graduates-_113095?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5434,
+      "chat_id": 7582459199,
+      "seq": 4242,
+      "identity": "https://gartner.wd5.myworkdayjobs.com/EXT/job/Stamford-CT/Summer-2027-IT-Intern--May-2028-Graduates-_113095?utm_source=Simplify&ref=Simplify|Gartner|IT Intern|Stamford, CT|Summer 2026#1"
     }
   },
   "applied": {
@@ -57951,10 +57963,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4241,
+  "seq": 4242,
   "health": {
     "last_heartbeat": "2026-10-04T05:25:15Z",
-    "last_ok_run": "2026-10-04T06:31:26Z",
+    "last_ok_run": "2026-10-04T06:35:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
