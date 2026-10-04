@@ -4705,7 +4705,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "5184c5f76c097f7e8767f89e45c932ac2af4a1f5",
+    "last_sha": "18f62637623c6ec76ba5da9d837306a97824d165",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -4870,7 +4870,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "5184c5f76c097f7e8767f89e45c932ac2af4a1f5",
+    "last_sha": "18f62637623c6ec76ba5da9d837306a97824d165",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -4911,7 +4911,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "5184c5f76c097f7e8767f89e45c932ac2af4a1f5",
+    "last_sha": "18f62637623c6ec76ba5da9d837306a97824d165",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -6023,7 +6023,16 @@
       "https://jobs.lever.co/shopback-2/640ac3fb-dae5-4738-95b9-9cb80cc7ad15|ShopBack|Software Engineer Intern|San Francisco, CA|Other#1",
       "https://jobs.lever.co/shopback-2/e5f5e276-e7f7-43e0-a224-5259d242fe98|ShopBack|Software Engineer Intern|New York City, NY|Other#1",
       "https://spartannash.wd1.myworkdayjobs.com/en-US/spartannash_careers/job/Byron-Center-Michigan/IS-Internship---IT-Ecommerce---Marketing-Developer_R90110|SpartanNash|IS Internship - IT Ecommerce & Marketing Developer|Byron Center, MI|Other#1",
-      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772|Northrop Grumman|2027 Software Engineer Intern - Rolling Meadows IL|Rolling Meadows, IL|Other#1"
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772|Northrop Grumman|2027 Software Engineer Intern - Rolling Meadows IL|Rolling Meadows, IL|Other#1",
+      "https://revvity.wd103.myworkdayjobs.com/en-US/external/job/Akron/Software-Integration-Co-Op--Spring-2027-_JR-045618|Revvity|Software Integration Co-Op - Spring 2027|Akron, OH|Other#1",
+      "https://revvity.wd103.myworkdayjobs.com/en-US/external/job/Akron/Software-Integration-Co-Op--Spring-2027-_JR-045616|Revvity|Software Integration Co-Op - Spring 2027|Akron, OH|Other#1",
+      "https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Verification-Engineer--AV-AI-Platform_JR-202621697|General Motors|2027 Summer Intern - Software Verification Engineer - AV/AI Platform|Warren, MI|Other#1",
+      "https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/GM-Automation---Sunnyvale---GM-Automation---Sunnyvale/XMLNAME-2027-Summer-Intern---Software-Engineer--AV-AI-Platform_JR-202621696|General Motors|2027 Summer Intern - Software Engineer - AV/AI Platform|Sunnyvale, CA +1|Other#1",
+      "https://idtus.pinpointhq.com/en/postings/0be468fd-19df-4455-b4a2-5c4392574805|Innovative Defense Technologies|Software Systems Engineer Intern|San Diego, CA|Other#1",
+      "https://idtus.pinpointhq.com/en/postings/58417813-ec8f-4d3b-9728-40b13c6b358d|Innovative Defense Technologies|Software Systems Engineer Intern|Mount Laurel, NJ|Other#1",
+      "https://jci.wd5.myworkdayjobs.com/en-US/jci/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1|Johnson Controls|Software/Controls Engineering Grad Intern - Fall Intern|Salem, VA|Other#1",
+      "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804|Leidos|Software Developer Intern|Annapolis Junction, MD|Other#1",
+      "https://ideas-sas.icims.com/jobs/42665/software-developer-in-test-intern/job|SAS|Software Developer in Test Intern|Bloomington, MN|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -6167,7 +6176,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 647,
+    "last_row_count": 653,
     "outbox": []
   }
 }
