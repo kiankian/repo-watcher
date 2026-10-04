@@ -57596,6 +57596,18 @@
       "chat_id": 7582459199,
       "seq": 4242,
       "identity": "https://gartner.wd5.myworkdayjobs.com/EXT/job/Stamford-CT/Summer-2027-IT-Intern--May-2028-Graduates-_113095?utm_source=Simplify&ref=Simplify|Gartner|IT Intern|Stamford, CT|Summer 2026#1"
+    },
+    "733cc942ba99": {
+      "company": "incident.io",
+      "role": "Product Engineer Placement Intern",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/incident/2f692a4d-91b4-4d0f-ae39-b38b68a24a27/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5435,
+      "chat_id": 7582459199,
+      "seq": 4243,
+      "identity": "https://jobs.ashbyhq.com/incident/2f692a4d-91b4-4d0f-ae39-b38b68a24a27/application?embed=true&utm_source=Simplify&ref=Simplify|incident.io|Product Engineer Placement Intern|London, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -57963,10 +57975,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4242,
+  "seq": 4243,
   "health": {
     "last_heartbeat": "2026-10-04T08:50:17Z",
-    "last_ok_run": "2026-10-04T09:30:17Z",
+    "last_ok_run": "2026-10-04T09:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
