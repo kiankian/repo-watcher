@@ -57572,6 +57572,18 @@
       "chat_id": 7582459199,
       "seq": 4240,
       "identity": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772|Northrop Grumman|2027 Software Engineer Intern - Rolling Meadows IL|Rolling Meadows, IL|Other#1"
+    },
+    "a61fb3d58088": {
+      "company": "RTX",
+      "role": "Avionics Test Engineering -Systems Engineer Intern (Onsite)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876518?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5433,
+      "chat_id": 7582459199,
+      "seq": 4241,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876518?s=gh-internships-2027|RTX|Avionics Test Engineering -Systems Engineer Intern (Onsite)|IA-CEDAR RAPIDS|Summer 2027#1"
     }
   },
   "applied": {
@@ -57939,10 +57951,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4240,
+  "seq": 4241,
   "health": {
     "last_heartbeat": "2026-10-04T02:20:14Z",
-    "last_ok_run": "2026-10-04T02:50:14Z",
+    "last_ok_run": "2026-10-04T02:55:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
