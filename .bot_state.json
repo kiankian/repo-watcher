@@ -57968,6 +57968,66 @@
       "chat_id": 7582459199,
       "seq": 4273,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01874556?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "382991c07aa2": {
+      "company": "Waymo",
+      "role": "2027 Summer Intern, MS/PhD, Software Engineer, Eval Data Infra",
+      "location": "Mountain View, CA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-waymo-8257205?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5466,
+      "chat_id": 7582459199,
+      "seq": 4274,
+      "identity": "https://zapply.jobs/l/d/greenhouse-waymo-8257205?s=gh-internships-2027|Waymo|2027 Summer Intern, MS/PhD, Software Engineer, Eval Data Infra|Mountain View, CA, USA|Summer 2027#1"
+    },
+    "81adc9148651": {
+      "company": "Bosch Group",
+      "role": "2027 Spring Quality Engineering Co-op / QMM6 - 1st Shift",
+      "location": "Charleston, SC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-BoschGroup-744000153601138?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5467,
+      "chat_id": 7582459199,
+      "seq": 4275,
+      "identity": "https://zapply.jobs/l/d/sr-BoschGroup-744000153601138?s=gh-internships-2027|Bosch Group|2027 Spring Quality Engineering Co-op / QMM6 - 1st Shift|Charleston, SC|Summer 2027#1"
+    },
+    "dc7437d9c28e": {
+      "company": "Texas Instruments",
+      "role": "Software Engineering Intern",
+      "location": "Santa Clara, CA, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-texas-instruments-25016392?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5468,
+      "chat_id": 7582459199,
+      "seq": 4276,
+      "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25016392?s=gh-internships-2027|Texas Instruments|Software Engineering Intern|Santa Clara, CA, United States|Summer 2027#1"
+    },
+    "d29d49697b4c": {
+      "company": "Khan Academy",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Remote - USA",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/khanacademy/jobs/8250259",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5469,
+      "chat_id": 7582459199,
+      "seq": 4277,
+      "identity": "https://job-boards.greenhouse.io/khanacademy/jobs/8250259|Khan Academy|Software Engineer Intern - Summer 2027|Remote - USA|Other#1"
+    },
+    "55b6bbad7eb2": {
+      "company": "Quantum Signal AI",
+      "role": "Software Engineering Intern - Tools and Prototypes",
+      "location": "Saline, MI",
+      "term": "Other",
+      "apply_url": "https://quantumsignalai.applytojob.com/apply/MWrhQD8Hn9/Software-Engineering-Intern-Tools-And-Prototypes",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5470,
+      "chat_id": 7582459199,
+      "seq": 4278,
+      "identity": "https://quantumsignalai.applytojob.com/apply/MWrhQD8Hn9/Software-Engineering-Intern-Tools-And-Prototypes|Quantum Signal AI|Software Engineering Intern - Tools and Prototypes|Saline, MI|Other#1"
     }
   },
   "applied": {
@@ -58335,10 +58395,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4273,
+  "seq": 4278,
   "health": {
     "last_heartbeat": "2026-10-05T19:20:32Z",
-    "last_ok_run": "2026-10-05T20:38:48Z",
+    "last_ok_run": "2026-10-05T21:20:04Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
