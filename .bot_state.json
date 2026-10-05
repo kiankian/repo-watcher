@@ -58052,6 +58052,18 @@
       "chat_id": 7582459199,
       "seq": 4280,
       "identity": "https://zapply.jobs/l/d/bytedance-7672626707586746629?s=gh-internships-2027|ByteDance|Software Engineer Intern (Traffic Infrastructure) - 2027 Summer|San Jose, California|Summer 2027#1"
+    },
+    "37656d558e62": {
+      "company": "Expedia Group",
+      "role": "Software Development Engineering Intern - 2027 - Austin, San Jose, Seattle",
+      "location": "Washington Seattle",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-expedia-private-R-110311?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5473,
+      "chat_id": 7582459199,
+      "seq": 4281,
+      "identity": "https://zapply.jobs/l/d/workday-expedia-private-R-110311?s=gh-internships-2027|Expedia Group|Software Development Engineering Intern - 2027 - Austin, San Jose, Seattle|Washington Seattle|Summer 2027#1"
     }
   },
   "applied": {
@@ -58419,10 +58431,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4280,
+  "seq": 4281,
   "health": {
     "last_heartbeat": "2026-10-05T21:30:31Z",
-    "last_ok_run": "2026-10-05T21:35:15Z",
+    "last_ok_run": "2026-10-05T21:40:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
