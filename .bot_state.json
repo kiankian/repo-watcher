@@ -58028,6 +58028,30 @@
       "chat_id": 7582459199,
       "seq": 4278,
       "identity": "https://quantumsignalai.applytojob.com/apply/MWrhQD8Hn9/Software-Engineering-Intern-Tools-And-Prototypes|Quantum Signal AI|Software Engineering Intern - Tools and Prototypes|Saline, MI|Other#1"
+    },
+    "aaba299101ec": {
+      "company": "General Motors",
+      "role": "2027 Summer Intern- ADAS Software Engineer, ADPT",
+      "location": "2 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202621820?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5471,
+      "chat_id": 7582459199,
+      "seq": 4279,
+      "identity": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202621820?s=gh-internships-2027|General Motors|2027 Summer Intern- ADAS Software Engineer, ADPT|2 Locations|Summer 2027#1"
+    },
+    "7706676e9ea0": {
+      "company": "ByteDance",
+      "role": "Software Engineer Intern (Traffic Infrastructure) - 2027 Summer",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/bytedance-7672626707586746629?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5472,
+      "chat_id": 7582459199,
+      "seq": 4280,
+      "identity": "https://zapply.jobs/l/d/bytedance-7672626707586746629?s=gh-internships-2027|ByteDance|Software Engineer Intern (Traffic Infrastructure) - 2027 Summer|San Jose, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -58395,10 +58419,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4278,
+  "seq": 4280,
   "health": {
     "last_heartbeat": "2026-10-05T19:20:32Z",
-    "last_ok_run": "2026-10-05T21:20:04Z",
+    "last_ok_run": "2026-10-05T21:29:44Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
