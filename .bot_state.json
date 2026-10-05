@@ -57944,6 +57944,18 @@
       "chat_id": 7582459199,
       "seq": 4271,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-332843?s=gh-internships-2027|CACI|Network Engineer Intern - Summer 2027|High Point, NC, US|Summer 2027#1"
+    },
+    "4d741593558a": {
+      "company": "Oshkosh Corporation",
+      "role": "Supplier Quality Engineer Intern",
+      "location": "Oshkosh, Wisconsin, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R50855?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5464,
+      "chat_id": 7582459199,
+      "seq": 4272,
+      "identity": "https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R50855?s=gh-internships-2027|Oshkosh Corporation|Supplier Quality Engineer Intern|Oshkosh, Wisconsin, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -58311,10 +58323,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4271,
+  "seq": 4272,
   "health": {
     "last_heartbeat": "2026-10-05T18:20:18Z",
-    "last_ok_run": "2026-10-05T18:20:18Z",
+    "last_ok_run": "2026-10-05T18:25:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
