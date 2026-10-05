@@ -58076,6 +58076,42 @@
       "chat_id": 7582459199,
       "seq": 4282,
       "identity": "https://zapply.jobs/l/d/workday-expedia-private-R-110310?s=gh-internships-2027|Expedia Group|Security Engineering Intern - 2027 - Seattle|Washington - Seattle|Summer 2027#1"
+    },
+    "d6afeaa8da3c": {
+      "company": "Midland States Bank",
+      "role": "AI Solutions Engineer Intern",
+      "location": "Rockford, IL St. Louis, MO Effingham, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://midlandsb.wd1.myworkdayjobs.com/msbcareers/job/Effingham-IL/Intern---AI-Solutions-Engineer_JR1461?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5475,
+      "chat_id": 7582459199,
+      "seq": 4283,
+      "identity": "https://midlandsb.wd1.myworkdayjobs.com/msbcareers/job/Effingham-IL/Intern---AI-Solutions-Engineer_JR1461?utm_source=Simplify&ref=Simplify|Midland States Bank|AI Solutions Engineer Intern|Rockford, IL St. Louis, MO Effingham, IL|Summer 2026#1"
+    },
+    "139cbe229390": {
+      "company": "Expedia Group",
+      "role": "Software Development Engineer Intern",
+      "location": "Seattle, WA Austin, TX San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5476,
+      "chat_id": 7582459199,
+      "seq": 4284,
+      "identity": "https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311?utm_source=Simplify&ref=Simplify|Expedia Group|Software Development Engineer Intern|Seattle, WA Austin, TX San Jose, CA|Summer 2026#1"
+    },
+    "107df9cf6781": {
+      "company": "Expedia Group",
+      "role": "Mobile Engineer Intern",
+      "location": "Seattle, WA Austin, TX San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Mobile-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110306?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5477,
+      "chat_id": 7582459199,
+      "seq": 4285,
+      "identity": "https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Mobile-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110306?utm_source=Simplify&ref=Simplify|Expedia Group|Mobile Engineer Intern|Seattle, WA Austin, TX San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -58443,10 +58479,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4282,
+  "seq": 4285,
   "health": {
     "last_heartbeat": "2026-10-05T21:30:31Z",
-    "last_ok_run": "2026-10-05T22:30:21Z",
+    "last_ok_run": "2026-10-05T22:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
