@@ -57884,6 +57884,18 @@
       "chat_id": 7582459199,
       "seq": 4266,
       "identity": "https://caci.wd1.myworkdayjobs.com/external/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085?utm_source=Simplify&ref=Simplify|CACI|Software Development Intern|Oklahoma City, OK|Summer 2026#1"
+    },
+    "fa2d1f63183a": {
+      "company": "Verizon",
+      "role": "Verizon Business Group: Solutions Architect Summer 2027 Internship",
+      "location": "Basking Ridge, New Jersey",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-verizon-verizon-careers-R-1101738?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5459,
+      "chat_id": 7582459199,
+      "seq": 4267,
+      "identity": "https://zapply.jobs/l/d/workday-verizon-verizon-careers-R-1101738?s=gh-internships-2027|Verizon|Verizon Business Group: Solutions Architect Summer 2027 Internship|Basking Ridge, New Jersey|Summer 2027#1"
     }
   },
   "applied": {
@@ -58251,10 +58263,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4266,
+  "seq": 4267,
   "health": {
     "last_heartbeat": "2026-10-05T15:00:27Z",
-    "last_ok_run": "2026-10-05T16:00:25Z",
+    "last_ok_run": "2026-10-05T16:05:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
