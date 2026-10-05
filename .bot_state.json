@@ -57860,6 +57860,30 @@
       "chat_id": 7582459199,
       "seq": 4264,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876452?s=gh-internships-2027|RTX|Systems Engineer Intern- Onsite|FL-MELBOURNE|Summer 2027#1"
+    },
+    "94d5c15702a2": {
+      "company": "Motorola",
+      "role": "Android Applications Developer Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R69313?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5457,
+      "chat_id": 7582459199,
+      "seq": 4265,
+      "identity": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R69313?utm_source=Simplify&ref=Simplify|Motorola|Android Applications Developer Intern|Chicago, IL|Summer 2026#1"
+    },
+    "6cdf93b43c17": {
+      "company": "CACI",
+      "role": "Software Development Intern",
+      "location": "Oklahoma City, OK",
+      "term": "Summer 2026",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/external/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5458,
+      "chat_id": 7582459199,
+      "seq": 4266,
+      "identity": "https://caci.wd1.myworkdayjobs.com/external/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085?utm_source=Simplify&ref=Simplify|CACI|Software Development Intern|Oklahoma City, OK|Summer 2026#1"
     }
   },
   "applied": {
@@ -58227,10 +58251,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4264,
+  "seq": 4266,
   "health": {
     "last_heartbeat": "2026-10-05T15:00:27Z",
-    "last_ok_run": "2026-10-05T15:00:27Z",
+    "last_ok_run": "2026-10-05T15:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
