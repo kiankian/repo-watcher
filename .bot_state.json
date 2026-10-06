@@ -58916,6 +58916,18 @@
       "chat_id": 7582459199,
       "seq": 4352,
       "identity": "https://zapply.jobs/l/d/amazon-e0dbf672-4d05-463a-9cc2-2ba2478f3480?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern - Mobile(iOS/Android) - Summer 2027 (USA)|Seattle, WA|Summer 2027#1"
+    },
+    "2d7c00619110": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "TX-MCKINNEY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879520?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5547,
+      "chat_id": 7582459199,
+      "seq": 4353,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879520?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|TX-MCKINNEY|Summer 2027#1"
     }
   },
   "applied": {
@@ -59283,10 +59295,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4352,
+  "seq": 4353,
   "health": {
     "last_heartbeat": "2026-10-06T19:25:17Z",
-    "last_ok_run": "2026-10-06T19:35:16Z",
+    "last_ok_run": "2026-10-06T19:40:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
