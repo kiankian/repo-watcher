@@ -59276,6 +59276,18 @@
       "chat_id": 7582459199,
       "seq": 4382,
       "identity": "https://zapply.jobs/l/d/greenhouse-sigmacomputing-7850795003?s=gh-internships-2027|Sigma Computing|Software Engineering Intern (Summer 2027)|San Francisco, CA|Summer 2027#1"
+    },
+    "8a6f51ad715f": {
+      "company": "Figure AI",
+      "role": "Security Engineer Intern \\[Winter 2027\\]",
+      "location": "San Jose, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-figureai-4719593006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5579,
+      "chat_id": 7582459199,
+      "seq": 4383,
+      "identity": "https://zapply.jobs/l/d/greenhouse-figureai-4719593006?s=gh-internships-2027|Figure AI|Security Engineer Intern \\[Winter 2027\\]|San Jose, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -59643,10 +59655,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4382,
+  "seq": 4383,
   "health": {
     "last_heartbeat": "2026-10-06T22:55:15Z",
-    "last_ok_run": "2026-10-06T23:20:18Z",
+    "last_ok_run": "2026-10-06T23:25:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
