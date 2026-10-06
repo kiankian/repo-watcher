@@ -58424,6 +58424,18 @@
       "chat_id": 7582459199,
       "seq": 4311,
       "identity": "https://zapply.jobs/l/d/oracle-vertiv-20279268?s=gh-internships-2027|Vertiv|Quality Engineer Intern (Summer 2027)|Ironton, OH, United States|Summer 2027#1"
+    },
+    "14a9cf13a587": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Software Engineer I (For 2026 Interns Only)",
+      "location": "Dayton, OH",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030889?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5506,
+      "chat_id": 7582459199,
+      "seq": 4312,
+      "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030889?s=gh-internships-2027|Sierra Nevada Corporation|Software Engineer I (For 2026 Interns Only)|Dayton, OH|Summer 2027#1"
     }
   },
   "applied": {
@@ -58791,10 +58803,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4311,
+  "seq": 4312,
   "health": {
     "last_heartbeat": "2026-10-06T13:50:19Z",
-    "last_ok_run": "2026-10-06T14:15:19Z",
+    "last_ok_run": "2026-10-06T14:20:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
