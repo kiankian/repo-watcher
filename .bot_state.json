@@ -58580,6 +58580,18 @@
       "chat_id": 7582459199,
       "seq": 4324,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871884?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "7f6a0cf6c1b0": {
+      "company": "Generac",
+      "role": "Micro-Grid Systems Engineering Co-Op",
+      "location": "USA - CO Fort Collins",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-generac-external-JR17249?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5519,
+      "chat_id": 7582459199,
+      "seq": 4325,
+      "identity": "https://zapply.jobs/l/d/workday-generac-external-JR17249?s=gh-internships-2027|Generac|Micro-Grid Systems Engineering Co-Op|USA - CO Fort Collins|Summer 2027#1"
     }
   },
   "applied": {
@@ -58947,10 +58959,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4324,
+  "seq": 4325,
   "health": {
     "last_heartbeat": "2026-10-06T17:20:17Z",
-    "last_ok_run": "2026-10-06T17:20:17Z",
+    "last_ok_run": "2026-10-06T17:25:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
