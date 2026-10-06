@@ -59060,6 +59060,30 @@
       "chat_id": 7582459199,
       "seq": 4364,
       "identity": "https://zapply.jobs/l/d/phenom-mitre-R117610?s=gh-internships-2027|MITRE|Systems Engineer Intern|McLean, Virginia|Summer 2027#1"
+    },
+    "83f5992fce31": {
+      "company": "\ud83d\udd25 Waymo",
+      "role": "Intern \ud83c\udf93",
+      "location": "Mountain View, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=8250220&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5561,
+      "chat_id": 7582459199,
+      "seq": 4365,
+      "identity": "https://careers.withwaymo.com/jobs?gh_jid=8250220&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|Intern \ud83c\udf93|Mountain View, CA|Summer 2026#1"
+    },
+    "e8a58ef55807": {
+      "company": "\ud83d\udd25 Waymo",
+      "role": "ML Ops & Automation Intern",
+      "location": "Mountain View, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=8257237&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5562,
+      "chat_id": 7582459199,
+      "seq": 4366,
+      "identity": "https://careers.withwaymo.com/jobs?gh_jid=8257237&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|ML Ops & Automation Intern|Mountain View, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -59427,10 +59451,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4364,
+  "seq": 4366,
   "health": {
     "last_heartbeat": "2026-10-06T21:55:15Z",
-    "last_ok_run": "2026-10-06T22:30:19Z",
+    "last_ok_run": "2026-10-06T22:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
