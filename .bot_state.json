@@ -58400,6 +58400,30 @@
       "chat_id": 7582459199,
       "seq": 4309,
       "identity": "https://zapply.jobs/l/d/microsoft-200059070?s=gh-internships-2027|Microsoft|Software Engineering Internship Opportunities|United States|Summer 2027#1"
+    },
+    "1dff08deb73a": {
+      "company": "Vertiv",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "Delaware, OH, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-vertiv-20278777?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5504,
+      "chat_id": 7582459199,
+      "seq": 4310,
+      "identity": "https://zapply.jobs/l/d/oracle-vertiv-20278777?s=gh-internships-2027|Vertiv|Software Engineering Intern (Summer 2027)|Delaware, OH, United States|Summer 2027#1"
+    },
+    "59d8b5b03fc9": {
+      "company": "Vertiv",
+      "role": "Quality Engineer Intern (Summer 2027)",
+      "location": "Ironton, OH, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-vertiv-20279268?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5505,
+      "chat_id": 7582459199,
+      "seq": 4311,
+      "identity": "https://zapply.jobs/l/d/oracle-vertiv-20279268?s=gh-internships-2027|Vertiv|Quality Engineer Intern (Summer 2027)|Ironton, OH, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -58767,10 +58791,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4309,
+  "seq": 4311,
   "health": {
     "last_heartbeat": "2026-10-06T12:50:19Z",
-    "last_ok_run": "2026-10-06T13:40:17Z",
+    "last_ok_run": "2026-10-06T13:45:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
