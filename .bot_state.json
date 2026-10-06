@@ -58880,6 +58880,18 @@
       "chat_id": 7582459199,
       "seq": 4349,
       "identity": "https://jobs.eu.lever.co/cirrus/f8d30ab0-8c95-4c83-8188-fb45a2cfc9ec|Cirrus Logic|2027 Internship - Embedded Software Engineer|Austin, TX|Other#1"
+    },
+    "65a721c6c195": {
+      "company": "Philips",
+      "role": "Co-op \u2013 Software Engineer (R&D) \u2013 Cambridge, MA \u2013 January - August 2027",
+      "location": "Cambridge (US), Massachusetts,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-588891?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5544,
+      "chat_id": 7582459199,
+      "seq": 4350,
+      "identity": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-588891?s=gh-internships-2027|Philips|Co-op \u2013 Software Engineer (R&D) \u2013 Cambridge, MA \u2013 January - August 2027|Cambridge (US), Massachusetts,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -59247,10 +59259,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4349,
+  "seq": 4350,
   "health": {
     "last_heartbeat": "2026-10-06T17:20:17Z",
-    "last_ok_run": "2026-10-06T18:15:54Z",
+    "last_ok_run": "2026-10-06T18:20:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z"
