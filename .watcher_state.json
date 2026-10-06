@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "3071b462b6e88591852575b61099c408c6186262",
+    "last_sha": "6d004386d4fb568319768a0561874e0cfd71b777",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -4617,7 +4617,8 @@
       "https://zapply.jobs/l/d/amazon-e0dbf672-4d05-463a-9cc2-2ba2478f3480?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern - Mobile(iOS/Android) - Summer 2027 (USA)|Seattle, WA|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879520?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|TX-MCKINNEY|Summer 2027#1",
       "https://zapply.jobs/l/d/greenhouse-lyft-8817974002?s=gh-internships-2027|Lyft|Software Engineer Intern, Machine Learning, PhD only (Summer 2027)|San Francisco, CA|Summer 2027#1",
-      "https://zapply.jobs/l/d/greenhouse-knowbe4-8870749002?s=gh-internships-2027|KnowBe4|Software Engineer Intern (Remote)|Remote|Summer 2027#1"
+      "https://zapply.jobs/l/d/greenhouse-knowbe4-8870749002?s=gh-internships-2027|KnowBe4|Software Engineer Intern (Remote)|Remote|Summer 2027#1",
+      "https://zapply.jobs/l/d/greenhouse-lyft-8817974002?s=gh-internships-2027|Lyft|Software Engineer Intern, Machine Learning, PhD (Summer 2027)|San Francisco, CA|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
@@ -4778,19 +4779,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 100,
-    "outbox": [
-      [
-        [
-          "Lyft",
-          "Software Engineer Intern, Machine Learning, PhD (Summer 2027)",
-          "San Francisco, CA",
-          "Summer 2027",
-          "https://zapply.jobs/l/d/greenhouse-lyft-8817974002?s=gh-internships-2027"
-        ],
-        "https://zapply.jobs/l/d/greenhouse-lyft-8817974002?s=gh-internships-2027|Lyft|Software Engineer Intern, Machine Learning, PhD (Summer 2027)|San Francisco, CA|Summer 2027#1",
-        1
-      ]
-    ]
+    "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
     "last_sha": "84647813b641a65aa2527c71bef0747d659d08b6",
