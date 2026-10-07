@@ -60008,6 +60008,54 @@
       "chat_id": 7582459199,
       "seq": 4443,
       "identity": "https://zapply.jobs/l/d/workday-draper-draper-careers-JR002974?s=gh-internships-2027|Draper|Operating Systems and Embedded Software Development Co-Op (Spring 2027)|Lowell, MA|Summer 2027#1"
+    },
+    "53f846e646b6": {
+      "company": "Nissan",
+      "role": "Systems Engineer Intern - Summer 2027 - Canton, MS",
+      "location": "Canton, Mississippi - United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-alliance-nissanjobs-R00214882?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5640,
+      "chat_id": 7582459199,
+      "seq": 4444,
+      "identity": "https://zapply.jobs/l/d/workday-alliance-nissanjobs-R00214882?s=gh-internships-2027|Nissan|Systems Engineer Intern - Summer 2027 - Canton, MS|Canton, Mississippi - United...|Summer 2027#1"
+    },
+    "787e4dadf04f": {
+      "company": "RTX",
+      "role": "Systems Engineer Co-Op (Summer/Fall 2027) - Onsite",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879966?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5641,
+      "chat_id": 7582459199,
+      "seq": 4445,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879966?s=gh-internships-2027|RTX|Systems Engineer Co-Op (Summer/Fall 2027) - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "005b90e1b457": {
+      "company": "Aerospace Corporation",
+      "role": "2027 Embedded Systems / Software Engineering Undergrad Intern",
+      "location": "Chantilly, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-aero-external-R016804?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5642,
+      "chat_id": 7582459199,
+      "seq": 4446,
+      "identity": "https://zapply.jobs/l/d/workday-aero-external-R016804?s=gh-internships-2027|Aerospace Corporation|2027 Embedded Systems / Software Engineering Undergrad Intern|Chantilly, VA|Summer 2027#1"
+    },
+    "7e1568fbd7c9": {
+      "company": "State Affairs",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "Washington, DC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-stateaffairs-4437430009?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5643,
+      "chat_id": 7582459199,
+      "seq": 4447,
+      "identity": "https://zapply.jobs/l/d/greenhouse-stateaffairs-4437430009?s=gh-internships-2027|State Affairs|Software Engineer Intern (Summer 2027)|Washington, DC|Summer 2027#1"
     }
   },
   "applied": {
@@ -60375,10 +60423,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4443,
+  "seq": 4447,
   "health": {
     "last_heartbeat": "2026-10-07T20:50:16Z",
-    "last_ok_run": "2026-10-07T21:00:24Z",
+    "last_ok_run": "2026-10-07T21:05:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
