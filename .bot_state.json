@@ -59432,6 +59432,18 @@
       "chat_id": 7582459199,
       "seq": 4395,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10254852?s=gh-internships-2027|Northrop Grumman|2027 Software Engineering Intern - Roy UT|United States-Utah-Roy|Summer 2027#1"
+    },
+    "76e699e6f1b9": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Developer Intern- Chantilly VA",
+      "location": "United States-Virginia-Chantilly",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10254863?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5592,
+      "chat_id": 7582459199,
+      "seq": 4396,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10254863?s=gh-internships-2027|Northrop Grumman|2027 Software Developer Intern- Chantilly VA|United States-Virginia-Chantilly|Summer 2027#1"
     }
   },
   "applied": {
@@ -59799,10 +59811,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4395,
+  "seq": 4396,
   "health": {
     "last_heartbeat": "2026-10-07T13:20:19Z",
-    "last_ok_run": "2026-10-07T13:20:19Z",
+    "last_ok_run": "2026-10-07T13:25:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
