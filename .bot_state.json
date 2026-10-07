@@ -59444,6 +59444,18 @@
       "chat_id": 7582459199,
       "seq": 4396,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10254863?s=gh-internships-2027|Northrop Grumman|2027 Software Developer Intern- Chantilly VA|United States-Virginia-Chantilly|Summer 2027#1"
+    },
+    "1135e496d790": {
+      "company": "S&C Electric Company",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107374?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5593,
+      "chat_id": 7582459199,
+      "seq": 4397,
+      "identity": "https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107374?utm_source=Simplify&ref=Simplify|S&C Electric Company|Software Engineer Intern|Chicago, IL|Summer 2026#1"
     }
   },
   "applied": {
@@ -59811,10 +59823,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4396,
+  "seq": 4397,
   "health": {
     "last_heartbeat": "2026-10-07T14:20:19Z",
-    "last_ok_run": "2026-10-07T15:00:24Z",
+    "last_ok_run": "2026-10-07T15:05:52Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
