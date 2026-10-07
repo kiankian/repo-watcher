@@ -6216,7 +6216,9 @@
       "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-NC-MORRISVILLE-907--951-Aviation-Pkwy--907-BLDG/Software-Engineering-Intern--Summer-2027-_01879721|Raytheon|Software Engineering Intern - Summer 2027|Morrisville, NC|Other#1",
       "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Mequon-Wisconsin-United-States/Intern--Firmware-and-Software-Test-Development_R26-7568-1|Rockwell Automation|Intern - Firmware and Software Test Development|Mequon, WI|Other#1",
       "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Dayton-OH/Software-Engineer-I--For-2026-Interns-Only-_R0030889|Sierra Nevada Corporation|Software Engineer I - For 2026 Interns Only|Dayton, OH|Other#1",
-      "https://kendallgroup.wd503.myworkdayjobs.com/en-US/kendall_careers/job/Portage-MI/Software-Engineering-Intern_R-101166|The Kendall Group|Software Engineering Intern|Portage, MI +2|Other#1"
+      "https://kendallgroup.wd503.myworkdayjobs.com/en-US/kendall_careers/job/Portage-MI/Software-Engineering-Intern_R-101166|The Kendall Group|Software Engineering Intern|Portage, MI +2|Other#1",
+      "https://jobs.ashbyhq.com/allen-control-systems/1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94|Allen Control Systems|Android Developer Intern - 2027|Austin, TX|Other#1",
+      "https://careers-westernsouthern.icims.com/jobs/25006/software-quality-assurance-data-integration-testing-intern-%28full-year-2027%29/job|Western & Southern Financial Group|Software Quality Assurance Data Integration Testing Intern - Full Year 2027|Cincinnati, OH|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -6361,29 +6363,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 663,
-    "outbox": [
-      [
-        [
-          "Allen Control Systems",
-          "Android Developer Intern - 2027",
-          "Austin, TX",
-          "Other",
-          "https://jobs.ashbyhq.com/allen-control-systems/1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94"
-        ],
-        "https://jobs.ashbyhq.com/allen-control-systems/1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94|Allen Control Systems|Android Developer Intern - 2027|Austin, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "Western & Southern Financial Group",
-          "Software Quality Assurance Data Integration Testing Intern - Full Year 2027",
-          "Cincinnati, OH",
-          "Other",
-          "https://careers-westernsouthern.icims.com/jobs/25006/software-quality-assurance-data-integration-testing-intern-%28full-year-2027%29/job"
-        ],
-        "https://careers-westernsouthern.icims.com/jobs/25006/software-quality-assurance-data-integration-testing-intern-%28full-year-2027%29/job|Western & Southern Financial Group|Software Quality Assurance Data Integration Testing Intern - Full Year 2027|Cincinnati, OH|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }
