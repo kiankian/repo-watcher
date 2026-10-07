@@ -2762,7 +2762,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "0d0c9e58645d9d2cbe8eaca5d782e22b69495f52",
+    "last_sha": "e3c509412032449ef1b0c709e26c019968119be2",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -4666,7 +4666,10 @@
       "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202621989?s=gh-internships-2027|General Motors|2027 Summer Intern, Systems Engineer, ASD|2 Locations|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-boseallaboutme-bose-careers-R29278?s=gh-internships-2027|Bose|Embedded Software Engineer Co-op  - Audio Tech|MA Framingham|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879739?s=gh-internships-2027|RTX|Software Engineering Co-op (Summer /Fall 2027)|IA-CEDAR RAPIDS|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879727?s=gh-internships-2027|RTX|Software Engineering Co-op (Spring/Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879727?s=gh-internships-2027|RTX|Software Engineering Co-op (Spring/Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879738?s=gh-internships-2027|RTX|Software Engineering Co-op (Summer/Fall 2027)|IA-CEDAR RAPIDS|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879726?s=gh-internships-2027|RTX|Software Engineering Co-op (Spring/Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-dowjones-dow-jones-career-Job_Req_55891?s=gh-internships-2027|Dow Jones|Summer 2027 Internship Program \u2013 Software Engineering Intern|NYC|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
@@ -4830,7 +4833,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "84647813b641a65aa2527c71bef0747d659d08b6",
+    "last_sha": "77a9f236f0a975b1e67d03b0e919d8582737c9eb",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -4968,7 +4971,13 @@
       "https://www.amazon.jobs/jobs/10567914/apply|Amazon|Software Development Engineer Intern - Embedded Systems - Summer 2027 - USA|Seattle, WA|FAANG+#1",
       "https://apply.careers.microsoft.com/careers/job/1970393557023161|Microsoft|Firmware Engineering Internship - 6-month Program|California, MD|FAANG+#1",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958|NVIDIA|NVIDIA 2027 Ignite Internships: Software Engineering|Santa Clara, CA|FAANG+#1",
-      "https://apply.careers.microsoft.com/careers/job/1970393557002476|Microsoft|Software Engineer: Internship Opportunities - Azure Databases|Washington, DC|FAANG+#1"
+      "https://apply.careers.microsoft.com/careers/job/1970393557002476|Microsoft|Software Engineer: Internship Opportunities - Azure Databases|Washington, DC|FAANG+#1",
+      "https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002|Lyft|PhD Machine Learning Software Engineer Intern - Summer 2027|San Francisco, CA|FAANG+#1",
+      "https://www.amazon.jobs/jobs/10571374/apply|Amazon|Software Development Engineer - Embedded Systems Intern - Amazon Leo - Summer 2027 - USA|Redmond, WA|FAANG+#1",
+      "https://www.amazon.jobs/jobs/10571004/apply|Amazon|Software Development Engineer Intern - Mobile- iOS/Android - Summer 2027 - USA|Seattle, WA|FAANG+#1",
+      "https://www.metacareers.com/jobs/945520495299801|Meta|Software Engineer Intern - Systems and Infrastructure - PhD|Sunnyvale, CA +6|FAANG+#1",
+      "https://www.metacareers.com/jobs/2180490782513668|Meta|Software Engineer Intern - Machine Learning - PhD|Sunnyvale, CA +6|FAANG+#1",
+      "https://www.metacareers.com/jobs/1952991802037374|Meta|Software Engineering Intern|Bellevue, Australia +3|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -4994,11 +5003,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 98,
+    "last_row_count": 104,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "84647813b641a65aa2527c71bef0747d659d08b6",
+    "last_sha": "77a9f236f0a975b1e67d03b0e919d8582737c9eb",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -5039,7 +5048,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "84647813b641a65aa2527c71bef0747d659d08b6",
+    "last_sha": "77a9f236f0a975b1e67d03b0e919d8582737c9eb",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -6182,7 +6191,32 @@
       "https://jobs.ashbyhq.com/tensorwave/34dd183d-4423-40e3-bb6d-790b5dafc731|TensorWave|Developer Community Engagement Intern|Las Vegas, NV|Other#1",
       "https://jobs.eu.lever.co/cirrus/0af920c1-6ecb-447f-9b22-3eda6b8d4ed8|Cirrus Logic|2027 Internship - Embedded Firmware Engineer|Phoenix, AZ +1|Other#1",
       "https://jobs.eu.lever.co/cirrus/db51b041-8f20-48e0-af08-be71201a8175|Cirrus Logic|2027 Internship - Embedded Software Test Engineer|Austin, TX|Other#1",
-      "https://jobs.eu.lever.co/cirrus/f8d30ab0-8c95-4c83-8188-fb45a2cfc9ec|Cirrus Logic|2027 Internship - Embedded Software Engineer|Austin, TX|Other#1"
+      "https://jobs.eu.lever.co/cirrus/f8d30ab0-8c95-4c83-8188-fb45a2cfc9ec|Cirrus Logic|2027 Internship - Embedded Software Engineer|Austin, TX|Other#1",
+      "https://job-boards.greenhouse.io/knowbe4/jobs/8870749002|KnowBe4|Software Engineer Intern - Remote|Remote - USA|Other#1",
+      "https://job-boards.greenhouse.io/sigmacomputing/jobs/7850795003|Sigma Computing|Software Engineering Intern - Summer 2027|San Francisco, CA|Other#1",
+      "https://job-boards.greenhouse.io/sigmacomputing/jobs/8001295003|Sigma Computing|Software Engineering Intern - Summer 2027|San Francisco, CA +1|Other#1",
+      "https://careers.withwaymo.com/jobs?gh_jid=8250220|Waymo|2027 Summer Intern - MS - PhD - Software Engineer|Mountain View, CA|Other#1",
+      "https://careers.withwaymo.com/jobs?gh_jid=8257660|Waymo|2027 Summer Intern - BS - Software Engineer - Model Eval|Mountain View, CA|Other#1",
+      "https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Germantown-MD/Hypersonic-RF-Software-Engineering-Intern_8993|AeroVironment|Hypersonic RF Software Engineering Intern|Germantown, MD|Other#1",
+      "https://amgen.wd1.myworkdayjobs.com/en-US/careers/job/US---Puerto-Rico---Juncos/Undergrad-Co-op---Interactive-Developer---Immersive-Course-Programmer-for-Manufacturing_R-256886|Amgen|Undergrad Co-op - Interactive Developer / Immersive Course Programmer for Manufacturing|USA +2|Other#1",
+      "https://americas-cookmedical.icims.com/jobs/19550/intern%2c-applied-ai-%26-full-stack-development/job|Cook Medical|Intern - Applied AI & Full Stack Development|Bloomington, IN|Other#1",
+      "https://job-boards.greenhouse.io/courierhealth/jobs/5258913007|Courier Health|Software Engineering Intern - Summer 2027|New York City, NY|Other#1",
+      "https://uscareers-docusign.icims.com/jobs/30465/software-engineer-intern/job|Docusign|Software Engineer Intern|San Francisco, CA +1|Other#1",
+      "https://uscareers-docusign.icims.com/jobs/30480/software-engineer-intern/job|Docusign|Software Engineer Intern|Seattle, WA|Other#1",
+      "https://entrust.wd1.myworkdayjobs.com/en-US/entrustcareers/job/United-States---Shakopee-MN-GHQ/Software-Engineer-Co-op_R004416|Entrust|Software Engineer Co-op|Shakopee, MN|Other#1",
+      "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Seattle/Software-Development-Engineer-Intern--Seattle--WA-_RP1039073|F5|Software Development Engineer Intern - Seattle - WA|Seattle, WA|Other#1",
+      "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/San-Jose/Software-Development-Engineer-Intern--San-Jose--CA-_RP1039076|F5|Software Development Engineer Intern - San Jose - CA|San Jose, CA|Other#1",
+      "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Arlington-VA/Software-Engineer-Intern_R-00193933|Leidos|Software Engineer Intern|Arlington, VA|Other#1",
+      "https://mfs.wd1.myworkdayjobs.com/en-US/mfs-careers/job/Boston/Spring-2027-Systems-Engineering---Cloud-Technologies-Co-Op--January---June-_MFS-231989|MFS|Spring 2027 Systems Engineering - Cloud Technologies Co-Op - January - June|Boston, MA|Other#1",
+      "https://jobs.ashbyhq.com/niantic-spatial/898b2da7-03cd-486e-96e3-3430a148c8fd|Niantic Spatial|Software Engineering Intern - Summer 2027|San Francisco, CA|Other#1",
+      "https://job-boards.greenhouse.io/purestorage/jobs/8249749|Pure Storage|Software Engineer Intern - Summer 2027|Santa Clara, CA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/Software-Engineering-Intern--Summer-2027-_01879520|Raytheon|Software Engineering Intern - Summer 2027|McKinney, TX|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01871884|Raytheon|Software Engineering Intern - Summer 2027|Cedar Rapids, IA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Co-op--January-2027-_01878330|Raytheon|Software Engineer Co-op - January 2027|Marlborough, MA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-NC-MORRISVILLE-907--951-Aviation-Pkwy--907-BLDG/Software-Engineering-Intern--Summer-2027-_01879721|Raytheon|Software Engineering Intern - Summer 2027|Morrisville, NC|Other#1",
+      "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Mequon-Wisconsin-United-States/Intern--Firmware-and-Software-Test-Development_R26-7568-1|Rockwell Automation|Intern - Firmware and Software Test Development|Mequon, WI|Other#1",
+      "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Dayton-OH/Software-Engineer-I--For-2026-Interns-Only-_R0030889|Sierra Nevada Corporation|Software Engineer I - For 2026 Interns Only|Dayton, OH|Other#1",
+      "https://kendallgroup.wd503.myworkdayjobs.com/en-US/kendall_careers/job/Portage-MI/Software-Engineering-Intern_R-101166|The Kendall Group|Software Engineering Intern|Portage, MI +2|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -6326,7 +6360,30 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 659,
-    "outbox": []
+    "last_row_count": 663,
+    "outbox": [
+      [
+        [
+          "Allen Control Systems",
+          "Android Developer Intern - 2027",
+          "Austin, TX",
+          "Other",
+          "https://jobs.ashbyhq.com/allen-control-systems/1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94"
+        ],
+        "https://jobs.ashbyhq.com/allen-control-systems/1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94|Allen Control Systems|Android Developer Intern - 2027|Austin, TX|Other#1",
+        1
+      ],
+      [
+        [
+          "Western & Southern Financial Group",
+          "Software Quality Assurance Data Integration Testing Intern - Full Year 2027",
+          "Cincinnati, OH",
+          "Other",
+          "https://careers-westernsouthern.icims.com/jobs/25006/software-quality-assurance-data-integration-testing-intern-%28full-year-2027%29/job"
+        ],
+        "https://careers-westernsouthern.icims.com/jobs/25006/software-quality-assurance-data-integration-testing-intern-%28full-year-2027%29/job|Western & Southern Financial Group|Software Quality Assurance Data Integration Testing Intern - Full Year 2027|Cincinnati, OH|Other#1",
+        1
+      ]
+    ]
   }
 }
