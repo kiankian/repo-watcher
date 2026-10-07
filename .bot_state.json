@@ -59324,6 +59324,30 @@
       "chat_id": 7582459199,
       "seq": 4386,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879193?s=gh-internships-2027|RTX|Systems Engineering Intern (Summer 2027)|CA-SAN DIEGO-SD1|Summer 2027#1"
+    },
+    "a04dfc2ccf6c": {
+      "company": "F5",
+      "role": "Software Development Engineer Intern (San Jose, CA)",
+      "location": "San Jose",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ffive-f5jobs-RP1039076?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5583,
+      "chat_id": 7582459199,
+      "seq": 4387,
+      "identity": "https://zapply.jobs/l/d/workday-ffive-f5jobs-RP1039076?s=gh-internships-2027|F5|Software Development Engineer Intern (San Jose, CA)|San Jose|Summer 2027#1"
+    },
+    "d10ffbb50658": {
+      "company": "Amazon.com Services LLC",
+      "role": "Software Development Engineer (Embedded Systems) Intern, Amazon Leo - Summer 2027 (USA)",
+      "location": "Redmond, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/amazon-5a060689-3583-45e9-89b8-8786e6a2f16f?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5584,
+      "chat_id": 7582459199,
+      "seq": 4388,
+      "identity": "https://zapply.jobs/l/d/amazon-5a060689-3583-45e9-89b8-8786e6a2f16f?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer (Embedded Systems) Intern, Amazon Leo - Summer 2027 (USA)|Redmond, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -59691,10 +59715,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4386,
+  "seq": 4388,
   "health": {
     "last_heartbeat": "2026-10-07T00:10:17Z",
-    "last_ok_run": "2026-10-07T00:55:14Z",
+    "last_ok_run": "2026-10-07T01:00:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
