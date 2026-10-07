@@ -59468,6 +59468,54 @@
       "chat_id": 7582459199,
       "seq": 4398,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Developer Intern|Chantilly, VA|Summer 2026#1"
+    },
+    "8d711eb0ba94": {
+      "company": "Northrop Grumman",
+      "role": "2027 Intern - Systems Engineering",
+      "location": "United States-Florida-Melbourne",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10254930?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5595,
+      "chat_id": 7582459199,
+      "seq": 4399,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10254930?s=gh-internships-2027|Northrop Grumman|2027 Intern - Systems Engineering|United States-Florida-Melbourne|Summer 2027#1"
+    },
+    "c4b7717a516e": {
+      "company": "General Motors",
+      "role": "2027 Co-Op Student \u2013 Manufacturing Quality Engineer",
+      "location": "4 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202619309?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5596,
+      "chat_id": 7582459199,
+      "seq": 4400,
+      "identity": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202619309?s=gh-internships-2027|General Motors|2027 Co-Op Student \u2013 Manufacturing Quality Engineer|4 Locations|Summer 2027#1"
+    },
+    "8024e35f0c82": {
+      "company": "General Motors",
+      "role": "2027 Summer Intern, Systems Engineer, ASD",
+      "location": "2 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202621989?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5597,
+      "chat_id": 7582459199,
+      "seq": 4401,
+      "identity": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202621989?s=gh-internships-2027|General Motors|2027 Summer Intern, Systems Engineer, ASD|2 Locations|Summer 2027#1"
+    },
+    "2110f645142d": {
+      "company": "Bose",
+      "role": "Embedded Software Engineer Co-op  - Audio Tech",
+      "location": "MA Framingham",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-boseallaboutme-bose-careers-R29278?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5598,
+      "chat_id": 7582459199,
+      "seq": 4402,
+      "identity": "https://zapply.jobs/l/d/workday-boseallaboutme-bose-careers-R29278?s=gh-internships-2027|Bose|Embedded Software Engineer Co-op  - Audio Tech|MA Framingham|Summer 2027#1"
     }
   },
   "applied": {
@@ -59835,10 +59883,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4398,
+  "seq": 4402,
   "health": {
     "last_heartbeat": "2026-10-07T16:21:06Z",
-    "last_ok_run": "2026-10-07T17:20:18Z",
+    "last_ok_run": "2026-10-07T17:25:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
