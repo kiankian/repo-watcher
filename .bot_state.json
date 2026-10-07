@@ -59348,6 +59348,30 @@
       "chat_id": 7582459199,
       "seq": 4388,
       "identity": "https://zapply.jobs/l/d/amazon-5a060689-3583-45e9-89b8-8786e6a2f16f?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer (Embedded Systems) Intern, Amazon Leo - Summer 2027 (USA)|Redmond, WA|Summer 2027#1"
+    },
+    "24bf1a597d40": {
+      "company": "\ud83d\udd25 Waymo",
+      "role": "Intern - Multiple Teams",
+      "location": "Mountain View, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=8257660&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5585,
+      "chat_id": 7582459199,
+      "seq": 4389,
+      "identity": "https://careers.withwaymo.com/jobs?gh_jid=8257660&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|Intern - Multiple Teams|Mountain View, CA|Summer 2026#1"
+    },
+    "15d9555d3d7c": {
+      "company": "F5",
+      "role": "Software Developer Intern",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/San-Jose/Software-Development-Engineer-Intern--San-Jose--CA-_RP1039076?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5586,
+      "chat_id": 7582459199,
+      "seq": 4390,
+      "identity": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/San-Jose/Software-Development-Engineer-Intern--San-Jose--CA-_RP1039076?utm_source=Simplify&ref=Simplify|F5|Software Developer Intern|San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -59715,10 +59739,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4388,
+  "seq": 4390,
   "health": {
     "last_heartbeat": "2026-10-07T01:15:16Z",
-    "last_ok_run": "2026-10-07T01:30:20Z",
+    "last_ok_run": "2026-10-07T01:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
