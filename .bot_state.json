@@ -60368,6 +60368,18 @@
       "chat_id": 7582459199,
       "seq": 4473,
       "identity": "https://zapply.jobs/l/d/workday-avav-avav-9073?s=gh-internships-2027|AeroVironment|Quality Engineer Intern|Petaluma, CA|Summer 2027#1"
+    },
+    "21af5961dd8d": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Test Engineer I (For SNC Summer 2026 Interns Only)",
+      "location": "Lone Tree, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030967?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5670,
+      "chat_id": 7582459199,
+      "seq": 4474,
+      "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030967?s=gh-internships-2027|Sierra Nevada Corporation|Test Engineer I (For SNC Summer 2026 Interns Only)|Lone Tree, CO|Summer 2027#1"
     }
   },
   "applied": {
@@ -60735,10 +60747,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4473,
+  "seq": 4474,
   "health": {
     "last_heartbeat": "2026-10-08T16:50:18Z",
-    "last_ok_run": "2026-10-08T17:20:17Z",
+    "last_ok_run": "2026-10-08T17:25:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
