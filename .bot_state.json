@@ -60248,6 +60248,18 @@
       "chat_id": 7582459199,
       "seq": 4463,
       "identity": "https://zapply.jobs/l/d/phenom-cisco-2026306?s=gh-internships-2027|Cisco|Software Engineer Data & AI I (Intern) \u2013 United States|San Jose, California|Summer 2027#1"
+    },
+    "58cef612b8ef": {
+      "company": "\ud83d\udd25 DoorDash",
+      "role": "Software Engineer Intern",
+      "location": "SF Sunnyvale, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/doordashusa/jobs/8263774?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5660,
+      "chat_id": 7582459199,
+      "seq": 4464,
+      "identity": "https://job-boards.greenhouse.io/doordashusa/jobs/8263774?utm_source=Simplify&ref=Simplify|\ud83d\udd25 DoorDash|Software Engineer Intern|SF Sunnyvale, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -60615,10 +60627,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4463,
+  "seq": 4464,
   "health": {
     "last_heartbeat": "2026-10-08T09:55:17Z",
-    "last_ok_run": "2026-10-08T10:30:21Z",
+    "last_ok_run": "2026-10-08T10:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
