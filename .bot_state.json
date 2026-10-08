@@ -60164,6 +60164,18 @@
       "chat_id": 7582459199,
       "seq": 4456,
       "identity": "https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Software-Engineering-Intern_Job_Req_55891?utm_source=Simplify&ref=Simplify|Dow Jones|Software Engineer Intern|NYC|Summer 2026#1"
+    },
+    "6e46024b3b88": {
+      "company": "Motorola Solutions",
+      "role": "Software Engineer - Summer 2027 Internship",
+      "location": "Westminster, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68997?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5653,
+      "chat_id": 7582459199,
+      "seq": 4457,
+      "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68997?s=gh-internships-2027|Motorola Solutions|Software Engineer - Summer 2027 Internship|Westminster, CO|Summer 2027#1"
     }
   },
   "applied": {
@@ -60531,10 +60543,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4456,
+  "seq": 4457,
   "health": {
     "last_heartbeat": "2026-10-08T02:15:19Z",
-    "last_ok_run": "2026-10-08T03:10:18Z",
+    "last_ok_run": "2026-10-08T03:15:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
