@@ -60284,6 +60284,42 @@
       "chat_id": 7582459199,
       "seq": 4466,
       "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00194152?s=gh-internships-2027|Leidos|Systems, Integration and Software Engineer Intern|Atlantic City, NJ|Summer 2027#1"
+    },
+    "cf38945e7d10": {
+      "company": "General Motors",
+      "role": "2027 Summer Intern \u2013 Autonomous Driving Software Engineer (Bachelor's & Master's)",
+      "location": "Sunnyvale, California, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202622064?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5663,
+      "chat_id": 7582459199,
+      "seq": 4467,
+      "identity": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202622064?s=gh-internships-2027|General Motors|2027 Summer Intern \u2013 Autonomous Driving Software Engineer (Bachelor's & Master's)|Sunnyvale, California, United...|Summer 2027#1"
+    },
+    "85811b2b750f": {
+      "company": "Northrop Grumman",
+      "role": "2027-Systems Engineer Intern - McClellan CA",
+      "location": "United States-California-McClellan",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10255163?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5664,
+      "chat_id": 7582459199,
+      "seq": 4468,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10255163?s=gh-internships-2027|Northrop Grumman|2027-Systems Engineer Intern - McClellan CA|United States-California-McClellan|Summer 2027#1"
+    },
+    "6fcb7e8c3c3f": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Engineer Intern \u2013 McClellan CA",
+      "location": "United States-California-McClellan",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10255207?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5665,
+      "chat_id": 7582459199,
+      "seq": 4469,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10255207?s=gh-internships-2027|Northrop Grumman|2027 Software Engineer Intern \u2013 McClellan CA|United States-California-McClellan|Summer 2027#1"
     }
   },
   "applied": {
@@ -60651,10 +60687,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4466,
+  "seq": 4469,
   "health": {
     "last_heartbeat": "2026-10-08T15:45:22Z",
-    "last_ok_run": "2026-10-08T15:50:17Z",
+    "last_ok_run": "2026-10-08T15:55:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
