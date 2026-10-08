@@ -60272,6 +60272,18 @@
       "chat_id": 7582459199,
       "seq": 4465,
       "identity": "https://zapply.jobs/l/d/phenom-cisco-2026915?s=gh-internships-2027|Cisco|Systems Quality Engineer II (Co-op) - United States|Maynard, Massachusetts|Summer 2027#1"
+    },
+    "ef586fbf4730": {
+      "company": "Leidos",
+      "role": "Systems, Integration and Software Engineer Intern",
+      "location": "Atlantic City, NJ",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-leidos-external-R-00194152?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5662,
+      "chat_id": 7582459199,
+      "seq": 4466,
+      "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00194152?s=gh-internships-2027|Leidos|Systems, Integration and Software Engineer Intern|Atlantic City, NJ|Summer 2027#1"
     }
   },
   "applied": {
@@ -60639,10 +60651,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4465,
+  "seq": 4466,
   "health": {
     "last_heartbeat": "2026-10-08T13:30:20Z",
-    "last_ok_run": "2026-10-08T14:10:17Z",
+    "last_ok_run": "2026-10-08T14:15:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
