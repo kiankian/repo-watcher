@@ -60392,6 +60392,18 @@
       "chat_id": 7582459199,
       "seq": 4475,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01878922?s=gh-internships-2027|RTX|Systems Security Engineering Intern  (Summer 2027)|CA-FULLERTON|Summer 2027#1"
+    },
+    "4cb5f229245c": {
+      "company": "Booz Allen Hamilton",
+      "role": "University, Applied AI Software Development Intern",
+      "location": "McLean, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0251314?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5672,
+      "chat_id": 7582459199,
+      "seq": 4476,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0251314?s=gh-internships-2027|Booz Allen Hamilton|University, Applied AI Software Development Intern|McLean, VA|Summer 2027#1"
     }
   },
   "applied": {
@@ -60759,10 +60771,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4475,
+  "seq": 4476,
   "health": {
     "last_heartbeat": "2026-10-08T16:50:18Z",
-    "last_ok_run": "2026-10-08T17:45:19Z",
+    "last_ok_run": "2026-10-08T17:50:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
