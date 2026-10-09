@@ -60800,6 +60800,18 @@
       "chat_id": 7582459199,
       "seq": 4509,
       "identity": "https://zapply.jobs/l/d/workday-jci-jci-EB00075408?s=gh-internships-2027|Johnson Controls|Software Engineering Co-Op|Burlington-Massachusetts-United...|Summer 2027#1"
+    },
+    "e1f975049f55": {
+      "company": "ByteDance",
+      "role": "Software Engineer Project Intern (Developer Infrastructure) - 2027 Start",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/bytedance-7678555814927730949?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5706,
+      "chat_id": 7582459199,
+      "seq": 4510,
+      "identity": "https://zapply.jobs/l/d/bytedance-7678555814927730949?s=gh-internships-2027|ByteDance|Software Engineer Project Intern (Developer Infrastructure) - 2027 Start|San Jose, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -61167,10 +61179,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4509,
+  "seq": 4510,
   "health": {
     "last_heartbeat": "2026-10-09T12:50:18Z",
-    "last_ok_run": "2026-10-09T13:40:17Z",
+    "last_ok_run": "2026-10-09T13:45:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
