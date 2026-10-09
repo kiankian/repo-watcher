@@ -61496,6 +61496,66 @@
       "chat_id": 7582459199,
       "seq": 4567,
       "identity": "https://zapply.jobs/l/d/phenom-mitre-R117733?s=gh-internships-2027|MITRE|AI Solutions Architect Intern|McLean, Virginia|Summer 2027#1"
+    },
+    "9de68f27378d": {
+      "company": "\ud83d\udd25 AMD",
+      "role": "AI Agentic Flow for GPU ASIC Design Co-op Intern",
+      "location": "Orlando, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.amd.com/jobs/91341?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5764,
+      "chat_id": 7582459199,
+      "seq": 4568,
+      "identity": "https://careers.amd.com/jobs/91341?icims=1&utm_source=Simplify&ref=Simplify|\ud83d\udd25 AMD|AI Agentic Flow for GPU ASIC Design Co-op Intern|Orlando, FL|Summer 2026#1"
+    },
+    "1cd6476d86a0": {
+      "company": "\ud83d\udd25 Coinbase",
+      "role": "Forward Deployed Engineer Intern - HR Technology",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/embed/job_app?token=8175510&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5765,
+      "chat_id": 7582459199,
+      "seq": 4569,
+      "identity": "https://boards.greenhouse.io/embed/job_app?token=8175510&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Coinbase|Forward Deployed Engineer Intern - HR Technology|NYC|Summer 2026#1"
+    },
+    "6e565da63cc4": {
+      "company": "Capstone Investment Advisors",
+      "role": "Tech Execution Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8882130002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5766,
+      "chat_id": 7582459199,
+      "seq": 4570,
+      "identity": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8882130002?utm_source=Simplify&ref=Simplify|Capstone Investment Advisors|Tech Execution Intern|NYC|Summer 2026#1"
+    },
+    "87bcf6d425ea": {
+      "company": "Wawa",
+      "role": "Information Technology Development Intern",
+      "location": "Media, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://wawa.wd1.myworkdayjobs.com/careers/job/WAWA---Wawa-Inc---Corporate-Office/Information-Technology-Development-Internship_JR122392?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5767,
+      "chat_id": 7582459199,
+      "seq": 4571,
+      "identity": "https://wawa.wd1.myworkdayjobs.com/careers/job/WAWA---Wawa-Inc---Corporate-Office/Information-Technology-Development-Internship_JR122392?utm_source=Simplify&ref=Simplify|Wawa|Information Technology Development Intern|Media, PA|Summer 2026#1"
+    },
+    "03355a9d8ba5": {
+      "company": "Elanco",
+      "role": "Pet Health Sales Excellence Intern - AI Innovation & Enablement",
+      "location": "Indianapolis, IN",
+      "term": "Summer 2026",
+      "apply_url": "https://elanco.wd5.myworkdayjobs.com/en-US/External_Career/job/Indianapolis-IN/US-Pet-Health-Sales-Excellence-Intern---AI-Innovation---Enablement--Summer-2027-_R0027467?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5768,
+      "chat_id": 7582459199,
+      "seq": 4572,
+      "identity": "https://elanco.wd5.myworkdayjobs.com/en-US/External_Career/job/Indianapolis-IN/US-Pet-Health-Sales-Excellence-Intern---AI-Innovation---Enablement--Summer-2027-_R0027467?utm_source=Simplify&ref=Simplify|Elanco|Pet Health Sales Excellence Intern - AI Innovation & Enablement|Indianapolis, IN|Summer 2026#1"
     }
   },
   "applied": {
@@ -61863,10 +61923,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4567,
+  "seq": 4572,
   "health": {
     "last_heartbeat": "2026-10-09T22:25:15Z",
-    "last_ok_run": "2026-10-09T22:30:21Z",
+    "last_ok_run": "2026-10-09T22:35:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
