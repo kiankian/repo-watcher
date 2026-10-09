@@ -6323,7 +6323,20 @@
       "https://jobs.ashbyhq.com/replit/7c3c9d29-cec2-4367-8564-eadaed165aea|Replit|Software Engineering Intern - Winter 2027|Foster City, CA|Other#1",
       "https://job-boards.greenhouse.io/ruggedrobotics/jobs/4730908005|Rugged Robotics|Robotic Software Intern/Co-op - Spring or Summer 2027|Houston, TX|Other#1",
       "https://jobs.lever.co/solopulseco/1b36afea-e8eb-4cea-a6e9-0afc384d06ef|SoloPulse|Software Engineer Intern/Co-op - Spring 2027|Peachtree Corners, GA|Other#1",
-      "https://jobs.ashbyhq.com/stradahq/d277be89-9d67-48cd-9e67-3b17bbab709e|Strada|Software Engineer - Intern|San Francisco, CA|Other#1"
+      "https://jobs.ashbyhq.com/stradahq/d277be89-9d67-48cd-9e67-3b17bbab709e|Strada|Software Engineer - Intern|San Francisco, CA|Other#1",
+      "https://jobs.lever.co/viget/b18cc87d-fca2-485a-a0f2-ad6197db63f2|Viget|Software Developer Intern - 2027|Boulder, CO|Other#1",
+      "https://axos.wd5.myworkdayjobs.com/en-US/axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647|Axos Bank|Software Development Intern|San Diego, CA|Other#1",
+      "https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/Embedded-Software-Engineer-Co-op----Audio-Tech_R29278|Bose|Embedded Software Engineer Co-op - Audio Tech|Massachusetts, USA +4|Other#1",
+      "https://uscareers-docusign.icims.com/jobs/30484/software-engineer-intern/job|Docusign|Software Engineer Intern|Seattle, WA|Other#1",
+      "https://uscareers-docusign.icims.com/jobs/30481/software-engineer-intern/job|Docusign|Software Engineer Intern|Seattle, WA|Other#1",
+      "https://entrust.wd1.myworkdayjobs.com/en-US/entrustcareers/job/United-States---Shakopee-MN-GHQ/Firmware-Engineering-Co-op_R004419|Entrust|Firmware Engineering Co-op|Shakopee, MN|Other#1",
+      "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Austin-Texas-United-States-of-America/Software-Product-Management-Intern_UNI4516-1|HP|Software Product Management Intern|Austin, TX +1|Other#1",
+      "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Austin-Texas-United-States-of-America/Software-Product-Management-Intern_UNI4516|HP|Software Product Management Intern|Austin, TX +1|Other#1",
+      "https://mckesson.wd3.myworkdayjobs.com/en-US/external_careers/job/USA-TX-Irving/Software-Engineering-Intern---Summer-2027_JR0155382|McKesson|Software Engineering Intern - Summer 2027|Irving, TX +3|Other#1",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997|Motorola Solutions|Software Engineer - Summer 2027 Internship|Westminster, CO|Other#1",
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1|Northrop Grumman|2027 Software Developer Intern- Chantilly VA|Chantilly, VA|Other#1",
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852|Northrop Grumman|2027 Software Engineering Intern - Roy UT|Roy, UT|Other#1",
+      "https://job-boards.greenhouse.io/hpiq/jobs/6116398004|HP IQ|Software Engineering Intern - Security Intern - Summer 2027|San Francisco, CA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -6468,150 +6481,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 658,
-    "outbox": [
-      [
-        [
-          "Viget",
-          "Software Developer Intern - 2027",
-          "Boulder, CO",
-          "Other",
-          "https://jobs.lever.co/viget/b18cc87d-fca2-485a-a0f2-ad6197db63f2"
-        ],
-        "https://jobs.lever.co/viget/b18cc87d-fca2-485a-a0f2-ad6197db63f2|Viget|Software Developer Intern - 2027|Boulder, CO|Other#1",
-        1
-      ],
-      [
-        [
-          "Axos Bank",
-          "Software Development Intern",
-          "San Diego, CA",
-          "Other",
-          "https://axos.wd5.myworkdayjobs.com/en-US/axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647"
-        ],
-        "https://axos.wd5.myworkdayjobs.com/en-US/axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647|Axos Bank|Software Development Intern|San Diego, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Bose",
-          "Embedded Software Engineer Co-op - Audio Tech",
-          "Massachusetts, USA +4",
-          "Other",
-          "https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/Embedded-Software-Engineer-Co-op----Audio-Tech_R29278"
-        ],
-        "https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/Embedded-Software-Engineer-Co-op----Audio-Tech_R29278|Bose|Embedded Software Engineer Co-op - Audio Tech|Massachusetts, USA +4|Other#1",
-        1
-      ],
-      [
-        [
-          "Docusign",
-          "Software Engineer Intern",
-          "Seattle, WA",
-          "Other",
-          "https://uscareers-docusign.icims.com/jobs/30484/software-engineer-intern/job"
-        ],
-        "https://uscareers-docusign.icims.com/jobs/30484/software-engineer-intern/job|Docusign|Software Engineer Intern|Seattle, WA|Other#1",
-        1
-      ],
-      [
-        [
-          "Docusign",
-          "Software Engineer Intern",
-          "Seattle, WA",
-          "Other",
-          "https://uscareers-docusign.icims.com/jobs/30481/software-engineer-intern/job"
-        ],
-        "https://uscareers-docusign.icims.com/jobs/30481/software-engineer-intern/job|Docusign|Software Engineer Intern|Seattle, WA|Other#1",
-        1
-      ],
-      [
-        [
-          "Entrust",
-          "Firmware Engineering Co-op",
-          "Shakopee, MN",
-          "Other",
-          "https://entrust.wd1.myworkdayjobs.com/en-US/entrustcareers/job/United-States---Shakopee-MN-GHQ/Firmware-Engineering-Co-op_R004419"
-        ],
-        "https://entrust.wd1.myworkdayjobs.com/en-US/entrustcareers/job/United-States---Shakopee-MN-GHQ/Firmware-Engineering-Co-op_R004419|Entrust|Firmware Engineering Co-op|Shakopee, MN|Other#1",
-        1
-      ],
-      [
-        [
-          "HP",
-          "Software Product Management Intern",
-          "Austin, TX +1",
-          "Other",
-          "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Austin-Texas-United-States-of-America/Software-Product-Management-Intern_UNI4516-1"
-        ],
-        "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Austin-Texas-United-States-of-America/Software-Product-Management-Intern_UNI4516-1|HP|Software Product Management Intern|Austin, TX +1|Other#1",
-        1
-      ],
-      [
-        [
-          "HP",
-          "Software Product Management Intern",
-          "Austin, TX +1",
-          "Other",
-          "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Austin-Texas-United-States-of-America/Software-Product-Management-Intern_UNI4516"
-        ],
-        "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Austin-Texas-United-States-of-America/Software-Product-Management-Intern_UNI4516|HP|Software Product Management Intern|Austin, TX +1|Other#1",
-        1
-      ],
-      [
-        [
-          "McKesson",
-          "Software Engineering Intern - Summer 2027",
-          "Irving, TX +3",
-          "Other",
-          "https://mckesson.wd3.myworkdayjobs.com/en-US/external_careers/job/USA-TX-Irving/Software-Engineering-Intern---Summer-2027_JR0155382"
-        ],
-        "https://mckesson.wd3.myworkdayjobs.com/en-US/external_careers/job/USA-TX-Irving/Software-Engineering-Intern---Summer-2027_JR0155382|McKesson|Software Engineering Intern - Summer 2027|Irving, TX +3|Other#1",
-        1
-      ],
-      [
-        [
-          "Motorola Solutions",
-          "Software Engineer - Summer 2027 Internship",
-          "Westminster, CO",
-          "Other",
-          "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997"
-        ],
-        "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997|Motorola Solutions|Software Engineer - Summer 2027 Internship|Westminster, CO|Other#1",
-        1
-      ],
-      [
-        [
-          "Northrop Grumman",
-          "2027 Software Developer Intern- Chantilly VA",
-          "Chantilly, VA",
-          "Other",
-          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1"
-        ],
-        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1|Northrop Grumman|2027 Software Developer Intern- Chantilly VA|Chantilly, VA|Other#1",
-        1
-      ],
-      [
-        [
-          "Northrop Grumman",
-          "2027 Software Engineering Intern - Roy UT",
-          "Roy, UT",
-          "Other",
-          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852"
-        ],
-        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852|Northrop Grumman|2027 Software Engineering Intern - Roy UT|Roy, UT|Other#1",
-        1
-      ],
-      [
-        [
-          "HP IQ",
-          "Software Engineering Intern - Security Intern - Summer 2027",
-          "San Francisco, CA",
-          "Other",
-          "https://job-boards.greenhouse.io/hpiq/jobs/6116398004"
-        ],
-        "https://job-boards.greenhouse.io/hpiq/jobs/6116398004|HP IQ|Software Engineering Intern - Security Intern - Summer 2027|San Francisco, CA|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }
