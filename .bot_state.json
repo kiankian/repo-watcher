@@ -61400,6 +61400,30 @@
       "chat_id": 7582459199,
       "seq": 4559,
       "identity": "https://zapply.jobs/l/d/sr-BoschGroup-744000154757409?s=gh-internships-2027|Bosch Group|Information Security and Privacy Intern|Farmington Hills, MI|Summer 2027#1"
+    },
+    "d9f28969185d": {
+      "company": "CFS Energy",
+      "role": "Intern - NRad & Nuclear/Systems Engineer - Summer 2027",
+      "location": "Devens, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-cfsenergy-a05832ae-41df-4e2d-ab86-dd3e2c4877d4?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5756,
+      "chat_id": 7582459199,
+      "seq": 4560,
+      "identity": "https://zapply.jobs/l/d/lever-cfsenergy-a05832ae-41df-4e2d-ab86-dd3e2c4877d4?s=gh-internships-2027|CFS Energy|Intern - NRad & Nuclear/Systems Engineer - Summer 2027|Devens, MA|Summer 2027#1"
+    },
+    "914ab611873f": {
+      "company": "MITRE",
+      "role": "Systems Engineer Intern",
+      "location": "McLean, Virginia",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-mitre-R117611?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5757,
+      "chat_id": 7582459199,
+      "seq": 4561,
+      "identity": "https://zapply.jobs/l/d/phenom-mitre-R117611?s=gh-internships-2027|MITRE|Systems Engineer Intern|McLean, Virginia|Summer 2027#1"
     }
   },
   "applied": {
@@ -61767,10 +61791,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4559,
+  "seq": 4561,
   "health": {
     "last_heartbeat": "2026-10-09T19:15:15Z",
-    "last_ok_run": "2026-10-09T19:20:18Z",
+    "last_ok_run": "2026-10-09T19:25:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
