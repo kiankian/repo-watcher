@@ -61568,6 +61568,102 @@
       "chat_id": 7582459199,
       "seq": 4573,
       "identity": "https://zapply.jobs/l/d/workday-micron-external-JR113941?s=gh-internships-2027|Micron Technology|Intern - IT Software Engineer|Boise, ID - Main Site|Summer 2027#1"
+    },
+    "f56920c08a37": {
+      "company": "Electronic Arts",
+      "role": "Software Engineer Intern",
+      "location": "Vancouver, BC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Summer-2027-8-Months-Sports-Technology/216225?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5770,
+      "chat_id": 7582459199,
+      "seq": 4574,
+      "identity": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Summer-2027-8-Months-Sports-Technology/216225?utm_source=Simplify&ref=Simplify|Electronic Arts|Software Engineer Intern|Vancouver, BC, Canada|Summer 2026#1"
+    },
+    "3a5688c4a3c2": {
+      "company": "Electronic Arts",
+      "role": "Software Engineer Co-op",
+      "location": "Vancouver, BC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216231?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5771,
+      "chat_id": 7582459199,
+      "seq": 4575,
+      "identity": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216231?utm_source=Simplify&ref=Simplify|Electronic Arts|Software Engineer Co-op|Vancouver, BC, Canada|Summer 2026#1"
+    },
+    "b645593973fe": {
+      "company": "Electronic Arts",
+      "role": "Gameplay Software Engineer Co-op",
+      "location": "Vancouver, BC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216230?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5772,
+      "chat_id": 7582459199,
+      "seq": 4576,
+      "identity": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216230?utm_source=Simplify&ref=Simplify|Electronic Arts|Gameplay Software Engineer Co-op|Vancouver, BC, Canada|Summer 2026#1"
+    },
+    "16ae984c4a65": {
+      "company": "GCM Grosvenor",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015792003?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5773,
+      "chat_id": 7582459199,
+      "seq": 4577,
+      "identity": "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015792003?utm_source=Simplify&ref=Simplify|GCM Grosvenor|Software Engineer Intern|Chicago, IL|Summer 2026#1"
+    },
+    "5eaf088127b5": {
+      "company": "Affirm",
+      "role": "IT Engineer Intern - Early Careers",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8011375003?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5774,
+      "chat_id": 7582459199,
+      "seq": 4578,
+      "identity": "https://job-boards.greenhouse.io/affirm/jobs/8011375003?utm_source=Simplify&ref=Simplify|Affirm|IT Engineer Intern - Early Careers|SF|Summer 2026#1"
+    },
+    "cd18c05b919d": {
+      "company": "Nissan Global",
+      "role": "EA & Cloud Intern",
+      "location": "Franklin, TN",
+      "term": "Summer 2026",
+      "apply_url": "https://alliance.wd3.myworkdayjobs.com/en-US/nissanjobs/job/Franklin-Tennessee---United-States-of-America/EA---Cloud-Intern---Summer-2027---Franklin--TN_R00214214?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5775,
+      "chat_id": 7582459199,
+      "seq": 4579,
+      "identity": "https://alliance.wd3.myworkdayjobs.com/en-US/nissanjobs/job/Franklin-Tennessee---United-States-of-America/EA---Cloud-Intern---Summer-2027---Franklin--TN_R00214214?utm_source=Simplify&ref=Simplify|Nissan Global|EA & Cloud Intern|Franklin, TN|Summer 2026#1"
+    },
+    "9fe081dd6bac": {
+      "company": "GlobalFoundries",
+      "role": "Software Engineer Intern",
+      "location": "Austin, TX Santa Clara, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Software-Engineering-Intern--Summer-2027-_JR-2604039?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5776,
+      "chat_id": 7582459199,
+      "seq": 4580,
+      "identity": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Software-Engineering-Intern--Summer-2027-_JR-2604039?utm_source=Simplify&ref=Simplify|GlobalFoundries|Software Engineer Intern|Austin, TX Santa Clara, CA|Summer 2026#1"
+    },
+    "e4a3a3edd0dd": {
+      "company": "MITRE",
+      "role": "Systems Engineering Intern",
+      "location": "McLean, Virginia",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-mitre-R117681?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5777,
+      "chat_id": 7582459199,
+      "seq": 4581,
+      "identity": "https://zapply.jobs/l/d/phenom-mitre-R117681?s=gh-internships-2027|MITRE|Systems Engineering Intern|McLean, Virginia|Summer 2027#1"
     }
   },
   "applied": {
@@ -61935,10 +62031,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4573,
+  "seq": 4581,
   "health": {
     "last_heartbeat": "2026-10-09T22:25:15Z",
-    "last_ok_run": "2026-10-09T23:00:20Z",
+    "last_ok_run": "2026-10-09T23:05:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
