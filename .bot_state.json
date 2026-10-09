@@ -60836,6 +60836,18 @@
       "chat_id": 7582459199,
       "seq": 4512,
       "identity": "https://zapply.jobs/l/d/workday-cmu-sei-2025200?s=gh-internships-2027|Carnegie Mellon SEI|AI Security Software Engineer Intern \u2013 Summer 2027|Pittsburgh, PA|Summer 2027#1"
+    },
+    "fcc3b256aebd": {
+      "company": "WTW",
+      "role": "Software Developer Intern",
+      "location": "Reigate, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202605435?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5709,
+      "chat_id": 7582459199,
+      "seq": 4513,
+      "identity": "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202605435?utm_source=Simplify&ref=Simplify|WTW|Software Developer Intern|Reigate, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -61203,10 +61215,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4512,
+  "seq": 4513,
   "health": {
     "last_heartbeat": "2026-10-09T14:00:24Z",
-    "last_ok_run": "2026-10-09T14:30:22Z",
+    "last_ok_run": "2026-10-09T14:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
