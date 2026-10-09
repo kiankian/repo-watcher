@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "2bdec11a9fb9698778738d3777ffa7cb87390f9f",
+    "last_sha": "091011ecac6a88beaeee172fa92eb669a1b35a71",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2790,7 +2790,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "f64732a169dbf8d7f8078ac50d0694051c0b4756",
+    "last_sha": "779621a839ab0902035af894d422c4526e9d00e8",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -4739,7 +4739,9 @@
       "https://zapply.jobs/l/d/phenom-mitre-R117737?s=gh-internships-2027|MITRE|Cybersecurity Engineer Intern|McLean, Virginia|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-parsons-search-R187147?s=gh-internships-2027|Parsons|Software Engineer Co-Op - TS/SCI|VA, Centreville, R187147|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-jci-jci-EB00075408?s=gh-internships-2027|Johnson Controls|Software Engineering Co-Op|Burlington-Massachusetts-United...|Summer 2027#1",
-      "https://zapply.jobs/l/d/bytedance-7678555814927730949?s=gh-internships-2027|ByteDance|Software Engineer Project Intern (Developer Infrastructure) - 2027 Start|San Jose, California|Summer 2027#1"
+      "https://zapply.jobs/l/d/bytedance-7678555814927730949?s=gh-internships-2027|ByteDance|Software Engineer Project Intern (Developer Infrastructure) - 2027 Start|San Jose, California|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-cmu-cmu-2025200?s=gh-internships-2027|Carnegie Mellon University|AI Security Software Engineer Intern \u2013 Summer 2027|Pittsburgh, PA|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-cmu-sei-2025200?s=gh-internships-2027|Carnegie Mellon SEI|AI Security Software Engineer Intern \u2013 Summer 2027|Pittsburgh, PA|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
