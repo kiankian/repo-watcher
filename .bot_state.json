@@ -60848,6 +60848,18 @@
       "chat_id": 7582459199,
       "seq": 4513,
       "identity": "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202605435?utm_source=Simplify&ref=Simplify|WTW|Software Developer Intern|Reigate, UK|Summer 2026#1"
+    },
+    "c9c3969a6161": {
+      "company": "Arcesium",
+      "role": "Infrastructure Engineer Intern",
+      "location": "New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-arcesiumllc-5257199007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5710,
+      "chat_id": 7582459199,
+      "seq": 4514,
+      "identity": "https://zapply.jobs/l/d/greenhouse-arcesiumllc-5257199007?s=gh-internships-2027|Arcesium|Infrastructure Engineer Intern|New York|Summer 2027#1"
     }
   },
   "applied": {
@@ -61215,10 +61227,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4513,
+  "seq": 4514,
   "health": {
     "last_heartbeat": "2026-10-09T14:00:24Z",
-    "last_ok_run": "2026-10-09T14:45:17Z",
+    "last_ok_run": "2026-10-09T14:50:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
