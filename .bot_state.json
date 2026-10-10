@@ -61688,6 +61688,18 @@
       "chat_id": 7582459199,
       "seq": 4583,
       "identity": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811?utm_source=Simplify&ref=Simplify|Workday|Software Application Development Engineer Intern|Pleasanton, CA|Summer 2026#1"
+    },
+    "5a4f46ff1a27": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "FL-MELBOURNE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876918?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5780,
+      "chat_id": 7582459199,
+      "seq": 4584,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876918?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|FL-MELBOURNE|Summer 2027#1"
     }
   },
   "applied": {
@@ -62055,10 +62067,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4583,
+  "seq": 4584,
   "health": {
     "last_heartbeat": "2026-10-10T02:10:20Z",
-    "last_ok_run": "2026-10-10T02:45:34Z",
+    "last_ok_run": "2026-10-10T02:50:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
