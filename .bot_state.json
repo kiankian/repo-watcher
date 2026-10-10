@@ -61712,6 +61712,18 @@
       "chat_id": 7582459199,
       "seq": 4585,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876467?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|FL-MELBOURNE|Summer 2027#1"
+    },
+    "2d45ed25011a": {
+      "company": "Applied Materials",
+      "role": "Software Engineering Summer Intern (Masters - Santa Clara, CA)",
+      "location": "Santa Clara,CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-amat-external-R2630705?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5782,
+      "chat_id": 7582459199,
+      "seq": 4586,
+      "identity": "https://zapply.jobs/l/d/workday-amat-external-R2630705?s=gh-internships-2027|Applied Materials|Software Engineering Summer Intern (Masters - Santa Clara, CA)|Santa Clara,CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -62079,10 +62091,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4585,
+  "seq": 4586,
   "health": {
     "last_heartbeat": "2026-10-10T07:55:12Z",
-    "last_ok_run": "2026-10-10T08:15:16Z",
+    "last_ok_run": "2026-10-10T08:20:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
