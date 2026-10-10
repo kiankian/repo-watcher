@@ -61724,6 +61724,18 @@
       "chat_id": 7582459199,
       "seq": 4586,
       "identity": "https://zapply.jobs/l/d/workday-amat-external-R2630705?s=gh-internships-2027|Applied Materials|Software Engineering Summer Intern (Masters - Santa Clara, CA)|Santa Clara,CA|Summer 2027#1"
+    },
+    "ed8655ebb5f0": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Melbourne, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-312--795-W-Nasa-Blvd--BLDG-312/Software-Engineering-Intern--Summer-2027-_01876918?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5783,
+      "chat_id": 7582459199,
+      "seq": 4587,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-312--795-W-Nasa-Blvd--BLDG-312/Software-Engineering-Intern--Summer-2027-_01876918?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Melbourne, FL|Summer 2026#1"
     }
   },
   "applied": {
@@ -62091,10 +62103,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4586,
+  "seq": 4587,
   "health": {
     "last_heartbeat": "2026-10-10T15:30:20Z",
-    "last_ok_run": "2026-10-10T15:30:20Z",
+    "last_ok_run": "2026-10-10T15:35:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
