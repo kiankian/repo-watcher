@@ -61664,6 +61664,30 @@
       "chat_id": 7582459199,
       "seq": 4581,
       "identity": "https://zapply.jobs/l/d/phenom-mitre-R117681?s=gh-internships-2027|MITRE|Systems Engineering Intern|McLean, Virginia|Summer 2027#1"
+    },
+    "76bda9e75866": {
+      "company": "Workday",
+      "role": "Software Engineer Intern",
+      "location": "Pleasanton, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5778,
+      "chat_id": 7582459199,
+      "seq": 4582,
+      "identity": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810?utm_source=Simplify&ref=Simplify|Workday|Software Engineer Intern|Pleasanton, CA|Summer 2026#1"
+    },
+    "e422e4f1ae43": {
+      "company": "Workday",
+      "role": "Software Application Development Engineer Intern",
+      "location": "Pleasanton, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5779,
+      "chat_id": 7582459199,
+      "seq": 4583,
+      "identity": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811?utm_source=Simplify&ref=Simplify|Workday|Software Application Development Engineer Intern|Pleasanton, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -62031,10 +62055,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4581,
+  "seq": 4583,
   "health": {
     "last_heartbeat": "2026-10-10T00:55:14Z",
-    "last_ok_run": "2026-10-10T01:30:19Z",
+    "last_ok_run": "2026-10-10T01:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
