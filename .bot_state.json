@@ -62288,6 +62288,30 @@
       "chat_id": 7582459199,
       "seq": 4633,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-331354?s=gh-internships-2027|CACI|Software Engineering Co-op - Summer & Fall 2027|Danbury, CT, US|Summer 2027#1"
+    },
+    "8654bb11b5ce": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "CA-FULLERTON",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879741?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5830,
+      "chat_id": 7582459199,
+      "seq": 4634,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01879741?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|CA-FULLERTON|Summer 2027#1"
+    },
+    "ad8017d06d10": {
+      "company": "Copart",
+      "role": "Software Engineering Intern",
+      "location": "Dallas, TX - Headquarters",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-copart-copart-JR109964?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5831,
+      "chat_id": 7582459199,
+      "seq": 4635,
+      "identity": "https://zapply.jobs/l/d/workday-copart-copart-JR109964?s=gh-internships-2027|Copart|Software Engineering Intern|Dallas, TX - Headquarters|Summer 2027#1"
     }
   },
   "applied": {
@@ -62655,10 +62679,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4633,
+  "seq": 4635,
   "health": {
     "last_heartbeat": "2026-10-12T14:20:17Z",
-    "last_ok_run": "2026-10-12T15:15:17Z",
+    "last_ok_run": "2026-10-12T15:20:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
