@@ -62216,6 +62216,66 @@
       "chat_id": 7582459199,
       "seq": 4627,
       "identity": "https://zapply.jobs/l/d/workday-geaerospace-ge-externalsite-R5030183?s=gh-internships-2027|GE Aerospace|Systems Engineering Co-op - Mechanical/Aerospace Engineering (Avionics) - US - Fall 2027 -...|Grand Rapids|Summer 2027#1"
+    },
+    "72b06df28111": {
+      "company": "\ud83d\udd25 Google",
+      "role": "Forward Deployed Engineer Intern",
+      "location": "NYC Sunnyvale, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://www.google.com/about/careers/applications/jobs/results/75665705386549958?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5824,
+      "chat_id": 7582459199,
+      "seq": 4628,
+      "identity": "https://www.google.com/about/careers/applications/jobs/results/75665705386549958?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Google|Forward Deployed Engineer Intern|NYC Sunnyvale, CA|Summer 2026#1"
+    },
+    "168462408405": {
+      "company": "Capula",
+      "role": "Technology Intern",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://apply.workable.com/capula-investment-management-ltd/j/96EBCF5617/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5825,
+      "chat_id": 7582459199,
+      "seq": 4629,
+      "identity": "https://apply.workable.com/capula-investment-management-ltd/j/96EBCF5617/apply?utm_source=Simplify&ref=Simplify|Capula|Technology Intern|London, UK|Summer 2026#1"
+    },
+    "ebdff970d5fb": {
+      "company": "Bosch Home Comfort",
+      "role": "AI Business Solutions Intern",
+      "location": "Coventry, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154992819?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5826,
+      "chat_id": 7582459199,
+      "seq": 4630,
+      "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000154992819?utm_source=Simplify&ref=Simplify|Bosch Home Comfort|AI Business Solutions Intern|Coventry, UK|Summer 2026#1"
+    },
+    "f16e16a9c00f": {
+      "company": "CapTech Consulting",
+      "role": "Consulting Software Engineer Intern",
+      "location": "Richmond, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000155019115?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5827,
+      "chat_id": 7582459199,
+      "seq": 4631,
+      "identity": "https://jobs.smartrecruiters.com/CapTechConsulting/744000155019115?utm_source=Simplify&ref=Simplify|CapTech Consulting|Consulting Software Engineer Intern|Richmond, VA|Summer 2026#1"
+    },
+    "1823443ef85d": {
+      "company": "LSEG",
+      "role": "Engineering Intern",
+      "location": "Nottingham, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/Nottingham-United-Kingdom/Engineering-Summer-Internship-Programme_R0124221?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5828,
+      "chat_id": 7582459199,
+      "seq": 4632,
+      "identity": "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/Nottingham-United-Kingdom/Engineering-Summer-Internship-Programme_R0124221?utm_source=Simplify&ref=Simplify|LSEG|Engineering Intern|Nottingham, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -62583,10 +62643,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4627,
+  "seq": 4632,
   "health": {
     "last_heartbeat": "2026-10-12T14:20:17Z",
-    "last_ok_run": "2026-10-12T14:30:22Z",
+    "last_ok_run": "2026-10-12T14:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
