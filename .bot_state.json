@@ -62504,6 +62504,66 @@
       "chat_id": 7582459199,
       "seq": 4651,
       "identity": "https://zapply.jobs/l/d/sr-BoschGroup-744000155120934?s=gh-internships-2027|Bosch Group|Information Security and Privacy Intern|Farmington Hills, MI|Summer 2027#1"
+    },
+    "43fa56ecedae": {
+      "company": "\ud83d\udd25 Databricks",
+      "role": "Software Engineer Intern",
+      "location": "4 locationsSF Bellevue, WA Mountain View, CA Vancouver, BC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/embed/job_app?token=6865687002&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5848,
+      "chat_id": 7582459199,
+      "seq": 4652,
+      "identity": "https://boards.greenhouse.io/embed/job_app?token=6865687002&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Databricks|Software Engineer Intern|4 locationsSF Bellevue, WA Mountain View, CA Vancouver, BC, Canada|Summer 2026#1"
+    },
+    "e5572135b9ae": {
+      "company": "General Dynamics Information Technology",
+      "role": "Software Development Intern",
+      "location": "Falls Church, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5849,
+      "chat_id": 7582459199,
+      "seq": 4653,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406-1?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Development Intern|Falls Church, VA|Summer 2026#1"
+    },
+    "810d1dd606f3": {
+      "company": "General Dynamics Information Technology",
+      "role": "Software Development Intern",
+      "location": "Falls Church, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5850,
+      "chat_id": 7582459199,
+      "seq": 4654,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404-1?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Development Intern|Falls Church, VA|Summer 2026#1"
+    },
+    "a86b8f09eea9": {
+      "company": "General Dynamics Information Technology",
+      "role": "Software Development Intern",
+      "location": "Falls Church, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5851,
+      "chat_id": 7582459199,
+      "seq": 4655,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405-2?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Software Development Intern|Falls Church, VA|Summer 2026#1"
+    },
+    "609fb7b40c1b": {
+      "company": "AtkinsR\u00e9alis",
+      "role": "Software Developer Intern",
+      "location": "Denver, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USCODenver/Software-Developer-Intern---Summer-2027_R-161580-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5852,
+      "chat_id": 7582459199,
+      "seq": 4656,
+      "identity": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USCODenver/Software-Developer-Intern---Summer-2027_R-161580-1?utm_source=Simplify&ref=Simplify|AtkinsR\u00e9alis|Software Developer Intern|Denver, CO|Summer 2026#1"
     }
   },
   "applied": {
@@ -62871,10 +62931,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4651,
+  "seq": 4656,
   "health": {
     "last_heartbeat": "2026-10-12T22:00:22Z",
-    "last_ok_run": "2026-10-12T22:30:21Z",
+    "last_ok_run": "2026-10-12T22:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
