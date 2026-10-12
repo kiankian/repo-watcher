@@ -62156,6 +62156,30 @@
       "chat_id": 7582459199,
       "seq": 4622,
       "identity": "https://zapply.jobs/l/d/sr-CapTechConsulting-744000155019115?s=gh-internships-2027|CapTech Consulting|Consulting Internship: Software Engineering (Summer 2027)|Richmond, VA|Summer 2027#1"
+    },
+    "5f7b0f2b269e": {
+      "company": "GE Aerospace",
+      "role": "Engines Engineering Intern \u2013 Computer or Software Engineering \u2013 US \u2013 Summer 2027 - Returning...",
+      "location": "Evendale",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-geaerospace-ge-externalsite-R5030074?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5819,
+      "chat_id": 7582459199,
+      "seq": 4623,
+      "identity": "https://zapply.jobs/l/d/workday-geaerospace-ge-externalsite-R5030074?s=gh-internships-2027|GE Aerospace|Engines Engineering Intern \u2013 Computer or Software Engineering \u2013 US \u2013 Summer 2027 - Returning...|Evendale|Summer 2027#1"
+    },
+    "a6f5112cd928": {
+      "company": "GE Aerospace",
+      "role": "Engines Engineering Co-op \u2013 Computer or Software Engineering \u2013 US \u2013 Fall 2027 - Returning Students",
+      "location": "Evendale",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-geaerospace-ge-externalsite-R5030075?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5820,
+      "chat_id": 7582459199,
+      "seq": 4624,
+      "identity": "https://zapply.jobs/l/d/workday-geaerospace-ge-externalsite-R5030075?s=gh-internships-2027|GE Aerospace|Engines Engineering Co-op \u2013 Computer or Software Engineering \u2013 US \u2013 Fall 2027 - Returning Students|Evendale|Summer 2027#1"
     }
   },
   "applied": {
@@ -62523,10 +62547,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4622,
+  "seq": 4624,
   "health": {
     "last_heartbeat": "2026-10-12T13:15:17Z",
-    "last_ok_run": "2026-10-12T13:50:16Z",
+    "last_ok_run": "2026-10-12T13:55:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
