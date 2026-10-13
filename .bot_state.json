@@ -62828,6 +62828,42 @@
       "chat_id": 7582459199,
       "seq": 4678,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MD-ANNAPOLIS-JUNCTION-339--306-Sentinel-Dr--339-BLDG/Software-Engineering-Intern--Summer-2027-_01880895-1?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Annapolis Junction, MD|Summer 2026#1"
+    },
+    "6ebe33daf1af": {
+      "company": "KLA",
+      "role": "Software Engineer Intern - AI",
+      "location": "Ann Arbor, MI",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-kla-search-2641817?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5875,
+      "chat_id": 7582459199,
+      "seq": 4679,
+      "identity": "https://zapply.jobs/l/d/workday-kla-search-2641817?s=gh-internships-2027|KLA|Software Engineer Intern - AI|Ann Arbor, MI|Summer 2027#1"
+    },
+    "e7fbf0eda7b9": {
+      "company": "KLA",
+      "role": "Software Engineering Intern",
+      "location": "Ann Arbor, MI",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-kla-search-2641821?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5876,
+      "chat_id": 7582459199,
+      "seq": 4680,
+      "identity": "https://zapply.jobs/l/d/workday-kla-search-2641821?s=gh-internships-2027|KLA|Software Engineering Intern|Ann Arbor, MI|Summer 2027#1"
+    },
+    "65b1b6d5df4f": {
+      "company": "Draper",
+      "role": "Classified Cybersecurity/IT Internship (Summer 2027)",
+      "location": "Cambridge, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-draper-draper-careers-JR003021?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5877,
+      "chat_id": 7582459199,
+      "seq": 4681,
+      "identity": "https://zapply.jobs/l/d/workday-draper-draper-careers-JR003021?s=gh-internships-2027|Draper|Classified Cybersecurity/IT Internship (Summer 2027)|Cambridge, MA|Summer 2027#1"
     }
   },
   "applied": {
@@ -63195,10 +63231,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4678,
+  "seq": 4681,
   "health": {
     "last_heartbeat": "2026-10-13T14:40:18Z",
-    "last_ok_run": "2026-10-13T15:25:14Z",
+    "last_ok_run": "2026-10-13T15:30:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
