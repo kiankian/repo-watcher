@@ -62708,6 +62708,42 @@
       "chat_id": 7582459199,
       "seq": 4668,
       "identity": "https://zapply.jobs/l/d/greenhouse-rocketlab-8007204003?s=gh-internships-2027|Rocket Lab|Ground Systems Engineering Intern Spring 2027|Stennis Space|Summer 2027#1"
+    },
+    "6a25bb3f17c1": {
+      "company": "Expedia Group",
+      "role": "Mobile Engineer Intern",
+      "location": "Seattle, WA Austin, TX San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/search/job/Austin-Domain-11---HomeAway/Mobile-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110306-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5865,
+      "chat_id": 7582459199,
+      "seq": 4669,
+      "identity": "https://expedia.wd108.myworkdayjobs.com/search/job/Austin-Domain-11---HomeAway/Mobile-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110306-1?utm_source=Simplify&ref=Simplify|Expedia Group|Mobile Engineer Intern|Seattle, WA Austin, TX San Jose, CA|Summer 2026#1"
+    },
+    "4e06e7a15416": {
+      "company": "Expedia Group",
+      "role": "Software Development Engineer Intern",
+      "location": "Seattle, WA Austin, TX San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5866,
+      "chat_id": 7582459199,
+      "seq": 4670,
+      "identity": "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311-1?utm_source=Simplify&ref=Simplify|Expedia Group|Software Development Engineer Intern|Seattle, WA Austin, TX San Jose, CA|Summer 2026#1"
+    },
+    "2bc3c78353f9": {
+      "company": "American Family Insurance Group",
+      "role": "Application Development Intern - Application Development",
+      "location": "Madison, WI Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Application-Development--Hybrid-_R39458?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5867,
+      "chat_id": 7582459199,
+      "seq": 4671,
+      "identity": "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Application-Development--Hybrid-_R39458?utm_source=Simplify&ref=Simplify|American Family Insurance Group|Application Development Intern - Application Development|Madison, WI Boston, MA|Summer 2026#1"
     }
   },
   "applied": {
@@ -63075,10 +63111,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4668,
+  "seq": 4671,
   "health": {
     "last_heartbeat": "2026-10-13T01:25:13Z",
-    "last_ok_run": "2026-10-13T01:30:20Z",
+    "last_ok_run": "2026-10-13T01:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
