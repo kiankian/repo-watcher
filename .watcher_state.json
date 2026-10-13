@@ -2838,7 +2838,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "09a91e81d6183854a00cbb52ffdd0c375b238de6",
+    "last_sha": "89410407b542220cb9c23ea4697305326bc38d53",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -6491,7 +6491,32 @@
       "https://paloaltonetworks.wd5.myworkdayjobs.com/en-US/hidden-private-pawn-temp-gateway-147258369/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Master-s--EG_JR-022384|Palo Alto Networks|Intern - Software Engineer - Master's EG|USA|Other#1",
       "https://modmed.wd501.myworkdayjobs.com/en-US/modmed12/job/Boca-Raton-FL/Software-Engineering-Intern_R5148|ModMed|Software Engineering Intern|Boca Raton, FL|Other#1",
       "https://aero.wd5.myworkdayjobs.com/en-US/external/job/Chantilly-VA/XMLNAME-2027-Embedded-Systems---Software-Engineering-Undergrad-Intern_R016804|Aerospace|2027 Embedded Systems / Software Engineering Undergrad Intern|Chantilly, VA +1|Other#1",
-      "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mequon-Wisconsin-United-States/Intern--Firmware-and-Software-Test-Development_R26-7568|Rockwell Automation|Intern - Firmware and Software Test Development|Mequon, WI|Other#1"
+      "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mequon-Wisconsin-United-States/Intern--Firmware-and-Software-Test-Development_R26-7568|Rockwell Automation|Intern - Firmware and Software Test Development|Mequon, WI|Other#1",
+      "https://expedia.wd108.myworkdayjobs.com/en-US/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311|Expedia Group|Software Development Engineering Intern - 2027 - Austin - San Jose - Seattle|Washington, DC +3|Other#1",
+      "https://jobs.smartrecruiters.com/Wabtec/3743990015854776-firmware-engineering-co-op-january-june-2027-?oga=true|Wabtec Corporation|Firmware Engineering Co-Op - January-June 2027|Waltham, MA|Other#1",
+      "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Maynard-Massachusetts-US/Software-Engineer-II--Co-op----United-States_2026923|Cisco|Software Engineer II - Co-op - United States|Maynard, MA|Other#1",
+      "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Maynard-Massachusetts-US/Software-Engineer-I--Co-op----United-States_2026920|Cisco|Software Engineer I - Co-op - United States|Maynard, MA|Other#1",
+      "https://allegion.wd5.myworkdayjobs.com/en-US/earlytalent_careers/job/Golden-CO/Summer-Intern---Summer-Intern---Software-Engineering---Quality-Assurance_JR37856|Allegion|Summer Intern - Software Engineering - Quality Assurance|Golden, CO|Other#1",
+      "https://job-boards.greenhouse.io/amca/jobs/4425120009|Amca|Software Engineering Internship - Summer 2027|El Segundo, CA|Other#1",
+      "https://assurant.wd1.myworkdayjobs.com/en-US/external_limited_posting/job/Atlanta-GA/Summer-2027-Intern--Software-Engineering-Intern_R-115727|Assurant|Summer 2027 Intern: Software Engineering Intern|Atlanta, GA +2|Other#1",
+      "https://kenvue.wd5.myworkdayjobs.com/en-US/kenvue/job/North-America-United-States-Pennsylvania-Fort-Washington/Technical-Operations-Packaging-Co-Op_2607048899W|Kenvue|Tech Ops Package Dev Co-Op Spring|North Salt Lake, UT|Other#1",
+      "https://jobs.dayforcehcm.com/en-US/texasfarm/candidateportal/jobs/1400|Texas Farm Bureau|Software Developer Intern|Waco, TX|Other#1",
+      "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Maynard-Massachusetts-US/Firmware-Engineer-II--Co-op----United-States_2026913|Cisco|Firmware Engineer II - Co-op - United States|Maynard, MA|Other#1",
+      "https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753|Aerospace|2027 Software Tools and Assurance Engineering Grad Intern|El Segundo, CA|Other#1",
+      "https://danaher.wd1.myworkdayjobs.com/en-US/danaherjobs/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747|Danaher|Software Engineering Intern|Chaska, MN|Other#1",
+      "https://allegion.wd5.myworkdayjobs.com/en-US/earlytalent_careers/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795|Allegion|Summer Intern - Software Engineering|Golden, CO|Other#1",
+      "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982|Rockwell Automation|Co-op - AI Software Engineering - 6-8 months|Mayfield Heights, OH +1|Other#1",
+      "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mayfield-Heights-Ohio-United-States/Intern--AI-Software-Engineering--June-August-2027-_R26-6980|Rockwell Automation|Intern - AI Software Engineering - June-August 2027|Mayfield Heights, OH +1|Other#1",
+      "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-II--Intern----United-States_2026800|Cisco|Software Engineer Full Stack / Backend II - Intern - United States|San Jose, CA +3|Other#1",
+      "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-II--Intern----United-States_2026805|Cisco|Software Engineer Embedded Systems II - Intern - United States|San Jose, CA +3|Other#1",
+      "https://allegion.wd5.myworkdayjobs.com/en-US/earlytalent_careers/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722|Allegion|Summer Intern - Software Operations Engineer|Carmel, IN|Other#1",
+      "https://jobs.dayforcehcm.com/en-US/newcell/candidateportal/jobs/1528|Nsight|Software Engineering Intern - Green Bay - WI|Green Bay, WI|Other#1",
+      "https://cir.wd108.myworkdayjobs.com/en-US/cir_external_career_site/job/Fairfield-IA/Software-Engineering-Intern_R-2025-219|Cambridge Investment Research|Software Engineering Intern|Fairfield, IA +2|Other#1",
+      "https://cir.wd108.myworkdayjobs.com/en-US/cir_external_career_site/job/Phoenix-AZ/Salesforce-Developer-Intern_R-2025-220|Cambridge Investment Research|Salesforce Developer Intern|Phoenix, AZ +1|Other#1",
+      "https://www.fglife.com/about/careers/intern/apply.html?gh_jid=7994868003|F&G|Intern - IT Cloud Enablement - Summer - 2027|Remote - Des Moines, IA|Other#1",
+      "https://www.fglife.com/about/careers/intern/apply.html?gh_jid=7996103003|F&G|Intern - IT Software Engineer - Summer - 2027|Remote - Des Moines, IA|Other#1",
+      "https://mdtkangaroo.wd108.myworkdayjobs.com/en-US/minimedcareers/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1|MiniMed|Software Engineering Intern Summer 2027|Northridge, CA|Other#1",
+      "https://paloaltonetworks.wd5.myworkdayjobs.com/en-US/hidden-private-pawn-temp-gateway-147258369/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Bachelors--EG_JR-022385|Palo Alto Networks|Intern - Software Engineer - Bachelors EG|USA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -6637,281 +6662,6 @@
     ],
     "last_row_count": 709,
     "outbox": [
-      [
-        [
-          "Expedia Group",
-          "Software Development Engineering Intern - 2027 - Austin - San Jose - Seattle",
-          "Washington, DC +3",
-          "Other",
-          "https://expedia.wd108.myworkdayjobs.com/en-US/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311"
-        ],
-        "https://expedia.wd108.myworkdayjobs.com/en-US/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311|Expedia Group|Software Development Engineering Intern - 2027 - Austin - San Jose - Seattle|Washington, DC +3|Other#1",
-        1
-      ],
-      [
-        [
-          "Wabtec Corporation",
-          "Firmware Engineering Co-Op - January-June 2027",
-          "Waltham, MA",
-          "Other",
-          "https://jobs.smartrecruiters.com/Wabtec/3743990015854776-firmware-engineering-co-op-january-june-2027-?oga=true"
-        ],
-        "https://jobs.smartrecruiters.com/Wabtec/3743990015854776-firmware-engineering-co-op-january-june-2027-?oga=true|Wabtec Corporation|Firmware Engineering Co-Op - January-June 2027|Waltham, MA|Other#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Engineer II - Co-op - United States",
-          "Maynard, MA",
-          "Other",
-          "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Maynard-Massachusetts-US/Software-Engineer-II--Co-op----United-States_2026923"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Maynard-Massachusetts-US/Software-Engineer-II--Co-op----United-States_2026923|Cisco|Software Engineer II - Co-op - United States|Maynard, MA|Other#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Engineer I - Co-op - United States",
-          "Maynard, MA",
-          "Other",
-          "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Maynard-Massachusetts-US/Software-Engineer-I--Co-op----United-States_2026920"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Maynard-Massachusetts-US/Software-Engineer-I--Co-op----United-States_2026920|Cisco|Software Engineer I - Co-op - United States|Maynard, MA|Other#1",
-        1
-      ],
-      [
-        [
-          "Allegion",
-          "Summer Intern - Software Engineering - Quality Assurance",
-          "Golden, CO",
-          "Other",
-          "https://allegion.wd5.myworkdayjobs.com/en-US/earlytalent_careers/job/Golden-CO/Summer-Intern---Summer-Intern---Software-Engineering---Quality-Assurance_JR37856"
-        ],
-        "https://allegion.wd5.myworkdayjobs.com/en-US/earlytalent_careers/job/Golden-CO/Summer-Intern---Summer-Intern---Software-Engineering---Quality-Assurance_JR37856|Allegion|Summer Intern - Software Engineering - Quality Assurance|Golden, CO|Other#1",
-        1
-      ],
-      [
-        [
-          "Amca",
-          "Software Engineering Internship - Summer 2027",
-          "El Segundo, CA",
-          "Other",
-          "https://job-boards.greenhouse.io/amca/jobs/4425120009"
-        ],
-        "https://job-boards.greenhouse.io/amca/jobs/4425120009|Amca|Software Engineering Internship - Summer 2027|El Segundo, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Assurant",
-          "Summer 2027 Intern: Software Engineering Intern",
-          "Atlanta, GA +2",
-          "Other",
-          "https://assurant.wd1.myworkdayjobs.com/en-US/external_limited_posting/job/Atlanta-GA/Summer-2027-Intern--Software-Engineering-Intern_R-115727"
-        ],
-        "https://assurant.wd1.myworkdayjobs.com/en-US/external_limited_posting/job/Atlanta-GA/Summer-2027-Intern--Software-Engineering-Intern_R-115727|Assurant|Summer 2027 Intern: Software Engineering Intern|Atlanta, GA +2|Other#1",
-        1
-      ],
-      [
-        [
-          "Kenvue",
-          "Tech Ops Package Dev Co-Op Spring",
-          "North Salt Lake, UT",
-          "Other",
-          "https://kenvue.wd5.myworkdayjobs.com/en-US/kenvue/job/North-America-United-States-Pennsylvania-Fort-Washington/Technical-Operations-Packaging-Co-Op_2607048899W"
-        ],
-        "https://kenvue.wd5.myworkdayjobs.com/en-US/kenvue/job/North-America-United-States-Pennsylvania-Fort-Washington/Technical-Operations-Packaging-Co-Op_2607048899W|Kenvue|Tech Ops Package Dev Co-Op Spring|North Salt Lake, UT|Other#1",
-        1
-      ],
-      [
-        [
-          "Texas Farm Bureau",
-          "Software Developer Intern",
-          "Waco, TX",
-          "Other",
-          "https://jobs.dayforcehcm.com/en-US/texasfarm/candidateportal/jobs/1400"
-        ],
-        "https://jobs.dayforcehcm.com/en-US/texasfarm/candidateportal/jobs/1400|Texas Farm Bureau|Software Developer Intern|Waco, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Firmware Engineer II - Co-op - United States",
-          "Maynard, MA",
-          "Other",
-          "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Maynard-Massachusetts-US/Firmware-Engineer-II--Co-op----United-States_2026913"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Maynard-Massachusetts-US/Firmware-Engineer-II--Co-op----United-States_2026913|Cisco|Firmware Engineer II - Co-op - United States|Maynard, MA|Other#1",
-        1
-      ],
-      [
-        [
-          "Aerospace",
-          "2027 Software Tools and Assurance Engineering Grad Intern",
-          "El Segundo, CA",
-          "Other",
-          "https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753"
-        ],
-        "https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753|Aerospace|2027 Software Tools and Assurance Engineering Grad Intern|El Segundo, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Danaher",
-          "Software Engineering Intern",
-          "Chaska, MN",
-          "Other",
-          "https://danaher.wd1.myworkdayjobs.com/en-US/danaherjobs/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747"
-        ],
-        "https://danaher.wd1.myworkdayjobs.com/en-US/danaherjobs/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747|Danaher|Software Engineering Intern|Chaska, MN|Other#1",
-        1
-      ],
-      [
-        [
-          "Allegion",
-          "Summer Intern - Software Engineering",
-          "Golden, CO",
-          "Other",
-          "https://allegion.wd5.myworkdayjobs.com/en-US/earlytalent_careers/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795"
-        ],
-        "https://allegion.wd5.myworkdayjobs.com/en-US/earlytalent_careers/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795|Allegion|Summer Intern - Software Engineering|Golden, CO|Other#1",
-        1
-      ],
-      [
-        [
-          "Rockwell Automation",
-          "Co-op - AI Software Engineering - 6-8 months",
-          "Mayfield Heights, OH +1",
-          "Other",
-          "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982"
-        ],
-        "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mayfield-Heights-Ohio-United-States/Co-op--AI-Software-Engineering--6-8-months-_R26-6982|Rockwell Automation|Co-op - AI Software Engineering - 6-8 months|Mayfield Heights, OH +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Rockwell Automation",
-          "Intern - AI Software Engineering - June-August 2027",
-          "Mayfield Heights, OH +1",
-          "Other",
-          "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mayfield-Heights-Ohio-United-States/Intern--AI-Software-Engineering--June-August-2027-_R26-6980"
-        ],
-        "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mayfield-Heights-Ohio-United-States/Intern--AI-Software-Engineering--June-August-2027-_R26-6980|Rockwell Automation|Intern - AI Software Engineering - June-August 2027|Mayfield Heights, OH +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Engineer Full Stack / Backend II - Intern - United States",
-          "San Jose, CA +3",
-          "Other",
-          "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-II--Intern----United-States_2026800"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-II--Intern----United-States_2026800|Cisco|Software Engineer Full Stack / Backend II - Intern - United States|San Jose, CA +3|Other#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Engineer Embedded Systems II - Intern - United States",
-          "San Jose, CA +3",
-          "Other",
-          "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-II--Intern----United-States_2026805"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-II--Intern----United-States_2026805|Cisco|Software Engineer Embedded Systems II - Intern - United States|San Jose, CA +3|Other#1",
-        1
-      ],
-      [
-        [
-          "Allegion",
-          "Summer Intern - Software Operations Engineer",
-          "Carmel, IN",
-          "Other",
-          "https://allegion.wd5.myworkdayjobs.com/en-US/earlytalent_careers/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722"
-        ],
-        "https://allegion.wd5.myworkdayjobs.com/en-US/earlytalent_careers/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722|Allegion|Summer Intern - Software Operations Engineer|Carmel, IN|Other#1",
-        1
-      ],
-      [
-        [
-          "Nsight",
-          "Software Engineering Intern - Green Bay - WI",
-          "Green Bay, WI",
-          "Other",
-          "https://jobs.dayforcehcm.com/en-US/newcell/candidateportal/jobs/1528"
-        ],
-        "https://jobs.dayforcehcm.com/en-US/newcell/candidateportal/jobs/1528|Nsight|Software Engineering Intern - Green Bay - WI|Green Bay, WI|Other#1",
-        1
-      ],
-      [
-        [
-          "Cambridge Investment Research",
-          "Software Engineering Intern",
-          "Fairfield, IA +2",
-          "Other",
-          "https://cir.wd108.myworkdayjobs.com/en-US/cir_external_career_site/job/Fairfield-IA/Software-Engineering-Intern_R-2025-219"
-        ],
-        "https://cir.wd108.myworkdayjobs.com/en-US/cir_external_career_site/job/Fairfield-IA/Software-Engineering-Intern_R-2025-219|Cambridge Investment Research|Software Engineering Intern|Fairfield, IA +2|Other#1",
-        1
-      ],
-      [
-        [
-          "Cambridge Investment Research",
-          "Salesforce Developer Intern",
-          "Phoenix, AZ +1",
-          "Other",
-          "https://cir.wd108.myworkdayjobs.com/en-US/cir_external_career_site/job/Phoenix-AZ/Salesforce-Developer-Intern_R-2025-220"
-        ],
-        "https://cir.wd108.myworkdayjobs.com/en-US/cir_external_career_site/job/Phoenix-AZ/Salesforce-Developer-Intern_R-2025-220|Cambridge Investment Research|Salesforce Developer Intern|Phoenix, AZ +1|Other#1",
-        1
-      ],
-      [
-        [
-          "F&G",
-          "Intern - IT Cloud Enablement - Summer - 2027",
-          "Remote - Des Moines, IA",
-          "Other",
-          "https://www.fglife.com/about/careers/intern/apply.html?gh_jid=7994868003"
-        ],
-        "https://www.fglife.com/about/careers/intern/apply.html?gh_jid=7994868003|F&G|Intern - IT Cloud Enablement - Summer - 2027|Remote - Des Moines, IA|Other#1",
-        1
-      ],
-      [
-        [
-          "F&G",
-          "Intern - IT Software Engineer - Summer - 2027",
-          "Remote - Des Moines, IA",
-          "Other",
-          "https://www.fglife.com/about/careers/intern/apply.html?gh_jid=7996103003"
-        ],
-        "https://www.fglife.com/about/careers/intern/apply.html?gh_jid=7996103003|F&G|Intern - IT Software Engineer - Summer - 2027|Remote - Des Moines, IA|Other#1",
-        1
-      ],
-      [
-        [
-          "MiniMed",
-          "Software Engineering Intern Summer 2027",
-          "Northridge, CA",
-          "Other",
-          "https://mdtkangaroo.wd108.myworkdayjobs.com/en-US/minimedcareers/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1"
-        ],
-        "https://mdtkangaroo.wd108.myworkdayjobs.com/en-US/minimedcareers/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1|MiniMed|Software Engineering Intern Summer 2027|Northridge, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Palo Alto Networks",
-          "Intern - Software Engineer - Bachelors EG",
-          "USA",
-          "Other",
-          "https://paloaltonetworks.wd5.myworkdayjobs.com/en-US/hidden-private-pawn-temp-gateway-147258369/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Bachelors--EG_JR-022385"
-        ],
-        "https://paloaltonetworks.wd5.myworkdayjobs.com/en-US/hidden-private-pawn-temp-gateway-147258369/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Bachelors--EG_JR-022385|Palo Alto Networks|Intern - Software Engineer - Bachelors EG|USA|Other#1",
-        1
-      ],
       [
         [
           "Trane Technologies",
