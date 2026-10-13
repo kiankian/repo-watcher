@@ -62792,6 +62792,18 @@
       "chat_id": 7582459199,
       "seq": 4675,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01878041?s=gh-internships-2027|RTX|Systems Engineering Intern 2027 - Onsite|IN-INDIANAPOLIS|Summer 2027#1"
+    },
+    "b10b70233ed0": {
+      "company": "Goodlord",
+      "role": "Engineering Intern",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/goodlord/7b103308-98c7-4505-b8c6-b98383e51b61/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5872,
+      "chat_id": 7582459199,
+      "seq": 4676,
+      "identity": "https://jobs.ashbyhq.com/goodlord/7b103308-98c7-4505-b8c6-b98383e51b61/application?embed=true&utm_source=Simplify&ref=Simplify|Goodlord|Engineering Intern|London, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -63159,10 +63171,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4675,
+  "seq": 4676,
   "health": {
     "last_heartbeat": "2026-10-13T09:00:23Z",
-    "last_ok_run": "2026-10-13T09:30:19Z",
+    "last_ok_run": "2026-10-13T09:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
