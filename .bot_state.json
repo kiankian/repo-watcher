@@ -62744,6 +62744,30 @@
       "chat_id": 7582459199,
       "seq": 4671,
       "identity": "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Application-Development--Hybrid-_R39458?utm_source=Simplify&ref=Simplify|American Family Insurance Group|Application Development Intern - Application Development|Madison, WI Boston, MA|Summer 2026#1"
+    },
+    "03f3bdc142db": {
+      "company": "RTX",
+      "role": "2027 Co-Op - Summer/Fall Systems Engineer - Onsite",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871438?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5868,
+      "chat_id": 7582459199,
+      "seq": 4672,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871438?s=gh-internships-2027|RTX|2027 Co-Op - Summer/Fall Systems Engineer - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "9966b4e9ce89": {
+      "company": "RTX",
+      "role": "2027 Co-op Spring/Summer Systems Engineer - Onsite",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871432?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5869,
+      "chat_id": 7582459199,
+      "seq": 4673,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871432?s=gh-internships-2027|RTX|2027 Co-op Spring/Summer Systems Engineer - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
     }
   },
   "applied": {
@@ -63111,10 +63135,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4671,
+  "seq": 4673,
   "health": {
     "last_heartbeat": "2026-10-13T03:30:18Z",
-    "last_ok_run": "2026-10-13T03:50:15Z",
+    "last_ok_run": "2026-10-13T03:55:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
