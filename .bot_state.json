@@ -64148,6 +64148,30 @@
       "chat_id": 7582459199,
       "seq": 4788,
       "identity": "https://zapply.jobs/l/d/workday-avav-avav-8611?s=gh-internships-2027|AeroVironment|Summer 2027 Software Engineering Intern|Simi Valley, CA|Summer 2027#1"
+    },
+    "9fdceb36d1d8": {
+      "company": "RTX",
+      "role": "RF Systems Engineer Intern (Onsite)",
+      "location": "TX-MCKINNEY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01880592?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5985,
+      "chat_id": 7582459199,
+      "seq": 4789,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01880592?s=gh-internships-2027|RTX|RF Systems Engineer Intern (Onsite)|TX-MCKINNEY|Summer 2027#1"
+    },
+    "b1e4178b7ccb": {
+      "company": "RTX",
+      "role": "Electro-Optics Systems Engineer Intern (Onsite)",
+      "location": "TX-MCKINNEY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01880586?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5986,
+      "chat_id": 7582459199,
+      "seq": 4790,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01880586?s=gh-internships-2027|RTX|Electro-Optics Systems Engineer Intern (Onsite)|TX-MCKINNEY|Summer 2027#1"
     }
   },
   "applied": {
@@ -64515,10 +64539,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4788,
+  "seq": 4790,
   "health": {
     "last_heartbeat": "2026-10-13T22:20:16Z",
-    "last_ok_run": "2026-10-13T23:35:15Z",
+    "last_ok_run": "2026-10-13T23:40:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
