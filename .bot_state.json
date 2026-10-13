@@ -63848,6 +63848,42 @@
       "chat_id": 7582459199,
       "seq": 4763,
       "identity": "https://studentopportunities-lutron.icims.com/jobs/5359/spring-2027---embedded-firmware-engineering-co-op---boston%2c-ma/job|Lutron|Spring 2027 - Embedded Firmware Engineering Co-Op - Boston - MA|Boston, MA|Other#1"
+    },
+    "0a1feefc39ff": {
+      "company": "Lutron",
+      "role": "Summer 2027 - Embedded Firmware Engineering Intern - Philadelphia - PA",
+      "location": "Philadelphia, PA",
+      "term": "Other",
+      "apply_url": "https://studentopportunities-lutron.icims.com/jobs/5355/summer-2027---embedded-firmware-engineering-intern---philadelphia%2c-pa/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5960,
+      "chat_id": 7582459199,
+      "seq": 4764,
+      "identity": "https://studentopportunities-lutron.icims.com/jobs/5355/summer-2027---embedded-firmware-engineering-intern---philadelphia%2c-pa/job|Lutron|Summer 2027 - Embedded Firmware Engineering Intern - Philadelphia - PA|Philadelphia, PA|Other#1"
+    },
+    "2013a97db96b": {
+      "company": "Lutron",
+      "role": "Summer 2027 - Embedded Firmware Engineering Intern - Lehigh Valley - PA",
+      "location": "Coopersburg, PA",
+      "term": "Other",
+      "apply_url": "https://studentopportunities-lutron.icims.com/jobs/5353/summer-2027---embedded-firmware-engineering-intern---lehigh-valley%2c-pa/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5961,
+      "chat_id": 7582459199,
+      "seq": 4765,
+      "identity": "https://studentopportunities-lutron.icims.com/jobs/5353/summer-2027---embedded-firmware-engineering-intern---lehigh-valley%2c-pa/job|Lutron|Summer 2027 - Embedded Firmware Engineering Intern - Lehigh Valley - PA|Coopersburg, PA|Other#1"
+    },
+    "b8930d344a93": {
+      "company": "Dime Line Trading",
+      "role": "Quantitative Developer Internship - 2027",
+      "location": "Chicago, IL",
+      "term": "Other",
+      "apply_url": "https://www.dltrading.io/careers?gh_jid=7814660003",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 5962,
+      "chat_id": 7582459199,
+      "seq": 4766,
+      "identity": "https://www.dltrading.io/careers?gh_jid=7814660003|Dime Line Trading|Quantitative Developer Internship - 2027|Chicago, IL|Other#1"
     }
   },
   "applied": {
@@ -64215,10 +64251,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4763,
+  "seq": 4766,
   "health": {
     "last_heartbeat": "2026-10-13T19:00:22Z",
-    "last_ok_run": "2026-10-13T19:20:54Z",
+    "last_ok_run": "2026-10-13T19:25:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
