@@ -63944,6 +63944,150 @@
       "chat_id": 7582459199,
       "seq": 4771,
       "identity": "https://zapply.jobs/l/d/netflix-790318904468?s=gh-internships-2027|Netflix|Software Engineer Intern - Summer 2027|Los Gatos, California|Summer 2027#1"
+    },
+    "2bc1cf5cd0be": {
+      "company": "Boston Consulting Group",
+      "role": "Forward Deployed AI Engineer Intern \ud83c\udf93",
+      "location": "4 locationsBoston, MA LA Chicago, IL NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.bcg.com/global/en/job/59702?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5968,
+      "chat_id": 7582459199,
+      "seq": 4772,
+      "identity": "https://careers.bcg.com/global/en/job/59702?utm_source=Simplify&ref=Simplify|Boston Consulting Group|Forward Deployed AI Engineer Intern \ud83c\udf93|4 locationsBoston, MA LA Chicago, IL NYC|Summer 2026#1"
+    },
+    "e895274ebe50": {
+      "company": "Carbon Robotics",
+      "role": "Engineering Intern - Hardware & Software",
+      "location": "Seattle, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://carbonrobotics.com/job-openings?gh_jid=4721558006&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5969,
+      "chat_id": 7582459199,
+      "seq": 4773,
+      "identity": "https://carbonrobotics.com/job-openings?gh_jid=4721558006&utm_source=Simplify&ref=Simplify|Carbon Robotics|Engineering Intern - Hardware & Software|Seattle, WA|Summer 2026#1"
+    },
+    "a2ea92f93464": {
+      "company": "\ud83d\udd25 Figma",
+      "role": "PhD Intern - Software Engineer - Graphics \ud83c\udf93",
+      "location": "SF NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/figma/jobs/6219995004?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5970,
+      "chat_id": 7582459199,
+      "seq": 4774,
+      "identity": "https://boards.greenhouse.io/figma/jobs/6219995004?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Figma|PhD Intern - Software Engineer - Graphics \ud83c\udf93|SF NYC|Summer 2026#1"
+    },
+    "6e41fd004fea": {
+      "company": "Electronic Arts",
+      "role": "Technical Artist Co-op",
+      "location": "Vancouver, BC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Artist-Co-op/216406?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5971,
+      "chat_id": 7582459199,
+      "seq": 4775,
+      "identity": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Artist-Co-op/216406?utm_source=Simplify&ref=Simplify|Electronic Arts|Technical Artist Co-op|Vancouver, BC, Canada|Summer 2026#1"
+    },
+    "65a7c0cd13de": {
+      "company": "\ud83d\udd25 Netflix",
+      "role": "Software Engineer Intern",
+      "location": "LA Los Gatos, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://explore.jobs.netflix.net/careers/job/790318904468?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5972,
+      "chat_id": 7582459199,
+      "seq": 4776,
+      "identity": "https://explore.jobs.netflix.net/careers/job/790318904468?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Netflix|Software Engineer Intern|LA Los Gatos, CA|Summer 2026#1"
+    },
+    "3648e9460df6": {
+      "company": "Medpace",
+      "role": "Python Developer Intern",
+      "location": "Cincinnati, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.medpace.com/jobs/13059?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5973,
+      "chat_id": 7582459199,
+      "seq": 4777,
+      "identity": "https://careers.medpace.com/jobs/13059?icims=1&utm_source=Simplify&ref=Simplify|Medpace|Python Developer Intern|Cincinnati, OH|Summer 2026#1"
+    },
+    "bbab246075d6": {
+      "company": "Rhombus",
+      "role": "Software Engineer Intern",
+      "location": "Sacramento, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/rhombus-systems/59e7a5f3-b457-491d-af08-b629ad35e380/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5974,
+      "chat_id": 7582459199,
+      "seq": 4778,
+      "identity": "https://jobs.lever.co/rhombus-systems/59e7a5f3-b457-491d-af08-b629ad35e380/apply?utm_source=Simplify&ref=Simplify|Rhombus|Software Engineer Intern|Sacramento, CA|Summer 2026#1"
+    },
+    "fe428e59d792": {
+      "company": "\ud83d\udd25 ServiceNow",
+      "role": "AI Engineering Associate Software Engineer Intern",
+      "location": "4 locationsSanta Clara, CA West Palm Beach, FL Kirkland, WA San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000155345889?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5975,
+      "chat_id": 7582459199,
+      "seq": 4779,
+      "identity": "https://jobs.smartrecruiters.com/ServiceNow/744000155345889?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ServiceNow|AI Engineering Associate Software Engineer Intern|4 locationsSanta Clara, CA West Palm Beach, FL Kirkland, WA San Diego, CA|Summer 2026#1"
+    },
+    "491f4fa4fd73": {
+      "company": "\ud83d\udd25 ServiceNow",
+      "role": "Software Engineer Intern \ud83c\udf93",
+      "location": "4 locationsSanta Clara, CA West Palm Beach, FL Kirkland, WA San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000155345689?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5976,
+      "chat_id": 7582459199,
+      "seq": 4780,
+      "identity": "https://jobs.smartrecruiters.com/ServiceNow/744000155345689?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ServiceNow|Software Engineer Intern \ud83c\udf93|4 locationsSanta Clara, CA West Palm Beach, FL Kirkland, WA San Diego, CA|Summer 2026#1"
+    },
+    "8da449070330": {
+      "company": "\ud83d\udd25 NVIDIA",
+      "role": "Sparse Linear Algebra Libraries Intern \ud83c\udf93",
+      "location": "Santa Clara, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Sparse-Linear-Algebra-Libraries-Intern---Summer-2027_JR2027429?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5977,
+      "chat_id": 7582459199,
+      "seq": 4781,
+      "identity": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Sparse-Linear-Algebra-Libraries-Intern---Summer-2027_JR2027429?utm_source=Simplify&ref=Simplify|\ud83d\udd25 NVIDIA|Sparse Linear Algebra Libraries Intern \ud83c\udf93|Santa Clara, CA|Summer 2026#1"
+    },
+    "0ec649e96ede": {
+      "company": "CAI",
+      "role": "Programmer Intern",
+      "location": "Allentown, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/PA-CLIENT-STATE/Programmer-Intern_R8523?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5978,
+      "chat_id": 7582459199,
+      "seq": 4782,
+      "identity": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/PA-CLIENT-STATE/Programmer-Intern_R8523?utm_source=Simplify&ref=Simplify|CAI|Programmer Intern|Allentown, PA|Summer 2026#1"
+    },
+    "74af07128d06": {
+      "company": "H&R Block",
+      "role": "Software Engineer Intern",
+      "location": "Kansas City, MO",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.hrblock.com/jobs/76987?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 5979,
+      "chat_id": 7582459199,
+      "seq": 4783,
+      "identity": "https://careers.hrblock.com/jobs/76987?icims=1&utm_source=Simplify&ref=Simplify|H&R Block|Software Engineer Intern|Kansas City, MO|Summer 2026#1"
     }
   },
   "applied": {
@@ -64311,10 +64455,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4771,
+  "seq": 4783,
   "health": {
     "last_heartbeat": "2026-10-13T22:20:16Z",
-    "last_ok_run": "2026-10-13T22:30:20Z",
+    "last_ok_run": "2026-10-13T22:35:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
