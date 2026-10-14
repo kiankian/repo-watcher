@@ -64340,6 +64340,42 @@
       "chat_id": 7582459199,
       "seq": 4804,
       "identity": "https://zapply.jobs/l/d/workday-kiongroup-kiongroup-JR-0097732?s=gh-internships-2027|KION Group|Software Engineering Intern|Grand Rapids MI United States|Summer 2027#1"
+    },
+    "13f3da246fdf": {
+      "company": "Point72",
+      "role": "Software Engineer Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/point72/jobs/8885733002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6001,
+      "chat_id": 7582459199,
+      "seq": 4805,
+      "identity": "https://boards.greenhouse.io/point72/jobs/8885733002?utm_source=Simplify&ref=Simplify|Point72|Software Engineer Intern|NYC|Summer 2026#1"
+    },
+    "81d2761f0bd9": {
+      "company": "Parsons",
+      "role": "Software Engineer Intern",
+      "location": "Huntsville, AL",
+      "term": "Summer 2026",
+      "apply_url": "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---AL-Huntsville/Software-Engineering-Intern--Summer-2027-_R187299?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6002,
+      "chat_id": 7582459199,
+      "seq": 4806,
+      "identity": "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---AL-Huntsville/Software-Engineering-Intern--Summer-2027-_R187299?utm_source=Simplify&ref=Simplify|Parsons|Software Engineer Intern|Huntsville, AL|Summer 2026#1"
+    },
+    "473e3c4ee5d8": {
+      "company": "Equifax",
+      "role": "Technology Intern",
+      "location": "Alpharetta, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/Technology-Intern_J00178955?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6003,
+      "chat_id": 7582459199,
+      "seq": 4807,
+      "identity": "https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/Technology-Intern_J00178955?utm_source=Simplify&ref=Simplify|Equifax|Technology Intern|Alpharetta, GA|Summer 2026#1"
     }
   },
   "applied": {
@@ -64707,10 +64743,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4804,
+  "seq": 4807,
   "health": {
     "last_heartbeat": "2026-10-14T13:55:16Z",
-    "last_ok_run": "2026-10-14T14:30:20Z",
+    "last_ok_run": "2026-10-14T14:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
