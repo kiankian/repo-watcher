@@ -64172,6 +64172,42 @@
       "chat_id": 7582459199,
       "seq": 4790,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01880586?s=gh-internships-2027|RTX|Electro-Optics Systems Engineer Intern (Onsite)|TX-MCKINNEY|Summer 2027#1"
+    },
+    "839197a9dfd2": {
+      "company": "Blue Origin",
+      "role": "Summer 2027 Software Developer Internship - Undergraduate",
+      "location": "Greater Seattle Area",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R71425?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5987,
+      "chat_id": 7582459199,
+      "seq": 4791,
+      "identity": "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R71425?s=gh-internships-2027|Blue Origin|Summer 2027 Software Developer Internship - Undergraduate|Greater Seattle Area|Summer 2027#1"
+    },
+    "c1554635c09e": {
+      "company": "Blue Origin",
+      "role": "Summer 2027 Test Engineering Internship - Graduate",
+      "location": "Van Horn, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R71432?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5988,
+      "chat_id": 7582459199,
+      "seq": 4792,
+      "identity": "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R71432?s=gh-internships-2027|Blue Origin|Summer 2027 Test Engineering Internship - Graduate|Van Horn, TX|Summer 2027#1"
+    },
+    "14a65477cedb": {
+      "company": "Blue Origin",
+      "role": "Summer 2027 Test Engineering Internship - Undergraduate",
+      "location": "Greater Seattle Area",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R71433?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 5989,
+      "chat_id": 7582459199,
+      "seq": 4793,
+      "identity": "https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R71433?s=gh-internships-2027|Blue Origin|Summer 2027 Test Engineering Internship - Undergraduate|Greater Seattle Area|Summer 2027#1"
     }
   },
   "applied": {
@@ -64539,10 +64575,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4790,
+  "seq": 4793,
   "health": {
     "last_heartbeat": "2026-10-14T00:45:16Z",
-    "last_ok_run": "2026-10-14T01:15:14Z",
+    "last_ok_run": "2026-10-14T01:20:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
