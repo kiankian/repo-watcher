@@ -64928,6 +64928,18 @@
       "chat_id": 7582459199,
       "seq": 4853,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10256037?s=gh-internships-2027|Northrop Grumman|2027 Cyber Software Engineer Intern - San Antonio TX|United States-Texas-San Antonio|Summer 2027#1"
+    },
+    "18c53c8c72dd": {
+      "company": "Skydio",
+      "role": "Manufacturing Software Engineer Intern - Winter 2027",
+      "location": "San Mateo, California, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-skydio-ffc665c1-2aa6-4c2f-b04b-93a6fb7b5feb?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6050,
+      "chat_id": 7582459199,
+      "seq": 4854,
+      "identity": "https://zapply.jobs/l/d/ashby-skydio-ffc665c1-2aa6-4c2f-b04b-93a6fb7b5feb?s=gh-internships-2027|Skydio|Manufacturing Software Engineer Intern - Winter 2027|San Mateo, California, United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -65295,10 +65307,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4853,
+  "seq": 4854,
   "health": {
     "last_heartbeat": "2026-10-14T17:15:19Z",
-    "last_ok_run": "2026-10-14T18:00:25Z",
+    "last_ok_run": "2026-10-14T18:05:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
