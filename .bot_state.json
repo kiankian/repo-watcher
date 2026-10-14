@@ -64328,6 +64328,18 @@
       "chat_id": 7582459199,
       "seq": 4803,
       "identity": "https://zapply.jobs/l/d/workday-parsons-search-R187299?s=gh-internships-2027|Parsons|Software Engineering Intern (Summer 2027)|AL, Huntsville, R187299|Summer 2027#1"
+    },
+    "5d29a541a4a1": {
+      "company": "KION Group",
+      "role": "Software Engineering Intern",
+      "location": "Grand Rapids MI United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-kiongroup-kiongroup-JR-0097732?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6000,
+      "chat_id": 7582459199,
+      "seq": 4804,
+      "identity": "https://zapply.jobs/l/d/workday-kiongroup-kiongroup-JR-0097732?s=gh-internships-2027|KION Group|Software Engineering Intern|Grand Rapids MI United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -64695,10 +64707,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4803,
+  "seq": 4804,
   "health": {
     "last_heartbeat": "2026-10-14T12:45:18Z",
-    "last_ok_run": "2026-10-14T13:45:17Z",
+    "last_ok_run": "2026-10-14T13:50:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
