@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "e03424a5ee4c6be9128228979032bf74cba3c500",
+    "last_sha": "12e98229a647bc45e1dfdf33115a1cb4f835b8a1",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2536,7 +2536,7 @@
       "https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/Technology-Intern_J00178955?utm_source=Simplify&ref=Simplify|Equifax|Technology Intern|Alpharetta, GA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 633,
+    "last_row_count": 631,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -6619,7 +6619,18 @@
       "https://ideas-sas.icims.com/jobs/42665/software-development-intern/job|SAS|Software Development Intern|Bloomington, MN|Other#1",
       "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=b156e713-5801-4c36-bb62-a62f3bc9844f&jobId=547656|London Computer Systems|Software Developer Co-op/Intern|Cincinnati, OH|Other#1",
       "https://jobs.smartrecruiters.com/WellmarkInc/744000152679699-software-engineer-internship-metadata-enablement-team?oga=true|Wellmark|Software Engineer Internship - Metadata Enablement Team|Des Moines, IA|Other#1",
-      "https://jobs.smartrecruiters.com/WellmarkInc/744000152260188-software-engineer-internship-marketing-and-digital-team?oga=true|Wellmark|Software Engineer Internship - Marketing and Digital Team|Des Moines, IA|Other#1"
+      "https://jobs.smartrecruiters.com/WellmarkInc/744000152260188-software-engineer-internship-marketing-and-digital-team?oga=true|Wellmark|Software Engineer Internship - Marketing and Digital Team|Des Moines, IA|Other#1",
+      "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data---AI-II--Intern----United-States_2026798|Cisco|Software Engineer Data & AI II - Intern - United States|San Jose, CA +3|Other#1",
+      "https://jobs.smartrecruiters.com/WellmarkInc/744000150732768-software-engineer-internship-technology-healthcare-innovation?oga=true|Wellmark|Software Engineer Internship - Technology Healthcare Innovation|Des Moines, IA|Other#1",
+      "https://jobs.smartrecruiters.com/LLNL/3743990015408206-computing-undergraduate-student-intern-devops-internship-program-summer-2027?oga=true|Lawrence Livermore National Laboratory|Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027|Livermore, CA|Other#1",
+      "https://jobs.smartrecruiters.com/Interco/744000149591449-paid-internship-software-development-react-?oga=true|Interco|Paid Internship -- Software Development -- React|St. Louis, MO|Other#1",
+      "https://job-boards.greenhouse.io/workshop/jobs/5237900007|Workshop|Software Engineer Intern - Summer 2027|Omaha, NE|Other#1",
+      "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7993376003|Axon|2026 AfroTech Software Engineering Internship|Seattle, WA|Other#1",
+      "https://jobs.smartrecruiters.com/WellmarkInc/744000148915793-software-engineer-internship-user-experience-team-?oga=true|Wellmark|Software Engineer Internship - User Experience Team|Des Moines, IA|Other#1",
+      "https://jobs.smartrecruiters.com/Winsupply1/3743990015014717-software-developer-intern-?oga=true|Winsupply|Software Developer Intern|Moraine, OH|Other#1",
+      "https://studentopportunities-lutron.icims.com/jobs/5361/summer-2027---embedded-firmware-engineering-intern---austin%2c-tx/job|Lutron|Summer 2027 - Embedded Firmware Engineering Intern - Austin - TX|Austin, TX|Other#1",
+      "https://studentopportunities-lutron.icims.com/jobs/5388/summer-2027---software-engineering-intern---austin%2c-tx/job|Lutron|Summer 2027 - Software Engineering Intern - Austin - TX|Austin, TX|Other#1",
+      "https://studentopportunities-lutron.icims.com/jobs/5384/summer-2027---software-engineering-intern---philadelphia%2c-pa/job|Lutron|Summer 2027 - Software Engineering Intern - Philadelphia - PA|Philadelphia, PA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -6764,128 +6775,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 735,
-    "outbox": [
-      [
-        [
-          "Cisco",
-          "Software Engineer Data & AI II - Intern - United States",
-          "San Jose, CA +3",
-          "Other",
-          "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data---AI-II--Intern----United-States_2026798"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data---AI-II--Intern----United-States_2026798|Cisco|Software Engineer Data & AI II - Intern - United States|San Jose, CA +3|Other#1",
-        1
-      ],
-      [
-        [
-          "Wellmark",
-          "Software Engineer Internship - Technology Healthcare Innovation",
-          "Des Moines, IA",
-          "Other",
-          "https://jobs.smartrecruiters.com/WellmarkInc/744000150732768-software-engineer-internship-technology-healthcare-innovation?oga=true"
-        ],
-        "https://jobs.smartrecruiters.com/WellmarkInc/744000150732768-software-engineer-internship-technology-healthcare-innovation?oga=true|Wellmark|Software Engineer Internship - Technology Healthcare Innovation|Des Moines, IA|Other#1",
-        1
-      ],
-      [
-        [
-          "Lawrence Livermore National Laboratory",
-          "Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027",
-          "Livermore, CA",
-          "Other",
-          "https://jobs.smartrecruiters.com/LLNL/3743990015408206-computing-undergraduate-student-intern-devops-internship-program-summer-2027?oga=true"
-        ],
-        "https://jobs.smartrecruiters.com/LLNL/3743990015408206-computing-undergraduate-student-intern-devops-internship-program-summer-2027?oga=true|Lawrence Livermore National Laboratory|Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027|Livermore, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Interco",
-          "Paid Internship -- Software Development -- React",
-          "St. Louis, MO",
-          "Other",
-          "https://jobs.smartrecruiters.com/Interco/744000149591449-paid-internship-software-development-react-?oga=true"
-        ],
-        "https://jobs.smartrecruiters.com/Interco/744000149591449-paid-internship-software-development-react-?oga=true|Interco|Paid Internship -- Software Development -- React|St. Louis, MO|Other#1",
-        1
-      ],
-      [
-        [
-          "Workshop",
-          "Software Engineer Intern - Summer 2027",
-          "Omaha, NE",
-          "Other",
-          "https://job-boards.greenhouse.io/workshop/jobs/5237900007"
-        ],
-        "https://job-boards.greenhouse.io/workshop/jobs/5237900007|Workshop|Software Engineer Intern - Summer 2027|Omaha, NE|Other#1",
-        1
-      ],
-      [
-        [
-          "Axon",
-          "2026 AfroTech Software Engineering Internship",
-          "Seattle, WA",
-          "Other",
-          "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7993376003"
-        ],
-        "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7993376003|Axon|2026 AfroTech Software Engineering Internship|Seattle, WA|Other#1",
-        1
-      ],
-      [
-        [
-          "Wellmark",
-          "Software Engineer Internship - User Experience Team",
-          "Des Moines, IA",
-          "Other",
-          "https://jobs.smartrecruiters.com/WellmarkInc/744000148915793-software-engineer-internship-user-experience-team-?oga=true"
-        ],
-        "https://jobs.smartrecruiters.com/WellmarkInc/744000148915793-software-engineer-internship-user-experience-team-?oga=true|Wellmark|Software Engineer Internship - User Experience Team|Des Moines, IA|Other#1",
-        1
-      ],
-      [
-        [
-          "Winsupply",
-          "Software Developer Intern",
-          "Moraine, OH",
-          "Other",
-          "https://jobs.smartrecruiters.com/Winsupply1/3743990015014717-software-developer-intern-?oga=true"
-        ],
-        "https://jobs.smartrecruiters.com/Winsupply1/3743990015014717-software-developer-intern-?oga=true|Winsupply|Software Developer Intern|Moraine, OH|Other#1",
-        1
-      ],
-      [
-        [
-          "Lutron",
-          "Summer 2027 - Embedded Firmware Engineering Intern - Austin - TX",
-          "Austin, TX",
-          "Other",
-          "https://studentopportunities-lutron.icims.com/jobs/5361/summer-2027---embedded-firmware-engineering-intern---austin%2c-tx/job"
-        ],
-        "https://studentopportunities-lutron.icims.com/jobs/5361/summer-2027---embedded-firmware-engineering-intern---austin%2c-tx/job|Lutron|Summer 2027 - Embedded Firmware Engineering Intern - Austin - TX|Austin, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "Lutron",
-          "Summer 2027 - Software Engineering Intern - Austin - TX",
-          "Austin, TX",
-          "Other",
-          "https://studentopportunities-lutron.icims.com/jobs/5388/summer-2027---software-engineering-intern---austin%2c-tx/job"
-        ],
-        "https://studentopportunities-lutron.icims.com/jobs/5388/summer-2027---software-engineering-intern---austin%2c-tx/job|Lutron|Summer 2027 - Software Engineering Intern - Austin - TX|Austin, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "Lutron",
-          "Summer 2027 - Software Engineering Intern - Philadelphia - PA",
-          "Philadelphia, PA",
-          "Other",
-          "https://studentopportunities-lutron.icims.com/jobs/5384/summer-2027---software-engineering-intern---philadelphia%2c-pa/job"
-        ],
-        "https://studentopportunities-lutron.icims.com/jobs/5384/summer-2027---software-engineering-intern---philadelphia%2c-pa/job|Lutron|Summer 2027 - Software Engineering Intern - Philadelphia - PA|Philadelphia, PA|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }
