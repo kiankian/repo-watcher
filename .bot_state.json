@@ -64976,6 +64976,42 @@
       "chat_id": 7582459199,
       "seq": 4857,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01880960?s=gh-internships-2027|RTX|Electro-Optics Systems Engineer Intern (Summer 2027)|CA-GOLETA-H01|Summer 2027#1"
+    },
+    "ef5ded8657f3": {
+      "company": "SharkNinja",
+      "role": "Spring 2027: Mechanical Systems Engineering Co-op, Ninja (January to June)",
+      "location": "Needham, MA, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-sharkninjaoperatingllc-4720169006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6054,
+      "chat_id": 7582459199,
+      "seq": 4858,
+      "identity": "https://zapply.jobs/l/d/greenhouse-sharkninjaoperatingllc-4720169006?s=gh-internships-2027|SharkNinja|Spring 2027: Mechanical Systems Engineering Co-op, Ninja (January to June)|Needham, MA, United States|Summer 2027#1"
+    },
+    "49f569c7052e": {
+      "company": "Anduril",
+      "role": "2027 Flight Test Engineer Intern",
+      "location": "Costa Mesa, California, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5257709007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6055,
+      "chat_id": 7582459199,
+      "seq": 4859,
+      "identity": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5257709007?s=gh-internships-2027|Anduril|2027 Flight Test Engineer Intern|Costa Mesa, California, United...|Summer 2027#1"
+    },
+    "4dcc1b4f8cbb": {
+      "company": "CFS Energy",
+      "role": "Intern - Nuclear/Systems Engineer - Summer 2027",
+      "location": "Devens, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-cfsenergy-a05832ae-41df-4e2d-ab86-dd3e2c4877d4?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6056,
+      "chat_id": 7582459199,
+      "seq": 4860,
+      "identity": "https://zapply.jobs/l/d/lever-cfsenergy-a05832ae-41df-4e2d-ab86-dd3e2c4877d4?s=gh-internships-2027|CFS Energy|Intern - Nuclear/Systems Engineer - Summer 2027|Devens, MA|Summer 2027#1"
     }
   },
   "applied": {
@@ -65343,10 +65379,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4857,
+  "seq": 4860,
   "health": {
     "last_heartbeat": "2026-10-14T18:20:16Z",
-    "last_ok_run": "2026-10-14T18:50:16Z",
+    "last_ok_run": "2026-10-14T18:55:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
