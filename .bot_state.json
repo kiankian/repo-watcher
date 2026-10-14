@@ -65036,6 +65036,42 @@
       "chat_id": 7582459199,
       "seq": 4862,
       "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031074?s=gh-internships-2027|Sierra Nevada Corporation|Software Engineer Intern (For SNC Summer 2026 Intern Only)|Sparks, NV|Summer 2027#1"
+    },
+    "ad9f448851ac": {
+      "company": "ICF",
+      "role": "2027 Summer Intern, Software Engineer (Reston, VA)",
+      "location": "Reston, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-icf-icfexternal-career-site-R2603522?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6059,
+      "chat_id": 7582459199,
+      "seq": 4863,
+      "identity": "https://zapply.jobs/l/d/workday-icf-icfexternal-career-site-R2603522?s=gh-internships-2027|ICF|2027 Summer Intern, Software Engineer (Reston, VA)|Reston, VA|Summer 2027#1"
+    },
+    "bba18ec0af94": {
+      "company": "Nissan",
+      "role": "Software Engineer Intern - Spring 2027 - Santa Clara, CA",
+      "location": "Santa Clara, California -...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-alliance-nissanjobs-R00214269?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6060,
+      "chat_id": 7582459199,
+      "seq": 4864,
+      "identity": "https://zapply.jobs/l/d/workday-alliance-nissanjobs-R00214269?s=gh-internships-2027|Nissan|Software Engineer Intern - Spring 2027 - Santa Clara, CA|Santa Clara, California -...|Summer 2027#1"
+    },
+    "ecb7d9841b80": {
+      "company": "Figure AI",
+      "role": "Embedded Software Engineering Intern, Platform",
+      "location": "San Jose, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-figureai-4722086006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6061,
+      "chat_id": 7582459199,
+      "seq": 4865,
+      "identity": "https://zapply.jobs/l/d/greenhouse-figureai-4722086006?s=gh-internships-2027|Figure AI|Embedded Software Engineering Intern, Platform|San Jose, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -65403,10 +65439,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4862,
+  "seq": 4865,
   "health": {
     "last_heartbeat": "2026-10-14T20:25:14Z",
-    "last_ok_run": "2026-10-14T21:00:23Z",
+    "last_ok_run": "2026-10-14T21:05:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
