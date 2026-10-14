@@ -64448,6 +64448,18 @@
       "chat_id": 7582459199,
       "seq": 4813,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-332543?s=gh-internships-2027|CACI|Software Engineering Intern - Summer 2027|Florham Park, NJ, US|Summer 2027#1"
+    },
+    "f2dec198551c": {
+      "company": "Copart",
+      "role": "DevOps Engineer Intern",
+      "location": "Dallas, TX - Headquarters",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-copart-copart-JR111751?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6010,
+      "chat_id": 7582459199,
+      "seq": 4814,
+      "identity": "https://zapply.jobs/l/d/workday-copart-copart-JR111751?s=gh-internships-2027|Copart|DevOps Engineer Intern|Dallas, TX - Headquarters|Summer 2027#1"
     }
   },
   "applied": {
@@ -64815,10 +64827,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4813,
+  "seq": 4814,
   "health": {
     "last_heartbeat": "2026-10-14T16:00:26Z",
-    "last_ok_run": "2026-10-14T16:00:26Z",
+    "last_ok_run": "2026-10-14T16:05:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
