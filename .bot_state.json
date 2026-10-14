@@ -65216,6 +65216,42 @@
       "chat_id": 7582459199,
       "seq": 4877,
       "identity": "https://zapply.jobs/l/d/workday-rockwellautomation-external-rockwell-aut-R26-7553?s=gh-internships-2027|Rockwell Automation|Intern, Test Engineering (Milwaukee, WI)|Milwaukee, Wisconsin, United States|Summer 2027#1"
+    },
+    "25d8de965bd4": {
+      "company": "Manulife Financial",
+      "role": "Software Engineer Intern",
+      "location": "Waterloo, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Waterloo-Ontario/Summer-Intern-2027---Software-Engineering_JR26081686-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6074,
+      "chat_id": 7582459199,
+      "seq": 4878,
+      "identity": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Waterloo-Ontario/Summer-Intern-2027---Software-Engineering_JR26081686-1?utm_source=Simplify&ref=Simplify|Manulife Financial|Software Engineer Intern|Waterloo, ON, Canada|Summer 2026#1"
+    },
+    "de228ff8b1db": {
+      "company": "Jain Global",
+      "role": "Compliance Technology Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Compliance-Technology-Intern_JR100607?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6075,
+      "chat_id": 7582459199,
+      "seq": 4879,
+      "identity": "https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Compliance-Technology-Intern_JR100607?utm_source=Simplify&ref=Simplify|Jain Global|Compliance Technology Intern|NYC|Summer 2026#1"
+    },
+    "8c26c25e2b9e": {
+      "company": "ICF International",
+      "role": "AI Engineer Intern",
+      "location": "Reston, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603518?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6076,
+      "chat_id": 7582459199,
+      "seq": 4880,
+      "identity": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603518?utm_source=Simplify&ref=Simplify|ICF International|AI Engineer Intern|Reston, VA|Summer 2026#1"
     }
   },
   "applied": {
@@ -65583,10 +65619,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4877,
+  "seq": 4880,
   "health": {
     "last_heartbeat": "2026-10-14T22:45:16Z",
-    "last_ok_run": "2026-10-14T23:00:22Z",
+    "last_ok_run": "2026-10-14T23:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
