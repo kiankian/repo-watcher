@@ -65348,6 +65348,18 @@
       "chat_id": 7582459199,
       "seq": 4888,
       "identity": "https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Mobile-Engineering-Intern---2027---London_R-110545?utm_source=Simplify&ref=Simplify|Expedia Group|Mobile Engineer Intern|London, UK|Summer 2026#1"
+    },
+    "54763cad6db2": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "VA-STERLING",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882317?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6085,
+      "chat_id": 7582459199,
+      "seq": 4889,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882317?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|VA-STERLING|Summer 2027#1"
     }
   },
   "applied": {
@@ -65715,10 +65727,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4888,
+  "seq": 4889,
   "health": {
     "last_heartbeat": "2026-10-15T14:20:19Z",
-    "last_ok_run": "2026-10-15T15:15:18Z",
+    "last_ok_run": "2026-10-15T15:20:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
