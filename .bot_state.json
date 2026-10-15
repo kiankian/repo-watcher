@@ -65264,6 +65264,18 @@
       "chat_id": 7582459199,
       "seq": 4881,
       "identity": "https://zapply.jobs/l/d/ashby-tessera-labs-892bb150-8c98-47f4-a8b6-93633ecb2ea7?s=gh-internships-2027|Tessera Labs|Software Engineering Intern, Full Stack|San Jose|Summer 2027#1"
+    },
+    "5444def95bc9": {
+      "company": "RTX",
+      "role": "Summer 2027 RF Systems Engineer Intern - Onsite",
+      "location": "IN-FT WAYNE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01880963?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6078,
+      "chat_id": 7582459199,
+      "seq": 4882,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01880963?s=gh-internships-2027|RTX|Summer 2027 RF Systems Engineer Intern - Onsite|IN-FT WAYNE|Summer 2027#1"
     }
   },
   "applied": {
@@ -65631,10 +65643,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4881,
+  "seq": 4882,
   "health": {
     "last_heartbeat": "2026-10-15T04:25:15Z",
-    "last_ok_run": "2026-10-15T05:05:16Z",
+    "last_ok_run": "2026-10-15T05:10:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
