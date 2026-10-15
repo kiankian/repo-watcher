@@ -65408,6 +65408,42 @@
       "chat_id": 7582459199,
       "seq": 4893,
       "identity": "https://studentopportunities-lutron.icims.com/jobs/5354/spring-2027---embedded-firmware-engineering-co-op---philadelphia%2c-pa/job|Lutron|Spring 2027 - Embedded Firmware Engineering Co-Op - Philadelphia - PA|Philadelphia, PA|Other#1"
+    },
+    "89bb7964491d": {
+      "company": "RTX",
+      "role": "Software Engineering Co-op (Summer/Fall 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882414?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6090,
+      "chat_id": 7582459199,
+      "seq": 4894,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882414?s=gh-internships-2027|RTX|Software Engineering Co-op (Summer/Fall 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "9de6318f3527": {
+      "company": "RTX",
+      "role": "Software Engineering Co-op (Spring/Summer 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01881996?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6091,
+      "chat_id": 7582459199,
+      "seq": 4895,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01881996?s=gh-internships-2027|RTX|Software Engineering Co-op (Spring/Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "5b42e8f9f9a6": {
+      "company": "NREL",
+      "role": "Graduate (10-12 weeks) Intern - AI/ML for Cybersecurity",
+      "location": "Golden, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-nrel-nlr-R14563?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6092,
+      "chat_id": 7582459199,
+      "seq": 4896,
+      "identity": "https://zapply.jobs/l/d/workday-nrel-nlr-R14563?s=gh-internships-2027|NREL|Graduate (10-12 weeks) Intern - AI/ML for Cybersecurity|Golden, CO|Summer 2027#1"
     }
   },
   "applied": {
@@ -65775,10 +65811,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4893,
+  "seq": 4896,
   "health": {
     "last_heartbeat": "2026-10-15T16:40:18Z",
-    "last_ok_run": "2026-10-15T16:55:15Z",
+    "last_ok_run": "2026-10-15T17:00:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
