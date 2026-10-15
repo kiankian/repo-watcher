@@ -65300,6 +65300,18 @@
       "chat_id": 7582459199,
       "seq": 4884,
       "identity": "https://jobs.ashbyhq.com/tessera-labs/892bb150-8c98-47f4-a8b6-93633ecb2ea7/application?embed=true&utm_source=Simplify&ref=Simplify|Tessera Labs|Full Stack Software Engineer Intern - Full Stack|San Jose, CA Remote in USA NYC|Summer 2026#1"
+    },
+    "689a267b94e7": {
+      "company": "Brunswick",
+      "role": "G3 Software Engineer Intern",
+      "location": "Oshkosh, WI",
+      "term": "Summer 2026",
+      "apply_url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Oshkosh-WI/Mercury-Marine--Software-Validation-Intern_JR-051160?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6081,
+      "chat_id": 7582459199,
+      "seq": 4885,
+      "identity": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Oshkosh-WI/Mercury-Marine--Software-Validation-Intern_JR-051160?utm_source=Simplify&ref=Simplify|Brunswick|G3 Software Engineer Intern|Oshkosh, WI|Summer 2026#1"
     }
   },
   "applied": {
@@ -65667,10 +65679,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4884,
+  "seq": 4885,
   "health": {
     "last_heartbeat": "2026-10-15T08:40:18Z",
-    "last_ok_run": "2026-10-15T09:30:22Z",
+    "last_ok_run": "2026-10-15T09:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
