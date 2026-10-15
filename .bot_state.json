@@ -65540,6 +65540,42 @@
       "chat_id": 7582459199,
       "seq": 4904,
       "identity": "https://zapply.jobs/l/d/lever-cfsenergy-fa87d365-ac8a-44c3-8fda-c9dec3ea8878?s=gh-internships-2027|CFS Energy|Intern - AI & Infrastructure Engineer - Spring 2027|Devens, MA|Summer 2027#1"
+    },
+    "e739a9b06552": {
+      "company": "RTX",
+      "role": "Quality Engineering Intern (Summer 2027)",
+      "location": "CA-FAIRFIELD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882706?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6101,
+      "chat_id": 7582459199,
+      "seq": 4905,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882706?s=gh-internships-2027|RTX|Quality Engineering Intern (Summer 2027)|CA-FAIRFIELD|Summer 2027#1"
+    },
+    "35e123d0d995": {
+      "company": "RTX",
+      "role": "Quality Assurance Intern (Summer 2027)",
+      "location": "CT-CHESHIRE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882553?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6102,
+      "chat_id": 7582459199,
+      "seq": 4906,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882553?s=gh-internships-2027|RTX|Quality Assurance Intern (Summer 2027)|CT-CHESHIRE|Summer 2027#1"
+    },
+    "afb563788924": {
+      "company": "RTX",
+      "role": "Quality Engineering Intern (Summer 2027)",
+      "location": "CT-WINDSOR LOCKS-B1A",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882452?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6103,
+      "chat_id": 7582459199,
+      "seq": 4907,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882452?s=gh-internships-2027|RTX|Quality Engineering Intern (Summer 2027)|CT-WINDSOR LOCKS-B1A|Summer 2027#1"
     }
   },
   "applied": {
@@ -65907,10 +65943,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4904,
+  "seq": 4907,
   "health": {
     "last_heartbeat": "2026-10-15T19:55:14Z",
-    "last_ok_run": "2026-10-15T20:35:17Z",
+    "last_ok_run": "2026-10-15T20:40:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
