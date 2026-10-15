@@ -65324,6 +65324,30 @@
       "chat_id": 7582459199,
       "seq": 4886,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-333422?s=gh-internships-2027|CACI|Software Test Engineer Intern - Spring 2027|Remote|Summer 2027#1"
+    },
+    "c3e40e23f1b2": {
+      "company": "Expedia Group",
+      "role": "Software Development Engineer Intern",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6083,
+      "chat_id": 7582459199,
+      "seq": 4887,
+      "identity": "https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551?utm_source=Simplify&ref=Simplify|Expedia Group|Software Development Engineer Intern|London, UK|Summer 2026#1"
+    },
+    "e4bdd2ae2c96": {
+      "company": "Expedia Group",
+      "role": "Mobile Engineer Intern",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Mobile-Engineering-Intern---2027---London_R-110545?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6084,
+      "chat_id": 7582459199,
+      "seq": 4888,
+      "identity": "https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Mobile-Engineering-Intern---2027---London_R-110545?utm_source=Simplify&ref=Simplify|Expedia Group|Mobile Engineer Intern|London, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -65691,10 +65715,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4886,
+  "seq": 4888,
   "health": {
     "last_heartbeat": "2026-10-15T14:20:19Z",
-    "last_ok_run": "2026-10-15T15:00:23Z",
+    "last_ok_run": "2026-10-15T15:05:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
