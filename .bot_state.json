@@ -65672,6 +65672,18 @@
       "chat_id": 7582459199,
       "seq": 4915,
       "identity": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710?utm_source=Simplify&ref=Simplify|Centene|AI Software Developer Intern|Missouri|Summer 2026#1"
+    },
+    "75acb14cc5a1": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering Intern",
+      "location": "Bellevue, Washington",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tmobile-external-REQ368322?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6112,
+      "chat_id": 7582459199,
+      "seq": 4916,
+      "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ368322?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Intern|Bellevue, Washington|Summer 2027#1"
     }
   },
   "applied": {
@@ -66039,10 +66051,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4915,
+  "seq": 4916,
   "health": {
     "last_heartbeat": "2026-10-15T23:10:16Z",
-    "last_ok_run": "2026-10-15T23:40:17Z",
+    "last_ok_run": "2026-10-15T23:45:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
