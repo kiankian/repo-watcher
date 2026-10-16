@@ -65768,6 +65768,18 @@
       "chat_id": 7582459199,
       "seq": 4923,
       "identity": "https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Software-Engineering-Intern--Summer-2027-_JR100767?utm_source=Simplify&ref=Simplify|Axiom Space|Software Engineer Intern|Houston, TX|Summer 2026#1"
+    },
+    "ce9cf89d323b": {
+      "company": "Together AI",
+      "role": "Hardware Security Engineer Intern (Summer 2027)",
+      "location": "San Francisco",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-togetherai-5238469007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6120,
+      "chat_id": 7582459199,
+      "seq": 4924,
+      "identity": "https://zapply.jobs/l/d/greenhouse-togetherai-5238469007?s=gh-internships-2027|Together AI|Hardware Security Engineer Intern (Summer 2027)|San Francisco|Summer 2027#1"
     }
   },
   "applied": {
@@ -66135,10 +66147,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4923,
+  "seq": 4924,
   "health": {
     "last_heartbeat": "2026-10-16T04:40:17Z",
-    "last_ok_run": "2026-10-16T04:40:17Z",
+    "last_ok_run": "2026-10-16T04:45:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
