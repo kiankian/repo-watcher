@@ -65804,6 +65804,66 @@
       "chat_id": 7582459199,
       "seq": 4926,
       "identity": "https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682166?s=gh-internships-2027|Cox|Software Engineering Intern - Summer 2027 (Atlanta, GA)|Atlanta GA|Summer 2027#1"
+    },
+    "8216bdc881d6": {
+      "company": "\ud83d\udd25 Amazon",
+      "role": "Software Developer Intern",
+      "location": "4 locationsLondon, UK Edinburgh, UK Bristol, UK Cambridge, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://amazon.jobs/en/jobs/10554586/2027-software-dev-engineer-intern-united-kingdom?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6123,
+      "chat_id": 7582459199,
+      "seq": 4927,
+      "identity": "https://amazon.jobs/en/jobs/10554586/2027-software-dev-engineer-intern-united-kingdom?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Amazon|Software Developer Intern|4 locationsLondon, UK Edinburgh, UK Bristol, UK Cambridge, UK|Summer 2026#1"
+    },
+    "82487d28edd0": {
+      "company": "Electronic Arts",
+      "role": "Software Engineer Intern - Gameplay UI",
+      "location": "Birmingham, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Gameplay-UI/216190?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6124,
+      "chat_id": 7582459199,
+      "seq": 4928,
+      "identity": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Gameplay-UI/216190?utm_source=Simplify&ref=Simplify|Electronic Arts|Software Engineer Intern - Gameplay UI|Birmingham, UK|Summer 2026#1"
+    },
+    "0f880d3bae98": {
+      "company": "Electronic Arts",
+      "role": "Client AI Software Engineer Intern",
+      "location": "Manchester, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ea.com/en_US/careers/JobDetail/Client-AI-Software-Engineer-Intern/216364?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6125,
+      "chat_id": 7582459199,
+      "seq": 4929,
+      "identity": "https://jobs.ea.com/en_US/careers/JobDetail/Client-AI-Software-Engineer-Intern/216364?utm_source=Simplify&ref=Simplify|Electronic Arts|Client AI Software Engineer Intern|Manchester, UK|Summer 2026#1"
+    },
+    "17c5ebfcf402": {
+      "company": "Electronic Arts",
+      "role": "Software Engineer Tools Intern",
+      "location": "Birmingham, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Tools/216192?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6126,
+      "chat_id": 7582459199,
+      "seq": 4930,
+      "identity": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Tools/216192?utm_source=Simplify&ref=Simplify|Electronic Arts|Software Engineer Tools Intern|Birmingham, UK|Summer 2026#1"
+    },
+    "9324d8ef7d47": {
+      "company": "Electronic Arts",
+      "role": "UI Scripter Intern",
+      "location": "Guildford, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ea.com/en_US/careers/JobDetail/UI-Scripter-Intern/216359?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6127,
+      "chat_id": 7582459199,
+      "seq": 4931,
+      "identity": "https://jobs.ea.com/en_US/careers/JobDetail/UI-Scripter-Intern/216359?utm_source=Simplify&ref=Simplify|Electronic Arts|UI Scripter Intern|Guildford, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -66171,10 +66231,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4926,
+  "seq": 4931,
   "health": {
     "last_heartbeat": "2026-10-16T14:15:16Z",
-    "last_ok_run": "2026-10-16T14:30:22Z",
+    "last_ok_run": "2026-10-16T14:35:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
