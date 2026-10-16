@@ -65684,6 +65684,30 @@
       "chat_id": 7582459199,
       "seq": 4916,
       "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ368322?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Intern|Bellevue, Washington|Summer 2027#1"
+    },
+    "66d63d964ed5": {
+      "company": "Axiom Space",
+      "role": "Systems Engineering Intern (Summer 2027)",
+      "location": "Houston",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-axiomspace-external-career-site-JR100768?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6113,
+      "chat_id": 7582459199,
+      "seq": 4917,
+      "identity": "https://zapply.jobs/l/d/workday-axiomspace-external-career-site-JR100768?s=gh-internships-2027|Axiom Space|Systems Engineering Intern (Summer 2027)|Houston|Summer 2027#1"
+    },
+    "82a4cd8c85e6": {
+      "company": "Axiom Space",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "Houston",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-axiomspace-external-career-site-JR100767?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6114,
+      "chat_id": 7582459199,
+      "seq": 4918,
+      "identity": "https://zapply.jobs/l/d/workday-axiomspace-external-career-site-JR100767?s=gh-internships-2027|Axiom Space|Software Engineering Intern (Summer 2027)|Houston|Summer 2027#1"
     }
   },
   "applied": {
@@ -66051,10 +66075,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4916,
+  "seq": 4918,
   "health": {
     "last_heartbeat": "2026-10-16T01:25:15Z",
-    "last_ok_run": "2026-10-16T01:25:15Z",
+    "last_ok_run": "2026-10-16T01:30:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
