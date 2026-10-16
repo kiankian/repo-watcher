@@ -65708,6 +65708,66 @@
       "chat_id": 7582459199,
       "seq": 4918,
       "identity": "https://zapply.jobs/l/d/workday-axiomspace-external-career-site-JR100767?s=gh-internships-2027|Axiom Space|Software Engineering Intern (Summer 2027)|Houston|Summer 2027#1"
+    },
+    "89f499bf7c92": {
+      "company": "Abridge",
+      "role": "Member of Technical Staff Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/abridge/aab11857-7ed3-4fc5-aab3-35256601117e/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6115,
+      "chat_id": 7582459199,
+      "seq": 4919,
+      "identity": "https://jobs.ashbyhq.com/abridge/aab11857-7ed3-4fc5-aab3-35256601117e/application?embed=true&utm_source=Simplify&ref=Simplify|Abridge|Member of Technical Staff Intern|SF|Summer 2026#1"
+    },
+    "499b82fbde06": {
+      "company": "Healthpeak Properties",
+      "role": "Forward Deployed Software Engineer Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://healthpeak.applytojob.com/apply/ss4v1Qi95q/Forward-Deployed-Software-Engineer-Internship?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6116,
+      "chat_id": 7582459199,
+      "seq": 4920,
+      "identity": "https://healthpeak.applytojob.com/apply/ss4v1Qi95q/Forward-Deployed-Software-Engineer-Internship?utm_source=Simplify&ref=Simplify|Healthpeak Properties|Forward Deployed Software Engineer Intern|NYC|Summer 2026#1"
+    },
+    "ef701a112837": {
+      "company": "Healthpeak Properties",
+      "role": "Forward Deployed Software Engineer Intern",
+      "location": "Irvine, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://healthpeak.applytojob.com/apply/RTf9TfJE4h/Forward-Deployed-Software-Engineer-Internship?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6117,
+      "chat_id": 7582459199,
+      "seq": 4921,
+      "identity": "https://healthpeak.applytojob.com/apply/RTf9TfJE4h/Forward-Deployed-Software-Engineer-Internship?utm_source=Simplify&ref=Simplify|Healthpeak Properties|Forward Deployed Software Engineer Intern|Irvine, CA|Summer 2026#1"
+    },
+    "2ade70c92930": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern",
+      "location": "Bellevue, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-Software-Engineering-Intern_REQ368322?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6118,
+      "chat_id": 7582459199,
+      "seq": 4922,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-Software-Engineering-Intern_REQ368322?utm_source=Simplify&ref=Simplify|T-Mobile|Software Engineer Intern|Bellevue, WA|Summer 2026#1"
+    },
+    "982cd4b648be": {
+      "company": "Axiom Space",
+      "role": "Software Engineer Intern",
+      "location": "Houston, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Software-Engineering-Intern--Summer-2027-_JR100767?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6119,
+      "chat_id": 7582459199,
+      "seq": 4923,
+      "identity": "https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Software-Engineering-Intern--Summer-2027-_JR100767?utm_source=Simplify&ref=Simplify|Axiom Space|Software Engineer Intern|Houston, TX|Summer 2026#1"
     }
   },
   "applied": {
@@ -66075,10 +66135,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4918,
+  "seq": 4923,
   "health": {
     "last_heartbeat": "2026-10-16T01:25:15Z",
-    "last_ok_run": "2026-10-16T01:30:21Z",
+    "last_ok_run": "2026-10-16T01:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
