@@ -66440,6 +66440,30 @@
       "chat_id": 7582459199,
       "seq": 4979,
       "identity": "https://zapply.jobs/l/d/phenom-cisco-2026798?s=gh-internships-2027|Cisco|Software Engineer Data & AI II (Intern) \u2013 United States|San Jose, California|Summer 2027#1"
+    },
+    "89251667347b": {
+      "company": "ABB",
+      "role": "Supplier Quality Engineer Intern",
+      "location": "New Berlin, Wisconsin, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-abb-external-career-page-JR00048713?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6176,
+      "chat_id": 7582459199,
+      "seq": 4980,
+      "identity": "https://zapply.jobs/l/d/workday-abb-external-career-page-JR00048713?s=gh-internships-2027|ABB|Supplier Quality Engineer Intern|New Berlin, Wisconsin, United...|Summer 2027#1"
+    },
+    "55b3caef15df": {
+      "company": "Entrust",
+      "role": "Software Engineering Co-op",
+      "location": "MN",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-entrust-entrustcareers-R004425?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6177,
+      "chat_id": 7582459199,
+      "seq": 4981,
+      "identity": "https://zapply.jobs/l/d/workday-entrust-entrustcareers-R004425?s=gh-internships-2027|Entrust|Software Engineering Co-op|MN|Summer 2027#1"
     }
   },
   "applied": {
@@ -66807,10 +66831,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4979,
+  "seq": 4981,
   "health": {
     "last_heartbeat": "2026-10-16T18:30:22Z",
-    "last_ok_run": "2026-10-16T18:30:22Z",
+    "last_ok_run": "2026-10-16T18:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
