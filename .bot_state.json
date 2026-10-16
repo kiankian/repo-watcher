@@ -65792,6 +65792,18 @@
       "chat_id": 7582459199,
       "seq": 4925,
       "identity": "https://zapply.jobs/l/d/workday-icf-icfexternal-career-site-R2603554?s=gh-internships-2027|ICF|2027 Summer Intern, Cloud Engineer (AWS/Azure) (Reston, VA)|Reston, VA|Summer 2027#1"
+    },
+    "760427e38a35": {
+      "company": "Cox",
+      "role": "Software Engineering Intern - Summer 2027 (Atlanta, GA)",
+      "location": "Atlanta GA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682166?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6122,
+      "chat_id": 7582459199,
+      "seq": 4926,
+      "identity": "https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682166?s=gh-internships-2027|Cox|Software Engineering Intern - Summer 2027 (Atlanta, GA)|Atlanta GA|Summer 2027#1"
     }
   },
   "applied": {
@@ -66159,10 +66171,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 4925,
+  "seq": 4926,
   "health": {
     "last_heartbeat": "2026-10-16T13:00:23Z",
-    "last_ok_run": "2026-10-16T13:10:19Z",
+    "last_ok_run": "2026-10-16T13:15:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
