@@ -66740,6 +66740,30 @@
       "chat_id": 7582459199,
       "seq": 5004,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10256077?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Engineer Intern|Boulder, CO|Summer 2026#1"
+    },
+    "5dccf8d7876b": {
+      "company": "Ryan",
+      "role": "Software Engineer Intern",
+      "location": "Plano, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Software-Engineering_R0020843-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6201,
+      "chat_id": 7582459199,
+      "seq": 5005,
+      "identity": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Software-Engineering_R0020843-1?utm_source=Simplify&ref=Simplify|Ryan|Software Engineer Intern|Plano, TX|Summer 2026#1"
+    },
+    "39c820d57daa": {
+      "company": "Ryan",
+      "role": "Software Engineer Intern",
+      "location": "Plano, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Plano/Summer-2027-Intern--Software-Engineering_R0020843?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6202,
+      "chat_id": 7582459199,
+      "seq": 5006,
+      "identity": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Plano/Summer-2027-Intern--Software-Engineering_R0020843?utm_source=Simplify&ref=Simplify|Ryan|Software Engineer Intern|Plano, TX|Summer 2026#1"
     }
   },
   "applied": {
@@ -67107,10 +67131,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5004,
+  "seq": 5006,
   "health": {
     "last_heartbeat": "2026-10-17T01:10:15Z",
-    "last_ok_run": "2026-10-17T01:30:17Z",
+    "last_ok_run": "2026-10-17T01:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
