@@ -66764,6 +66764,18 @@
       "chat_id": 7582459199,
       "seq": 5006,
       "identity": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Plano/Summer-2027-Intern--Software-Engineering_R0020843?utm_source=Simplify&ref=Simplify|Ryan|Software Engineer Intern|Plano, TX|Summer 2026#1"
+    },
+    "c3e2d8478269": {
+      "company": "Cisco",
+      "role": "Software Engineer Data & AI PhD (Intern) - United States",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-cisco-2025611?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6203,
+      "chat_id": 7582459199,
+      "seq": 5007,
+      "identity": "https://zapply.jobs/l/d/phenom-cisco-2025611?s=gh-internships-2027|Cisco|Software Engineer Data & AI PhD (Intern) - United States|San Jose, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -67131,10 +67143,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5006,
+  "seq": 5007,
   "health": {
     "last_heartbeat": "2026-10-17T02:10:16Z",
-    "last_ok_run": "2026-10-17T03:00:21Z",
+    "last_ok_run": "2026-10-17T03:05:13Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
