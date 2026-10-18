@@ -68396,6 +68396,18 @@
       "chat_id": 7582459199,
       "seq": 5142,
       "identity": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Basildon/Summer-Placement-Software-Engineer_R0034282?utm_source=Simplify&ref=Simplify|Leonardo|Software Engineer Placement Intern|Basildon, UK|Summer 2026#1"
+    },
+    "8ef9e0043234": {
+      "company": "Leonardo",
+      "role": "Software Engineer Intern",
+      "location": "Newcastle upon Tyne, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Newcastle/Summer-Placement-Software-Engineer_R0033874?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6339,
+      "chat_id": 7582459199,
+      "seq": 5143,
+      "identity": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Newcastle/Summer-Placement-Software-Engineer_R0033874?utm_source=Simplify&ref=Simplify|Leonardo|Software Engineer Intern|Newcastle upon Tyne, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -68763,10 +68775,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5142,
+  "seq": 5143,
   "health": {
     "last_heartbeat": "2026-10-18T09:10:17Z",
-    "last_ok_run": "2026-10-18T10:00:23Z",
+    "last_ok_run": "2026-10-18T10:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
