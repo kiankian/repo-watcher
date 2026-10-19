@@ -68900,6 +68900,30 @@
       "chat_id": 7582459199,
       "seq": 5184,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876813?s=gh-internships-2027|RTX|Customer Quality Engineering Co-Op (Summer/Fall 2027)|MN-BURNSVILLE-NORTH|Summer 2027#1"
+    },
+    "b7881d0b5db9": {
+      "company": "Adobe",
+      "role": "2027 Intern - Security Engineer",
+      "location": "Lehi",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R173000?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6381,
+      "chat_id": 7582459199,
+      "seq": 5185,
+      "identity": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R173000?s=gh-internships-2027|Adobe|2027 Intern - Security Engineer|Lehi|Summer 2027#1"
+    },
+    "47b4495ba393": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Systems Engineer II (For SNC Summer 2026 Interns Only)",
+      "location": "Louisville, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031123?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6382,
+      "chat_id": 7582459199,
+      "seq": 5186,
+      "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031123?s=gh-internships-2027|Sierra Nevada Corporation|Systems Engineer II (For SNC Summer 2026 Interns Only)|Louisville, CO|Summer 2027#1"
     }
   },
   "applied": {
@@ -69267,10 +69291,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5184,
+  "seq": 5186,
   "health": {
     "last_heartbeat": "2026-10-19T16:50:18Z",
-    "last_ok_run": "2026-10-19T17:20:19Z",
+    "last_ok_run": "2026-10-19T17:25:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
