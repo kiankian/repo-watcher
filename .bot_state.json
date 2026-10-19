@@ -68744,6 +68744,18 @@
       "chat_id": 7582459199,
       "seq": 5171,
       "identity": "https://zapply.jobs/l/d/workday-autodesk-ext-26WD101472?s=gh-internships-2027|Autodesk|Intern, Software Engineer|Birmingham, GBR|Summer 2027#1"
+    },
+    "42bf5b131bad": {
+      "company": "Bosch Group",
+      "role": "Software Engineering Co-Op - Spring 2027",
+      "location": "Fountain Inn, SC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-BoschGroup-744000156311682?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6368,
+      "chat_id": 7582459199,
+      "seq": 5172,
+      "identity": "https://zapply.jobs/l/d/sr-BoschGroup-744000156311682?s=gh-internships-2027|Bosch Group|Software Engineering Co-Op - Spring 2027|Fountain Inn, SC|Summer 2027#1"
     }
   },
   "applied": {
@@ -69111,10 +69123,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5171,
+  "seq": 5172,
   "health": {
     "last_heartbeat": "2026-10-19T12:40:16Z",
-    "last_ok_run": "2026-10-19T13:15:18Z",
+    "last_ok_run": "2026-10-19T13:20:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
