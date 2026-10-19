@@ -68996,6 +68996,30 @@
       "chat_id": 7582459199,
       "seq": 5192,
       "identity": "https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2604051?s=gh-internships-2027|GlobalFoundries|AI/ML Systems Engineering Intern (Summer 2027)|USA - Texas - Richardson|Summer 2027#1"
+    },
+    "73e258b7ba24": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Systems Engineer I (For SNC Summer 2026 Interns Only)",
+      "location": "Dayton, OH",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030654?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6389,
+      "chat_id": 7582459199,
+      "seq": 5193,
+      "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030654?s=gh-internships-2027|Sierra Nevada Corporation|Systems Engineer I (For SNC Summer 2026 Interns Only)|Dayton, OH|Summer 2027#1"
+    },
+    "687220648e92": {
+      "company": "Braze",
+      "role": "Intern, Software Engineering",
+      "location": "New York City",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-braze-8301086?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6390,
+      "chat_id": 7582459199,
+      "seq": 5194,
+      "identity": "https://zapply.jobs/l/d/greenhouse-braze-8301086?s=gh-internships-2027|Braze|Intern, Software Engineering|New York City|Summer 2027#1"
     }
   },
   "applied": {
@@ -69363,10 +69387,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5192,
+  "seq": 5194,
   "health": {
     "last_heartbeat": "2026-10-19T21:00:22Z",
-    "last_ok_run": "2026-10-19T21:20:19Z",
+    "last_ok_run": "2026-10-19T21:25:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
