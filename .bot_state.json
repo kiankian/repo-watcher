@@ -68732,6 +68732,18 @@
       "chat_id": 7582459199,
       "seq": 5170,
       "identity": "https://zapply.jobs/l/d/workday-verizon-verizon-careers-R-1102418?s=gh-internships-2027|Verizon|Verizon Business Group: Solutions Architect Summer 2027 Internship|Irving, Texas|Summer 2027#1"
+    },
+    "be33e892e09e": {
+      "company": "Autodesk",
+      "role": "Intern, Software Engineer",
+      "location": "Birmingham, GBR",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-autodesk-ext-26WD101472?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6367,
+      "chat_id": 7582459199,
+      "seq": 5171,
+      "identity": "https://zapply.jobs/l/d/workday-autodesk-ext-26WD101472?s=gh-internships-2027|Autodesk|Intern, Software Engineer|Birmingham, GBR|Summer 2027#1"
     }
   },
   "applied": {
@@ -69099,10 +69111,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5170,
+  "seq": 5171,
   "health": {
     "last_heartbeat": "2026-10-19T09:30:18Z",
-    "last_ok_run": "2026-10-19T10:00:23Z",
+    "last_ok_run": "2026-10-19T10:05:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
