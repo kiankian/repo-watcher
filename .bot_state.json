@@ -68408,6 +68408,90 @@
       "chat_id": 7582459199,
       "seq": 5143,
       "identity": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Newcastle/Summer-Placement-Software-Engineer_R0033874?utm_source=Simplify&ref=Simplify|Leonardo|Software Engineer Intern|Newcastle upon Tyne, UK|Summer 2026#1"
+    },
+    "9c0666b39619": {
+      "company": "Northrop Grumman",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Boulder, CO",
+      "term": "Oct 18",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10256077?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 6340,
+      "chat_id": 7582459199,
+      "seq": 5144,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10256077?utm_source=github-vansh-ouckah|Northrop Grumman|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Boulder, CO|Oct 18#1"
+    },
+    "0af8b93f3d4e": {
+      "company": "Eulerity",
+      "role": "AI Intern, Office of CEO & Head of Product",
+      "location": "New York, NY",
+      "term": "Oct 17",
+      "apply_url": "https://job-boards.greenhouse.io/eulerity/jobs/4722871006?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 6341,
+      "chat_id": 7582459199,
+      "seq": 5145,
+      "identity": "https://job-boards.greenhouse.io/eulerity/jobs/4722871006?utm_source=github-vansh-ouckah|Eulerity|AI Intern, Office of CEO & Head of Product|New York, NY|Oct 17#1"
+    },
+    "e615e9e73601": {
+      "company": "Clera",
+      "role": "Computer Vision & Robotics Intern",
+      "location": "San Francisco, CA",
+      "term": "Oct 17",
+      "apply_url": "https://jobs.ashbyhq.com/clera/697c2212-e39d-4e6e-92c2-12e6603a61d0/application?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 6342,
+      "chat_id": 7582459199,
+      "seq": 5146,
+      "identity": "https://jobs.ashbyhq.com/clera/697c2212-e39d-4e6e-92c2-12e6603a61d0/application?utm_source=github-vansh-ouckah|Clera|Computer Vision & Robotics Intern|San Francisco, CA|Oct 17#1"
+    },
+    "bc1e569beb14": {
+      "company": "Skydio",
+      "role": "Software Engineer Intern",
+      "location": "San Mateo, CA",
+      "term": "Oct 14",
+      "apply_url": "https://jobs.ashbyhq.com/skydio/79fdda46-4ff5-42c7-b208-55f2084cdb8c/application?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 6343,
+      "chat_id": 7582459199,
+      "seq": 5147,
+      "identity": "https://jobs.ashbyhq.com/skydio/79fdda46-4ff5-42c7-b208-55f2084cdb8c/application?utm_source=github-vansh-ouckah|Skydio|Software Engineer Intern|San Mateo, CA|Oct 14#1"
+    },
+    "80d5a32ec798": {
+      "company": "CACI",
+      "role": "Software Engineering Intern",
+      "location": "Florham Park, NJ",
+      "term": "Oct 14",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Florham-Park-NJ-US/Software-Engineering-Intern---Summer-2027_332543?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 6344,
+      "chat_id": 7582459199,
+      "seq": 5148,
+      "identity": "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Florham-Park-NJ-US/Software-Engineering-Intern---Summer-2027_332543?utm_source=github-vansh-ouckah|CACI|Software Engineering Intern|Florham Park, NJ|Oct 14#1"
+    },
+    "9c8bbdf0edf5": {
+      "company": "Databricks",
+      "role": "Software Engineering Intern",
+      "location": "**4 locations**Bellevue, WA Mountain View, CA San Francisco, CA Vancouver, BC",
+      "term": "Oct 12",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6865687002&utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 6345,
+      "chat_id": 7582459199,
+      "seq": 5149,
+      "identity": "https://databricks.com/company/careers/open-positions/job?gh_jid=6865687002&utm_source=github-vansh-ouckah|Databricks|Software Engineering Intern|**4 locations**Bellevue, WA Mountain View, CA San Francisco, CA Vancouver, BC|Oct 12#1"
+    },
+    "2858930bb5d3": {
+      "company": "Aquatic",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Jul 07",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 6346,
+      "chat_id": 7582459199,
+      "seq": 5150,
+      "identity": "NOURL|Aquatic|Software Engineer Intern|Chicago, IL|Jul 07#1"
     }
   },
   "applied": {
@@ -68775,10 +68859,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5143,
+  "seq": 5150,
   "health": {
     "last_heartbeat": "2026-10-18T23:30:19Z",
-    "last_ok_run": "2026-10-19T00:15:16Z",
+    "last_ok_run": "2026-10-19T00:20:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
