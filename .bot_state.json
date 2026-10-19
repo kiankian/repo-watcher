@@ -68876,6 +68876,30 @@
       "chat_id": 7582459199,
       "seq": 5182,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01881368?s=gh-internships-2027|RTX|Software Engineering Co-op (Summer / Fall 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "20d2b7e0b185": {
+      "company": "American Fidelity",
+      "role": "Software Developer Innovation Internship",
+      "location": "Oklahoma City, Oklahoma",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-americanfidelity-external-JR1118?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6379,
+      "chat_id": 7582459199,
+      "seq": 5183,
+      "identity": "https://zapply.jobs/l/d/workday-americanfidelity-external-JR1118?s=gh-internships-2027|American Fidelity|Software Developer Innovation Internship|Oklahoma City, Oklahoma|Summer 2027#1"
+    },
+    "a5edc2f24451": {
+      "company": "RTX",
+      "role": "Customer Quality Engineering Co-Op (Summer/Fall 2027)",
+      "location": "MN-BURNSVILLE-NORTH",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876813?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6380,
+      "chat_id": 7582459199,
+      "seq": 5184,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01876813?s=gh-internships-2027|RTX|Customer Quality Engineering Co-Op (Summer/Fall 2027)|MN-BURNSVILLE-NORTH|Summer 2027#1"
     }
   },
   "applied": {
@@ -69243,10 +69267,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5182,
+  "seq": 5184,
   "health": {
     "last_heartbeat": "2026-10-19T15:45:18Z",
-    "last_ok_run": "2026-10-19T16:40:18Z",
+    "last_ok_run": "2026-10-19T16:45:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
