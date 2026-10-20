@@ -69404,6 +69404,30 @@
       "chat_id": 7582459199,
       "seq": 5226,
       "identity": "https://zapply.jobs/l/d/workday-ciena-careers-R031926?s=gh-internships-2027|Ciena|Software Engineer (Security) - Intern (Winter 2027)|Atlanta|Summer 2027#1"
+    },
+    "55be3d27ff0e": {
+      "company": "Steel",
+      "role": "Software Engineer Intern",
+      "location": "Toronto, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/steel/5fbdbebf-ddb2-4264-a941-3ab6d475208c/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6423,
+      "chat_id": 7582459199,
+      "seq": 5227,
+      "identity": "https://jobs.ashbyhq.com/steel/5fbdbebf-ddb2-4264-a941-3ab6d475208c/application?embed=true&utm_source=Simplify&ref=Simplify|Steel|Software Engineer Intern|Toronto, ON, Canada|Summer 2026#1"
+    },
+    "5d4f11c4b3b9": {
+      "company": "Redgate",
+      "role": "Software Engineer Intern",
+      "location": "Cambridge, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/red-gate/2449a05b-81da-40de-b64d-3436c8ddb1df/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6424,
+      "chat_id": 7582459199,
+      "seq": 5228,
+      "identity": "https://jobs.ashbyhq.com/red-gate/2449a05b-81da-40de-b64d-3436c8ddb1df/application?embed=true&utm_source=Simplify&ref=Simplify|Redgate|Software Engineer Intern|Cambridge, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -69771,10 +69795,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5226,
+  "seq": 5228,
   "health": {
     "last_heartbeat": "2026-10-20T14:30:25Z",
-    "last_ok_run": "2026-10-20T14:30:25Z",
+    "last_ok_run": "2026-10-20T14:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
