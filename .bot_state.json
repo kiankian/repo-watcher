@@ -69344,6 +69344,18 @@
       "chat_id": 7582459199,
       "seq": 5221,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01883545?s=gh-internships-2027|RTX|Part time Software Engineer Co-op (Remote)|TX-RICHARDSON-C17|Summer 2027#1"
+    },
+    "a47409fb0a79": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Engineering Intern - Aurora CO",
+      "location": "United States-Colorado-Aurora",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10256393?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6418,
+      "chat_id": 7582459199,
+      "seq": 5222,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10256393?s=gh-internships-2027|Northrop Grumman|2027 Software Engineering Intern - Aurora CO|United States-Colorado-Aurora|Summer 2027#1"
     }
   },
   "applied": {
@@ -69711,10 +69723,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5221,
+  "seq": 5222,
   "health": {
     "last_heartbeat": "2026-10-20T10:00:23Z",
-    "last_ok_run": "2026-10-20T10:25:13Z",
+    "last_ok_run": "2026-10-20T10:30:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
