@@ -69380,6 +69380,18 @@
       "chat_id": 7582459199,
       "seq": 5224,
       "identity": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Basking-Ridge--NJ--V-Teamer-for-a-Day--Verizon-Consumer-Group--Call-Routing-Optimization-Engineering-Summer-2027-Internship_R-1102394?utm_source=Simplify&ref=Simplify|Verizon Communications|Call Routing Optimization Engineering Intern|Basking Ridge, Bernards, NJ|Summer 2026#1"
+    },
+    "e0f95b7e7ae9": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Engineering Intern - Colorado Springs",
+      "location": "United States-Colorado-Colorado...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10256259?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6421,
+      "chat_id": 7582459199,
+      "seq": 5225,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10256259?s=gh-internships-2027|Northrop Grumman|2027 Software Engineering Intern - Colorado Springs|United States-Colorado-Colorado...|Summer 2027#1"
     }
   },
   "applied": {
@@ -69747,10 +69759,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5224,
+  "seq": 5225,
   "health": {
     "last_heartbeat": "2026-10-20T13:30:20Z",
-    "last_ok_run": "2026-10-20T13:35:17Z",
+    "last_ok_run": "2026-10-20T13:40:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
