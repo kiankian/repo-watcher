@@ -71372,6 +71372,30 @@
       "chat_id": 7582459199,
       "seq": 5390,
       "identity": "NOURL|Twilio|Software Engineer Intern|Remote|Apr 24#1"
+    },
+    "0662fce2dd5c": {
+      "company": "Intel",
+      "role": "AI Data Science / Software Engineering PhD Intern New 2027",
+      "location": "US, California, Santa Clara",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-intel-external-JR0288138?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6587,
+      "chat_id": 7582459199,
+      "seq": 5391,
+      "identity": "https://zapply.jobs/l/d/workday-intel-external-JR0288138?s=gh-internships-2027|Intel|AI Data Science / Software Engineering PhD Intern New 2027|US, California, Santa Clara|Summer 2027#1"
+    },
+    "013f94654192": {
+      "company": "AeroVironment",
+      "role": "Software Engineering Intern",
+      "location": "San Diego, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-avav-avav-8828?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6588,
+      "chat_id": 7582459199,
+      "seq": 5392,
+      "identity": "https://zapply.jobs/l/d/workday-avav-avav-8828?s=gh-internships-2027|AeroVironment|Software Engineering Intern|San Diego, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -71739,10 +71763,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5390,
+  "seq": 5392,
   "health": {
     "last_heartbeat": "2026-10-20T21:50:17Z",
-    "last_ok_run": "2026-10-20T22:35:57Z",
+    "last_ok_run": "2026-10-20T22:40:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
