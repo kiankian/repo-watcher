@@ -71396,6 +71396,78 @@
       "chat_id": 7582459199,
       "seq": 5392,
       "identity": "https://zapply.jobs/l/d/workday-avav-avav-8828?s=gh-internships-2027|AeroVironment|Software Engineering Intern|San Diego, CA|Summer 2027#1"
+    },
+    "03bd83f7bd46": {
+      "company": "DriveWealth",
+      "role": "AI Consulting Associate Program Product Owner Intern",
+      "location": "Chicago, IL NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/drivewealth/jobs/8038087003?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6589,
+      "chat_id": 7582459199,
+      "seq": 5393,
+      "identity": "https://boards.greenhouse.io/drivewealth/jobs/8038087003?utm_source=Simplify&ref=Simplify|DriveWealth|AI Consulting Associate Program Product Owner Intern|Chicago, IL NYC|Summer 2026#1"
+    },
+    "25e1bc8883a9": {
+      "company": "DriveWealth",
+      "role": "AI Consulting Associate Program \u2013 AI Engineer Intern",
+      "location": "Chicago, IL NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/drivewealth/jobs/8039350003?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6590,
+      "chat_id": 7582459199,
+      "seq": 5394,
+      "identity": "https://boards.greenhouse.io/drivewealth/jobs/8039350003?utm_source=Simplify&ref=Simplify|DriveWealth|AI Consulting Associate Program \u2013 AI Engineer Intern|Chicago, IL NYC|Summer 2026#1"
+    },
+    "5e748da8252f": {
+      "company": "Berkshire Hathaway Energy",
+      "role": "Software Engineer Intern",
+      "location": "Des Moines, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005930?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6591,
+      "chat_id": 7582459199,
+      "seq": 5395,
+      "identity": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005930?utm_source=Simplify&ref=Simplify|Berkshire Hathaway Energy|Software Engineer Intern|Des Moines, IA|Summer 2026#1"
+    },
+    "6ee4a7e0c586": {
+      "company": "Zebra Technologies",
+      "role": "Mechanical Engineer Intern",
+      "location": "Holtsville, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Mechanical-Engineer_JR103627?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6592,
+      "chat_id": 7582459199,
+      "seq": 5396,
+      "identity": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Mechanical-Engineer_JR103627?utm_source=Simplify&ref=Simplify|Zebra Technologies|Mechanical Engineer Intern|Holtsville, NY|Summer 2026#1"
+    },
+    "5e522cf678fc": {
+      "company": "Ryan",
+      "role": "Application Engineering Intern",
+      "location": "Plano, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Application-Engineering_R0020808-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6593,
+      "chat_id": 7582459199,
+      "seq": 5397,
+      "identity": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Application-Engineering_R0020808-2?utm_source=Simplify&ref=Simplify|Ryan|Application Engineering Intern|Plano, TX|Summer 2026#1"
+    },
+    "cb4fea5873c6": {
+      "company": "Genentech",
+      "role": "Product Technical Development Intern - Digital Sciences Focus",
+      "location": "South SF",
+      "term": "Summer 2026",
+      "apply_url": "https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Product-Technical-Development---Digital-Sciences-Focus_202610-126833?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6594,
+      "chat_id": 7582459199,
+      "seq": 5398,
+      "identity": "https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Product-Technical-Development---Digital-Sciences-Focus_202610-126833?utm_source=Simplify&ref=Simplify|Genentech|Product Technical Development Intern - Digital Sciences Focus|South SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -71763,10 +71835,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5392,
+  "seq": 5398,
   "health": {
     "last_heartbeat": "2026-10-20T22:55:15Z",
-    "last_ok_run": "2026-10-20T23:00:23Z",
+    "last_ok_run": "2026-10-20T23:05:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
