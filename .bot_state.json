@@ -71468,6 +71468,30 @@
       "chat_id": 7582459199,
       "seq": 5398,
       "identity": "https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Product-Technical-Development---Digital-Sciences-Focus_202610-126833?utm_source=Simplify&ref=Simplify|Genentech|Product Technical Development Intern - Digital Sciences Focus|South SF|Summer 2026#1"
+    },
+    "d407d9de210f": {
+      "company": "Aptiv",
+      "role": "Linux Software Development Intern  (Hybrid San Antonio, TX)",
+      "location": "USA Home",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-aptiv-aptiv-careers-J000704399?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6595,
+      "chat_id": 7582459199,
+      "seq": 5399,
+      "identity": "https://zapply.jobs/l/d/workday-aptiv-aptiv-careers-J000704399?s=gh-internships-2027|Aptiv|Linux Software Development Intern  (Hybrid San Antonio, TX)|USA Home|Summer 2027#1"
+    },
+    "bd0e416a92b6": {
+      "company": "Aptiv",
+      "role": "Linux Software Development Intern (Hybrid - San Antonio, TX)",
+      "location": "USA Home",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-aptiv-aptiv-careers-J000704398?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6596,
+      "chat_id": 7582459199,
+      "seq": 5400,
+      "identity": "https://zapply.jobs/l/d/workday-aptiv-aptiv-careers-J000704398?s=gh-internships-2027|Aptiv|Linux Software Development Intern (Hybrid - San Antonio, TX)|USA Home|Summer 2027#1"
     }
   },
   "applied": {
@@ -71835,10 +71859,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5398,
+  "seq": 5400,
   "health": {
     "last_heartbeat": "2026-10-20T22:55:15Z",
-    "last_ok_run": "2026-10-20T23:35:14Z",
+    "last_ok_run": "2026-10-20T23:40:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
