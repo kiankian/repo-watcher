@@ -70484,6 +70484,78 @@
       "chat_id": 7582459199,
       "seq": 5316,
       "identity": "https://careers-hrblock.icims.com/jobs/76987/embark-software-engineering-intern---s/job|H&R Block|Embark Software Engineering Intern - S|Kansas City, MO|Other#1"
+    },
+    "2cd1c2c2b6ce": {
+      "company": "Vestmark",
+      "role": "Software Engineer Co-op",
+      "location": "Boston, MA",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/internrecruiting/jobs/8204511",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6513,
+      "chat_id": 7582459199,
+      "seq": 5317,
+      "identity": "https://job-boards.greenhouse.io/internrecruiting/jobs/8204511|Vestmark|Software Engineer Co-op|Boston, MA|Other#1"
+    },
+    "e1d5e7ea346a": {
+      "company": "Axon",
+      "role": "AfroTech 2026 Software Engineering Internship",
+      "location": "Seattle, WA",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7993376003",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6514,
+      "chat_id": 7582459199,
+      "seq": 5318,
+      "identity": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7993376003|Axon|AfroTech 2026 Software Engineering Internship|Seattle, WA|Other#1"
+    },
+    "41051f0ae04a": {
+      "company": "MORSE",
+      "role": "Full Stack Software Engineer Graduate Co-op",
+      "location": "Arlington, VA +2",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6515,
+      "chat_id": 7582459199,
+      "seq": 5319,
+      "identity": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003|MORSE|Full Stack Software Engineer Graduate Co-op|Arlington, VA +2|Other#1"
+    },
+    "19db904b5327": {
+      "company": "MORSE",
+      "role": "Python Software Engineer Graduate Co-op",
+      "location": "Arlington, VA +2",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6516,
+      "chat_id": 7582459199,
+      "seq": 5320,
+      "identity": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003|MORSE|Python Software Engineer Graduate Co-op|Arlington, VA +2|Other#1"
+    },
+    "69bfdc4af30e": {
+      "company": "MORSE",
+      "role": "Python Software Engineer Co-op",
+      "location": "Arlington, VA +2",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6517,
+      "chat_id": 7582459199,
+      "seq": 5321,
+      "identity": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003|MORSE|Python Software Engineer Co-op|Arlington, VA +2|Other#1"
+    },
+    "cf4c8a441e10": {
+      "company": "Lutron",
+      "role": "Spring 2027 - Embedded Software Engineering Co-op - Philadelphia - PA",
+      "location": "Philadelphia, PA",
+      "term": "Other",
+      "apply_url": "https://studentopportunities-lutron.icims.com/jobs/5364/spring-2027---embedded-software-engineering-co-op---philadelphia%2c-pa/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6518,
+      "chat_id": 7582459199,
+      "seq": 5322,
+      "identity": "https://studentopportunities-lutron.icims.com/jobs/5364/spring-2027---embedded-software-engineering-co-op---philadelphia%2c-pa/job|Lutron|Spring 2027 - Embedded Software Engineering Co-op - Philadelphia - PA|Philadelphia, PA|Other#1"
     }
   },
   "applied": {
@@ -70851,10 +70923,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5316,
+  "seq": 5322,
   "health": {
     "last_heartbeat": "2026-10-20T16:40:19Z",
-    "last_ok_run": "2026-10-20T16:50:59Z",
+    "last_ok_run": "2026-10-20T16:55:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
