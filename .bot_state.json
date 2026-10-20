@@ -70736,6 +70736,18 @@
       "chat_id": 7582459199,
       "seq": 5337,
       "identity": "https://zapply.jobs/l/d/workday-avav-avav-8940?s=gh-internships-2027|AeroVironment|Software Engineering Intern|Minneapolis, MN|Summer 2027#1"
+    },
+    "413ae92c9692": {
+      "company": "Carrier Global",
+      "role": "Systems Engineering Intern - Summer",
+      "location": "CAI23: Carrier-Indianapolis,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-carrier-jobs-30220210?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6534,
+      "chat_id": 7582459199,
+      "seq": 5338,
+      "identity": "https://zapply.jobs/l/d/workday-carrier-jobs-30220210?s=gh-internships-2027|Carrier Global|Systems Engineering Intern - Summer|CAI23: Carrier-Indianapolis,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -71103,10 +71115,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5337,
+  "seq": 5338,
   "health": {
     "last_heartbeat": "2026-10-20T21:50:17Z",
-    "last_ok_run": "2026-10-20T21:50:17Z",
+    "last_ok_run": "2026-10-20T21:55:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
