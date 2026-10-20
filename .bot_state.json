@@ -70604,6 +70604,30 @@
       "chat_id": 7582459199,
       "seq": 5326,
       "identity": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-593146?s=gh-internships-2027|Philips|Intern \u2013 R&D Front-End Innovation Intern - Oral Healthcare \u2013 Bothell, WA \u2013 Summer 2027|Bothell, Washington, United States|Summer 2027#1"
+    },
+    "20fa3b5eb2b7": {
+      "company": "Adobe",
+      "role": "2027 Intern - Security Engineer",
+      "location": "San Jose",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R173001?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6523,
+      "chat_id": 7582459199,
+      "seq": 5327,
+      "identity": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R173001?s=gh-internships-2027|Adobe|2027 Intern - Security Engineer|San Jose|Summer 2027#1"
+    },
+    "f78456c0acbb": {
+      "company": "Berkshire Hathaway Energy",
+      "role": "Intern - Software Engineering",
+      "location": "Des Moines, IA, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-berkshire-hathaway-energy-10005930?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6524,
+      "chat_id": 7582459199,
+      "seq": 5328,
+      "identity": "https://zapply.jobs/l/d/oracle-berkshire-hathaway-energy-10005930?s=gh-internships-2027|Berkshire Hathaway Energy|Intern - Software Engineering|Des Moines, IA, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -70971,10 +70995,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5326,
+  "seq": 5328,
   "health": {
     "last_heartbeat": "2026-10-20T18:50:17Z",
-    "last_ok_run": "2026-10-20T19:40:18Z",
+    "last_ok_run": "2026-10-20T19:45:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
