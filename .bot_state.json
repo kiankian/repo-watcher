@@ -69428,6 +69428,54 @@
       "chat_id": 7582459199,
       "seq": 5228,
       "identity": "https://jobs.ashbyhq.com/red-gate/2449a05b-81da-40de-b64d-3436c8ddb1df/application?embed=true&utm_source=Simplify&ref=Simplify|Redgate|Software Engineer Intern|Cambridge, UK|Summer 2026#1"
+    },
+    "efb5c5ba3898": {
+      "company": "Graphcore",
+      "role": "Software Engineer Intern - Drivers and Utilities",
+      "location": "Bristol, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/graphcore/jobs/8894376002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6425,
+      "chat_id": 7582459199,
+      "seq": 5229,
+      "identity": "https://job-boards.greenhouse.io/graphcore/jobs/8894376002?utm_source=Simplify&ref=Simplify|Graphcore|Software Engineer Intern - Drivers and Utilities|Bristol, UK|Summer 2026#1"
+    },
+    "f7a84eba9ddd": {
+      "company": "Graphcore",
+      "role": "Software Engineer Intern - AI Compute Libraries & Performance",
+      "location": "Bristol, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/graphcore/jobs/8894868002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6426,
+      "chat_id": 7582459199,
+      "seq": 5230,
+      "identity": "https://job-boards.greenhouse.io/graphcore/jobs/8894868002?utm_source=Simplify&ref=Simplify|Graphcore|Software Engineer Intern - AI Compute Libraries & Performance|Bristol, UK|Summer 2026#1"
+    },
+    "367f70dd8292": {
+      "company": "Allstate",
+      "role": "Software Engineer Intern",
+      "location": "North Carolina",
+      "term": "Summer 2026",
+      "apply_url": "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6427,
+      "chat_id": 7582459199,
+      "seq": 5231,
+      "identity": "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266?utm_source=Simplify&ref=Simplify|Allstate|Software Engineer Intern|North Carolina|Summer 2026#1"
+    },
+    "9ffe15b5b55d": {
+      "company": "Texas Instruments",
+      "role": "Software Engineering Intern - Compiler",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-texas-instruments-25019103?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6428,
+      "chat_id": 7582459199,
+      "seq": 5232,
+      "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25019103?s=gh-internships-2027|Texas Instruments|Software Engineering Intern - Compiler|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -69795,10 +69843,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5228,
+  "seq": 5232,
   "health": {
     "last_heartbeat": "2026-10-20T14:30:25Z",
-    "last_ok_run": "2026-10-20T15:00:25Z",
+    "last_ok_run": "2026-10-20T15:05:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
