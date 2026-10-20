@@ -69284,6 +69284,18 @@
       "chat_id": 7582459199,
       "seq": 5216,
       "identity": "https://zapply.jobs/l/d/workday-verizon-verizon-careers-R-1102416?s=gh-internships-2027|Verizon|Verizon\u2019s Thurgood Marshall College Fund Immersion Program: Verizon Business Group: Solutions...|Irving Texas|Summer 2027#1"
+    },
+    "519a08ba1809": {
+      "company": "Parallel Wireless",
+      "role": "PHY Software Engineer Intern",
+      "location": "Bristol, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/parallelwireless/d30be600-d1cd-4579-9875-ac70c72a4426/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6413,
+      "chat_id": 7582459199,
+      "seq": 5217,
+      "identity": "https://jobs.lever.co/parallelwireless/d30be600-d1cd-4579-9875-ac70c72a4426/apply?utm_source=Simplify&ref=Simplify|Parallel Wireless|PHY Software Engineer Intern|Bristol, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -69651,10 +69663,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5216,
+  "seq": 5217,
   "health": {
     "last_heartbeat": "2026-10-20T09:00:23Z",
-    "last_ok_run": "2026-10-20T09:30:21Z",
+    "last_ok_run": "2026-10-20T09:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
