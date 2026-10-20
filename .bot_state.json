@@ -69776,6 +69776,30 @@
       "chat_id": 7582459199,
       "seq": 5257,
       "identity": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526?utm_source=github-vansh-ouckah|Gilead Sciences|Research Intern, Clinical Virology - AI|Foster City, CA|Oct 16#1"
+    },
+    "08e80ee68a4b": {
+      "company": "ADT",
+      "role": "Hardware Engineering & Connected Devices Intern",
+      "location": "Boca Raton, FL",
+      "term": "Oct 16",
+      "apply_url": "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022475?utm_source=github-vansh-ouckah",
+      "source": "Vansh Summer Repo",
+      "message_id": 6454,
+      "chat_id": 7582459199,
+      "seq": 5258,
+      "identity": "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022475?utm_source=github-vansh-ouckah|ADT|Hardware Engineering & Connected Devices Intern|Boca Raton, FL|Oct 16#1"
+    },
+    "cd2adee4aec5": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "CA-SAN JOSE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01883026?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6455,
+      "chat_id": 7582459199,
+      "seq": 5259,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01883026?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|CA-SAN JOSE|Summer 2027#1"
     }
   },
   "applied": {
@@ -70143,10 +70167,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5257,
+  "seq": 5259,
   "health": {
     "last_heartbeat": "2026-10-20T15:40:18Z",
-    "last_ok_run": "2026-10-20T15:51:00Z",
+    "last_ok_run": "2026-10-20T15:55:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
