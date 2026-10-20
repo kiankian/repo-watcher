@@ -69320,6 +69320,30 @@
       "chat_id": 7582459199,
       "seq": 5219,
       "identity": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer--Security-Government-_JR364911-1?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Salesforce|Software Engineer Intern|SF Bellevue, WA|Summer 2026#1"
+    },
+    "e2b64c24c14b": {
+      "company": "RTX",
+      "role": "Part time Software Engineer Co-op (Remote)",
+      "location": "CO-AURORA-S75",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01883452?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6416,
+      "chat_id": 7582459199,
+      "seq": 5220,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01883452?s=gh-internships-2027|RTX|Part time Software Engineer Co-op (Remote)|CO-AURORA-S75|Summer 2027#1"
+    },
+    "6d6fd1e8f367": {
+      "company": "RTX",
+      "role": "Part time Software Engineer Co-op (Remote)",
+      "location": "TX-RICHARDSON-C17",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01883545?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6417,
+      "chat_id": 7582459199,
+      "seq": 5221,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01883545?s=gh-internships-2027|RTX|Part time Software Engineer Co-op (Remote)|TX-RICHARDSON-C17|Summer 2027#1"
     }
   },
   "applied": {
@@ -69687,10 +69711,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5219,
+  "seq": 5221,
   "health": {
     "last_heartbeat": "2026-10-20T10:00:23Z",
-    "last_ok_run": "2026-10-20T10:05:16Z",
+    "last_ok_run": "2026-10-20T10:10:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
