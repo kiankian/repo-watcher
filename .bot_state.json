@@ -73388,6 +73388,30 @@
       "chat_id": 7582459199,
       "seq": 5558,
       "identity": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|AI and Estimation Intern|Falls Church, VA|Summer 2026#1"
+    },
+    "c8386a31a6cc": {
+      "company": "Crusoe",
+      "role": "Software Engineering Intern, Summer 2027",
+      "location": "San Francisco, CA - US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-crusoe-07a8a6a9-975e-471c-ac31-b5aaa97f9af5?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6755,
+      "chat_id": 7582459199,
+      "seq": 5559,
+      "identity": "https://zapply.jobs/l/d/ashby-crusoe-07a8a6a9-975e-471c-ac31-b5aaa97f9af5?s=gh-internships-2027|Crusoe|Software Engineering Intern, Summer 2027|San Francisco, CA - US|Summer 2027#1"
+    },
+    "c137d7602f27": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Security & Identity Intern Opportunities for University Students, Cambridge",
+      "location": "Cambridge, Massachusetts,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/microsoft-200063141?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6756,
+      "chat_id": 7582459199,
+      "seq": 5560,
+      "identity": "https://zapply.jobs/l/d/microsoft-200063141?s=gh-internships-2027|Microsoft|Software Engineer: Security & Identity Intern Opportunities for University Students, Cambridge|Cambridge, Massachusetts,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -73755,10 +73779,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5558,
+  "seq": 5560,
   "health": {
     "last_heartbeat": "2026-10-21T23:15:15Z",
-    "last_ok_run": "2026-10-21T23:20:17Z",
+    "last_ok_run": "2026-10-21T23:25:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
