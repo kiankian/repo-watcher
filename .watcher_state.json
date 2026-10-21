@@ -2635,7 +2635,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "aecadd99123a5f0564a4a53ecaf2ecdf60fd7947",
+    "last_sha": "2256377c861c10bf81a6ebe965e7b7075c28ae81",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -3202,11 +3202,191 @@
       "https://jobs.keysight.com/jobs/54805?icims=1&utm_source=github-vansh-ouckah|Keysight Technologies|Software Engineer Intern, R&D|Santa Clara, CA|Oct 19#1",
       "NOURL|Gallup|Data Engineering Intern|San Francisco, CA|Oct 13#1",
       "NOURL|Amperesand|Technical Program Manager Intern|Reno, NV|Oct 12#1",
-      "NOURL|Acron Aviation|Software Engineer Intern|Phoenix, AZ|Oct 12#1"
+      "NOURL|Acron Aviation|Software Engineer Intern|Phoenix, AZ|Oct 12#1",
+      "https://toyota.wd503.myworkdayjobs.com/en-US/tmna/job/Plano-Texas/XMLNAME-2027-TFS-Data-Science-Internship_10338545-1?utm_source=github-vansh-ouckah|Toyota|Data Science Intern, TFS|Plano, TX|Oct 21#1",
+      "https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Computer-Vision-Software-Engineering_R92964?utm_source=github-vansh-ouckah|Smith+Nephew|Computer Vision Software Engineering Intern|Andover, MA|Oct 21#1",
+      "https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952?utm_source=github-vansh-ouckah|Smith+Nephew|Embedded Software Engineering Intern|Andover, MA|Oct 21#1",
+      "https://smithnephew.wd5.myworkdayjobs.com/en-US/External/job/Andover-MA/Intern-Agentic-AI-Software-Engineering_R92953?utm_source=github-vansh-ouckah|Smith+Nephew|Agentic AI Software Engineering Intern|Andover, MA|Oct 21#1",
+      "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27400?utm_source=github-vansh-ouckah|DP World|Application Analyst Intern|Itasca, IL|Oct 21#1",
+      "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/San-Diego-CA/Software-Engineering-Intern_8828?utm_source=github-vansh-ouckah|AeroVironment|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Diego, CA|Oct 21#1",
+      "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Hardware-Security-Engineering-Undergrad--Intern_R016954?utm_source=github-vansh-ouckah|Aerospace Corporation|Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Oct 21#1",
+      "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Digital-Communication-Undergraduate-Intern_R016948?utm_source=github-vansh-ouckah|Aerospace Corporation|Digital Communication Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
+      "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/303922?utm_source=github-vansh-ouckah|Uber|Software Engineer Intern|Seattle, WA SF Sunnyvale, CA|Oct 20#1",
+      "https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineer---Cloud-Security-Summer-Internship_REQ379190?utm_source=github-vansh-ouckah|T-Mobile|Software Engineer Intern, Cloud Security|Atlanta, GA Frisco, TX|Oct 20#1",
+      "https://jobs.lever.co/shieldai/aa71c28a-be00-43ca-8aa7-b764b2143797/apply?utm_source=github-vansh-ouckah|Shield AI|Data Science Intern|San Diego, CA|Oct 20#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-Intern--Summer-2027-_01880127?utm_source=github-vansh-ouckah|RTX|Software Engineer Intern|Tewksbury, MA|Oct 20#1",
+      "https://jobs.ashbyhq.com/rhoda-ai/2de33083-782f-489e-9b91-f40761a36bf4?utm_source=github-vansh-ouckah|Rhoda AI|Software Engineer Intern, Inference|Mountain View, CA|Oct 20#1",
+      "https://pictonmahoney.bamboohr.com/careers/387?utm_source=github-vansh-ouckah|Picton Mahoney Asset Management|Data Engineer Intern|Toronto, ON, Canada|Oct 20#1",
+      "https://jobs.paccar.com/job/Kirkland-Summer-2027-Field-Service-Data-Analyst-Intern-WA-98033/1449526633/?ats=successfactors&utm_source=github-vansh-ouckah|Paccar|Field Service Data Analyst Intern|Kirkland, WA|Oct 20#1",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10257053?utm_source=github-vansh-ouckah|Northrop Grumman|Software Engineer Intern|Roy, UT|Oct 20#1",
+      "https://jobs.ashbyhq.com/metamorphic/cf518648-4e65-4f7d-aa05-f01066d8bd8a/application?embed=true&utm_source=github-vansh-ouckah|Metamorphic|Engineering Intern|Palo Alto, CA|Oct 20#1",
+      "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Silicon-Validation-Intern--BS---Summer-2027_2603850-1?utm_source=github-vansh-ouckah|Marvell|Silicon Validation Intern|Santa Clara, CA|Oct 20#1",
+      "https://jobs.smartrecruiters.com/LinkedIn3/744000156616169?utm_source=github-vansh-ouckah|LinkedIn|Software Engineer Intern|Mountain View, CA|Oct 20#1",
+      "https://k1im.applytojob.com/apply/mCBPNVUJu4/AI-Intern?utm_source=github-vansh-ouckah|K1|AI Intern|Manhattan Beach, CA|Oct 20#1",
+      "https://job-boards.greenhouse.io/insomniac/jobs/6227080004?utm_source=github-vansh-ouckah|Insomniac Games|Engine and Tools Programming Intern|Burbank, CA|Oct 20#1",
+      "https://expedia.wd108.myworkdayjobs.com/private/job/USA---Missouri---Springfield/Software-Developer-I_R-110635?utm_source=github-vansh-ouckah|Expedia Group|Software Developer 1 Intern|Springfield, MO|Oct 20#1",
+      "https://boards.greenhouse.io/drivewealth/jobs/8039350003?utm_source=github-vansh-ouckah|DriveWealth|AI Engineer Intern, AI Consulting Associate Program|Chicago, IL NYC|Oct 20#1",
+      "https://boards.greenhouse.io/drivewealth/jobs/8038087003?utm_source=github-vansh-ouckah|DriveWealth|Product Owner Intern, AI Consulting Associate Program|Chicago, IL NYC|Oct 20#1",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000156585075?utm_source=github-vansh-ouckah|Bosch|Calibration Process Optimization Intern|Farmington Hills, MI|Oct 20#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 508,
-    "outbox": []
+    "last_row_count": 543,
+    "outbox": [
+      [
+        [
+          "Schweitzer Engineering Laboratories",
+          "Software Engineer Intern",
+          "Pullman, WA",
+          "Oct 19",
+          "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineer-Intern_2026-24190?utm_source=github-vansh-ouckah"
+        ],
+        "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineer-Intern_2026-24190?utm_source=github-vansh-ouckah|Schweitzer Engineering Laboratories|Software Engineer Intern|Pullman, WA|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Ryan",
+          "Application Engineering Intern",
+          "Plano, TX",
+          "Oct 19",
+          "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Plano/Summer-2027-Intern--Application-Engineering_R0020808-1?utm_source=github-vansh-ouckah"
+        ],
+        "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Plano/Summer-2027-Intern--Application-Engineering_R0020808-1?utm_source=github-vansh-ouckah|Ryan|Application Engineering Intern|Plano, TX|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "RTX",
+          "Software Engineer Intern",
+          "Annapolis, MD",
+          "Oct 19",
+          "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-905--2551-Riva-Rd--BLDG-905/Software-Engineering-Intern--Summer-2027-_01882939?utm_source=github-vansh-ouckah"
+        ],
+        "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-905--2551-Riva-Rd--BLDG-905/Software-Engineering-Intern--Summer-2027-_01882939?utm_source=github-vansh-ouckah|RTX|Software Engineer Intern|Annapolis, MD|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Rockwell Automation",
+          "Hardware Development Engineer Intern",
+          "Mayfield Heights, OH",
+          "Oct 19",
+          "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Hardware-Development-Engineer--May---Aug-2027-_R26-6892-2?utm_source=github-vansh-ouckah"
+        ],
+        "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Hardware-Development-Engineer--May---Aug-2027-_R26-6892-2?utm_source=github-vansh-ouckah|Rockwell Automation|Hardware Development Engineer Intern|Mayfield Heights, OH|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Micron Technology",
+          "Machine Learning Engineering Intern",
+          "Richardson, TX",
+          "Oct 19",
+          "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750?utm_source=github-vansh-ouckah"
+        ],
+        "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750?utm_source=github-vansh-ouckah|Micron Technology|Machine Learning Engineering Intern|Richardson, TX|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Micron Technology",
+          "Design Engineer Intern, Pathfinding",
+          "San Jose, CA Folsom, CA",
+          "Oct 19",
+          "https://micron.wd1.myworkdayjobs.com/External/job/Folsom-CA/Intern---Design-Engineer--Pathfinding_JR114189?utm_source=github-vansh-ouckah"
+        ],
+        "https://micron.wd1.myworkdayjobs.com/External/job/Folsom-CA/Intern---Design-Engineer--Pathfinding_JR114189?utm_source=github-vansh-ouckah|Micron Technology|Design Engineer Intern, Pathfinding|San Jose, CA Folsom, CA|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Lumentum",
+          "Optical Algorithms and Analytics Engineering Co-op",
+          "Ottawa, ON",
+          "Oct 19",
+          "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Optical-Algorithms-and-Analytics-Engineering-Co-op-Intern_20261547?utm_source=github-vansh-ouckah"
+        ],
+        "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Optical-Algorithms-and-Analytics-Engineering-Co-op-Intern_20261547?utm_source=github-vansh-ouckah|Lumentum|Optical Algorithms and Analytics Engineering Co-op|Ottawa, ON|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Inmar Intelligence",
+          "Data Science Intern",
+          "Raleigh, NC Winston-Salem, NC",
+          "Oct 19",
+          "https://inmar.wd1.myworkdayjobs.com/inmarcareers/job/Headquarters-Winston-Salem-NC/Data-Science-Intern_JY2627711?utm_source=github-vansh-ouckah"
+        ],
+        "https://inmar.wd1.myworkdayjobs.com/inmarcareers/job/Headquarters-Winston-Salem-NC/Data-Science-Intern_JY2627711?utm_source=github-vansh-ouckah|Inmar Intelligence|Data Science Intern|Raleigh, NC Winston-Salem, NC|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Hewlett Packard Enterprise",
+          "Embedded Software Engineer Intern",
+          "Roseville, CA",
+          "Oct 19",
+          "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Roseville-California-United-States-of-America/Embedded-Software-Engineering-Intern_1214088?utm_source=github-vansh-ouckah"
+        ],
+        "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Roseville-California-United-States-of-America/Embedded-Software-Engineering-Intern_1214088?utm_source=github-vansh-ouckah|Hewlett Packard Enterprise|Embedded Software Engineer Intern|Roseville, CA|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Bosch",
+          "Software Engineering Co-op",
+          "Fountain Inn, SC",
+          "Oct 19",
+          "https://jobs.smartrecruiters.com/BoschGroup/744000156311682?utm_source=github-vansh-ouckah"
+        ],
+        "https://jobs.smartrecruiters.com/BoschGroup/744000156311682?utm_source=github-vansh-ouckah|Bosch|Software Engineering Co-op|Fountain Inn, SC|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Bosch",
+          "AI Research Intern, Wireless Foundation Models",
+          "Pittsburgh, PA",
+          "Oct 19",
+          "https://jobs.smartrecruiters.com/BoschGroup/744000156323136?utm_source=github-vansh-ouckah"
+        ],
+        "https://jobs.smartrecruiters.com/BoschGroup/744000156323136?utm_source=github-vansh-ouckah|Bosch|AI Research Intern, Wireless Foundation Models|Pittsburgh, PA|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Applied Materials",
+          "Software Engineer Intern",
+          "Santa Clara, CA",
+          "Oct 19",
+          "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672?utm_source=github-vansh-ouckah"
+        ],
+        "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672?utm_source=github-vansh-ouckah|Applied Materials|Software Engineer Intern|Santa Clara, CA|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Altera",
+          "Quartus User Interface Intern",
+          "Toronto, ON, Canada",
+          "Oct 19",
+          "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Quartus-User-Interface---Intern_R03353?utm_source=github-vansh-ouckah"
+        ],
+        "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Quartus-User-Interface---Intern_R03353?utm_source=github-vansh-ouckah|Altera|Quartus User Interface Intern|Toronto, ON, Canada|Oct 19#1",
+        1
+      ],
+      [
+        [
+          "Altera",
+          "FPGA IP Design Engineer Intern",
+          "Toronto, ON, Canada",
+          "Oct 19",
+          "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299?utm_source=github-vansh-ouckah"
+        ],
+        "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299?utm_source=github-vansh-ouckah|Altera|FPGA IP Design Engineer Intern|Toronto, ON, Canada|Oct 19#1",
+        1
+      ]
+    ]
   },
   "zapplyjobs/Internships-2027#swe": {
     "last_sha": "74b215c9e5dcac46afa93c2220d87f0918605a6e",
