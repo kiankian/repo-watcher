@@ -72008,6 +72008,30 @@
       "chat_id": 7582459199,
       "seq": 5443,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01883862?s=gh-internships-2027|RTX|Part Time Systems Engineer Co-Op (Remote)|CO-AURORA-S75|Summer 2027#1"
+    },
+    "af9e154c3ef1": {
+      "company": "RTX",
+      "role": "Software Engineer Intern (Summer 2027)",
+      "location": "MA-TEWKSBURY-TB3",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01880127?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6640,
+      "chat_id": 7582459199,
+      "seq": 5444,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01880127?s=gh-internships-2027|RTX|Software Engineer Intern (Summer 2027)|MA-TEWKSBURY-TB3|Summer 2027#1"
+    },
+    "16c22df17d49": {
+      "company": "Northrop Grumman",
+      "role": "2027 Mission Assurance / Quality Assurance Intern - Roy UT",
+      "location": "United States-Utah-Roy",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257016?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6641,
+      "chat_id": 7582459199,
+      "seq": 5445,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257016?s=gh-internships-2027|Northrop Grumman|2027 Mission Assurance / Quality Assurance Intern - Roy UT|United States-Utah-Roy|Summer 2027#1"
     }
   },
   "applied": {
@@ -72375,10 +72399,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5443,
+  "seq": 5445,
   "health": {
     "last_heartbeat": "2026-10-21T11:55:16Z",
-    "last_ok_run": "2026-10-21T11:55:16Z",
+    "last_ok_run": "2026-10-21T12:00:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
