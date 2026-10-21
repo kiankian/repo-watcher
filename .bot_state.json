@@ -71864,6 +71864,18 @@
       "chat_id": 7582459199,
       "seq": 5431,
       "identity": "https://zapply.jobs/l/d/workday-hpe-jobsathpe-1214088?s=gh-internships-2027|HPE (University)|Embedded Software Engineering Intern|Roseville, California, United...|Summer 2027#1"
+    },
+    "e971c338b1a1": {
+      "company": "Rhoda AI",
+      "role": "Software Engineer Intern, Inference",
+      "location": "Mountain View",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-rhoda-ai-2de33083-782f-489e-9b91-f40761a36bf4?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6628,
+      "chat_id": 7582459199,
+      "seq": 5432,
+      "identity": "https://zapply.jobs/l/d/ashby-rhoda-ai-2de33083-782f-489e-9b91-f40761a36bf4?s=gh-internships-2027|Rhoda AI|Software Engineer Intern, Inference|Mountain View|Summer 2027#1"
     }
   },
   "applied": {
@@ -72231,10 +72243,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5431,
+  "seq": 5432,
   "health": {
     "last_heartbeat": "2026-10-21T01:50:16Z",
-    "last_ok_run": "2026-10-21T02:15:16Z",
+    "last_ok_run": "2026-10-21T02:20:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
