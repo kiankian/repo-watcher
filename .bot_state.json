@@ -71888,6 +71888,18 @@
       "chat_id": 7582459199,
       "seq": 5433,
       "identity": "https://zapply.jobs/l/d/ashby-rhoda-ai-9a57c8ff-dd2b-4547-a46a-44658a699ba5?s=gh-internships-2027|Rhoda AI|Software Engineer Intern, Rhoda Platform|Mountain View|Summer 2027#1"
+    },
+    "9f1b6dee1b70": {
+      "company": "RTX",
+      "role": "Co-op: Systems Engineering Co-op (Summer-Fall 2027) - Onsite",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873973?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6630,
+      "chat_id": 7582459199,
+      "seq": 5434,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873973?s=gh-internships-2027|RTX|Co-op: Systems Engineering Co-op (Summer-Fall 2027) - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
     }
   },
   "applied": {
@@ -72255,10 +72267,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5433,
+  "seq": 5434,
   "health": {
     "last_heartbeat": "2026-10-21T02:50:16Z",
-    "last_ok_run": "2026-10-21T02:55:13Z",
+    "last_ok_run": "2026-10-21T03:00:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
