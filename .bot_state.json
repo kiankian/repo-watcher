@@ -71816,6 +71816,42 @@
       "chat_id": 7582459199,
       "seq": 5427,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882939?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|MD-ANNAPOLIS|Summer 2027#1"
+    },
+    "b4c6b6e105f6": {
+      "company": "\ud83d\udd25 LinkedIn",
+      "role": "Software Engineer Intern",
+      "location": "Mountain View, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/LinkedIn3/744000156616169?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6624,
+      "chat_id": 7582459199,
+      "seq": 5428,
+      "identity": "https://jobs.smartrecruiters.com/LinkedIn3/744000156616169?utm_source=Simplify&ref=Simplify|\ud83d\udd25 LinkedIn|Software Engineer Intern|Mountain View, CA|Summer 2026#1"
+    },
+    "6c9eb617e744": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Annapolis, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-905--2551-Riva-Rd--BLDG-905/Software-Engineering-Intern--Summer-2027-_01882939?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6625,
+      "chat_id": 7582459199,
+      "seq": 5429,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-905--2551-Riva-Rd--BLDG-905/Software-Engineering-Intern--Summer-2027-_01882939?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Annapolis, MD|Summer 2026#1"
+    },
+    "b578fb0ff98f": {
+      "company": "Applied Materials",
+      "role": "Software Engineer Intern",
+      "location": "Santa Clara, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6626,
+      "chat_id": 7582459199,
+      "seq": 5430,
+      "identity": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672?utm_source=Simplify&ref=Simplify|Applied Materials|Software Engineer Intern|Santa Clara, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -72183,10 +72219,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5427,
+  "seq": 5430,
   "health": {
     "last_heartbeat": "2026-10-21T00:45:14Z",
-    "last_ok_run": "2026-10-21T01:30:19Z",
+    "last_ok_run": "2026-10-21T01:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
