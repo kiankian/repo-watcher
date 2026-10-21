@@ -71924,6 +71924,18 @@
       "chat_id": 7582459199,
       "seq": 5436,
       "identity": "https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2026530?s=gh-internships-2027|NVIDIA|Systems Software Intern, Aerial PHY- Summer 2027|US, CA, Santa Clara|Summer 2027#1"
+    },
+    "76b001b18bcd": {
+      "company": "Robert Bosch Venture Capital",
+      "role": "Calibration Process Optimization Intern",
+      "location": "Farmington Hills, MI",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000156585075?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6633,
+      "chat_id": 7582459199,
+      "seq": 5437,
+      "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000156585075?utm_source=Simplify&ref=Simplify|Robert Bosch Venture Capital|Calibration Process Optimization Intern|Farmington Hills, MI|Summer 2026#1"
     }
   },
   "applied": {
@@ -72291,10 +72303,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5436,
+  "seq": 5437,
   "health": {
     "last_heartbeat": "2026-10-21T06:20:17Z",
-    "last_ok_run": "2026-10-21T06:30:18Z",
+    "last_ok_run": "2026-10-21T06:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
