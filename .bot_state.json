@@ -73880,6 +73880,18 @@
       "chat_id": 7582459199,
       "seq": 5599,
       "identity": "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675?utm_source=github-vansh-ouckah|American Family Insurance Group|Data Engineer Intern|Madison, WI|Oct 20#1"
+    },
+    "3779b0d5a262": {
+      "company": "RTX",
+      "role": "Systems Administrator Co-Op (Spring/Summer 2027)",
+      "location": "MA-CAMBRIDGE-BBN06",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882888?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6796,
+      "chat_id": 7582459199,
+      "seq": 5600,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882888?s=gh-internships-2027|RTX|Systems Administrator Co-Op (Spring/Summer 2027)|MA-CAMBRIDGE-BBN06|Summer 2027#1"
     }
   },
   "applied": {
@@ -74247,10 +74259,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5599,
+  "seq": 5600,
   "health": {
     "last_heartbeat": "2026-10-22T03:30:18Z",
-    "last_ok_run": "2026-10-22T03:40:15Z",
+    "last_ok_run": "2026-10-22T03:45:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
