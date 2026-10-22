@@ -74600,6 +74600,90 @@
       "chat_id": 7582459199,
       "seq": 5659,
       "identity": "https://jobs.ashbyhq.com/rhoda-ai/2de33083-782f-489e-9b91-f40761a36bf4|Rhoda ai|Software Engineer Intern - Inference|Mountain View, CA|Other#1"
+    },
+    "0d310ad70ab6": {
+      "company": "Copart",
+      "role": "QA Engineer Intern",
+      "location": "Dallas, TX - Headquarters",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-copart-copart-JR112005?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6856,
+      "chat_id": 7582459199,
+      "seq": 5660,
+      "identity": "https://zapply.jobs/l/d/workday-copart-copart-JR112005?s=gh-internships-2027|Copart|QA Engineer Intern|Dallas, TX - Headquarters|Summer 2027#1"
+    },
+    "d7648373f862": {
+      "company": "SAS",
+      "role": "JMP 2027 Summer Internship; Software Testing - Undergrad",
+      "location": "Cary, NC",
+      "term": "Other",
+      "apply_url": "https://jmp-sas.icims.com/jobs/44418/jmp-2027-summer-internship--software-testing-%28undergrad%29/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6857,
+      "chat_id": 7582459199,
+      "seq": 5661,
+      "identity": "https://jmp-sas.icims.com/jobs/44418/jmp-2027-summer-internship--software-testing-%28undergrad%29/job|SAS|JMP 2027 Summer Internship; Software Testing - Undergrad|Cary, NC|Other#1"
+    },
+    "bd768e62a5d9": {
+      "company": "Sierra Space",
+      "role": "Summer 2027 Flight Software Engineer Intern",
+      "location": "Louisville, CO",
+      "term": "Other",
+      "apply_url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/sierra_space_external_career_site/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6858,
+      "chat_id": 7582459199,
+      "seq": 5662,
+      "identity": "https://sierraspace.wd1.myworkdayjobs.com/en-US/sierra_space_external_career_site/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456|Sierra Space|Summer 2027 Flight Software Engineer Intern|Louisville, CO|Other#1"
+    },
+    "4f4ffa772373": {
+      "company": "Smith+Nephew",
+      "role": "Intern Computer Vision Software Engineering",
+      "location": "Andover, MA",
+      "term": "Other",
+      "apply_url": "https://smithnephew.wd5.myworkdayjobs.com/en-US/external/job/Andover-MA/Intern-Computer-Vision-Software-Engineering_R92964",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6859,
+      "chat_id": 7582459199,
+      "seq": 5663,
+      "identity": "https://smithnephew.wd5.myworkdayjobs.com/en-US/external/job/Andover-MA/Intern-Computer-Vision-Software-Engineering_R92964|Smith+Nephew|Intern Computer Vision Software Engineering|Andover, MA|Other#1"
+    },
+    "eed69edd0d47": {
+      "company": "Stifel",
+      "role": "Technology Product Development Developer Intern- Summer 2027",
+      "location": "St. Louis, MO",
+      "term": "Other",
+      "apply_url": "https://careers-stifel.icims.com/jobs/9967/technology-product-development-developer-intern--summer-2027/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6860,
+      "chat_id": 7582459199,
+      "seq": 5664,
+      "identity": "https://careers-stifel.icims.com/jobs/9967/technology-product-development-developer-intern--summer-2027/job|Stifel|Technology Product Development Developer Intern- Summer 2027|St. Louis, MO|Other#1"
+    },
+    "dae685c342dc": {
+      "company": "Hermeus",
+      "role": "Flight Software & GNC Intern - Spring/Summer 2027",
+      "location": "Atlanta, GA",
+      "term": "Other",
+      "apply_url": "https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6861,
+      "chat_id": 7582459199,
+      "seq": 5665,
+      "identity": "https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7|Hermeus|Flight Software & GNC Intern - Spring/Summer 2027|Atlanta, GA|Other#1"
+    },
+    "09fd738d2828": {
+      "company": "Lutron",
+      "role": "Summer 2027 - Software Engineering Intern - Lehigh Valley - PA",
+      "location": "Coopersburg, PA",
+      "term": "Other",
+      "apply_url": "https://studentopportunities-lutron.icims.com/jobs/5382/summer-2027---software-engineering-intern---lehigh-valley%2c-pa/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 6862,
+      "chat_id": 7582459199,
+      "seq": 5666,
+      "identity": "https://studentopportunities-lutron.icims.com/jobs/5382/summer-2027---software-engineering-intern---lehigh-valley%2c-pa/job|Lutron|Summer 2027 - Software Engineering Intern - Lehigh Valley - PA|Coopersburg, PA|Other#1"
     }
   },
   "applied": {
@@ -74967,10 +75051,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5659,
+  "seq": 5666,
   "health": {
     "last_heartbeat": "2026-10-22T16:00:24Z",
-    "last_ok_run": "2026-10-22T17:01:08Z",
+    "last_ok_run": "2026-10-22T17:05:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
