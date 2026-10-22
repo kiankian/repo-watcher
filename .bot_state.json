@@ -74192,6 +74192,18 @@
       "chat_id": 7582459199,
       "seq": 5625,
       "identity": "https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Software-Development-Internship---Summer-2027_R268537?utm_source=Simplify&ref=Simplify|Uline|Software Developer Intern|5 locationsWaukegan, IL Milwaukee, WI Glenview, IL Pleasant Prairie, WI Kenosha, WI|Summer 2026#1"
+    },
+    "db5dafd2fd99": {
+      "company": "RTX",
+      "role": "Software Engineering  Intern (Summer 2027)",
+      "location": "CO-AURORA-S77",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01881520?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6822,
+      "chat_id": 7582459199,
+      "seq": 5626,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01881520?s=gh-internships-2027|RTX|Software Engineering  Intern (Summer 2027)|CO-AURORA-S77|Summer 2027#1"
     }
   },
   "applied": {
@@ -74559,10 +74571,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5625,
+  "seq": 5626,
   "health": {
     "last_heartbeat": "2026-10-22T11:45:18Z",
-    "last_ok_run": "2026-10-22T11:45:18Z",
+    "last_ok_run": "2026-10-22T11:50:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
