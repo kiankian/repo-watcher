@@ -75140,6 +75140,66 @@
       "chat_id": 7582459199,
       "seq": 5704,
       "identity": "https://zapply.jobs/l/d/workday-cvshealth-cvs-health-careers-R1081128?s=gh-internships-2027|CVS Health|Innovation & Technology Internship -Software Engineering: Data & Intelligence Summer 2027 Graduate|NY - New York|Summer 2027#1"
+    },
+    "04ccaf152c33": {
+      "company": "Westinghouse Electric Company",
+      "role": "Software Engineering Intern",
+      "location": "Warrendale, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Software-Engineering-OR/1442826200/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6901,
+      "chat_id": 7582459199,
+      "seq": 5705,
+      "identity": "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Software-Engineering-OR/1442826200/?ats=successfactors&utm_source=Simplify&ref=Simplify|Westinghouse Electric Company|Software Engineering Intern|Warrendale, PA|Summer 2026#1"
+    },
+    "8ffb8bc09c9a": {
+      "company": "Pattern",
+      "role": "AI Infrastructure Engineer Intern",
+      "location": "Lehi, UT",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/pattern/5c0c1963-87c5-48d7-8da9-0c79121fe443/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6902,
+      "chat_id": 7582459199,
+      "seq": 5706,
+      "identity": "https://jobs.lever.co/pattern/5c0c1963-87c5-48d7-8da9-0c79121fe443/apply?utm_source=Simplify&ref=Simplify|Pattern|AI Infrastructure Engineer Intern|Lehi, UT|Summer 2026#1"
+    },
+    "9045141ff7f5": {
+      "company": "Skydio",
+      "role": "Frontend Software Engineer Intern",
+      "location": "San Mateo, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6903,
+      "chat_id": 7582459199,
+      "seq": 5707,
+      "identity": "https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd/application?embed=true&utm_source=Simplify&ref=Simplify|Skydio|Frontend Software Engineer Intern|San Mateo, CA|Summer 2026#1"
+    },
+    "ca50c1a35991": {
+      "company": "Ursa Major",
+      "role": "Software Development Intern",
+      "location": "Berthoud, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://ursamajor.com/careers/?gh_jid=4746827005&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6904,
+      "chat_id": 7582459199,
+      "seq": 5708,
+      "identity": "https://ursamajor.com/careers/?gh_jid=4746827005&utm_source=Simplify&ref=Simplify|Ursa Major|Software Development Intern|Berthoud, CO|Summer 2026#1"
+    },
+    "762b9ca9e8a9": {
+      "company": "Northrop Grumman",
+      "role": "Cyber Software Engineer Intern",
+      "location": "San Antonio, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6905,
+      "chat_id": 7582459199,
+      "seq": 5709,
+      "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311?utm_source=Simplify&ref=Simplify|Northrop Grumman|Cyber Software Engineer Intern|San Antonio, TX|Summer 2026#1"
     }
   },
   "applied": {
@@ -75507,10 +75567,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5704,
+  "seq": 5709,
   "health": {
     "last_heartbeat": "2026-10-22T21:45:17Z",
-    "last_ok_run": "2026-10-22T22:30:19Z",
+    "last_ok_run": "2026-10-22T22:35:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
