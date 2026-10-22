@@ -75284,6 +75284,54 @@
       "chat_id": 7582459199,
       "seq": 5716,
       "identity": "https://zapply.jobs/l/d/ashby-rivianvw.tech-62e45b20-cbdc-4d16-9466-00bc158b7a7f?s=gh-internships-2027|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Connected Systems (Summer 2027)|Palo Alto, California|Summer 2027#1"
+    },
+    "44b43f8c90df": {
+      "company": "CVS Health",
+      "role": "Innovation & Technology Software Engineering: Platform & Applications Intern \ud83c\udf93",
+      "location": "4 locationsDallas, TX Scottsdale, AZ Hartford, CT Woonsocket, RI",
+      "term": "Summer 2026",
+      "apply_url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation---Technology-Internship-Software-Engineering--Platform---Applications--Summer-2027-Grad_R1081216?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6913,
+      "chat_id": 7582459199,
+      "seq": 5717,
+      "identity": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation---Technology-Internship-Software-Engineering--Platform---Applications--Summer-2027-Grad_R1081216?utm_source=Simplify&ref=Simplify|CVS Health|Innovation & Technology Software Engineering: Platform & Applications Intern \ud83c\udf93|4 locationsDallas, TX Scottsdale, AZ Hartford, CT Woonsocket, RI|Summer 2026#1"
+    },
+    "c06c3d3c0983": {
+      "company": "CVS Health",
+      "role": "Innovation & Technology Software Engineering: Data & Intelligence Intern \ud83c\udf93",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Graduate_R1081128?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6914,
+      "chat_id": 7582459199,
+      "seq": 5718,
+      "identity": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Graduate_R1081128?utm_source=Simplify&ref=Simplify|CVS Health|Innovation & Technology Software Engineering: Data & Intelligence Intern \ud83c\udf93|NYC|Summer 2026#1"
+    },
+    "e7a75f4e1e38": {
+      "company": "CVS Health",
+      "role": "Software Engineer Intern - Platform & Applications",
+      "location": "4 locationsDallas, TX Scottsdale, AZ Hartford, CT Woonsocket, RI",
+      "term": "Summer 2026",
+      "apply_url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6915,
+      "chat_id": 7582459199,
+      "seq": 5719,
+      "identity": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193?utm_source=Simplify&ref=Simplify|CVS Health|Software Engineer Intern - Platform & Applications|4 locationsDallas, TX Scottsdale, AZ Hartford, CT Woonsocket, RI|Summer 2026#1"
+    },
+    "61f18b2dee2e": {
+      "company": "CVS Health",
+      "role": "Innovation & Technology Internship - Software Engineering: Data & Intelligence",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6916,
+      "chat_id": 7582459199,
+      "seq": 5720,
+      "identity": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114?utm_source=Simplify&ref=Simplify|CVS Health|Innovation & Technology Internship - Software Engineering: Data & Intelligence|NYC|Summer 2026#1"
     }
   },
   "applied": {
@@ -75651,10 +75699,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5716,
+  "seq": 5720,
   "health": {
     "last_heartbeat": "2026-10-22T22:55:13Z",
-    "last_ok_run": "2026-10-22T23:00:25Z",
+    "last_ok_run": "2026-10-22T23:05:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
