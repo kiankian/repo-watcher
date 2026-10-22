@@ -75008,6 +75008,18 @@
       "chat_id": 7582459199,
       "seq": 5693,
       "identity": "https://zapply.jobs/l/d/lever-cfsenergy-da8cc185-70d0-4a8e-b484-9866c71b593e?s=gh-internships-2027|CFS Energy|Intern - Materials Test Engineer - Summer 2027|Devens, MA|Summer 2027#1"
+    },
+    "cfa4c59114ee": {
+      "company": "Skydio",
+      "role": "Frontend Software Engineer Intern - Summer 2027",
+      "location": "San Mateo, California, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-skydio-89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6890,
+      "chat_id": 7582459199,
+      "seq": 5694,
+      "identity": "https://zapply.jobs/l/d/ashby-skydio-89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd?s=gh-internships-2027|Skydio|Frontend Software Engineer Intern - Summer 2027|San Mateo, California, United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -75375,10 +75387,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5693,
+  "seq": 5694,
   "health": {
     "last_heartbeat": "2026-10-22T19:20:18Z",
-    "last_ok_run": "2026-10-22T20:05:17Z",
+    "last_ok_run": "2026-10-22T20:10:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
