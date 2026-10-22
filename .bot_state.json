@@ -74156,6 +74156,30 @@
       "chat_id": 7582459199,
       "seq": 5622,
       "identity": "NOURL|Medtronic|Software Engineering Intern \ud83d\udec2|**5 locations**Fridley, MN Tempe, AZ Eatontown, NJ Santa Rosa, CA Lafayette, CO|Aug 03#1"
+    },
+    "ceb827848b1f": {
+      "company": "Uline",
+      "role": "Software Development Internship - Summer 2027",
+      "location": "Pleasant Prairie, WI",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-uline-uline-careers-R268537?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6819,
+      "chat_id": 7582459199,
+      "seq": 5623,
+      "identity": "https://zapply.jobs/l/d/workday-uline-uline-careers-R268537?s=gh-internships-2027|Uline|Software Development Internship - Summer 2027|Pleasant Prairie, WI|Summer 2027#1"
+    },
+    "6005687f1a05": {
+      "company": "Uline",
+      "role": "Systems Administrator Internship - Summer 2027",
+      "location": "Pleasant Prairie, WI",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-uline-uline-careers-R268536?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6820,
+      "chat_id": 7582459199,
+      "seq": 5624,
+      "identity": "https://zapply.jobs/l/d/workday-uline-uline-careers-R268536?s=gh-internships-2027|Uline|Systems Administrator Internship - Summer 2027|Pleasant Prairie, WI|Summer 2027#1"
     }
   },
   "applied": {
@@ -74523,10 +74547,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5622,
+  "seq": 5624,
   "health": {
     "last_heartbeat": "2026-10-22T08:20:18Z",
-    "last_ok_run": "2026-10-22T09:05:27Z",
+    "last_ok_run": "2026-10-22T09:10:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
