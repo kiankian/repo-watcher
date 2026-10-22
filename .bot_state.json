@@ -74264,6 +74264,18 @@
       "chat_id": 7582459199,
       "seq": 5631,
       "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R69755?s=gh-internships-2027|Motorola Solutions|Presale Systems Engineer - Summer 2027 Internship|Brooklyn, NY, More...|Summer 2027#1"
+    },
+    "b0e3cc32e0f9": {
+      "company": "Northrop Grumman",
+      "role": "2027 Cyber Software Engineer Intern - San Antonio TX",
+      "location": "United States-Texas-San Antonio",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257311?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6828,
+      "chat_id": 7582459199,
+      "seq": 5632,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257311?s=gh-internships-2027|Northrop Grumman|2027 Cyber Software Engineer Intern - San Antonio TX|United States-Texas-San Antonio|Summer 2027#1"
     }
   },
   "applied": {
@@ -74631,10 +74643,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5631,
+  "seq": 5632,
   "health": {
     "last_heartbeat": "2026-10-22T16:00:24Z",
-    "last_ok_run": "2026-10-22T16:00:24Z",
+    "last_ok_run": "2026-10-22T16:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
