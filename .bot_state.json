@@ -75056,6 +75056,42 @@
       "chat_id": 7582459199,
       "seq": 5697,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257423?s=gh-internships-2027|Northrop Grumman|2027 Systems Engineering Internship (AI Experience) - Dulles VA|United States-Virginia-Dulles|Summer 2027#1"
+    },
+    "f65a03dd1f29": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Systems Security Engineer Intern - Summer 2027 (For SNC Summer 2026 Interns Only)",
+      "location": "Hagerstown, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030540?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6894,
+      "chat_id": 7582459199,
+      "seq": 5698,
+      "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030540?s=gh-internships-2027|Sierra Nevada Corporation|Systems Security Engineer Intern - Summer 2027 (For SNC Summer 2026 Interns Only)|Hagerstown, MD|Summer 2027#1"
+    },
+    "5911bc0a9800": {
+      "company": "CVS Health",
+      "role": "Innovation&Technology Internship-Software Engineering: Platform & Applications-Summer 2027 Undergrad",
+      "location": "AZ Scottsdale",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cvshealth-cvs-health-careers-R1081193?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6895,
+      "chat_id": 7582459199,
+      "seq": 5699,
+      "identity": "https://zapply.jobs/l/d/workday-cvshealth-cvs-health-careers-R1081193?s=gh-internships-2027|CVS Health|Innovation&Technology Internship-Software Engineering: Platform & Applications-Summer 2027 Undergrad|AZ Scottsdale|Summer 2027#1"
+    },
+    "76ff1d4c180f": {
+      "company": "CVS Health",
+      "role": "Innovation & Technology Internship-Software Engineering: Platform & Applications -Summer 2027 Grad",
+      "location": "AZ Scottsdale",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cvshealth-cvs-health-careers-R1081216?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6896,
+      "chat_id": 7582459199,
+      "seq": 5700,
+      "identity": "https://zapply.jobs/l/d/workday-cvshealth-cvs-health-careers-R1081216?s=gh-internships-2027|CVS Health|Innovation & Technology Internship-Software Engineering: Platform & Applications -Summer 2027 Grad|AZ Scottsdale|Summer 2027#1"
     }
   },
   "applied": {
@@ -75423,10 +75459,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5697,
+  "seq": 5700,
   "health": {
     "last_heartbeat": "2026-10-22T20:30:23Z",
-    "last_ok_run": "2026-10-22T21:25:15Z",
+    "last_ok_run": "2026-10-22T21:30:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
