@@ -74180,6 +74180,18 @@
       "chat_id": 7582459199,
       "seq": 5624,
       "identity": "https://zapply.jobs/l/d/workday-uline-uline-careers-R268536?s=gh-internships-2027|Uline|Systems Administrator Internship - Summer 2027|Pleasant Prairie, WI|Summer 2027#1"
+    },
+    "f9f9b9a5c774": {
+      "company": "Uline",
+      "role": "Software Developer Intern",
+      "location": "5 locationsWaukegan, IL Milwaukee, WI Glenview, IL Pleasant Prairie, WI Kenosha, WI",
+      "term": "Summer 2026",
+      "apply_url": "https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Software-Development-Internship---Summer-2027_R268537?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6821,
+      "chat_id": 7582459199,
+      "seq": 5625,
+      "identity": "https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Software-Development-Internship---Summer-2027_R268537?utm_source=Simplify&ref=Simplify|Uline|Software Developer Intern|5 locationsWaukegan, IL Milwaukee, WI Glenview, IL Pleasant Prairie, WI Kenosha, WI|Summer 2026#1"
     }
   },
   "applied": {
@@ -74547,10 +74559,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5624,
+  "seq": 5625,
   "health": {
     "last_heartbeat": "2026-10-22T10:30:18Z",
-    "last_ok_run": "2026-10-22T11:30:20Z",
+    "last_ok_run": "2026-10-22T11:35:14Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
