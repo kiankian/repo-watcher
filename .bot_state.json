@@ -74252,6 +74252,18 @@
       "chat_id": 7582459199,
       "seq": 5630,
       "identity": "https://zapply.jobs/l/d/ashby-1password-71a3afd1-12b3-4f55-a3bd-fc4e7c46ee37?s=gh-internships-2027|1Password|Developer Intern, Front-End Platform - Winter 2027|Remote (United States  Canada)|Summer 2027#1"
+    },
+    "58b3f43f1e13": {
+      "company": "Motorola Solutions",
+      "role": "Presale Systems Engineer - Summer 2027 Internship",
+      "location": "Brooklyn, NY, More...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R69755?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6827,
+      "chat_id": 7582459199,
+      "seq": 5631,
+      "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R69755?s=gh-internships-2027|Motorola Solutions|Presale Systems Engineer - Summer 2027 Internship|Brooklyn, NY, More...|Summer 2027#1"
     }
   },
   "applied": {
@@ -74619,10 +74631,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5630,
+  "seq": 5631,
   "health": {
     "last_heartbeat": "2026-10-22T14:50:19Z",
-    "last_ok_run": "2026-10-22T15:45:16Z",
+    "last_ok_run": "2026-10-22T15:50:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
