@@ -75200,6 +75200,54 @@
       "chat_id": 7582459199,
       "seq": 5709,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311?utm_source=Simplify&ref=Simplify|Northrop Grumman|Cyber Software Engineer Intern|San Antonio, TX|Summer 2026#1"
+    },
+    "5167a09d4e87": {
+      "company": "CVS Health",
+      "role": "Innovation & Technology Internship-Software Engineering:Platform & Applications-Summer2027 Undergrad",
+      "location": "AZ Scottsdale",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cvshealth-cvs-health-careers-R1081193?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6906,
+      "chat_id": 7582459199,
+      "seq": 5710,
+      "identity": "https://zapply.jobs/l/d/workday-cvshealth-cvs-health-careers-R1081193?s=gh-internships-2027|CVS Health|Innovation & Technology Internship-Software Engineering:Platform & Applications-Summer2027 Undergrad|AZ Scottsdale|Summer 2027#1"
+    },
+    "c4ee57f9fc90": {
+      "company": "CVS Health",
+      "role": "Innovation & Technology Internship - Software Engineering: Data & Intelligence Summer 2027 Undergrad",
+      "location": "NY - New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cvshealth-cvs-health-careers-R1081114?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6907,
+      "chat_id": 7582459199,
+      "seq": 5711,
+      "identity": "https://zapply.jobs/l/d/workday-cvshealth-cvs-health-careers-R1081114?s=gh-internships-2027|CVS Health|Innovation & Technology Internship - Software Engineering: Data & Intelligence Summer 2027 Undergrad|NY - New York|Summer 2027#1"
+    },
+    "1c1f40801a99": {
+      "company": "CVS Health",
+      "role": "Innovation & Technology Internship - Software Engineering: Data & Intelligence Summer 2027 Graduate",
+      "location": "NY - New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cvshealth-cvs-health-careers-R1081128?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6908,
+      "chat_id": 7582459199,
+      "seq": 5712,
+      "identity": "https://zapply.jobs/l/d/workday-cvshealth-cvs-health-careers-R1081128?s=gh-internships-2027|CVS Health|Innovation & Technology Internship - Software Engineering: Data & Intelligence Summer 2027 Graduate|NY - New York|Summer 2027#1"
+    },
+    "ca331b19cdb4": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "role": "Software Engineering Intern - Applications (Summer 2027)",
+      "location": "Palo Alto, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-rivianvw.tech-7cc3dd48-631f-45ec-ae95-46c7cf05b160?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6909,
+      "chat_id": 7582459199,
+      "seq": 5713,
+      "identity": "https://zapply.jobs/l/d/ashby-rivianvw.tech-7cc3dd48-631f-45ec-ae95-46c7cf05b160?s=gh-internships-2027|Rivian and Volkswagen Group Technologies|Software Engineering Intern - Applications (Summer 2027)|Palo Alto, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -75567,10 +75615,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5709,
+  "seq": 5713,
   "health": {
     "last_heartbeat": "2026-10-22T21:45:17Z",
-    "last_ok_run": "2026-10-22T22:35:23Z",
+    "last_ok_run": "2026-10-22T22:40:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
