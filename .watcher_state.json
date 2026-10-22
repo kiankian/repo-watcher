@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "2f45392714bd8621f089ea015cb176f79edb79b3",
+    "last_sha": "e99806a1d4a0ee8031f1f16e329f41f75bb03ab1",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2647,7 +2647,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "2256377c861c10bf81a6ebe965e7b7075c28ae81",
+    "last_sha": "44641ef7a5ca675f08ec1c709cab5d838f695267",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -3253,11 +3253,147 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000156323136?utm_source=github-vansh-ouckah|Bosch|AI Research Intern, Wireless Foundation Models|Pittsburgh, PA|Oct 19#1",
       "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672?utm_source=github-vansh-ouckah|Applied Materials|Software Engineer Intern|Santa Clara, CA|Oct 19#1",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Quartus-User-Interface---Intern_R03353?utm_source=github-vansh-ouckah|Altera|Quartus User Interface Intern|Toronto, ON, Canada|Oct 19#1",
-      "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299?utm_source=github-vansh-ouckah|Altera|FPGA IP Design Engineer Intern|Toronto, ON, Canada|Oct 19#1"
+      "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299?utm_source=github-vansh-ouckah|Altera|FPGA IP Design Engineer Intern|Toronto, ON, Canada|Oct 19#1",
+      "https://jobs.ashbyhq.com/walrusfi/7dd09f17-cfff-48d8-8e4e-c3e016fe8cf5/application?embed=true&utm_source=github-vansh-ouckah|Walrus|Full Stack Developer Intern|NYC|Oct 21#1",
+      "https://job-boards.greenhouse.io/trace3/jobs/8274818?utm_source=github-vansh-ouckah|Trace3|Data and Analytics Engineer Intern|Irvine, CA|Oct 21#1",
+      "https://careers.safran-dsi.com/job/Bedford-Software-Engineering-Internship-NH-03110/1440599100/?ats=successfactors&utm_source=github-vansh-ouckah|Safran|Software Engineering Intern|Bedford, NH|Oct 21#1",
+      "https://qualcomm.eightfold.ai/careers/job/446721661677?utm_source=github-vansh-ouckah|Qualcomm|Display Systems Engineer Intern|Markham, ON, Canada|Oct 21#1",
+      "https://qualcomm.eightfold.ai/careers/job/446721661830?utm_source=github-vansh-ouckah|Qualcomm|Edge AI and Display Hardware Architecture Intern|Markham, ON, Canada|Oct 21#1",
+      "https://apply.careers.microsoft.com/careers/job/1970393557044765?utm_source=github-vansh-ouckah|Microsoft|Software Engineer Intern, Security & Identity|Cambridge, MA|Oct 21#1",
+      "https://microchiphr.wd5.myworkdayjobs.com/External/job/CA---San-Jose---3870-N-First-St/Intern---Engineering--ASIC-Verification-_R3851-26?utm_source=github-vansh-ouckah|Microchip Technology|Engineering Intern, ASIC Verification|San Jose, CA|Oct 21#1",
+      "https://jobs.ashbyhq.com/metalenz/979c12dd-e71a-41b5-9c5f-a0d7204a22f6/application?embed=true&utm_source=github-vansh-ouckah|Metalenz|Camera Software Intern|Boston, MA|Oct 21#1",
+      "https://mantech.avature.net/en_US/careers/JobDetail/66705?utm_source=github-vansh-ouckah|ManTech|AI Workflow Intern|Remote in USA Stafford, VA|Oct 21#1",
+      "https://lnw.wd5.myworkdayjobs.com/en-US/LightWonderExternalCareers/job/Las-Vegas-NV/Intern-Software-Engineering_R322982?utm_source=github-vansh-ouckah|Light & Wonder|Software Engineering Intern|Las Vegas, NV|Oct 21#1",
+      "https://lnw.wd5.myworkdayjobs.com/en-US/LightWonderExternalCareers/job/Las-Vegas-NV/Software-Engineer---Intern_R323017?utm_source=github-vansh-ouckah|Light & Wonder|Software Engineer Intern|Las Vegas, NV|Oct 21#1",
+      "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Network-Site-Design-Intern_R-00195057?utm_source=github-vansh-ouckah|Leidos|Network Site Design Intern|Remote in USA|Oct 21#1",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1418569700/?ats=successfactors&utm_source=github-vansh-ouckah|L3Harris Technologies|Software Engineer Intern|Salt Lake City, UT|Oct 21#1",
+      "https://johndeere.eightfold.ai/careers/job/137483990019?utm_source=github-vansh-ouckah|John Deere|Software Engineer Student Intern, Product Engineering|Cary, NC|Oct 21#1",
+      "https://gnw.wd1.myworkdayjobs.com/en-US/GNW/job/Raleigh-North-Carolina/Risk-Modeling-Intern_REQ-260365-1?utm_source=github-vansh-ouckah|Genworth|Risk Modeling Intern|Raleigh, NC|Oct 21#1",
+      "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27404?utm_source=github-vansh-ouckah|DP World|Information Security Intern \ud83d\udec2|Charlotte, NC|Oct 21#1",
+      "https://jobs.ashbyhq.com/crusoe/07a8a6a9-975e-471c-ac31-b5aaa97f9af5?utm_source=github-vansh-ouckah|Crusoe|Software Engineering Intern|San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-II--Intern----United-States_2026805?utm_source=github-vansh-ouckah|Cisco|Software Engineer Intern, Embedded Systems II|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-I--Intern----United-States_2025924?utm_source=github-vansh-ouckah|Cisco|Software Engineer Intern, Full Stack / Backend I|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-II--Intern----United-States_2026800?utm_source=github-vansh-ouckah|Cisco|Software Engineer Intern, Full Stack / Backend II|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-I--Intern----United-States_2026803?utm_source=github-vansh-ouckah|Cisco|Machine Learning Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-II--Intern----United-States_2026802?utm_source=github-vansh-ouckah|Cisco|Machine Learning Engineer II Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Engineering-Product-Management-Specialist-I--Intern----United-States_2026308?utm_source=github-vansh-ouckah|Cisco|Engineering Product Management Specialist I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/AI-Operations-Engineer-I--Intern----United-States_2026804?utm_source=github-vansh-ouckah|Cisco|AI Operations Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400?utm_source=github-vansh-ouckah|Aptiv|AI Product Analyst Intern|San Diego, CA|Oct 21#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 543,
-    "outbox": []
+    "last_row_count": 578,
+    "outbox": [
+      [
+        [
+          "Aon",
+          "IT/AI Engineer Intern",
+          "Chicago, IL",
+          "Oct 21",
+          "https://jobs.aon.com/jobs/110099?icims=1&utm_source=github-vansh-ouckah"
+        ],
+        "https://jobs.aon.com/jobs/110099?icims=1&utm_source=github-vansh-ouckah|Aon|IT/AI Engineer Intern|Chicago, IL|Oct 21#1",
+        1
+      ],
+      [
+        [
+          "Aerospace Corporation",
+          "Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+          "El Segundo, CA",
+          "Oct 21",
+          "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Signal-Processing-and-RF-Engineering-Undergrad-Intern_R016849?utm_source=github-vansh-ouckah"
+        ],
+        "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Signal-Processing-and-RF-Engineering-Undergrad-Intern_R016849?utm_source=github-vansh-ouckah|Aerospace Corporation|Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
+        1
+      ],
+      [
+        [
+          "Zillow",
+          "Software Development Engineer Intern",
+          "Seattle, WA Remote in USA",
+          "Oct 20",
+          "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Software-Development-Engineer---Intern_P751630?utm_source=github-vansh-ouckah"
+        ],
+        "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Software-Development-Engineer---Intern_P751630?utm_source=github-vansh-ouckah|Zillow|Software Development Engineer Intern|Seattle, WA Remote in USA|Oct 20#1",
+        1
+      ],
+      [
+        [
+          "The Aerospace Corporation",
+          "Embedded Software Engineer Intern, Multiple Teams",
+          "El Segundo, CA",
+          "Oct 20",
+          "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949?utm_source=github-vansh-ouckah"
+        ],
+        "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949?utm_source=github-vansh-ouckah|The Aerospace Corporation|Embedded Software Engineer Intern, Multiple Teams|El Segundo, CA|Oct 20#1",
+        1
+      ],
+      [
+        [
+          "Sierra Space",
+          "Flight Software Engineer Intern",
+          "Louisville, CO",
+          "Oct 20",
+          "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456?utm_source=github-vansh-ouckah"
+        ],
+        "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456?utm_source=github-vansh-ouckah|Sierra Space|Flight Software Engineer Intern|Louisville, CO|Oct 20#1",
+        1
+      ],
+      [
+        [
+          "Parsons",
+          "Computer Vision/Robotics Intern",
+          "Westminster, CO",
+          "Oct 20",
+          "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Westminster/Computer-Vision-Robotics-Intern_R187402?utm_source=github-vansh-ouckah"
+        ],
+        "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Westminster/Computer-Vision-Robotics-Intern_R187402?utm_source=github-vansh-ouckah|Parsons|Computer Vision/Robotics Intern|Westminster, CO|Oct 20#1",
+        1
+      ],
+      [
+        [
+          "ICF International",
+          "Full-Stack Developer Intern",
+          "Remote in USA",
+          "Oct 20",
+          "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Seasonal-Associate--Full-Stack-Developer--Remote-_R2603570?utm_source=github-vansh-ouckah"
+        ],
+        "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Seasonal-Associate--Full-Stack-Developer--Remote-_R2603570?utm_source=github-vansh-ouckah|ICF International|Full-Stack Developer Intern|Remote in USA|Oct 20#1",
+        1
+      ],
+      [
+        [
+          "GlobalFoundries",
+          "AI Software Intern",
+          "Santa Clara, CA Richardson, TX",
+          "Oct 20",
+          "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/AI-Software-Intern--Summer-2027-_JR-2604029?utm_source=github-vansh-ouckah"
+        ],
+        "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/AI-Software-Intern--Summer-2027-_JR-2604029?utm_source=github-vansh-ouckah|GlobalFoundries|AI Software Intern|Santa Clara, CA Richardson, TX|Oct 20#1",
+        1
+      ],
+      [
+        [
+          "General Dynamics Information Technology",
+          "AI and Estimation Intern",
+          "Falls Church, VA",
+          "Oct 20",
+          "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646?utm_source=github-vansh-ouckah"
+        ],
+        "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646?utm_source=github-vansh-ouckah|General Dynamics Information Technology|AI and Estimation Intern|Falls Church, VA|Oct 20#1",
+        1
+      ],
+      [
+        [
+          "American Family Insurance Group",
+          "Data Engineer Intern",
+          "Madison, WI",
+          "Oct 20",
+          "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675?utm_source=github-vansh-ouckah"
+        ],
+        "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675?utm_source=github-vansh-ouckah|American Family Insurance Group|Data Engineer Intern|Madison, WI|Oct 20#1",
+        1
+      ]
+    ]
   },
   "zapplyjobs/Internships-2027#swe": {
     "last_sha": "3186d62523017091ca005dcfa8e5c208a9f45576",
