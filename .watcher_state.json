@@ -3399,286 +3399,36 @@
       "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Undergraduate-_R1081067?utm_source=github-vansh-ouckah|CVS Health|Data Science Intern, Innovation & Technology|New York, NY|Oct 21#1",
       "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114?utm_source=github-vansh-ouckah|CVS Health|Software Engineering: Data & Intelligence Intern, Innovation & Technology|New York, NY|Oct 21#1",
       "https://bnl.wd1.myworkdayjobs.com/externa/job/Upton-NY/Data-Engineering-Student-Assistant_JR102753?utm_source=github-vansh-ouckah|Brookhaven Lab|Data Engineering Student Assistant Intern|Upton, NY|Oct 21#1",
-      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704379?utm_source=github-vansh-ouckah|Aptiv|HVP/Certification Engineer Intern|Kanata, Canada|Oct 21#1"
+      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704379?utm_source=github-vansh-ouckah|Aptiv|HVP/Certification Engineer Intern|Kanata, Canada|Oct 21#1",
+      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704378?utm_source=github-vansh-ouckah|Aptiv|HVP Certification Engineer Intern|Kanata, Canada|Oct 21#1",
+      "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Business-Intelligence-Enablement_R39531?utm_source=github-vansh-ouckah|American Family Insurance Group|Business Intelligence Enablement Intern|Madison, WI Boston, MA|Oct 21#1",
+      "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Analytics-Engineer-Intern_R36286?utm_source=github-vansh-ouckah|Allstate|Data Analytics Engineer Intern|Remote United States|Oct 21#1",
+      "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Science-Intern--Core-Telematics-_R36285?utm_source=github-vansh-ouckah|Allstate|Data Science Intern, Core Telematics|Remote United States|Oct 21#1",
+      "https://uscareers-idemia.icims.com/jobs/8707/cloud-software-engineering-internship/job?utm_source=github-vansh-ouckah|IDEMIA North America|Cloud Software Engineering Intern|Reston, VA|Oct 20#1",
+      "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-I--Intern----United-States_2026306?utm_source=github-vansh-ouckah|Cisco|Software Engineer Intern, Data & AI|**4 locations**San Jose, CA Milpitas, CA Research Triangle Park, NC San Francisco, CA|Oct 20#1",
+      "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Cloud-Solutions-Engineer---Site-Reliability-Undergrad-Intern_R016936?utm_source=github-vansh-ouckah|Aerospace Corporation|Cloud Solutions Engineer Intern, Site Reliability \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA Colorado Springs, CO|Oct 20#1",
+      "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4460200009?utm_source=github-vansh-ouckah|SK Hynix Memory Solution|ASIC Design Intern|San Jose, CA|Oct 19#1",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4595767?utm_source=github-vansh-ouckah|Interclypse|Junior Full Stack Software Engineer Intern|Annapolis Junction, MD|Oct 18#1",
+      "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284880?utm_source=github-vansh-ouckah|Mastercard|Platform Engineering Intern|O'Fallon, MO|Oct 15#1",
+      "https://job-boards.greenhouse.io/aidashinc/jobs/4436057009?utm_source=github-vansh-ouckah|AiDASH|Software Engineering Intern, Backend|Palo Alto, CA|Oct 15#1",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4587630?utm_source=github-vansh-ouckah|Propio|Product Manager Intern|Overland Park, KS|Oct 14#1",
+      "https://jobs.smartrecruiters.com/LLNL/3743990016164416?utm_source=github-vansh-ouckah|Lawrence Livermore National Laboratory (LLNL)|Power Systems Undergraduate Intern, Cyber and Critical Infrastructure|Livermore, CA|Oct 14#1",
+      "https://aoins.wd5.myworkdayjobs.com/concord/job/Bedford-NH/Software-Engineer-Intern_R_14465?utm_source=github-vansh-ouckah|Auto-Owners Insurance|Software Engineer Intern|Bedford, NH|Oct 14#1",
+      "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5264424007?utm_source=github-vansh-ouckah|Tenstorrent|Systems Intern, Validation, Software, Design, Architecture & Packaging|Austin, TX Santa Clara, CA|Oct 13#1",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4581330?utm_source=github-vansh-ouckah|Cryptic Vector|Full Stack Developer Intern|Liberty Township, OH|Oct 12#1",
+      "https://jobs.ashbyhq.com/hex/f2562cd7-abf2-434b-85ff-0a5016fbf0d6?utm_source=github-vansh-ouckah|Hex Technologies|AI Engineer Intern|San Francisco, CA|Oct 11#1",
+      "https://workday.wd5.myworkdayjobs.com/en-US/Workday_Early_Career/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809?utm_source=github-vansh-ouckah|Workday|Cybersecurity Engineer Intern|Pleasanton, CA|Oct 08#1",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4575799?utm_source=github-vansh-ouckah|Residex Software|Product Management Intern|United States|Oct 08#1",
+      "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015835003?utm_source=github-vansh-ouckah|GCM Grosvenor|IT Product & Strategy Intern|Chicago, IL|Oct 08#1",
+      "https://job-boards.greenhouse.io/arcesiumllc/jobs/5257199007?utm_source=github-vansh-ouckah|Arcesium|Infrastructure Engineer Intern|New York, NY|Oct 08#1",
+      "https://jobs.lever.co/viget/969d8237-ec1a-4ec4-ba09-b08bcfcd81c4?utm_source=github-vansh-ouckah|Viget|Project & Product Manager Intern \ud83d\udec2|Boulder, CO|Oct 07#1",
+      "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256686007?utm_source=github-vansh-ouckah|Tenstorrent|AI Software Intern, Cloud, Infrastructure & Data Centre Deployment|Austin, TX Santa Clara, CA|Oct 06#1",
+      "https://www.amazon.jobs/en/jobs/10571374/software-development-engineer-embedded-systems-intern-amazon-leo-summer-2027-usa?utm_source=github-vansh-ouckah|Amazon|Software Development Engineer Intern, Amazon Leo, Embedded Systems \ud83c\uddfa\ud83c\uddf8|Redmond, WA|Oct 06#1",
+      "https://veteransunited.wd1.myworkdayjobs.com/vuhl/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249?utm_source=github-vansh-ouckah|Veterans United Home Loans|Software Engineer Intern|Remote United States|Oct 05#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 689,
     "outbox": [
-      [
-        [
-          "Aptiv",
-          "HVP Certification Engineer Intern",
-          "Kanata, Canada",
-          "Oct 21",
-          "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704378?utm_source=github-vansh-ouckah"
-        ],
-        "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704378?utm_source=github-vansh-ouckah|Aptiv|HVP Certification Engineer Intern|Kanata, Canada|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "American Family Insurance Group",
-          "Business Intelligence Enablement Intern",
-          "Madison, WI Boston, MA",
-          "Oct 21",
-          "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Business-Intelligence-Enablement_R39531?utm_source=github-vansh-ouckah"
-        ],
-        "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Business-Intelligence-Enablement_R39531?utm_source=github-vansh-ouckah|American Family Insurance Group|Business Intelligence Enablement Intern|Madison, WI Boston, MA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Allstate",
-          "Data Analytics Engineer Intern",
-          "Remote United States",
-          "Oct 21",
-          "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Analytics-Engineer-Intern_R36286?utm_source=github-vansh-ouckah"
-        ],
-        "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Analytics-Engineer-Intern_R36286?utm_source=github-vansh-ouckah|Allstate|Data Analytics Engineer Intern|Remote United States|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Allstate",
-          "Data Science Intern, Core Telematics",
-          "Remote United States",
-          "Oct 21",
-          "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Science-Intern--Core-Telematics-_R36285?utm_source=github-vansh-ouckah"
-        ],
-        "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Science-Intern--Core-Telematics-_R36285?utm_source=github-vansh-ouckah|Allstate|Data Science Intern, Core Telematics|Remote United States|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "IDEMIA North America",
-          "Cloud Software Engineering Intern",
-          "Reston, VA",
-          "Oct 20",
-          "https://uscareers-idemia.icims.com/jobs/8707/cloud-software-engineering-internship/job?utm_source=github-vansh-ouckah"
-        ],
-        "https://uscareers-idemia.icims.com/jobs/8707/cloud-software-engineering-internship/job?utm_source=github-vansh-ouckah|IDEMIA North America|Cloud Software Engineering Intern|Reston, VA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Engineer Intern, Data & AI",
-          "**4 locations**San Jose, CA Milpitas, CA Research Triangle Park, NC San Francisco, CA",
-          "Oct 20",
-          "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-I--Intern----United-States_2026306?utm_source=github-vansh-ouckah"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-I--Intern----United-States_2026306?utm_source=github-vansh-ouckah|Cisco|Software Engineer Intern, Data & AI|**4 locations**San Jose, CA Milpitas, CA Research Triangle Park, NC San Francisco, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Aerospace Corporation",
-          "Cloud Solutions Engineer Intern, Site Reliability \ud83c\uddfa\ud83c\uddf8",
-          "El Segundo, CA Chantilly, VA Colorado Springs, CO",
-          "Oct 20",
-          "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Cloud-Solutions-Engineer---Site-Reliability-Undergrad-Intern_R016936?utm_source=github-vansh-ouckah"
-        ],
-        "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Cloud-Solutions-Engineer---Site-Reliability-Undergrad-Intern_R016936?utm_source=github-vansh-ouckah|Aerospace Corporation|Cloud Solutions Engineer Intern, Site Reliability \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA Colorado Springs, CO|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "SK Hynix Memory Solution",
-          "ASIC Design Intern",
-          "San Jose, CA",
-          "Oct 19",
-          "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4460200009?utm_source=github-vansh-ouckah"
-        ],
-        "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4460200009?utm_source=github-vansh-ouckah|SK Hynix Memory Solution|ASIC Design Intern|San Jose, CA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Interclypse",
-          "Junior Full Stack Software Engineer Intern",
-          "Annapolis Junction, MD",
-          "Oct 18",
-          "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4595767?utm_source=github-vansh-ouckah"
-        ],
-        "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4595767?utm_source=github-vansh-ouckah|Interclypse|Junior Full Stack Software Engineer Intern|Annapolis Junction, MD|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Mastercard",
-          "Platform Engineering Intern",
-          "O'Fallon, MO",
-          "Oct 15",
-          "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284880?utm_source=github-vansh-ouckah"
-        ],
-        "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284880?utm_source=github-vansh-ouckah|Mastercard|Platform Engineering Intern|O'Fallon, MO|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "AiDASH",
-          "Software Engineering Intern, Backend",
-          "Palo Alto, CA",
-          "Oct 15",
-          "https://job-boards.greenhouse.io/aidashinc/jobs/4436057009?utm_source=github-vansh-ouckah"
-        ],
-        "https://job-boards.greenhouse.io/aidashinc/jobs/4436057009?utm_source=github-vansh-ouckah|AiDASH|Software Engineering Intern, Backend|Palo Alto, CA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Propio",
-          "Product Manager Intern",
-          "Overland Park, KS",
-          "Oct 14",
-          "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4587630?utm_source=github-vansh-ouckah"
-        ],
-        "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4587630?utm_source=github-vansh-ouckah|Propio|Product Manager Intern|Overland Park, KS|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Lawrence Livermore National Laboratory (LLNL)",
-          "Power Systems Undergraduate Intern, Cyber and Critical Infrastructure",
-          "Livermore, CA",
-          "Oct 14",
-          "https://jobs.smartrecruiters.com/LLNL/3743990016164416?utm_source=github-vansh-ouckah"
-        ],
-        "https://jobs.smartrecruiters.com/LLNL/3743990016164416?utm_source=github-vansh-ouckah|Lawrence Livermore National Laboratory (LLNL)|Power Systems Undergraduate Intern, Cyber and Critical Infrastructure|Livermore, CA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Auto-Owners Insurance",
-          "Software Engineer Intern",
-          "Bedford, NH",
-          "Oct 14",
-          "https://aoins.wd5.myworkdayjobs.com/concord/job/Bedford-NH/Software-Engineer-Intern_R_14465?utm_source=github-vansh-ouckah"
-        ],
-        "https://aoins.wd5.myworkdayjobs.com/concord/job/Bedford-NH/Software-Engineer-Intern_R_14465?utm_source=github-vansh-ouckah|Auto-Owners Insurance|Software Engineer Intern|Bedford, NH|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Tenstorrent",
-          "Systems Intern, Validation, Software, Design, Architecture & Packaging",
-          "Austin, TX Santa Clara, CA",
-          "Oct 13",
-          "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5264424007?utm_source=github-vansh-ouckah"
-        ],
-        "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5264424007?utm_source=github-vansh-ouckah|Tenstorrent|Systems Intern, Validation, Software, Design, Architecture & Packaging|Austin, TX Santa Clara, CA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Cryptic Vector",
-          "Full Stack Developer Intern",
-          "Liberty Township, OH",
-          "Oct 12",
-          "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4581330?utm_source=github-vansh-ouckah"
-        ],
-        "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4581330?utm_source=github-vansh-ouckah|Cryptic Vector|Full Stack Developer Intern|Liberty Township, OH|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "Hex Technologies",
-          "AI Engineer Intern",
-          "San Francisco, CA",
-          "Oct 11",
-          "https://jobs.ashbyhq.com/hex/f2562cd7-abf2-434b-85ff-0a5016fbf0d6?utm_source=github-vansh-ouckah"
-        ],
-        "https://jobs.ashbyhq.com/hex/f2562cd7-abf2-434b-85ff-0a5016fbf0d6?utm_source=github-vansh-ouckah|Hex Technologies|AI Engineer Intern|San Francisco, CA|Oct 11#1",
-        1
-      ],
-      [
-        [
-          "Workday",
-          "Cybersecurity Engineer Intern",
-          "Pleasanton, CA",
-          "Oct 08",
-          "https://workday.wd5.myworkdayjobs.com/en-US/Workday_Early_Career/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809?utm_source=github-vansh-ouckah"
-        ],
-        "https://workday.wd5.myworkdayjobs.com/en-US/Workday_Early_Career/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809?utm_source=github-vansh-ouckah|Workday|Cybersecurity Engineer Intern|Pleasanton, CA|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "Residex Software",
-          "Product Management Intern",
-          "United States",
-          "Oct 08",
-          "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4575799?utm_source=github-vansh-ouckah"
-        ],
-        "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4575799?utm_source=github-vansh-ouckah|Residex Software|Product Management Intern|United States|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "GCM Grosvenor",
-          "IT Product & Strategy Intern",
-          "Chicago, IL",
-          "Oct 08",
-          "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015835003?utm_source=github-vansh-ouckah"
-        ],
-        "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015835003?utm_source=github-vansh-ouckah|GCM Grosvenor|IT Product & Strategy Intern|Chicago, IL|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "Arcesium",
-          "Infrastructure Engineer Intern",
-          "New York, NY",
-          "Oct 08",
-          "https://job-boards.greenhouse.io/arcesiumllc/jobs/5257199007?utm_source=github-vansh-ouckah"
-        ],
-        "https://job-boards.greenhouse.io/arcesiumllc/jobs/5257199007?utm_source=github-vansh-ouckah|Arcesium|Infrastructure Engineer Intern|New York, NY|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "Viget",
-          "Project & Product Manager Intern \ud83d\udec2",
-          "Boulder, CO",
-          "Oct 07",
-          "https://jobs.lever.co/viget/969d8237-ec1a-4ec4-ba09-b08bcfcd81c4?utm_source=github-vansh-ouckah"
-        ],
-        "https://jobs.lever.co/viget/969d8237-ec1a-4ec4-ba09-b08bcfcd81c4?utm_source=github-vansh-ouckah|Viget|Project & Product Manager Intern \ud83d\udec2|Boulder, CO|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "Tenstorrent",
-          "AI Software Intern, Cloud, Infrastructure & Data Centre Deployment",
-          "Austin, TX Santa Clara, CA",
-          "Oct 06",
-          "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256686007?utm_source=github-vansh-ouckah"
-        ],
-        "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256686007?utm_source=github-vansh-ouckah|Tenstorrent|AI Software Intern, Cloud, Infrastructure & Data Centre Deployment|Austin, TX Santa Clara, CA|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Software Development Engineer Intern, Amazon Leo, Embedded Systems \ud83c\uddfa\ud83c\uddf8",
-          "Redmond, WA",
-          "Oct 06",
-          "https://www.amazon.jobs/en/jobs/10571374/software-development-engineer-embedded-systems-intern-amazon-leo-summer-2027-usa?utm_source=github-vansh-ouckah"
-        ],
-        "https://www.amazon.jobs/en/jobs/10571374/software-development-engineer-embedded-systems-intern-amazon-leo-summer-2027-usa?utm_source=github-vansh-ouckah|Amazon|Software Development Engineer Intern, Amazon Leo, Embedded Systems \ud83c\uddfa\ud83c\uddf8|Redmond, WA|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Veterans United Home Loans",
-          "Software Engineer Intern",
-          "Remote United States",
-          "Oct 05",
-          "https://veteransunited.wd1.myworkdayjobs.com/vuhl/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249?utm_source=github-vansh-ouckah"
-        ],
-        "https://veteransunited.wd1.myworkdayjobs.com/vuhl/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249?utm_source=github-vansh-ouckah|Veterans United Home Loans|Software Engineer Intern|Remote United States|Oct 05#1",
-        1
-      ],
       [
         [
           "Ergotron",
