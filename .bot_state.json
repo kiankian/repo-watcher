@@ -75608,6 +75608,18 @@
       "chat_id": 7582459199,
       "seq": 5743,
       "identity": "https://zapply.jobs/l/d/workday-asml-asmlext1-J-00354568?s=gh-internships-2027|ASML|Internship - Software Engineer In Test (MOD)|San Jose, CA, USA|Summer 2027#1"
+    },
+    "09eab8d91f93": {
+      "company": "KLA",
+      "role": "Software Engineering Intern \u2013 AI/ML for Diagnostics & Calibration",
+      "location": "Milpitas, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-kla-search-2642129?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6940,
+      "chat_id": 7582459199,
+      "seq": 5744,
+      "identity": "https://zapply.jobs/l/d/workday-kla-search-2642129?s=gh-internships-2027|KLA|Software Engineering Intern \u2013 AI/ML for Diagnostics & Calibration|Milpitas, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -75975,10 +75987,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5743,
+  "seq": 5744,
   "health": {
     "last_heartbeat": "2026-10-23T15:45:16Z",
-    "last_ok_run": "2026-10-23T16:35:17Z",
+    "last_ok_run": "2026-10-23T16:40:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
