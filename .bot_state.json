@@ -77420,6 +77420,78 @@
       "chat_id": 7582459199,
       "seq": 5894,
       "identity": "https://zapply.jobs/l/d/amazon-17c6b928-066e-4c28-8ab8-74cb69e8ffda?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA)|Redmond, WA|Summer 2027#1"
+    },
+    "bf3255943e2e": {
+      "company": "American Express",
+      "role": "AI Engineer Intern - Enterprise Technology Services \ud83c\udf93",
+      "location": "Toronto, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015552?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 7091,
+      "chat_id": 7582459199,
+      "seq": 5895,
+      "identity": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015552?utm_source=Simplify&ref=Simplify|American Express|AI Engineer Intern - Enterprise Technology Services \ud83c\udf93|Toronto, ON, Canada|Summer 2026#1"
+    },
+    "73955151475a": {
+      "company": "\ud83d\udd25 Amazon",
+      "role": "Software Engineer Intern",
+      "location": "Redmond, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 7092,
+      "chat_id": 7582459199,
+      "seq": 5896,
+      "identity": "https://amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Amazon|Software Engineer Intern|Redmond, WA|Summer 2026#1"
+    },
+    "30cf7d51158a": {
+      "company": "Epic Games",
+      "role": "Tools Programmer Intern - Graphics",
+      "location": "Cary, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://epicgames.com/careers/jobs/6232770004?gh_jid=6232770004&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 7093,
+      "chat_id": 7582459199,
+      "seq": 5897,
+      "identity": "https://epicgames.com/careers/jobs/6232770004?gh_jid=6232770004&utm_source=Simplify&ref=Simplify|Epic Games|Tools Programmer Intern - Graphics|Cary, NC|Summer 2026#1"
+    },
+    "e85ecb7c1e14": {
+      "company": "TELUS Digital",
+      "role": "Software Engineering Intern Co-op",
+      "location": "Vancouver, BC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/telus-digital/63b0654a-9849-4d74-bc3f-94b2ccceb2c2/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 7094,
+      "chat_id": 7582459199,
+      "seq": 5898,
+      "identity": "https://jobs.ashbyhq.com/telus-digital/63b0654a-9849-4d74-bc3f-94b2ccceb2c2/application?embed=true&utm_source=Simplify&ref=Simplify|TELUS Digital|Software Engineering Intern Co-op|Vancouver, BC, Canada|Summer 2026#1"
+    },
+    "803bbfc2bf31": {
+      "company": "KLA Corporation",
+      "role": "Software Engineer Intern - C++ - Linux",
+      "location": "Milpitas, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 7095,
+      "chat_id": 7582459199,
+      "seq": 5899,
+      "identity": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878?utm_source=Simplify&ref=Simplify|KLA Corporation|Software Engineer Intern - C++ - Linux|Milpitas, CA|Summer 2026#1"
+    },
+    "0cc03a81841c": {
+      "company": "American Family Insurance Group",
+      "role": "AI Platform Engineering Intern",
+      "location": "Madison, WI",
+      "term": "Summer 2026",
+      "apply_url": "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 7096,
+      "chat_id": 7582459199,
+      "seq": 5900,
+      "identity": "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462?utm_source=Simplify&ref=Simplify|American Family Insurance Group|AI Platform Engineering Intern|Madison, WI|Summer 2026#1"
     }
   },
   "applied": {
@@ -77787,10 +77859,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5894,
+  "seq": 5900,
   "health": {
     "last_heartbeat": "2026-10-23T22:00:23Z",
-    "last_ok_run": "2026-10-23T22:30:19Z",
+    "last_ok_run": "2026-10-23T22:35:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
