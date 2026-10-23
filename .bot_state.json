@@ -75512,6 +75512,30 @@
       "chat_id": 7582459199,
       "seq": 5735,
       "identity": "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Stamford-Hub/UConn-Stamford-Digital-Technology-Center-Intern---Summer-2027_2602661?utm_source=Simplify&ref=Simplify|Synchrony Financial|Digital Technology Center Intern|Stamford, CT|Summer 2026#1"
+    },
+    "2b1da9fe8a04": {
+      "company": "GlobalFoundries",
+      "role": "New Product Development Test Engineer Intern (Summer 2027)",
+      "location": "USA - Texas - Richardson",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2603957?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6932,
+      "chat_id": 7582459199,
+      "seq": 5736,
+      "identity": "https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2603957?s=gh-internships-2027|GlobalFoundries|New Product Development Test Engineer Intern (Summer 2027)|USA - Texas - Richardson|Summer 2027#1"
+    },
+    "3fccbd89f17f": {
+      "company": "Cisco",
+      "role": "Software Engineer Full Stack / Backend I (Co-op) - United States",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-cisco-2026049?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6933,
+      "chat_id": 7582459199,
+      "seq": 5737,
+      "identity": "https://zapply.jobs/l/d/phenom-cisco-2026049?s=gh-internships-2027|Cisco|Software Engineer Full Stack / Backend I (Co-op) - United States|San Jose, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -75879,10 +75903,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5735,
+  "seq": 5737,
   "health": {
     "last_heartbeat": "2026-10-23T14:30:22Z",
-    "last_ok_run": "2026-10-23T15:00:25Z",
+    "last_ok_run": "2026-10-23T15:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",

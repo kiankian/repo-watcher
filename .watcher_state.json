@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "f2118b91688aa0c9d2a074737e0f0c711d300aee",
+    "last_sha": "32363810b5975df30208a17beba7aaabad38924e",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2669,7 +2669,7 @@
       "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Stamford-Hub/UConn-Stamford-Digital-Technology-Center-Intern---Summer-2027_2602661?utm_source=Simplify&ref=Simplify|Synchrony Financial|Digital Technology Center Intern|Stamford, CT|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 518,
+    "last_row_count": 531,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -3356,7 +3356,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "9763415ed748b18f3684950d7820fd223802fca0",
+    "last_sha": "6c8b74eb1dca58ab3eebe0ab690e1789aedf509d",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -5605,7 +5605,9 @@
       "https://zapply.jobs/l/d/workday-leidos-external-R-00195265?s=gh-internships-2027|Leidos|Missile Systems Engineer Intern|Huntsville, AL|Summer 2027#1",
       "https://zapply.jobs/l/d/greenhouse-mongodb-8209134?s=gh-internships-2027|MongoDB|2027 - Software Engineering Intern, AMER|Austin|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026049?s=gh-internships-2027|Cisco|Software Engineer Full Stack / Backend I (Co-op) - United States|San Jose California US|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2029701?s=gh-internships-2027|Cisco|Software Engineer Embedded Systems I (Co-op) - United States|San Jose California US|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2029701?s=gh-internships-2027|Cisco|Software Engineer Embedded Systems I (Co-op) - United States|San Jose California US|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2603957?s=gh-internships-2027|GlobalFoundries|New Product Development Test Engineer Intern (Summer 2027)|USA - Texas - Richardson|Summer 2027#1",
+      "https://zapply.jobs/l/d/phenom-cisco-2026049?s=gh-internships-2027|Cisco|Software Engineer Full Stack / Backend I (Co-op) - United States|San Jose, California|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
