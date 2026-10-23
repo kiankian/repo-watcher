@@ -77324,6 +77324,30 @@
       "chat_id": 7582459199,
       "seq": 5886,
       "identity": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Greenville-South-Carolina-United-States-of-America/R-D-Software-Engineer_JR00050035?utm_source=github-vansh-ouckah|ABB|R&D Software Engineer Intern|Greenville, SC|Oct 21#1"
+    },
+    "24a21abc4724": {
+      "company": "MongoDB",
+      "role": "Software Engineer Intern",
+      "location": "5 locationsPalo Alto, CA Seattle, WA SF Austin, TX NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=8209134&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 7083,
+      "chat_id": 7582459199,
+      "seq": 5887,
+      "identity": "https://www.mongodb.com/careers/job/?gh_jid=8209134&utm_source=Simplify&ref=Simplify|MongoDB|Software Engineer Intern|5 locationsPalo Alto, CA Seattle, WA SF Austin, TX NYC|Summer 2026#1"
+    },
+    "7fb1849e40d5": {
+      "company": "Citi",
+      "role": "Technology Placement Analyst Intern - Application Development",
+      "location": "Belfast, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://citi.wd5.myworkdayjobs.com/2/job/Belfast--United-Kingdom/Technology---Application-Development--Placement-Analyst--Belfast-2027_261002927?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 7084,
+      "chat_id": 7582459199,
+      "seq": 5888,
+      "identity": "https://citi.wd5.myworkdayjobs.com/2/job/Belfast--United-Kingdom/Technology---Application-Development--Placement-Analyst--Belfast-2027_261002927?utm_source=Simplify&ref=Simplify|Citi|Technology Placement Analyst Intern - Application Development|Belfast, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -77691,10 +77715,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5886,
+  "seq": 5888,
   "health": {
     "last_heartbeat": "2026-10-23T16:45:17Z",
-    "last_ok_run": "2026-10-23T17:30:21Z",
+    "last_ok_run": "2026-10-23T17:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
