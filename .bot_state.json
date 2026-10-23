@@ -77588,6 +77588,18 @@
       "chat_id": 7582459199,
       "seq": 5908,
       "identity": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN01-Carrier-Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Software-Engineering-Intern---Summer_30220588?utm_source=Simplify&ref=Simplify|Carrier Global|Software Engineer Intern|East Syracuse, NY|Summer 2026#1"
+    },
+    "7fad5c92814d": {
+      "company": "ASML",
+      "role": "Platform Software Engineer In Test ( Internship)",
+      "location": "San Jose, CA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-asml-asmlext1-J-00354558?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 7105,
+      "chat_id": 7582459199,
+      "seq": 5909,
+      "identity": "https://zapply.jobs/l/d/workday-asml-asmlext1-J-00354558?s=gh-internships-2027|ASML|Platform Software Engineer In Test ( Internship)|San Jose, CA, USA|Summer 2027#1"
     }
   },
   "applied": {
@@ -77955,10 +77967,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5908,
+  "seq": 5909,
   "health": {
     "last_heartbeat": "2026-10-23T23:20:18Z",
-    "last_ok_run": "2026-10-23T23:45:17Z",
+    "last_ok_run": "2026-10-23T23:50:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
