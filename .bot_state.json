@@ -77396,6 +77396,30 @@
       "chat_id": 7582459199,
       "seq": 5892,
       "identity": "https://zapply.jobs/l/d/workday-hpe-jobsathpe-1216080?s=gh-internships-2027|HPE (University)|Cybersecurity Engineering Intern|Spring, Texas, United States of...|Summer 2027#1"
+    },
+    "697dd003e974": {
+      "company": "Skydio",
+      "role": "Embedded Software Engineer Intern - Winter 2027",
+      "location": "San Mateo, California, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-skydio-d79ccbaa-2901-4303-bd90-675db7802366?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 7089,
+      "chat_id": 7582459199,
+      "seq": 5893,
+      "identity": "https://zapply.jobs/l/d/ashby-skydio-d79ccbaa-2901-4303-bd90-675db7802366?s=gh-internships-2027|Skydio|Embedded Software Engineer Intern - Winter 2027|San Mateo, California, United...|Summer 2027#1"
+    },
+    "dfa5fcef5767": {
+      "company": "Amazon.com Services LLC",
+      "role": "Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA)",
+      "location": "Redmond, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/amazon-17c6b928-066e-4c28-8ab8-74cb69e8ffda?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 7090,
+      "chat_id": 7582459199,
+      "seq": 5894,
+      "identity": "https://zapply.jobs/l/d/amazon-17c6b928-066e-4c28-8ab8-74cb69e8ffda?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA)|Redmond, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -77763,10 +77787,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5892,
+  "seq": 5894,
   "health": {
     "last_heartbeat": "2026-10-23T20:55:16Z",
-    "last_ok_run": "2026-10-23T21:40:17Z",
+    "last_ok_run": "2026-10-23T21:45:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
