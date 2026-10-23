@@ -75488,6 +75488,30 @@
       "chat_id": 7582459199,
       "seq": 5733,
       "identity": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2029701?s=gh-internships-2027|Cisco|Software Engineer Embedded Systems I (Co-op) - United States|San Jose California US|Summer 2027#1"
+    },
+    "e973a2aa9197": {
+      "company": "\ud83d\udd25 Waymo",
+      "role": "Depot Automation Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=8234553&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6930,
+      "chat_id": 7582459199,
+      "seq": 5734,
+      "identity": "https://careers.withwaymo.com/jobs?gh_jid=8234553&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|Depot Automation Intern|SF|Summer 2026#1"
+    },
+    "03ae78d8323f": {
+      "company": "Synchrony Financial",
+      "role": "Digital Technology Center Intern",
+      "location": "Stamford, CT",
+      "term": "Summer 2026",
+      "apply_url": "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Stamford-Hub/UConn-Stamford-Digital-Technology-Center-Intern---Summer-2027_2602661?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6931,
+      "chat_id": 7582459199,
+      "seq": 5735,
+      "identity": "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Stamford-Hub/UConn-Stamford-Digital-Technology-Center-Intern---Summer-2027_2602661?utm_source=Simplify&ref=Simplify|Synchrony Financial|Digital Technology Center Intern|Stamford, CT|Summer 2026#1"
     }
   },
   "applied": {
@@ -75855,10 +75879,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5733,
+  "seq": 5735,
   "health": {
     "last_heartbeat": "2026-10-23T14:30:22Z",
-    "last_ok_run": "2026-10-23T14:30:22Z",
+    "last_ok_run": "2026-10-23T14:35:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
