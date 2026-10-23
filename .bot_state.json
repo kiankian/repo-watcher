@@ -75560,6 +75560,18 @@
       "chat_id": 7582459199,
       "seq": 5739,
       "identity": "https://zapply.jobs/l/d/workday-copart-copart-JR111861?s=gh-internships-2027|Copart|Software Engineering Intern|Dallas, TX - Headquarters|Summer 2027#1"
+    },
+    "794afbecea7d": {
+      "company": "KLA",
+      "role": "Software Engineering Intern",
+      "location": "Milpitas, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-kla-search-2642189?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6936,
+      "chat_id": 7582459199,
+      "seq": 5740,
+      "identity": "https://zapply.jobs/l/d/workday-kla-search-2642189?s=gh-internships-2027|KLA|Software Engineering Intern|Milpitas, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -75927,10 +75939,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5739,
+  "seq": 5740,
   "health": {
     "last_heartbeat": "2026-10-23T14:30:22Z",
-    "last_ok_run": "2026-10-23T15:20:18Z",
+    "last_ok_run": "2026-10-23T15:25:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
