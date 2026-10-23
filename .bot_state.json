@@ -75440,6 +75440,54 @@
       "chat_id": 7582459199,
       "seq": 5729,
       "identity": "https://zapply.jobs/l/d/greenhouse-mongodb-8209134?s=gh-internships-2027|MongoDB|2027 - Software Engineering Intern, AMER|Austin|Summer 2027#1"
+    },
+    "19c5287b784f": {
+      "company": "Macy's",
+      "role": "Summer Internship - Technology",
+      "location": "Johns Creek, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/92293?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6926,
+      "chat_id": 7582459199,
+      "seq": 5730,
+      "identity": "https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/92293?utm_source=Simplify&ref=Simplify|Macy's|Summer Internship - Technology|Johns Creek, GA|Summer 2026#1"
+    },
+    "0b17a8cf989e": {
+      "company": "ACI Worldwide",
+      "role": "Technology Intern",
+      "location": "Norcross, GA",
+      "term": "Summer 2026",
+      "apply_url": "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19943?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 6927,
+      "chat_id": 7582459199,
+      "seq": 5731,
+      "identity": "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19943?utm_source=Simplify&ref=Simplify|ACI Worldwide|Technology Intern|Norcross, GA|Summer 2026#1"
+    },
+    "d931b0995429": {
+      "company": "Cisco",
+      "role": "Software Engineer Full Stack / Backend I (Co-op) - United States",
+      "location": "San Jose California US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026049?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6928,
+      "chat_id": 7582459199,
+      "seq": 5732,
+      "identity": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026049?s=gh-internships-2027|Cisco|Software Engineer Full Stack / Backend I (Co-op) - United States|San Jose California US|Summer 2027#1"
+    },
+    "273a70430261": {
+      "company": "Cisco",
+      "role": "Software Engineer Embedded Systems I (Co-op) - United States",
+      "location": "San Jose California US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2029701?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 6929,
+      "chat_id": 7582459199,
+      "seq": 5733,
+      "identity": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2029701?s=gh-internships-2027|Cisco|Software Engineer Embedded Systems I (Co-op) - United States|San Jose California US|Summer 2027#1"
     }
   },
   "applied": {
@@ -75807,10 +75855,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 5729,
+  "seq": 5733,
   "health": {
     "last_heartbeat": "2026-10-23T13:20:22Z",
-    "last_ok_run": "2026-10-23T14:00:27Z",
+    "last_ok_run": "2026-10-23T14:05:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
