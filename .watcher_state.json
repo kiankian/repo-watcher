@@ -3524,23 +3524,12 @@
       "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462?utm_source=github-vansh-ouckah|American Family Insurance Group|AI Platform Engineering Intern|Madison, WI|Oct 22#1",
       "https://www.amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa?utm_source=github-vansh-ouckah|Amazon|Software Development Engineer Intern, Amazon Leo \ud83c\uddfa\ud83c\uddf8|Redmond, WA|Oct 22#1",
       "https://amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027?utm_source=github-vansh-ouckah|Amazon|ASIC Engineer Intern|Seattle, WA Austin, TX Cupertino, CA|Oct 22#1",
-      "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/IP-Design-PEY-Intern_R03341?utm_source=github-vansh-ouckah|Altera|IP Design Intern|Toronto, Canada|Oct 22#1"
+      "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/IP-Design-PEY-Intern_R03341?utm_source=github-vansh-ouckah|Altera|IP Design Intern|Toronto, Canada|Oct 22#1",
+      "https://freight.wd108.myworkdayjobs.com/FXF_External_Career_Site/job/FXF-USUSAFXFMHQMemphis-Headquarters/Intern-Media---Web-Development--Marketing-_RC5600?utm_source=github-vansh-ouckah|FedEx Freight|Media & Web Development Intern, Marketing|United States|Oct 21#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 761,
-    "outbox": [
-      [
-        [
-          "FedEx Freight",
-          "Media & Web Development Intern, Marketing",
-          "United States",
-          "Oct 21",
-          "https://freight.wd108.myworkdayjobs.com/FXF_External_Career_Site/job/FXF-USUSAFXFMHQMemphis-Headquarters/Intern-Media---Web-Development--Marketing-_RC5600?utm_source=github-vansh-ouckah"
-        ],
-        "https://freight.wd108.myworkdayjobs.com/FXF_External_Career_Site/job/FXF-USUSAFXFMHQMemphis-Headquarters/Intern-Media---Web-Development--Marketing-_RC5600?utm_source=github-vansh-ouckah|FedEx Freight|Media & Web Development Intern, Marketing|United States|Oct 21#1",
-        1
-      ]
-    ]
+    "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
     "last_sha": "d51518b34b272044cc2f7a49abc8aecff64ca1c4",
