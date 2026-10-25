@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "2b4de3b86d4d35667ebf5e3c219f496747c09946",
+    "last_sha": "6894876d0f3b45f40daa9efe62185d92d85b0a7c",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2686,7 +2686,7 @@
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN01-Carrier-Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Software-Engineering-Intern---Summer_30220588?utm_source=Simplify&ref=Simplify|Carrier Global|Software Engineer Intern|East Syracuse, NY|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 551,
+    "last_row_count": 550,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -3748,286 +3748,36 @@
       "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27403|DP World|Network Engineering Intern \ud83d\udec2|Charlotte, NC|Oct 21#1",
       "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27404|DP World|Information Security Intern \ud83d\udec2|Charlotte, NC|Oct 21#1",
       "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27400|DP World|Application Analyst Intern|Itasca, IL|Oct 21#1",
-      "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Medicaid-Data-Analytics-Corporate-Internship---Summer-2027--Undergraduate-_R1052342|CVS Health|Medicaid Data Analytics Intern|Hartford, CT|Oct 21#1"
+      "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Medicaid-Data-Analytics-Corporate-Internship---Summer-2027--Undergraduate-_R1052342|CVS Health|Medicaid Data Analytics Intern|Hartford, CT|Oct 21#1",
+      "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Hartford-Farmington-Ave-Rogers/Innovation---Technology-Internship---Product---Agile-Delivery---Summer-2027--Undergraduate-_R1080767|CVS Health|Product & Agile Delivery Intern, Innovation & Technology|**4 locations**Hartford, CT Dallas, TX Scottsdale, AZ Woonsocket, RI|Oct 21#1",
+      "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193|CVS Health|Software Engineer Intern, Platform & Applications|**4 locations**Scottsdale, AZ Dallas, TX Hartford, CT Woonsocket, RI|Oct 21#1",
+      "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Engineering---Summer-2027--Undergraduate-_R1081090|CVS Health|Data Engineering Intern, Innovation & Technology|New York, NY|Oct 21#1",
+      "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Undergraduate-_R1081067|CVS Health|Data Science Intern, Innovation & Technology|New York, NY|Oct 21#1",
+      "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114|CVS Health|Software Engineering: Data & Intelligence Intern, Innovation & Technology|New York, NY|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-II--Intern----United-States_2026805|Cisco|Software Engineer Intern, Embedded Systems II|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-I--Intern----United-States_2025924|Cisco|Software Engineer Intern, Full Stack / Backend I|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-II--Intern----United-States_2026800|Cisco|Software Engineer Intern, Full Stack / Backend II|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-I--Intern----United-States_2026803|Cisco|Machine Learning Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-II--Intern----United-States_2026802|Cisco|Machine Learning Engineer II Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Engineering-Product-Management-Specialist-I--Intern----United-States_2026308|Cisco|Engineering Product Management Specialist I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/AI-Operations-Engineer-I--Intern----United-States_2026804|Cisco|AI Operations Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://bnl.wd1.myworkdayjobs.com/externa/job/Upton-NY/Data-Engineering-Student-Assistant_JR102753|Brookhaven Lab|Data Engineering Student Assistant Intern|Upton, NY|Oct 21#1",
+      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704379|Aptiv|HVP/Certification Engineer Intern|Kanata, Canada|Oct 21#1",
+      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704378|Aptiv|HVP Certification Engineer Intern|Kanata, Canada|Oct 21#1",
+      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Troy-MI---USA/Software-Development-Intern_J000704861|Aptiv|Software Development Intern|Troy, MI|Oct 21#1",
+      "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400|Aptiv|AI Product Analyst Intern|San Diego, CA|Oct 21#1",
+      "https://jobs.aon.com/jobs/110099?icims=1|Aon|IT/AI Engineer Intern|Chicago, IL|Oct 21#1",
+      "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Business-Intelligence-Enablement_R39531|American Family Insurance Group|Business Intelligence Enablement Intern|Madison, WI Boston, MA|Oct 21#1",
+      "https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Physical-Design-Engineer-Intern_JR100393|Ambarella|Physical Design Engineer Intern|United States|Oct 21#1",
+      "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Analytics-Engineer-Intern_R36286|Allstate|Data Analytics Engineer Intern|Remote United States|Oct 21#1",
+      "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Science-Intern--Core-Telematics-_R36285|Allstate|Data Science Intern, Core Telematics|Remote United States|Oct 21#1",
+      "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/San-Diego-CA/Software-Engineering-Intern_8828|AeroVironment|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Diego, CA|Oct 21#1",
+      "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Signal-Processing-and-RF-Engineering-Undergrad-Intern_R016849|Aerospace Corporation|Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
+      "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Hardware-Security-Engineering-Undergrad--Intern_R016954|Aerospace Corporation|Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Oct 21#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 764,
     "outbox": [
-      [
-        [
-          "CVS Health",
-          "Product & Agile Delivery Intern, Innovation & Technology",
-          "**4 locations**Hartford, CT Dallas, TX Scottsdale, AZ Woonsocket, RI",
-          "Oct 21",
-          "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Hartford-Farmington-Ave-Rogers/Innovation---Technology-Internship---Product---Agile-Delivery---Summer-2027--Undergraduate-_R1080767"
-        ],
-        "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Hartford-Farmington-Ave-Rogers/Innovation---Technology-Internship---Product---Agile-Delivery---Summer-2027--Undergraduate-_R1080767|CVS Health|Product & Agile Delivery Intern, Innovation & Technology|**4 locations**Hartford, CT Dallas, TX Scottsdale, AZ Woonsocket, RI|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "CVS Health",
-          "Software Engineer Intern, Platform & Applications",
-          "**4 locations**Scottsdale, AZ Dallas, TX Hartford, CT Woonsocket, RI",
-          "Oct 21",
-          "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193"
-        ],
-        "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193|CVS Health|Software Engineer Intern, Platform & Applications|**4 locations**Scottsdale, AZ Dallas, TX Hartford, CT Woonsocket, RI|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "CVS Health",
-          "Data Engineering Intern, Innovation & Technology",
-          "New York, NY",
-          "Oct 21",
-          "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Engineering---Summer-2027--Undergraduate-_R1081090"
-        ],
-        "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Engineering---Summer-2027--Undergraduate-_R1081090|CVS Health|Data Engineering Intern, Innovation & Technology|New York, NY|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "CVS Health",
-          "Data Science Intern, Innovation & Technology",
-          "New York, NY",
-          "Oct 21",
-          "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Undergraduate-_R1081067"
-        ],
-        "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Undergraduate-_R1081067|CVS Health|Data Science Intern, Innovation & Technology|New York, NY|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "CVS Health",
-          "Software Engineering: Data & Intelligence Intern, Innovation & Technology",
-          "New York, NY",
-          "Oct 21",
-          "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114"
-        ],
-        "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114|CVS Health|Software Engineering: Data & Intelligence Intern, Innovation & Technology|New York, NY|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Engineer Intern, Embedded Systems II",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-II--Intern----United-States_2026805"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-II--Intern----United-States_2026805|Cisco|Software Engineer Intern, Embedded Systems II|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Engineer Intern, Full Stack / Backend I",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-I--Intern----United-States_2025924"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-I--Intern----United-States_2025924|Cisco|Software Engineer Intern, Full Stack / Backend I|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Engineer Intern, Full Stack / Backend II",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-II--Intern----United-States_2026800"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-II--Intern----United-States_2026800|Cisco|Software Engineer Intern, Full Stack / Backend II|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Machine Learning Engineer I Intern",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-I--Intern----United-States_2026803"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-I--Intern----United-States_2026803|Cisco|Machine Learning Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Machine Learning Engineer II Intern",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-II--Intern----United-States_2026802"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-II--Intern----United-States_2026802|Cisco|Machine Learning Engineer II Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Engineering Product Management Specialist I Intern",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Engineering-Product-Management-Specialist-I--Intern----United-States_2026308"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Engineering-Product-Management-Specialist-I--Intern----United-States_2026308|Cisco|Engineering Product Management Specialist I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "AI Operations Engineer I Intern",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/AI-Operations-Engineer-I--Intern----United-States_2026804"
-        ],
-        "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/AI-Operations-Engineer-I--Intern----United-States_2026804|Cisco|AI Operations Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Brookhaven Lab",
-          "Data Engineering Student Assistant Intern",
-          "Upton, NY",
-          "Oct 21",
-          "https://bnl.wd1.myworkdayjobs.com/externa/job/Upton-NY/Data-Engineering-Student-Assistant_JR102753"
-        ],
-        "https://bnl.wd1.myworkdayjobs.com/externa/job/Upton-NY/Data-Engineering-Student-Assistant_JR102753|Brookhaven Lab|Data Engineering Student Assistant Intern|Upton, NY|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "HVP/Certification Engineer Intern",
-          "Kanata, Canada",
-          "Oct 21",
-          "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704379"
-        ],
-        "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704379|Aptiv|HVP/Certification Engineer Intern|Kanata, Canada|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "HVP Certification Engineer Intern",
-          "Kanata, Canada",
-          "Oct 21",
-          "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704378"
-        ],
-        "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704378|Aptiv|HVP Certification Engineer Intern|Kanata, Canada|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "Software Development Intern",
-          "Troy, MI",
-          "Oct 21",
-          "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Troy-MI---USA/Software-Development-Intern_J000704861"
-        ],
-        "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Troy-MI---USA/Software-Development-Intern_J000704861|Aptiv|Software Development Intern|Troy, MI|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "AI Product Analyst Intern",
-          "San Diego, CA",
-          "Oct 21",
-          "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400"
-        ],
-        "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400|Aptiv|AI Product Analyst Intern|San Diego, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aon",
-          "IT/AI Engineer Intern",
-          "Chicago, IL",
-          "Oct 21",
-          "https://jobs.aon.com/jobs/110099?icims=1"
-        ],
-        "https://jobs.aon.com/jobs/110099?icims=1|Aon|IT/AI Engineer Intern|Chicago, IL|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "American Family Insurance Group",
-          "Business Intelligence Enablement Intern",
-          "Madison, WI Boston, MA",
-          "Oct 21",
-          "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Business-Intelligence-Enablement_R39531"
-        ],
-        "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Business-Intelligence-Enablement_R39531|American Family Insurance Group|Business Intelligence Enablement Intern|Madison, WI Boston, MA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Ambarella",
-          "Physical Design Engineer Intern",
-          "United States",
-          "Oct 21",
-          "https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Physical-Design-Engineer-Intern_JR100393"
-        ],
-        "https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Physical-Design-Engineer-Intern_JR100393|Ambarella|Physical Design Engineer Intern|United States|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Allstate",
-          "Data Analytics Engineer Intern",
-          "Remote United States",
-          "Oct 21",
-          "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Analytics-Engineer-Intern_R36286"
-        ],
-        "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Analytics-Engineer-Intern_R36286|Allstate|Data Analytics Engineer Intern|Remote United States|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Allstate",
-          "Data Science Intern, Core Telematics",
-          "Remote United States",
-          "Oct 21",
-          "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Science-Intern--Core-Telematics-_R36285"
-        ],
-        "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Science-Intern--Core-Telematics-_R36285|Allstate|Data Science Intern, Core Telematics|Remote United States|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "AeroVironment",
-          "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Diego, CA",
-          "Oct 21",
-          "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/San-Diego-CA/Software-Engineering-Intern_8828"
-        ],
-        "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/San-Diego-CA/Software-Engineering-Intern_8828|AeroVironment|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Diego, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aerospace Corporation",
-          "Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "El Segundo, CA",
-          "Oct 21",
-          "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Signal-Processing-and-RF-Engineering-Undergrad-Intern_R016849"
-        ],
-        "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Signal-Processing-and-RF-Engineering-Undergrad-Intern_R016849|Aerospace Corporation|Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aerospace Corporation",
-          "Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "El Segundo, CA Chantilly, VA",
-          "Oct 21",
-          "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Hardware-Security-Engineering-Undergrad--Intern_R016954"
-        ],
-        "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Hardware-Security-Engineering-Undergrad--Intern_R016954|Aerospace Corporation|Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Oct 21#1",
-        1
-      ],
       [
         [
           "Aerospace Corporation",
