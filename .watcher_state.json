@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "6894876d0f3b45f40daa9efe62185d92d85b0a7c",
+    "last_sha": "e9464d04e08851c4a4fd3892e47fea3a572d8926",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -3898,286 +3898,36 @@
       "https://jobs.lever.co/waabi/480d9d41-33d0-429a-8883-7f9ec305a30f/apply|Waabi|Safety Methodologies Co-op|Toronto, ON, Canada SF Pittsburgh, PA|Oct 16#1",
       "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4996533101|Veeam Software|Data & Analytics Engineering Intern \ud83d\udec2|Alpharetta, GA|Oct 16#1",
       "https://job-boards.greenhouse.io/togetherai/jobs/5238469007|Together AI|Hardware Security Engineer Intern|San Francisco, CA|Oct 16#1",
-      "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Detroit-MI/Summer-2027-Internships---Marketing--Accounting--or-Information-Technology_R-085042-1|Rocket Companies|Marketing, Accounting, or IT Intern|Detroit, MI|Oct 16#1"
+      "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Detroit-MI/Summer-2027-Internships---Marketing--Accounting--or-Information-Technology_R-085042-1|Rocket Companies|Marketing, Accounting, or IT Intern|Detroit, MI|Oct 16#1",
+      "https://qualcomm.eightfold.ai/careers/job/446721615591|Qualcomm|Automotive Engineering Intern|Markham, ON, Canada|Oct 16#1",
+      "https://jobs.smartrecruiters.com/llnl/3743990016166026|LLNL|HPC Cluster Engineer Intern|Livermore, CA|Oct 16#1",
+      "https://jobs.smartrecruiters.com/llnl/3743990016165636|LLNL|Cybersecurity Intern, Cyber and Critical Infrastructure Summer Institute|Livermore, CA|Oct 16#1",
+      "https://jobs.smartrecruiters.com/llnl/3743990016165496|LLNL|Critical Infrastructure Analysis Intern, Cyber and Critical Infrastructure Summer Institute|Livermore, CA|Oct 16#1",
+      "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Cloud-Engineering-Intern_R-00194668|Leidos|Cloud Engineering Intern \ud83c\uddfa\ud83c\uddf8|Remote in USA|Oct 16#1",
+      "https://jobs.keysight.com/jobs/54848?icims=1|Keysight Technologies|R&D Software Engineer Intern|Austin, TX|Oct 16#1",
+      "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c|Kensington|Software Engineering Intern|Toronto, ON|Oct 16#1",
+      "https://johndeere.eightfold.ai/careers/job/137483908089|John Deere|Software Engineering Intern, Technology|Ames, IA|Oct 16#1",
+      "https://impulsespace.pinpointhq.com/en/postings/66981a77-8e79-4050-9818-4ed4209c5579?ats=pinpointhq|Impulse Space|Enterprise Software Engineer Intern|Redondo Beach, CA|Oct 16#1",
+      "https://icf.wd5.myworkdayjobs.com/en-US/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554|ICF International|Cloud Engineer Intern, AWS/Azure|Reston, VA|Oct 16#1",
+      "https://hcsc.wd1.myworkdayjobs.com/en-US/HCSC_External/job/IL---Chicago/Early-Careers---Finance-Data---Analytics-Developer-Intern_R0059478|HCSC|Finance Data & Analytics Developer Intern|Chicago, IL Richardson, TX|Oct 16#1",
+      "https://hcsc.wd1.myworkdayjobs.com/en-US/HCSC_External/job/IL---Chicago/Early-Careers---Finance-Application-Developer-Intern_R0059477|HCSC|Finance Application Developer Intern|Chicago, IL Richardson, TX|Oct 16#1",
+      "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526|Gilead Sciences|Research Intern, Clinical Virology - AI|Foster City, CA|Oct 16#1",
+      "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Data-Sciences---AI_R0055524|Gilead Sciences|Research Intern, Data Sciences - AI|Foster City, CA|Oct 16#1",
+      "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Strategy--Innovation---Portfolio_R0054502|Gilead Sciences|Research Intern, Strategy, Innovation & Portfolio - AI|Foster City, CA|Oct 16#1",
+      "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---System-Safety_JR-202621736|General Motors|Research and Development Intern, System Safety \ud83c\uddfa\ud83c\uddf8|Warren, MI|Oct 16#1",
+      "https://jobs.ea.com/en_US/careers/JobDetail/Analytics-Intern/216232|Electronic Arts|Analytics Intern|Vancouver, BC, Canada|Oct 16#1",
+      "https://eaton.eightfold.ai/careers/job/687239542740|Eaton|C++ Developer Intern, Research & Development Engineering|Brossard, QC, Canada|Oct 16#1",
+      "https://www.chargepoint.com/about/opportunities/job/?gh_jid=8893571002|ChargePoint|IT & Network Intern|Campbell, CA|Oct 16#1",
+      "https://internaljobs.centurylink.com/job/Remote-Data,-Analytics-&-Decision-Science-Summer-2027-Internship-Pathway/1440961600/?ats=successfactors|CenturyLink|Data Intern, Analytics & Decision Science|Remote in USA|Oct 16#1",
+      "https://bostonscientific.eightfold.ai/careers/job/563602813519129|Boston Scientific|AI/Data Science Intern|Maple Grove, MN|Oct 16#1",
+      "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fayetteville-NC/University--Software-Engineer-Intern_R0251802|Booz Allen Hamilton|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fayetteville, NC|Oct 16#1",
+      "https://altera.wd1.myworkdayjobs.com/en-US/altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R03320|Altera|Software Engineer Intern|Toronto, ON|Oct 16#1",
+      "https://careers.agcocorp.com/job/Hesston-Embedded-Software-Engineering-Intern-Summer-2027-KS-67062/1440993300/?ats=successfactors|AGCO|Embedded Software Engineer Intern|Hesston, KS Jackson, MN|Oct 16#1",
+      "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022475|ADT|Hardware Engineering & Connected Devices Intern|Boca Raton, FL|Oct 16#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 769,
     "outbox": [
-      [
-        [
-          "Qualcomm",
-          "Automotive Engineering Intern",
-          "Markham, ON, Canada",
-          "Oct 16",
-          "https://qualcomm.eightfold.ai/careers/job/446721615591"
-        ],
-        "https://qualcomm.eightfold.ai/careers/job/446721615591|Qualcomm|Automotive Engineering Intern|Markham, ON, Canada|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "LLNL",
-          "HPC Cluster Engineer Intern",
-          "Livermore, CA",
-          "Oct 16",
-          "https://jobs.smartrecruiters.com/llnl/3743990016166026"
-        ],
-        "https://jobs.smartrecruiters.com/llnl/3743990016166026|LLNL|HPC Cluster Engineer Intern|Livermore, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "LLNL",
-          "Cybersecurity Intern, Cyber and Critical Infrastructure Summer Institute",
-          "Livermore, CA",
-          "Oct 16",
-          "https://jobs.smartrecruiters.com/llnl/3743990016165636"
-        ],
-        "https://jobs.smartrecruiters.com/llnl/3743990016165636|LLNL|Cybersecurity Intern, Cyber and Critical Infrastructure Summer Institute|Livermore, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "LLNL",
-          "Critical Infrastructure Analysis Intern, Cyber and Critical Infrastructure Summer Institute",
-          "Livermore, CA",
-          "Oct 16",
-          "https://jobs.smartrecruiters.com/llnl/3743990016165496"
-        ],
-        "https://jobs.smartrecruiters.com/llnl/3743990016165496|LLNL|Critical Infrastructure Analysis Intern, Cyber and Critical Infrastructure Summer Institute|Livermore, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Leidos",
-          "Cloud Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "Remote in USA",
-          "Oct 16",
-          "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Cloud-Engineering-Intern_R-00194668"
-        ],
-        "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Cloud-Engineering-Intern_R-00194668|Leidos|Cloud Engineering Intern \ud83c\uddfa\ud83c\uddf8|Remote in USA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "R&D Software Engineer Intern",
-          "Austin, TX",
-          "Oct 16",
-          "https://jobs.keysight.com/jobs/54848?icims=1"
-        ],
-        "https://jobs.keysight.com/jobs/54848?icims=1|Keysight Technologies|R&D Software Engineer Intern|Austin, TX|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Kensington",
-          "Software Engineering Intern",
-          "Toronto, ON",
-          "Oct 16",
-          "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c"
-        ],
-        "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c|Kensington|Software Engineering Intern|Toronto, ON|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "John Deere",
-          "Software Engineering Intern, Technology",
-          "Ames, IA",
-          "Oct 16",
-          "https://johndeere.eightfold.ai/careers/job/137483908089"
-        ],
-        "https://johndeere.eightfold.ai/careers/job/137483908089|John Deere|Software Engineering Intern, Technology|Ames, IA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Impulse Space",
-          "Enterprise Software Engineer Intern",
-          "Redondo Beach, CA",
-          "Oct 16",
-          "https://impulsespace.pinpointhq.com/en/postings/66981a77-8e79-4050-9818-4ed4209c5579?ats=pinpointhq"
-        ],
-        "https://impulsespace.pinpointhq.com/en/postings/66981a77-8e79-4050-9818-4ed4209c5579?ats=pinpointhq|Impulse Space|Enterprise Software Engineer Intern|Redondo Beach, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "ICF International",
-          "Cloud Engineer Intern, AWS/Azure",
-          "Reston, VA",
-          "Oct 16",
-          "https://icf.wd5.myworkdayjobs.com/en-US/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554"
-        ],
-        "https://icf.wd5.myworkdayjobs.com/en-US/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554|ICF International|Cloud Engineer Intern, AWS/Azure|Reston, VA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "HCSC",
-          "Finance Data & Analytics Developer Intern",
-          "Chicago, IL Richardson, TX",
-          "Oct 16",
-          "https://hcsc.wd1.myworkdayjobs.com/en-US/HCSC_External/job/IL---Chicago/Early-Careers---Finance-Data---Analytics-Developer-Intern_R0059478"
-        ],
-        "https://hcsc.wd1.myworkdayjobs.com/en-US/HCSC_External/job/IL---Chicago/Early-Careers---Finance-Data---Analytics-Developer-Intern_R0059478|HCSC|Finance Data & Analytics Developer Intern|Chicago, IL Richardson, TX|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "HCSC",
-          "Finance Application Developer Intern",
-          "Chicago, IL Richardson, TX",
-          "Oct 16",
-          "https://hcsc.wd1.myworkdayjobs.com/en-US/HCSC_External/job/IL---Chicago/Early-Careers---Finance-Application-Developer-Intern_R0059477"
-        ],
-        "https://hcsc.wd1.myworkdayjobs.com/en-US/HCSC_External/job/IL---Chicago/Early-Careers---Finance-Application-Developer-Intern_R0059477|HCSC|Finance Application Developer Intern|Chicago, IL Richardson, TX|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Gilead Sciences",
-          "Research Intern, Clinical Virology - AI",
-          "Foster City, CA",
-          "Oct 16",
-          "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526"
-        ],
-        "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526|Gilead Sciences|Research Intern, Clinical Virology - AI|Foster City, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Gilead Sciences",
-          "Research Intern, Data Sciences - AI",
-          "Foster City, CA",
-          "Oct 16",
-          "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Data-Sciences---AI_R0055524"
-        ],
-        "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Data-Sciences---AI_R0055524|Gilead Sciences|Research Intern, Data Sciences - AI|Foster City, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Gilead Sciences",
-          "Research Intern, Strategy, Innovation & Portfolio - AI",
-          "Foster City, CA",
-          "Oct 16",
-          "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Strategy--Innovation---Portfolio_R0054502"
-        ],
-        "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Strategy--Innovation---Portfolio_R0054502|Gilead Sciences|Research Intern, Strategy, Innovation & Portfolio - AI|Foster City, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "General Motors",
-          "Research and Development Intern, System Safety \ud83c\uddfa\ud83c\uddf8",
-          "Warren, MI",
-          "Oct 16",
-          "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---System-Safety_JR-202621736"
-        ],
-        "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---System-Safety_JR-202621736|General Motors|Research and Development Intern, System Safety \ud83c\uddfa\ud83c\uddf8|Warren, MI|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Electronic Arts",
-          "Analytics Intern",
-          "Vancouver, BC, Canada",
-          "Oct 16",
-          "https://jobs.ea.com/en_US/careers/JobDetail/Analytics-Intern/216232"
-        ],
-        "https://jobs.ea.com/en_US/careers/JobDetail/Analytics-Intern/216232|Electronic Arts|Analytics Intern|Vancouver, BC, Canada|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Eaton",
-          "C++ Developer Intern, Research & Development Engineering",
-          "Brossard, QC, Canada",
-          "Oct 16",
-          "https://eaton.eightfold.ai/careers/job/687239542740"
-        ],
-        "https://eaton.eightfold.ai/careers/job/687239542740|Eaton|C++ Developer Intern, Research & Development Engineering|Brossard, QC, Canada|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "ChargePoint",
-          "IT & Network Intern",
-          "Campbell, CA",
-          "Oct 16",
-          "https://www.chargepoint.com/about/opportunities/job/?gh_jid=8893571002"
-        ],
-        "https://www.chargepoint.com/about/opportunities/job/?gh_jid=8893571002|ChargePoint|IT & Network Intern|Campbell, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "CenturyLink",
-          "Data Intern, Analytics & Decision Science",
-          "Remote in USA",
-          "Oct 16",
-          "https://internaljobs.centurylink.com/job/Remote-Data,-Analytics-&-Decision-Science-Summer-2027-Internship-Pathway/1440961600/?ats=successfactors"
-        ],
-        "https://internaljobs.centurylink.com/job/Remote-Data,-Analytics-&-Decision-Science-Summer-2027-Internship-Pathway/1440961600/?ats=successfactors|CenturyLink|Data Intern, Analytics & Decision Science|Remote in USA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Boston Scientific",
-          "AI/Data Science Intern",
-          "Maple Grove, MN",
-          "Oct 16",
-          "https://bostonscientific.eightfold.ai/careers/job/563602813519129"
-        ],
-        "https://bostonscientific.eightfold.ai/careers/job/563602813519129|Boston Scientific|AI/Data Science Intern|Maple Grove, MN|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Booz Allen Hamilton",
-          "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "Fayetteville, NC",
-          "Oct 16",
-          "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fayetteville-NC/University--Software-Engineer-Intern_R0251802"
-        ],
-        "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fayetteville-NC/University--Software-Engineer-Intern_R0251802|Booz Allen Hamilton|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fayetteville, NC|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Altera",
-          "Software Engineer Intern",
-          "Toronto, ON",
-          "Oct 16",
-          "https://altera.wd1.myworkdayjobs.com/en-US/altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R03320"
-        ],
-        "https://altera.wd1.myworkdayjobs.com/en-US/altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R03320|Altera|Software Engineer Intern|Toronto, ON|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "AGCO",
-          "Embedded Software Engineer Intern",
-          "Hesston, KS Jackson, MN",
-          "Oct 16",
-          "https://careers.agcocorp.com/job/Hesston-Embedded-Software-Engineering-Intern-Summer-2027-KS-67062/1440993300/?ats=successfactors"
-        ],
-        "https://careers.agcocorp.com/job/Hesston-Embedded-Software-Engineering-Intern-Summer-2027-KS-67062/1440993300/?ats=successfactors|AGCO|Embedded Software Engineer Intern|Hesston, KS Jackson, MN|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "ADT",
-          "Hardware Engineering & Connected Devices Intern",
-          "Boca Raton, FL",
-          "Oct 16",
-          "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022475"
-        ],
-        "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022475|ADT|Hardware Engineering & Connected Devices Intern|Boca Raton, FL|Oct 16#1",
-        1
-      ],
       [
         [
           "Veolia",
