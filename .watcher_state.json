@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "e9464d04e08851c4a4fd3892e47fea3a572d8926",
+    "last_sha": "c7fd71b758015fe3792368fb8189d9939340f6db",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -4048,286 +4048,36 @@
       "https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193|Teledyne Technologies Incorporated|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Huntsville, AL|Aug 21#1",
       "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c|Notion|Software Engineer Intern|San Francisco, CA New York, NY|Aug 21#1",
       "https://career.mlp.com/careers/job/755957819661|Millennium|Quantitative Developer Intern|New York, NY|Aug 21#1",
-      "https://career.mlp.com/careers/job/755957778848|Millennium|Applied AI Engineer Intern|Miami, FL|Aug 21#1"
+      "https://career.mlp.com/careers/job/755957778848|Millennium|Applied AI Engineer Intern|Miami, FL|Aug 21#1",
+      "https://jobs.ashbyhq.com/kastle/6f32db51-de45-472f-a9c8-d9419d3634ee|Kastle|Software Engineer Intern|San Francisco, CA|Aug 21#1",
+      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774074|JPMorgan Chase|Quantitative Research, Asset Management Summer Analyst \ud83d\udec2|New York, NY|Aug 21#1",
+      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038|JPMorgan Chase|Quantitative Research, Markets, Summer Internship - Analyst|New York, NY|Aug 21#1",
+      "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003|HPR|FPGA Engineering Intern \ud83d\udec2|Needham, MA|Aug 21#1",
+      "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7872198003|Freeform|Software Engineering Intern|Los Angeles, CA|Aug 21#1",
+      "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16|Exa|Software Engineer Intern|San Francisco, CA|Aug 21#1",
+      "https://www.epicgames.com/site/careers/jobs/6138140004?gh_jid=6138140004|Epic Games|Machine Learning Research Intern \ud83d\udec2|Montreal, Canada|Aug 21#1",
+      "https://www.epicgames.com/site/careers/jobs/6141180004?gh_jid=6141180004|Epic Games|Gameplay Programmer Intern|Cary, United States|Aug 21#1",
+      "https://job-boards.greenhouse.io/dvtrading/jobs/4719119005|DV Group|Software Engineer Intern, Commodities|New York, NY|Aug 21#1",
+      "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/QA-Engineering-Intern_JR109671|Copart|QA Engineering Intern|Dallas, TX|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012148|American Express|Product Management Intern, Global Merchant & Network Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011698|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|New York, NY|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011745|American Express|AI Engineer Intern, Enterprise Technology Services|Sunrise, FL|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011991|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|New York, NY|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011999|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Sunrise, FL|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Atlanta, GA|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012392|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082|American Express|Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8|New York, NY|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011084|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Sunrise, FL|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987|American Express|Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8|Charlotte, NC|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012462|American Express|Cybersecurity Intern \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+      "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab|Belvedere Trading|Quantitative Trading Intern|Chicago, IL|Aug 16#1",
+      "https://job-boards.greenhouse.io/dvtrading/jobs/4719118005|DV Group|Quantitative Risk Intern|Chicago, IL|Aug 06#1",
+      "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716930005|Chicago Trading Company|Quant Trading Intern|Chicago, IL|Aug 06#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 769,
     "outbox": [
-      [
-        [
-          "Kastle",
-          "Software Engineer Intern",
-          "San Francisco, CA",
-          "Aug 21",
-          "https://jobs.ashbyhq.com/kastle/6f32db51-de45-472f-a9c8-d9419d3634ee"
-        ],
-        "https://jobs.ashbyhq.com/kastle/6f32db51-de45-472f-a9c8-d9419d3634ee|Kastle|Software Engineer Intern|San Francisco, CA|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "JPMorgan Chase",
-          "Quantitative Research, Asset Management Summer Analyst \ud83d\udec2",
-          "New York, NY",
-          "Aug 21",
-          "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774074"
-        ],
-        "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774074|JPMorgan Chase|Quantitative Research, Asset Management Summer Analyst \ud83d\udec2|New York, NY|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "JPMorgan Chase",
-          "Quantitative Research, Markets, Summer Internship - Analyst",
-          "New York, NY",
-          "Aug 21",
-          "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038"
-        ],
-        "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038|JPMorgan Chase|Quantitative Research, Markets, Summer Internship - Analyst|New York, NY|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "HPR",
-          "FPGA Engineering Intern \ud83d\udec2",
-          "Needham, MA",
-          "Aug 21",
-          "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003"
-        ],
-        "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003|HPR|FPGA Engineering Intern \ud83d\udec2|Needham, MA|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "Freeform",
-          "Software Engineering Intern",
-          "Los Angeles, CA",
-          "Aug 21",
-          "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7872198003"
-        ],
-        "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7872198003|Freeform|Software Engineering Intern|Los Angeles, CA|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "Exa",
-          "Software Engineer Intern",
-          "San Francisco, CA",
-          "Aug 21",
-          "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16"
-        ],
-        "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16|Exa|Software Engineer Intern|San Francisco, CA|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "Epic Games",
-          "Machine Learning Research Intern \ud83d\udec2",
-          "Montreal, Canada",
-          "Aug 21",
-          "https://www.epicgames.com/site/careers/jobs/6138140004?gh_jid=6138140004"
-        ],
-        "https://www.epicgames.com/site/careers/jobs/6138140004?gh_jid=6138140004|Epic Games|Machine Learning Research Intern \ud83d\udec2|Montreal, Canada|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "Epic Games",
-          "Gameplay Programmer Intern",
-          "Cary, United States",
-          "Aug 21",
-          "https://www.epicgames.com/site/careers/jobs/6141180004?gh_jid=6141180004"
-        ],
-        "https://www.epicgames.com/site/careers/jobs/6141180004?gh_jid=6141180004|Epic Games|Gameplay Programmer Intern|Cary, United States|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "DV Group",
-          "Software Engineer Intern, Commodities",
-          "New York, NY",
-          "Aug 21",
-          "https://job-boards.greenhouse.io/dvtrading/jobs/4719119005"
-        ],
-        "https://job-boards.greenhouse.io/dvtrading/jobs/4719119005|DV Group|Software Engineer Intern, Commodities|New York, NY|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "Copart",
-          "QA Engineering Intern",
-          "Dallas, TX",
-          "Aug 21",
-          "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/QA-Engineering-Intern_JR109671"
-        ],
-        "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/QA-Engineering-Intern_JR109671|Copart|QA Engineering Intern|Dallas, TX|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "Product Management Intern, Global Merchant & Network Services \ud83d\udec2",
-          "Phoenix, AZ",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012148"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012148|American Express|Product Management Intern, Global Merchant & Network Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "AI Engineer Intern, Enterprise Technology Services \ud83d\udec2",
-          "New York, NY",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011698"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011698|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|New York, NY|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "AI Engineer Intern, Enterprise Technology Services",
-          "Sunrise, FL",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011745"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011745|American Express|AI Engineer Intern, Enterprise Technology Services|Sunrise, FL|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "AI Engineer Intern, Enterprise Technology Services \ud83d\udec2",
-          "New York, NY",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011991"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011991|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|New York, NY|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "AI Engineer Intern, Enterprise Technology Services \ud83d\udec2",
-          "Sunrise, FL",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011999"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011999|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Sunrise, FL|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "AI Engineer Intern, Enterprise Technology Services \ud83d\udec2",
-          "Atlanta, GA",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Atlanta, GA|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "AI Engineer Intern, Enterprise Technology Services \ud83d\udec2",
-          "Phoenix, AZ",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012392"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012392|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8",
-          "New York, NY",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082|American Express|Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8|New York, NY|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "Software Engineer Intern, Enterprise Technology Services \ud83d\udec2",
-          "Sunrise, FL",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011084"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011084|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Sunrise, FL|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8",
-          "Charlotte, NC",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987|American Express|Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8|Charlotte, NC|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "Software Engineer Intern, Enterprise Technology Services \ud83d\udec2",
-          "Phoenix, AZ",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "American Express",
-          "Cybersecurity Intern \ud83d\udec2",
-          "Phoenix, AZ",
-          "Aug 21",
-          "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012462"
-        ],
-        "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012462|American Express|Cybersecurity Intern \ud83d\udec2|Phoenix, AZ|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "Belvedere Trading",
-          "Quantitative Trading Intern",
-          "Chicago, IL",
-          "Aug 16",
-          "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab"
-        ],
-        "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab|Belvedere Trading|Quantitative Trading Intern|Chicago, IL|Aug 16#1",
-        1
-      ],
-      [
-        [
-          "DV Group",
-          "Quantitative Risk Intern",
-          "Chicago, IL",
-          "Aug 06",
-          "https://job-boards.greenhouse.io/dvtrading/jobs/4719118005"
-        ],
-        "https://job-boards.greenhouse.io/dvtrading/jobs/4719118005|DV Group|Quantitative Risk Intern|Chicago, IL|Aug 06#1",
-        1
-      ],
-      [
-        [
-          "Chicago Trading Company",
-          "Quant Trading Intern",
-          "Chicago, IL",
-          "Aug 06",
-          "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716930005"
-        ],
-        "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716930005|Chicago Trading Company|Quant Trading Intern|Chicago, IL|Aug 06#1",
-        1
-      ],
       [
         [
           "ByteDance",
