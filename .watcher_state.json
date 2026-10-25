@@ -4623,286 +4623,36 @@
       "https://go.vansh.nyc/8Z|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
       "https://go.vansh.nyc/90|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
       "https://go.vansh.nyc/91|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
-      "https://go.vansh.nyc/92|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1"
+      "https://go.vansh.nyc/92|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
+      "https://go.vansh.nyc/8Y|American Century Investments|Enterprise Data Intern \ud83d\udec2|Kansas City, MO|Oct 14#1",
+      "https://go.vansh.nyc/8T|WTW|Risk & Analytics Core Intern \ud83d\udec2|New York, NY|Oct 13#1",
+      "https://go.vansh.nyc/8U|WTW|Risk & Analytics Enterprise Risk Consulting Intern \ud83d\udec2|New York, NY|Oct 13#1",
+      "https://go.vansh.nyc/8S|Vertiv|UI/UX Design Intern|Delaware, OH|Oct 13#1",
+      "https://go.vansh.nyc/8Q|The Toro Company|IT Business Analyst Intern, Ditch Witch \ud83d\udec2|Perry, OK|Oct 13#1",
+      "https://go.vansh.nyc/gg|Tenstorrent|Systems Intern, Validation, Software, Design, Architecture & Packaging|Austin, TX Santa Clara, CA|Oct 13#1",
+      "https://go.vansh.nyc/8O|SOTI|Software Developer Intern, SOTI MobiControl Apple HQ|Mississauga, ON|Oct 13#1",
+      "https://go.vansh.nyc/8N|ServiceNow|Associate Software Engineer Intern, AI Engineering|Santa Clara, CA|Oct 13#1",
+      "https://go.vansh.nyc/8L|NVIDIA|Differentiable Simulation Research Intern|Santa Clara, CA|Oct 13#1",
+      "https://go.vansh.nyc/8I|Mary Free Bed Rehabilitation Hospital|IT Intern|Grand Rapids, MI|Oct 13#1",
+      "https://go.vansh.nyc/8H|Marsh|Intern|Dallas, TX|Oct 13#1",
+      "https://go.vansh.nyc/8G|KLA|Software Engineer Intern, AI|Ann Arbor, MI|Oct 13#1",
+      "https://go.vansh.nyc/8E|General Dynamics Mission Systems|Cyber Engineering Intern \ud83c\uddfa\ud83c\uddf8|Middletown, RI|Oct 13#1",
+      "https://go.vansh.nyc/8C|Expedia Group|Security Engineering Intern|Seattle, WA|Oct 13#1",
+      "https://go.vansh.nyc/8B|Draper|Classified Cybersecurity/IT Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Oct 13#1",
+      "https://go.vansh.nyc/8A|CoStar Group|Product Intern|Richmond, VA|Oct 13#1",
+      "https://go.vansh.nyc/8z|Cook Group|Artificial Intelligence & Innovation Intern|Bloomington, IN|Oct 13#1",
+      "https://go.vansh.nyc/8w|Bosch|Information Security and Privacy Intern|Farmington Hills, MI|Oct 13#1",
+      "https://go.vansh.nyc/8v|Armadin|Member of Technical Staff Intern, Frontend|Palo Alto, CA|Oct 13#1",
+      "https://go.vansh.nyc/8q|Aptiv|Cloud Engineering Intern|CAN Kanata, ON|Oct 13#1",
+      "https://go.vansh.nyc/8r|Aptiv|Cloud Engineer Intern|CAN Kanata, ON|Oct 13#1",
+      "https://go.vansh.nyc/8s|Aptiv|Cloud Engineer Intern|CAN Kanata, ON|Oct 13#1",
+      "https://go.vansh.nyc/8t|Aptiv|Cloud Software Engineer Intern|CAN Kanata, ON|Oct 13#1",
+      "https://go.vansh.nyc/8u|Aptiv|Software Engineering Intern|CAN Kanata, ON|Oct 13#1",
+      "https://go.vansh.nyc/8p|Allegion|Software Operations Engineer Intern|Carmel, IN|Oct 13#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 769,
     "outbox": [
-      [
-        [
-          "American Century Investments",
-          "Enterprise Data Intern \ud83d\udec2",
-          "Kansas City, MO",
-          "Oct 14",
-          "https://go.vansh.nyc/8Y"
-        ],
-        "https://go.vansh.nyc/8Y|American Century Investments|Enterprise Data Intern \ud83d\udec2|Kansas City, MO|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "WTW",
-          "Risk & Analytics Core Intern \ud83d\udec2",
-          "New York, NY",
-          "Oct 13",
-          "https://go.vansh.nyc/8T"
-        ],
-        "https://go.vansh.nyc/8T|WTW|Risk & Analytics Core Intern \ud83d\udec2|New York, NY|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "WTW",
-          "Risk & Analytics Enterprise Risk Consulting Intern \ud83d\udec2",
-          "New York, NY",
-          "Oct 13",
-          "https://go.vansh.nyc/8U"
-        ],
-        "https://go.vansh.nyc/8U|WTW|Risk & Analytics Enterprise Risk Consulting Intern \ud83d\udec2|New York, NY|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Vertiv",
-          "UI/UX Design Intern",
-          "Delaware, OH",
-          "Oct 13",
-          "https://go.vansh.nyc/8S"
-        ],
-        "https://go.vansh.nyc/8S|Vertiv|UI/UX Design Intern|Delaware, OH|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "The Toro Company",
-          "IT Business Analyst Intern, Ditch Witch \ud83d\udec2",
-          "Perry, OK",
-          "Oct 13",
-          "https://go.vansh.nyc/8Q"
-        ],
-        "https://go.vansh.nyc/8Q|The Toro Company|IT Business Analyst Intern, Ditch Witch \ud83d\udec2|Perry, OK|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Tenstorrent",
-          "Systems Intern, Validation, Software, Design, Architecture & Packaging",
-          "Austin, TX Santa Clara, CA",
-          "Oct 13",
-          "https://go.vansh.nyc/gg"
-        ],
-        "https://go.vansh.nyc/gg|Tenstorrent|Systems Intern, Validation, Software, Design, Architecture & Packaging|Austin, TX Santa Clara, CA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "SOTI",
-          "Software Developer Intern, SOTI MobiControl Apple HQ",
-          "Mississauga, ON",
-          "Oct 13",
-          "https://go.vansh.nyc/8O"
-        ],
-        "https://go.vansh.nyc/8O|SOTI|Software Developer Intern, SOTI MobiControl Apple HQ|Mississauga, ON|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "ServiceNow",
-          "Associate Software Engineer Intern, AI Engineering",
-          "Santa Clara, CA",
-          "Oct 13",
-          "https://go.vansh.nyc/8N"
-        ],
-        "https://go.vansh.nyc/8N|ServiceNow|Associate Software Engineer Intern, AI Engineering|Santa Clara, CA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "NVIDIA",
-          "Differentiable Simulation Research Intern",
-          "Santa Clara, CA",
-          "Oct 13",
-          "https://go.vansh.nyc/8L"
-        ],
-        "https://go.vansh.nyc/8L|NVIDIA|Differentiable Simulation Research Intern|Santa Clara, CA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Mary Free Bed Rehabilitation Hospital",
-          "IT Intern",
-          "Grand Rapids, MI",
-          "Oct 13",
-          "https://go.vansh.nyc/8I"
-        ],
-        "https://go.vansh.nyc/8I|Mary Free Bed Rehabilitation Hospital|IT Intern|Grand Rapids, MI|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Marsh",
-          "Intern",
-          "Dallas, TX",
-          "Oct 13",
-          "https://go.vansh.nyc/8H"
-        ],
-        "https://go.vansh.nyc/8H|Marsh|Intern|Dallas, TX|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "KLA",
-          "Software Engineer Intern, AI",
-          "Ann Arbor, MI",
-          "Oct 13",
-          "https://go.vansh.nyc/8G"
-        ],
-        "https://go.vansh.nyc/8G|KLA|Software Engineer Intern, AI|Ann Arbor, MI|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "General Dynamics Mission Systems",
-          "Cyber Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "Middletown, RI",
-          "Oct 13",
-          "https://go.vansh.nyc/8E"
-        ],
-        "https://go.vansh.nyc/8E|General Dynamics Mission Systems|Cyber Engineering Intern \ud83c\uddfa\ud83c\uddf8|Middletown, RI|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Expedia Group",
-          "Security Engineering Intern",
-          "Seattle, WA",
-          "Oct 13",
-          "https://go.vansh.nyc/8C"
-        ],
-        "https://go.vansh.nyc/8C|Expedia Group|Security Engineering Intern|Seattle, WA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Draper",
-          "Classified Cybersecurity/IT Intern \ud83c\uddfa\ud83c\uddf8",
-          "Cambridge, MA",
-          "Oct 13",
-          "https://go.vansh.nyc/8B"
-        ],
-        "https://go.vansh.nyc/8B|Draper|Classified Cybersecurity/IT Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "CoStar Group",
-          "Product Intern",
-          "Richmond, VA",
-          "Oct 13",
-          "https://go.vansh.nyc/8A"
-        ],
-        "https://go.vansh.nyc/8A|CoStar Group|Product Intern|Richmond, VA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Cook Group",
-          "Artificial Intelligence & Innovation Intern",
-          "Bloomington, IN",
-          "Oct 13",
-          "https://go.vansh.nyc/8z"
-        ],
-        "https://go.vansh.nyc/8z|Cook Group|Artificial Intelligence & Innovation Intern|Bloomington, IN|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Bosch",
-          "Information Security and Privacy Intern",
-          "Farmington Hills, MI",
-          "Oct 13",
-          "https://go.vansh.nyc/8w"
-        ],
-        "https://go.vansh.nyc/8w|Bosch|Information Security and Privacy Intern|Farmington Hills, MI|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Armadin",
-          "Member of Technical Staff Intern, Frontend",
-          "Palo Alto, CA",
-          "Oct 13",
-          "https://go.vansh.nyc/8v"
-        ],
-        "https://go.vansh.nyc/8v|Armadin|Member of Technical Staff Intern, Frontend|Palo Alto, CA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "Cloud Engineering Intern",
-          "CAN Kanata, ON",
-          "Oct 13",
-          "https://go.vansh.nyc/8q"
-        ],
-        "https://go.vansh.nyc/8q|Aptiv|Cloud Engineering Intern|CAN Kanata, ON|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "Cloud Engineer Intern",
-          "CAN Kanata, ON",
-          "Oct 13",
-          "https://go.vansh.nyc/8r"
-        ],
-        "https://go.vansh.nyc/8r|Aptiv|Cloud Engineer Intern|CAN Kanata, ON|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "Cloud Engineer Intern",
-          "CAN Kanata, ON",
-          "Oct 13",
-          "https://go.vansh.nyc/8s"
-        ],
-        "https://go.vansh.nyc/8s|Aptiv|Cloud Engineer Intern|CAN Kanata, ON|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "Cloud Software Engineer Intern",
-          "CAN Kanata, ON",
-          "Oct 13",
-          "https://go.vansh.nyc/8t"
-        ],
-        "https://go.vansh.nyc/8t|Aptiv|Cloud Software Engineer Intern|CAN Kanata, ON|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "Software Engineering Intern",
-          "CAN Kanata, ON",
-          "Oct 13",
-          "https://go.vansh.nyc/8u"
-        ],
-        "https://go.vansh.nyc/8u|Aptiv|Software Engineering Intern|CAN Kanata, ON|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Allegion",
-          "Software Operations Engineer Intern",
-          "Carmel, IN",
-          "Oct 13",
-          "https://go.vansh.nyc/8p"
-        ],
-        "https://go.vansh.nyc/8p|Allegion|Software Operations Engineer Intern|Carmel, IN|Oct 13#1",
-        1
-      ],
       [
         [
           "Tencent",
@@ -7656,7 +7406,7 @@
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "20868eec42701313ba5e87ddeaf694973058292a",
+    "last_sha": "4fde2d567213fcd52c8434b8ff3344e6faa00c58",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
