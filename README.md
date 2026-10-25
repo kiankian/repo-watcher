@@ -37,9 +37,12 @@ State lives in `.watcher_state.json`, one entry per source:
 
 ```json
 { "<state_key>": { "last_sha": "...", "seen": ["<identity>", ...],
-                   "seen_legacy_urls": ["<url>", ...], "last_row_count": 28,
+                   "seen_legacy_urls": ["<url>", ...], "bootstrap": ["<identity>", ...],
+                   "bootstrap_legacy_urls": ["<url>", ...], "last_row_count": 28,
                    "outbox": [[[company, role, location, term, url], identity, occurrence]] } }
 ```
+
+`seen` / `seen_legacy_urls` are what was **delivered**. `bootstrap` / `bootstrap_legacy_urls` are what was **muted at initialization and never sent**. Both suppress a row, so day-to-day behavior is identical; the split exists so the mute can be counted (`bootstrap_muted` in the run log) and lifted (see [Releasing a bootstrap mute](#releasing-a-bootstrap-mute)). Nothing moves between the two sets on its own: a delivery never clears a mute, and releasing never touches history.
 
 `seen_legacy_urls` holds bare apply URLs recorded before identities existed, by the two sources that used cumulative-URL dedup. Those predate the term suffix, so they can only be matched on URL. The set is static and can be dropped after a season. Migration to this shape runs inline, is idempotent, and seeds from both the stored rows and every job in `.bot_state.json`, so the first run after a deploy alerts nothing.
 
@@ -183,6 +186,21 @@ Leaving it unticked is a live run that sends and commits, so the tick is the who
 A dry run deliberately **ignores the unchanged-SHA short-circuit** that a normal run uses, and re-fetches every enabled source. It has to: the watcher stores the current head on every run, so a rehearsal launched a minute later would find every source unchanged, skip all of them, and report "no new listings" without having parsed anything — silently passing whatever parser or config edit it was meant to validate. The per-run summary table shows `rows` extracted per watcher, which is what tells you the extraction still works.
 
 The `process_applies` job is skipped entirely on a dry run. It has to be: it appends to the Google Sheet, edits Telegram messages and commits `.bot_state.json`, so leaving it to run would make a rehearsal mutate external state.
+
+### Releasing a bootstrap mute
+
+Adding a source seeds it from whatever is currently listed and alerts none of it, so switching a watcher on cannot flood the chat. For a board that shows only its most recent N rows — Zapply is capped at ~100 and re-sorted constantly — that seed *is* the entire visible board, and the listings in it stay muted for as long as they remain posted. Zapply was initialized on 2026-07-21 with 100 muted; thirteen days later 51 of them were still on the board and still unsent.
+
+Silence at initialization is deliberate. Permanence was not, so the mute can be lifted per source:
+
+1. Rehearse it. Dispatch from the default branch with the dry-run box ticked and the release field set to the source's `state_key` (or `all`). The log prints how many are un-muted and the summary shows what would be sent; nothing is written.
+2. Run it for real with the same value in the release field and the dry-run box clear.
+
+The released listings are not replayed from history — they simply stop being suppressed, so the next parse selects the ones **still listed** as new and they leave through the outbox at `BURST_CAP` per run. Rows that have since dropped off the board produce nothing, which is what you want: a delisted job is not worth an alert. Anything in `seen` is untouched, so no alert you have already had can repeat.
+
+Expect a burst. 51 released listings is two runs' worth of sends, and they arrive interleaved with whatever is genuinely new. Leave the field empty on every ordinary run — the external cron dispatch sends no inputs, so it always does.
+
+The run log carries `bootstrap_muted` per source every run, which is the number this would release. A newly bootstrapped source also announces its own mute over Telegram, including the `release_bootstrap` value that undoes it.
 
 ### If alerts stop (troubleshooting runbook)
 
