@@ -4298,286 +4298,36 @@
       "https://go.vansh.nyc/hi|SOTI|Associate Product Manager Intern|Mississauga, Canada|Oct 22#1",
       "https://go.vansh.nyc/eS|Skydio|Frontend Software Engineer Intern|San Mateo, CA|Oct 22#1",
       "https://go.vansh.nyc/hz|Sardine|Engineering Intern|Remote United States Canada|Oct 22#1",
-      "https://go.vansh.nyc/hg|RSM|Business Intelligence Consulting Intern|Toronto, Canada Calgary, Canada Edmonton, Canada|Oct 22#1"
+      "https://go.vansh.nyc/hg|RSM|Business Intelligence Consulting Intern|Toronto, Canada Calgary, Canada Edmonton, Canada|Oct 22#1",
+      "https://go.vansh.nyc/gW|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Embedded Platforms|Vancouver, Canada|Oct 22#1",
+      "https://go.vansh.nyc/fE|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Vehicle Controls|Palo Alto, CA Irvine, CA|Oct 22#1",
+      "https://go.vansh.nyc/fF|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Embedded Platforms|Palo Alto, CA Irvine, CA Champaign, IL|Oct 22#1",
+      "https://go.vansh.nyc/fG|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Connected Systems|Palo Alto, CA Irvine, CA|Oct 22#1",
+      "https://go.vansh.nyc/fI|Rivian and Volkswagen Group Technologies|Data Engineering Intern, AI & Analytics|Palo Alto, CA Irvine, CA|Oct 22#1",
+      "https://go.vansh.nyc/fB|Renesas Electronics|Memory Server System Testing Intern|San Jose, CA|Oct 22#1",
+      "https://go.vansh.nyc/fy|Qualcomm|AI and DSP Applications Engineer Intern|Markham, Canada|Oct 22#1",
+      "https://go.vansh.nyc/es|Qualcomm|Camera Design Implementation Intern|Vancouver, BC, Canada|Oct 22#1",
+      "https://go.vansh.nyc/et|Qualcomm|Applied AI Engineering Intern, Hardware Systems|Vancouver, BC, Canada|Oct 22#1",
+      "https://go.vansh.nyc/fu|Pattern|Data Science Intern|Lehi, UT|Oct 22#1",
+      "https://go.vansh.nyc/fw|Pattern|AI Automation Engineer Intern|Lehi, UT|Oct 22#1",
+      "https://go.vansh.nyc/fA|Patreon|Product Manager Intern|New York, NY San Francisco, CA|Oct 22#1",
+      "https://go.vansh.nyc/fJ|Palantir Technologies|Deployment Strategist Intern, Warp Speed|New York, NY|Oct 22#1",
+      "https://go.vansh.nyc/fD|Palantir|Forward Deployed Software Engineer Intern, Warp Speed|New York, NY|Oct 22#1",
+      "https://go.vansh.nyc/gB|Paccar|Aftersales Data Analyst Intern|Kirkland, WA|Oct 22#1",
+      "https://go.vansh.nyc/fx|OpenSesame|AI Product Builder Intern|Remote United States|Oct 22#1",
+      "https://go.vansh.nyc/eD|Nissan|Cyber Security Intern|Smyrna, TN|Oct 22#1",
+      "https://go.vansh.nyc/gU|MITRE|Autonomous Systems Intern|McLean, VA|Oct 22#1",
+      "https://go.vansh.nyc/eB|Microsoft|Security Research Intern|Redmond, WA|Oct 22#1",
+      "https://go.vansh.nyc/fC|Man Group|Systematic Quant Intern|Boston, MA|Oct 22#1",
+      "https://go.vansh.nyc/eR|M&T Bank|Technology Intern, Software Engineering, Enterprise API Services Development Team|Buffalo, NY|Oct 22#1",
+      "https://go.vansh.nyc/hy|Linkup|Member of Technical Staff Intern|New York, NY|Oct 22#1",
+      "https://go.vansh.nyc/eQ|Leidos|AI/ML Intern \ud83c\uddfa\ud83c\uddf8|Huntsville, AL|Oct 22#1",
+      "https://go.vansh.nyc/eG|LabCorp|Bioinformatics Intern|Baltimore, MD|Oct 22#1",
+      "https://go.vansh.nyc/fs|L3Harris Technologies|Software Engineer Intern|Tulsa, OK|Oct 22#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 769,
     "outbox": [
-      [
-        [
-          "Rivian and Volkswagen Group Technologies",
-          "Software Engineering Intern, Embedded Platforms",
-          "Vancouver, Canada",
-          "Oct 22",
-          "https://go.vansh.nyc/gW"
-        ],
-        "https://go.vansh.nyc/gW|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Embedded Platforms|Vancouver, Canada|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Rivian and Volkswagen Group Technologies",
-          "Software Engineering Intern, Vehicle Controls",
-          "Palo Alto, CA Irvine, CA",
-          "Oct 22",
-          "https://go.vansh.nyc/fE"
-        ],
-        "https://go.vansh.nyc/fE|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Vehicle Controls|Palo Alto, CA Irvine, CA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Rivian and Volkswagen Group Technologies",
-          "Software Engineering Intern, Embedded Platforms",
-          "Palo Alto, CA Irvine, CA Champaign, IL",
-          "Oct 22",
-          "https://go.vansh.nyc/fF"
-        ],
-        "https://go.vansh.nyc/fF|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Embedded Platforms|Palo Alto, CA Irvine, CA Champaign, IL|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Rivian and Volkswagen Group Technologies",
-          "Software Engineering Intern, Connected Systems",
-          "Palo Alto, CA Irvine, CA",
-          "Oct 22",
-          "https://go.vansh.nyc/fG"
-        ],
-        "https://go.vansh.nyc/fG|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Connected Systems|Palo Alto, CA Irvine, CA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Rivian and Volkswagen Group Technologies",
-          "Data Engineering Intern, AI & Analytics",
-          "Palo Alto, CA Irvine, CA",
-          "Oct 22",
-          "https://go.vansh.nyc/fI"
-        ],
-        "https://go.vansh.nyc/fI|Rivian and Volkswagen Group Technologies|Data Engineering Intern, AI & Analytics|Palo Alto, CA Irvine, CA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Renesas Electronics",
-          "Memory Server System Testing Intern",
-          "San Jose, CA",
-          "Oct 22",
-          "https://go.vansh.nyc/fB"
-        ],
-        "https://go.vansh.nyc/fB|Renesas Electronics|Memory Server System Testing Intern|San Jose, CA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Qualcomm",
-          "AI and DSP Applications Engineer Intern",
-          "Markham, Canada",
-          "Oct 22",
-          "https://go.vansh.nyc/fy"
-        ],
-        "https://go.vansh.nyc/fy|Qualcomm|AI and DSP Applications Engineer Intern|Markham, Canada|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Qualcomm",
-          "Camera Design Implementation Intern",
-          "Vancouver, BC, Canada",
-          "Oct 22",
-          "https://go.vansh.nyc/es"
-        ],
-        "https://go.vansh.nyc/es|Qualcomm|Camera Design Implementation Intern|Vancouver, BC, Canada|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Qualcomm",
-          "Applied AI Engineering Intern, Hardware Systems",
-          "Vancouver, BC, Canada",
-          "Oct 22",
-          "https://go.vansh.nyc/et"
-        ],
-        "https://go.vansh.nyc/et|Qualcomm|Applied AI Engineering Intern, Hardware Systems|Vancouver, BC, Canada|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Pattern",
-          "Data Science Intern",
-          "Lehi, UT",
-          "Oct 22",
-          "https://go.vansh.nyc/fu"
-        ],
-        "https://go.vansh.nyc/fu|Pattern|Data Science Intern|Lehi, UT|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Pattern",
-          "AI Automation Engineer Intern",
-          "Lehi, UT",
-          "Oct 22",
-          "https://go.vansh.nyc/fw"
-        ],
-        "https://go.vansh.nyc/fw|Pattern|AI Automation Engineer Intern|Lehi, UT|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Patreon",
-          "Product Manager Intern",
-          "New York, NY San Francisco, CA",
-          "Oct 22",
-          "https://go.vansh.nyc/fA"
-        ],
-        "https://go.vansh.nyc/fA|Patreon|Product Manager Intern|New York, NY San Francisco, CA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Palantir Technologies",
-          "Deployment Strategist Intern, Warp Speed",
-          "New York, NY",
-          "Oct 22",
-          "https://go.vansh.nyc/fJ"
-        ],
-        "https://go.vansh.nyc/fJ|Palantir Technologies|Deployment Strategist Intern, Warp Speed|New York, NY|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Palantir",
-          "Forward Deployed Software Engineer Intern, Warp Speed",
-          "New York, NY",
-          "Oct 22",
-          "https://go.vansh.nyc/fD"
-        ],
-        "https://go.vansh.nyc/fD|Palantir|Forward Deployed Software Engineer Intern, Warp Speed|New York, NY|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Paccar",
-          "Aftersales Data Analyst Intern",
-          "Kirkland, WA",
-          "Oct 22",
-          "https://go.vansh.nyc/gB"
-        ],
-        "https://go.vansh.nyc/gB|Paccar|Aftersales Data Analyst Intern|Kirkland, WA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "OpenSesame",
-          "AI Product Builder Intern",
-          "Remote United States",
-          "Oct 22",
-          "https://go.vansh.nyc/fx"
-        ],
-        "https://go.vansh.nyc/fx|OpenSesame|AI Product Builder Intern|Remote United States|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Nissan",
-          "Cyber Security Intern",
-          "Smyrna, TN",
-          "Oct 22",
-          "https://go.vansh.nyc/eD"
-        ],
-        "https://go.vansh.nyc/eD|Nissan|Cyber Security Intern|Smyrna, TN|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "MITRE",
-          "Autonomous Systems Intern",
-          "McLean, VA",
-          "Oct 22",
-          "https://go.vansh.nyc/gU"
-        ],
-        "https://go.vansh.nyc/gU|MITRE|Autonomous Systems Intern|McLean, VA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Microsoft",
-          "Security Research Intern",
-          "Redmond, WA",
-          "Oct 22",
-          "https://go.vansh.nyc/eB"
-        ],
-        "https://go.vansh.nyc/eB|Microsoft|Security Research Intern|Redmond, WA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Man Group",
-          "Systematic Quant Intern",
-          "Boston, MA",
-          "Oct 22",
-          "https://go.vansh.nyc/fC"
-        ],
-        "https://go.vansh.nyc/fC|Man Group|Systematic Quant Intern|Boston, MA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "M&T Bank",
-          "Technology Intern, Software Engineering, Enterprise API Services Development Team",
-          "Buffalo, NY",
-          "Oct 22",
-          "https://go.vansh.nyc/eR"
-        ],
-        "https://go.vansh.nyc/eR|M&T Bank|Technology Intern, Software Engineering, Enterprise API Services Development Team|Buffalo, NY|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Linkup",
-          "Member of Technical Staff Intern",
-          "New York, NY",
-          "Oct 22",
-          "https://go.vansh.nyc/hy"
-        ],
-        "https://go.vansh.nyc/hy|Linkup|Member of Technical Staff Intern|New York, NY|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Leidos",
-          "AI/ML Intern \ud83c\uddfa\ud83c\uddf8",
-          "Huntsville, AL",
-          "Oct 22",
-          "https://go.vansh.nyc/eQ"
-        ],
-        "https://go.vansh.nyc/eQ|Leidos|AI/ML Intern \ud83c\uddfa\ud83c\uddf8|Huntsville, AL|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "LabCorp",
-          "Bioinformatics Intern",
-          "Baltimore, MD",
-          "Oct 22",
-          "https://go.vansh.nyc/eG"
-        ],
-        "https://go.vansh.nyc/eG|LabCorp|Bioinformatics Intern|Baltimore, MD|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "L3Harris Technologies",
-          "Software Engineer Intern",
-          "Tulsa, OK",
-          "Oct 22",
-          "https://go.vansh.nyc/fs"
-        ],
-        "https://go.vansh.nyc/fs|L3Harris Technologies|Software Engineer Intern|Tulsa, OK|Oct 22#1",
-        1
-      ],
       [
         [
           "L3Harris Technologies",
@@ -10906,7 +10656,7 @@
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "244254dd51356f306fcc01522ac0f72c0eb5623c",
+    "last_sha": "a0b7ec1b3ad0f04a779efe929516d1cf34e5814c",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
