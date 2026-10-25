@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "74fc8c79fe63d7af262c8dd8816bf3135f8e8cb0",
+    "last_sha": "6666045e1064645ba4c53ca356887941494124c9",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -4348,286 +4348,36 @@
       "https://go.vansh.nyc/hZ|Aptiv|Cloud Software Engineer Intern|Kanata, Canada Ottawa, Canada|Oct 22#1",
       "https://go.vansh.nyc/i0|Aptiv|Engineering Intern|Kanata, Canada Ottawa, Canada|Oct 22#1",
       "https://go.vansh.nyc/eM|Aptiv|Linux Engineering Intern|Kanata, Canada|Oct 22#1",
-      "https://go.vansh.nyc/eN|Aptiv|Linux Intern|Kanata, Canada|Oct 22#1"
+      "https://go.vansh.nyc/eN|Aptiv|Linux Intern|Kanata, Canada|Oct 22#1",
+      "https://go.vansh.nyc/hn|American Family Insurance Group|AI Platform Engineering Intern|Madison, WI|Oct 22#1",
+      "https://go.vansh.nyc/hR|Amazon|Software Development Engineer Intern, Amazon Leo \ud83c\uddfa\ud83c\uddf8|Redmond, WA|Oct 22#1",
+      "https://go.vansh.nyc/hA|Amazon|ASIC Engineer Intern|Seattle, WA Austin, TX Cupertino, CA|Oct 22#1",
+      "https://go.vansh.nyc/gE|Amazon|Software Engineer Intern, Embedded Systems|United States|Oct 22#1",
+      "https://go.vansh.nyc/gF|Amazon|ASIC Engineer Intern|Sunnyvale, CA|Oct 22#1",
+      "https://go.vansh.nyc/gI|Amazon|Systems Development Engineer Intern|Vancouver, Canada|Oct 22#1",
+      "https://go.vansh.nyc/gJ|Amazon|Software Engineer Intern, AWS Database|United States|Oct 22#1",
+      "https://go.vansh.nyc/gL|Amazon|Cloud Hardware Development Engineer Intern|Austin, TX Cupertino, CA|Oct 22#1",
+      "https://go.vansh.nyc/eL|Amazon|Frontier AI & Robotics Intern|San Francisco, CA|Oct 22#1",
+      "https://go.vansh.nyc/hw|Altera|IP Design Intern|Toronto, Canada|Oct 22#1",
+      "https://go.vansh.nyc/fK|Allen Control Systems|Android Developer Intern|Austin, TX|Oct 22#1",
+      "https://go.vansh.nyc/dZ|Walrus|Full Stack Developer Intern|NYC|Oct 21#1",
+      "https://go.vansh.nyc/eo|Uline|Software Developer Intern|**5 locations**Waukegan, IL Milwaukee, WI Glenview, IL Pleasant Prairie, WI Kenosha, WI|Oct 21#1",
+      "https://go.vansh.nyc/dV|Trace3|Data and Analytics Engineer Intern|Irvine, CA|Oct 21#1",
+      "https://go.vansh.nyc/dm|Toyota|Data Science Intern, TFS|Plano, TX|Oct 21#1",
+      "https://go.vansh.nyc/fg|Taylor|Enablement Data & Insights Intern|Remote United States|Oct 21#1",
+      "https://go.vansh.nyc/fd|SPS Commerce|Software Engineer Intern|Minneapolis, MN|Oct 21#1",
+      "https://go.vansh.nyc/dB|Smith+Nephew|Computer Vision Software Engineering Intern|Andover, MA|Oct 21#1",
+      "https://go.vansh.nyc/dA|Smith+Nephew|Embedded Software Engineering Intern|Andover, MA|Oct 21#1",
+      "https://go.vansh.nyc/dl|Smith+Nephew|Agentic AI Software Engineering Intern|Andover, MA|Oct 21#1",
+      "https://go.vansh.nyc/dQ|Safran|Software Engineering Intern|Bedford, NH|Oct 21#1",
+      "https://go.vansh.nyc/eq|RTX|Software Engineer Intern|Aurora, CO|Oct 21#1",
+      "https://go.vansh.nyc/gA|Rockwell Automation|Firmware Engineer Intern|Mequon, WI Eden Prairie, MN|Oct 21#1",
+      "https://go.vansh.nyc/f9|Radiance Technologies|Microelectronics Engineer Intern|Ruston, LA|Oct 21#1",
+      "https://go.vansh.nyc/ek|Qualcomm|Camera Design Implementation Intern|Markham, ON, Canada|Oct 21#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 769,
     "outbox": [
-      [
-        [
-          "American Family Insurance Group",
-          "AI Platform Engineering Intern",
-          "Madison, WI",
-          "Oct 22",
-          "https://go.vansh.nyc/hn"
-        ],
-        "https://go.vansh.nyc/hn|American Family Insurance Group|AI Platform Engineering Intern|Madison, WI|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Software Development Engineer Intern, Amazon Leo \ud83c\uddfa\ud83c\uddf8",
-          "Redmond, WA",
-          "Oct 22",
-          "https://go.vansh.nyc/hR"
-        ],
-        "https://go.vansh.nyc/hR|Amazon|Software Development Engineer Intern, Amazon Leo \ud83c\uddfa\ud83c\uddf8|Redmond, WA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "ASIC Engineer Intern",
-          "Seattle, WA Austin, TX Cupertino, CA",
-          "Oct 22",
-          "https://go.vansh.nyc/hA"
-        ],
-        "https://go.vansh.nyc/hA|Amazon|ASIC Engineer Intern|Seattle, WA Austin, TX Cupertino, CA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Software Engineer Intern, Embedded Systems",
-          "United States",
-          "Oct 22",
-          "https://go.vansh.nyc/gE"
-        ],
-        "https://go.vansh.nyc/gE|Amazon|Software Engineer Intern, Embedded Systems|United States|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "ASIC Engineer Intern",
-          "Sunnyvale, CA",
-          "Oct 22",
-          "https://go.vansh.nyc/gF"
-        ],
-        "https://go.vansh.nyc/gF|Amazon|ASIC Engineer Intern|Sunnyvale, CA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Systems Development Engineer Intern",
-          "Vancouver, Canada",
-          "Oct 22",
-          "https://go.vansh.nyc/gI"
-        ],
-        "https://go.vansh.nyc/gI|Amazon|Systems Development Engineer Intern|Vancouver, Canada|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Software Engineer Intern, AWS Database",
-          "United States",
-          "Oct 22",
-          "https://go.vansh.nyc/gJ"
-        ],
-        "https://go.vansh.nyc/gJ|Amazon|Software Engineer Intern, AWS Database|United States|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Cloud Hardware Development Engineer Intern",
-          "Austin, TX Cupertino, CA",
-          "Oct 22",
-          "https://go.vansh.nyc/gL"
-        ],
-        "https://go.vansh.nyc/gL|Amazon|Cloud Hardware Development Engineer Intern|Austin, TX Cupertino, CA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Frontier AI & Robotics Intern",
-          "San Francisco, CA",
-          "Oct 22",
-          "https://go.vansh.nyc/eL"
-        ],
-        "https://go.vansh.nyc/eL|Amazon|Frontier AI & Robotics Intern|San Francisco, CA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Altera",
-          "IP Design Intern",
-          "Toronto, Canada",
-          "Oct 22",
-          "https://go.vansh.nyc/hw"
-        ],
-        "https://go.vansh.nyc/hw|Altera|IP Design Intern|Toronto, Canada|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Allen Control Systems",
-          "Android Developer Intern",
-          "Austin, TX",
-          "Oct 22",
-          "https://go.vansh.nyc/fK"
-        ],
-        "https://go.vansh.nyc/fK|Allen Control Systems|Android Developer Intern|Austin, TX|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Walrus",
-          "Full Stack Developer Intern",
-          "NYC",
-          "Oct 21",
-          "https://go.vansh.nyc/dZ"
-        ],
-        "https://go.vansh.nyc/dZ|Walrus|Full Stack Developer Intern|NYC|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Uline",
-          "Software Developer Intern",
-          "**5 locations**Waukegan, IL Milwaukee, WI Glenview, IL Pleasant Prairie, WI Kenosha, WI",
-          "Oct 21",
-          "https://go.vansh.nyc/eo"
-        ],
-        "https://go.vansh.nyc/eo|Uline|Software Developer Intern|**5 locations**Waukegan, IL Milwaukee, WI Glenview, IL Pleasant Prairie, WI Kenosha, WI|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Trace3",
-          "Data and Analytics Engineer Intern",
-          "Irvine, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/dV"
-        ],
-        "https://go.vansh.nyc/dV|Trace3|Data and Analytics Engineer Intern|Irvine, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Toyota",
-          "Data Science Intern, TFS",
-          "Plano, TX",
-          "Oct 21",
-          "https://go.vansh.nyc/dm"
-        ],
-        "https://go.vansh.nyc/dm|Toyota|Data Science Intern, TFS|Plano, TX|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Taylor",
-          "Enablement Data & Insights Intern",
-          "Remote United States",
-          "Oct 21",
-          "https://go.vansh.nyc/fg"
-        ],
-        "https://go.vansh.nyc/fg|Taylor|Enablement Data & Insights Intern|Remote United States|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "SPS Commerce",
-          "Software Engineer Intern",
-          "Minneapolis, MN",
-          "Oct 21",
-          "https://go.vansh.nyc/fd"
-        ],
-        "https://go.vansh.nyc/fd|SPS Commerce|Software Engineer Intern|Minneapolis, MN|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Smith+Nephew",
-          "Computer Vision Software Engineering Intern",
-          "Andover, MA",
-          "Oct 21",
-          "https://go.vansh.nyc/dB"
-        ],
-        "https://go.vansh.nyc/dB|Smith+Nephew|Computer Vision Software Engineering Intern|Andover, MA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Smith+Nephew",
-          "Embedded Software Engineering Intern",
-          "Andover, MA",
-          "Oct 21",
-          "https://go.vansh.nyc/dA"
-        ],
-        "https://go.vansh.nyc/dA|Smith+Nephew|Embedded Software Engineering Intern|Andover, MA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Smith+Nephew",
-          "Agentic AI Software Engineering Intern",
-          "Andover, MA",
-          "Oct 21",
-          "https://go.vansh.nyc/dl"
-        ],
-        "https://go.vansh.nyc/dl|Smith+Nephew|Agentic AI Software Engineering Intern|Andover, MA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Safran",
-          "Software Engineering Intern",
-          "Bedford, NH",
-          "Oct 21",
-          "https://go.vansh.nyc/dQ"
-        ],
-        "https://go.vansh.nyc/dQ|Safran|Software Engineering Intern|Bedford, NH|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "RTX",
-          "Software Engineer Intern",
-          "Aurora, CO",
-          "Oct 21",
-          "https://go.vansh.nyc/eq"
-        ],
-        "https://go.vansh.nyc/eq|RTX|Software Engineer Intern|Aurora, CO|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Rockwell Automation",
-          "Firmware Engineer Intern",
-          "Mequon, WI Eden Prairie, MN",
-          "Oct 21",
-          "https://go.vansh.nyc/gA"
-        ],
-        "https://go.vansh.nyc/gA|Rockwell Automation|Firmware Engineer Intern|Mequon, WI Eden Prairie, MN|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Radiance Technologies",
-          "Microelectronics Engineer Intern",
-          "Ruston, LA",
-          "Oct 21",
-          "https://go.vansh.nyc/f9"
-        ],
-        "https://go.vansh.nyc/f9|Radiance Technologies|Microelectronics Engineer Intern|Ruston, LA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Qualcomm",
-          "Camera Design Implementation Intern",
-          "Markham, ON, Canada",
-          "Oct 21",
-          "https://go.vansh.nyc/ek"
-        ],
-        "https://go.vansh.nyc/ek|Qualcomm|Camera Design Implementation Intern|Markham, ON, Canada|Oct 21#1",
-        1
-      ],
       [
         [
           "Qualcomm",
