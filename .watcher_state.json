@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "86997a2ef25e84fa0677d2bd4970d35a5b7e191c",
+    "last_sha": "74dd34a728e8ecc14f345076771dec5032cd1bc2",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -4648,286 +4648,36 @@
       "https://go.vansh.nyc/8s|Aptiv|Cloud Engineer Intern|CAN Kanata, ON|Oct 13#1",
       "https://go.vansh.nyc/8t|Aptiv|Cloud Software Engineer Intern|CAN Kanata, ON|Oct 13#1",
       "https://go.vansh.nyc/8u|Aptiv|Software Engineering Intern|CAN Kanata, ON|Oct 13#1",
-      "https://go.vansh.nyc/8p|Allegion|Software Operations Engineer Intern|Carmel, IN|Oct 13#1"
+      "https://go.vansh.nyc/8p|Allegion|Software Operations Engineer Intern|Carmel, IN|Oct 13#1",
+      "https://go.vansh.nyc/8j|Tencent|Data Science Intern|Palo Alto, CA|Oct 12#1",
+      "https://go.vansh.nyc/8g|KLA|AI/ML Software Engineer Intern|Ann Arbor, MI|Oct 12#1",
+      "https://go.vansh.nyc/8h|KLA|Algorithm Engineering Intern, GPU/CUDA|Milpitas, CA|Oct 12#1",
+      "https://go.vansh.nyc/8f|Juniper Networks|HPC/AI System Admin HW/SW Service Engineer Intern|All, TN|Oct 12#1",
+      "https://go.vansh.nyc/8e|Google|Forward Deployed Engineering Intern|Sunnyvale, CA|Oct 12#1",
+      "https://go.vansh.nyc/8b|General Motors|Research and Development Intern, Defense Lab Modeling and Simulation \ud83c\uddfa\ud83c\uddf8|Warren, MI|Oct 12#1",
+      "https://go.vansh.nyc/8c|General Motors|Research and Development Intern, Machine Learning for Automation|Warren, MI|Oct 12#1",
+      "https://go.vansh.nyc/8d|General Motors|Research and Development Intern, AI/Machine Learning|Mountain View, CA|Oct 12#1",
+      "https://go.vansh.nyc/8a|Figure AI|Deployment Engineering Intern|San Jose, CA|Oct 12#1",
+      "https://go.vansh.nyc/89|DV Trading|Data Center Engineer Intern|Chicago, IL|Oct 12#1",
+      "https://go.vansh.nyc/aD|Databricks|Software Engineering Intern|**4 locations**Bellevue, WA Mountain View, CA San Francisco, CA Vancouver, BC|Oct 12#1",
+      "https://go.vansh.nyc/gf|Cryptic Vector|Full Stack Developer Intern|Liberty Township, OH|Oct 12#1",
+      "https://go.vansh.nyc/88|Cboe Global Markets|Software Engineer Intern, C++|Kansas City, MO|Oct 12#1",
+      "https://go.vansh.nyc/86|Bosch|Robotics Research Intern|Sunnyvale, CA|Oct 12#1",
+      "https://go.vansh.nyc/87|Bosch|ERP/IT Intern|Lincolnshire, IL|Oct 12#1",
+      "https://go.vansh.nyc/ge|Hex Technologies|AI Engineer Intern|San Francisco, CA|Oct 11#1",
+      "https://go.vansh.nyc/7W|Veolia|Field Engineering Intern \ud83d\udec2|Nanticoke, PA|Oct 10#1",
+      "https://go.vansh.nyc/7X|Veolia|Field Engineering Intern \ud83d\udec2|Lincoln, NE|Oct 10#1",
+      "https://go.vansh.nyc/7V|NVIDIA|Research Intern, World Models and Synthetic Data for Autonomous Driving|Santa Clara, CA|Oct 10#1",
+      "https://go.vansh.nyc/7U|Affirm|IT Engineer Intern|San Francisco, CA|Oct 10#1",
+      "https://go.vansh.nyc/gd|Workday|Cybersecurity Engineer Intern|Pleasanton, CA|Oct 08#1",
+      "https://go.vansh.nyc/gc|Residex Software|Product Management Intern|United States|Oct 08#1",
+      "https://go.vansh.nyc/gb|GCM Grosvenor|IT Product & Strategy Intern|Chicago, IL|Oct 08#1",
+      "https://go.vansh.nyc/ga|Arcesium|Infrastructure Engineer Intern|New York, NY|Oct 08#1",
+      "https://go.vansh.nyc/g9|Viget|Project & Product Manager Intern \ud83d\udec2|Boulder, CO|Oct 07#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 769,
     "outbox": [
-      [
-        [
-          "Tencent",
-          "Data Science Intern",
-          "Palo Alto, CA",
-          "Oct 12",
-          "https://go.vansh.nyc/8j"
-        ],
-        "https://go.vansh.nyc/8j|Tencent|Data Science Intern|Palo Alto, CA|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "KLA",
-          "AI/ML Software Engineer Intern",
-          "Ann Arbor, MI",
-          "Oct 12",
-          "https://go.vansh.nyc/8g"
-        ],
-        "https://go.vansh.nyc/8g|KLA|AI/ML Software Engineer Intern|Ann Arbor, MI|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "KLA",
-          "Algorithm Engineering Intern, GPU/CUDA",
-          "Milpitas, CA",
-          "Oct 12",
-          "https://go.vansh.nyc/8h"
-        ],
-        "https://go.vansh.nyc/8h|KLA|Algorithm Engineering Intern, GPU/CUDA|Milpitas, CA|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "Juniper Networks",
-          "HPC/AI System Admin HW/SW Service Engineer Intern",
-          "All, TN",
-          "Oct 12",
-          "https://go.vansh.nyc/8f"
-        ],
-        "https://go.vansh.nyc/8f|Juniper Networks|HPC/AI System Admin HW/SW Service Engineer Intern|All, TN|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "Google",
-          "Forward Deployed Engineering Intern",
-          "Sunnyvale, CA",
-          "Oct 12",
-          "https://go.vansh.nyc/8e"
-        ],
-        "https://go.vansh.nyc/8e|Google|Forward Deployed Engineering Intern|Sunnyvale, CA|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "General Motors",
-          "Research and Development Intern, Defense Lab Modeling and Simulation \ud83c\uddfa\ud83c\uddf8",
-          "Warren, MI",
-          "Oct 12",
-          "https://go.vansh.nyc/8b"
-        ],
-        "https://go.vansh.nyc/8b|General Motors|Research and Development Intern, Defense Lab Modeling and Simulation \ud83c\uddfa\ud83c\uddf8|Warren, MI|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "General Motors",
-          "Research and Development Intern, Machine Learning for Automation",
-          "Warren, MI",
-          "Oct 12",
-          "https://go.vansh.nyc/8c"
-        ],
-        "https://go.vansh.nyc/8c|General Motors|Research and Development Intern, Machine Learning for Automation|Warren, MI|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "General Motors",
-          "Research and Development Intern, AI/Machine Learning",
-          "Mountain View, CA",
-          "Oct 12",
-          "https://go.vansh.nyc/8d"
-        ],
-        "https://go.vansh.nyc/8d|General Motors|Research and Development Intern, AI/Machine Learning|Mountain View, CA|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "Figure AI",
-          "Deployment Engineering Intern",
-          "San Jose, CA",
-          "Oct 12",
-          "https://go.vansh.nyc/8a"
-        ],
-        "https://go.vansh.nyc/8a|Figure AI|Deployment Engineering Intern|San Jose, CA|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "DV Trading",
-          "Data Center Engineer Intern",
-          "Chicago, IL",
-          "Oct 12",
-          "https://go.vansh.nyc/89"
-        ],
-        "https://go.vansh.nyc/89|DV Trading|Data Center Engineer Intern|Chicago, IL|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "Databricks",
-          "Software Engineering Intern",
-          "**4 locations**Bellevue, WA Mountain View, CA San Francisco, CA Vancouver, BC",
-          "Oct 12",
-          "https://go.vansh.nyc/aD"
-        ],
-        "https://go.vansh.nyc/aD|Databricks|Software Engineering Intern|**4 locations**Bellevue, WA Mountain View, CA San Francisco, CA Vancouver, BC|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "Cryptic Vector",
-          "Full Stack Developer Intern",
-          "Liberty Township, OH",
-          "Oct 12",
-          "https://go.vansh.nyc/gf"
-        ],
-        "https://go.vansh.nyc/gf|Cryptic Vector|Full Stack Developer Intern|Liberty Township, OH|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "Cboe Global Markets",
-          "Software Engineer Intern, C++",
-          "Kansas City, MO",
-          "Oct 12",
-          "https://go.vansh.nyc/88"
-        ],
-        "https://go.vansh.nyc/88|Cboe Global Markets|Software Engineer Intern, C++|Kansas City, MO|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "Bosch",
-          "Robotics Research Intern",
-          "Sunnyvale, CA",
-          "Oct 12",
-          "https://go.vansh.nyc/86"
-        ],
-        "https://go.vansh.nyc/86|Bosch|Robotics Research Intern|Sunnyvale, CA|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "Bosch",
-          "ERP/IT Intern",
-          "Lincolnshire, IL",
-          "Oct 12",
-          "https://go.vansh.nyc/87"
-        ],
-        "https://go.vansh.nyc/87|Bosch|ERP/IT Intern|Lincolnshire, IL|Oct 12#1",
-        1
-      ],
-      [
-        [
-          "Hex Technologies",
-          "AI Engineer Intern",
-          "San Francisco, CA",
-          "Oct 11",
-          "https://go.vansh.nyc/ge"
-        ],
-        "https://go.vansh.nyc/ge|Hex Technologies|AI Engineer Intern|San Francisco, CA|Oct 11#1",
-        1
-      ],
-      [
-        [
-          "Veolia",
-          "Field Engineering Intern \ud83d\udec2",
-          "Nanticoke, PA",
-          "Oct 10",
-          "https://go.vansh.nyc/7W"
-        ],
-        "https://go.vansh.nyc/7W|Veolia|Field Engineering Intern \ud83d\udec2|Nanticoke, PA|Oct 10#1",
-        1
-      ],
-      [
-        [
-          "Veolia",
-          "Field Engineering Intern \ud83d\udec2",
-          "Lincoln, NE",
-          "Oct 10",
-          "https://go.vansh.nyc/7X"
-        ],
-        "https://go.vansh.nyc/7X|Veolia|Field Engineering Intern \ud83d\udec2|Lincoln, NE|Oct 10#1",
-        1
-      ],
-      [
-        [
-          "NVIDIA",
-          "Research Intern, World Models and Synthetic Data for Autonomous Driving",
-          "Santa Clara, CA",
-          "Oct 10",
-          "https://go.vansh.nyc/7V"
-        ],
-        "https://go.vansh.nyc/7V|NVIDIA|Research Intern, World Models and Synthetic Data for Autonomous Driving|Santa Clara, CA|Oct 10#1",
-        1
-      ],
-      [
-        [
-          "Affirm",
-          "IT Engineer Intern",
-          "San Francisco, CA",
-          "Oct 10",
-          "https://go.vansh.nyc/7U"
-        ],
-        "https://go.vansh.nyc/7U|Affirm|IT Engineer Intern|San Francisco, CA|Oct 10#1",
-        1
-      ],
-      [
-        [
-          "Workday",
-          "Cybersecurity Engineer Intern",
-          "Pleasanton, CA",
-          "Oct 08",
-          "https://go.vansh.nyc/gd"
-        ],
-        "https://go.vansh.nyc/gd|Workday|Cybersecurity Engineer Intern|Pleasanton, CA|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "Residex Software",
-          "Product Management Intern",
-          "United States",
-          "Oct 08",
-          "https://go.vansh.nyc/gc"
-        ],
-        "https://go.vansh.nyc/gc|Residex Software|Product Management Intern|United States|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "GCM Grosvenor",
-          "IT Product & Strategy Intern",
-          "Chicago, IL",
-          "Oct 08",
-          "https://go.vansh.nyc/gb"
-        ],
-        "https://go.vansh.nyc/gb|GCM Grosvenor|IT Product & Strategy Intern|Chicago, IL|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "Arcesium",
-          "Infrastructure Engineer Intern",
-          "New York, NY",
-          "Oct 08",
-          "https://go.vansh.nyc/ga"
-        ],
-        "https://go.vansh.nyc/ga|Arcesium|Infrastructure Engineer Intern|New York, NY|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "Viget",
-          "Project & Product Manager Intern \ud83d\udec2",
-          "Boulder, CO",
-          "Oct 07",
-          "https://go.vansh.nyc/g9"
-        ],
-        "https://go.vansh.nyc/g9|Viget|Project & Product Manager Intern \ud83d\udec2|Boulder, CO|Oct 07#1",
-        1
-      ],
       [
         [
           "Tenstorrent",
@@ -7406,7 +7156,7 @@
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "4fde2d567213fcd52c8434b8ff3344e6faa00c58",
+    "last_sha": "2a961fc035ffa0541114eb67f4369c8b6fb7f1a6",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
