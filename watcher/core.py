@@ -125,7 +125,12 @@ def parse_markdown_rows(section_text, role_col=1, loc_col=2, apply_col=3,
 def fmt(entry):
     company, role, location, term, apply_url = entry[0], entry[1], entry[2], entry[3], entry[4]
     base = f"{company} — {role} | {location} | {term}"
-    if apply_url:
+    # A dead link is rendered as no link at all, exactly like the ~20% of Vansh rows that have
+    # none. Printing "#" under a listing reads as something to tap and is worse than an honest
+    # omission -- the company, role, location and term are still enough to go find the posting.
+    # Only the message text changes: the identity and job_hash both keep the raw URL, so nothing
+    # already sent is invalidated and no row is re-keyed by this.
+    if apply_url and not is_placeholder_url(apply_url):
         return f"{base}\n  {apply_url}"
     return base
 
@@ -167,6 +172,75 @@ def row_key(r):
 # oldest identities, which can only cause a duplicate alert, never a missed one, and it is
 # logged when it happens.
 SEEN_CAP = 5000
+
+# An upstream generator that stops emitting apply URLs re-keys every row in one commit: the
+# identity is URL-first, so a table whose links all become "#" yields a full set of identities no
+# source has ever seen, and every listing on the board looks like a discovery. Nothing about an
+# individual row gives this away — each one is genuinely new *as an identity*.
+#
+# What gives it away is how much of the table the source still *recognizes*. Listings arrive one
+# or a few at a time against a backdrop of rows already in `seen`, so even a large legitimate
+# influx leaves most of the table familiar. A re-key rewrites the identity of every row at once,
+# so recognition collapses to almost nothing — the source is looking at a board it has been
+# watching for weeks and knows none of it.
+#
+# Note what this deliberately does *not* use: the row count. An earlier version of this guard
+# subtracted the table's growth since the last parse, on the theory that real listings come with
+# a row count that rose to match. That is true, but it credits a table *recovering* from a
+# truncated parse as new capacity. A source that shrank to 20 rows and came back to 100 in the
+# same update that re-keyed it computes 100 - 80 = 20 unexplained, slips under the floor, and
+# sends the whole board — and those two failures are correlated rather than independent, since an
+# upstream generator misfiring badly enough to truncate a read can blank a column in the same
+# breath. Recognition has no such blind spot: it never asks how many rows there used to be.
+#
+# The trade is a false positive on an extreme legitimate expansion — a source growing 10x in one
+# run has little of its new table in `seen` either. That direction is the safe one: the breaker
+# holds delivery and says so, rather than flooding the chat, and the runbook covers clearing it.
+#
+# Bounds, against the 253 runs recorded before the 2026-08-01 Zapply incident. Recognition on a
+# healthy run sits at 96-99% (Vansh discovering 6 of 157, Zapply 1 of 100); the worst legitimate
+# case on record is the 84-row -> 28-row collapse, which still recognized 5 of 28 (18%) while
+# alerting 23 genuinely-new rows. The incident recognized 0 of 100. The floor sits below that
+# collapse and far above a re-key, and the absolute minimum keeps a small or mostly-empty table
+# from tripping on a handful of rows.
+IDENTITY_RESET_MIN = 25  # discoveries required before recognition is considered at all
+IDENTITY_RESET_RECOGNITION = 0.10  # share of the parsed table that must still be familiar
+
+# The breaker above catches a re-key by its shape, whatever caused it. This catches the specific
+# cause seen on 2026-08-01 directly: an upstream generator that still emits the link markup but
+# fills in a dead target, so `extract_apply_url` returns "#" and the row parses "successfully"
+# with nothing to apply to. Such a row is not worth a message — the alert would carry a "#" where
+# the link belongs — and it is the one failure a count-based guard cannot see, because the rows
+# trickle onto a churning board a few at a time, far under any sane discovery floor. 19 of the
+# 119 junk alerts in the incident arrived that way, after the initial flood had drained.
+#
+# An *absent* link is not degraded: roughly a fifth of the rows on the Vansh boards have no
+# parseable URL at all, and those alerts are still useful — company, role, location and term are
+# all there. Only a link that exists and goes nowhere counts.
+
+
+def is_placeholder_url(url):
+    """True for an apply link that is present but goes nowhere.
+
+    A bare fragment ("#", "#apply") never addresses an ATS posting, and neither does a
+    javascript: stub. Both mean the generator emitted a link it had no target for.
+    """
+    if not url:
+        return False
+    stripped = url.strip().lower()
+    return stripped.startswith("#") or stripped.startswith("javascript:")
+
+
+def is_identity_reset(new_count, row_count):
+    """True when a run's discoveries look like the table re-keying, not new listings.
+
+    new_count is what the source does not already know — neither recorded in `seen` nor already
+    queued for delivery — so row_count - new_count is how much of this table it still recognizes.
+    """
+    if row_count <= 0 or new_count < IDENTITY_RESET_MIN:
+        return False
+    recognized = row_count - new_count
+    return recognized < row_count * IDENTITY_RESET_RECOGNITION
 
 
 def identity_stem(entry):

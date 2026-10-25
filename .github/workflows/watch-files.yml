@@ -56,10 +56,13 @@ jobs:
           # Pure parsing/dedup logic lives in watcher/core.py so it can be unit tested; this
           # block keeps only the I/O. cwd is the repo root under actions/checkout.
           from watcher.core import (
+              IDENTITY_RESET_RECOGNITION,
               SEEN_CAP,
               assign_identities,
               extract_section,
               fmt,
+              is_identity_reset,
+              is_placeholder_url,
               job_hash,
               migrate_state,
               parse_html_rows,
@@ -710,10 +713,57 @@ jobs:
               # discovery on the run that first saw it, so counting it again here would double it
               # against queued_before and break the reconciliation invariant.
               fresh_new = [p for p in fresh_pairs if p[1] not in queued]
+
+              # A dead apply link no longer blocks the alert (fmt renders it as no link at all).
+              # Withholding those rows meant that during an upstream outage a genuinely new
+              # posting was invisible for as long as it lasted -- 14+ hours on 2026-08-01 -- and
+              # this repo's stated bargain is that residual failures produce a duplicate, never a
+              # miss. Report the degradation so the source's state is legible, and let the
+              # listings through carrying company, role, location and term, which is enough to go
+              # find the posting.
+              dead_links = sum(1 for r in curr_rows if is_placeholder_url(r[4])) if curr_rows else 0
+              if dead_links:
+                  health_alert(
+                      f"placeholder-urls:{state_key}",
+                      f"{w['label']} parsed {dead_links} of {len(curr_rows)} rows with a dead "
+                      "apply link — the upstream generator is emitting link markup with no "
+                      "target. Those listings are still being sent, without a link rather than "
+                      "with a useless one, and will carry real URLs again once upstream does. "
+                      "No action is needed here unless it stays broken.",
+                  )
+
+              # Report a whole-table re-key; do not act on it. A source that recognizes almost
+              # none of its own table has had its identity inputs rewritten upstream, and every
+              # row will alert as though it were new. Suppressing that flood was tried and
+              # deliberately reverted: every one of the 100 messages on 2026-08-01 turned out to
+              # be a listing already delivered under an older identity, so suppression bought
+              # nothing that mattered, while any listing that was genuinely new in the same
+              # snapshot would have been silently swallowed. A duplicate costs a notification. A
+              # miss costs an application, and this watcher exists to not miss.
+              #
+              # So the detection is kept purely as a signal. It explains a burst of duplicates
+              # while it is arriving, which is the difference between "my watcher is broken" and
+              # "their generator is broken" -- the question this whole incident turned on.
+              if (seen_list and curr_rows is not None
+                      and is_identity_reset(len(fresh_new), len(curr_rows))):
+                  health_alert(
+                      f"identity-reset:{state_key}",
+                      f"{w['label']} recognized only {len(curr_rows) - len(fresh_new)} of "
+                      f"{len(curr_rows)} parsed rows — under "
+                      f"{IDENTITY_RESET_RECOGNITION:.0%}, with {len(fresh_new)} looking new. "
+                      "That is the signature of the upstream table re-keying (an apply-URL "
+                      "column going blank, or a column order change) rather than real listings, "
+                      "so expect a burst of duplicates for listings you have already had. "
+                      "Nothing is being withheld. Check the source table before changing parser "
+                      "config.",
+                  )
+
               # Queued work first, so the oldest jobs drain ahead of newly-seen rows and cannot be
               # starved by a steady stream of new listings. This runs even when the snapshot could
               # not be fetched or parsed — otherwise a permanent upstream rename would strand
-              # every already-discovered job behind a source that never recovers.
+              # every already-discovered job behind a source that never recovers. The breaker
+              # above suppresses only fresh discoveries; already-queued jobs were vetted on the
+              # run that found them and keep draining.
               to_send = list(outbox) + fresh_new
 
               delivered, undelivered = deliver_listings(to_send, w["label"])
