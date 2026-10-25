@@ -78968,6 +78968,138 @@
       "chat_id": 7582459199,
       "seq": 6023,
       "identity": "NOURL|HyperLight|Software Engineer Intern|Cambridge, MA|Jul 26#1"
+    },
+    "640638b41b9a": {
+      "company": "Etched",
+      "role": "Supercomputing Intern",
+      "location": "San Jose, CA",
+      "term": "May 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 7220,
+      "chat_id": 7582459199,
+      "seq": 6024,
+      "identity": "NOURL|Etched|Supercomputing Intern|San Jose, CA|May 22#1"
+    },
+    "4b016404c573": {
+      "company": "Etched",
+      "role": "Infrastructure Intern",
+      "location": "San Jose, CA",
+      "term": "May 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 7221,
+      "chat_id": 7582459199,
+      "seq": 6025,
+      "identity": "NOURL|Etched|Infrastructure Intern|San Jose, CA|May 22#1"
+    },
+    "8e9ff83a529e": {
+      "company": "Etched",
+      "role": "Firmware Intern",
+      "location": "San Jose, CA",
+      "term": "May 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 7222,
+      "chat_id": 7582459199,
+      "seq": 6026,
+      "identity": "NOURL|Etched|Firmware Intern|San Jose, CA|May 22#1"
+    },
+    "987998133035": {
+      "company": "Etched",
+      "role": "Inference Intern, Architecture",
+      "location": "San Jose, CA",
+      "term": "May 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 7223,
+      "chat_id": 7582459199,
+      "seq": 6027,
+      "identity": "NOURL|Etched|Inference Intern, Architecture|San Jose, CA|May 22#1"
+    },
+    "cfa5eab0935b": {
+      "company": "WSP",
+      "role": "Software Developer Intern",
+      "location": "Dallas, TX",
+      "term": "May 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 7224,
+      "chat_id": 7582459199,
+      "seq": 6028,
+      "identity": "NOURL|WSP|Software Developer Intern|Dallas, TX|May 12#1"
+    },
+    "824f61dc5b1c": {
+      "company": "Apex Technology, Inc.",
+      "role": "Software Engineering Intern, Embedded Systems",
+      "location": "Los Angeles",
+      "term": "May 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 7225,
+      "chat_id": 7582459199,
+      "seq": 6029,
+      "identity": "NOURL|Apex Technology, Inc.|Software Engineering Intern, Embedded Systems|Los Angeles|May 11#1"
+    },
+    "7429aae85c08": {
+      "company": "Homebase",
+      "role": "Forward Deployed Engineering Intern, AI-Native",
+      "location": "Houston, TX San Francisco, CA",
+      "term": "Apr 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 7226,
+      "chat_id": 7582459199,
+      "seq": 6030,
+      "identity": "NOURL|Homebase|Forward Deployed Engineering Intern, AI-Native|Houston, TX San Francisco, CA|Apr 28#1"
+    },
+    "f7edcb8be29b": {
+      "company": "TikTok",
+      "role": "LLM Post-training Engineer Intern, Research & Product",
+      "location": "San Jose, CA",
+      "term": "Apr 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 7227,
+      "chat_id": 7582459199,
+      "seq": 6031,
+      "identity": "NOURL|TikTok|LLM Post-training Engineer Intern, Research & Product|San Jose, CA|Apr 24#1"
+    },
+    "dc0aeac6a646": {
+      "company": "Al Warren Oil Company",
+      "role": "Software Developer Intern",
+      "location": "Bensenville, IL",
+      "term": "Apr 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 7228,
+      "chat_id": 7582459199,
+      "seq": 6032,
+      "identity": "NOURL|Al Warren Oil Company|Software Developer Intern|Bensenville, IL|Apr 24#1"
+    },
+    "0c68b7e894cf": {
+      "company": "Ether.fi",
+      "role": "GTM Engineer Intern",
+      "location": "Cayman Denver New York",
+      "term": "Apr 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 7229,
+      "chat_id": 7582459199,
+      "seq": 6033,
+      "identity": "NOURL|Ether.fi|GTM Engineer Intern|Cayman Denver New York|Apr 22#1"
+    },
+    "6677605fb9e6": {
+      "company": "Poshmark",
+      "role": "Cloud Platform Engineer Intern, Growth \ud83d\udec2",
+      "location": "Redwood City, CA",
+      "term": "Apr 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 7230,
+      "chat_id": 7582459199,
+      "seq": 6034,
+      "identity": "NOURL|Poshmark|Cloud Platform Engineer Intern, Growth \ud83d\udec2|Redwood City, CA|Apr 20#1"
     }
   },
   "applied": {
@@ -79335,10 +79467,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 6023,
+  "seq": 6034,
   "health": {
     "last_heartbeat": "2026-10-25T04:45:17Z",
-    "last_ok_run": "2026-10-25T04:55:52Z",
+    "last_ok_run": "2026-10-25T05:00:35Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
