@@ -3973,286 +3973,36 @@
       "https://gevernova.wd5.myworkdayjobs.com/en-US/vernova_externalsite/job/Bellevue/GE-Vernova---AGI---AI-Post-Training-and-Model-Alignment-Intern---Summer-2027_R5054822-2|GE Vernova|AI Post-Training and Model Alignment Intern, AGI|Bellevue, WA|Oct 14#1",
       "https://cboe.wd1.myworkdayjobs.com/en-US/external_career_cboe/job/Kansas-City-MO/Data-Pipeline-Engineer-Intern_R-4738|Cboe Global Markets|Data Pipeline Engineer Intern|Kansas City, MO|Oct 14#1",
       "https://aoins.wd5.myworkdayjobs.com/concord/job/Bedford-NH/Software-Engineer-Intern_R_14465|Auto-Owners Insurance|Software Engineer Intern|Bedford, NH|Oct 14#1",
-      "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017931|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1"
+      "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017931|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
+      "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017927|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
+      "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017929|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
+      "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017930|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
+      "https://americancentury.wd5.myworkdayjobs.com/en-US/americancenturyinvestments/job/Kansas-City-Missouri/Enterprise-Data-Intern_R0005751|American Century Investments|Enterprise Data Intern \ud83d\udec2|Kansas City, MO|Oct 14#1",
+      "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202606637|WTW|Risk & Analytics Core Intern \ud83d\udec2|New York, NY|Oct 13#1",
+      "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202606636|WTW|Risk & Analytics Enterprise Risk Consulting Intern \ud83d\udec2|New York, NY|Oct 13#1",
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20281371|Vertiv|UI/UX Design Intern|Delaware, OH|Oct 13#1",
+      "https://ttc.wd1.myworkdayjobs.com/en-US/Toro_External_Careers/job/Perry-OK/IT-Business-Analyst-Intern---Ditch-Witch_JR17608|The Toro Company|IT Business Analyst Intern, Ditch Witch \ud83d\udec2|Perry, OK|Oct 13#1",
+      "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5264424007|Tenstorrent|Systems Intern, Validation, Software, Design, Architecture & Packaging|Austin, TX Santa Clara, CA|Oct 13#1",
+      "https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-MobiControl-Apple-HQ--January-2027-12-Months-_R10551-2|SOTI|Software Developer Intern, SOTI MobiControl Apple HQ|Mississauga, ON|Oct 13#1",
+      "https://jobs.smartrecruiters.com/ServiceNow/744000155345889|ServiceNow|Associate Software Engineer Intern, AI Engineering|Santa Clara, CA|Oct 13#1",
+      "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Differentiable-Simulation-Research-Intern---Summer-2027_JR2027561|NVIDIA|Differentiable Simulation Research Intern|Santa Clara, CA|Oct 13#1",
+      "https://maryfreebed.wd12.myworkdayjobs.com/en-US/mfb/job/Grand-Rapids-MI/IT-Intern---Summer-2027_JB103360|Mary Free Bed Rehabilitation Hospital|IT Intern|Grand Rapids, MI|Oct 13#1",
+      "https://mmc.wd1.myworkdayjobs.com/en-US/MMC/job/Dallas---13155-Noel/Intern---Summer-2027_R_369433|Marsh|Intern|Dallas, TX|Oct 13#1",
+      "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817|KLA|Software Engineer Intern, AI|Ann Arbor, MI|Oct 13#1",
+      "https://careers-gdms.icims.com/jobs/75514/cyber-engineering-intern-%28summer-2027%29/job|General Dynamics Mission Systems|Cyber Engineering Intern \ud83c\uddfa\ud83c\uddf8|Middletown, RI|Oct 13#1",
+      "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Washington---Seattle-Campus/Security-Engineering-Intern---2027---Seattle_R-110310-1|Expedia Group|Security Engineering Intern|Seattle, WA|Oct 13#1",
+      "https://draper.wd5.myworkdayjobs.com/en-US/draper_careers/job/Cambridge-MA/Classified-Cybersecurity-IT-Internship--Summer-2027-_JR003021|Draper|Classified Cybersecurity/IT Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Oct 13#1",
+      "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/US-VA-Richmond---CoStar-Tower/Product-Intern---Richmond--VA--Summer-2027-_R39900|CoStar Group|Product Intern|Richmond, VA|Oct 13#1",
+      "https://americas-cookmedical.icims.com/jobs/19427/intern%2c-artificial-intelligence-%26-innovation/job|Cook Group|Artificial Intelligence & Innovation Intern|Bloomington, IN|Oct 13#1",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000155120934|Bosch|Information Security and Privacy Intern|Farmington Hills, MI|Oct 13#1",
+      "https://jobs.ashbyhq.com/armadin/571d7673-ce4b-414c-b736-38297d1d2b8b/application|Armadin|Member of Technical Staff Intern, Frontend|Palo Alto, CA|Oct 13#1",
+      "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineering-Intern_J000704383|Aptiv|Cloud Engineering Intern|CAN Kanata, ON|Oct 13#1",
+      "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineer-Intern_J000704380|Aptiv|Cloud Engineer Intern|CAN Kanata, ON|Oct 13#1",
+      "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineer-Intern_J000704376|Aptiv|Cloud Engineer Intern|CAN Kanata, ON|Oct 13#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 769,
     "outbox": [
-      [
-        [
-          "Astreya",
-          "AI Infrastructure DC Design Intern",
-          "Remote (US)",
-          "Oct 14",
-          "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017927"
-        ],
-        "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017927|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Astreya",
-          "AI Infrastructure DC Design Intern",
-          "Remote (US)",
-          "Oct 14",
-          "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017929"
-        ],
-        "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017929|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Astreya",
-          "AI Infrastructure DC Design Intern",
-          "Remote (US)",
-          "Oct 14",
-          "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017930"
-        ],
-        "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017930|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "American Century Investments",
-          "Enterprise Data Intern \ud83d\udec2",
-          "Kansas City, MO",
-          "Oct 14",
-          "https://americancentury.wd5.myworkdayjobs.com/en-US/americancenturyinvestments/job/Kansas-City-Missouri/Enterprise-Data-Intern_R0005751"
-        ],
-        "https://americancentury.wd5.myworkdayjobs.com/en-US/americancenturyinvestments/job/Kansas-City-Missouri/Enterprise-Data-Intern_R0005751|American Century Investments|Enterprise Data Intern \ud83d\udec2|Kansas City, MO|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "WTW",
-          "Risk & Analytics Core Intern \ud83d\udec2",
-          "New York, NY",
-          "Oct 13",
-          "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202606637"
-        ],
-        "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202606637|WTW|Risk & Analytics Core Intern \ud83d\udec2|New York, NY|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "WTW",
-          "Risk & Analytics Enterprise Risk Consulting Intern \ud83d\udec2",
-          "New York, NY",
-          "Oct 13",
-          "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202606636"
-        ],
-        "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202606636|WTW|Risk & Analytics Enterprise Risk Consulting Intern \ud83d\udec2|New York, NY|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Vertiv",
-          "UI/UX Design Intern",
-          "Delaware, OH",
-          "Oct 13",
-          "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20281371"
-        ],
-        "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20281371|Vertiv|UI/UX Design Intern|Delaware, OH|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "The Toro Company",
-          "IT Business Analyst Intern, Ditch Witch \ud83d\udec2",
-          "Perry, OK",
-          "Oct 13",
-          "https://ttc.wd1.myworkdayjobs.com/en-US/Toro_External_Careers/job/Perry-OK/IT-Business-Analyst-Intern---Ditch-Witch_JR17608"
-        ],
-        "https://ttc.wd1.myworkdayjobs.com/en-US/Toro_External_Careers/job/Perry-OK/IT-Business-Analyst-Intern---Ditch-Witch_JR17608|The Toro Company|IT Business Analyst Intern, Ditch Witch \ud83d\udec2|Perry, OK|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Tenstorrent",
-          "Systems Intern, Validation, Software, Design, Architecture & Packaging",
-          "Austin, TX Santa Clara, CA",
-          "Oct 13",
-          "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5264424007"
-        ],
-        "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5264424007|Tenstorrent|Systems Intern, Validation, Software, Design, Architecture & Packaging|Austin, TX Santa Clara, CA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "SOTI",
-          "Software Developer Intern, SOTI MobiControl Apple HQ",
-          "Mississauga, ON",
-          "Oct 13",
-          "https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-MobiControl-Apple-HQ--January-2027-12-Months-_R10551-2"
-        ],
-        "https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-MobiControl-Apple-HQ--January-2027-12-Months-_R10551-2|SOTI|Software Developer Intern, SOTI MobiControl Apple HQ|Mississauga, ON|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "ServiceNow",
-          "Associate Software Engineer Intern, AI Engineering",
-          "Santa Clara, CA",
-          "Oct 13",
-          "https://jobs.smartrecruiters.com/ServiceNow/744000155345889"
-        ],
-        "https://jobs.smartrecruiters.com/ServiceNow/744000155345889|ServiceNow|Associate Software Engineer Intern, AI Engineering|Santa Clara, CA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "NVIDIA",
-          "Differentiable Simulation Research Intern",
-          "Santa Clara, CA",
-          "Oct 13",
-          "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Differentiable-Simulation-Research-Intern---Summer-2027_JR2027561"
-        ],
-        "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Differentiable-Simulation-Research-Intern---Summer-2027_JR2027561|NVIDIA|Differentiable Simulation Research Intern|Santa Clara, CA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Mary Free Bed Rehabilitation Hospital",
-          "IT Intern",
-          "Grand Rapids, MI",
-          "Oct 13",
-          "https://maryfreebed.wd12.myworkdayjobs.com/en-US/mfb/job/Grand-Rapids-MI/IT-Intern---Summer-2027_JB103360"
-        ],
-        "https://maryfreebed.wd12.myworkdayjobs.com/en-US/mfb/job/Grand-Rapids-MI/IT-Intern---Summer-2027_JB103360|Mary Free Bed Rehabilitation Hospital|IT Intern|Grand Rapids, MI|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Marsh",
-          "Intern",
-          "Dallas, TX",
-          "Oct 13",
-          "https://mmc.wd1.myworkdayjobs.com/en-US/MMC/job/Dallas---13155-Noel/Intern---Summer-2027_R_369433"
-        ],
-        "https://mmc.wd1.myworkdayjobs.com/en-US/MMC/job/Dallas---13155-Noel/Intern---Summer-2027_R_369433|Marsh|Intern|Dallas, TX|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "KLA",
-          "Software Engineer Intern, AI",
-          "Ann Arbor, MI",
-          "Oct 13",
-          "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817"
-        ],
-        "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817|KLA|Software Engineer Intern, AI|Ann Arbor, MI|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "General Dynamics Mission Systems",
-          "Cyber Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "Middletown, RI",
-          "Oct 13",
-          "https://careers-gdms.icims.com/jobs/75514/cyber-engineering-intern-%28summer-2027%29/job"
-        ],
-        "https://careers-gdms.icims.com/jobs/75514/cyber-engineering-intern-%28summer-2027%29/job|General Dynamics Mission Systems|Cyber Engineering Intern \ud83c\uddfa\ud83c\uddf8|Middletown, RI|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Expedia Group",
-          "Security Engineering Intern",
-          "Seattle, WA",
-          "Oct 13",
-          "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Washington---Seattle-Campus/Security-Engineering-Intern---2027---Seattle_R-110310-1"
-        ],
-        "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Washington---Seattle-Campus/Security-Engineering-Intern---2027---Seattle_R-110310-1|Expedia Group|Security Engineering Intern|Seattle, WA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Draper",
-          "Classified Cybersecurity/IT Intern \ud83c\uddfa\ud83c\uddf8",
-          "Cambridge, MA",
-          "Oct 13",
-          "https://draper.wd5.myworkdayjobs.com/en-US/draper_careers/job/Cambridge-MA/Classified-Cybersecurity-IT-Internship--Summer-2027-_JR003021"
-        ],
-        "https://draper.wd5.myworkdayjobs.com/en-US/draper_careers/job/Cambridge-MA/Classified-Cybersecurity-IT-Internship--Summer-2027-_JR003021|Draper|Classified Cybersecurity/IT Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "CoStar Group",
-          "Product Intern",
-          "Richmond, VA",
-          "Oct 13",
-          "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/US-VA-Richmond---CoStar-Tower/Product-Intern---Richmond--VA--Summer-2027-_R39900"
-        ],
-        "https://costar.wd1.myworkdayjobs.com/en-US/Costar_Campus/job/US-VA-Richmond---CoStar-Tower/Product-Intern---Richmond--VA--Summer-2027-_R39900|CoStar Group|Product Intern|Richmond, VA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Cook Group",
-          "Artificial Intelligence & Innovation Intern",
-          "Bloomington, IN",
-          "Oct 13",
-          "https://americas-cookmedical.icims.com/jobs/19427/intern%2c-artificial-intelligence-%26-innovation/job"
-        ],
-        "https://americas-cookmedical.icims.com/jobs/19427/intern%2c-artificial-intelligence-%26-innovation/job|Cook Group|Artificial Intelligence & Innovation Intern|Bloomington, IN|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Bosch",
-          "Information Security and Privacy Intern",
-          "Farmington Hills, MI",
-          "Oct 13",
-          "https://jobs.smartrecruiters.com/BoschGroup/744000155120934"
-        ],
-        "https://jobs.smartrecruiters.com/BoschGroup/744000155120934|Bosch|Information Security and Privacy Intern|Farmington Hills, MI|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Armadin",
-          "Member of Technical Staff Intern, Frontend",
-          "Palo Alto, CA",
-          "Oct 13",
-          "https://jobs.ashbyhq.com/armadin/571d7673-ce4b-414c-b736-38297d1d2b8b/application"
-        ],
-        "https://jobs.ashbyhq.com/armadin/571d7673-ce4b-414c-b736-38297d1d2b8b/application|Armadin|Member of Technical Staff Intern, Frontend|Palo Alto, CA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "Cloud Engineering Intern",
-          "CAN Kanata, ON",
-          "Oct 13",
-          "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineering-Intern_J000704383"
-        ],
-        "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineering-Intern_J000704383|Aptiv|Cloud Engineering Intern|CAN Kanata, ON|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "Cloud Engineer Intern",
-          "CAN Kanata, ON",
-          "Oct 13",
-          "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineer-Intern_J000704380"
-        ],
-        "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineer-Intern_J000704380|Aptiv|Cloud Engineer Intern|CAN Kanata, ON|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "Cloud Engineer Intern",
-          "CAN Kanata, ON",
-          "Oct 13",
-          "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineer-Intern_J000704376"
-        ],
-        "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineer-Intern_J000704376|Aptiv|Cloud Engineer Intern|CAN Kanata, ON|Oct 13#1",
-        1
-      ],
       [
         [
           "Aptiv",
@@ -14156,7 +13906,7 @@
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "d8cf116a8c0449739688d41545c0b7268f8d6177",
+    "last_sha": "68e3caf98f245c03b123cb3387f221ab6225a0e2",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
