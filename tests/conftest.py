@@ -15,6 +15,7 @@ import sys
 import tempfile
 import textwrap
 import time
+import types
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -315,6 +316,276 @@ def run_watcher():
 def _evict_watcher_modules():
     for name in [k for k in sys.modules if k == "watcher" or k.startswith("watcher.")]:
         del sys.modules[name]
+
+
+# --- process_applies (workflow block 1) ---------------------------------------------------
+#
+# The callback job is the other half of the workflow and had no coverage at all: block 1 was
+# never executed, so a tap reaching the Sheet rested entirely on it working in production. It
+# needs more stubbing than the watcher does -- it imports google-auth, which CI does not install,
+# and AGENTS.md forbids wrapping that import in a try/except to make it optional.
+
+CALLBACK_ENV = dict(
+    TELEGRAM_BOT_TOKEN="test-bot-token",
+    APPLICATIONS_SHEET_ID="test-sheet-id",
+    APPLICATIONS_SHEET_RANGE="Applications!A:F",
+    GOOGLE_SERVICE_ACCOUNT_JSON=json.dumps({"type": "service_account"}),
+)
+
+GOOGLE_STUB_NAMES = (
+    "google", "google.oauth2", "google.oauth2.service_account",
+    "google.auth", "google.auth.transport", "google.auth.transport.requests",
+)
+
+
+class _StubCredentials:
+    token = "stub-access-token"
+
+    @classmethod
+    def from_service_account_info(cls, info, scopes=None):
+        return cls()
+
+    def refresh(self, request):
+        pass
+
+
+def _google_stubs():
+    """Stand-ins for the two google-auth imports at the top of block 1.
+
+    CI installs pytest and pyyaml only (.github/workflows/tests.yml), so the real package is not
+    there to import -- and the suite must stay offline besides.
+    """
+    modules = {name: types.ModuleType(name) for name in GOOGLE_STUB_NAMES}
+    modules["google.oauth2.service_account"].Credentials = _StubCredentials
+    modules["google.auth.transport.requests"].Request = lambda *a, **kw: None
+    modules["google"].oauth2 = modules["google.oauth2"]
+    modules["google"].auth = modules["google.auth"]
+    modules["google.oauth2"].service_account = modules["google.oauth2.service_account"]
+    modules["google.auth"].transport = modules["google.auth.transport"]
+    modules["google.auth.transport"].requests = modules["google.auth.transport.requests"]
+    return modules
+
+
+def telegram_method(url):
+    """The Bot API method a URL calls, e.g. .../bot<token>/getUpdates?offset=3 -> getUpdates."""
+    return url.split("/bot", 1)[1].split("/", 1)[1].split("?", 1)[0]
+
+
+def callback_update(update_id, job_hash, callback_id=None):
+    return {
+        "update_id": update_id,
+        "callback_query": {
+            "id": callback_id or f"cb{update_id}",
+            "data": f"apply:{job_hash}",
+        },
+    }
+
+
+def pending_job(company="Acme", role="SWE Intern", seq=41):
+    return {
+        "company": company,
+        "role": role,
+        "location": "Remote",
+        "term": "Summer 2027",
+        "apply_url": "https://example.com/apply?src=list",
+        "source": "Vansh Summer Repo",
+        "message_id": 1301,
+        "chat_id": 7582459199,
+        "seq": seq,
+        "identity": f"https://example.com/apply?src=list|{company}|{role}|Remote|Summer 2027#1",
+    }
+
+
+def callback_bot_state(pending=None, last_update_id=0, health=None):
+    return {
+        "telegram": {"last_update_id": last_update_id},
+        "pending": dict(pending or {}),
+        "applied": {},
+        "seq": 41,
+        "health": dict(health or {}),
+    }
+
+
+class CallbackResult:
+    def __init__(self, code, message, error, calls, appended, edits, answers, files, log,
+                 timeouts):
+        self.code = code
+        # The SystemExit payload when the job exits red, so a test can show *why* it went red
+        # rather than only that it did.
+        self.message = message
+        # The uncaught exception, when the run died of one rather than exiting deliberately.
+        self.error = error
+        # (method, timeout) per urlopen, in order. Polling and the mutation path are on
+        # deliberately different budgets, and this is what proves it.
+        self.timeouts = timeouts
+        self.calls = calls
+        self.appended = appended
+        self.edits = edits
+        self.answers = answers
+        self.log = log
+        self.bot_state_text = files[".bot_state.json"]
+        self.bot_state = json.loads(self.bot_state_text)
+
+    @property
+    def pending(self):
+        return self.bot_state["pending"]
+
+    @property
+    def applied(self):
+        return self.bot_state["applied"]
+
+    @property
+    def offset(self):
+        return self.bot_state["telegram"]["last_update_id"]
+
+    @property
+    def poll_failures(self):
+        return self.bot_state.get("health", {}).get("callback_poll_failures")
+
+    def timeout_for(self, method):
+        return [t for name, t in self.timeouts if name == method]
+
+
+def _make_callback_urlopen(updates, calls, appended, edits, answers, timeouts,
+                           poll_errors, webhook_url, faults):
+    errors = {"getUpdates": list(poll_errors)}
+    for name, outcomes in (faults or {}).items():
+        errors.setdefault(name, []).extend(outcomes)
+
+    def fail_if_faulted(name, url):
+        """Consume one queued outcome for this call, if any. A short list simply runs out, which
+        is how a fault that clears after N attempts is expressed."""
+        queued = errors.get(name)
+        if queued:
+            raise queued.pop(0)(url)
+
+    def urlopen(req, *args, **kwargs):
+        url = req.full_url if hasattr(req, "full_url") else str(req)
+        timeout = kwargs.get("timeout", args[0] if args else None)
+
+        if "sheets.googleapis.com" in url:
+            timeouts.append(("sheets:append", timeout))
+            calls.append("sheets:append")
+            fail_if_faulted("sheets:append", url)
+            # Recorded only once the call succeeds: a failed append must leave no row, which is
+            # what makes advancing the offset after it rather than before it load-bearing.
+            appended.append(json.loads(req.data.decode())["values"][0])
+            return _Resp(b"{}")
+
+        if "api.telegram.org" not in url:
+            raise AssertionError(f"unstubbed URL: {url}")
+
+        method = telegram_method(url)
+        timeouts.append((method, timeout))
+        calls.append(method)
+        fail_if_faulted(method, url)
+
+        if method == "getUpdates":
+            return _Resp(json.dumps({"ok": True, "result": list(updates)}).encode())
+        if method == "getWebhookInfo":
+            return _Resp(json.dumps({"ok": True, "result": {"url": webhook_url}}).encode())
+        if method == "deleteWebhook":
+            return _Resp(json.dumps({"ok": True, "result": True}).encode())
+        if method == "answerCallbackQuery":
+            answers.append(json.loads(req.data.decode()))
+            return _Resp(json.dumps({"ok": True, "result": True}).encode())
+        if method == "editMessageText":
+            edits.append(json.loads(req.data.decode()))
+            return _Resp(json.dumps({"ok": True, "result": {}}).encode())
+        raise AssertionError(f"unstubbed Telegram method: {method}")
+
+    return urlopen
+
+
+def timeout_error(_url):
+    return TimeoutError("The read operation timed out")
+
+
+def http_error(status):
+    """A getUpdates failure factory, e.g. http_error(401) for a revoked bot token."""
+    def make(url):
+        return urllib.error.HTTPError(url, status, "error", {}, io.BytesIO(b"{}"))
+    return make
+
+
+@pytest.fixture
+def run_callbacks():
+    """Return `run(updates=..., **kw) -> CallbackResult`, running workflow block 1 for real."""
+
+    def run(updates=(), start_state=None, poll_errors=(), webhook_url="", faults=None,
+            state_file=True):
+        work = Path(tempfile.mkdtemp())
+        try:
+            if state_file:
+                # A str is written verbatim so one run can be fed the exact bytes the previous
+                # one wrote -- the only way to show a quiet run leaves the file untouched, and
+                # therefore commits nothing.
+                start = callback_bot_state() if start_state is None else start_state
+                (work / ".bot_state.json").write_text(
+                    start if isinstance(start, str) else json.dumps(start)
+                )
+            calls, appended, edits, answers, timeouts = [], [], [], [], []
+            saved_cwd, saved_sleep = os.getcwd(), time.sleep
+            saved_urlopen = urllib.request.urlopen
+            saved_modules = {k: sys.modules.get(k) for k in GOOGLE_STUB_NAMES}
+            saved_stdout = sys.stdout
+            saved_env = {k: os.environ.get(k) for k in CALLBACK_ENV}
+            buf = io.StringIO()
+            code, message, error = 0, None, None
+            try:
+                os.chdir(work)
+                os.environ.update(CALLBACK_ENV)
+                sys.modules.update(_google_stubs())
+                urllib.request.urlopen = _make_callback_urlopen(
+                    updates, calls, appended, edits, answers, timeouts,
+                    poll_errors, webhook_url, faults,
+                )
+                time.sleep = lambda _s: None
+                sys.stdout = buf
+                try:
+                    exec(compile(workflow_block(1), "<watch-files.yml>", "exec"),
+                         {"__name__": "__main__"})
+                except SystemExit as exc:
+                    # `raise SystemExit("...")` exits 1 and prints the message; keep both, since
+                    # the difference between exit 0 and exit 1 is the whole point of the alarm.
+                    if exc.code is None or isinstance(exc.code, int):
+                        code = exc.code or 0
+                    else:
+                        code, message = 1, str(exc.code)
+                except AssertionError:
+                    raise  # a hole in this stub, not a finding about the workflow
+                except Exception as exc:
+                    # An uncaught exception is a red step. Recorded rather than propagated so a
+                    # test can still inspect what the dead run left behind -- which is the whole
+                    # subject of the duplicate-row hazard.
+                    code, error = 1, exc
+            finally:
+                sys.stdout = saved_stdout
+                os.chdir(saved_cwd)
+                urllib.request.urlopen = saved_urlopen
+                time.sleep = saved_sleep
+                for name, module in saved_modules.items():
+                    if module is None:
+                        sys.modules.pop(name, None)
+                    else:
+                        sys.modules[name] = module
+                for name, value in saved_env.items():
+                    if value is None:
+                        os.environ.pop(name, None)
+                    else:
+                        os.environ[name] = value
+
+            files = {}
+            if (work / ".bot_state.json").exists():
+                files[".bot_state.json"] = (work / ".bot_state.json").read_text()
+            else:
+                files[".bot_state.json"] = "{}"
+            return CallbackResult(code, message, error, calls, appended, edits, answers,
+                                  files, buf.getvalue(), timeouts)
+        finally:
+            shutil.rmtree(work, ignore_errors=True)
+
+    return run
 
 
 @pytest.fixture
