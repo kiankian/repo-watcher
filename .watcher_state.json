@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "c7fd71b758015fe3792368fb8189d9939340f6db",
+    "last_sha": "74fc8c79fe63d7af262c8dd8816bf3135f8e8cb0",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -4198,286 +4198,36 @@
       "https://voloridge-investment-management.hiringthing.com/job/1013126/quantitative-developer-intern-2027?s=lif&jr_id=69eaa8e4dc35f7132c4ab803|Voloridge Investment Management|Quantitative Developer Intern|Jupiter, FL|May 22#1",
       "https://careers.sig.com/jobs/10837?lang=en-us&mode=apply&iis=LinkedIn&jr_id=69f3d11158b23a2329da8088|Susquehanna|Trading System Engineering Intern|Bala Cynwyd, PA|May 22#1",
       "https://www.stokespace.com/careers/current-openings/?gh_jid=5987663004&jr_id=69fae0acd21cf86d1e3cd79c|Stoke Space|Software Engineer Intern|Kent, WA|May 22#1",
-      "https://job-boards.greenhouse.io/embed/job_app?for=aquaticcapitalmanagement&jr_id=6a06fd77152f493123c4b595&token=8489233002|Aquatic Capital|Software Engineer Intern|Chicago, IL|May 22#1"
+      "https://job-boards.greenhouse.io/embed/job_app?for=aquaticcapitalmanagement&jr_id=6a06fd77152f493123c4b595&token=8489233002|Aquatic Capital|Software Engineer Intern|Chicago, IL|May 22#1",
+      "https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships|Apple|Software Engineer Intern, Undergrad|United States|May 22#1",
+      "https://jobs.apple.com/en-us/details/200664320/software-engineering-masters-internships|Apple|Software Engineering Intern, Masters|United States|May 22#1",
+      "https://www.workatastartup.com/jobs/95003|StarSling|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|May 19#1",
+      "https://www.workatastartup.com/jobs/94993|Nash|Full Stack Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 19#1",
+      "https://www.workatastartup.com/jobs/94620|Trata|Research Scientist Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA New York, NY|May 14#1",
+      "https://www.workatastartup.com/jobs/94631|Terranox AI|Summer Intern - AI/ML Engineering \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1",
+      "https://www.workatastartup.com/jobs/94647|Na\u00efve|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA Remote|May 14#1",
+      "https://www.workatastartup.com/jobs/94634|Abundant|Software Engineering Intern, Research Focused \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1",
+      "https://www.workatastartup.com/jobs/93642|Paragon|Forward Deployed Engineer (FDE) Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
+      "https://www.workatastartup.com/jobs/94206|General Astronautics|Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
+      "https://www.workatastartup.com/jobs/94211|DimeHealth AI|Forward Deployed Engineering Intern|New York, NY|May 09#1",
+      "https://www.workatastartup.com/jobs/94400|Dedalus Labs|Forward Deployed Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1|Amazon|Robotics - Software Development Engineer Intern/Co-op|**8 locations**Sunnyvale, CA North Reading, MA Westboro, MA Nashville, TN Austin, TX Arlington, VA Bellevue, WA Seattle, WA|May 09#1",
+      "https://career41.sapsf.com/career?career_ns=job_listing&company=hcollp&career_job_req_id=3507|H&CO|Software Development Intern|Coral Gables, FL|Apr 22#1",
+      "https://tetramem.hrmdirect.com/employment/job-opening.php?req=3491042#job|TETRAMEM|Software Engineer Intern, Embedded|San Jose, CA|Apr 20#1",
+      "https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100|Skyworks|Analog IC Design Co-op|Irvine, CA|Apr 20#1",
+      "https://careers.ice.com/jobs/12830?lang=en-us&iis=LinkedIn&iisn=Linkedin&mode=apply&jr_id=69e67bb27820c036924d0af9|Intercontinental Exchange, Inc.|Artificial Intelligence, Data & Machine Learning Intern|New York, NY|Apr 20#1",
+      "https://careers.fiserv.com/us/en/job/FFFYJUSR10390264EXTERNALENUS/Application-Development-Summer-Intern?jr_id=69e6ab177820c036924d1dc6|Fiserv|Application Development Intern \ud83d\udec2|Alpharetta, GA|Apr 20#1",
+      "https://careers.fiserv.com/us/en/job/FFFYJUSR10390344EXTERNALENUS/Technology-Summer-Intern?jr_id=69e6ab5e3aa0c4796439589b|Fiserv|Technology Intern \ud83d\udec2|Columbus, OH|Apr 20#1",
+      "https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081|Point72|Investment Analyst Intern, Point72 Academy|**5 locations**New York, NY San Francisco, CA Chicago, IL West Palm Beach, FL Miami, FL|Apr 19#1",
+      "https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-researcher-internship&jobCode=CSS-0012295|Point72|Quantitative Researcher Intern|New York, NY|Apr 19#1",
+      "https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-developer-internship&jobCode=CSS-0012293|Point72|Quantitative Developer Intern|New York, NY|Apr 19#1",
+      "NOURL|Northrop Grumman|Cyber Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Antonio, TX|Oct 22#1",
+      "NOURL|Amazon|Software Engineer Intern|Redmond, WA|Oct 22#1",
+      "NOURL|MITRE|AI Engineering Intern|Bedford, MA|Oct 18#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 769,
     "outbox": [
-      [
-        [
-          "Apple",
-          "Software Engineer Intern, Undergrad",
-          "United States",
-          "May 22",
-          "https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships"
-        ],
-        "https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships|Apple|Software Engineer Intern, Undergrad|United States|May 22#1",
-        1
-      ],
-      [
-        [
-          "Apple",
-          "Software Engineering Intern, Masters",
-          "United States",
-          "May 22",
-          "https://jobs.apple.com/en-us/details/200664320/software-engineering-masters-internships"
-        ],
-        "https://jobs.apple.com/en-us/details/200664320/software-engineering-masters-internships|Apple|Software Engineering Intern, Masters|United States|May 22#1",
-        1
-      ],
-      [
-        [
-          "StarSling",
-          "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Mateo, CA",
-          "May 19",
-          "https://www.workatastartup.com/jobs/95003"
-        ],
-        "https://www.workatastartup.com/jobs/95003|StarSling|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|May 19#1",
-        1
-      ],
-      [
-        [
-          "Nash",
-          "Full Stack Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Francisco, CA",
-          "May 19",
-          "https://www.workatastartup.com/jobs/94993"
-        ],
-        "https://www.workatastartup.com/jobs/94993|Nash|Full Stack Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 19#1",
-        1
-      ],
-      [
-        [
-          "Trata",
-          "Research Scientist Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Francisco, CA New York, NY",
-          "May 14",
-          "https://www.workatastartup.com/jobs/94620"
-        ],
-        "https://www.workatastartup.com/jobs/94620|Trata|Research Scientist Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA New York, NY|May 14#1",
-        1
-      ],
-      [
-        [
-          "Terranox AI",
-          "Summer Intern - AI/ML Engineering \ud83c\uddfa\ud83c\uddf8",
-          "San Francisco, CA",
-          "May 14",
-          "https://www.workatastartup.com/jobs/94631"
-        ],
-        "https://www.workatastartup.com/jobs/94631|Terranox AI|Summer Intern - AI/ML Engineering \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1",
-        1
-      ],
-      [
-        [
-          "Na\u00efve",
-          "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Francisco, CA Remote",
-          "May 14",
-          "https://www.workatastartup.com/jobs/94647"
-        ],
-        "https://www.workatastartup.com/jobs/94647|Na\u00efve|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA Remote|May 14#1",
-        1
-      ],
-      [
-        [
-          "Abundant",
-          "Software Engineering Intern, Research Focused \ud83c\uddfa\ud83c\uddf8",
-          "San Francisco, CA",
-          "May 14",
-          "https://www.workatastartup.com/jobs/94634"
-        ],
-        "https://www.workatastartup.com/jobs/94634|Abundant|Software Engineering Intern, Research Focused \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1",
-        1
-      ],
-      [
-        [
-          "Paragon",
-          "Forward Deployed Engineer (FDE) Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Francisco, CA",
-          "May 09",
-          "https://www.workatastartup.com/jobs/93642"
-        ],
-        "https://www.workatastartup.com/jobs/93642|Paragon|Forward Deployed Engineer (FDE) Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
-        1
-      ],
-      [
-        [
-          "General Astronautics",
-          "Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Francisco, CA",
-          "May 09",
-          "https://www.workatastartup.com/jobs/94206"
-        ],
-        "https://www.workatastartup.com/jobs/94206|General Astronautics|Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
-        1
-      ],
-      [
-        [
-          "DimeHealth AI",
-          "Forward Deployed Engineering Intern",
-          "New York, NY",
-          "May 09",
-          "https://www.workatastartup.com/jobs/94211"
-        ],
-        "https://www.workatastartup.com/jobs/94211|DimeHealth AI|Forward Deployed Engineering Intern|New York, NY|May 09#1",
-        1
-      ],
-      [
-        [
-          "Dedalus Labs",
-          "Forward Deployed Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Francisco, CA",
-          "May 09",
-          "https://www.workatastartup.com/jobs/94400"
-        ],
-        "https://www.workatastartup.com/jobs/94400|Dedalus Labs|Forward Deployed Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Robotics - Software Development Engineer Intern/Co-op",
-          "**8 locations**Sunnyvale, CA North Reading, MA Westboro, MA Nashville, TN Austin, TX Arlington, VA Bellevue, WA Seattle, WA",
-          "May 09",
-          "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
-        ],
-        "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1|Amazon|Robotics - Software Development Engineer Intern/Co-op|**8 locations**Sunnyvale, CA North Reading, MA Westboro, MA Nashville, TN Austin, TX Arlington, VA Bellevue, WA Seattle, WA|May 09#1",
-        1
-      ],
-      [
-        [
-          "H&CO",
-          "Software Development Intern",
-          "Coral Gables, FL",
-          "Apr 22",
-          "https://career41.sapsf.com/career?career_ns=job_listing&company=hcollp&career_job_req_id=3507"
-        ],
-        "https://career41.sapsf.com/career?career_ns=job_listing&company=hcollp&career_job_req_id=3507|H&CO|Software Development Intern|Coral Gables, FL|Apr 22#1",
-        1
-      ],
-      [
-        [
-          "TETRAMEM",
-          "Software Engineer Intern, Embedded",
-          "San Jose, CA",
-          "Apr 20",
-          "https://tetramem.hrmdirect.com/employment/job-opening.php?req=3491042#job"
-        ],
-        "https://tetramem.hrmdirect.com/employment/job-opening.php?req=3491042#job|TETRAMEM|Software Engineer Intern, Embedded|San Jose, CA|Apr 20#1",
-        1
-      ],
-      [
-        [
-          "Skyworks",
-          "Analog IC Design Co-op",
-          "Irvine, CA",
-          "Apr 20",
-          "https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100"
-        ],
-        "https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100|Skyworks|Analog IC Design Co-op|Irvine, CA|Apr 20#1",
-        1
-      ],
-      [
-        [
-          "Intercontinental Exchange, Inc.",
-          "Artificial Intelligence, Data & Machine Learning Intern",
-          "New York, NY",
-          "Apr 20",
-          "https://careers.ice.com/jobs/12830?lang=en-us&iis=LinkedIn&iisn=Linkedin&mode=apply&jr_id=69e67bb27820c036924d0af9"
-        ],
-        "https://careers.ice.com/jobs/12830?lang=en-us&iis=LinkedIn&iisn=Linkedin&mode=apply&jr_id=69e67bb27820c036924d0af9|Intercontinental Exchange, Inc.|Artificial Intelligence, Data & Machine Learning Intern|New York, NY|Apr 20#1",
-        1
-      ],
-      [
-        [
-          "Fiserv",
-          "Application Development Intern \ud83d\udec2",
-          "Alpharetta, GA",
-          "Apr 20",
-          "https://careers.fiserv.com/us/en/job/FFFYJUSR10390264EXTERNALENUS/Application-Development-Summer-Intern?jr_id=69e6ab177820c036924d1dc6"
-        ],
-        "https://careers.fiserv.com/us/en/job/FFFYJUSR10390264EXTERNALENUS/Application-Development-Summer-Intern?jr_id=69e6ab177820c036924d1dc6|Fiserv|Application Development Intern \ud83d\udec2|Alpharetta, GA|Apr 20#1",
-        1
-      ],
-      [
-        [
-          "Fiserv",
-          "Technology Intern \ud83d\udec2",
-          "Columbus, OH",
-          "Apr 20",
-          "https://careers.fiserv.com/us/en/job/FFFYJUSR10390344EXTERNALENUS/Technology-Summer-Intern?jr_id=69e6ab5e3aa0c4796439589b"
-        ],
-        "https://careers.fiserv.com/us/en/job/FFFYJUSR10390344EXTERNALENUS/Technology-Summer-Intern?jr_id=69e6ab5e3aa0c4796439589b|Fiserv|Technology Intern \ud83d\udec2|Columbus, OH|Apr 20#1",
-        1
-      ],
-      [
-        [
-          "Point72",
-          "Investment Analyst Intern, Point72 Academy",
-          "**5 locations**New York, NY San Francisco, CA Chicago, IL West Palm Beach, FL Miami, FL",
-          "Apr 19",
-          "https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081"
-        ],
-        "https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081|Point72|Investment Analyst Intern, Point72 Academy|**5 locations**New York, NY San Francisco, CA Chicago, IL West Palm Beach, FL Miami, FL|Apr 19#1",
-        1
-      ],
-      [
-        [
-          "Point72",
-          "Quantitative Researcher Intern",
-          "New York, NY",
-          "Apr 19",
-          "https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-researcher-internship&jobCode=CSS-0012295"
-        ],
-        "https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-researcher-internship&jobCode=CSS-0012295|Point72|Quantitative Researcher Intern|New York, NY|Apr 19#1",
-        1
-      ],
-      [
-        [
-          "Point72",
-          "Quantitative Developer Intern",
-          "New York, NY",
-          "Apr 19",
-          "https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-developer-internship&jobCode=CSS-0012293"
-        ],
-        "https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-developer-internship&jobCode=CSS-0012293|Point72|Quantitative Developer Intern|New York, NY|Apr 19#1",
-        1
-      ],
-      [
-        [
-          "Northrop Grumman",
-          "Cyber Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Antonio, TX",
-          "Oct 22",
-          ""
-        ],
-        "NOURL|Northrop Grumman|Cyber Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Antonio, TX|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Software Engineer Intern",
-          "Redmond, WA",
-          "Oct 22",
-          ""
-        ],
-        "NOURL|Amazon|Software Engineer Intern|Redmond, WA|Oct 22#1",
-        1
-      ],
-      [
-        [
-          "MITRE",
-          "AI Engineering Intern",
-          "Bedford, MA",
-          "Oct 18",
-          ""
-        ],
-        "NOURL|MITRE|AI Engineering Intern|Bedford, MA|Oct 18#1",
-        1
-      ],
       [
         [
           "H&R Block",
