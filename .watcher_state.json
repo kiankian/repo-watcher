@@ -4398,286 +4398,36 @@
       "https://go.vansh.nyc/dt|DP World|Application Analyst Intern|Itasca, IL|Oct 21#1",
       "https://go.vansh.nyc/fh|CVS Health|Medicaid Data Analytics Intern|Hartford, CT|Oct 21#1",
       "https://go.vansh.nyc/fi|CVS Health|Product & Agile Delivery Intern, Innovation & Technology|**4 locations**Hartford, CT Dallas, TX Scottsdale, AZ Woonsocket, RI|Oct 21#1",
-      "https://go.vansh.nyc/fj|CVS Health|Software Engineer Intern, Platform & Applications|**4 locations**Scottsdale, AZ Dallas, TX Hartford, CT Woonsocket, RI|Oct 21#1"
+      "https://go.vansh.nyc/fj|CVS Health|Software Engineer Intern, Platform & Applications|**4 locations**Scottsdale, AZ Dallas, TX Hartford, CT Woonsocket, RI|Oct 21#1",
+      "https://go.vansh.nyc/fk|CVS Health|Data Engineering Intern, Innovation & Technology|New York, NY|Oct 21#1",
+      "https://go.vansh.nyc/fm|CVS Health|Data Science Intern, Innovation & Technology|New York, NY|Oct 21#1",
+      "https://go.vansh.nyc/fn|CVS Health|Software Engineering: Data & Intelligence Intern, Innovation & Technology|New York, NY|Oct 21#1",
+      "https://go.vansh.nyc/e2|Cisco|Software Engineer Intern, Embedded Systems II|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://go.vansh.nyc/e3|Cisco|Software Engineer Intern, Full Stack / Backend I|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://go.vansh.nyc/e4|Cisco|Software Engineer Intern, Full Stack / Backend II|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://go.vansh.nyc/e7|Cisco|Machine Learning Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://go.vansh.nyc/e8|Cisco|Machine Learning Engineer II Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://go.vansh.nyc/eb|Cisco|Engineering Product Management Specialist I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://go.vansh.nyc/ec|Cisco|AI Operations Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
+      "https://go.vansh.nyc/fb|Brookhaven Lab|Data Engineering Student Assistant Intern|Upton, NY|Oct 21#1",
+      "https://go.vansh.nyc/f8|Aptiv|HVP/Certification Engineer Intern|Kanata, Canada|Oct 21#1",
+      "https://go.vansh.nyc/fa|Aptiv|HVP Certification Engineer Intern|Kanata, Canada|Oct 21#1",
+      "https://go.vansh.nyc/eh|Aptiv|Software Development Intern|Troy, MI|Oct 21#1",
+      "https://go.vansh.nyc/dC|Aptiv|AI Product Analyst Intern|San Diego, CA|Oct 21#1",
+      "https://go.vansh.nyc/dU|Aon|IT/AI Engineer Intern|Chicago, IL|Oct 21#1",
+      "https://go.vansh.nyc/fc|American Family Insurance Group|Business Intelligence Enablement Intern|Madison, WI Boston, MA|Oct 21#1",
+      "https://go.vansh.nyc/gy|Ambarella|Physical Design Engineer Intern|United States|Oct 21#1",
+      "https://go.vansh.nyc/fe|Allstate|Data Analytics Engineer Intern|Remote United States|Oct 21#1",
+      "https://go.vansh.nyc/ff|Allstate|Data Science Intern, Core Telematics|Remote United States|Oct 21#1",
+      "https://go.vansh.nyc/dk|AeroVironment|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Diego, CA|Oct 21#1",
+      "https://go.vansh.nyc/ee|Aerospace Corporation|Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
+      "https://go.vansh.nyc/dv|Aerospace Corporation|Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Oct 21#1",
+      "https://go.vansh.nyc/dx|Aerospace Corporation|Digital Communication Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
+      "https://go.vansh.nyc/gz|ABB|R&D Software Engineer Intern|Greenville, SC|Oct 21#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 769,
     "outbox": [
-      [
-        [
-          "CVS Health",
-          "Data Engineering Intern, Innovation & Technology",
-          "New York, NY",
-          "Oct 21",
-          "https://go.vansh.nyc/fk"
-        ],
-        "https://go.vansh.nyc/fk|CVS Health|Data Engineering Intern, Innovation & Technology|New York, NY|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "CVS Health",
-          "Data Science Intern, Innovation & Technology",
-          "New York, NY",
-          "Oct 21",
-          "https://go.vansh.nyc/fm"
-        ],
-        "https://go.vansh.nyc/fm|CVS Health|Data Science Intern, Innovation & Technology|New York, NY|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "CVS Health",
-          "Software Engineering: Data & Intelligence Intern, Innovation & Technology",
-          "New York, NY",
-          "Oct 21",
-          "https://go.vansh.nyc/fn"
-        ],
-        "https://go.vansh.nyc/fn|CVS Health|Software Engineering: Data & Intelligence Intern, Innovation & Technology|New York, NY|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Engineer Intern, Embedded Systems II",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/e2"
-        ],
-        "https://go.vansh.nyc/e2|Cisco|Software Engineer Intern, Embedded Systems II|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Engineer Intern, Full Stack / Backend I",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/e3"
-        ],
-        "https://go.vansh.nyc/e3|Cisco|Software Engineer Intern, Full Stack / Backend I|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Engineer Intern, Full Stack / Backend II",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/e4"
-        ],
-        "https://go.vansh.nyc/e4|Cisco|Software Engineer Intern, Full Stack / Backend II|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Machine Learning Engineer I Intern",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/e7"
-        ],
-        "https://go.vansh.nyc/e7|Cisco|Machine Learning Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Machine Learning Engineer II Intern",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/e8"
-        ],
-        "https://go.vansh.nyc/e8|Cisco|Machine Learning Engineer II Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Engineering Product Management Specialist I Intern",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/eb"
-        ],
-        "https://go.vansh.nyc/eb|Cisco|Engineering Product Management Specialist I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "AI Operations Engineer I Intern",
-          "**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/ec"
-        ],
-        "https://go.vansh.nyc/ec|Cisco|AI Operations Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Brookhaven Lab",
-          "Data Engineering Student Assistant Intern",
-          "Upton, NY",
-          "Oct 21",
-          "https://go.vansh.nyc/fb"
-        ],
-        "https://go.vansh.nyc/fb|Brookhaven Lab|Data Engineering Student Assistant Intern|Upton, NY|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "HVP/Certification Engineer Intern",
-          "Kanata, Canada",
-          "Oct 21",
-          "https://go.vansh.nyc/f8"
-        ],
-        "https://go.vansh.nyc/f8|Aptiv|HVP/Certification Engineer Intern|Kanata, Canada|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "HVP Certification Engineer Intern",
-          "Kanata, Canada",
-          "Oct 21",
-          "https://go.vansh.nyc/fa"
-        ],
-        "https://go.vansh.nyc/fa|Aptiv|HVP Certification Engineer Intern|Kanata, Canada|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "Software Development Intern",
-          "Troy, MI",
-          "Oct 21",
-          "https://go.vansh.nyc/eh"
-        ],
-        "https://go.vansh.nyc/eh|Aptiv|Software Development Intern|Troy, MI|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aptiv",
-          "AI Product Analyst Intern",
-          "San Diego, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/dC"
-        ],
-        "https://go.vansh.nyc/dC|Aptiv|AI Product Analyst Intern|San Diego, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aon",
-          "IT/AI Engineer Intern",
-          "Chicago, IL",
-          "Oct 21",
-          "https://go.vansh.nyc/dU"
-        ],
-        "https://go.vansh.nyc/dU|Aon|IT/AI Engineer Intern|Chicago, IL|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "American Family Insurance Group",
-          "Business Intelligence Enablement Intern",
-          "Madison, WI Boston, MA",
-          "Oct 21",
-          "https://go.vansh.nyc/fc"
-        ],
-        "https://go.vansh.nyc/fc|American Family Insurance Group|Business Intelligence Enablement Intern|Madison, WI Boston, MA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Ambarella",
-          "Physical Design Engineer Intern",
-          "United States",
-          "Oct 21",
-          "https://go.vansh.nyc/gy"
-        ],
-        "https://go.vansh.nyc/gy|Ambarella|Physical Design Engineer Intern|United States|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Allstate",
-          "Data Analytics Engineer Intern",
-          "Remote United States",
-          "Oct 21",
-          "https://go.vansh.nyc/fe"
-        ],
-        "https://go.vansh.nyc/fe|Allstate|Data Analytics Engineer Intern|Remote United States|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Allstate",
-          "Data Science Intern, Core Telematics",
-          "Remote United States",
-          "Oct 21",
-          "https://go.vansh.nyc/ff"
-        ],
-        "https://go.vansh.nyc/ff|Allstate|Data Science Intern, Core Telematics|Remote United States|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "AeroVironment",
-          "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Diego, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/dk"
-        ],
-        "https://go.vansh.nyc/dk|AeroVironment|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Diego, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aerospace Corporation",
-          "Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "El Segundo, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/ee"
-        ],
-        "https://go.vansh.nyc/ee|Aerospace Corporation|Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aerospace Corporation",
-          "Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "El Segundo, CA Chantilly, VA",
-          "Oct 21",
-          "https://go.vansh.nyc/dv"
-        ],
-        "https://go.vansh.nyc/dv|Aerospace Corporation|Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aerospace Corporation",
-          "Digital Communication Intern \ud83c\uddfa\ud83c\uddf8",
-          "El Segundo, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/dx"
-        ],
-        "https://go.vansh.nyc/dx|Aerospace Corporation|Digital Communication Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "ABB",
-          "R&D Software Engineer Intern",
-          "Greenville, SC",
-          "Oct 21",
-          "https://go.vansh.nyc/gz"
-        ],
-        "https://go.vansh.nyc/gz|ABB|R&D Software Engineer Intern|Greenville, SC|Oct 21#1",
-        1
-      ],
       [
         [
           "Zillow",
