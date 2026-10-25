@@ -4548,286 +4548,36 @@
       "https://go.vansh.nyc/aq|Rocket Companies|Marketing, Accounting, or IT Intern|Detroit, MI|Oct 16#1",
       "https://go.vansh.nyc/aW|Qualcomm|Automotive Engineering Intern|Markham, ON, Canada|Oct 16#1",
       "https://go.vansh.nyc/ak|LLNL|HPC Cluster Engineer Intern|Livermore, CA|Oct 16#1",
-      "https://go.vansh.nyc/al|LLNL|Cybersecurity Intern, Cyber and Critical Infrastructure Summer Institute|Livermore, CA|Oct 16#1"
+      "https://go.vansh.nyc/al|LLNL|Cybersecurity Intern, Cyber and Critical Infrastructure Summer Institute|Livermore, CA|Oct 16#1",
+      "https://go.vansh.nyc/am|LLNL|Critical Infrastructure Analysis Intern, Cyber and Critical Infrastructure Summer Institute|Livermore, CA|Oct 16#1",
+      "https://go.vansh.nyc/bl|Leidos|Cloud Engineering Intern \ud83c\uddfa\ud83c\uddf8|Remote in USA|Oct 16#1",
+      "https://go.vansh.nyc/aS|Keysight Technologies|R&D Software Engineer Intern|Austin, TX|Oct 16#1",
+      "https://go.vansh.nyc/aj|Kensington|Software Engineering Intern|Toronto, ON|Oct 16#1",
+      "https://go.vansh.nyc/aT|John Deere|Software Engineering Intern, Technology|Ames, IA|Oct 16#1",
+      "https://go.vansh.nyc/b3|Impulse Space|Enterprise Software Engineer Intern|Redondo Beach, CA|Oct 16#1",
+      "https://go.vansh.nyc/ai|ICF International|Cloud Engineer Intern, AWS/Azure|Reston, VA|Oct 16#1",
+      "https://go.vansh.nyc/b6|HCSC|Finance Data & Analytics Developer Intern|Chicago, IL Richardson, TX|Oct 16#1",
+      "https://go.vansh.nyc/b7|HCSC|Finance Application Developer Intern|Chicago, IL Richardson, TX|Oct 16#1",
+      "https://go.vansh.nyc/bx|Gilead Sciences|Research Intern, Clinical Virology - AI|Foster City, CA|Oct 16#1",
+      "https://go.vansh.nyc/ag|Gilead Sciences|Research Intern, Data Sciences - AI|Foster City, CA|Oct 16#1",
+      "https://go.vansh.nyc/ah|Gilead Sciences|Research Intern, Strategy, Innovation & Portfolio - AI|Foster City, CA|Oct 16#1",
+      "https://go.vansh.nyc/af|General Motors|Research and Development Intern, System Safety \ud83c\uddfa\ud83c\uddf8|Warren, MI|Oct 16#1",
+      "https://go.vansh.nyc/aR|Electronic Arts|Analytics Intern|Vancouver, BC, Canada|Oct 16#1",
+      "https://go.vansh.nyc/b1|Eaton|C++ Developer Intern, Research & Development Engineering|Brossard, QC, Canada|Oct 16#1",
+      "https://go.vansh.nyc/ae|ChargePoint|IT & Network Intern|Campbell, CA|Oct 16#1",
+      "https://go.vansh.nyc/b0|CenturyLink|Data Intern, Analytics & Decision Science|Remote in USA|Oct 16#1",
+      "https://go.vansh.nyc/b2|Boston Scientific|AI/Data Science Intern|Maple Grove, MN|Oct 16#1",
+      "https://go.vansh.nyc/ad|Booz Allen Hamilton|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fayetteville, NC|Oct 16#1",
+      "https://go.vansh.nyc/ac|Altera|Software Engineer Intern|Toronto, ON|Oct 16#1",
+      "https://go.vansh.nyc/b4|AGCO|Embedded Software Engineer Intern|Hesston, KS Jackson, MN|Oct 16#1",
+      "https://go.vansh.nyc/b9|ADT|Hardware Engineering & Connected Devices Intern|Boca Raton, FL|Oct 16#1",
+      "https://go.vansh.nyc/9V|Veolia|Operations Engineering Intern|Vandalia, OH|Oct 15#1",
+      "https://go.vansh.nyc/9U|Tower Research Capital|Machine Learning Intern|Montreal, QC|Oct 15#1",
+      "https://go.vansh.nyc/aQ|TikTok|Software Engineer Intern, Recommendation Performance Efficiency|San Jose, CA|Oct 15#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 769,
     "outbox": [
-      [
-        [
-          "LLNL",
-          "Critical Infrastructure Analysis Intern, Cyber and Critical Infrastructure Summer Institute",
-          "Livermore, CA",
-          "Oct 16",
-          "https://go.vansh.nyc/am"
-        ],
-        "https://go.vansh.nyc/am|LLNL|Critical Infrastructure Analysis Intern, Cyber and Critical Infrastructure Summer Institute|Livermore, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Leidos",
-          "Cloud Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "Remote in USA",
-          "Oct 16",
-          "https://go.vansh.nyc/bl"
-        ],
-        "https://go.vansh.nyc/bl|Leidos|Cloud Engineering Intern \ud83c\uddfa\ud83c\uddf8|Remote in USA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "R&D Software Engineer Intern",
-          "Austin, TX",
-          "Oct 16",
-          "https://go.vansh.nyc/aS"
-        ],
-        "https://go.vansh.nyc/aS|Keysight Technologies|R&D Software Engineer Intern|Austin, TX|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Kensington",
-          "Software Engineering Intern",
-          "Toronto, ON",
-          "Oct 16",
-          "https://go.vansh.nyc/aj"
-        ],
-        "https://go.vansh.nyc/aj|Kensington|Software Engineering Intern|Toronto, ON|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "John Deere",
-          "Software Engineering Intern, Technology",
-          "Ames, IA",
-          "Oct 16",
-          "https://go.vansh.nyc/aT"
-        ],
-        "https://go.vansh.nyc/aT|John Deere|Software Engineering Intern, Technology|Ames, IA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Impulse Space",
-          "Enterprise Software Engineer Intern",
-          "Redondo Beach, CA",
-          "Oct 16",
-          "https://go.vansh.nyc/b3"
-        ],
-        "https://go.vansh.nyc/b3|Impulse Space|Enterprise Software Engineer Intern|Redondo Beach, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "ICF International",
-          "Cloud Engineer Intern, AWS/Azure",
-          "Reston, VA",
-          "Oct 16",
-          "https://go.vansh.nyc/ai"
-        ],
-        "https://go.vansh.nyc/ai|ICF International|Cloud Engineer Intern, AWS/Azure|Reston, VA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "HCSC",
-          "Finance Data & Analytics Developer Intern",
-          "Chicago, IL Richardson, TX",
-          "Oct 16",
-          "https://go.vansh.nyc/b6"
-        ],
-        "https://go.vansh.nyc/b6|HCSC|Finance Data & Analytics Developer Intern|Chicago, IL Richardson, TX|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "HCSC",
-          "Finance Application Developer Intern",
-          "Chicago, IL Richardson, TX",
-          "Oct 16",
-          "https://go.vansh.nyc/b7"
-        ],
-        "https://go.vansh.nyc/b7|HCSC|Finance Application Developer Intern|Chicago, IL Richardson, TX|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Gilead Sciences",
-          "Research Intern, Clinical Virology - AI",
-          "Foster City, CA",
-          "Oct 16",
-          "https://go.vansh.nyc/bx"
-        ],
-        "https://go.vansh.nyc/bx|Gilead Sciences|Research Intern, Clinical Virology - AI|Foster City, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Gilead Sciences",
-          "Research Intern, Data Sciences - AI",
-          "Foster City, CA",
-          "Oct 16",
-          "https://go.vansh.nyc/ag"
-        ],
-        "https://go.vansh.nyc/ag|Gilead Sciences|Research Intern, Data Sciences - AI|Foster City, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Gilead Sciences",
-          "Research Intern, Strategy, Innovation & Portfolio - AI",
-          "Foster City, CA",
-          "Oct 16",
-          "https://go.vansh.nyc/ah"
-        ],
-        "https://go.vansh.nyc/ah|Gilead Sciences|Research Intern, Strategy, Innovation & Portfolio - AI|Foster City, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "General Motors",
-          "Research and Development Intern, System Safety \ud83c\uddfa\ud83c\uddf8",
-          "Warren, MI",
-          "Oct 16",
-          "https://go.vansh.nyc/af"
-        ],
-        "https://go.vansh.nyc/af|General Motors|Research and Development Intern, System Safety \ud83c\uddfa\ud83c\uddf8|Warren, MI|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Electronic Arts",
-          "Analytics Intern",
-          "Vancouver, BC, Canada",
-          "Oct 16",
-          "https://go.vansh.nyc/aR"
-        ],
-        "https://go.vansh.nyc/aR|Electronic Arts|Analytics Intern|Vancouver, BC, Canada|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Eaton",
-          "C++ Developer Intern, Research & Development Engineering",
-          "Brossard, QC, Canada",
-          "Oct 16",
-          "https://go.vansh.nyc/b1"
-        ],
-        "https://go.vansh.nyc/b1|Eaton|C++ Developer Intern, Research & Development Engineering|Brossard, QC, Canada|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "ChargePoint",
-          "IT & Network Intern",
-          "Campbell, CA",
-          "Oct 16",
-          "https://go.vansh.nyc/ae"
-        ],
-        "https://go.vansh.nyc/ae|ChargePoint|IT & Network Intern|Campbell, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "CenturyLink",
-          "Data Intern, Analytics & Decision Science",
-          "Remote in USA",
-          "Oct 16",
-          "https://go.vansh.nyc/b0"
-        ],
-        "https://go.vansh.nyc/b0|CenturyLink|Data Intern, Analytics & Decision Science|Remote in USA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Boston Scientific",
-          "AI/Data Science Intern",
-          "Maple Grove, MN",
-          "Oct 16",
-          "https://go.vansh.nyc/b2"
-        ],
-        "https://go.vansh.nyc/b2|Boston Scientific|AI/Data Science Intern|Maple Grove, MN|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Booz Allen Hamilton",
-          "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "Fayetteville, NC",
-          "Oct 16",
-          "https://go.vansh.nyc/ad"
-        ],
-        "https://go.vansh.nyc/ad|Booz Allen Hamilton|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fayetteville, NC|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Altera",
-          "Software Engineer Intern",
-          "Toronto, ON",
-          "Oct 16",
-          "https://go.vansh.nyc/ac"
-        ],
-        "https://go.vansh.nyc/ac|Altera|Software Engineer Intern|Toronto, ON|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "AGCO",
-          "Embedded Software Engineer Intern",
-          "Hesston, KS Jackson, MN",
-          "Oct 16",
-          "https://go.vansh.nyc/b4"
-        ],
-        "https://go.vansh.nyc/b4|AGCO|Embedded Software Engineer Intern|Hesston, KS Jackson, MN|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "ADT",
-          "Hardware Engineering & Connected Devices Intern",
-          "Boca Raton, FL",
-          "Oct 16",
-          "https://go.vansh.nyc/b9"
-        ],
-        "https://go.vansh.nyc/b9|ADT|Hardware Engineering & Connected Devices Intern|Boca Raton, FL|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Veolia",
-          "Operations Engineering Intern",
-          "Vandalia, OH",
-          "Oct 15",
-          "https://go.vansh.nyc/9V"
-        ],
-        "https://go.vansh.nyc/9V|Veolia|Operations Engineering Intern|Vandalia, OH|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Tower Research Capital",
-          "Machine Learning Intern",
-          "Montreal, QC",
-          "Oct 15",
-          "https://go.vansh.nyc/9U"
-        ],
-        "https://go.vansh.nyc/9U|Tower Research Capital|Machine Learning Intern|Montreal, QC|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Recommendation Performance Efficiency",
-          "San Jose, CA",
-          "Oct 15",
-          "https://go.vansh.nyc/aQ"
-        ],
-        "https://go.vansh.nyc/aQ|TikTok|Software Engineer Intern, Recommendation Performance Efficiency|San Jose, CA|Oct 15#1",
-        1
-      ],
       [
         [
           "Salesforce",
