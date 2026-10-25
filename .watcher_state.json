@@ -2690,7 +2690,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "10ecd23c305e391047cf55e3e4b33aa141c468e2",
+    "last_sha": "b026e2bf45f4b7d58a7300c1b00412b6a6a278c2",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -3873,286 +3873,36 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000156323136|Bosch|AI Research Intern, Wireless Foundation Models|Pittsburgh, PA|Oct 19#1",
       "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Junior-Cloud-Engineer--Summer-2027--Co-op-Internship----16-months_R260029417-1|BMO Financial Group|Junior Cloud Engineer Co-op|Toronto, ON|Oct 19#1",
       "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672|Applied Materials|Software Engineer Intern|Santa Clara, CA|Oct 19#1",
-      "https://jobs.ashbyhq.com/amplify/bb45b7f6-dd7e-40e5-84e6-52e21650a7b8/application?embed=true|Amplify|AI Scientist Intern|Remote in USA|Oct 19#1"
+      "https://jobs.ashbyhq.com/amplify/bb45b7f6-dd7e-40e5-84e6-52e21650a7b8/application?embed=true|Amplify|AI Scientist Intern|Remote in USA|Oct 19#1",
+      "https://jobs.ashbyhq.com/amplify/855d22a3-f15e-49f6-854c-29e505653efa/application?embed=true|Amplify|Software Engineer Intern|Remote in USA|Oct 19#1",
+      "https://jobs.ashbyhq.com/amplify/7b859cc1-1354-43c5-bbd4-0571e85f7c51/application?embed=true|Amplify|Data Analytics Intern|Remote in USA|Oct 19#1",
+      "https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Developer-Innovation-Internship_JR1118|American Fidelity|Software Developer Innovation Intern|Oklahoma City, OK|Oct 19#1",
+      "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Quartus-User-Interface---Intern_R03353|Altera|Quartus User Interface Intern|Toronto, ON, Canada|Oct 19#1",
+      "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299|Altera|FPGA IP Design Engineer Intern|Toronto, ON, Canada|Oct 19#1",
+      "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Lehi/XMLNAME-2027-Intern---Security-Engineer_R173000|Adobe|Security Engineer Intern|Lehi, UT|Oct 19#1",
+      "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---AI---Architecture_R172998|Adobe|AI & Architecture Intern|San Jose, CA|Oct 19#1",
+      "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997|Adobe|Data, AI & Innovation Intern|San Jose, CA|Oct 19#1",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982|NVIDIA|ASIC Verification Intern|Toronto, ON, Canada|Oct 18#1",
+      "https://careers.mitre.org/us/en/job/R117620/AI-Engineering-Intern|MITRE|AI Engineering Intern|Bedford, MA|Oct 18#1",
+      "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR112545|Micron Technology|HBM Design Engineer Intern - HBM|Richardson, TX|Oct 18#1",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4595767|Interclypse|Junior Full Stack Software Engineer Intern|Annapolis Junction, MD|Oct 18#1",
+      "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Roseville-California-United-States-of-America/Hardware-Engineering-Design-Intern_1214168|Hewlett Packard Enterprise|Hardware Engineering Design Intern|Roseville, CA|Oct 18#1",
+      "https://caa.wd1.myworkdayjobs.com/en-US/Careers/job/Denver-CO/CAA-ICON-Data-Analytics-Intern---Summer-2027--Denver--CO-_JR9391|Creative Artists Agency|Data Analytics Intern|Denver, CO|Oct 18#1",
+      "https://cognex.wd1.myworkdayjobs.com/en-US/External_Career_Site/job/Wauwatosa-Wisconsin/Software-Engineering-Intern_R0012549|Cognex|Software Engineer Intern|Wauwatosa, WI|Oct 18#1",
+      "https://job-boards.greenhouse.io/togetherai/jobs/5267198007|Together AI|Research Intern, Frontier Speculative Decoding|San Francisco, CA|Oct 17#1",
+      "https://physicalreasoning.ai/join/software-engineering-intern/|Physical Reasoning|Software Engineering Intern|**4 locations**San Francisco, CA New York, NY Toronto, Canada Remote|Oct 17#1",
+      "https://job-boards.greenhouse.io/eulerity/jobs/4722871006|Eulerity|AI Intern, Office of CEO & Head of Product|New York, NY|Oct 17#1",
+      "https://jobs.ashbyhq.com/clera/697c2212-e39d-4e6e-92c2-12e6603a61d0/application|Clera|Computer Vision & Robotics Intern|San Francisco, CA|Oct 17#1",
+      "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/Moorpark-CA/Software-Engineering-Intern_9094|AeroVironment|Software Engineering Intern|Moorpark, CA|Oct 17#1",
+      "https://jobs.smartrecruiters.com/WellmarkInc/744000156043218|Wellmark|Software Engineer Intern, Technology Health Plan|Des Moines, IA|Oct 16#1",
+      "https://jobs.lever.co/waabi/480d9d41-33d0-429a-8883-7f9ec305a30f/apply|Waabi|Safety Methodologies Co-op|Toronto, ON, Canada SF Pittsburgh, PA|Oct 16#1",
+      "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4996533101|Veeam Software|Data & Analytics Engineering Intern \ud83d\udec2|Alpharetta, GA|Oct 16#1",
+      "https://job-boards.greenhouse.io/togetherai/jobs/5238469007|Together AI|Hardware Security Engineer Intern|San Francisco, CA|Oct 16#1",
+      "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Detroit-MI/Summer-2027-Internships---Marketing--Accounting--or-Information-Technology_R-085042-1|Rocket Companies|Marketing, Accounting, or IT Intern|Detroit, MI|Oct 16#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 769,
     "outbox": [
-      [
-        [
-          "Amplify",
-          "Software Engineer Intern",
-          "Remote in USA",
-          "Oct 19",
-          "https://jobs.ashbyhq.com/amplify/855d22a3-f15e-49f6-854c-29e505653efa/application?embed=true"
-        ],
-        "https://jobs.ashbyhq.com/amplify/855d22a3-f15e-49f6-854c-29e505653efa/application?embed=true|Amplify|Software Engineer Intern|Remote in USA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Amplify",
-          "Data Analytics Intern",
-          "Remote in USA",
-          "Oct 19",
-          "https://jobs.ashbyhq.com/amplify/7b859cc1-1354-43c5-bbd4-0571e85f7c51/application?embed=true"
-        ],
-        "https://jobs.ashbyhq.com/amplify/7b859cc1-1354-43c5-bbd4-0571e85f7c51/application?embed=true|Amplify|Data Analytics Intern|Remote in USA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "American Fidelity",
-          "Software Developer Innovation Intern",
-          "Oklahoma City, OK",
-          "Oct 19",
-          "https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Developer-Innovation-Internship_JR1118"
-        ],
-        "https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Developer-Innovation-Internship_JR1118|American Fidelity|Software Developer Innovation Intern|Oklahoma City, OK|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Altera",
-          "Quartus User Interface Intern",
-          "Toronto, ON, Canada",
-          "Oct 19",
-          "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Quartus-User-Interface---Intern_R03353"
-        ],
-        "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Quartus-User-Interface---Intern_R03353|Altera|Quartus User Interface Intern|Toronto, ON, Canada|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Altera",
-          "FPGA IP Design Engineer Intern",
-          "Toronto, ON, Canada",
-          "Oct 19",
-          "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299"
-        ],
-        "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299|Altera|FPGA IP Design Engineer Intern|Toronto, ON, Canada|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Adobe",
-          "Security Engineer Intern",
-          "Lehi, UT",
-          "Oct 19",
-          "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Lehi/XMLNAME-2027-Intern---Security-Engineer_R173000"
-        ],
-        "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Lehi/XMLNAME-2027-Intern---Security-Engineer_R173000|Adobe|Security Engineer Intern|Lehi, UT|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Adobe",
-          "AI & Architecture Intern",
-          "San Jose, CA",
-          "Oct 19",
-          "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---AI---Architecture_R172998"
-        ],
-        "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---AI---Architecture_R172998|Adobe|AI & Architecture Intern|San Jose, CA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Adobe",
-          "Data, AI & Innovation Intern",
-          "San Jose, CA",
-          "Oct 19",
-          "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997"
-        ],
-        "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997|Adobe|Data, AI & Innovation Intern|San Jose, CA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "NVIDIA",
-          "ASIC Verification Intern",
-          "Toronto, ON, Canada",
-          "Oct 18",
-          "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982"
-        ],
-        "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982|NVIDIA|ASIC Verification Intern|Toronto, ON, Canada|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "MITRE",
-          "AI Engineering Intern",
-          "Bedford, MA",
-          "Oct 18",
-          "https://careers.mitre.org/us/en/job/R117620/AI-Engineering-Intern"
-        ],
-        "https://careers.mitre.org/us/en/job/R117620/AI-Engineering-Intern|MITRE|AI Engineering Intern|Bedford, MA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Micron Technology",
-          "HBM Design Engineer Intern - HBM",
-          "Richardson, TX",
-          "Oct 18",
-          "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR112545"
-        ],
-        "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR112545|Micron Technology|HBM Design Engineer Intern - HBM|Richardson, TX|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Interclypse",
-          "Junior Full Stack Software Engineer Intern",
-          "Annapolis Junction, MD",
-          "Oct 18",
-          "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4595767"
-        ],
-        "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4595767|Interclypse|Junior Full Stack Software Engineer Intern|Annapolis Junction, MD|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Hewlett Packard Enterprise",
-          "Hardware Engineering Design Intern",
-          "Roseville, CA",
-          "Oct 18",
-          "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Roseville-California-United-States-of-America/Hardware-Engineering-Design-Intern_1214168"
-        ],
-        "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Roseville-California-United-States-of-America/Hardware-Engineering-Design-Intern_1214168|Hewlett Packard Enterprise|Hardware Engineering Design Intern|Roseville, CA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Creative Artists Agency",
-          "Data Analytics Intern",
-          "Denver, CO",
-          "Oct 18",
-          "https://caa.wd1.myworkdayjobs.com/en-US/Careers/job/Denver-CO/CAA-ICON-Data-Analytics-Intern---Summer-2027--Denver--CO-_JR9391"
-        ],
-        "https://caa.wd1.myworkdayjobs.com/en-US/Careers/job/Denver-CO/CAA-ICON-Data-Analytics-Intern---Summer-2027--Denver--CO-_JR9391|Creative Artists Agency|Data Analytics Intern|Denver, CO|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Cognex",
-          "Software Engineer Intern",
-          "Wauwatosa, WI",
-          "Oct 18",
-          "https://cognex.wd1.myworkdayjobs.com/en-US/External_Career_Site/job/Wauwatosa-Wisconsin/Software-Engineering-Intern_R0012549"
-        ],
-        "https://cognex.wd1.myworkdayjobs.com/en-US/External_Career_Site/job/Wauwatosa-Wisconsin/Software-Engineering-Intern_R0012549|Cognex|Software Engineer Intern|Wauwatosa, WI|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Together AI",
-          "Research Intern, Frontier Speculative Decoding",
-          "San Francisco, CA",
-          "Oct 17",
-          "https://job-boards.greenhouse.io/togetherai/jobs/5267198007"
-        ],
-        "https://job-boards.greenhouse.io/togetherai/jobs/5267198007|Together AI|Research Intern, Frontier Speculative Decoding|San Francisco, CA|Oct 17#1",
-        1
-      ],
-      [
-        [
-          "Physical Reasoning",
-          "Software Engineering Intern",
-          "**4 locations**San Francisco, CA New York, NY Toronto, Canada Remote",
-          "Oct 17",
-          "https://physicalreasoning.ai/join/software-engineering-intern/"
-        ],
-        "https://physicalreasoning.ai/join/software-engineering-intern/|Physical Reasoning|Software Engineering Intern|**4 locations**San Francisco, CA New York, NY Toronto, Canada Remote|Oct 17#1",
-        1
-      ],
-      [
-        [
-          "Eulerity",
-          "AI Intern, Office of CEO & Head of Product",
-          "New York, NY",
-          "Oct 17",
-          "https://job-boards.greenhouse.io/eulerity/jobs/4722871006"
-        ],
-        "https://job-boards.greenhouse.io/eulerity/jobs/4722871006|Eulerity|AI Intern, Office of CEO & Head of Product|New York, NY|Oct 17#1",
-        1
-      ],
-      [
-        [
-          "Clera",
-          "Computer Vision & Robotics Intern",
-          "San Francisco, CA",
-          "Oct 17",
-          "https://jobs.ashbyhq.com/clera/697c2212-e39d-4e6e-92c2-12e6603a61d0/application"
-        ],
-        "https://jobs.ashbyhq.com/clera/697c2212-e39d-4e6e-92c2-12e6603a61d0/application|Clera|Computer Vision & Robotics Intern|San Francisco, CA|Oct 17#1",
-        1
-      ],
-      [
-        [
-          "AeroVironment",
-          "Software Engineering Intern",
-          "Moorpark, CA",
-          "Oct 17",
-          "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/Moorpark-CA/Software-Engineering-Intern_9094"
-        ],
-        "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/Moorpark-CA/Software-Engineering-Intern_9094|AeroVironment|Software Engineering Intern|Moorpark, CA|Oct 17#1",
-        1
-      ],
-      [
-        [
-          "Wellmark",
-          "Software Engineer Intern, Technology Health Plan",
-          "Des Moines, IA",
-          "Oct 16",
-          "https://jobs.smartrecruiters.com/WellmarkInc/744000156043218"
-        ],
-        "https://jobs.smartrecruiters.com/WellmarkInc/744000156043218|Wellmark|Software Engineer Intern, Technology Health Plan|Des Moines, IA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Waabi",
-          "Safety Methodologies Co-op",
-          "Toronto, ON, Canada SF Pittsburgh, PA",
-          "Oct 16",
-          "https://jobs.lever.co/waabi/480d9d41-33d0-429a-8883-7f9ec305a30f/apply"
-        ],
-        "https://jobs.lever.co/waabi/480d9d41-33d0-429a-8883-7f9ec305a30f/apply|Waabi|Safety Methodologies Co-op|Toronto, ON, Canada SF Pittsburgh, PA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Veeam Software",
-          "Data & Analytics Engineering Intern \ud83d\udec2",
-          "Alpharetta, GA",
-          "Oct 16",
-          "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4996533101"
-        ],
-        "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4996533101|Veeam Software|Data & Analytics Engineering Intern \ud83d\udec2|Alpharetta, GA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Together AI",
-          "Hardware Security Engineer Intern",
-          "San Francisco, CA",
-          "Oct 16",
-          "https://job-boards.greenhouse.io/togetherai/jobs/5238469007"
-        ],
-        "https://job-boards.greenhouse.io/togetherai/jobs/5238469007|Together AI|Hardware Security Engineer Intern|San Francisco, CA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Rocket Companies",
-          "Marketing, Accounting, or IT Intern",
-          "Detroit, MI",
-          "Oct 16",
-          "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Detroit-MI/Summer-2027-Internships---Marketing--Accounting--or-Information-Technology_R-085042-1"
-        ],
-        "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Detroit-MI/Summer-2027-Internships---Marketing--Accounting--or-Information-Technology_R-085042-1|Rocket Companies|Marketing, Accounting, or IT Intern|Detroit, MI|Oct 16#1",
-        1
-      ],
       [
         [
           "Qualcomm",
@@ -14327,11 +14077,836 @@
         ],
         "https://go.vansh.nyc/3A|Akuna Capital|Platform Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
         1
+      ],
+      [
+        [
+          "Skydio",
+          "Process Engineering Intern",
+          "San Mateo, CA",
+          "Oct 25",
+          "https://go.vansh.nyc/BC?s=y"
+        ],
+        "https://go.vansh.nyc/BC?s=y|Skydio|Process Engineering Intern|San Mateo, CA|Oct 25#1",
+        1
+      ],
+      [
+        [
+          "Skydio",
+          "Product Design Engineer Intern",
+          "San Mateo, CA",
+          "Oct 25",
+          "https://go.vansh.nyc/BB?s=y"
+        ],
+        "https://go.vansh.nyc/BB?s=y|Skydio|Product Design Engineer Intern|San Mateo, CA|Oct 25#1",
+        1
+      ],
+      [
+        [
+          "Skydio",
+          "Autonomy Engineer Intern, Computer Vision / Deep Learning",
+          "San Mateo, CA",
+          "Oct 25",
+          "https://go.vansh.nyc/BA?s=y"
+        ],
+        "https://go.vansh.nyc/BA?s=y|Skydio|Autonomy Engineer Intern, Computer Vision / Deep Learning|San Mateo, CA|Oct 25#1",
+        1
+      ],
+      [
+        [
+          "Skydio",
+          "Flight Test Intern",
+          "San Mateo, CA",
+          "Oct 25",
+          "https://go.vansh.nyc/Bz?s=y"
+        ],
+        "https://go.vansh.nyc/Bz?s=y|Skydio|Flight Test Intern|San Mateo, CA|Oct 25#1",
+        1
+      ],
+      [
+        [
+          "Skydio",
+          "Hardware Test and Reliability Intern",
+          "San Mateo, CA",
+          "Oct 25",
+          "https://go.vansh.nyc/By?s=y"
+        ],
+        "https://go.vansh.nyc/By?s=y|Skydio|Hardware Test and Reliability Intern|San Mateo, CA|Oct 25#1",
+        1
+      ],
+      [
+        [
+          "Skydio",
+          "Wireless Hardware Engineer Intern",
+          "San Mateo, CA",
+          "Oct 25",
+          "https://go.vansh.nyc/i?s=y"
+        ],
+        "https://go.vansh.nyc/i?s=y|Skydio|Wireless Hardware Engineer Intern|San Mateo, CA|Oct 25#1",
+        1
+      ],
+      [
+        [
+          "Trimble",
+          "Automated Test Engineering Intern",
+          "Richmond Hill, Canada",
+          "Oct 23",
+          "https://go.vansh.nyc/hX?s=y"
+        ],
+        "https://go.vansh.nyc/hX?s=y|Trimble|Automated Test Engineering Intern|Richmond Hill, Canada|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Thermo Fisher Scientific",
+          "IT & Digital Intern",
+          "**4 locations**Pittsburgh, PA Frederick, MD Carlsbad, CA Morrisville, NC",
+          "Oct 23",
+          "https://go.vansh.nyc/hU?s=y"
+        ],
+        "https://go.vansh.nyc/hU?s=y|Thermo Fisher Scientific|IT & Digital Intern|**4 locations**Pittsburgh, PA Frederick, MD Carlsbad, CA Morrisville, NC|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "TELUS Digital",
+          "Software Engineering Co-op",
+          "Vancouver, Canada",
+          "Oct 23",
+          "https://go.vansh.nyc/hb?s=y"
+        ],
+        "https://go.vansh.nyc/hb?s=y|TELUS Digital|Software Engineering Co-op|Vancouver, Canada|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Simbe Robotics",
+          "Computer Vision / Applied AI Intern",
+          "Burlingame, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/hJ?s=y"
+        ],
+        "https://go.vansh.nyc/hJ?s=y|Simbe Robotics|Computer Vision / Applied AI Intern|Burlingame, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Siemens",
+          "Python Backend Developer Intern, Energy Flexibility Platform",
+          "Princeton, NJ",
+          "Oct 23",
+          "https://go.vansh.nyc/hM?s=y"
+        ],
+        "https://go.vansh.nyc/hM?s=y|Siemens|Python Backend Developer Intern, Energy Flexibility Platform|Princeton, NJ|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Scout AI",
+          "AI Engineer Intern, Fury Team",
+          "Sunnyvale, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/hV?s=y"
+        ],
+        "https://go.vansh.nyc/hV?s=y|Scout AI|AI Engineer Intern, Fury Team|Sunnyvale, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Rivian and Volkswagen Group Technologies",
+          "Software Engineering Intern, Applications",
+          "Vancouver, Canada",
+          "Oct 23",
+          "https://go.vansh.nyc/gv?s=y"
+        ],
+        "https://go.vansh.nyc/gv?s=y|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Applications|Vancouver, Canada|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Rivian and Volkswagen Group Technologies",
+          "Software Engineering Intern, Applications",
+          "Palo Alto, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/gw?s=y"
+        ],
+        "https://go.vansh.nyc/gw?s=y|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Applications|Palo Alto, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Rivian and Volkswagen Group Technologies",
+          "Software Engineering Intern, Vehicle Controls",
+          "Vancouver, Canada",
+          "Oct 23",
+          "https://go.vansh.nyc/gx?s=y"
+        ],
+        "https://go.vansh.nyc/gx?s=y|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Vehicle Controls|Vancouver, Canada|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Navy Federal",
+          "Data Analytics Intern",
+          "Pensacola, FL Vienna, VA",
+          "Oct 23",
+          "https://go.vansh.nyc/hL?s=y"
+        ],
+        "https://go.vansh.nyc/hL?s=y|Navy Federal|Data Analytics Intern|Pensacola, FL Vienna, VA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Multiply Labs",
+          "Software Intern",
+          "San Francisco, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/hG?s=y"
+        ],
+        "https://go.vansh.nyc/hG?s=y|Multiply Labs|Software Intern|San Francisco, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Multiply Labs",
+          "Robotics Software Engineer Intern",
+          "San Francisco, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/hH?s=y"
+        ],
+        "https://go.vansh.nyc/hH?s=y|Multiply Labs|Robotics Software Engineer Intern|San Francisco, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Microsoft",
+          "Software Engineer Intern, Security & Identity",
+          "United States",
+          "Oct 23",
+          "https://go.vansh.nyc/hN?s=y"
+        ],
+        "https://go.vansh.nyc/hN?s=y|Microsoft|Software Engineer Intern, Security & Identity|United States|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Microsoft",
+          "Product Manager Intern",
+          "Cambridge, MA",
+          "Oct 23",
+          "https://go.vansh.nyc/hO?s=y"
+        ],
+        "https://go.vansh.nyc/hO?s=y|Microsoft|Product Manager Intern|Cambridge, MA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "KLA",
+          "Software Engineering Intern",
+          "Milpitas, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/h2?s=y"
+        ],
+        "https://go.vansh.nyc/h2?s=y|KLA|Software Engineering Intern|Milpitas, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "KLA",
+          "Software Engineering Intern, AI/ML for Diagnostics & Calibration",
+          "Milpitas, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/gN?s=y"
+        ],
+        "https://go.vansh.nyc/gN?s=y|KLA|Software Engineering Intern, AI/ML for Diagnostics & Calibration|Milpitas, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Keysight Technologies",
+          "FPGA Design Intern",
+          "Calabasas, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/hE?s=y"
+        ],
+        "https://go.vansh.nyc/hE?s=y|Keysight Technologies|FPGA Design Intern|Calabasas, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "ID.me",
+          "Analytics Engineer Intern",
+          "Mountain View, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/h1?s=y"
+        ],
+        "https://go.vansh.nyc/h1?s=y|ID.me|Analytics Engineer Intern|Mountain View, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Hewlett Packard Enterprise",
+          "Cybersecurity Engineering Intern",
+          "Spring, TX",
+          "Oct 23",
+          "https://go.vansh.nyc/hW?s=y"
+        ],
+        "https://go.vansh.nyc/hW?s=y|Hewlett Packard Enterprise|Cybersecurity Engineering Intern|Spring, TX|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "CVS Health",
+          "Software Engineering Intern, Data & Intelligence",
+          "New York, NY",
+          "Oct 23",
+          "https://go.vansh.nyc/gu?s=y"
+        ],
+        "https://go.vansh.nyc/gu?s=y|CVS Health|Software Engineering Intern, Data & Intelligence|New York, NY|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Cisco",
+          "Software Engineer Data & AI II Intern",
+          "**4 locations**San Jose, CA Milpitas, CA Research Triangle Park, NC San Francisco, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/gO?s=y"
+        ],
+        "https://go.vansh.nyc/gO?s=y|Cisco|Software Engineer Data & AI II Intern|**4 locations**San Jose, CA Milpitas, CA Research Triangle Park, NC San Francisco, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Auto-Owners Insurance",
+          "Business Intelligence Developer Intern \ud83d\udec2",
+          "Lansing, MI",
+          "Oct 23",
+          "https://go.vansh.nyc/h0?s=y"
+        ],
+        "https://go.vansh.nyc/h0?s=y|Auto-Owners Insurance|Business Intelligence Developer Intern \ud83d\udec2|Lansing, MI|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "ASML",
+          "Platform Software Engineer In Test Intern",
+          "San Jose, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/hQ?s=y"
+        ],
+        "https://go.vansh.nyc/hQ?s=y|ASML|Platform Software Engineer In Test Intern|San Jose, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "ASML",
+          "Application Software QA Engineer Intern",
+          "San Jose, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/gY?s=y"
+        ],
+        "https://go.vansh.nyc/gY?s=y|ASML|Application Software QA Engineer Intern|San Jose, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "ASML",
+          "Software Engineer In Test Intern, MOD",
+          "San Jose, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/gM?s=y"
+        ],
+        "https://go.vansh.nyc/gM?s=y|ASML|Software Engineer In Test Intern, MOD|San Jose, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Amperesand",
+          "AI/ML Engineer Intern",
+          "Sunnyvale, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/hF?s=y"
+        ],
+        "https://go.vansh.nyc/hF?s=y|Amperesand|AI/ML Engineer Intern|Sunnyvale, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Altera",
+          "Software Intern",
+          "Toronto, Canada",
+          "Oct 23",
+          "https://go.vansh.nyc/gt?s=y"
+        ],
+        "https://go.vansh.nyc/gt?s=y|Altera|Software Intern|Toronto, Canada|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Aerospace Corporation",
+          "Defensive Cyber Operations Intern \ud83c\uddfa\ud83c\uddf8",
+          "El Segundo, CA",
+          "Oct 23",
+          "https://go.vansh.nyc/h5?s=y"
+        ],
+        "https://go.vansh.nyc/h5?s=y|Aerospace Corporation|Defensive Cyber Operations Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 23#1",
+        1
+      ],
+      [
+        [
+          "Westinghouse Electric Company",
+          "Software Engineering Intern",
+          "Warrendale, PA",
+          "Oct 22",
+          "https://go.vansh.nyc/fz?s=y"
+        ],
+        "https://go.vansh.nyc/fz?s=y|Westinghouse Electric Company|Software Engineering Intern|Warrendale, PA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Western & Southern Financial Group",
+          "Enterprise Architecture Information Technology Intern",
+          "Cincinnati, OH",
+          "Oct 22",
+          "https://go.vansh.nyc/eX?s=y"
+        ],
+        "https://go.vansh.nyc/eX?s=y|Western & Southern Financial Group|Enterprise Architecture Information Technology Intern|Cincinnati, OH|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Walmart",
+          "Automation, Product Manager, Corporate Intern",
+          "Lancaster, TX",
+          "Oct 22",
+          "https://go.vansh.nyc/eW?s=y"
+        ],
+        "https://go.vansh.nyc/eW?s=y|Walmart|Automation, Product Manager, Corporate Intern|Lancaster, TX|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Veeda AI",
+          "Software Engineering Intern",
+          "Toronto, Canada",
+          "Oct 22",
+          "https://go.vansh.nyc/fr?s=y"
+        ],
+        "https://go.vansh.nyc/fr?s=y|Veeda AI|Software Engineering Intern|Toronto, Canada|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Ursa Major",
+          "Software Development Intern",
+          "Berthoud, CO",
+          "Oct 22",
+          "https://go.vansh.nyc/fp?s=y"
+        ],
+        "https://go.vansh.nyc/fp?s=y|Ursa Major|Software Development Intern|Berthoud, CO|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Ursa Major",
+          "Embedded Flight Software Intern",
+          "Longmont, CO",
+          "Oct 22",
+          "https://go.vansh.nyc/fq?s=y"
+        ],
+        "https://go.vansh.nyc/fq?s=y|Ursa Major|Embedded Flight Software Intern|Longmont, CO|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Uline",
+          "Systems Administrator Intern",
+          "**5 locations**Pleasant Prairie, WI Milwaukee, WI Waukegan, IL Glenview, IL Kenosha, WI",
+          "Oct 22",
+          "https://go.vansh.nyc/ey?s=y"
+        ],
+        "https://go.vansh.nyc/ey?s=y|Uline|Systems Administrator Intern|**5 locations**Pleasant Prairie, WI Milwaukee, WI Waukegan, IL Glenview, IL Kenosha, WI|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Uline",
+          "Database Administrator Intern",
+          "**5 locations**Pleasant Prairie, WI Milwaukee, WI Waukegan, IL Glenview, IL Kenosha, WI",
+          "Oct 22",
+          "https://go.vansh.nyc/eF?s=y"
+        ],
+        "https://go.vansh.nyc/eF?s=y|Uline|Database Administrator Intern|**5 locations**Pleasant Prairie, WI Milwaukee, WI Waukegan, IL Glenview, IL Kenosha, WI|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Twitch",
+          "Undergrad Software Engineering Intern",
+          "San Francisco, CA",
+          "Oct 22",
+          "https://go.vansh.nyc/eV?s=y"
+        ],
+        "https://go.vansh.nyc/eV?s=y|Twitch|Undergrad Software Engineering Intern|San Francisco, CA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Trace Labs",
+          "Robotics Engineer Intern, Hardware & Software",
+          "New York, NY",
+          "Oct 22",
+          "https://go.vansh.nyc/hp?s=y"
+        ],
+        "https://go.vansh.nyc/hp?s=y|Trace Labs|Robotics Engineer Intern, Hardware & Software|New York, NY|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Toyota Research Institute",
+          "Human Aware Interactions and Learning Intern",
+          "Cambridge, MA",
+          "Oct 22",
+          "https://go.vansh.nyc/eU?s=y"
+        ],
+        "https://go.vansh.nyc/eU?s=y|Toyota Research Institute|Human Aware Interactions and Learning Intern|Cambridge, MA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Thales",
+          "Tools and Process Development Intern",
+          "Montreal, Canada",
+          "Oct 22",
+          "https://go.vansh.nyc/hj?s=y"
+        ],
+        "https://go.vansh.nyc/hj?s=y|Thales|Tools and Process Development Intern|Montreal, Canada|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Texas Instruments",
+          "Digital Design Verification Engineering Intern \ud83d\udec2",
+          "Santa Clara, CA",
+          "Oct 22",
+          "https://go.vansh.nyc/hS?s=y"
+        ],
+        "https://go.vansh.nyc/hS?s=y|Texas Instruments|Digital Design Verification Engineering Intern \ud83d\udec2|Santa Clara, CA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Texas Instruments",
+          "Software Engineering Intern \ud83d\udec2",
+          "Remote Canada",
+          "Oct 22",
+          "https://go.vansh.nyc/eT?s=y"
+        ],
+        "https://go.vansh.nyc/eT?s=y|Texas Instruments|Software Engineering Intern \ud83d\udec2|Remote Canada|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Sun Life",
+          "Data Science Intern",
+          "**5 locations**Milwaukee, WI Kansas City, MO Hartford, CT Portland, ME Wellesley, MA",
+          "Oct 22",
+          "https://go.vansh.nyc/hk?s=y"
+        ],
+        "https://go.vansh.nyc/hk?s=y|Sun Life|Data Science Intern|**5 locations**Milwaukee, WI Kansas City, MO Hartford, CT Portland, ME Wellesley, MA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "STR",
+          "Data Analyst Intern",
+          "Arlington, VA Woburn, MA",
+          "Oct 22",
+          "https://go.vansh.nyc/fo?s=y"
+        ],
+        "https://go.vansh.nyc/fo?s=y|STR|Data Analyst Intern|Arlington, VA Woburn, MA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "SOTI",
+          "Associate Product Manager Intern",
+          "Mississauga, Canada",
+          "Oct 22",
+          "https://go.vansh.nyc/hh?s=y"
+        ],
+        "https://go.vansh.nyc/hh?s=y|SOTI|Associate Product Manager Intern|Mississauga, Canada|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "SOTI",
+          "Associate Product Manager Intern",
+          "Mississauga, Canada",
+          "Oct 22",
+          "https://go.vansh.nyc/hi?s=y"
+        ],
+        "https://go.vansh.nyc/hi?s=y|SOTI|Associate Product Manager Intern|Mississauga, Canada|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Skydio",
+          "Frontend Software Engineer Intern",
+          "San Mateo, CA",
+          "Oct 22",
+          "https://go.vansh.nyc/eS?s=y"
+        ],
+        "https://go.vansh.nyc/eS?s=y|Skydio|Frontend Software Engineer Intern|San Mateo, CA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Sardine",
+          "Engineering Intern",
+          "Remote United States Canada",
+          "Oct 22",
+          "https://go.vansh.nyc/hz?s=y"
+        ],
+        "https://go.vansh.nyc/hz?s=y|Sardine|Engineering Intern|Remote United States Canada|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "RSM",
+          "Business Intelligence Consulting Intern",
+          "Toronto, Canada Calgary, Canada Edmonton, Canada",
+          "Oct 22",
+          "https://go.vansh.nyc/hg?s=y"
+        ],
+        "https://go.vansh.nyc/hg?s=y|RSM|Business Intelligence Consulting Intern|Toronto, Canada Calgary, Canada Edmonton, Canada|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Rivian and Volkswagen Group Technologies",
+          "Software Engineering Intern, Embedded Platforms",
+          "Vancouver, Canada",
+          "Oct 22",
+          "https://go.vansh.nyc/gW?s=y"
+        ],
+        "https://go.vansh.nyc/gW?s=y|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Embedded Platforms|Vancouver, Canada|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Rivian and Volkswagen Group Technologies",
+          "Software Engineering Intern, Vehicle Controls",
+          "Palo Alto, CA Irvine, CA",
+          "Oct 22",
+          "https://go.vansh.nyc/fE?s=y"
+        ],
+        "https://go.vansh.nyc/fE?s=y|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Vehicle Controls|Palo Alto, CA Irvine, CA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Rivian and Volkswagen Group Technologies",
+          "Software Engineering Intern, Embedded Platforms",
+          "Palo Alto, CA Irvine, CA Champaign, IL",
+          "Oct 22",
+          "https://go.vansh.nyc/fF?s=y"
+        ],
+        "https://go.vansh.nyc/fF?s=y|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Embedded Platforms|Palo Alto, CA Irvine, CA Champaign, IL|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Rivian and Volkswagen Group Technologies",
+          "Software Engineering Intern, Connected Systems",
+          "Palo Alto, CA Irvine, CA",
+          "Oct 22",
+          "https://go.vansh.nyc/fG?s=y"
+        ],
+        "https://go.vansh.nyc/fG?s=y|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Connected Systems|Palo Alto, CA Irvine, CA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Rivian and Volkswagen Group Technologies",
+          "Data Engineering Intern, AI & Analytics",
+          "Palo Alto, CA Irvine, CA",
+          "Oct 22",
+          "https://go.vansh.nyc/fI?s=y"
+        ],
+        "https://go.vansh.nyc/fI?s=y|Rivian and Volkswagen Group Technologies|Data Engineering Intern, AI & Analytics|Palo Alto, CA Irvine, CA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Renesas Electronics",
+          "Memory Server System Testing Intern",
+          "San Jose, CA",
+          "Oct 22",
+          "https://go.vansh.nyc/fB?s=y"
+        ],
+        "https://go.vansh.nyc/fB?s=y|Renesas Electronics|Memory Server System Testing Intern|San Jose, CA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Qualcomm",
+          "AI and DSP Applications Engineer Intern",
+          "Markham, Canada",
+          "Oct 22",
+          "https://go.vansh.nyc/fy?s=y"
+        ],
+        "https://go.vansh.nyc/fy?s=y|Qualcomm|AI and DSP Applications Engineer Intern|Markham, Canada|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Qualcomm",
+          "Camera Design Implementation Intern",
+          "Vancouver, BC, Canada",
+          "Oct 22",
+          "https://go.vansh.nyc/es?s=y"
+        ],
+        "https://go.vansh.nyc/es?s=y|Qualcomm|Camera Design Implementation Intern|Vancouver, BC, Canada|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Qualcomm",
+          "Applied AI Engineering Intern, Hardware Systems",
+          "Vancouver, BC, Canada",
+          "Oct 22",
+          "https://go.vansh.nyc/et?s=y"
+        ],
+        "https://go.vansh.nyc/et?s=y|Qualcomm|Applied AI Engineering Intern, Hardware Systems|Vancouver, BC, Canada|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Pattern",
+          "Data Science Intern",
+          "Lehi, UT",
+          "Oct 22",
+          "https://go.vansh.nyc/fu?s=y"
+        ],
+        "https://go.vansh.nyc/fu?s=y|Pattern|Data Science Intern|Lehi, UT|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Pattern",
+          "AI Automation Engineer Intern",
+          "Lehi, UT",
+          "Oct 22",
+          "https://go.vansh.nyc/fw?s=y"
+        ],
+        "https://go.vansh.nyc/fw?s=y|Pattern|AI Automation Engineer Intern|Lehi, UT|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Patreon",
+          "Product Manager Intern",
+          "New York, NY San Francisco, CA",
+          "Oct 22",
+          "https://go.vansh.nyc/fA?s=y"
+        ],
+        "https://go.vansh.nyc/fA?s=y|Patreon|Product Manager Intern|New York, NY San Francisco, CA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Palantir Technologies",
+          "Deployment Strategist Intern, Warp Speed",
+          "New York, NY",
+          "Oct 22",
+          "https://go.vansh.nyc/fJ?s=y"
+        ],
+        "https://go.vansh.nyc/fJ?s=y|Palantir Technologies|Deployment Strategist Intern, Warp Speed|New York, NY|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Palantir",
+          "Forward Deployed Software Engineer Intern, Warp Speed",
+          "New York, NY",
+          "Oct 22",
+          "https://go.vansh.nyc/fD?s=y"
+        ],
+        "https://go.vansh.nyc/fD?s=y|Palantir|Forward Deployed Software Engineer Intern, Warp Speed|New York, NY|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Paccar",
+          "Aftersales Data Analyst Intern",
+          "Kirkland, WA",
+          "Oct 22",
+          "https://go.vansh.nyc/gB?s=y"
+        ],
+        "https://go.vansh.nyc/gB?s=y|Paccar|Aftersales Data Analyst Intern|Kirkland, WA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "OpenSesame",
+          "AI Product Builder Intern",
+          "Remote United States",
+          "Oct 22",
+          "https://go.vansh.nyc/fx?s=y"
+        ],
+        "https://go.vansh.nyc/fx?s=y|OpenSesame|AI Product Builder Intern|Remote United States|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Nissan",
+          "Cyber Security Intern",
+          "Smyrna, TN",
+          "Oct 22",
+          "https://go.vansh.nyc/eD?s=y"
+        ],
+        "https://go.vansh.nyc/eD?s=y|Nissan|Cyber Security Intern|Smyrna, TN|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "MITRE",
+          "Autonomous Systems Intern",
+          "McLean, VA",
+          "Oct 22",
+          "https://go.vansh.nyc/gU?s=y"
+        ],
+        "https://go.vansh.nyc/gU?s=y|MITRE|Autonomous Systems Intern|McLean, VA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Microsoft",
+          "Security Research Intern",
+          "Redmond, WA",
+          "Oct 22",
+          "https://go.vansh.nyc/eB?s=y"
+        ],
+        "https://go.vansh.nyc/eB?s=y|Microsoft|Security Research Intern|Redmond, WA|Oct 22#1",
+        1
+      ],
+      [
+        [
+          "Man Group",
+          "Systematic Quant Intern",
+          "Boston, MA",
+          "Oct 22",
+          "https://go.vansh.nyc/fC?s=y"
+        ],
+        "https://go.vansh.nyc/fC?s=y|Man Group|Systematic Quant Intern|Boston, MA|Oct 22#1",
+        1
       ]
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "877b01d93018febccf20836b9c594d0c47507cfa",
+    "last_sha": "d61f14617bf757d5e76f333488f6a51443513795",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
