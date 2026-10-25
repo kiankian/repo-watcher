@@ -2690,7 +2690,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "0e04ab45227d59e832773a2569cab51374a0c37d",
+    "last_sha": "a614b32e2a96bd11142c946341b6f1bd6a7fa05b",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -3562,11 +3562,158 @@
       "NOURL|ROCKWOOL Group|Associate Product Management Intern|Chicago, IL|Oct 15#1",
       "NOURL|Vertiv|Data Analytics Intern|Delaware, OH|Oct 13#1",
       "NOURL|NVIDIA|Sparse Linear Algebra Libraries Intern|Santa Clara, CA|Oct 13#1",
-      "NOURL|KLA|Software Engineering Intern|Ann Arbor, MI|Oct 13#1"
+      "NOURL|KLA|Software Engineering Intern|Ann Arbor, MI|Oct 13#1",
+      "https://job-boards.greenhouse.io/studiokraftonboard/jobs/8906470002?utm_source=github-vansh-ouckah|KRAFTON|UI Programming Intern|Montreal, Canada|Oct 22#1",
+      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern_J000704366?utm_source=github-vansh-ouckah|Aptiv|Cloud Software Engineer Intern|Kanata, Canada Ottawa, Canada|Oct 22#1",
+      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern_J000704367?utm_source=github-vansh-ouckah|Aptiv|Engineering Intern|Kanata, Canada Ottawa, Canada|Oct 22#1",
+      "NOURL|Crusoe|Software Engineering Intern|San Francisco, CA|Oct 21#1",
+      "NOURL|Northrop Grumman|Software Engineer Intern|Roy, UT|Oct 20#1",
+      "NOURL|Integrate|Software Engineering Intern|Seattle, WA|Oct 20#1",
+      "NOURL|Persona|Product Design Intern|San Francisco, CA|Oct 17#1",
+      "NOURL|Airbus|Tool Technology and Development Engineering Intern|Mobile Area, AL|Oct 16#1",
+      "NOURL|GE Vernova|AI Evaluation & Benchmarking Intern, AGI|Bellevue, WA|Oct 14#1",
+      "NOURL|CIBC|Analyst Intern, Equity Solutions Group|New York, NY|Oct 13#2",
+      "NOURL|Vertiv|Product Management Intern \ud83d\udec2|Westerville, OH|Aug 21#1",
+      "NOURL|Replit|Software Engineering Intern|Foster City, CA|Aug 21#1",
+      "NOURL|Raytheon|Software Development Intern \ud83c\uddfa\ud83c\uddf8|Tewksbury, MA|Aug 21#1",
+      "NOURL|Hypercubic|Software Engineering Intern|San Francisco, CA|Aug 21#1",
+      "NOURL|American Express|Cybersecurity Intern \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+      "NOURL|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+      "NOURL|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Charlotte, NC|Aug 21#1",
+      "NOURL|American Express|Software Engineer Intern, Technology \ud83c\uddfa\ud83c\uddf8|New York, NY|Aug 21#1",
+      "NOURL|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
+      "NOURL|American Express|AI Engineer Intern, Enterprise Technology Services \ud83d\udec2|Atlanta, GA|Aug 21#1",
+      "NOURL|TikTok|Software Engineer Intern, PGC Creator Strategy \ud83d\udec2|San Jose|Aug 04#1",
+      "NOURL|RTX|Software Engineer Intern, Fleet Health Instrumentation \ud83c\uddfa\ud83c\uddf8|Fullerton, CA|Aug 04#1",
+      "NOURL|RTX|Software Engineer Intern, Fleet Health Instrumentation \ud83c\uddfa\ud83c\uddf8|McKinney, TX|Aug 04#1",
+      "NOURL|American Express|Product Management Intern \ud83d\udec2|New York, NY|Aug 04#1",
+      "NOURL|HyperLight|Software Engineer Intern|Cambridge, MA|Jul 26#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 760,
-    "outbox": []
+    "last_row_count": 763,
+    "outbox": [
+      [
+        [
+          "Etched",
+          "Supercomputing Intern",
+          "San Jose, CA",
+          "May 22",
+          ""
+        ],
+        "NOURL|Etched|Supercomputing Intern|San Jose, CA|May 22#1",
+        1
+      ],
+      [
+        [
+          "Etched",
+          "Infrastructure Intern",
+          "San Jose, CA",
+          "May 22",
+          ""
+        ],
+        "NOURL|Etched|Infrastructure Intern|San Jose, CA|May 22#1",
+        1
+      ],
+      [
+        [
+          "Etched",
+          "Firmware Intern",
+          "San Jose, CA",
+          "May 22",
+          ""
+        ],
+        "NOURL|Etched|Firmware Intern|San Jose, CA|May 22#1",
+        1
+      ],
+      [
+        [
+          "Etched",
+          "Inference Intern, Architecture",
+          "San Jose, CA",
+          "May 22",
+          ""
+        ],
+        "NOURL|Etched|Inference Intern, Architecture|San Jose, CA|May 22#1",
+        1
+      ],
+      [
+        [
+          "WSP",
+          "Software Developer Intern",
+          "Dallas, TX",
+          "May 12",
+          ""
+        ],
+        "NOURL|WSP|Software Developer Intern|Dallas, TX|May 12#1",
+        1
+      ],
+      [
+        [
+          "Apex Technology, Inc.",
+          "Software Engineering Intern, Embedded Systems",
+          "Los Angeles",
+          "May 11",
+          ""
+        ],
+        "NOURL|Apex Technology, Inc.|Software Engineering Intern, Embedded Systems|Los Angeles|May 11#1",
+        1
+      ],
+      [
+        [
+          "Homebase",
+          "Forward Deployed Engineering Intern, AI-Native",
+          "Houston, TX San Francisco, CA",
+          "Apr 28",
+          ""
+        ],
+        "NOURL|Homebase|Forward Deployed Engineering Intern, AI-Native|Houston, TX San Francisco, CA|Apr 28#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "LLM Post-training Engineer Intern, Research & Product",
+          "San Jose, CA",
+          "Apr 24",
+          ""
+        ],
+        "NOURL|TikTok|LLM Post-training Engineer Intern, Research & Product|San Jose, CA|Apr 24#1",
+        1
+      ],
+      [
+        [
+          "Al Warren Oil Company",
+          "Software Developer Intern",
+          "Bensenville, IL",
+          "Apr 24",
+          ""
+        ],
+        "NOURL|Al Warren Oil Company|Software Developer Intern|Bensenville, IL|Apr 24#1",
+        1
+      ],
+      [
+        [
+          "Ether.fi",
+          "GTM Engineer Intern",
+          "Cayman Denver New York",
+          "Apr 22",
+          ""
+        ],
+        "NOURL|Ether.fi|GTM Engineer Intern|Cayman Denver New York|Apr 22#1",
+        1
+      ],
+      [
+        [
+          "Poshmark",
+          "Cloud Platform Engineer Intern, Growth \ud83d\udec2",
+          "Redwood City, CA",
+          "Apr 20",
+          ""
+        ],
+        "NOURL|Poshmark|Cloud Platform Engineer Intern, Growth \ud83d\udec2|Redwood City, CA|Apr 20#1",
+        1
+      ]
+    ]
   },
   "zapplyjobs/Internships-2027#swe": {
     "last_sha": "8468f2034f3abd6c455689fbe635d5cb0c4965d1",
