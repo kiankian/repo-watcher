@@ -3773,286 +3773,36 @@
       "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Science-Intern--Core-Telematics-_R36285|Allstate|Data Science Intern, Core Telematics|Remote United States|Oct 21#1",
       "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/San-Diego-CA/Software-Engineering-Intern_8828|AeroVironment|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Diego, CA|Oct 21#1",
       "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Signal-Processing-and-RF-Engineering-Undergrad-Intern_R016849|Aerospace Corporation|Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
-      "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Hardware-Security-Engineering-Undergrad--Intern_R016954|Aerospace Corporation|Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Oct 21#1"
+      "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Hardware-Security-Engineering-Undergrad--Intern_R016954|Aerospace Corporation|Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Oct 21#1",
+      "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Digital-Communication-Undergraduate-Intern_R016948|Aerospace Corporation|Digital Communication Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
+      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Greenville-South-Carolina-United-States-of-America/R-D-Software-Engineer_JR00050035|ABB|R&D Software Engineer Intern|Greenville, SC|Oct 21#1",
+      "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Software-Development-Engineer---Intern_P751630|Zillow|Software Development Engineer Intern|Seattle, WA Remote in USA|Oct 20#1",
+      "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/303922|Uber|Software Engineer Intern|Seattle, WA SF Sunnyvale, CA|Oct 20#1",
+      "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949|The Aerospace Corporation|Embedded Software Engineer Intern, Multiple Teams|El Segundo, CA|Oct 20#1",
+      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019103|Texas Instruments|Software Engineer Intern, Compiler|Sugar Land, TX|Oct 20#1",
+      "https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineer---Cloud-Security-Summer-Internship_REQ379190|T-Mobile|Software Engineer Intern, Cloud Security|Atlanta, GA Frisco, TX|Oct 20#1",
+      "https://jobs.ashbyhq.com/steel/5fbdbebf-ddb2-4264-a941-3ab6d475208c/application?embed=true|Steel|Software Engineer Intern|Toronto, ON, Canada|Oct 20#1",
+      "https://spacedynamicslaboratory.applytojob.com/apply/HgIOie6SBP/AIEnabled-Requirements-Engineering-Intern|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1",
+      "https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Cloud-Administrator--Intern-_R10569|SOTI|Cloud Administrator Intern|Mississauga, ON|Oct 20#1",
+      "https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027-_R10604|SOTI|Software Developer Intern|Mississauga, ON|Oct 20#1",
+      "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---New-York/Engineering-Intern--AI-Ethics-_JR-119784|Sony|Research Engineer Intern, Ethical Creative and Protective AI Lab|Remote in USA|Oct 20#1",
+      "https://jobs.ashbyhq.com/skydio/8a237302-3fe8-4403-b32b-7690f333ba52/application|Skydio|Mobile Software Engineer Intern|San Mateo, CA|Oct 20#1",
+      "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456|Sierra Space|Flight Software Engineer Intern|Louisville, CO|Oct 20#1",
+      "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1|Salesforce|AI Research Intern|Palo Alto, CA|Oct 20#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-Intern--Summer-2027-_01880127|RTX|Software Engineer Intern|Tewksbury, MA|Oct 20#1",
+      "https://jobs.ashbyhq.com/rhoda-ai/2de33083-782f-489e-9b91-f40761a36bf4|Rhoda AI|Software Engineer Intern, Inference|Mountain View, CA|Oct 20#1",
+      "https://pictonmahoney.bamboohr.com/careers/387|Picton Mahoney Asset Management|Data Engineer Intern|Toronto, ON, Canada|Oct 20#1",
+      "https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13|Palantir|Software Engineer Intern, Query Engines|New York, NY|Oct 20#1",
+      "https://jobs.paccar.com/job/Kirkland-Summer-2027-Field-Service-Data-Analyst-Intern-WA-98033/1449526633/?ats=successfactors|Paccar|Field Service Data Analyst Intern|Kirkland, WA|Oct 20#1",
+      "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094|Micron Technology|SMAI Probe AI Engineer Intern|Boise, ID|Oct 20#1",
+      "https://jobs.ashbyhq.com/metamorphic/cf518648-4e65-4f7d-aa05-f01066d8bd8a/application?embed=true|Metamorphic|Engineering Intern|Palo Alto, CA|Oct 20#1",
+      "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Silicon-Validation-Intern--BS---Summer-2027_2603850-1|Marvell|Silicon Validation Intern|Santa Clara, CA|Oct 20#1",
+      "https://jobs.smartrecruiters.com/LinkedIn3/744000156616169|LinkedIn|Software Engineer Intern|Mountain View, CA|Oct 20#1",
+      "https://careers-kinaxis.icims.com/jobs/35572/intern-cloud-developer%2c-platform-engineering/job|Kinaxis|Cloud Developer Intern, Platform Engineering|Ottawa, ON|Oct 20#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 764,
     "outbox": [
-      [
-        [
-          "Aerospace Corporation",
-          "Digital Communication Intern \ud83c\uddfa\ud83c\uddf8",
-          "El Segundo, CA",
-          "Oct 21",
-          "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Digital-Communication-Undergraduate-Intern_R016948"
-        ],
-        "https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Digital-Communication-Undergraduate-Intern_R016948|Aerospace Corporation|Digital Communication Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "ABB",
-          "R&D Software Engineer Intern",
-          "Greenville, SC",
-          "Oct 21",
-          "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Greenville-South-Carolina-United-States-of-America/R-D-Software-Engineer_JR00050035"
-        ],
-        "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Greenville-South-Carolina-United-States-of-America/R-D-Software-Engineer_JR00050035|ABB|R&D Software Engineer Intern|Greenville, SC|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Zillow",
-          "Software Development Engineer Intern",
-          "Seattle, WA Remote in USA",
-          "Oct 20",
-          "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Software-Development-Engineer---Intern_P751630"
-        ],
-        "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Software-Development-Engineer---Intern_P751630|Zillow|Software Development Engineer Intern|Seattle, WA Remote in USA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Uber",
-          "Software Engineer Intern",
-          "Seattle, WA SF Sunnyvale, CA",
-          "Oct 20",
-          "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/303922"
-        ],
-        "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/303922|Uber|Software Engineer Intern|Seattle, WA SF Sunnyvale, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "The Aerospace Corporation",
-          "Embedded Software Engineer Intern, Multiple Teams",
-          "El Segundo, CA",
-          "Oct 20",
-          "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949"
-        ],
-        "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949|The Aerospace Corporation|Embedded Software Engineer Intern, Multiple Teams|El Segundo, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Texas Instruments",
-          "Software Engineer Intern, Compiler",
-          "Sugar Land, TX",
-          "Oct 20",
-          "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019103"
-        ],
-        "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019103|Texas Instruments|Software Engineer Intern, Compiler|Sugar Land, TX|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "T-Mobile",
-          "Software Engineer Intern, Cloud Security",
-          "Atlanta, GA Frisco, TX",
-          "Oct 20",
-          "https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineer---Cloud-Security-Summer-Internship_REQ379190"
-        ],
-        "https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineer---Cloud-Security-Summer-Internship_REQ379190|T-Mobile|Software Engineer Intern, Cloud Security|Atlanta, GA Frisco, TX|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Steel",
-          "Software Engineer Intern",
-          "Toronto, ON, Canada",
-          "Oct 20",
-          "https://jobs.ashbyhq.com/steel/5fbdbebf-ddb2-4264-a941-3ab6d475208c/application?embed=true"
-        ],
-        "https://jobs.ashbyhq.com/steel/5fbdbebf-ddb2-4264-a941-3ab6d475208c/application?embed=true|Steel|Software Engineer Intern|Toronto, ON, Canada|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Space Dynamics Laboratory",
-          "AI-Enabled Requirements Engineering Intern",
-          "North Logan, UT",
-          "Oct 20",
-          "https://spacedynamicslaboratory.applytojob.com/apply/HgIOie6SBP/AIEnabled-Requirements-Engineering-Intern"
-        ],
-        "https://spacedynamicslaboratory.applytojob.com/apply/HgIOie6SBP/AIEnabled-Requirements-Engineering-Intern|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "SOTI",
-          "Cloud Administrator Intern",
-          "Mississauga, ON",
-          "Oct 20",
-          "https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Cloud-Administrator--Intern-_R10569"
-        ],
-        "https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Cloud-Administrator--Intern-_R10569|SOTI|Cloud Administrator Intern|Mississauga, ON|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "SOTI",
-          "Software Developer Intern",
-          "Mississauga, ON",
-          "Oct 20",
-          "https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027-_R10604"
-        ],
-        "https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027-_R10604|SOTI|Software Developer Intern|Mississauga, ON|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Sony",
-          "Research Engineer Intern, Ethical Creative and Protective AI Lab",
-          "Remote in USA",
-          "Oct 20",
-          "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---New-York/Engineering-Intern--AI-Ethics-_JR-119784"
-        ],
-        "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---New-York/Engineering-Intern--AI-Ethics-_JR-119784|Sony|Research Engineer Intern, Ethical Creative and Protective AI Lab|Remote in USA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Skydio",
-          "Mobile Software Engineer Intern",
-          "San Mateo, CA",
-          "Oct 20",
-          "https://jobs.ashbyhq.com/skydio/8a237302-3fe8-4403-b32b-7690f333ba52/application"
-        ],
-        "https://jobs.ashbyhq.com/skydio/8a237302-3fe8-4403-b32b-7690f333ba52/application|Skydio|Mobile Software Engineer Intern|San Mateo, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Sierra Space",
-          "Flight Software Engineer Intern",
-          "Louisville, CO",
-          "Oct 20",
-          "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456"
-        ],
-        "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456|Sierra Space|Flight Software Engineer Intern|Louisville, CO|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Salesforce",
-          "AI Research Intern",
-          "Palo Alto, CA",
-          "Oct 20",
-          "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1"
-        ],
-        "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1|Salesforce|AI Research Intern|Palo Alto, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "RTX",
-          "Software Engineer Intern",
-          "Tewksbury, MA",
-          "Oct 20",
-          "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-Intern--Summer-2027-_01880127"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-Intern--Summer-2027-_01880127|RTX|Software Engineer Intern|Tewksbury, MA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Rhoda AI",
-          "Software Engineer Intern, Inference",
-          "Mountain View, CA",
-          "Oct 20",
-          "https://jobs.ashbyhq.com/rhoda-ai/2de33083-782f-489e-9b91-f40761a36bf4"
-        ],
-        "https://jobs.ashbyhq.com/rhoda-ai/2de33083-782f-489e-9b91-f40761a36bf4|Rhoda AI|Software Engineer Intern, Inference|Mountain View, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Picton Mahoney Asset Management",
-          "Data Engineer Intern",
-          "Toronto, ON, Canada",
-          "Oct 20",
-          "https://pictonmahoney.bamboohr.com/careers/387"
-        ],
-        "https://pictonmahoney.bamboohr.com/careers/387|Picton Mahoney Asset Management|Data Engineer Intern|Toronto, ON, Canada|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Palantir",
-          "Software Engineer Intern, Query Engines",
-          "New York, NY",
-          "Oct 20",
-          "https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13"
-        ],
-        "https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13|Palantir|Software Engineer Intern, Query Engines|New York, NY|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Paccar",
-          "Field Service Data Analyst Intern",
-          "Kirkland, WA",
-          "Oct 20",
-          "https://jobs.paccar.com/job/Kirkland-Summer-2027-Field-Service-Data-Analyst-Intern-WA-98033/1449526633/?ats=successfactors"
-        ],
-        "https://jobs.paccar.com/job/Kirkland-Summer-2027-Field-Service-Data-Analyst-Intern-WA-98033/1449526633/?ats=successfactors|Paccar|Field Service Data Analyst Intern|Kirkland, WA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Micron Technology",
-          "SMAI Probe AI Engineer Intern",
-          "Boise, ID",
-          "Oct 20",
-          "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094"
-        ],
-        "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094|Micron Technology|SMAI Probe AI Engineer Intern|Boise, ID|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Metamorphic",
-          "Engineering Intern",
-          "Palo Alto, CA",
-          "Oct 20",
-          "https://jobs.ashbyhq.com/metamorphic/cf518648-4e65-4f7d-aa05-f01066d8bd8a/application?embed=true"
-        ],
-        "https://jobs.ashbyhq.com/metamorphic/cf518648-4e65-4f7d-aa05-f01066d8bd8a/application?embed=true|Metamorphic|Engineering Intern|Palo Alto, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Marvell",
-          "Silicon Validation Intern",
-          "Santa Clara, CA",
-          "Oct 20",
-          "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Silicon-Validation-Intern--BS---Summer-2027_2603850-1"
-        ],
-        "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Silicon-Validation-Intern--BS---Summer-2027_2603850-1|Marvell|Silicon Validation Intern|Santa Clara, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "LinkedIn",
-          "Software Engineer Intern",
-          "Mountain View, CA",
-          "Oct 20",
-          "https://jobs.smartrecruiters.com/LinkedIn3/744000156616169"
-        ],
-        "https://jobs.smartrecruiters.com/LinkedIn3/744000156616169|LinkedIn|Software Engineer Intern|Mountain View, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Kinaxis",
-          "Cloud Developer Intern, Platform Engineering",
-          "Ottawa, ON",
-          "Oct 20",
-          "https://careers-kinaxis.icims.com/jobs/35572/intern-cloud-developer%2c-platform-engineering/job"
-        ],
-        "https://careers-kinaxis.icims.com/jobs/35572/intern-cloud-developer%2c-platform-engineering/job|Kinaxis|Cloud Developer Intern, Platform Engineering|Ottawa, ON|Oct 20#1",
-        1
-      ],
       [
         [
           "K1",
