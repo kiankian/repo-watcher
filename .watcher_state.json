@@ -5971,286 +5971,36 @@
       "https://go.vansh.nyc/RB?s=y|Qualcomm|AI Driven Test Automation Engineering Intern|Haifa District, IL|Oct 18#1",
       "https://go.vansh.nyc/RC?s=y|Qualcomm|Design Automation & Quality Assurance Engineering Intern|Ottawa, Canada|Oct 18#1",
       "https://go.vansh.nyc/Rn?s=y|NVIDIA|Deep Learning Computer Architecture Intern|Santa Clara, CA|Oct 18#1",
-      "https://go.vansh.nyc/Ro?s=y|NVIDIA|Systems Software Engineering Intern|Santa Clara, CA|Oct 18#1"
+      "https://go.vansh.nyc/Ro?s=y|NVIDIA|Systems Software Engineering Intern|Santa Clara, CA|Oct 18#1",
+      "https://go.vansh.nyc/Rp?s=y|NVIDIA|Systems Software Intern, Aerial PHY|Santa Clara, CA|Oct 18#1",
+      "https://go.vansh.nyc/QQ?s=y|LPL Financial Holdings|Cybersecurity Analyst Intern|Fort Mill, SC Charlotte, NC Austin, TX|Oct 18#1",
+      "https://go.vansh.nyc/QR?s=y|LPL Financial Holdings|Platform Engineer Intern|Fort Mill, SC Charlotte, NC Austin, TX|Oct 18#1",
+      "https://go.vansh.nyc/Ri?s=y|Los Alamos National Laboratory|High Performance Computing Undergraduate Intern \ud83c\uddfa\ud83c\uddf8|United States|Oct 18#1",
+      "https://go.vansh.nyc/Rd?s=y|Keysight Technologies|R&D Embedded Software Intern|Colorado Springs, CO|Oct 18#1",
+      "https://go.vansh.nyc/Re?s=y|Keysight Technologies|R&D Software Engineer QA DevOps Intern \ud83c\uddfa\ud83c\uddf8|Santa Rosa, CA San Diego, CA|Oct 18#1",
+      "https://go.vansh.nyc/Rf?s=y|Keysight Technologies|Enterprise Software Development Intern, EDA Tools|Santa Rosa, CA|Oct 18#1",
+      "https://go.vansh.nyc/Rg?s=y|Keysight Technologies|Engineering Software Developer Intern|Austin, TX Raleigh, NC|Oct 18#1",
+      "https://go.vansh.nyc/Rh?s=y|Keysight Technologies|Software Engineering Intern|Calabasas, CA|Oct 18#1",
+      "https://go.vansh.nyc/R5?s=y|Garmin|Cyber Security Engineer Intern|Olathe, KS|Oct 18#1",
+      "https://go.vansh.nyc/R4?s=y|Eaton|Software Quality Assurance Engineering Intern|Minneapolis, MN|Oct 18#1",
+      "https://go.vansh.nyc/R3?s=y|Disney|Product & Technology Software Engineering Intern|Glendale, CA San Francisco, CA New York, NY|Oct 18#1",
+      "https://go.vansh.nyc/QX?s=y|Celestica|AI Engineer Intern|Remote United States|Oct 18#1",
+      "https://go.vansh.nyc/QY?s=y|Celestica|AI / Data Science Intern|San Jose, CA|Oct 18#1",
+      "https://go.vansh.nyc/QZ?s=y|Celestica|SCM Data Scientist Intern|Toronto, Canada|Oct 18#1",
+      "https://go.vansh.nyc/R0?s=y|Celestica|Software Testing Intern|Austin, TX|Oct 18#1",
+      "https://go.vansh.nyc/R1?s=y|Celestica|SCM Data Analyst Intern|Toronto, Canada|Oct 18#1",
+      "https://go.vansh.nyc/R2?s=y|Celestica|Software & Hardware Engineer Intern|Austin, TX|Oct 18#1",
+      "https://go.vansh.nyc/QO?s=y|Campbell Soup Company|Data Science Intern|Camden, NJ|Oct 18#1",
+      "https://go.vansh.nyc/QM?s=y|Booz Allen Hamilton|Games Software Developer Intern|Lexington, MA|Oct 18#1",
+      "https://go.vansh.nyc/QN?s=y|Booz Allen Hamilton|Games Data Scientist Intern|Lexington, MA|Oct 18#1",
+      "https://go.vansh.nyc/QW?s=y|Atlassian|Security Engineer Intern|Seattle, WA|Oct 18#1",
+      "https://go.vansh.nyc/QV?s=y|Alstom|ATC Software Intern|Pittsburgh, PA|Oct 18#1",
+      "https://go.vansh.nyc/QK?s=y|PDT Partners|Systems Engineering Intern|New York, NY|Oct 07#1",
+      "https://go.vansh.nyc/QL?s=y|Dell Technologies|Data Science Intern|United States|Oct 07#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 1323,
     "outbox": [
-      [
-        [
-          "NVIDIA",
-          "Systems Software Intern, Aerial PHY",
-          "Santa Clara, CA",
-          "Oct 18",
-          "https://go.vansh.nyc/Rp?s=y"
-        ],
-        "https://go.vansh.nyc/Rp?s=y|NVIDIA|Systems Software Intern, Aerial PHY|Santa Clara, CA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "LPL Financial Holdings",
-          "Cybersecurity Analyst Intern",
-          "Fort Mill, SC Charlotte, NC Austin, TX",
-          "Oct 18",
-          "https://go.vansh.nyc/QQ?s=y"
-        ],
-        "https://go.vansh.nyc/QQ?s=y|LPL Financial Holdings|Cybersecurity Analyst Intern|Fort Mill, SC Charlotte, NC Austin, TX|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "LPL Financial Holdings",
-          "Platform Engineer Intern",
-          "Fort Mill, SC Charlotte, NC Austin, TX",
-          "Oct 18",
-          "https://go.vansh.nyc/QR?s=y"
-        ],
-        "https://go.vansh.nyc/QR?s=y|LPL Financial Holdings|Platform Engineer Intern|Fort Mill, SC Charlotte, NC Austin, TX|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Los Alamos National Laboratory",
-          "High Performance Computing Undergraduate Intern \ud83c\uddfa\ud83c\uddf8",
-          "United States",
-          "Oct 18",
-          "https://go.vansh.nyc/Ri?s=y"
-        ],
-        "https://go.vansh.nyc/Ri?s=y|Los Alamos National Laboratory|High Performance Computing Undergraduate Intern \ud83c\uddfa\ud83c\uddf8|United States|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "R&D Embedded Software Intern",
-          "Colorado Springs, CO",
-          "Oct 18",
-          "https://go.vansh.nyc/Rd?s=y"
-        ],
-        "https://go.vansh.nyc/Rd?s=y|Keysight Technologies|R&D Embedded Software Intern|Colorado Springs, CO|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "R&D Software Engineer QA DevOps Intern \ud83c\uddfa\ud83c\uddf8",
-          "Santa Rosa, CA San Diego, CA",
-          "Oct 18",
-          "https://go.vansh.nyc/Re?s=y"
-        ],
-        "https://go.vansh.nyc/Re?s=y|Keysight Technologies|R&D Software Engineer QA DevOps Intern \ud83c\uddfa\ud83c\uddf8|Santa Rosa, CA San Diego, CA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "Enterprise Software Development Intern, EDA Tools",
-          "Santa Rosa, CA",
-          "Oct 18",
-          "https://go.vansh.nyc/Rf?s=y"
-        ],
-        "https://go.vansh.nyc/Rf?s=y|Keysight Technologies|Enterprise Software Development Intern, EDA Tools|Santa Rosa, CA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "Engineering Software Developer Intern",
-          "Austin, TX Raleigh, NC",
-          "Oct 18",
-          "https://go.vansh.nyc/Rg?s=y"
-        ],
-        "https://go.vansh.nyc/Rg?s=y|Keysight Technologies|Engineering Software Developer Intern|Austin, TX Raleigh, NC|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "Software Engineering Intern",
-          "Calabasas, CA",
-          "Oct 18",
-          "https://go.vansh.nyc/Rh?s=y"
-        ],
-        "https://go.vansh.nyc/Rh?s=y|Keysight Technologies|Software Engineering Intern|Calabasas, CA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Garmin",
-          "Cyber Security Engineer Intern",
-          "Olathe, KS",
-          "Oct 18",
-          "https://go.vansh.nyc/R5?s=y"
-        ],
-        "https://go.vansh.nyc/R5?s=y|Garmin|Cyber Security Engineer Intern|Olathe, KS|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Eaton",
-          "Software Quality Assurance Engineering Intern",
-          "Minneapolis, MN",
-          "Oct 18",
-          "https://go.vansh.nyc/R4?s=y"
-        ],
-        "https://go.vansh.nyc/R4?s=y|Eaton|Software Quality Assurance Engineering Intern|Minneapolis, MN|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Disney",
-          "Product & Technology Software Engineering Intern",
-          "Glendale, CA San Francisco, CA New York, NY",
-          "Oct 18",
-          "https://go.vansh.nyc/R3?s=y"
-        ],
-        "https://go.vansh.nyc/R3?s=y|Disney|Product & Technology Software Engineering Intern|Glendale, CA San Francisco, CA New York, NY|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Celestica",
-          "AI Engineer Intern",
-          "Remote United States",
-          "Oct 18",
-          "https://go.vansh.nyc/QX?s=y"
-        ],
-        "https://go.vansh.nyc/QX?s=y|Celestica|AI Engineer Intern|Remote United States|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Celestica",
-          "AI / Data Science Intern",
-          "San Jose, CA",
-          "Oct 18",
-          "https://go.vansh.nyc/QY?s=y"
-        ],
-        "https://go.vansh.nyc/QY?s=y|Celestica|AI / Data Science Intern|San Jose, CA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Celestica",
-          "SCM Data Scientist Intern",
-          "Toronto, Canada",
-          "Oct 18",
-          "https://go.vansh.nyc/QZ?s=y"
-        ],
-        "https://go.vansh.nyc/QZ?s=y|Celestica|SCM Data Scientist Intern|Toronto, Canada|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Celestica",
-          "Software Testing Intern",
-          "Austin, TX",
-          "Oct 18",
-          "https://go.vansh.nyc/R0?s=y"
-        ],
-        "https://go.vansh.nyc/R0?s=y|Celestica|Software Testing Intern|Austin, TX|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Celestica",
-          "SCM Data Analyst Intern",
-          "Toronto, Canada",
-          "Oct 18",
-          "https://go.vansh.nyc/R1?s=y"
-        ],
-        "https://go.vansh.nyc/R1?s=y|Celestica|SCM Data Analyst Intern|Toronto, Canada|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Celestica",
-          "Software & Hardware Engineer Intern",
-          "Austin, TX",
-          "Oct 18",
-          "https://go.vansh.nyc/R2?s=y"
-        ],
-        "https://go.vansh.nyc/R2?s=y|Celestica|Software & Hardware Engineer Intern|Austin, TX|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Campbell Soup Company",
-          "Data Science Intern",
-          "Camden, NJ",
-          "Oct 18",
-          "https://go.vansh.nyc/QO?s=y"
-        ],
-        "https://go.vansh.nyc/QO?s=y|Campbell Soup Company|Data Science Intern|Camden, NJ|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Booz Allen Hamilton",
-          "Games Software Developer Intern",
-          "Lexington, MA",
-          "Oct 18",
-          "https://go.vansh.nyc/QM?s=y"
-        ],
-        "https://go.vansh.nyc/QM?s=y|Booz Allen Hamilton|Games Software Developer Intern|Lexington, MA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Booz Allen Hamilton",
-          "Games Data Scientist Intern",
-          "Lexington, MA",
-          "Oct 18",
-          "https://go.vansh.nyc/QN?s=y"
-        ],
-        "https://go.vansh.nyc/QN?s=y|Booz Allen Hamilton|Games Data Scientist Intern|Lexington, MA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Atlassian",
-          "Security Engineer Intern",
-          "Seattle, WA",
-          "Oct 18",
-          "https://go.vansh.nyc/QW?s=y"
-        ],
-        "https://go.vansh.nyc/QW?s=y|Atlassian|Security Engineer Intern|Seattle, WA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Alstom",
-          "ATC Software Intern",
-          "Pittsburgh, PA",
-          "Oct 18",
-          "https://go.vansh.nyc/QV?s=y"
-        ],
-        "https://go.vansh.nyc/QV?s=y|Alstom|ATC Software Intern|Pittsburgh, PA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "PDT Partners",
-          "Systems Engineering Intern",
-          "New York, NY",
-          "Oct 07",
-          "https://go.vansh.nyc/QK?s=y"
-        ],
-        "https://go.vansh.nyc/QK?s=y|PDT Partners|Systems Engineering Intern|New York, NY|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "Dell Technologies",
-          "Data Science Intern",
-          "United States",
-          "Oct 07",
-          "https://go.vansh.nyc/QL?s=y"
-        ],
-        "https://go.vansh.nyc/QL?s=y|Dell Technologies|Data Science Intern|United States|Oct 07#1",
-        1
-      ],
       [
         [
           "Qube Research and Technologies",
