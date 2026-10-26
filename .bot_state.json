@@ -107600,6 +107600,66 @@
       "chat_id": 7582459199,
       "seq": 8409,
       "identity": "https://zapply.jobs/l/d/workday-analogdevices-external-R267690?s=gh-internships-2027|Analog Devices|DevOps Co-Op|US, MA, Boston|Summer 2027#1"
+    },
+    "a9f12587aad4": {
+      "company": "Royal Bank of Canada",
+      "role": "Data Engineer Intern",
+      "location": "Calgary, Canada",
+      "term": "Oct 25",
+      "apply_url": "https://go.vansh.nyc/Qa?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9679,
+      "chat_id": 7582459199,
+      "seq": 8410,
+      "identity": "https://go.vansh.nyc/Qa?s=y|Royal Bank of Canada|Data Engineer Intern|Calgary, Canada|Oct 25#1"
+    },
+    "38d36de40f96": {
+      "company": "Royal Bank of Canada",
+      "role": "Developer Intern",
+      "location": "Toronto, Canada",
+      "term": "Oct 25",
+      "apply_url": "https://go.vansh.nyc/Qb?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9680,
+      "chat_id": 7582459199,
+      "seq": 8411,
+      "identity": "https://go.vansh.nyc/Qb?s=y|Royal Bank of Canada|Developer Intern|Toronto, Canada|Oct 25#1"
+    },
+    "942566a6c65a": {
+      "company": "Royal Bank of Canada",
+      "role": "Data Engineer Intern",
+      "location": "Toronto, Canada",
+      "term": "Oct 25",
+      "apply_url": "https://go.vansh.nyc/Qc?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9681,
+      "chat_id": 7582459199,
+      "seq": 8412,
+      "identity": "https://go.vansh.nyc/Qc?s=y|Royal Bank of Canada|Data Engineer Intern|Toronto, Canada|Oct 25#1"
+    },
+    "815508e2f5e1": {
+      "company": "Royal Bank of Canada",
+      "role": "Developer Intern",
+      "location": "Montreal, Canada",
+      "term": "Oct 25",
+      "apply_url": "https://go.vansh.nyc/Qd?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9682,
+      "chat_id": 7582459199,
+      "seq": 8413,
+      "identity": "https://go.vansh.nyc/Qd?s=y|Royal Bank of Canada|Developer Intern|Montreal, Canada|Oct 25#1"
+    },
+    "1ef9781e1aec": {
+      "company": "Royal Bank of Canada",
+      "role": "Developer Intern",
+      "location": "Calgary, Canada",
+      "term": "Oct 25",
+      "apply_url": "https://go.vansh.nyc/Qe?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9683,
+      "chat_id": 7582459199,
+      "seq": 8414,
+      "identity": "https://go.vansh.nyc/Qe?s=y|Royal Bank of Canada|Developer Intern|Calgary, Canada|Oct 25#1"
     }
   },
   "applied": {
@@ -107967,10 +108027,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8409,
+  "seq": 8414,
   "health": {
     "last_heartbeat": "2026-10-26T15:00:23Z",
-    "last_ok_run": "2026-10-26T15:10:18Z",
+    "last_ok_run": "2026-10-26T15:15:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
