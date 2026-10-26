@@ -109676,6 +109676,90 @@
       "chat_id": 7582459199,
       "seq": 8582,
       "identity": "https://zapply.jobs/l/d/workday-carrier-jobs-30220432?s=gh-internships-2027|Carrier Global|Systems Engineering Intern - Summer|CAN05: CCS-Charlotte, 5900...|Summer 2027#1"
+    },
+    "f3f0940f3605": {
+      "company": "L3Harris Technologies",
+      "role": "Software Engineer Intern",
+      "location": "Rockwall, TX",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/Tb?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9852,
+      "chat_id": 7582459199,
+      "seq": 8583,
+      "identity": "https://go.vansh.nyc/Tb?s=y|L3Harris Technologies|Software Engineer Intern|Rockwall, TX|Oct 26#1"
+    },
+    "089b7e64c623": {
+      "company": "Hive Financial Systems",
+      "role": "Software Engineer Intern",
+      "location": "Atlanta, GA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/Ta?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9853,
+      "chat_id": 7582459199,
+      "seq": 8584,
+      "identity": "https://go.vansh.nyc/Ta?s=y|Hive Financial Systems|Software Engineer Intern|Atlanta, GA|Oct 26#1"
+    },
+    "a5161649afd3": {
+      "company": "Cohesity",
+      "role": "Software Engineering Intern",
+      "location": "Santa Clara, CA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/Tc?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9854,
+      "chat_id": 7582459199,
+      "seq": 8585,
+      "identity": "https://go.vansh.nyc/Tc?s=y|Cohesity|Software Engineering Intern|Santa Clara, CA|Oct 26#1"
+    },
+    "75ad260f79c6": {
+      "company": "Highmark Health",
+      "role": "Provider Delivery Software Engineer Intern",
+      "location": "Remote United States",
+      "term": "Oct 25",
+      "apply_url": "https://go.vansh.nyc/T8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9855,
+      "chat_id": 7582459199,
+      "seq": 8586,
+      "identity": "https://go.vansh.nyc/T8?s=y|Highmark Health|Provider Delivery Software Engineer Intern|Remote United States|Oct 25#1"
+    },
+    "e5a3827d398f": {
+      "company": "HCSC",
+      "role": "Product Engineer Intern",
+      "location": "Chicago, IL Richardson, TX",
+      "term": "Oct 25",
+      "apply_url": "https://go.vansh.nyc/T7?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9856,
+      "chat_id": 7582459199,
+      "seq": 8587,
+      "identity": "https://go.vansh.nyc/T7?s=y|HCSC|Product Engineer Intern|Chicago, IL Richardson, TX|Oct 25#1"
+    },
+    "a18f531118d7": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Software Test Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Pittsburgh, PA",
+      "term": "Oct 25",
+      "apply_url": "https://go.vansh.nyc/T5?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9857,
+      "chat_id": 7582459199,
+      "seq": 8588,
+      "identity": "https://go.vansh.nyc/T5?s=y|General Dynamics Mission Systems|Software Test Engineer Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Oct 25#1"
+    },
+    "be7cfc69b7e8": {
+      "company": "Altera",
+      "role": "FPGA IP Design Engineer Intern",
+      "location": "Toronto, ON, Canada",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9858,
+      "chat_id": 7582459199,
+      "seq": 8589,
+      "identity": "NOURL|Altera|FPGA IP Design Engineer Intern|Toronto, ON, Canada|Oct 19#1"
     }
   },
   "applied": {
@@ -110043,10 +110127,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8582,
+  "seq": 8589,
   "health": {
     "last_heartbeat": "2026-10-26T22:25:16Z",
-    "last_ok_run": "2026-10-26T22:40:18Z",
+    "last_ok_run": "2026-10-26T22:45:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
