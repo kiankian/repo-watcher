@@ -109472,6 +109472,18 @@
       "chat_id": 7582459199,
       "seq": 8565,
       "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R70006?s=gh-internships-2027|Motorola Solutions|Presales Systems Engineer - Summer 2027 Internship|Brentwood, TN, More...|Summer 2027#1"
+    },
+    "a9cd75b6dd90": {
+      "company": "Westinghouse Electric Company",
+      "role": "Software Developer Intern, Tools & Apps",
+      "location": "Warrendale, PA",
+      "term": "Sep 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9835,
+      "chat_id": 7582459199,
+      "seq": 8566,
+      "identity": "NOURL|Westinghouse Electric Company|Software Developer Intern, Tools & Apps|Warrendale, PA|Sep 29#1"
     }
   },
   "applied": {
@@ -109839,10 +109851,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8565,
+  "seq": 8566,
   "health": {
     "last_heartbeat": "2026-10-26T20:55:16Z",
-    "last_ok_run": "2026-10-26T21:10:20Z",
+    "last_ok_run": "2026-10-26T21:15:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
