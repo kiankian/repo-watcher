@@ -5471,286 +5471,36 @@
       "https://go.vansh.nyc/Cw?s=y|TikTok|Machine Learning Engineer Intern, E-Commerce Recommendation Mall|Seattle, WA|Oct 14#1",
       "https://go.vansh.nyc/Cx?s=y|TikTok|Machine Learning Engineer Intern, E-Commerce Governance|Seattle, WA|Oct 14#1",
       "https://go.vansh.nyc/Cy?s=y|TikTok|Machine Learning Engineer Intern, E-Commerce Recommendation Live|Seattle, WA|Oct 14#1",
-      "https://go.vansh.nyc/Cz?s=y|TikTok|Machine Learning Engineer Intern, E-Commerce Recommendation Video|Seattle, WA|Oct 14#1"
+      "https://go.vansh.nyc/Cz?s=y|TikTok|Machine Learning Engineer Intern, E-Commerce Recommendation Video|Seattle, WA|Oct 14#1",
+      "https://go.vansh.nyc/CA?s=y|TikTok|Machine Learning Engineer Intern, E-Commerce Recommendation/Search Alliance|Seattle, WA|Oct 14#1",
+      "https://go.vansh.nyc/CB?s=y|National Laboratory of the Rockies|AI/ML for Cybersecurity Intern|Golden, CO|Oct 14#1",
+      "https://go.vansh.nyc/Cr?s=y|National Bank of Canada|Artificial Intelligence Developer Intern|Canada|Oct 14#1",
+      "https://go.vansh.nyc/Cs?s=y|National Bank of Canada|Artificial Intelligence Scientist Intern|Canada|Oct 14#1",
+      "https://go.vansh.nyc/Co?s=y|Macy's|Software Engineer Intern|Johns Creek, GA|Oct 14#1",
+      "https://go.vansh.nyc/CC?s=y|Leidos|Performance Enablement AI/ML Intern|Remote United States|Oct 14#1",
+      "https://go.vansh.nyc/CG?s=y|Hewlett Packard Enterprise|AI & HPC Performance Engineering Intern|Spring, TX|Oct 14#1",
+      "https://go.vansh.nyc/Cq?s=y|Figure|Embedded Software Engineer Intern, Platform|San Jose, CA|Oct 14#1",
+      "https://go.vansh.nyc/CF?s=y|Axiom Space|Software Engineer Intern|Houston, TX|Oct 14#1",
+      "https://go.vansh.nyc/CE?s=y|American Family Insurance Group|Enterprise Data Intern, Enablement, Service & Support|Madison, WI|Oct 14#1",
+      "https://go.vansh.nyc/Ch?s=y|Whataburger|Data Scientist Intern|San Antonio, TX|Oct 13#1",
+      "https://go.vansh.nyc/Cn?s=y|TikTok|Machine Learning Engineer Intern, E-Commerce User Growth|Seattle, WA|Oct 13#1",
+      "https://go.vansh.nyc/Cm?s=y|Phillips 66|ERI Analytical Solutions Intern|Bartlesville, OK|Oct 13#1",
+      "https://go.vansh.nyc/Cc?s=y|Pebl|Software Engineering Intern|Toronto, Canada|Oct 13#1",
+      "https://go.vansh.nyc/Ca?s=y|Medpace|Python Developer Intern|Cincinnati, OH|Oct 13#1",
+      "https://go.vansh.nyc/Ci?s=y|Manulife Financial|Software Engineer Intern|Waterloo, Canada|Oct 13#1",
+      "https://go.vansh.nyc/Cj?s=y|Manulife Financial|Software Engineer Intern, Software Engineering|Waterloo, Canada|Oct 13#1",
+      "https://go.vansh.nyc/Cd?s=y|LSEG|Finance Engineer Intern|New York, NY|Oct 13#1",
+      "https://go.vansh.nyc/Ce?s=y|LSEG|Software Engineer Intern|New York, NY|Oct 13#1",
+      "https://go.vansh.nyc/Cg?s=y|Jain Global|Compliance Technology Intern|New York, NY|Oct 13#1",
+      "https://go.vansh.nyc/Cb?s=y|Electronic Arts|Technical Artist Co-op|Vancouver, Canada|Oct 13#1",
+      "https://go.vansh.nyc/C8?s=y|Astera Labs|Digital RTL Design Engineer Intern|San Jose, CA|Oct 13#1",
+      "https://go.vansh.nyc/C9?s=y|Astera Labs|Design Verification Engineer Intern|San Jose, CA|Oct 13#1",
+      "https://go.vansh.nyc/Cf?s=y|Assurant|Software Engineer Intern|Miami, FL Chicago, IL Atlanta, GA|Oct 13#1",
+      "https://go.vansh.nyc/Cl?s=y|Anduril|Firmware Engineer Intern|Costa Mesa, CA|Oct 13#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 844,
     "outbox": [
-      [
-        [
-          "TikTok",
-          "Machine Learning Engineer Intern, E-Commerce Recommendation/Search Alliance",
-          "Seattle, WA",
-          "Oct 14",
-          "https://go.vansh.nyc/CA?s=y"
-        ],
-        "https://go.vansh.nyc/CA?s=y|TikTok|Machine Learning Engineer Intern, E-Commerce Recommendation/Search Alliance|Seattle, WA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "National Laboratory of the Rockies",
-          "AI/ML for Cybersecurity Intern",
-          "Golden, CO",
-          "Oct 14",
-          "https://go.vansh.nyc/CB?s=y"
-        ],
-        "https://go.vansh.nyc/CB?s=y|National Laboratory of the Rockies|AI/ML for Cybersecurity Intern|Golden, CO|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "National Bank of Canada",
-          "Artificial Intelligence Developer Intern",
-          "Canada",
-          "Oct 14",
-          "https://go.vansh.nyc/Cr?s=y"
-        ],
-        "https://go.vansh.nyc/Cr?s=y|National Bank of Canada|Artificial Intelligence Developer Intern|Canada|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "National Bank of Canada",
-          "Artificial Intelligence Scientist Intern",
-          "Canada",
-          "Oct 14",
-          "https://go.vansh.nyc/Cs?s=y"
-        ],
-        "https://go.vansh.nyc/Cs?s=y|National Bank of Canada|Artificial Intelligence Scientist Intern|Canada|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Macy's",
-          "Software Engineer Intern",
-          "Johns Creek, GA",
-          "Oct 14",
-          "https://go.vansh.nyc/Co?s=y"
-        ],
-        "https://go.vansh.nyc/Co?s=y|Macy's|Software Engineer Intern|Johns Creek, GA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Leidos",
-          "Performance Enablement AI/ML Intern",
-          "Remote United States",
-          "Oct 14",
-          "https://go.vansh.nyc/CC?s=y"
-        ],
-        "https://go.vansh.nyc/CC?s=y|Leidos|Performance Enablement AI/ML Intern|Remote United States|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Hewlett Packard Enterprise",
-          "AI & HPC Performance Engineering Intern",
-          "Spring, TX",
-          "Oct 14",
-          "https://go.vansh.nyc/CG?s=y"
-        ],
-        "https://go.vansh.nyc/CG?s=y|Hewlett Packard Enterprise|AI & HPC Performance Engineering Intern|Spring, TX|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Figure",
-          "Embedded Software Engineer Intern, Platform",
-          "San Jose, CA",
-          "Oct 14",
-          "https://go.vansh.nyc/Cq?s=y"
-        ],
-        "https://go.vansh.nyc/Cq?s=y|Figure|Embedded Software Engineer Intern, Platform|San Jose, CA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Axiom Space",
-          "Software Engineer Intern",
-          "Houston, TX",
-          "Oct 14",
-          "https://go.vansh.nyc/CF?s=y"
-        ],
-        "https://go.vansh.nyc/CF?s=y|Axiom Space|Software Engineer Intern|Houston, TX|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "American Family Insurance Group",
-          "Enterprise Data Intern, Enablement, Service & Support",
-          "Madison, WI",
-          "Oct 14",
-          "https://go.vansh.nyc/CE?s=y"
-        ],
-        "https://go.vansh.nyc/CE?s=y|American Family Insurance Group|Enterprise Data Intern, Enablement, Service & Support|Madison, WI|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Whataburger",
-          "Data Scientist Intern",
-          "San Antonio, TX",
-          "Oct 13",
-          "https://go.vansh.nyc/Ch?s=y"
-        ],
-        "https://go.vansh.nyc/Ch?s=y|Whataburger|Data Scientist Intern|San Antonio, TX|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Machine Learning Engineer Intern, E-Commerce User Growth",
-          "Seattle, WA",
-          "Oct 13",
-          "https://go.vansh.nyc/Cn?s=y"
-        ],
-        "https://go.vansh.nyc/Cn?s=y|TikTok|Machine Learning Engineer Intern, E-Commerce User Growth|Seattle, WA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Phillips 66",
-          "ERI Analytical Solutions Intern",
-          "Bartlesville, OK",
-          "Oct 13",
-          "https://go.vansh.nyc/Cm?s=y"
-        ],
-        "https://go.vansh.nyc/Cm?s=y|Phillips 66|ERI Analytical Solutions Intern|Bartlesville, OK|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Pebl",
-          "Software Engineering Intern",
-          "Toronto, Canada",
-          "Oct 13",
-          "https://go.vansh.nyc/Cc?s=y"
-        ],
-        "https://go.vansh.nyc/Cc?s=y|Pebl|Software Engineering Intern|Toronto, Canada|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Medpace",
-          "Python Developer Intern",
-          "Cincinnati, OH",
-          "Oct 13",
-          "https://go.vansh.nyc/Ca?s=y"
-        ],
-        "https://go.vansh.nyc/Ca?s=y|Medpace|Python Developer Intern|Cincinnati, OH|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Manulife Financial",
-          "Software Engineer Intern",
-          "Waterloo, Canada",
-          "Oct 13",
-          "https://go.vansh.nyc/Ci?s=y"
-        ],
-        "https://go.vansh.nyc/Ci?s=y|Manulife Financial|Software Engineer Intern|Waterloo, Canada|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Manulife Financial",
-          "Software Engineer Intern, Software Engineering",
-          "Waterloo, Canada",
-          "Oct 13",
-          "https://go.vansh.nyc/Cj?s=y"
-        ],
-        "https://go.vansh.nyc/Cj?s=y|Manulife Financial|Software Engineer Intern, Software Engineering|Waterloo, Canada|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "LSEG",
-          "Finance Engineer Intern",
-          "New York, NY",
-          "Oct 13",
-          "https://go.vansh.nyc/Cd?s=y"
-        ],
-        "https://go.vansh.nyc/Cd?s=y|LSEG|Finance Engineer Intern|New York, NY|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "LSEG",
-          "Software Engineer Intern",
-          "New York, NY",
-          "Oct 13",
-          "https://go.vansh.nyc/Ce?s=y"
-        ],
-        "https://go.vansh.nyc/Ce?s=y|LSEG|Software Engineer Intern|New York, NY|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Jain Global",
-          "Compliance Technology Intern",
-          "New York, NY",
-          "Oct 13",
-          "https://go.vansh.nyc/Cg?s=y"
-        ],
-        "https://go.vansh.nyc/Cg?s=y|Jain Global|Compliance Technology Intern|New York, NY|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Electronic Arts",
-          "Technical Artist Co-op",
-          "Vancouver, Canada",
-          "Oct 13",
-          "https://go.vansh.nyc/Cb?s=y"
-        ],
-        "https://go.vansh.nyc/Cb?s=y|Electronic Arts|Technical Artist Co-op|Vancouver, Canada|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Astera Labs",
-          "Digital RTL Design Engineer Intern",
-          "San Jose, CA",
-          "Oct 13",
-          "https://go.vansh.nyc/C8?s=y"
-        ],
-        "https://go.vansh.nyc/C8?s=y|Astera Labs|Digital RTL Design Engineer Intern|San Jose, CA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Astera Labs",
-          "Design Verification Engineer Intern",
-          "San Jose, CA",
-          "Oct 13",
-          "https://go.vansh.nyc/C9?s=y"
-        ],
-        "https://go.vansh.nyc/C9?s=y|Astera Labs|Design Verification Engineer Intern|San Jose, CA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Assurant",
-          "Software Engineer Intern",
-          "Miami, FL Chicago, IL Atlanta, GA",
-          "Oct 13",
-          "https://go.vansh.nyc/Cf?s=y"
-        ],
-        "https://go.vansh.nyc/Cf?s=y|Assurant|Software Engineer Intern|Miami, FL Chicago, IL Atlanta, GA|Oct 13#1",
-        1
-      ],
-      [
-        [
-          "Anduril",
-          "Firmware Engineer Intern",
-          "Costa Mesa, CA",
-          "Oct 13",
-          "https://go.vansh.nyc/Cl?s=y"
-        ],
-        "https://go.vansh.nyc/Cl?s=y|Anduril|Firmware Engineer Intern|Costa Mesa, CA|Oct 13#1",
-        1
-      ],
       [
         [
           "ADT",
@@ -5897,7 +5647,7 @@
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "0799173176f269751ca505e397688706a457e6c6",
+    "last_sha": "f0accdd555ac5f49b2dcf1a89ee367a9361ce179",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
