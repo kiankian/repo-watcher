@@ -5323,286 +5323,36 @@
       "https://go.vansh.nyc/6f?s=y|TikTok|Backend Software Engineer Intern, PGC-Digital Content Center \ud83d\udec2|San Jose, CA|Aug 04#1",
       "https://go.vansh.nyc/6e?s=y|TikTok|Software Engineer Intern, Growth Innovation|San Jose, CA|Aug 04#1",
       "https://go.vansh.nyc/6d?s=y|TikTok|Backend Software Engineer Intern, Social Foundation|San Jose, CA|Aug 04#1",
-      "https://go.vansh.nyc/6c?s=y|TikTok|Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2|Seattle, WA|Aug 04#1"
+      "https://go.vansh.nyc/6c?s=y|TikTok|Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2|Seattle, WA|Aug 04#1",
+      "https://go.vansh.nyc/6b?s=y|TikTok|Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6a?s=y|TikTok|Software Engineer Intern, Global CRM|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/69?s=y|TikTok|Software Engineer Intern, Shoot Experience Optimization|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/68?s=y|TikTok|Software Engineer Intern, Ads Interface|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/67?s=y|TikTok|Backend Software Engineer Intern, Global E-Commerce|Seattle, WA|Aug 04#1",
+      "https://go.vansh.nyc/66?s=y|TikTok|Backend Software Engineer Intern, Global E-Commerce|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/65?s=y|TikTok|Software Engineer Intern|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/64?s=y|TikTok|Backend Software Engineer Intern, Product Infrastructure|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/63?s=y|TikTok|Software Engineer Intern, Transaction Platform|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/62?s=y|TikTok|Software Engineer Intern, Intelligent Creation-Camera|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/61?s=y|TikTok|Software Engineer Intern, AI Agent & Global Revenue Platform|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/60?s=y|TikTok|Frontend Engineer Intern, Global CRM|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/5Z?s=y|TikTok|Software Engineer Intern, Global Live-Foundation \ud83d\udec2|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/5U?s=y|Samsara|Software Engineering Intern|San Francisco, CA|Aug 04#1",
+      "https://go.vansh.nyc/5S?s=y|Modal|ML Research Intern|New York, NY San Francisco, CA|Aug 04#1",
+      "https://go.vansh.nyc/5Y?s=y|Microsoft|Product Manager Intern|Remote|Aug 04#1",
+      "https://go.vansh.nyc/5M?s=y|Microsoft|Software Engineer Intern, Fullstack Product (Web + Services)|Multiple Locations, United States|Aug 04#1",
+      "https://go.vansh.nyc/5L?s=y|Microsoft|Software Engineer Intern, Cloud & Distributed Backend|Redmond, WA|Aug 04#1",
+      "https://go.vansh.nyc/5K?s=y|Microsoft|Software Engineer Intern, AI/ML & LLM|Redmond, WA|Aug 04#1",
+      "https://go.vansh.nyc/5J?s=y|Microsoft|Software Engineer Intern, Security & Identity|Redmond, WA|Aug 04#1",
+      "https://go.vansh.nyc/5I?s=y|Microsoft|Software Engineer Intern, Data Platform/Analytics|Redmond, WA|Aug 04#1",
+      "https://go.vansh.nyc/5R?s=y|Melius|Software Engineering Intern|New York City, NY|Aug 04#1",
+      "https://go.vansh.nyc/5X?s=y|ByteDance|Software Engineer Intern, Distributed NoSQL Database Systems|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/5W?s=y|ByteDance|Software Engineer Intern, Distributed NoSQL Database Systems|Seattle, WA|Aug 04#1",
+      "https://go.vansh.nyc/5Q?s=y|ByteDance|Software Engineer Intern, AI Platform \ud83d\udec2|San Jose, CA|Aug 04#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 771,
     "outbox": [
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6b?s=y"
-        ],
-        "https://go.vansh.nyc/6b?s=y|TikTok|Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Global CRM",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6a?s=y"
-        ],
-        "https://go.vansh.nyc/6a?s=y|TikTok|Software Engineer Intern, Global CRM|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Shoot Experience Optimization",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/69?s=y"
-        ],
-        "https://go.vansh.nyc/69?s=y|TikTok|Software Engineer Intern, Shoot Experience Optimization|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Ads Interface",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/68?s=y"
-        ],
-        "https://go.vansh.nyc/68?s=y|TikTok|Software Engineer Intern, Ads Interface|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Backend Software Engineer Intern, Global E-Commerce",
-          "Seattle, WA",
-          "Aug 04",
-          "https://go.vansh.nyc/67?s=y"
-        ],
-        "https://go.vansh.nyc/67?s=y|TikTok|Backend Software Engineer Intern, Global E-Commerce|Seattle, WA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Backend Software Engineer Intern, Global E-Commerce",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/66?s=y"
-        ],
-        "https://go.vansh.nyc/66?s=y|TikTok|Backend Software Engineer Intern, Global E-Commerce|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/65?s=y"
-        ],
-        "https://go.vansh.nyc/65?s=y|TikTok|Software Engineer Intern|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Backend Software Engineer Intern, Product Infrastructure",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/64?s=y"
-        ],
-        "https://go.vansh.nyc/64?s=y|TikTok|Backend Software Engineer Intern, Product Infrastructure|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Transaction Platform",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/63?s=y"
-        ],
-        "https://go.vansh.nyc/63?s=y|TikTok|Software Engineer Intern, Transaction Platform|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Intelligent Creation-Camera",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/62?s=y"
-        ],
-        "https://go.vansh.nyc/62?s=y|TikTok|Software Engineer Intern, Intelligent Creation-Camera|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, AI Agent & Global Revenue Platform",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/61?s=y"
-        ],
-        "https://go.vansh.nyc/61?s=y|TikTok|Software Engineer Intern, AI Agent & Global Revenue Platform|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Frontend Engineer Intern, Global CRM",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/60?s=y"
-        ],
-        "https://go.vansh.nyc/60?s=y|TikTok|Frontend Engineer Intern, Global CRM|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Global Live-Foundation \ud83d\udec2",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/5Z?s=y"
-        ],
-        "https://go.vansh.nyc/5Z?s=y|TikTok|Software Engineer Intern, Global Live-Foundation \ud83d\udec2|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "Samsara",
-          "Software Engineering Intern",
-          "San Francisco, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/5U?s=y"
-        ],
-        "https://go.vansh.nyc/5U?s=y|Samsara|Software Engineering Intern|San Francisco, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "Modal",
-          "ML Research Intern",
-          "New York, NY San Francisco, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/5S?s=y"
-        ],
-        "https://go.vansh.nyc/5S?s=y|Modal|ML Research Intern|New York, NY San Francisco, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "Microsoft",
-          "Product Manager Intern",
-          "Remote",
-          "Aug 04",
-          "https://go.vansh.nyc/5Y?s=y"
-        ],
-        "https://go.vansh.nyc/5Y?s=y|Microsoft|Product Manager Intern|Remote|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "Microsoft",
-          "Software Engineer Intern, Fullstack Product (Web + Services)",
-          "Multiple Locations, United States",
-          "Aug 04",
-          "https://go.vansh.nyc/5M?s=y"
-        ],
-        "https://go.vansh.nyc/5M?s=y|Microsoft|Software Engineer Intern, Fullstack Product (Web + Services)|Multiple Locations, United States|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "Microsoft",
-          "Software Engineer Intern, Cloud & Distributed Backend",
-          "Redmond, WA",
-          "Aug 04",
-          "https://go.vansh.nyc/5L?s=y"
-        ],
-        "https://go.vansh.nyc/5L?s=y|Microsoft|Software Engineer Intern, Cloud & Distributed Backend|Redmond, WA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "Microsoft",
-          "Software Engineer Intern, AI/ML & LLM",
-          "Redmond, WA",
-          "Aug 04",
-          "https://go.vansh.nyc/5K?s=y"
-        ],
-        "https://go.vansh.nyc/5K?s=y|Microsoft|Software Engineer Intern, AI/ML & LLM|Redmond, WA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "Microsoft",
-          "Software Engineer Intern, Security & Identity",
-          "Redmond, WA",
-          "Aug 04",
-          "https://go.vansh.nyc/5J?s=y"
-        ],
-        "https://go.vansh.nyc/5J?s=y|Microsoft|Software Engineer Intern, Security & Identity|Redmond, WA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "Microsoft",
-          "Software Engineer Intern, Data Platform/Analytics",
-          "Redmond, WA",
-          "Aug 04",
-          "https://go.vansh.nyc/5I?s=y"
-        ],
-        "https://go.vansh.nyc/5I?s=y|Microsoft|Software Engineer Intern, Data Platform/Analytics|Redmond, WA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "Melius",
-          "Software Engineering Intern",
-          "New York City, NY",
-          "Aug 04",
-          "https://go.vansh.nyc/5R?s=y"
-        ],
-        "https://go.vansh.nyc/5R?s=y|Melius|Software Engineering Intern|New York City, NY|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "ByteDance",
-          "Software Engineer Intern, Distributed NoSQL Database Systems",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/5X?s=y"
-        ],
-        "https://go.vansh.nyc/5X?s=y|ByteDance|Software Engineer Intern, Distributed NoSQL Database Systems|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "ByteDance",
-          "Software Engineer Intern, Distributed NoSQL Database Systems",
-          "Seattle, WA",
-          "Aug 04",
-          "https://go.vansh.nyc/5W?s=y"
-        ],
-        "https://go.vansh.nyc/5W?s=y|ByteDance|Software Engineer Intern, Distributed NoSQL Database Systems|Seattle, WA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "ByteDance",
-          "Software Engineer Intern, AI Platform \ud83d\udec2",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/5Q?s=y"
-        ],
-        "https://go.vansh.nyc/5Q?s=y|ByteDance|Software Engineer Intern, AI Platform \ud83d\udec2|San Jose, CA|Aug 04#1",
-        1
-      ],
       [
         [
           "Microsoft",
