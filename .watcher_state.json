@@ -5559,286 +5559,36 @@
       "https://go.vansh.nyc/Gk?s=y|Danaher Corporation|Software Engineer Intern|Vista, CA|Oct 08#1",
       "https://go.vansh.nyc/Ge?s=y|Aptiv|Embedded Software Engineer Intern|Walnut Creek, CA|Oct 08#1",
       "https://go.vansh.nyc/Gf?s=y|Aptiv|Software Engineer Intern|Walnut Creek, CA|Oct 08#1",
-      "https://go.vansh.nyc/FU?s=y|Tenstorrent|AI Software Intern|Austin, TX Santa Clara, CA|Oct 07#1"
+      "https://go.vansh.nyc/FU?s=y|Tenstorrent|AI Software Intern|Austin, TX Santa Clara, CA|Oct 07#1",
+      "https://go.vansh.nyc/FY?s=y|State Affairs|Software Engineer Intern|Washington, DC|Oct 07#1",
+      "https://go.vansh.nyc/G4?s=y|Nissan|Manufacturing Digital Data Intern|Decherd, TN|Oct 07#1",
+      "https://go.vansh.nyc/G5?s=y|Nissan|AI Agent Architect Intern|Farmington Hills, MI|Oct 07#1",
+      "https://go.vansh.nyc/FW?s=y|Microsoft|Applied Scientist Intern|Redmond, WA|Oct 07#1",
+      "https://go.vansh.nyc/G6?s=y|HCSC|Security Data Classification Intern|Richardson, TX|Oct 07#1",
+      "https://go.vansh.nyc/FZ?s=y|Happyrobot|Product Operations Engineer Intern|San Francisco, CA|Oct 07#1",
+      "https://go.vansh.nyc/FV?s=y|Garmin|FPGA Engineer Intern|Olathe, KS|Oct 07#1",
+      "https://go.vansh.nyc/FX?s=y|DocuSign|Software Engineer Intern|Seattle, WA|Oct 07#1",
+      "https://go.vansh.nyc/G0?s=y|Badger Meter|Software Engineering Intern|Escondido, CA|Oct 07#1",
+      "https://go.vansh.nyc/G2?s=y|AeroVironment|Autonomy & Robotics Engineer Intern|**14 locations**Germantown, MD Dayton, OH Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Minneapolis, MN Herndon, VA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA|Oct 07#1",
+      "https://go.vansh.nyc/Fy?s=y|Tradeweb|Data Management Intern|New York, NY|Oct 06#1",
+      "https://go.vansh.nyc/FR?s=y|The Aerospace Corporation|Embedded Systems/Software Engineer Intern|Chantilly, VA El Segundo, CA|Oct 06#1",
+      "https://go.vansh.nyc/Ha?s=y|Tenstorrent|AI Software Intern, Cloud, Infrastructure & Data Centre Deployment|Toronto, Canada|Oct 06#1",
+      "https://go.vansh.nyc/Fx?s=y|Tenstorrent|Hardware Intern, AI HW & System on a Chip|Toronto, Canada Ottawa, Canada|Oct 06#1",
+      "https://go.vansh.nyc/FO?s=y|RTX|Software Engineer Co-op|Cedar Rapids, IA|Oct 06#1",
+      "https://go.vansh.nyc/FC?s=y|Pure Storage|Software Engineer Intern|Santa Clara, CA|Oct 06#1",
+      "https://go.vansh.nyc/FQ?s=y|Nissan|Systems Engineer Intern|Canton, MS|Oct 06#1",
+      "https://go.vansh.nyc/Hc?s=y|MEMX|Information Security Intern|New York, NY|Oct 06#1",
+      "https://go.vansh.nyc/FI?s=y|McKesson|Software Engineer Intern|Pittsburgh, PA Columbus, OH Irving, TX|Oct 06#1",
+      "https://go.vansh.nyc/FA?s=y|Keysight Technologies|Software Development Engineer Intern, 6G Digital Twin and Visualization Platform|Santa Rosa, CA|Oct 06#1",
+      "https://go.vansh.nyc/FN?s=y|ICF International|Data Engineer Intern|Remote United States Reston, VA|Oct 06#1",
+      "https://go.vansh.nyc/FM?s=y|Hewlett Packard Enterprise|ASIC Design Engineer Intern|Sunnyvale, CA|Oct 06#1",
+      "https://go.vansh.nyc/Fz?s=y|Garmin|Software Engineer Intern|Tucson, AZ|Oct 06#1",
+      "https://go.vansh.nyc/FL?s=y|Dow Jones|Data Analyst Intern|New York, NY|Oct 06#1",
+      "https://go.vansh.nyc/FP?s=y|Dow Jones|Software Engineer Intern|New York, NY|Oct 06#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 1018,
     "outbox": [
-      [
-        [
-          "State Affairs",
-          "Software Engineer Intern",
-          "Washington, DC",
-          "Oct 07",
-          "https://go.vansh.nyc/FY?s=y"
-        ],
-        "https://go.vansh.nyc/FY?s=y|State Affairs|Software Engineer Intern|Washington, DC|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "Nissan",
-          "Manufacturing Digital Data Intern",
-          "Decherd, TN",
-          "Oct 07",
-          "https://go.vansh.nyc/G4?s=y"
-        ],
-        "https://go.vansh.nyc/G4?s=y|Nissan|Manufacturing Digital Data Intern|Decherd, TN|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "Nissan",
-          "AI Agent Architect Intern",
-          "Farmington Hills, MI",
-          "Oct 07",
-          "https://go.vansh.nyc/G5?s=y"
-        ],
-        "https://go.vansh.nyc/G5?s=y|Nissan|AI Agent Architect Intern|Farmington Hills, MI|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "Microsoft",
-          "Applied Scientist Intern",
-          "Redmond, WA",
-          "Oct 07",
-          "https://go.vansh.nyc/FW?s=y"
-        ],
-        "https://go.vansh.nyc/FW?s=y|Microsoft|Applied Scientist Intern|Redmond, WA|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "HCSC",
-          "Security Data Classification Intern",
-          "Richardson, TX",
-          "Oct 07",
-          "https://go.vansh.nyc/G6?s=y"
-        ],
-        "https://go.vansh.nyc/G6?s=y|HCSC|Security Data Classification Intern|Richardson, TX|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "Happyrobot",
-          "Product Operations Engineer Intern",
-          "San Francisco, CA",
-          "Oct 07",
-          "https://go.vansh.nyc/FZ?s=y"
-        ],
-        "https://go.vansh.nyc/FZ?s=y|Happyrobot|Product Operations Engineer Intern|San Francisco, CA|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "Garmin",
-          "FPGA Engineer Intern",
-          "Olathe, KS",
-          "Oct 07",
-          "https://go.vansh.nyc/FV?s=y"
-        ],
-        "https://go.vansh.nyc/FV?s=y|Garmin|FPGA Engineer Intern|Olathe, KS|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "DocuSign",
-          "Software Engineer Intern",
-          "Seattle, WA",
-          "Oct 07",
-          "https://go.vansh.nyc/FX?s=y"
-        ],
-        "https://go.vansh.nyc/FX?s=y|DocuSign|Software Engineer Intern|Seattle, WA|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "Badger Meter",
-          "Software Engineering Intern",
-          "Escondido, CA",
-          "Oct 07",
-          "https://go.vansh.nyc/G0?s=y"
-        ],
-        "https://go.vansh.nyc/G0?s=y|Badger Meter|Software Engineering Intern|Escondido, CA|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "AeroVironment",
-          "Autonomy & Robotics Engineer Intern",
-          "**14 locations**Germantown, MD Dayton, OH Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Minneapolis, MN Herndon, VA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA",
-          "Oct 07",
-          "https://go.vansh.nyc/G2?s=y"
-        ],
-        "https://go.vansh.nyc/G2?s=y|AeroVironment|Autonomy & Robotics Engineer Intern|**14 locations**Germantown, MD Dayton, OH Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Minneapolis, MN Herndon, VA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "Tradeweb",
-          "Data Management Intern",
-          "New York, NY",
-          "Oct 06",
-          "https://go.vansh.nyc/Fy?s=y"
-        ],
-        "https://go.vansh.nyc/Fy?s=y|Tradeweb|Data Management Intern|New York, NY|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "The Aerospace Corporation",
-          "Embedded Systems/Software Engineer Intern",
-          "Chantilly, VA El Segundo, CA",
-          "Oct 06",
-          "https://go.vansh.nyc/FR?s=y"
-        ],
-        "https://go.vansh.nyc/FR?s=y|The Aerospace Corporation|Embedded Systems/Software Engineer Intern|Chantilly, VA El Segundo, CA|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Tenstorrent",
-          "AI Software Intern, Cloud, Infrastructure & Data Centre Deployment",
-          "Toronto, Canada",
-          "Oct 06",
-          "https://go.vansh.nyc/Ha?s=y"
-        ],
-        "https://go.vansh.nyc/Ha?s=y|Tenstorrent|AI Software Intern, Cloud, Infrastructure & Data Centre Deployment|Toronto, Canada|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Tenstorrent",
-          "Hardware Intern, AI HW & System on a Chip",
-          "Toronto, Canada Ottawa, Canada",
-          "Oct 06",
-          "https://go.vansh.nyc/Fx?s=y"
-        ],
-        "https://go.vansh.nyc/Fx?s=y|Tenstorrent|Hardware Intern, AI HW & System on a Chip|Toronto, Canada Ottawa, Canada|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "RTX",
-          "Software Engineer Co-op",
-          "Cedar Rapids, IA",
-          "Oct 06",
-          "https://go.vansh.nyc/FO?s=y"
-        ],
-        "https://go.vansh.nyc/FO?s=y|RTX|Software Engineer Co-op|Cedar Rapids, IA|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Pure Storage",
-          "Software Engineer Intern",
-          "Santa Clara, CA",
-          "Oct 06",
-          "https://go.vansh.nyc/FC?s=y"
-        ],
-        "https://go.vansh.nyc/FC?s=y|Pure Storage|Software Engineer Intern|Santa Clara, CA|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Nissan",
-          "Systems Engineer Intern",
-          "Canton, MS",
-          "Oct 06",
-          "https://go.vansh.nyc/FQ?s=y"
-        ],
-        "https://go.vansh.nyc/FQ?s=y|Nissan|Systems Engineer Intern|Canton, MS|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "MEMX",
-          "Information Security Intern",
-          "New York, NY",
-          "Oct 06",
-          "https://go.vansh.nyc/Hc?s=y"
-        ],
-        "https://go.vansh.nyc/Hc?s=y|MEMX|Information Security Intern|New York, NY|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "McKesson",
-          "Software Engineer Intern",
-          "Pittsburgh, PA Columbus, OH Irving, TX",
-          "Oct 06",
-          "https://go.vansh.nyc/FI?s=y"
-        ],
-        "https://go.vansh.nyc/FI?s=y|McKesson|Software Engineer Intern|Pittsburgh, PA Columbus, OH Irving, TX|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "Software Development Engineer Intern, 6G Digital Twin and Visualization Platform",
-          "Santa Rosa, CA",
-          "Oct 06",
-          "https://go.vansh.nyc/FA?s=y"
-        ],
-        "https://go.vansh.nyc/FA?s=y|Keysight Technologies|Software Development Engineer Intern, 6G Digital Twin and Visualization Platform|Santa Rosa, CA|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "ICF International",
-          "Data Engineer Intern",
-          "Remote United States Reston, VA",
-          "Oct 06",
-          "https://go.vansh.nyc/FN?s=y"
-        ],
-        "https://go.vansh.nyc/FN?s=y|ICF International|Data Engineer Intern|Remote United States Reston, VA|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Hewlett Packard Enterprise",
-          "ASIC Design Engineer Intern",
-          "Sunnyvale, CA",
-          "Oct 06",
-          "https://go.vansh.nyc/FM?s=y"
-        ],
-        "https://go.vansh.nyc/FM?s=y|Hewlett Packard Enterprise|ASIC Design Engineer Intern|Sunnyvale, CA|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Garmin",
-          "Software Engineer Intern",
-          "Tucson, AZ",
-          "Oct 06",
-          "https://go.vansh.nyc/Fz?s=y"
-        ],
-        "https://go.vansh.nyc/Fz?s=y|Garmin|Software Engineer Intern|Tucson, AZ|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Dow Jones",
-          "Data Analyst Intern",
-          "New York, NY",
-          "Oct 06",
-          "https://go.vansh.nyc/FL?s=y"
-        ],
-        "https://go.vansh.nyc/FL?s=y|Dow Jones|Data Analyst Intern|New York, NY|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Dow Jones",
-          "Software Engineer Intern",
-          "New York, NY",
-          "Oct 06",
-          "https://go.vansh.nyc/FP?s=y"
-        ],
-        "https://go.vansh.nyc/FP?s=y|Dow Jones|Software Engineer Intern|New York, NY|Oct 06#1",
-        1
-      ],
       [
         [
           "Courier Health",
@@ -6942,7 +6692,7 @@
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "cf667fdebfb79ab22b43b2bc515b19403d32aa40",
+    "last_sha": "095888aa6e155353a8a5b25d89d0db028785079a",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
