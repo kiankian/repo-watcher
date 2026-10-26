@@ -5711,286 +5711,36 @@
       "https://go.vansh.nyc/JZ?s=y|Insulet Corporation|DevOps Engineer Intern \ud83d\udec2|San Diego, CA|Sep 22#1",
       "https://go.vansh.nyc/Jh?s=y|Grow Therapy|Software Engineer Intern|New York, NY|Sep 22#1",
       "https://go.vansh.nyc/Jj?s=y|General Dynamics Information Technology|Software Development Intern|Bossier City, LA|Sep 22#1",
-      "https://go.vansh.nyc/Jk?s=y|General Dynamics Information Technology|AI Network Engineering Intern|Bossier City, LA|Sep 22#1"
+      "https://go.vansh.nyc/Jk?s=y|General Dynamics Information Technology|AI Network Engineering Intern|Bossier City, LA|Sep 22#1",
+      "https://go.vansh.nyc/Jl?s=y|General Dynamics Information Technology|Generative AI Software Development Intern|Bossier City, LA|Sep 22#1",
+      "https://go.vansh.nyc/Jf?s=y|Electronic Arts|AI Engineer Intern, Creative Innovations, Character Pipelines|Vancouver, Canada|Sep 22#1",
+      "https://go.vansh.nyc/Jo?s=y|Astranis|Flight Software Intern|San Francisco, CA|Sep 22#1",
+      "https://go.vansh.nyc/Jm?s=y|Analog Devices|Embedded Software Engineer Intern|Toronto, Canada Vancouver, Canada|Sep 22#1",
+      "https://go.vansh.nyc/J2?s=y|Tyler Technologies|Software Development Intern|Plano, TX|Sep 21#1",
+      "https://go.vansh.nyc/J3?s=y|Tyler Technologies|Software Development Intern|Lubbock, TX|Sep 21#1",
+      "https://go.vansh.nyc/J9?s=y|The Aerospace Corporation|Software Tools and Assurance Intern, Information Systems and Cyber Division|El Segundo, CA|Sep 21#1",
+      "https://go.vansh.nyc/J8?s=y|Stryker|Data Analytics Intern|Fort Wayne, IN|Sep 21#1",
+      "https://go.vansh.nyc/J1?s=y|Qorvo|Digital Systems Engineer Intern|Greensboro, NC|Sep 21#1",
+      "https://go.vansh.nyc/JY?s=y|Propio|Software Engineering Intern|Overland Park, KS|Sep 21#1",
+      "https://go.vansh.nyc/J0?s=y|Macy's|Technology Intern|Johns Creek, GA|Sep 21#1",
+      "https://go.vansh.nyc/J6?s=y|GuideStone|Software Developer Intern, Software Development|Dallas, TX|Sep 21#1",
+      "https://go.vansh.nyc/JW?s=y|EHC|IT Security Intern|Birmingham, AL|Sep 21#1",
+      "https://go.vansh.nyc/J7?s=y|Charter Manufacturing|Digital Integration Intern|Mequon, WI|Sep 21#1",
+      "https://go.vansh.nyc/J4?s=y|Assured Guaranty|Product Software Developer Intern, Front-End|New York, NY|Sep 21#1",
+      "https://go.vansh.nyc/J5?s=y|Assured Guaranty|Product Software Developer Intern, Back-End|New York, NY|Sep 21#1",
+      "https://go.vansh.nyc/IW?s=y|Marvell|Digital IC Design Intern|**5 locations**Hudson Valley, NY Austin, TX Irvine, CA Santa Clara, CA Boise, ID|Sep 20#1",
+      "https://go.vansh.nyc/IS?s=y|General Motors|Embedded and Systems Engineering Intern, Digital Product|**4 locations**Austin, TX Milford, MI Mountain View, CA Warren, MI|Sep 20#1",
+      "https://go.vansh.nyc/IT?s=y|General Motors|Software Engineer Intern, Digital Product|**4 locations**Austin, TX Milford, MI Mountain View, CA Warren, MI|Sep 20#1",
+      "https://go.vansh.nyc/IU?s=y|CAE|Software Developer Intern, Content Creation Tools|Montreal, Canada|Sep 20#1",
+      "https://go.vansh.nyc/IY?s=y|AutoZone|Information Technology Intern|Memphis, TN|Sep 20#1",
+      "https://go.vansh.nyc/IZ?s=y|AutoZone|Data Science Intern|Memphis, TN|Sep 20#1",
+      "https://go.vansh.nyc/IR?s=y|RTX|Software Engineer Intern|Cambridge, MA|Sep 18#1",
+      "https://go.vansh.nyc/IQ?s=y|Qualcomm|MSIP Digital Design Verification Engineering Intern, HW|Toronto, Canada|Sep 18#1",
+      "https://go.vansh.nyc/IN?s=y|Amazon|Software Development Engineer Intern|Vancouver, Canada|Sep 18#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 1098,
     "outbox": [
-      [
-        [
-          "General Dynamics Information Technology",
-          "Generative AI Software Development Intern",
-          "Bossier City, LA",
-          "Sep 22",
-          "https://go.vansh.nyc/Jl?s=y"
-        ],
-        "https://go.vansh.nyc/Jl?s=y|General Dynamics Information Technology|Generative AI Software Development Intern|Bossier City, LA|Sep 22#1",
-        1
-      ],
-      [
-        [
-          "Electronic Arts",
-          "AI Engineer Intern, Creative Innovations, Character Pipelines",
-          "Vancouver, Canada",
-          "Sep 22",
-          "https://go.vansh.nyc/Jf?s=y"
-        ],
-        "https://go.vansh.nyc/Jf?s=y|Electronic Arts|AI Engineer Intern, Creative Innovations, Character Pipelines|Vancouver, Canada|Sep 22#1",
-        1
-      ],
-      [
-        [
-          "Astranis",
-          "Flight Software Intern",
-          "San Francisco, CA",
-          "Sep 22",
-          "https://go.vansh.nyc/Jo?s=y"
-        ],
-        "https://go.vansh.nyc/Jo?s=y|Astranis|Flight Software Intern|San Francisco, CA|Sep 22#1",
-        1
-      ],
-      [
-        [
-          "Analog Devices",
-          "Embedded Software Engineer Intern",
-          "Toronto, Canada Vancouver, Canada",
-          "Sep 22",
-          "https://go.vansh.nyc/Jm?s=y"
-        ],
-        "https://go.vansh.nyc/Jm?s=y|Analog Devices|Embedded Software Engineer Intern|Toronto, Canada Vancouver, Canada|Sep 22#1",
-        1
-      ],
-      [
-        [
-          "Tyler Technologies",
-          "Software Development Intern",
-          "Plano, TX",
-          "Sep 21",
-          "https://go.vansh.nyc/J2?s=y"
-        ],
-        "https://go.vansh.nyc/J2?s=y|Tyler Technologies|Software Development Intern|Plano, TX|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "Tyler Technologies",
-          "Software Development Intern",
-          "Lubbock, TX",
-          "Sep 21",
-          "https://go.vansh.nyc/J3?s=y"
-        ],
-        "https://go.vansh.nyc/J3?s=y|Tyler Technologies|Software Development Intern|Lubbock, TX|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "The Aerospace Corporation",
-          "Software Tools and Assurance Intern, Information Systems and Cyber Division",
-          "El Segundo, CA",
-          "Sep 21",
-          "https://go.vansh.nyc/J9?s=y"
-        ],
-        "https://go.vansh.nyc/J9?s=y|The Aerospace Corporation|Software Tools and Assurance Intern, Information Systems and Cyber Division|El Segundo, CA|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "Stryker",
-          "Data Analytics Intern",
-          "Fort Wayne, IN",
-          "Sep 21",
-          "https://go.vansh.nyc/J8?s=y"
-        ],
-        "https://go.vansh.nyc/J8?s=y|Stryker|Data Analytics Intern|Fort Wayne, IN|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "Qorvo",
-          "Digital Systems Engineer Intern",
-          "Greensboro, NC",
-          "Sep 21",
-          "https://go.vansh.nyc/J1?s=y"
-        ],
-        "https://go.vansh.nyc/J1?s=y|Qorvo|Digital Systems Engineer Intern|Greensboro, NC|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "Propio",
-          "Software Engineering Intern",
-          "Overland Park, KS",
-          "Sep 21",
-          "https://go.vansh.nyc/JY?s=y"
-        ],
-        "https://go.vansh.nyc/JY?s=y|Propio|Software Engineering Intern|Overland Park, KS|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "Macy's",
-          "Technology Intern",
-          "Johns Creek, GA",
-          "Sep 21",
-          "https://go.vansh.nyc/J0?s=y"
-        ],
-        "https://go.vansh.nyc/J0?s=y|Macy's|Technology Intern|Johns Creek, GA|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "GuideStone",
-          "Software Developer Intern, Software Development",
-          "Dallas, TX",
-          "Sep 21",
-          "https://go.vansh.nyc/J6?s=y"
-        ],
-        "https://go.vansh.nyc/J6?s=y|GuideStone|Software Developer Intern, Software Development|Dallas, TX|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "EHC",
-          "IT Security Intern",
-          "Birmingham, AL",
-          "Sep 21",
-          "https://go.vansh.nyc/JW?s=y"
-        ],
-        "https://go.vansh.nyc/JW?s=y|EHC|IT Security Intern|Birmingham, AL|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "Charter Manufacturing",
-          "Digital Integration Intern",
-          "Mequon, WI",
-          "Sep 21",
-          "https://go.vansh.nyc/J7?s=y"
-        ],
-        "https://go.vansh.nyc/J7?s=y|Charter Manufacturing|Digital Integration Intern|Mequon, WI|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "Assured Guaranty",
-          "Product Software Developer Intern, Front-End",
-          "New York, NY",
-          "Sep 21",
-          "https://go.vansh.nyc/J4?s=y"
-        ],
-        "https://go.vansh.nyc/J4?s=y|Assured Guaranty|Product Software Developer Intern, Front-End|New York, NY|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "Assured Guaranty",
-          "Product Software Developer Intern, Back-End",
-          "New York, NY",
-          "Sep 21",
-          "https://go.vansh.nyc/J5?s=y"
-        ],
-        "https://go.vansh.nyc/J5?s=y|Assured Guaranty|Product Software Developer Intern, Back-End|New York, NY|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "Marvell",
-          "Digital IC Design Intern",
-          "**5 locations**Hudson Valley, NY Austin, TX Irvine, CA Santa Clara, CA Boise, ID",
-          "Sep 20",
-          "https://go.vansh.nyc/IW?s=y"
-        ],
-        "https://go.vansh.nyc/IW?s=y|Marvell|Digital IC Design Intern|**5 locations**Hudson Valley, NY Austin, TX Irvine, CA Santa Clara, CA Boise, ID|Sep 20#1",
-        1
-      ],
-      [
-        [
-          "General Motors",
-          "Embedded and Systems Engineering Intern, Digital Product",
-          "**4 locations**Austin, TX Milford, MI Mountain View, CA Warren, MI",
-          "Sep 20",
-          "https://go.vansh.nyc/IS?s=y"
-        ],
-        "https://go.vansh.nyc/IS?s=y|General Motors|Embedded and Systems Engineering Intern, Digital Product|**4 locations**Austin, TX Milford, MI Mountain View, CA Warren, MI|Sep 20#1",
-        1
-      ],
-      [
-        [
-          "General Motors",
-          "Software Engineer Intern, Digital Product",
-          "**4 locations**Austin, TX Milford, MI Mountain View, CA Warren, MI",
-          "Sep 20",
-          "https://go.vansh.nyc/IT?s=y"
-        ],
-        "https://go.vansh.nyc/IT?s=y|General Motors|Software Engineer Intern, Digital Product|**4 locations**Austin, TX Milford, MI Mountain View, CA Warren, MI|Sep 20#1",
-        1
-      ],
-      [
-        [
-          "CAE",
-          "Software Developer Intern, Content Creation Tools",
-          "Montreal, Canada",
-          "Sep 20",
-          "https://go.vansh.nyc/IU?s=y"
-        ],
-        "https://go.vansh.nyc/IU?s=y|CAE|Software Developer Intern, Content Creation Tools|Montreal, Canada|Sep 20#1",
-        1
-      ],
-      [
-        [
-          "AutoZone",
-          "Information Technology Intern",
-          "Memphis, TN",
-          "Sep 20",
-          "https://go.vansh.nyc/IY?s=y"
-        ],
-        "https://go.vansh.nyc/IY?s=y|AutoZone|Information Technology Intern|Memphis, TN|Sep 20#1",
-        1
-      ],
-      [
-        [
-          "AutoZone",
-          "Data Science Intern",
-          "Memphis, TN",
-          "Sep 20",
-          "https://go.vansh.nyc/IZ?s=y"
-        ],
-        "https://go.vansh.nyc/IZ?s=y|AutoZone|Data Science Intern|Memphis, TN|Sep 20#1",
-        1
-      ],
-      [
-        [
-          "RTX",
-          "Software Engineer Intern",
-          "Cambridge, MA",
-          "Sep 18",
-          "https://go.vansh.nyc/IR?s=y"
-        ],
-        "https://go.vansh.nyc/IR?s=y|RTX|Software Engineer Intern|Cambridge, MA|Sep 18#1",
-        1
-      ],
-      [
-        [
-          "Qualcomm",
-          "MSIP Digital Design Verification Engineering Intern, HW",
-          "Toronto, Canada",
-          "Sep 18",
-          "https://go.vansh.nyc/IQ?s=y"
-        ],
-        "https://go.vansh.nyc/IQ?s=y|Qualcomm|MSIP Digital Design Verification Engineering Intern, HW|Toronto, Canada|Sep 18#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Software Development Engineer Intern",
-          "Vancouver, Canada",
-          "Sep 18",
-          "https://go.vansh.nyc/IN?s=y"
-        ],
-        "https://go.vansh.nyc/IN?s=y|Amazon|Software Development Engineer Intern|Vancouver, Canada|Sep 18#1",
-        1
-      ],
       [
         [
           "Waymo",
@@ -6357,7 +6107,7 @@
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "f90ea2864a9ae8f527e9aac074bfdfc26f2acdb6",
+    "last_sha": "1a61e0d4f3f57298ca91bc32ea28b99eebc9a876",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
