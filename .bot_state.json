@@ -109028,6 +109028,18 @@
       "chat_id": 7582459199,
       "seq": 8528,
       "identity": "NOURL|Amperesand|AI/ML Engineer Intern|Sunnyvale, CA|Oct 23#1"
+    },
+    "2473b5feed21": {
+      "company": "Motorola Solutions",
+      "role": "Presales Systems Engineering - Summer 2027 Internship",
+      "location": "Waltham, MA, More...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R69779?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9798,
+      "chat_id": 7582459199,
+      "seq": 8529,
+      "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R69779?s=gh-internships-2027|Motorola Solutions|Presales Systems Engineering - Summer 2027 Internship|Waltham, MA, More...|Summer 2027#1"
     }
   },
   "applied": {
@@ -109395,10 +109407,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8528,
+  "seq": 8529,
   "health": {
     "last_heartbeat": "2026-10-26T17:20:18Z",
-    "last_ok_run": "2026-10-26T17:20:18Z",
+    "last_ok_run": "2026-10-26T17:25:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
