@@ -2693,7 +2693,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "38634522a7f14e33990287595a05f7e25de9c762",
+    "last_sha": "5752d797e5cc409cd9267217ddc6eb0ad0fe7758",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -5872,11 +5872,92 @@
       "https://go.vansh.nyc/MY?s=y|Aerospace Corporation|Cyber Security Intern \ud83d\udec2|United States|Aug 31#1",
       "NOURL|Assured Guaranty|Product Software Developer Intern, Front-End|New York, NY|Sep 21#1",
       "NOURL|Assured Guaranty|Product Software Developer Intern, Back-End|New York, NY|Sep 21#1",
-      "NOURL|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1"
+      "NOURL|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1",
+      "https://go.vansh.nyc/OF?s=y|Royal Bank of Canada|Data Engineer Intern|Vancouver, Canada|Oct 25#1",
+      "https://go.vansh.nyc/OG?s=y|Royal Bank of Canada|Developer Intern|Halifax, Canada|Oct 25#1",
+      "https://go.vansh.nyc/OH?s=y|Royal Bank of Canada|Developer Intern|Vancouver, Canada|Oct 25#1",
+      "https://go.vansh.nyc/OJ?s=y|Royal Bank of Canada|Data Engineer Intern|Halifax, Canada|Oct 25#1",
+      "https://go.vansh.nyc/OI?s=y|CVS Health|Innovation & Technology Intern, Data Engineering|Irving, TX|Oct 25#1",
+      "https://go.vansh.nyc/OT?s=y|Procter & Gamble (P&G)|IT Security Intern|Cincinnati, OH|Sep 30#1",
+      "https://go.vansh.nyc/OE?s=y|CACI|Software Engineer Co-op|Danbury, CT|Aug 30#1",
+      "https://go.vansh.nyc/OD?s=y|Hewlett Packard Enterprise|Data Science Intern|**10 locations**Andover, MA Bloomington, MN San Jose, CA Spring, TX Durham, NC Westford, MA Chippewa Falls, WI Fort Collins, CO Sunnyvale, CA Roseville, CA|Aug 29#1",
+      "https://go.vansh.nyc/OO?s=y|Juniper Networks|Cloud Engineer Intern|**10 locations**Spring, TX Westford, MA Ft. Collins, CO Chippewa Falls, WI Durham, NC Sunnyvale, CA Roseville, CA San Jose, CA Bloomington, MN Andover, MA|Aug 28#1",
+      "https://go.vansh.nyc/OP?s=y|Aerospace Corporation|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|United States|Aug 28#1",
+      "https://go.vansh.nyc/OQ?s=y|Aerospace Corporation|Embedded Engineering Intern \ud83c\uddfa\ud83c\uddf8|United States|Aug 28#1",
+      "https://go.vansh.nyc/OR?s=y|Aerospace Corporation|Software AI Intern \ud83c\uddfa\ud83c\uddf8|United States|Aug 28#1",
+      "https://go.vansh.nyc/ON?s=y|PennState University|Cyber Security Engineer Intern \ud83c\uddfa\ud83c\uddf8|University Park, PA|Aug 27#1",
+      "https://go.vansh.nyc/Oz?s=y|IMC Trading|Performance Engineer Intern|Chicago, IL|Aug 27#1",
+      "https://go.vansh.nyc/OA?s=y|Hewlett Packard Enterprise|Software Engineer Intern|**10 locations**Andover, MA Bloomington, MN San Jose, CA Spring, TX Durham, NC Westford, MA Chippewa Falls, WI Fort Collins, CO Sunnyvale, CA Roseville, CA|Aug 27#1",
+      "https://go.vansh.nyc/OB?s=y|Hewlett Packard Enterprise|Product Management Intern|**10 locations**Andover, MA Bloomington, MN San Jose, CA Spring, TX Durham, NC Westford, MA Chippewa Falls, WI Fort Collins, CO Sunnyvale, CA Roseville, CA|Aug 27#1",
+      "https://go.vansh.nyc/Oy?s=y|Booz Allen Hamilton|Software Developer Intern|San Diego, CA|Aug 26#1",
+      "https://go.vansh.nyc/Ox?s=y|TikTok|AI Infrastructure Engineer Intern, Recommendation & LLM|San Jose, CA|Aug 25#1",
+      "https://go.vansh.nyc/Ou?s=y|Honeywell|Embedded Engineer Intern|United States|Aug 25#1",
+      "https://go.vansh.nyc/Ow?s=y|DV Trading|Futures & Options Trading Analyst Intern|New York, NY|Aug 25#1",
+      "https://go.vansh.nyc/Ov?s=y|Compeer Financial|Engineering Intern|Sun Prairie, WI Mankato, MN Bloomington, IL|Aug 25#1",
+      "https://go.vansh.nyc/Or?s=y|MSA Safety|Software Engineer Intern, Product Development|Cranberry Township, PA|Aug 24#1",
+      "https://go.vansh.nyc/Oq?s=y|Garmin|Software Engineer Intern|Olathe, KS|Aug 24#1",
+      "https://go.vansh.nyc/OL?s=y|AMD|Software Test Engineering Co-op|Austin, TX|Aug 24#1",
+      "https://go.vansh.nyc/OM?s=y|AMD|Software Test Engineering Co-op|San Jose, CA|Aug 24#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 1195,
-    "outbox": []
+    "last_row_count": 1225,
+    "outbox": [
+      [
+        [
+          "The Hartford",
+          "Software Engineer Intern, Tech & Data Program",
+          "Hartford, CT",
+          "Aug 23",
+          "https://go.vansh.nyc/On?s=y"
+        ],
+        "https://go.vansh.nyc/On?s=y|The Hartford|Software Engineer Intern, Tech & Data Program|Hartford, CT|Aug 23#1",
+        1
+      ],
+      [
+        [
+          "The Hartford",
+          "Data Engineer Intern, Technology, Data, AI, and Operations",
+          "Hartford, CT",
+          "Aug 23",
+          "https://go.vansh.nyc/Oo?s=y"
+        ],
+        "https://go.vansh.nyc/Oo?s=y|The Hartford|Data Engineer Intern, Technology, Data, AI, and Operations|Hartford, CT|Aug 23#1",
+        1
+      ],
+      [
+        [
+          "TikTok",
+          "AI Product Manager Intern, Product Social",
+          "San Jose, CA",
+          "Aug 21",
+          "https://go.vansh.nyc/Om?s=y"
+        ],
+        "https://go.vansh.nyc/Om?s=y|TikTok|AI Product Manager Intern, Product Social|San Jose, CA|Aug 21#1",
+        1
+      ],
+      [
+        [
+          "Auto-Owners Insurance",
+          "Predictive Modeler Intern",
+          "Lansing, MI",
+          "Aug 20",
+          "https://go.vansh.nyc/Oh?s=y"
+        ],
+        "https://go.vansh.nyc/Oh?s=y|Auto-Owners Insurance|Predictive Modeler Intern|Lansing, MI|Aug 20#1",
+        1
+      ],
+      [
+        [
+          "Palantir Technologies",
+          "Information Security Engineer Intern",
+          "New York, NY",
+          "Aug 2022",
+          "https://go.vansh.nyc/OK?s=y"
+        ],
+        "https://go.vansh.nyc/OK?s=y|Palantir Technologies|Information Security Engineer Intern|New York, NY|Aug 2022#1",
+        1
+      ]
+    ]
   },
   "zapplyjobs/Internships-2027#swe": {
     "last_sha": "34cdc49fabada8e1cd9eb4dd36d9d6bf3e14a76d",
