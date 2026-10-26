@@ -2699,7 +2699,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "8a5859f7ca93350e63d2a15cb4bb1ca0d1b8fb80",
+    "last_sha": "b89335485a3ff125d823604f4ee7311c629e956e",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -5946,14 +5946,491 @@
       "https://go.vansh.nyc/Qt?s=y|The Federal Reserve System|Innovation Intern \ud83d\udec2|Atlanta, GA|Oct 26#1",
       "https://go.vansh.nyc/Qs?s=y|Booz Allen Hamilton|Games Systems Engineer Intern \ud83c\uddfa\ud83c\uddf8|Lexington, MA|Oct 26#1",
       "NOURL|Copart|QA Engineer Intern|Dallas, TX|Oct 22#1",
-      "NOURL|Marvell|Firmware Engineer Co-op|Toronto, Canada|Oct 01#1"
+      "NOURL|Marvell|Firmware Engineer Co-op|Toronto, Canada|Oct 01#1",
+      "https://go.vansh.nyc/RW?s=y|Mach Industries|Engineering Intern, Software/GNC \ud83d\udec2|Huntington Beach, CA San Francisco, CA|Oct 21#1",
+      "https://go.vansh.nyc/RT?s=y|Lyft|Software Engineer Intern, Test Automation|Montreal, Canada|Oct 19#1",
+      "https://go.vansh.nyc/RS?s=y|Two Sigma|Software Engineering Intern|New York, NY|Oct 18#1",
+      "https://go.vansh.nyc/RN?s=y|TikTok|Security Software Engineer Project Intern, Product Security|San Jose, CA|Oct 18#1",
+      "https://go.vansh.nyc/RO?s=y|TikTok|Software Development Engineer in Test Intern, Testing|San Jose, CA|Oct 18#1",
+      "https://go.vansh.nyc/RP?s=y|TikTok|Software Development Engineer Intern, Global E-Commerce Quality Platform & AI Test Automation|San Jose, CA|Oct 18#1",
+      "https://go.vansh.nyc/RQ?s=y|TikTok|Software Development Engineer Intern, Global E-Commerce Quality Platform & AI Test Automation|Seattle, WA|Oct 18#1",
+      "https://go.vansh.nyc/RR?s=y|TikTok|Site Reliability Engineer Intern, Global SRE|San Jose, CA|Oct 18#1",
+      "https://go.vansh.nyc/RM?s=y|Susquehanna International Group|Machine Learning Engineering Intern|Bala Cynwyd, PA|Oct 18#1",
+      "https://go.vansh.nyc/RL?s=y|Rivian|Computer Vision Software Intern|**5 locations**Palo Alto, CA Irvine, CA Plymouth, MI Atlanta, GA Normal, IL|Oct 18#1",
+      "https://go.vansh.nyc/Rq?s=y|Qualcomm|Embedded Engineering Intern|San Diego, CA Boxborough, MA Santa Clara, CA|Oct 18#1",
+      "https://go.vansh.nyc/Rr?s=y|Qualcomm|Machine Learning & Artificial Intelligence Engineering Intern|**7 locations**San Diego, CA Austin, TX Boxborough, MA United States New York, NY Raleigh, NC Santa Clara, CA|Oct 18#1",
+      "https://go.vansh.nyc/Rs?s=y|Qualcomm|Software Engineering Intern|**8 locations**San Diego, CA Austin, TX Boxborough, MA United States Tempe, AZ Irvine, CA Louisville, KY New York, NY|Oct 18#1",
+      "https://go.vansh.nyc/Rt?s=y|Qualcomm|Security Engineering Intern, Product, Systems, Cyber|San Diego, CA|Oct 18#1",
+      "https://go.vansh.nyc/Ru?s=y|Qualcomm|Hardware Engineering Intern, CPU, GPU, SoC, Digital Design, DV|**5 locations**San Diego, CA Austin, TX Boxborough, MA Tempe, AZ Santa Clara, CA|Oct 18#1",
+      "https://go.vansh.nyc/Rv?s=y|Qualcomm|IT Infrastructure & Cloud Engineering Intern|San Diego, CA|Oct 18#1",
+      "https://go.vansh.nyc/Rw?s=y|Qualcomm|Machine Learning Compiler & Performance Engineering Intern|Markham, Canada|Oct 18#1",
+      "https://go.vansh.nyc/Rx?s=y|Qualcomm|Low-Power AI, Audio, and Sensors Subsystem Engineering Intern, ASIC Firmware / Embedded|Markham, Canada|Oct 18#1",
+      "https://go.vansh.nyc/Ry?s=y|Qualcomm|Firmware/Embedded Software Engineering Intern|Toronto, Canada|Oct 18#1",
+      "https://go.vansh.nyc/Rz?s=y|Qualcomm|Low Power AI Software Development Intern|Markham, Canada|Oct 18#1",
+      "https://go.vansh.nyc/RA?s=y|Qualcomm|PAL Firmware Development Intern|Markham, Canada|Oct 18#1",
+      "https://go.vansh.nyc/RB?s=y|Qualcomm|AI Driven Test Automation Engineering Intern|Haifa District, IL|Oct 18#1",
+      "https://go.vansh.nyc/RC?s=y|Qualcomm|Design Automation & Quality Assurance Engineering Intern|Ottawa, Canada|Oct 18#1",
+      "https://go.vansh.nyc/Rn?s=y|NVIDIA|Deep Learning Computer Architecture Intern|Santa Clara, CA|Oct 18#1",
+      "https://go.vansh.nyc/Ro?s=y|NVIDIA|Systems Software Engineering Intern|Santa Clara, CA|Oct 18#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 1258,
-    "outbox": []
+    "last_row_count": 1323,
+    "outbox": [
+      [
+        [
+          "NVIDIA",
+          "Systems Software Intern, Aerial PHY",
+          "Santa Clara, CA",
+          "Oct 18",
+          "https://go.vansh.nyc/Rp?s=y"
+        ],
+        "https://go.vansh.nyc/Rp?s=y|NVIDIA|Systems Software Intern, Aerial PHY|Santa Clara, CA|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "LPL Financial Holdings",
+          "Cybersecurity Analyst Intern",
+          "Fort Mill, SC Charlotte, NC Austin, TX",
+          "Oct 18",
+          "https://go.vansh.nyc/QQ?s=y"
+        ],
+        "https://go.vansh.nyc/QQ?s=y|LPL Financial Holdings|Cybersecurity Analyst Intern|Fort Mill, SC Charlotte, NC Austin, TX|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "LPL Financial Holdings",
+          "Platform Engineer Intern",
+          "Fort Mill, SC Charlotte, NC Austin, TX",
+          "Oct 18",
+          "https://go.vansh.nyc/QR?s=y"
+        ],
+        "https://go.vansh.nyc/QR?s=y|LPL Financial Holdings|Platform Engineer Intern|Fort Mill, SC Charlotte, NC Austin, TX|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Los Alamos National Laboratory",
+          "High Performance Computing Undergraduate Intern \ud83c\uddfa\ud83c\uddf8",
+          "United States",
+          "Oct 18",
+          "https://go.vansh.nyc/Ri?s=y"
+        ],
+        "https://go.vansh.nyc/Ri?s=y|Los Alamos National Laboratory|High Performance Computing Undergraduate Intern \ud83c\uddfa\ud83c\uddf8|United States|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Keysight Technologies",
+          "R&D Embedded Software Intern",
+          "Colorado Springs, CO",
+          "Oct 18",
+          "https://go.vansh.nyc/Rd?s=y"
+        ],
+        "https://go.vansh.nyc/Rd?s=y|Keysight Technologies|R&D Embedded Software Intern|Colorado Springs, CO|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Keysight Technologies",
+          "R&D Software Engineer QA DevOps Intern \ud83c\uddfa\ud83c\uddf8",
+          "Santa Rosa, CA San Diego, CA",
+          "Oct 18",
+          "https://go.vansh.nyc/Re?s=y"
+        ],
+        "https://go.vansh.nyc/Re?s=y|Keysight Technologies|R&D Software Engineer QA DevOps Intern \ud83c\uddfa\ud83c\uddf8|Santa Rosa, CA San Diego, CA|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Keysight Technologies",
+          "Enterprise Software Development Intern, EDA Tools",
+          "Santa Rosa, CA",
+          "Oct 18",
+          "https://go.vansh.nyc/Rf?s=y"
+        ],
+        "https://go.vansh.nyc/Rf?s=y|Keysight Technologies|Enterprise Software Development Intern, EDA Tools|Santa Rosa, CA|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Keysight Technologies",
+          "Engineering Software Developer Intern",
+          "Austin, TX Raleigh, NC",
+          "Oct 18",
+          "https://go.vansh.nyc/Rg?s=y"
+        ],
+        "https://go.vansh.nyc/Rg?s=y|Keysight Technologies|Engineering Software Developer Intern|Austin, TX Raleigh, NC|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Keysight Technologies",
+          "Software Engineering Intern",
+          "Calabasas, CA",
+          "Oct 18",
+          "https://go.vansh.nyc/Rh?s=y"
+        ],
+        "https://go.vansh.nyc/Rh?s=y|Keysight Technologies|Software Engineering Intern|Calabasas, CA|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Garmin",
+          "Cyber Security Engineer Intern",
+          "Olathe, KS",
+          "Oct 18",
+          "https://go.vansh.nyc/R5?s=y"
+        ],
+        "https://go.vansh.nyc/R5?s=y|Garmin|Cyber Security Engineer Intern|Olathe, KS|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Eaton",
+          "Software Quality Assurance Engineering Intern",
+          "Minneapolis, MN",
+          "Oct 18",
+          "https://go.vansh.nyc/R4?s=y"
+        ],
+        "https://go.vansh.nyc/R4?s=y|Eaton|Software Quality Assurance Engineering Intern|Minneapolis, MN|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Disney",
+          "Product & Technology Software Engineering Intern",
+          "Glendale, CA San Francisco, CA New York, NY",
+          "Oct 18",
+          "https://go.vansh.nyc/R3?s=y"
+        ],
+        "https://go.vansh.nyc/R3?s=y|Disney|Product & Technology Software Engineering Intern|Glendale, CA San Francisco, CA New York, NY|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Celestica",
+          "AI Engineer Intern",
+          "Remote United States",
+          "Oct 18",
+          "https://go.vansh.nyc/QX?s=y"
+        ],
+        "https://go.vansh.nyc/QX?s=y|Celestica|AI Engineer Intern|Remote United States|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Celestica",
+          "AI / Data Science Intern",
+          "San Jose, CA",
+          "Oct 18",
+          "https://go.vansh.nyc/QY?s=y"
+        ],
+        "https://go.vansh.nyc/QY?s=y|Celestica|AI / Data Science Intern|San Jose, CA|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Celestica",
+          "SCM Data Scientist Intern",
+          "Toronto, Canada",
+          "Oct 18",
+          "https://go.vansh.nyc/QZ?s=y"
+        ],
+        "https://go.vansh.nyc/QZ?s=y|Celestica|SCM Data Scientist Intern|Toronto, Canada|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Celestica",
+          "Software Testing Intern",
+          "Austin, TX",
+          "Oct 18",
+          "https://go.vansh.nyc/R0?s=y"
+        ],
+        "https://go.vansh.nyc/R0?s=y|Celestica|Software Testing Intern|Austin, TX|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Celestica",
+          "SCM Data Analyst Intern",
+          "Toronto, Canada",
+          "Oct 18",
+          "https://go.vansh.nyc/R1?s=y"
+        ],
+        "https://go.vansh.nyc/R1?s=y|Celestica|SCM Data Analyst Intern|Toronto, Canada|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Celestica",
+          "Software & Hardware Engineer Intern",
+          "Austin, TX",
+          "Oct 18",
+          "https://go.vansh.nyc/R2?s=y"
+        ],
+        "https://go.vansh.nyc/R2?s=y|Celestica|Software & Hardware Engineer Intern|Austin, TX|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Campbell Soup Company",
+          "Data Science Intern",
+          "Camden, NJ",
+          "Oct 18",
+          "https://go.vansh.nyc/QO?s=y"
+        ],
+        "https://go.vansh.nyc/QO?s=y|Campbell Soup Company|Data Science Intern|Camden, NJ|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Booz Allen Hamilton",
+          "Games Software Developer Intern",
+          "Lexington, MA",
+          "Oct 18",
+          "https://go.vansh.nyc/QM?s=y"
+        ],
+        "https://go.vansh.nyc/QM?s=y|Booz Allen Hamilton|Games Software Developer Intern|Lexington, MA|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Booz Allen Hamilton",
+          "Games Data Scientist Intern",
+          "Lexington, MA",
+          "Oct 18",
+          "https://go.vansh.nyc/QN?s=y"
+        ],
+        "https://go.vansh.nyc/QN?s=y|Booz Allen Hamilton|Games Data Scientist Intern|Lexington, MA|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Atlassian",
+          "Security Engineer Intern",
+          "Seattle, WA",
+          "Oct 18",
+          "https://go.vansh.nyc/QW?s=y"
+        ],
+        "https://go.vansh.nyc/QW?s=y|Atlassian|Security Engineer Intern|Seattle, WA|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "Alstom",
+          "ATC Software Intern",
+          "Pittsburgh, PA",
+          "Oct 18",
+          "https://go.vansh.nyc/QV?s=y"
+        ],
+        "https://go.vansh.nyc/QV?s=y|Alstom|ATC Software Intern|Pittsburgh, PA|Oct 18#1",
+        1
+      ],
+      [
+        [
+          "PDT Partners",
+          "Systems Engineering Intern",
+          "New York, NY",
+          "Oct 07",
+          "https://go.vansh.nyc/QK?s=y"
+        ],
+        "https://go.vansh.nyc/QK?s=y|PDT Partners|Systems Engineering Intern|New York, NY|Oct 07#1",
+        1
+      ],
+      [
+        [
+          "Dell Technologies",
+          "Data Science Intern",
+          "United States",
+          "Oct 07",
+          "https://go.vansh.nyc/QL?s=y"
+        ],
+        "https://go.vansh.nyc/QL?s=y|Dell Technologies|Data Science Intern|United States|Oct 07#1",
+        1
+      ],
+      [
+        [
+          "Qube Research and Technologies",
+          "Security Engineer Intern",
+          "New York, NY",
+          "Oct 06",
+          "https://go.vansh.nyc/QJ?s=y"
+        ],
+        "https://go.vansh.nyc/QJ?s=y|Qube Research and Technologies|Security Engineer Intern|New York, NY|Oct 06#1",
+        1
+      ],
+      [
+        [
+          "Hudson River Trading",
+          "FPGA Verification and Developer Intern",
+          "New York, NY",
+          "Oct 01",
+          "https://go.vansh.nyc/QI?s=y"
+        ],
+        "https://go.vansh.nyc/QI?s=y|Hudson River Trading|FPGA Verification and Developer Intern|New York, NY|Oct 01#1",
+        1
+      ],
+      [
+        [
+          "Neuralink",
+          "Embedded Software Engineer Intern, Implant Embedded Systems",
+          "Austin, TX South San Francisco, CA",
+          "Sep 24",
+          "https://go.vansh.nyc/QF?s=y"
+        ],
+        "https://go.vansh.nyc/QF?s=y|Neuralink|Embedded Software Engineer Intern, Implant Embedded Systems|Austin, TX South San Francisco, CA|Sep 24#1",
+        1
+      ],
+      [
+        [
+          "Neuralink",
+          "Software Engineer Intern, BCI Applications",
+          "Austin, TX South San Francisco, CA",
+          "Sep 24",
+          "https://go.vansh.nyc/QG?s=y"
+        ],
+        "https://go.vansh.nyc/QG?s=y|Neuralink|Software Engineer Intern, BCI Applications|Austin, TX South San Francisco, CA|Sep 24#1",
+        1
+      ],
+      [
+        [
+          "Neuralink",
+          "Firmware Engineer Intern, Robotics and Surgery Engineering",
+          "South San Francisco, CA",
+          "Sep 24",
+          "https://go.vansh.nyc/QH?s=y"
+        ],
+        "https://go.vansh.nyc/QH?s=y|Neuralink|Firmware Engineer Intern, Robotics and Surgery Engineering|South San Francisco, CA|Sep 24#1",
+        1
+      ],
+      [
+        [
+          "Navy Federal",
+          "Associate Intern, Identity & Access Management",
+          "Vienna, VA",
+          "Sep 08",
+          "https://go.vansh.nyc/QD?s=y"
+        ],
+        "https://go.vansh.nyc/QD?s=y|Navy Federal|Associate Intern, Identity & Access Management|Vienna, VA|Sep 08#1",
+        1
+      ],
+      [
+        [
+          "Navy Federal",
+          "Associate Intern, Penetration Testing",
+          "Pensacola, FL",
+          "Sep 08",
+          "https://go.vansh.nyc/QE?s=y"
+        ],
+        "https://go.vansh.nyc/QE?s=y|Navy Federal|Associate Intern, Penetration Testing|Pensacola, FL|Sep 08#1",
+        1
+      ],
+      [
+        [
+          "Awetomaton",
+          "Platform Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+          "Beavercreek, OH",
+          "Sep 02",
+          "https://go.vansh.nyc/QC?s=y"
+        ],
+        "https://go.vansh.nyc/QC?s=y|Awetomaton|Platform Engineering Intern \ud83c\uddfa\ud83c\uddf8|Beavercreek, OH|Sep 02#1",
+        1
+      ],
+      [
+        [
+          "Old Mission",
+          "Software Engineer Intern",
+          "Chicago, IL",
+          "Jul 15",
+          "https://go.vansh.nyc/QB?s=y"
+        ],
+        "https://go.vansh.nyc/QB?s=y|Old Mission|Software Engineer Intern|Chicago, IL|Jul 15#1",
+        1
+      ],
+      [
+        [
+          "Ginkgo Bioworks",
+          "Software Intern, Autonomous Lab",
+          "Emeryville, CA",
+          "Apr 01",
+          "https://go.vansh.nyc/Qz?s=y"
+        ],
+        "https://go.vansh.nyc/Qz?s=y|Ginkgo Bioworks|Software Intern, Autonomous Lab|Emeryville, CA|Apr 01#1",
+        1
+      ],
+      [
+        [
+          "Scientech Research Capital",
+          "Quantitative Developer Intern",
+          "United States",
+          "Mar 04",
+          "https://go.vansh.nyc/Qy?s=y"
+        ],
+        "https://go.vansh.nyc/Qy?s=y|Scientech Research Capital|Quantitative Developer Intern|United States|Mar 04#1",
+        1
+      ],
+      [
+        [
+          "LAXIR",
+          "Junior Full-Stack Engineer Intern",
+          "Remote United States",
+          "Jun 2022",
+          "https://go.vansh.nyc/Qx?s=y"
+        ],
+        "https://go.vansh.nyc/Qx?s=y|LAXIR|Junior Full-Stack Engineer Intern|Remote United States|Jun 2022#1",
+        1
+      ],
+      [
+        [
+          "BlinqLABS",
+          "Java Web Development Intern",
+          "Remote United States",
+          "Feb 2021",
+          "https://go.vansh.nyc/Qw?s=y"
+        ],
+        "https://go.vansh.nyc/Qw?s=y|BlinqLABS|Java Web Development Intern|Remote United States|Feb 2021#1",
+        1
+      ],
+      [
+        [
+          "Barkback",
+          "Software Intern",
+          "Santa Barbara, CA",
+          "Mar 2016",
+          "https://go.vansh.nyc/Qv?s=y"
+        ],
+        "https://go.vansh.nyc/Qv?s=y|Barkback|Software Intern|Santa Barbara, CA|Mar 2016#1",
+        1
+      ],
+      [
+        [
+          "Northwestern Mutual",
+          "Application Development Intern",
+          "Milwaukee, WI",
+          "Oct 2015",
+          "https://go.vansh.nyc/Qu?s=y"
+        ],
+        "https://go.vansh.nyc/Qu?s=y|Northwestern Mutual|Application Development Intern|Milwaukee, WI|Oct 2015#1",
+        1
+      ],
+      [
+        [
+          "The Toro Company",
+          "Embedded Software Engineer Intern",
+          "Bloomington, MN",
+          "Sep 10",
+          ""
+        ],
+        "NOURL|The Toro Company|Embedded Software Engineer Intern|Bloomington, MN|Sep 10#1",
+        1
+      ]
+    ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "3b0f910f6034697cfb01718b57da2d22ce6f2f99",
+    "last_sha": "23f6727a537805a354e6d2a342e114a82106278e",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
