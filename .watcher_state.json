@@ -5098,286 +5098,36 @@
       "https://go.vansh.nyc/co?s=y|Constellation Brands|AI Enablement Intern|Rochester, NY|Oct 19#1",
       "https://go.vansh.nyc/ca?s=y|Citco|Software Engineer Intern|Toronto, ON, Canada|Oct 19#1",
       "https://go.vansh.nyc/cr?s=y|Boston Scientific|R&D Software Engineer Intern|Arden Hills, MN|Oct 19#1",
-      "https://go.vansh.nyc/bd?s=y|Bosch|Software Engineering Co-op|Fountain Inn, SC|Oct 19#1"
+      "https://go.vansh.nyc/bd?s=y|Bosch|Software Engineering Co-op|Fountain Inn, SC|Oct 19#1",
+      "https://go.vansh.nyc/be?s=y|Bosch|AI Research Intern, Wireless Foundation Models|Pittsburgh, PA|Oct 19#1",
+      "https://go.vansh.nyc/bG?s=y|BMO Financial Group|Junior Cloud Engineer Co-op|Toronto, ON|Oct 19#1",
+      "https://go.vansh.nyc/d5?s=y|Applied Materials|Software Engineer Intern|Santa Clara, CA|Oct 19#1",
+      "https://go.vansh.nyc/c5?s=y|Amplify|AI Scientist Intern|Remote in USA|Oct 19#1",
+      "https://go.vansh.nyc/c6?s=y|Amplify|Software Engineer Intern|Remote in USA|Oct 19#1",
+      "https://go.vansh.nyc/c7?s=y|Amplify|Data Analytics Intern|Remote in USA|Oct 19#1",
+      "https://go.vansh.nyc/bi?s=y|American Fidelity|Software Developer Innovation Intern|Oklahoma City, OK|Oct 19#1",
+      "https://go.vansh.nyc/d2?s=y|Altera|Quartus User Interface Intern|Toronto, ON, Canada|Oct 19#1",
+      "https://go.vansh.nyc/d3?s=y|Altera|FPGA IP Design Engineer Intern|Toronto, ON, Canada|Oct 19#1",
+      "https://go.vansh.nyc/bk?s=y|Adobe|Security Engineer Intern|Lehi, UT|Oct 19#1",
+      "https://go.vansh.nyc/bu?s=y|Adobe|AI & Architecture Intern|San Jose, CA|Oct 19#1",
+      "https://go.vansh.nyc/bv?s=y|Adobe|Data, AI & Innovation Intern|San Jose, CA|Oct 19#1",
+      "https://go.vansh.nyc/bT?s=y|NVIDIA|ASIC Verification Intern|Toronto, ON, Canada|Oct 18#1",
+      "https://go.vansh.nyc/bW?s=y|Micron Technology|HBM Design Engineer Intern - HBM|Richardson, TX|Oct 18#1",
+      "https://go.vansh.nyc/gn?s=y|Interclypse|Junior Full Stack Software Engineer Intern|Annapolis Junction, MD|Oct 18#1",
+      "https://go.vansh.nyc/c3?s=y|Hewlett Packard Enterprise|Hardware Engineering Design Intern|Roseville, CA|Oct 18#1",
+      "https://go.vansh.nyc/bV?s=y|Creative Artists Agency|Data Analytics Intern|Denver, CO|Oct 18#1",
+      "https://go.vansh.nyc/bU?s=y|Cognex|Software Engineer Intern|Wauwatosa, WI|Oct 18#1",
+      "https://go.vansh.nyc/aA?s=y|Together AI|Research Intern, Frontier Speculative Decoding|San Francisco, CA|Oct 17#1",
+      "https://go.vansh.nyc/aC?s=y|Physical Reasoning|Software Engineering Intern|**4 locations**San Francisco, CA New York, NY Toronto, Canada Remote|Oct 17#1",
+      "https://go.vansh.nyc/aH?s=y|Eulerity|AI Intern, Office of CEO & Head of Product|New York, NY|Oct 17#1",
+      "https://go.vansh.nyc/aG?s=y|Clera|Computer Vision & Robotics Intern|San Francisco, CA|Oct 17#1",
+      "https://go.vansh.nyc/ay?s=y|AeroVironment|Software Engineering Intern|Moorpark, CA|Oct 17#1",
+      "https://go.vansh.nyc/as?s=y|Wellmark|Software Engineer Intern, Technology Health Plan|Des Moines, IA|Oct 16#1",
+      "https://go.vansh.nyc/b5?s=y|Waabi|Safety Methodologies Co-op|Toronto, ON, Canada SF Pittsburgh, PA|Oct 16#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 771,
     "outbox": [
-      [
-        [
-          "Bosch",
-          "AI Research Intern, Wireless Foundation Models",
-          "Pittsburgh, PA",
-          "Oct 19",
-          "https://go.vansh.nyc/be?s=y"
-        ],
-        "https://go.vansh.nyc/be?s=y|Bosch|AI Research Intern, Wireless Foundation Models|Pittsburgh, PA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "BMO Financial Group",
-          "Junior Cloud Engineer Co-op",
-          "Toronto, ON",
-          "Oct 19",
-          "https://go.vansh.nyc/bG?s=y"
-        ],
-        "https://go.vansh.nyc/bG?s=y|BMO Financial Group|Junior Cloud Engineer Co-op|Toronto, ON|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Applied Materials",
-          "Software Engineer Intern",
-          "Santa Clara, CA",
-          "Oct 19",
-          "https://go.vansh.nyc/d5?s=y"
-        ],
-        "https://go.vansh.nyc/d5?s=y|Applied Materials|Software Engineer Intern|Santa Clara, CA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Amplify",
-          "AI Scientist Intern",
-          "Remote in USA",
-          "Oct 19",
-          "https://go.vansh.nyc/c5?s=y"
-        ],
-        "https://go.vansh.nyc/c5?s=y|Amplify|AI Scientist Intern|Remote in USA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Amplify",
-          "Software Engineer Intern",
-          "Remote in USA",
-          "Oct 19",
-          "https://go.vansh.nyc/c6?s=y"
-        ],
-        "https://go.vansh.nyc/c6?s=y|Amplify|Software Engineer Intern|Remote in USA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Amplify",
-          "Data Analytics Intern",
-          "Remote in USA",
-          "Oct 19",
-          "https://go.vansh.nyc/c7?s=y"
-        ],
-        "https://go.vansh.nyc/c7?s=y|Amplify|Data Analytics Intern|Remote in USA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "American Fidelity",
-          "Software Developer Innovation Intern",
-          "Oklahoma City, OK",
-          "Oct 19",
-          "https://go.vansh.nyc/bi?s=y"
-        ],
-        "https://go.vansh.nyc/bi?s=y|American Fidelity|Software Developer Innovation Intern|Oklahoma City, OK|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Altera",
-          "Quartus User Interface Intern",
-          "Toronto, ON, Canada",
-          "Oct 19",
-          "https://go.vansh.nyc/d2?s=y"
-        ],
-        "https://go.vansh.nyc/d2?s=y|Altera|Quartus User Interface Intern|Toronto, ON, Canada|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Altera",
-          "FPGA IP Design Engineer Intern",
-          "Toronto, ON, Canada",
-          "Oct 19",
-          "https://go.vansh.nyc/d3?s=y"
-        ],
-        "https://go.vansh.nyc/d3?s=y|Altera|FPGA IP Design Engineer Intern|Toronto, ON, Canada|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Adobe",
-          "Security Engineer Intern",
-          "Lehi, UT",
-          "Oct 19",
-          "https://go.vansh.nyc/bk?s=y"
-        ],
-        "https://go.vansh.nyc/bk?s=y|Adobe|Security Engineer Intern|Lehi, UT|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Adobe",
-          "AI & Architecture Intern",
-          "San Jose, CA",
-          "Oct 19",
-          "https://go.vansh.nyc/bu?s=y"
-        ],
-        "https://go.vansh.nyc/bu?s=y|Adobe|AI & Architecture Intern|San Jose, CA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "Adobe",
-          "Data, AI & Innovation Intern",
-          "San Jose, CA",
-          "Oct 19",
-          "https://go.vansh.nyc/bv?s=y"
-        ],
-        "https://go.vansh.nyc/bv?s=y|Adobe|Data, AI & Innovation Intern|San Jose, CA|Oct 19#1",
-        1
-      ],
-      [
-        [
-          "NVIDIA",
-          "ASIC Verification Intern",
-          "Toronto, ON, Canada",
-          "Oct 18",
-          "https://go.vansh.nyc/bT?s=y"
-        ],
-        "https://go.vansh.nyc/bT?s=y|NVIDIA|ASIC Verification Intern|Toronto, ON, Canada|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Micron Technology",
-          "HBM Design Engineer Intern - HBM",
-          "Richardson, TX",
-          "Oct 18",
-          "https://go.vansh.nyc/bW?s=y"
-        ],
-        "https://go.vansh.nyc/bW?s=y|Micron Technology|HBM Design Engineer Intern - HBM|Richardson, TX|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Interclypse",
-          "Junior Full Stack Software Engineer Intern",
-          "Annapolis Junction, MD",
-          "Oct 18",
-          "https://go.vansh.nyc/gn?s=y"
-        ],
-        "https://go.vansh.nyc/gn?s=y|Interclypse|Junior Full Stack Software Engineer Intern|Annapolis Junction, MD|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Hewlett Packard Enterprise",
-          "Hardware Engineering Design Intern",
-          "Roseville, CA",
-          "Oct 18",
-          "https://go.vansh.nyc/c3?s=y"
-        ],
-        "https://go.vansh.nyc/c3?s=y|Hewlett Packard Enterprise|Hardware Engineering Design Intern|Roseville, CA|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Creative Artists Agency",
-          "Data Analytics Intern",
-          "Denver, CO",
-          "Oct 18",
-          "https://go.vansh.nyc/bV?s=y"
-        ],
-        "https://go.vansh.nyc/bV?s=y|Creative Artists Agency|Data Analytics Intern|Denver, CO|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Cognex",
-          "Software Engineer Intern",
-          "Wauwatosa, WI",
-          "Oct 18",
-          "https://go.vansh.nyc/bU?s=y"
-        ],
-        "https://go.vansh.nyc/bU?s=y|Cognex|Software Engineer Intern|Wauwatosa, WI|Oct 18#1",
-        1
-      ],
-      [
-        [
-          "Together AI",
-          "Research Intern, Frontier Speculative Decoding",
-          "San Francisco, CA",
-          "Oct 17",
-          "https://go.vansh.nyc/aA?s=y"
-        ],
-        "https://go.vansh.nyc/aA?s=y|Together AI|Research Intern, Frontier Speculative Decoding|San Francisco, CA|Oct 17#1",
-        1
-      ],
-      [
-        [
-          "Physical Reasoning",
-          "Software Engineering Intern",
-          "**4 locations**San Francisco, CA New York, NY Toronto, Canada Remote",
-          "Oct 17",
-          "https://go.vansh.nyc/aC?s=y"
-        ],
-        "https://go.vansh.nyc/aC?s=y|Physical Reasoning|Software Engineering Intern|**4 locations**San Francisco, CA New York, NY Toronto, Canada Remote|Oct 17#1",
-        1
-      ],
-      [
-        [
-          "Eulerity",
-          "AI Intern, Office of CEO & Head of Product",
-          "New York, NY",
-          "Oct 17",
-          "https://go.vansh.nyc/aH?s=y"
-        ],
-        "https://go.vansh.nyc/aH?s=y|Eulerity|AI Intern, Office of CEO & Head of Product|New York, NY|Oct 17#1",
-        1
-      ],
-      [
-        [
-          "Clera",
-          "Computer Vision & Robotics Intern",
-          "San Francisco, CA",
-          "Oct 17",
-          "https://go.vansh.nyc/aG?s=y"
-        ],
-        "https://go.vansh.nyc/aG?s=y|Clera|Computer Vision & Robotics Intern|San Francisco, CA|Oct 17#1",
-        1
-      ],
-      [
-        [
-          "AeroVironment",
-          "Software Engineering Intern",
-          "Moorpark, CA",
-          "Oct 17",
-          "https://go.vansh.nyc/ay?s=y"
-        ],
-        "https://go.vansh.nyc/ay?s=y|AeroVironment|Software Engineering Intern|Moorpark, CA|Oct 17#1",
-        1
-      ],
-      [
-        [
-          "Wellmark",
-          "Software Engineer Intern, Technology Health Plan",
-          "Des Moines, IA",
-          "Oct 16",
-          "https://go.vansh.nyc/as?s=y"
-        ],
-        "https://go.vansh.nyc/as?s=y|Wellmark|Software Engineer Intern, Technology Health Plan|Des Moines, IA|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Waabi",
-          "Safety Methodologies Co-op",
-          "Toronto, ON, Canada SF Pittsburgh, PA",
-          "Oct 16",
-          "https://go.vansh.nyc/b5?s=y"
-        ],
-        "https://go.vansh.nyc/b5?s=y|Waabi|Safety Methodologies Co-op|Toronto, ON, Canada SF Pittsburgh, PA|Oct 16#1",
-        1
-      ],
       [
         [
           "Veeam Software",
