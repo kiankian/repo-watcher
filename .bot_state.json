@@ -109280,6 +109280,42 @@
       "chat_id": 7582459199,
       "seq": 8549,
       "identity": "https://zapply.jobs/l/d/sr-AbbVie-3743990016414086?s=gh-internships-2027|AbbVie|2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate)|North Chicago, IL|Summer 2027#1"
+    },
+    "8f295c6317f2": {
+      "company": "Glean",
+      "role": "Software Engineer Intern",
+      "location": "Mountain View, CA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/SV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9819,
+      "chat_id": 7582459199,
+      "seq": 8550,
+      "identity": "https://go.vansh.nyc/SV?s=y|Glean|Software Engineer Intern|Mountain View, CA|Oct 26#1"
+    },
+    "f4867cd6a620": {
+      "company": "AbbVie",
+      "role": "Cybersecurity Intern, Business Technology Solutions",
+      "location": "North Chicago, IL",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/SW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9820,
+      "chat_id": 7582459199,
+      "seq": 8551,
+      "identity": "https://go.vansh.nyc/SW?s=y|AbbVie|Cybersecurity Intern, Business Technology Solutions|North Chicago, IL|Oct 26#1"
+    },
+    "7ecb802a9a6a": {
+      "company": "L3Harris Technologies",
+      "role": "Software Engineering Intern",
+      "location": "Salt Lake City, UT",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9821,
+      "chat_id": 7582459199,
+      "seq": 8552,
+      "identity": "NOURL|L3Harris Technologies|Software Engineering Intern|Salt Lake City, UT|Oct 19#1"
     }
   },
   "applied": {
@@ -109647,10 +109683,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8549,
+  "seq": 8552,
   "health": {
     "last_heartbeat": "2026-10-26T19:45:17Z",
-    "last_ok_run": "2026-10-26T20:10:26Z",
+    "last_ok_run": "2026-10-26T20:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
