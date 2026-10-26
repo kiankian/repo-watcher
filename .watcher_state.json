@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "c3e74fc24899f809252ede85dc40d78cb1a45468",
+    "last_sha": "d92e1f8b61e0daad9abe6d58b774d84c306ffec5",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -5148,286 +5148,36 @@
       "https://go.vansh.nyc/ae?s=y|ChargePoint|IT & Network Intern|Campbell, CA|Oct 16#1",
       "https://go.vansh.nyc/b0?s=y|CenturyLink|Data Intern, Analytics & Decision Science|Remote in USA|Oct 16#1",
       "https://go.vansh.nyc/b2?s=y|Boston Scientific|AI/Data Science Intern|Maple Grove, MN|Oct 16#1",
-      "https://go.vansh.nyc/ad?s=y|Booz Allen Hamilton|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fayetteville, NC|Oct 16#1"
+      "https://go.vansh.nyc/ad?s=y|Booz Allen Hamilton|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fayetteville, NC|Oct 16#1",
+      "https://go.vansh.nyc/ac?s=y|Altera|Software Engineer Intern|Toronto, ON|Oct 16#1",
+      "https://go.vansh.nyc/b4?s=y|AGCO|Embedded Software Engineer Intern|Hesston, KS Jackson, MN|Oct 16#1",
+      "https://go.vansh.nyc/b9?s=y|ADT|Hardware Engineering & Connected Devices Intern|Boca Raton, FL|Oct 16#1",
+      "https://go.vansh.nyc/9V?s=y|Veolia|Operations Engineering Intern|Vandalia, OH|Oct 15#1",
+      "https://go.vansh.nyc/9U?s=y|Tower Research Capital|Machine Learning Intern|Montreal, QC|Oct 15#1",
+      "https://go.vansh.nyc/aQ?s=y|TikTok|Software Engineer Intern, Recommendation Performance Efficiency|San Jose, CA|Oct 15#1",
+      "https://go.vansh.nyc/9R?s=y|Salesforce|Solution Engineer Intern|New York, NY|Oct 15#1",
+      "https://go.vansh.nyc/9O?s=y|RTX|System Administrator Intern \ud83c\uddfa\ud83c\uddf8|Middletown, RI|Oct 15#1",
+      "https://go.vansh.nyc/gm?s=y|Mastercard|Platform Engineering Intern|O'Fallon, MO|Oct 15#1",
+      "https://go.vansh.nyc/aO?s=y|Keysight Technologies|R&D Software Engineer Intern|Santa Rosa, CA|Oct 15#1",
+      "https://go.vansh.nyc/aM?s=y|Inversion Space|Avionics Embedded Software Engineer Intern|Playa Vista, CA|Oct 15#1",
+      "https://go.vansh.nyc/9M?s=y|Intel|Compiler Engineering Intern|Toronto, ON|Oct 15#1",
+      "https://go.vansh.nyc/aJ?s=y|Healthpeak Properties|Forward Deployed Software Engineer Intern|NYC|Oct 15#1",
+      "https://go.vansh.nyc/aK?s=y|Healthpeak Properties|Forward Deployed Software Engineer Intern|Irvine, CA|Oct 15#1",
+      "https://go.vansh.nyc/9K?s=y|General Motors|AI/ML Engineer Intern, Capacity & Performance Engineering, Autonomous Vehicles|Sunnyvale, CA|Oct 15#1",
+      "https://go.vansh.nyc/9L?s=y|General Motors|AI/ML Engineer Intern, Autonomous Vehicle ML Infrastructure|Sunnyvale, CA|Oct 15#1",
+      "https://go.vansh.nyc/9J?s=y|General Matter|Information Security Engineer Intern|Los Angeles, CA|Oct 15#1",
+      "https://go.vansh.nyc/9H?s=y|Duolingo|Data Scientist Intern|Pittsburgh, PA New York, NY|Oct 15#1",
+      "https://go.vansh.nyc/9I?s=y|Duolingo|Data Scientist Intern|New York, NY Pittsburgh, PA|Oct 15#1",
+      "https://go.vansh.nyc/9G?s=y|Draper|Operations Engineering Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Oct 15#1",
+      "https://go.vansh.nyc/9F?s=y|Danaher Corporation|CCM Data Governance Intern|Logan, UT|Oct 15#1",
+      "https://go.vansh.nyc/9E?s=y|Cigna|Healthcare Analytics Intern|Morris Plains, NJ|Oct 15#1",
+      "https://go.vansh.nyc/9C?s=y|Booz Allen Hamilton|Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA|Oct 15#1",
+      "https://go.vansh.nyc/9D?s=y|Booz Allen Hamilton|Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA|Oct 15#1",
+      "https://go.vansh.nyc/9B?s=y|Ardian|Data Scientist Intern|New York, NY|Oct 15#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 771,
     "outbox": [
-      [
-        [
-          "Altera",
-          "Software Engineer Intern",
-          "Toronto, ON",
-          "Oct 16",
-          "https://go.vansh.nyc/ac?s=y"
-        ],
-        "https://go.vansh.nyc/ac?s=y|Altera|Software Engineer Intern|Toronto, ON|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "AGCO",
-          "Embedded Software Engineer Intern",
-          "Hesston, KS Jackson, MN",
-          "Oct 16",
-          "https://go.vansh.nyc/b4?s=y"
-        ],
-        "https://go.vansh.nyc/b4?s=y|AGCO|Embedded Software Engineer Intern|Hesston, KS Jackson, MN|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "ADT",
-          "Hardware Engineering & Connected Devices Intern",
-          "Boca Raton, FL",
-          "Oct 16",
-          "https://go.vansh.nyc/b9?s=y"
-        ],
-        "https://go.vansh.nyc/b9?s=y|ADT|Hardware Engineering & Connected Devices Intern|Boca Raton, FL|Oct 16#1",
-        1
-      ],
-      [
-        [
-          "Veolia",
-          "Operations Engineering Intern",
-          "Vandalia, OH",
-          "Oct 15",
-          "https://go.vansh.nyc/9V?s=y"
-        ],
-        "https://go.vansh.nyc/9V?s=y|Veolia|Operations Engineering Intern|Vandalia, OH|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Tower Research Capital",
-          "Machine Learning Intern",
-          "Montreal, QC",
-          "Oct 15",
-          "https://go.vansh.nyc/9U?s=y"
-        ],
-        "https://go.vansh.nyc/9U?s=y|Tower Research Capital|Machine Learning Intern|Montreal, QC|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Recommendation Performance Efficiency",
-          "San Jose, CA",
-          "Oct 15",
-          "https://go.vansh.nyc/aQ?s=y"
-        ],
-        "https://go.vansh.nyc/aQ?s=y|TikTok|Software Engineer Intern, Recommendation Performance Efficiency|San Jose, CA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Salesforce",
-          "Solution Engineer Intern",
-          "New York, NY",
-          "Oct 15",
-          "https://go.vansh.nyc/9R?s=y"
-        ],
-        "https://go.vansh.nyc/9R?s=y|Salesforce|Solution Engineer Intern|New York, NY|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "RTX",
-          "System Administrator Intern \ud83c\uddfa\ud83c\uddf8",
-          "Middletown, RI",
-          "Oct 15",
-          "https://go.vansh.nyc/9O?s=y"
-        ],
-        "https://go.vansh.nyc/9O?s=y|RTX|System Administrator Intern \ud83c\uddfa\ud83c\uddf8|Middletown, RI|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Mastercard",
-          "Platform Engineering Intern",
-          "O'Fallon, MO",
-          "Oct 15",
-          "https://go.vansh.nyc/gm?s=y"
-        ],
-        "https://go.vansh.nyc/gm?s=y|Mastercard|Platform Engineering Intern|O'Fallon, MO|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "R&D Software Engineer Intern",
-          "Santa Rosa, CA",
-          "Oct 15",
-          "https://go.vansh.nyc/aO?s=y"
-        ],
-        "https://go.vansh.nyc/aO?s=y|Keysight Technologies|R&D Software Engineer Intern|Santa Rosa, CA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Inversion Space",
-          "Avionics Embedded Software Engineer Intern",
-          "Playa Vista, CA",
-          "Oct 15",
-          "https://go.vansh.nyc/aM?s=y"
-        ],
-        "https://go.vansh.nyc/aM?s=y|Inversion Space|Avionics Embedded Software Engineer Intern|Playa Vista, CA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Intel",
-          "Compiler Engineering Intern",
-          "Toronto, ON",
-          "Oct 15",
-          "https://go.vansh.nyc/9M?s=y"
-        ],
-        "https://go.vansh.nyc/9M?s=y|Intel|Compiler Engineering Intern|Toronto, ON|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Healthpeak Properties",
-          "Forward Deployed Software Engineer Intern",
-          "NYC",
-          "Oct 15",
-          "https://go.vansh.nyc/aJ?s=y"
-        ],
-        "https://go.vansh.nyc/aJ?s=y|Healthpeak Properties|Forward Deployed Software Engineer Intern|NYC|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Healthpeak Properties",
-          "Forward Deployed Software Engineer Intern",
-          "Irvine, CA",
-          "Oct 15",
-          "https://go.vansh.nyc/aK?s=y"
-        ],
-        "https://go.vansh.nyc/aK?s=y|Healthpeak Properties|Forward Deployed Software Engineer Intern|Irvine, CA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "General Motors",
-          "AI/ML Engineer Intern, Capacity & Performance Engineering, Autonomous Vehicles",
-          "Sunnyvale, CA",
-          "Oct 15",
-          "https://go.vansh.nyc/9K?s=y"
-        ],
-        "https://go.vansh.nyc/9K?s=y|General Motors|AI/ML Engineer Intern, Capacity & Performance Engineering, Autonomous Vehicles|Sunnyvale, CA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "General Motors",
-          "AI/ML Engineer Intern, Autonomous Vehicle ML Infrastructure",
-          "Sunnyvale, CA",
-          "Oct 15",
-          "https://go.vansh.nyc/9L?s=y"
-        ],
-        "https://go.vansh.nyc/9L?s=y|General Motors|AI/ML Engineer Intern, Autonomous Vehicle ML Infrastructure|Sunnyvale, CA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "General Matter",
-          "Information Security Engineer Intern",
-          "Los Angeles, CA",
-          "Oct 15",
-          "https://go.vansh.nyc/9J?s=y"
-        ],
-        "https://go.vansh.nyc/9J?s=y|General Matter|Information Security Engineer Intern|Los Angeles, CA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Duolingo",
-          "Data Scientist Intern",
-          "Pittsburgh, PA New York, NY",
-          "Oct 15",
-          "https://go.vansh.nyc/9H?s=y"
-        ],
-        "https://go.vansh.nyc/9H?s=y|Duolingo|Data Scientist Intern|Pittsburgh, PA New York, NY|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Duolingo",
-          "Data Scientist Intern",
-          "New York, NY Pittsburgh, PA",
-          "Oct 15",
-          "https://go.vansh.nyc/9I?s=y"
-        ],
-        "https://go.vansh.nyc/9I?s=y|Duolingo|Data Scientist Intern|New York, NY Pittsburgh, PA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Draper",
-          "Operations Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "Cambridge, MA",
-          "Oct 15",
-          "https://go.vansh.nyc/9G?s=y"
-        ],
-        "https://go.vansh.nyc/9G?s=y|Draper|Operations Engineering Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Danaher Corporation",
-          "CCM Data Governance Intern",
-          "Logan, UT",
-          "Oct 15",
-          "https://go.vansh.nyc/9F?s=y"
-        ],
-        "https://go.vansh.nyc/9F?s=y|Danaher Corporation|CCM Data Governance Intern|Logan, UT|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Cigna",
-          "Healthcare Analytics Intern",
-          "Morris Plains, NJ",
-          "Oct 15",
-          "https://go.vansh.nyc/9E?s=y"
-        ],
-        "https://go.vansh.nyc/9E?s=y|Cigna|Healthcare Analytics Intern|Morris Plains, NJ|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Booz Allen Hamilton",
-          "Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8",
-          "Arlington, VA",
-          "Oct 15",
-          "https://go.vansh.nyc/9C?s=y"
-        ],
-        "https://go.vansh.nyc/9C?s=y|Booz Allen Hamilton|Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Booz Allen Hamilton",
-          "Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8",
-          "Arlington, VA",
-          "Oct 15",
-          "https://go.vansh.nyc/9D?s=y"
-        ],
-        "https://go.vansh.nyc/9D?s=y|Booz Allen Hamilton|Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Ardian",
-          "Data Scientist Intern",
-          "New York, NY",
-          "Oct 15",
-          "https://go.vansh.nyc/9B?s=y"
-        ],
-        "https://go.vansh.nyc/9B?s=y|Ardian|Data Scientist Intern|New York, NY|Oct 15#1",
-        1
-      ],
       [
         [
           "Apple",
