@@ -5398,286 +5398,36 @@
       "https://go.vansh.nyc/4z?s=y|Akuna Capital|Quantitative Research Intern \ud83c\uddfa\ud83c\uddf8|Chicago|Jul 24#1",
       "https://go.vansh.nyc/4y?s=y|Akuna Capital|Quantitative Development & Strategy Intern \ud83c\uddfa\ud83c\uddf8|Chicago|Jul 24#1",
       "https://go.vansh.nyc/3E?s=y|Akuna Capital|Software Engineer Intern, C# .NET Desktop|Chicago, IL|Jul 24#1",
-      "https://go.vansh.nyc/3D?s=y|Akuna Capital|Software Engineer Intern, Full Stack Web \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1"
+      "https://go.vansh.nyc/3D?s=y|Akuna Capital|Software Engineer Intern, Full Stack Web \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
+      "https://go.vansh.nyc/3A?s=y|Akuna Capital|Platform Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
+      "https://go.vansh.nyc/3z?s=y|Akuna Capital|Software Engineer Intern, C++ \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
+      "https://go.vansh.nyc/3m?s=y|Jump Trading Group|Campus UI Software Engineer Intern|Chicago, IL|Jul 09#1",
+      "https://go.vansh.nyc/3t?s=y|Jump Trading|Campus Systems Engineer Intern|Chicago, IL|Jul 09#1",
+      "https://go.vansh.nyc/3l?s=y|Jump Trading|Software Engineer Intern|Chicago, IL|Jul 09#1",
+      "https://go.vansh.nyc/3k?s=y|Jump Trading|Quantitative Trader Intern|Chicago, IL New York, NY|Jul 09#1",
+      "https://go.vansh.nyc/38?s=y|Tower Research|Quantitative Developer Intern|Chicago, IL New York, NY|Jul 07#1",
+      "https://go.vansh.nyc/3c?s=y|Susquehanna Investment Group|Quantitative Strategy Developer Intern|Bala Cynwyd, PA|Jul 07#1",
+      "https://go.vansh.nyc/3g?s=y|DE Shaw|Software Developer Intern|New York, NY|Jul 07#1",
+      "https://go.vansh.nyc/3a?s=y|Citadel|Software Engineer Intern|**4 locations**New York, NY Greenwich, CT Miami, FL Houston, TX|Jul 07#1",
+      "https://go.vansh.nyc/3h?s=y|Anduril|Software Engineer Intern|**6 locations**Atlanta, GA Boston, MA Costa Mesa, CA Irvine, CA Reston, VA Seattle, WA|Jul 07#1",
+      "https://go.vansh.nyc/2M?s=y|Susquehanna|Trading System Engineering Intern|Bala Cynwyd, PA|May 22#1",
+      "https://go.vansh.nyc/36?s=y|Stoke Space|Software Engineer Intern|Kent, WA|May 22#1",
+      "https://go.vansh.nyc/35?s=y|Aquatic Capital|Software Engineer Intern|Chicago, IL|May 22#1",
+      "https://go.vansh.nyc/33?s=y|Apple|Software Engineer Intern, Undergrad|United States|May 22#1",
+      "https://go.vansh.nyc/32?s=y|Apple|Software Engineering Intern, Masters|United States|May 22#1",
+      "https://go.vansh.nyc/2C?s=y|Trata|Research Scientist Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA New York, NY|May 14#1",
+      "https://go.vansh.nyc/2r?s=y|DimeHealth AI|Forward Deployed Engineering Intern|New York, NY|May 09#1",
+      "https://go.vansh.nyc/1K?s=y|H&CO|Software Development Intern|Coral Gables, FL|Apr 22#1",
+      "https://go.vansh.nyc/1x?s=y|TETRAMEM|Software Engineer Intern, Embedded|San Jose, CA|Apr 20#1",
+      "https://go.vansh.nyc/1u?s=y|Skyworks|Analog IC Design Co-op|Irvine, CA|Apr 20#1",
+      "https://go.vansh.nyc/1g?s=y|Point72|Investment Analyst Intern, Point72 Academy|**5 locations**New York, NY San Francisco, CA Chicago, IL West Palm Beach, FL Miami, FL|Apr 19#1",
+      "https://go.vansh.nyc/1f?s=y|Point72|Quantitative Researcher Intern|New York, NY|Apr 19#1",
+      "https://go.vansh.nyc/1e?s=y|Point72|Quantitative Developer Intern|New York, NY|Apr 19#1",
+      "NOURL|Man Group|Systematic Quant Intern|Boston, MA|Oct 22#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 771,
     "outbox": [
-      [
-        [
-          "Akuna Capital",
-          "Platform Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "Chicago, IL",
-          "Jul 24",
-          "https://go.vansh.nyc/3A?s=y"
-        ],
-        "https://go.vansh.nyc/3A?s=y|Akuna Capital|Platform Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
-        1
-      ],
-      [
-        [
-          "Akuna Capital",
-          "Software Engineer Intern, C++ \ud83c\uddfa\ud83c\uddf8",
-          "Chicago, IL",
-          "Jul 24",
-          "https://go.vansh.nyc/3z?s=y"
-        ],
-        "https://go.vansh.nyc/3z?s=y|Akuna Capital|Software Engineer Intern, C++ \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
-        1
-      ],
-      [
-        [
-          "Jump Trading Group",
-          "Campus UI Software Engineer Intern",
-          "Chicago, IL",
-          "Jul 09",
-          "https://go.vansh.nyc/3m?s=y"
-        ],
-        "https://go.vansh.nyc/3m?s=y|Jump Trading Group|Campus UI Software Engineer Intern|Chicago, IL|Jul 09#1",
-        1
-      ],
-      [
-        [
-          "Jump Trading",
-          "Campus Systems Engineer Intern",
-          "Chicago, IL",
-          "Jul 09",
-          "https://go.vansh.nyc/3t?s=y"
-        ],
-        "https://go.vansh.nyc/3t?s=y|Jump Trading|Campus Systems Engineer Intern|Chicago, IL|Jul 09#1",
-        1
-      ],
-      [
-        [
-          "Jump Trading",
-          "Software Engineer Intern",
-          "Chicago, IL",
-          "Jul 09",
-          "https://go.vansh.nyc/3l?s=y"
-        ],
-        "https://go.vansh.nyc/3l?s=y|Jump Trading|Software Engineer Intern|Chicago, IL|Jul 09#1",
-        1
-      ],
-      [
-        [
-          "Jump Trading",
-          "Quantitative Trader Intern",
-          "Chicago, IL New York, NY",
-          "Jul 09",
-          "https://go.vansh.nyc/3k?s=y"
-        ],
-        "https://go.vansh.nyc/3k?s=y|Jump Trading|Quantitative Trader Intern|Chicago, IL New York, NY|Jul 09#1",
-        1
-      ],
-      [
-        [
-          "Tower Research",
-          "Quantitative Developer Intern",
-          "Chicago, IL New York, NY",
-          "Jul 07",
-          "https://go.vansh.nyc/38?s=y"
-        ],
-        "https://go.vansh.nyc/38?s=y|Tower Research|Quantitative Developer Intern|Chicago, IL New York, NY|Jul 07#1",
-        1
-      ],
-      [
-        [
-          "Susquehanna Investment Group",
-          "Quantitative Strategy Developer Intern",
-          "Bala Cynwyd, PA",
-          "Jul 07",
-          "https://go.vansh.nyc/3c?s=y"
-        ],
-        "https://go.vansh.nyc/3c?s=y|Susquehanna Investment Group|Quantitative Strategy Developer Intern|Bala Cynwyd, PA|Jul 07#1",
-        1
-      ],
-      [
-        [
-          "DE Shaw",
-          "Software Developer Intern",
-          "New York, NY",
-          "Jul 07",
-          "https://go.vansh.nyc/3g?s=y"
-        ],
-        "https://go.vansh.nyc/3g?s=y|DE Shaw|Software Developer Intern|New York, NY|Jul 07#1",
-        1
-      ],
-      [
-        [
-          "Citadel",
-          "Software Engineer Intern",
-          "**4 locations**New York, NY Greenwich, CT Miami, FL Houston, TX",
-          "Jul 07",
-          "https://go.vansh.nyc/3a?s=y"
-        ],
-        "https://go.vansh.nyc/3a?s=y|Citadel|Software Engineer Intern|**4 locations**New York, NY Greenwich, CT Miami, FL Houston, TX|Jul 07#1",
-        1
-      ],
-      [
-        [
-          "Anduril",
-          "Software Engineer Intern",
-          "**6 locations**Atlanta, GA Boston, MA Costa Mesa, CA Irvine, CA Reston, VA Seattle, WA",
-          "Jul 07",
-          "https://go.vansh.nyc/3h?s=y"
-        ],
-        "https://go.vansh.nyc/3h?s=y|Anduril|Software Engineer Intern|**6 locations**Atlanta, GA Boston, MA Costa Mesa, CA Irvine, CA Reston, VA Seattle, WA|Jul 07#1",
-        1
-      ],
-      [
-        [
-          "Susquehanna",
-          "Trading System Engineering Intern",
-          "Bala Cynwyd, PA",
-          "May 22",
-          "https://go.vansh.nyc/2M?s=y"
-        ],
-        "https://go.vansh.nyc/2M?s=y|Susquehanna|Trading System Engineering Intern|Bala Cynwyd, PA|May 22#1",
-        1
-      ],
-      [
-        [
-          "Stoke Space",
-          "Software Engineer Intern",
-          "Kent, WA",
-          "May 22",
-          "https://go.vansh.nyc/36?s=y"
-        ],
-        "https://go.vansh.nyc/36?s=y|Stoke Space|Software Engineer Intern|Kent, WA|May 22#1",
-        1
-      ],
-      [
-        [
-          "Aquatic Capital",
-          "Software Engineer Intern",
-          "Chicago, IL",
-          "May 22",
-          "https://go.vansh.nyc/35?s=y"
-        ],
-        "https://go.vansh.nyc/35?s=y|Aquatic Capital|Software Engineer Intern|Chicago, IL|May 22#1",
-        1
-      ],
-      [
-        [
-          "Apple",
-          "Software Engineer Intern, Undergrad",
-          "United States",
-          "May 22",
-          "https://go.vansh.nyc/33?s=y"
-        ],
-        "https://go.vansh.nyc/33?s=y|Apple|Software Engineer Intern, Undergrad|United States|May 22#1",
-        1
-      ],
-      [
-        [
-          "Apple",
-          "Software Engineering Intern, Masters",
-          "United States",
-          "May 22",
-          "https://go.vansh.nyc/32?s=y"
-        ],
-        "https://go.vansh.nyc/32?s=y|Apple|Software Engineering Intern, Masters|United States|May 22#1",
-        1
-      ],
-      [
-        [
-          "Trata",
-          "Research Scientist Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Francisco, CA New York, NY",
-          "May 14",
-          "https://go.vansh.nyc/2C?s=y"
-        ],
-        "https://go.vansh.nyc/2C?s=y|Trata|Research Scientist Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA New York, NY|May 14#1",
-        1
-      ],
-      [
-        [
-          "DimeHealth AI",
-          "Forward Deployed Engineering Intern",
-          "New York, NY",
-          "May 09",
-          "https://go.vansh.nyc/2r?s=y"
-        ],
-        "https://go.vansh.nyc/2r?s=y|DimeHealth AI|Forward Deployed Engineering Intern|New York, NY|May 09#1",
-        1
-      ],
-      [
-        [
-          "H&CO",
-          "Software Development Intern",
-          "Coral Gables, FL",
-          "Apr 22",
-          "https://go.vansh.nyc/1K?s=y"
-        ],
-        "https://go.vansh.nyc/1K?s=y|H&CO|Software Development Intern|Coral Gables, FL|Apr 22#1",
-        1
-      ],
-      [
-        [
-          "TETRAMEM",
-          "Software Engineer Intern, Embedded",
-          "San Jose, CA",
-          "Apr 20",
-          "https://go.vansh.nyc/1x?s=y"
-        ],
-        "https://go.vansh.nyc/1x?s=y|TETRAMEM|Software Engineer Intern, Embedded|San Jose, CA|Apr 20#1",
-        1
-      ],
-      [
-        [
-          "Skyworks",
-          "Analog IC Design Co-op",
-          "Irvine, CA",
-          "Apr 20",
-          "https://go.vansh.nyc/1u?s=y"
-        ],
-        "https://go.vansh.nyc/1u?s=y|Skyworks|Analog IC Design Co-op|Irvine, CA|Apr 20#1",
-        1
-      ],
-      [
-        [
-          "Point72",
-          "Investment Analyst Intern, Point72 Academy",
-          "**5 locations**New York, NY San Francisco, CA Chicago, IL West Palm Beach, FL Miami, FL",
-          "Apr 19",
-          "https://go.vansh.nyc/1g?s=y"
-        ],
-        "https://go.vansh.nyc/1g?s=y|Point72|Investment Analyst Intern, Point72 Academy|**5 locations**New York, NY San Francisco, CA Chicago, IL West Palm Beach, FL Miami, FL|Apr 19#1",
-        1
-      ],
-      [
-        [
-          "Point72",
-          "Quantitative Researcher Intern",
-          "New York, NY",
-          "Apr 19",
-          "https://go.vansh.nyc/1f?s=y"
-        ],
-        "https://go.vansh.nyc/1f?s=y|Point72|Quantitative Researcher Intern|New York, NY|Apr 19#1",
-        1
-      ],
-      [
-        [
-          "Point72",
-          "Quantitative Developer Intern",
-          "New York, NY",
-          "Apr 19",
-          "https://go.vansh.nyc/1e?s=y"
-        ],
-        "https://go.vansh.nyc/1e?s=y|Point72|Quantitative Developer Intern|New York, NY|Apr 19#1",
-        1
-      ],
-      [
-        [
-          "Man Group",
-          "Systematic Quant Intern",
-          "Boston, MA",
-          "Oct 22",
-          ""
-        ],
-        "NOURL|Man Group|Systematic Quant Intern|Boston, MA|Oct 22#1",
-        1
-      ],
       [
         [
           "FedEx Freight",
