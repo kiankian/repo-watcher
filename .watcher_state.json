@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "d92e1f8b61e0daad9abe6d58b774d84c306ffec5",
+    "last_sha": "47d37b72af69204714e2e3a6194f5d9f23e2362d",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -5298,286 +5298,36 @@
       "https://go.vansh.nyc/6Z?s=y|American Express|Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8|Charlotte, NC|Aug 21#1",
       "https://go.vansh.nyc/6Y?s=y|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
       "https://go.vansh.nyc/6W?s=y|American Express|Cybersecurity Intern \ud83d\udec2|Phoenix, AZ|Aug 21#1",
-      "https://go.vansh.nyc/6M?s=y|Belvedere Trading|Quantitative Trading Intern|Chicago, IL|Aug 16#1"
+      "https://go.vansh.nyc/6M?s=y|Belvedere Trading|Quantitative Trading Intern|Chicago, IL|Aug 16#1",
+      "https://go.vansh.nyc/6F?s=y|DV Group|Quantitative Risk Intern|Chicago, IL|Aug 06#1",
+      "https://go.vansh.nyc/6E?s=y|Chicago Trading Company|Quant Trading Intern|Chicago, IL|Aug 06#1",
+      "https://go.vansh.nyc/6C?s=y|ByteDance|Applied Machine Learning Production Engineer Intern|San Jose, CA|Aug 06#1",
+      "https://go.vansh.nyc/6B?s=y|ByteDance|GPU/AI Application System Software Engineer Intern|San Jose, CA|Aug 06#1",
+      "https://go.vansh.nyc/6A?s=y|ByteDance|AI Network Automation Engineer Intern, Global Physical Network Infra|San Jose, CA|Aug 06#1",
+      "https://go.vansh.nyc/6z?s=y|Roblox|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|Aug 05#1",
+      "https://go.vansh.nyc/6y?s=y|Boeing|Data Analytics Intern \ud83d\udec2|**31 locations**Everett, WA Saint Charles, MO Huntsville, AL Charleston, SC Oklahoma City, OK Berkeley, MO Huntington Beach, CA Hazelwood, MO El Segundo, CA Herndon, VA Plano, TX Arlington, VA Ridley Park, PA Tukwila, WA North Charleston, SC Fairfax, VA Colorado Springs, CO Chicago, IL Seal Beach, CA Mukilteo, WA Long Beach, CA Atlanta, GA Renton, WA Dallas, TX Seattle, WA Auburn, WA Bellevue, WA San Antonio, TX Kent, WA Mesa, AZ Tukwila, WA|Aug 05#1",
+      "https://go.vansh.nyc/6u?s=y|TikTok|Software Engineer Intern, TikTok-Agentic Creation-AIGC|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6t?s=y|TikTok|Frontend Software Engineer Intern, Ads Measurement Signal and Privacy|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6s?s=y|TikTok|Software Engineer Intern, Data Arch - E-commerce|Seattle, WA|Aug 04#1",
+      "https://go.vansh.nyc/6r?s=y|TikTok|Software Engineer Intern, Ads Measurement Signal and Privacy|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6q?s=y|TikTok|Software Engineer Intern, Creative Intelligence and Brand Innovation|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6p?s=y|TikTok|Software Engineer Intern, Business Integrity|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6o?s=y|TikTok|Software Engineer Intern, Agentic Creation-Effect Platform|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6n?s=y|TikTok|Software Engineer Intern, Data Arch - E-commerce|Seattle, WA|Aug 04#1",
+      "https://go.vansh.nyc/6m?s=y|TikTok|Software Engineer Intern, Code Graph and Quality Validation \ud83d\udec2|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6l?s=y|TikTok|Software Engineer Intern, Privacy and Security|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6k?s=y|TikTok|Frontend Engineer Intern, TikTok-Open Platform|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6i?s=y|TikTok|Backend Software Engineer Intern, Social Friending|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6h?s=y|TikTok|Backend Software Engineer Intern, Search \ud83d\udec2|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6g?s=y|TikTok|Software Engineer Intern, TikTok-Social-Friending|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6f?s=y|TikTok|Backend Software Engineer Intern, PGC-Digital Content Center \ud83d\udec2|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6e?s=y|TikTok|Software Engineer Intern, Growth Innovation|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6d?s=y|TikTok|Backend Software Engineer Intern, Social Foundation|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/6c?s=y|TikTok|Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2|Seattle, WA|Aug 04#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 771,
     "outbox": [
-      [
-        [
-          "DV Group",
-          "Quantitative Risk Intern",
-          "Chicago, IL",
-          "Aug 06",
-          "https://go.vansh.nyc/6F?s=y"
-        ],
-        "https://go.vansh.nyc/6F?s=y|DV Group|Quantitative Risk Intern|Chicago, IL|Aug 06#1",
-        1
-      ],
-      [
-        [
-          "Chicago Trading Company",
-          "Quant Trading Intern",
-          "Chicago, IL",
-          "Aug 06",
-          "https://go.vansh.nyc/6E?s=y"
-        ],
-        "https://go.vansh.nyc/6E?s=y|Chicago Trading Company|Quant Trading Intern|Chicago, IL|Aug 06#1",
-        1
-      ],
-      [
-        [
-          "ByteDance",
-          "Applied Machine Learning Production Engineer Intern",
-          "San Jose, CA",
-          "Aug 06",
-          "https://go.vansh.nyc/6C?s=y"
-        ],
-        "https://go.vansh.nyc/6C?s=y|ByteDance|Applied Machine Learning Production Engineer Intern|San Jose, CA|Aug 06#1",
-        1
-      ],
-      [
-        [
-          "ByteDance",
-          "GPU/AI Application System Software Engineer Intern",
-          "San Jose, CA",
-          "Aug 06",
-          "https://go.vansh.nyc/6B?s=y"
-        ],
-        "https://go.vansh.nyc/6B?s=y|ByteDance|GPU/AI Application System Software Engineer Intern|San Jose, CA|Aug 06#1",
-        1
-      ],
-      [
-        [
-          "ByteDance",
-          "AI Network Automation Engineer Intern, Global Physical Network Infra",
-          "San Jose, CA",
-          "Aug 06",
-          "https://go.vansh.nyc/6A?s=y"
-        ],
-        "https://go.vansh.nyc/6A?s=y|ByteDance|AI Network Automation Engineer Intern, Global Physical Network Infra|San Jose, CA|Aug 06#1",
-        1
-      ],
-      [
-        [
-          "Roblox",
-          "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Mateo, CA",
-          "Aug 05",
-          "https://go.vansh.nyc/6z?s=y"
-        ],
-        "https://go.vansh.nyc/6z?s=y|Roblox|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|Aug 05#1",
-        1
-      ],
-      [
-        [
-          "Boeing",
-          "Data Analytics Intern \ud83d\udec2",
-          "**31 locations**Everett, WA Saint Charles, MO Huntsville, AL Charleston, SC Oklahoma City, OK Berkeley, MO Huntington Beach, CA Hazelwood, MO El Segundo, CA Herndon, VA Plano, TX Arlington, VA Ridley Park, PA Tukwila, WA North Charleston, SC Fairfax, VA Colorado Springs, CO Chicago, IL Seal Beach, CA Mukilteo, WA Long Beach, CA Atlanta, GA Renton, WA Dallas, TX Seattle, WA Auburn, WA Bellevue, WA San Antonio, TX Kent, WA Mesa, AZ Tukwila, WA",
-          "Aug 05",
-          "https://go.vansh.nyc/6y?s=y"
-        ],
-        "https://go.vansh.nyc/6y?s=y|Boeing|Data Analytics Intern \ud83d\udec2|**31 locations**Everett, WA Saint Charles, MO Huntsville, AL Charleston, SC Oklahoma City, OK Berkeley, MO Huntington Beach, CA Hazelwood, MO El Segundo, CA Herndon, VA Plano, TX Arlington, VA Ridley Park, PA Tukwila, WA North Charleston, SC Fairfax, VA Colorado Springs, CO Chicago, IL Seal Beach, CA Mukilteo, WA Long Beach, CA Atlanta, GA Renton, WA Dallas, TX Seattle, WA Auburn, WA Bellevue, WA San Antonio, TX Kent, WA Mesa, AZ Tukwila, WA|Aug 05#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, TikTok-Agentic Creation-AIGC",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6u?s=y"
-        ],
-        "https://go.vansh.nyc/6u?s=y|TikTok|Software Engineer Intern, TikTok-Agentic Creation-AIGC|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Frontend Software Engineer Intern, Ads Measurement Signal and Privacy",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6t?s=y"
-        ],
-        "https://go.vansh.nyc/6t?s=y|TikTok|Frontend Software Engineer Intern, Ads Measurement Signal and Privacy|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Data Arch - E-commerce",
-          "Seattle, WA",
-          "Aug 04",
-          "https://go.vansh.nyc/6s?s=y"
-        ],
-        "https://go.vansh.nyc/6s?s=y|TikTok|Software Engineer Intern, Data Arch - E-commerce|Seattle, WA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Ads Measurement Signal and Privacy",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6r?s=y"
-        ],
-        "https://go.vansh.nyc/6r?s=y|TikTok|Software Engineer Intern, Ads Measurement Signal and Privacy|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Creative Intelligence and Brand Innovation",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6q?s=y"
-        ],
-        "https://go.vansh.nyc/6q?s=y|TikTok|Software Engineer Intern, Creative Intelligence and Brand Innovation|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Business Integrity",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6p?s=y"
-        ],
-        "https://go.vansh.nyc/6p?s=y|TikTok|Software Engineer Intern, Business Integrity|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Agentic Creation-Effect Platform",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6o?s=y"
-        ],
-        "https://go.vansh.nyc/6o?s=y|TikTok|Software Engineer Intern, Agentic Creation-Effect Platform|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Data Arch - E-commerce",
-          "Seattle, WA",
-          "Aug 04",
-          "https://go.vansh.nyc/6n?s=y"
-        ],
-        "https://go.vansh.nyc/6n?s=y|TikTok|Software Engineer Intern, Data Arch - E-commerce|Seattle, WA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Code Graph and Quality Validation \ud83d\udec2",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6m?s=y"
-        ],
-        "https://go.vansh.nyc/6m?s=y|TikTok|Software Engineer Intern, Code Graph and Quality Validation \ud83d\udec2|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Privacy and Security",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6l?s=y"
-        ],
-        "https://go.vansh.nyc/6l?s=y|TikTok|Software Engineer Intern, Privacy and Security|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Frontend Engineer Intern, TikTok-Open Platform",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6k?s=y"
-        ],
-        "https://go.vansh.nyc/6k?s=y|TikTok|Frontend Engineer Intern, TikTok-Open Platform|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Backend Software Engineer Intern, Social Friending",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6i?s=y"
-        ],
-        "https://go.vansh.nyc/6i?s=y|TikTok|Backend Software Engineer Intern, Social Friending|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Backend Software Engineer Intern, Search \ud83d\udec2",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6h?s=y"
-        ],
-        "https://go.vansh.nyc/6h?s=y|TikTok|Backend Software Engineer Intern, Search \ud83d\udec2|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, TikTok-Social-Friending",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6g?s=y"
-        ],
-        "https://go.vansh.nyc/6g?s=y|TikTok|Software Engineer Intern, TikTok-Social-Friending|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Backend Software Engineer Intern, PGC-Digital Content Center \ud83d\udec2",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6f?s=y"
-        ],
-        "https://go.vansh.nyc/6f?s=y|TikTok|Backend Software Engineer Intern, PGC-Digital Content Center \ud83d\udec2|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Growth Innovation",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6e?s=y"
-        ],
-        "https://go.vansh.nyc/6e?s=y|TikTok|Software Engineer Intern, Growth Innovation|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Backend Software Engineer Intern, Social Foundation",
-          "San Jose, CA",
-          "Aug 04",
-          "https://go.vansh.nyc/6d?s=y"
-        ],
-        "https://go.vansh.nyc/6d?s=y|TikTok|Backend Software Engineer Intern, Social Foundation|San Jose, CA|Aug 04#1",
-        1
-      ],
-      [
-        [
-          "TikTok",
-          "Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2",
-          "Seattle, WA",
-          "Aug 04",
-          "https://go.vansh.nyc/6c?s=y"
-        ],
-        "https://go.vansh.nyc/6c?s=y|TikTok|Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2|Seattle, WA|Aug 04#1",
-        1
-      ],
       [
         [
           "TikTok",
@@ -6692,7 +6442,7 @@
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "ab61160708c673f069915c2c30128fdf391d1f8a",
+    "last_sha": "0f51f8e84418252dd29521f9bce424b1a9c3ab50",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
