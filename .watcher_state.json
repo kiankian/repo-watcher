@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "26c9dcb6da4117a02dad021d4754cb8321cd6cd2",
+    "last_sha": "c3e74fc24899f809252ede85dc40d78cb1a45468",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2686,7 +2686,7 @@
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN01-Carrier-Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Software-Engineering-Intern---Summer_30220588?utm_source=Simplify&ref=Simplify|Carrier Global|Software Engineer Intern|East Syracuse, NY|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 547,
+    "last_row_count": 546,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -4998,286 +4998,36 @@
       "https://go.vansh.nyc/dU?s=y|Aon|IT/AI Engineer Intern|Chicago, IL|Oct 21#1",
       "https://go.vansh.nyc/fc?s=y|American Family Insurance Group|Business Intelligence Enablement Intern|Madison, WI Boston, MA|Oct 21#1",
       "https://go.vansh.nyc/gy?s=y|Ambarella|Physical Design Engineer Intern|United States|Oct 21#1",
-      "https://go.vansh.nyc/fe?s=y|Allstate|Data Analytics Engineer Intern|Remote United States|Oct 21#1"
+      "https://go.vansh.nyc/fe?s=y|Allstate|Data Analytics Engineer Intern|Remote United States|Oct 21#1",
+      "https://go.vansh.nyc/ff?s=y|Allstate|Data Science Intern, Core Telematics|Remote United States|Oct 21#1",
+      "https://go.vansh.nyc/dk?s=y|AeroVironment|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Diego, CA|Oct 21#1",
+      "https://go.vansh.nyc/ee?s=y|Aerospace Corporation|Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
+      "https://go.vansh.nyc/dv?s=y|Aerospace Corporation|Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Oct 21#1",
+      "https://go.vansh.nyc/dx?s=y|Aerospace Corporation|Digital Communication Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
+      "https://go.vansh.nyc/gz?s=y|ABB|R&D Software Engineer Intern|Greenville, SC|Oct 21#1",
+      "https://go.vansh.nyc/dP?s=y|Zillow|Software Development Engineer Intern|Seattle, WA Remote in USA|Oct 20#1",
+      "https://go.vansh.nyc/dg?s=y|Uber|Software Engineer Intern|Seattle, WA SF Sunnyvale, CA|Oct 20#1",
+      "https://go.vansh.nyc/dM?s=y|The Aerospace Corporation|Embedded Software Engineer Intern, Multiple Teams|El Segundo, CA|Oct 20#1",
+      "https://go.vansh.nyc/cv?s=y|Texas Instruments|Software Engineer Intern, Compiler|Sugar Land, TX|Oct 20#1",
+      "https://go.vansh.nyc/dw?s=y|T-Mobile|Software Engineer Intern, Cloud Security|Atlanta, GA Frisco, TX|Oct 20#1",
+      "https://go.vansh.nyc/ct?s=y|Steel|Software Engineer Intern|Toronto, ON, Canada|Oct 20#1",
+      "https://go.vansh.nyc/cu?s=y|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1",
+      "https://go.vansh.nyc/cI?s=y|SOTI|Cloud Administrator Intern|Mississauga, ON|Oct 20#1",
+      "https://go.vansh.nyc/cJ?s=y|SOTI|Software Developer Intern|Mississauga, ON|Oct 20#1",
+      "https://go.vansh.nyc/cP?s=y|Sony|Research Engineer Intern, Ethical Creative and Protective AI Lab|Remote in USA|Oct 20#1",
+      "https://go.vansh.nyc/cH?s=y|Skydio|Mobile Software Engineer Intern|San Mateo, CA|Oct 20#1",
+      "https://go.vansh.nyc/dO?s=y|Sierra Space|Flight Software Engineer Intern|Louisville, CO|Oct 20#1",
+      "https://go.vansh.nyc/cG?s=y|Salesforce|AI Research Intern|Palo Alto, CA|Oct 20#1",
+      "https://go.vansh.nyc/dr?s=y|RTX|Software Engineer Intern|Tewksbury, MA|Oct 20#1",
+      "https://go.vansh.nyc/dj?s=y|Rhoda AI|Software Engineer Intern, Inference|Mountain View, CA|Oct 20#1",
+      "https://go.vansh.nyc/dc?s=y|Picton Mahoney Asset Management|Data Engineer Intern|Toronto, ON, Canada|Oct 20#1",
+      "https://go.vansh.nyc/bJ?s=y|Palantir|Software Engineer Intern, Query Engines|New York, NY|Oct 20#1",
+      "https://go.vansh.nyc/dd?s=y|Paccar|Field Service Data Analyst Intern|Kirkland, WA|Oct 20#1",
+      "https://go.vansh.nyc/cE?s=y|Micron Technology|SMAI Probe AI Engineer Intern|Boise, ID|Oct 20#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 771,
     "outbox": [
-      [
-        [
-          "Allstate",
-          "Data Science Intern, Core Telematics",
-          "Remote United States",
-          "Oct 21",
-          "https://go.vansh.nyc/ff?s=y"
-        ],
-        "https://go.vansh.nyc/ff?s=y|Allstate|Data Science Intern, Core Telematics|Remote United States|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "AeroVironment",
-          "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Diego, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/dk?s=y"
-        ],
-        "https://go.vansh.nyc/dk?s=y|AeroVironment|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Diego, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aerospace Corporation",
-          "Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "El Segundo, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/ee?s=y"
-        ],
-        "https://go.vansh.nyc/ee?s=y|Aerospace Corporation|Signal Processing and RF Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aerospace Corporation",
-          "Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "El Segundo, CA Chantilly, VA",
-          "Oct 21",
-          "https://go.vansh.nyc/dv?s=y"
-        ],
-        "https://go.vansh.nyc/dv?s=y|Aerospace Corporation|Hardware Security Engineering Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Aerospace Corporation",
-          "Digital Communication Intern \ud83c\uddfa\ud83c\uddf8",
-          "El Segundo, CA",
-          "Oct 21",
-          "https://go.vansh.nyc/dx?s=y"
-        ],
-        "https://go.vansh.nyc/dx?s=y|Aerospace Corporation|Digital Communication Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "ABB",
-          "R&D Software Engineer Intern",
-          "Greenville, SC",
-          "Oct 21",
-          "https://go.vansh.nyc/gz?s=y"
-        ],
-        "https://go.vansh.nyc/gz?s=y|ABB|R&D Software Engineer Intern|Greenville, SC|Oct 21#1",
-        1
-      ],
-      [
-        [
-          "Zillow",
-          "Software Development Engineer Intern",
-          "Seattle, WA Remote in USA",
-          "Oct 20",
-          "https://go.vansh.nyc/dP?s=y"
-        ],
-        "https://go.vansh.nyc/dP?s=y|Zillow|Software Development Engineer Intern|Seattle, WA Remote in USA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Uber",
-          "Software Engineer Intern",
-          "Seattle, WA SF Sunnyvale, CA",
-          "Oct 20",
-          "https://go.vansh.nyc/dg?s=y"
-        ],
-        "https://go.vansh.nyc/dg?s=y|Uber|Software Engineer Intern|Seattle, WA SF Sunnyvale, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "The Aerospace Corporation",
-          "Embedded Software Engineer Intern, Multiple Teams",
-          "El Segundo, CA",
-          "Oct 20",
-          "https://go.vansh.nyc/dM?s=y"
-        ],
-        "https://go.vansh.nyc/dM?s=y|The Aerospace Corporation|Embedded Software Engineer Intern, Multiple Teams|El Segundo, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Texas Instruments",
-          "Software Engineer Intern, Compiler",
-          "Sugar Land, TX",
-          "Oct 20",
-          "https://go.vansh.nyc/cv?s=y"
-        ],
-        "https://go.vansh.nyc/cv?s=y|Texas Instruments|Software Engineer Intern, Compiler|Sugar Land, TX|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "T-Mobile",
-          "Software Engineer Intern, Cloud Security",
-          "Atlanta, GA Frisco, TX",
-          "Oct 20",
-          "https://go.vansh.nyc/dw?s=y"
-        ],
-        "https://go.vansh.nyc/dw?s=y|T-Mobile|Software Engineer Intern, Cloud Security|Atlanta, GA Frisco, TX|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Steel",
-          "Software Engineer Intern",
-          "Toronto, ON, Canada",
-          "Oct 20",
-          "https://go.vansh.nyc/ct?s=y"
-        ],
-        "https://go.vansh.nyc/ct?s=y|Steel|Software Engineer Intern|Toronto, ON, Canada|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Space Dynamics Laboratory",
-          "AI-Enabled Requirements Engineering Intern",
-          "North Logan, UT",
-          "Oct 20",
-          "https://go.vansh.nyc/cu?s=y"
-        ],
-        "https://go.vansh.nyc/cu?s=y|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "SOTI",
-          "Cloud Administrator Intern",
-          "Mississauga, ON",
-          "Oct 20",
-          "https://go.vansh.nyc/cI?s=y"
-        ],
-        "https://go.vansh.nyc/cI?s=y|SOTI|Cloud Administrator Intern|Mississauga, ON|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "SOTI",
-          "Software Developer Intern",
-          "Mississauga, ON",
-          "Oct 20",
-          "https://go.vansh.nyc/cJ?s=y"
-        ],
-        "https://go.vansh.nyc/cJ?s=y|SOTI|Software Developer Intern|Mississauga, ON|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Sony",
-          "Research Engineer Intern, Ethical Creative and Protective AI Lab",
-          "Remote in USA",
-          "Oct 20",
-          "https://go.vansh.nyc/cP?s=y"
-        ],
-        "https://go.vansh.nyc/cP?s=y|Sony|Research Engineer Intern, Ethical Creative and Protective AI Lab|Remote in USA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Skydio",
-          "Mobile Software Engineer Intern",
-          "San Mateo, CA",
-          "Oct 20",
-          "https://go.vansh.nyc/cH?s=y"
-        ],
-        "https://go.vansh.nyc/cH?s=y|Skydio|Mobile Software Engineer Intern|San Mateo, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Sierra Space",
-          "Flight Software Engineer Intern",
-          "Louisville, CO",
-          "Oct 20",
-          "https://go.vansh.nyc/dO?s=y"
-        ],
-        "https://go.vansh.nyc/dO?s=y|Sierra Space|Flight Software Engineer Intern|Louisville, CO|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Salesforce",
-          "AI Research Intern",
-          "Palo Alto, CA",
-          "Oct 20",
-          "https://go.vansh.nyc/cG?s=y"
-        ],
-        "https://go.vansh.nyc/cG?s=y|Salesforce|AI Research Intern|Palo Alto, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "RTX",
-          "Software Engineer Intern",
-          "Tewksbury, MA",
-          "Oct 20",
-          "https://go.vansh.nyc/dr?s=y"
-        ],
-        "https://go.vansh.nyc/dr?s=y|RTX|Software Engineer Intern|Tewksbury, MA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Rhoda AI",
-          "Software Engineer Intern, Inference",
-          "Mountain View, CA",
-          "Oct 20",
-          "https://go.vansh.nyc/dj?s=y"
-        ],
-        "https://go.vansh.nyc/dj?s=y|Rhoda AI|Software Engineer Intern, Inference|Mountain View, CA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Picton Mahoney Asset Management",
-          "Data Engineer Intern",
-          "Toronto, ON, Canada",
-          "Oct 20",
-          "https://go.vansh.nyc/dc?s=y"
-        ],
-        "https://go.vansh.nyc/dc?s=y|Picton Mahoney Asset Management|Data Engineer Intern|Toronto, ON, Canada|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Palantir",
-          "Software Engineer Intern, Query Engines",
-          "New York, NY",
-          "Oct 20",
-          "https://go.vansh.nyc/bJ?s=y"
-        ],
-        "https://go.vansh.nyc/bJ?s=y|Palantir|Software Engineer Intern, Query Engines|New York, NY|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Paccar",
-          "Field Service Data Analyst Intern",
-          "Kirkland, WA",
-          "Oct 20",
-          "https://go.vansh.nyc/dd?s=y"
-        ],
-        "https://go.vansh.nyc/dd?s=y|Paccar|Field Service Data Analyst Intern|Kirkland, WA|Oct 20#1",
-        1
-      ],
-      [
-        [
-          "Micron Technology",
-          "SMAI Probe AI Engineer Intern",
-          "Boise, ID",
-          "Oct 20",
-          "https://go.vansh.nyc/cE?s=y"
-        ],
-        "https://go.vansh.nyc/cE?s=y|Micron Technology|SMAI Probe AI Engineer Intern|Boise, ID|Oct 20#1",
-        1
-      ],
       [
         [
           "Metamorphic",
