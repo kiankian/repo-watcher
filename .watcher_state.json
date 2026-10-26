@@ -2690,7 +2690,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "97a190bfc4e3fe9aee6158121041e02f475f84c5",
+    "last_sha": "38634522a7f14e33990287595a05f7e25de9c762",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -5786,286 +5786,36 @@
       "https://go.vansh.nyc/MH?s=y|The MJ Companies|Enterprise Data Intern|Carmel, IN|Sep 10#1",
       "https://go.vansh.nyc/MK?s=y|Oshkosh|Autonomy & Active Safety Engineer Intern|Oshkosh, WI Pittsburgh, PA|Sep 10#1",
       "https://go.vansh.nyc/Na?s=y|National Information Solutions Cooperative|Information Security (Cybersecurity) Intern|Lake St. Louis, MO|Sep 10#1",
-      "https://go.vansh.nyc/Nb?s=y|National Information Solutions Cooperative|Information Security (Cybersecurity) Intern|Mandan, ND|Sep 10#1"
+      "https://go.vansh.nyc/Nb?s=y|National Information Solutions Cooperative|Information Security (Cybersecurity) Intern|Mandan, ND|Sep 10#1",
+      "https://go.vansh.nyc/MG?s=y|Garmin|Software Engineer Intern|Cary, NC|Sep 10#1",
+      "https://go.vansh.nyc/MO?s=y|Garmin|Software Engineer Intern|Tulsa, OK|Sep 10#1",
+      "https://go.vansh.nyc/MM?s=y|Emerson Electric|Software Engineer Co-op|Eden Prairie, MN|Sep 10#1",
+      "https://go.vansh.nyc/N9?s=y|Danaher Corporation|IT Security Intern|Coralville, IA|Sep 10#1",
+      "https://go.vansh.nyc/ML?s=y|Avis Budget Group|Transformation Engineer Intern, Accelerate|Parsippany-Troy Hills, NJ|Sep 10#1",
+      "https://go.vansh.nyc/MD?s=y|The Toro Company|Hardware and Software Engineering Intern|Perry, OK|Sep 09#1",
+      "https://go.vansh.nyc/MB?s=y|Publicis Groupe|Software Engineer Intern|Chicago, IL|Sep 09#1",
+      "https://go.vansh.nyc/Mz?s=y|Pilot Company|Data Governance Intern|Knoxville, TN|Sep 09#1",
+      "https://go.vansh.nyc/MA?s=y|Pilot Company|Application Development Intern|Knoxville, TN|Sep 09#1",
+      "https://go.vansh.nyc/ME?s=y|PanAgora|Equity Intern|Boston, MA|Sep 09#1",
+      "https://go.vansh.nyc/N7?s=y|Navy Federal|Associate Intern, Security Automation|Vienna, VA|Sep 09#1",
+      "https://go.vansh.nyc/Mx?s=y|Navy Federal|Business Intelligence Analyst Associate Intern|Vienna, VA|Sep 09#1",
+      "https://go.vansh.nyc/My?s=y|Navy Federal|Security Workflow Engineer Intern|Vienna, VA|Sep 09#1",
+      "https://go.vansh.nyc/N8?s=y|Barnes & Thornburg|Information Security Intern|Indianapolis, IN|Sep 09#1",
+      "https://go.vansh.nyc/N6?s=y|Activision Blizzard|Software Engineering Intern|Sherman Oaks, CA Portland, OR Santa Monica, CA|Sep 09#1",
+      "https://go.vansh.nyc/Ms?s=y|TruStage|Information Technology Development and Infrastructure Intern|Madison, WI|Sep 08#1",
+      "https://go.vansh.nyc/Mq?s=y|Motorola|FPGA Design Engineering Intern|Schaumburg, IL|Sep 08#1",
+      "https://go.vansh.nyc/N5?s=y|Gallup|DevOps Engineer Intern|Omaha, NE|Sep 08#1",
+      "https://go.vansh.nyc/Mm?s=y|Datadog|Software Engineer Intern|Boston, MA New York, NY|Sep 08#1",
+      "https://go.vansh.nyc/Mr?s=y|Covestro|Digital R&D Intern|Pittsburgh, PA|Sep 08#1",
+      "https://go.vansh.nyc/Mt?s=y|Coinbase|Analytics Engineer Intern|San Francisco, CA|Sep 08#1",
+      "https://go.vansh.nyc/Mu?s=y|Coinbase|Data Science Intern, Strategy, Execution, & Analytics Platform|San Francisco, CA|Sep 08#1",
+      "https://go.vansh.nyc/Mv?s=y|Coinbase|Data Engineer Intern|San Francisco, CA|Sep 08#1",
+      "https://go.vansh.nyc/Mw?s=y|Coinbase|Software Engineer Intern|San Francisco, CA|Sep 08#1",
+      "https://go.vansh.nyc/Mo?s=y|Aramco Americas|AI/ML Engineering Intern|Houston, TX|Sep 08#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 1195,
     "outbox": [
-      [
-        [
-          "Garmin",
-          "Software Engineer Intern",
-          "Cary, NC",
-          "Sep 10",
-          "https://go.vansh.nyc/MG?s=y"
-        ],
-        "https://go.vansh.nyc/MG?s=y|Garmin|Software Engineer Intern|Cary, NC|Sep 10#1",
-        1
-      ],
-      [
-        [
-          "Garmin",
-          "Software Engineer Intern",
-          "Tulsa, OK",
-          "Sep 10",
-          "https://go.vansh.nyc/MO?s=y"
-        ],
-        "https://go.vansh.nyc/MO?s=y|Garmin|Software Engineer Intern|Tulsa, OK|Sep 10#1",
-        1
-      ],
-      [
-        [
-          "Emerson Electric",
-          "Software Engineer Co-op",
-          "Eden Prairie, MN",
-          "Sep 10",
-          "https://go.vansh.nyc/MM?s=y"
-        ],
-        "https://go.vansh.nyc/MM?s=y|Emerson Electric|Software Engineer Co-op|Eden Prairie, MN|Sep 10#1",
-        1
-      ],
-      [
-        [
-          "Danaher Corporation",
-          "IT Security Intern",
-          "Coralville, IA",
-          "Sep 10",
-          "https://go.vansh.nyc/N9?s=y"
-        ],
-        "https://go.vansh.nyc/N9?s=y|Danaher Corporation|IT Security Intern|Coralville, IA|Sep 10#1",
-        1
-      ],
-      [
-        [
-          "Avis Budget Group",
-          "Transformation Engineer Intern, Accelerate",
-          "Parsippany-Troy Hills, NJ",
-          "Sep 10",
-          "https://go.vansh.nyc/ML?s=y"
-        ],
-        "https://go.vansh.nyc/ML?s=y|Avis Budget Group|Transformation Engineer Intern, Accelerate|Parsippany-Troy Hills, NJ|Sep 10#1",
-        1
-      ],
-      [
-        [
-          "The Toro Company",
-          "Hardware and Software Engineering Intern",
-          "Perry, OK",
-          "Sep 09",
-          "https://go.vansh.nyc/MD?s=y"
-        ],
-        "https://go.vansh.nyc/MD?s=y|The Toro Company|Hardware and Software Engineering Intern|Perry, OK|Sep 09#1",
-        1
-      ],
-      [
-        [
-          "Publicis Groupe",
-          "Software Engineer Intern",
-          "Chicago, IL",
-          "Sep 09",
-          "https://go.vansh.nyc/MB?s=y"
-        ],
-        "https://go.vansh.nyc/MB?s=y|Publicis Groupe|Software Engineer Intern|Chicago, IL|Sep 09#1",
-        1
-      ],
-      [
-        [
-          "Pilot Company",
-          "Data Governance Intern",
-          "Knoxville, TN",
-          "Sep 09",
-          "https://go.vansh.nyc/Mz?s=y"
-        ],
-        "https://go.vansh.nyc/Mz?s=y|Pilot Company|Data Governance Intern|Knoxville, TN|Sep 09#1",
-        1
-      ],
-      [
-        [
-          "Pilot Company",
-          "Application Development Intern",
-          "Knoxville, TN",
-          "Sep 09",
-          "https://go.vansh.nyc/MA?s=y"
-        ],
-        "https://go.vansh.nyc/MA?s=y|Pilot Company|Application Development Intern|Knoxville, TN|Sep 09#1",
-        1
-      ],
-      [
-        [
-          "PanAgora",
-          "Equity Intern",
-          "Boston, MA",
-          "Sep 09",
-          "https://go.vansh.nyc/ME?s=y"
-        ],
-        "https://go.vansh.nyc/ME?s=y|PanAgora|Equity Intern|Boston, MA|Sep 09#1",
-        1
-      ],
-      [
-        [
-          "Navy Federal",
-          "Associate Intern, Security Automation",
-          "Vienna, VA",
-          "Sep 09",
-          "https://go.vansh.nyc/N7?s=y"
-        ],
-        "https://go.vansh.nyc/N7?s=y|Navy Federal|Associate Intern, Security Automation|Vienna, VA|Sep 09#1",
-        1
-      ],
-      [
-        [
-          "Navy Federal",
-          "Business Intelligence Analyst Associate Intern",
-          "Vienna, VA",
-          "Sep 09",
-          "https://go.vansh.nyc/Mx?s=y"
-        ],
-        "https://go.vansh.nyc/Mx?s=y|Navy Federal|Business Intelligence Analyst Associate Intern|Vienna, VA|Sep 09#1",
-        1
-      ],
-      [
-        [
-          "Navy Federal",
-          "Security Workflow Engineer Intern",
-          "Vienna, VA",
-          "Sep 09",
-          "https://go.vansh.nyc/My?s=y"
-        ],
-        "https://go.vansh.nyc/My?s=y|Navy Federal|Security Workflow Engineer Intern|Vienna, VA|Sep 09#1",
-        1
-      ],
-      [
-        [
-          "Barnes & Thornburg",
-          "Information Security Intern",
-          "Indianapolis, IN",
-          "Sep 09",
-          "https://go.vansh.nyc/N8?s=y"
-        ],
-        "https://go.vansh.nyc/N8?s=y|Barnes & Thornburg|Information Security Intern|Indianapolis, IN|Sep 09#1",
-        1
-      ],
-      [
-        [
-          "Activision Blizzard",
-          "Software Engineering Intern",
-          "Sherman Oaks, CA Portland, OR Santa Monica, CA",
-          "Sep 09",
-          "https://go.vansh.nyc/N6?s=y"
-        ],
-        "https://go.vansh.nyc/N6?s=y|Activision Blizzard|Software Engineering Intern|Sherman Oaks, CA Portland, OR Santa Monica, CA|Sep 09#1",
-        1
-      ],
-      [
-        [
-          "TruStage",
-          "Information Technology Development and Infrastructure Intern",
-          "Madison, WI",
-          "Sep 08",
-          "https://go.vansh.nyc/Ms?s=y"
-        ],
-        "https://go.vansh.nyc/Ms?s=y|TruStage|Information Technology Development and Infrastructure Intern|Madison, WI|Sep 08#1",
-        1
-      ],
-      [
-        [
-          "Motorola",
-          "FPGA Design Engineering Intern",
-          "Schaumburg, IL",
-          "Sep 08",
-          "https://go.vansh.nyc/Mq?s=y"
-        ],
-        "https://go.vansh.nyc/Mq?s=y|Motorola|FPGA Design Engineering Intern|Schaumburg, IL|Sep 08#1",
-        1
-      ],
-      [
-        [
-          "Gallup",
-          "DevOps Engineer Intern",
-          "Omaha, NE",
-          "Sep 08",
-          "https://go.vansh.nyc/N5?s=y"
-        ],
-        "https://go.vansh.nyc/N5?s=y|Gallup|DevOps Engineer Intern|Omaha, NE|Sep 08#1",
-        1
-      ],
-      [
-        [
-          "Datadog",
-          "Software Engineer Intern",
-          "Boston, MA New York, NY",
-          "Sep 08",
-          "https://go.vansh.nyc/Mm?s=y"
-        ],
-        "https://go.vansh.nyc/Mm?s=y|Datadog|Software Engineer Intern|Boston, MA New York, NY|Sep 08#1",
-        1
-      ],
-      [
-        [
-          "Covestro",
-          "Digital R&D Intern",
-          "Pittsburgh, PA",
-          "Sep 08",
-          "https://go.vansh.nyc/Mr?s=y"
-        ],
-        "https://go.vansh.nyc/Mr?s=y|Covestro|Digital R&D Intern|Pittsburgh, PA|Sep 08#1",
-        1
-      ],
-      [
-        [
-          "Coinbase",
-          "Analytics Engineer Intern",
-          "San Francisco, CA",
-          "Sep 08",
-          "https://go.vansh.nyc/Mt?s=y"
-        ],
-        "https://go.vansh.nyc/Mt?s=y|Coinbase|Analytics Engineer Intern|San Francisco, CA|Sep 08#1",
-        1
-      ],
-      [
-        [
-          "Coinbase",
-          "Data Science Intern, Strategy, Execution, & Analytics Platform",
-          "San Francisco, CA",
-          "Sep 08",
-          "https://go.vansh.nyc/Mu?s=y"
-        ],
-        "https://go.vansh.nyc/Mu?s=y|Coinbase|Data Science Intern, Strategy, Execution, & Analytics Platform|San Francisco, CA|Sep 08#1",
-        1
-      ],
-      [
-        [
-          "Coinbase",
-          "Data Engineer Intern",
-          "San Francisco, CA",
-          "Sep 08",
-          "https://go.vansh.nyc/Mv?s=y"
-        ],
-        "https://go.vansh.nyc/Mv?s=y|Coinbase|Data Engineer Intern|San Francisco, CA|Sep 08#1",
-        1
-      ],
-      [
-        [
-          "Coinbase",
-          "Software Engineer Intern",
-          "San Francisco, CA",
-          "Sep 08",
-          "https://go.vansh.nyc/Mw?s=y"
-        ],
-        "https://go.vansh.nyc/Mw?s=y|Coinbase|Software Engineer Intern|San Francisco, CA|Sep 08#1",
-        1
-      ],
-      [
-        [
-          "Aramco Americas",
-          "AI/ML Engineering Intern",
-          "Houston, TX",
-          "Sep 08",
-          "https://go.vansh.nyc/Mo?s=y"
-        ],
-        "https://go.vansh.nyc/Mo?s=y|Aramco Americas|AI/ML Engineering Intern|Houston, TX|Sep 08#1",
-        1
-      ],
       [
         [
           "Aramco Americas",
@@ -6691,6 +6441,17 @@
           ""
         ],
         "NOURL|Assured Guaranty|Product Software Developer Intern, Back-End|New York, NY|Sep 21#1",
+        1
+      ],
+      [
+        [
+          "Space Dynamics Laboratory",
+          "AI-Enabled Requirements Engineering Intern",
+          "North Logan, UT",
+          "Oct 20",
+          ""
+        ],
+        "NOURL|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1",
         1
       ]
     ]
