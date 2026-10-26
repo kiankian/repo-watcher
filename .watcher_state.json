@@ -5248,286 +5248,36 @@
       "https://go.vansh.nyc/ge?s=y|Hex Technologies|AI Engineer Intern|San Francisco, CA|Oct 11#1",
       "https://go.vansh.nyc/7W?s=y|Veolia|Field Engineering Intern \ud83d\udec2|Nanticoke, PA|Oct 10#1",
       "https://go.vansh.nyc/7X?s=y|Veolia|Field Engineering Intern \ud83d\udec2|Lincoln, NE|Oct 10#1",
-      "https://go.vansh.nyc/7V?s=y|NVIDIA|Research Intern, World Models and Synthetic Data for Autonomous Driving|Santa Clara, CA|Oct 10#1"
+      "https://go.vansh.nyc/7V?s=y|NVIDIA|Research Intern, World Models and Synthetic Data for Autonomous Driving|Santa Clara, CA|Oct 10#1",
+      "https://go.vansh.nyc/7U?s=y|Affirm|IT Engineer Intern|San Francisco, CA|Oct 10#1",
+      "https://go.vansh.nyc/gd?s=y|Workday|Cybersecurity Engineer Intern|Pleasanton, CA|Oct 08#1",
+      "https://go.vansh.nyc/gc?s=y|Residex Software|Product Management Intern|United States|Oct 08#1",
+      "https://go.vansh.nyc/gb?s=y|GCM Grosvenor|IT Product & Strategy Intern|Chicago, IL|Oct 08#1",
+      "https://go.vansh.nyc/ga?s=y|Arcesium|Infrastructure Engineer Intern|New York, NY|Oct 08#1",
+      "https://go.vansh.nyc/g9?s=y|Viget|Project & Product Manager Intern \ud83d\udec2|Boulder, CO|Oct 07#1",
+      "https://go.vansh.nyc/g7?s=y|Tenstorrent|AI Software Intern, Cloud, Infrastructure & Data Centre Deployment|Austin, TX Santa Clara, CA|Oct 06#1",
+      "https://go.vansh.nyc/g6?s=y|Amazon|Software Development Engineer Intern, Amazon Leo, Embedded Systems \ud83c\uddfa\ud83c\uddf8|Redmond, WA|Oct 06#1",
+      "https://go.vansh.nyc/g4?s=y|Veterans United Home Loans|Software Engineer Intern|Remote United States|Oct 05#1",
+      "https://go.vansh.nyc/g3?s=y|Ergotron|Software Engineer Intern|Eagan, MN|Oct 05#1",
+      "https://go.vansh.nyc/g5?s=y|Anduril|Systems Engineer Intern|**5 locations**Boston, MA Costa Mesa, CA Fort Collins, CO Reston, VA Seattle, WA|Oct 05#1",
+      "https://go.vansh.nyc/g1?s=y|Election Systems & Software|Information Systems Software Developer Intern|Omaha, NE|Oct 01#1",
+      "https://go.vansh.nyc/g0?s=y|Amazon|Software Development Engineer Intern, Embedded Systems|Seattle, WA|Oct 01#1",
+      "https://go.vansh.nyc/fY?s=y|Election Systems & Software|DevOps Intern|Omaha, NE|Sep 30#1",
+      "https://go.vansh.nyc/fZ?s=y|Election Systems & Software|Software Development Intern|Omaha, NE|Sep 30#1",
+      "https://go.vansh.nyc/fX?s=y|Cisco|Software Consulting Engineer I Intern|Research Triangle Park, NC|Sep 30#1",
+      "https://go.vansh.nyc/fU?s=y|Muon Space|Software Engineering Intern, GNC|Mountain View, CA|Sep 29#1",
+      "https://go.vansh.nyc/fR?s=y|Hermeus|Flight Software Engineering Intern, Simulation/Hardware-In-The-Loop|Los Angeles, CA|Sep 28#1",
+      "https://go.vansh.nyc/fP?s=y|Voyager Technologies|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Long Beach, CA|Sep 27#1",
+      "https://go.vansh.nyc/fN?s=y|AVARINT|Software Engineer Intern, DIADS|United States|Sep 27#1",
+      "https://go.vansh.nyc/en?s=y|DraftKings|Data Science Intern|Boston, MA|Sep 19#1",
+      "https://go.vansh.nyc/7y?s=y|Vertiv|Product Management Intern, MBA \ud83d\udec2|Delaware, OH|Aug 21#1",
+      "https://go.vansh.nyc/6N?s=y|The Nuclear Company|AI Applied Research Intern \ud83d\udec2|Washington, DC|Aug 21#1",
+      "https://go.vansh.nyc/6O?s=y|Teledyne Technologies Incorporated|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Huntsville, AL|Aug 21#1",
+      "https://go.vansh.nyc/7s?s=y|Notion|Software Engineer Intern|San Francisco, CA New York, NY|Aug 21#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 771,
     "outbox": [
-      [
-        [
-          "Affirm",
-          "IT Engineer Intern",
-          "San Francisco, CA",
-          "Oct 10",
-          "https://go.vansh.nyc/7U?s=y"
-        ],
-        "https://go.vansh.nyc/7U?s=y|Affirm|IT Engineer Intern|San Francisco, CA|Oct 10#1",
-        1
-      ],
-      [
-        [
-          "Workday",
-          "Cybersecurity Engineer Intern",
-          "Pleasanton, CA",
-          "Oct 08",
-          "https://go.vansh.nyc/gd?s=y"
-        ],
-        "https://go.vansh.nyc/gd?s=y|Workday|Cybersecurity Engineer Intern|Pleasanton, CA|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "Residex Software",
-          "Product Management Intern",
-          "United States",
-          "Oct 08",
-          "https://go.vansh.nyc/gc?s=y"
-        ],
-        "https://go.vansh.nyc/gc?s=y|Residex Software|Product Management Intern|United States|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "GCM Grosvenor",
-          "IT Product & Strategy Intern",
-          "Chicago, IL",
-          "Oct 08",
-          "https://go.vansh.nyc/gb?s=y"
-        ],
-        "https://go.vansh.nyc/gb?s=y|GCM Grosvenor|IT Product & Strategy Intern|Chicago, IL|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "Arcesium",
-          "Infrastructure Engineer Intern",
-          "New York, NY",
-          "Oct 08",
-          "https://go.vansh.nyc/ga?s=y"
-        ],
-        "https://go.vansh.nyc/ga?s=y|Arcesium|Infrastructure Engineer Intern|New York, NY|Oct 08#1",
-        1
-      ],
-      [
-        [
-          "Viget",
-          "Project & Product Manager Intern \ud83d\udec2",
-          "Boulder, CO",
-          "Oct 07",
-          "https://go.vansh.nyc/g9?s=y"
-        ],
-        "https://go.vansh.nyc/g9?s=y|Viget|Project & Product Manager Intern \ud83d\udec2|Boulder, CO|Oct 07#1",
-        1
-      ],
-      [
-        [
-          "Tenstorrent",
-          "AI Software Intern, Cloud, Infrastructure & Data Centre Deployment",
-          "Austin, TX Santa Clara, CA",
-          "Oct 06",
-          "https://go.vansh.nyc/g7?s=y"
-        ],
-        "https://go.vansh.nyc/g7?s=y|Tenstorrent|AI Software Intern, Cloud, Infrastructure & Data Centre Deployment|Austin, TX Santa Clara, CA|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Software Development Engineer Intern, Amazon Leo, Embedded Systems \ud83c\uddfa\ud83c\uddf8",
-          "Redmond, WA",
-          "Oct 06",
-          "https://go.vansh.nyc/g6?s=y"
-        ],
-        "https://go.vansh.nyc/g6?s=y|Amazon|Software Development Engineer Intern, Amazon Leo, Embedded Systems \ud83c\uddfa\ud83c\uddf8|Redmond, WA|Oct 06#1",
-        1
-      ],
-      [
-        [
-          "Veterans United Home Loans",
-          "Software Engineer Intern",
-          "Remote United States",
-          "Oct 05",
-          "https://go.vansh.nyc/g4?s=y"
-        ],
-        "https://go.vansh.nyc/g4?s=y|Veterans United Home Loans|Software Engineer Intern|Remote United States|Oct 05#1",
-        1
-      ],
-      [
-        [
-          "Ergotron",
-          "Software Engineer Intern",
-          "Eagan, MN",
-          "Oct 05",
-          "https://go.vansh.nyc/g3?s=y"
-        ],
-        "https://go.vansh.nyc/g3?s=y|Ergotron|Software Engineer Intern|Eagan, MN|Oct 05#1",
-        1
-      ],
-      [
-        [
-          "Anduril",
-          "Systems Engineer Intern",
-          "**5 locations**Boston, MA Costa Mesa, CA Fort Collins, CO Reston, VA Seattle, WA",
-          "Oct 05",
-          "https://go.vansh.nyc/g5?s=y"
-        ],
-        "https://go.vansh.nyc/g5?s=y|Anduril|Systems Engineer Intern|**5 locations**Boston, MA Costa Mesa, CA Fort Collins, CO Reston, VA Seattle, WA|Oct 05#1",
-        1
-      ],
-      [
-        [
-          "Election Systems & Software",
-          "Information Systems Software Developer Intern",
-          "Omaha, NE",
-          "Oct 01",
-          "https://go.vansh.nyc/g1?s=y"
-        ],
-        "https://go.vansh.nyc/g1?s=y|Election Systems & Software|Information Systems Software Developer Intern|Omaha, NE|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Software Development Engineer Intern, Embedded Systems",
-          "Seattle, WA",
-          "Oct 01",
-          "https://go.vansh.nyc/g0?s=y"
-        ],
-        "https://go.vansh.nyc/g0?s=y|Amazon|Software Development Engineer Intern, Embedded Systems|Seattle, WA|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "Election Systems & Software",
-          "DevOps Intern",
-          "Omaha, NE",
-          "Sep 30",
-          "https://go.vansh.nyc/fY?s=y"
-        ],
-        "https://go.vansh.nyc/fY?s=y|Election Systems & Software|DevOps Intern|Omaha, NE|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "Election Systems & Software",
-          "Software Development Intern",
-          "Omaha, NE",
-          "Sep 30",
-          "https://go.vansh.nyc/fZ?s=y"
-        ],
-        "https://go.vansh.nyc/fZ?s=y|Election Systems & Software|Software Development Intern|Omaha, NE|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "Cisco",
-          "Software Consulting Engineer I Intern",
-          "Research Triangle Park, NC",
-          "Sep 30",
-          "https://go.vansh.nyc/fX?s=y"
-        ],
-        "https://go.vansh.nyc/fX?s=y|Cisco|Software Consulting Engineer I Intern|Research Triangle Park, NC|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "Muon Space",
-          "Software Engineering Intern, GNC",
-          "Mountain View, CA",
-          "Sep 29",
-          "https://go.vansh.nyc/fU?s=y"
-        ],
-        "https://go.vansh.nyc/fU?s=y|Muon Space|Software Engineering Intern, GNC|Mountain View, CA|Sep 29#1",
-        1
-      ],
-      [
-        [
-          "Hermeus",
-          "Flight Software Engineering Intern, Simulation/Hardware-In-The-Loop",
-          "Los Angeles, CA",
-          "Sep 28",
-          "https://go.vansh.nyc/fR?s=y"
-        ],
-        "https://go.vansh.nyc/fR?s=y|Hermeus|Flight Software Engineering Intern, Simulation/Hardware-In-The-Loop|Los Angeles, CA|Sep 28#1",
-        1
-      ],
-      [
-        [
-          "Voyager Technologies",
-          "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "Long Beach, CA",
-          "Sep 27",
-          "https://go.vansh.nyc/fP?s=y"
-        ],
-        "https://go.vansh.nyc/fP?s=y|Voyager Technologies|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Long Beach, CA|Sep 27#1",
-        1
-      ],
-      [
-        [
-          "AVARINT",
-          "Software Engineer Intern, DIADS",
-          "United States",
-          "Sep 27",
-          "https://go.vansh.nyc/fN?s=y"
-        ],
-        "https://go.vansh.nyc/fN?s=y|AVARINT|Software Engineer Intern, DIADS|United States|Sep 27#1",
-        1
-      ],
-      [
-        [
-          "DraftKings",
-          "Data Science Intern",
-          "Boston, MA",
-          "Sep 19",
-          "https://go.vansh.nyc/en?s=y"
-        ],
-        "https://go.vansh.nyc/en?s=y|DraftKings|Data Science Intern|Boston, MA|Sep 19#1",
-        1
-      ],
-      [
-        [
-          "Vertiv",
-          "Product Management Intern, MBA \ud83d\udec2",
-          "Delaware, OH",
-          "Aug 21",
-          "https://go.vansh.nyc/7y?s=y"
-        ],
-        "https://go.vansh.nyc/7y?s=y|Vertiv|Product Management Intern, MBA \ud83d\udec2|Delaware, OH|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "The Nuclear Company",
-          "AI Applied Research Intern \ud83d\udec2",
-          "Washington, DC",
-          "Aug 21",
-          "https://go.vansh.nyc/6N?s=y"
-        ],
-        "https://go.vansh.nyc/6N?s=y|The Nuclear Company|AI Applied Research Intern \ud83d\udec2|Washington, DC|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "Teledyne Technologies Incorporated",
-          "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "Huntsville, AL",
-          "Aug 21",
-          "https://go.vansh.nyc/6O?s=y"
-        ],
-        "https://go.vansh.nyc/6O?s=y|Teledyne Technologies Incorporated|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Huntsville, AL|Aug 21#1",
-        1
-      ],
-      [
-        [
-          "Notion",
-          "Software Engineer Intern",
-          "San Francisco, CA New York, NY",
-          "Aug 21",
-          "https://go.vansh.nyc/7s?s=y"
-        ],
-        "https://go.vansh.nyc/7s?s=y|Notion|Software Engineer Intern|San Francisco, CA New York, NY|Aug 21#1",
-        1
-      ],
       [
         [
           "Millennium",
