@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "b7013c682d57437edf4c74a60bb2cfb23dc7c85c",
+    "last_sha": "473817fe74e9e88a4920165fd8ac286dcf6d1e54",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -5686,286 +5686,36 @@
       "https://go.vansh.nyc/DR?s=y|Constellation Energy|Quantitative Analytics & Data Science Intern|Baltimore, MD|Sep 28#1",
       "NOURL|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
       "NOURL|LSEG|Finance Engineer Intern|New York, NY|Oct 13#1",
-      "NOURL|LSEG|Software Engineer Intern|New York, NY|Oct 13#1"
+      "NOURL|LSEG|Software Engineer Intern|New York, NY|Oct 13#1",
+      "https://go.vansh.nyc/JK?s=y|POET|Data Engineer Intern|Sioux Falls, SD|Sep 27#1",
+      "https://go.vansh.nyc/JJ?s=y|Itron|Data Science Intern, Distributed Intelligence|Liberty Lake, WA|Sep 27#1",
+      "https://go.vansh.nyc/JL?s=y|IAT Insurance Group|Data Engineering & Visualization Intern|Raleigh, NC|Sep 27#1",
+      "https://go.vansh.nyc/JG?s=y|Western National Insurance|Data Engineering Intern, Data & Integrations|Edina, MN|Sep 25#1",
+      "https://go.vansh.nyc/K1?s=y|Keysight Technologies|DevOps Intern|Colorado Springs, CO|Sep 25#1",
+      "https://go.vansh.nyc/JE?s=y|Johns Hopkins Applied Physics Laboratory|Space Exploration Software Engineer Intern, Embedded Applications|Laurel, MD|Sep 25#1",
+      "https://go.vansh.nyc/JF?s=y|Johns Hopkins Applied Physics Laboratory|Artificial Intelligence and Machine Learning Research Assistant Intern|Laurel, MD|Sep 25#1",
+      "https://go.vansh.nyc/JI?s=y|Flint|Engineering Intern|San Francisco, CA|Sep 25#1",
+      "https://go.vansh.nyc/JD?s=y|Zurn Elkay Water Solutions|Embedded Firmware Intern|Milwaukee, WI|Sep 24#1",
+      "https://go.vansh.nyc/JA?s=y|Rockwell Automation|AI Software Engineer Intern|Mayfield Heights, OH Milwaukee, WI|Sep 24#1",
+      "https://go.vansh.nyc/JB?s=y|Pacific Life|Software Engineering Intern|Newport Beach, CA|Sep 24#1",
+      "https://go.vansh.nyc/JC?s=y|Pacific Life|Data Engineering Intern|Newport Beach, CA|Sep 24#1",
+      "https://go.vansh.nyc/Jx?s=y|Mill|Computer Vision Intern, Multiple Teams|San Bruno, CA|Sep 24#1",
+      "https://go.vansh.nyc/Jr?s=y|Semtech|Firmware Intern|Ottawa, Canada|Sep 23#1",
+      "https://go.vansh.nyc/Js?s=y|Semtech|Digital IC Design Intern|Ottawa, Canada|Sep 23#1",
+      "https://go.vansh.nyc/Jp?s=y|Qumulo|Software Development Engineer Intern|Seattle, WA|Sep 23#1",
+      "https://go.vansh.nyc/Jq?s=y|Qualcomm|Firmware Development Intern, PAL|Markham, Canada|Sep 23#1",
+      "https://go.vansh.nyc/Jt?s=y|Marvell|Data Center Silicon Hardware Engineering Co-op|Toronto, Canada Ottawa, Canada|Sep 23#1",
+      "https://go.vansh.nyc/Jw?s=y|Astranis|FPGA Intern|San Francisco, CA|Sep 23#1",
+      "https://go.vansh.nyc/Jg?s=y|Two Sigma|Hardware Engineering Intern|New York, NY|Sep 22#1",
+      "https://go.vansh.nyc/Ji?s=y|Neuberger Berman|Quantitative Analyst Intern|New York, NY|Sep 22#1",
+      "https://go.vansh.nyc/JZ?s=y|Insulet Corporation|DevOps Engineer Intern \ud83d\udec2|San Diego, CA|Sep 22#1",
+      "https://go.vansh.nyc/Jh?s=y|Grow Therapy|Software Engineer Intern|New York, NY|Sep 22#1",
+      "https://go.vansh.nyc/Jj?s=y|General Dynamics Information Technology|Software Development Intern|Bossier City, LA|Sep 22#1",
+      "https://go.vansh.nyc/Jk?s=y|General Dynamics Information Technology|AI Network Engineering Intern|Bossier City, LA|Sep 22#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 1098,
     "outbox": [
-      [
-        [
-          "POET",
-          "Data Engineer Intern",
-          "Sioux Falls, SD",
-          "Sep 27",
-          "https://go.vansh.nyc/JK?s=y"
-        ],
-        "https://go.vansh.nyc/JK?s=y|POET|Data Engineer Intern|Sioux Falls, SD|Sep 27#1",
-        1
-      ],
-      [
-        [
-          "Itron",
-          "Data Science Intern, Distributed Intelligence",
-          "Liberty Lake, WA",
-          "Sep 27",
-          "https://go.vansh.nyc/JJ?s=y"
-        ],
-        "https://go.vansh.nyc/JJ?s=y|Itron|Data Science Intern, Distributed Intelligence|Liberty Lake, WA|Sep 27#1",
-        1
-      ],
-      [
-        [
-          "IAT Insurance Group",
-          "Data Engineering & Visualization Intern",
-          "Raleigh, NC",
-          "Sep 27",
-          "https://go.vansh.nyc/JL?s=y"
-        ],
-        "https://go.vansh.nyc/JL?s=y|IAT Insurance Group|Data Engineering & Visualization Intern|Raleigh, NC|Sep 27#1",
-        1
-      ],
-      [
-        [
-          "Western National Insurance",
-          "Data Engineering Intern, Data & Integrations",
-          "Edina, MN",
-          "Sep 25",
-          "https://go.vansh.nyc/JG?s=y"
-        ],
-        "https://go.vansh.nyc/JG?s=y|Western National Insurance|Data Engineering Intern, Data & Integrations|Edina, MN|Sep 25#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "DevOps Intern",
-          "Colorado Springs, CO",
-          "Sep 25",
-          "https://go.vansh.nyc/K1?s=y"
-        ],
-        "https://go.vansh.nyc/K1?s=y|Keysight Technologies|DevOps Intern|Colorado Springs, CO|Sep 25#1",
-        1
-      ],
-      [
-        [
-          "Johns Hopkins Applied Physics Laboratory",
-          "Space Exploration Software Engineer Intern, Embedded Applications",
-          "Laurel, MD",
-          "Sep 25",
-          "https://go.vansh.nyc/JE?s=y"
-        ],
-        "https://go.vansh.nyc/JE?s=y|Johns Hopkins Applied Physics Laboratory|Space Exploration Software Engineer Intern, Embedded Applications|Laurel, MD|Sep 25#1",
-        1
-      ],
-      [
-        [
-          "Johns Hopkins Applied Physics Laboratory",
-          "Artificial Intelligence and Machine Learning Research Assistant Intern",
-          "Laurel, MD",
-          "Sep 25",
-          "https://go.vansh.nyc/JF?s=y"
-        ],
-        "https://go.vansh.nyc/JF?s=y|Johns Hopkins Applied Physics Laboratory|Artificial Intelligence and Machine Learning Research Assistant Intern|Laurel, MD|Sep 25#1",
-        1
-      ],
-      [
-        [
-          "Flint",
-          "Engineering Intern",
-          "San Francisco, CA",
-          "Sep 25",
-          "https://go.vansh.nyc/JI?s=y"
-        ],
-        "https://go.vansh.nyc/JI?s=y|Flint|Engineering Intern|San Francisco, CA|Sep 25#1",
-        1
-      ],
-      [
-        [
-          "Zurn Elkay Water Solutions",
-          "Embedded Firmware Intern",
-          "Milwaukee, WI",
-          "Sep 24",
-          "https://go.vansh.nyc/JD?s=y"
-        ],
-        "https://go.vansh.nyc/JD?s=y|Zurn Elkay Water Solutions|Embedded Firmware Intern|Milwaukee, WI|Sep 24#1",
-        1
-      ],
-      [
-        [
-          "Rockwell Automation",
-          "AI Software Engineer Intern",
-          "Mayfield Heights, OH Milwaukee, WI",
-          "Sep 24",
-          "https://go.vansh.nyc/JA?s=y"
-        ],
-        "https://go.vansh.nyc/JA?s=y|Rockwell Automation|AI Software Engineer Intern|Mayfield Heights, OH Milwaukee, WI|Sep 24#1",
-        1
-      ],
-      [
-        [
-          "Pacific Life",
-          "Software Engineering Intern",
-          "Newport Beach, CA",
-          "Sep 24",
-          "https://go.vansh.nyc/JB?s=y"
-        ],
-        "https://go.vansh.nyc/JB?s=y|Pacific Life|Software Engineering Intern|Newport Beach, CA|Sep 24#1",
-        1
-      ],
-      [
-        [
-          "Pacific Life",
-          "Data Engineering Intern",
-          "Newport Beach, CA",
-          "Sep 24",
-          "https://go.vansh.nyc/JC?s=y"
-        ],
-        "https://go.vansh.nyc/JC?s=y|Pacific Life|Data Engineering Intern|Newport Beach, CA|Sep 24#1",
-        1
-      ],
-      [
-        [
-          "Mill",
-          "Computer Vision Intern, Multiple Teams",
-          "San Bruno, CA",
-          "Sep 24",
-          "https://go.vansh.nyc/Jx?s=y"
-        ],
-        "https://go.vansh.nyc/Jx?s=y|Mill|Computer Vision Intern, Multiple Teams|San Bruno, CA|Sep 24#1",
-        1
-      ],
-      [
-        [
-          "Semtech",
-          "Firmware Intern",
-          "Ottawa, Canada",
-          "Sep 23",
-          "https://go.vansh.nyc/Jr?s=y"
-        ],
-        "https://go.vansh.nyc/Jr?s=y|Semtech|Firmware Intern|Ottawa, Canada|Sep 23#1",
-        1
-      ],
-      [
-        [
-          "Semtech",
-          "Digital IC Design Intern",
-          "Ottawa, Canada",
-          "Sep 23",
-          "https://go.vansh.nyc/Js?s=y"
-        ],
-        "https://go.vansh.nyc/Js?s=y|Semtech|Digital IC Design Intern|Ottawa, Canada|Sep 23#1",
-        1
-      ],
-      [
-        [
-          "Qumulo",
-          "Software Development Engineer Intern",
-          "Seattle, WA",
-          "Sep 23",
-          "https://go.vansh.nyc/Jp?s=y"
-        ],
-        "https://go.vansh.nyc/Jp?s=y|Qumulo|Software Development Engineer Intern|Seattle, WA|Sep 23#1",
-        1
-      ],
-      [
-        [
-          "Qualcomm",
-          "Firmware Development Intern, PAL",
-          "Markham, Canada",
-          "Sep 23",
-          "https://go.vansh.nyc/Jq?s=y"
-        ],
-        "https://go.vansh.nyc/Jq?s=y|Qualcomm|Firmware Development Intern, PAL|Markham, Canada|Sep 23#1",
-        1
-      ],
-      [
-        [
-          "Marvell",
-          "Data Center Silicon Hardware Engineering Co-op",
-          "Toronto, Canada Ottawa, Canada",
-          "Sep 23",
-          "https://go.vansh.nyc/Jt?s=y"
-        ],
-        "https://go.vansh.nyc/Jt?s=y|Marvell|Data Center Silicon Hardware Engineering Co-op|Toronto, Canada Ottawa, Canada|Sep 23#1",
-        1
-      ],
-      [
-        [
-          "Astranis",
-          "FPGA Intern",
-          "San Francisco, CA",
-          "Sep 23",
-          "https://go.vansh.nyc/Jw?s=y"
-        ],
-        "https://go.vansh.nyc/Jw?s=y|Astranis|FPGA Intern|San Francisco, CA|Sep 23#1",
-        1
-      ],
-      [
-        [
-          "Two Sigma",
-          "Hardware Engineering Intern",
-          "New York, NY",
-          "Sep 22",
-          "https://go.vansh.nyc/Jg?s=y"
-        ],
-        "https://go.vansh.nyc/Jg?s=y|Two Sigma|Hardware Engineering Intern|New York, NY|Sep 22#1",
-        1
-      ],
-      [
-        [
-          "Neuberger Berman",
-          "Quantitative Analyst Intern",
-          "New York, NY",
-          "Sep 22",
-          "https://go.vansh.nyc/Ji?s=y"
-        ],
-        "https://go.vansh.nyc/Ji?s=y|Neuberger Berman|Quantitative Analyst Intern|New York, NY|Sep 22#1",
-        1
-      ],
-      [
-        [
-          "Insulet Corporation",
-          "DevOps Engineer Intern \ud83d\udec2",
-          "San Diego, CA",
-          "Sep 22",
-          "https://go.vansh.nyc/JZ?s=y"
-        ],
-        "https://go.vansh.nyc/JZ?s=y|Insulet Corporation|DevOps Engineer Intern \ud83d\udec2|San Diego, CA|Sep 22#1",
-        1
-      ],
-      [
-        [
-          "Grow Therapy",
-          "Software Engineer Intern",
-          "New York, NY",
-          "Sep 22",
-          "https://go.vansh.nyc/Jh?s=y"
-        ],
-        "https://go.vansh.nyc/Jh?s=y|Grow Therapy|Software Engineer Intern|New York, NY|Sep 22#1",
-        1
-      ],
-      [
-        [
-          "General Dynamics Information Technology",
-          "Software Development Intern",
-          "Bossier City, LA",
-          "Sep 22",
-          "https://go.vansh.nyc/Jj?s=y"
-        ],
-        "https://go.vansh.nyc/Jj?s=y|General Dynamics Information Technology|Software Development Intern|Bossier City, LA|Sep 22#1",
-        1
-      ],
-      [
-        [
-          "General Dynamics Information Technology",
-          "AI Network Engineering Intern",
-          "Bossier City, LA",
-          "Sep 22",
-          "https://go.vansh.nyc/Jk?s=y"
-        ],
-        "https://go.vansh.nyc/Jk?s=y|General Dynamics Information Technology|AI Network Engineering Intern|Bossier City, LA|Sep 22#1",
-        1
-      ],
       [
         [
           "General Dynamics Information Technology",
