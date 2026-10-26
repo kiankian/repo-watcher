@@ -101708,6 +101708,42 @@
       "chat_id": 7582459199,
       "seq": 7918,
       "identity": "NOURL|Expedia Group|Security Engineering Intern|Seattle, WA|Oct 13#1"
+    },
+    "e121f14fef16": {
+      "company": "RTX",
+      "role": "Embedded Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "East Hartford, CT",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/BP?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9117,
+      "chat_id": 7582459199,
+      "seq": 7919,
+      "identity": "https://go.vansh.nyc/BP?s=y|RTX|Embedded Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|East Hartford, CT|Oct 26#1"
+    },
+    "fef9f043e842": {
+      "company": "Adobe",
+      "role": "Machine Learning Engineer Intern",
+      "location": "**7 locations**San Jose, CA Waltham, MA San Francisco, CA Austin, TX Seattle, WA Lehi, UT New York, NY",
+      "term": "Oct 24",
+      "apply_url": "https://go.vansh.nyc/BO?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9118,
+      "chat_id": 7582459199,
+      "seq": 7920,
+      "identity": "https://go.vansh.nyc/BO?s=y|Adobe|Machine Learning Engineer Intern|**7 locations**San Jose, CA Waltham, MA San Francisco, CA Austin, TX Seattle, WA Lehi, UT New York, NY|Oct 24#1"
+    },
+    "a5c8b7765e1e": {
+      "company": "Netflix",
+      "role": "Software Engineer Intern",
+      "location": "Los Gatos, CA",
+      "term": "Oct 19",
+      "apply_url": "https://go.vansh.nyc/BN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9119,
+      "chat_id": 7582459199,
+      "seq": 7921,
+      "identity": "https://go.vansh.nyc/BN?s=y|Netflix|Software Engineer Intern|Los Gatos, CA|Oct 19#1"
     }
   },
   "applied": {
@@ -102075,10 +102111,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 7918,
+  "seq": 7921,
   "health": {
     "last_heartbeat": "2026-10-26T07:45:16Z",
-    "last_ok_run": "2026-10-26T08:50:18Z",
+    "last_ok_run": "2026-10-26T08:55:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
