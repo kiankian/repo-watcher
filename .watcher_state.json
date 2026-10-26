@@ -5839,286 +5839,36 @@
       "https://go.vansh.nyc/M2?s=y|Caterpillar|Corporate Intern, Autonomy & Intelligent Systems Engineering|**5 locations**Peoria, IL San Francisco, CA Pittsburgh, PA Mossville, IL Irving, TX|Sep 02#1",
       "https://go.vansh.nyc/M5?s=y|Caterpillar|Corporate Intern, Digital and Analytics|Peoria, IL Chicago, IL Irving, TX|Sep 02#1",
       "https://go.vansh.nyc/M6?s=y|AMD|ASIC Verification Engineer Co-op|Ottawa, Canada|Sep 02#1",
-      "https://go.vansh.nyc/LE?s=y|Textron|Autonomy Engineer Intern, Air Systems|Hunt Valley, MD Cockeysville, MD|Sep 01#1"
+      "https://go.vansh.nyc/LE?s=y|Textron|Autonomy Engineer Intern, Air Systems|Hunt Valley, MD Cockeysville, MD|Sep 01#1",
+      "https://go.vansh.nyc/LZ?s=y|McKesson|Software Engineer Intern|Longmont, CO|Sep 01#1",
+      "https://go.vansh.nyc/LX?s=y|Kinder Morgan|Information Technology Intern, Application Development|Houston, TX|Sep 01#1",
+      "https://go.vansh.nyc/LU?s=y|Johns Hopkins Applied Physics Laboratory|Engineer/SW Developer/Analyst Intern, Maritime Force Engagement Control|Laurel, MD|Sep 01#1",
+      "https://go.vansh.nyc/LV?s=y|Johns Hopkins Applied Physics Laboratory|Software Developer Intern, Tactical System Prototyping and Deployment|Laurel, MD|Sep 01#1",
+      "https://go.vansh.nyc/LW?s=y|Johns Hopkins Applied Physics Laboratory|Cyber Software Engineer Intern, Capabilities Development|Laurel, MD|Sep 01#1",
+      "https://go.vansh.nyc/MZ?s=y|AMD|Software Engineering Co-op|Markham, Canada|Sep 01#1",
+      "https://go.vansh.nyc/N0?s=y|AMD|Software Test Engineering Co-op|Markham, Canada|Sep 01#1",
+      "https://go.vansh.nyc/LG?s=y|AMD|Machine Learning/Artificial Intelligence Co-op|Markham, Canada|Sep 01#1",
+      "https://go.vansh.nyc/LI?s=y|AMD|Hardware Design Engineer Co-op|Vancouver, Canada|Sep 01#1",
+      "https://go.vansh.nyc/LJ?s=y|AMD|Diagnostics Design Engineer Co-op|Markham, Canada|Sep 01#1",
+      "https://go.vansh.nyc/LL?s=y|AMD|Firmware Engineer Co-op|Vancouver, Canada|Sep 01#1",
+      "https://go.vansh.nyc/LN?s=y|AMD|Hardware Design Engineer Co-op|Markham, Canada|Sep 01#1",
+      "https://go.vansh.nyc/LO?s=y|AMD|Graphics Software Engineer Co-op|Markham, Canada|Sep 01#1",
+      "https://go.vansh.nyc/LQ?s=y|AMD|Firmware Engineer Co-op|Markham, Canada|Sep 01#1",
+      "https://go.vansh.nyc/Ls?s=y|Vermeer|Embedded Software Engineer Intern|Pella, IA|Aug 31#1",
+      "https://go.vansh.nyc/LB?s=y|Vanguard|Application Development Intern|Dallas, TX|Aug 31#1",
+      "https://go.vansh.nyc/Lw?s=y|Tarrant Regional Water District|Energy Intern|Fort Worth, TX|Aug 31#1",
+      "https://go.vansh.nyc/Lv?s=y|Stanley Black & Decker|Embedded Software Engineering Intern|Towson, MD|Aug 31#1",
+      "https://go.vansh.nyc/LA?s=y|RTX|Electrical Engineer Intern|El Segundo, CA|Aug 31#1",
+      "https://go.vansh.nyc/LC?s=y|Rockwell Automation|Information Technology Intern|Milwaukee, WI|Aug 31#1",
+      "https://go.vansh.nyc/Lx?s=y|Ingredion|Digital Innovation Intern|Bridgewater, NJ|Aug 31#1",
+      "https://go.vansh.nyc/Lt?s=y|IAT Insurance Group|Data & Integration Intern|Milwaukee, WI|Aug 31#1",
+      "https://go.vansh.nyc/Lo?s=y|Garmin|Software Engineer Intern|Chandler, AZ|Aug 31#1",
+      "https://go.vansh.nyc/Lq?s=y|Cvent|Software Engineer Intern|Tysons, VA|Aug 31#1",
+      "https://go.vansh.nyc/Lp?s=y|C3.ai|Software Engineer Intern|Redwood City, CA|Aug 31#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 1195,
     "outbox": [
-      [
-        [
-          "McKesson",
-          "Software Engineer Intern",
-          "Longmont, CO",
-          "Sep 01",
-          "https://go.vansh.nyc/LZ?s=y"
-        ],
-        "https://go.vansh.nyc/LZ?s=y|McKesson|Software Engineer Intern|Longmont, CO|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "Kinder Morgan",
-          "Information Technology Intern, Application Development",
-          "Houston, TX",
-          "Sep 01",
-          "https://go.vansh.nyc/LX?s=y"
-        ],
-        "https://go.vansh.nyc/LX?s=y|Kinder Morgan|Information Technology Intern, Application Development|Houston, TX|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "Johns Hopkins Applied Physics Laboratory",
-          "Engineer/SW Developer/Analyst Intern, Maritime Force Engagement Control",
-          "Laurel, MD",
-          "Sep 01",
-          "https://go.vansh.nyc/LU?s=y"
-        ],
-        "https://go.vansh.nyc/LU?s=y|Johns Hopkins Applied Physics Laboratory|Engineer/SW Developer/Analyst Intern, Maritime Force Engagement Control|Laurel, MD|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "Johns Hopkins Applied Physics Laboratory",
-          "Software Developer Intern, Tactical System Prototyping and Deployment",
-          "Laurel, MD",
-          "Sep 01",
-          "https://go.vansh.nyc/LV?s=y"
-        ],
-        "https://go.vansh.nyc/LV?s=y|Johns Hopkins Applied Physics Laboratory|Software Developer Intern, Tactical System Prototyping and Deployment|Laurel, MD|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "Johns Hopkins Applied Physics Laboratory",
-          "Cyber Software Engineer Intern, Capabilities Development",
-          "Laurel, MD",
-          "Sep 01",
-          "https://go.vansh.nyc/LW?s=y"
-        ],
-        "https://go.vansh.nyc/LW?s=y|Johns Hopkins Applied Physics Laboratory|Cyber Software Engineer Intern, Capabilities Development|Laurel, MD|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "AMD",
-          "Software Engineering Co-op",
-          "Markham, Canada",
-          "Sep 01",
-          "https://go.vansh.nyc/MZ?s=y"
-        ],
-        "https://go.vansh.nyc/MZ?s=y|AMD|Software Engineering Co-op|Markham, Canada|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "AMD",
-          "Software Test Engineering Co-op",
-          "Markham, Canada",
-          "Sep 01",
-          "https://go.vansh.nyc/N0?s=y"
-        ],
-        "https://go.vansh.nyc/N0?s=y|AMD|Software Test Engineering Co-op|Markham, Canada|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "AMD",
-          "Machine Learning/Artificial Intelligence Co-op",
-          "Markham, Canada",
-          "Sep 01",
-          "https://go.vansh.nyc/LG?s=y"
-        ],
-        "https://go.vansh.nyc/LG?s=y|AMD|Machine Learning/Artificial Intelligence Co-op|Markham, Canada|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "AMD",
-          "Hardware Design Engineer Co-op",
-          "Vancouver, Canada",
-          "Sep 01",
-          "https://go.vansh.nyc/LI?s=y"
-        ],
-        "https://go.vansh.nyc/LI?s=y|AMD|Hardware Design Engineer Co-op|Vancouver, Canada|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "AMD",
-          "Diagnostics Design Engineer Co-op",
-          "Markham, Canada",
-          "Sep 01",
-          "https://go.vansh.nyc/LJ?s=y"
-        ],
-        "https://go.vansh.nyc/LJ?s=y|AMD|Diagnostics Design Engineer Co-op|Markham, Canada|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "AMD",
-          "Firmware Engineer Co-op",
-          "Vancouver, Canada",
-          "Sep 01",
-          "https://go.vansh.nyc/LL?s=y"
-        ],
-        "https://go.vansh.nyc/LL?s=y|AMD|Firmware Engineer Co-op|Vancouver, Canada|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "AMD",
-          "Hardware Design Engineer Co-op",
-          "Markham, Canada",
-          "Sep 01",
-          "https://go.vansh.nyc/LN?s=y"
-        ],
-        "https://go.vansh.nyc/LN?s=y|AMD|Hardware Design Engineer Co-op|Markham, Canada|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "AMD",
-          "Graphics Software Engineer Co-op",
-          "Markham, Canada",
-          "Sep 01",
-          "https://go.vansh.nyc/LO?s=y"
-        ],
-        "https://go.vansh.nyc/LO?s=y|AMD|Graphics Software Engineer Co-op|Markham, Canada|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "AMD",
-          "Firmware Engineer Co-op",
-          "Markham, Canada",
-          "Sep 01",
-          "https://go.vansh.nyc/LQ?s=y"
-        ],
-        "https://go.vansh.nyc/LQ?s=y|AMD|Firmware Engineer Co-op|Markham, Canada|Sep 01#1",
-        1
-      ],
-      [
-        [
-          "Vermeer",
-          "Embedded Software Engineer Intern",
-          "Pella, IA",
-          "Aug 31",
-          "https://go.vansh.nyc/Ls?s=y"
-        ],
-        "https://go.vansh.nyc/Ls?s=y|Vermeer|Embedded Software Engineer Intern|Pella, IA|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "Vanguard",
-          "Application Development Intern",
-          "Dallas, TX",
-          "Aug 31",
-          "https://go.vansh.nyc/LB?s=y"
-        ],
-        "https://go.vansh.nyc/LB?s=y|Vanguard|Application Development Intern|Dallas, TX|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "Tarrant Regional Water District",
-          "Energy Intern",
-          "Fort Worth, TX",
-          "Aug 31",
-          "https://go.vansh.nyc/Lw?s=y"
-        ],
-        "https://go.vansh.nyc/Lw?s=y|Tarrant Regional Water District|Energy Intern|Fort Worth, TX|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "Stanley Black & Decker",
-          "Embedded Software Engineering Intern",
-          "Towson, MD",
-          "Aug 31",
-          "https://go.vansh.nyc/Lv?s=y"
-        ],
-        "https://go.vansh.nyc/Lv?s=y|Stanley Black & Decker|Embedded Software Engineering Intern|Towson, MD|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "RTX",
-          "Electrical Engineer Intern",
-          "El Segundo, CA",
-          "Aug 31",
-          "https://go.vansh.nyc/LA?s=y"
-        ],
-        "https://go.vansh.nyc/LA?s=y|RTX|Electrical Engineer Intern|El Segundo, CA|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "Rockwell Automation",
-          "Information Technology Intern",
-          "Milwaukee, WI",
-          "Aug 31",
-          "https://go.vansh.nyc/LC?s=y"
-        ],
-        "https://go.vansh.nyc/LC?s=y|Rockwell Automation|Information Technology Intern|Milwaukee, WI|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "Ingredion",
-          "Digital Innovation Intern",
-          "Bridgewater, NJ",
-          "Aug 31",
-          "https://go.vansh.nyc/Lx?s=y"
-        ],
-        "https://go.vansh.nyc/Lx?s=y|Ingredion|Digital Innovation Intern|Bridgewater, NJ|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "IAT Insurance Group",
-          "Data & Integration Intern",
-          "Milwaukee, WI",
-          "Aug 31",
-          "https://go.vansh.nyc/Lt?s=y"
-        ],
-        "https://go.vansh.nyc/Lt?s=y|IAT Insurance Group|Data & Integration Intern|Milwaukee, WI|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "Garmin",
-          "Software Engineer Intern",
-          "Chandler, AZ",
-          "Aug 31",
-          "https://go.vansh.nyc/Lo?s=y"
-        ],
-        "https://go.vansh.nyc/Lo?s=y|Garmin|Software Engineer Intern|Chandler, AZ|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "Cvent",
-          "Software Engineer Intern",
-          "Tysons, VA",
-          "Aug 31",
-          "https://go.vansh.nyc/Lq?s=y"
-        ],
-        "https://go.vansh.nyc/Lq?s=y|Cvent|Software Engineer Intern|Tysons, VA|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "C3.ai",
-          "Software Engineer Intern",
-          "Redwood City, CA",
-          "Aug 31",
-          "https://go.vansh.nyc/Lp?s=y"
-        ],
-        "https://go.vansh.nyc/Lp?s=y|C3.ai|Software Engineer Intern|Redwood City, CA|Aug 31#1",
-        1
-      ],
       [
         [
           "American Express",
@@ -6210,7 +5960,7 @@
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "ecf0923f326e4462c21c244de1d058a21945a785",
+    "last_sha": "a6ebf475c34b857ca757d93c0256230911693a08",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
