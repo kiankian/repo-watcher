@@ -107780,6 +107780,42 @@
       "chat_id": 7582459199,
       "seq": 8424,
       "identity": "https://go.vansh.nyc/Qr?s=y|AQR Capital Management|Arbitrage Research Analyst Intern, Arbitrage|Greenwich, CT|Aug 25#1"
+    },
+    "92df5df785fc": {
+      "company": "Pattern",
+      "role": "Data Science Intern",
+      "location": "Lehi, UT",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9694,
+      "chat_id": 7582459199,
+      "seq": 8425,
+      "identity": "NOURL|Pattern|Data Science Intern|Lehi, UT|Oct 22#1"
+    },
+    "e6274ac7c1b0": {
+      "company": "Pattern",
+      "role": "AI Automation Engineer Intern",
+      "location": "Lehi, UT",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9695,
+      "chat_id": 7582459199,
+      "seq": 8426,
+      "identity": "NOURL|Pattern|AI Automation Engineer Intern|Lehi, UT|Oct 22#1"
+    },
+    "05aaca2027db": {
+      "company": "Micron Technology",
+      "role": "Memory Design Engineer Intern, HBM",
+      "location": "Richardson, TX",
+      "term": "Oct 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9696,
+      "chat_id": 7582459199,
+      "seq": 8427,
+      "identity": "NOURL|Micron Technology|Memory Design Engineer Intern, HBM|Richardson, TX|Oct 15#1"
     }
   },
   "applied": {
@@ -108147,10 +108183,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8424,
+  "seq": 8427,
   "health": {
     "last_heartbeat": "2026-10-26T15:00:23Z",
-    "last_ok_run": "2026-10-26T15:40:18Z",
+    "last_ok_run": "2026-10-26T15:45:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
