@@ -5864,103 +5864,22 @@
       "https://go.vansh.nyc/Lt?s=y|IAT Insurance Group|Data & Integration Intern|Milwaukee, WI|Aug 31#1",
       "https://go.vansh.nyc/Lo?s=y|Garmin|Software Engineer Intern|Chandler, AZ|Aug 31#1",
       "https://go.vansh.nyc/Lq?s=y|Cvent|Software Engineer Intern|Tysons, VA|Aug 31#1",
-      "https://go.vansh.nyc/Lp?s=y|C3.ai|Software Engineer Intern|Redwood City, CA|Aug 31#1"
+      "https://go.vansh.nyc/Lp?s=y|C3.ai|Software Engineer Intern|Redwood City, CA|Aug 31#1",
+      "https://go.vansh.nyc/LD?s=y|American Express|Data Engineer Intern, Enterprise Technology Services|Sunrise, FL|Aug 31#1",
+      "https://go.vansh.nyc/Ly?s=y|AeroVironment|Embedded Software Engineer Intern|**16 locations**Dayton, OH Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Centreville, VA Lawrence, KS Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA|Aug 31#1",
+      "https://go.vansh.nyc/Lz?s=y|AeroVironment|Software Engineer Intern|**14 locations**Germantown, MD Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA|Aug 31#1",
+      "https://go.vansh.nyc/Lr?s=y|Aerotech|Electrical/Computer Engineering Co-op|Pittsburgh, PA|Aug 31#1",
+      "https://go.vansh.nyc/MY?s=y|Aerospace Corporation|Cyber Security Intern \ud83d\udec2|United States|Aug 31#1",
+      "NOURL|Assured Guaranty|Product Software Developer Intern, Front-End|New York, NY|Sep 21#1",
+      "NOURL|Assured Guaranty|Product Software Developer Intern, Back-End|New York, NY|Sep 21#1",
+      "NOURL|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 1195,
-    "outbox": [
-      [
-        [
-          "American Express",
-          "Data Engineer Intern, Enterprise Technology Services",
-          "Sunrise, FL",
-          "Aug 31",
-          "https://go.vansh.nyc/LD?s=y"
-        ],
-        "https://go.vansh.nyc/LD?s=y|American Express|Data Engineer Intern, Enterprise Technology Services|Sunrise, FL|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "AeroVironment",
-          "Embedded Software Engineer Intern",
-          "**16 locations**Dayton, OH Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Centreville, VA Lawrence, KS Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA",
-          "Aug 31",
-          "https://go.vansh.nyc/Ly?s=y"
-        ],
-        "https://go.vansh.nyc/Ly?s=y|AeroVironment|Embedded Software Engineer Intern|**16 locations**Dayton, OH Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Centreville, VA Lawrence, KS Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "AeroVironment",
-          "Software Engineer Intern",
-          "**14 locations**Germantown, MD Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA",
-          "Aug 31",
-          "https://go.vansh.nyc/Lz?s=y"
-        ],
-        "https://go.vansh.nyc/Lz?s=y|AeroVironment|Software Engineer Intern|**14 locations**Germantown, MD Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "Aerotech",
-          "Electrical/Computer Engineering Co-op",
-          "Pittsburgh, PA",
-          "Aug 31",
-          "https://go.vansh.nyc/Lr?s=y"
-        ],
-        "https://go.vansh.nyc/Lr?s=y|Aerotech|Electrical/Computer Engineering Co-op|Pittsburgh, PA|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "Aerospace Corporation",
-          "Cyber Security Intern \ud83d\udec2",
-          "United States",
-          "Aug 31",
-          "https://go.vansh.nyc/MY?s=y"
-        ],
-        "https://go.vansh.nyc/MY?s=y|Aerospace Corporation|Cyber Security Intern \ud83d\udec2|United States|Aug 31#1",
-        1
-      ],
-      [
-        [
-          "Assured Guaranty",
-          "Product Software Developer Intern, Front-End",
-          "New York, NY",
-          "Sep 21",
-          ""
-        ],
-        "NOURL|Assured Guaranty|Product Software Developer Intern, Front-End|New York, NY|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "Assured Guaranty",
-          "Product Software Developer Intern, Back-End",
-          "New York, NY",
-          "Sep 21",
-          ""
-        ],
-        "NOURL|Assured Guaranty|Product Software Developer Intern, Back-End|New York, NY|Sep 21#1",
-        1
-      ],
-      [
-        [
-          "Space Dynamics Laboratory",
-          "AI-Enabled Requirements Engineering Intern",
-          "North Logan, UT",
-          "Oct 20",
-          ""
-        ],
-        "NOURL|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1",
-        1
-      ]
-    ]
+    "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "a6ebf475c34b857ca757d93c0256230911693a08",
+    "last_sha": "34cdc49fabada8e1cd9eb4dd36d9d6bf3e14a76d",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

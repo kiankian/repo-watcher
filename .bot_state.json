@@ -106868,6 +106868,102 @@
       "chat_id": 7582459199,
       "seq": 8348,
       "identity": "https://go.vansh.nyc/Lp?s=y|C3.ai|Software Engineer Intern|Redwood City, CA|Aug 31#1"
+    },
+    "9f5a78849ea4": {
+      "company": "American Express",
+      "role": "Data Engineer Intern, Enterprise Technology Services",
+      "location": "Sunrise, FL",
+      "term": "Aug 31",
+      "apply_url": "https://go.vansh.nyc/LD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9618,
+      "chat_id": 7582459199,
+      "seq": 8349,
+      "identity": "https://go.vansh.nyc/LD?s=y|American Express|Data Engineer Intern, Enterprise Technology Services|Sunrise, FL|Aug 31#1"
+    },
+    "bcee96a75365": {
+      "company": "AeroVironment",
+      "role": "Embedded Software Engineer Intern",
+      "location": "**16 locations**Dayton, OH Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Centreville, VA Lawrence, KS Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA",
+      "term": "Aug 31",
+      "apply_url": "https://go.vansh.nyc/Ly?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9619,
+      "chat_id": 7582459199,
+      "seq": 8350,
+      "identity": "https://go.vansh.nyc/Ly?s=y|AeroVironment|Embedded Software Engineer Intern|**16 locations**Dayton, OH Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Centreville, VA Lawrence, KS Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA|Aug 31#1"
+    },
+    "17d7da080a7c": {
+      "company": "AeroVironment",
+      "role": "Software Engineer Intern",
+      "location": "**14 locations**Germantown, MD Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA",
+      "term": "Aug 31",
+      "apply_url": "https://go.vansh.nyc/Lz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9620,
+      "chat_id": 7582459199,
+      "seq": 8351,
+      "identity": "https://go.vansh.nyc/Lz?s=y|AeroVironment|Software Engineer Intern|**14 locations**Germantown, MD Annapolis Junction, MD Pottstown, PA Albuquerque, NM Sunrise, FL Arlington, VA Melbourne, FL Petaluma, CA Minneapolis, MN San Luis Obispo, CA Huntsville, AL San Diego, CA Moorpark, CA Simi Valley, CA|Aug 31#1"
+    },
+    "46c65f683da9": {
+      "company": "Aerotech",
+      "role": "Electrical/Computer Engineering Co-op",
+      "location": "Pittsburgh, PA",
+      "term": "Aug 31",
+      "apply_url": "https://go.vansh.nyc/Lr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9621,
+      "chat_id": 7582459199,
+      "seq": 8352,
+      "identity": "https://go.vansh.nyc/Lr?s=y|Aerotech|Electrical/Computer Engineering Co-op|Pittsburgh, PA|Aug 31#1"
+    },
+    "3809333f6bae": {
+      "company": "Aerospace Corporation",
+      "role": "Cyber Security Intern \ud83d\udec2",
+      "location": "United States",
+      "term": "Aug 31",
+      "apply_url": "https://go.vansh.nyc/MY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9622,
+      "chat_id": 7582459199,
+      "seq": 8353,
+      "identity": "https://go.vansh.nyc/MY?s=y|Aerospace Corporation|Cyber Security Intern \ud83d\udec2|United States|Aug 31#1"
+    },
+    "ac88f9f08c12": {
+      "company": "Assured Guaranty",
+      "role": "Product Software Developer Intern, Front-End",
+      "location": "New York, NY",
+      "term": "Sep 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9623,
+      "chat_id": 7582459199,
+      "seq": 8354,
+      "identity": "NOURL|Assured Guaranty|Product Software Developer Intern, Front-End|New York, NY|Sep 21#1"
+    },
+    "44cffd33c0a7": {
+      "company": "Assured Guaranty",
+      "role": "Product Software Developer Intern, Back-End",
+      "location": "New York, NY",
+      "term": "Sep 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9624,
+      "chat_id": 7582459199,
+      "seq": 8355,
+      "identity": "NOURL|Assured Guaranty|Product Software Developer Intern, Back-End|New York, NY|Sep 21#1"
+    },
+    "31a31672dba6": {
+      "company": "Space Dynamics Laboratory",
+      "role": "AI-Enabled Requirements Engineering Intern",
+      "location": "North Logan, UT",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9625,
+      "chat_id": 7582459199,
+      "seq": 8356,
+      "identity": "NOURL|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1"
     }
   },
   "applied": {
@@ -107235,10 +107331,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8348,
+  "seq": 8356,
   "health": {
     "last_heartbeat": "2026-10-26T12:50:17Z",
-    "last_ok_run": "2026-10-26T14:41:00Z",
+    "last_ok_run": "2026-10-26T14:45:41Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
