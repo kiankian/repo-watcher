@@ -108968,6 +108968,66 @@
       "chat_id": 7582459199,
       "seq": 8523,
       "identity": "NOURL|RTX|Software Engineer Co-op|Cedar Rapids, IA|Oct 06#1"
+    },
+    "63c5539605c2": {
+      "company": "Two Six Technologies",
+      "role": "Research Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Arlington, VA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/SO?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9793,
+      "chat_id": 7582459199,
+      "seq": 8524,
+      "identity": "https://go.vansh.nyc/SO?s=y|Two Six Technologies|Research Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA|Oct 26#1"
+    },
+    "7ff1f384c2d1": {
+      "company": "Trace3",
+      "role": "Innovation Research & Development Lab Intern",
+      "location": "Irvine, CA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/SL?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9794,
+      "chat_id": 7582459199,
+      "seq": 8525,
+      "identity": "https://go.vansh.nyc/SL?s=y|Trace3|Innovation Research & Development Lab Intern|Irvine, CA|Oct 26#1"
+    },
+    "215149ae639e": {
+      "company": "Netsmart",
+      "role": "Security Analyst Intern",
+      "location": "Overland Park, KS",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/SN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9795,
+      "chat_id": 7582459199,
+      "seq": 8526,
+      "identity": "https://go.vansh.nyc/SN?s=y|Netsmart|Security Analyst Intern|Overland Park, KS|Oct 26#1"
+    },
+    "7bc7236304a9": {
+      "company": "Hewlett Packard (HP)",
+      "role": "Software Intern",
+      "location": "Spring, TX Fort Collins, CO Austin, TX",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/SM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9796,
+      "chat_id": 7582459199,
+      "seq": 8527,
+      "identity": "https://go.vansh.nyc/SM?s=y|Hewlett Packard (HP)|Software Intern|Spring, TX Fort Collins, CO Austin, TX|Oct 26#1"
+    },
+    "7410a90e34d4": {
+      "company": "Amperesand",
+      "role": "AI/ML Engineer Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Oct 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9797,
+      "chat_id": 7582459199,
+      "seq": 8528,
+      "identity": "NOURL|Amperesand|AI/ML Engineer Intern|Sunnyvale, CA|Oct 23#1"
     }
   },
   "applied": {
@@ -109335,10 +109395,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8523,
+  "seq": 8528,
   "health": {
     "last_heartbeat": "2026-10-26T16:10:21Z",
-    "last_ok_run": "2026-10-26T17:10:17Z",
+    "last_ok_run": "2026-10-26T17:15:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
