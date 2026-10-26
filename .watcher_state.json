@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "c85c8bc20bf9eb5656abb3cc43185676c87760a6",
+    "last_sha": "05086f02bc45b05c575f51364a04b1cf4052d230",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -5634,286 +5634,36 @@
       "https://go.vansh.nyc/Ey?s=y|Keysight Technologies|Data Scientist Intern|Santa Rosa, CA|Oct 04#1",
       "https://go.vansh.nyc/EL?s=y|Hewlett Packard Enterprise|Cloud Developer Intern|San Jose, CA|Oct 04#1",
       "https://go.vansh.nyc/EM?s=y|Hewlett Packard Enterprise|Systems Software Engineer Intern|Bloomington, MN|Oct 04#1",
-      "https://go.vansh.nyc/EF?s=y|General Motors|AI & Hardware Analytics Intern|Milford, MI Warren, MI|Oct 04#1"
+      "https://go.vansh.nyc/EF?s=y|General Motors|AI & Hardware Analytics Intern|Milford, MI Warren, MI|Oct 04#1",
+      "https://go.vansh.nyc/EG?s=y|General Motors|ADAS Software Engineer Intern|Milford, MI Warren, MI|Oct 04#1",
+      "https://go.vansh.nyc/EJ?s=y|FHLBank Chicago|AI Intern|Chicago, IL|Oct 04#1",
+      "https://go.vansh.nyc/Ez?s=y|Expedia Group|Software Development Engineer Intern|Seattle, WA Austin, TX San Jose, CA|Oct 04#1",
+      "https://go.vansh.nyc/ED?s=y|Expedia Group|Mobile Engineer Intern|Seattle, WA Austin, TX San Jose, CA|Oct 04#1",
+      "https://go.vansh.nyc/Ev?s=y|Micron Technology|HBM Memory Design Engineer Intern|Richardson, TX|Oct 03#1",
+      "https://go.vansh.nyc/Ew?s=y|Hewlett Packard Enterprise|VLSI Design Verification Intern|Chippewa Falls, WI|Oct 03#1",
+      "https://go.vansh.nyc/Ex?s=y|DocuSign|Software Engineer Intern, Self-Service Directory Diagnostics|Seattle, WA|Oct 03#1",
+      "https://go.vansh.nyc/Et?s=y|Vertiv|Design Engineering Intern|Delaware, OH Fort Lauderdale, FL|Oct 02#1",
+      "https://go.vansh.nyc/Eu?s=y|Arc|Software Engineer Intern|Torrance, CA|Oct 02#1",
+      "https://go.vansh.nyc/H3?s=y|SAS|Software Development Intern|Bloomington, MN|Oct 01#1",
+      "https://go.vansh.nyc/El?s=y|Regeneron Pharmaceuticals|Precision Medicine Operations Co-op|Armonk, NY|Oct 01#1",
+      "https://go.vansh.nyc/Ei?s=y|Principal Financial Group|Quantitative Analyst Intern, Quantitative Research|Des Moines, IA New York, NY|Oct 01#1",
+      "https://go.vansh.nyc/Em?s=y|New York Mets|Data Science Intern|Queens, NY|Oct 01#1",
+      "https://go.vansh.nyc/En?s=y|Marvell|Firmware Engineer Co-op|Toronto, Canada|Oct 01#1",
+      "https://go.vansh.nyc/Er?s=y|Hewlett Packard Enterprise|ASIC Engineer Intern|Durham, NC|Oct 01#1",
+      "https://go.vansh.nyc/Eq?s=y|General Motors|Software Engineer Intern, AV/AI Platform|Sunnyvale, CA Warren, MI|Oct 01#1",
+      "https://go.vansh.nyc/Eo?s=y|Elevance Health|Data Analytics Intern|**4 locations**Indianapolis, IN Richmond, VA Chicago, IL Atlanta, GA|Oct 01#1",
+      "https://go.vansh.nyc/Ep?s=y|Elevance Health|Engineering Intern|**4 locations**Indianapolis, IN Richmond, VA Chicago, IL Atlanta, GA|Oct 01#1",
+      "https://go.vansh.nyc/Eh?s=y|Amazon|Software Engineer Intern|**4 locations**Seattle, WA Jessup, MD Arlington, VA Denver, CO|Oct 01#1",
+      "https://go.vansh.nyc/H1?s=y|RTX|Cyber Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Sep 30#1",
+      "https://go.vansh.nyc/E6?s=y|Quantum Signal AI|Embedded and Real-Time Software Intern|Saline, MI|Sep 30#1",
+      "https://go.vansh.nyc/H2?s=y|Oceaneering|IT Security Architecture Intern|Houston, TX|Sep 30#1",
+      "https://go.vansh.nyc/Ed?s=y|NJM Insurance Group|IT Data Administration Intern|Trenton, NJ|Sep 30#1",
+      "https://go.vansh.nyc/E3?s=y|Muon Space|Flight Software Engineer Intern|San Jose, CA|Sep 30#1",
+      "https://go.vansh.nyc/Ef?s=y|Micron Technology|DRAM Architecture Intern|San Jose, CA Boise, ID|Sep 30#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 1018,
     "outbox": [
-      [
-        [
-          "General Motors",
-          "ADAS Software Engineer Intern",
-          "Milford, MI Warren, MI",
-          "Oct 04",
-          "https://go.vansh.nyc/EG?s=y"
-        ],
-        "https://go.vansh.nyc/EG?s=y|General Motors|ADAS Software Engineer Intern|Milford, MI Warren, MI|Oct 04#1",
-        1
-      ],
-      [
-        [
-          "FHLBank Chicago",
-          "AI Intern",
-          "Chicago, IL",
-          "Oct 04",
-          "https://go.vansh.nyc/EJ?s=y"
-        ],
-        "https://go.vansh.nyc/EJ?s=y|FHLBank Chicago|AI Intern|Chicago, IL|Oct 04#1",
-        1
-      ],
-      [
-        [
-          "Expedia Group",
-          "Software Development Engineer Intern",
-          "Seattle, WA Austin, TX San Jose, CA",
-          "Oct 04",
-          "https://go.vansh.nyc/Ez?s=y"
-        ],
-        "https://go.vansh.nyc/Ez?s=y|Expedia Group|Software Development Engineer Intern|Seattle, WA Austin, TX San Jose, CA|Oct 04#1",
-        1
-      ],
-      [
-        [
-          "Expedia Group",
-          "Mobile Engineer Intern",
-          "Seattle, WA Austin, TX San Jose, CA",
-          "Oct 04",
-          "https://go.vansh.nyc/ED?s=y"
-        ],
-        "https://go.vansh.nyc/ED?s=y|Expedia Group|Mobile Engineer Intern|Seattle, WA Austin, TX San Jose, CA|Oct 04#1",
-        1
-      ],
-      [
-        [
-          "Micron Technology",
-          "HBM Memory Design Engineer Intern",
-          "Richardson, TX",
-          "Oct 03",
-          "https://go.vansh.nyc/Ev?s=y"
-        ],
-        "https://go.vansh.nyc/Ev?s=y|Micron Technology|HBM Memory Design Engineer Intern|Richardson, TX|Oct 03#1",
-        1
-      ],
-      [
-        [
-          "Hewlett Packard Enterprise",
-          "VLSI Design Verification Intern",
-          "Chippewa Falls, WI",
-          "Oct 03",
-          "https://go.vansh.nyc/Ew?s=y"
-        ],
-        "https://go.vansh.nyc/Ew?s=y|Hewlett Packard Enterprise|VLSI Design Verification Intern|Chippewa Falls, WI|Oct 03#1",
-        1
-      ],
-      [
-        [
-          "DocuSign",
-          "Software Engineer Intern, Self-Service Directory Diagnostics",
-          "Seattle, WA",
-          "Oct 03",
-          "https://go.vansh.nyc/Ex?s=y"
-        ],
-        "https://go.vansh.nyc/Ex?s=y|DocuSign|Software Engineer Intern, Self-Service Directory Diagnostics|Seattle, WA|Oct 03#1",
-        1
-      ],
-      [
-        [
-          "Vertiv",
-          "Design Engineering Intern",
-          "Delaware, OH Fort Lauderdale, FL",
-          "Oct 02",
-          "https://go.vansh.nyc/Et?s=y"
-        ],
-        "https://go.vansh.nyc/Et?s=y|Vertiv|Design Engineering Intern|Delaware, OH Fort Lauderdale, FL|Oct 02#1",
-        1
-      ],
-      [
-        [
-          "Arc",
-          "Software Engineer Intern",
-          "Torrance, CA",
-          "Oct 02",
-          "https://go.vansh.nyc/Eu?s=y"
-        ],
-        "https://go.vansh.nyc/Eu?s=y|Arc|Software Engineer Intern|Torrance, CA|Oct 02#1",
-        1
-      ],
-      [
-        [
-          "SAS",
-          "Software Development Intern",
-          "Bloomington, MN",
-          "Oct 01",
-          "https://go.vansh.nyc/H3?s=y"
-        ],
-        "https://go.vansh.nyc/H3?s=y|SAS|Software Development Intern|Bloomington, MN|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "Regeneron Pharmaceuticals",
-          "Precision Medicine Operations Co-op",
-          "Armonk, NY",
-          "Oct 01",
-          "https://go.vansh.nyc/El?s=y"
-        ],
-        "https://go.vansh.nyc/El?s=y|Regeneron Pharmaceuticals|Precision Medicine Operations Co-op|Armonk, NY|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "Principal Financial Group",
-          "Quantitative Analyst Intern, Quantitative Research",
-          "Des Moines, IA New York, NY",
-          "Oct 01",
-          "https://go.vansh.nyc/Ei?s=y"
-        ],
-        "https://go.vansh.nyc/Ei?s=y|Principal Financial Group|Quantitative Analyst Intern, Quantitative Research|Des Moines, IA New York, NY|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "New York Mets",
-          "Data Science Intern",
-          "Queens, NY",
-          "Oct 01",
-          "https://go.vansh.nyc/Em?s=y"
-        ],
-        "https://go.vansh.nyc/Em?s=y|New York Mets|Data Science Intern|Queens, NY|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "Marvell",
-          "Firmware Engineer Co-op",
-          "Toronto, Canada",
-          "Oct 01",
-          "https://go.vansh.nyc/En?s=y"
-        ],
-        "https://go.vansh.nyc/En?s=y|Marvell|Firmware Engineer Co-op|Toronto, Canada|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "Hewlett Packard Enterprise",
-          "ASIC Engineer Intern",
-          "Durham, NC",
-          "Oct 01",
-          "https://go.vansh.nyc/Er?s=y"
-        ],
-        "https://go.vansh.nyc/Er?s=y|Hewlett Packard Enterprise|ASIC Engineer Intern|Durham, NC|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "General Motors",
-          "Software Engineer Intern, AV/AI Platform",
-          "Sunnyvale, CA Warren, MI",
-          "Oct 01",
-          "https://go.vansh.nyc/Eq?s=y"
-        ],
-        "https://go.vansh.nyc/Eq?s=y|General Motors|Software Engineer Intern, AV/AI Platform|Sunnyvale, CA Warren, MI|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "Elevance Health",
-          "Data Analytics Intern",
-          "**4 locations**Indianapolis, IN Richmond, VA Chicago, IL Atlanta, GA",
-          "Oct 01",
-          "https://go.vansh.nyc/Eo?s=y"
-        ],
-        "https://go.vansh.nyc/Eo?s=y|Elevance Health|Data Analytics Intern|**4 locations**Indianapolis, IN Richmond, VA Chicago, IL Atlanta, GA|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "Elevance Health",
-          "Engineering Intern",
-          "**4 locations**Indianapolis, IN Richmond, VA Chicago, IL Atlanta, GA",
-          "Oct 01",
-          "https://go.vansh.nyc/Ep?s=y"
-        ],
-        "https://go.vansh.nyc/Ep?s=y|Elevance Health|Engineering Intern|**4 locations**Indianapolis, IN Richmond, VA Chicago, IL Atlanta, GA|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "Amazon",
-          "Software Engineer Intern",
-          "**4 locations**Seattle, WA Jessup, MD Arlington, VA Denver, CO",
-          "Oct 01",
-          "https://go.vansh.nyc/Eh?s=y"
-        ],
-        "https://go.vansh.nyc/Eh?s=y|Amazon|Software Engineer Intern|**4 locations**Seattle, WA Jessup, MD Arlington, VA Denver, CO|Oct 01#1",
-        1
-      ],
-      [
-        [
-          "RTX",
-          "Cyber Intern \ud83c\uddfa\ud83c\uddf8",
-          "Cambridge, MA",
-          "Sep 30",
-          "https://go.vansh.nyc/H1?s=y"
-        ],
-        "https://go.vansh.nyc/H1?s=y|RTX|Cyber Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "Quantum Signal AI",
-          "Embedded and Real-Time Software Intern",
-          "Saline, MI",
-          "Sep 30",
-          "https://go.vansh.nyc/E6?s=y"
-        ],
-        "https://go.vansh.nyc/E6?s=y|Quantum Signal AI|Embedded and Real-Time Software Intern|Saline, MI|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "Oceaneering",
-          "IT Security Architecture Intern",
-          "Houston, TX",
-          "Sep 30",
-          "https://go.vansh.nyc/H2?s=y"
-        ],
-        "https://go.vansh.nyc/H2?s=y|Oceaneering|IT Security Architecture Intern|Houston, TX|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "NJM Insurance Group",
-          "IT Data Administration Intern",
-          "Trenton, NJ",
-          "Sep 30",
-          "https://go.vansh.nyc/Ed?s=y"
-        ],
-        "https://go.vansh.nyc/Ed?s=y|NJM Insurance Group|IT Data Administration Intern|Trenton, NJ|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "Muon Space",
-          "Flight Software Engineer Intern",
-          "San Jose, CA",
-          "Sep 30",
-          "https://go.vansh.nyc/E3?s=y"
-        ],
-        "https://go.vansh.nyc/E3?s=y|Muon Space|Flight Software Engineer Intern|San Jose, CA|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "Micron Technology",
-          "DRAM Architecture Intern",
-          "San Jose, CA Boise, ID",
-          "Sep 30",
-          "https://go.vansh.nyc/Ef?s=y"
-        ],
-        "https://go.vansh.nyc/Ef?s=y|Micron Technology|DRAM Architecture Intern|San Jose, CA Boise, ID|Sep 30#1",
-        1
-      ],
       [
         [
           "MetLife",
