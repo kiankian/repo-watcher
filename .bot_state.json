@@ -107660,6 +107660,126 @@
       "chat_id": 7582459199,
       "seq": 8414,
       "identity": "https://go.vansh.nyc/Qe?s=y|Royal Bank of Canada|Developer Intern|Calgary, Canada|Oct 25#1"
+    },
+    "add87fbdf05b": {
+      "company": "ETC",
+      "role": "Software Engineer Intern",
+      "location": "Middleton, WI",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/Qj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9684,
+      "chat_id": 7582459199,
+      "seq": 8415,
+      "identity": "https://go.vansh.nyc/Qj?s=y|ETC|Software Engineer Intern|Middleton, WI|Oct 23#1"
+    },
+    "afa242155f87": {
+      "company": "Americo Financial Life and Annuity",
+      "role": "Artificial Intelligence Intern",
+      "location": "Kansas City, MO",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/Qh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9685,
+      "chat_id": 7582459199,
+      "seq": 8416,
+      "identity": "https://go.vansh.nyc/Qh?s=y|Americo Financial Life and Annuity|Artificial Intelligence Intern|Kansas City, MO|Oct 23#1"
+    },
+    "0589210a0c40": {
+      "company": "Americo Financial Life and Annuity",
+      "role": "Software Development Intern",
+      "location": "Kansas City, MO",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/Qi?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9686,
+      "chat_id": 7582459199,
+      "seq": 8417,
+      "identity": "https://go.vansh.nyc/Qi?s=y|Americo Financial Life and Annuity|Software Development Intern|Kansas City, MO|Oct 23#1"
+    },
+    "a4330da61261": {
+      "company": "Lyft",
+      "role": "Data Engineer Intern",
+      "location": "Toronto, Canada",
+      "term": "Sep 11",
+      "apply_url": "https://go.vansh.nyc/Ql?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9687,
+      "chat_id": 7582459199,
+      "seq": 8418,
+      "identity": "https://go.vansh.nyc/Ql?s=y|Lyft|Data Engineer Intern|Toronto, Canada|Sep 11#1"
+    },
+    "16ecf3ca49d0": {
+      "company": "Lyft",
+      "role": "Software Engineer Intern, Backend",
+      "location": "San Francisco, CA",
+      "term": "Sep 11",
+      "apply_url": "https://go.vansh.nyc/Qm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9688,
+      "chat_id": 7582459199,
+      "seq": 8419,
+      "identity": "https://go.vansh.nyc/Qm?s=y|Lyft|Software Engineer Intern, Backend|San Francisco, CA|Sep 11#1"
+    },
+    "42ebd414dd2b": {
+      "company": "Lyft",
+      "role": "Software Engineer Intern, Backend",
+      "location": "Montreal, Canada",
+      "term": "Sep 11",
+      "apply_url": "https://go.vansh.nyc/Qn?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9689,
+      "chat_id": 7582459199,
+      "seq": 8420,
+      "identity": "https://go.vansh.nyc/Qn?s=y|Lyft|Software Engineer Intern, Backend|Montreal, Canada|Sep 11#1"
+    },
+    "fdbe49aff0bd": {
+      "company": "Lyft",
+      "role": "Software Engineer Intern, Machine Learning",
+      "location": "Toronto, Canada",
+      "term": "Sep 11",
+      "apply_url": "https://go.vansh.nyc/Qo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9690,
+      "chat_id": 7582459199,
+      "seq": 8421,
+      "identity": "https://go.vansh.nyc/Qo?s=y|Lyft|Software Engineer Intern, Machine Learning|Toronto, Canada|Sep 11#1"
+    },
+    "01f1117f1207": {
+      "company": "Lyft",
+      "role": "Software Engineer Intern, Backend",
+      "location": "Toronto, Canada",
+      "term": "Sep 11",
+      "apply_url": "https://go.vansh.nyc/Qp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9691,
+      "chat_id": 7582459199,
+      "seq": 8422,
+      "identity": "https://go.vansh.nyc/Qp?s=y|Lyft|Software Engineer Intern, Backend|Toronto, Canada|Sep 11#1"
+    },
+    "1b9ce98bc374": {
+      "company": "Lyft",
+      "role": "Software Engineer Intern, Fullstack",
+      "location": "Toronto, Canada",
+      "term": "Sep 11",
+      "apply_url": "https://go.vansh.nyc/Qq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9692,
+      "chat_id": 7582459199,
+      "seq": 8423,
+      "identity": "https://go.vansh.nyc/Qq?s=y|Lyft|Software Engineer Intern, Fullstack|Toronto, Canada|Sep 11#1"
+    },
+    "9d1d16105f4c": {
+      "company": "AQR Capital Management",
+      "role": "Arbitrage Research Analyst Intern, Arbitrage",
+      "location": "Greenwich, CT",
+      "term": "Aug 25",
+      "apply_url": "https://go.vansh.nyc/Qr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9693,
+      "chat_id": 7582459199,
+      "seq": 8424,
+      "identity": "https://go.vansh.nyc/Qr?s=y|AQR Capital Management|Arbitrage Research Analyst Intern, Arbitrage|Greenwich, CT|Aug 25#1"
     }
   },
   "applied": {
@@ -108027,10 +108147,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8414,
+  "seq": 8424,
   "health": {
     "last_heartbeat": "2026-10-26T15:00:23Z",
-    "last_ok_run": "2026-10-26T15:25:18Z",
+    "last_ok_run": "2026-10-26T15:30:43Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
