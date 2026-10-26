@@ -109112,6 +109112,30 @@
       "chat_id": 7582459199,
       "seq": 8535,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257656?s=gh-internships-2027|Northrop Grumman|2027 Software Engineering Intern - Beavercreek OH|United States-Ohio-Beavercreek|Summer 2027#1"
+    },
+    "a3301dece26e": {
+      "company": "Aerospace",
+      "role": "2027 Cloud Solutions Engineer / Site Reliability Grad Intern",
+      "location": "El Segundo, CA +2",
+      "term": "Other",
+      "apply_url": "https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Cloud-Solutions-Engineer---Site-Reliability-Grad-Intern_R016715",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 9805,
+      "chat_id": 7582459199,
+      "seq": 8536,
+      "identity": "https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Cloud-Solutions-Engineer---Site-Reliability-Grad-Intern_R016715|Aerospace|2027 Cloud Solutions Engineer / Site Reliability Grad Intern|El Segundo, CA +2|Other#1"
+    },
+    "080b6d81d9af": {
+      "company": "Hewlett Packard Enterprise",
+      "role": "AI/ML Developer Intern",
+      "location": "San Jose, CA",
+      "term": "Other",
+      "apply_url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/San-Jose-California/AI-ML-Developer-Intern_1217413",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 9806,
+      "chat_id": 7582459199,
+      "seq": 8537,
+      "identity": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/San-Jose-California/AI-ML-Developer-Intern_1217413|Hewlett Packard Enterprise|AI/ML Developer Intern|San Jose, CA|Other#1"
     }
   },
   "applied": {
@@ -109479,10 +109503,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8535,
+  "seq": 8537,
   "health": {
     "last_heartbeat": "2026-10-26T18:25:18Z",
-    "last_ok_run": "2026-10-26T18:30:23Z",
+    "last_ok_run": "2026-10-26T18:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
