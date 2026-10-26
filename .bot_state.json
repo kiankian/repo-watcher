@@ -109220,6 +109220,30 @@
       "chat_id": 7582459199,
       "seq": 8544,
       "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R69875?s=gh-internships-2027|Motorola Solutions|Presales Systems Engineer - Summer 2027 Internship|Allen, TX (TX139), More...|Summer 2027#1"
+    },
+    "a3f92d8fe8e4": {
+      "company": "Light & Wonder",
+      "role": "Software Engineering Intern",
+      "location": "Las Vegas, NV",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9814,
+      "chat_id": 7582459199,
+      "seq": 8545,
+      "identity": "NOURL|Light & Wonder|Software Engineering Intern|Las Vegas, NV|Oct 21#1"
+    },
+    "91f717614481": {
+      "company": "Light & Wonder",
+      "role": "Software Engineer Intern",
+      "location": "Las Vegas, NV",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9815,
+      "chat_id": 7582459199,
+      "seq": 8546,
+      "identity": "NOURL|Light & Wonder|Software Engineer Intern|Las Vegas, NV|Oct 21#1"
     }
   },
   "applied": {
@@ -109587,10 +109611,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8544,
+  "seq": 8546,
   "health": {
     "last_heartbeat": "2026-10-26T18:25:18Z",
-    "last_ok_run": "2026-10-26T19:35:17Z",
+    "last_ok_run": "2026-10-26T19:40:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
