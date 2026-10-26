@@ -5173,286 +5173,36 @@
       "https://go.vansh.nyc/9E?s=y|Cigna|Healthcare Analytics Intern|Morris Plains, NJ|Oct 15#1",
       "https://go.vansh.nyc/9C?s=y|Booz Allen Hamilton|Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA|Oct 15#1",
       "https://go.vansh.nyc/9D?s=y|Booz Allen Hamilton|Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA|Oct 15#1",
-      "https://go.vansh.nyc/9B?s=y|Ardian|Data Scientist Intern|New York, NY|Oct 15#1"
+      "https://go.vansh.nyc/9B?s=y|Ardian|Data Scientist Intern|New York, NY|Oct 15#1",
+      "https://go.vansh.nyc/aN?s=y|Apple|SoC Machine Learning Software Engineer Intern|Sunnyvale, CA|Oct 15#1",
+      "https://go.vansh.nyc/gk?s=y|AiDASH|Software Engineering Intern, Backend|Palo Alto, CA|Oct 15#1",
+      "https://go.vansh.nyc/9q?s=y|Zoox|Freeways Data Evaluation Intern|Foster City, CA|Oct 14#1",
+      "https://go.vansh.nyc/9p?s=y|Susquehanna International Group|Sell Side Research Rotational Program Intern|Remote (US)|Oct 14#1",
+      "https://go.vansh.nyc/9o?s=y|Snap|Generative Media Research Intern|Los Angeles, CA|Oct 14#1",
+      "https://go.vansh.nyc/aF?s=y|Skydio|Software Engineer Intern|San Mateo, CA|Oct 14#1",
+      "https://go.vansh.nyc/9n?s=y|QTS|Information Security Operations Analyst Intern \ud83c\uddfa\ud83c\uddf8|US GA Atlanta Suwanee 1 DC1|Oct 14#1",
+      "https://go.vansh.nyc/gi?s=y|Propio|Product Manager Intern|Overland Park, KS|Oct 14#1",
+      "https://go.vansh.nyc/9l?s=y|Point72|Fundamental Researcher Intern, Canvas|New York, NY|Oct 14#1",
+      "https://go.vansh.nyc/9m?s=y|Point72|Software Engineer Intern|New York, NY|Oct 14#1",
+      "https://go.vansh.nyc/9k?s=y|onsemi|Manufacturing AI Intern|Hopewell Junction, NY|Oct 14#1",
+      "https://go.vansh.nyc/9i?s=y|National Life|Data Science Intern \ud83d\udec2|Addison, TX Montpelier, VT|Oct 14#1",
+      "https://go.vansh.nyc/9h?s=y|Nasdaq|Intelligent Automation Intern|New York, NY|Oct 14#1",
+      "https://go.vansh.nyc/9g?s=y|Monolithic Power Systems|Applications Engineer Intern|San Jose, CA|Oct 14#1",
+      "https://go.vansh.nyc/gj?s=y|Lawrence Livermore National Laboratory (LLNL)|Power Systems Undergraduate Intern, Cyber and Critical Infrastructure|Livermore, CA|Oct 14#1",
+      "https://go.vansh.nyc/9f?s=y|KLA|Computer Vision/Machine Learning Intern|Milpitas, CA|Oct 14#1",
+      "https://go.vansh.nyc/9e?s=y|Kensington|Analytics Intern|Toronto, ON|Oct 14#1",
+      "https://go.vansh.nyc/9d?s=y|JPMorganChase|AI Research Associate Intern|New York, NY|Oct 14#1",
+      "https://go.vansh.nyc/9a?s=y|ICF International|AI Engineer Intern \ud83c\uddfa\ud83c\uddf8|Reston, VA|Oct 14#1",
+      "https://go.vansh.nyc/9b?s=y|ICF International|AI Engineer Intern|Reston, VA|Oct 14#1",
+      "https://go.vansh.nyc/9c?s=y|ICF International|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Reston, VA|Oct 14#1",
+      "https://go.vansh.nyc/98?s=y|General Dynamics Mission Systems|Software Engineer Intern, Crypto & Cross Domain Solutions \ud83c\uddfa\ud83c\uddf8|Scottsdale, AZ|Oct 14#1",
+      "https://go.vansh.nyc/99?s=y|General Dynamics Mission Systems|Software Engineer Intern, Crypto and Cross Domain Solutions \ud83c\uddfa\ud83c\uddf8|Taunton, MA|Oct 14#1",
+      "https://go.vansh.nyc/96?s=y|GE Vernova|Grid Foundational Models Intern, AGI \ud83d\udec2|Bellevue, WA|Oct 14#1",
+      "https://go.vansh.nyc/97?s=y|GE Vernova|AI Post-Training and Model Alignment Intern, AGI|Bellevue, WA|Oct 14#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 771,
     "outbox": [
-      [
-        [
-          "Apple",
-          "SoC Machine Learning Software Engineer Intern",
-          "Sunnyvale, CA",
-          "Oct 15",
-          "https://go.vansh.nyc/aN?s=y"
-        ],
-        "https://go.vansh.nyc/aN?s=y|Apple|SoC Machine Learning Software Engineer Intern|Sunnyvale, CA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "AiDASH",
-          "Software Engineering Intern, Backend",
-          "Palo Alto, CA",
-          "Oct 15",
-          "https://go.vansh.nyc/gk?s=y"
-        ],
-        "https://go.vansh.nyc/gk?s=y|AiDASH|Software Engineering Intern, Backend|Palo Alto, CA|Oct 15#1",
-        1
-      ],
-      [
-        [
-          "Zoox",
-          "Freeways Data Evaluation Intern",
-          "Foster City, CA",
-          "Oct 14",
-          "https://go.vansh.nyc/9q?s=y"
-        ],
-        "https://go.vansh.nyc/9q?s=y|Zoox|Freeways Data Evaluation Intern|Foster City, CA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Susquehanna International Group",
-          "Sell Side Research Rotational Program Intern",
-          "Remote (US)",
-          "Oct 14",
-          "https://go.vansh.nyc/9p?s=y"
-        ],
-        "https://go.vansh.nyc/9p?s=y|Susquehanna International Group|Sell Side Research Rotational Program Intern|Remote (US)|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Snap",
-          "Generative Media Research Intern",
-          "Los Angeles, CA",
-          "Oct 14",
-          "https://go.vansh.nyc/9o?s=y"
-        ],
-        "https://go.vansh.nyc/9o?s=y|Snap|Generative Media Research Intern|Los Angeles, CA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Skydio",
-          "Software Engineer Intern",
-          "San Mateo, CA",
-          "Oct 14",
-          "https://go.vansh.nyc/aF?s=y"
-        ],
-        "https://go.vansh.nyc/aF?s=y|Skydio|Software Engineer Intern|San Mateo, CA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "QTS",
-          "Information Security Operations Analyst Intern \ud83c\uddfa\ud83c\uddf8",
-          "US GA Atlanta Suwanee 1 DC1",
-          "Oct 14",
-          "https://go.vansh.nyc/9n?s=y"
-        ],
-        "https://go.vansh.nyc/9n?s=y|QTS|Information Security Operations Analyst Intern \ud83c\uddfa\ud83c\uddf8|US GA Atlanta Suwanee 1 DC1|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Propio",
-          "Product Manager Intern",
-          "Overland Park, KS",
-          "Oct 14",
-          "https://go.vansh.nyc/gi?s=y"
-        ],
-        "https://go.vansh.nyc/gi?s=y|Propio|Product Manager Intern|Overland Park, KS|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Point72",
-          "Fundamental Researcher Intern, Canvas",
-          "New York, NY",
-          "Oct 14",
-          "https://go.vansh.nyc/9l?s=y"
-        ],
-        "https://go.vansh.nyc/9l?s=y|Point72|Fundamental Researcher Intern, Canvas|New York, NY|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Point72",
-          "Software Engineer Intern",
-          "New York, NY",
-          "Oct 14",
-          "https://go.vansh.nyc/9m?s=y"
-        ],
-        "https://go.vansh.nyc/9m?s=y|Point72|Software Engineer Intern|New York, NY|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "onsemi",
-          "Manufacturing AI Intern",
-          "Hopewell Junction, NY",
-          "Oct 14",
-          "https://go.vansh.nyc/9k?s=y"
-        ],
-        "https://go.vansh.nyc/9k?s=y|onsemi|Manufacturing AI Intern|Hopewell Junction, NY|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "National Life",
-          "Data Science Intern \ud83d\udec2",
-          "Addison, TX Montpelier, VT",
-          "Oct 14",
-          "https://go.vansh.nyc/9i?s=y"
-        ],
-        "https://go.vansh.nyc/9i?s=y|National Life|Data Science Intern \ud83d\udec2|Addison, TX Montpelier, VT|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Nasdaq",
-          "Intelligent Automation Intern",
-          "New York, NY",
-          "Oct 14",
-          "https://go.vansh.nyc/9h?s=y"
-        ],
-        "https://go.vansh.nyc/9h?s=y|Nasdaq|Intelligent Automation Intern|New York, NY|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Monolithic Power Systems",
-          "Applications Engineer Intern",
-          "San Jose, CA",
-          "Oct 14",
-          "https://go.vansh.nyc/9g?s=y"
-        ],
-        "https://go.vansh.nyc/9g?s=y|Monolithic Power Systems|Applications Engineer Intern|San Jose, CA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Lawrence Livermore National Laboratory (LLNL)",
-          "Power Systems Undergraduate Intern, Cyber and Critical Infrastructure",
-          "Livermore, CA",
-          "Oct 14",
-          "https://go.vansh.nyc/gj?s=y"
-        ],
-        "https://go.vansh.nyc/gj?s=y|Lawrence Livermore National Laboratory (LLNL)|Power Systems Undergraduate Intern, Cyber and Critical Infrastructure|Livermore, CA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "KLA",
-          "Computer Vision/Machine Learning Intern",
-          "Milpitas, CA",
-          "Oct 14",
-          "https://go.vansh.nyc/9f?s=y"
-        ],
-        "https://go.vansh.nyc/9f?s=y|KLA|Computer Vision/Machine Learning Intern|Milpitas, CA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "Kensington",
-          "Analytics Intern",
-          "Toronto, ON",
-          "Oct 14",
-          "https://go.vansh.nyc/9e?s=y"
-        ],
-        "https://go.vansh.nyc/9e?s=y|Kensington|Analytics Intern|Toronto, ON|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "JPMorganChase",
-          "AI Research Associate Intern",
-          "New York, NY",
-          "Oct 14",
-          "https://go.vansh.nyc/9d?s=y"
-        ],
-        "https://go.vansh.nyc/9d?s=y|JPMorganChase|AI Research Associate Intern|New York, NY|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "ICF International",
-          "AI Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "Reston, VA",
-          "Oct 14",
-          "https://go.vansh.nyc/9a?s=y"
-        ],
-        "https://go.vansh.nyc/9a?s=y|ICF International|AI Engineer Intern \ud83c\uddfa\ud83c\uddf8|Reston, VA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "ICF International",
-          "AI Engineer Intern",
-          "Reston, VA",
-          "Oct 14",
-          "https://go.vansh.nyc/9b?s=y"
-        ],
-        "https://go.vansh.nyc/9b?s=y|ICF International|AI Engineer Intern|Reston, VA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "ICF International",
-          "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "Reston, VA",
-          "Oct 14",
-          "https://go.vansh.nyc/9c?s=y"
-        ],
-        "https://go.vansh.nyc/9c?s=y|ICF International|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Reston, VA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "General Dynamics Mission Systems",
-          "Software Engineer Intern, Crypto & Cross Domain Solutions \ud83c\uddfa\ud83c\uddf8",
-          "Scottsdale, AZ",
-          "Oct 14",
-          "https://go.vansh.nyc/98?s=y"
-        ],
-        "https://go.vansh.nyc/98?s=y|General Dynamics Mission Systems|Software Engineer Intern, Crypto & Cross Domain Solutions \ud83c\uddfa\ud83c\uddf8|Scottsdale, AZ|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "General Dynamics Mission Systems",
-          "Software Engineer Intern, Crypto and Cross Domain Solutions \ud83c\uddfa\ud83c\uddf8",
-          "Taunton, MA",
-          "Oct 14",
-          "https://go.vansh.nyc/99?s=y"
-        ],
-        "https://go.vansh.nyc/99?s=y|General Dynamics Mission Systems|Software Engineer Intern, Crypto and Cross Domain Solutions \ud83c\uddfa\ud83c\uddf8|Taunton, MA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "GE Vernova",
-          "Grid Foundational Models Intern, AGI \ud83d\udec2",
-          "Bellevue, WA",
-          "Oct 14",
-          "https://go.vansh.nyc/96?s=y"
-        ],
-        "https://go.vansh.nyc/96?s=y|GE Vernova|Grid Foundational Models Intern, AGI \ud83d\udec2|Bellevue, WA|Oct 14#1",
-        1
-      ],
-      [
-        [
-          "GE Vernova",
-          "AI Post-Training and Model Alignment Intern, AGI",
-          "Bellevue, WA",
-          "Oct 14",
-          "https://go.vansh.nyc/97?s=y"
-        ],
-        "https://go.vansh.nyc/97?s=y|GE Vernova|AI Post-Training and Model Alignment Intern, AGI|Bellevue, WA|Oct 14#1",
-        1
-      ],
       [
         [
           "Cboe Global Markets",
