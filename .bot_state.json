@@ -101744,6 +101744,66 @@
       "chat_id": 7582459199,
       "seq": 7921,
       "identity": "https://go.vansh.nyc/BN?s=y|Netflix|Software Engineer Intern|Los Gatos, CA|Oct 19#1"
+    },
+    "2d76e081ff06": {
+      "company": "Hook Music",
+      "role": "Data Intern",
+      "location": "New York, NY",
+      "term": "Oct 24",
+      "apply_url": "https://go.vansh.nyc/BV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9120,
+      "chat_id": 7582459199,
+      "seq": 7922,
+      "identity": "https://go.vansh.nyc/BV?s=y|Hook Music|Data Intern|New York, NY|Oct 24#1"
+    },
+    "3adcaf256dfc": {
+      "company": "DocuSign",
+      "role": "Software Developer Intern \ud83d\udec2",
+      "location": "San Francisco, CA",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/BU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9121,
+      "chat_id": 7582459199,
+      "seq": 7923,
+      "identity": "https://go.vansh.nyc/BU?s=y|DocuSign|Software Developer Intern \ud83d\udec2|San Francisco, CA|Oct 23#1"
+    },
+    "d73e3e27e451": {
+      "company": "Delta Dental Of Missouri",
+      "role": "Data Science Intern",
+      "location": "Fenton, MO",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/BT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9122,
+      "chat_id": 7582459199,
+      "seq": 7924,
+      "identity": "https://go.vansh.nyc/BT?s=y|Delta Dental Of Missouri|Data Science Intern|Fenton, MO|Oct 23#1"
+    },
+    "ad4856a489c8": {
+      "company": "DocuSign",
+      "role": "AI Platform Engineer Intern \ud83d\udec2",
+      "location": "San Francisco, CA",
+      "term": "Oct 22",
+      "apply_url": "https://go.vansh.nyc/BR?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9123,
+      "chat_id": 7582459199,
+      "seq": 7925,
+      "identity": "https://go.vansh.nyc/BR?s=y|DocuSign|AI Platform Engineer Intern \ud83d\udec2|San Francisco, CA|Oct 22#1"
+    },
+    "60ab63dfacb9": {
+      "company": "DocuSign",
+      "role": "Agentic AI Engineer Intern \ud83d\udec2",
+      "location": "San Francisco, CA",
+      "term": "Oct 22",
+      "apply_url": "https://go.vansh.nyc/BS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9124,
+      "chat_id": 7582459199,
+      "seq": 7926,
+      "identity": "https://go.vansh.nyc/BS?s=y|DocuSign|Agentic AI Engineer Intern \ud83d\udec2|San Francisco, CA|Oct 22#1"
     }
   },
   "applied": {
@@ -102111,10 +102171,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 7921,
+  "seq": 7926,
   "health": {
     "last_heartbeat": "2026-10-26T09:10:19Z",
-    "last_ok_run": "2026-10-26T10:10:17Z",
+    "last_ok_run": "2026-10-26T10:15:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
