@@ -107264,6 +107264,66 @@
       "chat_id": 7582459199,
       "seq": 8381,
       "identity": "https://go.vansh.nyc/OM?s=y|AMD|Software Test Engineering Co-op|San Jose, CA|Aug 24#1"
+    },
+    "78cf96cf469d": {
+      "company": "The Hartford",
+      "role": "Software Engineer Intern, Tech & Data Program",
+      "location": "Hartford, CT",
+      "term": "Aug 23",
+      "apply_url": "https://go.vansh.nyc/On?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9651,
+      "chat_id": 7582459199,
+      "seq": 8382,
+      "identity": "https://go.vansh.nyc/On?s=y|The Hartford|Software Engineer Intern, Tech & Data Program|Hartford, CT|Aug 23#1"
+    },
+    "3f414fdcb1da": {
+      "company": "The Hartford",
+      "role": "Data Engineer Intern, Technology, Data, AI, and Operations",
+      "location": "Hartford, CT",
+      "term": "Aug 23",
+      "apply_url": "https://go.vansh.nyc/Oo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9652,
+      "chat_id": 7582459199,
+      "seq": 8383,
+      "identity": "https://go.vansh.nyc/Oo?s=y|The Hartford|Data Engineer Intern, Technology, Data, AI, and Operations|Hartford, CT|Aug 23#1"
+    },
+    "618ad396383b": {
+      "company": "TikTok",
+      "role": "AI Product Manager Intern, Product Social",
+      "location": "San Jose, CA",
+      "term": "Aug 21",
+      "apply_url": "https://go.vansh.nyc/Om?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9653,
+      "chat_id": 7582459199,
+      "seq": 8384,
+      "identity": "https://go.vansh.nyc/Om?s=y|TikTok|AI Product Manager Intern, Product Social|San Jose, CA|Aug 21#1"
+    },
+    "d3c0c5974ac4": {
+      "company": "Auto-Owners Insurance",
+      "role": "Predictive Modeler Intern",
+      "location": "Lansing, MI",
+      "term": "Aug 20",
+      "apply_url": "https://go.vansh.nyc/Oh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9654,
+      "chat_id": 7582459199,
+      "seq": 8385,
+      "identity": "https://go.vansh.nyc/Oh?s=y|Auto-Owners Insurance|Predictive Modeler Intern|Lansing, MI|Aug 20#1"
+    },
+    "3a9b699bba87": {
+      "company": "Palantir Technologies",
+      "role": "Information Security Engineer Intern",
+      "location": "New York, NY",
+      "term": "Aug 2022",
+      "apply_url": "https://go.vansh.nyc/OK?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9655,
+      "chat_id": 7582459199,
+      "seq": 8386,
+      "identity": "https://go.vansh.nyc/OK?s=y|Palantir Technologies|Information Security Engineer Intern|New York, NY|Aug 2022#1"
     }
   },
   "applied": {
@@ -107631,10 +107691,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8381,
+  "seq": 8386,
   "health": {
     "last_heartbeat": "2026-10-26T12:50:17Z",
-    "last_ok_run": "2026-10-26T14:50:58Z",
+    "last_ok_run": "2026-10-26T14:55:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
