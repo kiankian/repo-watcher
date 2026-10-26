@@ -5348,286 +5348,36 @@
       "https://go.vansh.nyc/5R?s=y|Melius|Software Engineering Intern|New York City, NY|Aug 04#1",
       "https://go.vansh.nyc/5X?s=y|ByteDance|Software Engineer Intern, Distributed NoSQL Database Systems|San Jose, CA|Aug 04#1",
       "https://go.vansh.nyc/5W?s=y|ByteDance|Software Engineer Intern, Distributed NoSQL Database Systems|Seattle, WA|Aug 04#1",
-      "https://go.vansh.nyc/5Q?s=y|ByteDance|Software Engineer Intern, AI Platform \ud83d\udec2|San Jose, CA|Aug 04#1"
+      "https://go.vansh.nyc/5Q?s=y|ByteDance|Software Engineer Intern, AI Platform \ud83d\udec2|San Jose, CA|Aug 04#1",
+      "https://go.vansh.nyc/5H?s=y|Microsoft|Software Engineer Intern, CoreAI|Multiple Locations, United States|Aug 03#1",
+      "https://go.vansh.nyc/5B?s=y|HPR|Software Engineering Intern \ud83d\udec2|Needham, MA|Aug 03#1",
+      "https://go.vansh.nyc/5D?s=y|Heliux|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|Aug 03#1",
+      "https://go.vansh.nyc/5t?s=y|DRW|Software Developer Intern|Chicago, IL|Jul 31#1",
+      "https://go.vansh.nyc/5s?s=y|DRW|Software Developer Intern|Montr\u00e9al|Jul 31#1",
+      "https://go.vansh.nyc/5r?s=y|DRW|Quantitative Trading Analyst Intern|Chicago, IL|Jul 31#1",
+      "https://go.vansh.nyc/5q?s=y|DRW|Quantitative Research Intern|Chicago, IL New York City, NY|Jul 31#1",
+      "https://go.vansh.nyc/5p?s=y|DRW|Platform Engineer Intern|Chicago, IL|Jul 31#1",
+      "https://go.vansh.nyc/5o?s=y|DRW|AI/ML Research Intern|Montr\u00e9al|Jul 31#1",
+      "https://go.vansh.nyc/5n?s=y|DRW|FPGA Intern|Chicago, IL|Jul 31#1",
+      "https://go.vansh.nyc/5b?s=y|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
+      "https://go.vansh.nyc/5a?s=y|Chicago Trading Company|Quant Trading Intern|Chicago, IL|Jul 27#1",
+      "https://go.vansh.nyc/56?s=y|Appian|Information Security Engineer Intern \ud83d\udec2|McLean, VA|Jul 27#1",
+      "https://go.vansh.nyc/4Q?s=y|Virtu Financial|Software Engineer Intern|Austin, TX New York|Jul 26#1",
+      "https://go.vansh.nyc/4R?s=y|Virtu|Quantitative Trading Intern|Austin, TX Chicago, IL New York, NY|Jul 26#1",
+      "https://go.vansh.nyc/4V?s=y|Stevens Capital Management|Quantitative Research Analyst Internship|Radnor, PA|Jul 26#1",
+      "https://go.vansh.nyc/4K?s=y|Quadrillion Labs|Software Engineering Intern|New York, NY|Jul 26#1",
+      "https://go.vansh.nyc/4J?s=y|PDT Partners|Software Engineering Intern|New York, NY|Jul 26#1",
+      "https://go.vansh.nyc/4M?s=y|Appian|Software Engineering Intern \ud83d\udec2|McLean, VA|Jul 26#1",
+      "https://go.vansh.nyc/3R?s=y|Radix Trading|Quantitative Technologist Intern, C++|Chicago, IL|Jul 24#1",
+      "https://go.vansh.nyc/4t?s=y|Palantir Technologies|Software Engineer Intern, Production Infrastructure|Seattle, WA|Jul 24#1",
+      "https://go.vansh.nyc/4q?s=y|Palantir Technologies|Software Engineer Intern, Infrastructure|New York, NY|Jul 24#1",
+      "https://go.vansh.nyc/4l?s=y|Palantir Technologies|Software Engineer Intern|New York, NY|Jul 24#1",
+      "https://go.vansh.nyc/4k?s=y|Palantir Technologies|Software Engineer Intern|Washington, D.C.|Jul 24#1",
+      "https://go.vansh.nyc/4j?s=y|Palantir Technologies|Software Engineer Intern|Palo Alto, CA|Jul 24#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 771,
     "outbox": [
-      [
-        [
-          "Microsoft",
-          "Software Engineer Intern, CoreAI",
-          "Multiple Locations, United States",
-          "Aug 03",
-          "https://go.vansh.nyc/5H?s=y"
-        ],
-        "https://go.vansh.nyc/5H?s=y|Microsoft|Software Engineer Intern, CoreAI|Multiple Locations, United States|Aug 03#1",
-        1
-      ],
-      [
-        [
-          "HPR",
-          "Software Engineering Intern \ud83d\udec2",
-          "Needham, MA",
-          "Aug 03",
-          "https://go.vansh.nyc/5B?s=y"
-        ],
-        "https://go.vansh.nyc/5B?s=y|HPR|Software Engineering Intern \ud83d\udec2|Needham, MA|Aug 03#1",
-        1
-      ],
-      [
-        [
-          "Heliux",
-          "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "San Francisco, CA",
-          "Aug 03",
-          "https://go.vansh.nyc/5D?s=y"
-        ],
-        "https://go.vansh.nyc/5D?s=y|Heliux|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|Aug 03#1",
-        1
-      ],
-      [
-        [
-          "DRW",
-          "Software Developer Intern",
-          "Chicago, IL",
-          "Jul 31",
-          "https://go.vansh.nyc/5t?s=y"
-        ],
-        "https://go.vansh.nyc/5t?s=y|DRW|Software Developer Intern|Chicago, IL|Jul 31#1",
-        1
-      ],
-      [
-        [
-          "DRW",
-          "Software Developer Intern",
-          "Montr\u00e9al",
-          "Jul 31",
-          "https://go.vansh.nyc/5s?s=y"
-        ],
-        "https://go.vansh.nyc/5s?s=y|DRW|Software Developer Intern|Montr\u00e9al|Jul 31#1",
-        1
-      ],
-      [
-        [
-          "DRW",
-          "Quantitative Trading Analyst Intern",
-          "Chicago, IL",
-          "Jul 31",
-          "https://go.vansh.nyc/5r?s=y"
-        ],
-        "https://go.vansh.nyc/5r?s=y|DRW|Quantitative Trading Analyst Intern|Chicago, IL|Jul 31#1",
-        1
-      ],
-      [
-        [
-          "DRW",
-          "Quantitative Research Intern",
-          "Chicago, IL New York City, NY",
-          "Jul 31",
-          "https://go.vansh.nyc/5q?s=y"
-        ],
-        "https://go.vansh.nyc/5q?s=y|DRW|Quantitative Research Intern|Chicago, IL New York City, NY|Jul 31#1",
-        1
-      ],
-      [
-        [
-          "DRW",
-          "Platform Engineer Intern",
-          "Chicago, IL",
-          "Jul 31",
-          "https://go.vansh.nyc/5p?s=y"
-        ],
-        "https://go.vansh.nyc/5p?s=y|DRW|Platform Engineer Intern|Chicago, IL|Jul 31#1",
-        1
-      ],
-      [
-        [
-          "DRW",
-          "AI/ML Research Intern",
-          "Montr\u00e9al",
-          "Jul 31",
-          "https://go.vansh.nyc/5o?s=y"
-        ],
-        "https://go.vansh.nyc/5o?s=y|DRW|AI/ML Research Intern|Montr\u00e9al|Jul 31#1",
-        1
-      ],
-      [
-        [
-          "DRW",
-          "FPGA Intern",
-          "Chicago, IL",
-          "Jul 31",
-          "https://go.vansh.nyc/5n?s=y"
-        ],
-        "https://go.vansh.nyc/5n?s=y|DRW|FPGA Intern|Chicago, IL|Jul 31#1",
-        1
-      ],
-      [
-        [
-          "Chicago Trading Company",
-          "Software Engineer Intern",
-          "Chicago, IL",
-          "Jul 27",
-          "https://go.vansh.nyc/5b?s=y"
-        ],
-        "https://go.vansh.nyc/5b?s=y|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
-        1
-      ],
-      [
-        [
-          "Chicago Trading Company",
-          "Quant Trading Intern",
-          "Chicago, IL",
-          "Jul 27",
-          "https://go.vansh.nyc/5a?s=y"
-        ],
-        "https://go.vansh.nyc/5a?s=y|Chicago Trading Company|Quant Trading Intern|Chicago, IL|Jul 27#1",
-        1
-      ],
-      [
-        [
-          "Appian",
-          "Information Security Engineer Intern \ud83d\udec2",
-          "McLean, VA",
-          "Jul 27",
-          "https://go.vansh.nyc/56?s=y"
-        ],
-        "https://go.vansh.nyc/56?s=y|Appian|Information Security Engineer Intern \ud83d\udec2|McLean, VA|Jul 27#1",
-        1
-      ],
-      [
-        [
-          "Virtu Financial",
-          "Software Engineer Intern",
-          "Austin, TX New York",
-          "Jul 26",
-          "https://go.vansh.nyc/4Q?s=y"
-        ],
-        "https://go.vansh.nyc/4Q?s=y|Virtu Financial|Software Engineer Intern|Austin, TX New York|Jul 26#1",
-        1
-      ],
-      [
-        [
-          "Virtu",
-          "Quantitative Trading Intern",
-          "Austin, TX Chicago, IL New York, NY",
-          "Jul 26",
-          "https://go.vansh.nyc/4R?s=y"
-        ],
-        "https://go.vansh.nyc/4R?s=y|Virtu|Quantitative Trading Intern|Austin, TX Chicago, IL New York, NY|Jul 26#1",
-        1
-      ],
-      [
-        [
-          "Stevens Capital Management",
-          "Quantitative Research Analyst Internship",
-          "Radnor, PA",
-          "Jul 26",
-          "https://go.vansh.nyc/4V?s=y"
-        ],
-        "https://go.vansh.nyc/4V?s=y|Stevens Capital Management|Quantitative Research Analyst Internship|Radnor, PA|Jul 26#1",
-        1
-      ],
-      [
-        [
-          "Quadrillion Labs",
-          "Software Engineering Intern",
-          "New York, NY",
-          "Jul 26",
-          "https://go.vansh.nyc/4K?s=y"
-        ],
-        "https://go.vansh.nyc/4K?s=y|Quadrillion Labs|Software Engineering Intern|New York, NY|Jul 26#1",
-        1
-      ],
-      [
-        [
-          "PDT Partners",
-          "Software Engineering Intern",
-          "New York, NY",
-          "Jul 26",
-          "https://go.vansh.nyc/4J?s=y"
-        ],
-        "https://go.vansh.nyc/4J?s=y|PDT Partners|Software Engineering Intern|New York, NY|Jul 26#1",
-        1
-      ],
-      [
-        [
-          "Appian",
-          "Software Engineering Intern \ud83d\udec2",
-          "McLean, VA",
-          "Jul 26",
-          "https://go.vansh.nyc/4M?s=y"
-        ],
-        "https://go.vansh.nyc/4M?s=y|Appian|Software Engineering Intern \ud83d\udec2|McLean, VA|Jul 26#1",
-        1
-      ],
-      [
-        [
-          "Radix Trading",
-          "Quantitative Technologist Intern, C++",
-          "Chicago, IL",
-          "Jul 24",
-          "https://go.vansh.nyc/3R?s=y"
-        ],
-        "https://go.vansh.nyc/3R?s=y|Radix Trading|Quantitative Technologist Intern, C++|Chicago, IL|Jul 24#1",
-        1
-      ],
-      [
-        [
-          "Palantir Technologies",
-          "Software Engineer Intern, Production Infrastructure",
-          "Seattle, WA",
-          "Jul 24",
-          "https://go.vansh.nyc/4t?s=y"
-        ],
-        "https://go.vansh.nyc/4t?s=y|Palantir Technologies|Software Engineer Intern, Production Infrastructure|Seattle, WA|Jul 24#1",
-        1
-      ],
-      [
-        [
-          "Palantir Technologies",
-          "Software Engineer Intern, Infrastructure",
-          "New York, NY",
-          "Jul 24",
-          "https://go.vansh.nyc/4q?s=y"
-        ],
-        "https://go.vansh.nyc/4q?s=y|Palantir Technologies|Software Engineer Intern, Infrastructure|New York, NY|Jul 24#1",
-        1
-      ],
-      [
-        [
-          "Palantir Technologies",
-          "Software Engineer Intern",
-          "New York, NY",
-          "Jul 24",
-          "https://go.vansh.nyc/4l?s=y"
-        ],
-        "https://go.vansh.nyc/4l?s=y|Palantir Technologies|Software Engineer Intern|New York, NY|Jul 24#1",
-        1
-      ],
-      [
-        [
-          "Palantir Technologies",
-          "Software Engineer Intern",
-          "Washington, D.C.",
-          "Jul 24",
-          "https://go.vansh.nyc/4k?s=y"
-        ],
-        "https://go.vansh.nyc/4k?s=y|Palantir Technologies|Software Engineer Intern|Washington, D.C.|Jul 24#1",
-        1
-      ],
-      [
-        [
-          "Palantir Technologies",
-          "Software Engineer Intern",
-          "Palo Alto, CA",
-          "Jul 24",
-          "https://go.vansh.nyc/4j?s=y"
-        ],
-        "https://go.vansh.nyc/4j?s=y|Palantir Technologies|Software Engineer Intern|Palo Alto, CA|Jul 24#1",
-        1
-      ],
       [
         [
           "Old Mission",
