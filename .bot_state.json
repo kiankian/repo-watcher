@@ -104696,6 +104696,18 @@
       "chat_id": 7582459199,
       "seq": 8167,
       "identity": "NOURL|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1"
+    },
+    "7b8bf1f7046b": {
+      "company": "Wells Fargo",
+      "role": "2027 Technology Summer Internship - Early Careers (Cybersecurity)",
+      "location": "CHARLOTTE, NC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-583417?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9366,
+      "chat_id": 7582459199,
+      "seq": 8168,
+      "identity": "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-583417?s=gh-internships-2027|Wells Fargo|2027 Technology Summer Internship - Early Careers (Cybersecurity)|CHARLOTTE, NC|Summer 2027#1"
     }
   },
   "applied": {
@@ -105063,10 +105075,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8167,
+  "seq": 8168,
   "health": {
     "last_heartbeat": "2026-10-26T12:50:17Z",
-    "last_ok_run": "2026-10-26T12:50:17Z",
+    "last_ok_run": "2026-10-26T12:55:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
