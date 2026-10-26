@@ -5659,287 +5659,36 @@
       "https://go.vansh.nyc/H2?s=y|Oceaneering|IT Security Architecture Intern|Houston, TX|Sep 30#1",
       "https://go.vansh.nyc/Ed?s=y|NJM Insurance Group|IT Data Administration Intern|Trenton, NJ|Sep 30#1",
       "https://go.vansh.nyc/E3?s=y|Muon Space|Flight Software Engineer Intern|San Jose, CA|Sep 30#1",
-      "https://go.vansh.nyc/Ef?s=y|Micron Technology|DRAM Architecture Intern|San Jose, CA Boise, ID|Sep 30#1"
+      "https://go.vansh.nyc/Ef?s=y|Micron Technology|DRAM Architecture Intern|San Jose, CA Boise, ID|Sep 30#1",
+      "https://go.vansh.nyc/E7?s=y|MetLife|Global Technology Intern|**4 locations**Tampa, FL Hanover, NJ Cary, NC New York, NY|Sep 30#1",
+      "https://go.vansh.nyc/E8?s=y|MetLife|Data & Analytics Intern|Cary, NC|Sep 30#1",
+      "https://go.vansh.nyc/E9?s=y|CoStar Group|Technology Intern|Sunnyvale, CA|Sep 30#1",
+      "https://go.vansh.nyc/Ea?s=y|CoStar Group|Embedded Software Engineer Intern|Sunnyvale, CA|Sep 30#1",
+      "https://go.vansh.nyc/Ee?s=y|CoStar Group|Associate Embedded Software Engineer Intern|Sunnyvale, CA|Sep 30#1",
+      "https://go.vansh.nyc/Eb?s=y|Cigna|Product Analytics Intern|Morris Plains, NJ St. Louis, MO|Sep 30#1",
+      "https://go.vansh.nyc/Ec?s=y|CACI|Software Development/Engineer Intern|Remote United States|Sep 30#1",
+      "https://go.vansh.nyc/DY?s=y|Westinghouse Electric Company|Software Developer Intern, Tools & Apps|Warrendale, PA|Sep 29#1",
+      "https://go.vansh.nyc/H0?s=y|SAS|Data Science Research Intern|Bloomington, MN|Sep 29#1",
+      "https://go.vansh.nyc/GZ?s=y|Oceaneering|Cybersecurity SOC Intern|Houston, TX|Sep 29#1",
+      "https://go.vansh.nyc/E1?s=y|Marvell|Firmware Engineer Intern|Santa Clara, CA Westlake Village, CA|Sep 29#1",
+      "https://go.vansh.nyc/DZ?s=y|John Deere|Software Engineer Intern|Champaign, IL|Sep 29#1",
+      "https://go.vansh.nyc/GW?s=y|Itron|Artificial Intelligence Intern|Liberty Lake, WA Raleigh, NC Austin, TX|Sep 29#1",
+      "https://go.vansh.nyc/E0?s=y|Enova|Software Engineer Intern|Chicago, IL|Sep 29#1",
+      "https://go.vansh.nyc/GX?s=y|DotDash Meredith|Cloud Platform Engineering Intern|Edmonton, Canada Remote Canada|Sep 29#1",
+      "https://go.vansh.nyc/E2?s=y|AMCA|Software Engineer Intern|El Segundo, CA|Sep 29#1",
+      "https://go.vansh.nyc/DX?s=y|Acuity|Finance AI Engineering Intern|Atlanta, GA|Sep 29#1",
+      "https://go.vansh.nyc/DO?s=y|UL Solutions|Data Science Intern|Northbrook, IL Chicago, IL|Sep 28#1",
+      "https://go.vansh.nyc/DU?s=y|Thrivent|Application Engineer Intern, Investments|Minneapolis, MN|Sep 28#1",
+      "https://go.vansh.nyc/DS?s=y|Qualcomm|Soft IP ASIC Engineer Intern|Ottawa, Canada|Sep 28#1",
+      "https://go.vansh.nyc/DT?s=y|Qualcomm|Silicon Engineering Intern|Toronto, Canada|Sep 28#1",
+      "https://go.vansh.nyc/DQ?s=y|onsemi|Integrated Circuit Design Engineer Intern|Allen, TX|Sep 28#1",
+      "https://go.vansh.nyc/DP?s=y|L3Harris Technologies|Software Engineer Intern|Clinton, MD Clifton, NJ|Sep 28#1",
+      "https://go.vansh.nyc/DR?s=y|Constellation Energy|Quantitative Analytics & Data Science Intern|Baltimore, MD|Sep 28#1",
+      "NOURL|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 1018,
-    "outbox": [
-      [
-        [
-          "MetLife",
-          "Global Technology Intern",
-          "**4 locations**Tampa, FL Hanover, NJ Cary, NC New York, NY",
-          "Sep 30",
-          "https://go.vansh.nyc/E7?s=y"
-        ],
-        "https://go.vansh.nyc/E7?s=y|MetLife|Global Technology Intern|**4 locations**Tampa, FL Hanover, NJ Cary, NC New York, NY|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "MetLife",
-          "Data & Analytics Intern",
-          "Cary, NC",
-          "Sep 30",
-          "https://go.vansh.nyc/E8?s=y"
-        ],
-        "https://go.vansh.nyc/E8?s=y|MetLife|Data & Analytics Intern|Cary, NC|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "CoStar Group",
-          "Technology Intern",
-          "Sunnyvale, CA",
-          "Sep 30",
-          "https://go.vansh.nyc/E9?s=y"
-        ],
-        "https://go.vansh.nyc/E9?s=y|CoStar Group|Technology Intern|Sunnyvale, CA|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "CoStar Group",
-          "Embedded Software Engineer Intern",
-          "Sunnyvale, CA",
-          "Sep 30",
-          "https://go.vansh.nyc/Ea?s=y"
-        ],
-        "https://go.vansh.nyc/Ea?s=y|CoStar Group|Embedded Software Engineer Intern|Sunnyvale, CA|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "CoStar Group",
-          "Associate Embedded Software Engineer Intern",
-          "Sunnyvale, CA",
-          "Sep 30",
-          "https://go.vansh.nyc/Ee?s=y"
-        ],
-        "https://go.vansh.nyc/Ee?s=y|CoStar Group|Associate Embedded Software Engineer Intern|Sunnyvale, CA|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "Cigna",
-          "Product Analytics Intern",
-          "Morris Plains, NJ St. Louis, MO",
-          "Sep 30",
-          "https://go.vansh.nyc/Eb?s=y"
-        ],
-        "https://go.vansh.nyc/Eb?s=y|Cigna|Product Analytics Intern|Morris Plains, NJ St. Louis, MO|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "CACI",
-          "Software Development/Engineer Intern",
-          "Remote United States",
-          "Sep 30",
-          "https://go.vansh.nyc/Ec?s=y"
-        ],
-        "https://go.vansh.nyc/Ec?s=y|CACI|Software Development/Engineer Intern|Remote United States|Sep 30#1",
-        1
-      ],
-      [
-        [
-          "Westinghouse Electric Company",
-          "Software Developer Intern, Tools & Apps",
-          "Warrendale, PA",
-          "Sep 29",
-          "https://go.vansh.nyc/DY?s=y"
-        ],
-        "https://go.vansh.nyc/DY?s=y|Westinghouse Electric Company|Software Developer Intern, Tools & Apps|Warrendale, PA|Sep 29#1",
-        1
-      ],
-      [
-        [
-          "SAS",
-          "Data Science Research Intern",
-          "Bloomington, MN",
-          "Sep 29",
-          "https://go.vansh.nyc/H0?s=y"
-        ],
-        "https://go.vansh.nyc/H0?s=y|SAS|Data Science Research Intern|Bloomington, MN|Sep 29#1",
-        1
-      ],
-      [
-        [
-          "Oceaneering",
-          "Cybersecurity SOC Intern",
-          "Houston, TX",
-          "Sep 29",
-          "https://go.vansh.nyc/GZ?s=y"
-        ],
-        "https://go.vansh.nyc/GZ?s=y|Oceaneering|Cybersecurity SOC Intern|Houston, TX|Sep 29#1",
-        1
-      ],
-      [
-        [
-          "Marvell",
-          "Firmware Engineer Intern",
-          "Santa Clara, CA Westlake Village, CA",
-          "Sep 29",
-          "https://go.vansh.nyc/E1?s=y"
-        ],
-        "https://go.vansh.nyc/E1?s=y|Marvell|Firmware Engineer Intern|Santa Clara, CA Westlake Village, CA|Sep 29#1",
-        1
-      ],
-      [
-        [
-          "John Deere",
-          "Software Engineer Intern",
-          "Champaign, IL",
-          "Sep 29",
-          "https://go.vansh.nyc/DZ?s=y"
-        ],
-        "https://go.vansh.nyc/DZ?s=y|John Deere|Software Engineer Intern|Champaign, IL|Sep 29#1",
-        1
-      ],
-      [
-        [
-          "Itron",
-          "Artificial Intelligence Intern",
-          "Liberty Lake, WA Raleigh, NC Austin, TX",
-          "Sep 29",
-          "https://go.vansh.nyc/GW?s=y"
-        ],
-        "https://go.vansh.nyc/GW?s=y|Itron|Artificial Intelligence Intern|Liberty Lake, WA Raleigh, NC Austin, TX|Sep 29#1",
-        1
-      ],
-      [
-        [
-          "Enova",
-          "Software Engineer Intern",
-          "Chicago, IL",
-          "Sep 29",
-          "https://go.vansh.nyc/E0?s=y"
-        ],
-        "https://go.vansh.nyc/E0?s=y|Enova|Software Engineer Intern|Chicago, IL|Sep 29#1",
-        1
-      ],
-      [
-        [
-          "DotDash Meredith",
-          "Cloud Platform Engineering Intern",
-          "Edmonton, Canada Remote Canada",
-          "Sep 29",
-          "https://go.vansh.nyc/GX?s=y"
-        ],
-        "https://go.vansh.nyc/GX?s=y|DotDash Meredith|Cloud Platform Engineering Intern|Edmonton, Canada Remote Canada|Sep 29#1",
-        1
-      ],
-      [
-        [
-          "AMCA",
-          "Software Engineer Intern",
-          "El Segundo, CA",
-          "Sep 29",
-          "https://go.vansh.nyc/E2?s=y"
-        ],
-        "https://go.vansh.nyc/E2?s=y|AMCA|Software Engineer Intern|El Segundo, CA|Sep 29#1",
-        1
-      ],
-      [
-        [
-          "Acuity",
-          "Finance AI Engineering Intern",
-          "Atlanta, GA",
-          "Sep 29",
-          "https://go.vansh.nyc/DX?s=y"
-        ],
-        "https://go.vansh.nyc/DX?s=y|Acuity|Finance AI Engineering Intern|Atlanta, GA|Sep 29#1",
-        1
-      ],
-      [
-        [
-          "UL Solutions",
-          "Data Science Intern",
-          "Northbrook, IL Chicago, IL",
-          "Sep 28",
-          "https://go.vansh.nyc/DO?s=y"
-        ],
-        "https://go.vansh.nyc/DO?s=y|UL Solutions|Data Science Intern|Northbrook, IL Chicago, IL|Sep 28#1",
-        1
-      ],
-      [
-        [
-          "Thrivent",
-          "Application Engineer Intern, Investments",
-          "Minneapolis, MN",
-          "Sep 28",
-          "https://go.vansh.nyc/DU?s=y"
-        ],
-        "https://go.vansh.nyc/DU?s=y|Thrivent|Application Engineer Intern, Investments|Minneapolis, MN|Sep 28#1",
-        1
-      ],
-      [
-        [
-          "Qualcomm",
-          "Soft IP ASIC Engineer Intern",
-          "Ottawa, Canada",
-          "Sep 28",
-          "https://go.vansh.nyc/DS?s=y"
-        ],
-        "https://go.vansh.nyc/DS?s=y|Qualcomm|Soft IP ASIC Engineer Intern|Ottawa, Canada|Sep 28#1",
-        1
-      ],
-      [
-        [
-          "Qualcomm",
-          "Silicon Engineering Intern",
-          "Toronto, Canada",
-          "Sep 28",
-          "https://go.vansh.nyc/DT?s=y"
-        ],
-        "https://go.vansh.nyc/DT?s=y|Qualcomm|Silicon Engineering Intern|Toronto, Canada|Sep 28#1",
-        1
-      ],
-      [
-        [
-          "onsemi",
-          "Integrated Circuit Design Engineer Intern",
-          "Allen, TX",
-          "Sep 28",
-          "https://go.vansh.nyc/DQ?s=y"
-        ],
-        "https://go.vansh.nyc/DQ?s=y|onsemi|Integrated Circuit Design Engineer Intern|Allen, TX|Sep 28#1",
-        1
-      ],
-      [
-        [
-          "L3Harris Technologies",
-          "Software Engineer Intern",
-          "Clinton, MD Clifton, NJ",
-          "Sep 28",
-          "https://go.vansh.nyc/DP?s=y"
-        ],
-        "https://go.vansh.nyc/DP?s=y|L3Harris Technologies|Software Engineer Intern|Clinton, MD Clifton, NJ|Sep 28#1",
-        1
-      ],
-      [
-        [
-          "Constellation Energy",
-          "Quantitative Analytics & Data Science Intern",
-          "Baltimore, MD",
-          "Sep 28",
-          "https://go.vansh.nyc/DR?s=y"
-        ],
-        "https://go.vansh.nyc/DR?s=y|Constellation Energy|Quantitative Analytics & Data Science Intern|Baltimore, MD|Sep 28#1",
-        1
-      ],
-      [
-        [
-          "Astreya",
-          "AI Infrastructure DC Design Intern",
-          "Remote (US)",
-          "Oct 14",
-          ""
-        ],
-        "NOURL|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
-        1
-      ]
-    ]
+    "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
     "last_sha": "4a20c782179f0fa38613a92dc1c9d5b149026954",
