@@ -2737,7 +2737,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "01aced13c87b4ef0f30e525d30742c31c3cdb307",
+    "last_sha": "073e129a35e55a681fcc272123d6c140e5b4c392",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -6186,14 +6186,21 @@
       "https://go.vansh.nyc/W9?s=y|Sonos|Software Engineering Intern \ud83d\udec2|Seattle, WA|Oct 27#1",
       "https://go.vansh.nyc/Wa?s=y|Sonos|Data Quality Intern \ud83d\udec2|Boston, MA|Oct 27#1",
       "https://go.vansh.nyc/Wb?s=y|Amazon Development Center U.S., Inc. - B02|Database Engineer Intern|Seattle, WA|Oct 26#1",
-      "https://go.vansh.nyc/Wd?s=y|National Interstate Insurance|Data Engineering Intern|Cincinnati, OH|Oct 27#1"
+      "https://go.vansh.nyc/Wd?s=y|National Interstate Insurance|Data Engineering Intern|Cincinnati, OH|Oct 27#1",
+      "https://go.vansh.nyc/Wg?s=y|National Interstate Insurance|Data Automation Intern|Cincinnati, OH|Oct 27#1",
+      "https://go.vansh.nyc/Wh?s=y|National Interstate Insurance|Emerging Technology Intern|Cincinnati, OH|Oct 27#1",
+      "https://go.vansh.nyc/Wi?s=y|National Interstate Insurance|Platform Operations Developer Intern|Cincinnati, OH|Oct 27#1",
+      "https://go.vansh.nyc/Wj?s=y|National Interstate Insurance|Data Application Development Intern|Cincinnati, OH|Oct 27#1",
+      "NOURL|Royal Bank of Canada|Developer Intern|Halifax, Canada|Oct 25#1",
+      "NOURL|Royal Bank of Canada|Data Engineer Intern|Halifax, Canada|Oct 25#1",
+      "NOURL|Akuna Capital|Entry-Level Software Engineer Intern, C++|Chicago, IL|Oct 06#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 1426,
+    "last_row_count": 1430,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "ddaed79a200a50c08a8332e614b4edf581788c2a",
+    "last_sha": "7aaa8e55a846847eb944c1bb52a6531d689a6d1d",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -8530,7 +8537,9 @@
       "https://zapply.jobs/l/d/workday-hp-externalcareersite-UNI4799?s=gh-internships-2027|HP Inc|Cloud Engineering Intern - HP IQ|San Francisco, California,...|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257892?s=gh-internships-2027|Northrop Grumman|2027 Systems Engineering Intern - Aurora CO|United States-Colorado-Aurora|Summer 2027#1",
       "https://zapply.jobs/l/d/oracle-texas-instruments-25018753?s=gh-internships-2027|Texas Instruments|Web Marketing Intern - Front-end Developer|Dallas, TX, United States|Summer 2027#1",
-      "https://zapply.jobs/l/d/oracle-emerson-electric-26010630?s=gh-internships-2027|Emerson Electric|Software Engineering Intern|Austin, TX, United States|Summer 2027#1"
+      "https://zapply.jobs/l/d/oracle-emerson-electric-26010630?s=gh-internships-2027|Emerson Electric|Software Engineering Intern|Austin, TX, United States|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01884435?s=gh-internships-2027|RTX|Systems Engineering Co-op|FL-ST PETERSBURG|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257903?s=gh-internships-2027|Northrop Grumman|2027 Software Engineer Intern - Azusa CA|United States-California-Azusa|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",

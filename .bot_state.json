@@ -111932,6 +111932,114 @@
       "chat_id": 7582459199,
       "seq": 8770,
       "identity": "https://zapply.jobs/l/d/oracle-emerson-electric-26010630?s=gh-internships-2027|Emerson Electric|Software Engineering Intern|Austin, TX, United States|Summer 2027#1"
+    },
+    "e3c9f8d6437b": {
+      "company": "National Interstate Insurance",
+      "role": "Data Automation Intern",
+      "location": "Cincinnati, OH",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Wg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10040,
+      "chat_id": 7582459199,
+      "seq": 8771,
+      "identity": "https://go.vansh.nyc/Wg?s=y|National Interstate Insurance|Data Automation Intern|Cincinnati, OH|Oct 27#1"
+    },
+    "c5099d89f88c": {
+      "company": "National Interstate Insurance",
+      "role": "Emerging Technology Intern",
+      "location": "Cincinnati, OH",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Wh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10041,
+      "chat_id": 7582459199,
+      "seq": 8772,
+      "identity": "https://go.vansh.nyc/Wh?s=y|National Interstate Insurance|Emerging Technology Intern|Cincinnati, OH|Oct 27#1"
+    },
+    "13090a79b2a1": {
+      "company": "National Interstate Insurance",
+      "role": "Platform Operations Developer Intern",
+      "location": "Cincinnati, OH",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Wi?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10042,
+      "chat_id": 7582459199,
+      "seq": 8773,
+      "identity": "https://go.vansh.nyc/Wi?s=y|National Interstate Insurance|Platform Operations Developer Intern|Cincinnati, OH|Oct 27#1"
+    },
+    "964976abbb8f": {
+      "company": "National Interstate Insurance",
+      "role": "Data Application Development Intern",
+      "location": "Cincinnati, OH",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Wj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10043,
+      "chat_id": 7582459199,
+      "seq": 8774,
+      "identity": "https://go.vansh.nyc/Wj?s=y|National Interstate Insurance|Data Application Development Intern|Cincinnati, OH|Oct 27#1"
+    },
+    "12d54a88d7ae": {
+      "company": "Royal Bank of Canada",
+      "role": "Developer Intern",
+      "location": "Halifax, Canada",
+      "term": "Oct 25",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10044,
+      "chat_id": 7582459199,
+      "seq": 8775,
+      "identity": "NOURL|Royal Bank of Canada|Developer Intern|Halifax, Canada|Oct 25#1"
+    },
+    "e8196921a8e9": {
+      "company": "Royal Bank of Canada",
+      "role": "Data Engineer Intern",
+      "location": "Halifax, Canada",
+      "term": "Oct 25",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10045,
+      "chat_id": 7582459199,
+      "seq": 8776,
+      "identity": "NOURL|Royal Bank of Canada|Data Engineer Intern|Halifax, Canada|Oct 25#1"
+    },
+    "1e478048c414": {
+      "company": "Akuna Capital",
+      "role": "Entry-Level Software Engineer Intern, C++",
+      "location": "Chicago, IL",
+      "term": "Oct 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10046,
+      "chat_id": 7582459199,
+      "seq": 8777,
+      "identity": "NOURL|Akuna Capital|Entry-Level Software Engineer Intern, C++|Chicago, IL|Oct 06#1"
+    },
+    "ec10bd46a73e": {
+      "company": "RTX",
+      "role": "Systems Engineering Co-op",
+      "location": "FL-ST PETERSBURG",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01884435?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10047,
+      "chat_id": 7582459199,
+      "seq": 8778,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01884435?s=gh-internships-2027|RTX|Systems Engineering Co-op|FL-ST PETERSBURG|Summer 2027#1"
+    },
+    "c9c802fb2409": {
+      "company": "Northrop Grumman",
+      "role": "2027 Software Engineer Intern - Azusa CA",
+      "location": "United States-California-Azusa",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257903?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10048,
+      "chat_id": 7582459199,
+      "seq": 8779,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257903?s=gh-internships-2027|Northrop Grumman|2027 Software Engineer Intern - Azusa CA|United States-California-Azusa|Summer 2027#1"
     }
   },
   "applied": {
@@ -112299,10 +112407,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8770,
+  "seq": 8779,
   "health": {
     "last_heartbeat": "2026-10-27T19:25:16Z",
-    "last_ok_run": "2026-10-27T20:05:17Z",
+    "last_ok_run": "2026-10-27T20:10:37Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
