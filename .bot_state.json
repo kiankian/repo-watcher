@@ -110444,6 +110444,30 @@
       "chat_id": 7582459199,
       "seq": 8646,
       "identity": "https://go.vansh.nyc/Vt?s=y|Manitowoc|Cybersecurity Intern|Shady Grove, PA|Oct 05#1"
+    },
+    "4c0e3628b153": {
+      "company": "NVIDIA",
+      "role": "Software Engineering Intern, AI Agents & Backend Infrastructure",
+      "location": "Berlin, DE",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9916,
+      "chat_id": 7582459199,
+      "seq": 8647,
+      "identity": "NOURL|NVIDIA|Software Engineering Intern, AI Agents & Backend Infrastructure|Berlin, DE|Oct 27#1"
+    },
+    "a122ec4e9864": {
+      "company": "Qualcomm",
+      "role": "AI Driven Test Automation Engineering Intern",
+      "location": "Haifa District, IL",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9917,
+      "chat_id": 7582459199,
+      "seq": 8648,
+      "identity": "NOURL|Qualcomm|AI Driven Test Automation Engineering Intern|Haifa District, IL|Oct 18#1"
     }
   },
   "applied": {
@@ -110811,10 +110835,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8646,
+  "seq": 8648,
   "health": {
     "last_heartbeat": "2026-10-27T12:15:16Z",
-    "last_ok_run": "2026-10-27T12:40:19Z",
+    "last_ok_run": "2026-10-27T12:45:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
