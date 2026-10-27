@@ -111260,6 +111260,30 @@
       "chat_id": 7582459199,
       "seq": 8714,
       "identity": "NOURL|Westinghouse Electric Company|Software Development Intern|Cranberry Township, PA|Oct 19#1"
+    },
+    "ab0656dcb115": {
+      "company": "Trace3",
+      "role": "Solutions Architect Intern",
+      "location": "Denver, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-trace3-8328124?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9984,
+      "chat_id": 7582459199,
+      "seq": 8715,
+      "identity": "https://zapply.jobs/l/d/greenhouse-trace3-8328124?s=gh-internships-2027|Trace3|Solutions Architect Intern|Denver, CO|Summer 2027#1"
+    },
+    "0a65afd70486": {
+      "company": "CFS Energy",
+      "role": "Intern - Systems Engineer - Summer 2027",
+      "location": "Devens, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-cfsenergy-32e62a79-eff5-4a58-83fd-51a60eb57707?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9985,
+      "chat_id": 7582459199,
+      "seq": 8716,
+      "identity": "https://zapply.jobs/l/d/lever-cfsenergy-32e62a79-eff5-4a58-83fd-51a60eb57707?s=gh-internships-2027|CFS Energy|Intern - Systems Engineer - Summer 2027|Devens, MA|Summer 2027#1"
     }
   },
   "applied": {
@@ -111627,10 +111651,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8714,
+  "seq": 8716,
   "health": {
     "last_heartbeat": "2026-10-27T17:20:20Z",
-    "last_ok_run": "2026-10-27T17:30:28Z",
+    "last_ok_run": "2026-10-27T17:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
