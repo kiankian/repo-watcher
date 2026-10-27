@@ -112388,6 +112388,78 @@
       "chat_id": 7582459199,
       "seq": 8808,
       "identity": "https://caci.wd1.myworkdayjobs.com/external/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern - Summer 2027|Sarasota, FL|Summer 2026#1"
+    },
+    "92265b8518a0": {
+      "company": "Paccar",
+      "role": "Data Engineer Intern",
+      "location": "Chillicothe, OH",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/WP?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10078,
+      "chat_id": 7582459199,
+      "seq": 8809,
+      "identity": "https://go.vansh.nyc/WP?s=y|Paccar|Data Engineer Intern|Chillicothe, OH|Oct 27#1"
+    },
+    "339989590c8b": {
+      "company": "Nomad GCS",
+      "role": "Software Engineer Intern",
+      "location": "Columbia Falls, MT",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/WO?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10079,
+      "chat_id": 7582459199,
+      "seq": 8810,
+      "identity": "https://go.vansh.nyc/WO?s=y|Nomad GCS|Software Engineer Intern|Columbia Falls, MT|Oct 27#1"
+    },
+    "1e270a11dadc": {
+      "company": "Assurant",
+      "role": "AI and Data Science Intern",
+      "location": "Atlanta, GA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/WN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10080,
+      "chat_id": 7582459199,
+      "seq": 8811,
+      "identity": "https://go.vansh.nyc/WN?s=y|Assurant|AI and Data Science Intern|Atlanta, GA|Oct 26#1"
+    },
+    "545b62c996a8": {
+      "company": "42dot",
+      "role": "Foundation Models Intern",
+      "location": "San Francisco, CA Sunnyvale, CA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/WM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10081,
+      "chat_id": 7582459199,
+      "seq": 8812,
+      "identity": "https://go.vansh.nyc/WM?s=y|42dot|Foundation Models Intern|San Francisco, CA Sunnyvale, CA|Oct 26#1"
+    },
+    "a2172195eefb": {
+      "company": "Amazon",
+      "role": "Systems Development Engineer Intern",
+      "location": "Vancouver, Canada",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10082,
+      "chat_id": 7582459199,
+      "seq": 8813,
+      "identity": "NOURL|Amazon|Systems Development Engineer Intern|Vancouver, Canada|Oct 22#1"
+    },
+    "6357ee14b7c9": {
+      "company": "RTX",
+      "role": "Receiver, Exciter, & Processing Architecture Software Engineer Intern (Summer 2027) - Onsite",
+      "location": "MA-MARLBOROUGH-MA2",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885187?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10083,
+      "chat_id": 7582459199,
+      "seq": 8814,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885187?s=gh-internships-2027|RTX|Receiver, Exciter, & Processing Architecture Software Engineer Intern (Summer 2027) - Onsite|MA-MARLBOROUGH-MA2|Summer 2027#1"
     }
   },
   "applied": {
@@ -112755,10 +112827,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8808,
+  "seq": 8814,
   "health": {
     "last_heartbeat": "2026-10-27T22:50:17Z",
-    "last_ok_run": "2026-10-27T23:05:23Z",
+    "last_ok_run": "2026-10-27T23:10:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
