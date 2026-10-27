@@ -112040,6 +112040,30 @@
       "chat_id": 7582459199,
       "seq": 8779,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257903?s=gh-internships-2027|Northrop Grumman|2027 Software Engineer Intern - Azusa CA|United States-California-Azusa|Summer 2027#1"
+    },
+    "9e8862ce7324": {
+      "company": "Northrop Grumman",
+      "role": "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Azusa, CA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Wl?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10049,
+      "chat_id": 7582459199,
+      "seq": 8780,
+      "identity": "https://go.vansh.nyc/Wl?s=y|Northrop Grumman|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Azusa, CA|Oct 27#1"
+    },
+    "fee331f85e72": {
+      "company": "National Interstate Insurance",
+      "role": "Claims Lab Developer Intern",
+      "location": "Cincinnati, OH",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Wm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10050,
+      "chat_id": 7582459199,
+      "seq": 8781,
+      "identity": "https://go.vansh.nyc/Wm?s=y|National Interstate Insurance|Claims Lab Developer Intern|Cincinnati, OH|Oct 27#1"
     }
   },
   "applied": {
@@ -112407,10 +112431,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8779,
+  "seq": 8781,
   "health": {
     "last_heartbeat": "2026-10-27T20:30:20Z",
-    "last_ok_run": "2026-10-27T20:35:16Z",
+    "last_ok_run": "2026-10-27T20:40:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
