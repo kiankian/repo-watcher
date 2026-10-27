@@ -110468,6 +110468,42 @@
       "chat_id": 7582459199,
       "seq": 8648,
       "identity": "NOURL|Qualcomm|AI Driven Test Automation Engineering Intern|Haifa District, IL|Oct 18#1"
+    },
+    "f9a45b1a3cb6": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern, Bellevue",
+      "location": "Bellevue, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF089920W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9918,
+      "chat_id": 7582459199,
+      "seq": 8649,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF089920W?s=gh-internships-2027|Visa|2027 Sophomore Internship Program - Software Engineer Intern, Bellevue|Bellevue, WA|Summer 2027#1"
+    },
+    "6bc87d56092a": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern, Foster City",
+      "location": "Foster City, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF089919W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9919,
+      "chat_id": 7582459199,
+      "seq": 8650,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF089919W?s=gh-internships-2027|Visa|2027 Sophomore Internship Program - Software Engineer Intern, Foster City|Foster City, CA|Summer 2027#1"
+    },
+    "5a0492827d09": {
+      "company": "Visa",
+      "role": "Software Engineer, Intern - 2027 Ashburn, VA",
+      "location": "Ashburn, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF089879W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9920,
+      "chat_id": 7582459199,
+      "seq": 8651,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF089879W?s=gh-internships-2027|Visa|Software Engineer, Intern - 2027 Ashburn, VA|Ashburn, VA|Summer 2027#1"
     }
   },
   "applied": {
@@ -110835,10 +110871,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8648,
+  "seq": 8651,
   "health": {
     "last_heartbeat": "2026-10-27T12:15:16Z",
-    "last_ok_run": "2026-10-27T13:00:23Z",
+    "last_ok_run": "2026-10-27T13:05:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
