@@ -111008,6 +111008,30 @@
       "chat_id": 7582459199,
       "seq": 8693,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01884409?s=gh-internships-2027|RTX|Systems Engineer Intern|FL-ST PETERSBURG|Summer 2027#1"
+    },
+    "cc30072dc664": {
+      "company": "Micron Technology",
+      "role": "Intern - Product Yield Software Engineer",
+      "location": "Boise, ID - Main Site",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-micron-external-JR115864?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9963,
+      "chat_id": 7582459199,
+      "seq": 8694,
+      "identity": "https://zapply.jobs/l/d/workday-micron-external-JR115864?s=gh-internships-2027|Micron Technology|Intern - Product Yield Software Engineer|Boise, ID - Main Site|Summer 2027#1"
+    },
+    "3c29d3a2d039": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Cybersecurity Analyst Intern",
+      "location": "Sparks, NV",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031269?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9964,
+      "chat_id": 7582459199,
+      "seq": 8695,
+      "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031269?s=gh-internships-2027|Sierra Nevada Corporation|Cybersecurity Analyst Intern|Sparks, NV|Summer 2027#1"
     }
   },
   "applied": {
@@ -111375,10 +111399,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8693,
+  "seq": 8695,
   "health": {
     "last_heartbeat": "2026-10-27T15:20:19Z",
-    "last_ok_run": "2026-10-27T16:00:25Z",
+    "last_ok_run": "2026-10-27T16:05:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
