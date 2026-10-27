@@ -110084,6 +110084,18 @@
       "chat_id": 7582459199,
       "seq": 8616,
       "identity": "https://jobs.ashbyhq.com/aurora-operations-inc/f63bb8e2-9ead-4322-beb9-4bcbdbbe14bd/application?embed=true&utm_source=Simplify&ref=Simplify|Aurora Innovation|Simulation Engineering Intern|SF Mountain View, CA|Summer 2026#1"
+    },
+    "fe7b77a22e46": {
+      "company": "Sherwin-Williams",
+      "role": "R&D Product Systems Intern",
+      "location": "Cleveland, OH",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/UD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9886,
+      "chat_id": 7582459199,
+      "seq": 8617,
+      "identity": "https://go.vansh.nyc/UD?s=y|Sherwin-Williams|R&D Product Systems Intern|Cleveland, OH|Oct 26#1"
     }
   },
   "applied": {
@@ -110451,10 +110463,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8616,
+  "seq": 8617,
   "health": {
     "last_heartbeat": "2026-10-27T01:45:15Z",
-    "last_ok_run": "2026-10-27T02:05:18Z",
+    "last_ok_run": "2026-10-27T02:10:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
