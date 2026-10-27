@@ -111092,6 +111092,54 @@
       "chat_id": 7582459199,
       "seq": 8700,
       "identity": "https://zapply.jobs/l/d/workday-abb-external-career-page-JR00049934?s=gh-internships-2027|ABB|Automation Engineer Intern - Summer 2027|New Berlin, Wisconsin, United...|Summer 2027#1"
+    },
+    "39d1a4118e08": {
+      "company": "JM Family Enterprises",
+      "role": "Data Engineer Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/VR?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9970,
+      "chat_id": 7582459199,
+      "seq": 8701,
+      "identity": "https://go.vansh.nyc/VR?s=y|JM Family Enterprises|Data Engineer Intern|Deerfield Beach, FL|Oct 27#1"
+    },
+    "1cef3acf12a0": {
+      "company": "Delta Dental",
+      "role": "Application Development Intern",
+      "location": "Okemos, MI",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/VS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9971,
+      "chat_id": 7582459199,
+      "seq": 8702,
+      "identity": "https://go.vansh.nyc/VS?s=y|Delta Dental|Application Development Intern|Okemos, MI|Oct 27#1"
+    },
+    "239f3a1afb6a": {
+      "company": "Apple Bank",
+      "role": "Information Security Intern \ud83d\udec2",
+      "location": "New York, NY",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/VV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9972,
+      "chat_id": 7582459199,
+      "seq": 8703,
+      "identity": "https://go.vansh.nyc/VV?s=y|Apple Bank|Information Security Intern \ud83d\udec2|New York, NY|Oct 27#1"
+    },
+    "d51ba8041a83": {
+      "company": "Galaxy",
+      "role": "Cybersecurity Intern",
+      "location": "Remote United States",
+      "term": "Oct 20",
+      "apply_url": "https://go.vansh.nyc/VT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9973,
+      "chat_id": 7582459199,
+      "seq": 8704,
+      "identity": "https://go.vansh.nyc/VT?s=y|Galaxy|Cybersecurity Intern|Remote United States|Oct 20#1"
     }
   },
   "applied": {
@@ -111459,10 +111507,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8700,
+  "seq": 8704,
   "health": {
     "last_heartbeat": "2026-10-27T16:20:19Z",
-    "last_ok_run": "2026-10-27T16:35:21Z",
+    "last_ok_run": "2026-10-27T16:40:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
