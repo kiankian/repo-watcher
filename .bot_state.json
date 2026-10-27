@@ -110132,6 +110132,42 @@
       "chat_id": 7582459199,
       "seq": 8620,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01881739?s=gh-internships-2027|RTX|2027 Summer Intern: Systems Engineering - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "00d27ca138dc": {
+      "company": "Northrop Grumman",
+      "role": "Systems Engineering Intern, AI Experience",
+      "location": "Dulles, VA",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9890,
+      "chat_id": 7582459199,
+      "seq": 8621,
+      "identity": "NOURL|Northrop Grumman|Systems Engineering Intern, AI Experience|Dulles, VA|Oct 21#1"
+    },
+    "f457aa5374f0": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern, Cloud Security",
+      "location": "Atlanta, GA Frisco, TX",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9891,
+      "chat_id": 7582459199,
+      "seq": 8622,
+      "identity": "NOURL|T-Mobile|Software Engineer Intern, Cloud Security|Atlanta, GA Frisco, TX|Oct 20#1"
+    },
+    "d02224dc04f0": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Tewksbury, MA",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9892,
+      "chat_id": 7582459199,
+      "seq": 8623,
+      "identity": "NOURL|RTX|Software Engineer Intern|Tewksbury, MA|Oct 20#1"
     }
   },
   "applied": {
@@ -110499,10 +110535,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8620,
+  "seq": 8623,
   "health": {
     "last_heartbeat": "2026-10-27T04:00:20Z",
-    "last_ok_run": "2026-10-27T04:05:14Z",
+    "last_ok_run": "2026-10-27T04:10:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
