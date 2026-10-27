@@ -111884,6 +111884,42 @@
       "chat_id": 7582459199,
       "seq": 8766,
       "identity": "https://zapply.jobs/l/d/workday-hp-externalcareersite-UNI4799?s=gh-internships-2027|HP Inc|Cloud Engineering Intern - HP IQ|San Francisco, California,...|Summer 2027#1"
+    },
+    "40badc76364c": {
+      "company": "National Interstate Insurance",
+      "role": "Data Engineering Intern",
+      "location": "Cincinnati, OH",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Wd?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10036,
+      "chat_id": 7582459199,
+      "seq": 8767,
+      "identity": "https://go.vansh.nyc/Wd?s=y|National Interstate Insurance|Data Engineering Intern|Cincinnati, OH|Oct 27#1"
+    },
+    "b143e69ce61c": {
+      "company": "Northrop Grumman",
+      "role": "2027 Systems Engineering Intern - Aurora CO",
+      "location": "United States-Colorado-Aurora",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257892?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10037,
+      "chat_id": 7582459199,
+      "seq": 8768,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257892?s=gh-internships-2027|Northrop Grumman|2027 Systems Engineering Intern - Aurora CO|United States-Colorado-Aurora|Summer 2027#1"
+    },
+    "f0fbe9826e21": {
+      "company": "Texas Instruments",
+      "role": "Web Marketing Intern - Front-end Developer",
+      "location": "Dallas, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-texas-instruments-25018753?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10038,
+      "chat_id": 7582459199,
+      "seq": 8769,
+      "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25018753?s=gh-internships-2027|Texas Instruments|Web Marketing Intern - Front-end Developer|Dallas, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -112251,10 +112287,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8766,
+  "seq": 8769,
   "health": {
     "last_heartbeat": "2026-10-27T19:25:16Z",
-    "last_ok_run": "2026-10-27T19:35:17Z",
+    "last_ok_run": "2026-10-27T19:40:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",

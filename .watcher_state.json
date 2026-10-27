@@ -2737,7 +2737,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "85ed601c54dcf6060d4b4f714d4ded4aa52c4178",
+    "last_sha": "01aced13c87b4ef0f30e525d30742c31c3cdb307",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -6185,14 +6185,15 @@
       "NOURL|CoStar Group|Security Engineer Intern|Arlington, VA|Oct 20#1",
       "https://go.vansh.nyc/W9?s=y|Sonos|Software Engineering Intern \ud83d\udec2|Seattle, WA|Oct 27#1",
       "https://go.vansh.nyc/Wa?s=y|Sonos|Data Quality Intern \ud83d\udec2|Boston, MA|Oct 27#1",
-      "https://go.vansh.nyc/Wb?s=y|Amazon Development Center U.S., Inc. - B02|Database Engineer Intern|Seattle, WA|Oct 26#1"
+      "https://go.vansh.nyc/Wb?s=y|Amazon Development Center U.S., Inc. - B02|Database Engineer Intern|Seattle, WA|Oct 26#1",
+      "https://go.vansh.nyc/Wd?s=y|National Interstate Insurance|Data Engineering Intern|Cincinnati, OH|Oct 27#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 1425,
+    "last_row_count": 1426,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "864c900391f459c866f6e03f3179cefb4ca53cc1",
+    "last_sha": "73c06202bf8b953d5533b9c3aa74cde9c3ad0e2b",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -8526,7 +8527,9 @@
       "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0252409?s=gh-internships-2027|Booz Allen Hamilton|Test Engineer Intern|Lexington Park, MD|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-abb-external-career-page-JR00049932?s=gh-internships-2027|ABB|Automation Engineer Intern - Summer 2027|New Berlin, Wisconsin, United...|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-sonos-sonos-R2871?s=gh-internships-2027|Sonos|Software Engineering Intern (Seattle)|Seattle, WA|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-hp-externalcareersite-UNI4799?s=gh-internships-2027|HP Inc|Cloud Engineering Intern - HP IQ|San Francisco, California,...|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-hp-externalcareersite-UNI4799?s=gh-internships-2027|HP Inc|Cloud Engineering Intern - HP IQ|San Francisco, California,...|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10257892?s=gh-internships-2027|Northrop Grumman|2027 Systems Engineering Intern - Aurora CO|United States-Colorado-Aurora|Summer 2027#1",
+      "https://zapply.jobs/l/d/oracle-texas-instruments-25018753?s=gh-internships-2027|Texas Instruments|Web Marketing Intern - Front-end Developer|Dallas, TX, United States|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
