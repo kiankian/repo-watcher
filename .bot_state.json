@@ -112088,6 +112088,18 @@
       "chat_id": 7582459199,
       "seq": 8783,
       "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00195531?s=gh-internships-2027|Leidos|Cybersecurity Intern|Arlington, VA|Summer 2027#1"
+    },
+    "cb07bb4c2553": {
+      "company": "RTX",
+      "role": "Product Quality Engineering Co-Op (Spring/Summer 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885440?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10053,
+      "chat_id": 7582459199,
+      "seq": 8784,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885440?s=gh-internships-2027|RTX|Product Quality Engineering Co-Op (Spring/Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
     }
   },
   "applied": {
@@ -112455,10 +112467,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8783,
+  "seq": 8784,
   "health": {
     "last_heartbeat": "2026-10-27T20:30:20Z",
-    "last_ok_run": "2026-10-27T20:55:18Z",
+    "last_ok_run": "2026-10-27T21:00:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
