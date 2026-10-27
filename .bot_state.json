@@ -110912,6 +110912,42 @@
       "chat_id": 7582459199,
       "seq": 8685,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-332618?s=gh-internships-2027|CACI|Software Engineering Intern - Summer 2027|Sarasota, FL, US|Summer 2027#1"
+    },
+    "b1814ebb6ddb": {
+      "company": "CACI",
+      "role": "Software Engineering Intern",
+      "location": "Sarasota, FL",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/VM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9955,
+      "chat_id": 7582459199,
+      "seq": 8686,
+      "identity": "https://go.vansh.nyc/VM?s=y|CACI|Software Engineering Intern|Sarasota, FL|Oct 27#1"
+    },
+    "bbd8deb01e6a": {
+      "company": "Bracco",
+      "role": "Product Security Engineering Intern",
+      "location": "Eden Prairie, MN",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/VO?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9956,
+      "chat_id": 7582459199,
+      "seq": 8687,
+      "identity": "https://go.vansh.nyc/VO?s=y|Bracco|Product Security Engineering Intern|Eden Prairie, MN|Oct 27#1"
+    },
+    "b7d12ab20851": {
+      "company": "American Family Insurance Group",
+      "role": "Cybersecurity Intern",
+      "location": "Madison, WI Boston, MA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/VN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9957,
+      "chat_id": 7582459199,
+      "seq": 8688,
+      "identity": "https://go.vansh.nyc/VN?s=y|American Family Insurance Group|Cybersecurity Intern|Madison, WI Boston, MA|Oct 27#1"
     }
   },
   "applied": {
@@ -111279,10 +111315,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8685,
+  "seq": 8688,
   "health": {
     "last_heartbeat": "2026-10-27T15:20:19Z",
-    "last_ok_run": "2026-10-27T15:35:17Z",
+    "last_ok_run": "2026-10-27T15:40:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
