@@ -112280,6 +112280,54 @@
       "chat_id": 7582459199,
       "seq": 8799,
       "identity": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803?utm_source=Simplify&ref=Simplify|Northrop Grumman|Software Engineer Intern|Colorado Springs, CO|Summer 2026#1"
+    },
+    "4b2d3e07fd6f": {
+      "company": "Keysight Technologies",
+      "role": "Application Development Intern",
+      "location": "Santa Rosa, CA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/WE?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10069,
+      "chat_id": 7582459199,
+      "seq": 8800,
+      "identity": "https://go.vansh.nyc/WE?s=y|Keysight Technologies|Application Development Intern|Santa Rosa, CA|Oct 27#1"
+    },
+    "b6000ee04927": {
+      "company": "Emerson Electric",
+      "role": "Software Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/WG?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10070,
+      "chat_id": 7582459199,
+      "seq": 8801,
+      "identity": "https://go.vansh.nyc/WG?s=y|Emerson Electric|Software Engineer Intern|Austin, TX|Oct 27#1"
+    },
+    "1d117189a55a": {
+      "company": "Amazon",
+      "role": "Database Engineer Intern",
+      "location": "Seattle, WA East Palo Alto, CA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/WF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10071,
+      "chat_id": 7582459199,
+      "seq": 8802,
+      "identity": "https://go.vansh.nyc/WF?s=y|Amazon|Database Engineer Intern|Seattle, WA East Palo Alto, CA|Oct 27#1"
+    },
+    "3ed379154851": {
+      "company": "Salesforce",
+      "role": "Forward Deployed Engineer Intern, Global Public Sector",
+      "location": "United States",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/WD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10072,
+      "chat_id": 7582459199,
+      "seq": 8803,
+      "identity": "https://go.vansh.nyc/WD?s=y|Salesforce|Forward Deployed Engineer Intern, Global Public Sector|United States|Oct 26#1"
     }
   },
   "applied": {
@@ -112647,10 +112695,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8799,
+  "seq": 8803,
   "health": {
     "last_heartbeat": "2026-10-27T21:45:18Z",
-    "last_ok_run": "2026-10-27T22:35:22Z",
+    "last_ok_run": "2026-10-27T22:40:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
