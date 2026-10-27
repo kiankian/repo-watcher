@@ -110600,6 +110600,30 @@
       "chat_id": 7582459199,
       "seq": 8659,
       "identity": "https://go.vansh.nyc/VC?s=y|Visa|Software Engineer Intern \ud83d\udec2|Austin, TX|Oct 27#1"
+    },
+    "39edf2a17f18": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885074?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9929,
+      "chat_id": 7582459199,
+      "seq": 8660,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885074?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "ecccb3f26b7f": {
+      "company": "RTX",
+      "role": "Systems Engineering Intern (Summer 2027)",
+      "location": "CO-AURORA-S75",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885052?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9930,
+      "chat_id": 7582459199,
+      "seq": 8661,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885052?s=gh-internships-2027|RTX|Systems Engineering Intern (Summer 2027)|CO-AURORA-S75|Summer 2027#1"
     }
   },
   "applied": {
@@ -110967,10 +110991,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8659,
+  "seq": 8661,
   "health": {
     "last_heartbeat": "2026-10-27T13:20:18Z",
-    "last_ok_run": "2026-10-27T13:45:19Z",
+    "last_ok_run": "2026-10-27T13:50:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
