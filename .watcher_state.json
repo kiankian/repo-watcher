@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "bfa381a83f89b1755a43a959f8bd2f4a94dffa72",
+    "last_sha": "a1a22fb321b70cc44e7089556f8459d312309014",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2718,10 +2718,13 @@
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Dayton-OH/University---2027-Summer-Games-Software-Developer-Intern---Dayton--OH_R0252345?utm_source=Simplify&ref=Simplify|Booz Allen|Software Developer Intern - University - Summer Games|Dayton, OH|Summer 2026#1",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Albuquerque-NM/University---2027-Summer-Games--Systems-Engineer-Intern---Albuquerque--NM_R0252337?utm_source=Simplify&ref=Simplify|Booz Allen|Systems Engineer Intern|Albuquerque, NM|Summer 2026#1",
       "https://jobs.ashbyhq.com/niantic-spatial/ed68b062-4dcb-4deb-9cc0-ed38030f6e43/application?embed=true&utm_source=Simplify&ref=Simplify|Niantic Spatial|Software Engineer Intern - Native SDK & Mobile Platforms|SF|Summer 2026#1",
-      "https://jobs.smartrecruiters.com/LLNL/3743990015740565?utm_source=Simplify&ref=Simplify|Lawrence Livermore National Laboratory (LLNL)|Defense Science and Technology Intern|Livermore, CA|Summer 2026#1"
+      "https://jobs.smartrecruiters.com/LLNL/3743990015740565?utm_source=Simplify&ref=Simplify|Lawrence Livermore National Laboratory (LLNL)|Defense Science and Technology Intern|Livermore, CA|Summer 2026#1",
+      "https://jobs.ashbyhq.com/aurora-operations-inc/c823b343-ba1f-4ff3-84ce-965ee9952c12/application?embed=true&utm_source=Simplify&ref=Simplify|Aurora Innovation|Core Autonomy Software Intern - C++|Pittsburgh, PA Mountain View, CA|Summer 2026#1",
+      "https://jobs.ashbyhq.com/aurora-operations-inc/bc852c2c-945f-4a1e-b383-54a0f6e0ace9/application?embed=true&utm_source=Simplify&ref=Simplify|Aurora Innovation|Full Stack Engineer Intern|Pittsburgh, PA Mountain View, CA|Summer 2026#1",
+      "https://jobs.ashbyhq.com/aurora-operations-inc/f63bb8e2-9ead-4322-beb9-4bcbdbbe14bd/application?embed=true&utm_source=Simplify&ref=Simplify|Aurora Innovation|Simulation Engineering Intern|SF Mountain View, CA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 565,
+    "last_row_count": 569,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -6108,7 +6111,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "5393c771faebeb74a313436b5ebd228e5a34b5af",
+    "last_sha": "0763396857ad34e4de90887abea4a6b39333a488",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
