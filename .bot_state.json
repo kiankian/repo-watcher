@@ -110540,6 +110540,42 @@
       "chat_id": 7582459199,
       "seq": 8654,
       "identity": "https://go.vansh.nyc/Vz?s=y|Visa|Software Engineer Intern \ud83d\udec2|Ashburn, VA|Oct 27#1"
+    },
+    "48e2e806f2dc": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern, Ashburn",
+      "location": "Ashburn, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF089878W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9924,
+      "chat_id": 7582459199,
+      "seq": 8655,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF089878W?s=gh-internships-2027|Visa|2027 Sophomore Internship Program - Software Engineer Intern, Ashburn|Ashburn, VA|Summer 2027#1"
+    },
+    "28441df8ced6": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch",
+      "location": "Denver, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF089880W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9925,
+      "chat_id": 7582459199,
+      "seq": 8656,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF089880W?s=gh-internships-2027|Visa|2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch|Denver, CO|Summer 2027#1"
+    },
+    "0bcce05ee771": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern, Austin, TX - 2027",
+      "location": "Austin, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-visa-visa-REF089882W?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9926,
+      "chat_id": 7582459199,
+      "seq": 8657,
+      "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF089882W?s=gh-internships-2027|Visa|2027 Sophomore Internship Program - Software Engineer Intern, Austin, TX - 2027|Austin, TX|Summer 2027#1"
     }
   },
   "applied": {
@@ -110907,10 +110943,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8654,
+  "seq": 8657,
   "health": {
     "last_heartbeat": "2026-10-27T12:15:16Z",
-    "last_ok_run": "2026-10-27T13:10:20Z",
+    "last_ok_run": "2026-10-27T13:15:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
