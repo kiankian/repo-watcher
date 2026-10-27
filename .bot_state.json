@@ -112340,6 +112340,54 @@
       "chat_id": 7582459199,
       "seq": 8804,
       "identity": "https://zapply.jobs/l/d/greenhouse-trace3-8328124?s=gh-internships-2027|Trace3|Solutions Architect Intern|Dallas, TX|Summer 2027#1"
+    },
+    "b690949e7298": {
+      "company": "\ud83d\udd25 Salesforce",
+      "role": "Forward Deployed Engineer Intern - Global Public Sector",
+      "location": "Arkansas Ohio",
+      "term": "Summer 2026",
+      "apply_url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/Arkansas---Remote/Summer-2027-Intern---Forward-Deployed-Engineer---Global-Public-Sector_JR366026?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10074,
+      "chat_id": 7582459199,
+      "seq": 8805,
+      "identity": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/Arkansas---Remote/Summer-2027-Intern---Forward-Deployed-Engineer---Global-Public-Sector_JR366026?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Salesforce|Forward Deployed Engineer Intern - Global Public Sector|Arkansas Ohio|Summer 2026#1"
+    },
+    "750208074fcc": {
+      "company": "Great American Insurance Company",
+      "role": "Data Application Engineer Intern",
+      "location": "Cincinnati, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Data-Application-Development-Intern---Summer-2027_R9796?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10075,
+      "chat_id": 7582459199,
+      "seq": 8806,
+      "identity": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Data-Application-Development-Intern---Summer-2027_R9796?utm_source=Simplify&ref=Simplify|Great American Insurance Company|Data Application Engineer Intern|Cincinnati, OH|Summer 2026#1"
+    },
+    "f523a4e7ecd0": {
+      "company": "Great American Insurance Company",
+      "role": "Claims Lab Developer Intern",
+      "location": "Cincinnati, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10076,
+      "chat_id": 7582459199,
+      "seq": 8807,
+      "identity": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803?utm_source=Simplify&ref=Simplify|Great American Insurance Company|Claims Lab Developer Intern|Cincinnati, OH|Summer 2026#1"
+    },
+    "a168f6da5b2a": {
+      "company": "CACI",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Sarasota, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://caci.wd1.myworkdayjobs.com/external/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10077,
+      "chat_id": 7582459199,
+      "seq": 8808,
+      "identity": "https://caci.wd1.myworkdayjobs.com/external/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618?utm_source=Simplify&ref=Simplify|CACI|Software Engineer Intern - Summer 2027|Sarasota, FL|Summer 2026#1"
     }
   },
   "applied": {
@@ -112707,10 +112755,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8804,
+  "seq": 8808,
   "health": {
     "last_heartbeat": "2026-10-27T22:50:17Z",
-    "last_ok_run": "2026-10-27T23:00:22Z",
+    "last_ok_run": "2026-10-27T23:05:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
