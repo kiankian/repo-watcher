@@ -110636,6 +110636,18 @@
       "chat_id": 7582459199,
       "seq": 8662,
       "identity": "NOURL|Berkshire Hathaway Energy|Software Engineering Intern|Des Moines, IA|Oct 20#1"
+    },
+    "960984f663c8": {
+      "company": "RTX",
+      "role": "Quality Engineering Intern (Summer 2027)",
+      "location": "CO-COLORADO SPRINGS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882062?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9932,
+      "chat_id": 7582459199,
+      "seq": 8663,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882062?s=gh-internships-2027|RTX|Quality Engineering Intern (Summer 2027)|CO-COLORADO SPRINGS|Summer 2027#1"
     }
   },
   "applied": {
@@ -111003,10 +111015,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8662,
+  "seq": 8663,
   "health": {
     "last_heartbeat": "2026-10-27T14:20:19Z",
-    "last_ok_run": "2026-10-27T14:20:19Z",
+    "last_ok_run": "2026-10-27T14:25:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
