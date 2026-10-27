@@ -110720,6 +110720,90 @@
       "chat_id": 7582459199,
       "seq": 8669,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01884942?s=gh-internships-2027|RTX|Secure Software Intern (Summer 2027)|MA-WOBURN-WB2|Summer 2027#1"
+    },
+    "c1b6188468c7": {
+      "company": "RTX",
+      "role": "Secure Software Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Woburn, MA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/VG?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9939,
+      "chat_id": 7582459199,
+      "seq": 8670,
+      "identity": "https://go.vansh.nyc/VG?s=y|RTX|Secure Software Intern \ud83c\uddfa\ud83c\uddf8|Woburn, MA|Oct 27#1"
+    },
+    "c33c6e7e8358": {
+      "company": "EQT Corporation",
+      "role": "AI Intern",
+      "location": "Remote United States",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/VF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9940,
+      "chat_id": 7582459199,
+      "seq": 8671,
+      "identity": "https://go.vansh.nyc/VF?s=y|EQT Corporation|AI Intern|Remote United States|Oct 27#1"
+    },
+    "06fad703b4e1": {
+      "company": "Visa",
+      "role": "Sophomore Program Software Engineer Intern",
+      "location": "Ashburn, VA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/VE?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9941,
+      "chat_id": 7582459199,
+      "seq": 8672,
+      "identity": "https://go.vansh.nyc/VE?s=y|Visa|Sophomore Program Software Engineer Intern|Ashburn, VA|Oct 26#1"
+    },
+    "117553ed46f1": {
+      "company": "Creative Artists Agency",
+      "role": "Data Analytics Intern",
+      "location": "Denver, CO",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9942,
+      "chat_id": 7582459199,
+      "seq": 8673,
+      "identity": "NOURL|Creative Artists Agency|Data Analytics Intern|Denver, CO|Oct 18#1"
+    },
+    "ce97bbd0b944": {
+      "company": "Apple",
+      "role": "SoC Machine Learning Software Engineer Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Oct 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9943,
+      "chat_id": 7582459199,
+      "seq": 8674,
+      "identity": "NOURL|Apple|SoC Machine Learning Software Engineer Intern|Sunnyvale, CA|Oct 15#1"
+    },
+    "fc718a178c1c": {
+      "company": "Quantum Signal AI",
+      "role": "Embedded and Real-Time Software Intern",
+      "location": "Saline, MI",
+      "term": "Sep 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9944,
+      "chat_id": 7582459199,
+      "seq": 8675,
+      "identity": "NOURL|Quantum Signal AI|Embedded and Real-Time Software Intern|Saline, MI|Sep 30#1"
+    },
+    "15705eee4e3c": {
+      "company": "Melius",
+      "role": "Software Engineering Intern",
+      "location": "New York City, NY",
+      "term": "Aug 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9945,
+      "chat_id": 7582459199,
+      "seq": 8676,
+      "identity": "NOURL|Melius|Software Engineering Intern|New York City, NY|Aug 04#1"
     }
   },
   "applied": {
@@ -111087,10 +111171,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8669,
+  "seq": 8676,
   "health": {
     "last_heartbeat": "2026-10-27T14:20:19Z",
-    "last_ok_run": "2026-10-27T14:35:24Z",
+    "last_ok_run": "2026-10-27T14:40:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
