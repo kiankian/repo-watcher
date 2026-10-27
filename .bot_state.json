@@ -109952,6 +109952,18 @@
       "chat_id": 7582459199,
       "seq": 8605,
       "identity": "https://go.vansh.nyc/Tk?s=y|Zillow|Data Science Intern|Seattle, WA|Oct 26#1"
+    },
+    "2783b9673df2": {
+      "company": "NUVACORE",
+      "role": "CPU Software Intern",
+      "location": "Markham, Canada",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/Tm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9875,
+      "chat_id": 7582459199,
+      "seq": 8606,
+      "identity": "https://go.vansh.nyc/Tm?s=y|NUVACORE|CPU Software Intern|Markham, Canada|Oct 26#1"
     }
   },
   "applied": {
@@ -110319,10 +110331,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8605,
+  "seq": 8606,
   "health": {
     "last_heartbeat": "2026-10-27T00:45:15Z",
-    "last_ok_run": "2026-10-27T01:10:16Z",
+    "last_ok_run": "2026-10-27T01:15:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
