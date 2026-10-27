@@ -110864,6 +110864,42 @@
       "chat_id": 7582459199,
       "seq": 8681,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Software-Engineering-Intern--Summer-2027-_01885074?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Cedar Rapids, IA|Summer 2026#1"
+    },
+    "034446ed81ec": {
+      "company": "RTX",
+      "role": "Embedded Software Engineer Intern",
+      "location": "Goleta, CA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/VI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9951,
+      "chat_id": 7582459199,
+      "seq": 8682,
+      "identity": "https://go.vansh.nyc/VI?s=y|RTX|Embedded Software Engineer Intern|Goleta, CA|Oct 26#1"
+    },
+    "cf92d3c9158c": {
+      "company": "Nissan",
+      "role": "AI Intern",
+      "location": "Dallas, TX Franklin, TN",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/VH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9952,
+      "chat_id": 7582459199,
+      "seq": 8683,
+      "identity": "https://go.vansh.nyc/VH?s=y|Nissan|AI Intern|Dallas, TX Franklin, TN|Oct 26#1"
+    },
+    "0229c259e215": {
+      "company": "Draper",
+      "role": "Operations Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Cambridge, MA",
+      "term": "Oct 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 9953,
+      "chat_id": 7582459199,
+      "seq": 8684,
+      "identity": "NOURL|Draper|Operations Engineering Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Oct 15#1"
     }
   },
   "applied": {
@@ -111231,10 +111267,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8681,
+  "seq": 8684,
   "health": {
     "last_heartbeat": "2026-10-27T14:20:19Z",
-    "last_ok_run": "2026-10-27T15:05:23Z",
+    "last_ok_run": "2026-10-27T15:10:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
