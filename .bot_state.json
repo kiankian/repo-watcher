@@ -110648,6 +110648,78 @@
       "chat_id": 7582459199,
       "seq": 8663,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01882062?s=gh-internships-2027|RTX|Quality Engineering Intern (Summer 2027)|CO-COLORADO SPRINGS|Summer 2027#1"
+    },
+    "3600061283ef": {
+      "company": "Mayo Clinic",
+      "role": "Graduate Engineer Intern - Software Development",
+      "location": "Rochester, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/392190?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 9933,
+      "chat_id": 7582459199,
+      "seq": 8664,
+      "identity": "https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/392190?utm_source=Simplify&ref=Simplify|Mayo Clinic|Graduate Engineer Intern - Software Development|Rochester, MN|Summer 2026#1"
+    },
+    "e524f1adc5cf": {
+      "company": "\ud83d\udd25 Visa",
+      "role": "Software Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin--TX---2027_REF089882W?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 9934,
+      "chat_id": 7582459199,
+      "seq": 8665,
+      "identity": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin--TX---2027_REF089882W?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Visa|Software Engineer Intern|Austin, TX|Summer 2026#1"
+    },
+    "65f6de17febb": {
+      "company": "\ud83d\udd25 Visa",
+      "role": "Software Engineer Intern",
+      "location": "Denver, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 9935,
+      "chat_id": 7582459199,
+      "seq": 8666,
+      "identity": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Visa|Software Engineer Intern|Denver, CO|Summer 2026#1"
+    },
+    "1fd9562c79c9": {
+      "company": "\ud83d\udd25 Visa",
+      "role": "Software Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF089918W?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 9936,
+      "chat_id": 7582459199,
+      "seq": 8667,
+      "identity": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF089918W?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Visa|Software Engineer Intern|Austin, TX|Summer 2026#1"
+    },
+    "5884d350f72b": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Fort Wayne, IN",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Software-Engineering-Intern--Summer-2027-_01881090-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 9937,
+      "chat_id": 7582459199,
+      "seq": 8668,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Software-Engineering-Intern--Summer-2027-_01881090-1?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Fort Wayne, IN|Summer 2026#1"
+    },
+    "faa82a05c121": {
+      "company": "RTX",
+      "role": "Secure Software Intern (Summer 2027)",
+      "location": "MA-WOBURN-WB2",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01884942?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 9938,
+      "chat_id": 7582459199,
+      "seq": 8669,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01884942?s=gh-internships-2027|RTX|Secure Software Intern (Summer 2027)|MA-WOBURN-WB2|Summer 2027#1"
     }
   },
   "applied": {
@@ -111015,10 +111087,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8663,
+  "seq": 8669,
   "health": {
     "last_heartbeat": "2026-10-27T14:20:19Z",
-    "last_ok_run": "2026-10-27T14:30:23Z",
+    "last_ok_run": "2026-10-27T14:35:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
