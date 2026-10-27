@@ -110408,6 +110408,42 @@
       "chat_id": 7582459199,
       "seq": 8643,
       "identity": "https://go.vansh.nyc/Vh?s=y|QuantCo|Data Science Intern|United States|May 01#1"
+    },
+    "4c5ab25b3626": {
+      "company": "NVIDIA (Eightfold)",
+      "role": "Software Engineering Intern, AI Agents & Backend Infrastructure",
+      "location": "Berlin, DE",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Vv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9913,
+      "chat_id": 7582459199,
+      "seq": 8644,
+      "identity": "https://go.vansh.nyc/Vv?s=y|NVIDIA (Eightfold)|Software Engineering Intern, AI Agents & Backend Infrastructure|Berlin, DE|Oct 27#1"
+    },
+    "9b13b2b1d51f": {
+      "company": "Ericsson",
+      "role": "Cybersecurity Analyst Intern \ud83d\udec2",
+      "location": "Plano, TX",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Vu?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9914,
+      "chat_id": 7582459199,
+      "seq": 8645,
+      "identity": "https://go.vansh.nyc/Vu?s=y|Ericsson|Cybersecurity Analyst Intern \ud83d\udec2|Plano, TX|Oct 27#1"
+    },
+    "563164f42043": {
+      "company": "Manitowoc",
+      "role": "Cybersecurity Intern",
+      "location": "Shady Grove, PA",
+      "term": "Oct 05",
+      "apply_url": "https://go.vansh.nyc/Vt?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9915,
+      "chat_id": 7582459199,
+      "seq": 8646,
+      "identity": "https://go.vansh.nyc/Vt?s=y|Manitowoc|Cybersecurity Intern|Shady Grove, PA|Oct 05#1"
     }
   },
   "applied": {
@@ -110775,10 +110811,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8643,
+  "seq": 8646,
   "health": {
     "last_heartbeat": "2026-10-27T11:00:24Z",
-    "last_ok_run": "2026-10-27T12:05:16Z",
+    "last_ok_run": "2026-10-27T12:10:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
