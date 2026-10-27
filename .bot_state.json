@@ -112472,6 +112472,30 @@
       "chat_id": 7582459199,
       "seq": 8815,
       "identity": "https://zapply.jobs/l/d/sr-VeoliaEnvironnementSA-744000157909649?s=gh-internships-2027|Veolia Environnement SA|Intern - Quality Engineering|Boulder, CO|Summer 2027#1"
+    },
+    "be152fac5ab5": {
+      "company": "RTX",
+      "role": "Software Engineer Intern, Receiver, Exciter, & Processing Architecture \ud83c\uddfa\ud83c\uddf8",
+      "location": "Marlborough, MA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/WQ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10085,
+      "chat_id": 7582459199,
+      "seq": 8816,
+      "identity": "https://go.vansh.nyc/WQ?s=y|RTX|Software Engineer Intern, Receiver, Exciter, & Processing Architecture \ud83c\uddfa\ud83c\uddf8|Marlborough, MA|Oct 27#1"
+    },
+    "bc0556b8f02b": {
+      "company": "Protagonist",
+      "role": "Software Engineering Intern",
+      "location": "Washington, DC",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/WS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10086,
+      "chat_id": 7582459199,
+      "seq": 8817,
+      "identity": "https://go.vansh.nyc/WS?s=y|Protagonist|Software Engineering Intern|Washington, DC|Oct 27#1"
     }
   },
   "applied": {
@@ -112839,10 +112863,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8815,
+  "seq": 8817,
   "health": {
     "last_heartbeat": "2026-10-27T22:50:17Z",
-    "last_ok_run": "2026-10-27T23:40:16Z",
+    "last_ok_run": "2026-10-27T23:45:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
