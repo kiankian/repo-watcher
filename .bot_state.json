@@ -110324,6 +110324,90 @@
       "chat_id": 7582459199,
       "seq": 8636,
       "identity": "https://zapply.jobs/l/d/workday-ptc-ptc-JR112943?s=gh-internships-2027|PTC|Onshape Software Engineer Intern (Summer 2027)|Boston, MA, USA|Summer 2027#1"
+    },
+    "d94a2a38f0f6": {
+      "company": "PTC",
+      "role": "Onshape QA Intern",
+      "location": "Boston, MA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Vf?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9906,
+      "chat_id": 7582459199,
+      "seq": 8637,
+      "identity": "https://go.vansh.nyc/Vf?s=y|PTC|Onshape QA Intern|Boston, MA|Oct 27#1"
+    },
+    "07f30d78139a": {
+      "company": "PTC",
+      "role": "Onshape SysOps Intern",
+      "location": "Boston, MA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Vg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9907,
+      "chat_id": 7582459199,
+      "seq": 8638,
+      "identity": "https://go.vansh.nyc/Vg?s=y|PTC|Onshape SysOps Intern|Boston, MA|Oct 27#1"
+    },
+    "3c25eedcefc4": {
+      "company": "Ricoh",
+      "role": "SW Engineer Intern",
+      "location": "Boulder, CO",
+      "term": "Oct 21",
+      "apply_url": "https://go.vansh.nyc/Vm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9908,
+      "chat_id": 7582459199,
+      "seq": 8639,
+      "identity": "https://go.vansh.nyc/Vm?s=y|Ricoh|SW Engineer Intern|Boulder, CO|Oct 21#1"
+    },
+    "2e49860b3a08": {
+      "company": "Ricoh",
+      "role": "Software Engineer Intern, Graphic Communications",
+      "location": "Boulder, CO",
+      "term": "Oct 18",
+      "apply_url": "https://go.vansh.nyc/Vl?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9909,
+      "chat_id": 7582459199,
+      "seq": 8640,
+      "identity": "https://go.vansh.nyc/Vl?s=y|Ricoh|Software Engineer Intern, Graphic Communications|Boulder, CO|Oct 18#1"
+    },
+    "9cc17998cdaf": {
+      "company": "Ricoh",
+      "role": "Software Engineer Intern, Microservice Developer",
+      "location": "Boulder, CO",
+      "term": "Sep 30",
+      "apply_url": "https://go.vansh.nyc/Vj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9910,
+      "chat_id": 7582459199,
+      "seq": 8641,
+      "identity": "https://go.vansh.nyc/Vj?s=y|Ricoh|Software Engineer Intern, Microservice Developer|Boulder, CO|Sep 30#1"
+    },
+    "ad6514d5175c": {
+      "company": "Ricoh",
+      "role": "Software Development Intern",
+      "location": "Boulder, CO",
+      "term": "Sep 16",
+      "apply_url": "https://go.vansh.nyc/Vi?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9911,
+      "chat_id": 7582459199,
+      "seq": 8642,
+      "identity": "https://go.vansh.nyc/Vi?s=y|Ricoh|Software Development Intern|Boulder, CO|Sep 16#1"
+    },
+    "4a81a9a3a99c": {
+      "company": "QuantCo",
+      "role": "Data Science Intern",
+      "location": "United States",
+      "term": "May 01",
+      "apply_url": "https://go.vansh.nyc/Vh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9912,
+      "chat_id": 7582459199,
+      "seq": 8643,
+      "identity": "https://go.vansh.nyc/Vh?s=y|QuantCo|Data Science Intern|United States|May 01#1"
     }
   },
   "applied": {
@@ -110691,10 +110775,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8636,
+  "seq": 8643,
   "health": {
     "last_heartbeat": "2026-10-27T11:00:24Z",
-    "last_ok_run": "2026-10-27T11:10:18Z",
+    "last_ok_run": "2026-10-27T11:15:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
