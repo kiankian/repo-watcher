@@ -111824,6 +111824,18 @@
       "chat_id": 7582459199,
       "seq": 8761,
       "identity": "NOURL|CoStar Group|Security Engineer Intern|Arlington, VA|Oct 20#1"
+    },
+    "5db0531294c3": {
+      "company": "Sonos",
+      "role": "Software Engineering Intern (Seattle)",
+      "location": "Seattle, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-sonos-sonos-R2871?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10031,
+      "chat_id": 7582459199,
+      "seq": 8762,
+      "identity": "https://zapply.jobs/l/d/workday-sonos-sonos-R2871?s=gh-internships-2027|Sonos|Software Engineering Intern (Seattle)|Seattle, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -112191,10 +112203,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8761,
+  "seq": 8762,
   "health": {
     "last_heartbeat": "2026-10-27T18:25:15Z",
-    "last_ok_run": "2026-10-27T18:55:17Z",
+    "last_ok_run": "2026-10-27T19:00:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
