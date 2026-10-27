@@ -111728,6 +111728,54 @@
       "chat_id": 7582459199,
       "seq": 8753,
       "identity": "https://nanopath.com/careers?gh_jid=4732881005|Nanopath|Software Development Co-op - Jan '27 Start|Cambridge, MA|Other#1"
+    },
+    "b36aef06bd7f": {
+      "company": "ASML",
+      "role": "Internship- Platform Software Engineer In Test",
+      "location": "San Jose, CA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-asml-asmlext1-J-00354558?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10023,
+      "chat_id": 7582459199,
+      "seq": 8754,
+      "identity": "https://zapply.jobs/l/d/workday-asml-asmlext1-J-00354558?s=gh-internships-2027|ASML|Internship- Platform Software Engineer In Test|San Jose, CA, USA|Summer 2027#1"
+    },
+    "72d12f8e49a2": {
+      "company": "CFS Energy",
+      "role": "Intern - I&C and Network Engineer - Spring or Summer 2027",
+      "location": "Devens, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-cfsenergy-cbf90690-2518-4c81-ace4-530e3b158545?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10024,
+      "chat_id": 7582459199,
+      "seq": 8755,
+      "identity": "https://zapply.jobs/l/d/lever-cfsenergy-cbf90690-2518-4c81-ace4-530e3b158545?s=gh-internships-2027|CFS Energy|Intern - I&C and Network Engineer - Spring or Summer 2027|Devens, MA|Summer 2027#1"
+    },
+    "efddeda467c9": {
+      "company": "Booz Allen Hamilton",
+      "role": "Test Engineer Intern",
+      "location": "Lexington Park, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0252409?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10025,
+      "chat_id": 7582459199,
+      "seq": 8756,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0252409?s=gh-internships-2027|Booz Allen Hamilton|Test Engineer Intern|Lexington Park, MD|Summer 2027#1"
+    },
+    "e43557d5af0d": {
+      "company": "ABB",
+      "role": "Automation Engineer Intern - Summer 2027",
+      "location": "New Berlin, Wisconsin, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-abb-external-career-page-JR00049932?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10026,
+      "chat_id": 7582459199,
+      "seq": 8757,
+      "identity": "https://zapply.jobs/l/d/workday-abb-external-career-page-JR00049932?s=gh-internships-2027|ABB|Automation Engineer Intern - Summer 2027|New Berlin, Wisconsin, United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -112095,10 +112143,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8753,
+  "seq": 8757,
   "health": {
     "last_heartbeat": "2026-10-27T17:20:20Z",
-    "last_ok_run": "2026-10-27T17:55:30Z",
+    "last_ok_run": "2026-10-27T18:00:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
