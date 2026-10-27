@@ -10522,7 +10522,16 @@
       "https://highmarkhealth.wd1.myworkdayjobs.com/en-US/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Graduate-Intern_J289845|Highmark Health|Summer 2027 Software Engineer enGen Graduate Intern|Pennsylvania, USA +42|Other#1",
       "https://highmarkhealth.wd1.myworkdayjobs.com/en-US/highmark/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Enterprise-Architecture-Software-Engineer---Architect-enGen-Undergradute-Intern_J289821|Highmark Health|Summer 2027 Enterprise Architecture Software Engineer & Architect enGen Undergradute Intern|Pittsburgh, PA|Other#1",
       "https://highmarkhealth.wd1.myworkdayjobs.com/en-US/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Provider-Delivery-Software-Engineer-enGen-Undergraduate-Intern_J290026|Highmark Health|Summer 2027 Provider Delivery Software Engineer enGen Undergraduate Intern|Remote - Pennsylvania, USA +43|Other#1",
-      "https://highmarkhealth.wd1.myworkdayjobs.com/en-US/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J289812|Highmark Health|Summer 2027 Software Engineer enGen Undergraduate Intern|Pennsylvania, USA|Other#1"
+      "https://highmarkhealth.wd1.myworkdayjobs.com/en-US/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J289812|Highmark Health|Summer 2027 Software Engineer enGen Undergraduate Intern|Pennsylvania, USA|Other#1",
+      "https://manh.wd5.myworkdayjobs.com/en-US/campus/job/Atlanta-GA/Cloud-Intern_16992|Manhattan Associates|Cloud Intern|Atlanta, GA|Other#1",
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Ohio-Beavercreek/XMLNAME-2027-Software-Engineering-Intern---Beavercreek-OH_R10257656|Northrop Grumman|2027 Software Engineering Intern - Beavercreek OH|Beavercreek, OH|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Part-Time-Software-Platform-Engineer-Co-Op---Remote-_01884756|Raytheon|Part Time Software Platform Engineer Co-Op - Remote|Richardson, TX|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-SAN-DIEGO-SD1--8650-Balboa-Ave--SAN-ANTONIO-BLDG/Software-Engineering--Intern--Summer-2027-_01884532|Raytheon|Software Engineering Intern - Summer 2027|San Diego, CA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Part-Time-Software-Platform-Engineer-Co-Op---Remote-_01884752|Raytheon|Part Time Software Platform Engineer Co-Op - Remote|Aurora, CO|Other#1",
+      "https://www.mongodb.com/careers/job/?gh_jid=8209134|MongoDB|2027 - Software Engineering Intern - AMER|Austin, TX +2|Other#1",
+      "https://jobs.ashbyhq.com/aurora-operations-inc/c823b343-ba1f-4ff3-84ce-965ee9952c12|Aurora Innovation|Core Autonomy Software - C++ Intern|Mountain View, CA +1|Other#1",
+      "https://jobs.ashbyhq.com/aurora-operations-inc/bc852c2c-945f-4a1e-b383-54a0f6e0ace9|Aurora Innovation|Full Stack Intern|Mountain View, CA +1|Other#1",
+      "https://nanopath.com/careers?gh_jid=4732881005|Nanopath|Software Development Co-op - Jan '27 Start|Cambridge, MA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -10667,106 +10676,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 725,
-    "outbox": [
-      [
-        [
-          "Manhattan Associates",
-          "Cloud Intern",
-          "Atlanta, GA",
-          "Other",
-          "https://manh.wd5.myworkdayjobs.com/en-US/campus/job/Atlanta-GA/Cloud-Intern_16992"
-        ],
-        "https://manh.wd5.myworkdayjobs.com/en-US/campus/job/Atlanta-GA/Cloud-Intern_16992|Manhattan Associates|Cloud Intern|Atlanta, GA|Other#1",
-        1
-      ],
-      [
-        [
-          "Northrop Grumman",
-          "2027 Software Engineering Intern - Beavercreek OH",
-          "Beavercreek, OH",
-          "Other",
-          "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Ohio-Beavercreek/XMLNAME-2027-Software-Engineering-Intern---Beavercreek-OH_R10257656"
-        ],
-        "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Ohio-Beavercreek/XMLNAME-2027-Software-Engineering-Intern---Beavercreek-OH_R10257656|Northrop Grumman|2027 Software Engineering Intern - Beavercreek OH|Beavercreek, OH|Other#1",
-        1
-      ],
-      [
-        [
-          "Raytheon",
-          "Part Time Software Platform Engineer Co-Op - Remote",
-          "Richardson, TX",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Part-Time-Software-Platform-Engineer-Co-Op---Remote-_01884756"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Part-Time-Software-Platform-Engineer-Co-Op---Remote-_01884756|Raytheon|Part Time Software Platform Engineer Co-Op - Remote|Richardson, TX|Other#1",
-        1
-      ],
-      [
-        [
-          "Raytheon",
-          "Software Engineering Intern - Summer 2027",
-          "San Diego, CA",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-SAN-DIEGO-SD1--8650-Balboa-Ave--SAN-ANTONIO-BLDG/Software-Engineering--Intern--Summer-2027-_01884532"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-SAN-DIEGO-SD1--8650-Balboa-Ave--SAN-ANTONIO-BLDG/Software-Engineering--Intern--Summer-2027-_01884532|Raytheon|Software Engineering Intern - Summer 2027|San Diego, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Raytheon",
-          "Part Time Software Platform Engineer Co-Op - Remote",
-          "Aurora, CO",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Part-Time-Software-Platform-Engineer-Co-Op---Remote-_01884752"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Part-Time-Software-Platform-Engineer-Co-Op---Remote-_01884752|Raytheon|Part Time Software Platform Engineer Co-Op - Remote|Aurora, CO|Other#1",
-        1
-      ],
-      [
-        [
-          "MongoDB",
-          "2027 - Software Engineering Intern - AMER",
-          "Austin, TX +2",
-          "Other",
-          "https://www.mongodb.com/careers/job/?gh_jid=8209134"
-        ],
-        "https://www.mongodb.com/careers/job/?gh_jid=8209134|MongoDB|2027 - Software Engineering Intern - AMER|Austin, TX +2|Other#1",
-        1
-      ],
-      [
-        [
-          "Aurora Innovation",
-          "Core Autonomy Software - C++ Intern",
-          "Mountain View, CA +1",
-          "Other",
-          "https://jobs.ashbyhq.com/aurora-operations-inc/c823b343-ba1f-4ff3-84ce-965ee9952c12"
-        ],
-        "https://jobs.ashbyhq.com/aurora-operations-inc/c823b343-ba1f-4ff3-84ce-965ee9952c12|Aurora Innovation|Core Autonomy Software - C++ Intern|Mountain View, CA +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Aurora Innovation",
-          "Full Stack Intern",
-          "Mountain View, CA +1",
-          "Other",
-          "https://jobs.ashbyhq.com/aurora-operations-inc/bc852c2c-945f-4a1e-b383-54a0f6e0ace9"
-        ],
-        "https://jobs.ashbyhq.com/aurora-operations-inc/bc852c2c-945f-4a1e-b383-54a0f6e0ace9|Aurora Innovation|Full Stack Intern|Mountain View, CA +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Nanopath",
-          "Software Development Co-op - Jan '27 Start",
-          "Cambridge, MA",
-          "Other",
-          "https://nanopath.com/careers?gh_jid=4732881005"
-        ],
-        "https://nanopath.com/careers?gh_jid=4732881005|Nanopath|Software Development Co-op - Jan '27 Start|Cambridge, MA|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }
