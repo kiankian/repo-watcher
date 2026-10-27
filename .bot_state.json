@@ -110180,6 +110180,30 @@
       "chat_id": 7582459199,
       "seq": 8624,
       "identity": "NOURL|Applied Materials|Software Engineer Intern|Santa Clara, CA|Oct 19#1"
+    },
+    "0b81390dfcfd": {
+      "company": "Visa",
+      "role": "Data Science Intern, Data and AI Team",
+      "location": "Foster City, CA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/UG?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9894,
+      "chat_id": 7582459199,
+      "seq": 8625,
+      "identity": "https://go.vansh.nyc/UG?s=y|Visa|Data Science Intern, Data and AI Team|Foster City, CA|Oct 27#1"
+    },
+    "2c565da9f3a4": {
+      "company": "ADT",
+      "role": "Cybersecurity & Risk Intern",
+      "location": "Boca Raton, FL",
+      "term": "Oct 25",
+      "apply_url": "https://go.vansh.nyc/UH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 9895,
+      "chat_id": 7582459199,
+      "seq": 8626,
+      "identity": "https://go.vansh.nyc/UH?s=y|ADT|Cybersecurity & Risk Intern|Boca Raton, FL|Oct 25#1"
     }
   },
   "applied": {
@@ -110547,10 +110571,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8624,
+  "seq": 8626,
   "health": {
     "last_heartbeat": "2026-10-27T07:30:20Z",
-    "last_ok_run": "2026-10-27T08:05:18Z",
+    "last_ok_run": "2026-10-27T08:10:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
