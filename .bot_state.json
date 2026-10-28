@@ -112844,6 +112844,30 @@
       "chat_id": 7582459199,
       "seq": 8846,
       "identity": "NOURL|Aerospace Corporation|Cloud Solutions Engineer Intern, Site Reliability \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA Colorado Springs, CO|Oct 20#1"
+    },
+    "888adc8d6356": {
+      "company": "VSP Vision",
+      "role": "Internship, Software Engineer",
+      "location": "Remote US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-vsp-vspvisioncareers-R-10046?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10116,
+      "chat_id": 7582459199,
+      "seq": 8847,
+      "identity": "https://zapply.jobs/l/d/workday-vsp-vspvisioncareers-R-10046?s=gh-internships-2027|VSP Vision|Internship, Software Engineer|Remote US|Summer 2027#1"
+    },
+    "f07073d78905": {
+      "company": "VSP Vision",
+      "role": "Internship, Software Engineer",
+      "location": "Remote US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-vsp-vspvisioncareers-R-10071?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10117,
+      "chat_id": 7582459199,
+      "seq": 8848,
+      "identity": "https://zapply.jobs/l/d/workday-vsp-vspvisioncareers-R-10071?s=gh-internships-2027|VSP Vision|Internship, Software Engineer|Remote US|Summer 2027#1"
     }
   },
   "applied": {
@@ -113211,10 +113235,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8846,
+  "seq": 8848,
   "health": {
     "last_heartbeat": "2026-10-28T07:20:19Z",
-    "last_ok_run": "2026-10-28T07:20:19Z",
+    "last_ok_run": "2026-10-28T07:25:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
