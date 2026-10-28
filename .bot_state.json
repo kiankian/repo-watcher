@@ -112652,6 +112652,30 @@
       "chat_id": 7582459199,
       "seq": 8830,
       "identity": "https://go.vansh.nyc/WW?s=y|FUTO|Software Engineer Intern|Austin, TX|Oct 27#1"
+    },
+    "fc65700322a2": {
+      "company": "Cencora",
+      "role": "AI Intern",
+      "location": "Conshohocken, PA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10100,
+      "chat_id": 7582459199,
+      "seq": 8831,
+      "identity": "NOURL|Cencora|AI Intern|Conshohocken, PA|Oct 27#1"
+    },
+    "b6b30d7021d2": {
+      "company": "Smith+Nephew",
+      "role": "Agentic AI Software Engineering Intern",
+      "location": "Andover, MA",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10101,
+      "chat_id": 7582459199,
+      "seq": 8832,
+      "identity": "NOURL|Smith+Nephew|Agentic AI Software Engineering Intern|Andover, MA|Oct 21#1"
     }
   },
   "applied": {
@@ -113019,10 +113043,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8830,
+  "seq": 8832,
   "health": {
     "last_heartbeat": "2026-10-28T03:00:24Z",
-    "last_ok_run": "2026-10-28T04:05:15Z",
+    "last_ok_run": "2026-10-28T04:10:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
