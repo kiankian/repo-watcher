@@ -114584,6 +114584,30 @@
       "chat_id": 7582459199,
       "seq": 8991,
       "identity": "NOURL|General Dynamics Information Technology|Generative AI Software Development Intern|Bossier City, LA|Sep 22#1"
+    },
+    "4f05f5060b56": {
+      "company": "Sonos",
+      "role": "Software Engineering Intern (Seattle)",
+      "location": "Seattle, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-sonos-sonos-R2885?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10261,
+      "chat_id": 7582459199,
+      "seq": 8992,
+      "identity": "https://zapply.jobs/l/d/workday-sonos-sonos-R2885?s=gh-internships-2027|Sonos|Software Engineering Intern (Seattle)|Seattle, WA|Summer 2027#1"
+    },
+    "622861c3a8e6": {
+      "company": "ASML",
+      "role": "Internship- Software Development Engineer in Test",
+      "location": "San Diego, CA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-asml-asmlext1-J-00354459?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10262,
+      "chat_id": 7582459199,
+      "seq": 8993,
+      "identity": "https://zapply.jobs/l/d/workday-asml-asmlext1-J-00354459?s=gh-internships-2027|ASML|Internship- Software Development Engineer in Test|San Diego, CA, USA|Summer 2027#1"
     }
   },
   "applied": {
@@ -114951,10 +114975,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8991,
+  "seq": 8993,
   "health": {
     "last_heartbeat": "2026-10-28T20:55:16Z",
-    "last_ok_run": "2026-10-28T21:55:14Z",
+    "last_ok_run": "2026-10-28T22:00:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
