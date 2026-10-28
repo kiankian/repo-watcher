@@ -112796,6 +112796,54 @@
       "chat_id": 7582459199,
       "seq": 8842,
       "identity": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/661d7ac4-51df-454d-82c8-2a0d94852036/application?embed=true&utm_source=Simplify&ref=Simplify|Shield AI|Software Engineer Intern|San Diego, CA|Summer 2026#1"
+    },
+    "72d53b1ec538": {
+      "company": "VSP Vision",
+      "role": "Software Engineer Intern, Technology Innovation",
+      "location": "Remote United States",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/X8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10112,
+      "chat_id": 7582459199,
+      "seq": 8843,
+      "identity": "https://go.vansh.nyc/X8?s=y|VSP Vision|Software Engineer Intern, Technology Innovation|Remote United States|Oct 27#1"
+    },
+    "26ecb38c0390": {
+      "company": "Certa",
+      "role": "Frontend Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Xa?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10113,
+      "chat_id": 7582459199,
+      "seq": 8844,
+      "identity": "https://go.vansh.nyc/Xa?s=y|Certa|Frontend Engineer Intern|San Francisco, CA|Oct 27#1"
+    },
+    "e8c45661a975": {
+      "company": "Shield AI",
+      "role": "Software Engineer Intern",
+      "location": "San Diego, CA",
+      "term": "Oct 25",
+      "apply_url": "https://go.vansh.nyc/X7?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10114,
+      "chat_id": 7582459199,
+      "seq": 8845,
+      "identity": "https://go.vansh.nyc/X7?s=y|Shield AI|Software Engineer Intern|San Diego, CA|Oct 25#1"
+    },
+    "c7c44a19bb96": {
+      "company": "Aerospace Corporation",
+      "role": "Cloud Solutions Engineer Intern, Site Reliability \ud83c\uddfa\ud83c\uddf8",
+      "location": "El Segundo, CA Chantilly, VA Colorado Springs, CO",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10115,
+      "chat_id": 7582459199,
+      "seq": 8846,
+      "identity": "NOURL|Aerospace Corporation|Cloud Solutions Engineer Intern, Site Reliability \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA Colorado Springs, CO|Oct 20#1"
     }
   },
   "applied": {
@@ -113163,10 +113211,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8842,
+  "seq": 8846,
   "health": {
     "last_heartbeat": "2026-10-28T06:20:18Z",
-    "last_ok_run": "2026-10-28T07:05:16Z",
+    "last_ok_run": "2026-10-28T07:10:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
