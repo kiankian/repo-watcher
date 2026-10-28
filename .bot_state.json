@@ -112748,6 +112748,54 @@
       "chat_id": 7582459199,
       "seq": 8838,
       "identity": "https://go.vansh.nyc/X4?s=y|stealth-startup-community|Embedded Firmware and Controls Engineer Intern|Austin, TX|Oct 26#1"
+    },
+    "1ec5699633b3": {
+      "company": "VSP Vision",
+      "role": "Software Engineer Intern - Technology Innovation",
+      "location": "Remote in USA",
+      "term": "Summer 2026",
+      "apply_url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Technology-Innovation_R-10020?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10108,
+      "chat_id": 7582459199,
+      "seq": 8839,
+      "identity": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Technology-Innovation_R-10020?utm_source=Simplify&ref=Simplify|VSP Vision|Software Engineer Intern - Technology Innovation|Remote in USA|Summer 2026#1"
+    },
+    "2937e8283bfd": {
+      "company": "VSP Vision",
+      "role": "Software Engineer Intern",
+      "location": "Remote in USA",
+      "term": "Summer 2026",
+      "apply_url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10068?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10109,
+      "chat_id": 7582459199,
+      "seq": 8840,
+      "identity": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10068?utm_source=Simplify&ref=Simplify|VSP Vision|Software Engineer Intern|Remote in USA|Summer 2026#1"
+    },
+    "ab7cd6f22bb6": {
+      "company": "Shield AI",
+      "role": "Software Engineer Intern",
+      "location": "San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/db04c516-d21a-449c-8bfd-1cf830eafb5a/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10110,
+      "chat_id": 7582459199,
+      "seq": 8841,
+      "identity": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/db04c516-d21a-449c-8bfd-1cf830eafb5a/application?embed=true&utm_source=Simplify&ref=Simplify|Shield AI|Software Engineer Intern|San Diego, CA|Summer 2026#1"
+    },
+    "6f4b272ccf0b": {
+      "company": "Shield AI",
+      "role": "Software Engineer Intern",
+      "location": "San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/661d7ac4-51df-454d-82c8-2a0d94852036/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10111,
+      "chat_id": 7582459199,
+      "seq": 8842,
+      "identity": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/661d7ac4-51df-454d-82c8-2a0d94852036/application?embed=true&utm_source=Simplify&ref=Simplify|Shield AI|Software Engineer Intern|San Diego, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -113115,10 +113163,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8838,
+  "seq": 8842,
   "health": {
     "last_heartbeat": "2026-10-28T06:20:18Z",
-    "last_ok_run": "2026-10-28T06:30:21Z",
+    "last_ok_run": "2026-10-28T06:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
