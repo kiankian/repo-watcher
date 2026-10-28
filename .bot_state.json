@@ -113312,6 +113312,66 @@
       "chat_id": 7582459199,
       "seq": 8885,
       "identity": "https://apply.workable.com/coldquanta/j/EB77DE8198/apply?utm_source=Simplify&ref=Simplify|Infleqtion|Quantum Software Intern - Quantum Software|Chicago, IL|Summer 2026#1"
+    },
+    "efe9e29d4562": {
+      "company": "Infleqtion",
+      "role": "Quantum Software Intern",
+      "location": "Chicago, IL",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Xz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10155,
+      "chat_id": 7582459199,
+      "seq": 8886,
+      "identity": "https://go.vansh.nyc/Xz?s=y|Infleqtion|Quantum Software Intern|Chicago, IL|Oct 28#1"
+    },
+    "0128234f5e75": {
+      "company": "WorldEngine AI",
+      "role": "Research Intern, Robotics Data - Real-to-Sim",
+      "location": "San Francisco, CA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Xy?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10156,
+      "chat_id": 7582459199,
+      "seq": 8887,
+      "identity": "https://go.vansh.nyc/Xy?s=y|WorldEngine AI|Research Intern, Robotics Data - Real-to-Sim|San Francisco, CA|Oct 27#1"
+    },
+    "9725f70a9896": {
+      "company": "CVS Health",
+      "role": "Product & Agile Delivery Intern, Innovation & Technology",
+      "location": "**4 locations**Hartford, CT Dallas, TX Scottsdale, AZ Woonsocket, RI",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10157,
+      "chat_id": 7582459199,
+      "seq": 8888,
+      "identity": "NOURL|CVS Health|Product & Agile Delivery Intern, Innovation & Technology|**4 locations**Hartford, CT Dallas, TX Scottsdale, AZ Woonsocket, RI|Oct 21#1"
+    },
+    "40dcb57ee85e": {
+      "company": "CVS Health",
+      "role": "Software Engineer Intern, Platform & Applications",
+      "location": "**4 locations**Scottsdale, AZ Dallas, TX Hartford, CT Woonsocket, RI",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10158,
+      "chat_id": 7582459199,
+      "seq": 8889,
+      "identity": "NOURL|CVS Health|Software Engineer Intern, Platform & Applications|**4 locations**Scottsdale, AZ Dallas, TX Hartford, CT Woonsocket, RI|Oct 21#1"
+    },
+    "baea5eedaaaf": {
+      "company": "Draper",
+      "role": "Classified Cybersecurity/IT Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Cambridge, MA",
+      "term": "Oct 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10159,
+      "chat_id": 7582459199,
+      "seq": 8890,
+      "identity": "NOURL|Draper|Classified Cybersecurity/IT Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Oct 13#1"
     }
   },
   "applied": {
@@ -113679,10 +113739,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8885,
+  "seq": 8890,
   "health": {
     "last_heartbeat": "2026-10-28T14:00:25Z",
-    "last_ok_run": "2026-10-28T14:35:17Z",
+    "last_ok_run": "2026-10-28T14:40:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
