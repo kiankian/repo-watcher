@@ -113264,6 +113264,42 @@
       "chat_id": 7582459199,
       "seq": 8881,
       "identity": "https://zapply.jobs/l/d/workday-allegion-careers-JR37395?s=gh-internships-2027|Allegion|Summer Intern - Software Systems Engineering|Golden, CO|Summer 2027#1"
+    },
+    "957cc0a43ddf": {
+      "company": "Schonfeld",
+      "role": "DMFI Intern",
+      "location": "New York, NY",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Xw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10151,
+      "chat_id": 7582459199,
+      "seq": 8882,
+      "identity": "https://go.vansh.nyc/Xw?s=y|Schonfeld|DMFI Intern|New York, NY|Oct 28#1"
+    },
+    "6cc88478ef7f": {
+      "company": "Allegion",
+      "role": "Software Systems Engineering Intern",
+      "location": "Golden, CO",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Xv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10152,
+      "chat_id": 7582459199,
+      "seq": 8883,
+      "identity": "https://go.vansh.nyc/Xv?s=y|Allegion|Software Systems Engineering Intern|Golden, CO|Oct 28#1"
+    },
+    "6e574e3bd577": {
+      "company": "Ace Hardware Corporation",
+      "role": "IT Associate Software Engineer Intern",
+      "location": "Oak Brook, IL",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Xx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10153,
+      "chat_id": 7582459199,
+      "seq": 8884,
+      "identity": "https://go.vansh.nyc/Xx?s=y|Ace Hardware Corporation|IT Associate Software Engineer Intern|Oak Brook, IL|Oct 28#1"
     }
   },
   "applied": {
@@ -113631,10 +113667,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8881,
+  "seq": 8884,
   "health": {
     "last_heartbeat": "2026-10-28T13:00:25Z",
-    "last_ok_run": "2026-10-28T13:40:18Z",
+    "last_ok_run": "2026-10-28T13:45:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
