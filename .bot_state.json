@@ -114188,6 +114188,30 @@
       "chat_id": 7582459199,
       "seq": 8958,
       "identity": "https://studentopportunities-lutron.icims.com/jobs/5366/summer-2027---embedded-software-engineering-intern---cincinnati%2c-oh/job|Lutron|Summer 2027 - Embedded Software Engineering Intern - Cincinnati - OH|Cincinnati, OH|Other#1"
+    },
+    "27c802fc60e1": {
+      "company": "The Nuclear Company",
+      "role": "Spring 2027 Security Engineer Intern",
+      "location": "Washington, D.C.",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-thenuclearcompany-5466153008?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10228,
+      "chat_id": 7582459199,
+      "seq": 8959,
+      "identity": "https://zapply.jobs/l/d/greenhouse-thenuclearcompany-5466153008?s=gh-internships-2027|The Nuclear Company|Spring 2027 Security Engineer Intern|Washington, D.C.|Summer 2027#1"
+    },
+    "5d1278cdf43f": {
+      "company": "Micron",
+      "role": "Intern - Product Yield Software Engineer",
+      "location": "Boise, Idaho, United States of...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/eightfold-micron-45166480?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10229,
+      "chat_id": 7582459199,
+      "seq": 8960,
+      "identity": "https://zapply.jobs/l/d/eightfold-micron-45166480?s=gh-internships-2027|Micron|Intern - Product Yield Software Engineer|Boise, Idaho, United States of...|Summer 2027#1"
     }
   },
   "applied": {
@@ -114555,10 +114579,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8958,
+  "seq": 8960,
   "health": {
     "last_heartbeat": "2026-10-28T17:25:16Z",
-    "last_ok_run": "2026-10-28T18:25:17Z",
+    "last_ok_run": "2026-10-28T18:30:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
