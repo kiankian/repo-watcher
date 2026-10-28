@@ -113516,6 +113516,42 @@
       "chat_id": 7582459199,
       "seq": 8902,
       "identity": "NOURL|Akuna Capital|Software Engineer Intern, C++ \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1"
+    },
+    "e2ea4f3b5f72": {
+      "company": "Moog",
+      "role": "Intern, Systems Engineering",
+      "location": "Buffalo, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-moog-moog-external-career-site-R-26-20918?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10172,
+      "chat_id": 7582459199,
+      "seq": 8903,
+      "identity": "https://zapply.jobs/l/d/workday-moog-moog-external-career-site-R-26-20918?s=gh-internships-2027|Moog|Intern, Systems Engineering|Buffalo, NY|Summer 2027#1"
+    },
+    "ff2224a4dfce": {
+      "company": "Sonos",
+      "role": "Software Engineering Intern (Boston)",
+      "location": "Boston, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-sonos-sonos-R2882?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10173,
+      "chat_id": 7582459199,
+      "seq": 8904,
+      "identity": "https://zapply.jobs/l/d/workday-sonos-sonos-R2882?s=gh-internships-2027|Sonos|Software Engineering Intern (Boston)|Boston, MA|Summer 2027#1"
+    },
+    "d01c71bccbfa": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Network Engineer Intern (Summer 2027)",
+      "location": "Hagerstown, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031232?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10174,
+      "chat_id": 7582459199,
+      "seq": 8905,
+      "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031232?s=gh-internships-2027|Sierra Nevada Corporation|Network Engineer Intern (Summer 2027)|Hagerstown, MD|Summer 2027#1"
     }
   },
   "applied": {
@@ -113883,10 +113919,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8902,
+  "seq": 8905,
   "health": {
     "last_heartbeat": "2026-10-28T16:25:16Z",
-    "last_ok_run": "2026-10-28T16:30:21Z",
+    "last_ok_run": "2026-10-28T16:35:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
