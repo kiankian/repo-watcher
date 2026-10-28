@@ -114608,6 +114608,42 @@
       "chat_id": 7582459199,
       "seq": 8993,
       "identity": "https://zapply.jobs/l/d/workday-asml-asmlext1-J-00354459?s=gh-internships-2027|ASML|Internship- Software Development Engineer in Test|San Diego, CA, USA|Summer 2027#1"
+    },
+    "0201820bebb5": {
+      "company": "ASML",
+      "role": "Software Development Engineer in Test Intern",
+      "location": "San Diego, CA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Y2?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10263,
+      "chat_id": 7582459199,
+      "seq": 8994,
+      "identity": "https://go.vansh.nyc/Y2?s=y|ASML|Software Development Engineer in Test Intern|San Diego, CA|Oct 28#1"
+    },
+    "e0a241589803": {
+      "company": "OpenSesame",
+      "role": "Security Analyst Intern",
+      "location": "Remote United States",
+      "term": "Oct 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10264,
+      "chat_id": 7582459199,
+      "seq": 8995,
+      "identity": "NOURL|OpenSesame|Security Analyst Intern|Remote United States|Oct 15#1"
+    },
+    "a3b43bcd1930": {
+      "company": "LinkedIn",
+      "role": "Software Engineer Intern (First Play)  - Summer 2027 (Mountain View, CA)",
+      "location": "Mountain View, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-LinkedIn3-744000158394370?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10265,
+      "chat_id": 7582459199,
+      "seq": 8996,
+      "identity": "https://zapply.jobs/l/d/sr-LinkedIn3-744000158394370?s=gh-internships-2027|LinkedIn|Software Engineer Intern (First Play)  - Summer 2027 (Mountain View, CA)|Mountain View, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -114975,10 +115011,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8993,
+  "seq": 8996,
   "health": {
     "last_heartbeat": "2026-10-28T20:55:16Z",
-    "last_ok_run": "2026-10-28T22:05:14Z",
+    "last_ok_run": "2026-10-28T22:10:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
