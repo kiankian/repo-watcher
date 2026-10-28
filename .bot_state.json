@@ -112496,6 +112496,30 @@
       "chat_id": 7582459199,
       "seq": 8817,
       "identity": "https://go.vansh.nyc/WS?s=y|Protagonist|Software Engineering Intern|Washington, DC|Oct 27#1"
+    },
+    "95f2c7ef7dad": {
+      "company": "Mercor",
+      "role": "Research Engineer Intern, Benchmarking",
+      "location": "San Francisco, CA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/WT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10087,
+      "chat_id": 7582459199,
+      "seq": 8818,
+      "identity": "https://go.vansh.nyc/WT?s=y|Mercor|Research Engineer Intern, Benchmarking|San Francisco, CA|Oct 27#1"
+    },
+    "2a38ff622922": {
+      "company": "Mercor",
+      "role": "Research Engineer Intern, Environments, Data and Post-Training",
+      "location": "San Francisco, CA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/WU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10088,
+      "chat_id": 7582459199,
+      "seq": 8819,
+      "identity": "https://go.vansh.nyc/WU?s=y|Mercor|Research Engineer Intern, Environments, Data and Post-Training|San Francisco, CA|Oct 27#1"
     }
   },
   "applied": {
@@ -112863,10 +112887,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8817,
+  "seq": 8819,
   "health": {
     "last_heartbeat": "2026-10-28T00:00:20Z",
-    "last_ok_run": "2026-10-28T00:05:16Z",
+    "last_ok_run": "2026-10-28T00:10:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
