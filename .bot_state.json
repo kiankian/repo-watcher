@@ -112592,6 +112592,30 @@
       "chat_id": 7582459199,
       "seq": 8825,
       "identity": "https://jobs.ashbyhq.com/integrate/7681f59b-70c0-414b-96d9-ae8925cc2ed3/application?embed=true&utm_source=Simplify&ref=Simplify|Integrate|Software Engineer Intern|Seattle, WA|Summer 2026#1"
+    },
+    "bb759afc8a38": {
+      "company": "DriveWealth",
+      "role": "AI Consulting Associate Program \u2013 AI Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/drivewealth/a214dd6c-e3ac-481e-8308-bf74c2032b8a/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10095,
+      "chat_id": 7582459199,
+      "seq": 8826,
+      "identity": "https://jobs.ashbyhq.com/drivewealth/a214dd6c-e3ac-481e-8308-bf74c2032b8a/application?embed=true&utm_source=Simplify&ref=Simplify|DriveWealth|AI Consulting Associate Program \u2013 AI Engineer Intern|Chicago, IL|Summer 2026#1"
+    },
+    "ca961270623f": {
+      "company": "DriveWealth",
+      "role": "AI Consulting Associate Program Product Owner Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/drivewealth/ec17ef99-dea9-4150-b935-5f74750d7b87/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10096,
+      "chat_id": 7582459199,
+      "seq": 8827,
+      "identity": "https://jobs.ashbyhq.com/drivewealth/ec17ef99-dea9-4150-b935-5f74750d7b87/application?embed=true&utm_source=Simplify&ref=Simplify|DriveWealth|AI Consulting Associate Program Product Owner Intern|Chicago, IL|Summer 2026#1"
     }
   },
   "applied": {
@@ -112959,10 +112983,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8825,
+  "seq": 8827,
   "health": {
     "last_heartbeat": "2026-10-28T02:00:21Z",
-    "last_ok_run": "2026-10-28T02:00:21Z",
+    "last_ok_run": "2026-10-28T02:05:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
