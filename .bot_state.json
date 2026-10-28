@@ -114296,6 +114296,18 @@
       "chat_id": 7582459199,
       "seq": 8967,
       "identity": "NOURL|Booz Allen Hamilton|Software Developer Intern|San Diego, CA|Aug 26#1"
+    },
+    "cfa6075c0b97": {
+      "company": "Eaton",
+      "role": "Internship Program: Power Systems Engineer",
+      "location": "Moon Township, Pennsylvania,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/eightfold-eaton-687238084767?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10237,
+      "chat_id": 7582459199,
+      "seq": 8968,
+      "identity": "https://zapply.jobs/l/d/eightfold-eaton-687238084767?s=gh-internships-2027|Eaton|Internship Program: Power Systems Engineer|Moon Township, Pennsylvania,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -114663,10 +114675,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8967,
+  "seq": 8968,
   "health": {
     "last_heartbeat": "2026-10-28T18:40:21Z",
-    "last_ok_run": "2026-10-28T19:00:32Z",
+    "last_ok_run": "2026-10-28T19:05:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
