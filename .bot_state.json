@@ -112940,6 +112940,18 @@
       "chat_id": 7582459199,
       "seq": 8854,
       "identity": "NOURL|Apple|Aeon Modeling Software Intern|United States|Oct 19#1"
+    },
+    "aa9b8f6b4969": {
+      "company": "Daimler Truck",
+      "role": "Software Release Management Intern",
+      "location": "Portland, OR",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Xd?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10124,
+      "chat_id": 7582459199,
+      "seq": 8855,
+      "identity": "https://go.vansh.nyc/Xd?s=y|Daimler Truck|Software Release Management Intern|Portland, OR|Oct 28#1"
     }
   },
   "applied": {
@@ -113307,10 +113319,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8854,
+  "seq": 8855,
   "health": {
     "last_heartbeat": "2026-10-28T07:20:19Z",
-    "last_ok_run": "2026-10-28T08:10:28Z",
+    "last_ok_run": "2026-10-28T08:15:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
