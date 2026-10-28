@@ -113612,6 +113612,18 @@
       "chat_id": 7582459199,
       "seq": 8910,
       "identity": "NOURL|Akuna Capital|Software Engineer Intern, C# .NET Desktop|Chicago, IL|Jul 24#1"
+    },
+    "79f91de67c22": {
+      "company": "Moog",
+      "role": "Intern, Systems Engineering",
+      "location": "Buffalo, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-moog-moog-external-career-site-R-26-20920?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10180,
+      "chat_id": 7582459199,
+      "seq": 8911,
+      "identity": "https://zapply.jobs/l/d/workday-moog-moog-external-career-site-R-26-20920?s=gh-internships-2027|Moog|Intern, Systems Engineering|Buffalo, NY|Summer 2027#1"
     }
   },
   "applied": {
@@ -113979,10 +113991,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8910,
+  "seq": 8911,
   "health": {
     "last_heartbeat": "2026-10-28T16:25:16Z",
-    "last_ok_run": "2026-10-28T16:45:19Z",
+    "last_ok_run": "2026-10-28T16:50:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
