@@ -112520,6 +112520,30 @@
       "chat_id": 7582459199,
       "seq": 8819,
       "identity": "https://go.vansh.nyc/WU?s=y|Mercor|Research Engineer Intern, Environments, Data and Post-Training|San Francisco, CA|Oct 27#1"
+    },
+    "299bdd49e603": {
+      "company": "AeroVironment",
+      "role": "Test Engineering Intern - Space Technologies",
+      "location": "Albuquerque, NM",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-avav-avav-9253?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10089,
+      "chat_id": 7582459199,
+      "seq": 8820,
+      "identity": "https://zapply.jobs/l/d/workday-avav-avav-9253?s=gh-internships-2027|AeroVironment|Test Engineering Intern - Space Technologies|Albuquerque, NM|Summer 2027#1"
+    },
+    "9d0cfa84810b": {
+      "company": "AeroVironment",
+      "role": "Systems Engineering Intern - Space Technologies",
+      "location": "Albuquerque, NM",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-avav-avav-9250?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10090,
+      "chat_id": 7582459199,
+      "seq": 8821,
+      "identity": "https://zapply.jobs/l/d/workday-avav-avav-9250?s=gh-internships-2027|AeroVironment|Systems Engineering Intern - Space Technologies|Albuquerque, NM|Summer 2027#1"
     }
   },
   "applied": {
@@ -112887,10 +112911,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8819,
+  "seq": 8821,
   "health": {
     "last_heartbeat": "2026-10-28T00:00:20Z",
-    "last_ok_run": "2026-10-28T00:20:17Z",
+    "last_ok_run": "2026-10-28T00:25:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
