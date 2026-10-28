@@ -113048,6 +113048,66 @@
       "chat_id": 7582459199,
       "seq": 8863,
       "identity": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Network-and-Security-Engineering-Intern---2027--Highlands-Ranch--CO_REF089779W-1|Visa|Network and Security Engineering Intern \ud83d\udec2|Denver, CO|Oct 26#1"
+    },
+    "ec4c233e35a4": {
+      "company": "Hive Financial Systems",
+      "role": "Analytics Intern",
+      "location": "Atlanta, GA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Xk?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10133,
+      "chat_id": 7582459199,
+      "seq": 8864,
+      "identity": "https://go.vansh.nyc/Xk?s=y|Hive Financial Systems|Analytics Intern|Atlanta, GA|Oct 27#1"
+    },
+    "5ba4b1bb4483": {
+      "company": "Visa",
+      "role": "Software Engineer Intern \ud83d\udec2",
+      "location": "Foster City, CA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/Xe?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10134,
+      "chat_id": 7582459199,
+      "seq": 8865,
+      "identity": "https://go.vansh.nyc/Xe?s=y|Visa|Software Engineer Intern \ud83d\udec2|Foster City, CA|Oct 26#1"
+    },
+    "c92072236870": {
+      "company": "Visa",
+      "role": "Software Engineer Intern \ud83d\udec2",
+      "location": "Austin, TX",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/Xf?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10135,
+      "chat_id": 7582459199,
+      "seq": 8866,
+      "identity": "https://go.vansh.nyc/Xf?s=y|Visa|Software Engineer Intern \ud83d\udec2|Austin, TX|Oct 26#1"
+    },
+    "9555b75708e6": {
+      "company": "Visa",
+      "role": "Network and Security Engineering Intern \ud83d\udec2",
+      "location": "Ashburn, VA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/Xg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10136,
+      "chat_id": 7582459199,
+      "seq": 8867,
+      "identity": "https://go.vansh.nyc/Xg?s=y|Visa|Network and Security Engineering Intern \ud83d\udec2|Ashburn, VA|Oct 26#1"
+    },
+    "5cdb09973bcf": {
+      "company": "Visa",
+      "role": "Network and Security Engineering Intern \ud83d\udec2",
+      "location": "Denver, CO",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/Xh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10137,
+      "chat_id": 7582459199,
+      "seq": 8868,
+      "identity": "https://go.vansh.nyc/Xh?s=y|Visa|Network and Security Engineering Intern \ud83d\udec2|Denver, CO|Oct 26#1"
     }
   },
   "applied": {
@@ -113415,10 +113475,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8863,
+  "seq": 8868,
   "health": {
     "last_heartbeat": "2026-10-28T08:30:21Z",
-    "last_ok_run": "2026-10-28T09:05:17Z",
+    "last_ok_run": "2026-10-28T09:10:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
