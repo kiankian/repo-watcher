@@ -114956,6 +114956,66 @@
       "chat_id": 7582459199,
       "seq": 9022,
       "identity": "NOURL|Booz Allen Hamilton|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fayetteville, NC|Oct 16#1"
+    },
+    "47b9f45a2311": {
+      "company": "Javelin Global Commodities",
+      "role": "Software Engineering Intern",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://apply.workable.com/javelin-global-commodities/j/CAF64E75BF/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10292,
+      "chat_id": 7582459199,
+      "seq": 9023,
+      "identity": "https://apply.workable.com/javelin-global-commodities/j/CAF64E75BF/apply?utm_source=Simplify&ref=Simplify|Javelin Global Commodities|Software Engineering Intern|London, UK|Summer 2026#1"
+    },
+    "364f4f276ff6": {
+      "company": "Schonfeld",
+      "role": "AI Enablement Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171694?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10293,
+      "chat_id": 7582459199,
+      "seq": 9024,
+      "identity": "https://job-boards.greenhouse.io/schonfeld/jobs/8171694?utm_source=Simplify&ref=Simplify|Schonfeld|AI Enablement Intern|NYC|Summer 2026#1"
+    },
+    "1258fe614782": {
+      "company": "\ud83d\udd25 AMD",
+      "role": "Masters AI Training Software & Performance Co-op \ud83c\udf93",
+      "location": "San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.amd.com/jobs/93476?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10294,
+      "chat_id": 7582459199,
+      "seq": 9025,
+      "identity": "https://careers.amd.com/jobs/93476?icims=1&utm_source=Simplify&ref=Simplify|\ud83d\udd25 AMD|Masters AI Training Software & Performance Co-op \ud83c\udf93|San Jose, CA|Summer 2026#1"
+    },
+    "a9f66872cc90": {
+      "company": "Sonos",
+      "role": "Software Engineer Intern",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10295,
+      "chat_id": 7582459199,
+      "seq": 9026,
+      "identity": "https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1?utm_source=Simplify&ref=Simplify|Sonos|Software Engineer Intern|Boston, MA|Summer 2026#1"
+    },
+    "47232213f59e": {
+      "company": "Regeneron Pharmaceuticals",
+      "role": "IT and Systems Intern - Industrial Operations and Product Supply",
+      "location": "Rensselaer, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/RENSSELAER/XMLNAME-2027-Summer-Intern-IT---Systems--IOPS-_R51822?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10296,
+      "chat_id": 7582459199,
+      "seq": 9027,
+      "identity": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/RENSSELAER/XMLNAME-2027-Summer-Intern-IT---Systems--IOPS-_R51822?utm_source=Simplify&ref=Simplify|Regeneron Pharmaceuticals|IT and Systems Intern - Industrial Operations and Product Supply|Rensselaer, NY|Summer 2026#1"
     }
   },
   "applied": {
@@ -115323,10 +115383,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9022,
+  "seq": 9027,
   "health": {
     "last_heartbeat": "2026-10-28T22:15:16Z",
-    "last_ok_run": "2026-10-28T23:00:22Z",
+    "last_ok_run": "2026-10-28T23:05:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
