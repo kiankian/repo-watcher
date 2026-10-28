@@ -113624,6 +113624,54 @@
       "chat_id": 7582459199,
       "seq": 8911,
       "identity": "https://zapply.jobs/l/d/workday-moog-moog-external-career-site-R-26-20920?s=gh-internships-2027|Moog|Intern, Systems Engineering|Buffalo, NY|Summer 2027#1"
+    },
+    "accc2fb321ce": {
+      "company": "Micron Technology",
+      "role": "Data Science Intern",
+      "location": "San Jose, CA Folsom, CA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/XF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10181,
+      "chat_id": 7582459199,
+      "seq": 8912,
+      "identity": "https://go.vansh.nyc/XF?s=y|Micron Technology|Data Science Intern|San Jose, CA Folsom, CA|Oct 28#1"
+    },
+    "ec5b975b00ee": {
+      "company": "Patreon",
+      "role": "Product Manager Intern",
+      "location": "New York, NY San Francisco, CA",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10182,
+      "chat_id": 7582459199,
+      "seq": 8913,
+      "identity": "NOURL|Patreon|Product Manager Intern|New York, NY San Francisco, CA|Oct 22#1"
+    },
+    "f7229d651586": {
+      "company": "Clera",
+      "role": "Computer Vision & Robotics Intern",
+      "location": "San Francisco, CA",
+      "term": "Oct 17",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10183,
+      "chat_id": 7582459199,
+      "seq": 8914,
+      "identity": "NOURL|Clera|Computer Vision & Robotics Intern|San Francisco, CA|Oct 17#1"
+    },
+    "ef31e6b5c596": {
+      "company": "Altera",
+      "role": "Software Engineer Intern",
+      "location": "Toronto, ON",
+      "term": "Oct 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10184,
+      "chat_id": 7582459199,
+      "seq": 8915,
+      "identity": "NOURL|Altera|Software Engineer Intern|Toronto, ON|Oct 16#1"
     }
   },
   "applied": {
@@ -113991,10 +114039,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8911,
+  "seq": 8915,
   "health": {
     "last_heartbeat": "2026-10-28T16:25:16Z",
-    "last_ok_run": "2026-10-28T17:05:18Z",
+    "last_ok_run": "2026-10-28T17:10:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
