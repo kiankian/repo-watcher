@@ -113420,6 +113420,42 @@
       "chat_id": 7582459199,
       "seq": 8894,
       "identity": "https://acehardware.wd1.myworkdayjobs.com/External/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797?utm_source=Simplify&ref=Simplify|Ace Hardware|IT Associate Software Engineer Intern|Oak Brook, IL|Summer 2026#1"
+    },
+    "096acb278a7a": {
+      "company": "Texas Instruments",
+      "role": "Software Engineering Intern \ud83d\udec2",
+      "location": "Remote Canada",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10164,
+      "chat_id": 7582459199,
+      "seq": 8895,
+      "identity": "NOURL|Texas Instruments|Software Engineering Intern \ud83d\udec2|Remote Canada|Oct 22#1"
+    },
+    "7537b7bcddad": {
+      "company": "Booz Allen Hamilton",
+      "role": "Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Arlington, VA",
+      "term": "Oct 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10165,
+      "chat_id": 7582459199,
+      "seq": 8896,
+      "identity": "NOURL|Booz Allen Hamilton|Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA|Oct 15#1"
+    },
+    "5e2c1e48fc7b": {
+      "company": "Booz Allen Hamilton",
+      "role": "Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Arlington, VA",
+      "term": "Oct 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10166,
+      "chat_id": 7582459199,
+      "seq": 8897,
+      "identity": "NOURL|Booz Allen Hamilton|Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA|Oct 15#2"
     }
   },
   "applied": {
@@ -113787,10 +113823,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8894,
+  "seq": 8897,
   "health": {
     "last_heartbeat": "2026-10-28T14:00:25Z",
-    "last_ok_run": "2026-10-28T15:05:21Z",
+    "last_ok_run": "2026-10-28T15:10:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
