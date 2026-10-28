@@ -114308,6 +114308,30 @@
       "chat_id": 7582459199,
       "seq": 8968,
       "identity": "https://zapply.jobs/l/d/eightfold-eaton-687238084767?s=gh-internships-2027|Eaton|Internship Program: Power Systems Engineer|Moon Township, Pennsylvania,...|Summer 2027#1"
+    },
+    "ca453828bb2a": {
+      "company": "Lockheed Martin",
+      "role": "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Littleton, CO",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/XV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10238,
+      "chat_id": 7582459199,
+      "seq": 8969,
+      "identity": "https://go.vansh.nyc/XV?s=y|Lockheed Martin|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Littleton, CO|Oct 28#1"
+    },
+    "b8d85a2e962e": {
+      "company": "L3Harris Technologies",
+      "role": "Information Security Systems Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Salt Lake City, UT",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/XU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10239,
+      "chat_id": 7582459199,
+      "seq": 8970,
+      "identity": "https://go.vansh.nyc/XU?s=y|L3Harris Technologies|Information Security Systems Engineer Intern \ud83c\uddfa\ud83c\uddf8|Salt Lake City, UT|Oct 28#1"
     }
   },
   "applied": {
@@ -114675,10 +114699,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8968,
+  "seq": 8970,
   "health": {
     "last_heartbeat": "2026-10-28T18:40:21Z",
-    "last_ok_run": "2026-10-28T19:05:20Z",
+    "last_ok_run": "2026-10-28T19:10:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
