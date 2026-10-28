@@ -115016,6 +115016,90 @@
       "chat_id": 7582459199,
       "seq": 9027,
       "identity": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/RENSSELAER/XMLNAME-2027-Summer-Intern-IT---Systems--IOPS-_R51822?utm_source=Simplify&ref=Simplify|Regeneron Pharmaceuticals|IT and Systems Intern - Industrial Operations and Product Supply|Rensselaer, NY|Summer 2026#1"
+    },
+    "a93aa4d30e0a": {
+      "company": "Sherwin-Williams",
+      "role": "R&D Data Science Co-op",
+      "location": "Brecksville, OH",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Yv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10297,
+      "chat_id": 7582459199,
+      "seq": 9028,
+      "identity": "https://go.vansh.nyc/Yv?s=y|Sherwin-Williams|R&D Data Science Co-op|Brecksville, OH|Oct 28#1"
+    },
+    "6890d98d16d0": {
+      "company": "L3Harris Technologies",
+      "role": "Software Engineer Intern",
+      "location": "Carlsbad, CA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Yw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10298,
+      "chat_id": 7582459199,
+      "seq": 9029,
+      "identity": "https://go.vansh.nyc/Yw?s=y|L3Harris Technologies|Software Engineer Intern|Carlsbad, CA|Oct 28#1"
+    },
+    "d3194014cd92": {
+      "company": "Apple",
+      "role": "Design Verification Engineer Intern",
+      "location": "Beaverton, OR",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Yx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10299,
+      "chat_id": 7582459199,
+      "seq": 9030,
+      "identity": "https://go.vansh.nyc/Yx?s=y|Apple|Design Verification Engineer Intern|Beaverton, OR|Oct 28#1"
+    },
+    "3e37f6ca0d3a": {
+      "company": "Regeneron Pharmaceuticals",
+      "role": "Data Science & Digital Innovation Intern, Industrial Operations and Product Supply",
+      "location": "Rensselaer, NY",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Yq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10300,
+      "chat_id": 7582459199,
+      "seq": 9031,
+      "identity": "https://go.vansh.nyc/Yq?s=y|Regeneron Pharmaceuticals|Data Science & Digital Innovation Intern, Industrial Operations and Product Supply|Rensselaer, NY|Oct 27#1"
+    },
+    "c54b9019ffa1": {
+      "company": "Regeneron Pharmaceuticals",
+      "role": "Data Analytics Intern, Dashboards & Business Process Automation",
+      "location": "Armonk, NY Warren, NJ Tarrytown, NY",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Yr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10301,
+      "chat_id": 7582459199,
+      "seq": 9032,
+      "identity": "https://go.vansh.nyc/Yr?s=y|Regeneron Pharmaceuticals|Data Analytics Intern, Dashboards & Business Process Automation|Armonk, NY Warren, NJ Tarrytown, NY|Oct 27#1"
+    },
+    "f86805d4780e": {
+      "company": "Regeneron Pharmaceuticals",
+      "role": "AI/ML & Data Engineering Intern",
+      "location": "**5 locations**Cambridge, MA Armonk, NY Warren, NJ Sleepy Hollow, NY Tarrytown, NY",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Ys?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10302,
+      "chat_id": 7582459199,
+      "seq": 9033,
+      "identity": "https://go.vansh.nyc/Ys?s=y|Regeneron Pharmaceuticals|AI/ML & Data Engineering Intern|**5 locations**Cambridge, MA Armonk, NY Warren, NJ Sleepy Hollow, NY Tarrytown, NY|Oct 27#1"
+    },
+    "4a2551df3ac8": {
+      "company": "Marvell",
+      "role": "Data Science Intern",
+      "location": "Boise, ID",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Yp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10303,
+      "chat_id": 7582459199,
+      "seq": 9034,
+      "identity": "https://go.vansh.nyc/Yp?s=y|Marvell|Data Science Intern|Boise, ID|Oct 27#1"
     }
   },
   "applied": {
@@ -115383,10 +115467,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9027,
+  "seq": 9034,
   "health": {
     "last_heartbeat": "2026-10-28T22:15:16Z",
-    "last_ok_run": "2026-10-28T23:05:22Z",
+    "last_ok_run": "2026-10-28T23:10:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
