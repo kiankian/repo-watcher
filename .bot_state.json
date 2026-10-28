@@ -114440,6 +114440,54 @@
       "chat_id": 7582459199,
       "seq": 8979,
       "identity": "NOURL|Salesforce|Solution Engineer Intern|New York, NY|Oct 15#1"
+    },
+    "612ca839d810": {
+      "company": "Workiva",
+      "role": "Machine Learning Engineering Intern",
+      "location": "Remote United States",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10249,
+      "chat_id": 7582459199,
+      "seq": 8980,
+      "identity": "NOURL|Workiva|Machine Learning Engineering Intern|Remote United States|Oct 27#1"
+    },
+    "f285bde350c1": {
+      "company": "VSP Vision",
+      "role": "Software Engineer Intern",
+      "location": "Remote United States",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10250,
+      "chat_id": 7582459199,
+      "seq": 8981,
+      "identity": "NOURL|VSP Vision|Software Engineer Intern|Remote United States|Oct 27#1"
+    },
+    "ef037fcc3df0": {
+      "company": "QTS",
+      "role": "Information Security Operations Analyst Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "US GA Atlanta Suwanee 1 DC1",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10251,
+      "chat_id": 7582459199,
+      "seq": 8982,
+      "identity": "NOURL|QTS|Information Security Operations Analyst Intern \ud83c\uddfa\ud83c\uddf8|US GA Atlanta Suwanee 1 DC1|Oct 14#1"
+    },
+    "a59fe81c6206": {
+      "company": "ICF International",
+      "role": "Data Engineer Intern",
+      "location": "Remote United States Reston, VA",
+      "term": "Oct 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10252,
+      "chat_id": 7582459199,
+      "seq": 8983,
+      "identity": "NOURL|ICF International|Data Engineer Intern|Remote United States Reston, VA|Oct 06#1"
     }
   },
   "applied": {
@@ -114807,10 +114855,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8979,
+  "seq": 8983,
   "health": {
     "last_heartbeat": "2026-10-28T19:50:27Z",
-    "last_ok_run": "2026-10-28T20:35:16Z",
+    "last_ok_run": "2026-10-28T20:40:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
