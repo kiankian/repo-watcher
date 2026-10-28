@@ -114212,6 +114212,90 @@
       "chat_id": 7582459199,
       "seq": 8960,
       "identity": "https://zapply.jobs/l/d/eightfold-micron-45166480?s=gh-internships-2027|Micron|Intern - Product Yield Software Engineer|Boise, Idaho, United States of...|Summer 2027#1"
+    },
+    "17b20e0ad53c": {
+      "company": "Berkshire Hathaway Energy",
+      "role": "Intern, Data Systems",
+      "location": "Bridgeport, WV",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/XM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10230,
+      "chat_id": 7582459199,
+      "seq": 8961,
+      "identity": "https://go.vansh.nyc/XM?s=y|Berkshire Hathaway Energy|Intern, Data Systems|Bridgeport, WV|Oct 27#1"
+    },
+    "9de6619e875b": {
+      "company": "Micron Technology",
+      "role": "AI Engineer Intern, Platform",
+      "location": "Boise, ID",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10231,
+      "chat_id": 7582459199,
+      "seq": 8962,
+      "identity": "NOURL|Micron Technology|AI Engineer Intern, Platform|Boise, ID|Oct 27#1"
+    },
+    "8c32843713b2": {
+      "company": "Booz Allen Hamilton",
+      "role": "Systems Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Detroit, MI",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10232,
+      "chat_id": 7582459199,
+      "seq": 8963,
+      "identity": "NOURL|Booz Allen Hamilton|Systems Engineer Intern \ud83c\uddfa\ud83c\uddf8|Detroit, MI|Oct 26#1"
+    },
+    "1fdf7da98ca8": {
+      "company": "Booz Allen Hamilton",
+      "role": "Software Developer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Detroit, MI",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10233,
+      "chat_id": 7582459199,
+      "seq": 8964,
+      "identity": "NOURL|Booz Allen Hamilton|Software Developer Intern \ud83c\uddfa\ud83c\uddf8|Detroit, MI|Oct 26#1"
+    },
+    "c6f360151a63": {
+      "company": "Booz Allen Hamilton",
+      "role": "Software Developer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Dayton, OH",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10234,
+      "chat_id": 7582459199,
+      "seq": 8965,
+      "identity": "NOURL|Booz Allen Hamilton|Software Developer Intern \ud83c\uddfa\ud83c\uddf8|Dayton, OH|Oct 26#1"
+    },
+    "4816d67289da": {
+      "company": "Arch Capital Group",
+      "role": "Security Operations Intern",
+      "location": "Greensboro, NC",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10235,
+      "chat_id": 7582459199,
+      "seq": 8966,
+      "identity": "NOURL|Arch Capital Group|Security Operations Intern|Greensboro, NC|Oct 19#1"
+    },
+    "57b1da6b52bc": {
+      "company": "Booz Allen Hamilton",
+      "role": "Software Developer Intern",
+      "location": "San Diego, CA",
+      "term": "Aug 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10236,
+      "chat_id": 7582459199,
+      "seq": 8967,
+      "identity": "NOURL|Booz Allen Hamilton|Software Developer Intern|San Diego, CA|Aug 26#1"
     }
   },
   "applied": {
@@ -114579,10 +114663,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8960,
+  "seq": 8967,
   "health": {
     "last_heartbeat": "2026-10-28T18:40:21Z",
-    "last_ok_run": "2026-10-28T18:40:21Z",
+    "last_ok_run": "2026-10-28T18:45:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
