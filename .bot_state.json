@@ -112700,6 +112700,54 @@
       "chat_id": 7582459199,
       "seq": 8834,
       "identity": "https://zapply.jobs/l/d/workday-vsp-vspvisioncareers-R-10068?s=gh-internships-2027|VSP Vision|Internship, Software Engineer|Remote US|Summer 2027#1"
+    },
+    "bd6f3a8fb279": {
+      "company": "VSP Vision",
+      "role": "Software Engineer Intern",
+      "location": "Remote United States",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/X3?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10104,
+      "chat_id": 7582459199,
+      "seq": 8835,
+      "identity": "https://go.vansh.nyc/X3?s=y|VSP Vision|Software Engineer Intern|Remote United States|Oct 27#1"
+    },
+    "d397d6ff43be": {
+      "company": "chathamfinancial",
+      "role": "Software Engineering Intern",
+      "location": "Denver, CO",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/X5?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10105,
+      "chat_id": 7582459199,
+      "seq": 8836,
+      "identity": "https://go.vansh.nyc/X5?s=y|chathamfinancial|Software Engineering Intern|Denver, CO|Oct 27#1"
+    },
+    "5b1517c85fd9": {
+      "company": "chathamfinancial",
+      "role": "Software Engineering Intern",
+      "location": "Kennett Square, PA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/X6?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10106,
+      "chat_id": 7582459199,
+      "seq": 8837,
+      "identity": "https://go.vansh.nyc/X6?s=y|chathamfinancial|Software Engineering Intern|Kennett Square, PA|Oct 27#1"
+    },
+    "6131f10292d1": {
+      "company": "stealth-startup-community",
+      "role": "Embedded Firmware and Controls Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/X4?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10107,
+      "chat_id": 7582459199,
+      "seq": 8838,
+      "identity": "https://go.vansh.nyc/X4?s=y|stealth-startup-community|Embedded Firmware and Controls Engineer Intern|Austin, TX|Oct 26#1"
     }
   },
   "applied": {
@@ -113067,10 +113115,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8834,
+  "seq": 8838,
   "health": {
     "last_heartbeat": "2026-10-28T05:20:16Z",
-    "last_ok_run": "2026-10-28T06:05:17Z",
+    "last_ok_run": "2026-10-28T06:10:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
