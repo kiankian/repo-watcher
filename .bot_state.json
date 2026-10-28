@@ -114644,6 +114644,78 @@
       "chat_id": 7582459199,
       "seq": 8996,
       "identity": "https://zapply.jobs/l/d/sr-LinkedIn3-744000158394370?s=gh-internships-2027|LinkedIn|Software Engineer Intern (First Play)  - Summer 2027 (Mountain View, CA)|Mountain View, CA|Summer 2027#1"
+    },
+    "f192157e027f": {
+      "company": "Clean Harbors",
+      "role": "Software & Field Technology Intern IS",
+      "location": "Deer Park, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://epyc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/167672?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10266,
+      "chat_id": 7582459199,
+      "seq": 8997,
+      "identity": "https://epyc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/167672?utm_source=Simplify&ref=Simplify|Clean Harbors|Software & Field Technology Intern IS|Deer Park, TX|Summer 2026#1"
+    },
+    "2e306d34e880": {
+      "company": "\ud83d\udd25 LinkedIn",
+      "role": "Software Engineer Intern - First Play",
+      "location": "Mountain View, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/LinkedIn3/744000158394370?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10267,
+      "chat_id": 7582459199,
+      "seq": 8998,
+      "identity": "https://jobs.smartrecruiters.com/LinkedIn3/744000158394370?utm_source=Simplify&ref=Simplify|\ud83d\udd25 LinkedIn|Software Engineer Intern - First Play|Mountain View, CA|Summer 2026#1"
+    },
+    "59f37fd9d142": {
+      "company": "TD Bank",
+      "role": "Technology Intern",
+      "location": "Belfast, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Belfast-United-Kingdom/XMLNAME-2027-Summer-Internship---Technology_R_1518241?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10268,
+      "chat_id": 7582459199,
+      "seq": 8999,
+      "identity": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Belfast-United-Kingdom/XMLNAME-2027-Summer-Internship---Technology_R_1518241?utm_source=Simplify&ref=Simplify|TD Bank|Technology Intern|Belfast, UK|Summer 2026#1"
+    },
+    "4d3f99fdb4f2": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern",
+      "location": "Overland Park, KS",
+      "term": "Summer 2026",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10269,
+      "chat_id": 7582459199,
+      "seq": 9000,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441?utm_source=Simplify&ref=Simplify|T-Mobile|Software Engineer Intern|Overland Park, KS|Summer 2026#1"
+    },
+    "90a17925a4fb": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Sterling, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--Summer-2027-_01885169?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10270,
+      "chat_id": 7582459199,
+      "seq": 9001,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--Summer-2027-_01885169?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Sterling, VA|Summer 2026#1"
+    },
+    "be5ff8279d9f": {
+      "company": "Autodesk",
+      "role": "Software Engineer Intern - C++/.Net",
+      "location": "Sheffield, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Sheffield-GBP/Intern--Software-Engineer--C---NET----12-months_26WD101693-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10271,
+      "chat_id": 7582459199,
+      "seq": 9002,
+      "identity": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Sheffield-GBP/Intern--Software-Engineer--C---NET----12-months_26WD101693-2?utm_source=Simplify&ref=Simplify|Autodesk|Software Engineer Intern - C++/.Net|Sheffield, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -115011,10 +115083,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8996,
+  "seq": 9002,
   "health": {
     "last_heartbeat": "2026-10-28T22:15:16Z",
-    "last_ok_run": "2026-10-28T22:30:20Z",
+    "last_ok_run": "2026-10-28T22:35:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
