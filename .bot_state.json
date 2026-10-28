@@ -114392,6 +114392,54 @@
       "chat_id": 7582459199,
       "seq": 8975,
       "identity": "https://zapply.jobs/l/d/eightfold-bostonscientific-563602813600558?s=gh-internships-2027|Boston Scientific|Software Engineering Intern|Arden Hills US-MN, United...|Summer 2027#1"
+    },
+    "2f8318d3f641": {
+      "company": "Schonfeld",
+      "role": "Enterprise AI Intern",
+      "location": "New York, NY",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/XY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10245,
+      "chat_id": 7582459199,
+      "seq": 8976,
+      "identity": "https://go.vansh.nyc/XY?s=y|Schonfeld|Enterprise AI Intern|New York, NY|Oct 28#1"
+    },
+    "0afa64b8a039": {
+      "company": "Micron Technology",
+      "role": "Embedded Software Engineering Intern",
+      "location": "Boise, ID",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/XX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10246,
+      "chat_id": 7582459199,
+      "seq": 8977,
+      "identity": "https://go.vansh.nyc/XX?s=y|Micron Technology|Embedded Software Engineering Intern|Boise, ID|Oct 27#1"
+    },
+    "a928a835ad01": {
+      "company": "Sonos",
+      "role": "Software Engineering Intern \ud83d\udec2",
+      "location": "Seattle, WA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10247,
+      "chat_id": 7582459199,
+      "seq": 8978,
+      "identity": "NOURL|Sonos|Software Engineering Intern \ud83d\udec2|Seattle, WA|Oct 27#1"
+    },
+    "a58ecaf5094e": {
+      "company": "Salesforce",
+      "role": "Solution Engineer Intern",
+      "location": "New York, NY",
+      "term": "Oct 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10248,
+      "chat_id": 7582459199,
+      "seq": 8979,
+      "identity": "NOURL|Salesforce|Solution Engineer Intern|New York, NY|Oct 15#1"
     }
   },
   "applied": {
@@ -114759,10 +114807,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8975,
+  "seq": 8979,
   "health": {
     "last_heartbeat": "2026-10-28T19:50:27Z",
-    "last_ok_run": "2026-10-28T20:05:17Z",
+    "last_ok_run": "2026-10-28T20:10:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
