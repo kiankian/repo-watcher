@@ -112556,6 +112556,42 @@
       "chat_id": 7582459199,
       "seq": 8822,
       "identity": "https://zapply.jobs/l/d/greenhouse-samsungsemiconductor-8046795003?s=gh-internships-2027|Samsung Semiconductor|Intern, Power-Thermal Simulation Software Engineer|San Jose, California, United States|Summer 2027#1"
+    },
+    "6fab73b43fa3": {
+      "company": "FUTO",
+      "role": "Software Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/futo-org/7dd9877a-9009-408d-aa50-623cd5153f70/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10092,
+      "chat_id": 7582459199,
+      "seq": 8823,
+      "identity": "https://jobs.lever.co/futo-org/7dd9877a-9009-408d-aa50-623cd5153f70/apply?utm_source=Simplify&ref=Simplify|FUTO|Software Engineer Intern|Austin, TX|Summer 2026#1"
+    },
+    "ed5924d2f052": {
+      "company": "Paccar",
+      "role": "Application Developer Intern",
+      "location": "Chillicothe, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.paccar.com/job/Kirkland-Summer-2027-Application-Developer-Intern-(OH)-WA-98033/1451927133/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10093,
+      "chat_id": 7582459199,
+      "seq": 8824,
+      "identity": "https://jobs.paccar.com/job/Kirkland-Summer-2027-Application-Developer-Intern-(OH)-WA-98033/1451927133/?ats=successfactors&utm_source=Simplify&ref=Simplify|Paccar|Application Developer Intern|Chillicothe, OH|Summer 2026#1"
+    },
+    "f25ab4b1ded1": {
+      "company": "Integrate",
+      "role": "Software Engineer Intern",
+      "location": "Seattle, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/integrate/7681f59b-70c0-414b-96d9-ae8925cc2ed3/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10094,
+      "chat_id": 7582459199,
+      "seq": 8825,
+      "identity": "https://jobs.ashbyhq.com/integrate/7681f59b-70c0-414b-96d9-ae8925cc2ed3/application?embed=true&utm_source=Simplify&ref=Simplify|Integrate|Software Engineer Intern|Seattle, WA|Summer 2026#1"
     }
   },
   "applied": {
@@ -112923,10 +112959,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8822,
+  "seq": 8825,
   "health": {
     "last_heartbeat": "2026-10-28T01:00:21Z",
-    "last_ok_run": "2026-10-28T01:30:20Z",
+    "last_ok_run": "2026-10-28T01:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
