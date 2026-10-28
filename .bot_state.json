@@ -112688,6 +112688,18 @@
       "chat_id": 7582459199,
       "seq": 8833,
       "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00195607?s=gh-internships-2027|Leidos|Cybersecurity Analyst Intern|Pearl Harbor, HI|Summer 2027#1"
+    },
+    "6391dbb06a0d": {
+      "company": "VSP Vision",
+      "role": "Internship, Software Engineer",
+      "location": "Remote US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-vsp-vspvisioncareers-R-10068?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10103,
+      "chat_id": 7582459199,
+      "seq": 8834,
+      "identity": "https://zapply.jobs/l/d/workday-vsp-vspvisioncareers-R-10068?s=gh-internships-2027|VSP Vision|Internship, Software Engineer|Remote US|Summer 2027#1"
     }
   },
   "applied": {
@@ -113055,10 +113067,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8833,
+  "seq": 8834,
   "health": {
     "last_heartbeat": "2026-10-28T04:15:17Z",
-    "last_ok_run": "2026-10-28T05:05:16Z",
+    "last_ok_run": "2026-10-28T05:10:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
