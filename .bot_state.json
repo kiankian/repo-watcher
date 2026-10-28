@@ -113384,6 +113384,42 @@
       "chat_id": 7582459199,
       "seq": 8891,
       "identity": "https://zapply.jobs/l/d/sr-Intuitive-744000158313919?s=gh-internships-2027|Intuitive|Manufacturing Software Engineering Intern|Sunnyvale, CA|Summer 2027#1"
+    },
+    "dd179e7d61d1": {
+      "company": "RTX",
+      "role": "Software Engineer Co-op",
+      "location": "Marlborough, MA Tewksbury, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Co-op--January-2027-_01885371?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10161,
+      "chat_id": 7582459199,
+      "seq": 8892,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Co-op--January-2027-_01885371?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Co-op|Marlborough, MA Tewksbury, MA|Summer 2026#1"
+    },
+    "abfec4e96ac6": {
+      "company": "Autodesk",
+      "role": "Software Engineer Intern - Javascript",
+      "location": "Sheffield, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Sheffield-GBP/Intern--Software-Engineer--Javascript----12-months_26WD101691-2?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10162,
+      "chat_id": 7582459199,
+      "seq": 8893,
+      "identity": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Sheffield-GBP/Intern--Software-Engineer--Javascript----12-months_26WD101691-2?utm_source=Simplify&ref=Simplify|Autodesk|Software Engineer Intern - Javascript|Sheffield, UK|Summer 2026#1"
+    },
+    "dc5e722a3457": {
+      "company": "Ace Hardware",
+      "role": "IT Associate Software Engineer Intern",
+      "location": "Oak Brook, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://acehardware.wd1.myworkdayjobs.com/External/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10163,
+      "chat_id": 7582459199,
+      "seq": 8894,
+      "identity": "https://acehardware.wd1.myworkdayjobs.com/External/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797?utm_source=Simplify&ref=Simplify|Ace Hardware|IT Associate Software Engineer Intern|Oak Brook, IL|Summer 2026#1"
     }
   },
   "applied": {
@@ -113751,10 +113787,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8891,
+  "seq": 8894,
   "health": {
     "last_heartbeat": "2026-10-28T14:00:25Z",
-    "last_ok_run": "2026-10-28T15:00:23Z",
+    "last_ok_run": "2026-10-28T15:05:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
