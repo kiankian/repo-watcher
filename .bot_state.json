@@ -114380,6 +114380,18 @@
       "chat_id": 7582459199,
       "seq": 8974,
       "identity": "https://zapply.jobs/l/d/eightfold-micron-45227661?s=gh-internships-2027|Micron|Intern - Embedded Software Engineer|Boise, Idaho, United States of...|Summer 2027#1"
+    },
+    "fbb972678849": {
+      "company": "Boston Scientific",
+      "role": "Software Engineering Intern",
+      "location": "Arden Hills US-MN, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/eightfold-bostonscientific-563602813600558?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10244,
+      "chat_id": 7582459199,
+      "seq": 8975,
+      "identity": "https://zapply.jobs/l/d/eightfold-bostonscientific-563602813600558?s=gh-internships-2027|Boston Scientific|Software Engineering Intern|Arden Hills US-MN, United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -114747,10 +114759,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8974,
+  "seq": 8975,
   "health": {
     "last_heartbeat": "2026-10-28T19:50:27Z",
-    "last_ok_run": "2026-10-28T19:50:27Z",
+    "last_ok_run": "2026-10-28T19:55:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
