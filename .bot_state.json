@@ -113108,6 +113108,54 @@
       "chat_id": 7582459199,
       "seq": 8868,
       "identity": "https://go.vansh.nyc/Xh?s=y|Visa|Network and Security Engineering Intern \ud83d\udec2|Denver, CO|Oct 26#1"
+    },
+    "fbc921ad2a1e": {
+      "company": "RosaicLabs",
+      "role": "CPU Design Verification Engineer Intern",
+      "location": "Austin, TX Santa Clara, CA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Xn?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10138,
+      "chat_id": 7582459199,
+      "seq": 8869,
+      "identity": "https://go.vansh.nyc/Xn?s=y|RosaicLabs|CPU Design Verification Engineer Intern|Austin, TX Santa Clara, CA|Oct 28#1"
+    },
+    "dad17d3e7c43": {
+      "company": "RosaicLabs",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX Santa Clara, CA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Xo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10139,
+      "chat_id": 7582459199,
+      "seq": 8870,
+      "identity": "https://go.vansh.nyc/Xo?s=y|RosaicLabs|Software Engineering Intern|Austin, TX Santa Clara, CA|Oct 28#1"
+    },
+    "d9ab2363094a": {
+      "company": "RosaicLabs",
+      "role": "AI Accelerator Design Verification Engineer Intern",
+      "location": "Austin, TX Santa Clara, CA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Xp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10140,
+      "chat_id": 7582459199,
+      "seq": 8871,
+      "identity": "https://go.vansh.nyc/Xp?s=y|RosaicLabs|AI Accelerator Design Verification Engineer Intern|Austin, TX Santa Clara, CA|Oct 28#1"
+    },
+    "f9dda3dfe70e": {
+      "company": "Axiom Math",
+      "role": "Member of Technical Staff Intern",
+      "location": "Palo Alto, CA",
+      "term": "Oct 27",
+      "apply_url": "https://go.vansh.nyc/Xm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10141,
+      "chat_id": 7582459199,
+      "seq": 8872,
+      "identity": "https://go.vansh.nyc/Xm?s=y|Axiom Math|Member of Technical Staff Intern|Palo Alto, CA|Oct 27#1"
     }
   },
   "applied": {
@@ -113475,10 +113523,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 8868,
+  "seq": 8872,
   "health": {
     "last_heartbeat": "2026-10-28T09:40:18Z",
-    "last_ok_run": "2026-10-28T10:05:16Z",
+    "last_ok_run": "2026-10-28T10:10:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
