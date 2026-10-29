@@ -2799,7 +2799,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "d31228a5d9f385d855bf9b989a9a71244e75c0b2",
+    "last_sha": "a5e2470f1aaf57c0f7679e680e7e6d7994d67f1c",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -6461,14 +6461,24 @@
       "NOURL|Glean|Software Engineer Intern|Mountain View, CA|Oct 26#1",
       "NOURL|Toyota Research Institute|Human Interactive Driving Research Intern, Learning-Based Control for Safe Autonomous Driving|Los Altos, CA|Oct 29#1",
       "NOURL|Toyota Research Institute|Human Interactive Driving Research Intern, Perception for Driving at the Limits|Los Altos, CA|Oct 29#1",
-      "NOURL|Toyota Research Institute|Robotics Intern, Human-Machine Interaction Research|Los Altos, CA|Oct 29#1"
+      "NOURL|Toyota Research Institute|Robotics Intern, Human-Machine Interaction Research|Los Altos, CA|Oct 29#1",
+      "https://go.vansh.nyc/ZK?s=y|Qualcomm|AI Software Engineering Co-op|Toronto, Canada|Oct 29#1",
+      "https://go.vansh.nyc/ZL?s=y|Qualcomm|AI Software Systems Co-op|Toronto, Canada|Oct 29#1",
+      "https://go.vansh.nyc/ZM?s=y|Qualcomm|Deep Learning Research Intern, Embodied AI Systems|Markham, Canada|Oct 29#1",
+      "https://go.vansh.nyc/Zz?s=y|T-Mobile|Associate Product Manager Intern|Overland Park, KS|Oct 28#1",
+      "https://go.vansh.nyc/ZH?s=y|Schweitzer Engineering Laboratories|Software Engineer Intern|Charlotte, NC|Oct 28#1",
+      "https://go.vansh.nyc/ZE?s=y|RTX|Software Engineer Intern|Sterling, VA|Oct 28#1",
+      "https://go.vansh.nyc/ZG?s=y|General Motors|AI/ML Engineer Intern, Autonomous Vehicles|Seattle, WA Sunnyvale, CA|Oct 28#1",
+      "https://go.vansh.nyc/ZF?s=y|Danaher Corporation|Application Integration Developer Intern|Brea, CA|Oct 28#1",
+      "https://go.vansh.nyc/ZI?s=y|Centene Corporation|AI Engineer Intern|United States|Oct 28#1",
+      "https://go.vansh.nyc/ZA?s=y|Altera|Software Engineer Intern, Factory Apps|Toronto, Canada|Oct 28#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 1557,
+    "last_row_count": 1567,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "d4a22406791ec2bfc8db843ac30a1e3cb163853b",
+    "last_sha": "f027dec20ebeeb0e8d34544770c8f5514057d541",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -8868,7 +8878,11 @@
       "https://zapply.jobs/l/d/workday-gaig-gaig-external-R9826?s=gh-internships-2027|National Interstate Insurance|DevOps Developer Intern - Summer 2027|Cincinnati, OH|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0248138?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Atlanta, GA|Atlanta, GA|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0248404?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Ft. Walton Beach, FL|Fort Walton Beach, FL|Summer 2027#1",
-      "https://zapply.jobs/l/d/amazon-025c04aa-4fef-4d19-919e-0b21ae36426b?s=gh-internships-2027|Amazon Data Services, Inc.|Data Center Infrastructure Engineer Intern, Summer 2027 - Midwest / Southeast|Austin, TX|Summer 2027#1"
+      "https://zapply.jobs/l/d/amazon-025c04aa-4fef-4d19-919e-0b21ae36426b?s=gh-internships-2027|Amazon Data Services, Inc.|Data Center Infrastructure Engineer Intern, Summer 2027 - Midwest / Southeast|Austin, TX|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2027170?s=gh-internships-2027|NVIDIA|AI Systems Software Engineering Intern \u2013 Summer 2027|US, TX, Austin|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2028607?s=gh-internships-2027|NVIDIA|Compiler Software Engineering Intern - Summer 2027|US, WA, Redmond|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2604355?s=gh-internships-2027|GlobalFoundries|Digital Design Backend Engineering Intern, 3D and AI Flows|USA - California - Santa Clara|Summer 2027#1",
+      "https://zapply.jobs/l/d/greenhouse-samsungsemiconductor-8046887003?s=gh-internships-2027|Samsung Semiconductor|Intern, Systems Software Engineering|San Jose, California, United States|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
