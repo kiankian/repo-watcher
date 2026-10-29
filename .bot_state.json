@@ -115544,6 +115544,30 @@
       "chat_id": 7582459199,
       "seq": 9071,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-334157?s=gh-internships-2027|CACI|Systems Engineering Co-op/Intern - Spring 2027|Rochester, NY, US|Summer 2027#1"
+    },
+    "5b202eafe187": {
+      "company": "Sonos",
+      "role": "Software Partner Engineering Intern \ud83d\udec2",
+      "location": "Boston, MA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/YW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10341,
+      "chat_id": 7582459199,
+      "seq": 9072,
+      "identity": "https://go.vansh.nyc/YW?s=y|Sonos|Software Partner Engineering Intern \ud83d\udec2|Boston, MA|Oct 29#1"
+    },
+    "d71a81379739": {
+      "company": "Boston Scientific",
+      "role": "Software & Systems Testing Engineering Intern \ud83d\udec2",
+      "location": "Arden Hills, MN",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/YX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10342,
+      "chat_id": 7582459199,
+      "seq": 9073,
+      "identity": "https://go.vansh.nyc/YX?s=y|Boston Scientific|Software & Systems Testing Engineering Intern \ud83d\udec2|Arden Hills, MN|Oct 28#1"
     }
   },
   "applied": {
@@ -115911,10 +115935,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9071,
+  "seq": 9073,
   "health": {
     "last_heartbeat": "2026-10-29T13:25:17Z",
-    "last_ok_run": "2026-10-29T14:05:17Z",
+    "last_ok_run": "2026-10-29T14:10:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
