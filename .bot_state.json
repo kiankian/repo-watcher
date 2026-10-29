@@ -116480,6 +116480,42 @@
       "chat_id": 7582459199,
       "seq": 9149,
       "identity": "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Foster City|Foster City, CA|Other#1"
+    },
+    "2196bd1f8577": {
+      "company": "Toyota Research Institute",
+      "role": "Human Interactive Driving Research Intern, Learning-Based Control for Safe Autonomous Driving",
+      "location": "Los Altos, CA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/Zo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10419,
+      "chat_id": 7582459199,
+      "seq": 9150,
+      "identity": "https://go.vansh.nyc/Zo?s=y|Toyota Research Institute|Human Interactive Driving Research Intern, Learning-Based Control for Safe Autonomous Driving|Los Altos, CA|Oct 29#1"
+    },
+    "16eb3bee2227": {
+      "company": "CVS Health",
+      "role": "Innovation & Technology Intern, Data Engineering",
+      "location": "Irving, TX",
+      "term": "Oct 25",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10420,
+      "chat_id": 7582459199,
+      "seq": 9151,
+      "identity": "NOURL|CVS Health|Innovation & Technology Intern, Data Engineering|Irving, TX|Oct 25#1"
+    },
+    "87d31304c897": {
+      "company": "CVS Health",
+      "role": "Data Engineering Intern, Innovation & Technology",
+      "location": "New York, NY",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10421,
+      "chat_id": 7582459199,
+      "seq": 9152,
+      "identity": "NOURL|CVS Health|Data Engineering Intern, Innovation & Technology|New York, NY|Oct 21#1"
     }
   },
   "applied": {
@@ -116847,10 +116883,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9149,
+  "seq": 9152,
   "health": {
     "last_heartbeat": "2026-10-29T17:55:17Z",
-    "last_ok_run": "2026-10-29T18:40:20Z",
+    "last_ok_run": "2026-10-29T18:45:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
