@@ -115460,6 +115460,18 @@
       "chat_id": 7582459199,
       "seq": 9064,
       "identity": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern---AI---Analytics-Analyst---Nashville--TN---Spring-2027_593012?utm_source=Simplify&ref=Simplify|Philips|AI & Analytics Analyst Intern|Nashville, TN|Summer 2026#1"
+    },
+    "0c0b656d965d": {
+      "company": "Qualcomm",
+      "role": "Design Automation & Quality Assurance Engineer Intern",
+      "location": "Toronto, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://qualcomm.eightfold.ai/careers/job/446721349404?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10334,
+      "chat_id": 7582459199,
+      "seq": 9065,
+      "identity": "https://qualcomm.eightfold.ai/careers/job/446721349404?utm_source=Simplify&ref=Simplify|Qualcomm|Design Automation & Quality Assurance Engineer Intern|Toronto, ON, Canada|Summer 2026#1"
     }
   },
   "applied": {
@@ -115827,10 +115839,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9064,
+  "seq": 9065,
   "health": {
     "last_heartbeat": "2026-10-29T08:15:18Z",
-    "last_ok_run": "2026-10-29T09:00:23Z",
+    "last_ok_run": "2026-10-29T09:05:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
