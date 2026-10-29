@@ -115592,6 +115592,30 @@
       "chat_id": 7582459199,
       "seq": 9075,
       "identity": "https://www.riverlane.com/jobs?gh_jid=5000786101#vacancies&utm_source=Simplify&ref=Simplify|Riverlane|Software Engineering Intern|Cambridge, UK|Summer 2026#1"
+    },
+    "2d17e067228f": {
+      "company": "Bank of Montreal",
+      "role": "Quantitative Trading Analyst Co-op",
+      "location": "Toronto, Canada",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/Z0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10345,
+      "chat_id": 7582459199,
+      "seq": 9076,
+      "identity": "https://go.vansh.nyc/Z0?s=y|Bank of Montreal|Quantitative Trading Analyst Co-op|Toronto, Canada|Oct 28#1"
+    },
+    "123be20e66fd": {
+      "company": "CACI",
+      "role": "Software Development/Engineer Intern",
+      "location": "Remote United States",
+      "term": "Sep 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10346,
+      "chat_id": 7582459199,
+      "seq": 9077,
+      "identity": "NOURL|CACI|Software Development/Engineer Intern|Remote United States|Sep 30#1"
     }
   },
   "applied": {
@@ -115959,10 +115983,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9075,
+  "seq": 9077,
   "health": {
     "last_heartbeat": "2026-10-29T14:30:23Z",
-    "last_ok_run": "2026-10-29T14:35:20Z",
+    "last_ok_run": "2026-10-29T14:40:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
