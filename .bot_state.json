@@ -116720,6 +116720,42 @@
       "chat_id": 7582459199,
       "seq": 9169,
       "identity": "NOURL|Glean|Software Engineer Intern|Mountain View, CA|Oct 26#1"
+    },
+    "d56ab5ea0b9d": {
+      "company": "Toyota Research Institute",
+      "role": "Human Interactive Driving Research Intern, Learning-Based Control for Safe Autonomous Driving",
+      "location": "Los Altos, CA",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10439,
+      "chat_id": 7582459199,
+      "seq": 9170,
+      "identity": "NOURL|Toyota Research Institute|Human Interactive Driving Research Intern, Learning-Based Control for Safe Autonomous Driving|Los Altos, CA|Oct 29#1"
+    },
+    "346feecc915e": {
+      "company": "Toyota Research Institute",
+      "role": "Human Interactive Driving Research Intern, Perception for Driving at the Limits",
+      "location": "Los Altos, CA",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10440,
+      "chat_id": 7582459199,
+      "seq": 9171,
+      "identity": "NOURL|Toyota Research Institute|Human Interactive Driving Research Intern, Perception for Driving at the Limits|Los Altos, CA|Oct 29#1"
+    },
+    "2c151e91737c": {
+      "company": "Toyota Research Institute",
+      "role": "Robotics Intern, Human-Machine Interaction Research",
+      "location": "Los Altos, CA",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10441,
+      "chat_id": 7582459199,
+      "seq": 9172,
+      "identity": "NOURL|Toyota Research Institute|Robotics Intern, Human-Machine Interaction Research|Los Altos, CA|Oct 29#1"
     }
   },
   "applied": {
@@ -117087,10 +117123,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9169,
+  "seq": 9172,
   "health": {
     "last_heartbeat": "2026-10-29T21:25:16Z",
-    "last_ok_run": "2026-10-29T22:15:17Z",
+    "last_ok_run": "2026-10-29T22:20:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
