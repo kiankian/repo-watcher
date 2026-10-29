@@ -115328,6 +115328,30 @@
       "chat_id": 7582459199,
       "seq": 9053,
       "identity": "NOURL|Smith+Nephew|Computer Vision Software Engineering Intern|Andover, MA|Oct 21#1"
+    },
+    "5e7e594b7d08": {
+      "company": "Ericsson",
+      "role": "AI and Automation Engineer Intern \ud83d\udec2",
+      "location": "Plano, TX",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/YK?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10323,
+      "chat_id": 7582459199,
+      "seq": 9054,
+      "identity": "https://go.vansh.nyc/YK?s=y|Ericsson|AI and Automation Engineer Intern \ud83d\udec2|Plano, TX|Oct 28#1"
+    },
+    "103e89c571ed": {
+      "company": "American Family Insurance Group",
+      "role": "Data Engineer Intern",
+      "location": "Madison, WI",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10324,
+      "chat_id": 7582459199,
+      "seq": 9055,
+      "identity": "NOURL|American Family Insurance Group|Data Engineer Intern|Madison, WI|Oct 20#1"
     }
   },
   "applied": {
@@ -115695,10 +115719,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9053,
+  "seq": 9055,
   "health": {
     "last_heartbeat": "2026-10-29T04:50:17Z",
-    "last_ok_run": "2026-10-29T05:10:16Z",
+    "last_ok_run": "2026-10-29T05:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
