@@ -2792,7 +2792,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "7ea620f335cdb5db38b3730b2f1960fcb0e4c115",
+    "last_sha": "6cce85f11669a0051994cc4036bd79ca88637879",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -6418,14 +6418,17 @@
       "https://go.vansh.nyc/YW?s=y|Sonos|Software Partner Engineering Intern \ud83d\udec2|Boston, MA|Oct 29#1",
       "https://go.vansh.nyc/YX?s=y|Boston Scientific|Software & Systems Testing Engineering Intern \ud83d\udec2|Arden Hills, MN|Oct 28#1",
       "https://go.vansh.nyc/Z0?s=y|Bank of Montreal|Quantitative Trading Analyst Co-op|Toronto, Canada|Oct 28#1",
-      "NOURL|CACI|Software Development/Engineer Intern|Remote United States|Sep 30#1"
+      "NOURL|CACI|Software Development/Engineer Intern|Remote United States|Sep 30#1",
+      "https://go.vansh.nyc/Z3?s=y|Two Six Technologies|Systems Software Engineer Intern|Arlington, VA|Oct 29#1",
+      "https://go.vansh.nyc/Z4?s=y|Microsoft|Applied Scientist Intern, Turing|Redmond, WA|Oct 29#1",
+      "NOURL|Johns Hopkins Applied Physics Laboratory|Artificial Intelligence and Machine Learning Research Assistant Intern|Laurel, MD|Sep 25#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 1533,
+    "last_row_count": 1535,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "2ce4eeb19b7c66b611ef486447badfcc43406f6c",
+    "last_sha": "b93dd144d8354db3fffc84c32d42b6f196b67fd9",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
