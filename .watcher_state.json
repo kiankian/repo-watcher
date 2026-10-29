@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "728f6f627fcea48544e5a869b47ee8e300f96ff2",
+    "last_sha": "b895b291b4ab7927054a99ee001505cb3bef1329",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2766,10 +2766,14 @@
       "https://job-boards.greenhouse.io/schonfeld/jobs/8171694?utm_source=Simplify&ref=Simplify|Schonfeld|AI Enablement Intern|NYC|Summer 2026#1",
       "https://careers.amd.com/jobs/93476?icims=1&utm_source=Simplify&ref=Simplify|\ud83d\udd25 AMD|Masters AI Training Software & Performance Co-op \ud83c\udf93|San Jose, CA|Summer 2026#1",
       "https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1?utm_source=Simplify&ref=Simplify|Sonos|Software Engineer Intern|Boston, MA|Summer 2026#1",
-      "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/RENSSELAER/XMLNAME-2027-Summer-Intern-IT---Systems--IOPS-_R51822?utm_source=Simplify&ref=Simplify|Regeneron Pharmaceuticals|IT and Systems Intern - Industrial Operations and Product Supply|Rensselaer, NY|Summer 2026#1"
+      "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/RENSSELAER/XMLNAME-2027-Summer-Intern-IT---Systems--IOPS-_R51822?utm_source=Simplify&ref=Simplify|Regeneron Pharmaceuticals|IT and Systems Intern - Industrial Operations and Product Supply|Rensselaer, NY|Summer 2026#1",
+      "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/San-Francisco-California-United-States-of-America/Software-Systems-Intern_UNI4801?utm_source=Simplify&ref=Simplify|HP Inc.|Software Systems Intern - IQ|SF|Summer 2026#1",
+      "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802?utm_source=Simplify&ref=Simplify|HP Inc.|Software Quality Assurance Intern|SF|Summer 2026#1",
+      "https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8902325002?utm_source=Simplify&ref=Simplify|Graphcore|Software Engineer Intern - AI Compute Libraries & Performance|Bristol, UK|Summer 2026#1",
+      "https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8902141002?utm_source=Simplify&ref=Simplify|Graphcore|Software Engineer Intern - Drivers and Utilities|Bristol, UK|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 588,
+    "last_row_count": 593,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -6386,7 +6390,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "ad98e2de250b75b32e7c7bf24001ef528b13ea7f",
+    "last_sha": "6aedb35aa838b0455368d5d98842c9c45147f62a",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

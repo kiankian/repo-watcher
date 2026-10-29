@@ -115112,6 +115112,54 @@
       "chat_id": 7582459199,
       "seq": 9035,
       "identity": "https://zapply.jobs/l/d/greenhouse-figma-6238015004?s=gh-internships-2027|Figma|PhD Intern, Security Engineer (2027)|San Francisco, CA \u2022 New York, NY|Summer 2027#1"
+    },
+    "3088fcab0ce8": {
+      "company": "HP Inc.",
+      "role": "Software Systems Intern - IQ",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/San-Francisco-California-United-States-of-America/Software-Systems-Intern_UNI4801?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10305,
+      "chat_id": 7582459199,
+      "seq": 9036,
+      "identity": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/San-Francisco-California-United-States-of-America/Software-Systems-Intern_UNI4801?utm_source=Simplify&ref=Simplify|HP Inc.|Software Systems Intern - IQ|SF|Summer 2026#1"
+    },
+    "aa4d62107697": {
+      "company": "HP Inc.",
+      "role": "Software Quality Assurance Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10306,
+      "chat_id": 7582459199,
+      "seq": 9037,
+      "identity": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802?utm_source=Simplify&ref=Simplify|HP Inc.|Software Quality Assurance Intern|SF|Summer 2026#1"
+    },
+    "52fa0b7a3bb7": {
+      "company": "Graphcore",
+      "role": "Software Engineer Intern - AI Compute Libraries & Performance",
+      "location": "Bristol, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8902325002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10307,
+      "chat_id": 7582459199,
+      "seq": 9038,
+      "identity": "https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8902325002?utm_source=Simplify&ref=Simplify|Graphcore|Software Engineer Intern - AI Compute Libraries & Performance|Bristol, UK|Summer 2026#1"
+    },
+    "13bf7d29d6e3": {
+      "company": "Graphcore",
+      "role": "Software Engineer Intern - Drivers and Utilities",
+      "location": "Bristol, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8902141002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10308,
+      "chat_id": 7582459199,
+      "seq": 9039,
+      "identity": "https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8902141002?utm_source=Simplify&ref=Simplify|Graphcore|Software Engineer Intern - Drivers and Utilities|Bristol, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -115479,10 +115527,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9035,
+  "seq": 9039,
   "health": {
     "last_heartbeat": "2026-10-29T01:30:20Z",
-    "last_ok_run": "2026-10-29T01:30:20Z",
+    "last_ok_run": "2026-10-29T01:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
