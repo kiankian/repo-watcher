@@ -115352,6 +115352,54 @@
       "chat_id": 7582459199,
       "seq": 9055,
       "identity": "NOURL|American Family Insurance Group|Data Engineer Intern|Madison, WI|Oct 20#1"
+    },
+    "9eb225715441": {
+      "company": "Qualcomm",
+      "role": "Deep Learning Research Intern",
+      "location": "Markham, Canada",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/YP?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10325,
+      "chat_id": 7582459199,
+      "seq": 9056,
+      "identity": "https://go.vansh.nyc/YP?s=y|Qualcomm|Deep Learning Research Intern|Markham, Canada|Oct 28#1"
+    },
+    "70dddeacd74b": {
+      "company": "L3Harris Technologies",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Carlsbad, CA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/YO?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10326,
+      "chat_id": 7582459199,
+      "seq": 9057,
+      "identity": "https://go.vansh.nyc/YO?s=y|L3Harris Technologies|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Carlsbad, CA|Oct 28#1"
+    },
+    "b36a5c211c4e": {
+      "company": "Disney",
+      "role": "Enterprise Technology & Data Software Engineering Intern",
+      "location": "Orlando, FL",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/YL?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10327,
+      "chat_id": 7582459199,
+      "seq": 9058,
+      "identity": "https://go.vansh.nyc/YL?s=y|Disney|Enterprise Technology & Data Software Engineering Intern|Orlando, FL|Oct 28#1"
+    },
+    "20bafe5109bb": {
+      "company": "Disney",
+      "role": "Full Stack Web Development Intern, Walt Disney Animation Studios",
+      "location": "Burbank, CA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/YM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10328,
+      "chat_id": 7582459199,
+      "seq": 9059,
+      "identity": "https://go.vansh.nyc/YM?s=y|Disney|Full Stack Web Development Intern, Walt Disney Animation Studios|Burbank, CA|Oct 28#1"
     }
   },
   "applied": {
@@ -115719,10 +115767,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9055,
+  "seq": 9059,
   "health": {
     "last_heartbeat": "2026-10-29T06:00:24Z",
-    "last_ok_run": "2026-10-29T06:05:14Z",
+    "last_ok_run": "2026-10-29T06:10:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
