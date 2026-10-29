@@ -115484,6 +115484,18 @@
       "chat_id": 7582459199,
       "seq": 9066,
       "identity": "https://www.tower-research.ca/postes-vacants/?gh_jid=8212194&utm_source=Simplify&ref=Simplify|Capital de Recherche Tower|Software Developer Intern|Montreal, QC, Canada|Summer 2026#1"
+    },
+    "818dc604de86": {
+      "company": "KLA",
+      "role": "Software Engineer Intern",
+      "location": "Milpitas, CA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/YS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10336,
+      "chat_id": 7582459199,
+      "seq": 9067,
+      "identity": "https://go.vansh.nyc/YS?s=y|KLA|Software Engineer Intern|Milpitas, CA|Oct 28#1"
     }
   },
   "applied": {
@@ -115851,10 +115863,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9066,
+  "seq": 9067,
   "health": {
     "last_heartbeat": "2026-10-29T10:20:18Z",
-    "last_ok_run": "2026-10-29T11:05:16Z",
+    "last_ok_run": "2026-10-29T11:10:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
