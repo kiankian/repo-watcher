@@ -115400,6 +115400,30 @@
       "chat_id": 7582459199,
       "seq": 9059,
       "identity": "https://go.vansh.nyc/YM?s=y|Disney|Full Stack Web Development Intern, Walt Disney Animation Studios|Burbank, CA|Oct 28#1"
+    },
+    "a7cf107a01ba": {
+      "company": "Boston Scientific",
+      "role": "AI Solutions Engineering Intern",
+      "location": "Arden Hills, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://bostonscientific.eightfold.ai/careers/job/563602813547675?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10329,
+      "chat_id": 7582459199,
+      "seq": 9060,
+      "identity": "https://bostonscientific.eightfold.ai/careers/job/563602813547675?utm_source=Simplify&ref=Simplify|Boston Scientific|AI Solutions Engineering Intern|Arden Hills, MN|Summer 2026#1"
+    },
+    "8df335007b85": {
+      "company": "HP Inc.",
+      "role": "Software Engineer Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern---HP-IQ_UNI4806?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10330,
+      "chat_id": 7582459199,
+      "seq": 9061,
+      "identity": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern---HP-IQ_UNI4806?utm_source=Simplify&ref=Simplify|HP Inc.|Software Engineer Intern|SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -115767,10 +115791,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9059,
+  "seq": 9061,
   "health": {
     "last_heartbeat": "2026-10-29T06:00:24Z",
-    "last_ok_run": "2026-10-29T06:30:19Z",
+    "last_ok_run": "2026-10-29T06:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
