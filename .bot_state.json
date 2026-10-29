@@ -115832,6 +115832,18 @@
       "chat_id": 7582459199,
       "seq": 9095,
       "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF089779W?s=gh-internships-2027|Visa|Network and Security Engineering Intern - 2027, Highlands Ranch, CO|Denver, CO|Summer 2027#1"
+    },
+    "7a7a76faf3f6": {
+      "company": "Gilead Sciences",
+      "role": "Research Intern, Oncology Biomarker - AI",
+      "location": "Foster City, CA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/Z7?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10365,
+      "chat_id": 7582459199,
+      "seq": 9096,
+      "identity": "https://go.vansh.nyc/Z7?s=y|Gilead Sciences|Research Intern, Oncology Biomarker - AI|Foster City, CA|Oct 29#1"
     }
   },
   "applied": {
@@ -116199,10 +116211,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9095,
+  "seq": 9096,
   "health": {
     "last_heartbeat": "2026-10-29T15:50:18Z",
-    "last_ok_run": "2026-10-29T16:35:17Z",
+    "last_ok_run": "2026-10-29T16:40:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
