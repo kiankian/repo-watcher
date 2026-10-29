@@ -115868,6 +115868,30 @@
       "chat_id": 7582459199,
       "seq": 9098,
       "identity": "https://go.vansh.nyc/Z8?s=y|Micron Technology|ASIC Digital Design Intern|Minneapolis, MN|Oct 28#1"
+    },
+    "dd12d9fc3601": {
+      "company": "Highmark Health",
+      "role": "Summer 2027 Quality Engineer enGen Undergraduate Intern",
+      "location": "Camp Hill PA, 17011,",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-highmarkhealth-highmark-J290402?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10368,
+      "chat_id": 7582459199,
+      "seq": 9099,
+      "identity": "https://zapply.jobs/l/d/workday-highmarkhealth-highmark-J290402?s=gh-internships-2027|Highmark Health|Summer 2027 Quality Engineer enGen Undergraduate Intern|Camp Hill PA, 17011,|Summer 2027#1"
+    },
+    "2e6ae6f6fbba": {
+      "company": "GardaWorld",
+      "role": "Software Engineer Intern (C#)",
+      "location": "Wayzata, Minnesota, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-gardacp-6238021004?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10369,
+      "chat_id": 7582459199,
+      "seq": 9100,
+      "identity": "https://zapply.jobs/l/d/greenhouse-gardacp-6238021004?s=gh-internships-2027|GardaWorld|Software Engineer Intern (C#)|Wayzata, Minnesota, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -116235,10 +116259,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9098,
+  "seq": 9100,
   "health": {
     "last_heartbeat": "2026-10-29T17:55:17Z",
-    "last_ok_run": "2026-10-29T17:55:17Z",
+    "last_ok_run": "2026-10-29T18:00:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
