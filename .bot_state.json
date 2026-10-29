@@ -116660,6 +116660,30 @@
       "chat_id": 7582459199,
       "seq": 9164,
       "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0248404?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Ft. Walton Beach, FL|Fort Walton Beach, FL|Summer 2027#1"
+    },
+    "d5142067263c": {
+      "company": "Toyota Research Institute",
+      "role": "Robotics Intern, Human-Machine Interaction Research",
+      "location": "Los Altos, CA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/Zx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10434,
+      "chat_id": 7582459199,
+      "seq": 9165,
+      "identity": "https://go.vansh.nyc/Zx?s=y|Toyota Research Institute|Robotics Intern, Human-Machine Interaction Research|Los Altos, CA|Oct 29#1"
+    },
+    "2cd871298e42": {
+      "company": "PTC",
+      "role": "Arena Engineering Intern",
+      "location": "San Mateo, CA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/Zw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10435,
+      "chat_id": 7582459199,
+      "seq": 9166,
+      "identity": "https://go.vansh.nyc/Zw?s=y|PTC|Arena Engineering Intern|San Mateo, CA|Oct 29#1"
     }
   },
   "applied": {
@@ -117027,10 +117051,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9164,
+  "seq": 9166,
   "health": {
     "last_heartbeat": "2026-10-29T20:20:19Z",
-    "last_ok_run": "2026-10-29T21:10:19Z",
+    "last_ok_run": "2026-10-29T21:15:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
