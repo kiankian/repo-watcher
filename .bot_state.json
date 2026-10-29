@@ -117332,6 +117332,18 @@
       "chat_id": 7582459199,
       "seq": 9220,
       "identity": "https://go.vansh.nyc/103?s=y|Axiom Space|Enterprise Data Analyst Intern, Power BI & Data Quality|Houston, TX|Oct 28#1"
+    },
+    "27ed2f46783b": {
+      "company": "Tencent",
+      "role": "Data Science Intern",
+      "location": "Palo Alto, CA",
+      "term": "Oct 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10490,
+      "chat_id": 7582459199,
+      "seq": 9221,
+      "identity": "NOURL|Tencent|Data Science Intern|Palo Alto, CA|Oct 12#1"
     }
   },
   "applied": {
@@ -117699,10 +117711,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9220,
+  "seq": 9221,
   "health": {
     "last_heartbeat": "2026-10-29T23:30:19Z",
-    "last_ok_run": "2026-10-29T23:40:18Z",
+    "last_ok_run": "2026-10-29T23:45:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
