@@ -118820,6 +118820,18 @@
       "chat_id": 7582459199,
       "seq": 9344,
       "identity": "NOURL|Axon|Software Engineer Intern|Seattle, WA Arlington, VA|Oct 29#1"
+    },
+    "cd846f84cffb": {
+      "company": "Boston Scientific",
+      "role": "Software Test Engineer Intern",
+      "location": "Waltham, US-MA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/eightfold-bostonscientific-563602813568250?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10614,
+      "chat_id": 7582459199,
+      "seq": 9345,
+      "identity": "https://zapply.jobs/l/d/eightfold-bostonscientific-563602813568250?s=gh-internships-2027|Boston Scientific|Software Test Engineer Intern|Waltham, US-MA, USA|Summer 2027#1"
     }
   },
   "applied": {
@@ -119187,10 +119199,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9344,
+  "seq": 9345,
   "health": {
     "last_heartbeat": "2026-10-30T21:20:17Z",
-    "last_ok_run": "2026-10-30T21:55:16Z",
+    "last_ok_run": "2026-10-30T22:00:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
