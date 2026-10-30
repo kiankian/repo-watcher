@@ -117416,6 +117416,66 @@
       "chat_id": 7582459199,
       "seq": 9227,
       "identity": "https://go.vansh.nyc/10k?s=y|Dee Zee|Software Development Intern|Des Moines, IA|Oct 28#1"
+    },
+    "ed01bb009c38": {
+      "company": "Qualcomm",
+      "role": "Deep Learning Research Intern, Embodied AI",
+      "location": "Markham, Canada",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/10q?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10497,
+      "chat_id": 7582459199,
+      "seq": 9228,
+      "identity": "https://go.vansh.nyc/10q?s=y|Qualcomm|Deep Learning Research Intern, Embodied AI|Markham, Canada|Oct 29#1"
+    },
+    "4b5f83e20019": {
+      "company": "NVIDIA",
+      "role": "AI Systems Software Engineering Intern",
+      "location": "Austin, TX",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/10o?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10498,
+      "chat_id": 7582459199,
+      "seq": 9229,
+      "identity": "https://go.vansh.nyc/10o?s=y|NVIDIA|AI Systems Software Engineering Intern|Austin, TX|Oct 29#1"
+    },
+    "c2496a6e7b6a": {
+      "company": "NVIDIA",
+      "role": "Compiler Software Engineering Intern",
+      "location": "Redmond, WA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/10p?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10499,
+      "chat_id": 7582459199,
+      "seq": 9230,
+      "identity": "https://go.vansh.nyc/10p?s=y|NVIDIA|Compiler Software Engineering Intern|Redmond, WA|Oct 29#1"
+    },
+    "1f07f4123229": {
+      "company": "L3Harris Technologies",
+      "role": "FPGA Software Tool Developer Co-op",
+      "location": "Waterdown, Canada",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/10n?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10500,
+      "chat_id": 7582459199,
+      "seq": 9231,
+      "identity": "https://go.vansh.nyc/10n?s=y|L3Harris Technologies|FPGA Software Tool Developer Co-op|Waterdown, Canada|Oct 29#1"
+    },
+    "f9a69063d2c9": {
+      "company": "Micron Technology",
+      "role": "Embedded Software Engineer Intern",
+      "location": "Boise, ID",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10501,
+      "chat_id": 7582459199,
+      "seq": 9232,
+      "identity": "NOURL|Micron Technology|Embedded Software Engineer Intern|Boise, ID|Oct 28#1"
     }
   },
   "applied": {
@@ -117783,10 +117843,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9227,
+  "seq": 9232,
   "health": {
     "last_heartbeat": "2026-10-30T02:45:17Z",
-    "last_ok_run": "2026-10-30T03:05:14Z",
+    "last_ok_run": "2026-10-30T03:10:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
