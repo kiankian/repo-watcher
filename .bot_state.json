@@ -117536,6 +117536,42 @@
       "chat_id": 7582459199,
       "seq": 9237,
       "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00195829?s=gh-internships-2027|Leidos|Software Developer Intern|Annapolis Junction, MD|Summer 2027#1"
+    },
+    "1d60f47178d8": {
+      "company": "Centene Corporation",
+      "role": "AI Engineer Intern",
+      "location": "United States",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10507,
+      "chat_id": 7582459199,
+      "seq": 9238,
+      "identity": "NOURL|Centene Corporation|AI Engineer Intern|United States|Oct 28#1"
+    },
+    "fb606422b5e7": {
+      "company": "American Express",
+      "role": "Data Engineer Intern, Enterprise Technology Services",
+      "location": "Sunrise, FL",
+      "term": "Aug 31",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10508,
+      "chat_id": 7582459199,
+      "seq": 9239,
+      "identity": "NOURL|American Express|Data Engineer Intern, Enterprise Technology Services|Sunrise, FL|Aug 31#1"
+    },
+    "fb77647a48e1": {
+      "company": "Kastle",
+      "role": "Software Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Aug 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10509,
+      "chat_id": 7582459199,
+      "seq": 9240,
+      "identity": "NOURL|Kastle|Software Engineer Intern|San Francisco, CA|Aug 21#1"
     }
   },
   "applied": {
@@ -117903,10 +117939,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9237,
+  "seq": 9240,
   "health": {
     "last_heartbeat": "2026-10-30T04:50:16Z",
-    "last_ok_run": "2026-10-30T05:10:18Z",
+    "last_ok_run": "2026-10-30T05:15:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
