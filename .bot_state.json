@@ -119132,6 +119132,18 @@
       "chat_id": 7582459199,
       "seq": 9370,
       "identity": "NOURL|The Aerospace Corporation|Embedded Systems/Software Engineer Intern|Chantilly, VA El Segundo, CA|Oct 06#1"
+    },
+    "b790094f3947": {
+      "company": "Philips",
+      "role": "Intern - Systems Engineer \u2013 New Kensington, PA \u2013 Summer 2027",
+      "location": "New Kensington, Pennsylvania,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-592850?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10640,
+      "chat_id": 7582459199,
+      "seq": 9371,
+      "identity": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-592850?s=gh-internships-2027|Philips|Intern - Systems Engineer \u2013 New Kensington, PA \u2013 Summer 2027|New Kensington, Pennsylvania,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -119499,10 +119511,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9370,
+  "seq": 9371,
   "health": {
     "last_heartbeat": "2026-10-30T23:20:17Z",
-    "last_ok_run": "2026-10-30T23:50:15Z",
+    "last_ok_run": "2026-10-30T23:55:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
