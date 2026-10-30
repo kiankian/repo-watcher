@@ -117716,6 +117716,18 @@
       "chat_id": 7582459199,
       "seq": 9252,
       "identity": "https://go.vansh.nyc/10s?s=y|MITRE|Critical Infrastructure Protection Intern|McLean, VA|Oct 29#1"
+    },
+    "fcfea80cc031": {
+      "company": "MITRE",
+      "role": "Data Science and Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "McLean, VA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/10t?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10522,
+      "chat_id": 7582459199,
+      "seq": 9253,
+      "identity": "https://go.vansh.nyc/10t?s=y|MITRE|Data Science and Engineering Intern \ud83c\uddfa\ud83c\uddf8|McLean, VA|Oct 29#1"
     }
   },
   "applied": {
@@ -118083,10 +118095,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9252,
+  "seq": 9253,
   "health": {
     "last_heartbeat": "2026-10-30T12:15:17Z",
-    "last_ok_run": "2026-10-30T13:05:18Z",
+    "last_ok_run": "2026-10-30T13:10:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
