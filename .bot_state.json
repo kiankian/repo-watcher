@@ -119084,6 +119084,54 @@
       "chat_id": 7582459199,
       "seq": 9366,
       "identity": "https://go.vansh.nyc/11g?s=y|Boston Scientific|Software Test Engineer Intern \ud83d\udec2|Waltham, MA|Oct 30#1"
+    },
+    "d18b856ee346": {
+      "company": "Qualcomm",
+      "role": "Camera Systems Intern",
+      "location": "Vancouver, Canada",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/11v?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10636,
+      "chat_id": 7582459199,
+      "seq": 9367,
+      "identity": "https://go.vansh.nyc/11v?s=y|Qualcomm|Camera Systems Intern|Vancouver, Canada|Oct 30#1"
+    },
+    "486ffc4e9a20": {
+      "company": "Qualcomm",
+      "role": "Camera HW ASIC Verification Intern",
+      "location": "Vancouver, Canada",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/11z?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10637,
+      "chat_id": 7582459199,
+      "seq": 9368,
+      "identity": "https://go.vansh.nyc/11z?s=y|Qualcomm|Camera HW ASIC Verification Intern|Vancouver, Canada|Oct 30#1"
+    },
+    "7cbeed2198e9": {
+      "company": "University of Miami",
+      "role": "Data Science & AI Intern",
+      "location": "Miami, FL",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/11t?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10638,
+      "chat_id": 7582459199,
+      "seq": 9369,
+      "identity": "https://go.vansh.nyc/11t?s=y|University of Miami|Data Science & AI Intern|Miami, FL|Oct 29#1"
+    },
+    "11cc4555c9d3": {
+      "company": "The Aerospace Corporation",
+      "role": "Embedded Systems/Software Engineer Intern",
+      "location": "Chantilly, VA El Segundo, CA",
+      "term": "Oct 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10639,
+      "chat_id": 7582459199,
+      "seq": 9370,
+      "identity": "NOURL|The Aerospace Corporation|Embedded Systems/Software Engineer Intern|Chantilly, VA El Segundo, CA|Oct 06#1"
     }
   },
   "applied": {
@@ -119451,10 +119499,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9366,
+  "seq": 9370,
   "health": {
     "last_heartbeat": "2026-10-30T23:20:17Z",
-    "last_ok_run": "2026-10-30T23:40:18Z",
+    "last_ok_run": "2026-10-30T23:45:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
