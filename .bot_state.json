@@ -117380,6 +117380,42 @@
       "chat_id": 7582459199,
       "seq": 9224,
       "identity": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/8037922003?utm_source=Simplify&ref=Simplify|Axon|Software Engineer Intern|Seattle, WA Arlington County, Arlington, VA|Summer 2026#1"
+    },
+    "36da40a62190": {
+      "company": "Qualcomm",
+      "role": "Soft IP Engineer Co-op",
+      "location": "Ottawa, Canada",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/10m?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10494,
+      "chat_id": 7582459199,
+      "seq": 9225,
+      "identity": "https://go.vansh.nyc/10m?s=y|Qualcomm|Soft IP Engineer Co-op|Ottawa, Canada|Oct 29#1"
+    },
+    "53dada16e840": {
+      "company": "Axon",
+      "role": "Software Engineer Intern",
+      "location": "Seattle, WA Arlington, VA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/10l?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10495,
+      "chat_id": 7582459199,
+      "seq": 9226,
+      "identity": "https://go.vansh.nyc/10l?s=y|Axon|Software Engineer Intern|Seattle, WA Arlington, VA|Oct 29#1"
+    },
+    "817ce807b56f": {
+      "company": "Dee Zee",
+      "role": "Software Development Intern",
+      "location": "Des Moines, IA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/10k?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10496,
+      "chat_id": 7582459199,
+      "seq": 9227,
+      "identity": "https://go.vansh.nyc/10k?s=y|Dee Zee|Software Development Intern|Des Moines, IA|Oct 28#1"
     }
   },
   "applied": {
@@ -117747,10 +117783,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9224,
+  "seq": 9227,
   "health": {
     "last_heartbeat": "2026-10-30T01:40:16Z",
-    "last_ok_run": "2026-10-30T02:10:15Z",
+    "last_ok_run": "2026-10-30T02:15:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
