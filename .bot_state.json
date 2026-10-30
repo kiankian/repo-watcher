@@ -117776,6 +117776,54 @@
       "chat_id": 7582459199,
       "seq": 9257,
       "identity": "NOURL|Schweitzer Engineering Laboratories|Software Engineer Intern|Pullman, WA|Oct 19#1"
+    },
+    "f1661fc76ee2": {
+      "company": "Trane Technologies",
+      "role": "AI & Analytics Intern",
+      "location": "Davidson, NC Minneapolis, MN",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/10w?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10527,
+      "chat_id": 7582459199,
+      "seq": 9258,
+      "identity": "https://go.vansh.nyc/10w?s=y|Trane Technologies|AI & Analytics Intern|Davidson, NC Minneapolis, MN|Oct 30#1"
+    },
+    "750be7be2de4": {
+      "company": "Barclays",
+      "role": "Chief Client Office Intern, Client Data & Engineering Group \ud83d\udec2",
+      "location": "New York, NY",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/10x?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10528,
+      "chat_id": 7582459199,
+      "seq": 9259,
+      "identity": "https://go.vansh.nyc/10x?s=y|Barclays|Chief Client Office Intern, Client Data & Engineering Group \ud83d\udec2|New York, NY|Oct 30#1"
+    },
+    "ffe20375b094": {
+      "company": "Amazon",
+      "role": "Software Development Engineer Intern, Machine Learning/Automated Reasoning",
+      "location": "Seattle, WA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/10y?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10529,
+      "chat_id": 7582459199,
+      "seq": 9260,
+      "identity": "https://go.vansh.nyc/10y?s=y|Amazon|Software Development Engineer Intern, Machine Learning/Automated Reasoning|Seattle, WA|Oct 29#1"
+    },
+    "be7c269cbcfc": {
+      "company": "Nissan",
+      "role": "AI & Data Analytics Intern",
+      "location": "Franklin, TN Irving, TX",
+      "term": "Oct 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10530,
+      "chat_id": 7582459199,
+      "seq": 9261,
+      "identity": "NOURL|Nissan|AI & Data Analytics Intern|Franklin, TN Irving, TX|Oct 11#1"
     }
   },
   "applied": {
@@ -118143,10 +118191,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9257,
+  "seq": 9261,
   "health": {
     "last_heartbeat": "2026-10-30T14:30:22Z",
-    "last_ok_run": "2026-10-30T15:35:15Z",
+    "last_ok_run": "2026-10-30T15:40:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
