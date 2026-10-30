@@ -117764,6 +117764,18 @@
       "chat_id": 7582459199,
       "seq": 9256,
       "identity": "https://jobs.ashbyhq.com/gearset/637b4805-e079-4bbd-91e8-96af81dd288f/application?embed=true&utm_source=Simplify&ref=Simplify|Gearset|Software Engineer Intern|Cambridge, UK|Summer 2026#1"
+    },
+    "bf8c6bd26954": {
+      "company": "Schweitzer Engineering Laboratories",
+      "role": "Software Engineer Intern",
+      "location": "Pullman, WA",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10526,
+      "chat_id": 7582459199,
+      "seq": 9257,
+      "identity": "NOURL|Schweitzer Engineering Laboratories|Software Engineer Intern|Pullman, WA|Oct 19#1"
     }
   },
   "applied": {
@@ -118131,10 +118143,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9256,
+  "seq": 9257,
   "health": {
     "last_heartbeat": "2026-10-30T14:30:22Z",
-    "last_ok_run": "2026-10-30T14:35:19Z",
+    "last_ok_run": "2026-10-30T14:40:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
