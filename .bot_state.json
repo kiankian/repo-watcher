@@ -117572,6 +117572,30 @@
       "chat_id": 7582459199,
       "seq": 9240,
       "identity": "NOURL|Kastle|Software Engineer Intern|San Francisco, CA|Aug 21#1"
+    },
+    "36ca38706c24": {
+      "company": "Qualcomm",
+      "role": "Deep Learning Research Intern, Embodied AI",
+      "location": "Markham, Canada",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10510,
+      "chat_id": 7582459199,
+      "seq": 9241,
+      "identity": "NOURL|Qualcomm|Deep Learning Research Intern, Embodied AI|Markham, Canada|Oct 29#1"
+    },
+    "e0a15d1f3430": {
+      "company": "NVIDIA",
+      "role": "Compiler Software Engineering Intern",
+      "location": "Redmond, WA",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10511,
+      "chat_id": 7582459199,
+      "seq": 9242,
+      "identity": "NOURL|NVIDIA|Compiler Software Engineering Intern|Redmond, WA|Oct 29#1"
     }
   },
   "applied": {
@@ -117939,10 +117963,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9240,
+  "seq": 9242,
   "health": {
     "last_heartbeat": "2026-10-30T05:55:14Z",
-    "last_ok_run": "2026-10-30T06:15:15Z",
+    "last_ok_run": "2026-10-30T06:20:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
