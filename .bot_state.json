@@ -119048,6 +119048,30 @@
       "chat_id": 7582459199,
       "seq": 9363,
       "identity": "NOURL|NVIDIA|PCIe Design Verification Intern|Austin, TX|Oct 05#1"
+    },
+    "b8feb59422f2": {
+      "company": "VSP Vision",
+      "role": "AI, Agentic & Machine Learning Development Intern - AI, Agentic & Machine Learning Development",
+      "location": "Remote in USA",
+      "term": "Summer 2026",
+      "apply_url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10633,
+      "chat_id": 7582459199,
+      "seq": 9364,
+      "identity": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072?utm_source=Simplify&ref=Simplify|VSP Vision|AI, Agentic & Machine Learning Development Intern - AI, Agentic & Machine Learning Development|Remote in USA|Summer 2026#1"
+    },
+    "d65d9c623b59": {
+      "company": "Farmers Mutual Hail",
+      "role": "Software Developer Intern",
+      "location": "West Des Moines, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/farmersmutualhailinsurancecompany/jobs/4403596009?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10634,
+      "chat_id": 7582459199,
+      "seq": 9365,
+      "identity": "https://job-boards.greenhouse.io/farmersmutualhailinsurancecompany/jobs/4403596009?utm_source=Simplify&ref=Simplify|Farmers Mutual Hail|Software Developer Intern|West Des Moines, IA|Summer 2026#1"
     }
   },
   "applied": {
@@ -119415,10 +119439,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9363,
+  "seq": 9365,
   "health": {
     "last_heartbeat": "2026-10-30T22:20:17Z",
-    "last_ok_run": "2026-10-30T23:00:20Z",
+    "last_ok_run": "2026-10-30T23:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
