@@ -118856,6 +118856,66 @@
       "chat_id": 7582459199,
       "seq": 9347,
       "identity": "https://zapply.jobs/l/d/workday-itron-itron-JR102789?s=gh-internships-2027|Itron|Intern - Systems Engineer (Spring 2027)|SC|Summer 2027#1"
+    },
+    "14b72ca54f6d": {
+      "company": "\ud83d\udd25 Amazon",
+      "role": "Software Engineer Intern - Machine Learning/Automated Reasoning",
+      "location": "9 locationsBoston, MA Seattle, WA Austin, TX Irvine, CA Arlington County, Arlington, VA NYC Bellevue, WA Sunnyvale, CA San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://amazon.jobs/en/jobs/10593521/software-development-engineer-intern-machine-learning-automated-reasoning-summer-2027?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10617,
+      "chat_id": 7582459199,
+      "seq": 9348,
+      "identity": "https://amazon.jobs/en/jobs/10593521/software-development-engineer-intern-machine-learning-automated-reasoning-summer-2027?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Amazon|Software Engineer Intern - Machine Learning/Automated Reasoning|9 locationsBoston, MA Seattle, WA Austin, TX Irvine, CA Arlington County, Arlington, VA NYC Bellevue, WA Sunnyvale, CA San Diego, CA|Summer 2026#1"
+    },
+    "09b1cd15e1e7": {
+      "company": "Obsidian Entertainment",
+      "role": "Gameplay Engineer Intern",
+      "location": "Irvine, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://obsidian.applytojob.com/apply/zxhj1ePGcR/Gameplay-Engineer-2027-Summer-Internship?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10618,
+      "chat_id": 7582459199,
+      "seq": 9349,
+      "identity": "https://obsidian.applytojob.com/apply/zxhj1ePGcR/Gameplay-Engineer-2027-Summer-Internship?utm_source=Simplify&ref=Simplify|Obsidian Entertainment|Gameplay Engineer Intern|Irvine, CA|Summer 2026#1"
+    },
+    "71c094f30cb4": {
+      "company": "Dow Jones",
+      "role": "Software Engineer Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Software-Engineering-Intern_Job_Req_55892?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10619,
+      "chat_id": 7582459199,
+      "seq": 9350,
+      "identity": "https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Software-Engineering-Intern_Job_Req_55892?utm_source=Simplify&ref=Simplify|Dow Jones|Software Engineer Intern|NYC|Summer 2026#1"
+    },
+    "275f0930f202": {
+      "company": "Brain Co.",
+      "role": "AI Product Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/brainco/28c6cd2f-b609-4ca6-a2f6-adfa3d679d0b/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10620,
+      "chat_id": 7582459199,
+      "seq": 9351,
+      "identity": "https://jobs.ashbyhq.com/brainco/28c6cd2f-b609-4ca6-a2f6-adfa3d679d0b/application?embed=true&utm_source=Simplify&ref=Simplify|Brain Co.|AI Product Intern|SF|Summer 2026#1"
+    },
+    "18430f954bdb": {
+      "company": "Brain Co.",
+      "role": "AI Platform Engineer Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/brainco/2db4339e-79c8-4e97-9c94-92753b49e20a/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10621,
+      "chat_id": 7582459199,
+      "seq": 9352,
+      "identity": "https://jobs.ashbyhq.com/brainco/2db4339e-79c8-4e97-9c94-92753b49e20a/application?embed=true&utm_source=Simplify&ref=Simplify|Brain Co.|AI Platform Engineer Intern|SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -119223,10 +119283,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9347,
+  "seq": 9352,
   "health": {
     "last_heartbeat": "2026-10-30T22:20:17Z",
-    "last_ok_run": "2026-10-30T22:30:19Z",
+    "last_ok_run": "2026-10-30T22:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
