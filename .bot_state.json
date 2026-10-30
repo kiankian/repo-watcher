@@ -118676,6 +118676,30 @@
       "chat_id": 7582459199,
       "seq": 9332,
       "identity": "https://zapply.jobs/l/d/greenhouse-gardacp-6239821004?s=gh-internships-2027|GardaWorld|Infrastructure Engineer Intern|Wayzata, Minnesota, United States|Summer 2027#1"
+    },
+    "cdeddd53f06d": {
+      "company": "GardaWorld",
+      "role": "Infrastructure Engineer Intern",
+      "location": "Wayzata, MN",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/10Z?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10602,
+      "chat_id": 7582459199,
+      "seq": 9333,
+      "identity": "https://go.vansh.nyc/10Z?s=y|GardaWorld|Infrastructure Engineer Intern|Wayzata, MN|Oct 30#1"
+    },
+    "4dcd75a2b08c": {
+      "company": "Carnegie Mellon University",
+      "role": "Enabling Mission Capability at Scale Intern \ud83d\udec2",
+      "location": "Pittsburgh, PA",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/110?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10603,
+      "chat_id": 7582459199,
+      "seq": 9334,
+      "identity": "https://go.vansh.nyc/110?s=y|Carnegie Mellon University|Enabling Mission Capability at Scale Intern \ud83d\udec2|Pittsburgh, PA|Oct 30#1"
     }
   },
   "applied": {
@@ -119043,10 +119067,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9332,
+  "seq": 9334,
   "health": {
     "last_heartbeat": "2026-10-30T19:55:16Z",
-    "last_ok_run": "2026-10-30T20:05:15Z",
+    "last_ok_run": "2026-10-30T20:10:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
