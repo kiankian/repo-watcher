@@ -2818,7 +2818,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "77d3b8ff78f521c47fbb582513a3180dcf1747da",
+    "last_sha": "2ed47eaa9f02d8f0c3a032214892f2ba1a30640c",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -6548,14 +6548,23 @@
       "https://go.vansh.nyc/10L?s=y|Emerson Electric|Software Engineering Intern \ud83d\udec2|Austin, TX|Oct 29#1",
       "https://go.vansh.nyc/10K?s=y|Harmonic|Software Engineer Intern|San Jose, CA|Oct 28#1",
       "NOURL|Trane Technologies|AI & Analytics Intern|Davidson, NC Minneapolis, MN|Oct 30#1",
-      "NOURL|Walmart|Automation, Product Manager, Corporate Intern|Lancaster, TX|Oct 22#1"
+      "NOURL|Walmart|Automation, Product Manager, Corporate Intern|Lancaster, TX|Oct 22#1",
+      "https://go.vansh.nyc/10P?s=y|Samsung Semiconductor|SRAM Design Engineer Intern|San Jose, CA|Oct 30#1",
+      "https://go.vansh.nyc/10U?s=y|GCM Grosvenor|Cybersecurity Intern|Chicago, IL|Oct 30#1",
+      "https://go.vansh.nyc/10V?s=y|Altera|FPGA Development Tools Intern|Toronto, Canada|Oct 30#1",
+      "https://go.vansh.nyc/10W?s=y|Altera|Hardware Design Engineer Intern|Toronto, Canada|Oct 30#1",
+      "https://go.vansh.nyc/10T?s=y|Brain Co.|Machine Learning Engineer Intern, Applied AI|San Francisco, CA|Sep 14#1",
+      "https://go.vansh.nyc/10Q?s=y|Brain Co.|AI Platform Engineer Intern|San Francisco, CA|Sep 12#1",
+      "https://go.vansh.nyc/10R?s=y|Brain Co.|AI Product Engineer Intern|San Francisco, CA|Sep 12#1",
+      "https://go.vansh.nyc/10S?s=y|Brain Co.|AI Security Engineer Intern|San Francisco, CA|Sep 12#1",
+      "NOURL|Brookhaven Lab|Data Engineering Student Assistant Intern|Upton, NY|Oct 21#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 1600,
+    "last_row_count": 1608,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "031faa8e4e7d32a43c298612087e0c593fe5dbac",
+    "last_sha": "313ec912965cdff8851f8d583980eceaeaa31748",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

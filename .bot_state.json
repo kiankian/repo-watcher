@@ -118424,6 +118424,114 @@
       "chat_id": 7582459199,
       "seq": 9311,
       "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0252335?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Albuquerque, NM|Albuquerque, NM|Summer 2027#1"
+    },
+    "ad6ff19dde5d": {
+      "company": "Samsung Semiconductor",
+      "role": "SRAM Design Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/10P?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10581,
+      "chat_id": 7582459199,
+      "seq": 9312,
+      "identity": "https://go.vansh.nyc/10P?s=y|Samsung Semiconductor|SRAM Design Engineer Intern|San Jose, CA|Oct 30#1"
+    },
+    "84e2c5d2c452": {
+      "company": "GCM Grosvenor",
+      "role": "Cybersecurity Intern",
+      "location": "Chicago, IL",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/10U?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10582,
+      "chat_id": 7582459199,
+      "seq": 9313,
+      "identity": "https://go.vansh.nyc/10U?s=y|GCM Grosvenor|Cybersecurity Intern|Chicago, IL|Oct 30#1"
+    },
+    "c34562f39c3d": {
+      "company": "Altera",
+      "role": "FPGA Development Tools Intern",
+      "location": "Toronto, Canada",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/10V?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10583,
+      "chat_id": 7582459199,
+      "seq": 9314,
+      "identity": "https://go.vansh.nyc/10V?s=y|Altera|FPGA Development Tools Intern|Toronto, Canada|Oct 30#1"
+    },
+    "fbcbe5bc3bf0": {
+      "company": "Altera",
+      "role": "Hardware Design Engineer Intern",
+      "location": "Toronto, Canada",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/10W?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10584,
+      "chat_id": 7582459199,
+      "seq": 9315,
+      "identity": "https://go.vansh.nyc/10W?s=y|Altera|Hardware Design Engineer Intern|Toronto, Canada|Oct 30#1"
+    },
+    "759ee8055835": {
+      "company": "Brain Co.",
+      "role": "Machine Learning Engineer Intern, Applied AI",
+      "location": "San Francisco, CA",
+      "term": "Sep 14",
+      "apply_url": "https://go.vansh.nyc/10T?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10585,
+      "chat_id": 7582459199,
+      "seq": 9316,
+      "identity": "https://go.vansh.nyc/10T?s=y|Brain Co.|Machine Learning Engineer Intern, Applied AI|San Francisco, CA|Sep 14#1"
+    },
+    "32ba0a445ae6": {
+      "company": "Brain Co.",
+      "role": "AI Platform Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Sep 12",
+      "apply_url": "https://go.vansh.nyc/10Q?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10586,
+      "chat_id": 7582459199,
+      "seq": 9317,
+      "identity": "https://go.vansh.nyc/10Q?s=y|Brain Co.|AI Platform Engineer Intern|San Francisco, CA|Sep 12#1"
+    },
+    "c1c98ad6c591": {
+      "company": "Brain Co.",
+      "role": "AI Product Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Sep 12",
+      "apply_url": "https://go.vansh.nyc/10R?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10587,
+      "chat_id": 7582459199,
+      "seq": 9318,
+      "identity": "https://go.vansh.nyc/10R?s=y|Brain Co.|AI Product Engineer Intern|San Francisco, CA|Sep 12#1"
+    },
+    "d5c468c9af38": {
+      "company": "Brain Co.",
+      "role": "AI Security Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Sep 12",
+      "apply_url": "https://go.vansh.nyc/10S?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10588,
+      "chat_id": 7582459199,
+      "seq": 9319,
+      "identity": "https://go.vansh.nyc/10S?s=y|Brain Co.|AI Security Engineer Intern|San Francisco, CA|Sep 12#1"
+    },
+    "241ae00b01f1": {
+      "company": "Brookhaven Lab",
+      "role": "Data Engineering Student Assistant Intern",
+      "location": "Upton, NY",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10589,
+      "chat_id": 7582459199,
+      "seq": 9320,
+      "identity": "NOURL|Brookhaven Lab|Data Engineering Student Assistant Intern|Upton, NY|Oct 21#1"
     }
   },
   "applied": {
@@ -118791,10 +118899,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9311,
+  "seq": 9320,
   "health": {
     "last_heartbeat": "2026-10-30T17:46:32Z",
-    "last_ok_run": "2026-10-30T18:40:17Z",
+    "last_ok_run": "2026-10-30T18:45:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
