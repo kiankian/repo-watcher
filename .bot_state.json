@@ -117596,6 +117596,42 @@
       "chat_id": 7582459199,
       "seq": 9242,
       "identity": "NOURL|NVIDIA|Compiler Software Engineering Intern|Redmond, WA|Oct 29#1"
+    },
+    "4c04fb4c08f2": {
+      "company": "Ncino",
+      "role": "Software Engineer Intern",
+      "location": "Lehi, UT",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/ncinoearlytalent/jobs/4403506009?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10512,
+      "chat_id": 7582459199,
+      "seq": 9243,
+      "identity": "https://job-boards.greenhouse.io/ncinoearlytalent/jobs/4403506009?utm_source=Simplify&ref=Simplify|Ncino|Software Engineer Intern|Lehi, UT|Summer 2026#1"
+    },
+    "10d41c3dc361": {
+      "company": "F&G",
+      "role": "IT Software Engineer Intern - Summer",
+      "location": "Des Moines, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://www.fglife.com/about/careers/intern/apply.html?gh_jid=7996103003&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10513,
+      "chat_id": 7582459199,
+      "seq": 9244,
+      "identity": "https://www.fglife.com/about/careers/intern/apply.html?gh_jid=7996103003&utm_source=Simplify&ref=Simplify|F&G|IT Software Engineer Intern - Summer|Des Moines, IA|Summer 2026#1"
+    },
+    "35d9c9de97c9": {
+      "company": "C3.ai",
+      "role": "Software Engineer Intern",
+      "location": "Redwood City, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/c3ascend/jobs/8739036002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10514,
+      "chat_id": 7582459199,
+      "seq": 9245,
+      "identity": "https://job-boards.greenhouse.io/c3ascend/jobs/8739036002?utm_source=Simplify&ref=Simplify|C3.ai|Software Engineer Intern|Redwood City, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -117963,10 +117999,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9242,
+  "seq": 9245,
   "health": {
     "last_heartbeat": "2026-10-30T05:55:14Z",
-    "last_ok_run": "2026-10-30T06:30:20Z",
+    "last_ok_run": "2026-10-30T06:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
