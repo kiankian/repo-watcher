@@ -117632,6 +117632,54 @@
       "chat_id": 7582459199,
       "seq": 9245,
       "identity": "https://job-boards.greenhouse.io/c3ascend/jobs/8739036002?utm_source=Simplify&ref=Simplify|C3.ai|Software Engineer Intern|Redwood City, CA|Summer 2026#1"
+    },
+    "88a4143b2e00": {
+      "company": "Northrop Grumman",
+      "role": "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Azusa, CA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10515,
+      "chat_id": 7582459199,
+      "seq": 9246,
+      "identity": "NOURL|Northrop Grumman|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Azusa, CA|Oct 27#1"
+    },
+    "fa3b937e5604": {
+      "company": "Cisco",
+      "role": "Data Analyst I Intern",
+      "location": "San Jose, CA Austin, TX Research Triangle Park, NC",
+      "term": "Sep 17",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10516,
+      "chat_id": 7582459199,
+      "seq": 9247,
+      "identity": "NOURL|Cisco|Data Analyst I Intern|San Jose, CA Austin, TX Research Triangle Park, NC|Sep 17#1"
+    },
+    "46071e3faba6": {
+      "company": "Cisco",
+      "role": "Hardware Engineer I Intern",
+      "location": "San Jose, CA Austin, TX Research Triangle Park, NC",
+      "term": "Sep 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10517,
+      "chat_id": 7582459199,
+      "seq": 9248,
+      "identity": "NOURL|Cisco|Hardware Engineer I Intern|San Jose, CA Austin, TX Research Triangle Park, NC|Sep 16#1"
+    },
+    "da0b23d5e7b3": {
+      "company": "CoStar Group",
+      "role": "Associate Software Engineer Intern",
+      "location": "Irvine, CA",
+      "term": "Sep 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10518,
+      "chat_id": 7582459199,
+      "seq": 9249,
+      "identity": "NOURL|CoStar Group|Associate Software Engineer Intern|Irvine, CA|Sep 15#1"
     }
   },
   "applied": {
@@ -117999,10 +118047,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9245,
+  "seq": 9249,
   "health": {
     "last_heartbeat": "2026-10-30T06:55:14Z",
-    "last_ok_run": "2026-10-30T07:05:15Z",
+    "last_ok_run": "2026-10-30T07:10:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
