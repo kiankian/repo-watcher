@@ -118580,6 +118580,30 @@
       "chat_id": 7582459199,
       "seq": 9324,
       "identity": "https://zapply.jobs/l/d/sr-BoschGroup-744000158818709?s=gh-internships-2027|Bosch Group|Quality Engineering Intern / Co-op - Spring 2027|Florence, KY|Summer 2027#1"
+    },
+    "ffd6a0826983": {
+      "company": "Dow Jones",
+      "role": "Summer 2027 Internship Program \u2013 Software Engineering Intern",
+      "location": "NYC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-dowjones-dow-jones-career-Job_Req_55892?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10594,
+      "chat_id": 7582459199,
+      "seq": 9325,
+      "identity": "https://zapply.jobs/l/d/workday-dowjones-dow-jones-career-Job_Req_55892?s=gh-internships-2027|Dow Jones|Summer 2027 Internship Program \u2013 Software Engineering Intern|NYC|Summer 2027#1"
+    },
+    "0a46d6d26dce": {
+      "company": "The New York Times",
+      "role": "Backend Engineering Intern, Wirecutter",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-thenewyorktimes-4748483005?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10595,
+      "chat_id": 7582459199,
+      "seq": 9326,
+      "identity": "https://zapply.jobs/l/d/greenhouse-thenewyorktimes-4748483005?s=gh-internships-2027|The New York Times|Backend Engineering Intern, Wirecutter|New York, NY|Summer 2027#1"
     }
   },
   "applied": {
@@ -118947,10 +118971,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9324,
+  "seq": 9326,
   "health": {
     "last_heartbeat": "2026-10-30T18:50:18Z",
-    "last_ok_run": "2026-10-30T19:25:16Z",
+    "last_ok_run": "2026-10-30T19:30:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
