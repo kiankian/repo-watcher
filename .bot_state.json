@@ -118328,6 +118328,18 @@
       "chat_id": 7582459199,
       "seq": 9303,
       "identity": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF089918W-1|Visa|Software Engineer - Intern - 2027 Austin - TX|Austin, TX|Other#1"
+    },
+    "095d80fdb6d9": {
+      "company": "Visa",
+      "role": "2027 Sophomore Internship Program - Software Engineer Intern - Foster City",
+      "location": "Foster City, CA",
+      "term": "Other",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10573,
+      "chat_id": 7582459199,
+      "seq": 9304,
+      "identity": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Foster City|Foster City, CA|Other#1"
     }
   },
   "applied": {
@@ -118695,10 +118707,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9303,
+  "seq": 9304,
   "health": {
     "last_heartbeat": "2026-10-30T17:46:32Z",
-    "last_ok_run": "2026-10-30T17:56:24Z",
+    "last_ok_run": "2026-10-30T18:00:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
