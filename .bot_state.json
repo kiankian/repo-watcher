@@ -117872,6 +117872,42 @@
       "chat_id": 7582459199,
       "seq": 9265,
       "identity": "https://zapply.jobs/l/d/amazon-04fba0c4-1a5d-46d5-a69a-04bc82fec77e?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern, Machine Learning/Automated Reasoning- Summer 2027|Seattle, WA|Summer 2027#1"
+    },
+    "0d0462ed9215": {
+      "company": "Wex",
+      "role": "Software Engineer Intern",
+      "location": "Remote United States",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/10z?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10535,
+      "chat_id": 7582459199,
+      "seq": 9266,
+      "identity": "https://go.vansh.nyc/10z?s=y|Wex|Software Engineer Intern|Remote United States|Oct 30#1"
+    },
+    "45eca5e6dca3": {
+      "company": "Hewlett Packard Enterprise",
+      "role": "Software Development Intern, AI-Assisted Development",
+      "location": "Saint-Laurent, Montreal, QC, Canada",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10536,
+      "chat_id": 7582459199,
+      "seq": 9267,
+      "identity": "NOURL|Hewlett Packard Enterprise|Software Development Intern, AI-Assisted Development|Saint-Laurent, Montreal, QC, Canada|Oct 20#1"
+    },
+    "2996bca2a188": {
+      "company": "Qorvo",
+      "role": "Digital Systems Engineer Intern",
+      "location": "Greensboro, NC",
+      "term": "Sep 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10537,
+      "chat_id": 7582459199,
+      "seq": 9268,
+      "identity": "NOURL|Qorvo|Digital Systems Engineer Intern|Greensboro, NC|Sep 21#1"
     }
   },
   "applied": {
@@ -118239,10 +118275,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9265,
+  "seq": 9268,
   "health": {
     "last_heartbeat": "2026-10-30T15:45:16Z",
-    "last_ok_run": "2026-10-30T16:10:20Z",
+    "last_ok_run": "2026-10-30T16:15:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
