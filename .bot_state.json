@@ -118916,6 +118916,138 @@
       "chat_id": 7582459199,
       "seq": 9352,
       "identity": "https://jobs.ashbyhq.com/brainco/2db4339e-79c8-4e97-9c94-92753b49e20a/application?embed=true&utm_source=Simplify&ref=Simplify|Brain Co.|AI Platform Engineer Intern|SF|Summer 2026#1"
+    },
+    "e091b4964c68": {
+      "company": "Sophinea",
+      "role": "Mobile App Developer Intern",
+      "location": "Manassas, VA",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/11a?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10622,
+      "chat_id": 7582459199,
+      "seq": 9353,
+      "identity": "https://go.vansh.nyc/11a?s=y|Sophinea|Mobile App Developer Intern|Manassas, VA|Oct 30#1"
+    },
+    "335cfa8ee94b": {
+      "company": "Obsidian Entertainment",
+      "role": "Gameplay Engineer Intern",
+      "location": "Irvine, CA",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/119?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10623,
+      "chat_id": 7582459199,
+      "seq": 9354,
+      "identity": "https://go.vansh.nyc/119?s=y|Obsidian Entertainment|Gameplay Engineer Intern|Irvine, CA|Oct 30#1"
+    },
+    "6aceff3183ac": {
+      "company": "Cadillac Formula 1 Team",
+      "role": "Aerodynamics AI Industrial Placement Intern",
+      "location": "Indianapolis, IN",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/11b?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10624,
+      "chat_id": 7582459199,
+      "seq": 9355,
+      "identity": "https://go.vansh.nyc/11b?s=y|Cadillac Formula 1 Team|Aerodynamics AI Industrial Placement Intern|Indianapolis, IN|Oct 30#1"
+    },
+    "675000f346d5": {
+      "company": "Revvity",
+      "role": "Full-Stack AI Developer Intern",
+      "location": "Canada",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/116?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10625,
+      "chat_id": 7582459199,
+      "seq": 9356,
+      "identity": "https://go.vansh.nyc/116?s=y|Revvity|Full-Stack AI Developer Intern|Canada|Oct 29#1"
+    },
+    "6173a59952e3": {
+      "company": "Morningstar",
+      "role": "Tech Intern",
+      "location": "Chicago, IL",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/114?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10626,
+      "chat_id": 7582459199,
+      "seq": 9357,
+      "identity": "https://go.vansh.nyc/114?s=y|Morningstar|Tech Intern|Chicago, IL|Oct 29#1"
+    },
+    "02957b37608d": {
+      "company": "Life Fitness",
+      "role": "IT Intern",
+      "location": "Rosemont, IL",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/117?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10627,
+      "chat_id": 7582459199,
+      "seq": 9358,
+      "identity": "https://go.vansh.nyc/117?s=y|Life Fitness|IT Intern|Rosemont, IL|Oct 29#1"
+    },
+    "1c9ee0b5a603": {
+      "company": "NVIDIA",
+      "role": "Compiler Software Engineer Intern",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10628,
+      "chat_id": 7582459199,
+      "seq": 9359,
+      "identity": "NOURL|NVIDIA|Compiler Software Engineer Intern|Redmond, WA|Oct 28#1"
+    },
+    "6da27a162bc9": {
+      "company": "NVIDIA",
+      "role": "ASIC Verification Intern",
+      "location": "Toronto, ON, Canada",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10629,
+      "chat_id": 7582459199,
+      "seq": 9360,
+      "identity": "NOURL|NVIDIA|ASIC Verification Intern|Toronto, ON, Canada|Oct 18#1"
+    },
+    "3f0a885ae4cf": {
+      "company": "NVIDIA",
+      "role": "Differentiable Simulation Research Intern",
+      "location": "Santa Clara, CA",
+      "term": "Oct 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10630,
+      "chat_id": 7582459199,
+      "seq": 9361,
+      "identity": "NOURL|NVIDIA|Differentiable Simulation Research Intern|Santa Clara, CA|Oct 13#1"
+    },
+    "012101896425": {
+      "company": "NVIDIA",
+      "role": "Research Intern, World Models and Synthetic Data for Autonomous Driving",
+      "location": "Santa Clara, CA",
+      "term": "Oct 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10631,
+      "chat_id": 7582459199,
+      "seq": 9362,
+      "identity": "NOURL|NVIDIA|Research Intern, World Models and Synthetic Data for Autonomous Driving|Santa Clara, CA|Oct 10#1"
+    },
+    "7d1d9c096491": {
+      "company": "NVIDIA",
+      "role": "PCIe Design Verification Intern",
+      "location": "Austin, TX",
+      "term": "Oct 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10632,
+      "chat_id": 7582459199,
+      "seq": 9363,
+      "identity": "NOURL|NVIDIA|PCIe Design Verification Intern|Austin, TX|Oct 05#1"
     }
   },
   "applied": {
@@ -119283,10 +119415,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9352,
+  "seq": 9363,
   "health": {
     "last_heartbeat": "2026-10-30T22:20:17Z",
-    "last_ok_run": "2026-10-30T22:35:21Z",
+    "last_ok_run": "2026-10-30T22:40:35Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
