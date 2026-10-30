@@ -118340,6 +118340,66 @@
       "chat_id": 7582459199,
       "seq": 9304,
       "identity": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Foster City|Foster City, CA|Other#1"
+    },
+    "e309052368cb": {
+      "company": "Salesforce",
+      "role": "AI Labs Intern, Emerging Talent",
+      "location": "San Francisco, CA Seattle, WA",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/10J?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10574,
+      "chat_id": 7582459199,
+      "seq": 9305,
+      "identity": "https://go.vansh.nyc/10J?s=y|Salesforce|AI Labs Intern, Emerging Talent|San Francisco, CA Seattle, WA|Oct 30#1"
+    },
+    "1731032e51f1": {
+      "company": "Emerson Electric",
+      "role": "Software Engineering Intern \ud83d\udec2",
+      "location": "Austin, TX",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/10L?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10575,
+      "chat_id": 7582459199,
+      "seq": 9306,
+      "identity": "https://go.vansh.nyc/10L?s=y|Emerson Electric|Software Engineering Intern \ud83d\udec2|Austin, TX|Oct 29#1"
+    },
+    "5f3c6ba66203": {
+      "company": "Harmonic",
+      "role": "Software Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/10K?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10576,
+      "chat_id": 7582459199,
+      "seq": 9307,
+      "identity": "https://go.vansh.nyc/10K?s=y|Harmonic|Software Engineer Intern|San Jose, CA|Oct 28#1"
+    },
+    "ec5f8d34f468": {
+      "company": "Trane Technologies",
+      "role": "AI & Analytics Intern",
+      "location": "Davidson, NC Minneapolis, MN",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10577,
+      "chat_id": 7582459199,
+      "seq": 9308,
+      "identity": "NOURL|Trane Technologies|AI & Analytics Intern|Davidson, NC Minneapolis, MN|Oct 30#1"
+    },
+    "3b773977a87d": {
+      "company": "Walmart",
+      "role": "Automation, Product Manager, Corporate Intern",
+      "location": "Lancaster, TX",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10578,
+      "chat_id": 7582459199,
+      "seq": 9309,
+      "identity": "NOURL|Walmart|Automation, Product Manager, Corporate Intern|Lancaster, TX|Oct 22#1"
     }
   },
   "applied": {
@@ -118707,10 +118767,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9304,
+  "seq": 9309,
   "health": {
     "last_heartbeat": "2026-10-30T17:46:32Z",
-    "last_ok_run": "2026-10-30T18:05:17Z",
+    "last_ok_run": "2026-10-30T18:10:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
