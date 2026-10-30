@@ -9129,7 +9129,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "f4f03d38142e0800be03d9feeb7382b1dbd9d027",
+    "last_sha": "0bbbde29469933f671d1783d57e86d6b24918e57",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -9300,7 +9300,9 @@
       "https://apply.careers.microsoft.com/careers/job/1970393557044765|Microsoft|Software Engineer: Security & Identity Intern Opportunities for University Students - Cambridge|Cambridge, MA|FAANG+#1",
       "https://apply.careers.microsoft.com/careers/job/1970393556922922|Microsoft|Software Engineer: Fullstack Product - Web + Services Intern Opportunities for University Students|Redmond, WA|FAANG+#1",
       "https://www.metacareers.com/jobs/1952991802037374|Meta|Software Engineering Intern|Menlo Park, CA +2|FAANG+#1",
-      "https://www.metacareers.com/jobs/4070678619908522|Meta|Research Intern - Embedded AI on Wearables - PhD|Redmond, WA|FAANG+#1"
+      "https://www.metacareers.com/jobs/4070678619908522|Meta|Research Intern - Embedded AI on Wearables - PhD|Redmond, WA|FAANG+#1",
+      "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607|NVIDIA|Compiler Software Engineering Intern - Summer 2027|Redmond, WA|FAANG+#1",
+      "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170|NVIDIA|AI Systems Software Engineering Intern - Summer 2027|Austin, TX|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -9326,11 +9328,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 108,
+    "last_row_count": 109,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "f4f03d38142e0800be03d9feeb7382b1dbd9d027",
+    "last_sha": "0bbbde29469933f671d1783d57e86d6b24918e57",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -9372,7 +9374,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "f4f03d38142e0800be03d9feeb7382b1dbd9d027",
+    "last_sha": "0bbbde29469933f671d1783d57e86d6b24918e57",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -11054,7 +11056,32 @@
       "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441|T-Mobile|Summer 2027 Software Engineering Internship|Overland Park, KS|Other#1",
       "https://vsp.wd1.myworkdayjobs.com/en-US/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10071|VSP Vision Care|Internship - Software Engineer|Remote - USA|Other#1",
       "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF089920W-1|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Bellevue|Bellevue, WA|Other#1",
-      "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Foster City|Foster City, CA|Other#1"
+      "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Foster City|Foster City, CA|Other#1",
+      "https://job-boards.greenhouse.io/axontalentcommunity/jobs/8037922003|Axon|2027 US Software Engineering Internship - Dedrone|Seattle, WA +1|Other#1",
+      "https://careers.nintendo.com/?gh_jid=4472147009|Nintendo|Intern - Software Engineer - Connectivity - NTD|Redmond, WA|Other#1",
+      "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046887003|Samsung Semiconductor|Intern - Systems Software Engineering|San Jose, CA|Other#1",
+      "https://job-boards.greenhouse.io/internrecruiting/jobs/8310712|Vestmark|Cloud Engineer Co-op|Wakefield, MA|Other#1",
+      "https://danaher.wd1.myworkdayjobs.com/en-US/danaherjobs/job/Brea-California-United-States/Intern---Application-Integration-Developer_R1316677|Danaher|Intern - Application Integration Developer|Brea, CA|Other#1",
+      "https://uscareers-docusign.icims.com/jobs/30597/software-engineer-intern/job|Docusign|Software Engineer Intern|Seattle, WA|Other#1",
+      "https://job-boards.greenhouse.io/gardacp/jobs/6238021004|Garda Capital Partners|Software Engineer Intern - C#|Wayzata, MN +1|Other#1",
+      "https://globalfoundries.wd1.myworkdayjobs.com/en-US/external/job/USA---California---Santa-Clara/Digital-Design-Backend-Engineering-Intern--3D-and-AI-Flows_JR-2604355|GlobalFoundries|Digital Design Backend Engineering Intern - 3D and AI Flows|California, USA|Other#1",
+      "https://gaig.wd1.myworkdayjobs.com/en-US/gaig_external/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826|Great American Insurance Group|DevOps Developer Intern - Summer 2027|Cincinnati, OH|Other#1",
+      "https://gaig.wd1.myworkdayjobs.com/en-US/gaig_external/job/Cincinnati-OH-USA/Content-Publishing-Developer-Intern---Summer-2027_R9813|Great American Insurance Group|Content Publishing Developer Intern - Summer 2027|Cincinnati, OH|Other#1",
+      "https://jobs.smartrecruiters.com/Interco/744000158581114-paid-internship-software-development-react-?oga=true|Interco|Paid Internship -- Software Development -- React|St. Louis, MO|Other#1",
+      "https://kla.wd1.myworkdayjobs.com/en-US/ur/job/Milpitas-CA/Software-Intern_2642700|KLA|Software Intern|Milpitas, CA|Other#1",
+      "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/Software-Intern_2642700-1|KLA|Software Intern|Milpitas, CA|Other#1",
+      "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00195829|Leidos|Software Developer Intern|Annapolis Junction, MD|Other#1",
+      "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern--Roy-UT_R10258276-1|Northrop Grumman|2027 Software Test Engineering Intern- Roy UT|Roy, UT|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--Summer-2027-_01885791|Raytheon|Software Engineering Intern - Summer 2027|Sterling, VA|Other#1",
+      "https://sonos.wd1.myworkdayjobs.com/en-US/sonos/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1|Sonos|Software Partner Engineering Intern - Boston|Boston, MA|Other#1",
+      "https://sonos.wd1.myworkdayjobs.com/en-US/sonos/job/Seattle-WA/Software-Product-Management-Intern--Seattle-_R2888-1|Sonos|Software Product Management Intern - Seattle|Seattle, WA|Other#1",
+      "https://apply.workable.com/syntiant/j/468B53B345/|Syntiant|Internship - DevOps Machine Learning Infrastructure|Irvine, CA|Other#1",
+      "https://job-boards.greenhouse.io/twosixtechnologies/jobs/6236518004|Two Six Technologies|Systems Software Engineering Intern|Arlington, VA|Other#1",
+      "https://vsp.wd1.myworkdayjobs.com/en-US/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10046|VSP Vision Care|Internship - Software Engineer|Remote - USA|Other#1",
+      "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern---HP-IQ_UNI4806|HP|Software Engineering Intern - HP IQ|San Francisco, CA|Other#1",
+      "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Systems-Intern_UNI4801-1|HP|Software Systems Intern - HP IQ|San Francisco, CA|Other#1",
+      "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin--TX---2027_REF089882W|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Austin - TX - 2027|Austin, TX|Other#1",
+      "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF089918W-1|Visa|Software Engineer - Intern - 2027 Austin - TX|Austin, TX|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -11198,7 +11225,19 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 733,
-    "outbox": []
+    "last_row_count": 734,
+    "outbox": [
+      [
+        [
+          "Visa",
+          "2027 Sophomore Internship Program - Software Engineer Intern - Foster City",
+          "Foster City, CA",
+          "Other",
+          "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1"
+        ],
+        "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Foster City|Foster City, CA|Other#1",
+        1
+      ]
+    ]
   }
 }
