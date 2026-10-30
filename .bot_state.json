@@ -117824,6 +117824,54 @@
       "chat_id": 7582459199,
       "seq": 9261,
       "identity": "NOURL|Nissan|AI & Data Analytics Intern|Franklin, TN Irving, TX|Oct 11#1"
+    },
+    "87a3d9a94bf1": {
+      "company": "Wex",
+      "role": "Software Engineer Intern",
+      "location": "Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22585?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10531,
+      "chat_id": 7582459199,
+      "seq": 9262,
+      "identity": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22585?s=gh-internships-2027|Wex|Software Engineer Intern|Remote|Summer 2027#1"
+    },
+    "ca103b6ad01c": {
+      "company": "Carnegie Mellon University",
+      "role": "Full-Stack Software Development Intern",
+      "location": "Pittsburgh, PA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cmu-cmu-2025287?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10532,
+      "chat_id": 7582459199,
+      "seq": 9263,
+      "identity": "https://zapply.jobs/l/d/workday-cmu-cmu-2025287?s=gh-internships-2027|Carnegie Mellon University|Full-Stack Software Development Intern|Pittsburgh, PA|Summer 2027#1"
+    },
+    "474bf9679d20": {
+      "company": "Carnegie Mellon SEI",
+      "role": "Full-Stack Software Development Intern",
+      "location": "Pittsburgh, PA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cmu-sei-2025287?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10533,
+      "chat_id": 7582459199,
+      "seq": 9264,
+      "identity": "https://zapply.jobs/l/d/workday-cmu-sei-2025287?s=gh-internships-2027|Carnegie Mellon SEI|Full-Stack Software Development Intern|Pittsburgh, PA|Summer 2027#1"
+    },
+    "4d9db19d62fa": {
+      "company": "Amazon.com Services LLC",
+      "role": "Software Development Engineer Intern, Machine Learning/Automated Reasoning- Summer 2027",
+      "location": "Seattle, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/amazon-04fba0c4-1a5d-46d5-a69a-04bc82fec77e?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10534,
+      "chat_id": 7582459199,
+      "seq": 9265,
+      "identity": "https://zapply.jobs/l/d/amazon-04fba0c4-1a5d-46d5-a69a-04bc82fec77e?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern, Machine Learning/Automated Reasoning- Summer 2027|Seattle, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -118191,10 +118239,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9261,
+  "seq": 9265,
   "health": {
     "last_heartbeat": "2026-10-30T15:45:16Z",
-    "last_ok_run": "2026-10-30T15:55:16Z",
+    "last_ok_run": "2026-10-30T16:00:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
