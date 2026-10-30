@@ -118532,6 +118532,54 @@
       "chat_id": 7582459199,
       "seq": 9320,
       "identity": "NOURL|Brookhaven Lab|Data Engineering Student Assistant Intern|Upton, NY|Oct 21#1"
+    },
+    "2f383f297363": {
+      "company": "Dow Jones",
+      "role": "Data Analyst Intern",
+      "location": "New York, NY",
+      "term": "Oct 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10590,
+      "chat_id": 7582459199,
+      "seq": 9321,
+      "identity": "NOURL|Dow Jones|Data Analyst Intern|New York, NY|Oct 06#1"
+    },
+    "b99017a15633": {
+      "company": "Dow Jones",
+      "role": "Software Engineer Intern",
+      "location": "New York, NY",
+      "term": "Oct 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10591,
+      "chat_id": 7582459199,
+      "seq": 9322,
+      "identity": "NOURL|Dow Jones|Software Engineer Intern|New York, NY|Oct 06#1"
+    },
+    "12e32d139920": {
+      "company": "Base Power",
+      "role": "Manufacturing Test Engineering Intern",
+      "location": "Austin, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-base-power-0594dd17-1291-4802-90fb-14e0d775d2d6?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10592,
+      "chat_id": 7582459199,
+      "seq": 9323,
+      "identity": "https://zapply.jobs/l/d/ashby-base-power-0594dd17-1291-4802-90fb-14e0d775d2d6?s=gh-internships-2027|Base Power|Manufacturing Test Engineering Intern|Austin, TX|Summer 2027#1"
+    },
+    "fbac47fb3716": {
+      "company": "Bosch Group",
+      "role": "Quality Engineering Intern / Co-op - Spring 2027",
+      "location": "Florence, KY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-BoschGroup-744000158818709?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10593,
+      "chat_id": 7582459199,
+      "seq": 9324,
+      "identity": "https://zapply.jobs/l/d/sr-BoschGroup-744000158818709?s=gh-internships-2027|Bosch Group|Quality Engineering Intern / Co-op - Spring 2027|Florence, KY|Summer 2027#1"
     }
   },
   "applied": {
@@ -118899,10 +118947,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9320,
+  "seq": 9324,
   "health": {
     "last_heartbeat": "2026-10-30T18:50:18Z",
-    "last_ok_run": "2026-10-30T19:05:18Z",
+    "last_ok_run": "2026-10-30T19:10:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
