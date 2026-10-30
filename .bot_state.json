@@ -117368,6 +117368,18 @@
       "chat_id": 7582459199,
       "seq": 9223,
       "identity": "https://deezee.wd108.myworkdayjobs.com/DeeZee_Careers/job/Des-Moines/Software-Development-Intern_REQ00471?utm_source=Simplify&ref=Simplify|Dee Zee|Software Development Intern|Des Moines, IA|Summer 2026#1"
+    },
+    "4fc8fcc000a5": {
+      "company": "Axon",
+      "role": "Software Engineer Intern",
+      "location": "Seattle, WA Arlington County, Arlington, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/8037922003?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10493,
+      "chat_id": 7582459199,
+      "seq": 9224,
+      "identity": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/8037922003?utm_source=Simplify&ref=Simplify|Axon|Software Engineer Intern|Seattle, WA Arlington County, Arlington, VA|Summer 2026#1"
     }
   },
   "applied": {
@@ -117735,10 +117747,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9223,
+  "seq": 9224,
   "health": {
     "last_heartbeat": "2026-10-30T01:40:16Z",
-    "last_ok_run": "2026-10-30T02:00:20Z",
+    "last_ok_run": "2026-10-30T02:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
