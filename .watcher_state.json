@@ -2825,7 +2825,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "5070ffb1764d4ac39e693fb00a8e9e683f68aea1",
+    "last_sha": "181284eb93cdcab246904a723a4242b701d85adb",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -6600,14 +6600,30 @@
       "NOURL|The Aerospace Corporation|Embedded Systems/Software Engineer Intern|Chantilly, VA El Segundo, CA|Oct 06#1",
       "https://go.vansh.nyc/11I?s=y|Firework|Data Engineer Intern|San Mateo, CA|Oct 30#1",
       "https://go.vansh.nyc/11J?s=y|Molina Healthcare|Data Analytics Internship (Remote) \u2013(Undergraduate)|United States|Oct 29#1",
-      "https://go.vansh.nyc/11K?s=y|Molina Healthcare|Cybersecurity Internship (Remote) \u2013(Undergraduate)|United States|Oct 29#1"
+      "https://go.vansh.nyc/11K?s=y|Molina Healthcare|Cybersecurity Internship (Remote) \u2013(Undergraduate)|United States|Oct 29#1",
+      "https://go.vansh.nyc/122?s=y|OTTO Engineering|Embedded Software Intern, Communications|Carpentersville, IL|Oct 29#1",
+      "https://go.vansh.nyc/121?s=y|Nintendo|Software Engineer Intern, Graphics|Redmond, WA|Oct 29#1",
+      "https://go.vansh.nyc/11Y?s=y|Mativ|Data Science and Business Analytics Intern|Alpharetta, GA|Oct 29#1",
+      "https://go.vansh.nyc/11Z?s=y|HCSC|Cybersecurity Operations Intern|Chicago, IL|Oct 29#1",
+      "https://go.vansh.nyc/11X?s=y|Benchmark Space Systems|Software Engineering Intern|Burlington, VT|Oct 29#1",
+      "https://go.vansh.nyc/11S?s=y|Verition Group|AI Associate Intern, Equity Long/Short|**5 locations**New York, NY Miami, FL Greenwich, CT Norwalk, CT San Francisco, CA|Oct 28#1",
+      "https://go.vansh.nyc/11V?s=y|Syntiant|DevOps Machine Learning Infrastructure Intern|Irvine, CA|Oct 28#1",
+      "https://go.vansh.nyc/11Q?s=y|Sephora|AI & Distribution Analytics Intern|United States|Oct 28#1",
+      "https://go.vansh.nyc/11R?s=y|Paccar|Data Engineer Intern|United States|Oct 28#1",
+      "https://go.vansh.nyc/11W?s=y|Mativ|Cybersecurity Intern|Alpharetta, GA|Oct 28#1",
+      "https://go.vansh.nyc/11T?s=y|Beli|Software Engineer Intern|New York, NY|Oct 28#1",
+      "https://go.vansh.nyc/11U?s=y|Beli|Data Science Intern|New York, NY|Oct 28#1",
+      "https://go.vansh.nyc/11O?s=y|Toshiba International Corporation|Firmware Engineer Intern|San Jose, CA|Oct 27#1",
+      "https://go.vansh.nyc/11P?s=y|sephora.com|AI & Distribution Analytics Intern|Salt Lake City, UT|Oct 27#1",
+      "https://go.vansh.nyc/11M?s=y|Sephora|AI Automation Intern, WMS & DC Systems|United States|Oct 27#1",
+      "https://go.vansh.nyc/11N?s=y|Sephora|AI Platform Infrastructure Intern, Technology|United States|Oct 27#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 1627,
+    "last_row_count": 1643,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "d9605e0dca3f301013690503c46e1bcb85a6ff1c",
+    "last_sha": "d159dbff491c96100adf695edd6512bddc08eaac",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
