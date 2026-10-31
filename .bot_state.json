@@ -119144,6 +119144,42 @@
       "chat_id": 7582459199,
       "seq": 9371,
       "identity": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-592850?s=gh-internships-2027|Philips|Intern - Systems Engineer \u2013 New Kensington, PA \u2013 Summer 2027|New Kensington, Pennsylvania,...|Summer 2027#1"
+    },
+    "2948e0353176": {
+      "company": "Firework",
+      "role": "Data Engineer Intern",
+      "location": "San Mateo, CA",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/11I?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10641,
+      "chat_id": 7582459199,
+      "seq": 9372,
+      "identity": "https://go.vansh.nyc/11I?s=y|Firework|Data Engineer Intern|San Mateo, CA|Oct 30#1"
+    },
+    "01e737c76888": {
+      "company": "Molina Healthcare",
+      "role": "Data Analytics Internship (Remote) \u2013(Undergraduate)",
+      "location": "United States",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/11J?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10642,
+      "chat_id": 7582459199,
+      "seq": 9373,
+      "identity": "https://go.vansh.nyc/11J?s=y|Molina Healthcare|Data Analytics Internship (Remote) \u2013(Undergraduate)|United States|Oct 29#1"
+    },
+    "47afaaa2da6a": {
+      "company": "Molina Healthcare",
+      "role": "Cybersecurity Internship (Remote) \u2013(Undergraduate)",
+      "location": "United States",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/11K?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10643,
+      "chat_id": 7582459199,
+      "seq": 9374,
+      "identity": "https://go.vansh.nyc/11K?s=y|Molina Healthcare|Cybersecurity Internship (Remote) \u2013(Undergraduate)|United States|Oct 29#1"
     }
   },
   "applied": {
@@ -119511,10 +119547,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9371,
+  "seq": 9374,
   "health": {
     "last_heartbeat": "2026-10-31T00:25:13Z",
-    "last_ok_run": "2026-10-31T01:05:14Z",
+    "last_ok_run": "2026-10-31T01:10:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
