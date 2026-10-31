@@ -119372,6 +119372,114 @@
       "chat_id": 7582459199,
       "seq": 9390,
       "identity": "https://go.vansh.nyc/11N?s=y|Sephora|AI Platform Infrastructure Intern, Technology|United States|Oct 27#1"
+    },
+    "a828feb157d9": {
+      "company": "Qualcomm",
+      "role": "Deep Learning Research Intern",
+      "location": "Markham, Canada",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10660,
+      "chat_id": 7582459199,
+      "seq": 9391,
+      "identity": "NOURL|Qualcomm|Deep Learning Research Intern|Markham, Canada|Oct 28#1"
+    },
+    "2b6747a234c7": {
+      "company": "sephora.com",
+      "role": "AI & Distribution Analytics Intern",
+      "location": "Salt Lake City, UT",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10661,
+      "chat_id": 7582459199,
+      "seq": 9392,
+      "identity": "NOURL|sephora.com|AI & Distribution Analytics Intern|Salt Lake City, UT|Oct 27#1"
+    },
+    "4a2225799ac4": {
+      "company": "Amazon",
+      "role": "Database Engineer Intern",
+      "location": "Seattle, WA East Palo Alto, CA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10662,
+      "chat_id": 7582459199,
+      "seq": 9393,
+      "identity": "NOURL|Amazon|Database Engineer Intern|Seattle, WA East Palo Alto, CA|Oct 27#1"
+    },
+    "37f5a7eb1dd7": {
+      "company": "Amazon",
+      "role": "Software Engineer Intern, Embedded Systems",
+      "location": "United States",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10663,
+      "chat_id": 7582459199,
+      "seq": 9394,
+      "identity": "NOURL|Amazon|Software Engineer Intern, Embedded Systems|United States|Oct 22#1"
+    },
+    "a7085bb31dc5": {
+      "company": "Qualcomm",
+      "role": "Low-Power AI, Audio, and Sensors Subsystem Engineering Intern, ASIC Firmware / Embedded",
+      "location": "Markham, Canada",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10664,
+      "chat_id": 7582459199,
+      "seq": 9395,
+      "identity": "NOURL|Qualcomm|Low-Power AI, Audio, and Sensors Subsystem Engineering Intern, ASIC Firmware / Embedded|Markham, Canada|Oct 18#1"
+    },
+    "9e0d8c5e6073": {
+      "company": "Qualcomm",
+      "role": "Firmware/Embedded Software Engineering Intern",
+      "location": "Toronto, Canada",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10665,
+      "chat_id": 7582459199,
+      "seq": 9396,
+      "identity": "NOURL|Qualcomm|Firmware/Embedded Software Engineering Intern|Toronto, Canada|Oct 18#1"
+    },
+    "1d438fd3bb91": {
+      "company": "Qualcomm",
+      "role": "PAL Firmware Development Intern",
+      "location": "Markham, Canada",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10666,
+      "chat_id": 7582459199,
+      "seq": 9397,
+      "identity": "NOURL|Qualcomm|PAL Firmware Development Intern|Markham, Canada|Oct 18#1"
+    },
+    "51d7e16d682d": {
+      "company": "Keysight Technologies",
+      "role": "Software Engineering Intern",
+      "location": "Calabasas, CA",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10667,
+      "chat_id": 7582459199,
+      "seq": 9398,
+      "identity": "NOURL|Keysight Technologies|Software Engineering Intern|Calabasas, CA|Oct 18#1"
+    },
+    "72a634b0aa16": {
+      "company": "Amazon",
+      "role": "Software Engineer Intern, Embedded Systems",
+      "location": "Redmond, WA Northridge, CA",
+      "term": "Oct 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10668,
+      "chat_id": 7582459199,
+      "seq": 9399,
+      "identity": "NOURL|Amazon|Software Engineer Intern, Embedded Systems|Redmond, WA Northridge, CA|Oct 06#1"
     }
   },
   "applied": {
@@ -119739,10 +119847,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9390,
+  "seq": 9399,
   "health": {
     "last_heartbeat": "2026-10-31T01:25:14Z",
-    "last_ok_run": "2026-10-31T02:15:39Z",
+    "last_ok_run": "2026-10-31T02:20:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
