@@ -120344,6 +120344,18 @@
       "chat_id": 7582459199,
       "seq": 9471,
       "identity": "https://careers.nintendo.com/?gh_jid=4472147009|Nintendo|Software Engineer Intern, Connectivity|Redmond, WA|Oct 28#1"
+    },
+    "22b859935e91": {
+      "company": "Booz Allen Hamilton",
+      "role": "University - 2027 Summer Games Software Developer Intern - Charleston, SC",
+      "location": "Charleston, SC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0248134?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 10741,
+      "chat_id": 7582459199,
+      "seq": 9472,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0248134?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Charleston, SC|Charleston, SC|Summer 2027#1"
     }
   },
   "applied": {
@@ -120711,10 +120723,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9471,
+  "seq": 9472,
   "health": {
     "last_heartbeat": "2026-10-31T19:55:14Z",
-    "last_ok_run": "2026-10-31T20:05:14Z",
+    "last_ok_run": "2026-10-31T20:10:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
