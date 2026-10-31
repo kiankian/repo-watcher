@@ -120356,6 +120356,138 @@
       "chat_id": 7582459199,
       "seq": 9472,
       "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0248134?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Charleston, SC|Charleston, SC|Summer 2027#1"
+    },
+    "71e50878ac98": {
+      "company": "Students Plus Startups",
+      "role": "Vroom Power Software Engineering Intern",
+      "location": "San Antonio, TX",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/12s?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10742,
+      "chat_id": 7582459199,
+      "seq": 9473,
+      "identity": "https://go.vansh.nyc/12s?s=y|Students Plus Startups|Vroom Power Software Engineering Intern|San Antonio, TX|Oct 30#1"
+    },
+    "dc14798bc08f": {
+      "company": "GTI Energy",
+      "role": "Data Science Intern",
+      "location": "Des Plaines, IL",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/12t?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10743,
+      "chat_id": 7582459199,
+      "seq": 9474,
+      "identity": "https://go.vansh.nyc/12t?s=y|GTI Energy|Data Science Intern|Des Plaines, IL|Oct 30#1"
+    },
+    "e2ce03901701": {
+      "company": "Economy Polymers & Chemicals",
+      "role": "AI & Business Systems Automation Intern",
+      "location": "Houston, TX",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/12u?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10744,
+      "chat_id": 7582459199,
+      "seq": 9475,
+      "identity": "https://go.vansh.nyc/12u?s=y|Economy Polymers & Chemicals|AI & Business Systems Automation Intern|Houston, TX|Oct 30#1"
+    },
+    "e9473ca328a5": {
+      "company": "Virginia Tech Applied Research Corporation",
+      "role": "Research Intern, Applied AI & Software Development",
+      "location": "Arlington, VA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/12r?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10745,
+      "chat_id": 7582459199,
+      "seq": 9476,
+      "identity": "https://go.vansh.nyc/12r?s=y|Virginia Tech Applied Research Corporation|Research Intern, Applied AI & Software Development|Arlington, VA|Oct 29#1"
+    },
+    "218a5238d2f9": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, Performance Tools",
+      "location": "Redmond, WA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/12q?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10746,
+      "chat_id": 7582459199,
+      "seq": 9477,
+      "identity": "https://go.vansh.nyc/12q?s=y|Nintendo|Software Engineer Intern, Performance Tools|Redmond, WA|Oct 29#1"
+    },
+    "e51fd7873626": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, CPU Debugger",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/12k?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10747,
+      "chat_id": 7582459199,
+      "seq": 9478,
+      "identity": "https://go.vansh.nyc/12k?s=y|Nintendo|Software Engineer Intern, CPU Debugger|Redmond, WA|Oct 28#1"
+    },
+    "22ca5b5fefb3": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, CPU Profiler",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/12l?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10748,
+      "chat_id": 7582459199,
+      "seq": 9479,
+      "identity": "https://go.vansh.nyc/12l?s=y|Nintendo|Software Engineer Intern, CPU Profiler|Redmond, WA|Oct 28#1"
+    },
+    "e756442f1b8a": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, DevOps",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/12m?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10749,
+      "chat_id": 7582459199,
+      "seq": 9480,
+      "identity": "https://go.vansh.nyc/12m?s=y|Nintendo|Software Engineer Intern, DevOps|Redmond, WA|Oct 28#1"
+    },
+    "dc58c85b7145": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, Audio",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/12n?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10750,
+      "chat_id": 7582459199,
+      "seq": 9481,
+      "identity": "https://go.vansh.nyc/12n?s=y|Nintendo|Software Engineer Intern, Audio|Redmond, WA|Oct 28#1"
+    },
+    "4ec45bc0c5bd": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, Platform Security",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/12o?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10751,
+      "chat_id": 7582459199,
+      "seq": 9482,
+      "identity": "https://go.vansh.nyc/12o?s=y|Nintendo|Software Engineer Intern, Platform Security|Redmond, WA|Oct 28#1"
+    },
+    "a398f8c62171": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, Connectivity",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/12p?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10752,
+      "chat_id": 7582459199,
+      "seq": 9483,
+      "identity": "https://go.vansh.nyc/12p?s=y|Nintendo|Software Engineer Intern, Connectivity|Redmond, WA|Oct 28#1"
     }
   },
   "applied": {
@@ -120723,10 +120855,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9472,
+  "seq": 9483,
   "health": {
     "last_heartbeat": "2026-10-31T19:55:14Z",
-    "last_ok_run": "2026-10-31T20:10:17Z",
+    "last_ok_run": "2026-10-31T20:15:34Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
