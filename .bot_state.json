@@ -119492,6 +119492,114 @@
       "chat_id": 7582459199,
       "seq": 9400,
       "identity": "https://go.vansh.nyc/125?s=y|Northrop Grumman|Data Scientist Intern, Product Support \ud83c\uddfa\ud83c\uddf8|San Diego, CA|Oct 30#1"
+    },
+    "0bd34d33411a": {
+      "company": "RTX",
+      "role": "Sustainment Data and Analytics Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "East Hartford, CT",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10670,
+      "chat_id": 7582459199,
+      "seq": 9401,
+      "identity": "NOURL|RTX|Sustainment Data and Analytics Intern \ud83c\uddfa\ud83c\uddf8|East Hartford, CT|Oct 29#1"
+    },
+    "1c1bf5a9be8d": {
+      "company": "RTX",
+      "role": "Secure Software Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Woburn, MA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10671,
+      "chat_id": 7582459199,
+      "seq": 9402,
+      "identity": "NOURL|RTX|Secure Software Intern \ud83c\uddfa\ud83c\uddf8|Woburn, MA|Oct 27#1"
+    },
+    "b07f9942de3c": {
+      "company": "Northrop Grumman",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Beavercreek, OH",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10672,
+      "chat_id": 7582459199,
+      "seq": 9403,
+      "identity": "NOURL|Northrop Grumman|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Beavercreek, OH|Oct 26#1"
+    },
+    "4f34859369a3": {
+      "company": "Duke Energy Corporation",
+      "role": "Nuclear Cybersecurity Intern",
+      "location": "Hartsville, SC",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10673,
+      "chat_id": 7582459199,
+      "seq": 9404,
+      "identity": "NOURL|Duke Energy Corporation|Nuclear Cybersecurity Intern|Hartsville, SC|Oct 21#1"
+    },
+    "aa0163101a55": {
+      "company": "Stifel",
+      "role": "Data Analyst Intern",
+      "location": "Saint Louis, MO",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10674,
+      "chat_id": 7582459199,
+      "seq": 9405,
+      "identity": "NOURL|Stifel|Data Analyst Intern|Saint Louis, MO|Oct 20#1"
+    },
+    "a07e583dfac0": {
+      "company": "Stifel",
+      "role": "Information Security Intern",
+      "location": "Saint Louis, MO",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10675,
+      "chat_id": 7582459199,
+      "seq": 9406,
+      "identity": "NOURL|Stifel|Information Security Intern|Saint Louis, MO|Oct 20#1"
+    },
+    "45856b6b787c": {
+      "company": "Rolls-Royce",
+      "role": "Integrated Control Systems Engineer Intern, Software",
+      "location": "Indianapolis, IN",
+      "term": "Oct 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10676,
+      "chat_id": 7582459199,
+      "seq": 9407,
+      "identity": "NOURL|Rolls-Royce|Integrated Control Systems Engineer Intern, Software|Indianapolis, IN|Oct 12#1"
+    },
+    "5608dbc9e5e2": {
+      "company": "Elevance Health",
+      "role": "Data Analytics Intern",
+      "location": "**4 locations**Indianapolis, IN Richmond, VA Chicago, IL Atlanta, GA",
+      "term": "Oct 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10677,
+      "chat_id": 7582459199,
+      "seq": 9408,
+      "identity": "NOURL|Elevance Health|Data Analytics Intern|**4 locations**Indianapolis, IN Richmond, VA Chicago, IL Atlanta, GA|Oct 01#1"
+    },
+    "89da29961f73": {
+      "company": "Elevance Health",
+      "role": "Engineering Intern",
+      "location": "**4 locations**Indianapolis, IN Richmond, VA Chicago, IL Atlanta, GA",
+      "term": "Oct 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10678,
+      "chat_id": 7582459199,
+      "seq": 9409,
+      "identity": "NOURL|Elevance Health|Engineering Intern|**4 locations**Indianapolis, IN Richmond, VA Chicago, IL Atlanta, GA|Oct 01#1"
     }
   },
   "applied": {
@@ -119859,10 +119967,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9400,
+  "seq": 9409,
   "health": {
     "last_heartbeat": "2026-10-31T03:30:20Z",
-    "last_ok_run": "2026-10-31T04:05:13Z",
+    "last_ok_run": "2026-10-31T04:10:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
