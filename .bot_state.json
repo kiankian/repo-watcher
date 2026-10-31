@@ -120260,6 +120260,90 @@
       "chat_id": 7582459199,
       "seq": 9464,
       "identity": "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802-1|HP|Software Quality Assurance Intern|San Francisco, CA|Other#1"
+    },
+    "4f5f17fc304c": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, Performance Tools",
+      "location": "Redmond, WA",
+      "term": "Oct 29",
+      "apply_url": "https://careers.nintendo.com/?gh_jid=4473568009",
+      "source": "Vansh Summer Repo",
+      "message_id": 10734,
+      "chat_id": 7582459199,
+      "seq": 9465,
+      "identity": "https://careers.nintendo.com/?gh_jid=4473568009|Nintendo|Software Engineer Intern, Performance Tools|Redmond, WA|Oct 29#1"
+    },
+    "25f2b5f9c76b": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, CPU Debugger",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://careers.nintendo.com/?gh_jid=4471972009",
+      "source": "Vansh Summer Repo",
+      "message_id": 10735,
+      "chat_id": 7582459199,
+      "seq": 9466,
+      "identity": "https://careers.nintendo.com/?gh_jid=4471972009|Nintendo|Software Engineer Intern, CPU Debugger|Redmond, WA|Oct 28#1"
+    },
+    "7966d9812530": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, CPU Profiler",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://careers.nintendo.com/?gh_jid=4469762009",
+      "source": "Vansh Summer Repo",
+      "message_id": 10736,
+      "chat_id": 7582459199,
+      "seq": 9467,
+      "identity": "https://careers.nintendo.com/?gh_jid=4469762009|Nintendo|Software Engineer Intern, CPU Profiler|Redmond, WA|Oct 28#1"
+    },
+    "c7904fe7e24c": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, DevOps",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://careers.nintendo.com/?gh_jid=4472002009",
+      "source": "Vansh Summer Repo",
+      "message_id": 10737,
+      "chat_id": 7582459199,
+      "seq": 9468,
+      "identity": "https://careers.nintendo.com/?gh_jid=4472002009|Nintendo|Software Engineer Intern, DevOps|Redmond, WA|Oct 28#1"
+    },
+    "121d7f7cd396": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, Audio",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://careers.nintendo.com/?gh_jid=4470048009",
+      "source": "Vansh Summer Repo",
+      "message_id": 10738,
+      "chat_id": 7582459199,
+      "seq": 9469,
+      "identity": "https://careers.nintendo.com/?gh_jid=4470048009|Nintendo|Software Engineer Intern, Audio|Redmond, WA|Oct 28#1"
+    },
+    "455ce6f52f88": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, Platform Security",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://careers.nintendo.com/?gh_jid=4469778009",
+      "source": "Vansh Summer Repo",
+      "message_id": 10739,
+      "chat_id": 7582459199,
+      "seq": 9470,
+      "identity": "https://careers.nintendo.com/?gh_jid=4469778009|Nintendo|Software Engineer Intern, Platform Security|Redmond, WA|Oct 28#1"
+    },
+    "9dadd039c1f5": {
+      "company": "Nintendo",
+      "role": "Software Engineer Intern, Connectivity",
+      "location": "Redmond, WA",
+      "term": "Oct 28",
+      "apply_url": "https://careers.nintendo.com/?gh_jid=4472147009",
+      "source": "Vansh Summer Repo",
+      "message_id": 10740,
+      "chat_id": 7582459199,
+      "seq": 9471,
+      "identity": "https://careers.nintendo.com/?gh_jid=4472147009|Nintendo|Software Engineer Intern, Connectivity|Redmond, WA|Oct 28#1"
     }
   },
   "applied": {
@@ -120627,10 +120711,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9464,
+  "seq": 9471,
   "health": {
     "last_heartbeat": "2026-10-31T18:50:18Z",
-    "last_ok_run": "2026-10-31T19:15:16Z",
+    "last_ok_run": "2026-10-31T19:20:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
