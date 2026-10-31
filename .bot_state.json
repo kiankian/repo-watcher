@@ -120068,6 +120068,42 @@
       "chat_id": 7582459199,
       "seq": 9448,
       "identity": "https://jobs.ashbyhq.com/incident/743b1624-7267-49a9-84a0-6223e414fbf0/application?embed=true&utm_source=Simplify&ref=Simplify|incident.io|Product Engineer New Grad|London, UK|Summer 2026#1"
+    },
+    "90a3c0c72deb": {
+      "company": "NVIDIA",
+      "role": "Software Engineering Intern",
+      "location": "Santa Clara, CA",
+      "term": "Oct 31",
+      "apply_url": "https://go.vansh.nyc/12g?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10718,
+      "chat_id": 7582459199,
+      "seq": 9449,
+      "identity": "https://go.vansh.nyc/12g?s=y|NVIDIA|Software Engineering Intern|Santa Clara, CA|Oct 31#1"
+    },
+    "c5ef8a555328": {
+      "company": "NVIDIA",
+      "role": "Autonomous Vehicles and Robotics Intern",
+      "location": "Santa Clara, CA",
+      "term": "Oct 31",
+      "apply_url": "https://go.vansh.nyc/12h?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10719,
+      "chat_id": 7582459199,
+      "seq": 9450,
+      "identity": "https://go.vansh.nyc/12h?s=y|NVIDIA|Autonomous Vehicles and Robotics Intern|Santa Clara, CA|Oct 31#1"
+    },
+    "4fd78812023f": {
+      "company": "NVIDIA",
+      "role": "Deep Learning Intern",
+      "location": "Santa Clara, CA",
+      "term": "Oct 31",
+      "apply_url": "https://go.vansh.nyc/12j?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10720,
+      "chat_id": 7582459199,
+      "seq": 9451,
+      "identity": "https://go.vansh.nyc/12j?s=y|NVIDIA|Deep Learning Intern|Santa Clara, CA|Oct 31#1"
     }
   },
   "applied": {
@@ -120435,10 +120471,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9448,
+  "seq": 9451,
   "health": {
     "last_heartbeat": "2026-10-31T11:20:19Z",
-    "last_ok_run": "2026-10-31T12:10:19Z",
+    "last_ok_run": "2026-10-31T12:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
