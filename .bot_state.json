@@ -120104,6 +120104,162 @@
       "chat_id": 7582459199,
       "seq": 9451,
       "identity": "https://go.vansh.nyc/12j?s=y|NVIDIA|Deep Learning Intern|Santa Clara, CA|Oct 31#1"
+    },
+    "f1db033d1e66": {
+      "company": "Amazon",
+      "role": "Software Development Engineer Intern - Machine Learning/Automated Reasoning- Summer 2027",
+      "location": "Seattle, WA",
+      "term": "FAANG+",
+      "apply_url": "https://www.amazon.jobs/jobs/10593521/apply",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10721,
+      "chat_id": 7582459199,
+      "seq": 9452,
+      "identity": "https://www.amazon.jobs/jobs/10593521/apply|Amazon|Software Development Engineer Intern - Machine Learning/Automated Reasoning- Summer 2027|Seattle, WA|FAANG+#1"
+    },
+    "967563caa017": {
+      "company": "Nintendo",
+      "role": "Intern - Software Engineer - Graphics - NTD",
+      "location": "Redmond, WA",
+      "term": "Other",
+      "apply_url": "https://careers.nintendo.com/?gh_jid=4473550009",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10722,
+      "chat_id": 7582459199,
+      "seq": 9453,
+      "identity": "https://careers.nintendo.com/?gh_jid=4473550009|Nintendo|Intern - Software Engineer - Graphics - NTD|Redmond, WA|Other#1"
+    },
+    "b8394cb7fb62": {
+      "company": "Nintendo",
+      "role": "Intern - Software Engineer - Performance Tools - NTD",
+      "location": "Redmond, WA",
+      "term": "Other",
+      "apply_url": "https://careers.nintendo.com/?gh_jid=4473568009",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10723,
+      "chat_id": 7582459199,
+      "seq": 9454,
+      "identity": "https://careers.nintendo.com/?gh_jid=4473568009|Nintendo|Intern - Software Engineer - Performance Tools - NTD|Redmond, WA|Other#1"
+    },
+    "d9b70abf7fe4": {
+      "company": "The New York Times",
+      "role": "Backend Engineering Intern - Wirecutter",
+      "location": "New York City, NY",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4748483005",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10724,
+      "chat_id": 7582459199,
+      "seq": 9455,
+      "identity": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4748483005|The New York Times|Backend Engineering Intern - Wirecutter|New York City, NY|Other#1"
+    },
+    "461d414e4133": {
+      "company": "Carnegie Mellon University",
+      "role": "Full-Stack Software Development Intern",
+      "location": "Pittsburgh, PA",
+      "term": "Other",
+      "apply_url": "https://cmu.wd115.myworkdayjobs.com/en-US/cmu/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10725,
+      "chat_id": 7582459199,
+      "seq": 9456,
+      "identity": "https://cmu.wd115.myworkdayjobs.com/en-US/cmu/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-1|Carnegie Mellon University|Full-Stack Software Development Intern|Pittsburgh, PA|Other#1"
+    },
+    "3a90f111281c": {
+      "company": "Carnegie Mellon University",
+      "role": "Full-Stack Software Development Intern",
+      "location": "Pittsburgh, PA",
+      "term": "Other",
+      "apply_url": "https://cmu.wd115.myworkdayjobs.com/en-US/sei/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-2",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10726,
+      "chat_id": 7582459199,
+      "seq": 9457,
+      "identity": "https://cmu.wd115.myworkdayjobs.com/en-US/sei/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-2|Carnegie Mellon University|Full-Stack Software Development Intern|Pittsburgh, PA|Other#1"
+    },
+    "4b64f41fb33d": {
+      "company": "Elucid",
+      "role": "Software Engineering Intern: Spring 2027",
+      "location": "Boston, MA",
+      "term": "Other",
+      "apply_url": "https://elucid.applytojob.com/apply/6VSEqF73l9/Software-Engineering-Intern-Spring-2027",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10727,
+      "chat_id": 7582459199,
+      "seq": 9458,
+      "identity": "https://elucid.applytojob.com/apply/6VSEqF73l9/Software-Engineering-Intern-Spring-2027|Elucid|Software Engineering Intern: Spring 2027|Boston, MA|Other#1"
+    },
+    "9190d6c87829": {
+      "company": "Hewlett Packard Enterprise",
+      "role": "Software Engineering Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Other",
+      "apply_url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California-United-States-of-America/Software-Engineering-Intern_1214146",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10728,
+      "chat_id": 7582459199,
+      "seq": 9459,
+      "identity": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California-United-States-of-America/Software-Engineering-Intern_1214146|Hewlett Packard Enterprise|Software Engineering Intern|Sunnyvale, CA|Other#1"
+    },
+    "9d46a127d51f": {
+      "company": "Otto Engineering",
+      "role": "Embedded Software Intern - Communications - Summer 2027",
+      "location": "Carpentersville, IL",
+      "term": "Other",
+      "apply_url": "https://otto-engineering-inc.breezy.hr/p/c0fdaec6842c-embedded-software-intern-communications-summer-2027",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10729,
+      "chat_id": 7582459199,
+      "seq": 9460,
+      "identity": "https://otto-engineering-inc.breezy.hr/p/c0fdaec6842c-embedded-software-intern-communications-summer-2027|Otto Engineering|Embedded Software Intern - Communications - Summer 2027|Carpentersville, IL|Other#1"
+    },
+    "e91ae0646d5c": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Firmware Engineering Intern",
+      "location": "Folsom, CA",
+      "term": "Other",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Folsom-CA/Firmware-Engineering-Intern_R0031219",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10730,
+      "chat_id": 7582459199,
+      "seq": 9461,
+      "identity": "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Folsom-CA/Firmware-Engineering-Intern_R0031219|Sierra Nevada Corporation|Firmware Engineering Intern|Folsom, CA|Other#1"
+    },
+    "0673d2912d3b": {
+      "company": "WEX",
+      "role": "Software Engineer Intern",
+      "location": "Remote - USA",
+      "term": "Other",
+      "apply_url": "https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Software-Engineer-Intern_R22585",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10731,
+      "chat_id": 7582459199,
+      "seq": 9462,
+      "identity": "https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Software-Engineer-Intern_R22585|WEX|Software Engineer Intern|Remote - USA|Other#1"
+    },
+    "6001ea53e6f8": {
+      "company": "HP",
+      "role": "Software Engineering Intern - HP IQ",
+      "location": "San Francisco, CA",
+      "term": "Other",
+      "apply_url": "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern---HP-IQ_UNI4806-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10732,
+      "chat_id": 7582459199,
+      "seq": 9463,
+      "identity": "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern---HP-IQ_UNI4806-1|HP|Software Engineering Intern - HP IQ|San Francisco, CA|Other#1"
+    },
+    "92917ca445a3": {
+      "company": "HP",
+      "role": "Software Quality Assurance Intern",
+      "location": "San Francisco, CA",
+      "term": "Other",
+      "apply_url": "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 10733,
+      "chat_id": 7582459199,
+      "seq": 9464,
+      "identity": "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802-1|HP|Software Quality Assurance Intern|San Francisco, CA|Other#1"
     }
   },
   "applied": {
@@ -120471,10 +120627,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9451,
+  "seq": 9464,
   "health": {
     "last_heartbeat": "2026-10-31T16:40:17Z",
-    "last_ok_run": "2026-10-31T17:05:15Z",
+    "last_ok_run": "2026-10-31T17:10:35Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",

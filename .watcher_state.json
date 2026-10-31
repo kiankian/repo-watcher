@@ -6684,7 +6684,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "4ad323bd4d57690a9c2c608dcfe8e28f1a0f697a",
+    "last_sha": "88b8508bd867ad99d71c6a3b756b53d567acc4ee",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -9276,7 +9276,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "0bbbde29469933f671d1783d57e86d6b24918e57",
+    "last_sha": "688a94c67a2e176c7304dc0cdd11d27ceacd67a0",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -9449,7 +9449,8 @@
       "https://www.metacareers.com/jobs/1952991802037374|Meta|Software Engineering Intern|Menlo Park, CA +2|FAANG+#1",
       "https://www.metacareers.com/jobs/4070678619908522|Meta|Research Intern - Embedded AI on Wearables - PhD|Redmond, WA|FAANG+#1",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607|NVIDIA|Compiler Software Engineering Intern - Summer 2027|Redmond, WA|FAANG+#1",
-      "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170|NVIDIA|AI Systems Software Engineering Intern - Summer 2027|Austin, TX|FAANG+#1"
+      "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170|NVIDIA|AI Systems Software Engineering Intern - Summer 2027|Austin, TX|FAANG+#1",
+      "https://www.amazon.jobs/jobs/10593521/apply|Amazon|Software Development Engineer Intern - Machine Learning/Automated Reasoning- Summer 2027|Seattle, WA|FAANG+#1"
     ],
     "seen_legacy_urls": [
       "https://jobs.apple.com/en-us/details/200664320-3810",
@@ -9475,11 +9476,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 109,
+    "last_row_count": 110,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
-    "last_sha": "0bbbde29469933f671d1783d57e86d6b24918e57",
+    "last_sha": "688a94c67a2e176c7304dc0cdd11d27ceacd67a0",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -9521,7 +9522,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "0bbbde29469933f671d1783d57e86d6b24918e57",
+    "last_sha": "688a94c67a2e176c7304dc0cdd11d27ceacd67a0",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -11229,7 +11230,19 @@
       "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Systems-Intern_UNI4801-1|HP|Software Systems Intern - HP IQ|San Francisco, CA|Other#1",
       "https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin--TX---2027_REF089882W|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Austin - TX - 2027|Austin, TX|Other#1",
       "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF089918W-1|Visa|Software Engineer - Intern - 2027 Austin - TX|Austin, TX|Other#1",
-      "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Foster City|Foster City, CA|Other#1"
+      "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Foster City|Foster City, CA|Other#1",
+      "https://careers.nintendo.com/?gh_jid=4473550009|Nintendo|Intern - Software Engineer - Graphics - NTD|Redmond, WA|Other#1",
+      "https://careers.nintendo.com/?gh_jid=4473568009|Nintendo|Intern - Software Engineer - Performance Tools - NTD|Redmond, WA|Other#1",
+      "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4748483005|The New York Times|Backend Engineering Intern - Wirecutter|New York City, NY|Other#1",
+      "https://cmu.wd115.myworkdayjobs.com/en-US/cmu/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-1|Carnegie Mellon University|Full-Stack Software Development Intern|Pittsburgh, PA|Other#1",
+      "https://cmu.wd115.myworkdayjobs.com/en-US/sei/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-2|Carnegie Mellon University|Full-Stack Software Development Intern|Pittsburgh, PA|Other#1",
+      "https://elucid.applytojob.com/apply/6VSEqF73l9/Software-Engineering-Intern-Spring-2027|Elucid|Software Engineering Intern: Spring 2027|Boston, MA|Other#1",
+      "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California-United-States-of-America/Software-Engineering-Intern_1214146|Hewlett Packard Enterprise|Software Engineering Intern|Sunnyvale, CA|Other#1",
+      "https://otto-engineering-inc.breezy.hr/p/c0fdaec6842c-embedded-software-intern-communications-summer-2027|Otto Engineering|Embedded Software Intern - Communications - Summer 2027|Carpentersville, IL|Other#1",
+      "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Folsom-CA/Firmware-Engineering-Intern_R0031219|Sierra Nevada Corporation|Firmware Engineering Intern|Folsom, CA|Other#1",
+      "https://wexinc.wd5.myworkdayjobs.com/en-US/wexinc/job/US---Remote/Software-Engineer-Intern_R22585|WEX|Software Engineer Intern|Remote - USA|Other#1",
+      "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern---HP-IQ_UNI4806-1|HP|Software Engineering Intern - HP IQ|San Francisco, CA|Other#1",
+      "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802-1|HP|Software Quality Assurance Intern|San Francisco, CA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -11373,7 +11386,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 734,
+    "last_row_count": 731,
     "outbox": []
   }
 }
