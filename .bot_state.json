@@ -119480,6 +119480,18 @@
       "chat_id": 7582459199,
       "seq": 9399,
       "identity": "NOURL|Amazon|Software Engineer Intern, Embedded Systems|Redmond, WA Northridge, CA|Oct 06#1"
+    },
+    "5c9c69df8388": {
+      "company": "Northrop Grumman",
+      "role": "Data Scientist Intern, Product Support \ud83c\uddfa\ud83c\uddf8",
+      "location": "San Diego, CA",
+      "term": "Oct 30",
+      "apply_url": "https://go.vansh.nyc/125?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10669,
+      "chat_id": 7582459199,
+      "seq": 9400,
+      "identity": "https://go.vansh.nyc/125?s=y|Northrop Grumman|Data Scientist Intern, Product Support \ud83c\uddfa\ud83c\uddf8|San Diego, CA|Oct 30#1"
     }
   },
   "applied": {
@@ -119847,10 +119859,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9399,
+  "seq": 9400,
   "health": {
     "last_heartbeat": "2026-10-31T02:25:18Z",
-    "last_ok_run": "2026-10-31T03:05:24Z",
+    "last_ok_run": "2026-10-31T03:10:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
