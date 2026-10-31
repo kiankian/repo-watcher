@@ -119648,6 +119648,138 @@
       "chat_id": 7582459199,
       "seq": 9413,
       "identity": "https://publicisgroupe.jibeapply.com/jobs/173034?icims=1&utm_source=Simplify&ref=Simplify|Publicis Groupe|Software Engineer Intern|Irving, TX|Summer 2026#1"
+    },
+    "c3fa66e93cef": {
+      "company": "Intercontinental Exchange",
+      "role": "Integration Intern",
+      "location": "Jacksonville, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://ice.jibeapply.com/jobs/14071?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10683,
+      "chat_id": 7582459199,
+      "seq": 9414,
+      "identity": "https://ice.jibeapply.com/jobs/14071?icims=1&utm_source=Simplify&ref=Simplify|Intercontinental Exchange|Integration Intern|Jacksonville, FL|Summer 2026#1"
+    },
+    "8f683443afdf": {
+      "company": "Intercontinental Exchange",
+      "role": "Software Engineer Intern",
+      "location": "Jacksonville, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://ice.jibeapply.com/jobs/14077?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10684,
+      "chat_id": 7582459199,
+      "seq": 9415,
+      "identity": "https://ice.jibeapply.com/jobs/14077?icims=1&utm_source=Simplify&ref=Simplify|Intercontinental Exchange|Software Engineer Intern|Jacksonville, FL|Summer 2026#1"
+    },
+    "abc1a3e27966": {
+      "company": "Intercontinental Exchange",
+      "role": "Software Engineer Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://ice.jibeapply.com/jobs/14105?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10685,
+      "chat_id": 7582459199,
+      "seq": 9416,
+      "identity": "https://ice.jibeapply.com/jobs/14105?icims=1&utm_source=Simplify&ref=Simplify|Intercontinental Exchange|Software Engineer Intern|NYC|Summer 2026#1"
+    },
+    "8dcb080efdf8": {
+      "company": "Intercontinental Exchange",
+      "role": "Software Engineer Intern - Java",
+      "location": "Jacksonville, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://ice.jibeapply.com/jobs/14078?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10686,
+      "chat_id": 7582459199,
+      "seq": 9417,
+      "identity": "https://ice.jibeapply.com/jobs/14078?icims=1&utm_source=Simplify&ref=Simplify|Intercontinental Exchange|Software Engineer Intern - Java|Jacksonville, FL|Summer 2026#1"
+    },
+    "39618525586d": {
+      "company": "Intercontinental Exchange",
+      "role": "Software Engineering Intern",
+      "location": "Jacksonville, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://ice.jibeapply.com/jobs/14075?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10687,
+      "chat_id": 7582459199,
+      "seq": 9418,
+      "identity": "https://ice.jibeapply.com/jobs/14075?icims=1&utm_source=Simplify&ref=Simplify|Intercontinental Exchange|Software Engineering Intern|Jacksonville, FL|Summer 2026#1"
+    },
+    "e31829675fe9": {
+      "company": "Intercontinental Exchange",
+      "role": "Trading System Development Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://ice.jibeapply.com/jobs/14102?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10688,
+      "chat_id": 7582459199,
+      "seq": 9419,
+      "identity": "https://ice.jibeapply.com/jobs/14102?icims=1&utm_source=Simplify&ref=Simplify|Intercontinental Exchange|Trading System Development Intern|NYC|Summer 2026#1"
+    },
+    "f9a741118432": {
+      "company": "Intercontinental Exchange",
+      "role": "Regulatory Products Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://ice.jibeapply.com/jobs/14101?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10689,
+      "chat_id": 7582459199,
+      "seq": 9420,
+      "identity": "https://ice.jibeapply.com/jobs/14101?icims=1&utm_source=Simplify&ref=Simplify|Intercontinental Exchange|Regulatory Products Intern|NYC|Summer 2026#1"
+    },
+    "8cdc2f3ace3c": {
+      "company": "Peraton",
+      "role": "Software Developer Intern",
+      "location": "Topeka, KS",
+      "term": "Summer 2026",
+      "apply_url": "https://peraton.jibeapply.com/jobs/172061?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10690,
+      "chat_id": 7582459199,
+      "seq": 9421,
+      "identity": "https://peraton.jibeapply.com/jobs/172061?icims=1&utm_source=Simplify&ref=Simplify|Peraton|Software Developer Intern|Topeka, KS|Summer 2026#1"
+    },
+    "849c01cea610": {
+      "company": "Cambridge Consultants",
+      "role": "Cloud Software Engineer Intern",
+      "location": "United Kingdom",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.eu.greenhouse.io/cambridgeconsultantslimited/jobs/4988184101?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10691,
+      "chat_id": 7582459199,
+      "seq": 9422,
+      "identity": "https://job-boards.eu.greenhouse.io/cambridgeconsultantslimited/jobs/4988184101?utm_source=Simplify&ref=Simplify|Cambridge Consultants|Cloud Software Engineer Intern|United Kingdom|Summer 2026#1"
+    },
+    "bccb40dc2d6b": {
+      "company": "Peraton",
+      "role": "Software Engineering Co-op",
+      "location": "San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://peraton.jibeapply.com/jobs/171547?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10692,
+      "chat_id": 7582459199,
+      "seq": 9423,
+      "identity": "https://peraton.jibeapply.com/jobs/171547?icims=1&utm_source=Simplify&ref=Simplify|Peraton|Software Engineering Co-op|San Diego, CA|Summer 2026#1"
+    },
+    "ce220a673dbd": {
+      "company": "Peraton",
+      "role": "Software Engineer Intern",
+      "location": "Blacksburg, VA Herndon, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://peraton.jibeapply.com/jobs/169665?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10693,
+      "chat_id": 7582459199,
+      "seq": 9424,
+      "identity": "https://peraton.jibeapply.com/jobs/169665?icims=1&utm_source=Simplify&ref=Simplify|Peraton|Software Engineer Intern|Blacksburg, VA Herndon, VA|Summer 2026#1"
     }
   },
   "applied": {
@@ -120015,10 +120147,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9413,
+  "seq": 9424,
   "health": {
     "last_heartbeat": "2026-10-31T06:45:16Z",
-    "last_ok_run": "2026-10-31T07:00:20Z",
+    "last_ok_run": "2026-10-31T07:05:33Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
