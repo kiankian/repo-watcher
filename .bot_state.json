@@ -119600,6 +119600,54 @@
       "chat_id": 7582459199,
       "seq": 9409,
       "identity": "NOURL|Elevance Health|Engineering Intern|**4 locations**Indianapolis, IN Richmond, VA Chicago, IL Atlanta, GA|Oct 01#1"
+    },
+    "f449664771e9": {
+      "company": "Pretium",
+      "role": "AI, Data & Innovation Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/pretiuminternships2027/jobs/8868243002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10679,
+      "chat_id": 7582459199,
+      "seq": 9410,
+      "identity": "https://job-boards.greenhouse.io/pretiuminternships2027/jobs/8868243002?utm_source=Simplify&ref=Simplify|Pretium|AI, Data & Innovation Intern|NYC|Summer 2026#1"
+    },
+    "a9dcff8f1204": {
+      "company": "Publicis Groupe",
+      "role": "Software Engineer Intern",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://publicisgroupe.jibeapply.com/jobs/172577?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10680,
+      "chat_id": 7582459199,
+      "seq": 9411,
+      "identity": "https://publicisgroupe.jibeapply.com/jobs/172577?icims=1&utm_source=Simplify&ref=Simplify|Publicis Groupe|Software Engineer Intern|Boston, MA|Summer 2026#1"
+    },
+    "e56dd7ee5d20": {
+      "company": "Publicis Groupe",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://publicisgroupe.jibeapply.com/jobs/173032?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10681,
+      "chat_id": 7582459199,
+      "seq": 9412,
+      "identity": "https://publicisgroupe.jibeapply.com/jobs/173032?icims=1&utm_source=Simplify&ref=Simplify|Publicis Groupe|Software Engineer Intern|Chicago, IL|Summer 2026#1"
+    },
+    "787d9e8d2df0": {
+      "company": "Publicis Groupe",
+      "role": "Software Engineer Intern",
+      "location": "Irving, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://publicisgroupe.jibeapply.com/jobs/173034?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10682,
+      "chat_id": 7582459199,
+      "seq": 9413,
+      "identity": "https://publicisgroupe.jibeapply.com/jobs/173034?icims=1&utm_source=Simplify&ref=Simplify|Publicis Groupe|Software Engineer Intern|Irving, TX|Summer 2026#1"
     }
   },
   "applied": {
@@ -119967,10 +120015,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9409,
+  "seq": 9413,
   "health": {
     "last_heartbeat": "2026-10-31T05:45:14Z",
-    "last_ok_run": "2026-10-31T06:30:21Z",
+    "last_ok_run": "2026-10-31T06:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",

@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "a8098dc0de1c6072297217fc2e3d383b338dd423",
+    "last_sha": "d63df829d8f6ead005d2bdf9a15580cbf9b77fa0",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2818,10 +2818,14 @@
       "https://jobs.ashbyhq.com/brainco/28c6cd2f-b609-4ca6-a2f6-adfa3d679d0b/application?embed=true&utm_source=Simplify&ref=Simplify|Brain Co.|AI Product Intern|SF|Summer 2026#1",
       "https://jobs.ashbyhq.com/brainco/2db4339e-79c8-4e97-9c94-92753b49e20a/application?embed=true&utm_source=Simplify&ref=Simplify|Brain Co.|AI Platform Engineer Intern|SF|Summer 2026#1",
       "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072?utm_source=Simplify&ref=Simplify|VSP Vision|AI, Agentic & Machine Learning Development Intern - AI, Agentic & Machine Learning Development|Remote in USA|Summer 2026#1",
-      "https://job-boards.greenhouse.io/farmersmutualhailinsurancecompany/jobs/4403596009?utm_source=Simplify&ref=Simplify|Farmers Mutual Hail|Software Developer Intern|West Des Moines, IA|Summer 2026#1"
+      "https://job-boards.greenhouse.io/farmersmutualhailinsurancecompany/jobs/4403596009?utm_source=Simplify&ref=Simplify|Farmers Mutual Hail|Software Developer Intern|West Des Moines, IA|Summer 2026#1",
+      "https://job-boards.greenhouse.io/pretiuminternships2027/jobs/8868243002?utm_source=Simplify&ref=Simplify|Pretium|AI, Data & Innovation Intern|NYC|Summer 2026#1",
+      "https://publicisgroupe.jibeapply.com/jobs/172577?icims=1&utm_source=Simplify&ref=Simplify|Publicis Groupe|Software Engineer Intern|Boston, MA|Summer 2026#1",
+      "https://publicisgroupe.jibeapply.com/jobs/173032?icims=1&utm_source=Simplify&ref=Simplify|Publicis Groupe|Software Engineer Intern|Chicago, IL|Summer 2026#1",
+      "https://publicisgroupe.jibeapply.com/jobs/173034?icims=1&utm_source=Simplify&ref=Simplify|Publicis Groupe|Software Engineer Intern|Irving, TX|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 569,
+    "last_row_count": 573,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -6642,7 +6646,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "2d21aa3b05fc74b9c91acd3322023244903b27e5",
+    "last_sha": "40605d44a0959d143acae091acc746269ddc655e",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
