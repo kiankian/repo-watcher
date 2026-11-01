@@ -122972,6 +122972,42 @@
       "chat_id": 7582459199,
       "seq": 9690,
       "identity": "https://zapply.jobs/l/d/greenhouse-knowbe4-8919280002?s=gh-internships-2027|KnowBe4|Software Engineer Summer Internship|Clearwater, Florida|Summer 2027#1"
+    },
+    "cf0225c206b0": {
+      "company": "KnowBe4",
+      "role": "Software Engineer Intern",
+      "location": "Clearwater, FL",
+      "term": "Nov 01",
+      "apply_url": "https://go.vansh.nyc/191?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10960,
+      "chat_id": 7582459199,
+      "seq": 9691,
+      "identity": "https://go.vansh.nyc/191?s=y|KnowBe4|Software Engineer Intern|Clearwater, FL|Nov 01#1"
+    },
+    "bb3f7bb058c5": {
+      "company": "ByteDance",
+      "role": "Student Researcher Intern, Seed Model - Vision \ud83d\udec2",
+      "location": "San Jose, CA",
+      "term": "Nov 01",
+      "apply_url": "https://go.vansh.nyc/18Y?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10961,
+      "chat_id": 7582459199,
+      "seq": 9692,
+      "identity": "https://go.vansh.nyc/18Y?s=y|ByteDance|Student Researcher Intern, Seed Model - Vision \ud83d\udec2|San Jose, CA|Nov 01#1"
+    },
+    "23ff43d64776": {
+      "company": "1st Source",
+      "role": "Information Security Intern",
+      "location": "South Bend, IN",
+      "term": "Oct 31",
+      "apply_url": "https://go.vansh.nyc/192?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10962,
+      "chat_id": 7582459199,
+      "seq": 9693,
+      "identity": "https://go.vansh.nyc/192?s=y|1st Source|Information Security Intern|South Bend, IN|Oct 31#1"
     }
   },
   "applied": {
@@ -123339,10 +123375,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9690,
+  "seq": 9693,
   "health": {
     "last_heartbeat": "2026-11-01T20:15:17Z",
-    "last_ok_run": "2026-11-01T21:10:18Z",
+    "last_ok_run": "2026-11-01T21:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
