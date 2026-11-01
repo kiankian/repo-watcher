@@ -123008,6 +123008,18 @@
       "chat_id": 7582459199,
       "seq": 9693,
       "identity": "https://go.vansh.nyc/192?s=y|1st Source|Information Security Intern|South Bend, IN|Oct 31#1"
+    },
+    "7e3ccc241bd3": {
+      "company": "KnowBe4",
+      "role": "Software Engineer Intern",
+      "location": "Clearwater, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/knowbe4/jobs/8919280002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 10963,
+      "chat_id": 7582459199,
+      "seq": 9694,
+      "identity": "https://job-boards.greenhouse.io/knowbe4/jobs/8919280002?utm_source=Simplify&ref=Simplify|KnowBe4|Software Engineer Intern|Clearwater, FL|Summer 2026#1"
     }
   },
   "applied": {
@@ -123375,10 +123387,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9693,
+  "seq": 9694,
   "health": {
     "last_heartbeat": "2026-11-01T23:30:17Z",
-    "last_ok_run": "2026-11-01T23:30:17Z",
+    "last_ok_run": "2026-11-01T23:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
