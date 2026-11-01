@@ -122876,6 +122876,42 @@
       "chat_id": 7582459199,
       "seq": 9682,
       "identity": "https://go.vansh.nyc/18I?s=y|AeroVect|Autonomy Intern|San Francisco, CA|Oct 31#1"
+    },
+    "ede9451faf0e": {
+      "company": "Siemens Digital Industries Software",
+      "role": "Strategic Student Program Digital Enterprise Software Applications Intern",
+      "location": "Charlotte, MI",
+      "term": "Nov 01",
+      "apply_url": "https://go.vansh.nyc/18U?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10952,
+      "chat_id": 7582459199,
+      "seq": 9683,
+      "identity": "https://go.vansh.nyc/18U?s=y|Siemens Digital Industries Software|Strategic Student Program Digital Enterprise Software Applications Intern|Charlotte, MI|Nov 01#1"
+    },
+    "c4e2127854dd": {
+      "company": "Siemens Digital Industries Software",
+      "role": "Strategic Student Program Digital Enterprise Software Applications Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 01",
+      "apply_url": "https://go.vansh.nyc/18V?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10953,
+      "chat_id": 7582459199,
+      "seq": 9684,
+      "identity": "https://go.vansh.nyc/18V?s=y|Siemens Digital Industries Software|Strategic Student Program Digital Enterprise Software Applications Intern|Chicago, IL|Nov 01#1"
+    },
+    "71783e9acd14": {
+      "company": "Sycamore",
+      "role": "Member of Technical Staff Intern, Infrastructure",
+      "location": "Palo Alto, CA",
+      "term": "Oct 20",
+      "apply_url": "https://go.vansh.nyc/18T?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10954,
+      "chat_id": 7582459199,
+      "seq": 9685,
+      "identity": "https://go.vansh.nyc/18T?s=y|Sycamore|Member of Technical Staff Intern, Infrastructure|Palo Alto, CA|Oct 20#1"
     }
   },
   "applied": {
@@ -123243,10 +123279,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9682,
+  "seq": 9685,
   "health": {
     "last_heartbeat": "2026-11-01T16:45:17Z",
-    "last_ok_run": "2026-11-01T17:10:21Z",
+    "last_ok_run": "2026-11-01T17:15:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
