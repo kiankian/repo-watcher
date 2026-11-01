@@ -121892,6 +121892,30 @@
       "chat_id": 7582459199,
       "seq": 9600,
       "identity": "https://go.vansh.nyc/15G?s=y|ByteDance|Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform|San Jose, CA|Nov 01#1"
+    },
+    "b91e5079bd37": {
+      "company": "L3Harris Technologies",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Bristol, PA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/15J?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10870,
+      "chat_id": 7582459199,
+      "seq": 9601,
+      "identity": "https://go.vansh.nyc/15J?s=y|L3Harris Technologies|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Bristol, PA|Oct 29#1"
+    },
+    "92f1f68ab5b7": {
+      "company": "Microsoft",
+      "role": "Security Assurance Intern",
+      "location": "Redmond, WA",
+      "term": "Sep 11",
+      "apply_url": "https://go.vansh.nyc/15H?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10871,
+      "chat_id": 7582459199,
+      "seq": 9602,
+      "identity": "https://go.vansh.nyc/15H?s=y|Microsoft|Security Assurance Intern|Redmond, WA|Sep 11#1"
     }
   },
   "applied": {
@@ -122259,10 +122283,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9600,
+  "seq": 9602,
   "health": {
     "last_heartbeat": "2026-11-01T08:55:15Z",
-    "last_ok_run": "2026-11-01T09:40:15Z",
+    "last_ok_run": "2026-11-01T09:45:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
