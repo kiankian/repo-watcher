@@ -6720,286 +6720,36 @@
       "https://go.vansh.nyc/13f?s=y|New York ISO|IT Software Development Intern|Rensselaer, NY|Oct 30#1",
       "https://go.vansh.nyc/13e?s=y|Modernizing Medicine|Software Engineering Intern|Boca Raton, FL|Oct 30#1",
       "https://go.vansh.nyc/13d?s=y|Midland States Bank|Security Analyst Intern|St. Louis, MO|Oct 30#1",
-      "https://go.vansh.nyc/13c?s=y|Laminar|Technical Intern|San Francisco, CA|Oct 30#1"
+      "https://go.vansh.nyc/13c?s=y|Laminar|Technical Intern|San Francisco, CA|Oct 30#1",
+      "https://go.vansh.nyc/13a?s=y|KLA|Software Engineering Intern|Milpitas, CA|Oct 30#1",
+      "https://go.vansh.nyc/13b?s=y|KLA|Software Engineering Intern, C++ and Unix|Milpitas, CA|Oct 30#1",
+      "https://go.vansh.nyc/139?s=y|Keenfinity|Software Engineering Intern|Lincoln, NE|Oct 30#1",
+      "https://go.vansh.nyc/138?s=y|Ixian Robotics|Software Intern|San Francisco, CA|Oct 30#1",
+      "https://go.vansh.nyc/137?s=y|Iridium Communications|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|**4 locations**McLean, VA Tempe, AZ Leesburg, VA Chandler, AZ|Oct 30#1",
+      "https://go.vansh.nyc/12Z?s=y|Intercontinental Exchange|Data Science Intern|New York, NY|Oct 30#1",
+      "https://go.vansh.nyc/130?s=y|Intercontinental Exchange|Software Engineering Intern|New York, NY|Oct 30#1",
+      "https://go.vansh.nyc/131?s=y|Intercontinental Exchange|Software Engineering Intern, Java|Jacksonville, FL|Oct 30#1",
+      "https://go.vansh.nyc/132?s=y|Intercontinental Exchange|Software Engineering Intern|Jacksonville, FL|Oct 30#1",
+      "https://go.vansh.nyc/133?s=y|Intercontinental Exchange|Software Developer Intern|Jacksonville, FL|Oct 30#1",
+      "https://go.vansh.nyc/134?s=y|Intercontinental Exchange|Agentic AI Data Science Intern|Jacksonville, FL|Oct 30#1",
+      "https://go.vansh.nyc/135?s=y|Intercontinental Exchange|Software Development Engineer in Test Intern|Atlanta, GA|Oct 30#1",
+      "https://go.vansh.nyc/136?s=y|Intercontinental Exchange|Cybersecurity Architect Intern|Atlanta, GA|Oct 30#1",
+      "https://go.vansh.nyc/12Y?s=y|Instead|Software Engineering Intern|San Francisco, CA|Oct 30#1",
+      "https://go.vansh.nyc/12V?s=y|IDEMIA|Cybersecurity Intern|Remote United States|Oct 30#1",
+      "https://go.vansh.nyc/12W?s=y|IDEMIA|Software Engineer Intern|Remote United States|Oct 30#1",
+      "https://go.vansh.nyc/12X?s=y|IDEMIA|Software Engineering Intern, Enrollment and Credentialing Services|Brentwood, TN|Oct 30#1",
+      "https://go.vansh.nyc/12U?s=y|Genesis Molecular AI|Software Engineer Intern|San Mateo, CA|Oct 30#1",
+      "https://go.vansh.nyc/12T?s=y|General Intuition & Medal|Technical Intern|New York, NY|Oct 30#1",
+      "https://go.vansh.nyc/12S?s=y|General Dynamics Mission Systems|DevOps Engineer Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Oct 30#1",
+      "https://go.vansh.nyc/12R?s=y|Farmers Mutual Hail|Software Developer Intern|West Des Moines, IA|Oct 30#1",
+      "https://go.vansh.nyc/12Q?s=y|Dryft|Member of Technical Staff Intern|San Francisco, CA|Oct 30#1",
+      "https://go.vansh.nyc/12O?s=y|DriveWealth|Engineering Intern, AI Consulting Associate Program (AI CAP) \ud83d\udec2|Chicago, IL|Oct 30#1",
+      "https://go.vansh.nyc/12P?s=y|DriveWealth|Product Owner Intern, AI Consulting Associate Program (AI CAP) \ud83d\udec2|Chicago, IL|Oct 30#1",
+      "https://go.vansh.nyc/12N?s=y|Datacor|AI Engineer Intern|Remote United States|Oct 30#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 1731,
     "outbox": [
-      [
-        [
-          "KLA",
-          "Software Engineering Intern",
-          "Milpitas, CA",
-          "Oct 30",
-          "https://go.vansh.nyc/13a?s=y"
-        ],
-        "https://go.vansh.nyc/13a?s=y|KLA|Software Engineering Intern|Milpitas, CA|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "KLA",
-          "Software Engineering Intern, C++ and Unix",
-          "Milpitas, CA",
-          "Oct 30",
-          "https://go.vansh.nyc/13b?s=y"
-        ],
-        "https://go.vansh.nyc/13b?s=y|KLA|Software Engineering Intern, C++ and Unix|Milpitas, CA|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Keenfinity",
-          "Software Engineering Intern",
-          "Lincoln, NE",
-          "Oct 30",
-          "https://go.vansh.nyc/139?s=y"
-        ],
-        "https://go.vansh.nyc/139?s=y|Keenfinity|Software Engineering Intern|Lincoln, NE|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Ixian Robotics",
-          "Software Intern",
-          "San Francisco, CA",
-          "Oct 30",
-          "https://go.vansh.nyc/138?s=y"
-        ],
-        "https://go.vansh.nyc/138?s=y|Ixian Robotics|Software Intern|San Francisco, CA|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Iridium Communications",
-          "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
-          "**4 locations**McLean, VA Tempe, AZ Leesburg, VA Chandler, AZ",
-          "Oct 30",
-          "https://go.vansh.nyc/137?s=y"
-        ],
-        "https://go.vansh.nyc/137?s=y|Iridium Communications|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|**4 locations**McLean, VA Tempe, AZ Leesburg, VA Chandler, AZ|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Intercontinental Exchange",
-          "Data Science Intern",
-          "New York, NY",
-          "Oct 30",
-          "https://go.vansh.nyc/12Z?s=y"
-        ],
-        "https://go.vansh.nyc/12Z?s=y|Intercontinental Exchange|Data Science Intern|New York, NY|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Intercontinental Exchange",
-          "Software Engineering Intern",
-          "New York, NY",
-          "Oct 30",
-          "https://go.vansh.nyc/130?s=y"
-        ],
-        "https://go.vansh.nyc/130?s=y|Intercontinental Exchange|Software Engineering Intern|New York, NY|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Intercontinental Exchange",
-          "Software Engineering Intern, Java",
-          "Jacksonville, FL",
-          "Oct 30",
-          "https://go.vansh.nyc/131?s=y"
-        ],
-        "https://go.vansh.nyc/131?s=y|Intercontinental Exchange|Software Engineering Intern, Java|Jacksonville, FL|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Intercontinental Exchange",
-          "Software Engineering Intern",
-          "Jacksonville, FL",
-          "Oct 30",
-          "https://go.vansh.nyc/132?s=y"
-        ],
-        "https://go.vansh.nyc/132?s=y|Intercontinental Exchange|Software Engineering Intern|Jacksonville, FL|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Intercontinental Exchange",
-          "Software Developer Intern",
-          "Jacksonville, FL",
-          "Oct 30",
-          "https://go.vansh.nyc/133?s=y"
-        ],
-        "https://go.vansh.nyc/133?s=y|Intercontinental Exchange|Software Developer Intern|Jacksonville, FL|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Intercontinental Exchange",
-          "Agentic AI Data Science Intern",
-          "Jacksonville, FL",
-          "Oct 30",
-          "https://go.vansh.nyc/134?s=y"
-        ],
-        "https://go.vansh.nyc/134?s=y|Intercontinental Exchange|Agentic AI Data Science Intern|Jacksonville, FL|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Intercontinental Exchange",
-          "Software Development Engineer in Test Intern",
-          "Atlanta, GA",
-          "Oct 30",
-          "https://go.vansh.nyc/135?s=y"
-        ],
-        "https://go.vansh.nyc/135?s=y|Intercontinental Exchange|Software Development Engineer in Test Intern|Atlanta, GA|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Intercontinental Exchange",
-          "Cybersecurity Architect Intern",
-          "Atlanta, GA",
-          "Oct 30",
-          "https://go.vansh.nyc/136?s=y"
-        ],
-        "https://go.vansh.nyc/136?s=y|Intercontinental Exchange|Cybersecurity Architect Intern|Atlanta, GA|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Instead",
-          "Software Engineering Intern",
-          "San Francisco, CA",
-          "Oct 30",
-          "https://go.vansh.nyc/12Y?s=y"
-        ],
-        "https://go.vansh.nyc/12Y?s=y|Instead|Software Engineering Intern|San Francisco, CA|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "IDEMIA",
-          "Cybersecurity Intern",
-          "Remote United States",
-          "Oct 30",
-          "https://go.vansh.nyc/12V?s=y"
-        ],
-        "https://go.vansh.nyc/12V?s=y|IDEMIA|Cybersecurity Intern|Remote United States|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "IDEMIA",
-          "Software Engineer Intern",
-          "Remote United States",
-          "Oct 30",
-          "https://go.vansh.nyc/12W?s=y"
-        ],
-        "https://go.vansh.nyc/12W?s=y|IDEMIA|Software Engineer Intern|Remote United States|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "IDEMIA",
-          "Software Engineering Intern, Enrollment and Credentialing Services",
-          "Brentwood, TN",
-          "Oct 30",
-          "https://go.vansh.nyc/12X?s=y"
-        ],
-        "https://go.vansh.nyc/12X?s=y|IDEMIA|Software Engineering Intern, Enrollment and Credentialing Services|Brentwood, TN|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Genesis Molecular AI",
-          "Software Engineer Intern",
-          "San Mateo, CA",
-          "Oct 30",
-          "https://go.vansh.nyc/12U?s=y"
-        ],
-        "https://go.vansh.nyc/12U?s=y|Genesis Molecular AI|Software Engineer Intern|San Mateo, CA|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "General Intuition & Medal",
-          "Technical Intern",
-          "New York, NY",
-          "Oct 30",
-          "https://go.vansh.nyc/12T?s=y"
-        ],
-        "https://go.vansh.nyc/12T?s=y|General Intuition & Medal|Technical Intern|New York, NY|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "General Dynamics Mission Systems",
-          "DevOps Engineer Intern \ud83c\uddfa\ud83c\uddf8",
-          "Pittsburgh, PA",
-          "Oct 30",
-          "https://go.vansh.nyc/12S?s=y"
-        ],
-        "https://go.vansh.nyc/12S?s=y|General Dynamics Mission Systems|DevOps Engineer Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Farmers Mutual Hail",
-          "Software Developer Intern",
-          "West Des Moines, IA",
-          "Oct 30",
-          "https://go.vansh.nyc/12R?s=y"
-        ],
-        "https://go.vansh.nyc/12R?s=y|Farmers Mutual Hail|Software Developer Intern|West Des Moines, IA|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Dryft",
-          "Member of Technical Staff Intern",
-          "San Francisco, CA",
-          "Oct 30",
-          "https://go.vansh.nyc/12Q?s=y"
-        ],
-        "https://go.vansh.nyc/12Q?s=y|Dryft|Member of Technical Staff Intern|San Francisco, CA|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "DriveWealth",
-          "Engineering Intern, AI Consulting Associate Program (AI CAP) \ud83d\udec2",
-          "Chicago, IL",
-          "Oct 30",
-          "https://go.vansh.nyc/12O?s=y"
-        ],
-        "https://go.vansh.nyc/12O?s=y|DriveWealth|Engineering Intern, AI Consulting Associate Program (AI CAP) \ud83d\udec2|Chicago, IL|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "DriveWealth",
-          "Product Owner Intern, AI Consulting Associate Program (AI CAP) \ud83d\udec2",
-          "Chicago, IL",
-          "Oct 30",
-          "https://go.vansh.nyc/12P?s=y"
-        ],
-        "https://go.vansh.nyc/12P?s=y|DriveWealth|Product Owner Intern, AI Consulting Associate Program (AI CAP) \ud83d\udec2|Chicago, IL|Oct 30#1",
-        1
-      ],
-      [
-        [
-          "Datacor",
-          "AI Engineer Intern",
-          "Remote United States",
-          "Oct 30",
-          "https://go.vansh.nyc/12N?s=y"
-        ],
-        "https://go.vansh.nyc/12N?s=y|Datacor|AI Engineer Intern|Remote United States|Oct 30#1",
-        1
-      ],
       [
         [
           "Creatify Lab",
