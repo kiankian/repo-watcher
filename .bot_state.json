@@ -124100,6 +124100,42 @@
       "chat_id": 7582459199,
       "seq": 9784,
       "identity": "https://zapply.jobs/l/d/workday-aero-external-R017102?s=gh-internships-2027|Aerospace Corporation|2027 Software Engineering Undergrad Intern|El Segundo, CA|Summer 2027#1"
+    },
+    "a3151f3d6ca3": {
+      "company": "Samsung Semiconductor",
+      "role": "AI Application Engineer Intern",
+      "location": "Folsom, CA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19X?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11054,
+      "chat_id": 7582459199,
+      "seq": 9785,
+      "identity": "https://go.vansh.nyc/19X?s=y|Samsung Semiconductor|AI Application Engineer Intern|Folsom, CA|Nov 02#1"
+    },
+    "3d9b496a3d5b": {
+      "company": "Aerospace Corporation",
+      "role": "Software Engineering Undergrad Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "El Segundo, CA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19W?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11055,
+      "chat_id": 7582459199,
+      "seq": 9786,
+      "identity": "https://go.vansh.nyc/19W?s=y|Aerospace Corporation|Software Engineering Undergrad Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Nov 02#1"
+    },
+    "5920b8ff5820": {
+      "company": "Seagate Technology",
+      "role": "Recording Media R&D Intern, AI & Data Science",
+      "location": "Fremont, CA",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11056,
+      "chat_id": 7582459199,
+      "seq": 9787,
+      "identity": "NOURL|Seagate Technology|Recording Media R&D Intern, AI & Data Science|Fremont, CA|Oct 18#1"
     }
   },
   "applied": {
@@ -124467,10 +124503,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9784,
+  "seq": 9787,
   "health": {
     "last_heartbeat": "2026-11-02T21:30:21Z",
-    "last_ok_run": "2026-11-02T22:05:20Z",
+    "last_ok_run": "2026-11-02T22:10:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
