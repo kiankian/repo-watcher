@@ -123824,6 +123824,18 @@
       "chat_id": 7582459199,
       "seq": 9761,
       "identity": "NOURL|Keysight Technologies|ASIC Design-for-Test Engineer Intern, DFT|Colorado Springs, CO|Sep 15#1"
+    },
+    "d83da3a59eec": {
+      "company": "RTX",
+      "role": "Internship \u2013 Raytheon Systems Security Engineer (Onsite)",
+      "location": "MA-WOBURN-WB2",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01886045?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11031,
+      "chat_id": 7582459199,
+      "seq": 9762,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01886045?s=gh-internships-2027|RTX|Internship \u2013 Raytheon Systems Security Engineer (Onsite)|MA-WOBURN-WB2|Summer 2027#1"
     }
   },
   "applied": {
@@ -124191,10 +124203,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9761,
+  "seq": 9762,
   "health": {
     "last_heartbeat": "2026-11-02T19:25:15Z",
-    "last_ok_run": "2026-11-02T19:50:19Z",
+    "last_ok_run": "2026-11-02T19:55:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
