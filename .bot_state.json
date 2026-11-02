@@ -123188,6 +123188,54 @@
       "chat_id": 7582459199,
       "seq": 9708,
       "identity": "NOURL|Leidos|Software Developer Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Oct 28#1"
+    },
+    "7b55c7835172": {
+      "company": "CoStar Group",
+      "role": "Data Science Intern",
+      "location": "Richmond, VA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19c?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10978,
+      "chat_id": 7582459199,
+      "seq": 9709,
+      "identity": "https://go.vansh.nyc/19c?s=y|CoStar Group|Data Science Intern|Richmond, VA|Nov 02#1"
+    },
+    "1ec76b271fc0": {
+      "company": "ParetoHealth",
+      "role": "Software Engineering Intern \ud83d\udec2",
+      "location": "Philadelphia, PA",
+      "term": "Nov 01",
+      "apply_url": "https://go.vansh.nyc/19e?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10979,
+      "chat_id": 7582459199,
+      "seq": 9710,
+      "identity": "https://go.vansh.nyc/19e?s=y|ParetoHealth|Software Engineering Intern \ud83d\udec2|Philadelphia, PA|Nov 01#1"
+    },
+    "b27ffe3385d0": {
+      "company": "Cohen & Steers",
+      "role": "Associate Intern, Information Security",
+      "location": "New York, NY",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10980,
+      "chat_id": 7582459199,
+      "seq": 9711,
+      "identity": "NOURL|Cohen & Steers|Associate Intern, Information Security|New York, NY|Oct 30#1"
+    },
+    "27a7549e7ac8": {
+      "company": "Farmers Mutual Hail",
+      "role": "Data Architect Intern",
+      "location": "West Des Moines, IA",
+      "term": "Oct 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10981,
+      "chat_id": 7582459199,
+      "seq": 9712,
+      "identity": "NOURL|Farmers Mutual Hail|Data Architect Intern|West Des Moines, IA|Oct 02#1"
     }
   },
   "applied": {
@@ -123555,10 +123603,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9708,
+  "seq": 9712,
   "health": {
     "last_heartbeat": "2026-11-02T13:50:17Z",
-    "last_ok_run": "2026-11-02T14:05:16Z",
+    "last_ok_run": "2026-11-02T14:10:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
