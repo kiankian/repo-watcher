@@ -124004,6 +124004,66 @@
       "chat_id": 7582459199,
       "seq": 9776,
       "identity": "NOURL|Cisco|Security Consulting Engineer I Intern|Research Triangle Park, NC|Oct 29#1"
+    },
+    "54575dc3ac2c": {
+      "company": "Cigna",
+      "role": "Healthcare Analytics Intern",
+      "location": "Morris Plains, NJ",
+      "term": "Oct 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11046,
+      "chat_id": 7582459199,
+      "seq": 9777,
+      "identity": "NOURL|Cigna|Healthcare Analytics Intern|Morris Plains, NJ|Oct 15#1"
+    },
+    "ac7d21f58623": {
+      "company": "Cigna",
+      "role": "Product Analytics Intern",
+      "location": "Morris Plains, NJ St. Louis, MO",
+      "term": "Sep 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11047,
+      "chat_id": 7582459199,
+      "seq": 9778,
+      "identity": "NOURL|Cigna|Product Analytics Intern|Morris Plains, NJ St. Louis, MO|Sep 30#1"
+    },
+    "9d4776b42971": {
+      "company": "Microsoft",
+      "role": "Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond",
+      "location": "Redmond, WA",
+      "term": "FAANG+",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11048,
+      "chat_id": 7582459199,
+      "seq": 9779,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393556922930|Microsoft|Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond|Redmond, WA|FAANG+#1"
+    },
+    "6ba45dc5d2ae": {
+      "company": "KnowBe4",
+      "role": "Software Engineer Summer Internship",
+      "location": "Clearwater, FL",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/knowbe4/jobs/8919280002",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11049,
+      "chat_id": 7582459199,
+      "seq": 9780,
+      "identity": "https://job-boards.greenhouse.io/knowbe4/jobs/8919280002|KnowBe4|Software Engineer Summer Internship|Clearwater, FL|Other#1"
+    },
+    "e6373fcf5ccf": {
+      "company": "HP",
+      "role": "Software Quality Assurance Intern",
+      "location": "San Francisco, CA",
+      "term": "Other",
+      "apply_url": "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11050,
+      "chat_id": 7582459199,
+      "seq": 9781,
+      "identity": "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802|HP|Software Quality Assurance Intern|San Francisco, CA|Other#1"
     }
   },
   "applied": {
@@ -124371,10 +124431,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9776,
+  "seq": 9781,
   "health": {
     "last_heartbeat": "2026-11-02T21:30:21Z",
-    "last_ok_run": "2026-11-02T21:35:15Z",
+    "last_ok_run": "2026-11-02T21:40:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
