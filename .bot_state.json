@@ -124160,6 +124160,30 @@
       "chat_id": 7582459199,
       "seq": 9789,
       "identity": "https://go.vansh.nyc/19Z?s=y|Apple|Machine Learning and Artificial Intelligence Undergrad Intern|United States|May 21#1"
+    },
+    "789f91613703": {
+      "company": "TensorWave",
+      "role": "Software Engineering Intern",
+      "location": "Las Vegas, NV",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11059,
+      "chat_id": 7582459199,
+      "seq": 9790,
+      "identity": "NOURL|TensorWave|Software Engineering Intern|Las Vegas, NV|Oct 30#1"
+    },
+    "94765ef461f0": {
+      "company": "TensorWave",
+      "role": "Security Engineer Intern",
+      "location": "Las Vegas, NV",
+      "term": "Oct 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11060,
+      "chat_id": 7582459199,
+      "seq": 9791,
+      "identity": "NOURL|TensorWave|Security Engineer Intern|Las Vegas, NV|Oct 05#1"
     }
   },
   "applied": {
@@ -124527,10 +124551,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9789,
+  "seq": 9791,
   "health": {
     "last_heartbeat": "2026-11-02T22:30:21Z",
-    "last_ok_run": "2026-11-02T23:10:19Z",
+    "last_ok_run": "2026-11-02T23:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
