@@ -123584,6 +123584,78 @@
       "chat_id": 7582459199,
       "seq": 9741,
       "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031229?s=gh-internships-2027|Sierra Nevada Corporation|Software Engineer Intern (Summer 2027)|Southern Pines, NC|Summer 2027#1"
+    },
+    "39ba254eb67a": {
+      "company": "Sierra Nevada Corporation",
+      "role": "DevOps Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Southern Pines, NC",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19u?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11011,
+      "chat_id": 7582459199,
+      "seq": 9742,
+      "identity": "https://go.vansh.nyc/19u?s=y|Sierra Nevada Corporation|DevOps Engineer Intern \ud83c\uddfa\ud83c\uddf8|Southern Pines, NC|Nov 02#1"
+    },
+    "6b60861a1296": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Southern Pines, NC",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19v?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11012,
+      "chat_id": 7582459199,
+      "seq": 9743,
+      "identity": "https://go.vansh.nyc/19v?s=y|Sierra Nevada Corporation|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Southern Pines, NC|Nov 02#1"
+    },
+    "f959f100a2e7": {
+      "company": "Northrop Grumman",
+      "role": "Engineering Software and Analysis Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19x?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11013,
+      "chat_id": 7582459199,
+      "seq": 9744,
+      "identity": "https://go.vansh.nyc/19x?s=y|Northrop Grumman|Engineering Software and Analysis Intern \ud83c\uddfa\ud83c\uddf8|Sunnyvale, CA|Nov 02#1"
+    },
+    "81fc28fa7b96": {
+      "company": "Microsoft",
+      "role": "Software Engineer Intern",
+      "location": "Aliso Viejo, CA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19z?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11014,
+      "chat_id": 7582459199,
+      "seq": 9745,
+      "identity": "https://go.vansh.nyc/19z?s=y|Microsoft|Software Engineer Intern|Aliso Viejo, CA|Nov 02#1"
+    },
+    "faf54f72a9b5": {
+      "company": "JM Family Enterprises",
+      "role": "Offensive Security Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19y?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11015,
+      "chat_id": 7582459199,
+      "seq": 9746,
+      "identity": "https://go.vansh.nyc/19y?s=y|JM Family Enterprises|Offensive Security Intern|Deerfield Beach, FL|Nov 02#1"
+    },
+    "b5dd0e79350a": {
+      "company": "Intuitive",
+      "role": "Data Science Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19w?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11016,
+      "chat_id": 7582459199,
+      "seq": 9747,
+      "identity": "https://go.vansh.nyc/19w?s=y|Intuitive|Data Science Intern|Sunnyvale, CA|Nov 02#1"
     }
   },
   "applied": {
@@ -123951,10 +124023,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9741,
+  "seq": 9747,
   "health": {
     "last_heartbeat": "2026-11-02T17:15:20Z",
-    "last_ok_run": "2026-11-02T18:10:20Z",
+    "last_ok_run": "2026-11-02T18:15:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
