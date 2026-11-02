@@ -123404,6 +123404,66 @@
       "chat_id": 7582459199,
       "seq": 9726,
       "identity": "NOURL|CoStar Group|Product Intern|Richmond, VA|Oct 13#1"
+    },
+    "d3376d818512": {
+      "company": "Zebra Technologies",
+      "role": "Software/AI Engineer Intern, Handheld Mobile Computers",
+      "location": "Holtsville, NY",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19p?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10996,
+      "chat_id": 7582459199,
+      "seq": 9727,
+      "identity": "https://go.vansh.nyc/19p?s=y|Zebra Technologies|Software/AI Engineer Intern, Handheld Mobile Computers|Holtsville, NY|Nov 02#1"
+    },
+    "225f3fa4b47f": {
+      "company": "DocuSign",
+      "role": "Software Developer Intern \ud83d\udec2",
+      "location": "San Francisco, CA",
+      "term": "Oct 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10997,
+      "chat_id": 7582459199,
+      "seq": 9728,
+      "identity": "NOURL|DocuSign|Software Developer Intern \ud83d\udec2|San Francisco, CA|Oct 23#1"
+    },
+    "2f178bee9bef": {
+      "company": "DocuSign",
+      "role": "AI Platform Engineer Intern \ud83d\udec2",
+      "location": "San Francisco, CA",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10998,
+      "chat_id": 7582459199,
+      "seq": 9729,
+      "identity": "NOURL|DocuSign|AI Platform Engineer Intern \ud83d\udec2|San Francisco, CA|Oct 22#1"
+    },
+    "ed162ef9a05d": {
+      "company": "DocuSign",
+      "role": "Agentic AI Engineer Intern \ud83d\udec2",
+      "location": "San Francisco, CA",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10999,
+      "chat_id": 7582459199,
+      "seq": 9730,
+      "identity": "NOURL|DocuSign|Agentic AI Engineer Intern \ud83d\udec2|San Francisco, CA|Oct 22#1"
+    },
+    "f5a463dbfae5": {
+      "company": "Alston & Bird Law Firm",
+      "role": "Developer Intern",
+      "location": "Atlanta, GA",
+      "term": "Oct 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11000,
+      "chat_id": 7582459199,
+      "seq": 9731,
+      "identity": "NOURL|Alston & Bird Law Firm|Developer Intern|Atlanta, GA|Oct 05#1"
     }
   },
   "applied": {
@@ -123771,10 +123831,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9726,
+  "seq": 9731,
   "health": {
     "last_heartbeat": "2026-11-02T16:00:28Z",
-    "last_ok_run": "2026-11-02T17:05:16Z",
+    "last_ok_run": "2026-11-02T17:10:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
