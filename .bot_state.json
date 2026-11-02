@@ -124568,6 +124568,42 @@
       "chat_id": 7582459199,
       "seq": 9823,
       "identity": "https://go.vansh.nyc/1bg?s=y|Astro Mechanica|Software Engineer Intern|San Francisco, CA|Nov 01#1"
+    },
+    "00bee8f0f59c": {
+      "company": "Rocket Lab",
+      "role": "Ground Systems Engineering Intern Summer 2027",
+      "location": "Middle River, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-rocketlab-8042092003?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11093,
+      "chat_id": 7582459199,
+      "seq": 9824,
+      "identity": "https://zapply.jobs/l/d/greenhouse-rocketlab-8042092003?s=gh-internships-2027|Rocket Lab|Ground Systems Engineering Intern Summer 2027|Middle River, MD|Summer 2027#1"
+    },
+    "a3782afb7b06": {
+      "company": "Leidos",
+      "role": "Software Engineering Intern",
+      "location": "Arlington, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-leidos-external-R-00195980?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11094,
+      "chat_id": 7582459199,
+      "seq": 9825,
+      "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00195980?s=gh-internships-2027|Leidos|Software Engineering Intern|Arlington, VA|Summer 2027#1"
+    },
+    "02ef9a488957": {
+      "company": "Rocket Lab",
+      "role": "Ground Systems Engineering Intern Spring 2027",
+      "location": "Middle River, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-rocketlab-8042094003?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11095,
+      "chat_id": 7582459199,
+      "seq": 9826,
+      "identity": "https://zapply.jobs/l/d/greenhouse-rocketlab-8042094003?s=gh-internships-2027|Rocket Lab|Ground Systems Engineering Intern Spring 2027|Middle River, MD|Summer 2027#1"
     }
   },
   "applied": {
@@ -124935,10 +124971,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9823,
+  "seq": 9826,
   "health": {
     "last_heartbeat": "2026-11-02T22:30:21Z",
-    "last_ok_run": "2026-11-02T23:45:43Z",
+    "last_ok_run": "2026-11-02T23:50:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
