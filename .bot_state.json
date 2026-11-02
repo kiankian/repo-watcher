@@ -123068,6 +123068,78 @@
       "chat_id": 7582459199,
       "seq": 9698,
       "identity": "https://zapply.jobs/l/d/workday-visa-visa-REF089918W?s=gh-internships-2027|Visa|Software Engineer, Intern - 2027 Austin, TX|Austin, TX|Summer 2027#1"
+    },
+    "de65da5fbfa6": {
+      "company": "Microsoft",
+      "role": "First-Year Explore Program Engineering Intern",
+      "location": "Redmond, WA",
+      "term": "Nov 01",
+      "apply_url": "https://go.vansh.nyc/199?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10968,
+      "chat_id": 7582459199,
+      "seq": 9699,
+      "identity": "https://go.vansh.nyc/199?s=y|Microsoft|First-Year Explore Program Engineering Intern|Redmond, WA|Nov 01#1"
+    },
+    "151ca99be9f0": {
+      "company": "KnowBe4",
+      "role": "Software Engineer Intern",
+      "location": "Clearwater, FL",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10969,
+      "chat_id": 7582459199,
+      "seq": 9700,
+      "identity": "NOURL|KnowBe4|Software Engineer Intern|Clearwater, FL|Nov 01#1"
+    },
+    "943757631624": {
+      "company": "ABB",
+      "role": "ERP Intern, AI Engineering",
+      "location": "Cary, NC",
+      "term": "Oct 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10970,
+      "chat_id": 7582459199,
+      "seq": 9701,
+      "identity": "NOURL|ABB|ERP Intern, AI Engineering|Cary, NC|Oct 05#1"
+    },
+    "dbf1a2142ef8": {
+      "company": "ABB",
+      "role": "AI Engineering Intern, Business Systems",
+      "location": "Cary, NC",
+      "term": "Oct 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10971,
+      "chat_id": 7582459199,
+      "seq": 9702,
+      "identity": "NOURL|ABB|AI Engineering Intern, Business Systems|Cary, NC|Oct 05#1"
+    },
+    "e6d47bae13ce": {
+      "company": "The Hartford",
+      "role": "Software Engineer Intern, Tech & Data Program",
+      "location": "Hartford, CT",
+      "term": "Aug 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10972,
+      "chat_id": 7582459199,
+      "seq": 9703,
+      "identity": "NOURL|The Hartford|Software Engineer Intern, Tech & Data Program|Hartford, CT|Aug 23#1"
+    },
+    "ce2779d2ede9": {
+      "company": "The Hartford",
+      "role": "Data Engineer Intern, Technology, Data, AI, and Operations",
+      "location": "Hartford, CT",
+      "term": "Aug 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 10973,
+      "chat_id": 7582459199,
+      "seq": 9704,
+      "identity": "NOURL|The Hartford|Data Engineer Intern, Technology, Data, AI, and Operations|Hartford, CT|Aug 23#1"
     }
   },
   "applied": {
@@ -123435,10 +123507,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9698,
+  "seq": 9704,
   "health": {
     "last_heartbeat": "2026-11-02T04:50:17Z",
-    "last_ok_run": "2026-11-02T05:10:18Z",
+    "last_ok_run": "2026-11-02T05:15:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
