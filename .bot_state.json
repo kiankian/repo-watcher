@@ -123488,6 +123488,66 @@
       "chat_id": 7582459199,
       "seq": 9733,
       "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380886?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|New York, New York|Summer 2027#1"
+    },
+    "ad59b0aba21f": {
+      "company": "T-Mobile",
+      "role": "Software Engineering Intern",
+      "location": "Philadelphia, PA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19q?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11003,
+      "chat_id": 7582459199,
+      "seq": 9734,
+      "identity": "https://go.vansh.nyc/19q?s=y|T-Mobile|Software Engineering Intern|Philadelphia, PA|Nov 02#1"
+    },
+    "45757e863917": {
+      "company": "T-Mobile",
+      "role": "Software Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19r?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11004,
+      "chat_id": 7582459199,
+      "seq": 9735,
+      "identity": "https://go.vansh.nyc/19r?s=y|T-Mobile|Software Engineering Intern|New York, NY|Nov 02#1"
+    },
+    "6e9f7c8b8454": {
+      "company": "Microsoft",
+      "role": "Software Engineer Intern, CoreAI",
+      "location": "Redmond, WA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19t?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11005,
+      "chat_id": 7582459199,
+      "seq": 9736,
+      "identity": "https://go.vansh.nyc/19t?s=y|Microsoft|Software Engineer Intern, CoreAI|Redmond, WA|Nov 02#1"
+    },
+    "32dcede0ca1d": {
+      "company": "Booz Allen Hamilton",
+      "role": "Data Scientist Intern",
+      "location": "Detroit, MI",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19s?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11006,
+      "chat_id": 7582459199,
+      "seq": 9737,
+      "identity": "https://go.vansh.nyc/19s?s=y|Booz Allen Hamilton|Data Scientist Intern|Detroit, MI|Nov 02#1"
+    },
+    "220b867f2549": {
+      "company": "RTX",
+      "role": "Software Engineering Intern",
+      "location": "Cedar Rapids, IA",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11007,
+      "chat_id": 7582459199,
+      "seq": 9738,
+      "identity": "NOURL|RTX|Software Engineering Intern|Cedar Rapids, IA|Oct 26#1"
     }
   },
   "applied": {
@@ -123855,10 +123915,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9733,
+  "seq": 9738,
   "health": {
     "last_heartbeat": "2026-11-02T17:15:20Z",
-    "last_ok_run": "2026-11-02T17:35:17Z",
+    "last_ok_run": "2026-11-02T17:40:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
