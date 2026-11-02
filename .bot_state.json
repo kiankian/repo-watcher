@@ -123860,6 +123860,66 @@
       "chat_id": 7582459199,
       "seq": 9764,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871347?s=gh-internships-2027|RTX|Software Engineer Co-op (Summer/Fall 2027) - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "016366435153": {
+      "company": "RTX",
+      "role": "Systems Security Engineer Intern, Raytheon \ud83c\uddfa\ud83c\uddf8",
+      "location": "Woburn, MA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19I?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11034,
+      "chat_id": 7582459199,
+      "seq": 9765,
+      "identity": "https://go.vansh.nyc/19I?s=y|RTX|Systems Security Engineer Intern, Raytheon \ud83c\uddfa\ud83c\uddf8|Woburn, MA|Nov 02#1"
+    },
+    "adc1f9f31b01": {
+      "company": "NXP",
+      "role": "HW/SW System and Application Engineer Intern",
+      "location": "Chandler, AZ",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19K?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11035,
+      "chat_id": 7582459199,
+      "seq": 9766,
+      "identity": "https://go.vansh.nyc/19K?s=y|NXP|HW/SW System and Application Engineer Intern|Chandler, AZ|Nov 02#1"
+    },
+    "9e2ac5c49554": {
+      "company": "Flagship Pioneering",
+      "role": "ML Intern",
+      "location": "Cambridge, MA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19J?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11036,
+      "chat_id": 7582459199,
+      "seq": 9767,
+      "identity": "https://go.vansh.nyc/19J?s=y|Flagship Pioneering|ML Intern|Cambridge, MA|Nov 02#1"
+    },
+    "c3f44bb93fde": {
+      "company": "KLA",
+      "role": "Software Engineer Intern",
+      "location": "Totowa, NJ",
+      "term": "Nov 01",
+      "apply_url": "https://go.vansh.nyc/19L?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11037,
+      "chat_id": 7582459199,
+      "seq": 9768,
+      "identity": "https://go.vansh.nyc/19L?s=y|KLA|Software Engineer Intern|Totowa, NJ|Nov 01#1"
+    },
+    "37a26b783117": {
+      "company": "FedEx Freight",
+      "role": "Media & Web Development Intern, Marketing",
+      "location": "United States",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11038,
+      "chat_id": 7582459199,
+      "seq": 9769,
+      "identity": "NOURL|FedEx Freight|Media & Web Development Intern, Marketing|United States|Oct 21#1"
     }
   },
   "applied": {
@@ -124227,10 +124287,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9764,
+  "seq": 9769,
   "health": {
     "last_heartbeat": "2026-11-02T19:25:15Z",
-    "last_ok_run": "2026-11-02T20:10:18Z",
+    "last_ok_run": "2026-11-02T20:15:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
