@@ -2844,7 +2844,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "64641095142896ad8afab5ca5c5ea2ad92245932",
+    "last_sha": "cb837832093960c7df9bb16fe479b2feabe96263",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -6971,14 +6971,16 @@
       "https://go.vansh.nyc/1a0?s=y|Qualcomm|SoC Engineering Intern|Markham, Canada|Nov 02#1",
       "https://go.vansh.nyc/19Z?s=y|Apple|Machine Learning and Artificial Intelligence Undergrad Intern|United States|May 21#1",
       "NOURL|TensorWave|Software Engineering Intern|Las Vegas, NV|Oct 30#1",
-      "NOURL|TensorWave|Security Engineer Intern|Las Vegas, NV|Oct 05#1"
+      "NOURL|TensorWave|Security Engineer Intern|Las Vegas, NV|Oct 05#1",
+      "https://www.tesla.com/careers/search/job/284004|Tesla|Software Engineering Intern, People Products|Palo Alto, CA|Nov 02#1",
+      "https://www.tesla.com/careers/search/job/282147|Tesla|Physics Engine Development Engineer Intern, Optimus|Palo Alto, CA|Nov 02#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 1891,
+    "last_row_count": 1893,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "4024f04f0ff8d3b20a3a81fa0f0ee4282c388e4d",
+    "last_sha": "cad71961ba3885aaa174cd2dfe7c6769c2d7325d",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -9433,7 +9435,8 @@
       "https://zapply.jobs/l/d/workday-jmfamily-jmfamily-external-JR105182?s=gh-internships-2027|JM Family Enterprises|Software Engineer Intern|Florida - Deerfield Beach|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-parsons-search-R188147?s=gh-internships-2027|Parsons|Software Engineer Intern (Fall 2026)|Remote (Any Location), R188147|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-aero-external-R017101?s=gh-internships-2027|Aerospace Corporation|2027 Software Engineering Grad Intern|El Segundo, CA|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-aero-external-R017102?s=gh-internships-2027|Aerospace Corporation|2027 Software Engineering Undergrad Intern|El Segundo, CA|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-aero-external-R017102?s=gh-internships-2027|Aerospace Corporation|2027 Software Engineering Undergrad Intern|El Segundo, CA|Summer 2027#1",
+      "https://zapply.jobs/l/d/sr-WellmarkInc-744000159260670?s=gh-internships-2027|Wellmark, Inc.|Software Engineer Internship \u2013 AI Platform Team|Des Moines, IA|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",

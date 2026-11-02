@@ -124184,6 +124184,42 @@
       "chat_id": 7582459199,
       "seq": 9791,
       "identity": "NOURL|TensorWave|Security Engineer Intern|Las Vegas, NV|Oct 05#1"
+    },
+    "08d6784164f5": {
+      "company": "Tesla",
+      "role": "Software Engineering Intern, People Products",
+      "location": "Palo Alto, CA",
+      "term": "Nov 02",
+      "apply_url": "https://www.tesla.com/careers/search/job/284004",
+      "source": "Vansh Summer Repo",
+      "message_id": 11061,
+      "chat_id": 7582459199,
+      "seq": 9792,
+      "identity": "https://www.tesla.com/careers/search/job/284004|Tesla|Software Engineering Intern, People Products|Palo Alto, CA|Nov 02#1"
+    },
+    "10be3a211f02": {
+      "company": "Tesla",
+      "role": "Physics Engine Development Engineer Intern, Optimus",
+      "location": "Palo Alto, CA",
+      "term": "Nov 02",
+      "apply_url": "https://www.tesla.com/careers/search/job/282147",
+      "source": "Vansh Summer Repo",
+      "message_id": 11062,
+      "chat_id": 7582459199,
+      "seq": 9793,
+      "identity": "https://www.tesla.com/careers/search/job/282147|Tesla|Physics Engine Development Engineer Intern, Optimus|Palo Alto, CA|Nov 02#1"
+    },
+    "09768149ff12": {
+      "company": "Wellmark, Inc.",
+      "role": "Software Engineer Internship \u2013 AI Platform Team",
+      "location": "Des Moines, IA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-WellmarkInc-744000159260670?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11063,
+      "chat_id": 7582459199,
+      "seq": 9794,
+      "identity": "https://zapply.jobs/l/d/sr-WellmarkInc-744000159260670?s=gh-internships-2027|Wellmark, Inc.|Software Engineer Internship \u2013 AI Platform Team|Des Moines, IA|Summer 2027#1"
     }
   },
   "applied": {
@@ -124551,10 +124587,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9791,
+  "seq": 9794,
   "health": {
     "last_heartbeat": "2026-11-02T22:30:21Z",
-    "last_ok_run": "2026-11-02T23:15:21Z",
+    "last_ok_run": "2026-11-02T23:20:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
