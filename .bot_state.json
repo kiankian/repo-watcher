@@ -123920,6 +123920,18 @@
       "chat_id": 7582459199,
       "seq": 9769,
       "identity": "NOURL|FedEx Freight|Media & Web Development Intern, Marketing|United States|Oct 21#1"
+    },
+    "efcdff3fd97d": {
+      "company": "Motorola Solutions",
+      "role": "Software Engineer Cybersecurity Services - 2027 Summer Internship",
+      "location": "Virginia Remote Work, More...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R69250?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11039,
+      "chat_id": 7582459199,
+      "seq": 9770,
+      "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R69250?s=gh-internships-2027|Motorola Solutions|Software Engineer Cybersecurity Services - 2027 Summer Internship|Virginia Remote Work, More...|Summer 2027#1"
     }
   },
   "applied": {
@@ -124287,10 +124299,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9769,
+  "seq": 9770,
   "health": {
     "last_heartbeat": "2026-11-02T19:25:15Z",
-    "last_ok_run": "2026-11-02T20:20:22Z",
+    "last_ok_run": "2026-11-02T20:25:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
