@@ -123932,6 +123932,18 @@
       "chat_id": 7582459199,
       "seq": 9770,
       "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R69250?s=gh-internships-2027|Motorola Solutions|Software Engineer Cybersecurity Services - 2027 Summer Internship|Virginia Remote Work, More...|Summer 2027#1"
+    },
+    "3ee91c6d7351": {
+      "company": "Motorola Solutions",
+      "role": "Software Engineer Intern, Cybersecurity Services \ud83c\uddfa\ud83c\uddf8",
+      "location": "**7 locations**Remote United States Chicago, IL Ashburn, VA Plantation, FL Schaumburg, IL Salt Lake City, UT",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/19M?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11040,
+      "chat_id": 7582459199,
+      "seq": 9771,
+      "identity": "https://go.vansh.nyc/19M?s=y|Motorola Solutions|Software Engineer Intern, Cybersecurity Services \ud83c\uddfa\ud83c\uddf8|**7 locations**Remote United States Chicago, IL Ashburn, VA Plantation, FL Schaumburg, IL Salt Lake City, UT|Nov 02#1"
     }
   },
   "applied": {
@@ -124299,10 +124311,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9770,
+  "seq": 9771,
   "health": {
     "last_heartbeat": "2026-11-02T20:30:21Z",
-    "last_ok_run": "2026-11-02T20:35:16Z",
+    "last_ok_run": "2026-11-02T20:40:41Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
