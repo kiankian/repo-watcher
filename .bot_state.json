@@ -124136,6 +124136,30 @@
       "chat_id": 7582459199,
       "seq": 9787,
       "identity": "NOURL|Seagate Technology|Recording Media R&D Intern, AI & Data Science|Fremont, CA|Oct 18#1"
+    },
+    "60154d08fa2a": {
+      "company": "Qualcomm",
+      "role": "SoC Engineering Intern",
+      "location": "Markham, Canada",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1a0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11057,
+      "chat_id": 7582459199,
+      "seq": 9788,
+      "identity": "https://go.vansh.nyc/1a0?s=y|Qualcomm|SoC Engineering Intern|Markham, Canada|Nov 02#1"
+    },
+    "eb76a1408220": {
+      "company": "Apple",
+      "role": "Machine Learning and Artificial Intelligence Undergrad Intern",
+      "location": "United States",
+      "term": "May 21",
+      "apply_url": "https://go.vansh.nyc/19Z?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11058,
+      "chat_id": 7582459199,
+      "seq": 9789,
+      "identity": "https://go.vansh.nyc/19Z?s=y|Apple|Machine Learning and Artificial Intelligence Undergrad Intern|United States|May 21#1"
     }
   },
   "applied": {
@@ -124503,10 +124527,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9787,
+  "seq": 9789,
   "health": {
     "last_heartbeat": "2026-11-02T22:30:21Z",
-    "last_ok_run": "2026-11-02T22:45:17Z",
+    "last_ok_run": "2026-11-02T22:50:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
