@@ -123020,6 +123020,42 @@
       "chat_id": 7582459199,
       "seq": 9694,
       "identity": "https://job-boards.greenhouse.io/knowbe4/jobs/8919280002?utm_source=Simplify&ref=Simplify|KnowBe4|Software Engineer Intern|Clearwater, FL|Summer 2026#1"
+    },
+    "ef4d605bf908": {
+      "company": "Standard Aero",
+      "role": "IT Analyst Intern",
+      "location": "Cincinnati, OH",
+      "term": "Oct 31",
+      "apply_url": "https://go.vansh.nyc/198?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10964,
+      "chat_id": 7582459199,
+      "seq": 9695,
+      "identity": "https://go.vansh.nyc/198?s=y|Standard Aero|IT Analyst Intern|Cincinnati, OH|Oct 31#1"
+    },
+    "1ad6e4218934": {
+      "company": "IAT Insurance Group",
+      "role": "Cyber Security Intern \ud83d\udec2",
+      "location": "Raleigh, NC",
+      "term": "Oct 31",
+      "apply_url": "https://go.vansh.nyc/197?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10965,
+      "chat_id": 7582459199,
+      "seq": 9696,
+      "identity": "https://go.vansh.nyc/197?s=y|IAT Insurance Group|Cyber Security Intern \ud83d\udec2|Raleigh, NC|Oct 31#1"
+    },
+    "5b46e39e0513": {
+      "company": "FHLBank Chicago",
+      "role": "Application Development Intern",
+      "location": "Chicago, IL",
+      "term": "Oct 31",
+      "apply_url": "https://go.vansh.nyc/196?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 10966,
+      "chat_id": 7582459199,
+      "seq": 9697,
+      "identity": "https://go.vansh.nyc/196?s=y|FHLBank Chicago|Application Development Intern|Chicago, IL|Oct 31#1"
     }
   },
   "applied": {
@@ -123387,10 +123423,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9694,
+  "seq": 9697,
   "health": {
     "last_heartbeat": "2026-11-02T00:30:21Z",
-    "last_ok_run": "2026-11-02T01:10:18Z",
+    "last_ok_run": "2026-11-02T01:15:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
