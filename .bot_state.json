@@ -123680,6 +123680,42 @@
       "chat_id": 7582459199,
       "seq": 9749,
       "identity": "https://zapply.jobs/l/d/microsoft-200063140?s=gh-internships-2027|Microsoft|Software Engineer: Internship Opportunities|Aliso Viejo, California, United...|Summer 2027#1"
+    },
+    "5140b1c7cdbb": {
+      "company": "HPS Investment Partners",
+      "role": "Technology Intern, App Dev",
+      "location": "New York, NY",
+      "term": "Oct 31",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11019,
+      "chat_id": 7582459199,
+      "seq": 9750,
+      "identity": "NOURL|HPS Investment Partners|Technology Intern, App Dev|New York, NY|Oct 31#1"
+    },
+    "170775be419f": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Pittsburgh, PA",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11020,
+      "chat_id": 7582459199,
+      "seq": 9751,
+      "identity": "NOURL|General Dynamics Mission Systems|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Oct 20#1"
+    },
+    "d11c12e4e6de": {
+      "company": "Cognex",
+      "role": "Software Engineer Intern",
+      "location": "Wauwatosa, WI",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11021,
+      "chat_id": 7582459199,
+      "seq": 9752,
+      "identity": "NOURL|Cognex|Software Engineer Intern|Wauwatosa, WI|Oct 18#1"
     }
   },
   "applied": {
@@ -124047,10 +124083,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9749,
+  "seq": 9752,
   "health": {
     "last_heartbeat": "2026-11-02T18:20:18Z",
-    "last_ok_run": "2026-11-02T18:40:23Z",
+    "last_ok_run": "2026-11-02T18:45:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
