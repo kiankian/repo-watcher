@@ -25,6 +25,7 @@ collection aborts before a single test runs.
 |---|---|---|
 | `tests/test_core.py` | unit | Pure logic in `watcher/core.py` — parsers, identities, `job_hash`, migration |
 | `tests/test_workflow.py` | end-to-end | The watcher loop itself, run for real with the network stubbed |
+| `tests/test_callbacks.py` | end-to-end | The `process_applies` job — the `✅ Applied` tap, and what a stalled Telegram does to it |
 | `tests/test_workflow_yaml.py` | structural | Job- and step-level `if:` guards, which only GitHub Actions evaluates |
 | `tests/conftest.py` | harness | Machinery the end-to-end tests run on |
 | `tests/fixtures/` | data | Frozen state snapshots |
@@ -53,6 +54,34 @@ The `run_watcher` fixture returns a `Result` exposing everything a run did:
 
 Options: `fail_for=`, `fail_all=`, `fail_once_at=`, `retry_after=`, `fetch_status=`, `dry_run=`,
 `reuse_sha=`, `drop_target_state=`, `monotonic_step=`, `capture_summary=`.
+
+### The callback job runs the same way
+
+`run_callbacks` does for the second heredoc — the `process_applies` job — what `run_watcher` does
+for the first. It had no coverage at all until 2026-08-03: `workflow_block(1)` existed but nothing
+called it, so a tap reaching the Sheet rested entirely on the job working in production.
+
+Two differences from `run_watcher`. The block imports `google-auth` at module scope, and CI
+installs only `pytest` and `pyyaml`, so the harness injects stub `google.oauth2.service_account`
+and `google.auth.transport.requests` modules into `sys.modules` and restores them afterwards —
+`AGENTS.md` rules out making the import optional instead. And an uncaught exception is captured as
+`code`/`error` rather than propagating, so a test can still inspect what a dead run left behind.
+
+The `CallbackResult` it returns:
+
+| Attribute | Contents |
+|---|---|
+| `code` / `message` / `error` | Exit status, the `SystemExit` payload, and the uncaught exception if there was one |
+| `appended` | Rows handed to the Sheets append, in order |
+| `calls` / `answers` / `edits` | Telegram methods called, and the bodies of the callback answers and message edits |
+| `pending` / `applied` / `offset` | `.bot_state.json` after the run |
+| `poll_failures` | `health.callback_poll_failures` — the consecutive-failure count behind the alarm |
+| `bot_state_text` | The written file verbatim — pass it back as `start_state=` to chain runs byte-exactly |
+| `timeouts` / `timeout_for(name)` | The timeout passed to each call, which is how the two budgets are kept apart |
+
+Options: `updates=`, `start_state=`, `poll_errors=`, `faults=`, `webhook_url=`, `state_file=`.
+`poll_errors` and `faults` take *factories* (`timeout_error`, `http_error(429)`), consumed one per
+call, so a fault that clears after N attempts is a list of length N.
 
 ### Fixtures are frozen on purpose
 
@@ -109,6 +138,27 @@ is not covered — write the test before writing the fix.
 | Silence is reported, not swallowed | `test_a_fetch_failure_is_alerted_and_not_reported_healthy` |
 | Nothing writes state off the default branch | `test_state_writing_is_confined_to_the_default_branch` |
 
+**The callback path**
+
+| Property | Test |
+|---|---|
+| A tap reaches the Sheet and is marked applied | `test_a_tap_appends_a_sheet_row_and_ticks_the_message` |
+| An unlogged tap is never consumed | `test_a_failed_append_leaves_the_tap_to_be_retried` |
+| A Telegram blip does not turn the run red | `test_a_stalled_poll_ends_the_run_green` |
+| …but a sustained outage does | `test_a_sustained_outage_still_goes_red` |
+| …and a revoked token does so at once | `test_a_revoked_bot_token_fails_the_run_immediately` |
+| Recovery clears the count | `test_a_successful_poll_resets_the_count` |
+| Polling cannot outlive the dispatch interval | `test_polling_is_bounded_more_tightly_than_the_dispatch_interval` |
+| …while the mutation path keeps its full budget | `test_the_mutation_path_keeps_the_full_budget` |
+| A quiet run commits nothing | `test_a_quiet_run_leaves_the_state_file_byte_identical` |
+| A stray webhook heals itself | `test_a_webhook_is_deleted_and_the_poll_retried` |
+
+The duplicate-row hazard is pinned rather than fixed:
+`test_a_failure_after_the_append_still_leaves_the_hash_pending` asserts that a tap whose Sheet row
+landed but whose message edit died stays in `pending`, so the retry appends it twice. That is the
+known behaviour described in `FUTURE_IMPROVEMENTS.md`; the test exists so a change to the callback
+job has to notice it.
+
 **Compatibility.** `test_job_hash_matches_the_hashes_in_bot_state` protects users rather than
 logic. Every `✅ Applied` button already in the chat carries a hash, and `process_applies`
 resolves a tap by looking it up. If that test fails, every outstanding button has been orphaned.
@@ -116,7 +166,7 @@ Treat it as a hard constraint, not a test to update.
 
 ## Traps specific to this suite
 
-Four tests here have been green for the wrong reason at some point. Each mistake is easy to repeat.
+Five tests here have been green for the wrong reason at some point. Each mistake is easy to repeat.
 
 **Stubbing hides what you are asserting.** `time.sleep` is stubbed to a no-op, so an hour-long
 wait looks instant and "the run finished" proves nothing about a deadline. Assert on
@@ -135,6 +185,13 @@ over both upstreams — dropped and still-listed — rather than picking one.
 **Chained runs need distinct SHAs.** The loop short-circuits on an unchanged head, so reusing a
 SHA makes the second run a no-op for reasons unrelated to the test. The harness issues a fresh one
 per run; pass `reuse_sha=` only when the unchanged-SHA path is what you are testing.
+
+**A harness that only knows the new code proves less than it looks.** `run_callbacks` asserts on
+any Telegram method it does not recognise, so restoring the previous revision of the workflow makes
+its `getMe` call fail with an unstubbed-method error. Nineteen of the twenty callback tests fail
+against the old block, but several of them fail for that reason rather than for the reason they
+name. If you need to show a specific behaviour changed, stub the removed call for the duration of
+the comparison.
 
 **Prove the test fails without the fix.** Every fix in this repo was verified by restoring the
 previous version of the changed file and confirming the new test fails against it.
@@ -190,9 +247,12 @@ default branch.
 ## Changing a watcher or a parser
 
 1. Add the case to `tests/test_core.py` if it is parsing, `tests/test_workflow.py` if it is a
-   decision about alerting. Confirm it fails without your change.
+   decision about alerting, `tests/test_callbacks.py` if it is about the `✅ Applied` path.
+   Confirm it fails without your change.
 2. `python -m pytest -q`
-3. Dry-run against live data and check the row count for the source you touched.
+3. Dry-run against live data and check the row count for the source you touched. A dry run
+   **skips `process_applies` entirely**, so it validates nothing about the callback job — that one
+   is covered by the suite and then by a real tap after deploying.
 4. If you touched `migrate_state`, the identity format or `job_hash`, rehearse the transition
    against copies of the real state files and confirm it sends nothing. Changing the identity
    format after deployment needs a dual-format check — existing `seen` entries are in the old
@@ -203,8 +263,10 @@ dry-run row counts.
 
 ## What is deliberately not tested
 
-- **Live delivery.** No test sends a real Telegram message or writes to the Google Sheet. Confirm
-  those by tapping `✅ Applied` on a real alert after deploying.
+- **Live delivery.** No test sends a real Telegram message or writes to the Google Sheet. The
+  callback tests drive the same code against a stubbed Sheets endpoint and a faked `google-auth`,
+  so they prove the row the job *would* append and never that the credentials work. Confirm that
+  by tapping `✅ Applied` on a real alert after deploying.
 - **The cron trigger.** `cron-job.org` dispatching the workflow is outside the repo; see the
   runbook in `README.md` if alerts go quiet.
 - **Upstream page structure.** Nothing pins the boards' HTML. That is what the `⚠️ zero-rows` and
