@@ -128156,6 +128156,18 @@
       "chat_id": 7582459199,
       "seq": 10122,
       "identity": "https://go.vansh.nyc/1fb?s=y|Arconic|Cybersecurity Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Sep 02#1"
+    },
+    "f5051913eeaa": {
+      "company": "Microsoft",
+      "role": "Software Engineer, Teamwork Experiences Internship Opportunities",
+      "location": "Redmond, Washington, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/microsoft-200061280?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11392,
+      "chat_id": 7582459199,
+      "seq": 10123,
+      "identity": "https://zapply.jobs/l/d/microsoft-200061280?s=gh-internships-2027|Microsoft|Software Engineer, Teamwork Experiences Internship Opportunities|Redmond, Washington, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -128523,10 +128535,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10122,
+  "seq": 10123,
   "health": {
     "last_heartbeat": "2026-11-03T22:25:16Z",
-    "last_ok_run": "2026-11-03T22:50:18Z",
+    "last_ok_run": "2026-11-03T22:55:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
