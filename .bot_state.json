@@ -126596,6 +126596,78 @@
       "chat_id": 7582459199,
       "seq": 9992,
       "identity": "NOURL|Tyler Technologies|Software Development Intern|Lubbock, TX|Sep 21#1"
+    },
+    "950d1e43d9ce": {
+      "company": "CareSource",
+      "role": "Data Science Intern",
+      "location": "Remote United States",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1dQ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11262,
+      "chat_id": 7582459199,
+      "seq": 9993,
+      "identity": "https://go.vansh.nyc/1dQ?s=y|CareSource|Data Science Intern|Remote United States|Nov 03#1"
+    },
+    "c5cb29932193": {
+      "company": "Gordon Food Service",
+      "role": "Data Science Engineer Intern",
+      "location": "Atlanta, GA",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11263,
+      "chat_id": 7582459199,
+      "seq": 9994,
+      "identity": "NOURL|Gordon Food Service|Data Science Engineer Intern|Atlanta, GA|Nov 02#1"
+    },
+    "306b4c611531": {
+      "company": "Steel",
+      "role": "Software Engineer Intern",
+      "location": "Toronto, ON, Canada",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11264,
+      "chat_id": 7582459199,
+      "seq": 9995,
+      "identity": "NOURL|Steel|Software Engineer Intern|Toronto, ON, Canada|Oct 20#1"
+    },
+    "fd3fe3a2f106": {
+      "company": "Phillips 66",
+      "role": "ERI Analytical Solutions Intern",
+      "location": "Bartlesville, OK",
+      "term": "Oct 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11265,
+      "chat_id": 7582459199,
+      "seq": 9996,
+      "identity": "NOURL|Phillips 66|ERI Analytical Solutions Intern|Bartlesville, OK|Oct 13#1"
+    },
+    "02b98ea1a399": {
+      "company": "KLA",
+      "role": "AI/ML Software Engineer Intern",
+      "location": "Ann Arbor, MI",
+      "term": "Oct 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11266,
+      "chat_id": 7582459199,
+      "seq": 9997,
+      "identity": "NOURL|KLA|AI/ML Software Engineer Intern|Ann Arbor, MI|Oct 12#1"
+    },
+    "16cb96f42466": {
+      "company": "Publicis Groupe",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Sep 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11267,
+      "chat_id": 7582459199,
+      "seq": 9998,
+      "identity": "NOURL|Publicis Groupe|Software Engineer Intern|Chicago, IL|Sep 09#1"
     }
   },
   "applied": {
@@ -126963,10 +127035,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9992,
+  "seq": 9998,
   "health": {
     "last_heartbeat": "2026-11-03T17:55:24Z",
-    "last_ok_run": "2026-11-03T18:10:29Z",
+    "last_ok_run": "2026-11-03T18:15:34Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
