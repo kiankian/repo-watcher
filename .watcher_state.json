@@ -11813,7 +11813,19 @@
       "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Virginia-Remote-Work/Software-Engineer-Cybersecurity-Services---2027-Summer-Internship_R69250|Motorola Solutions|Software Engineer Cybersecurity Services - 2027 Summer Internship|Remote - Virginia, USA +38|Other#1",
       "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Arizona-Chandler/XMLNAME-2027-Engineering-Intern--Software-Mission-Assurance-Quality----Chandler-AZ_R10258848|Northrop Grumman|2027 Engineering Intern - Software/Mission Assurance/Quality - Chandler AZ|Chandler, AZ|Other#1",
       "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-Sunnyvale/Engineering-Software-and-Analysis-Intern_R10258772|Northrop Grumman|Engineering Software and Analysis Intern|Sunnyvale, CA|Other#1",
-      "https://job-boards.greenhouse.io/paretocaptiveservicesllc/jobs/4726117006|ParetoHealth|Software Engineering Summer Intern|Philadelphia, PA|Other#1"
+      "https://job-boards.greenhouse.io/paretocaptiveservicesllc/jobs/4726117006|ParetoHealth|Software Engineering Summer Intern|Philadelphia, PA|Other#1",
+      "https://plexus.wd504.myworkdayjobs.com/en-US/plexus_careers/job/Neenah-WI/Intern---Software-Engineer--Fall-2026-_R035782|Plexus|Intern - Software Engineer - Summer 2027|Neenah, WI|Other#1",
+      "https://jmp-sas.icims.com/jobs/44417/jmp-2027-summer-internship--devops-r%26d/job|SAS|JMP 2027 Summer Internship; DevOps R&D|Cary, NC|Other#1",
+      "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031229|Sierra Nevada Corporation|Software Engineer Intern - Summer 2027|Southern Pines, NC|Other#1",
+      "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/DevOps-Engineer-Intern--Summer-2027-_R0031238-1|Sierra Nevada Corporation|DevOps Engineer Intern - Summer 2027|Southern Pines, NC|Other#1",
+      "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031230|Sierra Nevada Corporation|Software Engineer Intern - Summer 2027|Southern Pines, NC|Other#1",
+      "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886|T-Mobile|Summer 2027 Software Engineering Internship|New York City, NY|Other#1",
+      "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882|T-Mobile|Summer 2027 Software Engineering Internship|Philadelphia, PA|Other#1",
+      "https://valmont.wd1.myworkdayjobs.com/en-US/valmontcareers/job/Valley-NE/Embedded-Systems-Engineering-Intern_R29223|Valmont|Embedded Systems Engineering Intern|Valley, NE|Other#1",
+      "https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626|Zebra Technologies|2027 Summer Internship - US - Software Engineer|Holtsville, NY|Other#1",
+      "https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632|Zebra Technologies|2027 Summer Internship - US - Software/AI Engineer - Handheld Mobile Computers|Holtsville, NY|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op--AGS-Software-Engineering--Onsite-_01871646|Raytheon|2027 Summer/Fall Co-op - AGS Software Engineering - Onsite|Cedar Rapids, IA|Other#1",
+      "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004|Epic Games|Frontend Programmer Intern|Pittsburgh, PA +1|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -11958,139 +11970,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 705,
-    "outbox": [
-      [
-        [
-          "Plexus",
-          "Intern - Software Engineer - Summer 2027",
-          "Neenah, WI",
-          "Other",
-          "https://plexus.wd504.myworkdayjobs.com/en-US/plexus_careers/job/Neenah-WI/Intern---Software-Engineer--Fall-2026-_R035782"
-        ],
-        "https://plexus.wd504.myworkdayjobs.com/en-US/plexus_careers/job/Neenah-WI/Intern---Software-Engineer--Fall-2026-_R035782|Plexus|Intern - Software Engineer - Summer 2027|Neenah, WI|Other#1",
-        1
-      ],
-      [
-        [
-          "SAS",
-          "JMP 2027 Summer Internship; DevOps R&D",
-          "Cary, NC",
-          "Other",
-          "https://jmp-sas.icims.com/jobs/44417/jmp-2027-summer-internship--devops-r%26d/job"
-        ],
-        "https://jmp-sas.icims.com/jobs/44417/jmp-2027-summer-internship--devops-r%26d/job|SAS|JMP 2027 Summer Internship; DevOps R&D|Cary, NC|Other#1",
-        1
-      ],
-      [
-        [
-          "Sierra Nevada Corporation",
-          "Software Engineer Intern - Summer 2027",
-          "Southern Pines, NC",
-          "Other",
-          "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031229"
-        ],
-        "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031229|Sierra Nevada Corporation|Software Engineer Intern - Summer 2027|Southern Pines, NC|Other#1",
-        1
-      ],
-      [
-        [
-          "Sierra Nevada Corporation",
-          "DevOps Engineer Intern - Summer 2027",
-          "Southern Pines, NC",
-          "Other",
-          "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/DevOps-Engineer-Intern--Summer-2027-_R0031238-1"
-        ],
-        "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/DevOps-Engineer-Intern--Summer-2027-_R0031238-1|Sierra Nevada Corporation|DevOps Engineer Intern - Summer 2027|Southern Pines, NC|Other#1",
-        1
-      ],
-      [
-        [
-          "Sierra Nevada Corporation",
-          "Software Engineer Intern - Summer 2027",
-          "Southern Pines, NC",
-          "Other",
-          "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031230"
-        ],
-        "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031230|Sierra Nevada Corporation|Software Engineer Intern - Summer 2027|Southern Pines, NC|Other#1",
-        1
-      ],
-      [
-        [
-          "T-Mobile",
-          "Summer 2027 Software Engineering Internship",
-          "New York City, NY",
-          "Other",
-          "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886"
-        ],
-        "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886|T-Mobile|Summer 2027 Software Engineering Internship|New York City, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "T-Mobile",
-          "Summer 2027 Software Engineering Internship",
-          "Philadelphia, PA",
-          "Other",
-          "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882"
-        ],
-        "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882|T-Mobile|Summer 2027 Software Engineering Internship|Philadelphia, PA|Other#1",
-        1
-      ],
-      [
-        [
-          "Valmont",
-          "Embedded Systems Engineering Intern",
-          "Valley, NE",
-          "Other",
-          "https://valmont.wd1.myworkdayjobs.com/en-US/valmontcareers/job/Valley-NE/Embedded-Systems-Engineering-Intern_R29223"
-        ],
-        "https://valmont.wd1.myworkdayjobs.com/en-US/valmontcareers/job/Valley-NE/Embedded-Systems-Engineering-Intern_R29223|Valmont|Embedded Systems Engineering Intern|Valley, NE|Other#1",
-        1
-      ],
-      [
-        [
-          "Zebra Technologies",
-          "2027 Summer Internship - US - Software Engineer",
-          "Holtsville, NY",
-          "Other",
-          "https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626"
-        ],
-        "https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626|Zebra Technologies|2027 Summer Internship - US - Software Engineer|Holtsville, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "Zebra Technologies",
-          "2027 Summer Internship - US - Software/AI Engineer - Handheld Mobile Computers",
-          "Holtsville, NY",
-          "Other",
-          "https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632"
-        ],
-        "https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632|Zebra Technologies|2027 Summer Internship - US - Software/AI Engineer - Handheld Mobile Computers|Holtsville, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "Raytheon",
-          "2027 Summer/Fall Co-op - AGS Software Engineering - Onsite",
-          "Cedar Rapids, IA",
-          "Other",
-          "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op--AGS-Software-Engineering--Onsite-_01871646"
-        ],
-        "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op--AGS-Software-Engineering--Onsite-_01871646|Raytheon|2027 Summer/Fall Co-op - AGS Software Engineering - Onsite|Cedar Rapids, IA|Other#1",
-        1
-      ],
-      [
-        [
-          "Epic Games",
-          "Frontend Programmer Intern",
-          "Pittsburgh, PA +1",
-          "Other",
-          "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004"
-        ],
-        "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004|Epic Games|Frontend Programmer Intern|Pittsburgh, PA +1|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }

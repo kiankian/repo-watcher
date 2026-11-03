@@ -127112,6 +127112,150 @@
       "chat_id": 7582459199,
       "seq": 10035,
       "identity": "https://job-boards.greenhouse.io/paretocaptiveservicesllc/jobs/4726117006|ParetoHealth|Software Engineering Summer Intern|Philadelphia, PA|Other#1"
+    },
+    "1d0881d74810": {
+      "company": "Plexus",
+      "role": "Intern - Software Engineer - Summer 2027",
+      "location": "Neenah, WI",
+      "term": "Other",
+      "apply_url": "https://plexus.wd504.myworkdayjobs.com/en-US/plexus_careers/job/Neenah-WI/Intern---Software-Engineer--Fall-2026-_R035782",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11305,
+      "chat_id": 7582459199,
+      "seq": 10036,
+      "identity": "https://plexus.wd504.myworkdayjobs.com/en-US/plexus_careers/job/Neenah-WI/Intern---Software-Engineer--Fall-2026-_R035782|Plexus|Intern - Software Engineer - Summer 2027|Neenah, WI|Other#1"
+    },
+    "25ac081e67c7": {
+      "company": "SAS",
+      "role": "JMP 2027 Summer Internship; DevOps R&D",
+      "location": "Cary, NC",
+      "term": "Other",
+      "apply_url": "https://jmp-sas.icims.com/jobs/44417/jmp-2027-summer-internship--devops-r%26d/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11306,
+      "chat_id": 7582459199,
+      "seq": 10037,
+      "identity": "https://jmp-sas.icims.com/jobs/44417/jmp-2027-summer-internship--devops-r%26d/job|SAS|JMP 2027 Summer Internship; DevOps R&D|Cary, NC|Other#1"
+    },
+    "1f0a41b57d55": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Southern Pines, NC",
+      "term": "Other",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031229",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11307,
+      "chat_id": 7582459199,
+      "seq": 10038,
+      "identity": "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031229|Sierra Nevada Corporation|Software Engineer Intern - Summer 2027|Southern Pines, NC|Other#1"
+    },
+    "6306d1f5cf88": {
+      "company": "Sierra Nevada Corporation",
+      "role": "DevOps Engineer Intern - Summer 2027",
+      "location": "Southern Pines, NC",
+      "term": "Other",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/DevOps-Engineer-Intern--Summer-2027-_R0031238-1",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11308,
+      "chat_id": 7582459199,
+      "seq": 10039,
+      "identity": "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/DevOps-Engineer-Intern--Summer-2027-_R0031238-1|Sierra Nevada Corporation|DevOps Engineer Intern - Summer 2027|Southern Pines, NC|Other#1"
+    },
+    "1182c68ea41b": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Southern Pines, NC",
+      "term": "Other",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031230",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11309,
+      "chat_id": 7582459199,
+      "seq": 10040,
+      "identity": "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031230|Sierra Nevada Corporation|Software Engineer Intern - Summer 2027|Southern Pines, NC|Other#1"
+    },
+    "e9487531286f": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering Internship",
+      "location": "New York City, NY",
+      "term": "Other",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11310,
+      "chat_id": 7582459199,
+      "seq": 10041,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886|T-Mobile|Summer 2027 Software Engineering Internship|New York City, NY|Other#1"
+    },
+    "fead1c0eef31": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering Internship",
+      "location": "Philadelphia, PA",
+      "term": "Other",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11311,
+      "chat_id": 7582459199,
+      "seq": 10042,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882|T-Mobile|Summer 2027 Software Engineering Internship|Philadelphia, PA|Other#1"
+    },
+    "395a5ab6784a": {
+      "company": "Valmont",
+      "role": "Embedded Systems Engineering Intern",
+      "location": "Valley, NE",
+      "term": "Other",
+      "apply_url": "https://valmont.wd1.myworkdayjobs.com/en-US/valmontcareers/job/Valley-NE/Embedded-Systems-Engineering-Intern_R29223",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11312,
+      "chat_id": 7582459199,
+      "seq": 10043,
+      "identity": "https://valmont.wd1.myworkdayjobs.com/en-US/valmontcareers/job/Valley-NE/Embedded-Systems-Engineering-Intern_R29223|Valmont|Embedded Systems Engineering Intern|Valley, NE|Other#1"
+    },
+    "097c6ff22454": {
+      "company": "Zebra Technologies",
+      "role": "2027 Summer Internship - US - Software Engineer",
+      "location": "Holtsville, NY",
+      "term": "Other",
+      "apply_url": "https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11313,
+      "chat_id": 7582459199,
+      "seq": 10044,
+      "identity": "https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626|Zebra Technologies|2027 Summer Internship - US - Software Engineer|Holtsville, NY|Other#1"
+    },
+    "3987bfbc482e": {
+      "company": "Zebra Technologies",
+      "role": "2027 Summer Internship - US - Software/AI Engineer - Handheld Mobile Computers",
+      "location": "Holtsville, NY",
+      "term": "Other",
+      "apply_url": "https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11314,
+      "chat_id": 7582459199,
+      "seq": 10045,
+      "identity": "https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632|Zebra Technologies|2027 Summer Internship - US - Software/AI Engineer - Handheld Mobile Computers|Holtsville, NY|Other#1"
+    },
+    "d618002e07d0": {
+      "company": "Raytheon",
+      "role": "2027 Summer/Fall Co-op - AGS Software Engineering - Onsite",
+      "location": "Cedar Rapids, IA",
+      "term": "Other",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op--AGS-Software-Engineering--Onsite-_01871646",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11315,
+      "chat_id": 7582459199,
+      "seq": 10046,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op--AGS-Software-Engineering--Onsite-_01871646|Raytheon|2027 Summer/Fall Co-op - AGS Software Engineering - Onsite|Cedar Rapids, IA|Other#1"
+    },
+    "75f788befd4e": {
+      "company": "Epic Games",
+      "role": "Frontend Programmer Intern",
+      "location": "Pittsburgh, PA +1",
+      "term": "Other",
+      "apply_url": "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 11316,
+      "chat_id": 7582459199,
+      "seq": 10047,
+      "identity": "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004|Epic Games|Frontend Programmer Intern|Pittsburgh, PA +1|Other#1"
     }
   },
   "applied": {
@@ -127479,10 +127623,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10035,
+  "seq": 10047,
   "health": {
     "last_heartbeat": "2026-11-03T18:55:24Z",
-    "last_ok_run": "2026-11-03T19:21:20Z",
+    "last_ok_run": "2026-11-03T19:25:33Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
