@@ -128168,6 +128168,18 @@
       "chat_id": 7582459199,
       "seq": 10123,
       "identity": "https://zapply.jobs/l/d/microsoft-200061280?s=gh-internships-2027|Microsoft|Software Engineer, Teamwork Experiences Internship Opportunities|Redmond, Washington, United States|Summer 2027#1"
+    },
+    "27276fa42d8c": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering Internship",
+      "location": "Atlanta, Georgia",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380652?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11393,
+      "chat_id": 7582459199,
+      "seq": 10124,
+      "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380652?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|Atlanta, Georgia|Summer 2027#1"
     }
   },
   "applied": {
@@ -128535,10 +128547,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10123,
+  "seq": 10124,
   "health": {
     "last_heartbeat": "2026-11-03T22:25:16Z",
-    "last_ok_run": "2026-11-03T23:05:15Z",
+    "last_ok_run": "2026-11-03T23:10:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
