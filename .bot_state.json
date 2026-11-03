@@ -126212,6 +126212,90 @@
       "chat_id": 7582459199,
       "seq": 9960,
       "identity": "https://go.vansh.nyc/1du?s=y|RTX|Secure System Engineering Intern \ud83c\uddfa\ud83c\uddf8|Windsor Locks, CT|Nov 03#1"
+    },
+    "f693acd44969": {
+      "company": "The Mosaic Company",
+      "role": "Artificial Intelligence Co-op",
+      "location": "Tampa, FL",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1dB?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11230,
+      "chat_id": 7582459199,
+      "seq": 9961,
+      "identity": "https://go.vansh.nyc/1dB?s=y|The Mosaic Company|Artificial Intelligence Co-op|Tampa, FL|Nov 03#1"
+    },
+    "30e3656dbcd5": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Southern Pines, NC",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1dz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11231,
+      "chat_id": 7582459199,
+      "seq": 9962,
+      "identity": "https://go.vansh.nyc/1dz?s=y|Sierra Nevada Corporation|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Southern Pines, NC|Nov 02#1"
+    },
+    "a01c0cd93ba0": {
+      "company": "Marvell",
+      "role": "Security Verification/Validation Engineer Intern",
+      "location": "Chandler, AZ",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1dy?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11232,
+      "chat_id": 7582459199,
+      "seq": 9963,
+      "identity": "https://go.vansh.nyc/1dy?s=y|Marvell|Security Verification/Validation Engineer Intern|Chandler, AZ|Nov 02#1"
+    },
+    "c9cf66a40f31": {
+      "company": "Maricopa Association of Governments",
+      "role": "Socioeconomic Data Intern",
+      "location": "Phoenix, AZ",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1dx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11233,
+      "chat_id": 7582459199,
+      "seq": 9964,
+      "identity": "https://go.vansh.nyc/1dx?s=y|Maricopa Association of Governments|Socioeconomic Data Intern|Phoenix, AZ|Nov 02#1"
+    },
+    "c537cac13ba0": {
+      "company": "KLA",
+      "role": "Digital Twin Eng Apps Intern",
+      "location": "Ann Arbor, MI",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1dw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11234,
+      "chat_id": 7582459199,
+      "seq": 9965,
+      "identity": "https://go.vansh.nyc/1dw?s=y|KLA|Digital Twin Eng Apps Intern|Ann Arbor, MI|Nov 02#1"
+    },
+    "89d0dc5593a3": {
+      "company": "AllianceBernstein",
+      "role": "Software Development Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Nashville, TN",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11235,
+      "chat_id": 7582459199,
+      "seq": 9966,
+      "identity": "NOURL|AllianceBernstein|Software Development Intern \ud83c\uddfa\ud83c\uddf8|Nashville, TN|Nov 02#1"
+    },
+    "4341e4ba7d72": {
+      "company": "SOTI",
+      "role": "Software Developer Intern",
+      "location": "Mississauga, ON",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11236,
+      "chat_id": 7582459199,
+      "seq": 9967,
+      "identity": "NOURL|SOTI|Software Developer Intern|Mississauga, ON|Oct 20#1"
     }
   },
   "applied": {
@@ -126579,10 +126663,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9960,
+  "seq": 9967,
   "health": {
     "last_heartbeat": "2026-11-03T13:40:17Z",
-    "last_ok_run": "2026-11-03T14:10:19Z",
+    "last_ok_run": "2026-11-03T14:15:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
