@@ -126668,6 +126668,54 @@
       "chat_id": 7582459199,
       "seq": 9998,
       "identity": "NOURL|Publicis Groupe|Software Engineer Intern|Chicago, IL|Sep 09#1"
+    },
+    "8b9bf549dff2": {
+      "company": "American Express",
+      "role": "Undergraduate Program Cybersecurity AI Engineer Intern, Enterprise Technology Services",
+      "location": "Phoenix, AZ",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1dS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11268,
+      "chat_id": 7582459199,
+      "seq": 9999,
+      "identity": "https://go.vansh.nyc/1dS?s=y|American Express|Undergraduate Program Cybersecurity AI Engineer Intern, Enterprise Technology Services|Phoenix, AZ|Nov 02#1"
+    },
+    "dd18e66750a0": {
+      "company": "Niantic Spatial",
+      "role": "Software Engineer Intern, Native SDK & Mobile Platforms",
+      "location": "San Francisco, CA",
+      "term": "Oct 25",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11269,
+      "chat_id": 7582459199,
+      "seq": 10000,
+      "identity": "NOURL|Niantic Spatial|Software Engineer Intern, Native SDK & Mobile Platforms|San Francisco, CA|Oct 25#1"
+    },
+    "18f144ebe339": {
+      "company": "Keysight Technologies",
+      "role": "Enterprise Software Development Intern, EDA Tools",
+      "location": "Santa Rosa, CA",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11270,
+      "chat_id": 7582459199,
+      "seq": 10001,
+      "identity": "NOURL|Keysight Technologies|Enterprise Software Development Intern, EDA Tools|Santa Rosa, CA|Oct 18#1"
+    },
+    "7dc675f80418": {
+      "company": "KLA",
+      "role": "Software Engineer Intern, AI",
+      "location": "Ann Arbor, MI",
+      "term": "Oct 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11271,
+      "chat_id": 7582459199,
+      "seq": 10002,
+      "identity": "NOURL|KLA|Software Engineer Intern, AI|Ann Arbor, MI|Oct 13#1"
     }
   },
   "applied": {
@@ -127035,10 +127083,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9998,
+  "seq": 10002,
   "health": {
     "last_heartbeat": "2026-11-03T17:55:24Z",
-    "last_ok_run": "2026-11-03T18:40:28Z",
+    "last_ok_run": "2026-11-03T18:45:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
