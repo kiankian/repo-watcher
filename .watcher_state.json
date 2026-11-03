@@ -2875,7 +2875,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "b6f64fe9c777acd6132e946ba196fd98705b87ab",
+    "last_sha": "57c327225b3933422d6124b6ee0df936b8955c91",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -7198,11 +7198,147 @@
       "https://go.vansh.nyc/1eq?s=y|Direct Supply|Software Engineer Intern|Milwaukee, WI Durham, NC|Nov 03#1",
       "https://go.vansh.nyc/1em?s=y|Hadrian|Robotics Engineer Intern \ud83c\uddfa\ud83c\uddf8|Los Angeles, CA|Sep 02#1",
       "https://go.vansh.nyc/1ek?s=y|Colonist|Product Developer Intern|Remote United States Canada|Jan 22#1",
-      "NOURL|Marriott Vacations Worldwide|Corporate Information Technology Intern|Orlando, FL|Nov 01#1"
+      "NOURL|Marriott Vacations Worldwide|Corporate Information Technology Intern|Orlando, FL|Nov 01#1",
+      "https://go.vansh.nyc/1eY?s=y|TWG Global|AI Engineering Intern|Santa Monica, CA|Nov 03#1",
+      "https://go.vansh.nyc/1f5?s=y|T-Mobile|Software Engineering Intern|Atlanta, GA|Nov 03#1",
+      "https://go.vansh.nyc/1er?s=y|T-Mobile|T-Ads Software Engineering Intern|Philadelphia, PA|Nov 03#1",
+      "https://go.vansh.nyc/1eX?s=y|RAVE Aerospace|Software Engineering Intern|Laramie, WY|Nov 03#1",
+      "https://go.vansh.nyc/1f3?s=y|DuCharme, McMillen & Associates|IT Quality Assurance Intern|Lisle, IL|Nov 03#1",
+      "https://go.vansh.nyc/1f4?s=y|DuCharme, McMillen & Associates|Cybersecurity Intern|Fort Wayne, IN|Nov 03#1",
+      "https://go.vansh.nyc/1f1?s=y|Dairyland Power Cooperative|Energy Data Analyst Intern|La Crosse, WI|Nov 03#1",
+      "https://go.vansh.nyc/1eZ?s=y|Baird|Software Developer Intern|Milwaukee, WI Madison, WI|Nov 03#1",
+      "https://go.vansh.nyc/1f0?s=y|Baird|Quality Assurance Automation Engineer Intern|Milwaukee, WI|Nov 03#1",
+      "https://go.vansh.nyc/1et?s=y|Arch Capital Group|Originations Portal IT Intern|Greensboro, NC|Nov 03#1",
+      "https://go.vansh.nyc/1eu?s=y|ICD|Cyber Security Intern|New York, NY|Nov 02#1",
+      "https://go.vansh.nyc/1eW?s=y|Strada|Software Engineer Intern|San Francisco, CA|Oct 07#1",
+      "https://go.vansh.nyc/1eS?s=y|Revel|Embedded Software Engineer Intern|Los Angeles, CA San Francisco, CA|Oct 06#1",
+      "https://go.vansh.nyc/1eT?s=y|Revel|Forward Deployed Engineer Intern, Software|Los Angeles, CA San Francisco, CA|Oct 06#1",
+      "https://go.vansh.nyc/1eU?s=y|Revel|Full Stack Software Engineer Intern|Los Angeles, CA San Francisco, CA|Oct 06#1",
+      "https://go.vansh.nyc/1eV?s=y|Revel|Software Engineer Intern, Test|Los Angeles, CA San Francisco, CA|Oct 06#1",
+      "https://go.vansh.nyc/1eQ?s=y|Bedrock Robotics|Behavior ML Engineer Intern, Learned Manipulation Policies|San Francisco, CA|Oct 02#1",
+      "https://go.vansh.nyc/1eO?s=y|Bedrock Robotics|Simulation Engineer Intern, Neural Rendering|San Francisco, CA|Sep 28#1",
+      "https://go.vansh.nyc/1eM?s=y|ConductorAI|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|New York, NY|Sep 17#1",
+      "https://go.vansh.nyc/1eL?s=y|Bedrock Robotics|Software Engineer Intern, Fleet Platform|New York, NY|Sep 16#1",
+      "https://go.vansh.nyc/1eK?s=y|Pace|Forward Deployed Engineer Intern|New York, NY|Sep 14#1",
+      "https://go.vansh.nyc/1eJ?s=y|AnaVation|Computer Science Intern \ud83c\uddfa\ud83c\uddf8|Chantilly, VA|Sep 12#1",
+      "https://go.vansh.nyc/1eH?s=y|Xcimer Energy|Computational and Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Denver, CO|Sep 11#1",
+      "https://go.vansh.nyc/1eF?s=y|Bedrock Robotics|Behavior Machine Learning Engineer Intern, World Models|San Francisco, CA|Sep 10#1",
+      "https://go.vansh.nyc/1eG?s=y|Bedrock Robotics|Onboard Infrastructure Engineer Intern, ML Inference|San Francisco, CA|Sep 10#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2050,
-    "outbox": []
+    "last_row_count": 2085,
+    "outbox": [
+      [
+        [
+          "M3USA",
+          "AI Engineering Intern",
+          "Remote United States",
+          "Sep 08",
+          "https://go.vansh.nyc/1eD?s=y"
+        ],
+        "https://go.vansh.nyc/1eD?s=y|M3USA|AI Engineering Intern|Remote United States|Sep 08#1",
+        1
+      ],
+      [
+        [
+          "AnaVation",
+          "Computer Science Intern \ud83c\uddfa\ud83c\uddf8",
+          "San Antonio, TX",
+          "Sep 08",
+          "https://go.vansh.nyc/1eE?s=y"
+        ],
+        "https://go.vansh.nyc/1eE?s=y|AnaVation|Computer Science Intern \ud83c\uddfa\ud83c\uddf8|San Antonio, TX|Sep 08#1",
+        1
+      ],
+      [
+        [
+          "Hoffman Construction",
+          "Data Analyst Intern",
+          "Amarillo, TX",
+          "Sep 07",
+          "https://go.vansh.nyc/1eC?s=y"
+        ],
+        "https://go.vansh.nyc/1eC?s=y|Hoffman Construction|Data Analyst Intern|Amarillo, TX|Sep 07#1",
+        1
+      ],
+      [
+        [
+          "Winsupply",
+          "Software Developer Intern",
+          "Moraine, OH",
+          "Sep 02",
+          "https://go.vansh.nyc/1ez?s=y"
+        ],
+        "https://go.vansh.nyc/1ez?s=y|Winsupply|Software Developer Intern|Moraine, OH|Sep 02#1",
+        1
+      ],
+      [
+        [
+          "Dynamic Catholic",
+          "Front-End UX Intern \ud83d\udec2",
+          "Erlanger, KY",
+          "Sep 02",
+          "https://go.vansh.nyc/1eA?s=y"
+        ],
+        "https://go.vansh.nyc/1eA?s=y|Dynamic Catholic|Front-End UX Intern \ud83d\udec2|Erlanger, KY|Sep 02#1",
+        1
+      ],
+      [
+        [
+          "Dynamic Catholic",
+          "Software Developer Intern, Commerce Cloud",
+          "Erlanger, KY",
+          "Sep 02",
+          "https://go.vansh.nyc/1eB?s=y"
+        ],
+        "https://go.vansh.nyc/1eB?s=y|Dynamic Catholic|Software Developer Intern, Commerce Cloud|Erlanger, KY|Sep 02#1",
+        1
+      ],
+      [
+        [
+          "Valon",
+          "Software Engineer Intern",
+          "New York, NY San Francisco, CA",
+          "Sep 01",
+          "https://go.vansh.nyc/1ey?s=y"
+        ],
+        "https://go.vansh.nyc/1ey?s=y|Valon|Software Engineer Intern|New York, NY San Francisco, CA|Sep 01#1",
+        1
+      ],
+      [
+        [
+          "Charta Health",
+          "Software Engineer Intern, FDE / Platform",
+          "San Francisco, CA New York, NY",
+          "Aug 27",
+          "https://go.vansh.nyc/1ex?s=y"
+        ],
+        "https://go.vansh.nyc/1ex?s=y|Charta Health|Software Engineer Intern, FDE / Platform|San Francisco, CA New York, NY|Aug 27#1",
+        1
+      ],
+      [
+        [
+          "Realm",
+          "Software Engineer Intern",
+          "Remote United States",
+          "Aug 26",
+          "https://go.vansh.nyc/1ew?s=y"
+        ],
+        "https://go.vansh.nyc/1ew?s=y|Realm|Software Engineer Intern|Remote United States|Aug 26#1",
+        1
+      ],
+      [
+        [
+          "Odys Aviation",
+          "Robotics & Embedded Systems Intern",
+          "Long Beach, CA",
+          "Mar 26",
+          "https://go.vansh.nyc/1ev?s=y"
+        ],
+        "https://go.vansh.nyc/1ev?s=y|Odys Aviation|Robotics & Embedded Systems Intern|Long Beach, CA|Mar 26#1",
+        1
+      ]
+    ]
   },
   "zapplyjobs/Internships-2027#swe": {
     "last_sha": "dae364ee71bb9be6c6140c6c6bd895f8deb03e26",
