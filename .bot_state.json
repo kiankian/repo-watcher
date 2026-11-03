@@ -126500,6 +126500,102 @@
       "chat_id": 7582459199,
       "seq": 9984,
       "identity": "NOURL|Workday|Analytics Engineer Intern|Pleasanton, CA|Oct 27#1"
+    },
+    "00f9207672a7": {
+      "company": "Trimble",
+      "role": "AI Developer Intern",
+      "location": "Westminster, CO Dayton, OH",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1dM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11254,
+      "chat_id": 7582459199,
+      "seq": 9985,
+      "identity": "https://go.vansh.nyc/1dM?s=y|Trimble|AI Developer Intern|Westminster, CO Dayton, OH|Nov 03#1"
+    },
+    "2f005b43c353": {
+      "company": "Northrop Grumman",
+      "role": "Engineering Software Tool Development Intern, Field Engineering \ud83c\uddfa\ud83c\uddf8",
+      "location": "Baltimore, MD",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1dO?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11255,
+      "chat_id": 7582459199,
+      "seq": 9986,
+      "identity": "https://go.vansh.nyc/1dO?s=y|Northrop Grumman|Engineering Software Tool Development Intern, Field Engineering \ud83c\uddfa\ud83c\uddf8|Baltimore, MD|Nov 03#1"
+    },
+    "20be3f14a786": {
+      "company": "Dell Technologies",
+      "role": "Software Engineering Undergraduate Intern, CSG",
+      "location": "United States",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1dN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11256,
+      "chat_id": 7582459199,
+      "seq": 9987,
+      "identity": "https://go.vansh.nyc/1dN?s=y|Dell Technologies|Software Engineering Undergraduate Intern, CSG|United States|Nov 02#1"
+    },
+    "49cc3f4b3dd3": {
+      "company": "NJM Insurance Group",
+      "role": "IT Data Science Intern",
+      "location": "Trenton, NJ",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11257,
+      "chat_id": 7582459199,
+      "seq": 9988,
+      "identity": "NOURL|NJM Insurance Group|IT Data Science Intern|Trenton, NJ|Nov 02#1"
+    },
+    "f96c9683883d": {
+      "company": "Gordon Food Service",
+      "role": "Data Engineering Intern",
+      "location": "Atlanta, GA",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11258,
+      "chat_id": 7582459199,
+      "seq": 9989,
+      "identity": "NOURL|Gordon Food Service|Data Engineering Intern|Atlanta, GA|Nov 02#1"
+    },
+    "94b84c3fee2d": {
+      "company": "CareSource",
+      "role": "AI Intern",
+      "location": "Remote United States",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11259,
+      "chat_id": 7582459199,
+      "seq": 9990,
+      "identity": "NOURL|CareSource|AI Intern|Remote United States|Oct 28#1"
+    },
+    "499c5e1c2c93": {
+      "company": "Salesforce",
+      "role": "Forward Deployed Engineer Intern, Global Public Sector",
+      "location": "United States",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11260,
+      "chat_id": 7582459199,
+      "seq": 9991,
+      "identity": "NOURL|Salesforce|Forward Deployed Engineer Intern, Global Public Sector|United States|Oct 26#1"
+    },
+    "84adbc395d51": {
+      "company": "Tyler Technologies",
+      "role": "Software Development Intern",
+      "location": "Lubbock, TX",
+      "term": "Sep 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11261,
+      "chat_id": 7582459199,
+      "seq": 9992,
+      "identity": "NOURL|Tyler Technologies|Software Development Intern|Lubbock, TX|Sep 21#1"
     }
   },
   "applied": {
@@ -126867,10 +126963,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9984,
+  "seq": 9992,
   "health": {
     "last_heartbeat": "2026-11-03T16:50:22Z",
-    "last_ok_run": "2026-11-03T17:40:23Z",
+    "last_ok_run": "2026-11-03T17:45:32Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
