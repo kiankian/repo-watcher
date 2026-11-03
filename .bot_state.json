@@ -126416,6 +126416,42 @@
       "chat_id": 7582459199,
       "seq": 9977,
       "identity": "NOURL|Cox|Software Engineering Intern \ud83d\udec2|Austin, TX|Nov 03#1"
+    },
+    "e0c07b64678f": {
+      "company": "Zebra",
+      "role": "2027 Summer Internship (US) - Software Engineer",
+      "location": "Holtsville, New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103638?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11247,
+      "chat_id": 7582459199,
+      "seq": 9978,
+      "identity": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103638?s=gh-internships-2027|Zebra|2027 Summer Internship (US) - Software Engineer|Holtsville, New York|Summer 2027#1"
+    },
+    "c0d506450a50": {
+      "company": "Arrowstreet Capital",
+      "role": "Software Engineer Intern, Summer 2027",
+      "location": "Boston",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-arrowstreetcapital-campus-careers-R1561?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11248,
+      "chat_id": 7582459199,
+      "seq": 9979,
+      "identity": "https://zapply.jobs/l/d/workday-arrowstreetcapital-campus-careers-R1561?s=gh-internships-2027|Arrowstreet Capital|Software Engineer Intern, Summer 2027|Boston|Summer 2027#1"
+    },
+    "9a300f9d6f0b": {
+      "company": "Dell Technologies",
+      "role": "CSG Software Engineering Undergraduate Intern",
+      "location": "TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-dell-technologies-298217?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11249,
+      "chat_id": 7582459199,
+      "seq": 9980,
+      "identity": "https://zapply.jobs/l/d/oracle-dell-technologies-298217?s=gh-internships-2027|Dell Technologies|CSG Software Engineering Undergraduate Intern|TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -126783,10 +126819,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9977,
+  "seq": 9980,
   "health": {
     "last_heartbeat": "2026-11-03T15:40:29Z",
-    "last_ok_run": "2026-11-03T16:40:18Z",
+    "last_ok_run": "2026-11-03T16:45:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
