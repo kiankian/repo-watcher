@@ -124976,6 +124976,18 @@
       "chat_id": 7582459199,
       "seq": 9857,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885577?s=gh-internships-2027|RTX|Systems Engineering Intern, BMC2 (Onsite)|FL-ST PETERSBURG|Summer 2027#1"
+    },
+    "3f91a15ce1ef": {
+      "company": "American Express",
+      "role": "Undergraduate Program AI Engineer Intern, Enterprise Technology Services",
+      "location": "Toronto, Canada",
+      "term": "Nov 01",
+      "apply_url": "https://go.vansh.nyc/1bH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11127,
+      "chat_id": 7582459199,
+      "seq": 9858,
+      "identity": "https://go.vansh.nyc/1bH?s=y|American Express|Undergraduate Program AI Engineer Intern, Enterprise Technology Services|Toronto, Canada|Nov 01#1"
     }
   },
   "applied": {
@@ -125343,10 +125355,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9857,
+  "seq": 9858,
   "health": {
     "last_heartbeat": "2026-11-02T23:55:16Z",
-    "last_ok_run": "2026-11-03T01:05:15Z",
+    "last_ok_run": "2026-11-03T01:10:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
