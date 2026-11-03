@@ -126344,6 +126344,30 @@
       "chat_id": 7582459199,
       "seq": 9971,
       "identity": "https://go.vansh.nyc/1dE?s=y|Arch Capital Group|Data and Analytics Intern|Farmington, CT|Nov 03#1"
+    },
+    "ac3862783500": {
+      "company": "Cox",
+      "role": "Software Engineering Intern \ud83d\udec2",
+      "location": "Austin, TX",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1dF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11241,
+      "chat_id": 7582459199,
+      "seq": 9972,
+      "identity": "https://go.vansh.nyc/1dF?s=y|Cox|Software Engineering Intern \ud83d\udec2|Austin, TX|Nov 03#1"
+    },
+    "44d0b19bff02": {
+      "company": "Westinghouse Electric Company",
+      "role": "Application Development Intern",
+      "location": "Cranberry Township, PA",
+      "term": "Sep 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11242,
+      "chat_id": 7582459199,
+      "seq": 9973,
+      "identity": "NOURL|Westinghouse Electric Company|Application Development Intern|Cranberry Township, PA|Sep 04#1"
     }
   },
   "applied": {
@@ -126711,10 +126735,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9971,
+  "seq": 9973,
   "health": {
     "last_heartbeat": "2026-11-03T15:40:29Z",
-    "last_ok_run": "2026-11-03T15:40:29Z",
+    "last_ok_run": "2026-11-03T15:45:37Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
