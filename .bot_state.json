@@ -127256,6 +127256,30 @@
       "chat_id": 7582459199,
       "seq": 10047,
       "identity": "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004|Epic Games|Frontend Programmer Intern|Pittsburgh, PA +1|Other#1"
+    },
+    "bbd9acaaa854": {
+      "company": "Hewlett Packard (HP)",
+      "role": "Software Engineering Intern, AIML Platform",
+      "location": "San Francisco, CA",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1e0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11317,
+      "chat_id": 7582459199,
+      "seq": 10048,
+      "identity": "https://go.vansh.nyc/1e0?s=y|Hewlett Packard (HP)|Software Engineering Intern, AIML Platform|San Francisco, CA|Nov 03#1"
+    },
+    "dcf88f6646f4": {
+      "company": "C&S Wholesale Grocers",
+      "role": "IS Intern, Data Analytics & Data Science",
+      "location": "Edison, NJ",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11318,
+      "chat_id": 7582459199,
+      "seq": 10049,
+      "identity": "NOURL|C&S Wholesale Grocers|IS Intern, Data Analytics & Data Science|Edison, NJ|Oct 30#1"
     }
   },
   "applied": {
@@ -127623,10 +127647,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10047,
+  "seq": 10049,
   "health": {
     "last_heartbeat": "2026-11-03T18:55:24Z",
-    "last_ok_run": "2026-11-03T19:40:30Z",
+    "last_ok_run": "2026-11-03T19:45:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
