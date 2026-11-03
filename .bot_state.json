@@ -124988,6 +124988,30 @@
       "chat_id": 7582459199,
       "seq": 9858,
       "identity": "https://go.vansh.nyc/1bH?s=y|American Express|Undergraduate Program AI Engineer Intern, Enterprise Technology Services|Toronto, Canada|Nov 01#1"
+    },
+    "7ed3ca77d508": {
+      "company": "Shield",
+      "role": "Embedded Firmware Intern",
+      "location": "Dallas, TX",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1bJ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11128,
+      "chat_id": 7582459199,
+      "seq": 9859,
+      "identity": "https://go.vansh.nyc/1bJ?s=y|Shield|Embedded Firmware Intern|Dallas, TX|Nov 02#1"
+    },
+    "14978db2de9f": {
+      "company": "Micron Technology",
+      "role": "System Engineer Intern, HBM",
+      "location": "Boise, ID",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1bI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11129,
+      "chat_id": 7582459199,
+      "seq": 9860,
+      "identity": "https://go.vansh.nyc/1bI?s=y|Micron Technology|System Engineer Intern, HBM|Boise, ID|Nov 02#1"
     }
   },
   "applied": {
@@ -125355,10 +125379,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9858,
+  "seq": 9860,
   "health": {
     "last_heartbeat": "2026-11-03T01:20:15Z",
-    "last_ok_run": "2026-11-03T02:10:17Z",
+    "last_ok_run": "2026-11-03T02:15:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
