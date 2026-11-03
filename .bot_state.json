@@ -127280,6 +127280,66 @@
       "chat_id": 7582459199,
       "seq": 10049,
       "identity": "NOURL|C&S Wholesale Grocers|IS Intern, Data Analytics & Data Science|Edison, NJ|Oct 30#1"
+    },
+    "cab223521caf": {
+      "company": "Northrop Grumman",
+      "role": "2027 Ground Software Engineer Intern - Redondo Beach CA",
+      "location": "United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10259057?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11319,
+      "chat_id": 7582459199,
+      "seq": 10050,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10259057?s=gh-internships-2027|Northrop Grumman|2027 Ground Software Engineer Intern - Redondo Beach CA|United...|Summer 2027#1"
+    },
+    "10af924b7b91": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "UT-WEST VALLEY CITY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01886446?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11320,
+      "chat_id": 7582459199,
+      "seq": 10051,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01886446?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|UT-WEST VALLEY CITY|Summer 2027#1"
+    },
+    "dab349458044": {
+      "company": "HP Inc",
+      "role": "Software Engineering Intern, Product & Developer Productivity - HP IQ",
+      "location": "San Francisco, California,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-hp-externalcareersite-UNI4803?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11321,
+      "chat_id": 7582459199,
+      "seq": 10052,
+      "identity": "https://zapply.jobs/l/d/workday-hp-externalcareersite-UNI4803?s=gh-internships-2027|HP Inc|Software Engineering Intern, Product & Developer Productivity - HP IQ|San Francisco, California,...|Summer 2027#1"
+    },
+    "069f63f50502": {
+      "company": "HP Inc",
+      "role": "Software Engineering Intern, AIML Platform - HP IQ",
+      "location": "San Francisco, California,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-hp-externalcareersite-UNI4800?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11322,
+      "chat_id": 7582459199,
+      "seq": 10053,
+      "identity": "https://zapply.jobs/l/d/workday-hp-externalcareersite-UNI4800?s=gh-internships-2027|HP Inc|Software Engineering Intern, AIML Platform - HP IQ|San Francisco, California,...|Summer 2027#1"
+    },
+    "4a5145796838": {
+      "company": "CFS Energy",
+      "role": "Intern - Software Engineer - Summer 2027",
+      "location": "Devens, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-cfsenergy-f71bb176-75b9-4a30-8b2a-e3078b45505d?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11323,
+      "chat_id": 7582459199,
+      "seq": 10054,
+      "identity": "https://zapply.jobs/l/d/lever-cfsenergy-f71bb176-75b9-4a30-8b2a-e3078b45505d?s=gh-internships-2027|CFS Energy|Intern - Software Engineer - Summer 2027|Devens, MA|Summer 2027#1"
     }
   },
   "applied": {
@@ -127647,10 +127707,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10049,
+  "seq": 10054,
   "health": {
     "last_heartbeat": "2026-11-03T18:55:24Z",
-    "last_ok_run": "2026-11-03T19:50:19Z",
+    "last_ok_run": "2026-11-03T19:55:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
