@@ -127086,7 +127086,7 @@
   "seq": 10002,
   "health": {
     "last_heartbeat": "2026-11-03T17:55:24Z",
-    "last_ok_run": "2026-11-03T18:45:24Z",
+    "last_ok_run": "2026-11-03T18:50:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
