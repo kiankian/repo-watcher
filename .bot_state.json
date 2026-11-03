@@ -126296,6 +126296,42 @@
       "chat_id": 7582459199,
       "seq": 9967,
       "identity": "NOURL|SOTI|Software Developer Intern|Mississauga, ON|Oct 20#1"
+    },
+    "0fa4b24de2ce": {
+      "company": "Northrop Grumman",
+      "role": "Cyber Systems Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Roy, UT",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1dD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11237,
+      "chat_id": 7582459199,
+      "seq": 9968,
+      "identity": "https://go.vansh.nyc/1dD?s=y|Northrop Grumman|Cyber Systems Engineer Intern \ud83c\uddfa\ud83c\uddf8|Roy, UT|Nov 03#1"
+    },
+    "2b4cc8ff6484": {
+      "company": "Eurofins",
+      "role": "Business Intelligence Intern",
+      "location": "Lancaster, PA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1dC?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11238,
+      "chat_id": 7582459199,
+      "seq": 9969,
+      "identity": "https://go.vansh.nyc/1dC?s=y|Eurofins|Business Intelligence Intern|Lancaster, PA|Nov 02#1"
+    },
+    "3a07fe65ceca": {
+      "company": "Leidos",
+      "role": "Cloud Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Remote in USA",
+      "term": "Oct 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11239,
+      "chat_id": 7582459199,
+      "seq": 9970,
+      "identity": "NOURL|Leidos|Cloud Engineering Intern \ud83c\uddfa\ud83c\uddf8|Remote in USA|Oct 16#1"
     }
   },
   "applied": {
@@ -126663,10 +126699,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9967,
+  "seq": 9970,
   "health": {
     "last_heartbeat": "2026-11-03T14:40:29Z",
-    "last_ok_run": "2026-11-03T14:40:29Z",
+    "last_ok_run": "2026-11-03T14:45:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
