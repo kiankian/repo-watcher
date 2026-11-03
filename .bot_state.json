@@ -126380,6 +126380,42 @@
       "chat_id": 7582459199,
       "seq": 9974,
       "identity": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015722?utm_source=Simplify&ref=Simplify|American Express|Campus Undergraduate Summer Internship Program - Software Engineer 2027 - Enterprise Technology Services|Sunnyvale, CA|Summer 2026#1"
+    },
+    "3a62312d0087": {
+      "company": "Two Six Technologies",
+      "role": "Security Operations Intern",
+      "location": "Arlington, VA",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1dI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11244,
+      "chat_id": 7582459199,
+      "seq": 9975,
+      "identity": "https://go.vansh.nyc/1dI?s=y|Two Six Technologies|Security Operations Intern|Arlington, VA|Nov 03#1"
+    },
+    "6309c6973441": {
+      "company": "American Express",
+      "role": "Undergraduate Program Software Engineer Intern, Enterprise Technology Services",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1dH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11245,
+      "chat_id": 7582459199,
+      "seq": 9976,
+      "identity": "https://go.vansh.nyc/1dH?s=y|American Express|Undergraduate Program Software Engineer Intern, Enterprise Technology Services|Sunnyvale, CA|Nov 03#1"
+    },
+    "3ffb35472c93": {
+      "company": "Cox",
+      "role": "Software Engineering Intern \ud83d\udec2",
+      "location": "Austin, TX",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11246,
+      "chat_id": 7582459199,
+      "seq": 9977,
+      "identity": "NOURL|Cox|Software Engineering Intern \ud83d\udec2|Austin, TX|Nov 03#1"
     }
   },
   "applied": {
@@ -126747,10 +126783,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9974,
+  "seq": 9977,
   "health": {
     "last_heartbeat": "2026-11-03T15:40:29Z",
-    "last_ok_run": "2026-11-03T16:10:23Z",
+    "last_ok_run": "2026-11-03T16:15:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
