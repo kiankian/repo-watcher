@@ -7097,286 +7097,36 @@
       "https://go.vansh.nyc/1cF?s=y|Momentive|Data Science Intern, Enterprise Reporting & Analytics|Niskayuna, NY|Nov 02#1",
       "https://go.vansh.nyc/1d3?s=y|Micron Technology|Data Center SSD Firmware Intern|Longmont, CO|Nov 02#1",
       "https://go.vansh.nyc/1d4?s=y|Micron Technology|Firmware Engineer Intern|Longmont, CO|Nov 02#1",
-      "https://go.vansh.nyc/1d5?s=y|Micron Technology|AI Engineering Intern, SMAI TD|Boise, ID|Nov 02#1"
+      "https://go.vansh.nyc/1d5?s=y|Micron Technology|AI Engineering Intern, SMAI TD|Boise, ID|Nov 02#1",
+      "https://go.vansh.nyc/1d6?s=y|Micron Technology|IT Software Engineer Intern|Boise, ID|Nov 02#1",
+      "https://go.vansh.nyc/1d7?s=y|Micron Technology|SSD Firmware Intern, CICD|Longmont, CO|Nov 02#1",
+      "https://go.vansh.nyc/1cA?s=y|Johnson & Johnson|Software Engineering Co-op|Cincinnati, OH|Nov 02#1",
+      "https://go.vansh.nyc/1cB?s=y|Johnson & Johnson|Data Science Co-op|Cincinnati, OH|Nov 02#1",
+      "https://go.vansh.nyc/1d1?s=y|Inmar Intelligence|Data, Analytics & AI Intern|Winston Salem, NC|Nov 02#1",
+      "https://go.vansh.nyc/1d2?s=y|Inmar Intelligence|Software Engineering Intern|Winston Salem, NC|Nov 02#1",
+      "https://go.vansh.nyc/1d0?s=y|IGS Energy|Software Engineer Intern|Remote United States|Nov 02#1",
+      "https://go.vansh.nyc/1cV?s=y|Guardian Life|Data Engineering Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1",
+      "https://go.vansh.nyc/1cW?s=y|Guardian Life|AI & Machine Learning Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1",
+      "https://go.vansh.nyc/1cX?s=y|Guardian Life|Application Development Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1",
+      "https://go.vansh.nyc/1cY?s=y|Guardian Life|Cloud & DevOps Intern, Digital & Technology|Bethlehem, PA Holmdel, NJ|Nov 02#1",
+      "https://go.vansh.nyc/1cZ?s=y|Guardian Life|Cybersecurity Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1",
+      "https://go.vansh.nyc/1cx?s=y|Graco|AI Intern|Dayton, MN|Nov 02#1",
+      "https://go.vansh.nyc/1cy?s=y|Graco|Cybersecurity Intern|Dayton, MN|Nov 02#1",
+      "https://go.vansh.nyc/1cu?s=y|Gordon Food Service|Data Science Engineer Intern|Atlanta, GA|Nov 02#1",
+      "https://go.vansh.nyc/1cv?s=y|Gordon Food Service|Cloud DevOps Intern|Atlanta, GA|Nov 02#1",
+      "https://go.vansh.nyc/1cw?s=y|Gordon Food Service|Data Engineering Intern|Atlanta, GA|Nov 02#1",
+      "https://go.vansh.nyc/1cN?s=y|FHLBank Chicago|Cybersecurity Intern|Chicago, IL|Nov 02#1",
+      "https://go.vansh.nyc/1cr?s=y|DriveTime|Software Engineering Intern|Tempe, AZ|Nov 02#1",
+      "https://go.vansh.nyc/1cs?s=y|DriveTime|Database Engineering Intern|Tempe, AZ|Nov 02#1",
+      "https://go.vansh.nyc/1ct?s=y|DriveTime|Data Science Intern|Tempe, AZ Dallas, TX|Nov 02#1",
+      "https://go.vansh.nyc/1cq?s=y|Cincinnati Children\u2019s Hospital and Medical Center|Student II Security Analyst Intern|Remote United States|Nov 02#1",
+      "https://go.vansh.nyc/1cL?s=y|Auto-Owners Insurance|Data Engineering Intern \ud83d\udec2|Lansing, MI|Nov 02#1",
+      "https://go.vansh.nyc/1cM?s=y|Auto-Owners Insurance|Software Developer Intern \ud83d\udec2|Lansing, MI|Nov 02#1",
+      "NOURL|Rockwell Automation|Cybersecurity Intern \ud83d\udec2|Milwaukee, WI Chelmsford, MA|Oct 27#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 2008,
     "outbox": [
-      [
-        [
-          "Micron Technology",
-          "IT Software Engineer Intern",
-          "Boise, ID",
-          "Nov 02",
-          "https://go.vansh.nyc/1d6?s=y"
-        ],
-        "https://go.vansh.nyc/1d6?s=y|Micron Technology|IT Software Engineer Intern|Boise, ID|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Micron Technology",
-          "SSD Firmware Intern, CICD",
-          "Longmont, CO",
-          "Nov 02",
-          "https://go.vansh.nyc/1d7?s=y"
-        ],
-        "https://go.vansh.nyc/1d7?s=y|Micron Technology|SSD Firmware Intern, CICD|Longmont, CO|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Johnson & Johnson",
-          "Software Engineering Co-op",
-          "Cincinnati, OH",
-          "Nov 02",
-          "https://go.vansh.nyc/1cA?s=y"
-        ],
-        "https://go.vansh.nyc/1cA?s=y|Johnson & Johnson|Software Engineering Co-op|Cincinnati, OH|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Johnson & Johnson",
-          "Data Science Co-op",
-          "Cincinnati, OH",
-          "Nov 02",
-          "https://go.vansh.nyc/1cB?s=y"
-        ],
-        "https://go.vansh.nyc/1cB?s=y|Johnson & Johnson|Data Science Co-op|Cincinnati, OH|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Inmar Intelligence",
-          "Data, Analytics & AI Intern",
-          "Winston Salem, NC",
-          "Nov 02",
-          "https://go.vansh.nyc/1d1?s=y"
-        ],
-        "https://go.vansh.nyc/1d1?s=y|Inmar Intelligence|Data, Analytics & AI Intern|Winston Salem, NC|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Inmar Intelligence",
-          "Software Engineering Intern",
-          "Winston Salem, NC",
-          "Nov 02",
-          "https://go.vansh.nyc/1d2?s=y"
-        ],
-        "https://go.vansh.nyc/1d2?s=y|Inmar Intelligence|Software Engineering Intern|Winston Salem, NC|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "IGS Energy",
-          "Software Engineer Intern",
-          "Remote United States",
-          "Nov 02",
-          "https://go.vansh.nyc/1d0?s=y"
-        ],
-        "https://go.vansh.nyc/1d0?s=y|IGS Energy|Software Engineer Intern|Remote United States|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Guardian Life",
-          "Data Engineering Intern, Digital & Technology",
-          "New York, NY Bethlehem, PA Holmdel, NJ",
-          "Nov 02",
-          "https://go.vansh.nyc/1cV?s=y"
-        ],
-        "https://go.vansh.nyc/1cV?s=y|Guardian Life|Data Engineering Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Guardian Life",
-          "AI & Machine Learning Intern, Digital & Technology",
-          "New York, NY Bethlehem, PA Holmdel, NJ",
-          "Nov 02",
-          "https://go.vansh.nyc/1cW?s=y"
-        ],
-        "https://go.vansh.nyc/1cW?s=y|Guardian Life|AI & Machine Learning Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Guardian Life",
-          "Application Development Intern, Digital & Technology",
-          "New York, NY Bethlehem, PA Holmdel, NJ",
-          "Nov 02",
-          "https://go.vansh.nyc/1cX?s=y"
-        ],
-        "https://go.vansh.nyc/1cX?s=y|Guardian Life|Application Development Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Guardian Life",
-          "Cloud & DevOps Intern, Digital & Technology",
-          "Bethlehem, PA Holmdel, NJ",
-          "Nov 02",
-          "https://go.vansh.nyc/1cY?s=y"
-        ],
-        "https://go.vansh.nyc/1cY?s=y|Guardian Life|Cloud & DevOps Intern, Digital & Technology|Bethlehem, PA Holmdel, NJ|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Guardian Life",
-          "Cybersecurity Intern, Digital & Technology",
-          "New York, NY Bethlehem, PA Holmdel, NJ",
-          "Nov 02",
-          "https://go.vansh.nyc/1cZ?s=y"
-        ],
-        "https://go.vansh.nyc/1cZ?s=y|Guardian Life|Cybersecurity Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Graco",
-          "AI Intern",
-          "Dayton, MN",
-          "Nov 02",
-          "https://go.vansh.nyc/1cx?s=y"
-        ],
-        "https://go.vansh.nyc/1cx?s=y|Graco|AI Intern|Dayton, MN|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Graco",
-          "Cybersecurity Intern",
-          "Dayton, MN",
-          "Nov 02",
-          "https://go.vansh.nyc/1cy?s=y"
-        ],
-        "https://go.vansh.nyc/1cy?s=y|Graco|Cybersecurity Intern|Dayton, MN|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Gordon Food Service",
-          "Data Science Engineer Intern",
-          "Atlanta, GA",
-          "Nov 02",
-          "https://go.vansh.nyc/1cu?s=y"
-        ],
-        "https://go.vansh.nyc/1cu?s=y|Gordon Food Service|Data Science Engineer Intern|Atlanta, GA|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Gordon Food Service",
-          "Cloud DevOps Intern",
-          "Atlanta, GA",
-          "Nov 02",
-          "https://go.vansh.nyc/1cv?s=y"
-        ],
-        "https://go.vansh.nyc/1cv?s=y|Gordon Food Service|Cloud DevOps Intern|Atlanta, GA|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Gordon Food Service",
-          "Data Engineering Intern",
-          "Atlanta, GA",
-          "Nov 02",
-          "https://go.vansh.nyc/1cw?s=y"
-        ],
-        "https://go.vansh.nyc/1cw?s=y|Gordon Food Service|Data Engineering Intern|Atlanta, GA|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "FHLBank Chicago",
-          "Cybersecurity Intern",
-          "Chicago, IL",
-          "Nov 02",
-          "https://go.vansh.nyc/1cN?s=y"
-        ],
-        "https://go.vansh.nyc/1cN?s=y|FHLBank Chicago|Cybersecurity Intern|Chicago, IL|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "DriveTime",
-          "Software Engineering Intern",
-          "Tempe, AZ",
-          "Nov 02",
-          "https://go.vansh.nyc/1cr?s=y"
-        ],
-        "https://go.vansh.nyc/1cr?s=y|DriveTime|Software Engineering Intern|Tempe, AZ|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "DriveTime",
-          "Database Engineering Intern",
-          "Tempe, AZ",
-          "Nov 02",
-          "https://go.vansh.nyc/1cs?s=y"
-        ],
-        "https://go.vansh.nyc/1cs?s=y|DriveTime|Database Engineering Intern|Tempe, AZ|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "DriveTime",
-          "Data Science Intern",
-          "Tempe, AZ Dallas, TX",
-          "Nov 02",
-          "https://go.vansh.nyc/1ct?s=y"
-        ],
-        "https://go.vansh.nyc/1ct?s=y|DriveTime|Data Science Intern|Tempe, AZ Dallas, TX|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Cincinnati Children\u2019s Hospital and Medical Center",
-          "Student II Security Analyst Intern",
-          "Remote United States",
-          "Nov 02",
-          "https://go.vansh.nyc/1cq?s=y"
-        ],
-        "https://go.vansh.nyc/1cq?s=y|Cincinnati Children\u2019s Hospital and Medical Center|Student II Security Analyst Intern|Remote United States|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Auto-Owners Insurance",
-          "Data Engineering Intern \ud83d\udec2",
-          "Lansing, MI",
-          "Nov 02",
-          "https://go.vansh.nyc/1cL?s=y"
-        ],
-        "https://go.vansh.nyc/1cL?s=y|Auto-Owners Insurance|Data Engineering Intern \ud83d\udec2|Lansing, MI|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Auto-Owners Insurance",
-          "Software Developer Intern \ud83d\udec2",
-          "Lansing, MI",
-          "Nov 02",
-          "https://go.vansh.nyc/1cM?s=y"
-        ],
-        "https://go.vansh.nyc/1cM?s=y|Auto-Owners Insurance|Software Developer Intern \ud83d\udec2|Lansing, MI|Nov 02#1",
-        1
-      ],
-      [
-        [
-          "Rockwell Automation",
-          "Cybersecurity Intern \ud83d\udec2",
-          "Milwaukee, WI Chelmsford, MA",
-          "Oct 27",
-          ""
-        ],
-        "NOURL|Rockwell Automation|Cybersecurity Intern \ud83d\udec2|Milwaukee, WI Chelmsford, MA|Oct 27#1",
-        1
-      ],
       [
         [
           "Xcel Energy",
@@ -7391,7 +7141,7 @@
     ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "bf381ba472a693a6857872c4cda1a60848fe9b64",
+    "last_sha": "3dff8cd1d78d11b8304788528e52d0ad0c372e89",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
