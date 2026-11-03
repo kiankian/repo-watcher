@@ -59,6 +59,8 @@ Each entry in `.watcher_state.json` has the same shape:
 { "last_sha": "...",
   "seen": ["<identity>", "..."],
   "seen_legacy_urls": ["<url>", "..."],
+  "bootstrap": ["<identity>", "..."],
+  "bootstrap_legacy_urls": ["<url>", "..."],
   "last_row_count": 28,
   "outbox": [[["company", "role", "location", "term", "url"], "<identity>", 1]] }
 ```
@@ -76,10 +78,12 @@ Each entry in `.watcher_state.json` has the same shape:
    previous row's company.
 6. **Empty-parse guard:** zero rows means marker or format drift. Report `⚠️ zero-rows`, mark the
    run unhealthy, never seed an empty set, never advance the SHA — but still drain the outbox.
-7. **Silent bootstrap:** no `seen` yet → seed identities from the current rows and alert nothing.
-   `seen_legacy_urls` stays empty, or a requisition relisted for a new season could never alert.
-8. Otherwise select rows whose identity is absent from `seen` and whose URL is absent from
-   `seen_legacy_urls`. Prepend anything already in the `outbox` so the oldest work drains first.
+7. **Silent bootstrap:** no `seen` yet → seed identities from the current rows into `bootstrap`
+   and alert nothing. `seen` stays empty because nothing was delivered, and both legacy sets stay
+   empty, or a requisition relisted for a new season could never alert.
+8. Otherwise select rows whose identity is absent from `seen ∪ bootstrap` and whose URL is absent
+   from `seen_legacy_urls ∪ bootstrap_legacy_urls` (`suppression_sets`). Prepend anything already
+   in the `outbox` so the oldest work drains first.
 9. Deliver, capped at `BURST_CAP` attempts and the whole-run time budget.
 10. Union the confirmed identities into `seen` (capped at `SEEN_CAP`, oldest evicted). Undelivered
     rows go back to the `outbox`. Advance `last_sha` only if a snapshot was actually parsed.
@@ -98,6 +102,40 @@ Why an append-only identity set rather than a snapshot diff:
 `seen_legacy_urls` holds bare apply URLs inherited from the pre-2026-07-30 cumulative-URL sources
 (Zapply and Speedyapply). Those records carried no term, so they can only be matched on URL. The
 set is static and can be dropped once those listings have aged out.
+
+### Why the bootstrap mute is stored separately
+
+A row is silenced for one of two reasons, and until 2026-08-03 the state could not tell them
+apart: both landed in `seen`. The distinction matters because only one of them is recoverable.
+
+| set | meaning | released by |
+|---|---|---|
+| `seen`, `seen_legacy_urls` | delivered — the alert was sent and confirmed | never; re-sending is a duplicate |
+| `bootstrap`, `bootstrap_legacy_urls` | muted at initialization — never sent | `release_bootstrap` dispatch input |
+
+Both suppress, so the split changes nothing a run does on its own. What it changes is that the
+mute is now countable (`bootstrap_muted` in the run log) and reversible.
+
+The failure it addresses: Zapply's SWE table is capped at ~100 rows and re-sorted by recency, so
+bootstrapping it on 2026-07-21 muted the entire visible board. Thirteen days later 51 of those
+listings were still posted, still unsent, and nothing in the state recorded that they had never
+gone out — diagnosing it meant replaying 487 upstream commits and cross-checking `.bot_state.json`.
+ByteDance's three San Jose SWE rows were in that set; the only Zapply messages ever sent for them
+were the dead-`#`-link duplicates from the 2026-08-01 upstream breakage.
+
+**Migration.** A source already on the unified shape has its legacy URLs split by delivery: any URL
+with no record in `.bot_state.json` was never sent to anyone, so it is mute rather than history and
+moves to `bootstrap_legacy_urls`. Union suppression is unchanged by the move, so **the first run
+after the upgrade alerts nothing** — verified against the committed state files in
+`tests/test_core.py::test_migrating_the_real_state_files_is_safe`. The split is only as accurate as
+`.bot_state.json`: a delivery whose record has been evicted reads as never-delivered, and the cost
+of that error is one duplicate if the mute is later released.
+
+**Re-alert implications of releasing.** Releasing empties the two bootstrap sets and touches
+nothing else. Released rows are not replayed — they are simply no longer suppressed, so the next
+parse selects the ones still listed as new and they leave through the outbox at `BURST_CAP` per
+run. Rows that have left the board produce nothing. `seen` is untouched, so a delivered alert
+cannot repeat, and re-dispatching a release is a no-op because the sets are already empty.
 
 ## Repo Format Details
 
@@ -243,8 +281,8 @@ zero times.
 
 Classification:
 
-- Alert a row iff its identity is absent from `seen` **and** its URL is absent from
-  `seen_legacy_urls`.
+- Alert a row iff its identity is absent from `seen ∪ bootstrap` **and** its URL is absent from
+  `seen_legacy_urls ∪ bootstrap_legacy_urls`.
 - `seen` is a union that only ever grows, so a shrinking parse cannot resurrect old listings.
 - An identity is added to `seen` only after Telegram confirms the message. Undelivered rows are
   persisted in the `outbox` and retried, so a failed send is never silently dropped.
