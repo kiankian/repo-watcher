@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "08e4f5782a9f78fda4352627887390541973a2e9",
+    "last_sha": "05c7a09f8f7f0de78800ba3a4327fe4cd583acac",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2851,10 +2851,23 @@
       "https://labcorp.wd1.myworkdayjobs.com/external/job/Durham-NC/Co-op---Full-Stack-Life-Sciences-Engineer_2639083?utm_source=Simplify&ref=Simplify|LabCorp|Full-Stack Life Sciences Software Engineer Co-op|Durham, NC Burlington, NC|Summer 2026#1",
       "https://kla.wd1.myworkdayjobs.com/search/job/Austin-TX/Software-Engineering-Intern_2642004-1?utm_source=Simplify&ref=Simplify|KLA Corporation|Software Engineer Intern|Austin, TX|Summer 2026#1",
       "https://kla.wd1.myworkdayjobs.com/UR/job/Austin-TX/Software-Engineering-Intern_2642004?utm_source=Simplify&ref=Simplify|KLA Corporation|Software Engineer Intern|Austin, TX|Summer 2026#1",
-      "https://epicgames.com/careers/jobs/6239259004?gh_jid=6239259004&utm_source=Simplify&ref=Simplify|Epic Games|Tools Programmer Intern - Graphics|Cary, NC|Summer 2026#1"
+      "https://epicgames.com/careers/jobs/6239259004?gh_jid=6239259004&utm_source=Simplify&ref=Simplify|Epic Games|Tools Programmer Intern - Graphics|Cary, NC|Summer 2026#1",
+      "https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=10998&utm_source=Simplify&ref=Simplify|Costco|CDS Intern - Innovation|Issaquah, WA|Summer 2026#1",
+      "https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=10994&utm_source=Simplify&ref=Simplify|Costco|Costco Digital Services Intern - Infosec AI/ML|Issaquah, WA|Summer 2026#1",
+      "https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=10993&utm_source=Simplify&ref=Simplify|Costco|Software Engineer Intern - International Depot|Issaquah, WA|Summer 2026#1",
+      "https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=11001&utm_source=Simplify&ref=Simplify|Costco|CDS Intern - Powerapps Developer - ECM Digital Workflow|Issaquah, WA|Summer 2026#1",
+      "https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=11013&utm_source=Simplify&ref=Simplify|Costco|CDS Intern - Software Engineer - IT Retail Media|Issaquah, WA|Summer 2026#1",
+      "https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19816?utm_source=Simplify&ref=Simplify|Resideo|Mobile Software Engineer Intern|Austin, TX|Summer 2026#1",
+      "https://jobs.smartrecruiters.com/WellmarkInc/744000159260670?utm_source=Simplify&ref=Simplify|Wellmark|Software Engineer Intern - AI Platform Team|Des Moines, IA|Summer 2026#1",
+      "https://triafed.com/jobs/?gh_jid=5470246008&utm_source=Simplify&ref=Simplify|Tria Federal|Growth Operations Intern|Arlington County, Arlington, VA|Summer 2026#1",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Arizona-Chandler/XMLNAME-2027-Engineering-Intern--Software-Mission-Assurance-Quality----Chandler-AZ_R10258848?utm_source=Simplify&ref=Simplify|Northrop Grumman|Engineering Intern - Multiple Teams|Chandler, AZ|Summer 2026#1",
+      "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Patient-Data-Learning---Co-op_R424526?utm_source=Simplify&ref=Simplify|Merck|Future Talent Program Co-op - Patient Data Learning \ud83c\udf93|Cambridge, MA|Summer 2026#1",
+      "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105182?utm_source=Simplify&ref=Simplify|JM Family|Software Engineer Intern|Deerfield Beach, FL|Summer 2026#1",
+      "https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=11021&utm_source=Simplify&ref=Simplify|Costco|Software Developer Intern - Software Engineer - Costco Travel|Issaquah, WA|Summer 2026#1",
+      "https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=11010&utm_source=Simplify&ref=Simplify|Costco|CDS Intern - ECM Platform Management|Issaquah, WA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 537,
+    "last_row_count": 554,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -7009,7 +7022,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "f6cb0397ec1b8e70aa54cd495f90304e64128b74",
+    "last_sha": "10698ece952d6fa9cc407d5ef5ecfc1658e11762",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
