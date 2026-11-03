@@ -126116,6 +126116,42 @@
       "chat_id": 7582459199,
       "seq": 9952,
       "identity": "NOURL|Xcel Energy|Grid Data Intern|Minneapolis, MN|Sep 06#1"
+    },
+    "9f8278644b42": {
+      "company": "KLA",
+      "role": "PLM BI & Analytics Intern",
+      "location": "Ann Arbor, MI",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1dm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11222,
+      "chat_id": 7582459199,
+      "seq": 9953,
+      "identity": "https://go.vansh.nyc/1dm?s=y|KLA|PLM BI & Analytics Intern|Ann Arbor, MI|Nov 02#1"
+    },
+    "10e801608fe2": {
+      "company": "Ingredion",
+      "role": "AI & Data Scientist Intern",
+      "location": "Westchester, IL",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1dn?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11223,
+      "chat_id": 7582459199,
+      "seq": 9954,
+      "identity": "https://go.vansh.nyc/1dn?s=y|Ingredion|AI & Data Scientist Intern|Westchester, IL|Nov 02#1"
+    },
+    "0099fc0f4786": {
+      "company": "Ingredion",
+      "role": "Global Supply Chain Data Science Intern",
+      "location": "Westchester, IL",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1do?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11224,
+      "chat_id": 7582459199,
+      "seq": 9955,
+      "identity": "https://go.vansh.nyc/1do?s=y|Ingredion|Global Supply Chain Data Science Intern|Westchester, IL|Nov 02#1"
     }
   },
   "applied": {
@@ -126483,10 +126519,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 9952,
+  "seq": 9955,
   "health": {
     "last_heartbeat": "2026-11-03T06:40:17Z",
-    "last_ok_run": "2026-11-03T07:10:30Z",
+    "last_ok_run": "2026-11-03T07:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
