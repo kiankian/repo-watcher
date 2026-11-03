@@ -128180,6 +128180,78 @@
       "chat_id": 7582459199,
       "seq": 10124,
       "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380652?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|Atlanta, Georgia|Summer 2027#1"
+    },
+    "e4fd13f6b646": {
+      "company": "Simon Property Group",
+      "role": "Project Delivery Intern",
+      "location": "Indianapolis, IN",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1fr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11394,
+      "chat_id": 7582459199,
+      "seq": 10125,
+      "identity": "https://go.vansh.nyc/1fr?s=y|Simon Property Group|Project Delivery Intern|Indianapolis, IN|Nov 03#1"
+    },
+    "e00fe27d21c0": {
+      "company": "Simon Property Group",
+      "role": "Front End Developer Intern",
+      "location": "Indianapolis, IN",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1fs?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11395,
+      "chat_id": 7582459199,
+      "seq": 10126,
+      "identity": "https://go.vansh.nyc/1fs?s=y|Simon Property Group|Front End Developer Intern|Indianapolis, IN|Nov 03#1"
+    },
+    "2f26e6f3ec81": {
+      "company": "Simon Property Group",
+      "role": "Data Engineering Intern",
+      "location": "Indianapolis, IN",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1ft?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11396,
+      "chat_id": 7582459199,
+      "seq": 10127,
+      "identity": "https://go.vansh.nyc/1ft?s=y|Simon Property Group|Data Engineering Intern|Indianapolis, IN|Nov 03#1"
+    },
+    "7964983f6c3a": {
+      "company": "Republic Airways",
+      "role": "Data Analytics Intern \ud83d\udec2",
+      "location": "Carmel, IN",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1fq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11397,
+      "chat_id": 7582459199,
+      "seq": 10128,
+      "identity": "https://go.vansh.nyc/1fq?s=y|Republic Airways|Data Analytics Intern \ud83d\udec2|Carmel, IN|Nov 03#1"
+    },
+    "30a005d3356f": {
+      "company": "McKesson",
+      "role": "CMM Technology Intern",
+      "location": "Columbus, OH",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1fp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11398,
+      "chat_id": 7582459199,
+      "seq": 10129,
+      "identity": "https://go.vansh.nyc/1fp?s=y|McKesson|CMM Technology Intern|Columbus, OH|Nov 03#1"
+    },
+    "0a9c576a3c15": {
+      "company": "GreatAmerica Financial Services",
+      "role": "Software Engineer Intern",
+      "location": "Cedar Rapids, IA",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1fo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11399,
+      "chat_id": 7582459199,
+      "seq": 10130,
+      "identity": "https://go.vansh.nyc/1fo?s=y|GreatAmerica Financial Services|Software Engineer Intern|Cedar Rapids, IA|Nov 03#1"
     }
   },
   "applied": {
@@ -128547,10 +128619,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10124,
+  "seq": 10130,
   "health": {
     "last_heartbeat": "2026-11-03T22:25:16Z",
-    "last_ok_run": "2026-11-03T23:10:17Z",
+    "last_ok_run": "2026-11-03T23:15:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
