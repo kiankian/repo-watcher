@@ -129308,6 +129308,78 @@
       "chat_id": 7582459199,
       "seq": 10218,
       "identity": "NOURL|VSP Vision|Software Engineer Intern, Technology Innovation|Remote United States|Oct 27#1"
+    },
+    "882d37ca9469": {
+      "company": "Parsons",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Huntsville, AL",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1gI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11488,
+      "chat_id": 7582459199,
+      "seq": 10219,
+      "identity": "https://go.vansh.nyc/1gI?s=y|Parsons|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Huntsville, AL|Nov 04#1"
+    },
+    "b984279f59df": {
+      "company": "BorgWarner",
+      "role": "Software Engineering Intern",
+      "location": "Auburn Hills, MI",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1gH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11489,
+      "chat_id": 7582459199,
+      "seq": 10220,
+      "identity": "https://go.vansh.nyc/1gH?s=y|BorgWarner|Software Engineering Intern|Auburn Hills, MI|Nov 04#1"
+    },
+    "ae1ae76b825d": {
+      "company": "Kudu Dynamics",
+      "role": "Cybersecurity Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Arlington, VA Washington, DC Camp Springs, MD",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11490,
+      "chat_id": 7582459199,
+      "seq": 10221,
+      "identity": "NOURL|Kudu Dynamics|Cybersecurity Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA Washington, DC Camp Springs, MD|Oct 27#1"
+    },
+    "33ec978bfc01": {
+      "company": "American Family Insurance Group",
+      "role": "AI Platform Engineering Intern",
+      "location": "Madison, WI",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11491,
+      "chat_id": 7582459199,
+      "seq": 10222,
+      "identity": "NOURL|American Family Insurance Group|AI Platform Engineering Intern|Madison, WI|Oct 22#1"
+    },
+    "681103cbceb1": {
+      "company": "BorgWarner",
+      "role": "Software Engineering Intern (Year-Round)",
+      "location": "Auburn Hills - Michigan - USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-borgwarner-borgwarner-careers-R2026-2448?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11492,
+      "chat_id": 7582459199,
+      "seq": 10223,
+      "identity": "https://zapply.jobs/l/d/workday-borgwarner-borgwarner-careers-R2026-2448?s=gh-internships-2027|BorgWarner|Software Engineering Intern (Year-Round)|Auburn Hills - Michigan - USA|Summer 2027#1"
+    },
+    "310243ecfcf8": {
+      "company": "Boston Scientific",
+      "role": "Urology R&D Software Engineering Co-op",
+      "location": "Maple Grove US-MN, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/eightfold-bostonscientific-563602813743813?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11493,
+      "chat_id": 7582459199,
+      "seq": 10224,
+      "identity": "https://zapply.jobs/l/d/eightfold-bostonscientific-563602813743813?s=gh-internships-2027|Boston Scientific|Urology R&D Software Engineering Co-op|Maple Grove US-MN, United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -129675,10 +129747,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10218,
+  "seq": 10224,
   "health": {
     "last_heartbeat": "2026-11-04T16:30:19Z",
-    "last_ok_run": "2026-11-04T16:40:23Z",
+    "last_ok_run": "2026-11-04T16:45:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
