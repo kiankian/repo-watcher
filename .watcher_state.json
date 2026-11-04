@@ -2892,7 +2892,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "7f97826e15f7482495a85b3d2e37a377d8629822",
+    "last_sha": "ffebbe493493834a6bdb74e91197e7ae213248f5",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -7279,14 +7279,22 @@
       "NOURL|Context|Intern|San Francisco, CA|Oct 30#1",
       "https://go.vansh.nyc/1fV?s=y|Royal Bank of Canada|AI Engineer Co-op, Capital Markets, Global Equities|Toronto, Canada|Nov 03#1",
       "NOURL|LabCorp|Bioinformatics Intern|Baltimore, MD|Oct 22#1",
-      "NOURL|Smith+Nephew|Embedded Software Engineering Intern|Andover, MA|Oct 21#1"
+      "NOURL|Smith+Nephew|Embedded Software Engineering Intern|Andover, MA|Oct 21#1",
+      "https://go.vansh.nyc/1g5?s=y|United Parcel Service (UPS)|Information Security Intern \ud83c\uddfa\ud83c\uddf8|United States|Nov 03#1",
+      "https://go.vansh.nyc/1fW?s=y|Northrop Grumman|S/W Embedded Engineering Intern \ud83c\uddfa\ud83c\uddf8|Sykesville, MD|Nov 03#1",
+      "https://go.vansh.nyc/1g4?s=y|Pacific Fusion|Software Engineering Intern|San Leandro, CA Fremont, CA Los Lunas, NM|Oct 01#1",
+      "https://go.vansh.nyc/1g3?s=y|CoVar|Machine Learning Intern|Durham, NC|Sep 16#1",
+      "https://go.vansh.nyc/1fZ?s=y|Baidu USA|Forward Deployed Engineer Intern|Mountain View, CA|Sep 11#1",
+      "https://go.vansh.nyc/1fY?s=y|Viam|Software Engineering Intern|New York, NY|Sep 10#1",
+      "https://go.vansh.nyc/1fX?s=y|Rackner|Computer Science Intern|College Park, MD|Jul 24#1",
+      "NOURL|T-Mobile|Software Engineer Intern|Overland Park, KS|Oct 27#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2109,
+    "last_row_count": 2116,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "8897443758bbd1ee8b5326724308f6555488f941",
+    "last_sha": "30094b794f285131301c1c11b0d4c69bd34ee215",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

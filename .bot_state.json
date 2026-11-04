@@ -128636,6 +128636,102 @@
       "chat_id": 7582459199,
       "seq": 10162,
       "identity": "NOURL|Smith+Nephew|Embedded Software Engineering Intern|Andover, MA|Oct 21#1"
+    },
+    "132e96b995a3": {
+      "company": "United Parcel Service (UPS)",
+      "role": "Information Security Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "United States",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1g5?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11432,
+      "chat_id": 7582459199,
+      "seq": 10163,
+      "identity": "https://go.vansh.nyc/1g5?s=y|United Parcel Service (UPS)|Information Security Intern \ud83c\uddfa\ud83c\uddf8|United States|Nov 03#1"
+    },
+    "e58fed47a50a": {
+      "company": "Northrop Grumman",
+      "role": "S/W Embedded Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Sykesville, MD",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1fW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11433,
+      "chat_id": 7582459199,
+      "seq": 10164,
+      "identity": "https://go.vansh.nyc/1fW?s=y|Northrop Grumman|S/W Embedded Engineering Intern \ud83c\uddfa\ud83c\uddf8|Sykesville, MD|Nov 03#1"
+    },
+    "b9a5796c20a7": {
+      "company": "Pacific Fusion",
+      "role": "Software Engineering Intern",
+      "location": "San Leandro, CA Fremont, CA Los Lunas, NM",
+      "term": "Oct 01",
+      "apply_url": "https://go.vansh.nyc/1g4?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11434,
+      "chat_id": 7582459199,
+      "seq": 10165,
+      "identity": "https://go.vansh.nyc/1g4?s=y|Pacific Fusion|Software Engineering Intern|San Leandro, CA Fremont, CA Los Lunas, NM|Oct 01#1"
+    },
+    "6d0779c5236c": {
+      "company": "CoVar",
+      "role": "Machine Learning Intern",
+      "location": "Durham, NC",
+      "term": "Sep 16",
+      "apply_url": "https://go.vansh.nyc/1g3?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11435,
+      "chat_id": 7582459199,
+      "seq": 10166,
+      "identity": "https://go.vansh.nyc/1g3?s=y|CoVar|Machine Learning Intern|Durham, NC|Sep 16#1"
+    },
+    "b0aa9b77e5ca": {
+      "company": "Baidu USA",
+      "role": "Forward Deployed Engineer Intern",
+      "location": "Mountain View, CA",
+      "term": "Sep 11",
+      "apply_url": "https://go.vansh.nyc/1fZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11436,
+      "chat_id": 7582459199,
+      "seq": 10167,
+      "identity": "https://go.vansh.nyc/1fZ?s=y|Baidu USA|Forward Deployed Engineer Intern|Mountain View, CA|Sep 11#1"
+    },
+    "9dda8ea8ad7f": {
+      "company": "Viam",
+      "role": "Software Engineering Intern",
+      "location": "New York, NY",
+      "term": "Sep 10",
+      "apply_url": "https://go.vansh.nyc/1fY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11437,
+      "chat_id": 7582459199,
+      "seq": 10168,
+      "identity": "https://go.vansh.nyc/1fY?s=y|Viam|Software Engineering Intern|New York, NY|Sep 10#1"
+    },
+    "823e25ead0c5": {
+      "company": "Rackner",
+      "role": "Computer Science Intern",
+      "location": "College Park, MD",
+      "term": "Jul 24",
+      "apply_url": "https://go.vansh.nyc/1fX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11438,
+      "chat_id": 7582459199,
+      "seq": 10169,
+      "identity": "https://go.vansh.nyc/1fX?s=y|Rackner|Computer Science Intern|College Park, MD|Jul 24#1"
+    },
+    "b6fc45cba00c": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern",
+      "location": "Overland Park, KS",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11439,
+      "chat_id": 7582459199,
+      "seq": 10170,
+      "identity": "NOURL|T-Mobile|Software Engineer Intern|Overland Park, KS|Oct 27#1"
     }
   },
   "applied": {
@@ -129003,10 +129099,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10162,
+  "seq": 10170,
   "health": {
     "last_heartbeat": "2026-11-04T05:30:19Z",
-    "last_ok_run": "2026-11-04T06:10:17Z",
+    "last_ok_run": "2026-11-04T06:15:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
