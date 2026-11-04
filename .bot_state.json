@@ -130184,6 +130184,30 @@
       "chat_id": 7582459199,
       "seq": 10291,
       "identity": "https://go.vansh.nyc/1h7?s=y|Howmet Aerospace|Cybersecurity Intern|Pittsburgh, PA|Nov 03#1"
+    },
+    "fcf049a138b4": {
+      "company": "ASML",
+      "role": "Machine Learning and Image-Based EUV System Setup Intern",
+      "location": "San Diego, CA",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1h9?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11561,
+      "chat_id": 7582459199,
+      "seq": 10292,
+      "identity": "https://go.vansh.nyc/1h9?s=y|ASML|Machine Learning and Image-Based EUV System Setup Intern|San Diego, CA|Nov 04#1"
+    },
+    "3619ba672ad8": {
+      "company": "SharkNinja",
+      "role": "Spring 2027: Quality Engineering Co-op, Shark (January through June)",
+      "location": "Needham, MA, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-sharkninjaoperatingllc-4723761006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11562,
+      "chat_id": 7582459199,
+      "seq": 10293,
+      "identity": "https://zapply.jobs/l/d/greenhouse-sharkninjaoperatingllc-4723761006?s=gh-internships-2027|SharkNinja|Spring 2027: Quality Engineering Co-op, Shark (January through June)|Needham, MA, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -130551,10 +130575,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10291,
+  "seq": 10293,
   "health": {
     "last_heartbeat": "2026-11-04T21:55:15Z",
-    "last_ok_run": "2026-11-04T22:40:19Z",
+    "last_ok_run": "2026-11-04T22:45:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
