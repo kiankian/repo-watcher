@@ -129956,6 +129956,54 @@
       "chat_id": 7582459199,
       "seq": 10272,
       "identity": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin--TX---2027_REF089882W-1|Visa|2027 Sophomore Internship Program - Software Engineer Intern - Austin - TX - 2027|Austin, TX|Other#1"
+    },
+    "69bcd1f38958": {
+      "company": "American Cancer Society Cancer Action Network",
+      "role": "Research Intern, Cancer Risk Prediction",
+      "location": "Atlanta, GA",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1gZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11542,
+      "chat_id": 7582459199,
+      "seq": 10273,
+      "identity": "https://go.vansh.nyc/1gZ?s=y|American Cancer Society Cancer Action Network|Research Intern, Cancer Risk Prediction|Atlanta, GA|Nov 03#1"
+    },
+    "7d52b3e1ffa2": {
+      "company": "Terranova",
+      "role": "AI Intern",
+      "location": "Berkeley, CA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1gY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11543,
+      "chat_id": 7582459199,
+      "seq": 10274,
+      "identity": "https://go.vansh.nyc/1gY?s=y|Terranova|AI Intern|Berkeley, CA|Nov 02#1"
+    },
+    "092eba8c30a1": {
+      "company": "Costco",
+      "role": "CDS Intern, OT/IoT Security Engineering",
+      "location": "Wa, WA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/1gX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11544,
+      "chat_id": 7582459199,
+      "seq": 10275,
+      "identity": "https://go.vansh.nyc/1gX?s=y|Costco|CDS Intern, OT/IoT Security Engineering|Wa, WA|Oct 28#1"
+    },
+    "bc4d6130ade5": {
+      "company": "Plusgrade",
+      "role": "UI/UX Design and Frontend Engineer Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11545,
+      "chat_id": 7582459199,
+      "seq": 10276,
+      "identity": "NOURL|Plusgrade|UI/UX Design and Frontend Engineer Intern|Toronto, Canada|Nov 04#1"
     }
   },
   "applied": {
@@ -130323,10 +130371,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10272,
+  "seq": 10276,
   "health": {
     "last_heartbeat": "2026-11-04T18:40:19Z",
-    "last_ok_run": "2026-11-04T19:41:00Z",
+    "last_ok_run": "2026-11-04T19:45:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
