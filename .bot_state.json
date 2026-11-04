@@ -128732,6 +128732,18 @@
       "chat_id": 7582459199,
       "seq": 10170,
       "identity": "NOURL|T-Mobile|Software Engineer Intern|Overland Park, KS|Oct 27#1"
+    },
+    "7a2cb799a7b8": {
+      "company": "RTX",
+      "role": "Control/Diagnostic Software Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Jupiter, FL",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1g8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11440,
+      "chat_id": 7582459199,
+      "seq": 10171,
+      "identity": "https://go.vansh.nyc/1g8?s=y|RTX|Control/Diagnostic Software Intern \ud83c\uddfa\ud83c\uddf8|Jupiter, FL|Nov 03#1"
     }
   },
   "applied": {
@@ -129099,10 +129111,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10170,
+  "seq": 10171,
   "health": {
     "last_heartbeat": "2026-11-04T06:30:20Z",
-    "last_ok_run": "2026-11-04T07:05:17Z",
+    "last_ok_run": "2026-11-04T07:10:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
