@@ -130148,6 +130148,18 @@
       "chat_id": 7582459199,
       "seq": 10288,
       "identity": "https://zapply.jobs/l/d/eightfold-bostonscientific-563602813567960?s=gh-internships-2027|Boston Scientific|Software Development Engineer Intern|Waltham, US-MA, USA|Summer 2027#1"
+    },
+    "1b1eba5a266c": {
+      "company": "Gordon Food Service",
+      "role": "Cloud DevOps Intern",
+      "location": "Atlanta, GA",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11558,
+      "chat_id": 7582459199,
+      "seq": 10289,
+      "identity": "NOURL|Gordon Food Service|Cloud DevOps Intern|Atlanta, GA|Nov 02#1"
     }
   },
   "applied": {
@@ -130515,10 +130527,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10288,
+  "seq": 10289,
   "health": {
     "last_heartbeat": "2026-11-04T20:55:15Z",
-    "last_ok_run": "2026-11-04T21:40:18Z",
+    "last_ok_run": "2026-11-04T21:45:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
