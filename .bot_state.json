@@ -130016,6 +130016,30 @@
       "chat_id": 7582459199,
       "seq": 10277,
       "identity": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103657?s=gh-internships-2027|Zebra|2027 Summer Internship (US) - Software Engineer|Holtsville, New York|Summer 2027#1"
+    },
+    "b2e48302e19a": {
+      "company": "SWBC",
+      "role": "Application Security Intern",
+      "location": "San Antonio, TX",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11547,
+      "chat_id": 7582459199,
+      "seq": 10278,
+      "identity": "NOURL|SWBC|Application Security Intern|San Antonio, TX|Nov 02#1"
+    },
+    "4ee898f1a5b9": {
+      "company": "CNA Insurance",
+      "role": "Data Engineering Intern, Technology \ud83d\udec2",
+      "location": "Chicago, IL",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11548,
+      "chat_id": 7582459199,
+      "seq": 10279,
+      "identity": "NOURL|CNA Insurance|Data Engineering Intern, Technology \ud83d\udec2|Chicago, IL|Nov 02#1"
     }
   },
   "applied": {
@@ -130383,10 +130407,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10277,
+  "seq": 10279,
   "health": {
     "last_heartbeat": "2026-11-04T19:50:19Z",
-    "last_ok_run": "2026-11-04T20:10:18Z",
+    "last_ok_run": "2026-11-04T20:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
