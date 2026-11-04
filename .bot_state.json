@@ -129080,6 +129080,30 @@
       "chat_id": 7582459199,
       "seq": 10199,
       "identity": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103636?s=gh-internships-2027|Zebra|2027 Summer Internship (US) - Software Engineer, AI Features & Product Convergence, Zebra Task...|Kennesaw, Georgia|Summer 2027#1"
+    },
+    "3db5d2870d0f": {
+      "company": "Zebra",
+      "role": "2027 Summer Internship (US) - Systems Engineer",
+      "location": "Germantown, Maryland",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103659?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11469,
+      "chat_id": 7582459199,
+      "seq": 10200,
+      "identity": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103659?s=gh-internships-2027|Zebra|2027 Summer Internship (US) - Systems Engineer|Germantown, Maryland|Summer 2027#1"
+    },
+    "727bfdb8047a": {
+      "company": "Bosch Group",
+      "role": "Project Management / Test Engineering Intern",
+      "location": "Plymouth, MI",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-BoschGroup-744000159649749?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11470,
+      "chat_id": 7582459199,
+      "seq": 10201,
+      "identity": "https://zapply.jobs/l/d/sr-BoschGroup-744000159649749?s=gh-internships-2027|Bosch Group|Project Management / Test Engineering Intern|Plymouth, MI|Summer 2027#1"
     }
   },
   "applied": {
@@ -129447,10 +129471,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10199,
+  "seq": 10201,
   "health": {
     "last_heartbeat": "2026-11-04T14:25:15Z",
-    "last_ok_run": "2026-11-04T14:55:16Z",
+    "last_ok_run": "2026-11-04T15:00:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
