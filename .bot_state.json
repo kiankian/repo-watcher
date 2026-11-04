@@ -128792,6 +128792,42 @@
       "chat_id": 7582459199,
       "seq": 10175,
       "identity": "https://jobs.ashbyhq.com/saronic/6118e5ce-36b0-4f9a-a0c4-34dceb46b9c1/application?embed=true&utm_source=Simplify&ref=Simplify|Saronic|Enterprise Technology Intern - AI and Automation|Austin, TX|Summer 2026#1"
+    },
+    "2e15f1face87": {
+      "company": "Roku",
+      "role": "AI Engineering Intern",
+      "location": "Manchester, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://www.weareroku.com/jobs/8345954?gh_jid=8345954&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11445,
+      "chat_id": 7582459199,
+      "seq": 10176,
+      "identity": "https://www.weareroku.com/jobs/8345954?gh_jid=8345954&utm_source=Simplify&ref=Simplify|Roku|AI Engineering Intern|Manchester, UK|Summer 2026#1"
+    },
+    "3042c236a6d0": {
+      "company": "Roku",
+      "role": "AI Engineering Intern",
+      "location": "Cambridge, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://www.weareroku.com/jobs/8345947?gh_jid=8345947&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11446,
+      "chat_id": 7582459199,
+      "seq": 10177,
+      "identity": "https://www.weareroku.com/jobs/8345947?gh_jid=8345947&utm_source=Simplify&ref=Simplify|Roku|AI Engineering Intern|Cambridge, UK|Summer 2026#1"
+    },
+    "dfec91f62cbb": {
+      "company": "William Blair",
+      "role": "Agentic AI Development Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://www.williamblair.com/Careers/job-description?gh_jid=5242282007&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11447,
+      "chat_id": 7582459199,
+      "seq": 10178,
+      "identity": "https://www.williamblair.com/Careers/job-description?gh_jid=5242282007&utm_source=Simplify&ref=Simplify|William Blair|Agentic AI Development Intern|Chicago, IL|Summer 2026#1"
     }
   },
   "applied": {
@@ -129159,10 +129195,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10175,
+  "seq": 10178,
   "health": {
     "last_heartbeat": "2026-11-04T10:50:17Z",
-    "last_ok_run": "2026-11-04T10:55:18Z",
+    "last_ok_run": "2026-11-04T11:05:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
