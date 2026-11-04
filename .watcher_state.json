@@ -2902,7 +2902,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "c7a6f0d761cfbbf8c4c6c99dc478ff8e11060531",
+    "last_sha": "77b38bf89d67877e44eed89ce51fe63fbc21a39d",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -7364,14 +7364,18 @@
       "https://go.vansh.nyc/1h7?s=y|Howmet Aerospace|Cybersecurity Intern|Pittsburgh, PA|Nov 03#1",
       "https://go.vansh.nyc/1h9?s=y|ASML|Machine Learning and Image-Based EUV System Setup Intern|San Diego, CA|Nov 04#1",
       "https://go.vansh.nyc/1hb?s=y|RTX|FPGA Design Intern \ud83c\uddfa\ud83c\uddf8|Cedar Rapids, IA|Nov 04#1",
-      "NOURL|West Bend Insurance|Data Scientist Intern|West Bend, WI|Oct 30#1"
+      "NOURL|West Bend Insurance|Data Scientist Intern|West Bend, WI|Oct 30#1",
+      "https://go.vansh.nyc/1hc?s=y|GM Financial|Cloud Engineer Intern|Irving, TX|Nov 03#1",
+      "NOURL|RTX|FPGA Design Intern \ud83c\uddfa\ud83c\uddf8|Cedar Rapids, IA|Nov 04#1",
+      "NOURL|Cigna|Cybersecurity Intern, Technology Development Program|Bloomfield, CT St. Louis, MO|Nov 04#1",
+      "NOURL|Altera|Undergrad Technical Intern|Toronto, Canada|Oct 26#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2155,
+    "last_row_count": 2156,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "4fd727d5ea9ccd1f7d64e885d3b7d33540df2def",
+    "last_sha": "68fb716073e46bd7415e752f0aad9eb373baef8f",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
