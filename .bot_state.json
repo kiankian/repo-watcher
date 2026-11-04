@@ -130100,6 +130100,30 @@
       "chat_id": 7582459199,
       "seq": 10284,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-334157?s=gh-internships-2027|CACI|Systems Engineering Co-op/Intern - Summer 2027|Rochester, NY, US|Summer 2027#1"
+    },
+    "46097b109bc0": {
+      "company": "Sycamore",
+      "role": "Member of Technical Staff Intern, Infrastructure",
+      "location": "Palo Alto, CA",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11554,
+      "chat_id": 7582459199,
+      "seq": 10285,
+      "identity": "NOURL|Sycamore|Member of Technical Staff Intern, Infrastructure|Palo Alto, CA|Oct 20#1"
+    },
+    "afc09a7053ad": {
+      "company": "Together AI",
+      "role": "Hardware Security Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Oct 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11555,
+      "chat_id": 7582459199,
+      "seq": 10286,
+      "identity": "NOURL|Together AI|Hardware Security Engineer Intern|San Francisco, CA|Oct 16#1"
     }
   },
   "applied": {
@@ -130467,10 +130491,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10284,
+  "seq": 10286,
   "health": {
     "last_heartbeat": "2026-11-04T20:55:15Z",
-    "last_ok_run": "2026-11-04T21:10:18Z",
+    "last_ok_run": "2026-11-04T21:15:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
