@@ -128540,6 +128540,18 @@
       "chat_id": 7582459199,
       "seq": 10154,
       "identity": "https://go.vansh.nyc/1fK?s=y|JM Family Enterprises|AI Center of Excellence Delivery Team Intern|Deerfield Beach, FL|Nov 02#1"
+    },
+    "97eaa81b20c2": {
+      "company": "Keysight Technologies",
+      "role": "Software Engineer Intern",
+      "location": "Calabasas, CA",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11424,
+      "chat_id": 7582459199,
+      "seq": 10155,
+      "identity": "NOURL|Keysight Technologies|Software Engineer Intern|Calabasas, CA|Oct 21#1"
     }
   },
   "applied": {
@@ -128907,10 +128919,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10154,
+  "seq": 10155,
   "health": {
     "last_heartbeat": "2026-11-03T23:50:18Z",
-    "last_ok_run": "2026-11-04T00:35:14Z",
+    "last_ok_run": "2026-11-04T00:40:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
