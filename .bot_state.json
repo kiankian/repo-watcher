@@ -129104,6 +129104,66 @@
       "chat_id": 7582459199,
       "seq": 10201,
       "identity": "https://zapply.jobs/l/d/sr-BoschGroup-744000159649749?s=gh-internships-2027|Bosch Group|Project Management / Test Engineering Intern|Plymouth, MI|Summer 2027#1"
+    },
+    "ccd6212ea106": {
+      "company": "Zebra Technologies",
+      "role": "Systems Engineer Intern",
+      "location": "Germantown, MD",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1gw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11471,
+      "chat_id": 7582459199,
+      "seq": 10202,
+      "identity": "https://go.vansh.nyc/1gw?s=y|Zebra Technologies|Systems Engineer Intern|Germantown, MD|Nov 04#1"
+    },
+    "8b26cdc37e30": {
+      "company": "Zebra Technologies",
+      "role": "Software Engineer Intern, AI Features & Product Convergence",
+      "location": "Kennesaw, GA",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1gx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11472,
+      "chat_id": 7582459199,
+      "seq": 10203,
+      "identity": "https://go.vansh.nyc/1gx?s=y|Zebra Technologies|Software Engineer Intern, AI Features & Product Convergence|Kennesaw, GA|Nov 04#1"
+    },
+    "c601658ca399": {
+      "company": "Moog",
+      "role": "Software Engineering Intern",
+      "location": "Torrance, CA",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1gy?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11473,
+      "chat_id": 7582459199,
+      "seq": 10204,
+      "identity": "https://go.vansh.nyc/1gy?s=y|Moog|Software Engineering Intern|Torrance, CA|Nov 04#1"
+    },
+    "81ffc498de30": {
+      "company": "Ericsson",
+      "role": "Technology and AI Intern \ud83d\udec2",
+      "location": "Plano, TX",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1gz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11474,
+      "chat_id": 7582459199,
+      "seq": 10205,
+      "identity": "https://go.vansh.nyc/1gz?s=y|Ericsson|Technology and AI Intern \ud83d\udec2|Plano, TX|Nov 04#1"
+    },
+    "7125c6e0dbc9": {
+      "company": "IMC Trading",
+      "role": "Performance Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Aug 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11475,
+      "chat_id": 7582459199,
+      "seq": 10206,
+      "identity": "NOURL|IMC Trading|Performance Engineer Intern|Chicago, IL|Aug 27#1"
     }
   },
   "applied": {
@@ -129471,10 +129531,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10201,
+  "seq": 10206,
   "health": {
     "last_heartbeat": "2026-11-04T14:25:15Z",
-    "last_ok_run": "2026-11-04T15:05:17Z",
+    "last_ok_run": "2026-11-04T15:20:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
