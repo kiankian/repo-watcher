@@ -130160,6 +130160,30 @@
       "chat_id": 7582459199,
       "seq": 10289,
       "identity": "NOURL|Gordon Food Service|Cloud DevOps Intern|Atlanta, GA|Nov 02#1"
+    },
+    "3a4cde9d380c": {
+      "company": "Cigna",
+      "role": "Cybersecurity Intern, Technology Development Program",
+      "location": "Bloomfield, CT St. Louis, MO",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1h8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11559,
+      "chat_id": 7582459199,
+      "seq": 10290,
+      "identity": "https://go.vansh.nyc/1h8?s=y|Cigna|Cybersecurity Intern, Technology Development Program|Bloomfield, CT St. Louis, MO|Nov 04#1"
+    },
+    "e80aa1bece0c": {
+      "company": "Howmet Aerospace",
+      "role": "Cybersecurity Intern",
+      "location": "Pittsburgh, PA",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1h7?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11560,
+      "chat_id": 7582459199,
+      "seq": 10291,
+      "identity": "https://go.vansh.nyc/1h7?s=y|Howmet Aerospace|Cybersecurity Intern|Pittsburgh, PA|Nov 03#1"
     }
   },
   "applied": {
@@ -130527,10 +130551,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10289,
+  "seq": 10291,
   "health": {
     "last_heartbeat": "2026-11-04T21:55:15Z",
-    "last_ok_run": "2026-11-04T22:10:20Z",
+    "last_ok_run": "2026-11-04T22:15:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
