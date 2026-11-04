@@ -129272,6 +129272,42 @@
       "chat_id": 7582459199,
       "seq": 10215,
       "identity": "https://jobs.jobvite.com/nutanix/job/otr1Afwf?nl=1&nl=1&fr=false&utm_source=Simplify&ref=Simplify|Nutanix|Software Engineer Intern|Cambridge, UK|Summer 2026#1"
+    },
+    "11e10fb57907": {
+      "company": "Parsons",
+      "role": "AI/ML Engineer Intern",
+      "location": "Centreville, VA",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1gF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11485,
+      "chat_id": 7582459199,
+      "seq": 10216,
+      "identity": "https://go.vansh.nyc/1gF?s=y|Parsons|AI/ML Engineer Intern|Centreville, VA|Nov 03#1"
+    },
+    "25ca29a0f334": {
+      "company": "TikTok",
+      "role": "Software Engineer Intern, Recommendation Infra, Performance Efficiency",
+      "location": "San Jose, CA",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11486,
+      "chat_id": 7582459199,
+      "seq": 10217,
+      "identity": "NOURL|TikTok|Software Engineer Intern, Recommendation Infra, Performance Efficiency|San Jose, CA|Nov 01#1"
+    },
+    "a1c0cbadf3c0": {
+      "company": "VSP Vision",
+      "role": "Software Engineer Intern, Technology Innovation",
+      "location": "Remote United States",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11487,
+      "chat_id": 7582459199,
+      "seq": 10218,
+      "identity": "NOURL|VSP Vision|Software Engineer Intern, Technology Innovation|Remote United States|Oct 27#1"
     }
   },
   "applied": {
@@ -129639,10 +129675,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10215,
+  "seq": 10218,
   "health": {
     "last_heartbeat": "2026-11-04T15:25:17Z",
-    "last_ok_run": "2026-11-04T16:10:17Z",
+    "last_ok_run": "2026-11-04T16:15:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
