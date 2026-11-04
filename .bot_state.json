@@ -129572,6 +129572,54 @@
       "chat_id": 7582459199,
       "seq": 10240,
       "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00196220?s=gh-internships-2027|Leidos|Software Engineering & AI Intern|6314 RemoteTeleworker US|Summer 2027#1"
+    },
+    "ea3985b6a2a2": {
+      "company": "TC Energy",
+      "role": "Enterprise Security Intern, Detection & Response",
+      "location": "Calgary, Canada",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1gW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11510,
+      "chat_id": 7582459199,
+      "seq": 10241,
+      "identity": "https://go.vansh.nyc/1gW?s=y|TC Energy|Enterprise Security Intern, Detection & Response|Calgary, Canada|Nov 04#1"
+    },
+    "1f9194ed91d0": {
+      "company": "Wurl",
+      "role": "Data Science Intern",
+      "location": "Remote United States",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11511,
+      "chat_id": 7582459199,
+      "seq": 10242,
+      "identity": "NOURL|Wurl|Data Science Intern|Remote United States|Oct 30#1"
+    },
+    "16c97a47e7f4": {
+      "company": "CoStar Group",
+      "role": "Technology Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Sep 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11512,
+      "chat_id": 7582459199,
+      "seq": 10243,
+      "identity": "NOURL|CoStar Group|Technology Intern|Sunnyvale, CA|Sep 30#1"
+    },
+    "7cf953199760": {
+      "company": "CoStar Group",
+      "role": "Associate Embedded Software Engineer Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Sep 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11513,
+      "chat_id": 7582459199,
+      "seq": 10244,
+      "identity": "NOURL|CoStar Group|Associate Embedded Software Engineer Intern|Sunnyvale, CA|Sep 30#1"
     }
   },
   "applied": {
@@ -129939,10 +129987,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10240,
+  "seq": 10244,
   "health": {
     "last_heartbeat": "2026-11-04T18:40:19Z",
-    "last_ok_run": "2026-11-04T19:10:17Z",
+    "last_ok_run": "2026-11-04T19:15:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
