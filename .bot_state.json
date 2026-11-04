@@ -129044,6 +129044,42 @@
       "chat_id": 7582459199,
       "seq": 10196,
       "identity": "https://go.vansh.nyc/1gs?s=y|Prologis|IT Customer Experience Technologies Intern|Denver, CO|Nov 03#1"
+    },
+    "f20955700f6c": {
+      "company": "Zebra",
+      "role": "2027 Summer Internship (US) - Systems Engineer",
+      "location": "Lincolnshire Illinois",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103659?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11466,
+      "chat_id": 7582459199,
+      "seq": 10197,
+      "identity": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103659?s=gh-internships-2027|Zebra|2027 Summer Internship (US) - Systems Engineer|Lincolnshire Illinois|Summer 2027#1"
+    },
+    "273bbe1b3ba6": {
+      "company": "Zebra",
+      "role": "2027 Summer Internship (US) - Software Engineer",
+      "location": "Holtsville, New York",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103645?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11467,
+      "chat_id": 7582459199,
+      "seq": 10198,
+      "identity": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103645?s=gh-internships-2027|Zebra|2027 Summer Internship (US) - Software Engineer|Holtsville, New York|Summer 2027#1"
+    },
+    "c5354581c0a9": {
+      "company": "Zebra",
+      "role": "2027 Summer Internship (US) - Software Engineer, AI Features & Product Convergence, Zebra Task...",
+      "location": "Kennesaw, Georgia",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103636?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11468,
+      "chat_id": 7582459199,
+      "seq": 10199,
+      "identity": "https://zapply.jobs/l/d/workday-zebra-zebra-careers-JR103636?s=gh-internships-2027|Zebra|2027 Summer Internship (US) - Software Engineer, AI Features & Product Convergence, Zebra Task...|Kennesaw, Georgia|Summer 2027#1"
     }
   },
   "applied": {
@@ -129411,10 +129447,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10196,
+  "seq": 10199,
   "health": {
     "last_heartbeat": "2026-11-04T14:25:15Z",
-    "last_ok_run": "2026-11-04T14:45:24Z",
+    "last_ok_run": "2026-11-04T14:50:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
