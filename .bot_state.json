@@ -130292,6 +130292,54 @@
       "chat_id": 7582459199,
       "seq": 10300,
       "identity": "NOURL|Altera|Undergrad Technical Intern|Toronto, Canada|Oct 26#1"
+    },
+    "866f6b4d3c65": {
+      "company": "Ryder System",
+      "role": "IT Intern",
+      "location": "Coral Gables, FL",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1hh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11570,
+      "chat_id": 7582459199,
+      "seq": 10301,
+      "identity": "https://go.vansh.nyc/1hh?s=y|Ryder System|IT Intern|Coral Gables, FL|Nov 03#1"
+    },
+    "865cc6793f61": {
+      "company": "Logiqal",
+      "role": "Quantum Error Correction and Architecture Intern",
+      "location": "Princeton, NJ",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1hg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11571,
+      "chat_id": 7582459199,
+      "seq": 10302,
+      "identity": "https://go.vansh.nyc/1hg?s=y|Logiqal|Quantum Error Correction and Architecture Intern|Princeton, NJ|Nov 03#1"
+    },
+    "76d6db8cbec9": {
+      "company": "IDEMIA",
+      "role": "Information Technology Intern",
+      "location": "Remote United States",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1hf?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11572,
+      "chat_id": 7582459199,
+      "seq": 10303,
+      "identity": "https://go.vansh.nyc/1hf?s=y|IDEMIA|Information Technology Intern|Remote United States|Nov 03#1"
+    },
+    "60e88db7f4ab": {
+      "company": "Bracco",
+      "role": "Software Engineering Intern",
+      "location": "Eden Prairie, MN",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11573,
+      "chat_id": 7582459199,
+      "seq": 10304,
+      "identity": "NOURL|Bracco|Software Engineering Intern|Eden Prairie, MN|Nov 02#1"
     }
   },
   "applied": {
@@ -130659,10 +130707,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10300,
+  "seq": 10304,
   "health": {
     "last_heartbeat": "2026-11-05T00:00:21Z",
-    "last_ok_run": "2026-11-05T00:10:15Z",
+    "last_ok_run": "2026-11-05T00:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
