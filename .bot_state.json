@@ -131084,6 +131084,90 @@
       "chat_id": 7582459199,
       "seq": 10366,
       "identity": "https://careers-simventions.icims.com/jobs/1631/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|SimVentions|Software Development Intern|Fredericksburg, VA|Summer 2026#1"
+    },
+    "945ce5601368": {
+      "company": "Peraton",
+      "role": "Cyber Research Intern",
+      "location": "**4 locations**West Lafayette, IN Basking Ridge, NJ Silver Spring, MD Bedford, NH",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1hZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11636,
+      "chat_id": 7582459199,
+      "seq": 10367,
+      "identity": "https://go.vansh.nyc/1hZ?s=y|Peraton|Cyber Research Intern|**4 locations**West Lafayette, IN Basking Ridge, NJ Silver Spring, MD Bedford, NH|Nov 04#1"
+    },
+    "81b8e4e49735": {
+      "company": "General Dynamics Mission Systems",
+      "role": "FPGA Engineer Intern",
+      "location": "Manassas, VA",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1i0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11637,
+      "chat_id": 7582459199,
+      "seq": 10368,
+      "identity": "https://go.vansh.nyc/1i0?s=y|General Dynamics Mission Systems|FPGA Engineer Intern|Manassas, VA|Nov 04#1"
+    },
+    "e048c8732cc2": {
+      "company": "Constellation Energy",
+      "role": "Renewable Energy Intern",
+      "location": "Houston, TX",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1hY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11638,
+      "chat_id": 7582459199,
+      "seq": 10369,
+      "identity": "https://go.vansh.nyc/1hY?s=y|Constellation Energy|Renewable Energy Intern|Houston, TX|Nov 04#1"
+    },
+    "247238d2db8d": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Software Engineer Intern",
+      "location": "Port Orchard, WA",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1hX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11639,
+      "chat_id": 7582459199,
+      "seq": 10370,
+      "identity": "https://go.vansh.nyc/1hX?s=y|General Dynamics Mission Systems|Software Engineer Intern|Port Orchard, WA|Nov 03#1"
+    },
+    "2aada42d5f58": {
+      "company": "ViaSat",
+      "role": "Software Engineer Intern",
+      "location": "Germantown, MD",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1hU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11640,
+      "chat_id": 7582459199,
+      "seq": 10371,
+      "identity": "https://go.vansh.nyc/1hU?s=y|ViaSat|Software Engineer Intern|Germantown, MD|Nov 02#1"
+    },
+    "e98b7c9d7647": {
+      "company": "ViaSat",
+      "role": "Digital and Programmable Logic Engineer Intern",
+      "location": "Tempe, AZ",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1hV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11641,
+      "chat_id": 7582459199,
+      "seq": 10372,
+      "identity": "https://go.vansh.nyc/1hV?s=y|ViaSat|Digital and Programmable Logic Engineer Intern|Tempe, AZ|Nov 02#1"
+    },
+    "a9423b35a702": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Electrical Engineering Intern, FPGA",
+      "location": "Middletown, RI",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1hW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11642,
+      "chat_id": 7582459199,
+      "seq": 10373,
+      "identity": "https://go.vansh.nyc/1hW?s=y|General Dynamics Mission Systems|Electrical Engineering Intern, FPGA|Middletown, RI|Nov 02#1"
     }
   },
   "applied": {
@@ -131451,10 +131535,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10366,
+  "seq": 10373,
   "health": {
     "last_heartbeat": "2026-11-05T08:15:16Z",
-    "last_ok_run": "2026-11-05T09:10:19Z",
+    "last_ok_run": "2026-11-05T09:15:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
