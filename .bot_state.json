@@ -130484,6 +130484,54 @@
       "chat_id": 7582459199,
       "seq": 10316,
       "identity": "https://zapply.jobs/l/d/microsoft-200065702?s=gh-internships-2027|Microsoft|Research Intern - Research in Software Engineering, ML Systems, Agents|Redmond, Washington, United States|Summer 2027#1"
+    },
+    "d2ce54693fb5": {
+      "company": "\ud83d\udd25 PayPal",
+      "role": "Software Engineer Intern",
+      "location": "5 locationsAustin, TX San Jose, CA Chicago, IL Omaha, NE Scottsdale, AZ",
+      "term": "Summer 2026",
+      "apply_url": "https://paypal.eightfold.ai/careers/job/274922982814?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11586,
+      "chat_id": 7582459199,
+      "seq": 10317,
+      "identity": "https://paypal.eightfold.ai/careers/job/274922982814?utm_source=Simplify&ref=Simplify|\ud83d\udd25 PayPal|Software Engineer Intern|5 locationsAustin, TX San Jose, CA Chicago, IL Omaha, NE Scottsdale, AZ|Summer 2026#1"
+    },
+    "eacc03d5dd14": {
+      "company": "\ud83d\udd25 PayPal",
+      "role": "Mobile Engineer Intern",
+      "location": "5 locationsAustin, TX San Jose, CA Chicago, IL Omaha, NE Scottsdale, AZ",
+      "term": "Summer 2026",
+      "apply_url": "https://paypal.eightfold.ai/careers/job/274922982818?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11587,
+      "chat_id": 7582459199,
+      "seq": 10318,
+      "identity": "https://paypal.eightfold.ai/careers/job/274922982818?utm_source=Simplify&ref=Simplify|\ud83d\udd25 PayPal|Mobile Engineer Intern|5 locationsAustin, TX San Jose, CA Chicago, IL Omaha, NE Scottsdale, AZ|Summer 2026#1"
+    },
+    "1a3d7917ecb1": {
+      "company": "Zebra Technologies",
+      "role": "Software Engineer Intern",
+      "location": "Holtsville, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103657?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11588,
+      "chat_id": 7582459199,
+      "seq": 10319,
+      "identity": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103657?utm_source=Simplify&ref=Simplify|Zebra Technologies|Software Engineer Intern|Holtsville, NY|Summer 2026#1"
+    },
+    "cacba276eb3e": {
+      "company": "Leidos",
+      "role": "Software Engineering & AI Intern",
+      "location": "Remote in USA Shiloh, IL Odenton, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineering---AI-Intern_R-00196220?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11589,
+      "chat_id": 7582459199,
+      "seq": 10320,
+      "identity": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineering---AI-Intern_R-00196220?utm_source=Simplify&ref=Simplify|Leidos|Software Engineering & AI Intern|Remote in USA Shiloh, IL Odenton, MD|Summer 2026#1"
     }
   },
   "applied": {
@@ -130851,10 +130899,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10316,
+  "seq": 10320,
   "health": {
     "last_heartbeat": "2026-11-05T02:30:18Z",
-    "last_ok_run": "2026-11-05T03:00:20Z",
+    "last_ok_run": "2026-11-05T03:05:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
