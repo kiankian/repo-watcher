@@ -132548,6 +132548,54 @@
       "chat_id": 7582459199,
       "seq": 10488,
       "identity": "NOURL|NUVACORE|CPU Software Intern|Markham, Canada|Oct 26#1"
+    },
+    "fbe4d2234ff5": {
+      "company": "DwyerOmega",
+      "role": "Software Engineer Intern",
+      "location": "Westerville, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640548?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11758,
+      "chat_id": 7582459199,
+      "seq": 10489,
+      "identity": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640548?utm_source=Simplify&ref=Simplify|DwyerOmega|Software Engineer Intern|Westerville, OH|Summer 2026#1"
+    },
+    "cfbf85cc3872": {
+      "company": "Shield AI",
+      "role": "Software Engineer Co-op Intern",
+      "location": "4 locationsSeattle, WA Washington, DC Dallas, TX San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/shieldai/db8fc063-8856-4404-991c-f287712de949/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11759,
+      "chat_id": 7582459199,
+      "seq": 10490,
+      "identity": "https://jobs.lever.co/shieldai/db8fc063-8856-4404-991c-f287712de949/apply?utm_source=Simplify&ref=Simplify|Shield AI|Software Engineer Co-op Intern|4 locationsSeattle, WA Washington, DC Dallas, TX San Diego, CA|Summer 2026#1"
+    },
+    "a76276cb19ef": {
+      "company": "SOTI",
+      "role": "Software Developer Intern",
+      "location": "Mississauga, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---Android--May-2027---12-Months-_R10650?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11760,
+      "chat_id": 7582459199,
+      "seq": 10491,
+      "identity": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---Android--May-2027---12-Months-_R10650?utm_source=Simplify&ref=Simplify|SOTI|Software Developer Intern|Mississauga, ON, Canada|Summer 2026#1"
+    },
+    "035ba179b2f7": {
+      "company": "Riverside Research",
+      "role": "Software Applications Intern",
+      "location": "Fairborn, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-riversideresearch.icims.com/jobs/4461/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11761,
+      "chat_id": 7582459199,
+      "seq": 10492,
+      "identity": "https://careers-riversideresearch.icims.com/jobs/4461/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Riverside Research|Software Applications Intern|Fairborn, OH|Summer 2026#1"
     }
   },
   "applied": {
@@ -132915,10 +132963,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10488,
+  "seq": 10492,
   "health": {
     "last_heartbeat": "2026-11-05T23:30:20Z",
-    "last_ok_run": "2026-11-05T23:30:20Z",
+    "last_ok_run": "2026-11-05T23:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
