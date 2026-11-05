@@ -132428,6 +132428,66 @@
       "chat_id": 7582459199,
       "seq": 10478,
       "identity": "NOURL|PanAgora|Equity Intern|Boston, MA|Sep 09#1"
+    },
+    "8526defc77e2": {
+      "company": "Western Alliance Bancorporation",
+      "role": "Platform Engineering Intern",
+      "location": "Dallas, TX",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11748,
+      "chat_id": 7582459199,
+      "seq": 10479,
+      "identity": "https://go.vansh.nyc/1jm?s=y|Western Alliance Bancorporation|Platform Engineering Intern|Dallas, TX|Nov 05#1"
+    },
+    "9f1064b8ec42": {
+      "company": "RTX",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Aurora, CO",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11749,
+      "chat_id": 7582459199,
+      "seq": 10480,
+      "identity": "https://go.vansh.nyc/1jj?s=y|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Aurora, CO|Nov 05#1"
+    },
+    "b89c3ab0babb": {
+      "company": "Nordson",
+      "role": "Software Intern",
+      "location": "Minneapolis, MN",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jk?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11750,
+      "chat_id": 7582459199,
+      "seq": 10481,
+      "identity": "https://go.vansh.nyc/1jk?s=y|Nordson|Software Intern|Minneapolis, MN|Nov 05#1"
+    },
+    "da51121f4e15": {
+      "company": "CFS Energy",
+      "role": "Software Engineer Intern",
+      "location": "Devens, MA",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11751,
+      "chat_id": 7582459199,
+      "seq": 10482,
+      "identity": "NOURL|CFS Energy|Software Engineer Intern|Devens, MA|Nov 03#1"
+    },
+    "0189d4c64114": {
+      "company": "American Fidelity",
+      "role": "Software Developer Innovation Intern",
+      "location": "Oklahoma City, OK",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11752,
+      "chat_id": 7582459199,
+      "seq": 10483,
+      "identity": "NOURL|American Fidelity|Software Developer Innovation Intern|Oklahoma City, OK|Oct 19#1"
     }
   },
   "applied": {
@@ -132795,10 +132855,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10478,
+  "seq": 10483,
   "health": {
     "last_heartbeat": "2026-11-05T21:00:21Z",
-    "last_ok_run": "2026-11-05T22:10:18Z",
+    "last_ok_run": "2026-11-05T22:15:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
