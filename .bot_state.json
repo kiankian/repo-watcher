@@ -132308,6 +132308,66 @@
       "chat_id": 7582459199,
       "seq": 10468,
       "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0248214?s=gh-internships-2027|Booz Allen Hamilton|University \u2013 Summer 27, Cybersecurity Analyst Intern|McLean, VA|Summer 2027#1"
+    },
+    "5b5ef35a95f4": {
+      "company": "JM Family Enterprises",
+      "role": "Data Engineering Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jd?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11738,
+      "chat_id": 7582459199,
+      "seq": 10469,
+      "identity": "https://go.vansh.nyc/1jd?s=y|JM Family Enterprises|Data Engineering Intern|Deerfield Beach, FL|Nov 05#1"
+    },
+    "d56a0a33e4cb": {
+      "company": "CareSource",
+      "role": "Cybersecurity Intern",
+      "location": "Remote United States",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1je?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11739,
+      "chat_id": 7582459199,
+      "seq": 10470,
+      "identity": "https://go.vansh.nyc/1je?s=y|CareSource|Cybersecurity Intern|Remote United States|Nov 05#1"
+    },
+    "26e87987975e": {
+      "company": "RR Donnelley",
+      "role": "IT Software Integration & Automation Intern",
+      "location": "Minneapolis, MN",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11740,
+      "chat_id": 7582459199,
+      "seq": 10471,
+      "identity": "NOURL|RR Donnelley|IT Software Integration & Automation Intern|Minneapolis, MN|Nov 05#1"
+    },
+    "0784c143d5bd": {
+      "company": "RR Donnelley",
+      "role": "Software Developer Intern",
+      "location": "Warrenville, IL",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11741,
+      "chat_id": 7582459199,
+      "seq": 10472,
+      "identity": "NOURL|RR Donnelley|Software Developer Intern|Warrenville, IL|Nov 05#1"
+    },
+    "48b58427d383": {
+      "company": "Astronics",
+      "role": "Software Engineer Intern",
+      "location": "Kirkland, WA",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11742,
+      "chat_id": 7582459199,
+      "seq": 10473,
+      "identity": "NOURL|Astronics|Software Engineer Intern|Kirkland, WA|Oct 30#1"
     }
   },
   "applied": {
@@ -132675,10 +132735,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10468,
+  "seq": 10473,
   "health": {
     "last_heartbeat": "2026-11-05T21:00:21Z",
-    "last_ok_run": "2026-11-05T21:15:19Z",
+    "last_ok_run": "2026-11-05T21:20:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
