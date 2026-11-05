@@ -132248,6 +132248,42 @@
       "chat_id": 7582459199,
       "seq": 10463,
       "identity": "https://zapply.jobs/l/d/ashby-apex-technology-inc-692bb497-59ba-44df-bacf-fffd2f7c6344?s=gh-internships-2027|Apex Technology|Software Engineering Internship, Test & Automation (Summer 2027)|Los Angeles|Summer 2027#1"
+    },
+    "75e44a428866": {
+      "company": "CrowdStrike",
+      "role": "Intelligence Intern",
+      "location": "Arlington, VA",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1ja?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11733,
+      "chat_id": 7582459199,
+      "seq": 10464,
+      "identity": "https://go.vansh.nyc/1ja?s=y|CrowdStrike|Intelligence Intern|Arlington, VA|Nov 05#1"
+    },
+    "32989538f731": {
+      "company": "BorgWarner",
+      "role": "Software Test Intern",
+      "location": "Auburn Hills, MI",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jb?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11734,
+      "chat_id": 7582459199,
+      "seq": 10465,
+      "identity": "https://go.vansh.nyc/1jb?s=y|BorgWarner|Software Test Intern|Auburn Hills, MI|Nov 05#1"
+    },
+    "bbb8e59e369f": {
+      "company": "State Affairs",
+      "role": "Software Engineer Intern",
+      "location": "Washington, DC",
+      "term": "Oct 07",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11735,
+      "chat_id": 7582459199,
+      "seq": 10466,
+      "identity": "NOURL|State Affairs|Software Engineer Intern|Washington, DC|Oct 07#1"
     }
   },
   "applied": {
@@ -132615,10 +132651,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10463,
+  "seq": 10466,
   "health": {
     "last_heartbeat": "2026-11-05T19:55:15Z",
-    "last_ok_run": "2026-11-05T20:10:21Z",
+    "last_ok_run": "2026-11-05T20:15:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
