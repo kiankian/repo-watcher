@@ -131864,6 +131864,78 @@
       "chat_id": 7582459199,
       "seq": 10431,
       "identity": "https://zapply.jobs/l/d/ashby-apex-technology-inc-4203604c-2330-4c89-8432-37af718a6bda?s=gh-internships-2027|Apex Technology|Software Engineering Internship, Embedded Systems (Spring or Summer 2027)|Los Angeles|Summer 2027#1"
+    },
+    "18ba06af0918": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Firmware Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Sparks, NV",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1iR?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11701,
+      "chat_id": 7582459199,
+      "seq": 10432,
+      "identity": "https://go.vansh.nyc/1iR?s=y|Sierra Nevada Corporation|Firmware Engineer Intern \ud83c\uddfa\ud83c\uddf8|Sparks, NV|Nov 05#1"
+    },
+    "54b1753153d0": {
+      "company": "Shield",
+      "role": "Software Engineer Co-op",
+      "location": "Dallas, TX",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1iW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11702,
+      "chat_id": 7582459199,
+      "seq": 10433,
+      "identity": "https://go.vansh.nyc/1iW?s=y|Shield|Software Engineer Co-op|Dallas, TX|Nov 05#1"
+    },
+    "e2383bacf88b": {
+      "company": "Booz Allen Hamilton",
+      "role": "Cybersecurity Analyst Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "McLean, VA",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1iU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11703,
+      "chat_id": 7582459199,
+      "seq": 10434,
+      "identity": "https://go.vansh.nyc/1iU?s=y|Booz Allen Hamilton|Cybersecurity Analyst Intern \ud83c\uddfa\ud83c\uddf8|McLean, VA|Nov 05#1"
+    },
+    "09738f1203c6": {
+      "company": "Acumatica",
+      "role": "Developer Intern",
+      "location": "Montreal, Canada",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1iT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11704,
+      "chat_id": 7582459199,
+      "seq": 10435,
+      "identity": "https://go.vansh.nyc/1iT?s=y|Acumatica|Developer Intern|Montreal, Canada|Nov 05#1"
+    },
+    "71679bf70eee": {
+      "company": "Lumbermen's",
+      "role": "Software Developer Intern",
+      "location": "Grand Rapids, MI",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1iS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11705,
+      "chat_id": 7582459199,
+      "seq": 10436,
+      "identity": "https://go.vansh.nyc/1iS?s=y|Lumbermen's|Software Developer Intern|Grand Rapids, MI|Nov 04#1"
+    },
+    "90f729e834de": {
+      "company": "Legrand",
+      "role": "Firmware Engineering Intern",
+      "location": "Reno, NV",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1iV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11706,
+      "chat_id": 7582459199,
+      "seq": 10437,
+      "identity": "https://go.vansh.nyc/1iV?s=y|Legrand|Firmware Engineering Intern|Reno, NV|Nov 04#1"
     }
   },
   "applied": {
@@ -132231,10 +132303,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10431,
+  "seq": 10437,
   "health": {
     "last_heartbeat": "2026-11-05T18:45:19Z",
-    "last_ok_run": "2026-11-05T18:45:19Z",
+    "last_ok_run": "2026-11-05T18:50:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
