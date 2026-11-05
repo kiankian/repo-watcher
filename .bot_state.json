@@ -131660,6 +131660,30 @@
       "chat_id": 7582459199,
       "seq": 10414,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01887483?s=gh-internships-2027|RTX|Skillbridge: Sr Prin Systems Engineer Intern|CO-AURORA-S75|Summer 2027#1"
+    },
+    "d1d4182478bb": {
+      "company": "JM Family",
+      "role": "Software Engineer Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105199?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11684,
+      "chat_id": 7582459199,
+      "seq": 10415,
+      "identity": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105199?utm_source=Simplify&ref=Simplify|JM Family|Software Engineer Intern|Deerfield Beach, FL|Summer 2026#1"
+    },
+    "7041edde1f5e": {
+      "company": "Federal Reserve System",
+      "role": "2027 Summer Internship Program - Information Security Intern",
+      "location": "Atlanta, GA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-rb-frs-R-0000033910?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11685,
+      "chat_id": 7582459199,
+      "seq": 10416,
+      "identity": "https://zapply.jobs/l/d/workday-rb-frs-R-0000033910?s=gh-internships-2027|Federal Reserve System|2027 Summer Internship Program - Information Security Intern|Atlanta, GA|Summer 2027#1"
     }
   },
   "applied": {
@@ -132027,10 +132051,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10414,
+  "seq": 10416,
   "health": {
     "last_heartbeat": "2026-11-05T15:00:26Z",
-    "last_ok_run": "2026-11-05T16:00:24Z",
+    "last_ok_run": "2026-11-05T16:10:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
