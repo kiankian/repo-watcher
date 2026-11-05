@@ -131360,6 +131360,42 @@
       "chat_id": 7582459199,
       "seq": 10389,
       "identity": "https://go.vansh.nyc/1i2?s=y|Noblis|Data Science and Innovation Intern|Springfield, VA Reston, VA|Nov 02#1"
+    },
+    "ff9697732b31": {
+      "company": "Trilogy Innovations",
+      "role": "Technical Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Remote United States",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1is?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11659,
+      "chat_id": 7582459199,
+      "seq": 10390,
+      "identity": "https://go.vansh.nyc/1is?s=y|Trilogy Innovations|Technical Intern \ud83c\uddfa\ud83c\uddf8|Remote United States|Nov 05#1"
+    },
+    "02259b3c366d": {
+      "company": "Concord Advice",
+      "role": "Data Scientist Intern",
+      "location": "Florham Park, NJ",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1ir?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11660,
+      "chat_id": 7582459199,
+      "seq": 10391,
+      "identity": "https://go.vansh.nyc/1ir?s=y|Concord Advice|Data Scientist Intern|Florham Park, NJ|Nov 05#1"
+    },
+    "d1aa67108605": {
+      "company": "Arango",
+      "role": "Software Engineer Intern, Cookbooks",
+      "location": "Remote United States",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1it?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11661,
+      "chat_id": 7582459199,
+      "seq": 10392,
+      "identity": "https://go.vansh.nyc/1it?s=y|Arango|Software Engineer Intern, Cookbooks|Remote United States|Nov 05#1"
     }
   },
   "applied": {
@@ -131727,10 +131763,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10389,
+  "seq": 10392,
   "health": {
     "last_heartbeat": "2026-11-05T10:25:17Z",
-    "last_ok_run": "2026-11-05T11:15:17Z",
+    "last_ok_run": "2026-11-05T11:20:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
