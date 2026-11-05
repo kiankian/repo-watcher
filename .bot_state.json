@@ -132596,6 +132596,78 @@
       "chat_id": 7582459199,
       "seq": 10492,
       "identity": "https://careers-riversideresearch.icims.com/jobs/4461/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Riverside Research|Software Applications Intern|Fairborn, OH|Summer 2026#1"
+    },
+    "c5e211b3e156": {
+      "company": "Walmart",
+      "role": "Data Science Intern, Last Mile Delivery",
+      "location": "Bentonville, AR",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jy?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11762,
+      "chat_id": 7582459199,
+      "seq": 10493,
+      "identity": "https://go.vansh.nyc/1jy?s=y|Walmart|Data Science Intern, Last Mile Delivery|Bentonville, AR|Nov 05#1"
+    },
+    "cf5525238545": {
+      "company": "Two Six Technologies",
+      "role": "Research Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Dayton, OH",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11763,
+      "chat_id": 7582459199,
+      "seq": 10494,
+      "identity": "https://go.vansh.nyc/1jx?s=y|Two Six Technologies|Research Intern \ud83c\uddfa\ud83c\uddf8|Dayton, OH|Nov 05#1"
+    },
+    "6061442fc4bb": {
+      "company": "DwyerOmega",
+      "role": "Software Engineer Intern",
+      "location": "Westerville, OH",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11764,
+      "chat_id": 7582459199,
+      "seq": 10495,
+      "identity": "https://go.vansh.nyc/1jv?s=y|DwyerOmega|Software Engineer Intern|Westerville, OH|Nov 05#1"
+    },
+    "ed1bafb14602": {
+      "company": "Cintas",
+      "role": "IT Engineer Intern, Customer Channels",
+      "location": "Mason, OH",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11765,
+      "chat_id": 7582459199,
+      "seq": 10496,
+      "identity": "https://go.vansh.nyc/1jw?s=y|Cintas|IT Engineer Intern, Customer Channels|Mason, OH|Nov 05#1"
+    },
+    "81a7953967e2": {
+      "company": "Riverside Research",
+      "role": "Software Applications Intern",
+      "location": "Fairborn, OH",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1ju?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11766,
+      "chat_id": 7582459199,
+      "seq": 10497,
+      "identity": "https://go.vansh.nyc/1ju?s=y|Riverside Research|Software Applications Intern|Fairborn, OH|Nov 04#1"
+    },
+    "00e1f24ff1c4": {
+      "company": "CareSource",
+      "role": "Configuration and Automation Intern",
+      "location": "Remote United States",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1js?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11767,
+      "chat_id": 7582459199,
+      "seq": 10498,
+      "identity": "https://go.vansh.nyc/1js?s=y|CareSource|Configuration and Automation Intern|Remote United States|Nov 04#1"
     }
   },
   "applied": {
@@ -132963,10 +133035,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10492,
+  "seq": 10498,
   "health": {
     "last_heartbeat": "2026-11-05T23:30:20Z",
-    "last_ok_run": "2026-11-05T23:45:17Z",
+    "last_ok_run": "2026-11-05T23:50:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
