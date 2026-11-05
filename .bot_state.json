@@ -131984,6 +131984,42 @@
       "chat_id": 7582459199,
       "seq": 10441,
       "identity": "NOURL|IGS Energy|Software Engineer Intern|Remote United States|Nov 02#1"
+    },
+    "d50d73de4490": {
+      "company": "RR Donnelley",
+      "role": "IT Software Integration & Automation Intern",
+      "location": "Minneapolis, MN",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1j3?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11711,
+      "chat_id": 7582459199,
+      "seq": 10442,
+      "identity": "https://go.vansh.nyc/1j3?s=y|RR Donnelley|IT Software Integration & Automation Intern|Minneapolis, MN|Nov 05#1"
+    },
+    "7170500e5a87": {
+      "company": "RR Donnelley",
+      "role": "Software Developer Intern",
+      "location": "Warrenville, IL",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1j4?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11712,
+      "chat_id": 7582459199,
+      "seq": 10443,
+      "identity": "https://go.vansh.nyc/1j4?s=y|RR Donnelley|Software Developer Intern|Warrenville, IL|Nov 05#1"
+    },
+    "ce85631e333f": {
+      "company": "ICF International",
+      "role": "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Reston, VA",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11713,
+      "chat_id": 7582459199,
+      "seq": 10444,
+      "identity": "NOURL|ICF International|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Reston, VA|Oct 14#1"
     }
   },
   "applied": {
@@ -132351,10 +132387,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10441,
+  "seq": 10444,
   "health": {
     "last_heartbeat": "2026-11-05T18:45:19Z",
-    "last_ok_run": "2026-11-05T19:40:17Z",
+    "last_ok_run": "2026-11-05T19:45:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
