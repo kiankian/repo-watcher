@@ -131432,6 +131432,30 @@
       "chat_id": 7582459199,
       "seq": 10395,
       "identity": "https://zapply.jobs/l/d/workday-jmfamily-jmfamily-external-JR105199?s=gh-internships-2027|JM Family Enterprises|Software Engineer Intern|Florida - Deerfield Beach|Summer 2027#1"
+    },
+    "00e3691281e5": {
+      "company": "CAI",
+      "role": "Cybersecurity Analyst Intern",
+      "location": "United States",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11665,
+      "chat_id": 7582459199,
+      "seq": 10396,
+      "identity": "NOURL|CAI|Cybersecurity Analyst Intern|United States|Nov 02#1"
+    },
+    "62884e7411a2": {
+      "company": "Celestica",
+      "role": "AI Engineer Intern",
+      "location": "Remote United States",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11666,
+      "chat_id": 7582459199,
+      "seq": 10397,
+      "identity": "NOURL|Celestica|AI Engineer Intern|Remote United States|Oct 18#1"
     }
   },
   "applied": {
@@ -131799,10 +131823,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10395,
+  "seq": 10397,
   "health": {
     "last_heartbeat": "2026-11-05T12:40:19Z",
-    "last_ok_run": "2026-11-05T13:45:18Z",
+    "last_ok_run": "2026-11-05T13:50:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
