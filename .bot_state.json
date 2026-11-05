@@ -131756,6 +131756,42 @@
       "chat_id": 7582459199,
       "seq": 10422,
       "identity": "https://go.vansh.nyc/1iL?s=y|RTX|Systems Security Engineer Intern \ud83c\uddfa\ud83c\uddf8|Tewksbury, MA|Nov 05#1"
+    },
+    "4958069fd062": {
+      "company": "Element Fleet Management",
+      "role": "Forward Deployed Engineer (FDE) Intern \ud83d\udec2",
+      "location": "Toronto, Canada",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1iM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11692,
+      "chat_id": 7582459199,
+      "seq": 10423,
+      "identity": "https://go.vansh.nyc/1iM?s=y|Element Fleet Management|Forward Deployed Engineer (FDE) Intern \ud83d\udec2|Toronto, Canada|Nov 05#1"
+    },
+    "7ec76d6f0c5d": {
+      "company": "Highmark Health",
+      "role": "Software Engineer Intern",
+      "location": "Remote United States",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11693,
+      "chat_id": 7582459199,
+      "seq": 10424,
+      "identity": "NOURL|Highmark Health|Software Engineer Intern|Remote United States|Oct 26#1"
+    },
+    "69055a3fd5a9": {
+      "company": "Leidos",
+      "role": "Performance Enablement AI/ML Intern",
+      "location": "Remote United States",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11694,
+      "chat_id": 7582459199,
+      "seq": 10425,
+      "identity": "NOURL|Leidos|Performance Enablement AI/ML Intern|Remote United States|Oct 14#1"
     }
   },
   "applied": {
@@ -132123,10 +132159,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10422,
+  "seq": 10425,
   "health": {
     "last_heartbeat": "2026-11-05T16:15:17Z",
-    "last_ok_run": "2026-11-05T17:10:18Z",
+    "last_ok_run": "2026-11-05T17:15:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
