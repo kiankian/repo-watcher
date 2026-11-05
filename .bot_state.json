@@ -131456,6 +131456,90 @@
       "chat_id": 7582459199,
       "seq": 10397,
       "identity": "NOURL|Celestica|AI Engineer Intern|Remote United States|Oct 18#1"
+    },
+    "4a6fc90bb26e": {
+      "company": "Tyler Technologies",
+      "role": "Software Development Intern",
+      "location": "United States",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1ix?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11667,
+      "chat_id": 7582459199,
+      "seq": 10398,
+      "identity": "https://go.vansh.nyc/1ix?s=y|Tyler Technologies|Software Development Intern|United States|Nov 05#1"
+    },
+    "5ab98ab44e03": {
+      "company": "Parsons",
+      "role": "Embedded Developer Intern",
+      "location": "Columbia, MD",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1iA?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11668,
+      "chat_id": 7582459199,
+      "seq": 10399,
+      "identity": "https://go.vansh.nyc/1iA?s=y|Parsons|Embedded Developer Intern|Columbia, MD|Nov 05#1"
+    },
+    "1175721b627f": {
+      "company": "Kimball Electronics",
+      "role": "Cybersecurity Intern \ud83d\udec2",
+      "location": "Remote United States",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1iy?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11669,
+      "chat_id": 7582459199,
+      "seq": 10400,
+      "identity": "https://go.vansh.nyc/1iy?s=y|Kimball Electronics|Cybersecurity Intern \ud83d\udec2|Remote United States|Nov 05#1"
+    },
+    "f73e943fd2b1": {
+      "company": "JM Family Enterprises",
+      "role": "Analytics Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1iw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11670,
+      "chat_id": 7582459199,
+      "seq": 10401,
+      "identity": "https://go.vansh.nyc/1iw?s=y|JM Family Enterprises|Analytics Intern|Deerfield Beach, FL|Nov 05#1"
+    },
+    "c0f6708238c7": {
+      "company": "Little Caesars Enterprises",
+      "role": "Cyber IT Intern",
+      "location": "Detroit, MI",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1iv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11671,
+      "chat_id": 7582459199,
+      "seq": 10402,
+      "identity": "https://go.vansh.nyc/1iv?s=y|Little Caesars Enterprises|Cyber IT Intern|Detroit, MI|Nov 04#1"
+    },
+    "a5d58e3f0019": {
+      "company": "Cincinnati Children\u2019s Hospital and Medical Center",
+      "role": "Student II Security Analyst Intern",
+      "location": "Remote United States",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11672,
+      "chat_id": 7582459199,
+      "seq": 10403,
+      "identity": "NOURL|Cincinnati Children\u2019s Hospital and Medical Center|Student II Security Analyst Intern|Remote United States|Nov 02#1"
+    },
+    "2dd93d9f1d52": {
+      "company": "Schonfeld",
+      "role": "Enterprise AI Intern",
+      "location": "New York, NY",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11673,
+      "chat_id": 7582459199,
+      "seq": 10404,
+      "identity": "NOURL|Schonfeld|Enterprise AI Intern|New York, NY|Oct 28#1"
     }
   },
   "applied": {
@@ -131823,10 +131907,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10397,
+  "seq": 10404,
   "health": {
     "last_heartbeat": "2026-11-05T14:00:23Z",
-    "last_ok_run": "2026-11-05T14:40:18Z",
+    "last_ok_run": "2026-11-05T14:45:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
