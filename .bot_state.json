@@ -131648,6 +131648,18 @@
       "chat_id": 7582459199,
       "seq": 10413,
       "identity": "https://go.vansh.nyc/1iD?s=y|BiblioCommons|Junior Full-Stack Engineer Intern|Canada|Nov 04#1"
+    },
+    "75cea1a92272": {
+      "company": "RTX",
+      "role": "Skillbridge: Sr Prin Systems Engineer Intern",
+      "location": "CO-AURORA-S75",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01887483?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11683,
+      "chat_id": 7582459199,
+      "seq": 10414,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01887483?s=gh-internships-2027|RTX|Skillbridge: Sr Prin Systems Engineer Intern|CO-AURORA-S75|Summer 2027#1"
     }
   },
   "applied": {
@@ -132015,10 +132027,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10413,
+  "seq": 10414,
   "health": {
     "last_heartbeat": "2026-11-05T15:00:26Z",
-    "last_ok_run": "2026-11-05T15:55:16Z",
+    "last_ok_run": "2026-11-05T16:00:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
