@@ -130664,6 +130664,18 @@
       "chat_id": 7582459199,
       "seq": 10331,
       "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0248393?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Software Developer Intern - Honolulu, HI|Honolulu, HI|Summer 2027#1"
+    },
+    "b3e4bf1ede8e": {
+      "company": "T-Mobile",
+      "role": "Associate Product Manager Intern",
+      "location": "Overland Park, KS",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11601,
+      "chat_id": 7582459199,
+      "seq": 10332,
+      "identity": "NOURL|T-Mobile|Associate Product Manager Intern|Overland Park, KS|Oct 28#1"
     }
   },
   "applied": {
@@ -131031,10 +131043,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10331,
+  "seq": 10332,
   "health": {
     "last_heartbeat": "2026-11-05T05:45:17Z",
-    "last_ok_run": "2026-11-05T06:10:19Z",
+    "last_ok_run": "2026-11-05T06:15:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
