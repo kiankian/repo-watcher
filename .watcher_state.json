@@ -2902,7 +2902,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "b80120f574dc12154fc474807d61065a19cc93b1",
+    "last_sha": "f6e31ce011ecc124205b7cd99c93a6d486faaa79",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -7373,14 +7373,19 @@
       "https://go.vansh.nyc/1hg?s=y|Logiqal|Quantum Error Correction and Architecture Intern|Princeton, NJ|Nov 03#1",
       "https://go.vansh.nyc/1hf?s=y|IDEMIA|Information Technology Intern|Remote United States|Nov 03#1",
       "NOURL|Bracco|Software Engineering Intern|Eden Prairie, MN|Nov 02#1",
-      "https://go.vansh.nyc/1hi?s=y|Badger Meter|Firmware Test Engineer Intern|Milwaukee, WI|Nov 04#1"
+      "https://go.vansh.nyc/1hi?s=y|Badger Meter|Firmware Test Engineer Intern|Milwaukee, WI|Nov 04#1",
+      "https://go.vansh.nyc/1ho?s=y|Qualcomm|Machine Learning Engineering Intern|Markham, Canada|Nov 04#1",
+      "https://go.vansh.nyc/1hp?s=y|Qualcomm|Display IP FPGA Emulation Intern|Markham, Canada|Nov 04#1",
+      "https://go.vansh.nyc/1hn?s=y|Keysight Technologies|R&D DSP/FPGA Design Automation Intern|Santa Rosa, CA|Nov 04#1",
+      "https://go.vansh.nyc/1hm?s=y|University Corporation for Atmospheric Research|SIParCS Undergraduate Student Intern|Boulder, CO|Nov 03#1",
+      "NOURL|IDEMIA|Information Technology Intern|Remote United States|Nov 03#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2160,
+    "last_row_count": 2164,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "55c5cf2f81601f377870680e7e913d55ac74a31b",
+    "last_sha": "ff24803b9a55c3dbd6616939c618319f94f8a8d4",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
