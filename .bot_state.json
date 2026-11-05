@@ -131816,6 +131816,30 @@
       "chat_id": 7582459199,
       "seq": 10427,
       "identity": "https://zapply.jobs/l/d/lever-shieldai-db8fc063-8856-4404-991c-f287712de949?s=gh-internships-2027|Shield AI|June 2027 Co-Op - Software Engineer Intern|Dallas, Texas|Summer 2027#1"
+    },
+    "42f8a4873f06": {
+      "company": "Shield AI",
+      "role": "Software Engineer Co-op",
+      "location": "**4 locations**Dallas, TX Washington, DC Seattle, WA San Diego, CA",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1iN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11697,
+      "chat_id": 7582459199,
+      "seq": 10428,
+      "identity": "https://go.vansh.nyc/1iN?s=y|Shield AI|Software Engineer Co-op|**4 locations**Dallas, TX Washington, DC Seattle, WA San Diego, CA|Nov 05#1"
+    },
+    "6080fcb53775": {
+      "company": "Arconic",
+      "role": "Cybersecurity Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Pittsburgh, PA",
+      "term": "Sep 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11698,
+      "chat_id": 7582459199,
+      "seq": 10429,
+      "identity": "NOURL|Arconic|Cybersecurity Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Sep 02#1"
     }
   },
   "applied": {
@@ -132183,10 +132207,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10427,
+  "seq": 10429,
   "health": {
     "last_heartbeat": "2026-11-05T17:25:19Z",
-    "last_ok_run": "2026-11-05T17:40:17Z",
+    "last_ok_run": "2026-11-05T17:45:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
