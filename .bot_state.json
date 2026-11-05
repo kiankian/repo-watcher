@@ -132224,6 +132224,30 @@
       "chat_id": 7582459199,
       "seq": 10461,
       "identity": "https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002|SpaceX|Summer 2027 Software Engineering Internship/Co-op|Bastrop, TX +7|Other#1"
+    },
+    "c4b60098cacf": {
+      "company": "Apex Technology",
+      "role": "Ground Software Engineering Internship (Spring or Summer 2027)",
+      "location": "Los Angeles",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-apex-technology-inc-2d5ad921-241f-4e7a-b9ff-9d01763da88c?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11731,
+      "chat_id": 7582459199,
+      "seq": 10462,
+      "identity": "https://zapply.jobs/l/d/ashby-apex-technology-inc-2d5ad921-241f-4e7a-b9ff-9d01763da88c?s=gh-internships-2027|Apex Technology|Ground Software Engineering Internship (Spring or Summer 2027)|Los Angeles|Summer 2027#1"
+    },
+    "c1b20908dd86": {
+      "company": "Apex Technology",
+      "role": "Software Engineering Internship, Test & Automation (Summer 2027)",
+      "location": "Los Angeles",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-apex-technology-inc-692bb497-59ba-44df-bacf-fffd2f7c6344?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11732,
+      "chat_id": 7582459199,
+      "seq": 10463,
+      "identity": "https://zapply.jobs/l/d/ashby-apex-technology-inc-692bb497-59ba-44df-bacf-fffd2f7c6344?s=gh-internships-2027|Apex Technology|Software Engineering Internship, Test & Automation (Summer 2027)|Los Angeles|Summer 2027#1"
     }
   },
   "applied": {
@@ -132591,10 +132615,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10461,
+  "seq": 10463,
   "health": {
     "last_heartbeat": "2026-11-05T19:55:15Z",
-    "last_ok_run": "2026-11-05T19:55:15Z",
+    "last_ok_run": "2026-11-05T20:00:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
