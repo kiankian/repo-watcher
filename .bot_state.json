@@ -131792,6 +131792,30 @@
       "chat_id": 7582459199,
       "seq": 10425,
       "identity": "NOURL|Leidos|Performance Enablement AI/ML Intern|Remote United States|Oct 14#1"
+    },
+    "93c055257815": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Systems Engineer Intern (For SNC Summer 2026 Interns Only)",
+      "location": "Sparks, NV",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031220?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11695,
+      "chat_id": 7582459199,
+      "seq": 10426,
+      "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031220?s=gh-internships-2027|Sierra Nevada Corporation|Systems Engineer Intern (For SNC Summer 2026 Interns Only)|Sparks, NV|Summer 2027#1"
+    },
+    "d36c4e967c10": {
+      "company": "Shield AI",
+      "role": "June 2027 Co-Op - Software Engineer Intern",
+      "location": "Dallas, Texas",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-shieldai-db8fc063-8856-4404-991c-f287712de949?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11696,
+      "chat_id": 7582459199,
+      "seq": 10427,
+      "identity": "https://zapply.jobs/l/d/lever-shieldai-db8fc063-8856-4404-991c-f287712de949?s=gh-internships-2027|Shield AI|June 2027 Co-Op - Software Engineer Intern|Dallas, Texas|Summer 2027#1"
     }
   },
   "applied": {
@@ -132159,10 +132183,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10425,
+  "seq": 10427,
   "health": {
     "last_heartbeat": "2026-11-05T16:15:17Z",
-    "last_ok_run": "2026-11-05T17:15:24Z",
+    "last_ok_run": "2026-11-05T17:20:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
