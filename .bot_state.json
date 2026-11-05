@@ -130532,6 +130532,90 @@
       "chat_id": 7582459199,
       "seq": 10320,
       "identity": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineering---AI-Intern_R-00196220?utm_source=Simplify&ref=Simplify|Leidos|Software Engineering & AI Intern|Remote in USA Shiloh, IL Odenton, MD|Summer 2026#1"
+    },
+    "46d7caf21aad": {
+      "company": "Texas Instruments",
+      "role": "Digital Design Verification Engineer Intern",
+      "location": "Santa Clara, CA",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1hB?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11590,
+      "chat_id": 7582459199,
+      "seq": 10321,
+      "identity": "https://go.vansh.nyc/1hB?s=y|Texas Instruments|Digital Design Verification Engineer Intern|Santa Clara, CA|Nov 04#1"
+    },
+    "9438f57f031a": {
+      "company": "PayPal",
+      "role": "Software Engineer Intern",
+      "location": "**5 locations**Austin, TX San Jose, CA Chicago, IL Omaha, NE Scottsdale, AZ",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1hw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11591,
+      "chat_id": 7582459199,
+      "seq": 10322,
+      "identity": "https://go.vansh.nyc/1hw?s=y|PayPal|Software Engineer Intern|**5 locations**Austin, TX San Jose, CA Chicago, IL Omaha, NE Scottsdale, AZ|Nov 04#1"
+    },
+    "46107a2692ce": {
+      "company": "PayPal",
+      "role": "Mobile Engineer Intern",
+      "location": "**5 locations**Austin, TX San Jose, CA Chicago, IL Omaha, NE Scottsdale, AZ",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1hx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11592,
+      "chat_id": 7582459199,
+      "seq": 10323,
+      "identity": "https://go.vansh.nyc/1hx?s=y|PayPal|Mobile Engineer Intern|**5 locations**Austin, TX San Jose, CA Chicago, IL Omaha, NE Scottsdale, AZ|Nov 04#1"
+    },
+    "7288cac3d587": {
+      "company": "PayPal",
+      "role": "Data Scientist Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1hy?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11593,
+      "chat_id": 7582459199,
+      "seq": 10324,
+      "identity": "https://go.vansh.nyc/1hy?s=y|PayPal|Data Scientist Intern|San Jose, CA|Nov 04#1"
+    },
+    "129a51b0b3ea": {
+      "company": "PayPal",
+      "role": "Machine Learning Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1hz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11594,
+      "chat_id": 7582459199,
+      "seq": 10325,
+      "identity": "https://go.vansh.nyc/1hz?s=y|PayPal|Machine Learning Engineer Intern|San Jose, CA|Nov 04#1"
+    },
+    "9cd25ff1ddd7": {
+      "company": "John Deere",
+      "role": "Product Engineering Student Intern",
+      "location": "Urbandale, IA",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1hv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11595,
+      "chat_id": 7582459199,
+      "seq": 10326,
+      "identity": "https://go.vansh.nyc/1hv?s=y|John Deere|Product Engineering Student Intern|Urbandale, IA|Nov 04#1"
+    },
+    "c83afb68c591": {
+      "company": "AMD",
+      "role": "Senior Systems Design Engineer Intern",
+      "location": "Markham, Canada",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1hu?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11596,
+      "chat_id": 7582459199,
+      "seq": 10327,
+      "identity": "https://go.vansh.nyc/1hu?s=y|AMD|Senior Systems Design Engineer Intern|Markham, Canada|Nov 04#1"
     }
   },
   "applied": {
@@ -130899,10 +130983,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10320,
+  "seq": 10327,
   "health": {
     "last_heartbeat": "2026-11-05T02:30:18Z",
-    "last_ok_run": "2026-11-05T03:10:15Z",
+    "last_ok_run": "2026-11-05T03:15:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
