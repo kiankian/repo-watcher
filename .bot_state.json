@@ -131684,6 +131684,42 @@
       "chat_id": 7582459199,
       "seq": 10416,
       "identity": "https://zapply.jobs/l/d/workday-rb-frs-R-0000033910?s=gh-internships-2027|Federal Reserve System|2027 Summer Internship Program - Information Security Intern|Atlanta, GA|Summer 2027#1"
+    },
+    "7488a97c9b4a": {
+      "company": "The Federal Reserve System",
+      "role": "Information Security Intern \ud83d\udec2",
+      "location": "Atlanta, GA",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1iJ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11686,
+      "chat_id": 7582459199,
+      "seq": 10417,
+      "identity": "https://go.vansh.nyc/1iJ?s=y|The Federal Reserve System|Information Security Intern \ud83d\udec2|Atlanta, GA|Nov 05#1"
+    },
+    "ea2fa0f5f33b": {
+      "company": "JM Family Enterprises",
+      "role": "Software Engineer Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1iH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11687,
+      "chat_id": 7582459199,
+      "seq": 10418,
+      "identity": "https://go.vansh.nyc/1iH?s=y|JM Family Enterprises|Software Engineer Intern|Deerfield Beach, FL|Nov 04#1"
+    },
+    "70dbfe4b48cf": {
+      "company": "JM Family Enterprises",
+      "role": "Software Analyst Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1iI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11688,
+      "chat_id": 7582459199,
+      "seq": 10419,
+      "identity": "https://go.vansh.nyc/1iI?s=y|JM Family Enterprises|Software Analyst Intern|Deerfield Beach, FL|Nov 04#1"
     }
   },
   "applied": {
@@ -132051,10 +132087,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10416,
+  "seq": 10419,
   "health": {
     "last_heartbeat": "2026-11-05T16:15:17Z",
-    "last_ok_run": "2026-11-05T16:15:17Z",
+    "last_ok_run": "2026-11-05T16:20:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
