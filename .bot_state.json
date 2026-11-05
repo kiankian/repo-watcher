@@ -130676,6 +130676,30 @@
       "chat_id": 7582459199,
       "seq": 10332,
       "identity": "NOURL|T-Mobile|Associate Product Manager Intern|Overland Park, KS|Oct 28#1"
+    },
+    "a51f30ae0196": {
+      "company": "Visa",
+      "role": "Sophomore Program Software Engineer Intern \ud83d\udec2",
+      "location": "Denver, CO",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11602,
+      "chat_id": 7582459199,
+      "seq": 10333,
+      "identity": "NOURL|Visa|Sophomore Program Software Engineer Intern \ud83d\udec2|Denver, CO|Oct 27#1"
+    },
+    "47760b5b961a": {
+      "company": "Visa",
+      "role": "Network and Security Engineering Intern \ud83d\udec2",
+      "location": "Denver, CO",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11603,
+      "chat_id": 7582459199,
+      "seq": 10334,
+      "identity": "NOURL|Visa|Network and Security Engineering Intern \ud83d\udec2|Denver, CO|Oct 26#1"
     }
   },
   "applied": {
@@ -131043,10 +131067,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10332,
+  "seq": 10334,
   "health": {
     "last_heartbeat": "2026-11-05T07:00:21Z",
-    "last_ok_run": "2026-11-05T07:10:16Z",
+    "last_ok_run": "2026-11-05T07:15:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
