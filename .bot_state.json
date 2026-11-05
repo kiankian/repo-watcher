@@ -131948,6 +131948,42 @@
       "chat_id": 7582459199,
       "seq": 10438,
       "identity": "https://zapply.jobs/l/d/lever-palantir-cd64bcd4-50bb-4aeb-a135-4e0487ffd312?s=gh-internships-2027|Palantir|Software Engineer, Internship - Sovereign AI Systems|New York, NY|Summer 2027#1"
+    },
+    "ee1f1aa992ec": {
+      "company": "Palantir Technologies",
+      "role": "Software Engineer Intern, Sovereign AI Systems",
+      "location": "New York, NY",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1j0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11708,
+      "chat_id": 7582459199,
+      "seq": 10439,
+      "identity": "https://go.vansh.nyc/1j0?s=y|Palantir Technologies|Software Engineer Intern, Sovereign AI Systems|New York, NY|Nov 05#1"
+    },
+    "26a88248fd3f": {
+      "company": "STARKEY DE M\u00c9XICO S.A. DE C.V.",
+      "role": "Software Engineering Intern",
+      "location": "Eden Prairie, MN",
+      "term": "Nov 03",
+      "apply_url": "https://go.vansh.nyc/1j1?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11709,
+      "chat_id": 7582459199,
+      "seq": 10440,
+      "identity": "https://go.vansh.nyc/1j1?s=y|STARKEY DE M\u00c9XICO S.A. DE C.V.|Software Engineering Intern|Eden Prairie, MN|Nov 03#1"
+    },
+    "cac8d7860cab": {
+      "company": "IGS Energy",
+      "role": "Software Engineer Intern",
+      "location": "Remote United States",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11710,
+      "chat_id": 7582459199,
+      "seq": 10441,
+      "identity": "NOURL|IGS Energy|Software Engineer Intern|Remote United States|Nov 02#1"
     }
   },
   "applied": {
@@ -132315,10 +132351,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10438,
+  "seq": 10441,
   "health": {
     "last_heartbeat": "2026-11-05T18:45:19Z",
-    "last_ok_run": "2026-11-05T19:10:18Z",
+    "last_ok_run": "2026-11-05T19:15:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
