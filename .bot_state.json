@@ -132380,6 +132380,54 @@
       "chat_id": 7582459199,
       "seq": 10474,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873646?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|CO-AURORA-S75|Summer 2027#1"
+    },
+    "0d66e4805f1a": {
+      "company": "Western Alliance Bancorporation",
+      "role": "Platform Engineering Intern",
+      "location": "Columbus, OH",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11744,
+      "chat_id": 7582459199,
+      "seq": 10475,
+      "identity": "https://go.vansh.nyc/1jh?s=y|Western Alliance Bancorporation|Platform Engineering Intern|Columbus, OH|Nov 05#1"
+    },
+    "f6f925298b22": {
+      "company": "CareSource",
+      "role": "Data Analyst Intern",
+      "location": "Remote United States",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11745,
+      "chat_id": 7582459199,
+      "seq": 10476,
+      "identity": "https://go.vansh.nyc/1jg?s=y|CareSource|Data Analyst Intern|Remote United States|Nov 05#1"
+    },
+    "595d18ab9d5d": {
+      "company": "Motorola Solutions",
+      "role": "Software Engineer Intern, Cybersecurity Services \ud83c\uddfa\ud83c\uddf8",
+      "location": "**7 locations**Remote United States Chicago, IL Ashburn, VA Plantation, FL Schaumburg, IL Salt Lake City, UT",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11746,
+      "chat_id": 7582459199,
+      "seq": 10477,
+      "identity": "NOURL|Motorola Solutions|Software Engineer Intern, Cybersecurity Services \ud83c\uddfa\ud83c\uddf8|**7 locations**Remote United States Chicago, IL Ashburn, VA Plantation, FL Schaumburg, IL Salt Lake City, UT|Nov 02#1"
+    },
+    "084cfdb04d7d": {
+      "company": "PanAgora",
+      "role": "Equity Intern",
+      "location": "Boston, MA",
+      "term": "Sep 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11747,
+      "chat_id": 7582459199,
+      "seq": 10478,
+      "identity": "NOURL|PanAgora|Equity Intern|Boston, MA|Sep 09#1"
     }
   },
   "applied": {
@@ -132747,10 +132795,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10474,
+  "seq": 10478,
   "health": {
     "last_heartbeat": "2026-11-05T21:00:21Z",
-    "last_ok_run": "2026-11-05T21:40:19Z",
+    "last_ok_run": "2026-11-05T21:45:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
