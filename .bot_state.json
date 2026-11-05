@@ -130340,6 +130340,18 @@
       "chat_id": 7582459199,
       "seq": 10304,
       "identity": "NOURL|Bracco|Software Engineering Intern|Eden Prairie, MN|Nov 02#1"
+    },
+    "e6255ae8d0a0": {
+      "company": "Badger Meter",
+      "role": "Firmware Test Engineer Intern",
+      "location": "Milwaukee, WI",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1hi?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11574,
+      "chat_id": 7582459199,
+      "seq": 10305,
+      "identity": "https://go.vansh.nyc/1hi?s=y|Badger Meter|Firmware Test Engineer Intern|Milwaukee, WI|Nov 04#1"
     }
   },
   "applied": {
@@ -130707,10 +130719,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10304,
+  "seq": 10305,
   "health": {
     "last_heartbeat": "2026-11-05T00:00:21Z",
-    "last_ok_run": "2026-11-05T00:40:17Z",
+    "last_ok_run": "2026-11-05T00:45:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
