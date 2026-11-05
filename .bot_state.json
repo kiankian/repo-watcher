@@ -130892,6 +130892,66 @@
       "chat_id": 7582459199,
       "seq": 10350,
       "identity": "NOURL|Northrop Grumman|Engineering Software and Analysis Intern \ud83c\uddfa\ud83c\uddf8|Sunnyvale, CA|Nov 02#1"
+    },
+    "7f00a7c827fb": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Software Engineering Intern",
+      "location": "Lakewood, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-gdms.icims.com/jobs/75131/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11620,
+      "chat_id": 7582459199,
+      "seq": 10351,
+      "identity": "https://careers-gdms.icims.com/jobs/75131/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|General Dynamics Mission Systems|Software Engineering Intern|Lakewood, OH|Summer 2026#1"
+    },
+    "a55551e9b5d4": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Software Engineering Intern",
+      "location": "Manassas, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-gdms.icims.com/jobs/75128/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11621,
+      "chat_id": 7582459199,
+      "seq": 10352,
+      "identity": "https://careers-gdms.icims.com/jobs/75128/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|General Dynamics Mission Systems|Software Engineering Intern|Manassas, VA|Summer 2026#1"
+    },
+    "21557778b248": {
+      "company": "Alaska Air Group",
+      "role": "VR Development Intern",
+      "location": "Renton, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://corporatejobs-alaskaair.icims.com/jobs/21281/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11622,
+      "chat_id": 7582459199,
+      "seq": 10353,
+      "identity": "https://corporatejobs-alaskaair.icims.com/jobs/21281/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Alaska Air Group|VR Development Intern|Renton, WA|Summer 2026#1"
+    },
+    "e625b9a48557": {
+      "company": "Alaska Air Group",
+      "role": "Software Engineer Intern",
+      "location": "SeaTac, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://corporatejobs-alaskaair.icims.com/jobs/21277/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11623,
+      "chat_id": 7582459199,
+      "seq": 10354,
+      "identity": "https://corporatejobs-alaskaair.icims.com/jobs/21277/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Alaska Air Group|Software Engineer Intern|SeaTac, WA|Summer 2026#1"
+    },
+    "9b7624cd34f7": {
+      "company": "Wolf & Company",
+      "role": "AI & Automation Intern",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://career-portal-wolfandco.icims.com/jobs/1599/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11624,
+      "chat_id": 7582459199,
+      "seq": 10355,
+      "identity": "https://career-portal-wolfandco.icims.com/jobs/1599/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Wolf & Company|AI & Automation Intern|Boston, MA|Summer 2026#1"
     }
   },
   "applied": {
@@ -131259,10 +131319,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10350,
+  "seq": 10355,
   "health": {
     "last_heartbeat": "2026-11-05T08:15:16Z",
-    "last_ok_run": "2026-11-05T08:30:21Z",
+    "last_ok_run": "2026-11-05T08:35:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
