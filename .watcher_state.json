@@ -2954,7 +2954,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "66d450f7cade8e6c0b072652e33562a6831de1f5",
+    "last_sha": "3db4c0438f836a826f28db73185109158661f98c",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -7690,14 +7690,23 @@
       "https://go.vansh.nyc/1ln?s=y|Sierra|Software Engineer Intern, Agent|San Francisco, CA New York, NY|Aug 31#1",
       "https://go.vansh.nyc/1li?s=y|AfterQuery|Software Engineering Intern|San Francisco, CA|Nov 17#1",
       "https://go.vansh.nyc/1ly?s=y|Invesco|Real Estate Intern, Data Science|Dallas, TX|Nov 06#1",
-      "NOURL|ICF International|AI Engineer Intern \ud83c\uddfa\ud83c\uddf8|Reston, VA|Oct 14#1"
+      "NOURL|ICF International|AI Engineer Intern \ud83c\uddfa\ud83c\uddf8|Reston, VA|Oct 14#1",
+      "https://go.vansh.nyc/1lI?s=y|Qualcomm|Digital Design Engineer Intern, Interim Engineering Systems|Toronto, Canada|Nov 06#1",
+      "https://go.vansh.nyc/1lK?s=y|PETRONAS Canada|Student Intern, Infrastructure Automation and Innovation|Calgary, Canada|Nov 06#1",
+      "https://go.vansh.nyc/1lJ?s=y|Parspec|Applied AI Engineer Intern|San Mateo, CA|Nov 06#1",
+      "https://go.vansh.nyc/1lH?s=y|L3Harris Technologies|Data Architect Intern|Huntsville, AL|Nov 06#1",
+      "https://go.vansh.nyc/1lG?s=y|Samsung|Business Intelligence & Data Analytics Intern|Plano, TX|Nov 05#1",
+      "https://go.vansh.nyc/1lF?s=y|L.L.Bean|Quality Assurance Analyst Intern|Freeport, ME|Nov 05#1",
+      "https://go.vansh.nyc/1lC?s=y|Intercontinental Exchange|Trading System Development Intern|New York, NY|Nov 05#1",
+      "https://go.vansh.nyc/1lD?s=y|Intercontinental Exchange|Release Engineering Intern|Jacksonville, FL|Nov 05#1",
+      "https://go.vansh.nyc/1lE?s=y|Intercontinental Exchange|Infrastructure Development & Automation Intern|Atlanta, GA|Nov 05#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2336,
+    "last_row_count": 2345,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "ba6b420eb84599bd0d650a3cd1c2e4e161abad20",
+    "last_sha": "2277a2b09d8d68173c3b70323937bf67a67da27f",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -10241,7 +10250,8 @@
       "https://zapply.jobs/l/d/workday-carrier-jobs-30220566?s=gh-internships-2027|Carrier Global|Systems Engineering Intern - Summer|CAG01: CTD-Athens, 700 Olympic...|Summer 2027#1",
       "https://zapply.jobs/l/d/greenhouse-thenewyorktimes-4751973005?s=gh-internships-2027|The New York Times|Backend Engineering Intern|New York, NY|Summer 2027#1",
       "https://zapply.jobs/l/d/greenhouse-astranis-4704571006?s=gh-internships-2027|Astranis|Embedded Software Developer, Network/Payload Intern (Winter 2027)|San Francisco|Summer 2027#1",
-      "https://zapply.jobs/l/d/phenom-mitre-R117315?s=gh-internships-2027|MITRE|Internships in Computer Science or Software Engineering|McLean, Virginia|Summer 2027#1"
+      "https://zapply.jobs/l/d/phenom-mitre-R117315?s=gh-internships-2027|MITRE|Internships in Computer Science or Software Engineering|McLean, Virginia|Summer 2027#1",
+      "https://zapply.jobs/l/d/greenhouse-vardaspace-8198267003?s=gh-internships-2027|Varda Space|Site Reliability Internship - Summer 2027|El Segundo, California, United...|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",

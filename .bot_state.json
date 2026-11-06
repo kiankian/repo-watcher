@@ -135140,6 +135140,126 @@
       "chat_id": 7582459199,
       "seq": 10704,
       "identity": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751919005?utm_source=Simplify&ref=Simplify|The New York Times|iOS Engineer Intern|NYC|Summer 2026#1"
+    },
+    "854f5efd0b2c": {
+      "company": "Qualcomm",
+      "role": "Digital Design Engineer Intern, Interim Engineering Systems",
+      "location": "Toronto, Canada",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1lI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11975,
+      "chat_id": 7582459199,
+      "seq": 10705,
+      "identity": "https://go.vansh.nyc/1lI?s=y|Qualcomm|Digital Design Engineer Intern, Interim Engineering Systems|Toronto, Canada|Nov 06#1"
+    },
+    "8e31be42175b": {
+      "company": "PETRONAS Canada",
+      "role": "Student Intern, Infrastructure Automation and Innovation",
+      "location": "Calgary, Canada",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1lK?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11976,
+      "chat_id": 7582459199,
+      "seq": 10706,
+      "identity": "https://go.vansh.nyc/1lK?s=y|PETRONAS Canada|Student Intern, Infrastructure Automation and Innovation|Calgary, Canada|Nov 06#1"
+    },
+    "84820a8c22fa": {
+      "company": "Parspec",
+      "role": "Applied AI Engineer Intern",
+      "location": "San Mateo, CA",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1lJ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11977,
+      "chat_id": 7582459199,
+      "seq": 10707,
+      "identity": "https://go.vansh.nyc/1lJ?s=y|Parspec|Applied AI Engineer Intern|San Mateo, CA|Nov 06#1"
+    },
+    "bbd9a1c2815e": {
+      "company": "L3Harris Technologies",
+      "role": "Data Architect Intern",
+      "location": "Huntsville, AL",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1lH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11978,
+      "chat_id": 7582459199,
+      "seq": 10708,
+      "identity": "https://go.vansh.nyc/1lH?s=y|L3Harris Technologies|Data Architect Intern|Huntsville, AL|Nov 06#1"
+    },
+    "36b240d388d6": {
+      "company": "Samsung",
+      "role": "Business Intelligence & Data Analytics Intern",
+      "location": "Plano, TX",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1lG?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11979,
+      "chat_id": 7582459199,
+      "seq": 10709,
+      "identity": "https://go.vansh.nyc/1lG?s=y|Samsung|Business Intelligence & Data Analytics Intern|Plano, TX|Nov 05#1"
+    },
+    "cf85f59c8351": {
+      "company": "L.L.Bean",
+      "role": "Quality Assurance Analyst Intern",
+      "location": "Freeport, ME",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1lF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11980,
+      "chat_id": 7582459199,
+      "seq": 10710,
+      "identity": "https://go.vansh.nyc/1lF?s=y|L.L.Bean|Quality Assurance Analyst Intern|Freeport, ME|Nov 05#1"
+    },
+    "c456c7e1e85f": {
+      "company": "Intercontinental Exchange",
+      "role": "Trading System Development Intern",
+      "location": "New York, NY",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1lC?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11981,
+      "chat_id": 7582459199,
+      "seq": 10711,
+      "identity": "https://go.vansh.nyc/1lC?s=y|Intercontinental Exchange|Trading System Development Intern|New York, NY|Nov 05#1"
+    },
+    "cbaf84d2c2b2": {
+      "company": "Intercontinental Exchange",
+      "role": "Release Engineering Intern",
+      "location": "Jacksonville, FL",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1lD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11982,
+      "chat_id": 7582459199,
+      "seq": 10712,
+      "identity": "https://go.vansh.nyc/1lD?s=y|Intercontinental Exchange|Release Engineering Intern|Jacksonville, FL|Nov 05#1"
+    },
+    "d46641f883c0": {
+      "company": "Intercontinental Exchange",
+      "role": "Infrastructure Development & Automation Intern",
+      "location": "Atlanta, GA",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1lE?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11983,
+      "chat_id": 7582459199,
+      "seq": 10713,
+      "identity": "https://go.vansh.nyc/1lE?s=y|Intercontinental Exchange|Infrastructure Development & Automation Intern|Atlanta, GA|Nov 05#1"
+    },
+    "e562f4fc11ce": {
+      "company": "Varda Space",
+      "role": "Site Reliability Internship - Summer 2027",
+      "location": "El Segundo, California, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-vardaspace-8198267003?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11984,
+      "chat_id": 7582459199,
+      "seq": 10714,
+      "identity": "https://zapply.jobs/l/d/greenhouse-vardaspace-8198267003?s=gh-internships-2027|Varda Space|Site Reliability Internship - Summer 2027|El Segundo, California, United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -135507,10 +135627,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10704,
+  "seq": 10714,
   "health": {
     "last_heartbeat": "2026-11-06T22:30:21Z",
-    "last_ok_run": "2026-11-06T23:40:17Z",
+    "last_ok_run": "2026-11-06T23:50:32Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
