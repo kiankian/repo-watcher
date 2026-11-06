@@ -133808,6 +133808,114 @@
       "chat_id": 7582459199,
       "seq": 10593,
       "identity": "https://careers-sas.icims.com/jobs/42786/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|SAS|Data Scientist Intern \ud83c\udf93|Cary, NC|Summer 2026#1"
+    },
+    "33a80c742a42": {
+      "company": "Invitation-charter",
+      "role": "Data Science Intern",
+      "location": "Greenwood Village, CO",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1ku?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11863,
+      "chat_id": 7582459199,
+      "seq": 10594,
+      "identity": "https://go.vansh.nyc/1ku?s=y|Invitation-charter|Data Science Intern|Greenwood Village, CO|Nov 06#1"
+    },
+    "a3228a53f383": {
+      "company": "Invitation-charter",
+      "role": "Software Engineer Intern",
+      "location": "Englewood, CO",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1kv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11864,
+      "chat_id": 7582459199,
+      "seq": 10595,
+      "identity": "https://go.vansh.nyc/1kv?s=y|Invitation-charter|Software Engineer Intern|Englewood, CO|Nov 06#1"
+    },
+    "9ff44cbfa0a9": {
+      "company": "Invitation-charter",
+      "role": "Data Developer Intern",
+      "location": "Greenwood Village, CO",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1kw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11865,
+      "chat_id": 7582459199,
+      "seq": 10596,
+      "identity": "https://go.vansh.nyc/1kw?s=y|Invitation-charter|Data Developer Intern|Greenwood Village, CO|Nov 06#1"
+    },
+    "b9e98a531600": {
+      "company": "T-Mobile",
+      "role": "Software Engineering Intern",
+      "location": "Overland Park, KS",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1kt?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11866,
+      "chat_id": 7582459199,
+      "seq": 10597,
+      "identity": "https://go.vansh.nyc/1kt?s=y|T-Mobile|Software Engineering Intern|Overland Park, KS|Nov 05#1"
+    },
+    "9db2fb0d23e0": {
+      "company": "Hitachi",
+      "role": "Full Stack Developer Intern",
+      "location": "Dallas, TX",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11867,
+      "chat_id": 7582459199,
+      "seq": 10598,
+      "identity": "NOURL|Hitachi|Full Stack Developer Intern|Dallas, TX|Nov 06#1"
+    },
+    "0d4c5548d5ec": {
+      "company": "Republic Airways",
+      "role": "Data Analytics Intern \ud83d\udec2",
+      "location": "Carmel, IN",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11868,
+      "chat_id": 7582459199,
+      "seq": 10599,
+      "identity": "NOURL|Republic Airways|Data Analytics Intern \ud83d\udec2|Carmel, IN|Nov 03#1"
+    },
+    "468302d22375": {
+      "company": "Cadillac Formula 1 Team",
+      "role": "Aerodynamics AI Industrial Placement Intern",
+      "location": "Indianapolis, IN",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11869,
+      "chat_id": 7582459199,
+      "seq": 10600,
+      "identity": "NOURL|Cadillac Formula 1 Team|Aerodynamics AI Industrial Placement Intern|Indianapolis, IN|Oct 30#1"
+    },
+    "37d02771a960": {
+      "company": "Sonos",
+      "role": "Software Engineering Intern \ud83d\udec2",
+      "location": "Boston, MA",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11870,
+      "chat_id": 7582459199,
+      "seq": 10601,
+      "identity": "NOURL|Sonos|Software Engineering Intern \ud83d\udec2|Boston, MA|Oct 28#1"
+    },
+    "ffecdbb11116": {
+      "company": "Avis Budget Group",
+      "role": "Transformation Engineer Intern, Accelerate",
+      "location": "Parsippany-Troy Hills, NJ",
+      "term": "Sep 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11871,
+      "chat_id": 7582459199,
+      "seq": 10602,
+      "identity": "NOURL|Avis Budget Group|Transformation Engineer Intern, Accelerate|Parsippany-Troy Hills, NJ|Sep 10#1"
     }
   },
   "applied": {
@@ -134175,10 +134283,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10593,
+  "seq": 10602,
   "health": {
     "last_heartbeat": "2026-11-06T15:30:20Z",
-    "last_ok_run": "2026-11-06T16:15:17Z",
+    "last_ok_run": "2026-11-06T16:20:33Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
