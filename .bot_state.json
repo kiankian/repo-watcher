@@ -133760,6 +133760,54 @@
       "chat_id": 7582459199,
       "seq": 10589,
       "identity": "NOURL|Quantum Signal AI|Software Engineer Intern, Tools and Prototypes|Saline, MI|Oct 05#1"
+    },
+    "1037bd10d2e3": {
+      "company": "\ud83d\udd25 Waymo",
+      "role": "Software Engineer Intern \ud83c\udf93",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=8350832&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11859,
+      "chat_id": 7582459199,
+      "seq": 10590,
+      "identity": "https://careers.withwaymo.com/jobs?gh_jid=8350832&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Waymo|Software Engineer Intern \ud83c\udf93|SF|Summer 2026#1"
+    },
+    "fffd5e7a1a18": {
+      "company": "T-Mobile",
+      "role": "Software Engineering Intern",
+      "location": "Overland Park, KS",
+      "term": "Summer 2026",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380734?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11860,
+      "chat_id": 7582459199,
+      "seq": 10591,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380734?utm_source=Simplify&ref=Simplify|T-Mobile|Software Engineering Intern|Overland Park, KS|Summer 2026#1"
+    },
+    "cc70034b4460": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern",
+      "location": "Overland Park, KS",
+      "term": "Summer 2026",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11861,
+      "chat_id": 7582459199,
+      "seq": 10592,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739?utm_source=Simplify&ref=Simplify|T-Mobile|Software Engineer Intern|Overland Park, KS|Summer 2026#1"
+    },
+    "ac23ff294c68": {
+      "company": "SAS",
+      "role": "Data Scientist Intern \ud83c\udf93",
+      "location": "Cary, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-sas.icims.com/jobs/42786/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11862,
+      "chat_id": 7582459199,
+      "seq": 10593,
+      "identity": "https://careers-sas.icims.com/jobs/42786/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|SAS|Data Scientist Intern \ud83c\udf93|Cary, NC|Summer 2026#1"
     }
   },
   "applied": {
@@ -134127,10 +134175,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10589,
+  "seq": 10593,
   "health": {
     "last_heartbeat": "2026-11-06T15:30:20Z",
-    "last_ok_run": "2026-11-06T16:00:23Z",
+    "last_ok_run": "2026-11-06T16:05:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
