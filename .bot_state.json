@@ -134708,6 +134708,102 @@
       "chat_id": 7582459199,
       "seq": 10668,
       "identity": "https://zapply.jobs/l/d/greenhouse-thenewyorktimes-4751909005?s=gh-internships-2027|The New York Times|Frontend Engineering Intern|New York, NY|Summer 2027#1"
+    },
+    "f577cd96c173": {
+      "company": "The New York Times",
+      "role": "Frontend Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1l5?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11939,
+      "chat_id": 7582459199,
+      "seq": 10669,
+      "identity": "https://go.vansh.nyc/1l5?s=y|The New York Times|Frontend Engineering Intern|New York, NY|Nov 06#1"
+    },
+    "3ad031547ca9": {
+      "company": "The New York Times",
+      "role": "Android Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1l6?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11940,
+      "chat_id": 7582459199,
+      "seq": 10670,
+      "identity": "https://go.vansh.nyc/1l6?s=y|The New York Times|Android Engineering Intern|New York, NY|Nov 06#1"
+    },
+    "f78850dfab68": {
+      "company": "The New York Times",
+      "role": "Full-Stack Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1l7?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11941,
+      "chat_id": 7582459199,
+      "seq": 10671,
+      "identity": "https://go.vansh.nyc/1l7?s=y|The New York Times|Full-Stack Engineering Intern|New York, NY|Nov 06#1"
+    },
+    "27b67a486b8d": {
+      "company": "The New York Times",
+      "role": "iOS Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1l8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11942,
+      "chat_id": 7582459199,
+      "seq": 10672,
+      "identity": "https://go.vansh.nyc/1l8?s=y|The New York Times|iOS Engineering Intern|New York, NY|Nov 06#1"
+    },
+    "11a538ee95b0": {
+      "company": "T-Mobile",
+      "role": "AI Strategist Intern",
+      "location": "Bellevue, WA",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1l9?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11943,
+      "chat_id": 7582459199,
+      "seq": 10673,
+      "identity": "https://go.vansh.nyc/1l9?s=y|T-Mobile|AI Strategist Intern|Bellevue, WA|Nov 06#1"
+    },
+    "7d21ecfb1e44": {
+      "company": "V2X",
+      "role": "AI Engineering Intern",
+      "location": "Indianapolis, IN",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11944,
+      "chat_id": 7582459199,
+      "seq": 10674,
+      "identity": "NOURL|V2X|AI Engineering Intern|Indianapolis, IN|Nov 05#1"
+    },
+    "1cdb30d09045": {
+      "company": "Cincinnati Children\u2019s Hospital and Medical Center",
+      "role": "Data Management Engineer Intern",
+      "location": "Remote United States",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11945,
+      "chat_id": 7582459199,
+      "seq": 10675,
+      "identity": "NOURL|Cincinnati Children\u2019s Hospital and Medical Center|Data Management Engineer Intern|Remote United States|Nov 01#1"
+    },
+    "35a2a40d8f1a": {
+      "company": "Carrier Global",
+      "role": "Systems Engineering Intern - Summer",
+      "location": "CAG01: CTD-Athens, 700 Olympic...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-carrier-jobs-30220566?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 11946,
+      "chat_id": 7582459199,
+      "seq": 10676,
+      "identity": "https://zapply.jobs/l/d/workday-carrier-jobs-30220566?s=gh-internships-2027|Carrier Global|Systems Engineering Intern - Summer|CAG01: CTD-Athens, 700 Olympic...|Summer 2027#1"
     }
   },
   "applied": {
@@ -135075,10 +135171,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10668,
+  "seq": 10676,
   "health": {
     "last_heartbeat": "2026-11-06T20:25:15Z",
-    "last_ok_run": "2026-11-06T20:40:19Z",
+    "last_ok_run": "2026-11-06T20:45:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
