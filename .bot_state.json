@@ -134120,6 +134120,42 @@
       "chat_id": 7582459199,
       "seq": 10619,
       "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0253124?s=gh-internships-2027|Booz Allen Hamilton|Test Engineer Intern|Lexington Park, MD|Summer 2027#1"
+    },
+    "c2440404c2e0": {
+      "company": "Genesys",
+      "role": "Software Engineering Intern",
+      "location": "Indianapolis, IN",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11889,
+      "chat_id": 7582459199,
+      "seq": 10620,
+      "identity": "NOURL|Genesys|Software Engineering Intern|Indianapolis, IN|Nov 05#1"
+    },
+    "80bdc89bc03c": {
+      "company": "RGA Reinsurance Company",
+      "role": "Data Analyst Intern",
+      "location": "Chesterfield, MO",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11890,
+      "chat_id": 7582459199,
+      "seq": 10621,
+      "identity": "NOURL|RGA Reinsurance Company|Data Analyst Intern|Chesterfield, MO|Nov 03#1"
+    },
+    "ad4cc6134e94": {
+      "company": "DivcoWest",
+      "role": "AI Intern",
+      "location": "San Francisco, CA",
+      "term": "Oct 31",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11891,
+      "chat_id": 7582459199,
+      "seq": 10622,
+      "identity": "NOURL|DivcoWest|AI Intern|San Francisco, CA|Oct 31#1"
     }
   },
   "applied": {
@@ -134487,10 +134523,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10619,
+  "seq": 10622,
   "health": {
     "last_heartbeat": "2026-11-06T17:55:16Z",
-    "last_ok_run": "2026-11-06T18:10:19Z",
+    "last_ok_run": "2026-11-06T18:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
