@@ -132956,6 +132956,54 @@
       "chat_id": 7582459199,
       "seq": 10522,
       "identity": "https://jobs.lever.co/zoox/88f6cb68-1534-44af-80db-10e43c203520/apply?utm_source=Simplify&ref=Simplify|Zoox|Software Engineer Intern - Software Platforms & Product|Foster City, CA|Summer 2026#1"
+    },
+    "fb94aea4e9c1": {
+      "company": "Zoox",
+      "role": "Software Engineer Intern, Software Platforms & Product",
+      "location": "Foster City, CA",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11792,
+      "chat_id": 7582459199,
+      "seq": 10523,
+      "identity": "https://go.vansh.nyc/1jV?s=y|Zoox|Software Engineer Intern, Software Platforms & Product|Foster City, CA|Nov 05#1"
+    },
+    "0dcd7eedb287": {
+      "company": "Zoox",
+      "role": "Software Engineer Intern, Software Systems",
+      "location": "Foster City, CA",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11793,
+      "chat_id": 7582459199,
+      "seq": 10524,
+      "identity": "https://go.vansh.nyc/1jW?s=y|Zoox|Software Engineer Intern, Software Systems|Foster City, CA|Nov 05#1"
+    },
+    "b86ae0f35c78": {
+      "company": "Idaho National Laboratory",
+      "role": "Computer Security Research Intern",
+      "location": "Idaho Falls, ID",
+      "term": "Sep 21",
+      "apply_url": "https://go.vansh.nyc/1jX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11794,
+      "chat_id": 7582459199,
+      "seq": 10525,
+      "identity": "https://go.vansh.nyc/1jX?s=y|Idaho National Laboratory|Computer Security Research Intern|Idaho Falls, ID|Sep 21#1"
+    },
+    "f571bc52770f": {
+      "company": "Idaho National Laboratory",
+      "role": "Cyber Security Research Intern",
+      "location": "Idaho Falls, ID",
+      "term": "Sep 21",
+      "apply_url": "https://go.vansh.nyc/1jY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11795,
+      "chat_id": 7582459199,
+      "seq": 10526,
+      "identity": "https://go.vansh.nyc/1jY?s=y|Idaho National Laboratory|Cyber Security Research Intern|Idaho Falls, ID|Sep 21#1"
     }
   },
   "applied": {
@@ -133323,10 +133371,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10522,
+  "seq": 10526,
   "health": {
     "last_heartbeat": "2026-11-06T02:40:19Z",
-    "last_ok_run": "2026-11-06T03:10:17Z",
+    "last_ok_run": "2026-11-06T03:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
