@@ -134036,6 +134036,78 @@
       "chat_id": 7582459199,
       "seq": 10612,
       "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380917?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|Bellevue, Washington|Summer 2027#1"
+    },
+    "f3f21e6a0eff": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern, HR Data Products",
+      "location": "Bellevue, WA",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1kD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11882,
+      "chat_id": 7582459199,
+      "seq": 10613,
+      "identity": "https://go.vansh.nyc/1kD?s=y|T-Mobile|Software Engineer Intern, HR Data Products|Bellevue, WA|Nov 06#1"
+    },
+    "c06fe1c2d726": {
+      "company": "T-Mobile",
+      "role": "Data Engineering Intern",
+      "location": "Frisco, TX Atlanta, GA",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1kE?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11883,
+      "chat_id": 7582459199,
+      "seq": 10614,
+      "identity": "https://go.vansh.nyc/1kE?s=y|T-Mobile|Data Engineering Intern|Frisco, TX Atlanta, GA|Nov 06#1"
+    },
+    "29a87c7491d0": {
+      "company": "National Interstate Insurance",
+      "role": "Claims Technical Intern",
+      "location": "Cincinnati, OH",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1kH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11884,
+      "chat_id": 7582459199,
+      "seq": 10615,
+      "identity": "https://go.vansh.nyc/1kH?s=y|National Interstate Insurance|Claims Technical Intern|Cincinnati, OH|Nov 06#1"
+    },
+    "6c3310fd56a9": {
+      "company": "ICD",
+      "role": "AI/ML Engineering Intern",
+      "location": "Jersey City, NJ",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1kF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11885,
+      "chat_id": 7582459199,
+      "seq": 10616,
+      "identity": "https://go.vansh.nyc/1kF?s=y|ICD|AI/ML Engineering Intern|Jersey City, NJ|Nov 05#1"
+    },
+    "33d539e184b8": {
+      "company": "Altera",
+      "role": "Hardware Design Engineer Intern",
+      "location": "Toronto, Canada",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11886,
+      "chat_id": 7582459199,
+      "seq": 10617,
+      "identity": "NOURL|Altera|Hardware Design Engineer Intern|Toronto, Canada|Oct 30#1"
+    },
+    "e2202e7b75ea": {
+      "company": "Samsara",
+      "role": "Software Engineering Intern",
+      "location": "San Francisco, CA",
+      "term": "Aug 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11887,
+      "chat_id": 7582459199,
+      "seq": 10618,
+      "identity": "NOURL|Samsara|Software Engineering Intern|San Francisco, CA|Aug 04#1"
     }
   },
   "applied": {
@@ -134403,10 +134475,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10612,
+  "seq": 10618,
   "health": {
     "last_heartbeat": "2026-11-06T16:50:17Z",
-    "last_ok_run": "2026-11-06T17:40:18Z",
+    "last_ok_run": "2026-11-06T17:45:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
