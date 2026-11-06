@@ -132896,6 +132896,42 @@
       "chat_id": 7582459199,
       "seq": 10517,
       "identity": "https://zapply.jobs/l/d/ashby-etched-1a92048c-60e0-445b-a84e-8f008f1cf47b?s=gh-internships-2027|Etched|Infrastructure Engineering & Projects Intern|San Jose|Summer 2027#1"
+    },
+    "8d823bb207cb": {
+      "company": "Raft Company Website",
+      "role": "Data Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "McLean, VA",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11787,
+      "chat_id": 7582459199,
+      "seq": 10518,
+      "identity": "https://go.vansh.nyc/1jU?s=y|Raft Company Website|Data Engineering Intern \ud83c\uddfa\ud83c\uddf8|McLean, VA|Nov 05#1"
+    },
+    "e901e6627772": {
+      "company": "Raft Company Website",
+      "role": "Full Stack Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "McLean, VA",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11788,
+      "chat_id": 7582459199,
+      "seq": 10519,
+      "identity": "https://go.vansh.nyc/1jS?s=y|Raft Company Website|Full Stack Engineering Intern \ud83c\uddfa\ud83c\uddf8|McLean, VA|Nov 05#1"
+    },
+    "0f35d4826b68": {
+      "company": "Raft Company Website",
+      "role": "DevOps Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "McLean, VA",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1jT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11789,
+      "chat_id": 7582459199,
+      "seq": 10520,
+      "identity": "https://go.vansh.nyc/1jT?s=y|Raft Company Website|DevOps Engineering Intern \ud83c\uddfa\ud83c\uddf8|McLean, VA|Nov 05#1"
     }
   },
   "applied": {
@@ -133263,10 +133299,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10517,
+  "seq": 10520,
   "health": {
     "last_heartbeat": "2026-11-06T01:40:16Z",
-    "last_ok_run": "2026-11-06T02:15:16Z",
+    "last_ok_run": "2026-11-06T02:20:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
