@@ -134888,6 +134888,138 @@
       "chat_id": 7582459199,
       "seq": 10683,
       "identity": "NOURL|Peraton|Cyber Research Intern|**4 locations**West Lafayette, IN Basking Ridge, NJ Silver Spring, MD Bedford, NH|Nov 04#1"
+    },
+    "8dadb4047de0": {
+      "company": "Trimble",
+      "role": "AI Automation Intern",
+      "location": "Dayton, OH Westminster, CO",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1lh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11954,
+      "chat_id": 7582459199,
+      "seq": 10684,
+      "identity": "https://go.vansh.nyc/1lh?s=y|Trimble|AI Automation Intern|Dayton, OH Westminster, CO|Nov 06#1"
+    },
+    "217deec375eb": {
+      "company": "Shure",
+      "role": "Cloud Software Engineering Intern \ud83d\udec2",
+      "location": "Niles, IL",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1lx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11955,
+      "chat_id": 7582459199,
+      "seq": 10685,
+      "identity": "https://go.vansh.nyc/1lx?s=y|Shure|Cloud Software Engineering Intern \ud83d\udec2|Niles, IL|Nov 06#1"
+    },
+    "d58617f7fbe9": {
+      "company": "Llbean",
+      "role": "Software Developer Intern",
+      "location": "Freeport, ME",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1lw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11956,
+      "chat_id": 7582459199,
+      "seq": 10686,
+      "identity": "https://go.vansh.nyc/1lw?s=y|Llbean|Software Developer Intern|Freeport, ME|Nov 05#1"
+    },
+    "6e741c81f778": {
+      "company": "AfterQuery",
+      "role": "AI/ML Research Intern",
+      "location": "San Francisco, CA",
+      "term": "Sep 11",
+      "apply_url": "https://go.vansh.nyc/1lt?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11957,
+      "chat_id": 7582459199,
+      "seq": 10687,
+      "identity": "https://go.vansh.nyc/1lt?s=y|AfterQuery|AI/ML Research Intern|San Francisco, CA|Sep 11#1"
+    },
+    "7d548183e42a": {
+      "company": "fab2",
+      "role": "Rust Software Engineering Intern, Chip Design Tools",
+      "location": "Austin, TX San Francisco, CA",
+      "term": "Sep 05",
+      "apply_url": "https://go.vansh.nyc/1lo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11958,
+      "chat_id": 7582459199,
+      "seq": 10688,
+      "identity": "https://go.vansh.nyc/1lo?s=y|fab2|Rust Software Engineering Intern, Chip Design Tools|Austin, TX San Francisco, CA|Sep 05#1"
+    },
+    "2a7e73461880": {
+      "company": "fab2",
+      "role": "Infrastructure Software Engineering Intern",
+      "location": "Austin, TX San Francisco, CA",
+      "term": "Sep 05",
+      "apply_url": "https://go.vansh.nyc/1lp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11959,
+      "chat_id": 7582459199,
+      "seq": 10689,
+      "identity": "https://go.vansh.nyc/1lp?s=y|fab2|Infrastructure Software Engineering Intern|Austin, TX San Francisco, CA|Sep 05#1"
+    },
+    "d44245893816": {
+      "company": "fab2",
+      "role": "Fab Software Engineering Intern",
+      "location": "Austin, TX San Francisco, CA",
+      "term": "Sep 05",
+      "apply_url": "https://go.vansh.nyc/1lq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11960,
+      "chat_id": 7582459199,
+      "seq": 10690,
+      "identity": "https://go.vansh.nyc/1lq?s=y|fab2|Fab Software Engineering Intern|Austin, TX San Francisco, CA|Sep 05#1"
+    },
+    "4dbd9360035f": {
+      "company": "fab2",
+      "role": "Embedded Software Engineering Intern",
+      "location": "Austin, TX San Francisco, CA",
+      "term": "Sep 05",
+      "apply_url": "https://go.vansh.nyc/1lr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11961,
+      "chat_id": 7582459199,
+      "seq": 10691,
+      "identity": "https://go.vansh.nyc/1lr?s=y|fab2|Embedded Software Engineering Intern|Austin, TX San Francisco, CA|Sep 05#1"
+    },
+    "4c0c2ea2bdc0": {
+      "company": "fab2",
+      "role": "Automation Software Engineering Intern",
+      "location": "Austin, TX San Francisco, CA",
+      "term": "Sep 05",
+      "apply_url": "https://go.vansh.nyc/1ls?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11962,
+      "chat_id": 7582459199,
+      "seq": 10692,
+      "identity": "https://go.vansh.nyc/1ls?s=y|fab2|Automation Software Engineering Intern|Austin, TX San Francisco, CA|Sep 05#1"
+    },
+    "23ff5c28369d": {
+      "company": "Sierra",
+      "role": "Software Engineer Intern, Agent",
+      "location": "San Francisco, CA New York, NY",
+      "term": "Aug 31",
+      "apply_url": "https://go.vansh.nyc/1ln?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11963,
+      "chat_id": 7582459199,
+      "seq": 10693,
+      "identity": "https://go.vansh.nyc/1ln?s=y|Sierra|Software Engineer Intern, Agent|San Francisco, CA New York, NY|Aug 31#1"
+    },
+    "7fa8dbe19428": {
+      "company": "AfterQuery",
+      "role": "Software Engineering Intern",
+      "location": "San Francisco, CA",
+      "term": "Nov 17",
+      "apply_url": "https://go.vansh.nyc/1li?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11964,
+      "chat_id": 7582459199,
+      "seq": 10694,
+      "identity": "https://go.vansh.nyc/1li?s=y|AfterQuery|Software Engineering Intern|San Francisco, CA|Nov 17#1"
     }
   },
   "applied": {
@@ -135255,10 +135387,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10683,
+  "seq": 10694,
   "health": {
     "last_heartbeat": "2026-11-06T21:30:21Z",
-    "last_ok_run": "2026-11-06T22:10:19Z",
+    "last_ok_run": "2026-11-06T22:15:36Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
