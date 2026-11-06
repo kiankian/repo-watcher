@@ -134492,6 +134492,66 @@
       "chat_id": 7582459199,
       "seq": 10650,
       "identity": "https://job-boards.greenhouse.io/hpiq/jobs/6114781004|HP IQ|Software Engineering Intern - AML Platform - Summer 2027|San Francisco, CA|Other#1"
+    },
+    "22de194a280f": {
+      "company": "Rivian",
+      "role": "ML AI Motor Controls Algorithm Intern",
+      "location": "Champaign, IL",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1kS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11921,
+      "chat_id": 7582459199,
+      "seq": 10651,
+      "identity": "https://go.vansh.nyc/1kS?s=y|Rivian|ML AI Motor Controls Algorithm Intern|Champaign, IL|Nov 06#1"
+    },
+    "f849cc7e2cec": {
+      "company": "Qualcomm",
+      "role": "Software Validation Engineering Intern",
+      "location": "Markham, Canada",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1kR?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11922,
+      "chat_id": 7582459199,
+      "seq": 10652,
+      "identity": "https://go.vansh.nyc/1kR?s=y|Qualcomm|Software Validation Engineering Intern|Markham, Canada|Nov 06#1"
+    },
+    "0dfb0850a8ca": {
+      "company": "Notion",
+      "role": "Software Engineering Intern, Frontend",
+      "location": "New York, NY",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1kP?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11923,
+      "chat_id": 7582459199,
+      "seq": 10653,
+      "identity": "https://go.vansh.nyc/1kP?s=y|Notion|Software Engineering Intern, Frontend|New York, NY|Nov 06#1"
+    },
+    "ee7d86c6c0f0": {
+      "company": "Notion",
+      "role": "Software Engineering Intern, iOS",
+      "location": "New York, NY",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1kQ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11924,
+      "chat_id": 7582459199,
+      "seq": 10654,
+      "identity": "https://go.vansh.nyc/1kQ?s=y|Notion|Software Engineering Intern, iOS|New York, NY|Nov 06#1"
+    },
+    "b4e8bffca683": {
+      "company": "Arch Capital Group",
+      "role": "Data and Analytics Intern",
+      "location": "Farmington, CT",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11925,
+      "chat_id": 7582459199,
+      "seq": 10655,
+      "identity": "NOURL|Arch Capital Group|Data and Analytics Intern|Farmington, CT|Nov 03#1"
     }
   },
   "applied": {
@@ -134859,10 +134919,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10650,
+  "seq": 10655,
   "health": {
     "last_heartbeat": "2026-11-06T19:00:23Z",
-    "last_ok_run": "2026-11-06T19:10:55Z",
+    "last_ok_run": "2026-11-06T19:15:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
