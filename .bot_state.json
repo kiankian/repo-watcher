@@ -133592,6 +133592,54 @@
       "chat_id": 7582459199,
       "seq": 10575,
       "identity": "https://zapply.jobs/l/d/workday-hitachi-hitachi-R0149426?s=gh-internships-2027|Hitachi|Full Stack Developer Intern|Dallas, Texas, United States|Summer 2027#1"
+    },
+    "84f4bc4202c0": {
+      "company": "\ud83d\udd25 Tinder",
+      "role": "iOS Engineer Intern",
+      "location": "Palo Alto, CA LA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/matchgroup/cda906dd-c02a-4bbc-b533-1636d58958ef/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11845,
+      "chat_id": 7582459199,
+      "seq": 10576,
+      "identity": "https://jobs.lever.co/matchgroup/cda906dd-c02a-4bbc-b533-1636d58958ef/apply?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Tinder|iOS Engineer Intern|Palo Alto, CA LA|Summer 2026#1"
+    },
+    "db858b12d05d": {
+      "company": "\ud83d\udd25 Tinder",
+      "role": "Android Engineer Intern",
+      "location": "LA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/matchgroup/f0e29495-4dd2-4bc5-9ceb-31d36f0b5a9d/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11846,
+      "chat_id": 7582459199,
+      "seq": 10577,
+      "identity": "https://jobs.lever.co/matchgroup/f0e29495-4dd2-4bc5-9ceb-31d36f0b5a9d/apply?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Tinder|Android Engineer Intern|LA|Summer 2026#1"
+    },
+    "616768cfd20b": {
+      "company": "\ud83d\udd25 Tinder",
+      "role": "Backend Engineer Intern",
+      "location": "Palo Alto, CA LA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/matchgroup/54a814d1-9a73-43d7-a266-c933ffd99ce3/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11847,
+      "chat_id": 7582459199,
+      "seq": 10578,
+      "identity": "https://jobs.lever.co/matchgroup/54a814d1-9a73-43d7-a266-c933ffd99ce3/apply?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Tinder|Backend Engineer Intern|Palo Alto, CA LA|Summer 2026#1"
+    },
+    "23954642292e": {
+      "company": "The New York Times",
+      "role": "Interactive News Engineer Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751790005?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 11848,
+      "chat_id": 7582459199,
+      "seq": 10579,
+      "identity": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751790005?utm_source=Simplify&ref=Simplify|The New York Times|Interactive News Engineer Intern|NYC|Summer 2026#1"
     }
   },
   "applied": {
@@ -133959,10 +134007,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10575,
+  "seq": 10579,
   "health": {
     "last_heartbeat": "2026-11-06T15:30:20Z",
-    "last_ok_run": "2026-11-06T15:30:20Z",
+    "last_ok_run": "2026-11-06T15:35:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
