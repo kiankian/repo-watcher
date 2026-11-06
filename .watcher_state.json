@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "cc813ac381fe63b51ac17f2fa20b2ad907acfd76",
+    "last_sha": "bd85c7e397a340d0686052ce425dc31751efebef",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2925,10 +2925,14 @@
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640548?utm_source=Simplify&ref=Simplify|DwyerOmega|Software Engineer Intern|Westerville, OH|Summer 2026#1",
       "https://jobs.lever.co/shieldai/db8fc063-8856-4404-991c-f287712de949/apply?utm_source=Simplify&ref=Simplify|Shield AI|Software Engineer Co-op Intern|4 locationsSeattle, WA Washington, DC Dallas, TX San Diego, CA|Summer 2026#1",
       "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---Android--May-2027---12-Months-_R10650?utm_source=Simplify&ref=Simplify|SOTI|Software Developer Intern|Mississauga, ON, Canada|Summer 2026#1",
-      "https://careers-riversideresearch.icims.com/jobs/4461/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Riverside Research|Software Applications Intern|Fairborn, OH|Summer 2026#1"
+      "https://careers-riversideresearch.icims.com/jobs/4461/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Riverside Research|Software Applications Intern|Fairborn, OH|Summer 2026#1",
+      "https://job-boards.greenhouse.io/lumbermens/jobs/5474346008?utm_source=Simplify&ref=Simplify|Lumbermen's|Software Developer Intern|Grand Rapids, MI|Summer 2026#1",
+      "https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380650?utm_source=Simplify&ref=Simplify|T-Mobile|Software Engineer Intern|Atlanta, GA|Summer 2026#1",
+      "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/a28e047a-ee12-452c-883b-ecd995d1b6b2/application?embed=true&utm_source=Simplify&ref=Simplify|Shield AI|Software Engineer Intern Co-op|Dallas, TX|Summer 2026#1",
+      "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Arlington-VA/Intelligence-Intern---Summer-2027_R30605?utm_source=Simplify&ref=Simplify|\ud83d\udd25 CrowdStrike|Intelligence Intern|Arlington County, Arlington, VA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 580,
+    "last_row_count": 584,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -7539,7 +7543,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "6138376d12a96f8c6e2cffcb08b6adde6f2eb814",
+    "last_sha": "9d6dc76df56884408f9bea6d11d604b768634d3c",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -10058,7 +10062,10 @@
       "https://zapply.jobs/l/d/ashby-apex-technology-inc-692bb497-59ba-44df-bacf-fffd2f7c6344?s=gh-internships-2027|Apex Technology|Software Engineering Internship, Test & Automation (Summer 2027)|Los Angeles|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-tmobile-external-REQ380650?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|Atlanta, Georgia|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0248214?s=gh-internships-2027|Booz Allen Hamilton|University \u2013 Summer 27, Cybersecurity Analyst Intern|McLean, VA|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873646?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|CO-AURORA-S75|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873646?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|CO-AURORA-S75|Summer 2027#1",
+      "https://zapply.jobs/l/d/lever-zoox-8b32157b-ab44-4078-85ea-1d8d7b747a20?s=gh-internships-2027|Zoox|Software Engineer Intern, Software Systems \\[Summer 2027\\]|Foster City, CA|Summer 2027#1",
+      "https://zapply.jobs/l/d/lever-zoox-88f6cb68-1534-44af-80db-10e43c203520?s=gh-internships-2027|Zoox|Software Engineer Intern, Software Platforms & Product \\[Summer 2027\\]|Foster City, CA|Summer 2027#1",
+      "https://zapply.jobs/l/d/lever-zoox-7b20b929-d9a4-4995-a472-16cd4925a877?s=gh-internships-2027|Zoox|Software Engineer Intern, Autonomy Software \\[Summer 2027\\]|Foster City, CA|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
