@@ -134804,6 +134804,54 @@
       "chat_id": 7582459199,
       "seq": 10676,
       "identity": "https://zapply.jobs/l/d/workday-carrier-jobs-30220566?s=gh-internships-2027|Carrier Global|Systems Engineering Intern - Summer|CAG01: CTD-Athens, 700 Olympic...|Summer 2027#1"
+    },
+    "406a967dfd6b": {
+      "company": "Samsung",
+      "role": "Care AI Data Analytic Intern",
+      "location": "Plano, TX",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1le?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11947,
+      "chat_id": 7582459199,
+      "seq": 10677,
+      "identity": "https://go.vansh.nyc/1le?s=y|Samsung|Care AI Data Analytic Intern|Plano, TX|Nov 06#1"
+    },
+    "376dbfd78a35": {
+      "company": "CrowdStrike",
+      "role": "Professional Services Pathfinder Intern, Red Team",
+      "location": "Arlington, VA",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1lc?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11948,
+      "chat_id": 7582459199,
+      "seq": 10678,
+      "identity": "https://go.vansh.nyc/1lc?s=y|CrowdStrike|Professional Services Pathfinder Intern, Red Team|Arlington, VA|Nov 06#1"
+    },
+    "7e3f0fb5a145": {
+      "company": "Baird",
+      "role": "IT Data & Analytics Intern",
+      "location": "Milwaukee, WI Madison, WI",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1lb?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11949,
+      "chat_id": 7582459199,
+      "seq": 10679,
+      "identity": "https://go.vansh.nyc/1lb?s=y|Baird|IT Data & Analytics Intern|Milwaukee, WI Madison, WI|Nov 06#1"
+    },
+    "d8afda8b2ee0": {
+      "company": "WebFX",
+      "role": "Web Developer Intern",
+      "location": "Harrisburg, PA",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11950,
+      "chat_id": 7582459199,
+      "seq": 10680,
+      "identity": "NOURL|WebFX|Web Developer Intern|Harrisburg, PA|Oct 30#1"
     }
   },
   "applied": {
@@ -135171,10 +135219,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10676,
+  "seq": 10680,
   "health": {
     "last_heartbeat": "2026-11-06T20:25:15Z",
-    "last_ok_run": "2026-11-06T21:15:17Z",
+    "last_ok_run": "2026-11-06T21:20:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
