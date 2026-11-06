@@ -133952,6 +133952,42 @@
       "chat_id": 7582459199,
       "seq": 10605,
       "identity": "https://zapply.jobs/l/d/greenhouse-samsara-8358786?s=gh-internships-2027|Samsara|Software Engineering Internship - San Francisco|San Francisco - SF9|Summer 2027#1"
+    },
+    "28bb971b0b91": {
+      "company": "T-Mobile",
+      "role": "Software Engineering Intern",
+      "location": "Bellevue, WA",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1kB?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11875,
+      "chat_id": 7582459199,
+      "seq": 10606,
+      "identity": "https://go.vansh.nyc/1kB?s=y|T-Mobile|Software Engineering Intern|Bellevue, WA|Nov 06#1"
+    },
+    "9ce883d3d53e": {
+      "company": "T-Mobile",
+      "role": "AI Engineering Intern",
+      "location": "Bellevue, WA",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1kC?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 11876,
+      "chat_id": 7582459199,
+      "seq": 10607,
+      "identity": "https://go.vansh.nyc/1kC?s=y|T-Mobile|AI Engineering Intern|Bellevue, WA|Nov 06#1"
+    },
+    "015dda5fd62b": {
+      "company": "L3Harris Technologies",
+      "role": "Software Engineer Intern",
+      "location": "Rockwall, TX",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11877,
+      "chat_id": 7582459199,
+      "seq": 10608,
+      "identity": "NOURL|L3Harris Technologies|Software Engineer Intern|Rockwall, TX|Oct 26#1"
     }
   },
   "applied": {
@@ -134319,10 +134355,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10605,
+  "seq": 10608,
   "health": {
     "last_heartbeat": "2026-11-06T16:50:17Z",
-    "last_ok_run": "2026-11-06T17:10:18Z",
+    "last_ok_run": "2026-11-06T17:15:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
