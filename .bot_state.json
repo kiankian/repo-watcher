@@ -133640,6 +133640,126 @@
       "chat_id": 7582459199,
       "seq": 10579,
       "identity": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751790005?utm_source=Simplify&ref=Simplify|The New York Times|Interactive News Engineer Intern|NYC|Summer 2026#1"
+    },
+    "d8f61c6a1de8": {
+      "company": "Lumbermen's",
+      "role": "Software Developer Intern",
+      "location": "Grand Rapids, MI",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11849,
+      "chat_id": 7582459199,
+      "seq": 10580,
+      "identity": "NOURL|Lumbermen's|Software Developer Intern|Grand Rapids, MI|Nov 04#1"
+    },
+    "dee5807cc949": {
+      "company": "Visa",
+      "role": "Sophomore Program Software Engineer Intern \ud83d\udec2",
+      "location": "Bellevue, WA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11850,
+      "chat_id": 7582459199,
+      "seq": 10581,
+      "identity": "NOURL|Visa|Sophomore Program Software Engineer Intern \ud83d\udec2|Bellevue, WA|Oct 27#1"
+    },
+    "63d3e53677a7": {
+      "company": "Visa",
+      "role": "Sophomore Program Software Engineer Intern \ud83d\udec2",
+      "location": "Foster City, CA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11851,
+      "chat_id": 7582459199,
+      "seq": 10582,
+      "identity": "NOURL|Visa|Sophomore Program Software Engineer Intern \ud83d\udec2|Foster City, CA|Oct 27#1"
+    },
+    "31ea35a37206": {
+      "company": "Visa",
+      "role": "Software Engineer Intern \ud83d\udec2",
+      "location": "Ashburn, VA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11852,
+      "chat_id": 7582459199,
+      "seq": 10583,
+      "identity": "NOURL|Visa|Software Engineer Intern \ud83d\udec2|Ashburn, VA|Oct 27#1"
+    },
+    "c5f88b8c4b7f": {
+      "company": "Visa",
+      "role": "Sophomore Program Software Engineer Intern \ud83d\udec2",
+      "location": "Austin, TX",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11853,
+      "chat_id": 7582459199,
+      "seq": 10584,
+      "identity": "NOURL|Visa|Sophomore Program Software Engineer Intern \ud83d\udec2|Austin, TX|Oct 27#1"
+    },
+    "08203acdf3ea": {
+      "company": "Visa",
+      "role": "Sophomore Program Software Engineer Intern",
+      "location": "Ashburn, VA",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11854,
+      "chat_id": 7582459199,
+      "seq": 10585,
+      "identity": "NOURL|Visa|Sophomore Program Software Engineer Intern|Ashburn, VA|Oct 26#1"
+    },
+    "23f08d05fde8": {
+      "company": "Visa",
+      "role": "Software Engineer Intern \ud83d\udec2",
+      "location": "Foster City, CA",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11855,
+      "chat_id": 7582459199,
+      "seq": 10586,
+      "identity": "NOURL|Visa|Software Engineer Intern \ud83d\udec2|Foster City, CA|Oct 26#1"
+    },
+    "ff0462e8b337": {
+      "company": "Visa",
+      "role": "Software Engineer Intern \ud83d\udec2",
+      "location": "Austin, TX",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11856,
+      "chat_id": 7582459199,
+      "seq": 10587,
+      "identity": "NOURL|Visa|Software Engineer Intern \ud83d\udec2|Austin, TX|Oct 26#1"
+    },
+    "aae34c8b680d": {
+      "company": "Visa",
+      "role": "Network and Security Engineering Intern \ud83d\udec2",
+      "location": "Ashburn, VA",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11857,
+      "chat_id": 7582459199,
+      "seq": 10588,
+      "identity": "NOURL|Visa|Network and Security Engineering Intern \ud83d\udec2|Ashburn, VA|Oct 26#1"
+    },
+    "a9e0eca293c8": {
+      "company": "Quantum Signal AI",
+      "role": "Software Engineer Intern, Tools and Prototypes",
+      "location": "Saline, MI",
+      "term": "Oct 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11858,
+      "chat_id": 7582459199,
+      "seq": 10589,
+      "identity": "NOURL|Quantum Signal AI|Software Engineer Intern, Tools and Prototypes|Saline, MI|Oct 05#1"
     }
   },
   "applied": {
@@ -134007,10 +134127,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10579,
+  "seq": 10589,
   "health": {
     "last_heartbeat": "2026-11-06T15:30:20Z",
-    "last_ok_run": "2026-11-06T15:40:18Z",
+    "last_ok_run": "2026-11-06T15:45:36Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
