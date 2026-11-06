@@ -133076,6 +133076,18 @@
       "chat_id": 7582459199,
       "seq": 10532,
       "identity": "NOURL|JPMorgan Chase|Quantitative Research, Asset Management Summer Analyst \ud83d\udec2|New York, NY|Aug 21#1"
+    },
+    "64ee9538f019": {
+      "company": "Zebra Technologies",
+      "role": "AI Intern",
+      "location": "Lincolnshire, IL",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 11802,
+      "chat_id": 7582459199,
+      "seq": 10533,
+      "identity": "NOURL|Zebra Technologies|AI Intern|Lincolnshire, IL|Nov 02#1"
     }
   },
   "applied": {
@@ -133443,10 +133455,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10532,
+  "seq": 10533,
   "health": {
     "last_heartbeat": "2026-11-06T05:45:17Z",
-    "last_ok_run": "2026-11-06T06:05:16Z",
+    "last_ok_run": "2026-11-06T06:10:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
