@@ -931,11 +931,24 @@ jobs:
           SHEET_RANGE = os.environ["APPLICATIONS_SHEET_RANGE"]
 
           REQUEST_TIMEOUT = 30  # see watch job: urlopen without one blocks forever on a stall
+          # Polling gets a tighter budget than the rest of the job. It is the one phase that runs
+          # on every dispatch whether there is a tap or not, and the only one that can be given up
+          # on cheaply, because nothing has been mutated when it fails. At 3 x 30s a stalled
+          # Telegram stretched a 35s run past two minutes; only one run may sit pending in the
+          # repo-watcher-state group, so every dispatch arriving meanwhile was evicted. That is
+          # how a six-minute stall produced three failed and three cancelled runs on 2026-08-03.
+          POLL_TIMEOUT = 10
+          POLL_ATTEMPTS = 2
+          # Consecutive failed polls before a run is allowed to go red. Telegram discards
+          # undelivered getUpdates results after 24h, so a poller that is stuck for good loses
+          # every tap made in the meantime -- that has to stay visible. A blip is not stuck,
+          # which is the whole reason this is a count and not a flag.
+          POLL_FAILURE_ALARM = 10
 
-          def urlopen_with_retry(req, attempts=3):
+          def urlopen_with_retry(req, attempts=3, timeout=REQUEST_TIMEOUT):
               for i in range(attempts):
                   try:
-                      return urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT)
+                      return urllib.request.urlopen(req, timeout=timeout)
                   except (urllib.error.URLError, ConnectionResetError, TimeoutError) as e:
                       if isinstance(e, urllib.error.HTTPError) and e.code < 500:
                           raise
@@ -964,7 +977,7 @@ jobs:
                   params["offset"] = offset
               url = f"https://api.telegram.org/bot{TG_TOKEN}/getUpdates?" + urllib.parse.urlencode(params)
               try:
-                  with urlopen_with_retry(url) as resp:
+                  with urlopen_with_retry(url, POLL_ATTEMPTS, POLL_TIMEOUT) as resp:
                       return json.loads(resp.read().decode())
               except urllib.error.HTTPError as e:
                   body = e.read().decode(errors="replace")
@@ -973,17 +986,12 @@ jobs:
 
           def get_webhook_info():
               url = f"https://api.telegram.org/bot{TG_TOKEN}/getWebhookInfo"
-              with urlopen_with_retry(url) as resp:
+              with urlopen_with_retry(url, POLL_ATTEMPTS, POLL_TIMEOUT) as resp:
                   return json.loads(resp.read().decode())
 
           def delete_webhook():
               url = f"https://api.telegram.org/bot{TG_TOKEN}/deleteWebhook?drop_pending_updates=false"
-              with urlopen_with_retry(url) as resp:
-                  return json.loads(resp.read().decode())
-
-          def get_me():
-              url = f"https://api.telegram.org/bot{TG_TOKEN}/getMe"
-              with urlopen_with_retry(url) as resp:
+              with urlopen_with_retry(url, POLL_ATTEMPTS, POLL_TIMEOUT) as resp:
                   return json.loads(resp.read().decode())
 
           def sheets_credentials():
@@ -1021,28 +1029,82 @@ jobs:
           bot_state.setdefault("telegram", {"last_update_id": 0})
           bot_state.setdefault("pending", {})
           bot_state.setdefault("applied", {})
+          health = bot_state.setdefault("health", {})
 
-          me = get_me().get("result") or {}
-          print(f"Bot identity: id={me.get('id')} username=@{me.get('username')} name={me.get('first_name')!r}")
-
-          info = (get_webhook_info().get("result") or {})
-          print(
-              f"Webhook info: url={info.get('url')!r} "
-              f"pending_update_count={info.get('pending_update_count')} "
-              f"last_error={info.get('last_error_message')!r}"
-          )
-          if info.get("url"):
-              print("WARNING: webhook is set — deleting so getUpdates can return queued callbacks.")
-              delete_webhook()
+          def save_bot_state():
+              BOT_STATE_FILE.write_text(json.dumps(bot_state, indent=2) + "\n")
 
           last_id = bot_state["telegram"]["last_update_id"]
           offset = last_id + 1 if last_id else 0
-          updates = get_updates(offset).get("result", [])
+
+          def poll_updates():
+              """getUpdates, clearing a stray webhook if that is what is blocking the poll."""
+              try:
+                  return get_updates(offset)
+              except urllib.error.HTTPError as e:
+                  if e.code != 409:
+                      raise
+                  # Telegram refuses getUpdates while a webhook is active and says so with a 409,
+                  # so the condition announces itself. Asking getWebhookInfo up front instead
+                  # spent two extra calls a minute guarding against something one-time, and every
+                  # one of them was another unguarded way for a stalled Telegram to fail the job.
+                  info = (get_webhook_info().get("result") or {})
+                  if info.get("url"):
+                      print(
+                          f"WARNING: webhook is set (url={info.get('url')!r}) — deleting so "
+                          "getUpdates can return queued callbacks."
+                      )
+                      delete_webhook()
+                  else:
+                      # 409 without a webhook is a second getUpdates in flight. Nothing to
+                      # delete; retry once and let the caller count it if it persists.
+                      print("getUpdates: 409 with no webhook set — another poller is running.")
+                  return get_updates(offset)
+
+          try:
+              updates = poll_updates().get("result", [])
+          except (urllib.error.URLError, ConnectionResetError, TimeoutError) as e:
+              # A client error is the bot's own fault and cannot be waited out -- a revoked
+              # TELEGRAM_BOT_TOKEN is a 401 -- so it still fails the run on the spot. Everything
+              # else is Telegram being briefly unreachable, and the poll runs before anything is
+              # mutated: no row appended, no message edited, no offset advanced. So the run can
+              # simply stop, and the next one re-reads every tap.
+              #
+              # 429 is flood control. 409 has already been retried once above, so reaching here
+              # means a webhook that would not delete or a competing poller -- both recover on
+              # their own, and both escalate through the count below if they do not. Failing on
+              # the spot would put a red run a minute in the Actions tab instead.
+              if isinstance(e, urllib.error.HTTPError) and e.code < 500 and e.code not in (409, 429):
+                  raise
+              failures = health.get("callback_poll_failures", 0) + 1
+              health["callback_poll_failures"] = failures
+              save_bot_state()
+              print(
+                  f"Could not poll Telegram ({type(e).__name__}: {e}); {failures} consecutive "
+                  "failure(s). No taps were read; the next run retries them."
+              )
+              if failures >= POLL_FAILURE_ALARM:
+                  # The count above is written but not committed on this path: a non-zero exit
+                  # skips `Commit updated bot state`, so the stored value stays one short of the
+                  # alarm and every later run re-reaches it. That is the intent -- red for as
+                  # long as the poll is broken, then reset to 0 and committed on recovery.
+                  raise SystemExit(
+                      f"Telegram polling has failed {failures} runs in a row. Taps are not being "
+                      "logged, and Telegram discards undelivered ones after 24h."
+                  )
+              raise SystemExit(0)
+
+          if health.get("callback_poll_failures"):
+              print(f"Polling recovered after {health['callback_poll_failures']} failed run(s).")
+          health["callback_poll_failures"] = 0
 
           print(f"Received {len(updates)} update(s); pending hashes: {sorted(bot_state['pending'].keys())}")
 
           if not updates:
               print("No new updates.")
+              # Written even with nothing to process, so a recovery is actually recorded. An
+              # unchanged file is free: the commit step's `git diff --cached --quiet` drops it.
+              save_bot_state()
               raise SystemExit(0)
 
           creds = None
@@ -1138,7 +1200,7 @@ jobs:
               processed += 1
               print(f"  logged {h} → {job['company']} / {job['role']}")
 
-          BOT_STATE_FILE.write_text(json.dumps(bot_state, indent=2) + "\n")
+          save_bot_state()
           print(f"Processed {processed} apply callback(s); offset now {bot_state['telegram']['last_update_id']}.")
           PY
 
