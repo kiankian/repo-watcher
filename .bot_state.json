@@ -135464,6 +135464,30 @@
       "chat_id": 7582459199,
       "seq": 10731,
       "identity": "https://go.vansh.nyc/1lX?s=y|MITRE|Computer Science or Software Engineering Intern|McLean, VA|Nov 05#1"
+    },
+    "cfd1a650c23b": {
+      "company": "Plexus",
+      "role": "Intern - Automation Engineer (Summer 2027)",
+      "location": "Nampa, ID",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-plexus-plexus-careers-R041024?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12002,
+      "chat_id": 7582459199,
+      "seq": 10732,
+      "identity": "https://zapply.jobs/l/d/workday-plexus-plexus-careers-R041024?s=gh-internships-2027|Plexus|Intern - Automation Engineer (Summer 2027)|Nampa, ID|Summer 2027#1"
+    },
+    "f4f17a7f90f2": {
+      "company": "Plexus",
+      "role": "Intern - Software Engineer (Summer 2027)",
+      "location": "Neenah, WI",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-plexus-plexus-careers-R035782?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12003,
+      "chat_id": 7582459199,
+      "seq": 10733,
+      "identity": "https://zapply.jobs/l/d/workday-plexus-plexus-careers-R035782?s=gh-internships-2027|Plexus|Intern - Software Engineer (Summer 2027)|Neenah, WI|Summer 2027#1"
     }
   },
   "applied": {
@@ -135831,10 +135855,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10731,
+  "seq": 10733,
   "health": {
     "last_heartbeat": "2026-11-07T02:00:24Z",
-    "last_ok_run": "2026-11-07T03:15:18Z",
+    "last_ok_run": "2026-11-07T03:20:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
