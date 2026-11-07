@@ -135632,6 +135632,90 @@
       "chat_id": 7582459199,
       "seq": 10745,
       "identity": "NOURL|Northrop Grumman|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Roy, UT|Nov 04#1"
+    },
+    "42efad8125dd": {
+      "company": "IDEMIA",
+      "role": "Service Platform Engineering Intern",
+      "location": "Brentwood, TN",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1m1?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12016,
+      "chat_id": 7582459199,
+      "seq": 10746,
+      "identity": "https://go.vansh.nyc/1m1?s=y|IDEMIA|Service Platform Engineering Intern|Brentwood, TN|Nov 06#1"
+    },
+    "943746a7d0fb": {
+      "company": "Highgate",
+      "role": "Data Services Intern",
+      "location": "Irving, TX",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1m0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12017,
+      "chat_id": 7582459199,
+      "seq": 10747,
+      "identity": "https://go.vansh.nyc/1m0?s=y|Highgate|Data Services Intern|Irving, TX|Nov 06#1"
+    },
+    "e5afdc5d5c6f": {
+      "company": "Barrios",
+      "role": "Data and Computer Eng/Sci Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Houston, TX",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1lZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12018,
+      "chat_id": 7582459199,
+      "seq": 10748,
+      "identity": "https://go.vansh.nyc/1lZ?s=y|Barrios|Data and Computer Eng/Sci Intern \ud83c\uddfa\ud83c\uddf8|Houston, TX|Nov 06#1"
+    },
+    "1ace750b2043": {
+      "company": "Upstart",
+      "role": "Applied Scientist Intern",
+      "location": "Remote United States",
+      "term": "Oct 07",
+      "apply_url": "https://go.vansh.nyc/1m4?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12019,
+      "chat_id": 7582459199,
+      "seq": 10749,
+      "identity": "https://go.vansh.nyc/1m4?s=y|Upstart|Applied Scientist Intern|Remote United States|Oct 07#1"
+    },
+    "3bb97d28f78e": {
+      "company": "Aechelon Technology",
+      "role": "Junior Software Engineer Intern",
+      "location": "Overland Park, KS",
+      "term": "Aug 13",
+      "apply_url": "https://go.vansh.nyc/1m2?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12020,
+      "chat_id": 7582459199,
+      "seq": 10750,
+      "identity": "https://go.vansh.nyc/1m2?s=y|Aechelon Technology|Junior Software Engineer Intern|Overland Park, KS|Aug 13#1"
+    },
+    "0040aac160c1": {
+      "company": "Aechelon Technology",
+      "role": "Junior Software Engineer Intern, RTK",
+      "location": "Farmer's Branch, TX",
+      "term": "Aug 13",
+      "apply_url": "https://go.vansh.nyc/1m3?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12021,
+      "chat_id": 7582459199,
+      "seq": 10751,
+      "identity": "https://go.vansh.nyc/1m3?s=y|Aechelon Technology|Junior Software Engineer Intern, RTK|Farmer's Branch, TX|Aug 13#1"
+    },
+    "c6604903d8fe": {
+      "company": "CenturyLink",
+      "role": "Data Intern, Analytics & Decision Science",
+      "location": "Remote in USA",
+      "term": "Oct 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12022,
+      "chat_id": 7582459199,
+      "seq": 10752,
+      "identity": "NOURL|CenturyLink|Data Intern, Analytics & Decision Science|Remote in USA|Oct 16#1"
     }
   },
   "applied": {
@@ -135999,10 +136083,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10745,
+  "seq": 10752,
   "health": {
     "last_heartbeat": "2026-11-07T13:00:21Z",
-    "last_ok_run": "2026-11-07T13:15:17Z",
+    "last_ok_run": "2026-11-07T13:20:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
