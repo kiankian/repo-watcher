@@ -135488,6 +135488,90 @@
       "chat_id": 7582459199,
       "seq": 10733,
       "identity": "https://zapply.jobs/l/d/workday-plexus-plexus-careers-R035782?s=gh-internships-2027|Plexus|Intern - Software Engineer (Summer 2027)|Neenah, WI|Summer 2027#1"
+    },
+    "b3b3adde6d24": {
+      "company": "Corning",
+      "role": "HPC DevOps Engineer Intern, Science & Technology",
+      "location": "Corning, NY",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1lY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12004,
+      "chat_id": 7582459199,
+      "seq": 10734,
+      "identity": "https://go.vansh.nyc/1lY?s=y|Corning|HPC DevOps Engineer Intern, Science & Technology|Corning, NY|Nov 06#1"
+    },
+    "e9d0ed6533ec": {
+      "company": "Zebra Technologies",
+      "role": "Systems Engineer Intern",
+      "location": "Germantown, MD",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12005,
+      "chat_id": 7582459199,
+      "seq": 10735,
+      "identity": "NOURL|Zebra Technologies|Systems Engineer Intern|Germantown, MD|Nov 04#1"
+    },
+    "c29180a1e4ce": {
+      "company": "Zebra Technologies",
+      "role": "Software Engineer Intern, AI Features & Product Convergence",
+      "location": "Kennesaw, GA",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12006,
+      "chat_id": 7582459199,
+      "seq": 10736,
+      "identity": "NOURL|Zebra Technologies|Software Engineer Intern, AI Features & Product Convergence|Kennesaw, GA|Nov 04#1"
+    },
+    "56a88528d9cb": {
+      "company": "RTX",
+      "role": "Secure System Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Windsor Locks, CT",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12007,
+      "chat_id": 7582459199,
+      "seq": 10737,
+      "identity": "NOURL|RTX|Secure System Engineering Intern \ud83c\uddfa\ud83c\uddf8|Windsor Locks, CT|Nov 03#1"
+    },
+    "269622b35825": {
+      "company": "Northrop Grumman",
+      "role": "S/W Embedded Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Sykesville, MD",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12008,
+      "chat_id": 7582459199,
+      "seq": 10738,
+      "identity": "NOURL|Northrop Grumman|S/W Embedded Engineering Intern \ud83c\uddfa\ud83c\uddf8|Sykesville, MD|Nov 03#1"
+    },
+    "96ca0c6fc48b": {
+      "company": "JM Family Enterprises",
+      "role": "Software Engineer Intern",
+      "location": "Deerfield Beach, FL Jacksonville, FL",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12009,
+      "chat_id": 7582459199,
+      "seq": 10739,
+      "identity": "NOURL|JM Family Enterprises|Software Engineer Intern|Deerfield Beach, FL Jacksonville, FL|Oct 29#1"
+    },
+    "3ffacc66e521": {
+      "company": "JM Family Enterprises",
+      "role": "Data Engineer Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12010,
+      "chat_id": 7582459199,
+      "seq": 10740,
+      "identity": "NOURL|JM Family Enterprises|Data Engineer Intern|Deerfield Beach, FL|Oct 27#1"
     }
   },
   "applied": {
@@ -135855,10 +135939,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10733,
+  "seq": 10740,
   "health": {
     "last_heartbeat": "2026-11-07T04:45:16Z",
-    "last_ok_run": "2026-11-07T05:10:18Z",
+    "last_ok_run": "2026-11-07T05:15:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
