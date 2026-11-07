@@ -135848,6 +135848,66 @@
       "chat_id": 7582459199,
       "seq": 10763,
       "identity": "NOURL|The Federal Reserve System|Innovation Intern \ud83d\udec2|Atlanta, GA|Oct 26#1"
+    },
+    "452adea0a399": {
+      "company": "Marmon Holdings",
+      "role": "AI Technology Solutions Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1mo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12034,
+      "chat_id": 7582459199,
+      "seq": 10764,
+      "identity": "https://go.vansh.nyc/1mo?s=y|Marmon Holdings|AI Technology Solutions Intern|Chicago, IL|Nov 06#1"
+    },
+    "c05544f47a4b": {
+      "company": "Enovation Controls",
+      "role": "Product Content Automation Intern",
+      "location": "Remote United States",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1mr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12035,
+      "chat_id": 7582459199,
+      "seq": 10765,
+      "identity": "https://go.vansh.nyc/1mr?s=y|Enovation Controls|Product Content Automation Intern|Remote United States|Nov 06#1"
+    },
+    "e617bcf05554": {
+      "company": "Axiom Consultants",
+      "role": "AI Developer Intern",
+      "location": "Rockville, MD",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1mp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12036,
+      "chat_id": 7582459199,
+      "seq": 10766,
+      "identity": "https://go.vansh.nyc/1mp?s=y|Axiom Consultants|AI Developer Intern|Rockville, MD|Nov 06#1"
+    },
+    "60176f7c95c2": {
+      "company": "AFL",
+      "role": "Web Design/Development Intern",
+      "location": "Duncan, SC",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1mq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12037,
+      "chat_id": 7582459199,
+      "seq": 10767,
+      "identity": "https://go.vansh.nyc/1mq?s=y|AFL|Web Design/Development Intern|Duncan, SC|Nov 06#1"
+    },
+    "7e56e5bb8dcc": {
+      "company": "Moody's",
+      "role": "Applied AI & Analytics Intern",
+      "location": "Newark, NJ",
+      "term": "Nov 05",
+      "apply_url": "https://go.vansh.nyc/1mn?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12038,
+      "chat_id": 7582459199,
+      "seq": 10768,
+      "identity": "https://go.vansh.nyc/1mn?s=y|Moody's|Applied AI & Analytics Intern|Newark, NJ|Nov 05#1"
     }
   },
   "applied": {
@@ -136215,10 +136275,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10763,
+  "seq": 10768,
   "health": {
     "last_heartbeat": "2026-11-07T20:50:17Z",
-    "last_ok_run": "2026-11-07T21:10:18Z",
+    "last_ok_run": "2026-11-07T21:15:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
