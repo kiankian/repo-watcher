@@ -136160,6 +136160,66 @@
       "chat_id": 7582459199,
       "seq": 10789,
       "identity": "https://go.vansh.nyc/1mP?s=y|Center for AI Safety (CAIS)|Research Engineer Intern|San Francisco, CA|Oct 05#1"
+    },
+    "34babfec8e46": {
+      "company": "Qube Research and Technologies",
+      "role": "Technology Intern",
+      "location": "Chicago, IL New York, NY",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/1mW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12060,
+      "chat_id": 7582459199,
+      "seq": 10790,
+      "identity": "https://go.vansh.nyc/1mW?s=y|Qube Research and Technologies|Technology Intern|Chicago, IL New York, NY|Oct 26#1"
+    },
+    "f36d061eb0a0": {
+      "company": "Northrop Grumman",
+      "role": "Software Engineer Intern",
+      "location": "Colorado Springs, CO",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/1mX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12061,
+      "chat_id": 7582459199,
+      "seq": 10791,
+      "identity": "https://go.vansh.nyc/1mX?s=y|Northrop Grumman|Software Engineer Intern|Colorado Springs, CO|Oct 26#1"
+    },
+    "48bb3a8b17f3": {
+      "company": "Booz Allen Hamilton",
+      "role": "Systems Engineer Intern",
+      "location": "Dayton, OH",
+      "term": "Oct 25",
+      "apply_url": "https://go.vansh.nyc/1mV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12062,
+      "chat_id": 7582459199,
+      "seq": 10792,
+      "identity": "https://go.vansh.nyc/1mV?s=y|Booz Allen Hamilton|Systems Engineer Intern|Dayton, OH|Oct 25#1"
+    },
+    "89e908af1fe8": {
+      "company": "John Deere",
+      "role": "Software Engineer Intern, Product Engineering",
+      "location": "Waterloo, IA Cary, NC",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/1mU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12063,
+      "chat_id": 7582459199,
+      "seq": 10793,
+      "identity": "https://go.vansh.nyc/1mU?s=y|John Deere|Software Engineer Intern, Product Engineering|Waterloo, IA Cary, NC|Oct 23#1"
+    },
+    "9e99bfd34b8d": {
+      "company": "Intercontinental Exchange",
+      "role": "Integration Intern",
+      "location": "Jacksonville, FL",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/1mT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12064,
+      "chat_id": 7582459199,
+      "seq": 10794,
+      "identity": "https://go.vansh.nyc/1mT?s=y|Intercontinental Exchange|Integration Intern|Jacksonville, FL|Oct 23#1"
     }
   },
   "applied": {
@@ -136527,10 +136587,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10789,
+  "seq": 10794,
   "health": {
     "last_heartbeat": "2026-11-08T16:25:14Z",
-    "last_ok_run": "2026-11-08T17:15:18Z",
+    "last_ok_run": "2026-11-08T17:20:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
