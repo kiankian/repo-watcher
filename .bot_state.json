@@ -136532,6 +136532,78 @@
       "chat_id": 7582459199,
       "seq": 10820,
       "identity": "https://jobs.ashbyhq.com/Terranova/a8e5a8d2-4af3-4736-b66e-e0804447f7a0|Terranova|Software Engineering Intern|Berkeley, CA|Other#1"
+    },
+    "84190676d579": {
+      "company": "Antares",
+      "role": "Multiphysics Software Intern - Summer 2027",
+      "location": "Los Angeles, CA",
+      "term": "Other",
+      "apply_url": "https://jobs.ashbyhq.com/Antares/922a527d-9826-446d-9aba-ffc611995830",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 12091,
+      "chat_id": 7582459199,
+      "seq": 10821,
+      "identity": "https://jobs.ashbyhq.com/Antares/922a527d-9826-446d-9aba-ffc611995830|Antares|Multiphysics Software Intern - Summer 2027|Los Angeles, CA|Other#1"
+    },
+    "838368acfbec": {
+      "company": "Antares",
+      "role": "Reactor Software Engineering Intern - Summer 2027",
+      "location": "Los Angeles, CA",
+      "term": "Other",
+      "apply_url": "https://jobs.ashbyhq.com/Antares/419ef2df-f0aa-4b68-994a-077e08a959e3",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 12092,
+      "chat_id": 7582459199,
+      "seq": 10822,
+      "identity": "https://jobs.ashbyhq.com/Antares/419ef2df-f0aa-4b68-994a-077e08a959e3|Antares|Reactor Software Engineering Intern - Summer 2027|Los Angeles, CA|Other#1"
+    },
+    "81c2b046f38e": {
+      "company": "Valon Tech",
+      "role": "Software Engineer Intern",
+      "location": "New York City, NY +1",
+      "term": "Other",
+      "apply_url": "https://jobs.ashbyhq.com/Valon/b5a62c0c-823c-42dd-8cb5-e4b1455bcc64",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 12093,
+      "chat_id": 7582459199,
+      "seq": 10823,
+      "identity": "https://jobs.ashbyhq.com/Valon/b5a62c0c-823c-42dd-8cb5-e4b1455bcc64|Valon Tech|Software Engineer Intern|New York City, NY +1|Other#1"
+    },
+    "2eaf5e078a3a": {
+      "company": "Sierra",
+      "role": "Software Engineer Intern - Agent - Summer 2027",
+      "location": "San Francisco, CA +1",
+      "term": "Other",
+      "apply_url": "https://jobs.ashbyhq.com/Sierra/34b31b67-268c-4270-b48f-72e59064c96e",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 12094,
+      "chat_id": 7582459199,
+      "seq": 10824,
+      "identity": "https://jobs.ashbyhq.com/Sierra/34b31b67-268c-4270-b48f-72e59064c96e|Sierra|Software Engineer Intern - Agent - Summer 2027|San Francisco, CA +1|Other#1"
+    },
+    "e222fb29f5e9": {
+      "company": "Kognitos",
+      "role": "Software Engineer Intern - AI-Native \u2014 Fall 2026",
+      "location": "San Jose, CA",
+      "term": "Other",
+      "apply_url": "https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 12095,
+      "chat_id": 7582459199,
+      "seq": 10825,
+      "identity": "https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5|Kognitos|Software Engineer Intern - AI-Native \u2014 Fall 2026|San Jose, CA|Other#1"
+    },
+    "113bd9362a1e": {
+      "company": "Serval",
+      "role": "Software Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Other",
+      "apply_url": "https://jobs.ashbyhq.com/Serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 12096,
+      "chat_id": 7582459199,
+      "seq": 10826,
+      "identity": "https://jobs.ashbyhq.com/Serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b|Serval|Software Engineer Intern|San Francisco, CA|Other#1"
     }
   },
   "applied": {
@@ -136899,10 +136971,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10820,
+  "seq": 10826,
   "health": {
     "last_heartbeat": "2026-11-08T17:25:14Z",
-    "last_ok_run": "2026-11-08T17:50:57Z",
+    "last_ok_run": "2026-11-08T17:55:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
