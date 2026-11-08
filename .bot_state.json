@@ -136604,6 +136604,138 @@
       "chat_id": 7582459199,
       "seq": 10826,
       "identity": "https://jobs.ashbyhq.com/Serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b|Serval|Software Engineer Intern|San Francisco, CA|Other#1"
+    },
+    "e1ba6c9b8be3": {
+      "company": "Intercontinental Exchange",
+      "role": "Software Engineer Intern",
+      "location": "New York, NY",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/1n6?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12097,
+      "chat_id": 7582459199,
+      "seq": 10827,
+      "identity": "https://go.vansh.nyc/1n6?s=y|Intercontinental Exchange|Software Engineer Intern|New York, NY|Oct 23#1"
+    },
+    "239bea80e382": {
+      "company": "Intercontinental Exchange",
+      "role": "Software Engineer Intern, Java",
+      "location": "Jacksonville, FL",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/1n7?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12098,
+      "chat_id": 7582459199,
+      "seq": 10828,
+      "identity": "https://go.vansh.nyc/1n7?s=y|Intercontinental Exchange|Software Engineer Intern, Java|Jacksonville, FL|Oct 23#1"
+    },
+    "0c432b8e9b5b": {
+      "company": "Intercontinental Exchange",
+      "role": "Software Engineer Intern",
+      "location": "Jacksonville, FL",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/1n8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12099,
+      "chat_id": 7582459199,
+      "seq": 10829,
+      "identity": "https://go.vansh.nyc/1n8?s=y|Intercontinental Exchange|Software Engineer Intern|Jacksonville, FL|Oct 23#1"
+    },
+    "c894b21758b9": {
+      "company": "Quadric",
+      "role": "RTL Intern",
+      "location": "Burlingame, CA",
+      "term": "Oct 22",
+      "apply_url": "https://go.vansh.nyc/1n2?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12100,
+      "chat_id": 7582459199,
+      "seq": 10830,
+      "identity": "https://go.vansh.nyc/1n2?s=y|Quadric|RTL Intern|Burlingame, CA|Oct 22#1"
+    },
+    "adf7cbff5b45": {
+      "company": "Quadric",
+      "role": "AI Kernel Engineer Intern",
+      "location": "Burlingame, CA",
+      "term": "Oct 22",
+      "apply_url": "https://go.vansh.nyc/1n3?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12101,
+      "chat_id": 7582459199,
+      "seq": 10831,
+      "identity": "https://go.vansh.nyc/1n3?s=y|Quadric|AI Kernel Engineer Intern|Burlingame, CA|Oct 22#1"
+    },
+    "7b97aeac5393": {
+      "company": "Quadric",
+      "role": "Deep Learning Compiler Intern",
+      "location": "Burlingame, CA",
+      "term": "Oct 22",
+      "apply_url": "https://go.vansh.nyc/1n4?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12102,
+      "chat_id": 7582459199,
+      "seq": 10832,
+      "identity": "https://go.vansh.nyc/1n4?s=y|Quadric|Deep Learning Compiler Intern|Burlingame, CA|Oct 22#1"
+    },
+    "14566302fb2d": {
+      "company": "Quadric",
+      "role": "Design Verification Intern",
+      "location": "Burlingame, CA",
+      "term": "Oct 22",
+      "apply_url": "https://go.vansh.nyc/1n5?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12103,
+      "chat_id": 7582459199,
+      "seq": 10833,
+      "identity": "https://go.vansh.nyc/1n5?s=y|Quadric|Design Verification Intern|Burlingame, CA|Oct 22#1"
+    },
+    "e352fe8ba3bf": {
+      "company": "Copart",
+      "role": "Software Engineer Intern",
+      "location": "Dallas, TX",
+      "term": "Oct 22",
+      "apply_url": "https://go.vansh.nyc/1n1?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12104,
+      "chat_id": 7582459199,
+      "seq": 10834,
+      "identity": "https://go.vansh.nyc/1n1?s=y|Copart|Software Engineer Intern|Dallas, TX|Oct 22#1"
+    },
+    "759eb7f8113c": {
+      "company": "SDSU Research Foundation",
+      "role": "Computer Science Intern",
+      "location": "San Diego, CA",
+      "term": "Oct 21",
+      "apply_url": "https://go.vansh.nyc/1mZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12105,
+      "chat_id": 7582459199,
+      "seq": 10835,
+      "identity": "https://go.vansh.nyc/1mZ?s=y|SDSU Research Foundation|Computer Science Intern|San Diego, CA|Oct 21#1"
+    },
+    "866c272d677c": {
+      "company": "Constellation Energy",
+      "role": "IT Development Intern",
+      "location": "San Diego, CA",
+      "term": "Oct 21",
+      "apply_url": "https://go.vansh.nyc/1n0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12106,
+      "chat_id": 7582459199,
+      "seq": 10836,
+      "identity": "https://go.vansh.nyc/1n0?s=y|Constellation Energy|IT Development Intern|San Diego, CA|Oct 21#1"
+    },
+    "797127bb96c6": {
+      "company": "Iridium Communications",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "**4 locations**McLean, VA Tempe, AZ Leesburg, VA Chandler, AZ",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12107,
+      "chat_id": 7582459199,
+      "seq": 10837,
+      "identity": "NOURL|Iridium Communications|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|**4 locations**McLean, VA Tempe, AZ Leesburg, VA Chandler, AZ|Oct 30#1"
     }
   },
   "applied": {
@@ -136971,10 +137103,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10826,
+  "seq": 10837,
   "health": {
     "last_heartbeat": "2026-11-08T20:30:20Z",
-    "last_ok_run": "2026-11-08T21:10:19Z",
+    "last_ok_run": "2026-11-08T21:15:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
