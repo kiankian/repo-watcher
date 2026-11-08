@@ -136112,6 +136112,18 @@
       "chat_id": 7582459199,
       "seq": 10785,
       "identity": "https://go.vansh.nyc/1mK?s=y|Klaviyo|Software Engineer Intern|Boston, MA|Oct 30#1"
+    },
+    "4465dcebd3c6": {
+      "company": "Alaska Air Group",
+      "role": "VR Development Intern",
+      "location": "Renton, WA",
+      "term": "Nov 01",
+      "apply_url": "https://go.vansh.nyc/1mN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12056,
+      "chat_id": 7582459199,
+      "seq": 10786,
+      "identity": "https://go.vansh.nyc/1mN?s=y|Alaska Air Group|VR Development Intern|Renton, WA|Nov 01#1"
     }
   },
   "applied": {
@@ -136479,10 +136491,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10785,
+  "seq": 10786,
   "health": {
     "last_heartbeat": "2026-11-08T09:00:21Z",
-    "last_ok_run": "2026-11-08T09:10:18Z",
+    "last_ok_run": "2026-11-08T09:15:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
