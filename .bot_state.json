@@ -138476,6 +138476,78 @@
       "chat_id": 7582459199,
       "seq": 10982,
       "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00196546?s=gh-internships-2027|Leidos|Cybersecurity Analyst Intern|Odenton, MD|Summer 2027#1"
+    },
+    "c758ba19ed4b": {
+      "company": "Nasdaq",
+      "role": "Technical Research Intern",
+      "location": "Richmond, VA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1p2?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12253,
+      "chat_id": 7582459199,
+      "seq": 10983,
+      "identity": "https://go.vansh.nyc/1p2?s=y|Nasdaq|Technical Research Intern|Richmond, VA|Nov 09#1"
+    },
+    "4ba0f67fe253": {
+      "company": "Altera",
+      "role": "FPGA Design Verification Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1p3?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12254,
+      "chat_id": 7582459199,
+      "seq": 10984,
+      "identity": "https://go.vansh.nyc/1p3?s=y|Altera|FPGA Design Verification Intern|Toronto, Canada|Nov 09#1"
+    },
+    "f9c05c96bfa1": {
+      "company": "Blackberry",
+      "role": "Software Developer Intern",
+      "location": "Ottawa, Canada",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12255,
+      "chat_id": 7582459199,
+      "seq": 10985,
+      "identity": "NOURL|Blackberry|Software Developer Intern|Ottawa, Canada|Nov 03#1"
+    },
+    "114b67b9eeb3": {
+      "company": "Blackberry",
+      "role": "Software Development Intern",
+      "location": "Ottawa, Canada",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12256,
+      "chat_id": 7582459199,
+      "seq": 10986,
+      "identity": "NOURL|Blackberry|Software Development Intern|Ottawa, Canada|Nov 03#1"
+    },
+    "8a853d877a87": {
+      "company": "National Life",
+      "role": "Data Science Intern \ud83d\udec2",
+      "location": "Addison, TX Montpelier, VT",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12257,
+      "chat_id": 7582459199,
+      "seq": 10987,
+      "identity": "NOURL|National Life|Data Science Intern \ud83d\udec2|Addison, TX Montpelier, VT|Oct 14#1"
+    },
+    "fb69c5911609": {
+      "company": "Wawa",
+      "role": "Information Technology Development Intern",
+      "location": "Media, PA",
+      "term": "Oct 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12258,
+      "chat_id": 7582459199,
+      "seq": 10988,
+      "identity": "NOURL|Wawa|Information Technology Development Intern|Media, PA|Oct 08#1"
     }
   },
   "applied": {
@@ -138843,10 +138915,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10982,
+  "seq": 10988,
   "health": {
     "last_heartbeat": "2026-11-09T18:50:20Z",
-    "last_ok_run": "2026-11-09T19:40:21Z",
+    "last_ok_run": "2026-11-09T19:45:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
