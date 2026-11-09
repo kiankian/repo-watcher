@@ -137252,6 +137252,174 @@
       "chat_id": 7582459199,
       "seq": 10880,
       "identity": "https://go.vansh.nyc/1nN?s=y|CACI|Software Development Intern|Ashburn, VA|Oct 01#1"
+    },
+    "7c06dfa9282d": {
+      "company": "Astera Labs",
+      "role": "Firmware Engineer Intern",
+      "location": "Vancouver, Canada",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/1of?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12151,
+      "chat_id": 7582459199,
+      "seq": 10881,
+      "identity": "https://go.vansh.nyc/1of?s=y|Astera Labs|Firmware Engineer Intern|Vancouver, Canada|Oct 28#1"
+    },
+    "7c4165e7a7b7": {
+      "company": "Wellmark",
+      "role": "Software Engineer Intern, Metadata Enablement Team",
+      "location": "Des Moines, IA",
+      "term": "Sep 30",
+      "apply_url": "https://go.vansh.nyc/1o8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12152,
+      "chat_id": 7582459199,
+      "seq": 10882,
+      "identity": "https://go.vansh.nyc/1o8?s=y|Wellmark|Software Engineer Intern, Metadata Enablement Team|Des Moines, IA|Sep 30#1"
+    },
+    "68f3d60d5d16": {
+      "company": "The Federal Reserve System",
+      "role": "Computer Science and Software Engineering Intern",
+      "location": "Chicago, IL",
+      "term": "Sep 30",
+      "apply_url": "https://go.vansh.nyc/1oa?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12153,
+      "chat_id": 7582459199,
+      "seq": 10883,
+      "identity": "https://go.vansh.nyc/1oa?s=y|The Federal Reserve System|Computer Science and Software Engineering Intern|Chicago, IL|Sep 30#1"
+    },
+    "b30622c585b9": {
+      "company": "The Federal Reserve System",
+      "role": "Data Science Intern",
+      "location": "Chicago, IL",
+      "term": "Sep 30",
+      "apply_url": "https://go.vansh.nyc/1ob?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12154,
+      "chat_id": 7582459199,
+      "seq": 10884,
+      "identity": "https://go.vansh.nyc/1ob?s=y|The Federal Reserve System|Data Science Intern|Chicago, IL|Sep 30#1"
+    },
+    "b46fbba72d7c": {
+      "company": "General Motors",
+      "role": "AI/ML Engineer Intern, Autonomous Vehicle Simulation",
+      "location": "Sunnyvale, CA",
+      "term": "Sep 30",
+      "apply_url": "https://go.vansh.nyc/1od?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12155,
+      "chat_id": 7582459199,
+      "seq": 10885,
+      "identity": "https://go.vansh.nyc/1od?s=y|General Motors|AI/ML Engineer Intern, Autonomous Vehicle Simulation|Sunnyvale, CA|Sep 30#1"
+    },
+    "cadde5cac5e1": {
+      "company": "American Family Insurance Group",
+      "role": "GenAI Intern",
+      "location": "Madison, WI Boston, MA",
+      "term": "Sep 30",
+      "apply_url": "https://go.vansh.nyc/1oc?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12156,
+      "chat_id": 7582459199,
+      "seq": 10886,
+      "identity": "https://go.vansh.nyc/1oc?s=y|American Family Insurance Group|GenAI Intern|Madison, WI Boston, MA|Sep 30#1"
+    },
+    "d9283139f643": {
+      "company": "ibotta",
+      "role": "Business Intelligence Intern",
+      "location": "Denver, CO",
+      "term": "Sep 29",
+      "apply_url": "https://go.vansh.nyc/1o6?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12157,
+      "chat_id": 7582459199,
+      "seq": 10887,
+      "identity": "https://go.vansh.nyc/1o6?s=y|ibotta|Business Intelligence Intern|Denver, CO|Sep 29#1"
+    },
+    "cd9a9452d7aa": {
+      "company": "Honeywell",
+      "role": "Software Engineering Co-op",
+      "location": "United States",
+      "term": "Sep 29",
+      "apply_url": "https://go.vansh.nyc/1o4?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12158,
+      "chat_id": 7582459199,
+      "seq": 10888,
+      "identity": "https://go.vansh.nyc/1o4?s=y|Honeywell|Software Engineering Co-op|United States|Sep 29#1"
+    },
+    "72901f184067": {
+      "company": "DraftKings",
+      "role": "Analytics Intern",
+      "location": "Boston, MA",
+      "term": "Sep 29",
+      "apply_url": "https://go.vansh.nyc/1o7?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12159,
+      "chat_id": 7582459199,
+      "seq": 10889,
+      "identity": "https://go.vansh.nyc/1o7?s=y|DraftKings|Analytics Intern|Boston, MA|Sep 29#1"
+    },
+    "564c2e44fa20": {
+      "company": "Tyler Technologies",
+      "role": "Software Development Intern",
+      "location": "Troy, MI Overland Park, KS",
+      "term": "Sep 28",
+      "apply_url": "https://go.vansh.nyc/1nZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12160,
+      "chat_id": 7582459199,
+      "seq": 10890,
+      "identity": "https://go.vansh.nyc/1nZ?s=y|Tyler Technologies|Software Development Intern|Troy, MI Overland Park, KS|Sep 28#1"
+    },
+    "a6e1e50dd579": {
+      "company": "Marvell",
+      "role": "AI-Native Development Platform Engineer Intern",
+      "location": "Santa Clara, CA",
+      "term": "Sep 28",
+      "apply_url": "https://go.vansh.nyc/1o3?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12161,
+      "chat_id": 7582459199,
+      "seq": 10891,
+      "identity": "https://go.vansh.nyc/1o3?s=y|Marvell|AI-Native Development Platform Engineer Intern|Santa Clara, CA|Sep 28#1"
+    },
+    "92fb143fa173": {
+      "company": "CACI",
+      "role": "Software Engineer Intern",
+      "location": "Omaha, NE",
+      "term": "Sep 28",
+      "apply_url": "https://go.vansh.nyc/1o1?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12162,
+      "chat_id": 7582459199,
+      "seq": 10892,
+      "identity": "https://go.vansh.nyc/1o1?s=y|CACI|Software Engineer Intern|Omaha, NE|Sep 28#1"
+    },
+    "9a88361b7a9b": {
+      "company": "onsemi",
+      "role": "Validation Engineer Intern",
+      "location": "Nampa, ID",
+      "term": "Sep 25",
+      "apply_url": "https://go.vansh.nyc/1nW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12163,
+      "chat_id": 7582459199,
+      "seq": 10893,
+      "identity": "https://go.vansh.nyc/1nW?s=y|onsemi|Validation Engineer Intern|Nampa, ID|Sep 25#1"
+    },
+    "02fddaec1f40": {
+      "company": "Bedrock Robotics",
+      "role": "State Estimation Intern, Learned Mapping & Semantic SLAM",
+      "location": "San Francisco, CA",
+      "term": "Sep 25",
+      "apply_url": "https://go.vansh.nyc/1nX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12164,
+      "chat_id": 7582459199,
+      "seq": 10894,
+      "identity": "https://go.vansh.nyc/1nX?s=y|Bedrock Robotics|State Estimation Intern, Learned Mapping & Semantic SLAM|San Francisco, CA|Sep 25#1"
     }
   },
   "applied": {
@@ -137619,10 +137787,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10880,
+  "seq": 10894,
   "health": {
     "last_heartbeat": "2026-11-09T08:20:19Z",
-    "last_ok_run": "2026-11-09T09:10:17Z",
+    "last_ok_run": "2026-11-09T09:15:41Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
