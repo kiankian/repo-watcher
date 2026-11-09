@@ -137960,6 +137960,42 @@
       "chat_id": 7582459199,
       "seq": 10939,
       "identity": "https://zapply.jobs/l/d/sr-NBCUniversal3-744000160654878?s=gh-internships-2027|NBCUniversal|Media Tech: Cybersecurity, Governance & Security Engineering Internships \u2013 Summer 2027|New York, NY|Summer 2027#1"
+    },
+    "a94a0b3f86ec": {
+      "company": "Warner Bros. Discovery",
+      "role": "WB Games Software Engineering Co-op: Needham, MA - January-May 2027",
+      "location": "MA Needham 117 Kendrick St",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-warnerbros-global-R000109901?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12210,
+      "chat_id": 7582459199,
+      "seq": 10940,
+      "identity": "https://zapply.jobs/l/d/workday-warnerbros-global-R000109901?s=gh-internships-2027|Warner Bros. Discovery|WB Games Software Engineering Co-op: Needham, MA - January-May 2027|MA Needham 117 Kendrick St|Summer 2027#1"
+    },
+    "4eebec8304a8": {
+      "company": "NBCUniversal",
+      "role": "Software Engineering Internships \u2013 Summer 2027",
+      "location": "New York, NY",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-NBCUniversal3-744000160659459?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12211,
+      "chat_id": 7582459199,
+      "seq": 10941,
+      "identity": "https://zapply.jobs/l/d/sr-NBCUniversal3-744000160659459?s=gh-internships-2027|NBCUniversal|Software Engineering Internships \u2013 Summer 2027|New York, NY|Summer 2027#1"
+    },
+    "c7a4833b1b99": {
+      "company": "NBCUniversal",
+      "role": "Software Engineering Internships \u2013 Summer 2027",
+      "location": "Universal City, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-NBCUniversal3-744000160659379?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12212,
+      "chat_id": 7582459199,
+      "seq": 10942,
+      "identity": "https://zapply.jobs/l/d/sr-NBCUniversal3-744000160659379?s=gh-internships-2027|NBCUniversal|Software Engineering Internships \u2013 Summer 2027|Universal City, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -138327,10 +138363,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10939,
+  "seq": 10942,
   "health": {
     "last_heartbeat": "2026-11-09T16:30:24Z",
-    "last_ok_run": "2026-11-09T16:30:24Z",
+    "last_ok_run": "2026-11-09T16:35:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
