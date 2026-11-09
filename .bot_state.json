@@ -139172,6 +139172,114 @@
       "chat_id": 7582459199,
       "seq": 11040,
       "identity": "https://zapply.jobs/l/d/lever-pivotal-3a80913d-886a-4d22-bf5e-9a011b157ec4?s=gh-internships-2027|Pivotal Software|Internship, Software Engineering (Summer 2027)|Palo Alto, CA|Summer 2027#1"
+    },
+    "6f0434d8dbf0": {
+      "company": "Qualcomm",
+      "role": "Firmware Engineering Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12311,
+      "chat_id": 7582459199,
+      "seq": 11041,
+      "identity": "https://go.vansh.nyc/1pw?s=y|Qualcomm|Firmware Engineering Intern|Toronto, Canada|Nov 09#1"
+    },
+    "0de3635f210f": {
+      "company": "Pivotal Aero",
+      "role": "Software Engineering Intern",
+      "location": "Palo Alto, CA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1px?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12312,
+      "chat_id": 7582459199,
+      "seq": 11042,
+      "identity": "https://go.vansh.nyc/1px?s=y|Pivotal Aero|Software Engineering Intern|Palo Alto, CA|Nov 09#1"
+    },
+    "3ef271662120": {
+      "company": "Integration Innovation (i3)",
+      "role": "Data Management Intern",
+      "location": "Huntsville, AL",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pu?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12313,
+      "chat_id": 7582459199,
+      "seq": 11043,
+      "identity": "https://go.vansh.nyc/1pu?s=y|Integration Innovation (i3)|Data Management Intern|Huntsville, AL|Nov 09#1"
+    },
+    "935a2e6cfc8c": {
+      "company": "Epic Games",
+      "role": "AI Programmer Intern",
+      "location": "Cary, NC",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12314,
+      "chat_id": 7582459199,
+      "seq": 11044,
+      "identity": "https://go.vansh.nyc/1pv?s=y|Epic Games|AI Programmer Intern|Cary, NC|Nov 09#1"
+    },
+    "482ebda90743": {
+      "company": "Biodesix",
+      "role": "AI Research & Development Intern",
+      "location": "Louisville, CO",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12315,
+      "chat_id": 7582459199,
+      "seq": 11045,
+      "identity": "https://go.vansh.nyc/1pq?s=y|Biodesix|AI Research & Development Intern|Louisville, CO|Nov 09#1"
+    },
+    "03cd0b6c145c": {
+      "company": "Biodesix",
+      "role": "Software Development Intern",
+      "location": "Louisville, CO",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12316,
+      "chat_id": 7582459199,
+      "seq": 11046,
+      "identity": "https://go.vansh.nyc/1pr?s=y|Biodesix|Software Development Intern|Louisville, CO|Nov 09#1"
+    },
+    "511576d23e84": {
+      "company": "Biodesix",
+      "role": "Data Analytics & Business Intelligence Intern",
+      "location": "Louisville, CO",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1ps?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12317,
+      "chat_id": 7582459199,
+      "seq": 11047,
+      "identity": "https://go.vansh.nyc/1ps?s=y|Biodesix|Data Analytics & Business Intelligence Intern|Louisville, CO|Nov 09#1"
+    },
+    "a8abaf520856": {
+      "company": "Art of Problem Solving",
+      "role": "Software Engineer Intern",
+      "location": "San Diego, CA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pt?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12318,
+      "chat_id": 7582459199,
+      "seq": 11048,
+      "identity": "https://go.vansh.nyc/1pt?s=y|Art of Problem Solving|Software Engineer Intern|San Diego, CA|Nov 09#1"
+    },
+    "ad77192c4748": {
+      "company": "7-Eleven",
+      "role": "Data Engineer Intern",
+      "location": "Irving, TX",
+      "term": "Nov 08",
+      "apply_url": "https://go.vansh.nyc/1pp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12319,
+      "chat_id": 7582459199,
+      "seq": 11049,
+      "identity": "https://go.vansh.nyc/1pp?s=y|7-Eleven|Data Engineer Intern|Irving, TX|Nov 08#1"
     }
   },
   "applied": {
@@ -139539,10 +139647,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11040,
+  "seq": 11049,
   "health": {
     "last_heartbeat": "2026-11-09T23:20:17Z",
-    "last_ok_run": "2026-11-09T23:45:19Z",
+    "last_ok_run": "2026-11-09T23:50:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
