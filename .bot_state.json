@@ -139076,6 +139076,78 @@
       "chat_id": 7582459199,
       "seq": 11032,
       "identity": "NOURL|Micron Technology|Design Engineer Intern, HBM|Richardson, TX|Oct 19#1"
+    },
+    "4a6abfd4b9a5": {
+      "company": "\ud83d\udd25 Amazon",
+      "role": "Software Engineer Intern",
+      "location": "5 locationsBoston, MA Seattle, WA Austin, TX Arlington County, Arlington, VA Denver, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://amazon.jobs/en/jobs/10597379/software-development-engineer-intern-summer-2027?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12303,
+      "chat_id": 7582459199,
+      "seq": 11033,
+      "identity": "https://amazon.jobs/en/jobs/10597379/software-development-engineer-intern-summer-2027?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Amazon|Software Engineer Intern|5 locationsBoston, MA Seattle, WA Austin, TX Arlington County, Arlington, VA Denver, CO|Summer 2026#1"
+    },
+    "651b363ed3cd": {
+      "company": "Art of Problem Solving",
+      "role": "Software Engineer Intern",
+      "location": "San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://artofproblemsolving.com/careers/job/8199296003?gh_jid=8199296003&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12304,
+      "chat_id": 7582459199,
+      "seq": 11034,
+      "identity": "https://artofproblemsolving.com/careers/job/8199296003?gh_jid=8199296003&utm_source=Simplify&ref=Simplify|Art of Problem Solving|Software Engineer Intern|San Diego, CA|Summer 2026#1"
+    },
+    "fff354113d2c": {
+      "company": "Biodesix",
+      "role": "Software Development Intern",
+      "location": "Louisville, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://www.biodesix.com/careers/current-openings?gh_jid=4485410009&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12305,
+      "chat_id": 7582459199,
+      "seq": 11035,
+      "identity": "https://www.biodesix.com/careers/current-openings?gh_jid=4485410009&utm_source=Simplify&ref=Simplify|Biodesix|Software Development Intern|Louisville, CO|Summer 2026#1"
+    },
+    "10d1272a268b": {
+      "company": "Biodesix",
+      "role": "AI Research & Development Intern",
+      "location": "Louisville, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://www.biodesix.com/careers/current-openings?gh_jid=4485306009&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12306,
+      "chat_id": 7582459199,
+      "seq": 11036,
+      "identity": "https://www.biodesix.com/careers/current-openings?gh_jid=4485306009&utm_source=Simplify&ref=Simplify|Biodesix|AI Research & Development Intern|Louisville, CO|Summer 2026#1"
+    },
+    "ebf46cdb042f": {
+      "company": "Ryan",
+      "role": "Application Development Intern - Application Development",
+      "location": "Burlington, VT",
+      "term": "Summer 2026",
+      "apply_url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Burlington/Summer-2027-Intern--Application-Development_R0020810?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12307,
+      "chat_id": 7582459199,
+      "seq": 11037,
+      "identity": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Burlington/Summer-2027-Intern--Application-Development_R0020810?utm_source=Simplify&ref=Simplify|Ryan|Application Development Intern - Application Development|Burlington, VT|Summer 2026#1"
+    },
+    "32919c441c5f": {
+      "company": "Ryan",
+      "role": "Application Development Intern - Application Development",
+      "location": "Burlington, VT",
+      "term": "Summer 2026",
+      "apply_url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Burlington/Summer-2027-Intern--Application-Development_R0020810-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12308,
+      "chat_id": 7582459199,
+      "seq": 11038,
+      "identity": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Burlington/Summer-2027-Intern--Application-Development_R0020810-1?utm_source=Simplify&ref=Simplify|Ryan|Application Development Intern - Application Development|Burlington, VT|Summer 2026#1"
     }
   },
   "applied": {
@@ -139443,10 +139515,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11032,
+  "seq": 11038,
   "health": {
     "last_heartbeat": "2026-11-09T23:20:17Z",
-    "last_ok_run": "2026-11-09T23:30:21Z",
+    "last_ok_run": "2026-11-09T23:35:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
