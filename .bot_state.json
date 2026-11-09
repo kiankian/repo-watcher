@@ -137660,6 +137660,42 @@
       "chat_id": 7582459199,
       "seq": 10914,
       "identity": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024647?s=gh-internships-2027|Cisco|Software Engineer Full-Stack / Backend I (Intern) \u2013 United States|San Jose California US|Summer 2027#1"
+    },
+    "4fa5738f5197": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Full-Stack Software Engineer Intern",
+      "location": "Chantilly, VA Pittsfield, MA Scottsdale, AZ",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-gdms.icims.com/jobs/75970/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12185,
+      "chat_id": 7582459199,
+      "seq": 10915,
+      "identity": "https://careers-gdms.icims.com/jobs/75970/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|General Dynamics Mission Systems|Full-Stack Software Engineer Intern|Chantilly, VA Pittsfield, MA Scottsdale, AZ|Summer 2026#1"
+    },
+    "fa0c9ed91734": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Full-Stack Application Development Intern",
+      "location": "Chantilly, VA Pittsfield, MA Scottsdale, AZ",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-gdms.icims.com/jobs/75971/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12186,
+      "chat_id": 7582459199,
+      "seq": 10916,
+      "identity": "https://careers-gdms.icims.com/jobs/75971/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|General Dynamics Mission Systems|Full-Stack Application Development Intern|Chantilly, VA Pittsfield, MA Scottsdale, AZ|Summer 2026#1"
+    },
+    "73b8e592f9bc": {
+      "company": "CIBC",
+      "role": "Associate Technology Leadership Advancement Program Intern \ud83c\udf93",
+      "location": "Toronto, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Associate-Technology-Leadership-Advancement-Program---Summer-2027_2623078-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12187,
+      "chat_id": 7582459199,
+      "seq": 10917,
+      "identity": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Associate-Technology-Leadership-Advancement-Program---Summer-2027_2623078-1?utm_source=Simplify&ref=Simplify|CIBC|Associate Technology Leadership Advancement Program Intern \ud83c\udf93|Toronto, ON, Canada|Summer 2026#1"
     }
   },
   "applied": {
@@ -138027,10 +138063,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10914,
+  "seq": 10917,
   "health": {
     "last_heartbeat": "2026-11-09T14:55:17Z",
-    "last_ok_run": "2026-11-09T15:30:23Z",
+    "last_ok_run": "2026-11-09T15:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
