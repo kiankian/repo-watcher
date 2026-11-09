@@ -137696,6 +137696,90 @@
       "chat_id": 7582459199,
       "seq": 10917,
       "identity": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Associate-Technology-Leadership-Advancement-Program---Summer-2027_2623078-1?utm_source=Simplify&ref=Simplify|CIBC|Associate Technology Leadership Advancement Program Intern \ud83c\udf93|Toronto, ON, Canada|Summer 2026#1"
+    },
+    "1dac4ff2c057": {
+      "company": "Zoetis",
+      "role": "IT/OT Security Intern",
+      "location": "Kalamazoo, MI",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1op?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12188,
+      "chat_id": 7582459199,
+      "seq": 10918,
+      "identity": "https://go.vansh.nyc/1op?s=y|Zoetis|IT/OT Security Intern|Kalamazoo, MI|Nov 09#1"
+    },
+    "1a4df47749ed": {
+      "company": "Paccar",
+      "role": "Data Analyst Intern",
+      "location": "Chillicothe, OH",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1oo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12189,
+      "chat_id": 7582459199,
+      "seq": 10919,
+      "identity": "https://go.vansh.nyc/1oo?s=y|Paccar|Data Analyst Intern|Chillicothe, OH|Nov 09#1"
+    },
+    "3bb7d90d30ab": {
+      "company": "CACI",
+      "role": "Cyber Security Intern",
+      "location": "Sterling, VA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1oq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12190,
+      "chat_id": 7582459199,
+      "seq": 10920,
+      "identity": "https://go.vansh.nyc/1oq?s=y|CACI|Cyber Security Intern|Sterling, VA|Nov 09#1"
+    },
+    "5a7d7521ba9a": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Full-Stack Software Engineer Intern",
+      "location": "Chantilly, VA Pittsfield, MA Scottsdale, AZ",
+      "term": "Nov 08",
+      "apply_url": "https://go.vansh.nyc/1om?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12191,
+      "chat_id": 7582459199,
+      "seq": 10921,
+      "identity": "https://go.vansh.nyc/1om?s=y|General Dynamics Mission Systems|Full-Stack Software Engineer Intern|Chantilly, VA Pittsfield, MA Scottsdale, AZ|Nov 08#1"
+    },
+    "06d1d4d83736": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Full-Stack Application Development Intern",
+      "location": "Chantilly, VA Pittsfield, MA Scottsdale, AZ",
+      "term": "Nov 08",
+      "apply_url": "https://go.vansh.nyc/1on?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12192,
+      "chat_id": 7582459199,
+      "seq": 10922,
+      "identity": "https://go.vansh.nyc/1on?s=y|General Dynamics Mission Systems|Full-Stack Application Development Intern|Chantilly, VA Pittsfield, MA Scottsdale, AZ|Nov 08#1"
+    },
+    "0a269eb1fd97": {
+      "company": "Concord Advice",
+      "role": "Data Scientist Intern",
+      "location": "Florham Park, NJ",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12193,
+      "chat_id": 7582459199,
+      "seq": 10923,
+      "identity": "NOURL|Concord Advice|Data Scientist Intern|Florham Park, NJ|Nov 05#1"
+    },
+    "a858459c2b9a": {
+      "company": "Kudu Dynamics",
+      "role": "Software Engineering & AI Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "**4 locations**Remote United States Odenton, MD Shiloh, IL",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12194,
+      "chat_id": 7582459199,
+      "seq": 10924,
+      "identity": "NOURL|Kudu Dynamics|Software Engineering & AI Intern \ud83c\uddfa\ud83c\uddf8|**4 locations**Remote United States Odenton, MD Shiloh, IL|Nov 04#1"
     }
   },
   "applied": {
@@ -138063,10 +138147,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10917,
+  "seq": 10924,
   "health": {
     "last_heartbeat": "2026-11-09T14:55:17Z",
-    "last_ok_run": "2026-11-09T15:40:21Z",
+    "last_ok_run": "2026-11-09T15:45:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
