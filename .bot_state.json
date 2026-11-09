@@ -136748,6 +136748,66 @@
       "chat_id": 7582459199,
       "seq": 10838,
       "identity": "https://jobs.lever.co/shieldai/88f7b66e-3412-40c8-b74d-aafc462405ff/apply?utm_source=Simplify&ref=Simplify|Shield AI|Engineer 2 New Grad - Multiple Teams|Washington, DC|Summer 2026#1"
+    },
+    "f92f6a7a2faa": {
+      "company": "National Interstate Insurance",
+      "role": "Data Scientist Intern \ud83d\udec2",
+      "location": "Lakeland, FL",
+      "term": "Nov 08",
+      "apply_url": "https://go.vansh.nyc/1ni?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12109,
+      "chat_id": 7582459199,
+      "seq": 10839,
+      "identity": "https://go.vansh.nyc/1ni?s=y|National Interstate Insurance|Data Scientist Intern \ud83d\udec2|Lakeland, FL|Nov 08#1"
+    },
+    "e1b610b35827": {
+      "company": "Integrate",
+      "role": "Software Engineer Intern",
+      "location": "Seattle, WA",
+      "term": "Oct 19",
+      "apply_url": "https://go.vansh.nyc/1ng?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12110,
+      "chat_id": 7582459199,
+      "seq": 10840,
+      "identity": "https://go.vansh.nyc/1ng?s=y|Integrate|Software Engineer Intern|Seattle, WA|Oct 19#1"
+    },
+    "d78f7fc7c4fc": {
+      "company": "Systems Planning and Analysis",
+      "role": "Data Engineering & Analytics Tools Intern",
+      "location": "Washington, DC",
+      "term": "Oct 16",
+      "apply_url": "https://go.vansh.nyc/1ne?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12111,
+      "chat_id": 7582459199,
+      "seq": 10841,
+      "identity": "https://go.vansh.nyc/1ne?s=y|Systems Planning and Analysis|Data Engineering & Analytics Tools Intern|Washington, DC|Oct 16#1"
+    },
+    "79630b13af02": {
+      "company": "John Deere",
+      "role": "Process Automation Intern, Data and Analytics",
+      "location": "Greeneville, TN",
+      "term": "Oct 16",
+      "apply_url": "https://go.vansh.nyc/1nf?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12112,
+      "chat_id": 7582459199,
+      "seq": 10842,
+      "identity": "https://go.vansh.nyc/1nf?s=y|John Deere|Process Automation Intern, Data and Analytics|Greeneville, TN|Oct 16#1"
+    },
+    "f3c30ba82fda": {
+      "company": "SiTime",
+      "role": "ASIC Digital Verification Engineer Intern",
+      "location": "Ottawa, Canada",
+      "term": "Oct 15",
+      "apply_url": "https://go.vansh.nyc/1nc?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12113,
+      "chat_id": 7582459199,
+      "seq": 10843,
+      "identity": "https://go.vansh.nyc/1nc?s=y|SiTime|ASIC Digital Verification Engineer Intern|Ottawa, Canada|Oct 15#1"
     }
   },
   "applied": {
@@ -137115,10 +137175,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10838,
+  "seq": 10843,
   "health": {
     "last_heartbeat": "2026-11-09T00:40:18Z",
-    "last_ok_run": "2026-11-09T01:10:20Z",
+    "last_ok_run": "2026-11-09T01:15:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
