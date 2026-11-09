@@ -138464,6 +138464,18 @@
       "chat_id": 7582459199,
       "seq": 10981,
       "identity": "NOURL|Marvell|Data Science Intern|Boise, ID|Oct 27#1"
+    },
+    "7c2c339a57b9": {
+      "company": "Leidos",
+      "role": "Cybersecurity Analyst Intern",
+      "location": "Odenton, MD",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-leidos-external-R-00196546?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12252,
+      "chat_id": 7582459199,
+      "seq": 10982,
+      "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00196546?s=gh-internships-2027|Leidos|Cybersecurity Analyst Intern|Odenton, MD|Summer 2027#1"
     }
   },
   "applied": {
@@ -138831,10 +138843,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10981,
+  "seq": 10982,
   "health": {
     "last_heartbeat": "2026-11-09T18:50:20Z",
-    "last_ok_run": "2026-11-09T19:35:20Z",
+    "last_ok_run": "2026-11-09T19:40:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
