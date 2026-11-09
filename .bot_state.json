@@ -139148,6 +139148,30 @@
       "chat_id": 7582459199,
       "seq": 11038,
       "identity": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Burlington/Summer-2027-Intern--Application-Development_R0020810-1?utm_source=Simplify&ref=Simplify|Ryan|Application Development Intern - Application Development|Burlington, VT|Summer 2026#1"
+    },
+    "5a761394c087": {
+      "company": "Pivotal Software",
+      "role": "Internship, Flight Test Engineer (Summer 2027)",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-pivotal-67927cb0-cf1a-4775-93be-61db3efe684b?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12309,
+      "chat_id": 7582459199,
+      "seq": 11039,
+      "identity": "https://zapply.jobs/l/d/lever-pivotal-67927cb0-cf1a-4775-93be-61db3efe684b?s=gh-internships-2027|Pivotal Software|Internship, Flight Test Engineer (Summer 2027)|Palo Alto, CA|Summer 2027#1"
+    },
+    "8724951cb2dc": {
+      "company": "Pivotal Software",
+      "role": "Internship, Software Engineering (Summer 2027)",
+      "location": "Palo Alto, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/lever-pivotal-3a80913d-886a-4d22-bf5e-9a011b157ec4?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12310,
+      "chat_id": 7582459199,
+      "seq": 11040,
+      "identity": "https://zapply.jobs/l/d/lever-pivotal-3a80913d-886a-4d22-bf5e-9a011b157ec4?s=gh-internships-2027|Pivotal Software|Internship, Software Engineering (Summer 2027)|Palo Alto, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -139515,10 +139539,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11038,
+  "seq": 11040,
   "health": {
     "last_heartbeat": "2026-11-09T23:20:17Z",
-    "last_ok_run": "2026-11-09T23:40:18Z",
+    "last_ok_run": "2026-11-09T23:45:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
