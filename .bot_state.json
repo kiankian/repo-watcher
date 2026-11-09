@@ -137060,6 +137060,78 @@
       "chat_id": 7582459199,
       "seq": 10864,
       "identity": "NOURL|Caterpillar|Corporate Intern, Digital and Analytics|Peoria, IL Chicago, IL Irving, TX|Sep 02#1"
+    },
+    "6673d2257241": {
+      "company": "Skyband Systems",
+      "role": "Software Engineer Intern",
+      "location": "Kirkland, WA",
+      "term": "Oct 06",
+      "apply_url": "https://go.vansh.nyc/1nF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12135,
+      "chat_id": 7582459199,
+      "seq": 10865,
+      "identity": "https://go.vansh.nyc/1nF?s=y|Skyband Systems|Software Engineer Intern|Kirkland, WA|Oct 06#1"
+    },
+    "26508bcf759c": {
+      "company": "Sigma Computing",
+      "role": "Software Engineer Intern",
+      "location": "San Francisco, CA New York, NY",
+      "term": "Oct 06",
+      "apply_url": "https://go.vansh.nyc/1nG?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12136,
+      "chat_id": 7582459199,
+      "seq": 10866,
+      "identity": "https://go.vansh.nyc/1nG?s=y|Sigma Computing|Software Engineer Intern|San Francisco, CA New York, NY|Oct 06#1"
+    },
+    "bb435bb544ee": {
+      "company": "GE Vernova",
+      "role": "AI Data Mining Agent Intern, SCS Commercial",
+      "location": "Atlanta, GA",
+      "term": "Oct 06",
+      "apply_url": "https://go.vansh.nyc/1nE?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12137,
+      "chat_id": 7582459199,
+      "seq": 10867,
+      "identity": "https://go.vansh.nyc/1nE?s=y|GE Vernova|AI Data Mining Agent Intern, SCS Commercial|Atlanta, GA|Oct 06#1"
+    },
+    "7abe14b5741e": {
+      "company": "Dow Jones",
+      "role": "Marketing Data Science Intern",
+      "location": "New York, NY",
+      "term": "Oct 06",
+      "apply_url": "https://go.vansh.nyc/1nD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12138,
+      "chat_id": 7582459199,
+      "seq": 10868,
+      "identity": "https://go.vansh.nyc/1nD?s=y|Dow Jones|Marketing Data Science Intern|New York, NY|Oct 06#1"
+    },
+    "e976ec87a1d6": {
+      "company": "Alliance Laundry Systems",
+      "role": "Embedded Firmware Co-op",
+      "location": "Ripon, WI",
+      "term": "Oct 06",
+      "apply_url": "https://go.vansh.nyc/1nC?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12139,
+      "chat_id": 7582459199,
+      "seq": 10869,
+      "identity": "https://go.vansh.nyc/1nC?s=y|Alliance Laundry Systems|Embedded Firmware Co-op|Ripon, WI|Oct 06#1"
+    },
+    "17777a629999": {
+      "company": "Hewlett Packard Enterprise",
+      "role": "Hardware Engineer Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Oct 05",
+      "apply_url": "https://go.vansh.nyc/1nA?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12140,
+      "chat_id": 7582459199,
+      "seq": 10870,
+      "identity": "https://go.vansh.nyc/1nA?s=y|Hewlett Packard Enterprise|Hardware Engineer Intern|Sunnyvale, CA|Oct 05#1"
     }
   },
   "applied": {
@@ -137427,10 +137499,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10864,
+  "seq": 10870,
   "health": {
     "last_heartbeat": "2026-11-09T06:10:19Z",
-    "last_ok_run": "2026-11-09T07:05:15Z",
+    "last_ok_run": "2026-11-09T07:10:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
