@@ -137804,6 +137804,18 @@
       "chat_id": 7582459199,
       "seq": 10926,
       "identity": "https://zapply.jobs/l/d/workday-zoetis-zoetis-JR00021994?s=gh-internships-2027|Zoetis|Information Security Intern|Parsippany|Summer 2027#1"
+    },
+    "d751a866b9fc": {
+      "company": "Citi",
+      "role": "Summer Analyst Intern - Application Development",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Technology---Application-Development--Summer-Analyst--United-Kingdom---London--2027_261007037?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12197,
+      "chat_id": 7582459199,
+      "seq": 10927,
+      "identity": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Technology---Application-Development--Summer-Analyst--United-Kingdom---London--2027_261007037?utm_source=Simplify&ref=Simplify|Citi|Summer Analyst Intern - Application Development|London, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -138171,10 +138183,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10926,
+  "seq": 10927,
   "health": {
     "last_heartbeat": "2026-11-09T14:55:17Z",
-    "last_ok_run": "2026-11-09T16:00:24Z",
+    "last_ok_run": "2026-11-09T16:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
