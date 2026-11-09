@@ -136892,6 +136892,174 @@
       "chat_id": 7582459199,
       "seq": 10850,
       "identity": "NOURL|Johnson & Johnson|IDAR Intern, C&SP|Spring House, PA Raritan, NJ Hopewell Township, NJ|Oct 11#1"
+    },
+    "d684f42c560b": {
+      "company": "Tenstorrent",
+      "role": "AI Software Intern",
+      "location": "Toronto, Canada",
+      "term": "Oct 08",
+      "apply_url": "https://go.vansh.nyc/1nu?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12121,
+      "chat_id": 7582459199,
+      "seq": 10851,
+      "identity": "https://go.vansh.nyc/1nu?s=y|Tenstorrent|AI Software Intern|Toronto, Canada|Oct 08#1"
+    },
+    "839efdf1541c": {
+      "company": "Peraton",
+      "role": "Software Development Intern",
+      "location": "Topeka, KS",
+      "term": "Oct 08",
+      "apply_url": "https://go.vansh.nyc/1nx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12122,
+      "chat_id": 7582459199,
+      "seq": 10852,
+      "identity": "https://go.vansh.nyc/1nx?s=y|Peraton|Software Development Intern|Topeka, KS|Oct 08#1"
+    },
+    "608ba138b4b8": {
+      "company": "IMC Trading",
+      "role": "Machine Learning Engineer Intern",
+      "location": "New York, NY",
+      "term": "Oct 08",
+      "apply_url": "https://go.vansh.nyc/1nv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12123,
+      "chat_id": 7582459199,
+      "seq": 10853,
+      "identity": "https://go.vansh.nyc/1nv?s=y|IMC Trading|Machine Learning Engineer Intern|New York, NY|Oct 08#1"
+    },
+    "1b848888fc6c": {
+      "company": "Aptiv",
+      "role": "Compiler Intern, Compiler Team",
+      "location": "Walnut Creek, CA",
+      "term": "Oct 08",
+      "apply_url": "https://go.vansh.nyc/1ny?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12124,
+      "chat_id": 7582459199,
+      "seq": 10854,
+      "identity": "https://go.vansh.nyc/1ny?s=y|Aptiv|Compiler Intern, Compiler Team|Walnut Creek, CA|Oct 08#1"
+    },
+    "6a70c87f9170": {
+      "company": "Aptiv",
+      "role": "Linux Software Development Intern",
+      "location": "San Antonio, TX",
+      "term": "Oct 08",
+      "apply_url": "https://go.vansh.nyc/1nz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12125,
+      "chat_id": 7582459199,
+      "seq": 10855,
+      "identity": "https://go.vansh.nyc/1nz?s=y|Aptiv|Linux Software Development Intern|San Antonio, TX|Oct 08#1"
+    },
+    "28ba90d380d8": {
+      "company": "Leidos",
+      "role": "Systems Integration and Software Engineer Intern",
+      "location": "Atlantic City, NJ",
+      "term": "Oct 07",
+      "apply_url": "https://go.vansh.nyc/1ns?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12126,
+      "chat_id": 7582459199,
+      "seq": 10856,
+      "identity": "https://go.vansh.nyc/1ns?s=y|Leidos|Systems Integration and Software Engineer Intern|Atlantic City, NJ|Oct 07#1"
+    },
+    "b3bbd8bfb055": {
+      "company": "General Motors",
+      "role": "Autonomous Driving Software Engineer Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Oct 07",
+      "apply_url": "https://go.vansh.nyc/1nt?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12127,
+      "chat_id": 7582459199,
+      "seq": 10857,
+      "identity": "https://go.vansh.nyc/1nt?s=y|General Motors|Autonomous Driving Software Engineer Intern|Sunnyvale, CA|Oct 07#1"
+    },
+    "4f0dd6b4ff4d": {
+      "company": "Alaska Airlines",
+      "role": "Software Engineer Intern",
+      "location": "SeaTac, WA",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12128,
+      "chat_id": 7582459199,
+      "seq": 10858,
+      "identity": "NOURL|Alaska Airlines|Software Engineer Intern|SeaTac, WA|Nov 06#1"
+    },
+    "3f461c40d239": {
+      "company": "Alaska Airlines",
+      "role": "Cybersecurity Threat Defense Intern",
+      "location": "SeaTac, WA",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12129,
+      "chat_id": 7582459199,
+      "seq": 10859,
+      "identity": "NOURL|Alaska Airlines|Cybersecurity Threat Defense Intern|SeaTac, WA|Nov 06#1"
+    },
+    "6b8b478922b4": {
+      "company": "Alaska Airlines",
+      "role": "Software Delivery Platform Intern",
+      "location": "SeaTac, WA",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12130,
+      "chat_id": 7582459199,
+      "seq": 10860,
+      "identity": "NOURL|Alaska Airlines|Software Delivery Platform Intern|SeaTac, WA|Nov 06#1"
+    },
+    "e8c0af0d1fa8": {
+      "company": "Alaska Air Group",
+      "role": "VR Development Intern",
+      "location": "Renton, WA",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12131,
+      "chat_id": 7582459199,
+      "seq": 10861,
+      "identity": "NOURL|Alaska Air Group|VR Development Intern|Renton, WA|Nov 01#1"
+    },
+    "e6b843a11f6a": {
+      "company": "T-Mobile",
+      "role": "Associate Technical Product Manager Intern",
+      "location": "Frisco, TX",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12132,
+      "chat_id": 7582459199,
+      "seq": 10862,
+      "identity": "NOURL|T-Mobile|Associate Technical Product Manager Intern|Frisco, TX|Oct 27#1"
+    },
+    "0b56ac0e3a22": {
+      "company": "Caterpillar",
+      "role": "Corporate Intern, Autonomy & Intelligent Systems Engineering",
+      "location": "**5 locations**Peoria, IL San Francisco, CA Pittsburgh, PA Mossville, IL Irving, TX",
+      "term": "Sep 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12133,
+      "chat_id": 7582459199,
+      "seq": 10863,
+      "identity": "NOURL|Caterpillar|Corporate Intern, Autonomy & Intelligent Systems Engineering|**5 locations**Peoria, IL San Francisco, CA Pittsburgh, PA Mossville, IL Irving, TX|Sep 02#1"
+    },
+    "47cd8cfc4f4d": {
+      "company": "Caterpillar",
+      "role": "Corporate Intern, Digital and Analytics",
+      "location": "Peoria, IL Chicago, IL Irving, TX",
+      "term": "Sep 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12134,
+      "chat_id": 7582459199,
+      "seq": 10864,
+      "identity": "NOURL|Caterpillar|Corporate Intern, Digital and Analytics|Peoria, IL Chicago, IL Irving, TX|Sep 02#1"
     }
   },
   "applied": {
@@ -137259,10 +137427,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10850,
+  "seq": 10864,
   "health": {
     "last_heartbeat": "2026-11-09T06:10:19Z",
-    "last_ok_run": "2026-11-09T06:10:19Z",
+    "last_ok_run": "2026-11-09T06:15:37Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
