@@ -138404,6 +138404,66 @@
       "chat_id": 7582459199,
       "seq": 10976,
       "identity": "https://zapply.jobs/l/d/greenhouse-lilasciences-4472540009?s=gh-internships-2027|Lila Sciences|Co-op, Software, Applied AI Platform Engineer|San Francisco, CA USA|Summer 2027#1"
+    },
+    "e82861bc5942": {
+      "company": "SeatGeek",
+      "role": "Security Engineer Intern",
+      "location": "New York, NY",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/1oZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12247,
+      "chat_id": 7582459199,
+      "seq": 10977,
+      "identity": "https://go.vansh.nyc/1oZ?s=y|SeatGeek|Security Engineer Intern|New York, NY|Oct 28#1"
+    },
+    "1e84539ed986": {
+      "company": "SeatGeek",
+      "role": "Software Engineer Intern",
+      "location": "New York, NY",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/1p0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12248,
+      "chat_id": 7582459199,
+      "seq": 10978,
+      "identity": "https://go.vansh.nyc/1p0?s=y|SeatGeek|Software Engineer Intern|New York, NY|Oct 28#1"
+    },
+    "36688359f337": {
+      "company": "Eurofins",
+      "role": "Business Intelligence Intern",
+      "location": "Lancaster, PA",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12249,
+      "chat_id": 7582459199,
+      "seq": 10979,
+      "identity": "NOURL|Eurofins|Business Intelligence Intern|Lancaster, PA|Nov 02#1"
+    },
+    "86b68a61516e": {
+      "company": "Schweitzer Engineering Laboratories",
+      "role": "Software Engineer Intern",
+      "location": "Charlotte, NC",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12250,
+      "chat_id": 7582459199,
+      "seq": 10980,
+      "identity": "NOURL|Schweitzer Engineering Laboratories|Software Engineer Intern|Charlotte, NC|Oct 28#1"
+    },
+    "e639184c877b": {
+      "company": "Marvell",
+      "role": "Data Science Intern",
+      "location": "Boise, ID",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12251,
+      "chat_id": 7582459199,
+      "seq": 10981,
+      "identity": "NOURL|Marvell|Data Science Intern|Boise, ID|Oct 27#1"
     }
   },
   "applied": {
@@ -138771,10 +138831,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10976,
+  "seq": 10981,
   "health": {
     "last_heartbeat": "2026-11-09T18:50:20Z",
-    "last_ok_run": "2026-11-09T19:10:22Z",
+    "last_ok_run": "2026-11-09T19:15:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
