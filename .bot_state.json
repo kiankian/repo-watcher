@@ -138128,6 +138128,30 @@
       "chat_id": 7582459199,
       "seq": 10953,
       "identity": "https://zapply.jobs/l/d/workday-bostondynamics-boston-dynamics-R3360?s=gh-internships-2027|Boston Dynamics|Manufacturing Test Engineer Co-Op|Waltham|Summer 2027#1"
+    },
+    "1266edaf25fc": {
+      "company": "Toyota Research Institute",
+      "role": "Robotics Intern, Teleoperation and Spatial Computing",
+      "location": "Cambridge, MA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1oI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12224,
+      "chat_id": 7582459199,
+      "seq": 10954,
+      "identity": "https://go.vansh.nyc/1oI?s=y|Toyota Research Institute|Robotics Intern, Teleoperation and Spatial Computing|Cambridge, MA|Nov 09#1"
+    },
+    "16aecf1447a9": {
+      "company": "Ritual",
+      "role": "Software Engineer Intern",
+      "location": "Remote United States",
+      "term": "Jul 24",
+      "apply_url": "https://go.vansh.nyc/1oJ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12225,
+      "chat_id": 7582459199,
+      "seq": 10955,
+      "identity": "https://go.vansh.nyc/1oJ?s=y|Ritual|Software Engineer Intern|Remote United States|Jul 24#1"
     }
   },
   "applied": {
@@ -138495,10 +138519,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10953,
+  "seq": 10955,
   "health": {
     "last_heartbeat": "2026-11-09T16:30:24Z",
-    "last_ok_run": "2026-11-09T17:10:23Z",
+    "last_ok_run": "2026-11-09T17:15:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
