@@ -138548,6 +138548,42 @@
       "chat_id": 7582459199,
       "seq": 10988,
       "identity": "NOURL|Wawa|Information Technology Development Intern|Media, PA|Oct 08#1"
+    },
+    "4e17c9b6af36": {
+      "company": "Cisco",
+      "role": "Software Engineer Full-Stack / Backend I (Intern) \u2013 United States",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-cisco-2024647?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12259,
+      "chat_id": 7582459199,
+      "seq": 10989,
+      "identity": "https://zapply.jobs/l/d/phenom-cisco-2024647?s=gh-internships-2027|Cisco|Software Engineer Full-Stack / Backend I (Intern) \u2013 United States|San Jose, California|Summer 2027#1"
+    },
+    "d511f6157f57": {
+      "company": "BAE Systems",
+      "role": "Space Systems - Model Based Systems Engineering Intern, Summer 2027",
+      "location": "Broomfield, Colorado",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-bae-systems-132378BR?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12260,
+      "chat_id": 7582459199,
+      "seq": 10990,
+      "identity": "https://zapply.jobs/l/d/phenom-bae-systems-132378BR?s=gh-internships-2027|BAE Systems|Space Systems - Model Based Systems Engineering Intern, Summer 2027|Broomfield, Colorado|Summer 2027#1"
+    },
+    "1f4bfd65bca4": {
+      "company": "BAE Systems",
+      "role": "Embedded Software Engineer Spring/Summer 2027",
+      "location": "Maple Grove, Minnesota",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-bae-systems-130781BR?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12261,
+      "chat_id": 7582459199,
+      "seq": 10991,
+      "identity": "https://zapply.jobs/l/d/phenom-bae-systems-130781BR?s=gh-internships-2027|BAE Systems|Embedded Software Engineer Spring/Summer 2027|Maple Grove, Minnesota|Summer 2027#1"
     }
   },
   "applied": {
@@ -138915,10 +138951,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10988,
+  "seq": 10991,
   "health": {
     "last_heartbeat": "2026-11-09T18:50:20Z",
-    "last_ok_run": "2026-11-09T19:45:29Z",
+    "last_ok_run": "2026-11-09T19:50:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
