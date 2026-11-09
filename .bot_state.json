@@ -138620,6 +138620,66 @@
       "chat_id": 7582459199,
       "seq": 10994,
       "identity": "https://zapply.jobs/l/d/ashby-skydio-33f1f123-8cec-4e6a-b125-e8831603a62a?s=gh-internships-2027|Skydio|Systems Engineering Intern - Summer 2027|San Mateo, California, United...|Summer 2027#1"
+    },
+    "cfc715bfdbc0": {
+      "company": "Fresenius Medical Care",
+      "role": "V&V Systems Engineer Co-op",
+      "location": "Lawrence, MA, USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-freseniusmedicalcare-fme-R0277323?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12265,
+      "chat_id": 7582459199,
+      "seq": 10995,
+      "identity": "https://zapply.jobs/l/d/workday-freseniusmedicalcare-fme-R0277323?s=gh-internships-2027|Fresenius Medical Care|V&V Systems Engineer Co-op|Lawrence, MA, USA|Summer 2027#1"
+    },
+    "473229634a0a": {
+      "company": "Persona AI",
+      "role": "Humanoid Robotics Software Internship",
+      "location": "Pensacola, FL or Houston, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-persona.ai-8a866ae6-613e-4d46-af2d-7dc13eb926bb?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12266,
+      "chat_id": 7582459199,
+      "seq": 10996,
+      "identity": "https://zapply.jobs/l/d/ashby-persona.ai-8a866ae6-613e-4d46-af2d-7dc13eb926bb?s=gh-internships-2027|Persona AI|Humanoid Robotics Software Internship|Pensacola, FL or Houston, TX|Summer 2027#1"
+    },
+    "760620c98bcb": {
+      "company": "Wex",
+      "role": "Software Engineer Intern",
+      "location": "Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22542?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12267,
+      "chat_id": 7582459199,
+      "seq": 10997,
+      "identity": "https://zapply.jobs/l/d/workday-wexinc-wexinc-R22542?s=gh-internships-2027|Wex|Software Engineer Intern|Remote|Summer 2027#1"
+    },
+    "1e69ee2b9056": {
+      "company": "Boston Scientific",
+      "role": "Urology R&D Software Engineering Co-op",
+      "location": "United States  US-MN-Maple Grove",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/eightfold-bostonscientific-563602813900562?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12268,
+      "chat_id": 7582459199,
+      "seq": 10998,
+      "identity": "https://zapply.jobs/l/d/eightfold-bostonscientific-563602813900562?s=gh-internships-2027|Boston Scientific|Urology R&D Software Engineering Co-op|United States  US-MN-Maple Grove|Summer 2027#1"
+    },
+    "4f9ec35c5758": {
+      "company": "Amazon.com Services LLC",
+      "role": "Software Development Engineer Intern - Summer 2027",
+      "location": "Seattle, WA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/amazon-db6caf19-08a3-4352-a031-c0ffc616f317?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12269,
+      "chat_id": 7582459199,
+      "seq": 10999,
+      "identity": "https://zapply.jobs/l/d/amazon-db6caf19-08a3-4352-a031-c0ffc616f317?s=gh-internships-2027|Amazon.com Services LLC|Software Development Engineer Intern - Summer 2027|Seattle, WA|Summer 2027#1"
     }
   },
   "applied": {
@@ -138987,10 +139047,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10994,
+  "seq": 10999,
   "health": {
     "last_heartbeat": "2026-11-09T19:55:20Z",
-    "last_ok_run": "2026-11-09T20:55:15Z",
+    "last_ok_run": "2026-11-09T21:00:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
