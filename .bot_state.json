@@ -138152,6 +138152,30 @@
       "chat_id": 7582459199,
       "seq": 10955,
       "identity": "https://go.vansh.nyc/1oJ?s=y|Ritual|Software Engineer Intern|Remote United States|Jul 24#1"
+    },
+    "0df771090a92": {
+      "company": "Ryan",
+      "role": "Application Development Intern",
+      "location": "United States",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1oM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12226,
+      "chat_id": 7582459199,
+      "seq": 10956,
+      "identity": "https://go.vansh.nyc/1oM?s=y|Ryan|Application Development Intern|United States|Nov 09#1"
+    },
+    "42418d2a2231": {
+      "company": "UiPath",
+      "role": "Software Engineer Intern",
+      "location": "Bellevue",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-uipath-4983eab7-099d-4c77-9a5a-8dde72084c04?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12227,
+      "chat_id": 7582459199,
+      "seq": 10957,
+      "identity": "https://zapply.jobs/l/d/ashby-uipath-4983eab7-099d-4c77-9a5a-8dde72084c04?s=gh-internships-2027|UiPath|Software Engineer Intern|Bellevue|Summer 2027#1"
     }
   },
   "applied": {
@@ -138519,10 +138543,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10955,
+  "seq": 10957,
   "health": {
     "last_heartbeat": "2026-11-09T16:30:24Z",
-    "last_ok_run": "2026-11-09T17:35:19Z",
+    "last_ok_run": "2026-11-09T17:40:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
