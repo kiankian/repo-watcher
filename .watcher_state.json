@@ -2965,7 +2965,7 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "8dfa48d60b0e17401f2d5d273ce502194f600c33",
+    "last_sha": "287f86330f987d3a8b08a50f94c1e1cfcc1eee64",
     "seen": [
       "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733?utm_source=github-vansh-ouckah|Nightwing|Software / Hardware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Annapolis Junction, MD|Jul 28#1",
       "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005?utm_source=github-vansh-ouckah|Chicago Trading Company|Software Engineer Intern|Chicago, IL|Jul 27#1",
@@ -7821,14 +7821,24 @@
       "https://go.vansh.nyc/1nE?s=y|GE Vernova|AI Data Mining Agent Intern, SCS Commercial|Atlanta, GA|Oct 06#1",
       "https://go.vansh.nyc/1nD?s=y|Dow Jones|Marketing Data Science Intern|New York, NY|Oct 06#1",
       "https://go.vansh.nyc/1nC?s=y|Alliance Laundry Systems|Embedded Firmware Co-op|Ripon, WI|Oct 06#1",
-      "https://go.vansh.nyc/1nA?s=y|Hewlett Packard Enterprise|Hardware Engineer Intern|Sunnyvale, CA|Oct 05#1"
+      "https://go.vansh.nyc/1nA?s=y|Hewlett Packard Enterprise|Hardware Engineer Intern|Sunnyvale, CA|Oct 05#1",
+      "https://go.vansh.nyc/1nV?s=y|General Dynamics Mission Systems|Software Engineer Intern, CWL|Manassas, VA|Oct 05#1",
+      "https://go.vansh.nyc/1nT?s=y|Atlassian|Data Engineer Intern|Seattle, WA|Oct 05#1",
+      "https://go.vansh.nyc/1nQ?s=y|xAI|Software Engineer Co-op|Palo Alto, CA|Oct 02#1",
+      "https://go.vansh.nyc/1nR?s=y|Affirm|Software Engineer Intern, Machine Learning|San Francisco, CA|Oct 02#1",
+      "https://go.vansh.nyc/1nI?s=y|Varda Space Industries|Flight Software Intern|El Segundo, CA|Oct 01#1",
+      "https://go.vansh.nyc/1nK?s=y|Vanguard|College to Corporate IT Intern, Application Development|Malvern, PA|Oct 01#1",
+      "https://go.vansh.nyc/1nL?s=y|Vanguard|IT Intern, Application Development|Charlotte, NC|Oct 01#1",
+      "https://go.vansh.nyc/1nO?s=y|Vanguard|College to Corporate Investment Systems Intern|Malvern, PA|Oct 01#1",
+      "https://go.vansh.nyc/1nM?s=y|Nelnet|IT Software Engineer Intern|Lincoln, NE|Oct 01#1",
+      "https://go.vansh.nyc/1nN?s=y|CACI|Software Development Intern|Ashburn, VA|Oct 01#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2431,
+    "last_row_count": 2441,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "3b3d2b92b031618872f1753a45038d3db2725bcb",
+    "last_sha": "70beff37d9fbe8a54ca18fbaf0df4829dd5f0526",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

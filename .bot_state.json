@@ -137132,6 +137132,126 @@
       "chat_id": 7582459199,
       "seq": 10870,
       "identity": "https://go.vansh.nyc/1nA?s=y|Hewlett Packard Enterprise|Hardware Engineer Intern|Sunnyvale, CA|Oct 05#1"
+    },
+    "15ddbb8214f1": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Software Engineer Intern, CWL",
+      "location": "Manassas, VA",
+      "term": "Oct 05",
+      "apply_url": "https://go.vansh.nyc/1nV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12141,
+      "chat_id": 7582459199,
+      "seq": 10871,
+      "identity": "https://go.vansh.nyc/1nV?s=y|General Dynamics Mission Systems|Software Engineer Intern, CWL|Manassas, VA|Oct 05#1"
+    },
+    "e554478d116f": {
+      "company": "Atlassian",
+      "role": "Data Engineer Intern",
+      "location": "Seattle, WA",
+      "term": "Oct 05",
+      "apply_url": "https://go.vansh.nyc/1nT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12142,
+      "chat_id": 7582459199,
+      "seq": 10872,
+      "identity": "https://go.vansh.nyc/1nT?s=y|Atlassian|Data Engineer Intern|Seattle, WA|Oct 05#1"
+    },
+    "df647d11c3cc": {
+      "company": "xAI",
+      "role": "Software Engineer Co-op",
+      "location": "Palo Alto, CA",
+      "term": "Oct 02",
+      "apply_url": "https://go.vansh.nyc/1nQ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12143,
+      "chat_id": 7582459199,
+      "seq": 10873,
+      "identity": "https://go.vansh.nyc/1nQ?s=y|xAI|Software Engineer Co-op|Palo Alto, CA|Oct 02#1"
+    },
+    "4054aa264058": {
+      "company": "Affirm",
+      "role": "Software Engineer Intern, Machine Learning",
+      "location": "San Francisco, CA",
+      "term": "Oct 02",
+      "apply_url": "https://go.vansh.nyc/1nR?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12144,
+      "chat_id": 7582459199,
+      "seq": 10874,
+      "identity": "https://go.vansh.nyc/1nR?s=y|Affirm|Software Engineer Intern, Machine Learning|San Francisco, CA|Oct 02#1"
+    },
+    "ab653eae19fb": {
+      "company": "Varda Space Industries",
+      "role": "Flight Software Intern",
+      "location": "El Segundo, CA",
+      "term": "Oct 01",
+      "apply_url": "https://go.vansh.nyc/1nI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12145,
+      "chat_id": 7582459199,
+      "seq": 10875,
+      "identity": "https://go.vansh.nyc/1nI?s=y|Varda Space Industries|Flight Software Intern|El Segundo, CA|Oct 01#1"
+    },
+    "c2280ecf9dd0": {
+      "company": "Vanguard",
+      "role": "College to Corporate IT Intern, Application Development",
+      "location": "Malvern, PA",
+      "term": "Oct 01",
+      "apply_url": "https://go.vansh.nyc/1nK?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12146,
+      "chat_id": 7582459199,
+      "seq": 10876,
+      "identity": "https://go.vansh.nyc/1nK?s=y|Vanguard|College to Corporate IT Intern, Application Development|Malvern, PA|Oct 01#1"
+    },
+    "a0d91fd2d25a": {
+      "company": "Vanguard",
+      "role": "IT Intern, Application Development",
+      "location": "Charlotte, NC",
+      "term": "Oct 01",
+      "apply_url": "https://go.vansh.nyc/1nL?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12147,
+      "chat_id": 7582459199,
+      "seq": 10877,
+      "identity": "https://go.vansh.nyc/1nL?s=y|Vanguard|IT Intern, Application Development|Charlotte, NC|Oct 01#1"
+    },
+    "7e1b278fcd13": {
+      "company": "Vanguard",
+      "role": "College to Corporate Investment Systems Intern",
+      "location": "Malvern, PA",
+      "term": "Oct 01",
+      "apply_url": "https://go.vansh.nyc/1nO?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12148,
+      "chat_id": 7582459199,
+      "seq": 10878,
+      "identity": "https://go.vansh.nyc/1nO?s=y|Vanguard|College to Corporate Investment Systems Intern|Malvern, PA|Oct 01#1"
+    },
+    "a4ddee9db112": {
+      "company": "Nelnet",
+      "role": "IT Software Engineer Intern",
+      "location": "Lincoln, NE",
+      "term": "Oct 01",
+      "apply_url": "https://go.vansh.nyc/1nM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12149,
+      "chat_id": 7582459199,
+      "seq": 10879,
+      "identity": "https://go.vansh.nyc/1nM?s=y|Nelnet|IT Software Engineer Intern|Lincoln, NE|Oct 01#1"
+    },
+    "e922c66178f5": {
+      "company": "CACI",
+      "role": "Software Development Intern",
+      "location": "Ashburn, VA",
+      "term": "Oct 01",
+      "apply_url": "https://go.vansh.nyc/1nN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12150,
+      "chat_id": 7582459199,
+      "seq": 10880,
+      "identity": "https://go.vansh.nyc/1nN?s=y|CACI|Software Development Intern|Ashburn, VA|Oct 01#1"
     }
   },
   "applied": {
@@ -137499,10 +137619,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10870,
+  "seq": 10880,
   "health": {
     "last_heartbeat": "2026-11-09T07:20:19Z",
-    "last_ok_run": "2026-11-09T08:10:18Z",
+    "last_ok_run": "2026-11-09T08:15:32Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
