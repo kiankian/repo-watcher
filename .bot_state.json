@@ -137420,6 +137420,30 @@
       "chat_id": 7582459199,
       "seq": 10894,
       "identity": "https://go.vansh.nyc/1nX?s=y|Bedrock Robotics|State Estimation Intern, Learned Mapping & Semantic SLAM|San Francisco, CA|Sep 25#1"
+    },
+    "fedddfe7a7e0": {
+      "company": "The Federal Reserve System",
+      "role": "Data Science Intern",
+      "location": "Chicago, IL",
+      "term": "Sep 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12165,
+      "chat_id": 7582459199,
+      "seq": 10895,
+      "identity": "NOURL|The Federal Reserve System|Data Science Intern|Chicago, IL|Sep 30#1"
+    },
+    "fde4bd8c406c": {
+      "company": "DraftKings",
+      "role": "Analytics Intern",
+      "location": "Boston, MA",
+      "term": "Sep 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12166,
+      "chat_id": 7582459199,
+      "seq": 10896,
+      "identity": "NOURL|DraftKings|Analytics Intern|Boston, MA|Sep 29#1"
     }
   },
   "applied": {
@@ -137787,10 +137811,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10894,
+  "seq": 10896,
   "health": {
     "last_heartbeat": "2026-11-09T09:30:23Z",
-    "last_ok_run": "2026-11-09T10:25:16Z",
+    "last_ok_run": "2026-11-09T10:30:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
