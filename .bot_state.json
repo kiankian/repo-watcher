@@ -139016,6 +139016,66 @@
       "chat_id": 7582459199,
       "seq": 11027,
       "identity": "https://zapply.jobs/l/d/ashby-illumio-2bcba5c3-c6e7-407c-92b2-73027594789e?s=gh-internships-2027|Illumio|Engineering Intern, SRE|Sunnyvale, California -|Summer 2027#1"
+    },
+    "7c21cbb01450": {
+      "company": "The New York Times",
+      "role": "Data Analyst Intern",
+      "location": "New York, NY",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12298,
+      "chat_id": 7582459199,
+      "seq": 11028,
+      "identity": "https://go.vansh.nyc/1pm?s=y|The New York Times|Data Analyst Intern|New York, NY|Nov 09#1"
+    },
+    "dc9e438c58b5": {
+      "company": "The New York Times",
+      "role": "ML Scientist Intern",
+      "location": "New York, NY",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pn?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12299,
+      "chat_id": 7582459199,
+      "seq": 11029,
+      "identity": "https://go.vansh.nyc/1pn?s=y|The New York Times|ML Scientist Intern|New York, NY|Nov 09#1"
+    },
+    "c0d8b45298fe": {
+      "company": "Illumio",
+      "role": "Engineering Intern, SRE",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pl?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12300,
+      "chat_id": 7582459199,
+      "seq": 11030,
+      "identity": "https://go.vansh.nyc/1pl?s=y|Illumio|Engineering Intern, SRE|Sunnyvale, CA|Nov 09#1"
+    },
+    "f9fb4df53cee": {
+      "company": "Arch Capital Group",
+      "role": "Originations Portal IT Intern",
+      "location": "Greensboro, NC",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12301,
+      "chat_id": 7582459199,
+      "seq": 11031,
+      "identity": "NOURL|Arch Capital Group|Originations Portal IT Intern|Greensboro, NC|Nov 03#1"
+    },
+    "32f5cda43a53": {
+      "company": "Micron Technology",
+      "role": "Design Engineer Intern, HBM",
+      "location": "Richardson, TX",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12302,
+      "chat_id": 7582459199,
+      "seq": 11032,
+      "identity": "NOURL|Micron Technology|Design Engineer Intern, HBM|Richardson, TX|Oct 19#1"
     }
   },
   "applied": {
@@ -139383,10 +139443,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11027,
+  "seq": 11032,
   "health": {
     "last_heartbeat": "2026-11-09T22:15:22Z",
-    "last_ok_run": "2026-11-09T23:05:18Z",
+    "last_ok_run": "2026-11-09T23:10:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
