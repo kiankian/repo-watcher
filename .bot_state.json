@@ -138764,6 +138764,90 @@
       "chat_id": 7582459199,
       "seq": 11006,
       "identity": "https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102562?s=gh-internships-2027|Radiance Technologies|Software Engineer Intern Spring/Summer 2027|Dayton|Summer 2027#1"
+    },
+    "6f4a985bcca1": {
+      "company": "Zoetis",
+      "role": "AI Architecture, Enablement & Tools Intern, AI Capabilities",
+      "location": "Remote United States Kalamazoo, MI",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1ph?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12277,
+      "chat_id": 7582459199,
+      "seq": 11007,
+      "identity": "https://go.vansh.nyc/1ph?s=y|Zoetis|AI Architecture, Enablement & Tools Intern, AI Capabilities|Remote United States Kalamazoo, MI|Nov 09#1"
+    },
+    "ece5ea42e979": {
+      "company": "CAI",
+      "role": "Programmer Intern",
+      "location": "United States",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12278,
+      "chat_id": 7582459199,
+      "seq": 11008,
+      "identity": "https://go.vansh.nyc/1pg?s=y|CAI|Programmer Intern|United States|Nov 09#1"
+    },
+    "dbe16859c50d": {
+      "company": "Duolingo",
+      "role": "Data Scientist Intern",
+      "location": "Pittsburgh, PA New York, NY",
+      "term": "Oct 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12279,
+      "chat_id": 7582459199,
+      "seq": 11009,
+      "identity": "NOURL|Duolingo|Data Scientist Intern|Pittsburgh, PA New York, NY|Oct 15#1"
+    },
+    "4a04f55e5b3e": {
+      "company": "Duolingo",
+      "role": "Data Scientist Intern",
+      "location": "New York, NY Pittsburgh, PA",
+      "term": "Oct 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12280,
+      "chat_id": 7582459199,
+      "seq": 11010,
+      "identity": "NOURL|Duolingo|Data Scientist Intern|New York, NY Pittsburgh, PA|Oct 15#1"
+    },
+    "e11ad08b83aa": {
+      "company": "GuidePoint Security",
+      "role": "AI & Data Science Intern, GPSU",
+      "location": "Remote United States",
+      "term": "Oct 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12281,
+      "chat_id": 7582459199,
+      "seq": 11011,
+      "identity": "NOURL|GuidePoint Security|AI & Data Science Intern, GPSU|Remote United States|Oct 08#1"
+    },
+    "13a1bee3d82f": {
+      "company": "GuidePoint Security",
+      "role": "Cloud Infrastructure Intern",
+      "location": "Remote United States",
+      "term": "Oct 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12282,
+      "chat_id": 7582459199,
+      "seq": 11012,
+      "identity": "NOURL|GuidePoint Security|Cloud Infrastructure Intern|Remote United States|Oct 08#1"
+    },
+    "5c2b76e191d5": {
+      "company": "GuidePoint Security",
+      "role": "Application Security Intern",
+      "location": "Remote United States",
+      "term": "Oct 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12283,
+      "chat_id": 7582459199,
+      "seq": 11013,
+      "identity": "NOURL|GuidePoint Security|Application Security Intern|Remote United States|Oct 08#1"
     }
   },
   "applied": {
@@ -139131,10 +139215,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11006,
+  "seq": 11013,
   "health": {
     "last_heartbeat": "2026-11-09T21:10:18Z",
-    "last_ok_run": "2026-11-09T21:35:18Z",
+    "last_ok_run": "2026-11-09T21:40:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
