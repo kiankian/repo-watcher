@@ -137516,6 +137516,102 @@
       "chat_id": 7582459199,
       "seq": 10902,
       "identity": "NOURL|CareSource|Full Stack AI Development Intern|Remote United States|Oct 28#1"
+    },
+    "db580f38ea97": {
+      "company": "SageSure",
+      "role": "Data Science Product Analyst Intern",
+      "location": "Fairfield, CA",
+      "term": "Oct 29",
+      "apply_url": "https://go.vansh.nyc/1oj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12173,
+      "chat_id": 7582459199,
+      "seq": 10903,
+      "identity": "https://go.vansh.nyc/1oj?s=y|SageSure|Data Science Product Analyst Intern|Fairfield, CA|Oct 29#1"
+    },
+    "96d1b92be2a0": {
+      "company": "SageSure",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL Jersey City, NJ Mountain View, CA",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/1oh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12174,
+      "chat_id": 7582459199,
+      "seq": 10904,
+      "identity": "https://go.vansh.nyc/1oh?s=y|SageSure|Software Engineer Intern|Chicago, IL Jersey City, NJ Mountain View, CA|Oct 28#1"
+    },
+    "d309554e51cb": {
+      "company": "SageSure",
+      "role": "Data Science Intern",
+      "location": "Jersey City, NJ",
+      "term": "Oct 28",
+      "apply_url": "https://go.vansh.nyc/1oi?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12175,
+      "chat_id": 7582459199,
+      "seq": 10905,
+      "identity": "https://go.vansh.nyc/1oi?s=y|SageSure|Data Science Intern|Jersey City, NJ|Oct 28#1"
+    },
+    "4d6450328819": {
+      "company": "Red Ventures",
+      "role": "Launch Program Data Science Intern",
+      "location": "Charlotte, NC",
+      "term": "Sep 25",
+      "apply_url": "https://go.vansh.nyc/1og?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12176,
+      "chat_id": 7582459199,
+      "seq": 10906,
+      "identity": "https://go.vansh.nyc/1og?s=y|Red Ventures|Launch Program Data Science Intern|Charlotte, NC|Sep 25#1"
+    },
+    "f7b6ad3229bd": {
+      "company": "Riverside Research",
+      "role": "Software Applications Intern",
+      "location": "Fairborn, OH",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12177,
+      "chat_id": 7582459199,
+      "seq": 10907,
+      "identity": "NOURL|Riverside Research|Software Applications Intern|Fairborn, OH|Nov 04#1"
+    },
+    "457aa5a8ef4f": {
+      "company": "GE Vernova",
+      "role": "Product Management Intern",
+      "location": "Markham, Canada",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12178,
+      "chat_id": 7582459199,
+      "seq": 10908,
+      "identity": "NOURL|GE Vernova|Product Management Intern|Markham, Canada|Oct 22#1"
+    },
+    "ca276992250c": {
+      "company": "Disney",
+      "role": "Product & Technology Software Engineering Intern",
+      "location": "Glendale, CA San Francisco, CA New York, NY",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12179,
+      "chat_id": 7582459199,
+      "seq": 10909,
+      "identity": "NOURL|Disney|Product & Technology Software Engineering Intern|Glendale, CA San Francisco, CA New York, NY|Oct 18#1"
+    },
+    "880a99e708bf": {
+      "company": "Booz Allen",
+      "role": "Applied AI Intern",
+      "location": "Washington, DC",
+      "term": "Sep 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12180,
+      "chat_id": 7582459199,
+      "seq": 10910,
+      "identity": "NOURL|Booz Allen|Applied AI Intern|Washington, DC|Sep 13#1"
     }
   },
   "applied": {
@@ -137883,10 +137979,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10902,
+  "seq": 10910,
   "health": {
     "last_heartbeat": "2026-11-09T13:50:19Z",
-    "last_ok_run": "2026-11-09T14:40:19Z",
+    "last_ok_run": "2026-11-09T14:45:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
