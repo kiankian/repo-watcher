@@ -136808,6 +136808,90 @@
       "chat_id": 7582459199,
       "seq": 10843,
       "identity": "https://go.vansh.nyc/1nc?s=y|SiTime|ASIC Digital Verification Engineer Intern|Ottawa, Canada|Oct 15#1"
+    },
+    "5c821d2fd31a": {
+      "company": "Garmin",
+      "role": "Software Engineer Intern",
+      "location": "Brea, CA",
+      "term": "Oct 15",
+      "apply_url": "https://go.vansh.nyc/1nr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12114,
+      "chat_id": 7582459199,
+      "seq": 10844,
+      "identity": "https://go.vansh.nyc/1nr?s=y|Garmin|Software Engineer Intern|Brea, CA|Oct 15#1"
+    },
+    "b63320525b59": {
+      "company": "Tenstorrent",
+      "role": "Systems Intern, Multiple Teams",
+      "location": "Toronto, Canada Vancouver, Canada",
+      "term": "Oct 14",
+      "apply_url": "https://go.vansh.nyc/1np?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12115,
+      "chat_id": 7582459199,
+      "seq": 10845,
+      "identity": "https://go.vansh.nyc/1np?s=y|Tenstorrent|Systems Intern, Multiple Teams|Toronto, Canada Vancouver, Canada|Oct 14#1"
+    },
+    "10c49b97b99c": {
+      "company": "Indie",
+      "role": "Applications Software Developer Intern",
+      "location": "Aliso Viejo, CA",
+      "term": "Oct 14",
+      "apply_url": "https://go.vansh.nyc/1nq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12116,
+      "chat_id": 7582459199,
+      "seq": 10846,
+      "identity": "https://go.vansh.nyc/1nq?s=y|Indie|Applications Software Developer Intern|Aliso Viejo, CA|Oct 14#1"
+    },
+    "f853b5c9146f": {
+      "company": "Garmin",
+      "role": "Data Scientist Intern",
+      "location": "Louisville, CO",
+      "term": "Oct 12",
+      "apply_url": "https://go.vansh.nyc/1nn?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12117,
+      "chat_id": 7582459199,
+      "seq": 10847,
+      "identity": "https://go.vansh.nyc/1nn?s=y|Garmin|Data Scientist Intern|Louisville, CO|Oct 12#1"
+    },
+    "631b67212dbc": {
+      "company": "T-Mobile",
+      "role": "Software Engineering Intern",
+      "location": "Philadelphia, PA",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12118,
+      "chat_id": 7582459199,
+      "seq": 10848,
+      "identity": "NOURL|T-Mobile|Software Engineering Intern|Philadelphia, PA|Nov 02#1"
+    },
+    "d7d53bcbb4ac": {
+      "company": "T-Mobile",
+      "role": "Software Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12119,
+      "chat_id": 7582459199,
+      "seq": 10849,
+      "identity": "NOURL|T-Mobile|Software Engineering Intern|New York, NY|Nov 02#1"
+    },
+    "902fe0c2f6b5": {
+      "company": "Johnson & Johnson",
+      "role": "IDAR Intern, C&SP",
+      "location": "Spring House, PA Raritan, NJ Hopewell Township, NJ",
+      "term": "Oct 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12120,
+      "chat_id": 7582459199,
+      "seq": 10850,
+      "identity": "NOURL|Johnson & Johnson|IDAR Intern, C&SP|Spring House, PA Raritan, NJ Hopewell Township, NJ|Oct 11#1"
     }
   },
   "applied": {
@@ -137175,10 +137259,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 10843,
+  "seq": 10850,
   "health": {
     "last_heartbeat": "2026-11-09T04:50:18Z",
-    "last_ok_run": "2026-11-09T05:10:16Z",
+    "last_ok_run": "2026-11-09T05:15:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
