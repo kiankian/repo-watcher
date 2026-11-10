@@ -142640,6 +142640,42 @@
       "chat_id": 7582459199,
       "seq": 11330,
       "identity": "NOURL|Resideo|Data Science Intern|Austin, TX Golden Valley, MN|Nov 02#1"
+    },
+    "6acbfbfeaa5e": {
+      "company": "Addepar",
+      "role": "Product Intern",
+      "location": "New York, NY",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1s3?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12624,
+      "chat_id": 7582459199,
+      "seq": 11334,
+      "identity": "https://go.vansh.nyc/1s3?s=y|Addepar|Product Intern|New York, NY|Nov 10#1"
+    },
+    "ed072cd0ba44": {
+      "company": "RTX",
+      "role": "Control/Diagnostic Software Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Jupiter, FL",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12625,
+      "chat_id": 7582459199,
+      "seq": 11335,
+      "identity": "NOURL|RTX|Control/Diagnostic Software Intern \ud83c\uddfa\ud83c\uddf8|Jupiter, FL|Nov 03#1"
+    },
+    "8efc001a5d24": {
+      "company": "ICF International",
+      "role": "AI Engineer Intern",
+      "location": "Reston, VA",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12626,
+      "chat_id": 7582459199,
+      "seq": 11336,
+      "identity": "NOURL|ICF International|AI Engineer Intern|Reston, VA|Oct 14#1"
     }
   },
   "applied": {
@@ -143007,10 +143043,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11333,
+  "seq": 11336,
   "health": {
     "last_heartbeat": "2026-11-10T20:50:18Z",
-    "last_ok_run": "2026-11-10T21:10:20Z",
+    "last_ok_run": "2026-11-10T21:15:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -143018,7 +143054,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T20:40:26Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T21:15:21Z",
       "duplicate-hash": "2026-11-10T20:40:21Z"
     }
   }
