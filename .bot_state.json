@@ -142700,6 +142700,102 @@
       "chat_id": 7582459199,
       "seq": 11338,
       "identity": "https://go.vansh.nyc/1s5?s=y|Global Payments|CyberSecurity Intern \ud83d\udec2|Columbus, GA|Nov 10#1"
+    },
+    "adfd7e2ecc45": {
+      "company": "General Dynamics Information Technology",
+      "role": "AI/ML Business Intelligence Development Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Bossier City, LA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1s6?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12630,
+      "chat_id": 7582459199,
+      "seq": 11339,
+      "identity": "https://go.vansh.nyc/1s6?s=y|General Dynamics Information Technology|AI/ML Business Intelligence Development Intern \ud83c\uddfa\ud83c\uddf8|Bossier City, LA|Nov 10#1"
+    },
+    "2abbf99caaf4": {
+      "company": "ByteDance",
+      "role": "Site Reliability Engineer Intern, Data Platform, Computer Platform",
+      "location": "San Jose, CA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1s7?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12631,
+      "chat_id": 7582459199,
+      "seq": 11340,
+      "identity": "https://go.vansh.nyc/1s7?s=y|ByteDance|Site Reliability Engineer Intern, Data Platform, Computer Platform|San Jose, CA|Nov 10#1"
+    },
+    "6c1892231d43": {
+      "company": "CareSource",
+      "role": "Cybersecurity Intern",
+      "location": "Remote United States",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12632,
+      "chat_id": 7582459199,
+      "seq": 11341,
+      "identity": "NOURL|CareSource|Cybersecurity Intern|Remote United States|Nov 05#1"
+    },
+    "a5aa1606de88": {
+      "company": "Resideo",
+      "role": "Embedded Firmware Engineer Intern",
+      "location": "Melville, NY",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12633,
+      "chat_id": 7582459199,
+      "seq": 11342,
+      "identity": "NOURL|Resideo|Embedded Firmware Engineer Intern|Melville, NY|Nov 02#1"
+    },
+    "185ec64df7fb": {
+      "company": "Resideo",
+      "role": "Mobile Software Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12634,
+      "chat_id": 7582459199,
+      "seq": 11343,
+      "identity": "NOURL|Resideo|Mobile Software Engineer Intern|Austin, TX|Nov 02#1"
+    },
+    "f96af5b52109": {
+      "company": "Resideo",
+      "role": "Firmware Engineer Intern",
+      "location": "Aurora, IL",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12635,
+      "chat_id": 7582459199,
+      "seq": 11344,
+      "identity": "NOURL|Resideo|Firmware Engineer Intern|Aurora, IL|Nov 02#1"
+    },
+    "80ff3fbe22d4": {
+      "company": "Resideo",
+      "role": "Firmware Engineer Intern",
+      "location": "Golden Valley, MN",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12636,
+      "chat_id": 7582459199,
+      "seq": 11345,
+      "identity": "NOURL|Resideo|Firmware Engineer Intern|Golden Valley, MN|Nov 02#1"
+    },
+    "b50e807f9717": {
+      "company": "Oshkosh",
+      "role": "Autonomy & Active Safety Engineer Intern",
+      "location": "Oshkosh, WI Pittsburgh, PA",
+      "term": "Sep 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12637,
+      "chat_id": 7582459199,
+      "seq": 11346,
+      "identity": "NOURL|Oshkosh|Autonomy & Active Safety Engineer Intern|Oshkosh, WI Pittsburgh, PA|Sep 10#1"
     }
   },
   "applied": {
@@ -143067,10 +143163,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11338,
+  "seq": 11346,
   "health": {
     "last_heartbeat": "2026-11-10T21:50:19Z",
-    "last_ok_run": "2026-11-10T22:05:16Z",
+    "last_ok_run": "2026-11-10T22:10:34Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -143078,7 +143174,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T21:15:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T22:10:32Z",
       "duplicate-hash": "2026-11-10T20:40:21Z"
     }
   }
