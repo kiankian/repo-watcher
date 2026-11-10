@@ -141032,6 +141032,138 @@
       "chat_id": 7582459199,
       "seq": 11195,
       "identity": "https://zapply.jobs/l/d/lever-palantir-130ee501-bd22-4d44-b651-39581ef97743?s=gh-internships-2027|Palantir|Software Engineer, Intern - Connectivity Platform and Product|New York, NY|Summer 2027#1"
+    },
+    "660bfc115b0c": {
+      "company": "Vooma",
+      "role": "Software Engineering Intern",
+      "location": "San Mateo, CA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rA?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12479,
+      "chat_id": 7582459199,
+      "seq": 11196,
+      "identity": "https://go.vansh.nyc/1rA?s=y|Vooma|Software Engineering Intern|San Mateo, CA|Nov 10#1"
+    },
+    "89b73b16d374": {
+      "company": "TerraByte Green",
+      "role": "AI Engineering Intern",
+      "location": "United States",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1ry?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12480,
+      "chat_id": 7582459199,
+      "seq": 11197,
+      "identity": "https://go.vansh.nyc/1ry?s=y|TerraByte Green|AI Engineering Intern|United States|Nov 10#1"
+    },
+    "e90b38bfe33e": {
+      "company": "Substrate",
+      "role": "Systems Software Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12481,
+      "chat_id": 7582459199,
+      "seq": 11198,
+      "identity": "https://go.vansh.nyc/1rx?s=y|Substrate|Systems Software Engineer Intern|San Francisco, CA|Nov 10#1"
+    },
+    "82047836ebe2": {
+      "company": "SigIQ.ai",
+      "role": "Machine Learning Intern/Resident",
+      "location": "Berkeley, CA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12482,
+      "chat_id": 7582459199,
+      "seq": 11199,
+      "identity": "https://go.vansh.nyc/1rw?s=y|SigIQ.ai|Machine Learning Intern/Resident|Berkeley, CA|Nov 10#1"
+    },
+    "03fa56a1f0a4": {
+      "company": "SemiAnalysis",
+      "role": "Data Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12483,
+      "chat_id": 7582459199,
+      "seq": 11200,
+      "identity": "https://go.vansh.nyc/1rv?s=y|SemiAnalysis|Data Engineer Intern|Chicago, IL|Nov 10#1"
+    },
+    "033355984c9f": {
+      "company": "Rivet",
+      "role": "Full-Stack Engineering Intern",
+      "location": "United States",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1ru?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12484,
+      "chat_id": 7582459199,
+      "seq": 11201,
+      "identity": "https://go.vansh.nyc/1ru?s=y|Rivet|Full-Stack Engineering Intern|United States|Nov 10#1"
+    },
+    "786db302f67f": {
+      "company": "RetailReady",
+      "role": "Full Stack Intern",
+      "location": "San Francisco, CA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rt?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12485,
+      "chat_id": 7582459199,
+      "seq": 11202,
+      "identity": "https://go.vansh.nyc/1rt?s=y|RetailReady|Full Stack Intern|San Francisco, CA|Nov 10#1"
+    },
+    "6294dc1ef722": {
+      "company": "Palantir Technologies",
+      "role": "Software Engineer Intern, Connectivity Platform and Product",
+      "location": "Denver, CO",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rs?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12486,
+      "chat_id": 7582459199,
+      "seq": 11203,
+      "identity": "https://go.vansh.nyc/1rs?s=y|Palantir Technologies|Software Engineer Intern, Connectivity Platform and Product|Denver, CO|Nov 10#1"
+    },
+    "148205124d35": {
+      "company": "Mason",
+      "role": "AI Engineer Intern",
+      "location": "New York, NY",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12487,
+      "chat_id": 7582459199,
+      "seq": 11204,
+      "identity": "https://go.vansh.nyc/1rz?s=y|Mason|AI Engineer Intern|New York, NY|Nov 10#1"
+    },
+    "422cad671100": {
+      "company": "Jabil",
+      "role": "AI Agent Developer Intern, Supply Chain IT - AI & Enablement",
+      "location": "St. Petersburg, FL Tampa, FL",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rC?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12488,
+      "chat_id": 7582459199,
+      "seq": 11205,
+      "identity": "https://go.vansh.nyc/1rC?s=y|Jabil|AI Agent Developer Intern, Supply Chain IT - AI & Enablement|St. Petersburg, FL Tampa, FL|Nov 10#1"
+    },
+    "ecd62ee858f2": {
+      "company": "Micron Technology",
+      "role": "DRAM Architecture Intern",
+      "location": "San Jose, CA Boise, ID",
+      "term": "Sep 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12489,
+      "chat_id": 7582459199,
+      "seq": 11206,
+      "identity": "NOURL|Micron Technology|DRAM Architecture Intern|San Jose, CA Boise, ID|Sep 30#1"
     }
   },
   "applied": {
@@ -141399,10 +141531,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11195,
+  "seq": 11206,
   "health": {
     "last_heartbeat": "2026-11-10T17:10:20Z",
-    "last_ok_run": "2026-11-10T17:10:20Z",
+    "last_ok_run": "2026-11-10T17:15:35Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
