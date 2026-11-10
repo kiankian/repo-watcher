@@ -2995,33 +2995,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "96cc5e5e074705f25e4a01ea01f7c4bc6f5f3444",
+    "last_sha": "a2ea9be0e957fdc6a832d36caf03aacab58f2d8a",
     "seen": [
-      "NOURL|LiveRamp|Software Engineer Intern, Pixel Serving|New York, NY|May 22#1",
-      "NOURL|Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#1",
-      "NOURL|Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#2",
-      "NOURL|Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#3",
-      "NOURL|Podium|Software Engineering Intern|Lehi, UT|May 19#1",
-      "NOURL|Granite Construction|Summer 2026 Engineer Intern|Nampa, ID|May 14#1",
-      "NOURL|Zoox|Platform Intelligence Intern|Foster City, CA|May 12#1",
-      "NOURL|Member Solutions|Software Engineering Intern|Remote|May 12#1",
-      "NOURL|Apptronik|Software Engineer Intern, ML Ops|Austin, TX|May 12#1",
-      "NOURL|Salesforce|Software Engineer Intern(Futureforce Summer 2027)|**5 locations**San Francisco, CA Palo Alto, CA New York, NY Seattle, WA Burlington, MA|May 09#1",
-      "NOURL|Amazon|Software Development Engineer Intern, Amazon Leo \ud83c\uddfa\ud83c\uddf8|Sunnyvale, CA Redmond, WA Northridge, CA|May 09#1",
-      "NOURL|Fiserv|Application Development Intern \ud83d\udec2|Alpharetta, GA|Apr 29#1",
-      "NOURL|Fiserv|Data Engineer Intern|Alpharetta, GA|Apr 29#1",
-      "NOURL|KBR|Reverse Engineer Intern \ud83c\uddfa\ud83c\uddf8|Beavercreek Township, OH|Apr 28#1",
-      "NOURL|Horace Mann|Software Engineer Intern|Springfield, IL|Apr 28#1",
-      "NOURL|Horace Mann|Cybersecurity SOC Analyst Intern|Springfield, IL|Apr 28#1",
-      "NOURL|AssetMark|QA Engineering Intern \ud83d\udec2|Charlotte, NC|Apr 28#1",
-      "NOURL|Twilio|Software Engineer Intern|Remote United States|Apr 24#1",
-      "NOURL|Trimble|Software Engineer Intern, Firmware|Richmond Hill, Canada|Apr 24#1",
-      "NOURL|Thales|Software Engineer Intern|Cincinnati, OH|Apr 24#1",
-      "NOURL|KBR|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Columbia, MD|Apr 24#1",
-      "NOURL|ICF|Appian Developer Intern|Remote|Apr 24#1",
-      "NOURL|Cadence|Software Engineer Intern, Circuit Simulation Infrastructure|San Jose, CA|Apr 24#1",
-      "NOURL|Cadence|Software Engineering Intern|San Jose, CA|Apr 24#1",
-      "NOURL|AssetMark|Software Engineering Intern \ud83d\udec2|Austin, TX|Apr 24#1",
       "NOURL|SK Hynix Memory Solution|Product Application Engineer Intern|San Jose, CA|Apr 22#1",
       "NOURL|General Dynamics Mission Systems, Inc.|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Apr 20#1",
       "NOURL|General Dynamics Mission Systems, Inc.|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Apr 20#2",
@@ -7996,14 +7971,106 @@
       "NOURL|Kimball Electronics|Cybersecurity Intern \ud83d\udec2|Remote United States|Nov 05#1",
       "NOURL|Nordson|Software Engineering Intern|East Providence, RI|Oct 30#1",
       "NOURL|Zoox|Software Engineer Intern|Foster City, CA|Oct 28#1",
-      "NOURL|Northrop Grumman|Software Engineer Intern|Melbourne, FL|Jul 25#1"
+      "NOURL|Northrop Grumman|Software Engineer Intern|Melbourne, FL|Jul 25#1",
+      "NOURL|Stealth Startup|Enterprise AI|Software Engineering Intern|\ud83d\udd12#1",
+      "NOURL|Nura|Software Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|Data Architect Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|Data Scientist Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|Site Reliability Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|Automation QA Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|Frontend Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|Backend Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|AI/ML Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|Technical Architect Intern, Frontend/Backend|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|DevOps Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|Security Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|MLOps Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|Data Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Metasys|DevSecOps Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Maincode|AI Research Residency Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Klatch AI|Full Stack Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Intelura|Backend Engineering & Security Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Intelura|Mobile Application Developer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Holiday World|Software Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Holiday World|AI Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|getIntro|Software Engineering Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Flowai|Senior Back-End Engineer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Business Web Solutions|Web Developer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Avary.ai|Data Scientist Intern|Remote United States Canada|Nov 10#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 2611,
-    "outbox": []
+    "outbox": [
+      [
+        [
+          "Akeshya Private Limited",
+          "Full Stack Developer Intern",
+          "Remote United States Canada",
+          "Nov 10",
+          ""
+        ],
+        "NOURL|Akeshya Private Limited|Full Stack Developer Intern|Remote United States Canada|Nov 10#1",
+        1
+      ],
+      [
+        [
+          "Akeshya Private Limited",
+          "Flutter Developer Intern",
+          "Remote United States Canada",
+          "Nov 10",
+          ""
+        ],
+        "NOURL|Akeshya Private Limited|Flutter Developer Intern|Remote United States Canada|Nov 10#1",
+        1
+      ],
+      [
+        [
+          "Schweitzer Engineering Laboratories",
+          "Software Engineer Intern",
+          "Boise, ID",
+          "Jul 24",
+          ""
+        ],
+        "NOURL|Schweitzer Engineering Laboratories|Software Engineer Intern|Boise, ID|Jul 24#1",
+        1
+      ],
+      [
+        [
+          "Copart",
+          "Software Engineering Intern",
+          "Dallas, TX",
+          "Jul 24",
+          ""
+        ],
+        "NOURL|Copart|Software Engineering Intern|Dallas, TX|Jul 24#1",
+        1
+      ],
+      [
+        [
+          "Rakuten International",
+          "Software Engineer Intern",
+          "San Mateo, California",
+          "Jul 09",
+          ""
+        ],
+        "NOURL|Rakuten International|Software Engineer Intern|San Mateo, California|Jul 09#1",
+        1
+      ],
+      [
+        [
+          "Capital One",
+          "Product Development Internship Program",
+          "Mclean, VA Plano, TX",
+          "Jul 07",
+          ""
+        ],
+        "NOURL|Capital One|Product Development Internship Program|Mclean, VA Plano, TX|Jul 07#1",
+        1
+      ]
+    ]
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "5005fc05b8159b9008007578434ae9a6a13b0698",
+    "last_sha": "6d647fd346ed95258f2969b9b46c9644f327e9a4",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
