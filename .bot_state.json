@@ -142148,6 +142148,102 @@
       "chat_id": 7582459199,
       "seq": 11288,
       "identity": "NOURL|Arango|Software Engineer Intern, Cookbooks|Remote United States|Nov 05#1"
+    },
+    "45394c15e815": {
+      "company": "Trimble",
+      "role": "Software Engineering Intern",
+      "location": "Knoxville, TN",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rP?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12577,
+      "chat_id": 7582459199,
+      "seq": 11290,
+      "identity": "https://go.vansh.nyc/1rP?s=y|Trimble|Software Engineering Intern|Knoxville, TN|Nov 10#1"
+    },
+    "2de7e207ed4a": {
+      "company": "SRC, Inc",
+      "role": "Machine Learning Engineer Intern",
+      "location": "United States",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12578,
+      "chat_id": 7582459199,
+      "seq": 11291,
+      "identity": "https://go.vansh.nyc/1rU?s=y|SRC, Inc|Machine Learning Engineer Intern|United States|Nov 10#1"
+    },
+    "01e5f6bb57b4": {
+      "company": "Hewlett Packard (HP)",
+      "role": "Performance Engineering Co-op",
+      "location": "Fort Collins, CO",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rR?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12579,
+      "chat_id": 7582459199,
+      "seq": 11292,
+      "identity": "https://go.vansh.nyc/1rR?s=y|Hewlett Packard (HP)|Performance Engineering Co-op|Fort Collins, CO|Nov 10#1"
+    },
+    "132fd01aa2d7": {
+      "company": "General Motors",
+      "role": "Machine Learning Engineer Intern, Embodied AI",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rQ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12580,
+      "chat_id": 7582459199,
+      "seq": 11293,
+      "identity": "https://go.vansh.nyc/1rQ?s=y|General Motors|Machine Learning Engineer Intern, Embodied AI|Sunnyvale, CA|Nov 10#1"
+    },
+    "f2b2ca05c058": {
+      "company": "Palantir Technologies",
+      "role": "Software Engineer Intern, Data Connectors",
+      "location": "New York, NY",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1rS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12581,
+      "chat_id": 7582459199,
+      "seq": 11294,
+      "identity": "https://go.vansh.nyc/1rS?s=y|Palantir Technologies|Software Engineer Intern, Data Connectors|New York, NY|Nov 04#1"
+    },
+    "6b22c357feaa": {
+      "company": "Palantir Technologies",
+      "role": "Software Engineer Intern, Connectivity Platform and Product",
+      "location": "New York, NY",
+      "term": "Nov 04",
+      "apply_url": "https://go.vansh.nyc/1rT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12582,
+      "chat_id": 7582459199,
+      "seq": 11295,
+      "identity": "https://go.vansh.nyc/1rT?s=y|Palantir Technologies|Software Engineer Intern, Connectivity Platform and Product|New York, NY|Nov 04#1"
+    },
+    "38ef3411c357": {
+      "company": "Western Magnetics",
+      "role": "Software Engineer Intern",
+      "location": "South San Francisco, CA",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12583,
+      "chat_id": 7582459199,
+      "seq": 11296,
+      "identity": "NOURL|Western Magnetics|Software Engineer Intern|South San Francisco, CA|Oct 30#1"
+    },
+    "2d2ac5e4d0ba": {
+      "company": "Microchip Technology",
+      "role": "Engineering Intern, ASIC Verification",
+      "location": "San Jose, CA",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12584,
+      "chat_id": 7582459199,
+      "seq": 11297,
+      "identity": "NOURL|Microchip Technology|Engineering Intern, ASIC Verification|San Jose, CA|Oct 21#1"
     }
   },
   "applied": {
@@ -142515,10 +142611,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11289,
+  "seq": 11297,
   "health": {
     "last_heartbeat": "2026-11-10T18:25:27Z",
-    "last_ok_run": "2026-11-10T19:10:21Z",
+    "last_ok_run": "2026-11-10T19:15:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
