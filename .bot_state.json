@@ -139892,6 +139892,54 @@
       "chat_id": 7582459199,
       "seq": 11100,
       "identity": "https://go.vansh.nyc/1q2?s=y|LG AI Research|AI Scientist/Engineer Intern|Ann Arbor, MI|Sep 28#1"
+    },
+    "31ab4bbdce93": {
+      "company": "National Information Solutions Cooperative",
+      "role": "Software Development Intern",
+      "location": "Cedar Rapids, IA",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1q5?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12375,
+      "chat_id": 7582459199,
+      "seq": 11101,
+      "identity": "https://go.vansh.nyc/1q5?s=y|National Information Solutions Cooperative|Software Development Intern|Cedar Rapids, IA|Nov 06#1"
+    },
+    "4c946cb7390d": {
+      "company": "National Information Solutions Cooperative",
+      "role": "Software Development Intern",
+      "location": "Mandan, ND",
+      "term": "Nov 06",
+      "apply_url": "https://go.vansh.nyc/1q6?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12376,
+      "chat_id": 7582459199,
+      "seq": 11102,
+      "identity": "https://go.vansh.nyc/1q6?s=y|National Information Solutions Cooperative|Software Development Intern|Mandan, ND|Nov 06#1"
+    },
+    "29dae0692542": {
+      "company": "Domino Data Lab",
+      "role": "Software Engineer Intern, Campus Recruiting",
+      "location": "New York, NY",
+      "term": "Sep 23",
+      "apply_url": "https://go.vansh.nyc/1q4?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12377,
+      "chat_id": 7582459199,
+      "seq": 11103,
+      "identity": "https://go.vansh.nyc/1q4?s=y|Domino Data Lab|Software Engineer Intern, Campus Recruiting|New York, NY|Sep 23#1"
+    },
+    "c6afe12c19c8": {
+      "company": "Invitation-charter",
+      "role": "Software Engineer Intern",
+      "location": "Englewood, CO",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12378,
+      "chat_id": 7582459199,
+      "seq": 11104,
+      "identity": "NOURL|Invitation-charter|Software Engineer Intern|Englewood, CO|Nov 06#1"
     }
   },
   "applied": {
@@ -140259,10 +140307,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11100,
+  "seq": 11104,
   "health": {
     "last_heartbeat": "2026-11-10T06:45:17Z",
-    "last_ok_run": "2026-11-10T07:05:17Z",
+    "last_ok_run": "2026-11-10T07:10:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -140270,7 +140318,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T06:10:18Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T07:10:25Z"
     }
   }
 }
