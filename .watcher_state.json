@@ -2995,12 +2995,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "bb13a6d07e020e565d2f0c919e3b0574422ee760",
+    "last_sha": "96cc5e5e074705f25e4a01ea01f7c4bc6f5f3444",
     "seen": [
-      "NOURL|Schweitzer Engineering Laboratories|Software Engineer Intern|Boise, ID|Jul 24#1",
-      "NOURL|Copart|Software Engineering Intern|Dallas, TX|Jul 24#1",
-      "NOURL|Rakuten International|Software Engineer Intern|San Mateo, California|Jul 09#1",
-      "NOURL|Capital One|Product Development Internship Program|Mclean, VA Plano, TX|Jul 07#1",
       "NOURL|LiveRamp|Software Engineer Intern, Pixel Serving|New York, NY|May 22#1",
       "NOURL|Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#1",
       "NOURL|Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#2",
@@ -7996,7 +7992,11 @@
       "https://go.vansh.nyc/1rF?s=y|Echo|Software Engineering Intern|Chicago, IL Remote United States|Nov 10#1",
       "NOURL|empirical|Software Engineering Intern|Dakota Dunes, SD|Nov 07#1",
       "NOURL|Virtu|Quantitative Trading Intern|Austin, TX Chicago, IL New York, NY|Jul 26#1",
-      "NOURL|Intel Corporation|AI Software Engineering PhD Intern|Hillsboro, OR|Jul 27#1"
+      "NOURL|Intel Corporation|AI Software Engineering PhD Intern|Hillsboro, OR|Jul 27#1",
+      "NOURL|Kimball Electronics|Cybersecurity Intern \ud83d\udec2|Remote United States|Nov 05#1",
+      "NOURL|Nordson|Software Engineering Intern|East Providence, RI|Oct 30#1",
+      "NOURL|Zoox|Software Engineer Intern|Foster City, CA|Oct 28#1",
+      "NOURL|Northrop Grumman|Software Engineer Intern|Melbourne, FL|Jul 25#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 2611,

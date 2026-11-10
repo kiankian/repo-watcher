@@ -141248,6 +141248,54 @@
       "chat_id": 7582459199,
       "seq": 11213,
       "identity": "NOURL|Intel Corporation|AI Software Engineering PhD Intern|Hillsboro, OR|Jul 27#1"
+    },
+    "c9b65dd2cd0d": {
+      "company": "Kimball Electronics",
+      "role": "Cybersecurity Intern \ud83d\udec2",
+      "location": "Remote United States",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12498,
+      "chat_id": 7582459199,
+      "seq": 11214,
+      "identity": "NOURL|Kimball Electronics|Cybersecurity Intern \ud83d\udec2|Remote United States|Nov 05#1"
+    },
+    "fa322f899083": {
+      "company": "Nordson",
+      "role": "Software Engineering Intern",
+      "location": "East Providence, RI",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12499,
+      "chat_id": 7582459199,
+      "seq": 11215,
+      "identity": "NOURL|Nordson|Software Engineering Intern|East Providence, RI|Oct 30#1"
+    },
+    "6d77af49a478": {
+      "company": "Zoox",
+      "role": "Software Engineer Intern",
+      "location": "Foster City, CA",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12500,
+      "chat_id": 7582459199,
+      "seq": 11216,
+      "identity": "NOURL|Zoox|Software Engineer Intern|Foster City, CA|Oct 28#1"
+    },
+    "d05d0ecae678": {
+      "company": "Northrop Grumman",
+      "role": "Software Engineer Intern",
+      "location": "Melbourne, FL",
+      "term": "Jul 25",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12501,
+      "chat_id": 7582459199,
+      "seq": 11217,
+      "identity": "NOURL|Northrop Grumman|Software Engineer Intern|Melbourne, FL|Jul 25#1"
     }
   },
   "applied": {
@@ -141615,10 +141663,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11213,
+  "seq": 11217,
   "health": {
     "last_heartbeat": "2026-11-10T17:10:20Z",
-    "last_ok_run": "2026-11-10T18:10:19Z",
+    "last_ok_run": "2026-11-10T18:15:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -141626,7 +141674,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T17:40:25Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T18:15:23Z"
     }
   }
 }
