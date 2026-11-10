@@ -139556,6 +139556,54 @@
       "chat_id": 7582459199,
       "seq": 11072,
       "identity": "https://zapply.jobs/l/d/workday-gevernova-vernova-externalsite-R5050022?s=gh-internships-2027|GE Vernova|GE Vernova - Energy Optimization Software Engineer Intern - Summer 2027|Bellevue|Summer 2027#1"
+    },
+    "85f0fad7d553": {
+      "company": "Steel Dynamics",
+      "role": "Information Security Intern",
+      "location": "Fort Wayne, IN",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pP?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12343,
+      "chat_id": 7582459199,
+      "seq": 11073,
+      "identity": "https://go.vansh.nyc/1pP?s=y|Steel Dynamics|Information Security Intern|Fort Wayne, IN|Nov 09#1"
+    },
+    "8d216ea0ab65": {
+      "company": "NBCUniversal",
+      "role": "Digital Transformation AR/VR Intern",
+      "location": "North Hollywood, CA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pO?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12344,
+      "chat_id": 7582459199,
+      "seq": 11074,
+      "identity": "https://go.vansh.nyc/1pO?s=y|NBCUniversal|Digital Transformation AR/VR Intern|North Hollywood, CA|Nov 09#1"
+    },
+    "e3e02e4f6bbc": {
+      "company": "i3",
+      "role": "Data Management Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Huntsville, AL",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12345,
+      "chat_id": 7582459199,
+      "seq": 11075,
+      "identity": "https://go.vansh.nyc/1pN?s=y|i3|Data Management Intern \ud83c\uddfa\ud83c\uddf8|Huntsville, AL|Nov 09#1"
+    },
+    "c0631441df9f": {
+      "company": "CTGT",
+      "role": "AI Evaluation Research Intern",
+      "location": "San Francisco, CA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12346,
+      "chat_id": 7582459199,
+      "seq": 11076,
+      "identity": "https://go.vansh.nyc/1pM?s=y|CTGT|AI Evaluation Research Intern|San Francisco, CA|Nov 09#1"
     }
   },
   "applied": {
@@ -139923,10 +139971,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11072,
+  "seq": 11076,
   "health": {
     "last_heartbeat": "2026-11-10T01:45:17Z",
-    "last_ok_run": "2026-11-10T02:10:20Z",
+    "last_ok_run": "2026-11-10T02:15:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
