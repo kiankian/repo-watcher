@@ -139628,6 +139628,66 @@
       "chat_id": 7582459199,
       "seq": 11078,
       "identity": "https://jobs.ashbyhq.com/regent/1da518a0-9030-48d1-a58c-15d1f88f0eaa/application?embed=true&utm_source=Simplify&ref=Simplify|REGENT|Mission Software Engineering Intern \ud83c\udf93|North Kingstown, RI|Summer 2026#1"
+    },
+    "e50f7129b426": {
+      "company": "Pika",
+      "role": "Applied AI Engineer Intern, Creative Experiences",
+      "location": "Palo Alto, CA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pR?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12349,
+      "chat_id": 7582459199,
+      "seq": 11079,
+      "identity": "https://go.vansh.nyc/1pR?s=y|Pika|Applied AI Engineer Intern, Creative Experiences|Palo Alto, CA|Nov 09#1"
+    },
+    "390b2cecdcd6": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Ontology Data Analysis and Validation Intern",
+      "location": "Chantilly, VA Pittsfield, MA Scottsdale, AZ",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pQ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12350,
+      "chat_id": 7582459199,
+      "seq": 11080,
+      "identity": "https://go.vansh.nyc/1pQ?s=y|General Dynamics Mission Systems|Ontology Data Analysis and Validation Intern|Chantilly, VA Pittsfield, MA Scottsdale, AZ|Nov 09#1"
+    },
+    "220bad7e9b0c": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Ontology and Semantic Engineering Intern",
+      "location": "Chantilly, VA Pittsfield, MA Scottsdale, AZ",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12351,
+      "chat_id": 7582459199,
+      "seq": 11081,
+      "identity": "https://go.vansh.nyc/1pS?s=y|General Dynamics Mission Systems|Ontology and Semantic Engineering Intern|Chantilly, VA Pittsfield, MA Scottsdale, AZ|Nov 09#1"
+    },
+    "481f6020acce": {
+      "company": "Aerospace Corporation",
+      "role": "Software Engineering Undergrad Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "El Segundo, CA",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12352,
+      "chat_id": 7582459199,
+      "seq": 11082,
+      "identity": "NOURL|Aerospace Corporation|Software Engineering Undergrad Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Nov 02#1"
+    },
+    "7eaad62ed3be": {
+      "company": "Aerospace Corporation",
+      "role": "2027 Power and Analog Circuit Engineering Grad Intern",
+      "location": "El Segundo, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-aero-external-R016430?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12354,
+      "chat_id": 7582459199,
+      "seq": 11083,
+      "identity": "https://zapply.jobs/l/d/workday-aero-external-R016430?s=gh-internships-2027|Aerospace Corporation|2027 Power and Analog Circuit Engineering Grad Intern|El Segundo, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -139995,17 +140055,18 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11078,
+  "seq": 11083,
   "health": {
     "last_heartbeat": "2026-11-10T02:55:15Z",
-    "last_ok_run": "2026-11-10T03:10:18Z",
+    "last_ok_run": "2026-11-10T03:15:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
       "send-failed:Zapply Summer Repo": "2026-10-06T20:30:41Z",
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
-      "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z"
+      "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T03:15:23Z"
     }
   }
 }
