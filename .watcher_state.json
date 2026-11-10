@@ -2989,16 +2989,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "9d9f83f1c3e6e66f933f7a13ab553ece12f32809",
+    "last_sha": "116ba5cbbfbc8af00fbfbbd34847d27fe62d41e1",
     "seen": [
-      "https://www.janestreet.com/join-jane-street/position/8347385002/?utm_source=github-vansh-ouckah|Jane Street|Sales and Trading Intern|New York, NY|Jul 24#1",
-      "https://www.janestreet.com/join-jane-street/position/8620793002/?utm_source=github-vansh-ouckah|Jane Street|Network Engineer Intern|New York, NY|Jul 24#1",
-      "https://www.janestreet.com/join-jane-street/position/8626260002/?utm_source=github-vansh-ouckah|Jane Street|Linux Engineer Intern|New York, NY|Jul 24#1",
-      "https://www.janestreet.com/join-jane-street/position/8624440002/?utm_source=github-vansh-ouckah|Jane Street|Hardware Engineer (FPGA/ASIC) Intern|New York, NY|Jul 24#1",
-      "https://www.janestreet.com/join-jane-street/position/8347286002/?utm_source=github-vansh-ouckah|Jane Street|Fundamental Research Analyst Intern|New York, NY|Jul 24#1",
-      "https://www.janestreet.com/join-jane-street/position/8631973002/?utm_source=github-vansh-ouckah|Jane Street|Data Engineer Intern|New York, NY|Jul 24#1",
-      "https://www.janestreet.com/join-jane-street/position/8632723002/?utm_source=github-vansh-ouckah|Jane Street|Cybersecurity Analyst Intern|New York, NY|Jul 24#1",
-      "https://www.janestreet.com/join-jane-street/position/8384490002/?utm_source=github-vansh-ouckah|Jane Street|Machine Learning Researcher Intern|New York, NY|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8611307002/?utm_source=github-vansh-ouckah|Jane Street|Machine Learning Engineer Intern|New York, NY|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8498547002/?utm_source=github-vansh-ouckah|Jane Street|Quantitative Researcher Intern|New York, NY|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8617344002/?utm_source=github-vansh-ouckah|Jane Street|Quantitative Trader Intern|New York, NY|Jul 24#1",
@@ -7990,14 +7982,22 @@
       "NOURL|Invitation-charter|Software Engineer Intern|Englewood, CO|Nov 06#1",
       "NOURL|Moog|Software Engineering Intern|Torrance, CA|Nov 04#1",
       "https://go.vansh.nyc/1qb?s=y|Trilogy Health Services|Information Systems Developer of AI and Automated Solutions Intern|Louisville, KY|Nov 09#1",
-      "https://go.vansh.nyc/1qc?s=y|GlobalFoundries|Design Verification Engineer Intern|Plano, TX|Nov 09#1"
+      "https://go.vansh.nyc/1qc?s=y|GlobalFoundries|Design Verification Engineer Intern|Plano, TX|Nov 09#1",
+      "https://go.vansh.nyc/1qh?s=y|Waymo|Software Engineer Intern, Multiverse|San Francisco, CA|Nov 09#1",
+      "https://go.vansh.nyc/1qi?s=y|Roche|Assay Bioinformatics Intern, CSI|Pleasanton, CA|Nov 09#1",
+      "https://go.vansh.nyc/1qg?s=y|Atoms|Robotics Software Engineer Intern|Pittsburgh, PA|Nov 02#1",
+      "https://go.vansh.nyc/1qe?s=y|Selective Insurance|IT Information Management Intern|Charlotte, NC|Nov 01#1",
+      "https://go.vansh.nyc/1qf?s=y|Tenstorrent|Hardware Intern, Architecture, AI HW & SoC|**4 locations**Austin, TX Boston, MA Fort Collins, CO Santa Clara, CA|Oct 09#1",
+      "NOURL|TikTok|AI Engineer Intern, TikTok-Client Arch \ud83d\udec2|San Jose, CA|Nov 01#1",
+      "NOURL|TikTok|Backend Software Engineer Intern, Social Foundation|San Jose, CA|Aug 04#1",
+      "NOURL|TikTok|Software Engineer Intern, Code Graph and Quality Validation \ud83d\udec2|San Jose, CA|Aug 04#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2542,
+    "last_row_count": 2547,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "cb67306cbb0c7e449656c21c3433a23205096dce",
+    "last_sha": "5fc773fd750a5108a4819ac43cbbcfbbcbf61707",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

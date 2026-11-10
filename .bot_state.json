@@ -140024,6 +140024,102 @@
       "chat_id": 7582459199,
       "seq": 11111,
       "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380734?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|Overland Park, Kansas|Summer 2027#1"
+    },
+    "cbeb1ab602dc": {
+      "company": "Waymo",
+      "role": "Software Engineer Intern, Multiverse",
+      "location": "San Francisco, CA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1qh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12389,
+      "chat_id": 7582459199,
+      "seq": 11112,
+      "identity": "https://go.vansh.nyc/1qh?s=y|Waymo|Software Engineer Intern, Multiverse|San Francisco, CA|Nov 09#1"
+    },
+    "a15a89ccb1f2": {
+      "company": "Roche",
+      "role": "Assay Bioinformatics Intern, CSI",
+      "location": "Pleasanton, CA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1qi?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12390,
+      "chat_id": 7582459199,
+      "seq": 11113,
+      "identity": "https://go.vansh.nyc/1qi?s=y|Roche|Assay Bioinformatics Intern, CSI|Pleasanton, CA|Nov 09#1"
+    },
+    "a9dbd4934313": {
+      "company": "Atoms",
+      "role": "Robotics Software Engineer Intern",
+      "location": "Pittsburgh, PA",
+      "term": "Nov 02",
+      "apply_url": "https://go.vansh.nyc/1qg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12391,
+      "chat_id": 7582459199,
+      "seq": 11114,
+      "identity": "https://go.vansh.nyc/1qg?s=y|Atoms|Robotics Software Engineer Intern|Pittsburgh, PA|Nov 02#1"
+    },
+    "24823c9e9002": {
+      "company": "Selective Insurance",
+      "role": "IT Information Management Intern",
+      "location": "Charlotte, NC",
+      "term": "Nov 01",
+      "apply_url": "https://go.vansh.nyc/1qe?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12392,
+      "chat_id": 7582459199,
+      "seq": 11115,
+      "identity": "https://go.vansh.nyc/1qe?s=y|Selective Insurance|IT Information Management Intern|Charlotte, NC|Nov 01#1"
+    },
+    "4f32d39847b3": {
+      "company": "Tenstorrent",
+      "role": "Hardware Intern, Architecture, AI HW & SoC",
+      "location": "**4 locations**Austin, TX Boston, MA Fort Collins, CO Santa Clara, CA",
+      "term": "Oct 09",
+      "apply_url": "https://go.vansh.nyc/1qf?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12393,
+      "chat_id": 7582459199,
+      "seq": 11116,
+      "identity": "https://go.vansh.nyc/1qf?s=y|Tenstorrent|Hardware Intern, Architecture, AI HW & SoC|**4 locations**Austin, TX Boston, MA Fort Collins, CO Santa Clara, CA|Oct 09#1"
+    },
+    "286b81dbe559": {
+      "company": "TikTok",
+      "role": "AI Engineer Intern, TikTok-Client Arch \ud83d\udec2",
+      "location": "San Jose, CA",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12394,
+      "chat_id": 7582459199,
+      "seq": 11117,
+      "identity": "NOURL|TikTok|AI Engineer Intern, TikTok-Client Arch \ud83d\udec2|San Jose, CA|Nov 01#1"
+    },
+    "fee903052150": {
+      "company": "TikTok",
+      "role": "Backend Software Engineer Intern, Social Foundation",
+      "location": "San Jose, CA",
+      "term": "Aug 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12395,
+      "chat_id": 7582459199,
+      "seq": 11118,
+      "identity": "NOURL|TikTok|Backend Software Engineer Intern, Social Foundation|San Jose, CA|Aug 04#1"
+    },
+    "67d9afeebecd": {
+      "company": "TikTok",
+      "role": "Software Engineer Intern, Code Graph and Quality Validation \ud83d\udec2",
+      "location": "San Jose, CA",
+      "term": "Aug 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12396,
+      "chat_id": 7582459199,
+      "seq": 11119,
+      "identity": "NOURL|TikTok|Software Engineer Intern, Code Graph and Quality Validation \ud83d\udec2|San Jose, CA|Aug 04#1"
     }
   },
   "applied": {
@@ -140391,10 +140487,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11111,
+  "seq": 11119,
   "health": {
     "last_heartbeat": "2026-11-10T10:20:19Z",
-    "last_ok_run": "2026-11-10T11:10:21Z",
+    "last_ok_run": "2026-11-10T11:15:34Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -140402,7 +140498,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T09:15:20Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T11:15:32Z"
     }
   }
 }
