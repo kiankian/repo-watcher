@@ -141236,6 +141236,18 @@
       "chat_id": 7582459199,
       "seq": 11212,
       "identity": "https://zapply.jobs/l/d/workday-abb-external-career-page-JR00050507?s=gh-internships-2027|ABB|Manufacturing Quality Engineer Intern - Spring & Summer 2027|New Berlin, Wisconsin, United...|Summer 2027#1"
+    },
+    "a7cef6ad1dd3": {
+      "company": "Intel Corporation",
+      "role": "AI Software Engineering PhD Intern",
+      "location": "Hillsboro, OR",
+      "term": "Jul 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12497,
+      "chat_id": 7582459199,
+      "seq": 11213,
+      "identity": "NOURL|Intel Corporation|AI Software Engineering PhD Intern|Hillsboro, OR|Jul 27#1"
     }
   },
   "applied": {
@@ -141603,10 +141615,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11212,
+  "seq": 11213,
   "health": {
     "last_heartbeat": "2026-11-10T17:10:20Z",
-    "last_ok_run": "2026-11-10T18:05:17Z",
+    "last_ok_run": "2026-11-10T18:10:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
