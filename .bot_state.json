@@ -142940,6 +142940,42 @@
       "chat_id": 7582459199,
       "seq": 11358,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01887806?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|FL-ST PETERSBURG|Summer 2027#1"
+    },
+    "f99811f22ab1": {
+      "company": "RTX",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "St Petersburg, FL",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1sc?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12651,
+      "chat_id": 7582459199,
+      "seq": 11359,
+      "identity": "https://go.vansh.nyc/1sc?s=y|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|St Petersburg, FL|Nov 10#1"
+    },
+    "3888d5670f8a": {
+      "company": "Hook Music",
+      "role": "Machine Learning Engineering Intern, Recommendation Systems",
+      "location": "Remote United States",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1sf?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12652,
+      "chat_id": 7582459199,
+      "seq": 11360,
+      "identity": "https://go.vansh.nyc/1sf?s=y|Hook Music|Machine Learning Engineering Intern, Recommendation Systems|Remote United States|Nov 10#1"
+    },
+    "7e0c0f424410": {
+      "company": "Arista Networks",
+      "role": "Software Engineer Intern, C/C++",
+      "location": "Remote United States",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12653,
+      "chat_id": 7582459199,
+      "seq": 11361,
+      "identity": "NOURL|Arista Networks|Software Engineer Intern, C/C++|Remote United States|Oct 30#1"
     }
   },
   "applied": {
@@ -143307,10 +143343,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11358,
+  "seq": 11361,
   "health": {
     "last_heartbeat": "2026-11-10T22:55:16Z",
-    "last_ok_run": "2026-11-10T23:05:17Z",
+    "last_ok_run": "2026-11-10T23:10:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -143318,7 +143354,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T22:10:32Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T23:10:22Z",
       "duplicate-hash": "2026-11-10T20:40:21Z"
     }
   }
