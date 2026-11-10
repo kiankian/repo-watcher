@@ -2995,11 +2995,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "69ce443fc3411f0043be573ad5e840890440b9f7",
+    "last_sha": "399037ba62a7e80279c3f3897e78526fa38096b4",
     "seen": [
-      "NOURL|Walleye Capital|Risk Technology Analyst Intern|New York, NY|Jul 24#1",
-      "NOURL|Walleye Capital|Technology Intern|New York, NY|Jul 24#1",
-      "NOURL|Walleye Capital|Investment Data Science Intern|New York, NY|Jul 24#1",
       "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&utm_source=github-vansh-ouckah|Microsoft|Software Engineer Intern, CoreAI|Multiple Locations, United States|Aug 03#1",
       "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922922&utm_source=github-vansh-ouckah|Microsoft|Software Engineer Intern, Fullstack Product (Web + Services)|Multiple Locations, United States|Aug 04#1",
       "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922923&utm_source=github-vansh-ouckah|Microsoft|Software Engineer Intern, Cloud & Distributed Backend|Redmond, WA|Aug 04#1",
@@ -7996,10 +7993,13 @@
       "NOURL|Microchip Technology|Engineering Intern, ASIC Verification|San Jose, CA|Oct 21#1",
       "https://go.vansh.nyc/1rW?s=y|Addepar|Software Engineering Intern|New York, NY|Nov 10#1",
       "https://go.vansh.nyc/1rX?s=y|Addepar|AI Engineering Intern|New York, NY|Nov 10#1",
-      "https://go.vansh.nyc/1rY?s=y|Addepar|Data Engineering Intern|New York, NY|Nov 10#1"
+      "https://go.vansh.nyc/1rY?s=y|Addepar|Data Engineering Intern|New York, NY|Nov 10#1",
+      "https://go.vansh.nyc/1s2?s=y|Hunt Oil Company|Application Developer Intern|Dallas, TX|Nov 09#1",
+      "NOURL|Mason|AI Engineer Intern|New York, NY|Nov 10#1",
+      "NOURL|Ryder System|IT Intern|Coral Gables, FL|Nov 03#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2623,
+    "last_row_count": 2624,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
