@@ -142820,6 +142820,114 @@
       "chat_id": 7582459199,
       "seq": 11348,
       "identity": "https://zapply.jobs/l/d/ashby-skydio-c85af510-9fe4-4167-a914-c3ab344bef03?s=gh-internships-2027|Skydio|Middleware Software Engineer Intern - Summer 2027|San Mateo, California, United...|Summer 2027#1"
+    },
+    "d52599fe8425": {
+      "company": "Western Digital",
+      "role": "Software Engineering Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1s8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12641,
+      "chat_id": 7582459199,
+      "seq": 11349,
+      "identity": "https://go.vansh.nyc/1s8?s=y|Western Digital|Software Engineering Intern|San Jose, CA|Nov 10#1"
+    },
+    "ee9554d46d27": {
+      "company": "Western Digital",
+      "role": "Hardware Engineering Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1sa?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12642,
+      "chat_id": 7582459199,
+      "seq": 11350,
+      "identity": "https://go.vansh.nyc/1sa?s=y|Western Digital|Hardware Engineering Intern|San Jose, CA|Nov 10#1"
+    },
+    "f0ab0480df2a": {
+      "company": "Skydio",
+      "role": "Middleware Software Engineer Intern",
+      "location": "San Mateo, CA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1s9?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12643,
+      "chat_id": 7582459199,
+      "seq": 11351,
+      "identity": "https://go.vansh.nyc/1s9?s=y|Skydio|Middleware Software Engineer Intern|San Mateo, CA|Nov 10#1"
+    },
+    "88d0dc3fcdce": {
+      "company": "REGENT",
+      "role": "Embedded Software Engineering Intern",
+      "location": "North Kingstown, RI",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1sb?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12644,
+      "chat_id": 7582459199,
+      "seq": 11352,
+      "identity": "https://go.vansh.nyc/1sb?s=y|REGENT|Embedded Software Engineering Intern|North Kingstown, RI|Nov 09#1"
+    },
+    "c56671a67fac": {
+      "company": "CareSource",
+      "role": "Data Analyst Intern",
+      "location": "Remote United States",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12645,
+      "chat_id": 7582459199,
+      "seq": 11353,
+      "identity": "NOURL|CareSource|Data Analyst Intern|Remote United States|Nov 05#1"
+    },
+    "bb4e23236e16": {
+      "company": "Disney",
+      "role": "Enterprise Technology & Data Software Engineering Intern",
+      "location": "Orlando, FL",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12646,
+      "chat_id": 7582459199,
+      "seq": 11354,
+      "identity": "NOURL|Disney|Enterprise Technology & Data Software Engineering Intern|Orlando, FL|Oct 28#1"
+    },
+    "88d0f81762ce": {
+      "company": "AMD",
+      "role": "Software Test Engineering Co-op",
+      "location": "Austin, TX",
+      "term": "Aug 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12647,
+      "chat_id": 7582459199,
+      "seq": 11355,
+      "identity": "NOURL|AMD|Software Test Engineering Co-op|Austin, TX|Aug 24#1"
+    },
+    "86782cc90475": {
+      "company": "AMD",
+      "role": "Software Test Engineering Co-op",
+      "location": "San Jose, CA",
+      "term": "Aug 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12648,
+      "chat_id": 7582459199,
+      "seq": 11356,
+      "identity": "NOURL|AMD|Software Test Engineering Co-op|San Jose, CA|Aug 24#1"
+    },
+    "90d45974631a": {
+      "company": "ByteDance",
+      "role": "Site Reliability Engineer - Intern (Data Platform, Computer Platform) - 2027 Start",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/bytedance-7678104426079799557?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12649,
+      "chat_id": 7582459199,
+      "seq": 11357,
+      "identity": "https://zapply.jobs/l/d/bytedance-7678104426079799557?s=gh-internships-2027|ByteDance|Site Reliability Engineer - Intern (Data Platform, Computer Platform) - 2027 Start|San Jose, California|Summer 2027#1"
     }
   },
   "applied": {
@@ -143187,10 +143295,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11348,
+  "seq": 11357,
   "health": {
     "last_heartbeat": "2026-11-10T21:50:19Z",
-    "last_ok_run": "2026-11-10T22:35:17Z",
+    "last_ok_run": "2026-11-10T22:40:32Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
