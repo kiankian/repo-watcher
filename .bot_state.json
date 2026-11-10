@@ -140348,6 +140348,90 @@
       "chat_id": 7582459199,
       "seq": 11138,
       "identity": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Operations-Intern--AI-Clouds---Summer-2027_JR2029119-1?utm_source=Simplify&ref=Simplify|\ud83d\udd25 NVIDIA|AI Operations Intern - AI Clouds|Santa Clara, CA|Summer 2026#1"
+    },
+    "5e48a920c416": {
+      "company": "OneAmerica Financial",
+      "role": "Cyber Security Intern",
+      "location": "Indianapolis, IN",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1qx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12420,
+      "chat_id": 7582459199,
+      "seq": 11139,
+      "identity": "https://go.vansh.nyc/1qx?s=y|OneAmerica Financial|Cyber Security Intern|Indianapolis, IN|Nov 10#1"
+    },
+    "1184145fd310": {
+      "company": "Clarios",
+      "role": "IT Digital/AI Intern \ud83d\udec2",
+      "location": "Milwaukee, WI",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1qy?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12421,
+      "chat_id": 7582459199,
+      "seq": 11140,
+      "identity": "https://go.vansh.nyc/1qy?s=y|Clarios|IT Digital/AI Intern \ud83d\udec2|Milwaukee, WI|Nov 10#1"
+    },
+    "7b1dd70d541e": {
+      "company": "Marmon Holdings",
+      "role": "AI Technology Solutions Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12422,
+      "chat_id": 7582459199,
+      "seq": 11141,
+      "identity": "NOURL|Marmon Holdings|AI Technology Solutions Intern|Chicago, IL|Nov 06#1"
+    },
+    "335d9529cec3": {
+      "company": "Micron Technology",
+      "role": "Data Center SSD Firmware Intern",
+      "location": "Longmont, CO",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12423,
+      "chat_id": 7582459199,
+      "seq": 11142,
+      "identity": "NOURL|Micron Technology|Data Center SSD Firmware Intern|Longmont, CO|Nov 02#1"
+    },
+    "1994475b890b": {
+      "company": "Micron Technology",
+      "role": "Firmware Engineer Intern",
+      "location": "Longmont, CO",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12424,
+      "chat_id": 7582459199,
+      "seq": 11143,
+      "identity": "NOURL|Micron Technology|Firmware Engineer Intern|Longmont, CO|Nov 02#1"
+    },
+    "f8e5b8b857a5": {
+      "company": "DriveTime",
+      "role": "Database Engineering Intern",
+      "location": "Tempe, AZ",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12425,
+      "chat_id": 7582459199,
+      "seq": 11144,
+      "identity": "NOURL|DriveTime|Database Engineering Intern|Tempe, AZ|Nov 02#1"
+    },
+    "a9917428a05a": {
+      "company": "RTX",
+      "role": "Component Electrical Test Engineer Intern (Summer 2027)(Onsite)",
+      "location": "CA-EL SEGUNDO-E01",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885779?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12427,
+      "chat_id": 7582459199,
+      "seq": 11145,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885779?s=gh-internships-2027|RTX|Component Electrical Test Engineer Intern (Summer 2027)(Onsite)|CA-EL SEGUNDO-E01|Summer 2027#1"
     }
   },
   "applied": {
@@ -140715,10 +140799,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11138,
+  "seq": 11145,
   "health": {
     "last_heartbeat": "2026-11-10T16:00:27Z",
-    "last_ok_run": "2026-11-10T16:10:20Z",
+    "last_ok_run": "2026-11-10T16:15:32Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -140726,7 +140810,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T15:45:23Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T16:15:28Z"
     }
   }
 }
