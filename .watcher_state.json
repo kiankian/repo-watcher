@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "dfff2d3001b0a95e5237fca5b0928c12f4e3a228",
+    "last_sha": "ff1e5e120b3624847a01858a2898fc7e3eeb2ea5",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -2991,18 +2991,12 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Operations-Intern--AI-Clouds---Summer-2027_JR2029119-1?utm_source=Simplify&ref=Simplify|\ud83d\udd25 NVIDIA|AI Operations Intern - AI Clouds|Santa Clara, CA|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 516,
+    "last_row_count": 513,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
     "last_sha": "a2ea9be0e957fdc6a832d36caf03aacab58f2d8a",
     "seen": [
-      "NOURL|SK Hynix Memory Solution|Product Application Engineer Intern|San Jose, CA|Apr 22#1",
-      "NOURL|General Dynamics Mission Systems, Inc.|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Apr 20#1",
-      "NOURL|General Dynamics Mission Systems, Inc.|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Apr 20#2",
-      "NOURL|ABC News|Product Management and Engineering Intern|New York, NY|Apr 20#1",
-      "NOURL|Northspyre|AI Engineer Intern|Atlanta, GA|Apr 19#1",
-      "NOURL|ABC Fitness|Software Engineer Intern \ud83d\udec2|Frisco, TX|Apr 19#1",
       "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Chicago-IL-USA/Machine-Learning-Intern--Fall-2026--Internship----4-months_R260014372?utm_source=github-vansh-ouckah|BMO|Machine Learning Intern|Chicago, IL|May 12#1",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Product-Development-Internship-Program---Summer-2027_R246020-1?utm_source=github-vansh-ouckah|Capital One|Product Development Internship Program|Mclean, VA Plano, TX|Jul 07#1",
       "https://careers.snowflake.com/us/en/job/SNCOUS0214F57FFF904B4AB58DD1965DC9927EEXTERNALENUS4F34AEFA681B4AA8A0EA28CE56C9F1A5/Software-Engineer-Intern-Core-Engineering-Fall-2026?utm_source=github-vansh-ouckah|Snowflake|Software Engineer Intern (Core Engineering)|Menlo Park, CA Bellevue, WA|May 09#1",
@@ -7996,78 +7990,17 @@
       "NOURL|getIntro|Software Engineering Intern|Remote United States Canada|Nov 10#1",
       "NOURL|Flowai|Senior Back-End Engineer Intern|Remote United States Canada|Nov 10#1",
       "NOURL|Business Web Solutions|Web Developer Intern|Remote United States Canada|Nov 10#1",
-      "NOURL|Avary.ai|Data Scientist Intern|Remote United States Canada|Nov 10#1"
+      "NOURL|Avary.ai|Data Scientist Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Akeshya Private Limited|Full Stack Developer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Akeshya Private Limited|Flutter Developer Intern|Remote United States Canada|Nov 10#1",
+      "NOURL|Schweitzer Engineering Laboratories|Software Engineer Intern|Boise, ID|Jul 24#1",
+      "NOURL|Copart|Software Engineering Intern|Dallas, TX|Jul 24#1",
+      "NOURL|Rakuten International|Software Engineer Intern|San Mateo, California|Jul 09#1",
+      "NOURL|Capital One|Product Development Internship Program|Mclean, VA Plano, TX|Jul 07#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 2611,
-    "outbox": [
-      [
-        [
-          "Akeshya Private Limited",
-          "Full Stack Developer Intern",
-          "Remote United States Canada",
-          "Nov 10",
-          ""
-        ],
-        "NOURL|Akeshya Private Limited|Full Stack Developer Intern|Remote United States Canada|Nov 10#1",
-        1
-      ],
-      [
-        [
-          "Akeshya Private Limited",
-          "Flutter Developer Intern",
-          "Remote United States Canada",
-          "Nov 10",
-          ""
-        ],
-        "NOURL|Akeshya Private Limited|Flutter Developer Intern|Remote United States Canada|Nov 10#1",
-        1
-      ],
-      [
-        [
-          "Schweitzer Engineering Laboratories",
-          "Software Engineer Intern",
-          "Boise, ID",
-          "Jul 24",
-          ""
-        ],
-        "NOURL|Schweitzer Engineering Laboratories|Software Engineer Intern|Boise, ID|Jul 24#1",
-        1
-      ],
-      [
-        [
-          "Copart",
-          "Software Engineering Intern",
-          "Dallas, TX",
-          "Jul 24",
-          ""
-        ],
-        "NOURL|Copart|Software Engineering Intern|Dallas, TX|Jul 24#1",
-        1
-      ],
-      [
-        [
-          "Rakuten International",
-          "Software Engineer Intern",
-          "San Mateo, California",
-          "Jul 09",
-          ""
-        ],
-        "NOURL|Rakuten International|Software Engineer Intern|San Mateo, California|Jul 09#1",
-        1
-      ],
-      [
-        [
-          "Capital One",
-          "Product Development Internship Program",
-          "Mclean, VA Plano, TX",
-          "Jul 07",
-          ""
-        ],
-        "NOURL|Capital One|Product Development Internship Program|Mclean, VA Plano, TX|Jul 07#1",
-        1
-      ]
-    ]
+    "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
     "last_sha": "6d647fd346ed95258f2969b9b46c9644f327e9a4",

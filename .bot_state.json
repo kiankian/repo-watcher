@@ -141608,6 +141608,78 @@
       "chat_id": 7582459199,
       "seq": 11243,
       "identity": "NOURL|Avary.ai|Data Scientist Intern|Remote United States Canada|Nov 10#1"
+    },
+    "3ab54555e155": {
+      "company": "Akeshya Private Limited",
+      "role": "Full Stack Developer Intern",
+      "location": "Remote United States Canada",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12529,
+      "chat_id": 7582459199,
+      "seq": 11244,
+      "identity": "NOURL|Akeshya Private Limited|Full Stack Developer Intern|Remote United States Canada|Nov 10#1"
+    },
+    "c15a68a7e22a": {
+      "company": "Akeshya Private Limited",
+      "role": "Flutter Developer Intern",
+      "location": "Remote United States Canada",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12530,
+      "chat_id": 7582459199,
+      "seq": 11245,
+      "identity": "NOURL|Akeshya Private Limited|Flutter Developer Intern|Remote United States Canada|Nov 10#1"
+    },
+    "bac5786513be": {
+      "company": "Schweitzer Engineering Laboratories",
+      "role": "Software Engineer Intern",
+      "location": "Boise, ID",
+      "term": "Jul 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12531,
+      "chat_id": 7582459199,
+      "seq": 11246,
+      "identity": "NOURL|Schweitzer Engineering Laboratories|Software Engineer Intern|Boise, ID|Jul 24#1"
+    },
+    "a90def92acce": {
+      "company": "Copart",
+      "role": "Software Engineering Intern",
+      "location": "Dallas, TX",
+      "term": "Jul 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12532,
+      "chat_id": 7582459199,
+      "seq": 11247,
+      "identity": "NOURL|Copart|Software Engineering Intern|Dallas, TX|Jul 24#1"
+    },
+    "75a79c0083b5": {
+      "company": "Rakuten International",
+      "role": "Software Engineer Intern",
+      "location": "San Mateo, California",
+      "term": "Jul 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12533,
+      "chat_id": 7582459199,
+      "seq": 11248,
+      "identity": "NOURL|Rakuten International|Software Engineer Intern|San Mateo, California|Jul 09#1"
+    },
+    "4ed992822435": {
+      "company": "Capital One",
+      "role": "Product Development Internship Program",
+      "location": "Mclean, VA Plano, TX",
+      "term": "Jul 07",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12534,
+      "chat_id": 7582459199,
+      "seq": 11249,
+      "identity": "NOURL|Capital One|Product Development Internship Program|Mclean, VA Plano, TX|Jul 07#1"
     }
   },
   "applied": {
@@ -141975,10 +142047,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11243,
+  "seq": 11249,
   "health": {
     "last_heartbeat": "2026-11-10T18:25:27Z",
-    "last_ok_run": "2026-11-10T18:31:03Z",
+    "last_ok_run": "2026-11-10T18:35:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
