@@ -140168,6 +140168,30 @@
       "chat_id": 7582459199,
       "seq": 11123,
       "identity": "NOURL|Farmers Mutual Hail|QA Automation Engineer Intern|West Des Moines, IA|Sep 15#1"
+    },
+    "aa986a017e57": {
+      "company": "RTX",
+      "role": "Digital Hardware Design Engineer Co-op",
+      "location": "Cedar Rapids, IA",
+      "term": "Nov 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12403,
+      "chat_id": 7582459199,
+      "seq": 11124,
+      "identity": "NOURL|RTX|Digital Hardware Design Engineer Co-op|Cedar Rapids, IA|Nov 08#1"
+    },
+    "0ccb4a3e5ad1": {
+      "company": "Arcfield",
+      "role": "Software Engineer Intern, On-Call",
+      "location": "Middletown, RI",
+      "term": "Oct 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12404,
+      "chat_id": 7582459199,
+      "seq": 11125,
+      "identity": "NOURL|Arcfield|Software Engineer Intern, On-Call|Middletown, RI|Oct 06#1"
     }
   },
   "applied": {
@@ -140535,10 +140559,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11123,
+  "seq": 11125,
   "health": {
     "last_heartbeat": "2026-11-10T13:40:21Z",
-    "last_ok_run": "2026-11-10T14:35:17Z",
+    "last_ok_run": "2026-11-10T14:40:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
