@@ -140300,6 +140300,54 @@
       "chat_id": 7582459199,
       "seq": 11134,
       "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ381225?s=gh-internships-2027|T-Mobile|Summer 2027 T-Ads Software Engineering Internship|Philadelphia, Pennsylvania|Summer 2027#1"
+    },
+    "35fe97b67b5d": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern",
+      "location": "Philadelphia, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/External/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381225?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12416,
+      "chat_id": 7582459199,
+      "seq": 11135,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/External/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381225?utm_source=Simplify&ref=Simplify|T-Mobile|Software Engineer Intern|Philadelphia, PA|Summer 2026#1"
+    },
+    "73088f57f59f": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern - T-Ads",
+      "location": "Philadelphia, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/External/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381219?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12417,
+      "chat_id": 7582459199,
+      "seq": 11136,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/External/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381219?utm_source=Simplify&ref=Simplify|T-Mobile|Software Engineer Intern - T-Ads|Philadelphia, PA|Summer 2026#1"
+    },
+    "cdc8433d17b4": {
+      "company": "SOTI",
+      "role": "Software Developer Intern",
+      "location": "Mississauga, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027---12-months-_R10677?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12418,
+      "chat_id": 7582459199,
+      "seq": 11137,
+      "identity": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027---12-months-_R10677?utm_source=Simplify&ref=Simplify|SOTI|Software Developer Intern|Mississauga, ON, Canada|Summer 2026#1"
+    },
+    "6f9bb4448805": {
+      "company": "\ud83d\udd25 NVIDIA",
+      "role": "AI Operations Intern - AI Clouds",
+      "location": "Santa Clara, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Operations-Intern--AI-Clouds---Summer-2027_JR2029119-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12419,
+      "chat_id": 7582459199,
+      "seq": 11138,
+      "identity": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Operations-Intern--AI-Clouds---Summer-2027_JR2029119-1?utm_source=Simplify&ref=Simplify|\ud83d\udd25 NVIDIA|AI Operations Intern - AI Clouds|Santa Clara, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -140667,10 +140715,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11134,
+  "seq": 11138,
   "health": {
     "last_heartbeat": "2026-11-10T16:00:27Z",
-    "last_ok_run": "2026-11-10T16:00:27Z",
+    "last_ok_run": "2026-11-10T16:05:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
