@@ -143084,6 +143084,102 @@
       "chat_id": 7582459199,
       "seq": 11370,
       "identity": "https://jobs.mcdonalds.com/job/Chicago-Software-Development-Engineer-Intern-IL-60607/1449058700/?ats=successfactors&utm_source=Simplify&ref=Simplify|McDonald's|Software Development Engineer Intern|Chicago, IL|Summer 2026#1"
+    },
+    "dc7d407638c2": {
+      "company": "Renesas Electronics",
+      "role": "Applications Engineer Intern",
+      "location": "Morrisville, NC",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1sk?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12664,
+      "chat_id": 7582459199,
+      "seq": 11371,
+      "identity": "https://go.vansh.nyc/1sk?s=y|Renesas Electronics|Applications Engineer Intern|Morrisville, NC|Nov 10#1"
+    },
+    "27e0429b10aa": {
+      "company": "Walmart",
+      "role": "Data Science & Data Analytics Intern, Last Mile Delivery",
+      "location": "Bentonville, AR",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1sh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12665,
+      "chat_id": 7582459199,
+      "seq": 11372,
+      "identity": "https://go.vansh.nyc/1sh?s=y|Walmart|Data Science & Data Analytics Intern, Last Mile Delivery|Bentonville, AR|Nov 09#1"
+    },
+    "98a289714587": {
+      "company": "RTX",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Largo, FL",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1sg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12666,
+      "chat_id": 7582459199,
+      "seq": 11373,
+      "identity": "https://go.vansh.nyc/1sg?s=y|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Largo, FL|Nov 09#1"
+    },
+    "fcbc8971f9b6": {
+      "company": "McDonald's",
+      "role": "Software Development Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1si?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12667,
+      "chat_id": 7582459199,
+      "seq": 11374,
+      "identity": "https://go.vansh.nyc/1si?s=y|McDonald's|Software Development Engineer Intern|Chicago, IL|Nov 09#1"
+    },
+    "d9ccf3324a91": {
+      "company": "McDonald's",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1sj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12668,
+      "chat_id": 7582459199,
+      "seq": 11375,
+      "identity": "https://go.vansh.nyc/1sj?s=y|McDonald's|Software Engineer Intern|Chicago, IL|Nov 09#1"
+    },
+    "22d749a10e7e": {
+      "company": "General Motors",
+      "role": "Machine Learning Engineer Intern, AV/AI Platform",
+      "location": "Sunnyvale, CA",
+      "term": "Oct 01",
+      "apply_url": "https://go.vansh.nyc/1sp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12669,
+      "chat_id": 7582459199,
+      "seq": 11376,
+      "identity": "https://go.vansh.nyc/1sp?s=y|General Motors|Machine Learning Engineer Intern, AV/AI Platform|Sunnyvale, CA|Oct 01#1"
+    },
+    "bbb5a86cbff2": {
+      "company": "Sherwin-Williams",
+      "role": "R&D Data Visualization Intern",
+      "location": "Brecksville, OH",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12670,
+      "chat_id": 7582459199,
+      "seq": 11377,
+      "identity": "NOURL|Sherwin-Williams|R&D Data Visualization Intern|Brecksville, OH|Nov 02#1"
+    },
+    "434c7304827a": {
+      "company": "Quadric",
+      "role": "Design Verification Intern",
+      "location": "Burlingame, CA",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12671,
+      "chat_id": 7582459199,
+      "seq": 11378,
+      "identity": "NOURL|Quadric|Design Verification Intern|Burlingame, CA|Oct 22#1"
     }
   },
   "applied": {
@@ -143451,10 +143547,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11370,
+  "seq": 11378,
   "health": {
     "last_heartbeat": "2026-11-10T22:55:16Z",
-    "last_ok_run": "2026-11-10T23:40:16Z",
+    "last_ok_run": "2026-11-10T23:45:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -143462,7 +143558,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T23:10:22Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T23:45:29Z",
       "duplicate-hash": "2026-11-10T20:40:21Z"
     }
   }
