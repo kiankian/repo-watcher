@@ -9484,9 +9484,9 @@
       "term": "Jul 24",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 1331,
+      "message_id": 12619,
       "chat_id": 7582459199,
-      "seq": 233,
+      "seq": 11331,
       "identity": "NOURL|Walleye Capital|Risk Technology Analyst Intern|New York, NY|Jul 24#1"
     },
     "4e2d148b74f3": {
@@ -9496,9 +9496,9 @@
       "term": "Jul 24",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 1332,
+      "message_id": 12621,
       "chat_id": 7582459199,
-      "seq": 234,
+      "seq": 11332,
       "identity": "NOURL|Walleye Capital|Technology Intern|New York, NY|Jul 24#1"
     },
     "208463db3fc2": {
@@ -9508,9 +9508,9 @@
       "term": "Jul 24",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 1333,
+      "message_id": 12622,
       "chat_id": 7582459199,
-      "seq": 235,
+      "seq": 11333,
       "identity": "NOURL|Walleye Capital|Investment Data Science Intern|New York, NY|Jul 24#1"
     },
     "847aca1645d9": {
@@ -142628,6 +142628,18 @@
       "chat_id": 7582459199,
       "seq": 11329,
       "identity": "https://zapply.jobs/l/d/greenhouse-sharkninjaoperatingllc-4726209006?s=gh-internships-2027|SharkNinja|Spring 2027: Product Test Engineering Co-op (January through June)|Needham, MA, United States|Summer 2027#1"
+    },
+    "f45cb7d248ec": {
+      "company": "Resideo",
+      "role": "Data Science Intern",
+      "location": "Austin, TX Golden Valley, MN",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12618,
+      "chat_id": 7582459199,
+      "seq": 11330,
+      "identity": "NOURL|Resideo|Data Science Intern|Austin, TX Golden Valley, MN|Nov 02#1"
     }
   },
   "applied": {
@@ -142995,10 +143007,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11329,
+  "seq": 11333,
   "health": {
     "last_heartbeat": "2026-11-10T19:30:22Z",
-    "last_ok_run": "2026-11-10T20:35:18Z",
+    "last_ok_run": "2026-11-10T20:40:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -143006,8 +143018,8 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T19:40:23Z",
-      "duplicate-hash": "2026-11-10T19:05:22Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T20:40:26Z",
+      "duplicate-hash": "2026-11-10T20:40:21Z"
     }
   }
 }
