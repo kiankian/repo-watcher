@@ -140000,6 +140000,30 @@
       "chat_id": 7582459199,
       "seq": 11109,
       "identity": "https://go.vansh.nyc/1qc?s=y|GlobalFoundries|Design Verification Engineer Intern|Plano, TX|Nov 09#1"
+    },
+    "5f576937c13c": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering Internship",
+      "location": "Overland Park, Kansas",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380739?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12387,
+      "chat_id": 7582459199,
+      "seq": 11110,
+      "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380739?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|Overland Park, Kansas|Summer 2027#1"
+    },
+    "dec6e7625fc9": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering Internship",
+      "location": "Overland Park, Kansas",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380734?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12388,
+      "chat_id": 7582459199,
+      "seq": 11111,
+      "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380734?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|Overland Park, Kansas|Summer 2027#1"
     }
   },
   "applied": {
@@ -140367,10 +140391,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11109,
+  "seq": 11111,
   "health": {
     "last_heartbeat": "2026-11-10T09:20:19Z",
-    "last_ok_run": "2026-11-10T09:40:19Z",
+    "last_ok_run": "2026-11-10T09:45:55Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
