@@ -139604,6 +139604,18 @@
       "chat_id": 7582459199,
       "seq": 11076,
       "identity": "https://go.vansh.nyc/1pM?s=y|CTGT|AI Evaluation Research Intern|San Francisco, CA|Nov 09#1"
+    },
+    "3948e31324f1": {
+      "company": "\ud83d\udd25 NVIDIA",
+      "role": "Systems Research Intern - Observability \ud83c\udf93",
+      "location": "Canada Santa Clara, CA United States",
+      "term": "Summer 2026",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Research-Intern--Observability---Summer-2027_JR2026644?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12347,
+      "chat_id": 7582459199,
+      "seq": 11077,
+      "identity": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Research-Intern--Observability---Summer-2027_JR2026644?utm_source=Simplify&ref=Simplify|\ud83d\udd25 NVIDIA|Systems Research Intern - Observability \ud83c\udf93|Canada Santa Clara, CA United States|Summer 2026#1"
     }
   },
   "applied": {
@@ -139971,10 +139983,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11076,
+  "seq": 11077,
   "health": {
     "last_heartbeat": "2026-11-10T01:45:17Z",
-    "last_ok_run": "2026-11-10T02:30:20Z",
+    "last_ok_run": "2026-11-10T02:35:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
