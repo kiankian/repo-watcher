@@ -142928,6 +142928,18 @@
       "chat_id": 7582459199,
       "seq": 11357,
       "identity": "https://zapply.jobs/l/d/bytedance-7678104426079799557?s=gh-internships-2027|ByteDance|Site Reliability Engineer - Intern (Data Platform, Computer Platform) - 2027 Start|San Jose, California|Summer 2027#1"
+    },
+    "980bc1a48706": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "FL-ST PETERSBURG",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01887806?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12650,
+      "chat_id": 7582459199,
+      "seq": 11358,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01887806?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|FL-ST PETERSBURG|Summer 2027#1"
     }
   },
   "applied": {
@@ -143295,10 +143307,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11357,
+  "seq": 11358,
   "health": {
     "last_heartbeat": "2026-11-10T21:50:19Z",
-    "last_ok_run": "2026-11-10T22:45:16Z",
+    "last_ok_run": "2026-11-10T22:50:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
