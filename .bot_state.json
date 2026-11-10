@@ -140264,6 +140264,42 @@
       "chat_id": 7582459199,
       "seq": 11131,
       "identity": "https://go.vansh.nyc/1qt?s=y|Booz Allen Hamilton|Quantum Computing Research Intern|Washington, DC|Nov 10#1"
+    },
+    "0c3312eda454": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 T-Ads Software Engineering Internship",
+      "location": "Philadelphia, Pennsylvania",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tmobile-external-REQ381219?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12413,
+      "chat_id": 7582459199,
+      "seq": 11132,
+      "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ381219?s=gh-internships-2027|T-Mobile|Summer 2027 T-Ads Software Engineering Internship|Philadelphia, Pennsylvania|Summer 2027#1"
+    },
+    "1a5fffe53049": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Site Reliability Engineering Internship",
+      "location": "Frisco Texas",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tmobile-external-REQ381393?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12414,
+      "chat_id": 7582459199,
+      "seq": 11133,
+      "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ381393?s=gh-internships-2027|T-Mobile|Summer 2027 Site Reliability Engineering Internship|Frisco Texas|Summer 2027#1"
+    },
+    "58b62a9549db": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 T-Ads Software Engineering Internship",
+      "location": "Philadelphia, Pennsylvania",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tmobile-external-REQ381225?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12415,
+      "chat_id": 7582459199,
+      "seq": 11134,
+      "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ381225?s=gh-internships-2027|T-Mobile|Summer 2027 T-Ads Software Engineering Internship|Philadelphia, Pennsylvania|Summer 2027#1"
     }
   },
   "applied": {
@@ -140631,10 +140667,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11131,
+  "seq": 11134,
   "health": {
     "last_heartbeat": "2026-11-10T14:55:18Z",
-    "last_ok_run": "2026-11-10T15:45:25Z",
+    "last_ok_run": "2026-11-10T15:50:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
