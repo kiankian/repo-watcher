@@ -139460,6 +139460,90 @@
       "chat_id": 7582459199,
       "seq": 11064,
       "identity": "https://zapply.jobs/l/d/greenhouse-waymo-8350832?s=gh-internships-2027|Waymo|2027 Summer Intern, BS/MS, Software Engineer, Multiverse|San Francisco, California, USA|Summer 2027#1"
+    },
+    "73d10502d94d": {
+      "company": "Keysight Technologies",
+      "role": "Embedded Software Engineer Intern",
+      "location": "Cambridge, MA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pK?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12335,
+      "chat_id": 7582459199,
+      "seq": 11065,
+      "identity": "https://go.vansh.nyc/1pK?s=y|Keysight Technologies|Embedded Software Engineer Intern|Cambridge, MA|Nov 09#1"
+    },
+    "2eba669b0d2b": {
+      "company": "DreamWorks Animation",
+      "role": "Data Science Intern, Advertising & Partnerships",
+      "location": "New York, NY",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pJ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12336,
+      "chat_id": 7582459199,
+      "seq": 11066,
+      "identity": "https://go.vansh.nyc/1pJ?s=y|DreamWorks Animation|Data Science Intern, Advertising & Partnerships|New York, NY|Nov 09#1"
+    },
+    "9d6371b40f0f": {
+      "company": "Cirrus Logic",
+      "role": "Applied AI Engineering Intern",
+      "location": "Austin, TX",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pL?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12337,
+      "chat_id": 7582459199,
+      "seq": 11067,
+      "identity": "https://go.vansh.nyc/1pL?s=y|Cirrus Logic|Applied AI Engineering Intern|Austin, TX|Nov 09#1"
+    },
+    "31804ce4fbd3": {
+      "company": "RTX",
+      "role": "Digital Hardware Design Engineer Co-op",
+      "location": "Cedar Rapids, IA",
+      "term": "Nov 08",
+      "apply_url": "https://go.vansh.nyc/1pH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12338,
+      "chat_id": 7582459199,
+      "seq": 11068,
+      "identity": "https://go.vansh.nyc/1pH?s=y|RTX|Digital Hardware Design Engineer Co-op|Cedar Rapids, IA|Nov 08#1"
+    },
+    "5a89bff97a33": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Software Engineer Intern",
+      "location": "Manassas, VA",
+      "term": "Nov 08",
+      "apply_url": "https://go.vansh.nyc/1pI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12339,
+      "chat_id": 7582459199,
+      "seq": 11069,
+      "identity": "https://go.vansh.nyc/1pI?s=y|General Dynamics Mission Systems|Software Engineer Intern|Manassas, VA|Nov 08#1"
+    },
+    "2f7787385a8c": {
+      "company": "ViaSat",
+      "role": "Software Engineer Intern",
+      "location": "Germantown, MD",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12340,
+      "chat_id": 7582459199,
+      "seq": 11070,
+      "identity": "NOURL|ViaSat|Software Engineer Intern|Germantown, MD|Nov 02#1"
+    },
+    "32ce69137213": {
+      "company": "Emerson Electric",
+      "role": "Software Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12341,
+      "chat_id": 7582459199,
+      "seq": 11071,
+      "identity": "NOURL|Emerson Electric|Software Engineer Intern|Austin, TX|Oct 27#1"
     }
   },
   "applied": {
@@ -139827,10 +139911,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11064,
+  "seq": 11071,
   "health": {
     "last_heartbeat": "2026-11-10T00:25:15Z",
-    "last_ok_run": "2026-11-10T00:35:18Z",
+    "last_ok_run": "2026-11-10T00:40:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
