@@ -141164,6 +141164,18 @@
       "chat_id": 7582459199,
       "seq": 11206,
       "identity": "NOURL|Micron Technology|DRAM Architecture Intern|San Jose, CA Boise, ID|Sep 30#1"
+    },
+    "15424df35c0c": {
+      "company": "GlobalFoundries",
+      "role": "Systems Engineering Intern (Summer 2027)",
+      "location": "USA - Texas - Richardson",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2604045?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12490,
+      "chat_id": 7582459199,
+      "seq": 11207,
+      "identity": "https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2604045?s=gh-internships-2027|GlobalFoundries|Systems Engineering Intern (Summer 2027)|USA - Texas - Richardson|Summer 2027#1"
     }
   },
   "applied": {
@@ -141531,10 +141543,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11206,
+  "seq": 11207,
   "health": {
     "last_heartbeat": "2026-11-10T17:10:20Z",
-    "last_ok_run": "2026-11-10T17:30:22Z",
+    "last_ok_run": "2026-11-10T17:35:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
