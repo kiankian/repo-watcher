@@ -139688,6 +139688,102 @@
       "chat_id": 7582459199,
       "seq": 11083,
       "identity": "https://zapply.jobs/l/d/workday-aero-external-R016430?s=gh-internships-2027|Aerospace Corporation|2027 Power and Analog Circuit Engineering Grad Intern|El Segundo, CA|Summer 2027#1"
+    },
+    "9da526893a9c": {
+      "company": "Lockheed Martin",
+      "role": "Software Development Intern",
+      "location": "Bethesda, MD Rockville, MD",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12355,
+      "chat_id": 7582459199,
+      "seq": 11084,
+      "identity": "https://go.vansh.nyc/1pZ?s=y|Lockheed Martin|Software Development Intern|Bethesda, MD Rockville, MD|Nov 09#1"
+    },
+    "2b45b2b85d5b": {
+      "company": "Lockheed Martin",
+      "role": "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Mt Laurel Township, NJ",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1q0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12356,
+      "chat_id": 7582459199,
+      "seq": 11085,
+      "identity": "https://go.vansh.nyc/1q0?s=y|Lockheed Martin|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Mt Laurel Township, NJ|Nov 09#1"
+    },
+    "f4d508a5d1cc": {
+      "company": "L3Harris Technologies",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Rochester, NY",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12357,
+      "chat_id": 7582459199,
+      "seq": 11086,
+      "identity": "https://go.vansh.nyc/1pY?s=y|L3Harris Technologies|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Rochester, NY|Nov 09#1"
+    },
+    "06f89e721882": {
+      "company": "Kiewit",
+      "role": "Machine Learning Intern, Kiewit Data Services",
+      "location": "Omaha, NE",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12358,
+      "chat_id": 7582459199,
+      "seq": 11087,
+      "identity": "https://go.vansh.nyc/1pX?s=y|Kiewit|Machine Learning Intern, Kiewit Data Services|Omaha, NE|Nov 09#1"
+    },
+    "d1b637449516": {
+      "company": "Johns Hopkins APL",
+      "role": "AI & Data Science Intern, Analytic Capabilities",
+      "location": "Laurel, MD",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12359,
+      "chat_id": 7582459199,
+      "seq": 11088,
+      "identity": "https://go.vansh.nyc/1pW?s=y|Johns Hopkins APL|AI & Data Science Intern, Analytic Capabilities|Laurel, MD|Nov 09#1"
+    },
+    "5eafd75e53c9": {
+      "company": "Celestica",
+      "role": "IT Business Application Development Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12360,
+      "chat_id": 7582459199,
+      "seq": 11089,
+      "identity": "https://go.vansh.nyc/1pV?s=y|Celestica|IT Business Application Development Intern|Toronto, Canada|Nov 09#1"
+    },
+    "034cddfb6bbe": {
+      "company": "Aerospace Corporation",
+      "role": "Defensive Cyber Operations Grad Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "El Segundo, CA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1pU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12361,
+      "chat_id": 7582459199,
+      "seq": 11090,
+      "identity": "https://go.vansh.nyc/1pU?s=y|Aerospace Corporation|Defensive Cyber Operations Grad Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Nov 09#1"
+    },
+    "b97cb8f72770": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "role": "Space Exploration Software Engineer Intern, Embedded Applications",
+      "location": "Laurel, MD",
+      "term": "Sep 25",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12362,
+      "chat_id": 7582459199,
+      "seq": 11091,
+      "identity": "NOURL|Johns Hopkins Applied Physics Laboratory|Space Exploration Software Engineer Intern, Embedded Applications|Laurel, MD|Sep 25#1"
     }
   },
   "applied": {
@@ -140055,10 +140151,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11083,
+  "seq": 11091,
   "health": {
     "last_heartbeat": "2026-11-10T02:55:15Z",
-    "last_ok_run": "2026-11-10T04:10:17Z",
+    "last_ok_run": "2026-11-10T04:15:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -140066,7 +140162,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T03:15:23Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T04:15:26Z"
     }
   }
 }
