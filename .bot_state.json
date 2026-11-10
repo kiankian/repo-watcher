@@ -141680,6 +141680,306 @@
       "chat_id": 7582459199,
       "seq": 11249,
       "identity": "NOURL|Capital One|Product Development Internship Program|Mclean, VA Plano, TX|Jul 07#1"
+    },
+    "afe77843d6fa": {
+      "company": "Invitation-charter",
+      "role": "Software Engineer Intern",
+      "location": "Greenwood Village, CO",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rK?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12535,
+      "chat_id": 7582459199,
+      "seq": 11250,
+      "identity": "https://go.vansh.nyc/1rK?s=y|Invitation-charter|Software Engineer Intern|Greenwood Village, CO|Nov 10#1"
+    },
+    "583733147ba5": {
+      "company": "General Dynamics Mission Systems, Inc.",
+      "role": "Systems Intern, Cybersecurity and Linux Administration \ud83c\uddfa\ud83c\uddf8",
+      "location": "San Antonio, TX",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12536,
+      "chat_id": 7582459199,
+      "seq": 11251,
+      "identity": "https://go.vansh.nyc/1rI?s=y|General Dynamics Mission Systems, Inc.|Systems Intern, Cybersecurity and Linux Administration \ud83c\uddfa\ud83c\uddf8|San Antonio, TX|Nov 10#1"
+    },
+    "7a24a510a44c": {
+      "company": "General Dynamics Mission Systems, Inc.",
+      "role": "ASIC/FPGA Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Scottsdale, AZ",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1rJ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12537,
+      "chat_id": 7582459199,
+      "seq": 11252,
+      "identity": "https://go.vansh.nyc/1rJ?s=y|General Dynamics Mission Systems, Inc.|ASIC/FPGA Engineer Intern \ud83c\uddfa\ud83c\uddf8|Scottsdale, AZ|Nov 10#1"
+    },
+    "71adebca7ca7": {
+      "company": "KLA",
+      "role": "Software Engineering Intern",
+      "location": "Milpitas, CA",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12538,
+      "chat_id": 7582459199,
+      "seq": 11253,
+      "identity": "NOURL|KLA|Software Engineering Intern|Milpitas, CA|Oct 30#1"
+    },
+    "2800dea886d9": {
+      "company": "Western National Insurance",
+      "role": "Data Engineering Intern, Data & Integrations",
+      "location": "Edina, MN",
+      "term": "Sep 25",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12539,
+      "chat_id": 7582459199,
+      "seq": 11254,
+      "identity": "NOURL|Western National Insurance|Data Engineering Intern, Data & Integrations|Edina, MN|Sep 25#1"
+    },
+    "60ce92c25b0f": {
+      "company": "LiveRamp",
+      "role": "Software Engineer Intern, Pixel Serving",
+      "location": "New York, NY",
+      "term": "May 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12540,
+      "chat_id": 7582459199,
+      "seq": 11255,
+      "identity": "NOURL|LiveRamp|Software Engineer Intern, Pixel Serving|New York, NY|May 22#1"
+    },
+    "2f667da5929a": {
+      "company": "Kudu Dynamics",
+      "role": "Software Engineer Intern",
+      "location": "Chantilly, VA",
+      "term": "May 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12541,
+      "chat_id": 7582459199,
+      "seq": 11256,
+      "identity": "NOURL|Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#1"
+    },
+    "6df2259e5d56": {
+      "company": "Kudu Dynamics",
+      "role": "Software Engineer Intern",
+      "location": "Chantilly, VA",
+      "term": "May 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12542,
+      "chat_id": 7582459199,
+      "seq": 11257,
+      "identity": "NOURL|Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#2"
+    },
+    "5998a7caaddb": {
+      "company": "Kudu Dynamics",
+      "role": "Software Engineer Intern",
+      "location": "Chantilly, VA",
+      "term": "May 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12543,
+      "chat_id": 7582459199,
+      "seq": 11258,
+      "identity": "NOURL|Kudu Dynamics|Software Engineer Intern|Chantilly, VA|May 22#3"
+    },
+    "417102ca786c": {
+      "company": "Podium",
+      "role": "Software Engineering Intern",
+      "location": "Lehi, UT",
+      "term": "May 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12544,
+      "chat_id": 7582459199,
+      "seq": 11259,
+      "identity": "NOURL|Podium|Software Engineering Intern|Lehi, UT|May 19#1"
+    },
+    "dba688cbabfe": {
+      "company": "Granite Construction",
+      "role": "Summer 2026 Engineer Intern",
+      "location": "Nampa, ID",
+      "term": "May 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12545,
+      "chat_id": 7582459199,
+      "seq": 11260,
+      "identity": "NOURL|Granite Construction|Summer 2026 Engineer Intern|Nampa, ID|May 14#1"
+    },
+    "a503b04b0705": {
+      "company": "Zoox",
+      "role": "Platform Intelligence Intern",
+      "location": "Foster City, CA",
+      "term": "May 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12546,
+      "chat_id": 7582459199,
+      "seq": 11261,
+      "identity": "NOURL|Zoox|Platform Intelligence Intern|Foster City, CA|May 12#1"
+    },
+    "09bd2d1f5f86": {
+      "company": "Member Solutions",
+      "role": "Software Engineering Intern",
+      "location": "Remote",
+      "term": "May 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12547,
+      "chat_id": 7582459199,
+      "seq": 11262,
+      "identity": "NOURL|Member Solutions|Software Engineering Intern|Remote|May 12#1"
+    },
+    "804f76c15acd": {
+      "company": "Apptronik",
+      "role": "Software Engineer Intern, ML Ops",
+      "location": "Austin, TX",
+      "term": "May 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12548,
+      "chat_id": 7582459199,
+      "seq": 11263,
+      "identity": "NOURL|Apptronik|Software Engineer Intern, ML Ops|Austin, TX|May 12#1"
+    },
+    "d5f87f0f9269": {
+      "company": "Salesforce",
+      "role": "Software Engineer Intern(Futureforce Summer 2027)",
+      "location": "**5 locations**San Francisco, CA Palo Alto, CA New York, NY Seattle, WA Burlington, MA",
+      "term": "May 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12549,
+      "chat_id": 7582459199,
+      "seq": 11264,
+      "identity": "NOURL|Salesforce|Software Engineer Intern(Futureforce Summer 2027)|**5 locations**San Francisco, CA Palo Alto, CA New York, NY Seattle, WA Burlington, MA|May 09#1"
+    },
+    "314ab52e61d5": {
+      "company": "Amazon",
+      "role": "Software Development Engineer Intern, Amazon Leo \ud83c\uddfa\ud83c\uddf8",
+      "location": "Sunnyvale, CA Redmond, WA Northridge, CA",
+      "term": "May 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12550,
+      "chat_id": 7582459199,
+      "seq": 11265,
+      "identity": "NOURL|Amazon|Software Development Engineer Intern, Amazon Leo \ud83c\uddfa\ud83c\uddf8|Sunnyvale, CA Redmond, WA Northridge, CA|May 09#1"
+    },
+    "e03126435a0b": {
+      "company": "Fiserv",
+      "role": "Application Development Intern \ud83d\udec2",
+      "location": "Alpharetta, GA",
+      "term": "Apr 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12551,
+      "chat_id": 7582459199,
+      "seq": 11266,
+      "identity": "NOURL|Fiserv|Application Development Intern \ud83d\udec2|Alpharetta, GA|Apr 29#1"
+    },
+    "9d9f8f6ee872": {
+      "company": "Fiserv",
+      "role": "Data Engineer Intern",
+      "location": "Alpharetta, GA",
+      "term": "Apr 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12552,
+      "chat_id": 7582459199,
+      "seq": 11267,
+      "identity": "NOURL|Fiserv|Data Engineer Intern|Alpharetta, GA|Apr 29#1"
+    },
+    "16838672661a": {
+      "company": "KBR",
+      "role": "Reverse Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Beavercreek Township, OH",
+      "term": "Apr 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12553,
+      "chat_id": 7582459199,
+      "seq": 11268,
+      "identity": "NOURL|KBR|Reverse Engineer Intern \ud83c\uddfa\ud83c\uddf8|Beavercreek Township, OH|Apr 28#1"
+    },
+    "87ee825875d6": {
+      "company": "Horace Mann",
+      "role": "Software Engineer Intern",
+      "location": "Springfield, IL",
+      "term": "Apr 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12554,
+      "chat_id": 7582459199,
+      "seq": 11269,
+      "identity": "NOURL|Horace Mann|Software Engineer Intern|Springfield, IL|Apr 28#1"
+    },
+    "588e01ca0f57": {
+      "company": "Horace Mann",
+      "role": "Cybersecurity SOC Analyst Intern",
+      "location": "Springfield, IL",
+      "term": "Apr 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12555,
+      "chat_id": 7582459199,
+      "seq": 11270,
+      "identity": "NOURL|Horace Mann|Cybersecurity SOC Analyst Intern|Springfield, IL|Apr 28#1"
+    },
+    "429bb5a121df": {
+      "company": "AssetMark",
+      "role": "QA Engineering Intern \ud83d\udec2",
+      "location": "Charlotte, NC",
+      "term": "Apr 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12556,
+      "chat_id": 7582459199,
+      "seq": 11271,
+      "identity": "NOURL|AssetMark|QA Engineering Intern \ud83d\udec2|Charlotte, NC|Apr 28#1"
+    },
+    "df73de177758": {
+      "company": "Trimble",
+      "role": "Software Engineer Intern, Firmware",
+      "location": "Richmond Hill, Canada",
+      "term": "Apr 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12557,
+      "chat_id": 7582459199,
+      "seq": 11272,
+      "identity": "NOURL|Trimble|Software Engineer Intern, Firmware|Richmond Hill, Canada|Apr 24#1"
+    },
+    "f65951fac12b": {
+      "company": "Thales",
+      "role": "Software Engineer Intern",
+      "location": "Cincinnati, OH",
+      "term": "Apr 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12558,
+      "chat_id": 7582459199,
+      "seq": 11273,
+      "identity": "NOURL|Thales|Software Engineer Intern|Cincinnati, OH|Apr 24#1"
+    },
+    "d5cca4504127": {
+      "company": "KBR",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Columbia, MD",
+      "term": "Apr 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12559,
+      "chat_id": 7582459199,
+      "seq": 11274,
+      "identity": "NOURL|KBR|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Columbia, MD|Apr 24#1"
     }
   },
   "applied": {
@@ -142047,10 +142347,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11249,
+  "seq": 11274,
   "health": {
     "last_heartbeat": "2026-11-10T18:25:27Z",
-    "last_ok_run": "2026-11-10T18:40:20Z",
+    "last_ok_run": "2026-11-10T18:45:56Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -142058,7 +142358,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T18:15:23Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T18:45:54Z"
     }
   }
 }
