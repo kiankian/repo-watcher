@@ -143624,6 +143624,18 @@
       "chat_id": 7582459199,
       "seq": 11415,
       "identity": "NOURL|RTX|Digital Technology Intern \ud83c\uddfa\ud83c\uddf8|Andover, MA|Nov 06#1"
+    },
+    "658ff941b898": {
+      "company": "Daimler Truck",
+      "role": "Cybersecurity Intern: Governance, Risk, and Compliance (GRC) Analyst",
+      "location": "Detroit, MI US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-dtna-dtna-external-DT-20656?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12720,
+      "chat_id": 7582459199,
+      "seq": 11416,
+      "identity": "https://zapply.jobs/l/d/workday-dtna-dtna-external-DT-20656?s=gh-internships-2027|Daimler Truck|Cybersecurity Intern: Governance, Risk, and Compliance (GRC) Analyst|Detroit, MI US|Summer 2027#1"
     }
   },
   "applied": {
@@ -143991,10 +144003,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11415,
+  "seq": 11416,
   "health": {
     "last_heartbeat": "2026-11-11T05:20:18Z",
-    "last_ok_run": "2026-11-11T05:20:18Z",
+    "last_ok_run": "2026-11-11T05:25:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
