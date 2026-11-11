@@ -146372,6 +146372,42 @@
       "chat_id": 7582459199,
       "seq": 11654,
       "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R70179?s=gh-internships-2027|Motorola Solutions|Software Engineering Intern - 2027 Summer Internship|Schaumburg, IL|Summer 2027#1"
+    },
+    "d2d6ffe74ca7": {
+      "company": "MKS Instruments",
+      "role": "Software Engineer Co-op",
+      "location": "Andover, MA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vn?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12974,
+      "chat_id": 7582459199,
+      "seq": 11655,
+      "identity": "https://go.vansh.nyc/1vn?s=y|MKS Instruments|Software Engineer Co-op|Andover, MA|Nov 11#1"
+    },
+    "7abc1043bcd5": {
+      "company": "Bloom Energy",
+      "role": "Data Science Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12975,
+      "chat_id": 7582459199,
+      "seq": 11656,
+      "identity": "https://go.vansh.nyc/1vm?s=y|Bloom Energy|Data Science Intern|San Jose, CA|Nov 11#1"
+    },
+    "00fcfaa4af84": {
+      "company": "First Citizens BancShares",
+      "role": "Applied AI Intern",
+      "location": "Raleigh, NC",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12976,
+      "chat_id": 7582459199,
+      "seq": 11657,
+      "identity": "NOURL|First Citizens BancShares|Applied AI Intern|Raleigh, NC|Nov 03#1"
     }
   },
   "applied": {
@@ -146739,10 +146775,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11654,
+  "seq": 11657,
   "health": {
     "last_heartbeat": "2026-11-11T21:00:29Z",
-    "last_ok_run": "2026-11-11T22:10:21Z",
+    "last_ok_run": "2026-11-11T22:15:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -146750,7 +146786,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T21:20:24Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T22:15:21Z",
       "duplicate-hash": "2026-11-11T06:00:31Z"
     }
   }
