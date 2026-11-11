@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "9ae194affb7037e0e53a83fc08f1abfe6a83d6e1",
+    "last_sha": "3942d2fe1f0341b50193c191a8315165f627fc18",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -3012,10 +3012,16 @@
       "https://jobs.ashbyhq.com/formulary/bbc4fef5-3cff-4879-89bc-65aba1214b04/application?embed=true&utm_source=Simplify&ref=Simplify|Formulary Financial|Software Engineer Intern|NYC|Summer 2026#1",
       "https://careers.marzetticompany.com/jobs/8128?icims=1&lang=en-us&utm_source=Simplify&ref=Simplify|The Marzetti Company|AI Solutions Intern - Human Resources|Columbus, OH|Summer 2026#1",
       "https://draftkings.wd1.myworkdayjobs.com/Employee_Referral_Portal/job/London-UK/Software-Engineering-Intern--Summer-2027-_JR15150-1?utm_source=Simplify&ref=Simplify|DraftKings|Software Engineer Intern|London, UK|Summer 2026#1",
-      "https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/London-UK/Software-Engineering-Intern--Summer-2027-_JR15150?utm_source=Simplify&ref=Simplify|DraftKings|Software Engineer Intern|London, UK|Summer 2026#1"
+      "https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/London-UK/Software-Engineering-Intern--Summer-2027-_JR15150?utm_source=Simplify&ref=Simplify|DraftKings|Software Engineer Intern|London, UK|Summer 2026#1",
+      "https://jobs.mcdonalds.com/job/Chicago-Global-Tech-Infrastructure-&-Operations-Intern-IL-60607/1449562300/?ats=successfactors&utm_source=Simplify&ref=Simplify|McDonald's|Global Tech Infrastructure & Operations Intern|Chicago, IL|Summer 2026#1",
+      "https://jobs.smartrecruiters.com/NBCUniversal3/744000161179529?utm_source=Simplify&ref=Simplify|NBCUniversal|Software Engineer Intern|Universal City, LA|Summer 2026#1",
+      "https://www.brex.com/careers/8936403002?gh_jid=8936403002&utm_source=Simplify&ref=Simplify|Brex|Software Engineer Intern|SF|Summer 2026#1",
+      "https://careers.formlabs.com/job/8374598/apply/?gh_jid=8374598&utm_source=Simplify&ref=Simplify|Formlabs|Manufacturing Test Software Intern - Manufacturing|Somerville, MA|Summer 2026#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineering-Intern--Summer-2027-_01888055?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Cedar Rapids, IA|Summer 2026#1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Aftermarket---Sustainment-Engineering-Methods-Engineering-Intern--Summer-2027--Onsite-_01887864?utm_source=Simplify&ref=Simplify|RTX|Aftermarket & Sustainment Engineering Methods Engineering Intern|East Hartford, CT|Summer 2026#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 507,
+    "last_row_count": 513,
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
@@ -8027,7 +8033,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "8deb5752bc847780a848801a6e9f8cba55dbbbb8",
+    "last_sha": "0e06bcea75b2faf0ff0323267810f447d65e1941",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -10655,7 +10661,9 @@
       "https://zapply.jobs/l/d/oracle-vertiv-20284817?s=gh-internships-2027|Vertiv|Software Engineering Intern (Graduate) (Summer 2027)|Huntsville, AL, United States|Summer 2027#1",
       "https://zapply.jobs/l/d/sr-NBCUniversal3-744000161179529?s=gh-internships-2027|NBCUniversal|Software Engineering Internships \u2013 Summer 2027|Universal City, CA|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-mksinst-mkscareersuniversity-R20610?s=gh-internships-2027|MKS Instruments|2027 Summer Software Engineer Co-op|Andover, MA|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030749?s=gh-internships-2027|Sierra Nevada Corporation|Systems Engineer Intern (Summer 2027)|Dayton, OH|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030749?s=gh-internships-2027|Sierra Nevada Corporation|Systems Engineer Intern (Summer 2027)|Dayton, OH|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-bloomenergy-bloomenergycareers-JR-25363?s=gh-internships-2027|Bloom Energy|RMCC Systems Engineering Intern|San Jose, California|Summer 2027#1",
+      "https://zapply.jobs/l/d/greenhouse-sharkninjaoperatingllc-4726164006?s=gh-internships-2027|SharkNinja|Spring 2027: Product Performance Test Engineer Co-op (January through June)|Needham, MA, United States|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",

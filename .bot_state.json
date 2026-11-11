@@ -146564,6 +146564,102 @@
       "chat_id": 7582459199,
       "seq": 11670,
       "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0030749?s=gh-internships-2027|Sierra Nevada Corporation|Systems Engineer Intern (Summer 2027)|Dayton, OH|Summer 2027#1"
+    },
+    "ce6e2d84e742": {
+      "company": "McDonald's",
+      "role": "Global Tech Infrastructure & Operations Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.mcdonalds.com/job/Chicago-Global-Tech-Infrastructure-&-Operations-Intern-IL-60607/1449562300/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12992,
+      "chat_id": 7582459199,
+      "seq": 11671,
+      "identity": "https://jobs.mcdonalds.com/job/Chicago-Global-Tech-Infrastructure-&-Operations-Intern-IL-60607/1449562300/?ats=successfactors&utm_source=Simplify&ref=Simplify|McDonald's|Global Tech Infrastructure & Operations Intern|Chicago, IL|Summer 2026#1"
+    },
+    "90a2b0972391": {
+      "company": "NBCUniversal",
+      "role": "Software Engineer Intern",
+      "location": "Universal City, LA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000161179529?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12993,
+      "chat_id": 7582459199,
+      "seq": 11672,
+      "identity": "https://jobs.smartrecruiters.com/NBCUniversal3/744000161179529?utm_source=Simplify&ref=Simplify|NBCUniversal|Software Engineer Intern|Universal City, LA|Summer 2026#1"
+    },
+    "9d89e9dec55d": {
+      "company": "Brex",
+      "role": "Software Engineer Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://www.brex.com/careers/8936403002?gh_jid=8936403002&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12994,
+      "chat_id": 7582459199,
+      "seq": 11673,
+      "identity": "https://www.brex.com/careers/8936403002?gh_jid=8936403002&utm_source=Simplify&ref=Simplify|Brex|Software Engineer Intern|SF|Summer 2026#1"
+    },
+    "62d4f0cbb1d4": {
+      "company": "Formlabs",
+      "role": "Manufacturing Test Software Intern - Manufacturing",
+      "location": "Somerville, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.formlabs.com/job/8374598/apply/?gh_jid=8374598&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12995,
+      "chat_id": 7582459199,
+      "seq": 11674,
+      "identity": "https://careers.formlabs.com/job/8374598/apply/?gh_jid=8374598&utm_source=Simplify&ref=Simplify|Formlabs|Manufacturing Test Software Intern - Manufacturing|Somerville, MA|Summer 2026#1"
+    },
+    "64bf0cfab3be": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Cedar Rapids, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineering-Intern--Summer-2027-_01888055?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12996,
+      "chat_id": 7582459199,
+      "seq": 11675,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineering-Intern--Summer-2027-_01888055?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Cedar Rapids, IA|Summer 2026#1"
+    },
+    "634c48383997": {
+      "company": "RTX",
+      "role": "Aftermarket & Sustainment Engineering Methods Engineering Intern",
+      "location": "East Hartford, CT",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Aftermarket---Sustainment-Engineering-Methods-Engineering-Intern--Summer-2027--Onsite-_01887864?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12997,
+      "chat_id": 7582459199,
+      "seq": 11676,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Aftermarket---Sustainment-Engineering-Methods-Engineering-Intern--Summer-2027--Onsite-_01887864?utm_source=Simplify&ref=Simplify|RTX|Aftermarket & Sustainment Engineering Methods Engineering Intern|East Hartford, CT|Summer 2026#1"
+    },
+    "d2840048cbb6": {
+      "company": "Bloom Energy",
+      "role": "RMCC Systems Engineering Intern",
+      "location": "San Jose, California",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bloomenergy-bloomenergycareers-JR-25363?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12998,
+      "chat_id": 7582459199,
+      "seq": 11677,
+      "identity": "https://zapply.jobs/l/d/workday-bloomenergy-bloomenergycareers-JR-25363?s=gh-internships-2027|Bloom Energy|RMCC Systems Engineering Intern|San Jose, California|Summer 2027#1"
+    },
+    "f503e8711255": {
+      "company": "SharkNinja",
+      "role": "Spring 2027: Product Performance Test Engineer Co-op (January through June)",
+      "location": "Needham, MA, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-sharkninjaoperatingllc-4726164006?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12999,
+      "chat_id": 7582459199,
+      "seq": 11678,
+      "identity": "https://zapply.jobs/l/d/greenhouse-sharkninjaoperatingllc-4726164006?s=gh-internships-2027|SharkNinja|Spring 2027: Product Performance Test Engineer Co-op (January through June)|Needham, MA, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -146931,10 +147027,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11670,
+  "seq": 11678,
   "health": {
     "last_heartbeat": "2026-11-11T23:30:22Z",
-    "last_ok_run": "2026-11-11T23:30:22Z",
+    "last_ok_run": "2026-11-11T23:35:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
