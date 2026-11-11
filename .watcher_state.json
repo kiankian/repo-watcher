@@ -3016,19 +3016,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "7f5e72ad727df4f7fb52e9f5b0cbeb69973abe3f",
+    "last_sha": "a1851d0d7b8b298b9638d5f24e4343792b15ab80",
     "seen": [
-      "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CT-CHESHIRE-250--250-Knotter-Dr--GOODRICH-CORP/Quality-Assurance-Intern--Summer-2027-_01882553?utm_source=github-vansh-ouckah|RTX|Quality Assurance Intern \ud83c\uddfa\ud83c\uddf8|Cheshire, CT|Oct 15#1",
-      "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--Summer-2027-_01882317?utm_source=github-vansh-ouckah|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Sterling, VA|Oct 15#1",
-      "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01882414?utm_source=github-vansh-ouckah|RTX|Software Engineering Co-op \ud83c\uddfa\ud83c\uddf8|Cedar Rapids, IA|Oct 15#1",
-      "https://rockwoolgroup.wd3.myworkdayjobs.com/en-US/ROCKWOOL/job/Chicago-Illinois/Associate-Product-Management-Intern_R0036805-2?utm_source=github-vansh-ouckah|ROCKWOOL Group|Associate Product Management Intern|Chicago, IL|Oct 15#1",
-      "https://intel.wd1.myworkdayjobs.com/en-US/External/job/Canada-Toronto/Compiler-Engineering-Intern_JR0287934?utm_source=github-vansh-ouckah|Intel|Compiler Engineering Intern|Toronto, ON|Oct 15#1",
-      "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer---Capacity---Performance-Engineering--Autonomous-Vehicles_JR-202622406?utm_source=github-vansh-ouckah|General Motors|AI/ML Engineer Intern, Capacity & Performance Engineering, Autonomous Vehicles|Sunnyvale, CA|Oct 15#1",
-      "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer--Autonomous-Vehicle-ML-Infrastructure_JR-202622410?utm_source=github-vansh-ouckah|General Motors|AI/ML Engineer Intern, Autonomous Vehicle ML Infrastructure|Sunnyvale, CA|Oct 15#1",
-      "https://job-boards.greenhouse.io/generalmatter/jobs/5448019008?utm_source=github-vansh-ouckah|General Matter|Information Security Engineer Intern|Los Angeles, CA|Oct 15#1",
-      "https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8888785002?utm_source=github-vansh-ouckah|Duolingo|Data Scientist Intern|Pittsburgh, PA New York, NY|Oct 15#1",
-      "https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002&utm_source=github-vansh-ouckah|Duolingo|Data Scientist Intern|New York, NY Pittsburgh, PA|Oct 15#1",
-      "https://draper.wd5.myworkdayjobs.com/en-US/draper_careers/job/Cambridge-MA/Operations-Engineering-Intern--Summer-2027-_JR003037?utm_source=github-vansh-ouckah|Draper|Operations Engineering Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Oct 15#1",
       "https://danaher.wd1.myworkdayjobs.com/en-US/danaherjobs/job/Logan-Utah-United-States/CCM-Data-Governance---Intern-Summer-2027_R1318977?utm_source=github-vansh-ouckah|Danaher Corporation|CCM Data Governance Intern|Logan, UT|Oct 15#1",
       "https://cigna.wd5.myworkdayjobs.com/en-US/cignacareers/job/Morris-Plains-NJ/Healthcare-Analytics-Summer-Intern---Morris-Plains--NJ---Start-Date--May-24--2027_26009483?utm_source=github-vansh-ouckah|Cigna|Healthcare Analytics Intern|Morris Plains, NJ|Oct 15#1",
       "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Arlington-VA/University--Digital-Transformation-Analyst-Intern_R0251716?utm_source=github-vansh-ouckah|Booz Allen Hamilton|Digital Transformation Analyst Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA|Oct 15#1",
@@ -8017,10 +8006,21 @@
       "NOURL|DuCharme, McMillen & Associates|Cybersecurity Intern|Fort Wayne, IN|Nov 03#1",
       "NOURL|Allegion|Firmware Engineer Intern, Advanced Development|Indianapolis, IN|Nov 02#1",
       "NOURL|7-Eleven|Data Engineer Intern|Irving, TX|Nov 08#1",
-      "NOURL|AMD|AGS Libraries Co-op|Calgary, Canada|Sep 01#1"
+      "NOURL|AMD|AGS Libraries Co-op|Calgary, Canada|Sep 01#1",
+      "https://go.vansh.nyc/1uC?s=y|Unisys|Software Engineer Intern|Eagan, MN|Nov 10#1",
+      "NOURL|Palantir Technologies|Deployment Strategist Intern, Warp Speed|New York, NY|Oct 22#1",
+      "NOURL|AMD|Machine Learning/Artificial Intelligence Co-op|Markham, Canada|Sep 01#1",
+      "NOURL|AMD|Hardware Design Engineer Co-op|Vancouver, Canada|Sep 01#1",
+      "NOURL|AMD|Diagnostics Design Engineer Co-op|Markham, Canada|Sep 01#1",
+      "NOURL|AMD|Firmware Engineer Co-op|Vancouver, Canada|Sep 01#1",
+      "NOURL|AMD|Hardware Design Engineer Co-op|Markham, Canada|Sep 01#1",
+      "NOURL|AMD|Graphics Software Engineer Co-op|Markham, Canada|Sep 01#1",
+      "NOURL|AMD|Firmware Engineer Co-op|Markham, Canada|Sep 01#1",
+      "NOURL|AMD|Software Engineering Co-op|Markham, Canada|Sep 01#1",
+      "NOURL|AMD|Software Test Engineering Co-op|Markham, Canada|Sep 01#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2718,
+    "last_row_count": 2719,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {

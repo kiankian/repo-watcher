@@ -144560,6 +144560,138 @@
       "chat_id": 7582459199,
       "seq": 11503,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01888017?s=gh-internships-2027|RTX|Software Engineering Intern (ISET-IN-2)|VA-STERLING|Summer 2027#1"
+    },
+    "a3a2ddd55aba": {
+      "company": "Unisys",
+      "role": "Software Engineer Intern",
+      "location": "Eagan, MN",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1uC?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12814,
+      "chat_id": 7582459199,
+      "seq": 11504,
+      "identity": "https://go.vansh.nyc/1uC?s=y|Unisys|Software Engineer Intern|Eagan, MN|Nov 10#1"
+    },
+    "eb0f8ccad3de": {
+      "company": "Palantir Technologies",
+      "role": "Deployment Strategist Intern, Warp Speed",
+      "location": "New York, NY",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12815,
+      "chat_id": 7582459199,
+      "seq": 11505,
+      "identity": "NOURL|Palantir Technologies|Deployment Strategist Intern, Warp Speed|New York, NY|Oct 22#1"
+    },
+    "c8461a9d9d7c": {
+      "company": "AMD",
+      "role": "Machine Learning/Artificial Intelligence Co-op",
+      "location": "Markham, Canada",
+      "term": "Sep 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12816,
+      "chat_id": 7582459199,
+      "seq": 11506,
+      "identity": "NOURL|AMD|Machine Learning/Artificial Intelligence Co-op|Markham, Canada|Sep 01#1"
+    },
+    "b3701bce0f92": {
+      "company": "AMD",
+      "role": "Hardware Design Engineer Co-op",
+      "location": "Vancouver, Canada",
+      "term": "Sep 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12817,
+      "chat_id": 7582459199,
+      "seq": 11507,
+      "identity": "NOURL|AMD|Hardware Design Engineer Co-op|Vancouver, Canada|Sep 01#1"
+    },
+    "d7dea42f3194": {
+      "company": "AMD",
+      "role": "Diagnostics Design Engineer Co-op",
+      "location": "Markham, Canada",
+      "term": "Sep 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12818,
+      "chat_id": 7582459199,
+      "seq": 11508,
+      "identity": "NOURL|AMD|Diagnostics Design Engineer Co-op|Markham, Canada|Sep 01#1"
+    },
+    "866d4b7e2777": {
+      "company": "AMD",
+      "role": "Firmware Engineer Co-op",
+      "location": "Vancouver, Canada",
+      "term": "Sep 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12819,
+      "chat_id": 7582459199,
+      "seq": 11509,
+      "identity": "NOURL|AMD|Firmware Engineer Co-op|Vancouver, Canada|Sep 01#1"
+    },
+    "a0309ed90207": {
+      "company": "AMD",
+      "role": "Hardware Design Engineer Co-op",
+      "location": "Markham, Canada",
+      "term": "Sep 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12820,
+      "chat_id": 7582459199,
+      "seq": 11510,
+      "identity": "NOURL|AMD|Hardware Design Engineer Co-op|Markham, Canada|Sep 01#1"
+    },
+    "e58d7ad8645b": {
+      "company": "AMD",
+      "role": "Graphics Software Engineer Co-op",
+      "location": "Markham, Canada",
+      "term": "Sep 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12821,
+      "chat_id": 7582459199,
+      "seq": 11511,
+      "identity": "NOURL|AMD|Graphics Software Engineer Co-op|Markham, Canada|Sep 01#1"
+    },
+    "c6d03f5f8927": {
+      "company": "AMD",
+      "role": "Firmware Engineer Co-op",
+      "location": "Markham, Canada",
+      "term": "Sep 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12822,
+      "chat_id": 7582459199,
+      "seq": 11512,
+      "identity": "NOURL|AMD|Firmware Engineer Co-op|Markham, Canada|Sep 01#1"
+    },
+    "bfe55c19840f": {
+      "company": "AMD",
+      "role": "Software Engineering Co-op",
+      "location": "Markham, Canada",
+      "term": "Sep 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12823,
+      "chat_id": 7582459199,
+      "seq": 11513,
+      "identity": "NOURL|AMD|Software Engineering Co-op|Markham, Canada|Sep 01#1"
+    },
+    "1987dd8a83a1": {
+      "company": "AMD",
+      "role": "Software Test Engineering Co-op",
+      "location": "Markham, Canada",
+      "term": "Sep 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12824,
+      "chat_id": 7582459199,
+      "seq": 11514,
+      "identity": "NOURL|AMD|Software Test Engineering Co-op|Markham, Canada|Sep 01#1"
     }
   },
   "applied": {
@@ -144927,10 +145059,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11503,
+  "seq": 11514,
   "health": {
     "last_heartbeat": "2026-11-11T13:50:19Z",
-    "last_ok_run": "2026-11-11T14:35:18Z",
+    "last_ok_run": "2026-11-11T14:40:40Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -144938,7 +145070,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T13:45:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T14:40:37Z",
       "duplicate-hash": "2026-11-11T06:00:31Z"
     }
   }
