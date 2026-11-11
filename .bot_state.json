@@ -16660,9 +16660,9 @@
       "term": "Aug 06",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 1996,
+      "message_id": 12776,
       "chat_id": 7582459199,
-      "seq": 831,
+      "seq": 11471,
       "identity": "NOURL|CNO Financial Group|Cyber Security IT Intern|Remote Carmel, IN|Aug 06#1"
     },
     "cb65a629522d": {
@@ -16672,9 +16672,9 @@
       "term": "Aug 04",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 1997,
+      "message_id": 12778,
       "chat_id": 7582459199,
-      "seq": 832,
+      "seq": 11472,
       "identity": "NOURL|RenderATL|Software Engineer Intern|Seattle, WA|Aug 04#1"
     },
     "2ccb43e966c2": {
@@ -16684,9 +16684,9 @@
       "term": "Aug 04",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 1998,
+      "message_id": 12779,
       "chat_id": 7582459199,
-      "seq": 833,
+      "seq": 11473,
       "identity": "NOURL|Netsmart|Software Engineer Intern \ud83d\udec2|Overland Park, KS|Aug 04#1"
     },
     "33da55e0a99a": {
@@ -16696,9 +16696,9 @@
       "term": "Aug 04",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 1999,
+      "message_id": 12780,
       "chat_id": 7582459199,
-      "seq": 834,
+      "seq": 11474,
       "identity": "NOURL|GoDaddy|Software Development Engineer Intern \ud83d\udec2|Tempe, AZ|Aug 04#1"
     },
     "7cacda639e10": {
@@ -16708,9 +16708,9 @@
       "term": "Aug 03",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 2000,
+      "message_id": 12781,
       "chat_id": 7582459199,
-      "seq": 835,
+      "seq": 11475,
       "identity": "NOURL|Capital One|Software Engineer Intern \ud83d\udec2|McLean, VA Plano, TX Richmond, VA|Aug 03#1"
     },
     "0df1ae985ceb": {
@@ -16720,9 +16720,9 @@
       "term": "Aug 03",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 2001,
+      "message_id": 12782,
       "chat_id": 7582459199,
-      "seq": 836,
+      "seq": 11476,
       "identity": "NOURL|Capital One|Cyber Security Intern \ud83d\udec2|McLean, VA Plano, TX|Aug 03#1"
     },
     "7b9a6fa20610": {
@@ -16732,9 +16732,9 @@
       "term": "Jul 24",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 2002,
+      "message_id": 12783,
       "chat_id": 7582459199,
-      "seq": 837,
+      "seq": 11477,
       "identity": "NOURL|Walleye Capital|Equity Volatility Quant Researcher Intern|Miami, FL|Jul 24#1"
     },
     "8314c132c124": {
@@ -16744,9 +16744,9 @@
       "term": "May 22",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 2003,
+      "message_id": 12784,
       "chat_id": 7582459199,
-      "seq": 838,
+      "seq": 11478,
       "identity": "NOURL|Cubist Systematic Strategies|Quantitative Developer Intern|New York, NY|May 22#1"
     },
     "3ac7f3b0173f": {
@@ -16756,9 +16756,9 @@
       "term": "May 09",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 2004,
+      "message_id": 12785,
       "chat_id": 7582459199,
-      "seq": 839,
+      "seq": 11479,
       "identity": "NOURL|Veeam Software|Software Engineering Intern, Platform, Security & AI|San Jose, CA|May 09#1"
     },
     "fa17278ec6a5": {
@@ -16768,9 +16768,9 @@
       "term": "May 09",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 2005,
+      "message_id": 12786,
       "chat_id": 7582459199,
-      "seq": 840,
+      "seq": 11480,
       "identity": "NOURL|Veeam Software|Software Engineering Intern, Policy Engineering|San Jose, CA|May 09#1"
     },
     "dca0909e00b7": {
@@ -144236,6 +144236,54 @@
       "chat_id": 7582459199,
       "seq": 11466,
       "identity": "https://go.vansh.nyc/1tm?s=y|M3 USA|AI Engineering Intern (Remote)|Remote United States|Sep 08#1"
+    },
+    "edc863bc380a": {
+      "company": "Apple",
+      "role": "Hardware Technologies Engineering Intern",
+      "location": "United States",
+      "term": "May 21",
+      "apply_url": "https://go.vansh.nyc/1tk?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12772,
+      "chat_id": 7582459199,
+      "seq": 11467,
+      "identity": "https://go.vansh.nyc/1tk?s=y|Apple|Hardware Technologies Engineering Intern|United States|May 21#1"
+    },
+    "b2c117a39dd4": {
+      "company": "Apple",
+      "role": "Hardware Engineering Intern",
+      "location": "United States",
+      "term": "May 21",
+      "apply_url": "https://go.vansh.nyc/1tl?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12773,
+      "chat_id": 7582459199,
+      "seq": 11468,
+      "identity": "https://go.vansh.nyc/1tl?s=y|Apple|Hardware Engineering Intern|United States|May 21#1"
+    },
+    "2330659ad526": {
+      "company": "American Express",
+      "role": "Undergraduate Program Software Engineer Intern, Enterprise Technology Services",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12774,
+      "chat_id": 7582459199,
+      "seq": 11469,
+      "identity": "NOURL|American Express|Undergraduate Program Software Engineer Intern, Enterprise Technology Services|Sunnyvale, CA|Nov 03#1"
+    },
+    "fa814c69d4d1": {
+      "company": "American Express",
+      "role": "Undergraduate Program Cybersecurity AI Engineer Intern, Enterprise Technology Services",
+      "location": "Phoenix, AZ",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12775,
+      "chat_id": 7582459199,
+      "seq": 11470,
+      "identity": "NOURL|American Express|Undergraduate Program Cybersecurity AI Engineer Intern, Enterprise Technology Services|Phoenix, AZ|Nov 02#1"
     }
   },
   "applied": {
@@ -144603,10 +144651,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11466,
+  "seq": 11480,
   "health": {
     "last_heartbeat": "2026-11-11T05:20:18Z",
-    "last_ok_run": "2026-11-11T05:55:51Z",
+    "last_ok_run": "2026-11-11T06:00:47Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -144615,7 +144663,7 @@
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T05:50:53Z",
-      "duplicate-hash": "2026-11-10T20:40:21Z"
+      "duplicate-hash": "2026-11-11T06:00:31Z"
     }
   }
 }
