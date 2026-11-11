@@ -146408,6 +146408,102 @@
       "chat_id": 7582459199,
       "seq": 11657,
       "identity": "NOURL|First Citizens BancShares|Applied AI Intern|Raleigh, NC|Nov 03#1"
+    },
+    "6752f323f947": {
+      "company": "HUB International",
+      "role": "AI Engineering Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12978,
+      "chat_id": 7582459199,
+      "seq": 11658,
+      "identity": "https://go.vansh.nyc/1vr?s=y|HUB International|AI Engineering Intern|Chicago, IL|Nov 11#1"
+    },
+    "18391c4c9764": {
+      "company": "Farmers Mutual Hail",
+      "role": "AI Intern",
+      "location": "West Des Moines, IA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12979,
+      "chat_id": 7582459199,
+      "seq": 11659,
+      "identity": "https://go.vansh.nyc/1vq?s=y|Farmers Mutual Hail|AI Intern|West Des Moines, IA|Nov 11#1"
+    },
+    "fb17e2ee046b": {
+      "company": "Zotec Partners",
+      "role": "Software Engineer Intern, RCI",
+      "location": "Carmel, IN",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1vo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12980,
+      "chat_id": 7582459199,
+      "seq": 11660,
+      "identity": "https://go.vansh.nyc/1vo?s=y|Zotec Partners|Software Engineer Intern, RCI|Carmel, IN|Nov 10#1"
+    },
+    "61ab557358eb": {
+      "company": "Zotec Partners",
+      "role": "Software Engineer Intern",
+      "location": "Carmel, IN",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1vp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12981,
+      "chat_id": 7582459199,
+      "seq": 11661,
+      "identity": "https://go.vansh.nyc/1vp?s=y|Zotec Partners|Software Engineer Intern|Carmel, IN|Nov 10#1"
+    },
+    "cbd097e29b6a": {
+      "company": "SK Hynix Memory Solution",
+      "role": "ASIC Design Intern",
+      "location": "San Jose, CA",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12982,
+      "chat_id": 7582459199,
+      "seq": 11662,
+      "identity": "NOURL|SK Hynix Memory Solution|ASIC Design Intern|San Jose, CA|Oct 19#1"
+    },
+    "3b745ab6b2af": {
+      "company": "Rocket Companies",
+      "role": "Marketing, Accounting, or IT Intern",
+      "location": "Detroit, MI",
+      "term": "Oct 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12983,
+      "chat_id": 7582459199,
+      "seq": 11663,
+      "identity": "NOURL|Rocket Companies|Marketing, Accounting, or IT Intern|Detroit, MI|Oct 16#1"
+    },
+    "7b4d58482ef1": {
+      "company": "Wellmark",
+      "role": "Software Engineer Intern - User Experience Team",
+      "location": "Des Moines, IA",
+      "term": "Sep 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12984,
+      "chat_id": 7582459199,
+      "seq": 11664,
+      "identity": "NOURL|Wellmark|Software Engineer Intern - User Experience Team|Des Moines, IA|Sep 10#1"
+    },
+    "8241e663e687": {
+      "company": "Pilot Company",
+      "role": "Data Governance Intern",
+      "location": "Knoxville, TN",
+      "term": "Sep 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12985,
+      "chat_id": 7582459199,
+      "seq": 11665,
+      "identity": "NOURL|Pilot Company|Data Governance Intern|Knoxville, TN|Sep 09#1"
     }
   },
   "applied": {
@@ -146775,10 +146871,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11657,
+  "seq": 11665,
   "health": {
     "last_heartbeat": "2026-11-11T22:20:18Z",
-    "last_ok_run": "2026-11-11T22:40:20Z",
+    "last_ok_run": "2026-11-11T22:45:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -146786,7 +146882,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T22:15:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T22:45:26Z",
       "duplicate-hash": "2026-11-11T06:00:31Z"
     }
   }
