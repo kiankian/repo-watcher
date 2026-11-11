@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "132c7d38fe734fa5fdcde87c465fef91764001cb",
+    "last_sha": "e98ddf43fcad4c170a7a6dd17a4e099214235171",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -8027,7 +8027,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "843adb343fc49892ea934d408058c4a2fb16349a",
+    "last_sha": "1019155ae5c1a4a85aa5f06964ec44376babbb78",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -12996,7 +12996,31 @@
       "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381219|T-Mobile|Summer 2027 T-Ads Software Engineering Internship|Philadelphia, PA|Other#1",
       "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381225|T-Mobile|Summer 2027 T-Ads Software Engineering Internship|Philadelphia, PA|Other#1",
       "https://trimble.wd1.myworkdayjobs.com/en-US/trimblecareers/job/US---TN-Knoxville/Software-Engineering-Intern_R58120|Trimble|Software Engineering Intern|Knoxville, TN|Other#1",
-      "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000160896184-manufacturing-software-engineer-intern?oga=true|Veolia|Manufacturing Software Engineer Intern|Boulder, CO|Other#1"
+      "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000160896184-manufacturing-software-engineer-intern?oga=true|Veolia|Manufacturing Software Engineer Intern|Boulder, CO|Other#1",
+      "https://visa.wd5.myworkdayjobs.com/en-US/visa_talent_portal/job/US---Foster-City-CA/Software-Engineer--Intern---2027-Foster-City--CA_REF085862W|Visa|Software Engineer - Intern - 2027 Foster City - CA|Foster City, CA|Other#1",
+      "https://trilogycareers-trilogyhs.icims.com/jobs/214624/job|Trilogy Health Services|Information Systems Developer of AI Intern|Louisville, KY|Other#1",
+      "https://jobs.ashbyhq.com/notion/43ffba97-b64a-4c6a-ac13-c803253c9413|Notion|Software Engineering Intern - Frontend - Summer 2027|New York City, NY +1|Other#1",
+      "https://careers-garmin.icims.com/jobs/21321/job|Garmin|IT DevOps Administrator Intern|Olathe, KS|Other#1",
+      "https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743|Palantir|Software Engineer - Intern - Connectivity Platform and Product|New York City, NY|Other#1",
+      "https://jobs.lever.co/palantir/45e4617d-d658-4b30-8dc9-378ca84a027a|Palantir|Software Engineer - Internship - Data Connectors|New York City, NY|Other#1",
+      "https://careers-keysight.icims.com/jobs/56415/job|Keysight Technologies|R&D Software Engineer - Intern|Colorado Springs, CO|Other#1",
+      "https://careers-spa.icims.com/jobs/23699/job|Systems Planning and Analysis|UI/UX Software Intern - Summer 2027|Alexandria, VA|Other#1",
+      "https://uscareers-docusign.icims.com/jobs/30496/job|Docusign|Software Engineer Intern|Seattle, WA|Other#1",
+      "https://uscareers-docusign.icims.com/jobs/30488/job|Docusign|Software Engineer Intern|Seattle, WA|Other#1",
+      "https://uscareers-docusign.icims.com/jobs/30470/job|Docusign|Software Engineer Intern|Chicago, IL|Other#1",
+      "https://careers-keysight.icims.com/jobs/55110/job|Keysight Technologies|R&D Software Engineering - Intern|Santa Rosa, CA|Other#1",
+      "https://careers-keysight.icims.com/jobs/54805/job|Keysight Technologies|R&D Software Engineer Intern|Santa Clara, CA|Other#1",
+      "https://careers-keysight.icims.com/jobs/54619/job|Keysight Technologies|Intern - Photonics Design Software & Automation Engineer - PhD Level|Santa Clara, CA|Other#1",
+      "https://careers-garmin.icims.com/jobs/20129/job|Garmin|Software Engineer Intern|Brea, CA|Other#1",
+      "https://uscareers-medpace.icims.com/jobs/13059/job|Medpace|Python Developer Internship - Summer 2027|Cincinnati, OH|Other#1",
+      "https://careers-garmin.icims.com/jobs/19848/job|Garmin|Software Engineering Intern|Tucson, AZ|Other#1",
+      "https://careers.withwaymo.com/jobs?gh_jid=8257205|Waymo|2027 Summer Intern - BS/MS/PhD - Software Engineer - Eval Data Infra|Mountain View, CA|Other#1",
+      "https://careers-garmin.icims.com/jobs/20055/job|Garmin|Software Engineering Intern|Texas, USA|Other#1",
+      "https://careers-garmin.icims.com/jobs/20255/job|Garmin|Software Engineering Intern|Louisville, CO|Other#1",
+      "https://uscareers-medpace.icims.com/jobs/12923/job|Medpace|Software QA Test Engineer Intern - Spring 2027|Cincinnati, OH|Other#1",
+      "https://uscareers-medpace.icims.com/jobs/12922/job|Medpace|Software Development Co-Op - Spring 2027|Cincinnati, OH|Other#1",
+      "https://uscareers-cvent.icims.com/jobs/10806/job|Cvent|Software Engineer Intern - Summer 2027|Tysons, VA|Other#1",
+      "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Greenville-Wisconsin-United-States/Engineer-Intern---Software--Summer-2027-_R49745|Oshkosh|Engineer Intern - Software - Summer 2027|Oshkosh, WI|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -13141,271 +13165,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 735,
-    "outbox": [
-      [
-        [
-          "Visa",
-          "Software Engineer - Intern - 2027 Foster City - CA",
-          "Foster City, CA",
-          "Other",
-          "https://visa.wd5.myworkdayjobs.com/en-US/visa_talent_portal/job/US---Foster-City-CA/Software-Engineer--Intern---2027-Foster-City--CA_REF085862W"
-        ],
-        "https://visa.wd5.myworkdayjobs.com/en-US/visa_talent_portal/job/US---Foster-City-CA/Software-Engineer--Intern---2027-Foster-City--CA_REF085862W|Visa|Software Engineer - Intern - 2027 Foster City - CA|Foster City, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Trilogy Health Services",
-          "Information Systems Developer of AI Intern",
-          "Louisville, KY",
-          "Other",
-          "https://trilogycareers-trilogyhs.icims.com/jobs/214624/job"
-        ],
-        "https://trilogycareers-trilogyhs.icims.com/jobs/214624/job|Trilogy Health Services|Information Systems Developer of AI Intern|Louisville, KY|Other#1",
-        1
-      ],
-      [
-        [
-          "Notion",
-          "Software Engineering Intern - Frontend - Summer 2027",
-          "New York City, NY +1",
-          "Other",
-          "https://jobs.ashbyhq.com/notion/43ffba97-b64a-4c6a-ac13-c803253c9413"
-        ],
-        "https://jobs.ashbyhq.com/notion/43ffba97-b64a-4c6a-ac13-c803253c9413|Notion|Software Engineering Intern - Frontend - Summer 2027|New York City, NY +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Garmin",
-          "IT DevOps Administrator Intern",
-          "Olathe, KS",
-          "Other",
-          "https://careers-garmin.icims.com/jobs/21321/job"
-        ],
-        "https://careers-garmin.icims.com/jobs/21321/job|Garmin|IT DevOps Administrator Intern|Olathe, KS|Other#1",
-        1
-      ],
-      [
-        [
-          "Palantir",
-          "Software Engineer - Intern - Connectivity Platform and Product",
-          "New York City, NY",
-          "Other",
-          "https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743"
-        ],
-        "https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743|Palantir|Software Engineer - Intern - Connectivity Platform and Product|New York City, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "Palantir",
-          "Software Engineer - Internship - Data Connectors",
-          "New York City, NY",
-          "Other",
-          "https://jobs.lever.co/palantir/45e4617d-d658-4b30-8dc9-378ca84a027a"
-        ],
-        "https://jobs.lever.co/palantir/45e4617d-d658-4b30-8dc9-378ca84a027a|Palantir|Software Engineer - Internship - Data Connectors|New York City, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "R&D Software Engineer - Intern",
-          "Colorado Springs, CO",
-          "Other",
-          "https://careers-keysight.icims.com/jobs/56415/job"
-        ],
-        "https://careers-keysight.icims.com/jobs/56415/job|Keysight Technologies|R&D Software Engineer - Intern|Colorado Springs, CO|Other#1",
-        1
-      ],
-      [
-        [
-          "Systems Planning and Analysis",
-          "UI/UX Software Intern - Summer 2027",
-          "Alexandria, VA",
-          "Other",
-          "https://careers-spa.icims.com/jobs/23699/job"
-        ],
-        "https://careers-spa.icims.com/jobs/23699/job|Systems Planning and Analysis|UI/UX Software Intern - Summer 2027|Alexandria, VA|Other#1",
-        1
-      ],
-      [
-        [
-          "Docusign",
-          "Software Engineer Intern",
-          "Seattle, WA",
-          "Other",
-          "https://uscareers-docusign.icims.com/jobs/30496/job"
-        ],
-        "https://uscareers-docusign.icims.com/jobs/30496/job|Docusign|Software Engineer Intern|Seattle, WA|Other#1",
-        1
-      ],
-      [
-        [
-          "Docusign",
-          "Software Engineer Intern",
-          "Seattle, WA",
-          "Other",
-          "https://uscareers-docusign.icims.com/jobs/30488/job"
-        ],
-        "https://uscareers-docusign.icims.com/jobs/30488/job|Docusign|Software Engineer Intern|Seattle, WA|Other#1",
-        1
-      ],
-      [
-        [
-          "Docusign",
-          "Software Engineer Intern",
-          "Chicago, IL",
-          "Other",
-          "https://uscareers-docusign.icims.com/jobs/30470/job"
-        ],
-        "https://uscareers-docusign.icims.com/jobs/30470/job|Docusign|Software Engineer Intern|Chicago, IL|Other#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "R&D Software Engineering - Intern",
-          "Santa Rosa, CA",
-          "Other",
-          "https://careers-keysight.icims.com/jobs/55110/job"
-        ],
-        "https://careers-keysight.icims.com/jobs/55110/job|Keysight Technologies|R&D Software Engineering - Intern|Santa Rosa, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "R&D Software Engineer Intern",
-          "Santa Clara, CA",
-          "Other",
-          "https://careers-keysight.icims.com/jobs/54805/job"
-        ],
-        "https://careers-keysight.icims.com/jobs/54805/job|Keysight Technologies|R&D Software Engineer Intern|Santa Clara, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Keysight Technologies",
-          "Intern - Photonics Design Software & Automation Engineer - PhD Level",
-          "Santa Clara, CA",
-          "Other",
-          "https://careers-keysight.icims.com/jobs/54619/job"
-        ],
-        "https://careers-keysight.icims.com/jobs/54619/job|Keysight Technologies|Intern - Photonics Design Software & Automation Engineer - PhD Level|Santa Clara, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Garmin",
-          "Software Engineer Intern",
-          "Brea, CA",
-          "Other",
-          "https://careers-garmin.icims.com/jobs/20129/job"
-        ],
-        "https://careers-garmin.icims.com/jobs/20129/job|Garmin|Software Engineer Intern|Brea, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Medpace",
-          "Python Developer Internship - Summer 2027",
-          "Cincinnati, OH",
-          "Other",
-          "https://uscareers-medpace.icims.com/jobs/13059/job"
-        ],
-        "https://uscareers-medpace.icims.com/jobs/13059/job|Medpace|Python Developer Internship - Summer 2027|Cincinnati, OH|Other#1",
-        1
-      ],
-      [
-        [
-          "Garmin",
-          "Software Engineering Intern",
-          "Tucson, AZ",
-          "Other",
-          "https://careers-garmin.icims.com/jobs/19848/job"
-        ],
-        "https://careers-garmin.icims.com/jobs/19848/job|Garmin|Software Engineering Intern|Tucson, AZ|Other#1",
-        1
-      ],
-      [
-        [
-          "Waymo",
-          "2027 Summer Intern - BS/MS/PhD - Software Engineer - Eval Data Infra",
-          "Mountain View, CA",
-          "Other",
-          "https://careers.withwaymo.com/jobs?gh_jid=8257205"
-        ],
-        "https://careers.withwaymo.com/jobs?gh_jid=8257205|Waymo|2027 Summer Intern - BS/MS/PhD - Software Engineer - Eval Data Infra|Mountain View, CA|Other#1",
-        1
-      ],
-      [
-        [
-          "Garmin",
-          "Software Engineering Intern",
-          "Texas, USA",
-          "Other",
-          "https://careers-garmin.icims.com/jobs/20055/job"
-        ],
-        "https://careers-garmin.icims.com/jobs/20055/job|Garmin|Software Engineering Intern|Texas, USA|Other#1",
-        1
-      ],
-      [
-        [
-          "Garmin",
-          "Software Engineering Intern",
-          "Louisville, CO",
-          "Other",
-          "https://careers-garmin.icims.com/jobs/20255/job"
-        ],
-        "https://careers-garmin.icims.com/jobs/20255/job|Garmin|Software Engineering Intern|Louisville, CO|Other#1",
-        1
-      ],
-      [
-        [
-          "Medpace",
-          "Software QA Test Engineer Intern - Spring 2027",
-          "Cincinnati, OH",
-          "Other",
-          "https://uscareers-medpace.icims.com/jobs/12923/job"
-        ],
-        "https://uscareers-medpace.icims.com/jobs/12923/job|Medpace|Software QA Test Engineer Intern - Spring 2027|Cincinnati, OH|Other#1",
-        1
-      ],
-      [
-        [
-          "Medpace",
-          "Software Development Co-Op - Spring 2027",
-          "Cincinnati, OH",
-          "Other",
-          "https://uscareers-medpace.icims.com/jobs/12922/job"
-        ],
-        "https://uscareers-medpace.icims.com/jobs/12922/job|Medpace|Software Development Co-Op - Spring 2027|Cincinnati, OH|Other#1",
-        1
-      ],
-      [
-        [
-          "Cvent",
-          "Software Engineer Intern - Summer 2027",
-          "Tysons, VA",
-          "Other",
-          "https://uscareers-cvent.icims.com/jobs/10806/job"
-        ],
-        "https://uscareers-cvent.icims.com/jobs/10806/job|Cvent|Software Engineer Intern - Summer 2027|Tysons, VA|Other#1",
-        1
-      ],
-      [
-        [
-          "Oshkosh",
-          "Engineer Intern - Software - Summer 2027",
-          "Oshkosh, WI",
-          "Other",
-          "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Greenville-Wisconsin-United-States/Engineer-Intern---Software--Summer-2027-_R49745"
-        ],
-        "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/oshkosh/job/Greenville-Wisconsin-United-States/Engineer-Intern---Software--Summer-2027-_R49745|Oshkosh|Engineer Intern - Software - Summer 2027|Oshkosh, WI|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }
