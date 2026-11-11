@@ -144884,6 +144884,78 @@
       "chat_id": 7582459199,
       "seq": 11530,
       "identity": "NOURL|McDonald's|Software Engineer Intern|Chicago, IL|Nov 09#1"
+    },
+    "25565cecada4": {
+      "company": "The Marzetti Company",
+      "role": "AI Solutions Intern, Human Resources",
+      "location": "Columbus, OH",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1uM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12843,
+      "chat_id": 7582459199,
+      "seq": 11531,
+      "identity": "https://go.vansh.nyc/1uM?s=y|The Marzetti Company|AI Solutions Intern, Human Resources|Columbus, OH|Nov 11#1"
+    },
+    "5d66f973732c": {
+      "company": "Marvell",
+      "role": "Digital IC Design Intern",
+      "location": "**5 locations**Hudson Valley, NY Austin, TX Irvine, CA Santa Clara, CA Boise, ID",
+      "term": "Sep 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12844,
+      "chat_id": 7582459199,
+      "seq": 11532,
+      "identity": "NOURL|Marvell|Digital IC Design Intern|**5 locations**Hudson Valley, NY Austin, TX Irvine, CA Santa Clara, CA Boise, ID|Sep 20#1"
+    },
+    "e83574f82488": {
+      "company": "Marvell",
+      "role": "Design Verification Intern",
+      "location": "**5 locations**Morrisville, NC Austin, TX Santa Clara, CA Boise, ID Westborough, MA",
+      "term": "Sep 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12845,
+      "chat_id": 7582459199,
+      "seq": 11533,
+      "identity": "NOURL|Marvell|Design Verification Intern|**5 locations**Morrisville, NC Austin, TX Santa Clara, CA Boise, ID Westborough, MA|Sep 03#1"
+    },
+    "0f9ab09e4123": {
+      "company": "Marvell",
+      "role": "Physical Design Engineer Intern",
+      "location": "**7 locations**Morrisville, NC Austin, TX Rochester, MN Santa Clara, CA Boise, ID Burlington, VT Westborough, MA",
+      "term": "Sep 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12846,
+      "chat_id": 7582459199,
+      "seq": 11534,
+      "identity": "NOURL|Marvell|Physical Design Engineer Intern|**7 locations**Morrisville, NC Austin, TX Rochester, MN Santa Clara, CA Boise, ID Burlington, VT Westborough, MA|Sep 03#1"
+    },
+    "2db726028279": {
+      "company": "Bose",
+      "role": "Digital Signal Processing ML Software Development Co-op",
+      "location": "US, MA - Framingham",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-boseallaboutme-bose-careers-R29372?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12848,
+      "chat_id": 7582459199,
+      "seq": 11535,
+      "identity": "https://zapply.jobs/l/d/workday-boseallaboutme-bose-careers-R29372?s=gh-internships-2027|Bose|Digital Signal Processing ML Software Development Co-op|US, MA - Framingham|Summer 2027#1"
+    },
+    "5ce1a895204a": {
+      "company": "Brex",
+      "role": "Software Engineer, Intern  (Summer 2027)",
+      "location": "San Francisco, California,...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-brex-8936403002?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12849,
+      "chat_id": 7582459199,
+      "seq": 11536,
+      "identity": "https://zapply.jobs/l/d/greenhouse-brex-8936403002?s=gh-internships-2027|Brex|Software Engineer, Intern  (Summer 2027)|San Francisco, California,...|Summer 2027#1"
     }
   },
   "applied": {
@@ -145251,10 +145323,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11530,
+  "seq": 11536,
   "health": {
     "last_heartbeat": "2026-11-11T16:00:24Z",
-    "last_ok_run": "2026-11-11T16:40:18Z",
+    "last_ok_run": "2026-11-11T16:45:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -145262,7 +145334,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T15:45:25Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T16:45:22Z",
       "duplicate-hash": "2026-11-11T06:00:31Z"
     }
   }
