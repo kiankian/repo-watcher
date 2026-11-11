@@ -143528,6 +143528,30 @@
       "chat_id": 7582459199,
       "seq": 11407,
       "identity": "https://jobs.ashbyhq.com/shield/661d7ac4-51df-454d-82c8-2a0d94852036/application?embed=true&utm_source=Simplify&ref=Simplify|Shield AI|Software Engineer Intern|San Diego, CA|Summer 2026#1"
+    },
+    "272988dab8f9": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Richardson, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01888049?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12709,
+      "chat_id": 7582459199,
+      "seq": 11408,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01888049?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|Richardson, TX|Summer 2026#1"
+    },
+    "433c588c027e": {
+      "company": "Formulary Financial",
+      "role": "Software Engineer Intern",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/formulary/bbc4fef5-3cff-4879-89bc-65aba1214b04/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12710,
+      "chat_id": 7582459199,
+      "seq": 11409,
+      "identity": "https://jobs.ashbyhq.com/formulary/bbc4fef5-3cff-4879-89bc-65aba1214b04/application?embed=true&utm_source=Simplify&ref=Simplify|Formulary Financial|Software Engineer Intern|NYC|Summer 2026#1"
     }
   },
   "applied": {
@@ -143895,10 +143919,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11407,
+  "seq": 11409,
   "health": {
     "last_heartbeat": "2026-11-11T02:10:18Z",
-    "last_ok_run": "2026-11-11T03:00:23Z",
+    "last_ok_run": "2026-11-11T03:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
