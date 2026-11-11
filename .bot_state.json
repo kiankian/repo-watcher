@@ -144284,6 +144284,114 @@
       "chat_id": 7582459199,
       "seq": 11470,
       "identity": "NOURL|American Express|Undergraduate Program Cybersecurity AI Engineer Intern, Enterprise Technology Services|Phoenix, AZ|Nov 02#1"
+    },
+    "933c9d59b23f": {
+      "company": "Welltower",
+      "role": "Cyber Security Intern",
+      "location": "Frisco, TX",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1uw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12787,
+      "chat_id": 7582459199,
+      "seq": 11481,
+      "identity": "https://go.vansh.nyc/1uw?s=y|Welltower|Cyber Security Intern|Frisco, TX|Nov 10#1"
+    },
+    "f53aa82cc9a4": {
+      "company": "SimVentions",
+      "role": "Cybersecurity Intern",
+      "location": "Fredericksburg, VA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1uu?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12788,
+      "chat_id": 7582459199,
+      "seq": 11482,
+      "identity": "https://go.vansh.nyc/1uu?s=y|SimVentions|Cybersecurity Intern|Fredericksburg, VA|Nov 10#1"
+    },
+    "c2e279eb61ad": {
+      "company": "SimVentions",
+      "role": "Software Development Intern",
+      "location": "Fredericksburg, VA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1uv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12789,
+      "chat_id": 7582459199,
+      "seq": 11483,
+      "identity": "https://go.vansh.nyc/1uv?s=y|SimVentions|Software Development Intern|Fredericksburg, VA|Nov 10#1"
+    },
+    "8b5be2c6f3d4": {
+      "company": "Daimler Truck",
+      "role": "Governance, Risk, and Compliance (GRC) Analyst Intern, Cybersecurity",
+      "location": "Detroit, MI",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1uo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12790,
+      "chat_id": 7582459199,
+      "seq": 11484,
+      "identity": "https://go.vansh.nyc/1uo?s=y|Daimler Truck|Governance, Risk, and Compliance (GRC) Analyst Intern, Cybersecurity|Detroit, MI|Nov 10#1"
+    },
+    "578e80eb9b40": {
+      "company": "Navy Federal",
+      "role": "Associate Data Engineer Intern",
+      "location": "Vienna, VA",
+      "term": "Sep 08",
+      "apply_url": "https://go.vansh.nyc/1up?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12791,
+      "chat_id": 7582459199,
+      "seq": 11485,
+      "identity": "https://go.vansh.nyc/1up?s=y|Navy Federal|Associate Data Engineer Intern|Vienna, VA|Sep 08#1"
+    },
+    "dab4cb603072": {
+      "company": "Navy Federal",
+      "role": "Associate Zero Trust Information Security Analyst Intern",
+      "location": "Vienna, VA",
+      "term": "Sep 08",
+      "apply_url": "https://go.vansh.nyc/1uq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12792,
+      "chat_id": 7582459199,
+      "seq": 11486,
+      "identity": "https://go.vansh.nyc/1uq?s=y|Navy Federal|Associate Zero Trust Information Security Analyst Intern|Vienna, VA|Sep 08#1"
+    },
+    "504636794137": {
+      "company": "Navy Federal",
+      "role": "Associate Product Security Engineer Intern",
+      "location": "Vienna, VA",
+      "term": "Sep 08",
+      "apply_url": "https://go.vansh.nyc/1ur?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12793,
+      "chat_id": 7582459199,
+      "seq": 11487,
+      "identity": "https://go.vansh.nyc/1ur?s=y|Navy Federal|Associate Product Security Engineer Intern|Vienna, VA|Sep 08#1"
+    },
+    "a24a358da753": {
+      "company": "Navy Federal",
+      "role": "Associate Information Security Analyst Intern",
+      "location": "Vienna, VA",
+      "term": "Sep 08",
+      "apply_url": "https://go.vansh.nyc/1us?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12794,
+      "chat_id": 7582459199,
+      "seq": 11488,
+      "identity": "https://go.vansh.nyc/1us?s=y|Navy Federal|Associate Information Security Analyst Intern|Vienna, VA|Sep 08#1"
+    },
+    "f00c1fd84ebf": {
+      "company": "Echo",
+      "role": "Software Engineering Intern",
+      "location": "Chicago, IL Remote United States",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12795,
+      "chat_id": 7582459199,
+      "seq": 11489,
+      "identity": "NOURL|Echo|Software Engineering Intern|Chicago, IL Remote United States|Nov 10#1"
     }
   },
   "applied": {
@@ -144651,10 +144759,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11480,
+  "seq": 11489,
   "health": {
     "last_heartbeat": "2026-11-11T05:20:18Z",
-    "last_ok_run": "2026-11-11T06:10:20Z",
+    "last_ok_run": "2026-11-11T06:15:32Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
