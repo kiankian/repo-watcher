@@ -143432,6 +143432,54 @@
       "chat_id": 7582459199,
       "seq": 11399,
       "identity": "https://go.vansh.nyc/1sE?s=y|Cisco|Software Engineer Embedded Systems I Intern|San Jose, CA Austin, TX Research Triangle Park, NC|Nov 10#1"
+    },
+    "723108a89339": {
+      "company": "National Information Solutions Cooperative",
+      "role": "Test Automation Intern",
+      "location": "Lake Saint Louis, MO",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1sM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12700,
+      "chat_id": 7582459199,
+      "seq": 11400,
+      "identity": "https://go.vansh.nyc/1sM?s=y|National Information Solutions Cooperative|Test Automation Intern|Lake Saint Louis, MO|Nov 10#1"
+    },
+    "eb9286fc8694": {
+      "company": "Minitab",
+      "role": "Cybersecurity Intern",
+      "location": "State College, PA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1sN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12701,
+      "chat_id": 7582459199,
+      "seq": 11401,
+      "identity": "https://go.vansh.nyc/1sN?s=y|Minitab|Cybersecurity Intern|State College, PA|Nov 10#1"
+    },
+    "0a80a8c7bb79": {
+      "company": "Compeer Financial",
+      "role": "Data Analytics Intern \ud83d\udec2",
+      "location": "**5 locations**Lakeville, MN Mankato, MN Rochester, MN Eau Claire, WI Bloomington, IL",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1sL?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12702,
+      "chat_id": 7582459199,
+      "seq": 11402,
+      "identity": "https://go.vansh.nyc/1sL?s=y|Compeer Financial|Data Analytics Intern \ud83d\udec2|**5 locations**Lakeville, MN Mankato, MN Rochester, MN Eau Claire, WI Bloomington, IL|Nov 10#1"
+    },
+    "e17172078d30": {
+      "company": "GlobalFoundries",
+      "role": "AI/ML Systems Engineering Intern",
+      "location": "Richardson, TX",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12703,
+      "chat_id": 7582459199,
+      "seq": 11403,
+      "identity": "NOURL|GlobalFoundries|AI/ML Systems Engineering Intern|Richardson, TX|Oct 19#1"
     }
   },
   "applied": {
@@ -143799,10 +143847,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11399,
+  "seq": 11403,
   "health": {
     "last_heartbeat": "2026-11-11T02:10:18Z",
-    "last_ok_run": "2026-11-11T02:10:18Z",
+    "last_ok_run": "2026-11-11T02:15:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -143810,7 +143858,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T01:17:40Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T02:15:21Z",
       "duplicate-hash": "2026-11-10T20:40:21Z"
     }
   }
