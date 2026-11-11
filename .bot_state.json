@@ -145004,6 +145004,66 @@
       "chat_id": 7582459199,
       "seq": 11540,
       "identity": "NOURL|GlobalFoundries|Software Engineer Intern|Austin, TX Santa Clara, CA|Oct 08#1"
+    },
+    "9db3ce4786e8": {
+      "company": "Revvity",
+      "role": "Full-Stack AI Developer Intern",
+      "location": "Canada",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12854,
+      "chat_id": 7582459199,
+      "seq": 11541,
+      "identity": "NOURL|Revvity|Full-Stack AI Developer Intern|Canada|Oct 29#1"
+    },
+    "8128720fb1c8": {
+      "company": "Regeneron Pharmaceuticals",
+      "role": "Genomics, Computational Biology & Translational Data Science Intern",
+      "location": "Tarrytown, NY Sleepy Hollow, NY",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12855,
+      "chat_id": 7582459199,
+      "seq": 11542,
+      "identity": "NOURL|Regeneron Pharmaceuticals|Genomics, Computational Biology & Translational Data Science Intern|Tarrytown, NY Sleepy Hollow, NY|Oct 28#1"
+    },
+    "0170da9c5739": {
+      "company": "Regeneron Pharmaceuticals",
+      "role": "IT, Digital Enablement & Information Security Intern",
+      "location": "Tarrytown, NY Sleepy Hollow, NY",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12856,
+      "chat_id": 7582459199,
+      "seq": 11543,
+      "identity": "NOURL|Regeneron Pharmaceuticals|IT, Digital Enablement & Information Security Intern|Tarrytown, NY Sleepy Hollow, NY|Oct 28#1"
+    },
+    "af38bef0b43a": {
+      "company": "Regeneron Pharmaceuticals",
+      "role": "Data Analytics Intern, Dashboards & Business Process Automation",
+      "location": "Armonk, NY Warren, NJ Tarrytown, NY",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12857,
+      "chat_id": 7582459199,
+      "seq": 11544,
+      "identity": "NOURL|Regeneron Pharmaceuticals|Data Analytics Intern, Dashboards & Business Process Automation|Armonk, NY Warren, NJ Tarrytown, NY|Oct 27#1"
+    },
+    "9c252f3bb945": {
+      "company": "Regeneron Pharmaceuticals",
+      "role": "AI/ML & Data Engineering Intern",
+      "location": "**5 locations**Cambridge, MA Armonk, NY Warren, NJ Sleepy Hollow, NY Tarrytown, NY",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12858,
+      "chat_id": 7582459199,
+      "seq": 11545,
+      "identity": "NOURL|Regeneron Pharmaceuticals|AI/ML & Data Engineering Intern|**5 locations**Cambridge, MA Armonk, NY Warren, NJ Sleepy Hollow, NY Tarrytown, NY|Oct 27#1"
     }
   },
   "applied": {
@@ -145371,10 +145431,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11540,
+  "seq": 11545,
   "health": {
     "last_heartbeat": "2026-11-11T17:00:27Z",
-    "last_ok_run": "2026-11-11T18:05:19Z",
+    "last_ok_run": "2026-11-11T18:10:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -145382,7 +145442,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T16:45:22Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T18:10:26Z",
       "duplicate-hash": "2026-11-11T06:00:31Z"
     }
   }
