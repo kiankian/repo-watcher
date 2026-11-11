@@ -146108,6 +146108,90 @@
       "chat_id": 7582459199,
       "seq": 11632,
       "identity": "https://zapply.jobs/l/d/oracle-grant-thornton-115637?s=gh-internships-2027|Grant Thornton|Cybersecurity and Privacy Intern - Summer 2027|New York, NY, United States|Summer 2027#1"
+    },
+    "38423d36578b": {
+      "company": "PTC",
+      "role": "Creo Core Geometry Intern",
+      "location": "Boston, MA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1v9?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12950,
+      "chat_id": 7582459199,
+      "seq": 11633,
+      "identity": "https://go.vansh.nyc/1v9?s=y|PTC|Creo Core Geometry Intern|Boston, MA|Nov 11#1"
+    },
+    "fd792b146df1": {
+      "company": "TikTok",
+      "role": "POI Content Product Manager Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12951,
+      "chat_id": 7582459199,
+      "seq": 11634,
+      "identity": "NOURL|TikTok|POI Content Product Manager Intern|San Jose, CA|Nov 06#1"
+    },
+    "9bea3fb75b28": {
+      "company": "TikTok",
+      "role": "Data Science Intern, TikTok LIVE",
+      "location": "San Jose, CA",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12952,
+      "chat_id": 7582459199,
+      "seq": 11635,
+      "identity": "NOURL|TikTok|Data Science Intern, TikTok LIVE|San Jose, CA|Nov 01#1"
+    },
+    "c3828c1b4d24": {
+      "company": "TikTok",
+      "role": "Data Science Intern, TikTok Product",
+      "location": "San Jose, CA",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12953,
+      "chat_id": 7582459199,
+      "seq": 11636,
+      "identity": "NOURL|TikTok|Data Science Intern, TikTok Product|San Jose, CA|Nov 01#1"
+    },
+    "b953cc161608": {
+      "company": "TikTok",
+      "role": "Software Engineer Intern, TikTok Search Architecture",
+      "location": "San Jose, CA",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12954,
+      "chat_id": 7582459199,
+      "seq": 11637,
+      "identity": "NOURL|TikTok|Software Engineer Intern, TikTok Search Architecture|San Jose, CA|Nov 01#1"
+    },
+    "c4361e66bb72": {
+      "company": "TikTok",
+      "role": "Software Development Engineer Intern, Global E-Commerce Quality Platform & AI Test Automation",
+      "location": "Seattle, WA",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12955,
+      "chat_id": 7582459199,
+      "seq": 11638,
+      "identity": "NOURL|TikTok|Software Development Engineer Intern, Global E-Commerce Quality Platform & AI Test Automation|Seattle, WA|Oct 18#1"
+    },
+    "b453324e1950": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01888055?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 12957,
+      "chat_id": 7582459199,
+      "seq": 11639,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01888055?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
     }
   },
   "applied": {
@@ -146475,10 +146559,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11632,
+  "seq": 11639,
   "health": {
     "last_heartbeat": "2026-11-11T19:20:18Z",
-    "last_ok_run": "2026-11-11T20:10:18Z",
+    "last_ok_run": "2026-11-11T20:15:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -146486,7 +146570,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T19:45:19Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T20:15:27Z",
       "duplicate-hash": "2026-11-11T06:00:31Z"
     }
   }
