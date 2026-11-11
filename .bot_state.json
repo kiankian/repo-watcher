@@ -143480,6 +143480,54 @@
       "chat_id": 7582459199,
       "seq": 11403,
       "identity": "NOURL|GlobalFoundries|AI/ML Systems Engineering Intern|Richardson, TX|Oct 19#1"
+    },
+    "3915cd004ada": {
+      "company": "\ud83d\udd25 Tesla",
+      "role": "Software Developer Intern - IT Apps",
+      "location": "Fremont, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://www.tesla.com/careers/search/job/289683?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12705,
+      "chat_id": 7582459199,
+      "seq": 11404,
+      "identity": "https://www.tesla.com/careers/search/job/289683?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Tesla|Software Developer Intern - IT Apps|Fremont, CA|Summer 2026#1"
+    },
+    "702c3762a421": {
+      "company": "Shield AI",
+      "role": "Software Engineer Intern",
+      "location": "San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/shield/db04c516-d21a-449c-8bfd-1cf830eafb5a/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12706,
+      "chat_id": 7582459199,
+      "seq": 11405,
+      "identity": "https://jobs.ashbyhq.com/shield/db04c516-d21a-449c-8bfd-1cf830eafb5a/application?embed=true&utm_source=Simplify&ref=Simplify|Shield AI|Software Engineer Intern|San Diego, CA|Summer 2026#1"
+    },
+    "18c3af8de188": {
+      "company": "Shield AI",
+      "role": "Software Engineer Intern Co-op",
+      "location": "Dallas, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/shield/a28e047a-ee12-452c-883b-ecd995d1b6b2/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12707,
+      "chat_id": 7582459199,
+      "seq": 11406,
+      "identity": "https://jobs.ashbyhq.com/shield/a28e047a-ee12-452c-883b-ecd995d1b6b2/application?embed=true&utm_source=Simplify&ref=Simplify|Shield AI|Software Engineer Intern Co-op|Dallas, TX|Summer 2026#1"
+    },
+    "108f3896d6fc": {
+      "company": "Shield AI",
+      "role": "Software Engineer Intern",
+      "location": "San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/shield/661d7ac4-51df-454d-82c8-2a0d94852036/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12708,
+      "chat_id": 7582459199,
+      "seq": 11407,
+      "identity": "https://jobs.ashbyhq.com/shield/661d7ac4-51df-454d-82c8-2a0d94852036/application?embed=true&utm_source=Simplify&ref=Simplify|Shield AI|Software Engineer Intern|San Diego, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -143847,10 +143895,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11403,
+  "seq": 11407,
   "health": {
     "last_heartbeat": "2026-11-11T02:10:18Z",
-    "last_ok_run": "2026-11-11T02:30:22Z",
+    "last_ok_run": "2026-11-11T02:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
