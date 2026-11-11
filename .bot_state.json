@@ -144392,6 +144392,18 @@
       "chat_id": 7582459199,
       "seq": 11489,
       "identity": "NOURL|Echo|Software Engineering Intern|Chicago, IL Remote United States|Nov 10#1"
+    },
+    "714f4f0c0040": {
+      "company": "Navy Federal",
+      "role": "Associate Data Scientist Intern",
+      "location": "Vienna, VA",
+      "term": "Sep 08",
+      "apply_url": "https://go.vansh.nyc/1ux?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12796,
+      "chat_id": 7582459199,
+      "seq": 11490,
+      "identity": "https://go.vansh.nyc/1ux?s=y|Navy Federal|Associate Data Scientist Intern|Vienna, VA|Sep 08#1"
     }
   },
   "applied": {
@@ -144759,10 +144771,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11489,
+  "seq": 11490,
   "health": {
     "last_heartbeat": "2026-11-11T07:30:22Z",
-    "last_ok_run": "2026-11-11T08:10:17Z",
+    "last_ok_run": "2026-11-11T08:15:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -144770,7 +144782,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T05:50:53Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T08:15:17Z",
       "duplicate-hash": "2026-11-11T06:00:31Z"
     }
   }
