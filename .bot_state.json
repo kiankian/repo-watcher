@@ -143288,6 +143288,90 @@
       "chat_id": 7582459199,
       "seq": 11387,
       "identity": "https://go.vansh.nyc/1ss?s=y|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Richardson, TX|Nov 10#1"
+    },
+    "0cef0b8f73e3": {
+      "company": "International",
+      "role": "Artificial Intelligence/Machine Learning Intern",
+      "location": "Lisle, IL",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1sz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12682,
+      "chat_id": 7582459199,
+      "seq": 11388,
+      "identity": "https://go.vansh.nyc/1sz?s=y|International|Artificial Intelligence/Machine Learning Intern|Lisle, IL|Nov 10#1"
+    },
+    "f33b3f136059": {
+      "company": "DwyerOmega",
+      "role": "Applied AI Intern",
+      "location": "Remote United States",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1sB?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12683,
+      "chat_id": 7582459199,
+      "seq": 11389,
+      "identity": "https://go.vansh.nyc/1sB?s=y|DwyerOmega|Applied AI Intern|Remote United States|Nov 10#1"
+    },
+    "5ad5f4f1aec5": {
+      "company": "Art of Problem Solving",
+      "role": "Data Science Intern",
+      "location": "San Diego, CA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1sA?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12684,
+      "chat_id": 7582459199,
+      "seq": 11390,
+      "identity": "https://go.vansh.nyc/1sA?s=y|Art of Problem Solving|Data Science Intern|San Diego, CA|Nov 10#1"
+    },
+    "47a4756d48c2": {
+      "company": "Rambus",
+      "role": "CAD Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1sx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12685,
+      "chat_id": 7582459199,
+      "seq": 11391,
+      "identity": "https://go.vansh.nyc/1sx?s=y|Rambus|CAD Engineer Intern|San Jose, CA|Nov 09#1"
+    },
+    "bc1366f73f57": {
+      "company": "JMP Statistical Discovery",
+      "role": "Software Development Intern, C++",
+      "location": "Cary, NC",
+      "term": "Nov 09",
+      "apply_url": "https://go.vansh.nyc/1sw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12686,
+      "chat_id": 7582459199,
+      "seq": 11392,
+      "identity": "https://go.vansh.nyc/1sw?s=y|JMP Statistical Discovery|Software Development Intern, C++|Cary, NC|Nov 09#1"
+    },
+    "cb353a0f8d99": {
+      "company": "CenturyLink",
+      "role": "AI & Automation Builders Intern",
+      "location": "Remote United States",
+      "term": "Oct 16",
+      "apply_url": "https://go.vansh.nyc/1sD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12687,
+      "chat_id": 7582459199,
+      "seq": 11393,
+      "identity": "https://go.vansh.nyc/1sD?s=y|CenturyLink|AI & Automation Builders Intern|Remote United States|Oct 16#1"
+    },
+    "8742cad95c5a": {
+      "company": "CTGT",
+      "role": "AI Evaluation Research Intern",
+      "location": "San Francisco, CA",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12688,
+      "chat_id": 7582459199,
+      "seq": 11394,
+      "identity": "NOURL|CTGT|AI Evaluation Research Intern|San Francisco, CA|Nov 09#1"
     }
   },
   "applied": {
@@ -143655,10 +143739,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11387,
+  "seq": 11394,
   "health": {
     "last_heartbeat": "2026-11-11T00:00:23Z",
-    "last_ok_run": "2026-11-11T00:35:17Z",
+    "last_ok_run": "2026-11-11T00:40:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -143666,7 +143750,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-10T23:45:29Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T00:40:27Z",
       "duplicate-hash": "2026-11-10T20:40:21Z"
     }
   }
