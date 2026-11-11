@@ -143204,6 +143204,78 @@
       "chat_id": 7582459199,
       "seq": 11380,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01888045?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|FL-LARGO|Summer 2027#1"
+    },
+    "2cf95a27348c": {
+      "company": "DwyerOmega",
+      "role": "Applied AI Intern",
+      "location": "Remote in USA",
+      "term": "Summer 2026",
+      "apply_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4650662?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12675,
+      "chat_id": 7582459199,
+      "seq": 11381,
+      "identity": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4650662?utm_source=Simplify&ref=Simplify|DwyerOmega|Applied AI Intern|Remote in USA|Summer 2026#1"
+    },
+    "992a8f6c6cdb": {
+      "company": "General Dynamics Information Technology",
+      "role": "AI/ML Business Intelligence Development Intern",
+      "location": "Bossier City, LA",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12676,
+      "chat_id": 7582459199,
+      "seq": 11382,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|AI/ML Business Intelligence Development Intern|Bossier City, LA|Summer 2026#1"
+    },
+    "2caf0a83b0db": {
+      "company": "Hunt Oil Company",
+      "role": "Application Developer Intern",
+      "location": "Dallas, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1104?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12677,
+      "chat_id": 7582459199,
+      "seq": 11383,
+      "identity": "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1104?utm_source=Simplify&ref=Simplify|Hunt Oil Company|Application Developer Intern|Dallas, TX|Summer 2026#1"
+    },
+    "d1a079cc01cb": {
+      "company": "Skydio",
+      "role": "Middleware Software Engineer Intern",
+      "location": "San Mateo, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/skydio/c85af510-9fe4-4167-a914-c3ab344bef03/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12678,
+      "chat_id": 7582459199,
+      "seq": 11384,
+      "identity": "https://jobs.ashbyhq.com/skydio/c85af510-9fe4-4167-a914-c3ab344bef03/application?embed=true&utm_source=Simplify&ref=Simplify|Skydio|Middleware Software Engineer Intern|San Mateo, CA|Summer 2026#1"
+    },
+    "a2243116769d": {
+      "company": "JMP Statistical Discovery",
+      "role": "C++ Software Development Intern",
+      "location": "Cary, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://jmp-sas.icims.com/jobs/46960/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12679,
+      "chat_id": 7582459199,
+      "seq": 11385,
+      "identity": "https://jmp-sas.icims.com/jobs/46960/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|JMP Statistical Discovery|C++ Software Development Intern|Cary, NC|Summer 2026#1"
+    },
+    "66487f783a26": {
+      "company": "Echo Global Logistics",
+      "role": "Software Engineer Intern",
+      "location": "United States",
+      "term": "Summer 2026",
+      "apply_url": "https://echo.wd1.myworkdayjobs.com/en-US/Echo_Logistics/job/Remote/Software-Engineering-Intern--Chicago_R4645-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12680,
+      "chat_id": 7582459199,
+      "seq": 11386,
+      "identity": "https://echo.wd1.myworkdayjobs.com/en-US/Echo_Logistics/job/Remote/Software-Engineering-Intern--Chicago_R4645-1?utm_source=Simplify&ref=Simplify|Echo Global Logistics|Software Engineer Intern|United States|Summer 2026#1"
     }
   },
   "applied": {
@@ -143571,10 +143643,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11380,
+  "seq": 11386,
   "health": {
     "last_heartbeat": "2026-11-11T00:00:23Z",
-    "last_ok_run": "2026-11-11T00:00:23Z",
+    "last_ok_run": "2026-11-11T00:05:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
