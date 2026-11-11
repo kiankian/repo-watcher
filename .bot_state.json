@@ -144428,6 +144428,54 @@
       "chat_id": 7582459199,
       "seq": 11492,
       "identity": "https://zapply.jobs/l/d/phenom-cisco-2024641?s=gh-internships-2027|Cisco|Software Engineer Embedded Systems I (Intern) - United States|San Jose, California|Summer 2027#1"
+    },
+    "c4087dd05a52": {
+      "company": "Synopsys",
+      "role": "Engineering Documentation and AI Automation Co-op",
+      "location": "Nepean, Canada",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1uz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12800,
+      "chat_id": 7582459199,
+      "seq": 11493,
+      "identity": "https://go.vansh.nyc/1uz?s=y|Synopsys|Engineering Documentation and AI Automation Co-op|Nepean, Canada|Nov 11#1"
+    },
+    "c21c416ed88b": {
+      "company": "Cisco",
+      "role": "Software Engineer Intern, Embedded Systems I",
+      "location": "San Jose, CA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1uy?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12801,
+      "chat_id": 7582459199,
+      "seq": 11494,
+      "identity": "https://go.vansh.nyc/1uy?s=y|Cisco|Software Engineer Intern, Embedded Systems I|San Jose, CA|Nov 10#1"
+    },
+    "0ae840ead4f0": {
+      "company": "RTX",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Aurora, CO",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12802,
+      "chat_id": 7582459199,
+      "seq": 11495,
+      "identity": "NOURL|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Aurora, CO|Nov 05#1"
+    },
+    "266eeac86139": {
+      "company": "RTX",
+      "role": "Software Engineer Intern",
+      "location": "Aurora, CO",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12803,
+      "chat_id": 7582459199,
+      "seq": 11496,
+      "identity": "NOURL|RTX|Software Engineer Intern|Aurora, CO|Oct 21#1"
     }
   },
   "applied": {
@@ -144795,10 +144843,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11492,
+  "seq": 11496,
   "health": {
     "last_heartbeat": "2026-11-11T10:40:20Z",
-    "last_ok_run": "2026-11-11T11:10:19Z",
+    "last_ok_run": "2026-11-11T11:15:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -144806,7 +144854,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T08:15:17Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T11:15:23Z",
       "duplicate-hash": "2026-11-11T06:00:31Z"
     }
   }
