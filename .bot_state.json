@@ -144800,6 +144800,42 @@
       "chat_id": 7582459199,
       "seq": 11523,
       "identity": "NOURL|Celestica|AI / Data Science Intern|San Jose, CA|Oct 18#1"
+    },
+    "221156de262b": {
+      "company": "The Marzetti Company",
+      "role": "AI Solutions Intern - Human Resources",
+      "location": "Columbus, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.marzetticompany.com/jobs/8128?icims=1&lang=en-us&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12836,
+      "chat_id": 7582459199,
+      "seq": 11524,
+      "identity": "https://careers.marzetticompany.com/jobs/8128?icims=1&lang=en-us&utm_source=Simplify&ref=Simplify|The Marzetti Company|AI Solutions Intern - Human Resources|Columbus, OH|Summer 2026#1"
+    },
+    "ddf47b1a74f8": {
+      "company": "DraftKings",
+      "role": "Software Engineer Intern",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://draftkings.wd1.myworkdayjobs.com/Employee_Referral_Portal/job/London-UK/Software-Engineering-Intern--Summer-2027-_JR15150-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12837,
+      "chat_id": 7582459199,
+      "seq": 11525,
+      "identity": "https://draftkings.wd1.myworkdayjobs.com/Employee_Referral_Portal/job/London-UK/Software-Engineering-Intern--Summer-2027-_JR15150-1?utm_source=Simplify&ref=Simplify|DraftKings|Software Engineer Intern|London, UK|Summer 2026#1"
+    },
+    "8106d8897f91": {
+      "company": "DraftKings",
+      "role": "Software Engineer Intern",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/London-UK/Software-Engineering-Intern--Summer-2027-_JR15150?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 12838,
+      "chat_id": 7582459199,
+      "seq": 11526,
+      "identity": "https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/London-UK/Software-Engineering-Intern--Summer-2027-_JR15150?utm_source=Simplify&ref=Simplify|DraftKings|Software Engineer Intern|London, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -145167,10 +145203,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11523,
+  "seq": 11526,
   "health": {
     "last_heartbeat": "2026-11-11T16:00:24Z",
-    "last_ok_run": "2026-11-11T16:00:24Z",
+    "last_ok_run": "2026-11-11T16:05:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
