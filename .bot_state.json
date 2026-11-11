@@ -144848,6 +144848,42 @@
       "chat_id": 7582459199,
       "seq": 11527,
       "identity": "https://zapply.jobs/l/d/greenhouse-formlabs-8374598?s=gh-internships-2027|Formlabs|2027 (Summer) - Manufacturing - Manufacturing Test Software Intern|Somerville, MA|Summer 2027#1"
+    },
+    "5af374873e42": {
+      "company": "GlobalFoundries",
+      "role": "AI Processor Hardware/Software Integration Engineer Intern",
+      "location": "Richardson, TX",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1uH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12840,
+      "chat_id": 7582459199,
+      "seq": 11528,
+      "identity": "https://go.vansh.nyc/1uH?s=y|GlobalFoundries|AI Processor Hardware/Software Integration Engineer Intern|Richardson, TX|Nov 11#1"
+    },
+    "dd12e3273f94": {
+      "company": "McDonald's",
+      "role": "Software Development Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12841,
+      "chat_id": 7582459199,
+      "seq": 11529,
+      "identity": "NOURL|McDonald's|Software Development Engineer Intern|Chicago, IL|Nov 09#1"
+    },
+    "f93804ff8973": {
+      "company": "McDonald's",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12842,
+      "chat_id": 7582459199,
+      "seq": 11530,
+      "identity": "NOURL|McDonald's|Software Engineer Intern|Chicago, IL|Nov 09#1"
     }
   },
   "applied": {
@@ -145215,10 +145251,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11527,
+  "seq": 11530,
   "health": {
     "last_heartbeat": "2026-11-11T16:00:24Z",
-    "last_ok_run": "2026-11-11T16:10:21Z",
+    "last_ok_run": "2026-11-11T16:15:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
