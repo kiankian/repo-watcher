@@ -146192,6 +146192,66 @@
       "chat_id": 7582459199,
       "seq": 11639,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01888055?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "489146e36604": {
+      "company": "AeroVironment",
+      "role": "Software Engineering Intern",
+      "location": "Lawrence, KS",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vd?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12958,
+      "chat_id": 7582459199,
+      "seq": 11640,
+      "identity": "https://go.vansh.nyc/1vd?s=y|AeroVironment|Software Engineering Intern|Lawrence, KS|Nov 11#1"
+    },
+    "3da6399266a1": {
+      "company": "AIM Defence",
+      "role": "Computer Vision Engineering Intern",
+      "location": "Vancouver, Canada",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1va?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12959,
+      "chat_id": 7582459199,
+      "seq": 11641,
+      "identity": "https://go.vansh.nyc/1va?s=y|AIM Defence|Computer Vision Engineering Intern|Vancouver, Canada|Nov 10#1"
+    },
+    "17ad7a8b7f57": {
+      "company": "Uline",
+      "role": "Systems Administrator Intern",
+      "location": "**5 locations**Pleasant Prairie, WI Milwaukee, WI Waukegan, IL Glenview, IL Kenosha, WI",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12960,
+      "chat_id": 7582459199,
+      "seq": 11642,
+      "identity": "NOURL|Uline|Systems Administrator Intern|**5 locations**Pleasant Prairie, WI Milwaukee, WI Waukegan, IL Glenview, IL Kenosha, WI|Oct 22#1"
+    },
+    "b70f18de16f6": {
+      "company": "Wellmark",
+      "role": "Software Engineer Intern, Metadata Enablement Team",
+      "location": "Des Moines, IA",
+      "term": "Sep 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12961,
+      "chat_id": 7582459199,
+      "seq": 11643,
+      "identity": "NOURL|Wellmark|Software Engineer Intern, Metadata Enablement Team|Des Moines, IA|Sep 30#1"
+    },
+    "d8253ab20789": {
+      "company": "Zurn Elkay Water Solutions",
+      "role": "Embedded Firmware Intern",
+      "location": "Milwaukee, WI",
+      "term": "Sep 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12962,
+      "chat_id": 7582459199,
+      "seq": 11644,
+      "identity": "NOURL|Zurn Elkay Water Solutions|Embedded Firmware Intern|Milwaukee, WI|Sep 24#1"
     }
   },
   "applied": {
@@ -146559,10 +146619,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11639,
+  "seq": 11644,
   "health": {
     "last_heartbeat": "2026-11-11T21:00:29Z",
-    "last_ok_run": "2026-11-11T21:15:17Z",
+    "last_ok_run": "2026-11-11T21:20:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -146570,7 +146630,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T20:15:27Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T21:20:24Z",
       "duplicate-hash": "2026-11-11T06:00:31Z"
     }
   }
