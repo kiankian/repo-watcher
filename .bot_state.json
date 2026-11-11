@@ -144500,6 +144500,30 @@
       "chat_id": 7582459199,
       "seq": 11498,
       "identity": "NOURL|AbbVie|Business Technology Solutions Intern - Cloud Engineering|North Chicago, IL|Sep 25#1"
+    },
+    "d963f560fc94": {
+      "company": "DuCharme, McMillen & Associates",
+      "role": "Cybersecurity Intern",
+      "location": "Fort Wayne, IN",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12808,
+      "chat_id": 7582459199,
+      "seq": 11499,
+      "identity": "NOURL|DuCharme, McMillen & Associates|Cybersecurity Intern|Fort Wayne, IN|Nov 03#1"
+    },
+    "7f8211ec9815": {
+      "company": "Allegion",
+      "role": "Firmware Engineer Intern, Advanced Development",
+      "location": "Indianapolis, IN",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 12809,
+      "chat_id": 7582459199,
+      "seq": 11500,
+      "identity": "NOURL|Allegion|Firmware Engineer Intern, Advanced Development|Indianapolis, IN|Nov 02#1"
     }
   },
   "applied": {
@@ -144867,10 +144891,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11498,
+  "seq": 11500,
   "health": {
     "last_heartbeat": "2026-11-11T12:50:18Z",
-    "last_ok_run": "2026-11-11T13:40:20Z",
+    "last_ok_run": "2026-11-11T13:45:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -144878,7 +144902,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-06T19:10:19Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T13:10:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T13:45:20Z",
       "duplicate-hash": "2026-11-11T06:00:31Z"
     }
   }
