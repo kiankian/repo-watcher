@@ -143276,6 +143276,18 @@
       "chat_id": 7582459199,
       "seq": 11386,
       "identity": "https://echo.wd1.myworkdayjobs.com/en-US/Echo_Logistics/job/Remote/Software-Engineering-Intern--Chicago_R4645-1?utm_source=Simplify&ref=Simplify|Echo Global Logistics|Software Engineer Intern|United States|Summer 2026#1"
+    },
+    "5effaa57f2ef": {
+      "company": "RTX",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Richardson, TX",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1ss?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 12681,
+      "chat_id": 7582459199,
+      "seq": 11387,
+      "identity": "https://go.vansh.nyc/1ss?s=y|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Richardson, TX|Nov 10#1"
     }
   },
   "applied": {
@@ -143643,10 +143655,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11386,
+  "seq": 11387,
   "health": {
     "last_heartbeat": "2026-11-11T00:00:23Z",
-    "last_ok_run": "2026-11-11T00:05:24Z",
+    "last_ok_run": "2026-11-11T00:10:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
