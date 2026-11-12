@@ -71776,9 +71776,9 @@
       "term": "Oct 13",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6620,
+      "message_id": 13263,
       "chat_id": 7582459199,
-      "seq": 5424,
+      "seq": 11911,
       "identity": "NOURL|Gallup|Data Engineering Intern|San Francisco, CA|Oct 13#1"
     },
     "2e0962081d8f": {
@@ -71788,9 +71788,9 @@
       "term": "Oct 12",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6621,
+      "message_id": 13265,
       "chat_id": 7582459199,
-      "seq": 5425,
+      "seq": 11912,
       "identity": "NOURL|Amperesand|Technical Program Manager Intern|Reno, NV|Oct 12#1"
     },
     "ee002b76676c": {
@@ -71800,9 +71800,9 @@
       "term": "Oct 12",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6622,
+      "message_id": 13266,
       "chat_id": 7582459199,
-      "seq": 5426,
+      "seq": 11913,
       "identity": "NOURL|Acron Aviation|Software Engineer Intern|Phoenix, AZ|Oct 12#1"
     },
     "679a63ac0543": {
@@ -149252,6 +149252,90 @@
       "chat_id": 7582459199,
       "seq": 11903,
       "identity": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Reading/Intelligence-Launch-Intern---Summer-2027_R30500?utm_source=Simplify&ref=Simplify|\ud83d\udd25 CrowdStrike|Intelligence Launch Intern|London, UK Reading, UK|Summer 2026#1"
+    },
+    "0c33cd5b963c": {
+      "company": "Muon Space",
+      "role": "Software Engineer Intern, Information Systems",
+      "location": "San Jose, CA",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1y6?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13256,
+      "chat_id": 7582459199,
+      "seq": 11904,
+      "identity": "https://go.vansh.nyc/1y6?s=y|Muon Space|Software Engineer Intern, Information Systems|San Jose, CA|Nov 12#1"
+    },
+    "5ca7d1e237ba": {
+      "company": "General Dynamics Information Technology",
+      "role": "JMSC-P Boundary Enclave Administrator Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Schofield, HI",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1y7?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13257,
+      "chat_id": 7582459199,
+      "seq": 11905,
+      "identity": "https://go.vansh.nyc/1y7?s=y|General Dynamics Information Technology|JMSC-P Boundary Enclave Administrator Intern \ud83c\uddfa\ud83c\uddf8|Schofield, HI|Nov 12#1"
+    },
+    "ca03efa97c82": {
+      "company": "Wolters Kluwer",
+      "role": "Product Software Engineer Intern",
+      "location": "Waltham, MA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1y3?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13258,
+      "chat_id": 7582459199,
+      "seq": 11906,
+      "identity": "https://go.vansh.nyc/1y3?s=y|Wolters Kluwer|Product Software Engineer Intern|Waltham, MA|Nov 11#1"
+    },
+    "887adca81e3c": {
+      "company": "Muon Space",
+      "role": "Security Engineering Intern",
+      "location": "Mountain View, CA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1xZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13259,
+      "chat_id": 7582459199,
+      "seq": 11907,
+      "identity": "https://go.vansh.nyc/1xZ?s=y|Muon Space|Security Engineering Intern|Mountain View, CA|Nov 11#1"
+    },
+    "81eaf9985ad7": {
+      "company": "Capital Power",
+      "role": "Data Science Intern",
+      "location": "Edmonton, Canada",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1y1?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13260,
+      "chat_id": 7582459199,
+      "seq": 11908,
+      "identity": "https://go.vansh.nyc/1y1?s=y|Capital Power|Data Science Intern|Edmonton, Canada|Nov 11#1"
+    },
+    "8305271894c5": {
+      "company": "Capital Power",
+      "role": "Data Analytics Intern",
+      "location": "Calgary, Canada",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1y2?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13261,
+      "chat_id": 7582459199,
+      "seq": 11909,
+      "identity": "https://go.vansh.nyc/1y2?s=y|Capital Power|Data Analytics Intern|Calgary, Canada|Nov 11#1"
+    },
+    "fb18f5d78b29": {
+      "company": "Austal USA",
+      "role": "Information Technology Intern",
+      "location": "Mobile, AL",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1y0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13262,
+      "chat_id": 7582459199,
+      "seq": 11910,
+      "identity": "https://go.vansh.nyc/1y0?s=y|Austal USA|Information Technology Intern|Mobile, AL|Nov 11#1"
     }
   },
   "applied": {
@@ -149619,10 +149703,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11903,
+  "seq": 11913,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-12T23:45:17Z",
+    "last_ok_run": "2026-11-12T23:50:34Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -149630,8 +149714,8 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T23:15:57Z",
-      "duplicate-hash": "2026-11-12T20:15:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T23:50:32Z",
+      "duplicate-hash": "2026-11-12T23:50:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-12T23:30:23Z"
     }
   }
