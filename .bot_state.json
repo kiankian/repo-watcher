@@ -147620,6 +147620,78 @@
       "chat_id": 7582459199,
       "seq": 11766,
       "identity": "https://zapply.jobs/l/d/phenom-bae-systems-130026BR?s=gh-internships-2027|BAE Systems|Systems Engineer Intern (Mechanical Focus), Summer 2027|Rockville, Maryland|Summer 2027#1"
+    },
+    "68395eb1a027": {
+      "company": "SharkNinja",
+      "role": "Data Science Intern",
+      "location": "Needham, MA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1wu?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13102,
+      "chat_id": 7582459199,
+      "seq": 11767,
+      "identity": "https://go.vansh.nyc/1wu?s=y|SharkNinja|Data Science Intern|Needham, MA|Nov 11#1"
+    },
+    "87c451b9b9b0": {
+      "company": "Argonne National Laboratory",
+      "role": "Business Information Systems Intern, Enterprise Software Solutions \ud83c\uddfa\ud83c\uddf8",
+      "location": "Lemont, IL",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1wt?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13103,
+      "chat_id": 7582459199,
+      "seq": 11768,
+      "identity": "https://go.vansh.nyc/1wt?s=y|Argonne National Laboratory|Business Information Systems Intern, Enterprise Software Solutions \ud83c\uddfa\ud83c\uddf8|Lemont, IL|Nov 11#1"
+    },
+    "38f92364cf1b": {
+      "company": "Zoetis",
+      "role": "IT/OT Security Intern",
+      "location": "Kalamazoo, MI",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13104,
+      "chat_id": 7582459199,
+      "seq": 11769,
+      "identity": "NOURL|Zoetis|IT/OT Security Intern|Kalamazoo, MI|Nov 09#1"
+    },
+    "b72986ffaf21": {
+      "company": "Zoetis",
+      "role": "Information Security Intern",
+      "location": "Parsippany, NJ",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13105,
+      "chat_id": 7582459199,
+      "seq": 11770,
+      "identity": "NOURL|Zoetis|Information Security Intern|Parsippany, NJ|Nov 09#1"
+    },
+    "94114e5b38e8": {
+      "company": "Zoetis",
+      "role": "AI Assistant Development Intern",
+      "location": "Parsippany, NJ",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13106,
+      "chat_id": 7582459199,
+      "seq": 11771,
+      "identity": "NOURL|Zoetis|AI Assistant Development Intern|Parsippany, NJ|Nov 09#1"
+    },
+    "0d9ff9c76662": {
+      "company": "Zoetis",
+      "role": "AI Architecture, Enablement & Tools Intern, AI Capabilities",
+      "location": "Remote United States Kalamazoo, MI",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13107,
+      "chat_id": 7582459199,
+      "seq": 11772,
+      "identity": "NOURL|Zoetis|AI Architecture, Enablement & Tools Intern, AI Capabilities|Remote United States Kalamazoo, MI|Nov 09#1"
     }
   },
   "applied": {
@@ -147987,10 +148059,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11766,
+  "seq": 11772,
   "health": {
     "last_heartbeat": "2026-11-12T15:00:24Z",
-    "last_ok_run": "2026-11-12T15:10:21Z",
+    "last_ok_run": "2026-11-12T15:15:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -147998,7 +148070,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T14:15:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T15:15:28Z",
       "duplicate-hash": "2026-11-12T02:15:15Z"
     }
   }
