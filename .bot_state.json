@@ -147356,6 +147356,114 @@
       "chat_id": 7582459199,
       "seq": 11744,
       "identity": "https://careers.nintendo.com/?gh_jid=4471972009&utm_source=Simplify&ref=Simplify|Nintendo|Software Engineer Intern - CPU Debugger - NTD|Redmond, WA|Summer 2026#1"
+    },
+    "88edc41f9648": {
+      "company": "Bask",
+      "role": "Frontend Engineering Intern",
+      "location": "United States",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1wc?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13075,
+      "chat_id": 7582459199,
+      "seq": 11745,
+      "identity": "https://go.vansh.nyc/1wc?s=y|Bask|Frontend Engineering Intern|United States|Nov 12#1"
+    },
+    "98b4bd8a9939": {
+      "company": "Bask Health",
+      "role": "Creative Engineering Intern",
+      "location": "Remote United States",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1w8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13076,
+      "chat_id": 7582459199,
+      "seq": 11746,
+      "identity": "https://go.vansh.nyc/1w8?s=y|Bask Health|Creative Engineering Intern|Remote United States|Nov 11#1"
+    },
+    "58b761858947": {
+      "company": "Bask Health",
+      "role": "Frontend Engineer Intern, Frontend Engineering",
+      "location": "Remote United States",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1w9?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13077,
+      "chat_id": 7582459199,
+      "seq": 11747,
+      "identity": "https://go.vansh.nyc/1w9?s=y|Bask Health|Frontend Engineer Intern, Frontend Engineering|Remote United States|Nov 11#1"
+    },
+    "acd0705b857c": {
+      "company": "CARIAD",
+      "role": "Engineer 1 Intern, VLA Planning and Control Deployment",
+      "location": "Mountain View, CA",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/1wa?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13078,
+      "chat_id": 7582459199,
+      "seq": 11748,
+      "identity": "https://go.vansh.nyc/1wa?s=y|CARIAD|Engineer 1 Intern, VLA Planning and Control Deployment|Mountain View, CA|Oct 23#1"
+    },
+    "24f888cf2a17": {
+      "company": "T-Mobile",
+      "role": "Software Engineering Intern",
+      "location": "Bellevue, WA",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13079,
+      "chat_id": 7582459199,
+      "seq": 11749,
+      "identity": "NOURL|T-Mobile|Software Engineering Intern|Bellevue, WA|Nov 06#1"
+    },
+    "b77d18b4c59a": {
+      "company": "T-Mobile",
+      "role": "AI Engineering Intern",
+      "location": "Bellevue, WA",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13080,
+      "chat_id": 7582459199,
+      "seq": 11750,
+      "identity": "NOURL|T-Mobile|AI Engineering Intern|Bellevue, WA|Nov 06#1"
+    },
+    "faa2a95f7bfd": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern, HR Data Products",
+      "location": "Bellevue, WA",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13081,
+      "chat_id": 7582459199,
+      "seq": 11751,
+      "identity": "NOURL|T-Mobile|Software Engineer Intern, HR Data Products|Bellevue, WA|Nov 06#1"
+    },
+    "6851687312cb": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern",
+      "location": "Bellevue, WA",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13082,
+      "chat_id": 7582459199,
+      "seq": 11752,
+      "identity": "NOURL|T-Mobile|Software Engineer Intern|Bellevue, WA|Nov 05#1"
+    },
+    "74eacaf6e358": {
+      "company": "General Motors",
+      "role": "Research and Development Intern, AI/Machine Learning",
+      "location": "Mountain View, CA",
+      "term": "Oct 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13083,
+      "chat_id": 7582459199,
+      "seq": 11753,
+      "identity": "NOURL|General Motors|Research and Development Intern, AI/Machine Learning|Mountain View, CA|Oct 12#1"
     }
   },
   "applied": {
@@ -147723,10 +147831,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11744,
+  "seq": 11753,
   "health": {
     "last_heartbeat": "2026-11-12T08:10:17Z",
-    "last_ok_run": "2026-11-12T08:10:17Z",
+    "last_ok_run": "2026-11-12T08:15:33Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -147734,7 +147842,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T06:10:16Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T08:15:31Z",
       "duplicate-hash": "2026-11-12T02:15:15Z"
     }
   }
