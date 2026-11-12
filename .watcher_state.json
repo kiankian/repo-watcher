@@ -3029,11 +3029,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "605d42a7b099fd8198a85082f64ebb59458d1497",
+    "last_sha": "eb8224e451d41a0d507f34fbec6b2b12cd4f6fa4",
     "seen": [
-      "NOURL|Atoms|Software Engineer Intern|**5 locations**New York, NY Seattle, WA Los Angeles, CA Mountain View, CA San Francisco, CA|Aug 21#1",
-      "NOURL|FTI Consulting|Technology Intern|**12 locations**Atlanta, GA Chicago, IL Houston, TX Los Angeles, CA New York, NY San Francisco, CA Washington, DC Chicago, IL Los Angeles, CA New York, NY San Francisco, CA Washington, DC|Jul 31#1",
-      "NOURL|Castleton Commodities International|Data Engineering Intern|Stamford, CT Houston, TX New York City, NY|Jul 31#1",
       "NOURL|Castleton Commodities International|Data Science Machine Learning Intern|Stamford, CT Houston, TX New York City, NY|Jul 31#1",
       "NOURL|Castleton Commodities International|Full-Stack Software Engineer Intern|Stamford, CT Houston, TX|Jul 31#1",
       "NOURL|Virtu Financial|Frontend & User Experience Intern|New York, NY|Jul 30#1",
@@ -8030,14 +8027,17 @@
       "NOURL|Brain Co.|Machine Learning Engineer Intern, Applied AI|San Francisco, CA|Sep 14#1",
       "NOURL|Brain Co.|AI Platform Engineer Intern|San Francisco, CA|Sep 12#1",
       "NOURL|Brain Co.|AI Product Engineer Intern|San Francisco, CA|Sep 12#1",
-      "NOURL|Brain Co.|AI Security Engineer Intern|San Francisco, CA|Sep 12#1"
+      "NOURL|Brain Co.|AI Security Engineer Intern|San Francisco, CA|Sep 12#1",
+      "https://go.vansh.nyc/1vJ?s=y|RTX|Electrical Engineering Intern, Firmware \ud83c\uddfa\ud83c\uddf8|Ft Wayne, IN|Nov 11#1",
+      "https://go.vansh.nyc/1vK?s=y|Bloom Energy|AI Solutions Engineer Intern|San Jose, CA|Nov 11#1",
+      "https://go.vansh.nyc/1vI?s=y|Bloom Energy|RMCC Data Science Intern|San Jose, CA|Nov 11#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2762,
+    "last_row_count": 2765,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "168be7b0dbc44b1fc3c1e13b1c892f152204312e",
+    "last_sha": "8b55c7b6edc87a8c4e4fc4c2acaee00941067b20",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

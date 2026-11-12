@@ -146900,6 +146900,42 @@
       "chat_id": 7582459199,
       "seq": 11698,
       "identity": "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Creo-Graphics-Engineering-Intern--Summer-2027-_JR112970?utm_source=Simplify&ref=Simplify|PTC|Creo Graphics Engineering Intern|Boston, MA|Summer 2026#1"
+    },
+    "af3bf31bfb8c": {
+      "company": "RTX",
+      "role": "Electrical Engineering Intern, Firmware \ud83c\uddfa\ud83c\uddf8",
+      "location": "Ft Wayne, IN",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vJ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13021,
+      "chat_id": 7582459199,
+      "seq": 11699,
+      "identity": "https://go.vansh.nyc/1vJ?s=y|RTX|Electrical Engineering Intern, Firmware \ud83c\uddfa\ud83c\uddf8|Ft Wayne, IN|Nov 11#1"
+    },
+    "9a0cbd591f96": {
+      "company": "Bloom Energy",
+      "role": "AI Solutions Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vK?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13022,
+      "chat_id": 7582459199,
+      "seq": 11700,
+      "identity": "https://go.vansh.nyc/1vK?s=y|Bloom Energy|AI Solutions Engineer Intern|San Jose, CA|Nov 11#1"
+    },
+    "d29837317c95": {
+      "company": "Bloom Energy",
+      "role": "RMCC Data Science Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13023,
+      "chat_id": 7582459199,
+      "seq": 11701,
+      "identity": "https://go.vansh.nyc/1vI?s=y|Bloom Energy|RMCC Data Science Intern|San Jose, CA|Nov 11#1"
     }
   },
   "applied": {
@@ -147267,10 +147303,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11698,
+  "seq": 11701,
   "health": {
     "last_heartbeat": "2026-11-11T23:30:22Z",
-    "last_ok_run": "2026-11-12T00:05:23Z",
+    "last_ok_run": "2026-11-12T00:10:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
