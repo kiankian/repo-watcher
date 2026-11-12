@@ -3050,13 +3050,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "65dcb0e2b55171f73355a98c833ed9047632e78d",
+    "last_sha": "e5fbe4e99beedcb4cae39e6010684ca1287fd1a5",
     "seen": [
-      "https://jobs.paccar.com/job/Kirkland-Summer-2027-Warranty-Data-Analyst-Intern-WA-98033/1449176033/?ats=successfactors&utm_source=github-vansh-ouckah|Paccar|Warranty Data Analyst Intern|Kirkland, WA|Oct 19#1",
-      "https://jobs.netapp.com/job/Wichita-Software-Engineer-Intern-KS-67208/1441378400/?ats=successfactors&utm_source=github-vansh-ouckah|NetApp|Software Engineer Intern|Wichita, KS|Oct 19#1",
-      "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32645?utm_source=github-vansh-ouckah|Navy Federal|AI Engineering Intern|Vienna, VA|Oct 19#1",
-      "https://job-boards.greenhouse.io/nisc/jobs/8301304?utm_source=github-vansh-ouckah|National Information Solutions Cooperative|Application Analyst Intern, Financials Software|Mandan, ND|Oct 19#1",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1413790400/?ats=successfactors&utm_source=github-vansh-ouckah|L3Harris Technologies|Software Engineering Intern|Salt Lake City, UT|Oct 19#1",
       "https://jobs.keysight.com/jobs/54804?icims=1&utm_source=github-vansh-ouckah|Keysight Technologies|R&D Hardware Engineer Intern|Santa Clara, CA|Oct 19#1",
       "https://job-boards.greenhouse.io/inversionspace/jobs/4745076005?utm_source=github-vansh-ouckah|Inversion Space|AI & Internal Tools Software Engineer Intern|Playa Vista, CA|Oct 19#1",
       "https://job-boards.greenhouse.io/inversionspace/jobs/4745083005?utm_source=github-vansh-ouckah|Inversion Space|Vehicle Software Engineer Intern|Playa Vista, CA|Oct 19#1",
@@ -8051,10 +8046,15 @@
       "NOURL|Ursa Major|IT Infrastructure & Automation Intern|Berthoud, CO|Oct 21#1",
       "https://go.vansh.nyc/1wK?s=y|PTC|Site Reliability Engineering Intern, Onshape|Boston, MA|Nov 12#1",
       "NOURL|Gauss Management Research & Engineering|Web Application Developer Intern \ud83c\uddfa\ud83c\uddf8|South Ogden, UT|Oct 27#1",
-      "NOURL|Monolithic Power Systems|Applications Engineer Intern|San Jose, CA|Oct 14#1"
+      "NOURL|Monolithic Power Systems|Applications Engineer Intern|San Jose, CA|Oct 14#1",
+      "https://go.vansh.nyc/1wM?s=y|T-Mobile|Data Product Intern|Bellevue, WA|Nov 12#1",
+      "https://go.vansh.nyc/1wL?s=y|KION Group|A.I. Engineering Intern|Grand Rapids, MI|Nov 12#1",
+      "https://go.vansh.nyc/1wN?s=y|Autodesk|Software Developer Intern|Montreal, Canada|Nov 12#1",
+      "NOURL|RTX|Systems Security Engineer Intern \ud83c\uddfa\ud83c\uddf8|Tewksbury, MA|Nov 05#1",
+      "NOURL|New York ISO|IT Software Development Intern|Rensselaer, NY|Oct 30#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2796,
+    "last_row_count": 2799,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {

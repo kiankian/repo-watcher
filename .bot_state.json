@@ -148148,6 +148148,66 @@
       "chat_id": 7582459199,
       "seq": 11810,
       "identity": "https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-15867?s=gh-internships-2027|Entegris|Quality Engineering Intern|Colorado Springs, CO|Summer 2027#1"
+    },
+    "c1c777d8a60d": {
+      "company": "T-Mobile",
+      "role": "Data Product Intern",
+      "location": "Bellevue, WA",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1wM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13151,
+      "chat_id": 7582459199,
+      "seq": 11811,
+      "identity": "https://go.vansh.nyc/1wM?s=y|T-Mobile|Data Product Intern|Bellevue, WA|Nov 12#1"
+    },
+    "3ac270d2c597": {
+      "company": "KION Group",
+      "role": "A.I. Engineering Intern",
+      "location": "Grand Rapids, MI",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1wL?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13152,
+      "chat_id": 7582459199,
+      "seq": 11812,
+      "identity": "https://go.vansh.nyc/1wL?s=y|KION Group|A.I. Engineering Intern|Grand Rapids, MI|Nov 12#1"
+    },
+    "c28bf61533f8": {
+      "company": "Autodesk",
+      "role": "Software Developer Intern",
+      "location": "Montreal, Canada",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1wN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13153,
+      "chat_id": 7582459199,
+      "seq": 11813,
+      "identity": "https://go.vansh.nyc/1wN?s=y|Autodesk|Software Developer Intern|Montreal, Canada|Nov 12#1"
+    },
+    "740dd7583f29": {
+      "company": "RTX",
+      "role": "Systems Security Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Tewksbury, MA",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13154,
+      "chat_id": 7582459199,
+      "seq": 11814,
+      "identity": "NOURL|RTX|Systems Security Engineer Intern \ud83c\uddfa\ud83c\uddf8|Tewksbury, MA|Nov 05#1"
+    },
+    "5813899b5125": {
+      "company": "New York ISO",
+      "role": "IT Software Development Intern",
+      "location": "Rensselaer, NY",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13155,
+      "chat_id": 7582459199,
+      "seq": 11815,
+      "identity": "NOURL|New York ISO|IT Software Development Intern|Rensselaer, NY|Oct 30#1"
     }
   },
   "applied": {
@@ -148515,10 +148575,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11810,
+  "seq": 11815,
   "health": {
     "last_heartbeat": "2026-11-12T18:20:27Z",
-    "last_ok_run": "2026-11-12T18:45:19Z",
+    "last_ok_run": "2026-11-12T18:50:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -148526,7 +148586,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T18:15:22Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T18:50:27Z",
       "duplicate-hash": "2026-11-12T02:15:15Z"
     }
   }
