@@ -147152,6 +147152,90 @@
       "chat_id": 7582459199,
       "seq": 11727,
       "identity": "NOURL|Rambus|Digital Design Intern|Johns Creek, GA|Nov 06#1"
+    },
+    "6b12f5999c16": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern",
+      "location": "Atlanta, GA",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13056,
+      "chat_id": 7582459199,
+      "seq": 11728,
+      "identity": "NOURL|T-Mobile|Software Engineer Intern|Atlanta, GA|Nov 04#1"
+    },
+    "ec2ec390c866": {
+      "company": "JM Family Enterprises",
+      "role": "AI Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13057,
+      "chat_id": 7582459199,
+      "seq": 11729,
+      "identity": "NOURL|JM Family Enterprises|AI Intern|Deerfield Beach, FL|Nov 02#1"
+    },
+    "4fae3248e959": {
+      "company": "JM Family Enterprises",
+      "role": "Offensive Security Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13058,
+      "chat_id": 7582459199,
+      "seq": 11730,
+      "identity": "NOURL|JM Family Enterprises|Offensive Security Intern|Deerfield Beach, FL|Nov 02#1"
+    },
+    "99f292ff9f3c": {
+      "company": "JM Family Enterprises",
+      "role": "Software Engineer Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13059,
+      "chat_id": 7582459199,
+      "seq": 11731,
+      "identity": "NOURL|JM Family Enterprises|Software Engineer Intern|Deerfield Beach, FL|Nov 01#1"
+    },
+    "a17118ae23ed": {
+      "company": "General Motors",
+      "role": "Research and Development Intern, System Safety \ud83c\uddfa\ud83c\uddf8",
+      "location": "Warren, MI",
+      "term": "Oct 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13060,
+      "chat_id": 7582459199,
+      "seq": 11732,
+      "identity": "NOURL|General Motors|Research and Development Intern, System Safety \ud83c\uddfa\ud83c\uddf8|Warren, MI|Oct 16#1"
+    },
+    "c7183b710db5": {
+      "company": "General Motors",
+      "role": "Research and Development Intern, Defense Lab Modeling and Simulation \ud83c\uddfa\ud83c\uddf8",
+      "location": "Warren, MI",
+      "term": "Oct 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13061,
+      "chat_id": 7582459199,
+      "seq": 11733,
+      "identity": "NOURL|General Motors|Research and Development Intern, Defense Lab Modeling and Simulation \ud83c\uddfa\ud83c\uddf8|Warren, MI|Oct 12#1"
+    },
+    "fba2d8451718": {
+      "company": "General Motors",
+      "role": "Research and Development Intern, Machine Learning for Automation",
+      "location": "Warren, MI",
+      "term": "Oct 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13062,
+      "chat_id": 7582459199,
+      "seq": 11734,
+      "identity": "NOURL|General Motors|Research and Development Intern, Machine Learning for Automation|Warren, MI|Oct 12#1"
     }
   },
   "applied": {
@@ -147519,10 +147603,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11727,
+  "seq": 11734,
   "health": {
     "last_heartbeat": "2026-11-12T05:00:24Z",
-    "last_ok_run": "2026-11-12T05:15:18Z",
+    "last_ok_run": "2026-11-12T05:20:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -147530,7 +147614,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T04:15:17Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T05:20:26Z",
       "duplicate-hash": "2026-11-12T02:15:15Z"
     }
   }
