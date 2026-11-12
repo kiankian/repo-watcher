@@ -147896,6 +147896,18 @@
       "chat_id": 7582459199,
       "seq": 11789,
       "identity": "https://itw.wd5.myworkdayjobs.com/external/job/MTS-Headquarters/Software-Engineering-Intern_JR10261?utm_source=Simplify&ref=Simplify|Illinois Tool Works|Software Engineer Intern|United States|Summer 2026#1"
+    },
+    "f8a92872846c": {
+      "company": "Farmers Mutual Hail",
+      "role": "Application Administrator Intern",
+      "location": "West Des Moines, IA",
+      "term": "Oct 31",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13126,
+      "chat_id": 7582459199,
+      "seq": 11790,
+      "identity": "NOURL|Farmers Mutual Hail|Application Administrator Intern|West Des Moines, IA|Oct 31#1"
     }
   },
   "applied": {
@@ -148263,10 +148275,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11789,
+  "seq": 11790,
   "health": {
     "last_heartbeat": "2026-11-12T16:10:20Z",
-    "last_ok_run": "2026-11-12T16:10:20Z",
+    "last_ok_run": "2026-11-12T16:15:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -148274,7 +148286,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T15:15:28Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T16:15:18Z",
       "duplicate-hash": "2026-11-12T02:15:15Z"
     }
   }
