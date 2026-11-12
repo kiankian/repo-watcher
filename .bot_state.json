@@ -148088,6 +148088,18 @@
       "chat_id": 7582459199,
       "seq": 11805,
       "identity": "https://zapply.jobs/l/d/phenom-bae-systems-132276BR?s=gh-internships-2027|BAE Systems|Cyber Systems Engineering Intern II (Spring 2007)|Hudson, New Hampshire|Summer 2027#1"
+    },
+    "09edd3ecf361": {
+      "company": "Northrop Grumman",
+      "role": "2027 Systems Engineering Intern - Graduate Level - Plymouth MN",
+      "location": "United States-Minnesota-Plymouth",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10260431?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13145,
+      "chat_id": 7582459199,
+      "seq": 11806,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10260431?s=gh-internships-2027|Northrop Grumman|2027 Systems Engineering Intern - Graduate Level - Plymouth MN|United States-Minnesota-Plymouth|Summer 2027#1"
     }
   },
   "applied": {
@@ -148455,10 +148467,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11805,
+  "seq": 11806,
   "health": {
     "last_heartbeat": "2026-11-12T17:20:20Z",
-    "last_ok_run": "2026-11-12T18:05:17Z",
+    "last_ok_run": "2026-11-12T18:10:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
