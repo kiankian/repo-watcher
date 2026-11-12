@@ -148724,6 +148724,30 @@
       "chat_id": 7582459199,
       "seq": 11859,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10260427?s=gh-internships-2027|Northrop Grumman|SkillBridge Internship Program is seeking our exceptional enlisted-military talent to join us as...|United States-Alabama-Huntsville|Summer 2027#1"
+    },
+    "cfd0dc106603": {
+      "company": "Eversource Energy",
+      "role": "2027 Gas Systems Engineering Co-op",
+      "location": "MA Westborough Technology Dr",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-eversource-externalsite-R-032513?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13206,
+      "chat_id": 7582459199,
+      "seq": 11860,
+      "identity": "https://zapply.jobs/l/d/workday-eversource-externalsite-R-032513?s=gh-internships-2027|Eversource Energy|2027 Gas Systems Engineering Co-op|MA Westborough Technology Dr|Summer 2027#1"
+    },
+    "18a4875ffb09": {
+      "company": "Cboe",
+      "role": "DevOps Intern",
+      "location": "Overland Park OPX",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cboe-external-career-cboe-R-4659?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13207,
+      "chat_id": 7582459199,
+      "seq": 11861,
+      "identity": "https://zapply.jobs/l/d/workday-cboe-external-career-cboe-R-4659?s=gh-internships-2027|Cboe|DevOps Intern|Overland Park OPX|Summer 2027#1"
     }
   },
   "applied": {
@@ -149091,10 +149115,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11859,
+  "seq": 11861,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-12T20:50:20Z",
+    "last_ok_run": "2026-11-12T20:55:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
