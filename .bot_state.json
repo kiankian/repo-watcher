@@ -147068,6 +147068,66 @@
       "chat_id": 7582459199,
       "seq": 11720,
       "identity": "https://zapply.jobs/l/d/phenom-illinois-tool-works-JR11135?s=gh-internships-2027|Illinois Tool Works|Quality Engineering Intern|Danvers, Massachusetts|Summer 2027#1"
+    },
+    "1395e1829c86": {
+      "company": "ServiceNow",
+      "role": "Associate Security Engineering & Automation Intern",
+      "location": "Santa Clara, CA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13047,
+      "chat_id": 7582459199,
+      "seq": 11721,
+      "identity": "https://go.vansh.nyc/1vX?s=y|ServiceNow|Associate Security Engineering & Automation Intern|Santa Clara, CA|Nov 11#1"
+    },
+    "b6972bfdef19": {
+      "company": "ServiceNow",
+      "role": "Associate Information Security Engineer Intern",
+      "location": "San Diego, CA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13048,
+      "chat_id": 7582459199,
+      "seq": 11722,
+      "identity": "https://go.vansh.nyc/1vY?s=y|ServiceNow|Associate Information Security Engineer Intern|San Diego, CA|Nov 11#1"
+    },
+    "1840fbddd583": {
+      "company": "ServiceNow",
+      "role": "Associate AI Engineering Intern, Cloud Security Automation",
+      "location": "Santa Clara, CA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13049,
+      "chat_id": 7582459199,
+      "seq": 11723,
+      "identity": "https://go.vansh.nyc/1vZ?s=y|ServiceNow|Associate AI Engineering Intern, Cloud Security Automation|Santa Clara, CA|Nov 11#1"
+    },
+    "ec7053b72b9d": {
+      "company": "ServiceNow",
+      "role": "Associate Detection Engineering Intern",
+      "location": "Kirkland, WA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1w0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13050,
+      "chat_id": 7582459199,
+      "seq": 11724,
+      "identity": "https://go.vansh.nyc/1w0?s=y|ServiceNow|Associate Detection Engineering Intern|Kirkland, WA|Nov 11#1"
+    },
+    "69f1014c998d": {
+      "company": "Hewlett Packard Enterprise",
+      "role": "Research Associate Intern, Systems Architecture Lab",
+      "location": "Milpitas, CA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1w1?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13051,
+      "chat_id": 7582459199,
+      "seq": 11725,
+      "identity": "https://go.vansh.nyc/1w1?s=y|Hewlett Packard Enterprise|Research Associate Intern, Systems Architecture Lab|Milpitas, CA|Nov 11#1"
     }
   },
   "applied": {
@@ -147435,10 +147495,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11720,
+  "seq": 11725,
   "health": {
     "last_heartbeat": "2026-11-12T02:45:18Z",
-    "last_ok_run": "2026-11-12T03:10:16Z",
+    "last_ok_run": "2026-11-12T03:15:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -147446,7 +147506,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T02:15:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T03:15:24Z",
       "duplicate-hash": "2026-11-12T02:15:15Z"
     }
   }
