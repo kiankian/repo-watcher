@@ -147908,6 +147908,78 @@
       "chat_id": 7582459199,
       "seq": 11790,
       "identity": "NOURL|Farmers Mutual Hail|Application Administrator Intern|West Des Moines, IA|Oct 31#1"
+    },
+    "c64f3189ca70": {
+      "company": "Cigna",
+      "role": "Software Engineering Intern",
+      "location": "**4 locations**St. Louis, MO Austin, TX Morris Plains, NJ Bloomfield, CT",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1wH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13128,
+      "chat_id": 7582459199,
+      "seq": 11791,
+      "identity": "https://go.vansh.nyc/1wH?s=y|Cigna|Software Engineering Intern|**4 locations**St. Louis, MO Austin, TX Morris Plains, NJ Bloomfield, CT|Nov 12#1"
+    },
+    "c6c9e40a11fc": {
+      "company": "Cardinal Health",
+      "role": "Technology Intern",
+      "location": "Dublin, OH",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1wG?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13129,
+      "chat_id": 7582459199,
+      "seq": 11792,
+      "identity": "https://go.vansh.nyc/1wG?s=y|Cardinal Health|Technology Intern|Dublin, OH|Nov 12#1"
+    },
+    "4158cd123693": {
+      "company": "Trinity Life Sciences",
+      "role": "Data Science Intern",
+      "location": "Waltham, MA New York, NY",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/1wF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13130,
+      "chat_id": 7582459199,
+      "seq": 11793,
+      "identity": "https://go.vansh.nyc/1wF?s=y|Trinity Life Sciences|Data Science Intern|Waltham, MA New York, NY|Oct 26#1"
+    },
+    "96d1465154e7": {
+      "company": "Illinois Tool Works",
+      "role": "Software Engineer Intern, Application Software",
+      "location": "Eden Prairie, MN",
+      "term": "Oct 06",
+      "apply_url": "https://go.vansh.nyc/1wE?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13131,
+      "chat_id": 7582459199,
+      "seq": 11794,
+      "identity": "https://go.vansh.nyc/1wE?s=y|Illinois Tool Works|Software Engineer Intern, Application Software|Eden Prairie, MN|Oct 06#1"
+    },
+    "c16a461908ca": {
+      "company": "Illinois Tool Works",
+      "role": "Software Engineer Intern",
+      "location": "United States",
+      "term": "Sep 29",
+      "apply_url": "https://go.vansh.nyc/1wD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13132,
+      "chat_id": 7582459199,
+      "seq": 11795,
+      "identity": "https://go.vansh.nyc/1wD?s=y|Illinois Tool Works|Software Engineer Intern|United States|Sep 29#1"
+    },
+    "4c9015aa8f94": {
+      "company": "AMD",
+      "role": "ASIC Verification Engineer Co-op",
+      "location": "Ottawa, Canada",
+      "term": "Sep 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13133,
+      "chat_id": 7582459199,
+      "seq": 11796,
+      "identity": "NOURL|AMD|ASIC Verification Engineer Co-op|Ottawa, Canada|Sep 02#1"
     }
   },
   "applied": {
@@ -148275,10 +148347,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11790,
+  "seq": 11796,
   "health": {
     "last_heartbeat": "2026-11-12T16:10:20Z",
-    "last_ok_run": "2026-11-12T16:40:18Z",
+    "last_ok_run": "2026-11-12T16:45:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -148286,7 +148358,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T16:15:18Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T16:45:27Z",
       "duplicate-hash": "2026-11-12T02:15:15Z"
     }
   }
