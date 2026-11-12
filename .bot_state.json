@@ -147476,6 +147476,54 @@
       "chat_id": 7582459199,
       "seq": 11754,
       "identity": "https://go.vansh.nyc/1wj?s=y|Microsoft|Data Scientist Intern, CoreAI|Redmond, WA|Nov 12#1"
+    },
+    "1a2dd17c5652": {
+      "company": "Honeywell Aerospace",
+      "role": "Software Engineering Intern \ud83d\udec2",
+      "location": "United States",
+      "term": "Aug 27",
+      "apply_url": "https://go.vansh.nyc/1wq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13087,
+      "chat_id": 7582459199,
+      "seq": 11755,
+      "identity": "https://go.vansh.nyc/1wq?s=y|Honeywell Aerospace|Software Engineering Intern \ud83d\udec2|United States|Aug 27#1"
+    },
+    "1f981b782a4c": {
+      "company": "Honeywell Aerospace",
+      "role": "Software AI Intern \ud83d\udec2",
+      "location": "United States",
+      "term": "Aug 27",
+      "apply_url": "https://go.vansh.nyc/1wr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13088,
+      "chat_id": 7582459199,
+      "seq": 11756,
+      "identity": "https://go.vansh.nyc/1wr?s=y|Honeywell Aerospace|Software AI Intern \ud83d\udec2|United States|Aug 27#1"
+    },
+    "e15686aa582e": {
+      "company": "Honeywell Aerospace",
+      "role": "Embedded Engineering Intern \ud83d\udec2",
+      "location": "United States",
+      "term": "Aug 27",
+      "apply_url": "https://go.vansh.nyc/1ws?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13089,
+      "chat_id": 7582459199,
+      "seq": 11757,
+      "identity": "https://go.vansh.nyc/1ws?s=y|Honeywell Aerospace|Embedded Engineering Intern \ud83d\udec2|United States|Aug 27#1"
+    },
+    "7ea939a9e871": {
+      "company": "AbbVie",
+      "role": "Business Technology Solutions Intern - Data & Software Engineering",
+      "location": "North Chicago, IL",
+      "term": "Sep 25",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13090,
+      "chat_id": 7582459199,
+      "seq": 11758,
+      "identity": "NOURL|AbbVie|Business Technology Solutions Intern - Data & Software Engineering|North Chicago, IL|Sep 25#1"
     }
   },
   "applied": {
@@ -147843,10 +147891,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11754,
+  "seq": 11758,
   "health": {
     "last_heartbeat": "2026-11-12T12:45:17Z",
-    "last_ok_run": "2026-11-12T13:05:17Z",
+    "last_ok_run": "2026-11-12T13:10:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -147854,7 +147902,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T11:15:17Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T13:10:23Z",
       "duplicate-hash": "2026-11-12T02:15:15Z"
     }
   }
