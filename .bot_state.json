@@ -147992,6 +147992,18 @@
       "chat_id": 7582459199,
       "seq": 11797,
       "identity": "https://zapply.jobs/l/d/phenom-bae-systems-132795BR?s=gh-internships-2027|BAE Systems|Systems Engineering Internship - Summer 2027|Hudson, New Hampshire|Summer 2027#1"
+    },
+    "b6fa5c3f6822": {
+      "company": "RTX",
+      "role": "Systems Engineering Intern (Summer 2027)",
+      "location": "MA-MARLBOROUGH-MA2",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01888963?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13136,
+      "chat_id": 7582459199,
+      "seq": 11798,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01888963?s=gh-internships-2027|RTX|Systems Engineering Intern (Summer 2027)|MA-MARLBOROUGH-MA2|Summer 2027#1"
     }
   },
   "applied": {
@@ -148359,10 +148371,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11797,
+  "seq": 11798,
   "health": {
     "last_heartbeat": "2026-11-12T16:10:20Z",
-    "last_ok_run": "2026-11-12T17:00:26Z",
+    "last_ok_run": "2026-11-12T17:05:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
