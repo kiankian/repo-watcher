@@ -3052,16 +3052,6 @@
   "vanshb03/Summer2027-Internships#summer": {
     "last_sha": "f3c5787084bd41a8d21bc04876ed27420f1103cf",
     "seen": [
-      "https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027-_R10604?utm_source=github-vansh-ouckah|SOTI|Software Developer Intern|Mississauga, ON|Oct 20#1",
-      "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---New-York/Engineering-Intern--AI-Ethics-_JR-119784?utm_source=github-vansh-ouckah|Sony|Research Engineer Intern, Ethical Creative and Protective AI Lab|Remote in USA|Oct 20#1",
-      "https://jobs.ashbyhq.com/skydio/8a237302-3fe8-4403-b32b-7690f333ba52/application?utm_source=github-vansh-ouckah|Skydio|Mobile Software Engineer Intern|San Mateo, CA|Oct 20#1",
-      "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1?utm_source=github-vansh-ouckah|Salesforce|AI Research Intern|Palo Alto, CA|Oct 20#1",
-      "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-SAN-JOSE-826--200-Holger-Way--BLDG-826/Software-Engineering-Intern--Summer-2027-_01883026?utm_source=github-vansh-ouckah|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Jose, CA|Oct 20#1",
-      "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---SSD-Firmware_JR115209?utm_source=github-vansh-ouckah|Micron Technology|SSD Firmware Intern|San Jose, CA Boise, ID|Oct 20#1",
-      "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094?utm_source=github-vansh-ouckah|Micron Technology|SMAI Probe AI Engineer Intern|Boise, ID|Oct 20#1",
-      "https://careers-kinaxis.icims.com/jobs/35572/intern-cloud-developer%2c-platform-engineering/job?utm_source=github-vansh-ouckah|Kinaxis|Cloud Developer Intern, Platform Engineering|Ottawa, ON|Oct 20#1",
-      "https://jobs.ashbyhq.com/integrate/d619e978-446a-4147-a788-9e53918a1736?utm_source=github-vansh-ouckah|Integrate|Software Engineering Intern|Seattle, WA|Oct 20#1",
-      "https://jobs.ashbyhq.com/illumio/8708e622-900e-458a-96b3-ae339329a56d?utm_source=github-vansh-ouckah|Illumio|Engineering Intern, Product Security|Sunnyvale, CA|Oct 20#1",
       "https://jobs.ashbyhq.com/illumio/09d4895b-6de4-4d22-bbc3-aa45f2b24260?utm_source=github-vansh-ouckah|Illumio|Security Research Intern|Sunnyvale, CA|Oct 20#1",
       "https://jobs.lever.co/humble-robotics/8d1fb5d7-9b07-4fac-8c39-e395dca7f2b3?utm_source=github-vansh-ouckah|Humble Robotics|Embedded Software Engineer Intern|San Francisco, CA|Oct 20#1",
       "https://careers-gdms.icims.com/jobs/75637/software-engineer-intern/job?utm_source=github-vansh-ouckah|General Dynamics Mission Systems|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Oct 20#1",
@@ -8051,125 +8041,24 @@
       "https://go.vansh.nyc/1xs?s=y|Green Bay Packaging|Cybersecurity Intern|Green Bay, WI|Nov 11#1",
       "https://go.vansh.nyc/1xf?s=y|Garmin International|IT DevOps Administrator Intern|Olathe, KS|Nov 11#1",
       "https://go.vansh.nyc/1xr?s=y|Encore Global|IT Security Intern|Coppell, TX|Nov 11#1",
-      "https://go.vansh.nyc/1xe?s=y|Diversified Gas & Oil Corporation|Information Technology Intern|Birmingham, AL|Nov 11#1"
+      "https://go.vansh.nyc/1xe?s=y|Diversified Gas & Oil Corporation|Information Technology Intern|Birmingham, AL|Nov 11#1",
+      "https://go.vansh.nyc/1x3?s=y|CarGurus|Data Platform Engineer Intern|Boston, MA|Nov 11#1",
+      "https://go.vansh.nyc/1xc?s=y|CarGurus|Data Analytics Engineer Intern|Boston, MA|Nov 11#1",
+      "https://go.vansh.nyc/1x1?s=y|US Internships Public Careers Site|Undergraduate Software Engineering Intern|San Diego, CA|Nov 10#1",
+      "https://go.vansh.nyc/1x2?s=y|US Internships Public Careers Site|Undergraduate Software Engineering Intern|Aliso Viejo, CA|Nov 10#1",
+      "https://go.vansh.nyc/1wY?s=y|ISO New England|Cyber Adversary Defense Optimization Intern \ud83d\udec2|Holyoke, MA|Nov 10#1",
+      "https://go.vansh.nyc/1wW?s=y|CarGurus|Software Development Engineer Intern, Full Stack|Boston, MA|Nov 10#1",
+      "https://go.vansh.nyc/1wX?s=y|CarGurus|Data Governance Engineer Intern|Boston, MA|Nov 10#1",
+      "https://go.vansh.nyc/1wZ?s=y|CarGurus|Software Development Engineer Intern|Boston, MA|Nov 10#1",
+      "NOURL|Highmark Health|Data Analyst enGen Undergraduate Intern|Pittsburgh, PA|Nov 10#1",
+      "NOURL|Axon|Software Engineer Intern, R&D Program|Seattle, WA|Sep 11#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 2833,
-    "outbox": [
-      [
-        [
-          "CarGurus",
-          "Data Platform Engineer Intern",
-          "Boston, MA",
-          "Nov 11",
-          "https://go.vansh.nyc/1x3?s=y"
-        ],
-        "https://go.vansh.nyc/1x3?s=y|CarGurus|Data Platform Engineer Intern|Boston, MA|Nov 11#1",
-        1
-      ],
-      [
-        [
-          "CarGurus",
-          "Data Analytics Engineer Intern",
-          "Boston, MA",
-          "Nov 11",
-          "https://go.vansh.nyc/1xc?s=y"
-        ],
-        "https://go.vansh.nyc/1xc?s=y|CarGurus|Data Analytics Engineer Intern|Boston, MA|Nov 11#1",
-        1
-      ],
-      [
-        [
-          "US Internships Public Careers Site",
-          "Undergraduate Software Engineering Intern",
-          "San Diego, CA",
-          "Nov 10",
-          "https://go.vansh.nyc/1x1?s=y"
-        ],
-        "https://go.vansh.nyc/1x1?s=y|US Internships Public Careers Site|Undergraduate Software Engineering Intern|San Diego, CA|Nov 10#1",
-        1
-      ],
-      [
-        [
-          "US Internships Public Careers Site",
-          "Undergraduate Software Engineering Intern",
-          "Aliso Viejo, CA",
-          "Nov 10",
-          "https://go.vansh.nyc/1x2?s=y"
-        ],
-        "https://go.vansh.nyc/1x2?s=y|US Internships Public Careers Site|Undergraduate Software Engineering Intern|Aliso Viejo, CA|Nov 10#1",
-        1
-      ],
-      [
-        [
-          "ISO New England",
-          "Cyber Adversary Defense Optimization Intern \ud83d\udec2",
-          "Holyoke, MA",
-          "Nov 10",
-          "https://go.vansh.nyc/1wY?s=y"
-        ],
-        "https://go.vansh.nyc/1wY?s=y|ISO New England|Cyber Adversary Defense Optimization Intern \ud83d\udec2|Holyoke, MA|Nov 10#1",
-        1
-      ],
-      [
-        [
-          "CarGurus",
-          "Software Development Engineer Intern, Full Stack",
-          "Boston, MA",
-          "Nov 10",
-          "https://go.vansh.nyc/1wW?s=y"
-        ],
-        "https://go.vansh.nyc/1wW?s=y|CarGurus|Software Development Engineer Intern, Full Stack|Boston, MA|Nov 10#1",
-        1
-      ],
-      [
-        [
-          "CarGurus",
-          "Data Governance Engineer Intern",
-          "Boston, MA",
-          "Nov 10",
-          "https://go.vansh.nyc/1wX?s=y"
-        ],
-        "https://go.vansh.nyc/1wX?s=y|CarGurus|Data Governance Engineer Intern|Boston, MA|Nov 10#1",
-        1
-      ],
-      [
-        [
-          "CarGurus",
-          "Software Development Engineer Intern",
-          "Boston, MA",
-          "Nov 10",
-          "https://go.vansh.nyc/1wZ?s=y"
-        ],
-        "https://go.vansh.nyc/1wZ?s=y|CarGurus|Software Development Engineer Intern|Boston, MA|Nov 10#1",
-        1
-      ],
-      [
-        [
-          "Highmark Health",
-          "Data Analyst enGen Undergraduate Intern",
-          "Pittsburgh, PA",
-          "Nov 10",
-          ""
-        ],
-        "NOURL|Highmark Health|Data Analyst enGen Undergraduate Intern|Pittsburgh, PA|Nov 10#1",
-        1
-      ],
-      [
-        [
-          "Axon",
-          "Software Engineer Intern, R&D Program",
-          "Seattle, WA",
-          "Sep 11",
-          ""
-        ],
-        "NOURL|Axon|Software Engineer Intern, R&D Program|Seattle, WA|Sep 11#1",
-        1
-      ]
-    ]
+    "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "675b6e65e06fc057c368953fbea2c0a89b3e4a9b",
+    "last_sha": "fae838b3a724c4f13471a38ffd2563d17657beb6",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -10816,7 +10705,8 @@
       "https://zapply.jobs/l/d/phenom-bae-systems-132276BR?s=gh-internships-2027|BAE Systems|Cyber Systems Engineering Intern II (Spring 2007)|Hudson, New Hampshire|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10260431?s=gh-internships-2027|Northrop Grumman|2027 Systems Engineering Intern - Graduate Level - Plymouth MN|United States-Minnesota-Plymouth|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-15867?s=gh-internships-2027|Entegris|Quality Engineering Intern|Colorado Springs, CO|Summer 2027#1",
-      "https://zapply.jobs/l/d/eightfold-micron-44452959?s=gh-internships-2027|Micron|Intern - IT Software Engineer|Boise, Idaho, United States of...|Summer 2027#1"
+      "https://zapply.jobs/l/d/eightfold-micron-44452959?s=gh-internships-2027|Micron|Intern - IT Software Engineer|Boise, Idaho, United States of...|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01881462?s=gh-internships-2027|RTX|Systems Engineering Intern|MN-BURNSVILLE-NORTH|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
