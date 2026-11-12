@@ -3039,10 +3039,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "af044bfd1193a24c53d48469e42e60a8c39e7dd4",
+    "last_sha": "862761bfb27168f05ab43a3650bd870a775767cc",
     "seen": [
-      "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Lehi/XMLNAME-2027-Intern---Security-Engineer_R173000?utm_source=github-vansh-ouckah|Adobe|Security Engineer Intern|Lehi, UT|Oct 19#1",
-      "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---AI---Architecture_R172998?utm_source=github-vansh-ouckah|Adobe|AI & Architecture Intern|San Jose, CA|Oct 19#1",
       "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997?utm_source=github-vansh-ouckah|Adobe|Data, AI & Innovation Intern|San Jose, CA|Oct 19#1",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01880499?utm_source=github-vansh-ouckah|RTX|Software Engineer Intern|Cedar Rapids, IA|Oct 18#1",
       "https://careers.mitre.org/us/en/job/R117620/AI-Engineering-Intern?utm_source=github-vansh-ouckah|MITRE|AI Engineering Intern|Bedford, MA|Oct 18#1",
@@ -8040,14 +8038,16 @@
       "NOURL|Mettler Toledo|Embedded Software Engineering Intern|Oakland, CA|Nov 09#1",
       "NOURL|McDonald's|Global Tech Infrastructure & Operations Intern|Chicago, IL|Nov 11#1",
       "NOURL|GlobalFoundries|Design Verification Engineer Intern|Plano, TX|Nov 09#1",
-      "NOURL|Cincinnati Children\u2019s Hospital and Medical Center|Software Engineering Developer Intern|Remote United States|Nov 01#1"
+      "NOURL|Cincinnati Children\u2019s Hospital and Medical Center|Software Engineering Developer Intern|Remote United States|Nov 01#1",
+      "NOURL|Molina Healthcare|Undergraduate Electronic Data Interchange Intern|Remote United States|Nov 04#1",
+      "NOURL|Shield|Software Engineer Intern|San Mateo, CA Dallas, TX|Sep 23#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 2784,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "8504bd98de29f3f0c144498272e868f0ec2f2c48",
+    "last_sha": "a5c4c2fdb805c6c53491a6928a812c720d2d54ff",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -10681,7 +10681,9 @@
       "https://zapply.jobs/l/d/sr-ServiceNow-744000161209810?s=gh-internships-2027|ServiceNow|Assoc Security Engineering & Automation Intern|Santa Clara, CALIFORNIA|Summer 2027#1",
       "https://zapply.jobs/l/d/sr-ServiceNow-744000161204235?s=gh-internships-2027|ServiceNow|Assoc Information Security Engineer Intern|San Diego, CALIFORNIA|Summer 2027#1",
       "https://zapply.jobs/l/d/phenom-illinois-tool-works-JR11135?s=gh-internships-2027|Illinois Tool Works|Quality Engineering Intern|Danvers, Massachusetts|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01888309?s=gh-internships-2027|RTX|Systems Engineering Intern (2027)- Tac Comm (Onsite)|IA-CEDAR RAPIDS|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01888309?s=gh-internships-2027|RTX|Systems Engineering Intern (2027)- Tac Comm (Onsite)|IA-CEDAR RAPIDS|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031346?s=gh-internships-2027|Sierra Nevada Corporation|Software Engineer I (For 2026 Interns Only)|Lone Tree, CO|Summer 2027#1",
+      "https://zapply.jobs/l/d/phenom-bae-systems-130026BR?s=gh-internships-2027|BAE Systems|Systems Engineer Intern (Mechanical Focus), Summer 2027|Rockville, Maryland|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
