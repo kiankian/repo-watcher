@@ -149072,6 +149072,126 @@
       "chat_id": 7582459199,
       "seq": 11888,
       "identity": "https://go.vansh.nyc/1xG?s=y|ISO New England|Operations Process Automation Developer Intern|Holyoke, MA|Nov 02#1"
+    },
+    "cd95b4ab9ec8": {
+      "company": "Cigna",
+      "role": "Software Engineering Intern",
+      "location": "**4 locations**St. Louis, MO Austin, TX Morris Plains, NJ Bloomfield, CT",
+      "term": "Nov 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13240,
+      "chat_id": 7582459199,
+      "seq": 11889,
+      "identity": "NOURL|Cigna|Software Engineering Intern|**4 locations**St. Louis, MO Austin, TX Morris Plains, NJ Bloomfield, CT|Nov 12#1"
+    },
+    "5ee4d28fec79": {
+      "company": "Autodesk",
+      "role": "Software Developer Intern",
+      "location": "Montreal, Canada",
+      "term": "Nov 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13241,
+      "chat_id": 7582459199,
+      "seq": 11890,
+      "identity": "NOURL|Autodesk|Software Developer Intern|Montreal, Canada|Nov 12#1"
+    },
+    "3831f065c4b1": {
+      "company": "General Motors",
+      "role": "Machine Learning Engineer Intern, Embodied AI",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13242,
+      "chat_id": 7582459199,
+      "seq": 11891,
+      "identity": "NOURL|General Motors|Machine Learning Engineer Intern, Embodied AI|Sunnyvale, CA|Nov 10#1"
+    },
+    "f5d691f4a1a7": {
+      "company": "National Interstate Insurance",
+      "role": "Telematics / Predictive Analytics Intern \ud83d\udec2",
+      "location": "Cincinnati, OH",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13243,
+      "chat_id": 7582459199,
+      "seq": 11892,
+      "identity": "NOURL|National Interstate Insurance|Telematics / Predictive Analytics Intern \ud83d\udec2|Cincinnati, OH|Nov 09#1"
+    },
+    "9ed90e761438": {
+      "company": "Dairyland Power Cooperative",
+      "role": "Energy Data Analyst Intern",
+      "location": "La Crosse, WI",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13244,
+      "chat_id": 7582459199,
+      "seq": 11893,
+      "identity": "NOURL|Dairyland Power Cooperative|Energy Data Analyst Intern|La Crosse, WI|Nov 03#1"
+    },
+    "2435304cfaf2": {
+      "company": "TikTok",
+      "role": "Fullstack Software Engineer Intern, Global E-Commerce",
+      "location": "Seattle, WA",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13245,
+      "chat_id": 7582459199,
+      "seq": 11894,
+      "identity": "NOURL|TikTok|Fullstack Software Engineer Intern, Global E-Commerce|Seattle, WA|Nov 01#1"
+    },
+    "2ffa248e8d6e": {
+      "company": "Clay",
+      "role": "Software Engineering Intern",
+      "location": "New York, NY",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13246,
+      "chat_id": 7582459199,
+      "seq": 11895,
+      "identity": "NOURL|Clay|Software Engineering Intern|New York, NY|Oct 30#1"
+    },
+    "8fc79f058f44": {
+      "company": "SeatGeek",
+      "role": "Security Engineer Intern",
+      "location": "New York, NY",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13247,
+      "chat_id": 7582459199,
+      "seq": 11896,
+      "identity": "NOURL|SeatGeek|Security Engineer Intern|New York, NY|Oct 28#1"
+    },
+    "c6b37ad815e0": {
+      "company": "Micron Technology",
+      "role": "Data Science Intern",
+      "location": "San Jose, CA Folsom, CA",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13248,
+      "chat_id": 7582459199,
+      "seq": 11897,
+      "identity": "NOURL|Micron Technology|Data Science Intern|San Jose, CA Folsom, CA|Oct 28#1"
+    },
+    "d053f0198321": {
+      "company": "Ancestry",
+      "role": "Software Engineer \u2013 Observability, Co-op",
+      "location": "Draper, Utah",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ancestry-careers-R003434?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13249,
+      "chat_id": 7582459199,
+      "seq": 11898,
+      "identity": "https://zapply.jobs/l/d/workday-ancestry-careers-R003434?s=gh-internships-2027|Ancestry|Software Engineer \u2013 Observability, Co-op|Draper, Utah|Summer 2027#1"
     }
   },
   "applied": {
@@ -149439,10 +149559,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11888,
+  "seq": 11898,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-12T23:16:00Z",
+    "last_ok_run": "2026-11-12T23:20:33Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
