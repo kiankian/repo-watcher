@@ -68488,9 +68488,9 @@
       "term": "Jul 07",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6346,
+      "message_id": 13044,
       "chat_id": 7582459199,
-      "seq": 5150,
+      "seq": 11718,
       "identity": "NOURL|Aquatic|Software Engineer Intern|Chicago, IL|Jul 07#1"
     },
     "e2daaf3f38d8": {
@@ -147032,6 +147032,18 @@
       "chat_id": 7582459199,
       "seq": 11712,
       "identity": "https://zapply.jobs/l/d/sr-ServiceNow-744000161204235?s=gh-internships-2027|ServiceNow|Assoc Information Security Engineer Intern|San Diego, CALIFORNIA|Summer 2027#1"
+    },
+    "27e5bad50f09": {
+      "company": "Rhoda AI",
+      "role": "Research Intern",
+      "location": "Mountain View, CA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13043,
+      "chat_id": 7582459199,
+      "seq": 11717,
+      "identity": "https://go.vansh.nyc/1vV?s=y|Rhoda AI|Research Intern|Mountain View, CA|Nov 11#1"
     }
   },
   "applied": {
@@ -147399,10 +147411,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11716,
+  "seq": 11718,
   "health": {
     "last_heartbeat": "2026-11-12T01:45:18Z",
-    "last_ok_run": "2026-11-12T02:15:22Z",
+    "last_ok_run": "2026-11-12T02:20:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
