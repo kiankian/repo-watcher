@@ -68284,9 +68284,9 @@
       "term": "Aug 21",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6329,
+      "message_id": 13030,
       "chat_id": 7582459199,
-      "seq": 5133,
+      "seq": 11708,
       "identity": "NOURL|Atoms|Software Engineer Intern|**5 locations**New York, NY Seattle, WA Los Angeles, CA Mountain View, CA San Francisco, CA|Aug 21#1"
     },
     "484238693161": {
@@ -68296,9 +68296,9 @@
       "term": "Jul 31",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6330,
+      "message_id": 13032,
       "chat_id": 7582459199,
-      "seq": 5134,
+      "seq": 11709,
       "identity": "NOURL|FTI Consulting|Technology Intern|**12 locations**Atlanta, GA Chicago, IL Houston, TX Los Angeles, CA New York, NY San Francisco, CA Washington, DC Chicago, IL Los Angeles, CA New York, NY San Francisco, CA Washington, DC|Jul 31#1"
     },
     "3de001da5ab6": {
@@ -68308,9 +68308,9 @@
       "term": "Jul 31",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6331,
+      "message_id": 13033,
       "chat_id": 7582459199,
-      "seq": 5135,
+      "seq": 11710,
       "identity": "NOURL|Castleton Commodities International|Data Engineering Intern|Stamford, CT Houston, TX New York City, NY|Jul 31#1"
     },
     "e2e670b95a5b": {
@@ -146936,6 +146936,78 @@
       "chat_id": 7582459199,
       "seq": 11701,
       "identity": "https://go.vansh.nyc/1vI?s=y|Bloom Energy|RMCC Data Science Intern|San Jose, CA|Nov 11#1"
+    },
+    "9ca2c3930ca6": {
+      "company": "StepStone Group",
+      "role": "AI Quant Analyst Intern",
+      "location": "La Jolla, CA San Diego, CA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13024,
+      "chat_id": 7582459199,
+      "seq": 11702,
+      "identity": "https://go.vansh.nyc/1vT?s=y|StepStone Group|AI Quant Analyst Intern|La Jolla, CA San Diego, CA|Nov 11#1"
+    },
+    "0c1d624ced25": {
+      "company": "Shive-Hattery",
+      "role": "Software Developer Intern",
+      "location": "Iowa City, IA",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13025,
+      "chat_id": 7582459199,
+      "seq": 11703,
+      "identity": "https://go.vansh.nyc/1vU?s=y|Shive-Hattery|Software Developer Intern|Iowa City, IA|Nov 11#1"
+    },
+    "f25fb7b0d331": {
+      "company": "Austal USA",
+      "role": "Cybersecurity Intern",
+      "location": "Mobile, AL",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vR?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13026,
+      "chat_id": 7582459199,
+      "seq": 11704,
+      "identity": "https://go.vansh.nyc/1vR?s=y|Austal USA|Cybersecurity Intern|Mobile, AL|Nov 11#1"
+    },
+    "f63a21137922": {
+      "company": "Arcesium",
+      "role": "Technology Operations Intern",
+      "location": "New York, NY",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1vQ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13027,
+      "chat_id": 7582459199,
+      "seq": 11705,
+      "identity": "https://go.vansh.nyc/1vQ?s=y|Arcesium|Technology Operations Intern|New York, NY|Nov 11#1"
+    },
+    "83a95b9c54f1": {
+      "company": "Panera Bread",
+      "role": "Data Science & AI Analytics Intern",
+      "location": "Newton, MA",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1vS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13028,
+      "chat_id": 7582459199,
+      "seq": 11706,
+      "identity": "https://go.vansh.nyc/1vS?s=y|Panera Bread|Data Science & AI Analytics Intern|Newton, MA|Nov 10#1"
+    },
+    "abb190c298fd": {
+      "company": "Art of Problem Solving",
+      "role": "Software Engineer Intern",
+      "location": "San Diego, CA",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13029,
+      "chat_id": 7582459199,
+      "seq": 11707,
+      "identity": "NOURL|Art of Problem Solving|Software Engineer Intern|San Diego, CA|Nov 09#1"
     }
   },
   "applied": {
@@ -147303,10 +147375,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11701,
+  "seq": 11710,
   "health": {
     "last_heartbeat": "2026-11-12T00:45:18Z",
-    "last_ok_run": "2026-11-12T00:45:18Z",
+    "last_ok_run": "2026-11-12T00:50:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -147314,8 +147386,8 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-11T23:50:41Z",
-      "duplicate-hash": "2026-11-11T06:00:31Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T00:50:30Z",
+      "duplicate-hash": "2026-11-12T00:50:26Z"
     }
   }
 }
