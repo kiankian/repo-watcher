@@ -71368,9 +71368,9 @@
       "term": "Apr 24",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6586,
+      "message_id": 13201,
       "chat_id": 7582459199,
-      "seq": 5390,
+      "seq": 11858,
       "identity": "NOURL|Twilio|Software Engineer Intern|Remote|Apr 24#1"
     },
     "0662fce2dd5c": {
@@ -148688,6 +148688,42 @@
       "chat_id": 7582459199,
       "seq": 11855,
       "identity": "https://zapply.jobs/l/d/workday-caci-external-333147?s=gh-internships-2027|CACI|Embedded Software Development Intern - Summer 2027|Denver, CO, US|Summer 2027#1"
+    },
+    "36120684b207": {
+      "company": "General Dynamics Information Technology",
+      "role": "Professional Programmer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Raleigh, NC",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1xx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13199,
+      "chat_id": 7582459199,
+      "seq": 11856,
+      "identity": "https://go.vansh.nyc/1xx?s=y|General Dynamics Information Technology|Professional Programmer Intern \ud83c\uddfa\ud83c\uddf8|Raleigh, NC|Nov 12#1"
+    },
+    "91ba73541d68": {
+      "company": "Micron Technology",
+      "role": "AI Engineering Intern, SMAI TD",
+      "location": "Boise, ID",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13200,
+      "chat_id": 7582459199,
+      "seq": 11857,
+      "identity": "NOURL|Micron Technology|AI Engineering Intern, SMAI TD|Boise, ID|Nov 02#1"
+    },
+    "07b30d603cd4": {
+      "company": "Northrop Grumman",
+      "role": "SkillBridge Internship Program is seeking our exceptional enlisted-military talent to join us as...",
+      "location": "United States-Alabama-Huntsville",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10260427?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13203,
+      "chat_id": 7582459199,
+      "seq": 11859,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10260427?s=gh-internships-2027|Northrop Grumman|SkillBridge Internship Program is seeking our exceptional enlisted-military talent to join us as...|United States-Alabama-Huntsville|Summer 2027#1"
     }
   },
   "applied": {
@@ -149055,10 +149091,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11855,
+  "seq": 11859,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-12T20:10:20Z",
+    "last_ok_run": "2026-11-12T20:15:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -149067,8 +149103,8 @@
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-12T19:55:53Z",
-      "duplicate-hash": "2026-11-12T02:15:15Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-12T19:45:18Z"
+      "duplicate-hash": "2026-11-12T20:15:21Z",
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-12T20:15:24Z"
     }
   }
 }
