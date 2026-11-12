@@ -3050,11 +3050,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "4a5799e5e15f2caff189bb867cbd8dd3b91a3665",
+    "last_sha": "010c8172501fe5f46b90821d2abb312b5c3e0b06",
     "seen": [
-      "https://qualcomm.eightfold.ai/careers/job/446721636316?utm_source=github-vansh-ouckah|Qualcomm|QDSP Hardware Physical Design Intern|Markham, ON, Canada|Oct 19#1",
-      "https://boards.greenhouse.io/point72/jobs/7609197002?utm_source=github-vansh-ouckah|Point72|Quantitative Developer Intern|NYC|Oct 19#1",
-      "https://jobs.ashbyhq.com/patreon/71f644bc-0873-4d62-a599-bd64405d6587/application?embed=true&utm_source=github-vansh-ouckah|Patreon|Software Engineer Intern|SF NYC|Oct 19#1",
       "https://jobs.paccar.com/job/Kirkland-Summer-2027-Warranty-Data-Analyst-Intern-WA-98033/1449176033/?ats=successfactors&utm_source=github-vansh-ouckah|Paccar|Warranty Data Analyst Intern|Kirkland, WA|Oct 19#1",
       "https://jobs.netapp.com/job/Wichita-Software-Engineer-Intern-KS-67208/1441378400/?ats=successfactors&utm_source=github-vansh-ouckah|NetApp|Software Engineer Intern|Wichita, KS|Oct 19#1",
       "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32645?utm_source=github-vansh-ouckah|Navy Federal|AI Engineering Intern|Vienna, VA|Oct 19#1",
@@ -8051,14 +8048,17 @@
       "NOURL|AMD|ASIC Verification Engineer Co-op|Ottawa, Canada|Sep 02#1",
       "NOURL|Altera|FPGA IP Design Engineer Intern, PEY|Toronto, Canada|Nov 12#1",
       "NOURL|Brex|Software Engineer Intern|San Francisco, CA|Nov 11#1",
-      "NOURL|Ursa Major|IT Infrastructure & Automation Intern|Berthoud, CO|Oct 21#1"
+      "NOURL|Ursa Major|IT Infrastructure & Automation Intern|Berthoud, CO|Oct 21#1",
+      "https://go.vansh.nyc/1wK?s=y|PTC|Site Reliability Engineering Intern, Onshape|Boston, MA|Nov 12#1",
+      "NOURL|Gauss Management Research & Engineering|Web Application Developer Intern \ud83c\uddfa\ud83c\uddf8|South Ogden, UT|Oct 27#1",
+      "NOURL|Monolithic Power Systems|Applications Engineer Intern|San Jose, CA|Oct 14#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2795,
+    "last_row_count": 2796,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "e93bb86d759e990fc2329900610252228f4d371c",
+    "last_sha": "e8a74adfceea57dbcdaff473326ac2c93b45d58a",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -10703,7 +10703,8 @@
       "https://zapply.jobs/l/d/workday-ptc-ptc-JR112926?s=gh-internships-2027|PTC|Onshape Site Reliability Engineering Intern (Summer 2027)|Boston, MA, USA|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R70657?s=gh-internships-2027|Motorola Solutions|North America (NA) Systems Engineering Operations Internship  - 2027|Chicago, IL, More...|Summer 2027#1",
       "https://zapply.jobs/l/d/phenom-bae-systems-132276BR?s=gh-internships-2027|BAE Systems|Cyber Systems Engineering Intern II (Spring 2007)|Hudson, New Hampshire|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10260431?s=gh-internships-2027|Northrop Grumman|2027 Systems Engineering Intern - Graduate Level - Plymouth MN|United States-Minnesota-Plymouth|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10260431?s=gh-internships-2027|Northrop Grumman|2027 Systems Engineering Intern - Graduate Level - Plymouth MN|United States-Minnesota-Plymouth|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-15867?s=gh-internships-2027|Entegris|Quality Engineering Intern|Colorado Springs, CO|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
