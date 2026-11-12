@@ -147788,6 +147788,54 @@
       "chat_id": 7582459199,
       "seq": 11780,
       "identity": "https://greyco.wd108.myworkdayjobs.com/GTI/job/Warrenton-VA/Summer-2027---Full-Stack-Engineer-Internship_JR0000145?utm_source=Simplify&ref=Simplify|Greystone|Full Stack Engineer Intern|Warrenton, VA|Summer 2026#1"
+    },
+    "6f844411c895": {
+      "company": "Entegris",
+      "role": "Embedded Software Engineering Intern",
+      "location": "Bloomington, MN",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1wx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13117,
+      "chat_id": 7582459199,
+      "seq": 11781,
+      "identity": "https://go.vansh.nyc/1wx?s=y|Entegris|Embedded Software Engineering Intern|Bloomington, MN|Nov 12#1"
+    },
+    "b764f191a8f7": {
+      "company": "CareSource",
+      "role": "Software Engineer Intern",
+      "location": "Remote United States",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1wz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13118,
+      "chat_id": 7582459199,
+      "seq": 11782,
+      "identity": "https://go.vansh.nyc/1wz?s=y|CareSource|Software Engineer Intern|Remote United States|Nov 12#1"
+    },
+    "2b3a719ab352": {
+      "company": "Altera",
+      "role": "FPGA IP Design Engineer Intern, PEY",
+      "location": "Toronto, Canada",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1wy?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13119,
+      "chat_id": 7582459199,
+      "seq": 11783,
+      "identity": "https://go.vansh.nyc/1wy?s=y|Altera|FPGA IP Design Engineer Intern, PEY|Toronto, Canada|Nov 12#1"
+    },
+    "86987bdaa25f": {
+      "company": "Greystone",
+      "role": "Full Stack Engineer Intern",
+      "location": "Warrenton, VA",
+      "term": "Oct 26",
+      "apply_url": "https://go.vansh.nyc/1ww?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13120,
+      "chat_id": 7582459199,
+      "seq": 11784,
+      "identity": "https://go.vansh.nyc/1ww?s=y|Greystone|Full Stack Engineer Intern|Warrenton, VA|Oct 26#1"
     }
   },
   "applied": {
@@ -148155,10 +148203,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11780,
+  "seq": 11784,
   "health": {
     "last_heartbeat": "2026-11-12T15:00:24Z",
-    "last_ok_run": "2026-11-12T15:40:19Z",
+    "last_ok_run": "2026-11-12T15:45:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",

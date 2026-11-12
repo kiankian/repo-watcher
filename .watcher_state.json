@@ -3046,12 +3046,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "bd97e4ffef0565d6503951be300cf5eed41a8543",
+    "last_sha": "ba32149a6bc59c1c68a95f41299bc50c209d329e",
     "seen": [
-      "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022475?utm_source=github-vansh-ouckah|ADT|Hardware Engineering & Connected Devices Intern|Boca Raton, FL|Oct 16#1",
-      "https://verizon.wd12.myworkdayjobs.com/en-US/verizon-careers/job/Basking-Ridge-New-Jersey/Basking-Ridge--NJ--V-Teamer-for-a-Day--Verizon-Consumer-Group--Call-Routing-Optimization-Engineering-Summer-2027-Internship_R-1102394?utm_source=github-vansh-ouckah|Verizon Communications|Call Routing Optimization Engineering Intern, Verizon Consumer Group|Basking Ridge, NJ|Oct 20#1",
-      "https://verizon.wd12.myworkdayjobs.com/en-US/verizon-careers/job/Basking-Ridge-New-Jersey/Basking-Ridge--NJ--VTeamer-for-a-Day--Verizon-Consumer-Group--Data-Science-Summer-2027-Internship_R-1102417?utm_source=github-vansh-ouckah|Verizon Communications|Data Science Intern, Verizon Consumer Group|Basking Ridge, NJ|Oct 20#1",
-      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019103?utm_source=github-vansh-ouckah|Texas Instruments|Software Engineer Intern, Compiler|Sugar Land, TX|Oct 20#1",
       "https://jobs.ashbyhq.com/steel/5fbdbebf-ddb2-4264-a941-3ab6d475208c/application?embed=true&utm_source=github-vansh-ouckah|Steel|Software Engineer Intern|Toronto, ON, Canada|Oct 20#1",
       "https://spacedynamicslaboratory.applytojob.com/apply/HgIOie6SBP/AIEnabled-Requirements-Engineering-Intern?utm_source=github-vansh-ouckah|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1",
       "https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13?utm_source=github-vansh-ouckah|Palantir|Software Engineer Intern, Query Engines|New York, NY|Oct 20#1",
@@ -8047,14 +8043,18 @@
       "NOURL|Zoetis|IT/OT Security Intern|Kalamazoo, MI|Nov 09#1",
       "NOURL|Zoetis|Information Security Intern|Parsippany, NJ|Nov 09#1",
       "NOURL|Zoetis|AI Assistant Development Intern|Parsippany, NJ|Nov 09#1",
-      "NOURL|Zoetis|AI Architecture, Enablement & Tools Intern, AI Capabilities|Remote United States Kalamazoo, MI|Nov 09#1"
+      "NOURL|Zoetis|AI Architecture, Enablement & Tools Intern, AI Capabilities|Remote United States Kalamazoo, MI|Nov 09#1",
+      "https://go.vansh.nyc/1wx?s=y|Entegris|Embedded Software Engineering Intern|Bloomington, MN|Nov 12#1",
+      "https://go.vansh.nyc/1wz?s=y|CareSource|Software Engineer Intern|Remote United States|Nov 12#1",
+      "https://go.vansh.nyc/1wy?s=y|Altera|FPGA IP Design Engineer Intern, PEY|Toronto, Canada|Nov 12#1",
+      "https://go.vansh.nyc/1ww?s=y|Greystone|Full Stack Engineer Intern|Warrenton, VA|Oct 26#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2786,
+    "last_row_count": 2790,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "b505b3c3ede0e93bd7c5ab4f2d12a426c6ecaffc",
+    "last_sha": "1a5e757fff8e81adb1c23c639f0cea6ca52488dd",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
