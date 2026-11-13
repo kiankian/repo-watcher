@@ -151244,6 +151244,30 @@
       "chat_id": 7582459199,
       "seq": 12083,
       "identity": "https://go.vansh.nyc/1zd?s=y|IDEMIA North America|Software Engineering Intern, Enrollment and Credentialing Services|Brentwood, TN|Nov 12#1"
+    },
+    "fc331bbb644e": {
+      "company": "Aurora Innovation",
+      "role": "Embedded Software Engineer Intern, Lidar",
+      "location": "Bozeman, MT",
+      "term": "Oct 01",
+      "apply_url": "https://go.vansh.nyc/1zg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13501,
+      "chat_id": 7582459199,
+      "seq": 12084,
+      "identity": "https://go.vansh.nyc/1zg?s=y|Aurora Innovation|Embedded Software Engineer Intern, Lidar|Bozeman, MT|Oct 01#1"
+    },
+    "7cabd02d7f56": {
+      "company": "Micron Technology",
+      "role": "HBM Data Scientist Intern",
+      "location": "Richardson, TX",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13502,
+      "chat_id": 7582459199,
+      "seq": 12085,
+      "identity": "NOURL|Micron Technology|HBM Data Scientist Intern|Richardson, TX|Oct 27#1"
     }
   },
   "applied": {
@@ -151611,10 +151635,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12083,
+  "seq": 12085,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T22:40:18Z",
+    "last_ok_run": "2026-11-13T22:45:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
