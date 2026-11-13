@@ -149900,6 +149900,30 @@
       "chat_id": 7582459199,
       "seq": 11960,
       "identity": "https://jobs.ashbyhq.com/aurora-operations-inc/06daa269-c02b-43a4-88b8-b57a3ba335ef/application?embed=true&utm_source=Simplify&ref=Simplify|Aurora Innovation|Software Engineer Intern - Vehicle Platforms|Mountain View, CA|Summer 2026#1"
+    },
+    "c7cbcbeda333": {
+      "company": "Cisco",
+      "role": "Software Engineer Intern, Full-Stack / Backend I",
+      "location": "San Jose, CA Austin, TX Research Triangle Park, NC",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13337,
+      "chat_id": 7582459199,
+      "seq": 11961,
+      "identity": "NOURL|Cisco|Software Engineer Intern, Full-Stack / Backend I|San Jose, CA Austin, TX Research Triangle Park, NC|Nov 09#1"
+    },
+    "831a7c7f9ae4": {
+      "company": "T-Mobile",
+      "role": "AI Strategist Intern",
+      "location": "Bellevue, WA",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13338,
+      "chat_id": 7582459199,
+      "seq": 11962,
+      "identity": "NOURL|T-Mobile|AI Strategist Intern|Bellevue, WA|Nov 06#1"
     }
   },
   "applied": {
@@ -150267,10 +150291,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11960,
+  "seq": 11962,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T08:10:18Z",
+    "last_ok_run": "2026-11-13T08:15:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -150278,7 +150302,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T07:15:23Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T08:15:20Z",
       "duplicate-hash": "2026-11-12T23:50:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T07:50:19Z"
     }
