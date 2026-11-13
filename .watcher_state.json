@@ -3061,18 +3061,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "466c1639b37dfc71845377c1590ecfc85d1cc136",
+    "last_sha": "67e9c04c3b326b564fbe5bdd1fc1d5debc16a861",
     "seen": [
-      "https://jobs.ashbyhq.com/rivianvw.tech/cb3559f0-2514-45f1-8d36-a11fa1dded0c?utm_source=github-vansh-ouckah|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Vehicle Controls|Palo Alto, CA Irvine, CA|Oct 22#1",
-      "https://jobs.ashbyhq.com/rivianvw.tech/30c3af69-2dfc-4224-9abc-b2d9c0c41048?utm_source=github-vansh-ouckah|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Embedded Platforms|Palo Alto, CA Irvine, CA Champaign, IL|Oct 22#1",
-      "https://jobs.ashbyhq.com/rivianvw.tech/62e45b20-cbdc-4d16-9466-00bc158b7a7f?utm_source=github-vansh-ouckah|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Connected Systems|Palo Alto, CA Irvine, CA|Oct 22#1",
-      "https://jobs.ashbyhq.com/rivianvw.tech/7967cd44-5469-48b8-b69f-f036e4098464?utm_source=github-vansh-ouckah|Rivian and Volkswagen Group Technologies|Data Engineering Intern, AI & Analytics|Palo Alto, CA Irvine, CA|Oct 22#1",
-      "https://jobs.smartrecruiters.com/RenesasElectronics/744000157198610?utm_source=github-vansh-ouckah|Renesas Electronics|Memory Server System Testing Intern|San Jose, CA|Oct 22#1",
-      "https://qualcomm.eightfold.ai/careers/job/446721686396?utm_source=github-vansh-ouckah|Qualcomm|AI and DSP Applications Engineer Intern|Markham, Canada|Oct 22#1",
-      "https://jobs.lever.co/pattern/ad978732-7171-473d-9400-0a6fc9e23cf7/apply?utm_source=github-vansh-ouckah|Pattern|Data Science Intern|Lehi, UT|Oct 22#1",
-      "https://jobs.lever.co/pattern/5c0c1963-87c5-48d7-8da9-0c79121fe443/apply?utm_source=github-vansh-ouckah|Pattern|AI Infrastructure Engineer Intern|Lehi, UT|Oct 22#1",
-      "https://jobs.lever.co/pattern/48945dce-b5ef-43cd-9d85-f8b26ce5b43e/apply?utm_source=github-vansh-ouckah|Pattern|AI Automation Engineer Intern|Lehi, UT|Oct 22#1",
-      "https://jobs.ashbyhq.com/patreon/ace576d6-f480-43b8-a529-549fefb2046d/application?embed=true&utm_source=github-vansh-ouckah|Patreon|Product Manager Intern|New York, NY San Francisco, CA|Oct 22#1",
       "https://jobs.lever.co/palantir/69ab7e24-8f5d-426e-84f7-6d3b2d4a7efd?utm_source=github-vansh-ouckah|Palantir Technologies|Deployment Strategist Intern, Warp Speed|New York, NY|Oct 22#1",
       "https://jobs.lever.co/palantir/b3d81928-6c26-432f-8a0a-36602c2eefcb/apply?utm_source=github-vansh-ouckah|Palantir|Forward Deployed Software Engineer Intern, Warp Speed|New York, NY|Oct 22#1",
       "https://boards.greenhouse.io/opensesame/jobs/8313424?utm_source=github-vansh-ouckah|OpenSesame|AI Product Builder Intern|Remote United States|Oct 22#1",
@@ -8062,14 +8052,24 @@
       "https://go.vansh.nyc/1z2?s=y|NexusOne|Data Engineering Intern|Atlanta, GA|Nov 13#1",
       "https://go.vansh.nyc/1z1?s=y|Reliable Robotics Corporation|Flight Software Engineer Intern|Mountain View, CA|Nov 12#1",
       "NOURL|CrowdStrike|Professional Services Pathfinder Intern, Red Team|Arlington, VA|Nov 06#1",
-      "NOURL|MSA Safety|Software Engineer Intern, Product Development|Cranberry Township, PA|Aug 24#1"
+      "NOURL|MSA Safety|Software Engineer Intern, Product Development|Cranberry Township, PA|Aug 24#1",
+      "https://go.vansh.nyc/1z7?s=y|Envita Solutions|Software Engineering Intern, Applied AI|Indianapolis, IN|Nov 13#1",
+      "https://go.vansh.nyc/1z8?s=y|Envita Solutions|Data Scientist Intern, Applied AI|Indianapolis, IN|Nov 13#1",
+      "https://go.vansh.nyc/1z6?s=y|CrowdStrike|Insider Risk Engineering Intern|Arlington, VA Redmond, WA Sunnyvale, CA|Nov 13#1",
+      "https://go.vansh.nyc/1z5?s=y|Micron Technology|AI Engineer Platform Intern|Boise, ID|Nov 12#1",
+      "NOURL|TikTok|Machine Learning Engineer Intern, Visual Search \ud83d\udec2|San Jose, CA|Nov 01#1",
+      "NOURL|TikTok|Software Engineer Intern, Recommendation Architecture, Feeds Infrastructure|Seattle, WA|Nov 01#1",
+      "NOURL|Applied Materials|Data Science Intern|Santa Clara, CA|Oct 27#1",
+      "NOURL|TikTok|AI Product Manager Intern, Product Social|San Jose, CA|Aug 21#1",
+      "NOURL|TikTok|Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2|San Jose, CA|Aug 04#1",
+      "NOURL|TikTok|Software Engineer Intern, Privacy and Security|San Jose, CA|Aug 04#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2898,
+    "last_row_count": 2902,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "a4d49d9a957730bdd37f57ac46013405f32383ea",
+    "last_sha": "19a60ee0c15f5f936b63bf682f4ec3333d18b977",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

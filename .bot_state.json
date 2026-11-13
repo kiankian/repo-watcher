@@ -150932,6 +150932,126 @@
       "chat_id": 7582459199,
       "seq": 12057,
       "identity": "NOURL|MSA Safety|Software Engineer Intern, Product Development|Cranberry Township, PA|Aug 24#1"
+    },
+    "9827f5a4b26f": {
+      "company": "Envita Solutions",
+      "role": "Software Engineering Intern, Applied AI",
+      "location": "Indianapolis, IN",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1z7?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13467,
+      "chat_id": 7582459199,
+      "seq": 12058,
+      "identity": "https://go.vansh.nyc/1z7?s=y|Envita Solutions|Software Engineering Intern, Applied AI|Indianapolis, IN|Nov 13#1"
+    },
+    "ee81ac0ccb71": {
+      "company": "Envita Solutions",
+      "role": "Data Scientist Intern, Applied AI",
+      "location": "Indianapolis, IN",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1z8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13468,
+      "chat_id": 7582459199,
+      "seq": 12059,
+      "identity": "https://go.vansh.nyc/1z8?s=y|Envita Solutions|Data Scientist Intern, Applied AI|Indianapolis, IN|Nov 13#1"
+    },
+    "12f58d3c3446": {
+      "company": "CrowdStrike",
+      "role": "Insider Risk Engineering Intern",
+      "location": "Arlington, VA Redmond, WA Sunnyvale, CA",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1z6?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13469,
+      "chat_id": 7582459199,
+      "seq": 12060,
+      "identity": "https://go.vansh.nyc/1z6?s=y|CrowdStrike|Insider Risk Engineering Intern|Arlington, VA Redmond, WA Sunnyvale, CA|Nov 13#1"
+    },
+    "c02fa5641346": {
+      "company": "Micron Technology",
+      "role": "AI Engineer Platform Intern",
+      "location": "Boise, ID",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1z5?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13470,
+      "chat_id": 7582459199,
+      "seq": 12061,
+      "identity": "https://go.vansh.nyc/1z5?s=y|Micron Technology|AI Engineer Platform Intern|Boise, ID|Nov 12#1"
+    },
+    "c7e4949b9616": {
+      "company": "TikTok",
+      "role": "Machine Learning Engineer Intern, Visual Search \ud83d\udec2",
+      "location": "San Jose, CA",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13471,
+      "chat_id": 7582459199,
+      "seq": 12062,
+      "identity": "NOURL|TikTok|Machine Learning Engineer Intern, Visual Search \ud83d\udec2|San Jose, CA|Nov 01#1"
+    },
+    "c1953d17bec7": {
+      "company": "TikTok",
+      "role": "Software Engineer Intern, Recommendation Architecture, Feeds Infrastructure",
+      "location": "Seattle, WA",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13472,
+      "chat_id": 7582459199,
+      "seq": 12063,
+      "identity": "NOURL|TikTok|Software Engineer Intern, Recommendation Architecture, Feeds Infrastructure|Seattle, WA|Nov 01#1"
+    },
+    "6e5952d1dfdb": {
+      "company": "Applied Materials",
+      "role": "Data Science Intern",
+      "location": "Santa Clara, CA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13473,
+      "chat_id": 7582459199,
+      "seq": 12064,
+      "identity": "NOURL|Applied Materials|Data Science Intern|Santa Clara, CA|Oct 27#1"
+    },
+    "b0f5d28ac360": {
+      "company": "TikTok",
+      "role": "AI Product Manager Intern, Product Social",
+      "location": "San Jose, CA",
+      "term": "Aug 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13474,
+      "chat_id": 7582459199,
+      "seq": 12065,
+      "identity": "NOURL|TikTok|AI Product Manager Intern, Product Social|San Jose, CA|Aug 21#1"
+    },
+    "e34df3d0fe3b": {
+      "company": "TikTok",
+      "role": "Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2",
+      "location": "San Jose, CA",
+      "term": "Aug 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13475,
+      "chat_id": 7582459199,
+      "seq": 12066,
+      "identity": "NOURL|TikTok|Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2|San Jose, CA|Aug 04#1"
+    },
+    "7324eeba59b1": {
+      "company": "TikTok",
+      "role": "Software Engineer Intern, Privacy and Security",
+      "location": "San Jose, CA",
+      "term": "Aug 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13476,
+      "chat_id": 7582459199,
+      "seq": 12067,
+      "identity": "NOURL|TikTok|Software Engineer Intern, Privacy and Security|San Jose, CA|Aug 04#1"
     }
   },
   "applied": {
@@ -151299,10 +151419,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12057,
+  "seq": 12067,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T20:10:19Z",
+    "last_ok_run": "2026-11-13T20:15:34Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -151310,9 +151430,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T19:45:23Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T20:15:31Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T19:45:24Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T20:15:33Z"
     }
   }
 }
