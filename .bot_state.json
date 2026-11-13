@@ -150032,6 +150032,42 @@
       "chat_id": 7582459199,
       "seq": 11971,
       "identity": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250537?utm_source=Simplify&ref=Simplify|Cantor Fitzgerald|Technology Summer Internship - Development|London, UK|Summer 2026#1"
+    },
+    "09aade1cb1a9": {
+      "company": "Verisk",
+      "role": "Data Science/AI Intern",
+      "location": "Lehi, UT",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1yF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13365,
+      "chat_id": 7582459199,
+      "seq": 11972,
+      "identity": "https://go.vansh.nyc/1yF?s=y|Verisk|Data Science/AI Intern|Lehi, UT|Nov 13#1"
+    },
+    "1e64929682d7": {
+      "company": "Austal USA",
+      "role": "Cybersecurity Intern",
+      "location": "Mobile, AL",
+      "term": "Nov 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13366,
+      "chat_id": 7582459199,
+      "seq": 11973,
+      "identity": "NOURL|Austal USA|Cybersecurity Intern|Mobile, AL|Nov 11#1"
+    },
+    "d32aebf190ce": {
+      "company": "American Family Insurance Group",
+      "role": "GenAI Intern",
+      "location": "Madison, WI Boston, MA",
+      "term": "Sep 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13367,
+      "chat_id": 7582459199,
+      "seq": 11974,
+      "identity": "NOURL|American Family Insurance Group|GenAI Intern|Madison, WI Boston, MA|Sep 30#1"
     }
   },
   "applied": {
@@ -150399,10 +150435,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11971,
+  "seq": 11974,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T15:40:19Z",
+    "last_ok_run": "2026-11-13T15:45:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
