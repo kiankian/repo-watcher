@@ -149960,6 +149960,18 @@
       "chat_id": 7582459199,
       "seq": 11965,
       "identity": "https://zapply.jobs/l/d/workday-geaerospace-ge-externalsite-R5042961?s=gh-internships-2027|GE Aerospace|Digital Systems Engineering Intern - Bohemia, NY - Summer 2027|Bohemia|Summer 2027#1"
+    },
+    "0118dc70f5f0": {
+      "company": "Valeo",
+      "role": "Software Engineer Intern",
+      "location": "Troy, MI",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1yC?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13355,
+      "chat_id": 7582459199,
+      "seq": 11966,
+      "identity": "https://go.vansh.nyc/1yC?s=y|Valeo|Software Engineer Intern|Troy, MI|Nov 12#1"
     }
   },
   "applied": {
@@ -150327,10 +150339,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11965,
+  "seq": 11966,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T14:40:20Z",
+    "last_ok_run": "2026-11-13T14:45:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -150338,7 +150350,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T08:15:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T14:45:17Z",
       "duplicate-hash": "2026-11-12T23:50:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T14:15:19Z"
     }
