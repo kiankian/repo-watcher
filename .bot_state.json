@@ -74032,9 +74032,9 @@
       "term": "Oct 19",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6808,
+      "message_id": 13384,
       "chat_id": 7582459199,
-      "seq": 5612,
+      "seq": 11986,
       "identity": "NOURL|Allstate|Software Engineer Intern|North Carolina|Oct 19#1"
     },
     "e64bfe676c00": {
@@ -74044,9 +74044,9 @@
       "term": "Oct 18",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6809,
+      "message_id": 13386,
       "chat_id": 7582459199,
-      "seq": 5613,
+      "seq": 11987,
       "identity": "NOURL|General Dynamics Information Technology|Software Developer Intern|Egg Harbor Township, NJ|Oct 18#1"
     },
     "e24d9425867e": {
@@ -74056,9 +74056,9 @@
       "term": "Oct 15",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6810,
+      "message_id": 13387,
       "chat_id": 7582459199,
-      "seq": 5614,
+      "seq": 11988,
       "identity": "NOURL|RTX|Software Engineering Co-op \ud83c\uddfa\ud83c\uddf8|Cedar Rapids, IA|Oct 15#1"
     },
     "312fd9275f81": {
@@ -150140,6 +150140,66 @@
       "chat_id": 7582459199,
       "seq": 11980,
       "identity": "https://zapply.jobs/l/d/phenom-bae-systems-131375BR?s=gh-internships-2027|BAE Systems|C4ISR - Software Engineering Intern, Summer 2027 (Onsite)|Wayne, New Jersey|Summer 2027#1"
+    },
+    "c8a11d196faa": {
+      "company": "Trace3",
+      "role": "Security Intern",
+      "location": "Irvine, CA",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1yN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13379,
+      "chat_id": 7582459199,
+      "seq": 11981,
+      "identity": "https://go.vansh.nyc/1yN?s=y|Trace3|Security Intern|Irvine, CA|Nov 13#1"
+    },
+    "9c30ebbb6aab": {
+      "company": "Micron Technology",
+      "role": "Enterprise SSD Architecture Intern",
+      "location": "Boise, ID",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1yL?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13380,
+      "chat_id": 7582459199,
+      "seq": 11982,
+      "identity": "https://go.vansh.nyc/1yL?s=y|Micron Technology|Enterprise SSD Architecture Intern|Boise, ID|Nov 13#1"
+    },
+    "f80cdc920f73": {
+      "company": "Daimler Truck",
+      "role": "IT Developer Analyst Intern",
+      "location": "Mount Holly, NC",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1yM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13381,
+      "chat_id": 7582459199,
+      "seq": 11983,
+      "identity": "https://go.vansh.nyc/1yM?s=y|Daimler Truck|IT Developer Analyst Intern|Mount Holly, NC|Nov 13#1"
+    },
+    "d6a6283b6541": {
+      "company": "Western Alliance Bancorporation",
+      "role": "Platform Engineering Intern",
+      "location": "Dallas, TX",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13382,
+      "chat_id": 7582459199,
+      "seq": 11984,
+      "identity": "NOURL|Western Alliance Bancorporation|Platform Engineering Intern|Dallas, TX|Nov 05#1"
+    },
+    "90db224769af": {
+      "company": "Kinaxis",
+      "role": "Cloud Developer Intern, Platform Engineering",
+      "location": "Ottawa, ON",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13383,
+      "chat_id": 7582459199,
+      "seq": 11985,
+      "identity": "NOURL|Kinaxis|Cloud Developer Intern, Platform Engineering|Ottawa, ON|Oct 20#1"
     }
   },
   "applied": {
@@ -150507,10 +150567,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11980,
+  "seq": 11988,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T17:10:20Z",
+    "last_ok_run": "2026-11-13T17:15:38Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -150518,8 +150578,8 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T16:45:23Z",
-      "duplicate-hash": "2026-11-12T23:50:28Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T17:15:31Z",
+      "duplicate-hash": "2026-11-13T17:15:27Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T17:00:23Z"
     }
   }
