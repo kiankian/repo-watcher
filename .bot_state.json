@@ -151112,6 +151112,66 @@
       "chat_id": 7582459199,
       "seq": 12072,
       "identity": "NOURL|Dow Jones|Marketing Data Science Intern|New York, NY|Oct 06#1"
+    },
+    "ddc2f096592c": {
+      "company": "Reliable Robotics Corporation",
+      "role": "FPGA Engineering Intern",
+      "location": "Mountain View, CA",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1za?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13486,
+      "chat_id": 7582459199,
+      "seq": 12073,
+      "identity": "https://go.vansh.nyc/1za?s=y|Reliable Robotics Corporation|FPGA Engineering Intern|Mountain View, CA|Nov 12#1"
+    },
+    "f7984e58913f": {
+      "company": "GreatAmerica Financial Services",
+      "role": "Platform Engineering Intern",
+      "location": "Cedar Rapids, IA",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13487,
+      "chat_id": 7582459199,
+      "seq": 12074,
+      "identity": "NOURL|GreatAmerica Financial Services|Platform Engineering Intern|Cedar Rapids, IA|Nov 03#1"
+    },
+    "0d5ccf6a7bd5": {
+      "company": "Space Dynamics Laboratory",
+      "role": "Software Engineer Intern",
+      "location": "Logan, UT",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13488,
+      "chat_id": 7582459199,
+      "seq": 12075,
+      "identity": "NOURL|Space Dynamics Laboratory|Software Engineer Intern|Logan, UT|Oct 26#1"
+    },
+    "e37e8fbfdae5": {
+      "company": "Keysight Technologies",
+      "role": "R&D Embedded Software Intern",
+      "location": "Colorado Springs, CO",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13489,
+      "chat_id": 7582459199,
+      "seq": 12076,
+      "identity": "NOURL|Keysight Technologies|R&D Embedded Software Intern|Colorado Springs, CO|Oct 18#1"
+    },
+    "b7300fb6b494": {
+      "company": "Hewlett Packard Enterprise",
+      "role": "ASIC Firmware and Diagnostic Intern",
+      "location": "Bloomington, MN Chippewa Falls, WI",
+      "term": "Sep 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13490,
+      "chat_id": 7582459199,
+      "seq": 12077,
+      "identity": "NOURL|Hewlett Packard Enterprise|ASIC Firmware and Diagnostic Intern|Bloomington, MN Chippewa Falls, WI|Sep 02#1"
     }
   },
   "applied": {
@@ -151479,10 +151539,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12072,
+  "seq": 12077,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T21:25:17Z",
+    "last_ok_run": "2026-11-13T21:30:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -151490,7 +151550,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T20:15:31Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T21:30:27Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T21:20:20Z"
     }
