@@ -149924,6 +149924,18 @@
       "chat_id": 7582459199,
       "seq": 11962,
       "identity": "NOURL|T-Mobile|AI Strategist Intern|Bellevue, WA|Nov 06#1"
+    },
+    "9a4280a3d746": {
+      "company": "BAE Systems",
+      "role": "Software Engineering Intern III, Summer 2027 (Onsite)",
+      "location": "Fort Wayne, Indiana",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-bae-systems-131092BR?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13345,
+      "chat_id": 7582459199,
+      "seq": 11963,
+      "identity": "https://zapply.jobs/l/d/phenom-bae-systems-131092BR?s=gh-internships-2027|BAE Systems|Software Engineering Intern III, Summer 2027 (Onsite)|Fort Wayne, Indiana|Summer 2027#1"
     }
   },
   "applied": {
@@ -150291,10 +150303,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11962,
+  "seq": 11963,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T10:50:20Z",
+    "last_ok_run": "2026-11-13T10:55:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
