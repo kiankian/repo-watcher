@@ -150248,6 +150248,54 @@
       "chat_id": 7582459199,
       "seq": 12000,
       "identity": "https://zapply.jobs/l/d/sr-ServiceNow-744000161548289?s=gh-internships-2027|ServiceNow|AI Security Engineer Intern|San Diego, California|Summer 2027#1"
+    },
+    "efe2de7a6645": {
+      "company": "Shield AI",
+      "role": "Software Engineer Co-op",
+      "location": "**4 locations**Dallas, TX Washington, DC Seattle, WA San Diego, CA",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13405,
+      "chat_id": 7582459199,
+      "seq": 12001,
+      "identity": "NOURL|Shield AI|Software Engineer Co-op|**4 locations**Dallas, TX Washington, DC Seattle, WA San Diego, CA|Nov 05#1"
+    },
+    "487b55b081ad": {
+      "company": "Constellation Brands",
+      "role": "AI Enablement Intern",
+      "location": "Rochester, NY",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13406,
+      "chat_id": 7582459199,
+      "seq": 12002,
+      "identity": "NOURL|Constellation Brands|AI Enablement Intern|Rochester, NY|Oct 19#1"
+    },
+    "a79e1f14b5bb": {
+      "company": "Coinbase",
+      "role": "Data Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Sep 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13407,
+      "chat_id": 7582459199,
+      "seq": 12003,
+      "identity": "NOURL|Coinbase|Data Engineer Intern|San Francisco, CA|Sep 08#1"
+    },
+    "1c8cfac8eb7f": {
+      "company": "Brunswick",
+      "role": "Mercury Marine: Quality Engineering Co-op",
+      "location": "Fond du Lac, WI",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-brunswick-search-JR-051391?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13408,
+      "chat_id": 7582459199,
+      "seq": 12004,
+      "identity": "https://zapply.jobs/l/d/workday-brunswick-search-JR-051391?s=gh-internships-2027|Brunswick|Mercury Marine: Quality Engineering Co-op|Fond du Lac, WI|Summer 2027#1"
     }
   },
   "applied": {
@@ -150615,10 +150663,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12000,
+  "seq": 12004,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T18:10:20Z",
+    "last_ok_run": "2026-11-13T18:15:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
