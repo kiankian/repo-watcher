@@ -151484,6 +151484,66 @@
       "chat_id": 7582459199,
       "seq": 12103,
       "identity": "https://zapply.jobs/l/d/sr-ServiceNow-744000161592679?s=gh-internships-2027|ServiceNow|Security Engineer Intern|Kirkland, Washington|Summer 2027#1"
+    },
+    "922cb5a356a2": {
+      "company": "Horizon3.ai",
+      "role": "Research Intern, Adversarial Intelligence",
+      "location": "Chicago, IL West Lafayette, IN",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1zk?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13524,
+      "chat_id": 7582459199,
+      "seq": 12104,
+      "identity": "https://go.vansh.nyc/1zk?s=y|Horizon3.ai|Research Intern, Adversarial Intelligence|Chicago, IL West Lafayette, IN|Nov 13#1"
+    },
+    "eabdd5cca9c4": {
+      "company": "FieldPulse",
+      "role": "AI Intern",
+      "location": "Dallas, TX",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1zj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13525,
+      "chat_id": 7582459199,
+      "seq": 12105,
+      "identity": "https://go.vansh.nyc/1zj?s=y|FieldPulse|AI Intern|Dallas, TX|Nov 13#1"
+    },
+    "b242b25f69a5": {
+      "company": "Activision Blizzard",
+      "role": "Game Systems Engineering Intern",
+      "location": "United States",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1zl?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13526,
+      "chat_id": 7582459199,
+      "seq": 12106,
+      "identity": "https://go.vansh.nyc/1zl?s=y|Activision Blizzard|Game Systems Engineering Intern|United States|Nov 13#1"
+    },
+    "9327a31bfa06": {
+      "company": "TC Energy",
+      "role": "Intelligent Operations Technology Intern",
+      "location": "Spokane, WA",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1zi?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13527,
+      "chat_id": 7582459199,
+      "seq": 12107,
+      "identity": "https://go.vansh.nyc/1zi?s=y|TC Energy|Intelligent Operations Technology Intern|Spokane, WA|Nov 12#1"
+    },
+    "a911fc332e82": {
+      "company": "Addepar",
+      "role": "Product Analyst Intern, Navigator",
+      "location": "New York, NY",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1zh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13528,
+      "chat_id": 7582459199,
+      "seq": 12108,
+      "identity": "https://go.vansh.nyc/1zh?s=y|Addepar|Product Analyst Intern, Navigator|New York, NY|Nov 12#1"
     }
   },
   "applied": {
@@ -151851,10 +151911,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12103,
+  "seq": 12108,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T23:45:17Z",
+    "last_ok_run": "2026-11-13T23:50:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -151862,7 +151922,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T23:10:43Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T23:50:23Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T23:35:16Z"
     }
