@@ -149972,6 +149972,54 @@
       "chat_id": 7582459199,
       "seq": 11966,
       "identity": "https://go.vansh.nyc/1yC?s=y|Valeo|Software Engineer Intern|Troy, MI|Nov 12#1"
+    },
+    "36339cec77f6": {
+      "company": "IPConfigure",
+      "role": "Software Development Intern, Video Surveillance Software",
+      "location": "Norfolk, VA",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1yE?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13358,
+      "chat_id": 7582459199,
+      "seq": 11967,
+      "identity": "https://go.vansh.nyc/1yE?s=y|IPConfigure|Software Development Intern, Video Surveillance Software|Norfolk, VA|Nov 13#1"
+    },
+    "93eb876bc05c": {
+      "company": "CareSource",
+      "role": "Software Engineer Intern",
+      "location": "Remote United States",
+      "term": "Nov 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13359,
+      "chat_id": 7582459199,
+      "seq": 11968,
+      "identity": "NOURL|CareSource|Software Engineer Intern|Remote United States|Nov 12#1"
+    },
+    "d324d9bc5455": {
+      "company": "CareSource",
+      "role": "Configuration and Automation Intern",
+      "location": "Remote United States",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13360,
+      "chat_id": 7582459199,
+      "seq": 11969,
+      "identity": "NOURL|CareSource|Configuration and Automation Intern|Remote United States|Nov 04#1"
+    },
+    "30bd70f1de73": {
+      "company": "Barclays",
+      "role": "Chief Client Office Intern, Client Data & Engineering Group \ud83d\udec2",
+      "location": "New York, NY",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13361,
+      "chat_id": 7582459199,
+      "seq": 11970,
+      "identity": "NOURL|Barclays|Chief Client Office Intern, Client Data & Engineering Group \ud83d\udec2|New York, NY|Oct 30#1"
     }
   },
   "applied": {
@@ -150339,10 +150387,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11966,
+  "seq": 11970,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T15:10:20Z",
+    "last_ok_run": "2026-11-13T15:15:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -150350,7 +150398,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T14:45:17Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T15:15:24Z",
       "duplicate-hash": "2026-11-12T23:50:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T14:50:19Z"
     }
