@@ -150392,6 +150392,18 @@
       "chat_id": 7582459199,
       "seq": 12012,
       "identity": "https://zapply.jobs/l/d/phenom-bae-systems-128055BR?s=gh-internships-2027|BAE Systems|Software Engineering Intern IV, (Summer 2027) Onsite|Nashua, New Hampshire|Summer 2027#1"
+    },
+    "cf0a091a5560": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Systems Engineer Intern",
+      "location": "Southern Pines, NC",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031224?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13419,
+      "chat_id": 7582459199,
+      "seq": 12013,
+      "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031224?s=gh-internships-2027|Sierra Nevada Corporation|Systems Engineer Intern|Southern Pines, NC|Summer 2027#1"
     }
   },
   "applied": {
@@ -150759,10 +150771,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12012,
+  "seq": 12013,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T19:05:16Z",
+    "last_ok_run": "2026-11-13T19:10:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -150772,7 +150784,7 @@
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T18:50:31Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T18:35:19Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T19:10:21Z"
     }
   }
 }
