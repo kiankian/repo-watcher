@@ -150092,6 +150092,42 @@
       "chat_id": 7582459199,
       "seq": 11976,
       "identity": "NOURL|ViaSat|Digital and Programmable Logic Engineer Intern|Tempe, AZ|Nov 02#1"
+    },
+    "4eb62d93425c": {
+      "company": "WTW",
+      "role": "Data Analyst Intern",
+      "location": "New York, NY",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1yK?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13373,
+      "chat_id": 7582459199,
+      "seq": 11977,
+      "identity": "https://go.vansh.nyc/1yK?s=y|WTW|Data Analyst Intern|New York, NY|Nov 13#1"
+    },
+    "3b7c89382d54": {
+      "company": "Fonds de solidarit\u00e9 FTQ",
+      "role": "Business Intelligence and M365 Solutions Intern",
+      "location": "Montreal, Canada",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1yJ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13374,
+      "chat_id": 7582459199,
+      "seq": 11978,
+      "identity": "https://go.vansh.nyc/1yJ?s=y|Fonds de solidarit\u00e9 FTQ|Business Intelligence and M365 Solutions Intern|Montreal, Canada|Nov 12#1"
+    },
+    "f30e62925882": {
+      "company": "MKS Instruments",
+      "role": "Software Engineer Co-op",
+      "location": "Andover, MA",
+      "term": "Nov 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13375,
+      "chat_id": 7582459199,
+      "seq": 11979,
+      "identity": "NOURL|MKS Instruments|Software Engineer Co-op|Andover, MA|Nov 11#1"
     }
   },
   "applied": {
@@ -150459,10 +150495,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11976,
+  "seq": 11979,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T16:40:20Z",
+    "last_ok_run": "2026-11-13T16:45:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -150470,7 +150506,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T16:15:19Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T16:45:23Z",
       "duplicate-hash": "2026-11-12T23:50:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T16:25:21Z"
     }
