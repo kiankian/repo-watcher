@@ -149756,6 +149756,78 @@
       "chat_id": 7582459199,
       "seq": 11948,
       "identity": "NOURL|GE Vernova|AI Data Mining Agent Intern, SCS Commercial|Atlanta, GA|Oct 06#1"
+    },
+    "d00877fc0888": {
+      "company": "Jobs at UHS",
+      "role": "Information Security Analyst Intern",
+      "location": "Tredyffrin, PA",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1yv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13319,
+      "chat_id": 7582459199,
+      "seq": 11949,
+      "identity": "https://go.vansh.nyc/1yv?s=y|Jobs at UHS|Information Security Analyst Intern|Tredyffrin, PA|Nov 12#1"
+    },
+    "a99a975a21f6": {
+      "company": "Aurora Innovation",
+      "role": "Software Engineer Intern, Vehicle Platforms",
+      "location": "Mountain View, CA",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1yu?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13320,
+      "chat_id": 7582459199,
+      "seq": 11950,
+      "identity": "https://go.vansh.nyc/1yu?s=y|Aurora Innovation|Software Engineer Intern, Vehicle Platforms|Mountain View, CA|Nov 12#1"
+    },
+    "d887dde7bbf0": {
+      "company": "Zebra Technologies",
+      "role": "Security Intern",
+      "location": "Lincolnshire, IL",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13321,
+      "chat_id": 7582459199,
+      "seq": 11951,
+      "identity": "NOURL|Zebra Technologies|Security Intern|Lincolnshire, IL|Nov 10#1"
+    },
+    "cce744988a68": {
+      "company": "Unisys",
+      "role": "Software Engineer Intern",
+      "location": "Eagan, MN",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13322,
+      "chat_id": 7582459199,
+      "seq": 11952,
+      "identity": "NOURL|Unisys|Software Engineer Intern|Eagan, MN|Nov 10#1"
+    },
+    "cefb52fc3f01": {
+      "company": "RTX",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Richardson, TX",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13323,
+      "chat_id": 7582459199,
+      "seq": 11953,
+      "identity": "NOURL|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Richardson, TX|Nov 10#1"
+    },
+    "e81927f46c79": {
+      "company": "T-Mobile",
+      "role": "Software Engineering Intern",
+      "location": "Overland Park, KS",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13324,
+      "chat_id": 7582459199,
+      "seq": 11954,
+      "identity": "NOURL|T-Mobile|Software Engineering Intern|Overland Park, KS|Nov 05#1"
     }
   },
   "applied": {
@@ -150123,10 +150195,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11948,
+  "seq": 11954,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T06:10:20Z",
+    "last_ok_run": "2026-11-13T06:15:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -150134,7 +150206,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T05:20:29Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T06:15:24Z",
       "duplicate-hash": "2026-11-12T23:50:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T05:50:18Z"
     }
