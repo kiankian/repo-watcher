@@ -149348,6 +149348,66 @@
       "chat_id": 7582459199,
       "seq": 11914,
       "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00196510?s=gh-internships-2027|Leidos|Junior Software Engineer / Data Scientist Intern|Tucson, AZ|Summer 2027#1"
+    },
+    "be098c906e62": {
+      "company": "Octant Bio",
+      "role": "Software Engineering Intern",
+      "location": "Emeryville, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://www.octant.bio/jobs?gh_jid=6260895004&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 13270,
+      "chat_id": 7582459199,
+      "seq": 11915,
+      "identity": "https://www.octant.bio/jobs?gh_jid=6260895004&utm_source=Simplify&ref=Simplify|Octant Bio|Software Engineering Intern|Emeryville, CA|Summer 2026#1"
+    },
+    "6e221e925fa7": {
+      "company": "Vital Lyfe",
+      "role": "Software Engineer Intern",
+      "location": "Torrance, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/vital-lyfe/5b5e7e6d-d59e-410b-9a7f-619717c3c942/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 13271,
+      "chat_id": 7582459199,
+      "seq": 11916,
+      "identity": "https://jobs.ashbyhq.com/vital-lyfe/5b5e7e6d-d59e-410b-9a7f-619717c3c942/application?embed=true&utm_source=Simplify&ref=Simplify|Vital Lyfe|Software Engineer Intern|Torrance, CA|Summer 2026#1"
+    },
+    "00d81dab3979": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Software/Systems Engineering Intern",
+      "location": "Middletown, RI",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-gdms.icims.com/jobs/75808/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 13272,
+      "chat_id": 7582459199,
+      "seq": 11917,
+      "identity": "https://careers-gdms.icims.com/jobs/75808/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|General Dynamics Mission Systems|Software/Systems Engineering Intern|Middletown, RI|Summer 2026#1"
+    },
+    "43c512176327": {
+      "company": "CareSource",
+      "role": "Software Engineer Intern",
+      "location": "Remote in USA",
+      "term": "Summer 2026",
+      "apply_url": "https://caresource.wd1.myworkdayjobs.com/caresource/job/Remote/XMLNAME-2027-Summer-Internship-Program---Software-Engineer_R14136?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 13273,
+      "chat_id": 7582459199,
+      "seq": 11918,
+      "identity": "https://caresource.wd1.myworkdayjobs.com/caresource/job/Remote/XMLNAME-2027-Summer-Internship-Program---Software-Engineer_R14136?utm_source=Simplify&ref=Simplify|CareSource|Software Engineer Intern|Remote in USA|Summer 2026#1"
+    },
+    "a5655de06b83": {
+      "company": "Cardinal Health",
+      "role": "Technology Intern",
+      "location": "Dublin, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/OH-Dublin-Cardinal-Place/Technology-Internship--Summer-2027-_20189610-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 13274,
+      "chat_id": 7582459199,
+      "seq": 11919,
+      "identity": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/OH-Dublin-Cardinal-Place/Technology-Internship--Summer-2027-_20189610-1?utm_source=Simplify&ref=Simplify|Cardinal Health|Technology Intern|Dublin, OH|Summer 2026#1"
     }
   },
   "applied": {
@@ -149715,10 +149775,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11914,
+  "seq": 11919,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T00:00:25Z",
+    "last_ok_run": "2026-11-13T00:05:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
