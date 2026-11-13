@@ -74068,9 +74068,9 @@
       "term": "Oct 15",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6811,
+      "message_id": 13392,
       "chat_id": 7582459199,
-      "seq": 5615,
+      "seq": 11991,
       "identity": "NOURL|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Sterling, VA|Oct 15#1"
     },
     "b02c55dab0ad": {
@@ -74080,9 +74080,9 @@
       "term": "Oct 15",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6812,
+      "message_id": 13394,
       "chat_id": 7582459199,
-      "seq": 5616,
+      "seq": 11992,
       "identity": "NOURL|RTX|Quality Assurance Intern \ud83c\uddfa\ud83c\uddf8|Cheshire, CT|Oct 15#1"
     },
     "c260f63d71a9": {
@@ -74092,9 +74092,9 @@
       "term": "Oct 14",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6813,
+      "message_id": 13395,
       "chat_id": 7582459199,
-      "seq": 5617,
+      "seq": 11993,
       "identity": "NOURL|Northrop Grumman|Tech Publications & Training Intern, Product Support \ud83c\uddfa\ud83c\uddf8|Saint Augustine, FL|Oct 14#1"
     },
     "e87817e1df81": {
@@ -74104,9 +74104,9 @@
       "term": "Oct 14",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6814,
+      "message_id": 13396,
       "chat_id": 7582459199,
-      "seq": 5618,
+      "seq": 11994,
       "identity": "NOURL|CACI|Software Engineering Intern|Florham Park, NJ|Oct 14#1"
     },
     "500a71610014": {
@@ -74116,9 +74116,9 @@
       "term": "Oct 13",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6815,
+      "message_id": 13397,
       "chat_id": 7582459199,
-      "seq": 5619,
+      "seq": 11995,
       "identity": "NOURL|Northrop Grumman|Computer Engineer Intern \ud83c\uddfa\ud83c\uddf8|Manhattan Beach, CA|Oct 13#1"
     },
     "30a8e2404497": {
@@ -74128,9 +74128,9 @@
       "term": "Oct 13",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6816,
+      "message_id": 13398,
       "chat_id": 7582459199,
-      "seq": 5620,
+      "seq": 11996,
       "identity": "NOURL|Northrop Grumman|Engineer Intern, Product Support \ud83c\uddfa\ud83c\uddf8|Oklahoma City, OK|Oct 13#1"
     },
     "54a91095fa67": {
@@ -74140,9 +74140,9 @@
       "term": "Oct 12",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6817,
+      "message_id": 13399,
       "chat_id": 7582459199,
-      "seq": 5621,
+      "seq": 11997,
       "identity": "NOURL|Moog|Product Engineering Intern|Buffalo, NY|Oct 12#1"
     },
     "d578f7524c13": {
@@ -74152,9 +74152,9 @@
       "term": "Aug 03",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 6818,
+      "message_id": 13400,
       "chat_id": 7582459199,
-      "seq": 5622,
+      "seq": 11998,
       "identity": "NOURL|Medtronic|Software Engineering Intern \ud83d\udec2|**5 locations**Fridley, MN Tempe, AZ Eatontown, NJ Santa Rosa, CA Lafayette, CO|Aug 03#1"
     },
     "ceb827848b1f": {
@@ -150200,6 +150200,30 @@
       "chat_id": 7582459199,
       "seq": 11985,
       "identity": "NOURL|Kinaxis|Cloud Developer Intern, Platform Engineering|Ottawa, ON|Oct 20#1"
+    },
+    "e229e2010633": {
+      "company": "Keysight Technologies",
+      "role": "Software Engineer Intern",
+      "location": "Tewksbury, MA",
+      "term": "Nov 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13390,
+      "chat_id": 7582459199,
+      "seq": 11989,
+      "identity": "NOURL|Keysight Technologies|Software Engineer Intern|Tewksbury, MA|Nov 12#1"
+    },
+    "f6be169ffa67": {
+      "company": "BorgWarner",
+      "role": "Software Test Intern",
+      "location": "Auburn Hills, MI",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13391,
+      "chat_id": 7582459199,
+      "seq": 11990,
+      "identity": "NOURL|BorgWarner|Software Test Intern|Auburn Hills, MI|Nov 05#1"
     }
   },
   "applied": {
@@ -150567,10 +150591,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11988,
+  "seq": 11998,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T17:40:19Z",
+    "last_ok_run": "2026-11-13T17:45:44Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -150578,8 +150602,8 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T17:15:31Z",
-      "duplicate-hash": "2026-11-13T17:15:27Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T17:45:42Z",
+      "duplicate-hash": "2026-11-13T17:45:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T17:30:26Z"
     }
   }
