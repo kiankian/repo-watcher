@@ -149552,6 +149552,30 @@
       "chat_id": 7582459199,
       "seq": 11931,
       "identity": "https://zapply.jobs/l/d/phenom-bae-systems-127189BR?s=gh-internships-2027|BAE Systems|Software Engineering Intern III, Summer 2027|Nashua, New Hampshire|Summer 2027#1"
+    },
+    "2ec23edf4303": {
+      "company": "E2 Consulting Engineers",
+      "role": "Data Analyst Intern",
+      "location": "San Diego, CA",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1yp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13290,
+      "chat_id": 7582459199,
+      "seq": 11932,
+      "identity": "https://go.vansh.nyc/1yp?s=y|E2 Consulting Engineers|Data Analyst Intern|San Diego, CA|Nov 12#1"
+    },
+    "a14119f167ab": {
+      "company": "Affirm",
+      "role": "Software Engineer Intern, Machine Learning",
+      "location": "San Francisco, CA",
+      "term": "Oct 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13291,
+      "chat_id": 7582459199,
+      "seq": 11933,
+      "identity": "NOURL|Affirm|Software Engineer Intern, Machine Learning|San Francisco, CA|Oct 02#1"
     }
   },
   "applied": {
@@ -149919,10 +149943,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11931,
+  "seq": 11933,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T01:10:18Z",
+    "last_ok_run": "2026-11-13T01:15:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
