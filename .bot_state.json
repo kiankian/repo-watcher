@@ -149648,6 +149648,114 @@
       "chat_id": 7582459199,
       "seq": 11939,
       "identity": "https://go.vansh.nyc/1yt?s=y|Bask|AI Engineering Intern|United States|Nov 12#1"
+    },
+    "443186aecb2f": {
+      "company": "RTX",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "St Petersburg, FL",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13308,
+      "chat_id": 7582459199,
+      "seq": 11940,
+      "identity": "NOURL|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|St Petersburg, FL|Nov 10#1"
+    },
+    "681fe9c72b3f": {
+      "company": "Renesas Electronics",
+      "role": "Applications Engineer Intern",
+      "location": "Morrisville, NC",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13309,
+      "chat_id": 7582459199,
+      "seq": 11941,
+      "identity": "NOURL|Renesas Electronics|Applications Engineer Intern|Morrisville, NC|Nov 10#1"
+    },
+    "bce0e4f82237": {
+      "company": "RTX",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Largo, FL",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13310,
+      "chat_id": 7582459199,
+      "seq": 11942,
+      "identity": "NOURL|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Largo, FL|Nov 09#1"
+    },
+    "33dff0ec6de1": {
+      "company": "JM Family Enterprises",
+      "role": "AI & Decision Science Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13311,
+      "chat_id": 7582459199,
+      "seq": 11943,
+      "identity": "NOURL|JM Family Enterprises|AI & Decision Science Intern|Deerfield Beach, FL|Nov 03#1"
+    },
+    "c1de1cf2d6ce": {
+      "company": "JM Family Enterprises",
+      "role": "AI Center of Excellence Delivery Team Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13312,
+      "chat_id": 7582459199,
+      "seq": 11944,
+      "identity": "NOURL|JM Family Enterprises|AI Center of Excellence Delivery Team Intern|Deerfield Beach, FL|Nov 02#1"
+    },
+    "b3ba6646ffec": {
+      "company": "Sherwin-Williams",
+      "role": "R&D Data Science Co-op",
+      "location": "Brecksville, OH",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13313,
+      "chat_id": 7582459199,
+      "seq": 11945,
+      "identity": "NOURL|Sherwin-Williams|R&D Data Science Co-op|Brecksville, OH|Oct 28#1"
+    },
+    "8cff04e73f89": {
+      "company": "Navy Federal",
+      "role": "Data Analytics Intern",
+      "location": "Pensacola, FL Vienna, VA",
+      "term": "Oct 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13314,
+      "chat_id": 7582459199,
+      "seq": 11946,
+      "identity": "NOURL|Navy Federal|Data Analytics Intern|Pensacola, FL Vienna, VA|Oct 23#1"
+    },
+    "4bad2277d117": {
+      "company": "American Electric Power",
+      "role": "Data Scientist Intern",
+      "location": "Columbus, OH",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13315,
+      "chat_id": 7582459199,
+      "seq": 11947,
+      "identity": "NOURL|American Electric Power|Data Scientist Intern|Columbus, OH|Oct 20#1"
+    },
+    "ffa724179d09": {
+      "company": "GE Vernova",
+      "role": "AI Data Mining Agent Intern, SCS Commercial",
+      "location": "Atlanta, GA",
+      "term": "Oct 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13316,
+      "chat_id": 7582459199,
+      "seq": 11948,
+      "identity": "NOURL|GE Vernova|AI Data Mining Agent Intern, SCS Commercial|Atlanta, GA|Oct 06#1"
     }
   },
   "applied": {
@@ -150015,10 +150123,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11939,
+  "seq": 11948,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T05:15:18Z",
+    "last_ok_run": "2026-11-13T05:20:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -150026,7 +150134,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T04:15:17Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T05:20:29Z",
       "duplicate-hash": "2026-11-12T23:50:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T05:15:18Z"
     }
