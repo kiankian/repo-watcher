@@ -3061,13 +3061,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "b8066132f4c43cc22a028238f93af09e588217dc",
+    "last_sha": "466c1639b37dfc71845377c1590ecfc85d1cc136",
     "seen": [
-      "https://job-boards.greenhouse.io/twitch/jobs/8886748002?utm_source=github-vansh-ouckah|Twitch|Undergrad Software Engineering Intern|San Francisco, CA|Oct 22#1",
-      "https://jobs.lever.co/tri/71e99c38-aa29-4414-956d-cc526644b9b7?utm_source=github-vansh-ouckah|Toyota Research Institute|Human Aware Interactions and Learning Intern|Cambridge, MA|Oct 22#1",
-      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25007757?utm_source=github-vansh-ouckah|Texas Instruments|Software Engineering Intern \ud83d\udec2|Remote Canada|Oct 22#1",
-      "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4723980006?utm_source=github-vansh-ouckah|STR|Data Analyst Intern|Arlington, VA Woburn, MA|Oct 22#1",
-      "https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd/application?utm_source=github-vansh-ouckah|Skydio|Frontend Software Engineer Intern|San Mateo, CA|Oct 22#1",
       "https://jobs.ashbyhq.com/rivianvw.tech/cb3559f0-2514-45f1-8d36-a11fa1dded0c?utm_source=github-vansh-ouckah|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Vehicle Controls|Palo Alto, CA Irvine, CA|Oct 22#1",
       "https://jobs.ashbyhq.com/rivianvw.tech/30c3af69-2dfc-4224-9abc-b2d9c0c41048?utm_source=github-vansh-ouckah|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Embedded Platforms|Palo Alto, CA Irvine, CA Champaign, IL|Oct 22#1",
       "https://jobs.ashbyhq.com/rivianvw.tech/62e45b20-cbdc-4d16-9466-00bc158b7a7f?utm_source=github-vansh-ouckah|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Connected Systems|Palo Alto, CA Irvine, CA|Oct 22#1",
@@ -8062,10 +8057,15 @@
       "https://go.vansh.nyc/1yY?s=y|Punch Through Design|Cloud Software Engineer Intern|Minneapolis, MN|Nov 12#1",
       "https://go.vansh.nyc/1yX?s=y|PODS|Operations Data Science Intern|Clearwater, FL|Nov 11#1",
       "NOURL|Dow Jones|Software Engineering Intern|New York, NY|Oct 30#1",
-      "NOURL|Dee Zee|Software Development Intern|Des Moines, IA|Oct 28#1"
+      "NOURL|Dee Zee|Software Development Intern|Des Moines, IA|Oct 28#1",
+      "https://go.vansh.nyc/1z0?s=y|Samsung Semiconductor|SSD Firmware Development Intern|San Jose, CA|Nov 13#1",
+      "https://go.vansh.nyc/1z2?s=y|NexusOne|Data Engineering Intern|Atlanta, GA|Nov 13#1",
+      "https://go.vansh.nyc/1z1?s=y|Reliable Robotics Corporation|Flight Software Engineer Intern|Mountain View, CA|Nov 12#1",
+      "NOURL|CrowdStrike|Professional Services Pathfinder Intern, Red Team|Arlington, VA|Nov 06#1",
+      "NOURL|MSA Safety|Software Engineer Intern, Product Development|Cranberry Township, PA|Aug 24#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2895,
+    "last_row_count": 2898,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
