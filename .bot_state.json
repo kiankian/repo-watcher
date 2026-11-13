@@ -151064,6 +151064,54 @@
       "chat_id": 7582459199,
       "seq": 12068,
       "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25019536?s=gh-internships-2027|Texas Instruments|Test Engineering intern - PhD|United States|Summer 2027#1"
+    },
+    "cb32af9eea14": {
+      "company": "IDEMIA North America",
+      "role": "Full Stack Software Engineering Intern",
+      "location": "Eden Prairie, MN",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1z9?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13480,
+      "chat_id": 7582459199,
+      "seq": 12069,
+      "identity": "https://go.vansh.nyc/1z9?s=y|IDEMIA North America|Full Stack Software Engineering Intern|Eden Prairie, MN|Nov 13#1"
+    },
+    "0797e33fa638": {
+      "company": "CACI",
+      "role": "Cyber Security Intern",
+      "location": "Sterling, VA",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13481,
+      "chat_id": 7582459199,
+      "seq": 12070,
+      "identity": "NOURL|CACI|Cyber Security Intern|Sterling, VA|Nov 09#1"
+    },
+    "02402f15fc2e": {
+      "company": "BlueCross BlueShield of Nebraska",
+      "role": "Data Intern, Healthcare",
+      "location": "Omaha, NE",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13482,
+      "chat_id": 7582459199,
+      "seq": 12071,
+      "identity": "NOURL|BlueCross BlueShield of Nebraska|Data Intern, Healthcare|Omaha, NE|Nov 03#1"
+    },
+    "fa3c77a46b3f": {
+      "company": "Dow Jones",
+      "role": "Marketing Data Science Intern",
+      "location": "New York, NY",
+      "term": "Oct 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13483,
+      "chat_id": 7582459199,
+      "seq": 12072,
+      "identity": "NOURL|Dow Jones|Marketing Data Science Intern|New York, NY|Oct 06#1"
     }
   },
   "applied": {
@@ -151431,10 +151479,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12068,
+  "seq": 12072,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T20:40:18Z",
+    "last_ok_run": "2026-11-13T20:45:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
