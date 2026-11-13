@@ -150356,6 +150356,42 @@
       "chat_id": 7582459199,
       "seq": 12009,
       "identity": "NOURL|Coinbase|Data Science Intern, Strategy, Execution, & Analytics Platform|San Francisco, CA|Sep 08#1"
+    },
+    "798187c328bc": {
+      "company": "Carnegie Mellon University",
+      "role": "Cybersecurity Engineer Intern (Spring 2027)",
+      "location": "Pittsburgh, PA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cmu-cmu-2025347?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13416,
+      "chat_id": 7582459199,
+      "seq": 12010,
+      "identity": "https://zapply.jobs/l/d/workday-cmu-cmu-2025347?s=gh-internships-2027|Carnegie Mellon University|Cybersecurity Engineer Intern (Spring 2027)|Pittsburgh, PA|Summer 2027#1"
+    },
+    "3b00af36c22b": {
+      "company": "Carnegie Mellon SEI",
+      "role": "Cybersecurity Engineer Intern (Spring 2027)",
+      "location": "Pittsburgh, PA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-cmu-sei-2025347?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13417,
+      "chat_id": 7582459199,
+      "seq": 12011,
+      "identity": "https://zapply.jobs/l/d/workday-cmu-sei-2025347?s=gh-internships-2027|Carnegie Mellon SEI|Cybersecurity Engineer Intern (Spring 2027)|Pittsburgh, PA|Summer 2027#1"
+    },
+    "39a41a8b6847": {
+      "company": "BAE Systems",
+      "role": "Software Engineering Intern IV, (Summer 2027) Onsite",
+      "location": "Nashua, New Hampshire",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-bae-systems-128055BR?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13418,
+      "chat_id": 7582459199,
+      "seq": 12012,
+      "identity": "https://zapply.jobs/l/d/phenom-bae-systems-128055BR?s=gh-internships-2027|BAE Systems|Software Engineering Intern IV, (Summer 2027) Onsite|Nashua, New Hampshire|Summer 2027#1"
     }
   },
   "applied": {
@@ -150723,10 +150759,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12009,
+  "seq": 12012,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T18:50:34Z",
+    "last_ok_run": "2026-11-13T18:55:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
