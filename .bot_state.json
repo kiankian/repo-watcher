@@ -149408,6 +149408,30 @@
       "chat_id": 7582459199,
       "seq": 11919,
       "identity": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/OH-Dublin-Cardinal-Place/Technology-Internship--Summer-2027-_20189610-1?utm_source=Simplify&ref=Simplify|Cardinal Health|Technology Intern|Dublin, OH|Summer 2026#1"
+    },
+    "cf452a4d2358": {
+      "company": "Astera Labs",
+      "role": "Firmware Engineer Intern, DevSecOps",
+      "location": "San Jose, CA",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13275,
+      "chat_id": 7582459199,
+      "seq": 11920,
+      "identity": "NOURL|Astera Labs|Firmware Engineer Intern, DevSecOps|San Jose, CA|Oct 28#1"
+    },
+    "ed22ea8bfb21": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "FL-MELBOURNE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885543?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13276,
+      "chat_id": 7582459199,
+      "seq": 11921,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885543?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|FL-MELBOURNE|Summer 2027#1"
     }
   },
   "applied": {
@@ -149775,10 +149799,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 11919,
+  "seq": 11921,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T00:05:22Z",
+    "last_ok_run": "2026-11-13T00:10:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
