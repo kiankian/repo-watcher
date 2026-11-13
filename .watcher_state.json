@@ -3061,14 +3061,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "20abc17c93862ba9d626251d1a6ec90d131cd555",
+    "last_sha": "b8066132f4c43cc22a028238f93af09e588217dc",
     "seen": [
-      "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Software-Engineering-OR/1442826200/?ats=successfactors&utm_source=github-vansh-ouckah|Westinghouse Electric Company|Software Engineering Intern|Warrendale, PA|Oct 22#1",
-      "https://careers-westernsouthern.icims.com/jobs/25347/enterprise-architecture-information-technology-intern-%28full-year-2027%29/job?utm_source=github-vansh-ouckah|Western & Southern Financial Group|Enterprise Architecture Information Technology Intern|Cincinnati, OH|Oct 22#1",
-      "https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/USA-TX-LANCASTER-07382-ECOMM-FULFILLMENT-SERVICES/Summer-2027-Intern--Automation---Product-Manager---Corporate-Intern_R-2649739?utm_source=github-vansh-ouckah|Walmart|Automation, Product Manager, Corporate Intern|Lancaster, TX|Oct 22#1",
-      "https://jobs.ashbyhq.com/veeda-ai/84dfad5c-d790-4c4a-9411-40b676b1abbb/application?embed=true&utm_source=github-vansh-ouckah|Veeda AI|Software Engineering Intern|Toronto, Canada|Oct 22#1",
-      "https://ursamajor.com/careers/?gh_jid=4746827005&utm_source=github-vansh-ouckah|Ursa Major|Software Development Intern|Berthoud, CO|Oct 22#1",
-      "https://ursamajor.com/careers/?gh_jid=4746825005&utm_source=github-vansh-ouckah|Ursa Major|Embedded Flight Software Intern|Longmont, CO|Oct 22#1",
       "https://job-boards.greenhouse.io/twitch/jobs/8886748002?utm_source=github-vansh-ouckah|Twitch|Undergrad Software Engineering Intern|San Francisco, CA|Oct 22#1",
       "https://jobs.lever.co/tri/71e99c38-aa29-4414-956d-cc526644b9b7?utm_source=github-vansh-ouckah|Toyota Research Institute|Human Aware Interactions and Learning Intern|Cambridge, MA|Oct 22#1",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25007757?utm_source=github-vansh-ouckah|Texas Instruments|Software Engineering Intern \ud83d\udec2|Remote Canada|Oct 22#1",
@@ -8062,14 +8056,20 @@
       "NOURL|GreatAmerica Financial Services|Software Engineer Intern|Cedar Rapids, IA|Nov 03#1",
       "NOURL|Ecolab|Digital & AI Technology Intern|Saint Paul, MN Eagan, MN Naperville, IL|Nov 03#1",
       "NOURL|Netsmart|Security Analyst Intern|Overland Park, KS|Oct 26#1",
-      "NOURL|Coinbase|Data Science Intern, Strategy, Execution, & Analytics Platform|San Francisco, CA|Sep 08#1"
+      "NOURL|Coinbase|Data Science Intern, Strategy, Execution, & Analytics Platform|San Francisco, CA|Sep 08#1",
+      "https://go.vansh.nyc/1yW?s=y|Bloomberg Industry Group|Engineering Intern|Arlington, VA|Nov 13#1",
+      "https://go.vansh.nyc/1yZ?s=y|ASML|EUV Data Science and Analytics Intern|Austin, TX|Nov 13#1",
+      "https://go.vansh.nyc/1yY?s=y|Punch Through Design|Cloud Software Engineer Intern|Minneapolis, MN|Nov 12#1",
+      "https://go.vansh.nyc/1yX?s=y|PODS|Operations Data Science Intern|Clearwater, FL|Nov 11#1",
+      "NOURL|Dow Jones|Software Engineering Intern|New York, NY|Oct 30#1",
+      "NOURL|Dee Zee|Software Development Intern|Des Moines, IA|Oct 28#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2891,
+    "last_row_count": 2895,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "f71a9cdcc49afc69e877e843d7eb9ecbd99be015",
+    "last_sha": "688e4eb2e0c31ec759c509c0e05f1cebdb67a9ee",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

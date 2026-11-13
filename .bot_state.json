@@ -150404,6 +150404,78 @@
       "chat_id": 7582459199,
       "seq": 12013,
       "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031224?s=gh-internships-2027|Sierra Nevada Corporation|Systems Engineer Intern|Southern Pines, NC|Summer 2027#1"
+    },
+    "94ce72597418": {
+      "company": "Bloomberg Industry Group",
+      "role": "Engineering Intern",
+      "location": "Arlington, VA",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1yW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13421,
+      "chat_id": 7582459199,
+      "seq": 12014,
+      "identity": "https://go.vansh.nyc/1yW?s=y|Bloomberg Industry Group|Engineering Intern|Arlington, VA|Nov 13#1"
+    },
+    "c3e71a5bb985": {
+      "company": "ASML",
+      "role": "EUV Data Science and Analytics Intern",
+      "location": "Austin, TX",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1yZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13422,
+      "chat_id": 7582459199,
+      "seq": 12015,
+      "identity": "https://go.vansh.nyc/1yZ?s=y|ASML|EUV Data Science and Analytics Intern|Austin, TX|Nov 13#1"
+    },
+    "3d107a812ea1": {
+      "company": "Punch Through Design",
+      "role": "Cloud Software Engineer Intern",
+      "location": "Minneapolis, MN",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1yY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13423,
+      "chat_id": 7582459199,
+      "seq": 12016,
+      "identity": "https://go.vansh.nyc/1yY?s=y|Punch Through Design|Cloud Software Engineer Intern|Minneapolis, MN|Nov 12#1"
+    },
+    "3ac9fac8152c": {
+      "company": "PODS",
+      "role": "Operations Data Science Intern",
+      "location": "Clearwater, FL",
+      "term": "Nov 11",
+      "apply_url": "https://go.vansh.nyc/1yX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13424,
+      "chat_id": 7582459199,
+      "seq": 12017,
+      "identity": "https://go.vansh.nyc/1yX?s=y|PODS|Operations Data Science Intern|Clearwater, FL|Nov 11#1"
+    },
+    "b2ef55824208": {
+      "company": "Dow Jones",
+      "role": "Software Engineering Intern",
+      "location": "New York, NY",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13425,
+      "chat_id": 7582459199,
+      "seq": 12018,
+      "identity": "NOURL|Dow Jones|Software Engineering Intern|New York, NY|Oct 30#1"
+    },
+    "d29769c086b8": {
+      "company": "Dee Zee",
+      "role": "Software Development Intern",
+      "location": "Des Moines, IA",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13426,
+      "chat_id": 7582459199,
+      "seq": 12019,
+      "identity": "NOURL|Dee Zee|Software Development Intern|Des Moines, IA|Oct 28#1"
     }
   },
   "applied": {
@@ -150771,10 +150843,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12013,
+  "seq": 12019,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T19:10:21Z",
+    "last_ok_run": "2026-11-13T19:15:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
