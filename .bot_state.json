@@ -150308,6 +150308,54 @@
       "chat_id": 7582459199,
       "seq": 12005,
       "identity": "https://zapply.jobs/l/d/sr-ServiceNow-744000161550869?s=gh-internships-2027|ServiceNow|Information Security Analyst Intern|San Diego, CALIFORNIA|Summer 2027#1"
+    },
+    "20f3c5ca51dc": {
+      "company": "GreatAmerica Financial Services",
+      "role": "Software Engineer Intern",
+      "location": "Cedar Rapids, IA",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13411,
+      "chat_id": 7582459199,
+      "seq": 12006,
+      "identity": "NOURL|GreatAmerica Financial Services|Software Engineer Intern|Cedar Rapids, IA|Nov 03#1"
+    },
+    "f0724f5cfee6": {
+      "company": "Ecolab",
+      "role": "Digital & AI Technology Intern",
+      "location": "Saint Paul, MN Eagan, MN Naperville, IL",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13412,
+      "chat_id": 7582459199,
+      "seq": 12007,
+      "identity": "NOURL|Ecolab|Digital & AI Technology Intern|Saint Paul, MN Eagan, MN Naperville, IL|Nov 03#1"
+    },
+    "f19faa3cca25": {
+      "company": "Netsmart",
+      "role": "Security Analyst Intern",
+      "location": "Overland Park, KS",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13413,
+      "chat_id": 7582459199,
+      "seq": 12008,
+      "identity": "NOURL|Netsmart|Security Analyst Intern|Overland Park, KS|Oct 26#1"
+    },
+    "93ffc685c167": {
+      "company": "Coinbase",
+      "role": "Data Science Intern, Strategy, Execution, & Analytics Platform",
+      "location": "San Francisco, CA",
+      "term": "Sep 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13414,
+      "chat_id": 7582459199,
+      "seq": 12009,
+      "identity": "NOURL|Coinbase|Data Science Intern, Strategy, Execution, & Analytics Platform|San Francisco, CA|Sep 08#1"
     }
   },
   "applied": {
@@ -150675,10 +150723,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12005,
+  "seq": 12009,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-13T18:45:17Z",
+    "last_ok_run": "2026-11-13T18:50:34Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -150686,7 +150734,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T17:45:42Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-13T18:50:31Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-13T18:35:19Z"
     }
