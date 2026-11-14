@@ -151748,6 +151748,30 @@
       "chat_id": 7582459199,
       "seq": 12125,
       "identity": "NOURL|Qube Research and Technologies|Technology Intern|Chicago, IL New York, NY|Oct 26#1"
+    },
+    "2bac2f3a8eb9": {
+      "company": "SAS",
+      "role": "Software Developer Intern - Go/Golang Experience",
+      "location": "Cary, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://careers-sas.icims.com/jobs/42797/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 13583,
+      "chat_id": 7582459199,
+      "seq": 12126,
+      "identity": "https://careers-sas.icims.com/jobs/42797/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|SAS|Software Developer Intern - Go/Golang Experience|Cary, NC|Summer 2026#1"
+    },
+    "a22699c42207": {
+      "company": "Camping World",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://campingworld.wd5.myworkdayjobs.com/en-US/Jobs/job/Lincolnshire-IL/Software-Engineering-Intern_26_09080?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 13584,
+      "chat_id": 7582459199,
+      "seq": 12127,
+      "identity": "https://campingworld.wd5.myworkdayjobs.com/en-US/Jobs/job/Lincolnshire-IL/Software-Engineering-Intern_26_09080?utm_source=Simplify&ref=Simplify|Camping World|Software Engineer Intern|Chicago, IL|Summer 2026#1"
     }
   },
   "applied": {
@@ -152115,10 +152139,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12125,
+  "seq": 12127,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-14T16:00:25Z",
+    "last_ok_run": "2026-11-14T16:05:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
