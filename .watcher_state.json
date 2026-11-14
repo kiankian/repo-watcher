@@ -3064,10 +3064,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "768d01a669b8d855b7330726b1c1b71e7401da45",
+    "last_sha": "cf54a8e568b4fb50941fbee0603bd002f52150d9",
     "seen": [
-      "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284880?utm_source=github-vansh-ouckah|Mastercard|Platform Engineering Intern|O'Fallon, MO|Oct 15#1",
-      "https://job-boards.greenhouse.io/aidashinc/jobs/4436057009?utm_source=github-vansh-ouckah|AiDASH|Software Engineering Intern, Backend|Palo Alto, CA|Oct 15#1",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4587630?utm_source=github-vansh-ouckah|Propio|Product Manager Intern|Overland Park, KS|Oct 14#1",
       "https://jobs.smartrecruiters.com/LLNL/3743990016164416?utm_source=github-vansh-ouckah|Lawrence Livermore National Laboratory (LLNL)|Power Systems Undergraduate Intern, Cyber and Critical Infrastructure|Livermore, CA|Oct 14#1",
       "https://aoins.wd5.myworkdayjobs.com/concord/job/Bedford-NH/Software-Engineer-Intern_R_14465?utm_source=github-vansh-ouckah|Auto-Owners Insurance|Software Engineer Intern|Bedford, NH|Oct 14#1",
@@ -8065,14 +8063,16 @@
       "https://go.vansh.nyc/1zi?s=y|TC Energy|Intelligent Operations Technology Intern|Spokane, WA|Nov 12#1",
       "https://go.vansh.nyc/1zh?s=y|Addepar|Product Analyst Intern, Navigator|New York, NY|Nov 12#1",
       "NOURL|Roche|Assay Bioinformatics Intern, CSI|Pleasanton, CA|Nov 09#1",
-      "https://go.vansh.nyc/1zq?s=y|NextEra Energy|Software Engineering Intern, Technical|St Paul, MN|Nov 13#1"
+      "https://go.vansh.nyc/1zq?s=y|NextEra Energy|Software Engineering Intern, Technical|St Paul, MN|Nov 13#1",
+      "https://go.vansh.nyc/1zr?s=y|NetApp|Software Engineer Intern, Cloud|San Jose, CA|Nov 13#1",
+      "https://go.vansh.nyc/1zs?s=y|NetApp|Software Engineer Intern, Systems|San Jose, CA|Nov 13#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2915,
+    "last_row_count": 2917,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "57f9c752e8fd23584c591e654f864c38055d20bc",
+    "last_sha": "8a4bcb0e5b01fe2c4ea9185d34d8872af470abbc",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -10750,7 +10750,8 @@
       "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01884404?s=gh-internships-2027|RTX|Software Engineering Co-op (Summer/Fall)|TX-RICHARDSON-C17|Summer 2027#1",
       "https://zapply.jobs/l/d/greenhouse-lightmatter-5473869008?s=gh-internships-2027|Lightmatter|Hardware Test Engineering, Intern (Summer 2027)|Mountain View, CA|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-bloomenergy-bloomenergycareers-JR-25265?s=gh-internships-2027|Bloom Energy|Automation Engineering Intern|Fremont, California|Summer 2027#1",
-      "https://zapply.jobs/l/d/sr-ServiceNow-744000161592679?s=gh-internships-2027|ServiceNow|Security Engineer Intern|Kirkland, Washington|Summer 2027#1"
+      "https://zapply.jobs/l/d/sr-ServiceNow-744000161592679?s=gh-internships-2027|ServiceNow|Security Engineer Intern|Kirkland, Washington|Summer 2027#1",
+      "https://zapply.jobs/l/d/amazon-aaa64708-ae0c-4389-8f0a-63dda4d3d84b?s=gh-internships-2027|Amazon Data Services, Inc.|Data Center Infrastructure Engineer Intern, Summer 2027 - West Coast|Umatilla, OR|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
