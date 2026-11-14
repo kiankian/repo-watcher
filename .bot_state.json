@@ -152096,6 +152096,78 @@
       "chat_id": 7582459199,
       "seq": 12154,
       "identity": "https://jobs.ashbyhq.com/genesis-molecular-ai/44e3cbdc-949c-426e-a80a-b41c73ad6a99|Genesis Molecular AI|Software Engineer Intern - 2027|San Mateo, CA +1|Other#1"
+    },
+    "b256f7c54ce6": {
+      "company": "USAA",
+      "role": "Technology Intern",
+      "location": "San Antonio, TX Plano, TX Phoenix, AZ",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1zL?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13623,
+      "chat_id": 7582459199,
+      "seq": 12155,
+      "identity": "https://go.vansh.nyc/1zL?s=y|USAA|Technology Intern|San Antonio, TX Plano, TX Phoenix, AZ|Nov 13#1"
+    },
+    "24e6a4a284d4": {
+      "company": "Owl Cyber Defense",
+      "role": "Software Engineering Intern",
+      "location": "Columbia, MD",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1zK?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13624,
+      "chat_id": 7582459199,
+      "seq": 12156,
+      "identity": "https://go.vansh.nyc/1zK?s=y|Owl Cyber Defense|Software Engineering Intern|Columbia, MD|Nov 13#1"
+    },
+    "1169affe1200": {
+      "company": "State of Maryland",
+      "role": "Quantitative Analyst Intern",
+      "location": "Baltimore, MD",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1zI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13625,
+      "chat_id": 7582459199,
+      "seq": 12157,
+      "identity": "https://go.vansh.nyc/1zI?s=y|State of Maryland|Quantitative Analyst Intern|Baltimore, MD|Nov 12#1"
+    },
+    "12f25f130e5b": {
+      "company": "Cintas",
+      "role": "OT Software Engineer Intern, IT",
+      "location": "United States",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1zH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13626,
+      "chat_id": 7582459199,
+      "seq": 12158,
+      "identity": "https://go.vansh.nyc/1zH?s=y|Cintas|OT Software Engineer Intern, IT|United States|Nov 12#1"
+    },
+    "af624ee801a9": {
+      "company": "RTX",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "McKinney, TX",
+      "term": "Nov 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13627,
+      "chat_id": 7582459199,
+      "seq": 12159,
+      "identity": "NOURL|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|McKinney, TX|Nov 11#1"
+    },
+    "84749bb9758a": {
+      "company": "RTX",
+      "role": "Methods Engineering Intern, Aftermarket & Sustainment Engineering",
+      "location": "East Hartford, CT",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13628,
+      "chat_id": 7582459199,
+      "seq": 12160,
+      "identity": "NOURL|RTX|Methods Engineering Intern, Aftermarket & Sustainment Engineering|East Hartford, CT|Nov 10#1"
     }
   },
   "applied": {
@@ -152463,10 +152535,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12154,
+  "seq": 12160,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-14T21:15:20Z",
+    "last_ok_run": "2026-11-14T21:20:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -152474,7 +152546,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-14T17:15:46Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-14T21:20:24Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-14T20:55:14Z"
     }
