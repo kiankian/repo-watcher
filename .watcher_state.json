@@ -3067,21 +3067,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "6b51b50a2b3d62cfc510c7bb6b13876ce05a7277",
+    "last_sha": "feb0e45c9f9317d72b2289145f304d3784a5d9d5",
     "seen": [
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4575799?utm_source=github-vansh-ouckah|Residex Software|Product Management Intern|United States|Oct 08#1",
-      "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015835003?utm_source=github-vansh-ouckah|GCM Grosvenor|IT Product & Strategy Intern|Chicago, IL|Oct 08#1",
-      "https://job-boards.greenhouse.io/arcesiumllc/jobs/5257199007?utm_source=github-vansh-ouckah|Arcesium|Infrastructure Engineer Intern|New York, NY|Oct 08#1",
-      "https://jobs.lever.co/viget/969d8237-ec1a-4ec4-ba09-b08bcfcd81c4?utm_source=github-vansh-ouckah|Viget|Project & Product Manager Intern \ud83d\udec2|Boulder, CO|Oct 07#1",
-      "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256686007?utm_source=github-vansh-ouckah|Tenstorrent|AI Software Intern, Cloud, Infrastructure & Data Centre Deployment|Austin, TX Santa Clara, CA|Oct 06#1",
-      "https://www.amazon.jobs/en/jobs/10571374/software-development-engineer-embedded-systems-intern-amazon-leo-summer-2027-usa?utm_source=github-vansh-ouckah|Amazon|Software Development Engineer Intern, Amazon Leo, Embedded Systems \ud83c\uddfa\ud83c\uddf8|Redmond, WA|Oct 06#1",
-      "https://veteransunited.wd1.myworkdayjobs.com/vuhl/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249?utm_source=github-vansh-ouckah|Veterans United Home Loans|Software Engineer Intern|Remote United States|Oct 05#1",
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4564633?utm_source=github-vansh-ouckah|Ergotron|Software Engineer Intern|Eagan, MN|Oct 05#1",
-      "https://boards.greenhouse.io/andurilindustries/jobs/5257690007?gh_jid=5257690007&utm_source=github-vansh-ouckah|Anduril|Systems Engineer Intern|**5 locations**Boston, MA Costa Mesa, CA Fort Collins, CO Reston, VA Seattle, WA|Oct 05#1",
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4556132?utm_source=github-vansh-ouckah|Election Systems & Software|Information Systems Software Developer Intern|Omaha, NE|Oct 01#1",
-      "https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa?utm_source=github-vansh-ouckah|Amazon|Software Development Engineer Intern, Embedded Systems|Seattle, WA|Oct 01#1",
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4553481?utm_source=github-vansh-ouckah|Election Systems & Software|DevOps Intern|Omaha, NE|Sep 30#1",
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4553447?utm_source=github-vansh-ouckah|Election Systems & Software|Software Development Intern|Omaha, NE|Sep 30#1",
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/USA-RESEARCH-TRIANGLE-PARK/Software-Consulting-Engineer-I--Intern--United-States_2025180?utm_source=github-vansh-ouckah|Cisco|Software Consulting Engineer I Intern|Research Triangle Park, NC|Sep 30#1",
       "https://job-boards.greenhouse.io/muonspace/jobs/5252680007?utm_source=github-vansh-ouckah|Muon Space|Software Engineering Intern, GNC|Mountain View, CA|Sep 29#1",
       "https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd?utm_source=github-vansh-ouckah|Hermeus|Flight Software Engineering Intern, Simulation/Hardware-In-The-Loop|Los Angeles, CA|Sep 28#1",
@@ -8068,10 +8055,23 @@
       "https://go.vansh.nyc/1zz?s=y|KBR Wyle Services|Software Engineering Intern, Defense & Intel (D&I)|**11 locations**Chantilly, VA Ann Arbor, MI Lexington, MA Kihei, HI Beavercreek, OH Lexington Park, MD King of Prussia, PA Colorado Springs, CO Huntsville, AL El Segundo, CA Orlando, FL|Nov 13#1",
       "NOURL|Veolia|Field Engineering Intern \ud83d\udec2|Nanticoke, PA|Oct 10#1",
       "https://go.vansh.nyc/1zB?s=y|Ericsson|AI Software Engineer Intern \ud83d\udec2|Plano, TX|Nov 14#1",
-      "NOURL|Qube Research and Technologies|Technology Intern|Chicago, IL New York, NY|Oct 26#1"
+      "NOURL|Qube Research and Technologies|Technology Intern|Chicago, IL New York, NY|Oct 26#1",
+      "https://go.vansh.nyc/1zC?s=y|SAS|Software Developer Intern, Go/Golang|Cary, NC|Nov 13#1",
+      "https://go.vansh.nyc/1zF?s=y|Camping World|AI Security Intern|Chicago, IL|Nov 13#1",
+      "https://go.vansh.nyc/1zD?s=y|Capital Group|Global Technology Associate Intern|Irvine, CA|Nov 12#1",
+      "https://go.vansh.nyc/1zE?s=y|Camping World|Software Engineer Intern|Chicago, IL|Nov 12#1",
+      "NOURL|ICF|Data Analytics Intern|Reston, VA Remote United States|Nov 11#1",
+      "NOURL|Llbean|Software Developer Intern|Freeport, ME|Nov 05#1",
+      "NOURL|L.L.Bean|Business Analyst/Data Analyst Intern|Freeport, ME|Nov 05#1",
+      "NOURL|The Federal Reserve System|Supervision & Regulation Intern, Cybersecurity \ud83d\udec2|Atlanta, GA|Nov 02#1",
+      "NOURL|Guardian Life|Data Engineering Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1",
+      "NOURL|Guardian Life|AI & Machine Learning Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1",
+      "NOURL|Guardian Life|Application Development Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1",
+      "NOURL|Guardian Life|Cloud & DevOps Intern, Digital & Technology|Bethlehem, PA Holmdel, NJ|Nov 02#1",
+      "NOURL|Guardian Life|Cybersecurity Intern, Digital & Technology|New York, NY Bethlehem, PA Holmdel, NJ|Nov 02#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2921,
+    "last_row_count": 2925,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
