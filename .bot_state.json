@@ -151724,6 +151724,30 @@
       "chat_id": 7582459199,
       "seq": 12123,
       "identity": "https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/Enabling-Mission-Capability-at-Scale-Intern---Summer-2027_2025300-1?utm_source=Simplify&ref=Simplify|Carnegie Mellon University|Enabling Mission Capability at Scale Intern|Pittsburgh, PA|Summer 2026#1"
+    },
+    "e34b660a7895": {
+      "company": "Ericsson",
+      "role": "AI Software Engineer Intern \ud83d\udec2",
+      "location": "Plano, TX",
+      "term": "Nov 14",
+      "apply_url": "https://go.vansh.nyc/1zB?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13575,
+      "chat_id": 7582459199,
+      "seq": 12124,
+      "identity": "https://go.vansh.nyc/1zB?s=y|Ericsson|AI Software Engineer Intern \ud83d\udec2|Plano, TX|Nov 14#1"
+    },
+    "316812553563": {
+      "company": "Qube Research and Technologies",
+      "role": "Technology Intern",
+      "location": "Chicago, IL New York, NY",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13576,
+      "chat_id": 7582459199,
+      "seq": 12125,
+      "identity": "NOURL|Qube Research and Technologies|Technology Intern|Chicago, IL New York, NY|Oct 26#1"
     }
   },
   "applied": {
@@ -152091,10 +152115,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12123,
+  "seq": 12125,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-14T13:10:19Z",
+    "last_ok_run": "2026-11-14T13:15:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -152102,7 +152126,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-14T04:10:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-14T13:15:17Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-14T13:00:20Z"
     }
