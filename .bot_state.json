@@ -151580,6 +151580,18 @@
       "chat_id": 7582459199,
       "seq": 12111,
       "identity": "https://capgroup.wd1.myworkdayjobs.com/en-US/capitalgroupcareers/job/Irvine/CAMPUS-Global-Technology-Summer-Associate--2027-_JR7798?utm_source=Simplify&ref=Simplify|Capital Group|Global Technology Summer Associate Intern|Irvine, CA|Summer 2026#1"
+    },
+    "1e3102e0a689": {
+      "company": "Roche",
+      "role": "Assay Bioinformatics Intern, CSI",
+      "location": "Pleasanton, CA",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13534,
+      "chat_id": 7582459199,
+      "seq": 12112,
+      "identity": "NOURL|Roche|Assay Bioinformatics Intern, CSI|Pleasanton, CA|Nov 09#1"
     }
   },
   "applied": {
@@ -151947,10 +151959,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12111,
+  "seq": 12112,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-14T00:05:22Z",
+    "last_ok_run": "2026-11-14T00:10:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
