@@ -152180,6 +152180,78 @@
       "chat_id": 7582459199,
       "seq": 12161,
       "identity": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Co-op--Summer-Fall-_01884404?utm_source=Simplify&ref=Simplify|RTX|Software Engineering Co-op|Richardson, TX|Summer 2026#1"
+    },
+    "504fa5853b24": {
+      "company": "Eight Sleep",
+      "role": "Firmware Intern",
+      "location": "**4 locations**San Francisco, CA New York, NY Washington, DC Austin, TX",
+      "term": "Nov 14",
+      "apply_url": "https://go.vansh.nyc/1zP?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13646,
+      "chat_id": 7582459199,
+      "seq": 12162,
+      "identity": "https://go.vansh.nyc/1zP?s=y|Eight Sleep|Firmware Intern|**4 locations**San Francisco, CA New York, NY Washington, DC Austin, TX|Nov 14#1"
+    },
+    "d9f5a8754c0f": {
+      "company": "MITRE",
+      "role": "Data Science Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "McLean, VA",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13647,
+      "chat_id": 7582459199,
+      "seq": 12163,
+      "identity": "NOURL|MITRE|Data Science Intern \ud83c\uddfa\ud83c\uddf8|McLean, VA|Nov 05#1"
+    },
+    "ef145769d466": {
+      "company": "JM Family Enterprises",
+      "role": "Analytics Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13648,
+      "chat_id": 7582459199,
+      "seq": 12164,
+      "identity": "NOURL|JM Family Enterprises|Analytics Intern|Deerfield Beach, FL|Nov 05#1"
+    },
+    "308e3b162628": {
+      "company": "JM Family Enterprises",
+      "role": "Data Engineering Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13649,
+      "chat_id": 7582459199,
+      "seq": 12165,
+      "identity": "NOURL|JM Family Enterprises|Data Engineering Intern|Deerfield Beach, FL|Nov 05#1"
+    },
+    "2af930891b40": {
+      "company": "JM Family Enterprises",
+      "role": "Software Engineer Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13650,
+      "chat_id": 7582459199,
+      "seq": 12166,
+      "identity": "NOURL|JM Family Enterprises|Software Engineer Intern|Deerfield Beach, FL|Nov 04#1"
+    },
+    "8f723bd36ef3": {
+      "company": "JM Family Enterprises",
+      "role": "Software Analyst Intern",
+      "location": "Deerfield Beach, FL",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13651,
+      "chat_id": 7582459199,
+      "seq": 12167,
+      "identity": "NOURL|JM Family Enterprises|Software Analyst Intern|Deerfield Beach, FL|Nov 04#1"
     }
   },
   "applied": {
@@ -152547,10 +152619,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12161,
+  "seq": 12167,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-15T05:10:17Z",
+    "last_ok_run": "2026-11-15T05:15:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -152558,7 +152630,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-14T21:20:24Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-15T05:15:25Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-15T05:10:17Z"
     }
