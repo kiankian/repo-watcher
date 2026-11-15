@@ -152276,6 +152276,42 @@
       "chat_id": 7582459199,
       "seq": 12169,
       "identity": "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Web-Software-Developer-Intern--WFM-_JR112214-3?utm_source=Simplify&ref=Simplify|Genesys|Web Software Developer Intern - WFM|Toronto, ON, Canada|Summer 2026#1"
+    },
+    "b329e3ccdeaf": {
+      "company": "Blizzard Entertainment",
+      "role": "Animation & Cinematic Tools Engineering Intern",
+      "location": "Irvine, CA",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1zQ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13662,
+      "chat_id": 7582459199,
+      "seq": 12170,
+      "identity": "https://go.vansh.nyc/1zQ?s=y|Blizzard Entertainment|Animation & Cinematic Tools Engineering Intern|Irvine, CA|Nov 12#1"
+    },
+    "200e86ee14ce": {
+      "company": "Eight Sleep",
+      "role": "Firmware Intern",
+      "location": "**4 locations**San Francisco, CA New York, NY Washington, DC Austin, TX",
+      "term": "Nov 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13663,
+      "chat_id": 7582459199,
+      "seq": 12171,
+      "identity": "NOURL|Eight Sleep|Firmware Intern|**4 locations**San Francisco, CA New York, NY Washington, DC Austin, TX|Nov 14#1"
+    },
+    "3e809426a85a": {
+      "company": "TC Energy",
+      "role": "Enterprise Security Intern, Detection & Response",
+      "location": "Calgary, Canada",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13664,
+      "chat_id": 7582459199,
+      "seq": 12172,
+      "identity": "NOURL|TC Energy|Enterprise Security Intern, Detection & Response|Calgary, Canada|Nov 04#1"
     }
   },
   "applied": {
@@ -152643,10 +152679,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12169,
+  "seq": 12172,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-15T09:10:23Z",
+    "last_ok_run": "2026-11-15T09:15:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -152654,7 +152690,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-15T05:15:25Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-15T09:15:19Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-15T08:50:19Z"
     }
