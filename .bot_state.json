@@ -152432,6 +152432,18 @@
       "chat_id": 7582459199,
       "seq": 12182,
       "identity": "NOURL|Ingredion|Digital Innovation Intern|Bridgewater, NJ|Aug 31#1"
+    },
+    "f1b033eec46d": {
+      "company": "Viavi Solutions",
+      "role": "Software Engineering Co-op",
+      "location": "Germantown, MD USA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-viavisolutions-careers-260005308?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13705,
+      "chat_id": 7582459199,
+      "seq": 12183,
+      "identity": "https://zapply.jobs/l/d/workday-viavisolutions-careers-260005308?s=gh-internships-2027|Viavi Solutions|Software Engineering Co-op|Germantown, MD USA|Summer 2027#1"
     }
   },
   "applied": {
@@ -152799,10 +152811,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12182,
+  "seq": 12183,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-15T23:40:17Z",
+    "last_ok_run": "2026-11-15T23:45:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -152812,7 +152824,7 @@
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-15T21:20:26Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-15T23:15:18Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-15T23:45:18Z"
     }
   }
 }
