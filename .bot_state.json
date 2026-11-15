@@ -152312,6 +152312,18 @@
       "chat_id": 7582459199,
       "seq": 12172,
       "identity": "NOURL|TC Energy|Enterprise Security Intern, Detection & Response|Calgary, Canada|Nov 04#1"
+    },
+    "d0b7c34fdfa9": {
+      "company": "Carnegie Mellon University",
+      "role": "Enabling Mission Capability at Scale Intern",
+      "location": "Pittsburgh, PA",
+      "term": "Summer 2026",
+      "apply_url": "https://cmu.wd115.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Enabling-Mission-Capability-at-Scale-Intern---Summer-2027_2025300?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 13679,
+      "chat_id": 7582459199,
+      "seq": 12173,
+      "identity": "https://cmu.wd115.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Enabling-Mission-Capability-at-Scale-Intern---Summer-2027_2025300?utm_source=Simplify&ref=Simplify|Carnegie Mellon University|Enabling Mission Capability at Scale Intern|Pittsburgh, PA|Summer 2026#1"
     }
   },
   "applied": {
@@ -152679,10 +152691,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12172,
+  "seq": 12173,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-15T16:00:23Z",
+    "last_ok_run": "2026-11-15T16:05:17Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
