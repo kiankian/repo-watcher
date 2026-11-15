@@ -152348,6 +152348,90 @@
       "chat_id": 7582459199,
       "seq": 12175,
       "identity": "https://go.vansh.nyc/1zR?s=y|Sallie Mae|Data Science and Engineering Intern|Newark, DE Arlington, VA|Oct 28#1"
+    },
+    "34720382a58c": {
+      "company": "NetApp",
+      "role": "Data Analyst Intern",
+      "location": "Research Triangle Park, NC",
+      "term": "Nov 14",
+      "apply_url": "https://go.vansh.nyc/1zX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13693,
+      "chat_id": 7582459199,
+      "seq": 12176,
+      "identity": "https://go.vansh.nyc/1zX?s=y|NetApp|Data Analyst Intern|Research Triangle Park, NC|Nov 14#1"
+    },
+    "575bcfb0da70": {
+      "company": "Pason & IWS Career",
+      "role": "Software Developer Intern, Datahub",
+      "location": "Calgary, Canada",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1zT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13694,
+      "chat_id": 7582459199,
+      "seq": 12177,
+      "identity": "https://go.vansh.nyc/1zT?s=y|Pason & IWS Career|Software Developer Intern, Datahub|Calgary, Canada|Nov 13#1"
+    },
+    "4981157778ed": {
+      "company": "Paccar",
+      "role": "Software Developer Intern",
+      "location": "United States",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1zV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13695,
+      "chat_id": 7582459199,
+      "seq": 12178,
+      "identity": "https://go.vansh.nyc/1zV?s=y|Paccar|Software Developer Intern|United States|Nov 13#1"
+    },
+    "228f7e8d54b5": {
+      "company": "Midrex Technologies",
+      "role": "IT Cyber Security Intern",
+      "location": "Charlotte, NC",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1zU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13696,
+      "chat_id": 7582459199,
+      "seq": 12179,
+      "identity": "https://go.vansh.nyc/1zU?s=y|Midrex Technologies|IT Cyber Security Intern|Charlotte, NC|Nov 13#1"
+    },
+    "5fe3de075d53": {
+      "company": "Origin Bank",
+      "role": "Salesforce Systems Development Intern",
+      "location": "Ruston, LA",
+      "term": "Nov 12",
+      "apply_url": "https://go.vansh.nyc/1zY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13697,
+      "chat_id": 7582459199,
+      "seq": 12180,
+      "identity": "https://go.vansh.nyc/1zY?s=y|Origin Bank|Salesforce Systems Development Intern|Ruston, LA|Nov 12#1"
+    },
+    "a357543f7b13": {
+      "company": "E2 Consulting Engineers",
+      "role": "Data Analyst Intern",
+      "location": "San Diego, CA",
+      "term": "Nov 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13698,
+      "chat_id": 7582459199,
+      "seq": 12181,
+      "identity": "NOURL|E2 Consulting Engineers|Data Analyst Intern|San Diego, CA|Nov 12#1"
+    },
+    "e6f5eada1e05": {
+      "company": "Ingredion",
+      "role": "Digital Innovation Intern",
+      "location": "Bridgewater, NJ",
+      "term": "Aug 31",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13699,
+      "chat_id": 7582459199,
+      "seq": 12182,
+      "identity": "NOURL|Ingredion|Digital Innovation Intern|Bridgewater, NJ|Aug 31#1"
     }
   },
   "applied": {
@@ -152715,10 +152799,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12175,
+  "seq": 12182,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-15T21:15:16Z",
+    "last_ok_run": "2026-11-15T21:20:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -152726,7 +152810,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-15T17:15:18Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-15T21:20:26Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-15T21:00:22Z"
     }
