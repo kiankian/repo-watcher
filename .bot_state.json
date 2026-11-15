@@ -152252,6 +152252,30 @@
       "chat_id": 7582459199,
       "seq": 12167,
       "identity": "NOURL|JM Family Enterprises|Software Analyst Intern|Deerfield Beach, FL|Nov 04#1"
+    },
+    "e3cc7d0f99e0": {
+      "company": "Blizzard Entertainment",
+      "role": "Animation & Cinematic Tools Engineering Intern - Animation & Cinematic Tools Engineering",
+      "location": "Irvine, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Blizzard-2027-Summer-Internships---Animation---Cinematic-Tools-Engineering_R028350?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 13658,
+      "chat_id": 7582459199,
+      "seq": 12168,
+      "identity": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Blizzard-2027-Summer-Internships---Animation---Cinematic-Tools-Engineering_R028350?utm_source=Simplify&ref=Simplify|Blizzard Entertainment|Animation & Cinematic Tools Engineering Intern - Animation & Cinematic Tools Engineering|Irvine, CA|Summer 2026#1"
+    },
+    "b152f02b5407": {
+      "company": "Genesys",
+      "role": "Web Software Developer Intern - WFM",
+      "location": "Toronto, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Web-Software-Developer-Intern--WFM-_JR112214-3?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 13659,
+      "chat_id": 7582459199,
+      "seq": 12169,
+      "identity": "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Web-Software-Developer-Intern--WFM-_JR112214-3?utm_source=Simplify&ref=Simplify|Genesys|Web Software Developer Intern - WFM|Toronto, ON, Canada|Summer 2026#1"
     }
   },
   "applied": {
@@ -152619,10 +152643,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12167,
+  "seq": 12169,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-15T08:00:22Z",
+    "last_ok_run": "2026-11-15T08:05:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
