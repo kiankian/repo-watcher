@@ -78592,9 +78592,9 @@
       "term": "Oct 20",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7188,
+      "message_id": 13967,
       "chat_id": 7582459199,
-      "seq": 5992,
+      "seq": 12300,
       "identity": "NOURL|Micron Technology|SSD Firmware Intern|San Jose, CA Boise, ID|Oct 20#1"
     },
     "94ba3b1c0b27": {
@@ -78604,9 +78604,9 @@
       "term": "Oct 19",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7189,
+      "message_id": 13968,
       "chat_id": 7582459199,
-      "seq": 5993,
+      "seq": 12301,
       "identity": "NOURL|Amplify|Product Management Intern|Remote in USA|Oct 19#1"
     },
     "0aa01ff287da": {
@@ -78616,9 +78616,9 @@
       "term": "Oct 16",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7190,
+      "message_id": 13969,
       "chat_id": 7582459199,
-      "seq": 5994,
+      "seq": 12302,
       "identity": "NOURL|onsemi|Technology Development Intern|Hopewell Junction, NY|Oct 16#1"
     },
     "b494f8cc3283": {
@@ -78628,9 +78628,9 @@
       "term": "Oct 15",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7191,
+      "message_id": 13970,
       "chat_id": 7582459199,
-      "seq": 5995,
+      "seq": 12303,
       "identity": "NOURL|ROCKWOOL Group|Associate Product Management Intern|Chicago, IL|Oct 15#1"
     },
     "20893e396111": {
@@ -78640,9 +78640,9 @@
       "term": "Oct 13",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7192,
+      "message_id": 13971,
       "chat_id": 7582459199,
-      "seq": 5996,
+      "seq": 12304,
       "identity": "NOURL|Vertiv|Data Analytics Intern|Delaware, OH|Oct 13#1"
     },
     "d98467128873": {
@@ -78652,9 +78652,9 @@
       "term": "Oct 13",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7193,
+      "message_id": 13972,
       "chat_id": 7582459199,
-      "seq": 5997,
+      "seq": 12305,
       "identity": "NOURL|NVIDIA|Sparse Linear Algebra Libraries Intern|Santa Clara, CA|Oct 13#1"
     },
     "3a5813e13953": {
@@ -78664,9 +78664,9 @@
       "term": "Oct 13",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7194,
+      "message_id": 13973,
       "chat_id": 7582459199,
-      "seq": 5998,
+      "seq": 12306,
       "identity": "NOURL|KLA|Software Engineering Intern|Ann Arbor, MI|Oct 13#1"
     },
     "1f76d3c6a342": {
@@ -78712,9 +78712,9 @@
       "term": "Oct 21",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7198,
+      "message_id": 13965,
       "chat_id": 7582459199,
-      "seq": 6002,
+      "seq": 12299,
       "identity": "NOURL|Crusoe|Software Engineering Intern|San Francisco, CA|Oct 21#1"
     },
     "96a67ed437e5": {
@@ -153464,6 +153464,18 @@
       "chat_id": 7582459199,
       "seq": 12289,
       "identity": "NOURL|Astera Labs|Firmware Engineer Intern, Leo|San Jose, CA|Oct 28#1"
+    },
+    "4a9e8702ca4b": {
+      "company": "L3Harris Technologies",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Bristol, PA",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13964,
+      "chat_id": 7582459199,
+      "seq": 12298,
+      "identity": "NOURL|L3Harris Technologies|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Bristol, PA|Oct 29#1"
     }
   },
   "applied": {
@@ -153831,10 +153843,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12297,
+  "seq": 12306,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T21:10:24Z",
+    "last_ok_run": "2026-11-16T21:15:34Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -153842,9 +153854,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T20:10:35Z",
-      "duplicate-hash": "2026-11-16T20:10:24Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T20:45:18Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T21:15:31Z",
+      "duplicate-hash": "2026-11-16T21:15:20Z",
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T21:15:33Z"
     }
   }
 }

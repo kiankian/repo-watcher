@@ -3075,17 +3075,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "92d352ea7d87ba3463de4448087982092d2fddce",
+    "last_sha": "806f67be9d0244641095f553b996b347e583eac8",
     "seen": [
-      "NOURL|Northrop Grumman|Software Engineer Intern|Roy, UT|Oct 20#1",
-      "NOURL|Integrate|Software Engineering Intern|Seattle, WA|Oct 20#1",
-      "NOURL|Persona|Product Design Intern|San Francisco, CA|Oct 17#1",
-      "NOURL|Airbus|Tool Technology and Development Engineering Intern|Mobile Area, AL|Oct 16#1",
-      "NOURL|GE Vernova|AI Evaluation & Benchmarking Intern, AGI|Bellevue, WA|Oct 14#1",
-      "NOURL|CIBC|Analyst Intern, Equity Solutions Group|New York, NY|Oct 13#2",
-      "NOURL|Vertiv|Product Management Intern \ud83d\udec2|Westerville, OH|Aug 21#1",
-      "NOURL|Replit|Software Engineering Intern|Foster City, CA|Aug 21#1",
-      "NOURL|Raytheon|Software Development Intern \ud83c\uddfa\ud83c\uddf8|Tewksbury, MA|Aug 21#1",
       "NOURL|Hypercubic|Software Engineering Intern|San Francisco, CA|Aug 21#1",
       "NOURL|American Express|Cybersecurity Intern \ud83d\udec2|Phoenix, AZ|Aug 21#1",
       "NOURL|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
@@ -8076,14 +8067,23 @@
       "NOURL|ASML|Software Quality Assurance Intern|San Jose, CA|Oct 23#1",
       "NOURL|Biogen|Integrated Insights & Analytics Co-op, Nephrology|Cambridge, MA|Oct 22#1",
       "NOURL|AtkinsR\u00e9alis|Software Developer Intern|Denver, CO|Oct 12#1",
-      "NOURL|Humana|Software Engineer Intern, CenterWell and Humana Military \ud83d\udec2|Louisville, KY|Aug 21#1"
+      "NOURL|Humana|Software Engineer Intern, CenterWell and Humana Military \ud83d\udec2|Louisville, KY|Aug 21#1",
+      "NOURL|L3Harris Technologies|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Bristol, PA|Oct 29#1",
+      "NOURL|Crusoe|Software Engineering Intern|San Francisco, CA|Oct 21#1",
+      "NOURL|Micron Technology|SSD Firmware Intern|San Jose, CA Boise, ID|Oct 20#1",
+      "NOURL|Amplify|Product Management Intern|Remote in USA|Oct 19#1",
+      "NOURL|onsemi|Technology Development Intern|Hopewell Junction, NY|Oct 16#1",
+      "NOURL|ROCKWOOL Group|Associate Product Management Intern|Chicago, IL|Oct 15#1",
+      "NOURL|Vertiv|Data Analytics Intern|Delaware, OH|Oct 13#1",
+      "NOURL|NVIDIA|Sparse Linear Algebra Libraries Intern|Santa Clara, CA|Oct 13#1",
+      "NOURL|KLA|Software Engineering Intern|Ann Arbor, MI|Oct 13#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 2958,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "0c0fa45d04798f25095a6e69e9d5d8a0ad99891e",
+    "last_sha": "0360eb35cfb967cd0a456a94193746e35141180b",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
