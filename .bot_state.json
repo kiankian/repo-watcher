@@ -153680,6 +153680,42 @@
       "chat_id": 7582459199,
       "seq": 12344,
       "identity": "https://go.vansh.nyc/1Av?s=y|Carnival Corporation|Data Analytics Intern|Miami, FL|Nov 15#1"
+    },
+    "f11dd8f174b9": {
+      "company": "Schonfeld",
+      "role": "Platform Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1Aw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14044,
+      "chat_id": 7582459199,
+      "seq": 12356,
+      "identity": "https://go.vansh.nyc/1Aw?s=y|Schonfeld|Platform Engineering Intern|New York, NY|Nov 16#1"
+    },
+    "064dee9e091b": {
+      "company": "Minitab",
+      "role": "Software Engineering Intern",
+      "location": "State College, PA",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1Ax?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14045,
+      "chat_id": 7582459199,
+      "seq": 12357,
+      "identity": "https://go.vansh.nyc/1Ax?s=y|Minitab|Software Engineering Intern|State College, PA|Nov 16#1"
+    },
+    "0f12e77cc93b": {
+      "company": "Texas Instruments",
+      "role": "Test Engineering intern - PhD",
+      "location": "United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-texas-instruments-25019537?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14047,
+      "chat_id": 7582459199,
+      "seq": 12358,
+      "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25019537?s=gh-internships-2027|Texas Instruments|Test Engineering intern - PhD|United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -154047,10 +154083,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12355,
+  "seq": 12358,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T23:05:15Z",
+    "last_ok_run": "2026-11-16T23:10:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -154058,7 +154094,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T22:10:40Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T23:10:22Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T23:00:27Z"
     }
