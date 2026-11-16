@@ -153128,6 +153128,18 @@
       "chat_id": 7582459199,
       "seq": 12240,
       "identity": "https://zapply.jobs/l/d/workday-asml-asmlext1-J-00357508?s=gh-internships-2027|ASML|Internship - Supplier Quality Engineer|Wilton, CT, USA|Summer 2027#1"
+    },
+    "f9ad29ce8c9f": {
+      "company": "GM Financial",
+      "role": "Intern - Software Development Engineer",
+      "location": "Irving, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-gm-financial-261292?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13866,
+      "chat_id": 7582459199,
+      "seq": 12241,
+      "identity": "https://zapply.jobs/l/d/oracle-gm-financial-261292?s=gh-internships-2027|GM Financial|Intern - Software Development Engineer|Irving, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -153495,10 +153507,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12240,
+  "seq": 12241,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T17:00:27Z",
+    "last_ok_run": "2026-11-16T17:05:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
