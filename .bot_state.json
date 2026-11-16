@@ -152972,6 +152972,126 @@
       "chat_id": 7582459199,
       "seq": 12227,
       "identity": "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Shopify|Software Engineer Intern|Montreal, QC, Canada Toronto, ON, Canada Ottawa, ON, Canada|Summer 2026#1"
+    },
+    "3b8a822bd309": {
+      "company": "Shopify",
+      "role": "Software Engineer Intern",
+      "location": "Montreal, Canada Toronto, Canada Ottawa, Canada",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1Ac?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13832,
+      "chat_id": 7582459199,
+      "seq": 12228,
+      "identity": "https://go.vansh.nyc/1Ac?s=y|Shopify|Software Engineer Intern|Montreal, Canada Toronto, Canada Ottawa, Canada|Nov 16#1"
+    },
+    "facc22b26eab": {
+      "company": "Shopify",
+      "role": "Data Intern",
+      "location": "**4 locations**Montreal, Canada Toronto, Canada New York, NY Ottawa, Canada",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1Ad?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13833,
+      "chat_id": 7582459199,
+      "seq": 12229,
+      "identity": "https://go.vansh.nyc/1Ad?s=y|Shopify|Data Intern|**4 locations**Montreal, Canada Toronto, Canada New York, NY Ottawa, Canada|Nov 16#1"
+    },
+    "15575fcc7ffa": {
+      "company": "Shopify",
+      "role": "Applied Machine Learning Engineer Intern",
+      "location": "Montreal, Canada Toronto, Canada Ottawa, Canada",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1Ae?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13834,
+      "chat_id": 7582459199,
+      "seq": 12230,
+      "identity": "https://go.vansh.nyc/1Ae?s=y|Shopify|Applied Machine Learning Engineer Intern|Montreal, Canada Toronto, Canada Ottawa, Canada|Nov 16#1"
+    },
+    "19c43ef1cf0f": {
+      "company": "FieldPulse",
+      "role": "AI Intern",
+      "location": "Dallas, TX",
+      "term": "Nov 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13835,
+      "chat_id": 7582459199,
+      "seq": 12231,
+      "identity": "NOURL|FieldPulse|AI Intern|Dallas, TX|Nov 13#1"
+    },
+    "5c39e9da83da": {
+      "company": "Overland AI",
+      "role": "Software Engineering Intern",
+      "location": "Seattle, WA",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13836,
+      "chat_id": 7582459199,
+      "seq": 12232,
+      "identity": "NOURL|Overland AI|Software Engineering Intern|Seattle, WA|Nov 05#1"
+    },
+    "a0487711420c": {
+      "company": "Lyte AI",
+      "role": "Software Engineering Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13837,
+      "chat_id": 7582459199,
+      "seq": 12233,
+      "identity": "NOURL|Lyte AI|Software Engineering Intern|Sunnyvale, CA|Nov 05#1"
+    },
+    "a99299de4d42": {
+      "company": "APEX Analytix",
+      "role": "Data Science Intern",
+      "location": "Greensboro, NC",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13838,
+      "chat_id": 7582459199,
+      "seq": 12234,
+      "identity": "NOURL|APEX Analytix|Data Science Intern|Greensboro, NC|Nov 05#1"
+    },
+    "745812eac197": {
+      "company": "APEX Analytix",
+      "role": "Automation Developer Intern",
+      "location": "Greensboro, NC",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13839,
+      "chat_id": 7582459199,
+      "seq": 12235,
+      "identity": "NOURL|APEX Analytix|Automation Developer Intern|Greensboro, NC|Nov 05#1"
+    },
+    "1064b48cbcf3": {
+      "company": "APEX Analytix",
+      "role": "Data Engineering Intern",
+      "location": "Greensboro, NC",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13840,
+      "chat_id": 7582459199,
+      "seq": 12236,
+      "identity": "NOURL|APEX Analytix|Data Engineering Intern|Greensboro, NC|Nov 05#1"
+    },
+    "ee727a261d6a": {
+      "company": "APEX Analytix",
+      "role": "Data Analyst Intern",
+      "location": "Greensboro, NC",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13841,
+      "chat_id": 7582459199,
+      "seq": 12237,
+      "identity": "NOURL|APEX Analytix|Data Analyst Intern|Greensboro, NC|Nov 05#1"
     }
   },
   "applied": {
@@ -153339,10 +153459,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12227,
+  "seq": 12237,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T16:10:21Z",
+    "last_ok_run": "2026-11-16T16:15:33Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -153350,7 +153470,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T15:45:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T16:15:31Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T15:55:16Z"
     }
