@@ -78976,9 +78976,9 @@
       "term": "May 22",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7220,
+      "message_id": 14031,
       "chat_id": 7582459199,
-      "seq": 6024,
+      "seq": 12345,
       "identity": "NOURL|Etched|Supercomputing Intern|San Jose, CA|May 22#1"
     },
     "4b016404c573": {
@@ -78988,9 +78988,9 @@
       "term": "May 22",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7221,
+      "message_id": 14032,
       "chat_id": 7582459199,
-      "seq": 6025,
+      "seq": 12346,
       "identity": "NOURL|Etched|Infrastructure Intern|San Jose, CA|May 22#1"
     },
     "8e9ff83a529e": {
@@ -79000,9 +79000,9 @@
       "term": "May 22",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7222,
+      "message_id": 14034,
       "chat_id": 7582459199,
-      "seq": 6026,
+      "seq": 12347,
       "identity": "NOURL|Etched|Firmware Intern|San Jose, CA|May 22#1"
     },
     "987998133035": {
@@ -79012,9 +79012,9 @@
       "term": "May 22",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7223,
+      "message_id": 14035,
       "chat_id": 7582459199,
-      "seq": 6027,
+      "seq": 12348,
       "identity": "NOURL|Etched|Inference Intern, Architecture|San Jose, CA|May 22#1"
     },
     "cfa5eab0935b": {
@@ -79024,9 +79024,9 @@
       "term": "May 12",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7224,
+      "message_id": 14036,
       "chat_id": 7582459199,
-      "seq": 6028,
+      "seq": 12349,
       "identity": "NOURL|WSP|Software Developer Intern|Dallas, TX|May 12#1"
     },
     "824f61dc5b1c": {
@@ -79036,9 +79036,9 @@
       "term": "May 11",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7225,
+      "message_id": 14037,
       "chat_id": 7582459199,
-      "seq": 6029,
+      "seq": 12350,
       "identity": "NOURL|Apex Technology, Inc.|Software Engineering Intern, Embedded Systems|Los Angeles|May 11#1"
     },
     "7429aae85c08": {
@@ -79048,9 +79048,9 @@
       "term": "Apr 28",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7226,
+      "message_id": 14038,
       "chat_id": 7582459199,
-      "seq": 6030,
+      "seq": 12351,
       "identity": "NOURL|Homebase|Forward Deployed Engineering Intern, AI-Native|Houston, TX San Francisco, CA|Apr 28#1"
     },
     "f7edcb8be29b": {
@@ -79060,9 +79060,9 @@
       "term": "Apr 24",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7227,
+      "message_id": 14039,
       "chat_id": 7582459199,
-      "seq": 6031,
+      "seq": 12352,
       "identity": "NOURL|TikTok|LLM Post-training Engineer Intern, Research & Product|San Jose, CA|Apr 24#1"
     },
     "dc0aeac6a646": {
@@ -79072,9 +79072,9 @@
       "term": "Apr 24",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7228,
+      "message_id": 14040,
       "chat_id": 7582459199,
-      "seq": 6032,
+      "seq": 12353,
       "identity": "NOURL|Al Warren Oil Company|Software Developer Intern|Bensenville, IL|Apr 24#1"
     },
     "0c68b7e894cf": {
@@ -79084,9 +79084,9 @@
       "term": "Apr 22",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7229,
+      "message_id": 14041,
       "chat_id": 7582459199,
-      "seq": 6033,
+      "seq": 12354,
       "identity": "NOURL|Ether.fi|GTM Engineer Intern|Cayman Denver New York|Apr 22#1"
     },
     "6677605fb9e6": {
@@ -79096,9 +79096,9 @@
       "term": "Apr 20",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7230,
+      "message_id": 14042,
       "chat_id": 7582459199,
-      "seq": 6034,
+      "seq": 12355,
       "identity": "NOURL|Poshmark|Cloud Platform Engineer Intern, Growth \ud83d\udec2|Redwood City, CA|Apr 20#1"
     },
     "a3413437f01b": {
@@ -153668,6 +153668,18 @@
       "chat_id": 7582459199,
       "seq": 12331,
       "identity": "https://go.vansh.nyc/1Au?s=y|Toyota Research Institute|Robotics Intern, World Models, Multimodal Sensing|Cambridge, MA|Nov 16#1"
+    },
+    "cfb00128a2e3": {
+      "company": "Carnival Corporation",
+      "role": "Data Analytics Intern",
+      "location": "Miami, FL",
+      "term": "Nov 15",
+      "apply_url": "https://go.vansh.nyc/1Av?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14030,
+      "chat_id": 7582459199,
+      "seq": 12344,
+      "identity": "https://go.vansh.nyc/1Av?s=y|Carnival Corporation|Data Analytics Intern|Miami, FL|Nov 15#1"
     }
   },
   "applied": {
@@ -154035,10 +154047,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12343,
+  "seq": 12355,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T22:35:18Z",
+    "last_ok_run": "2026-11-16T22:40:37Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -154047,7 +154059,7 @@
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T22:10:40Z",
-      "duplicate-hash": "2026-11-16T22:10:21Z",
+      "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T22:25:19Z"
     }
   }
