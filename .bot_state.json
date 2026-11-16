@@ -78220,9 +78220,9 @@
       "term": "Oct 22",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7157,
+      "message_id": 13886,
       "chat_id": 7582459199,
-      "seq": 5961,
+      "seq": 12256,
       "identity": "NOURL|Pattern|AI Infrastructure Engineer Intern|Lehi, UT|Oct 22#1"
     },
     "0ea0ce4e0bc0": {
@@ -78232,9 +78232,9 @@
       "term": "Oct 20",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7158,
+      "message_id": 13888,
       "chat_id": 7582459199,
-      "seq": 5962,
+      "seq": 12257,
       "identity": "NOURL|Verizon Communications|Data Science Intern, Verizon Consumer Group|Basking Ridge, NJ|Oct 20#1"
     },
     "e23d53b405e4": {
@@ -78244,9 +78244,9 @@
       "term": "Oct 20",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7159,
+      "message_id": 13889,
       "chat_id": 7582459199,
-      "seq": 5963,
+      "seq": 12258,
       "identity": "NOURL|Verizon Communications|Call Routing Optimization Engineering Intern, Verizon Consumer Group|Basking Ridge, NJ|Oct 20#1"
     },
     "64625aad821b": {
@@ -153284,6 +153284,30 @@
       "chat_id": 7582459199,
       "seq": 12253,
       "identity": "https://zapply.jobs/l/d/workday-graco-graco-careers-R0023573?s=gh-internships-2027|Graco|Quality Engineering Co-op|Rogers, Minnesota, USA|Summer 2027#1"
+    },
+    "b28002547425": {
+      "company": "Schonfeld",
+      "role": "Cybersecurity Operations Intern",
+      "location": "New York, NY",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1Aj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13884,
+      "chat_id": 7582459199,
+      "seq": 12254,
+      "identity": "https://go.vansh.nyc/1Aj?s=y|Schonfeld|Cybersecurity Operations Intern|New York, NY|Nov 16#1"
+    },
+    "88fe00836a16": {
+      "company": "NBCUniversal",
+      "role": "Digital Transformation AR/VR Intern",
+      "location": "Universal City, CA",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1Ai?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13885,
+      "chat_id": 7582459199,
+      "seq": 12255,
+      "identity": "https://go.vansh.nyc/1Ai?s=y|NBCUniversal|Digital Transformation AR/VR Intern|Universal City, CA|Nov 16#1"
     }
   },
   "applied": {
@@ -153651,10 +153675,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12253,
+  "seq": 12258,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T18:40:20Z",
+    "last_ok_run": "2026-11-16T18:45:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -153662,8 +153686,8 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T18:10:22Z",
-      "duplicate-hash": "2026-11-13T17:45:28Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T18:45:27Z",
+      "duplicate-hash": "2026-11-16T18:45:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T18:35:27Z"
     }
   }
