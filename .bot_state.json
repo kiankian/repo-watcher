@@ -78472,9 +78472,9 @@
       "term": "Oct 12",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7178,
+      "message_id": 13958,
       "chat_id": 7582459199,
-      "seq": 5982,
+      "seq": 12296,
       "identity": "NOURL|AtkinsR\u00e9alis|Software Developer Intern|Denver, CO|Oct 12#1"
     },
     "2987ca654f6a": {
@@ -78484,9 +78484,9 @@
       "term": "Aug 21",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7179,
+      "message_id": 13959,
       "chat_id": 7582459199,
-      "seq": 5983,
+      "seq": 12297,
       "identity": "NOURL|Humana|Software Engineer Intern, CenterWell and Humana Military \ud83d\udec2|Louisville, KY|Aug 21#1"
     },
     "22508dfbbdb9": {
@@ -78520,9 +78520,9 @@
       "term": "Oct 23",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7182,
+      "message_id": 13951,
       "chat_id": 7582459199,
-      "seq": 5986,
+      "seq": 12290,
       "identity": "NOURL|Trimble|Navigation & Machine Learning Engineering Intern|Richmond Hill, Canada|Oct 23#1"
     },
     "cbba352d6ccc": {
@@ -78532,9 +78532,9 @@
       "term": "Oct 23",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7183,
+      "message_id": 13953,
       "chat_id": 7582459199,
-      "seq": 5987,
+      "seq": 12291,
       "identity": "NOURL|MongoDB|Software Engineer Intern|**5 locations**Palo Alto, CA Seattle, WA San Francisco, CA Austin, TX New York, NY|Oct 23#1"
     },
     "972f38caeee3": {
@@ -78544,9 +78544,9 @@
       "term": "Oct 23",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7184,
+      "message_id": 13954,
       "chat_id": 7582459199,
-      "seq": 5988,
+      "seq": 12292,
       "identity": "NOURL|Merck|Data, AI, and Genome Sciences Intern|Cambridge, MA|Oct 23#1"
     },
     "6107d15db76f": {
@@ -78556,9 +78556,9 @@
       "term": "Oct 23",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7185,
+      "message_id": 13955,
       "chat_id": 7582459199,
-      "seq": 5989,
+      "seq": 12293,
       "identity": "NOURL|Merck|Data, AI, and Genome Sciences, Foundation Models Intern|Cambridge, MA|Oct 23#1"
     },
     "888b23db418e": {
@@ -78568,9 +78568,9 @@
       "term": "Oct 23",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7186,
+      "message_id": 13956,
       "chat_id": 7582459199,
-      "seq": 5990,
+      "seq": 12294,
       "identity": "NOURL|ASML|Software Quality Assurance Intern|San Jose, CA|Oct 23#1"
     },
     "128378f3b745": {
@@ -78580,9 +78580,9 @@
       "term": "Oct 22",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7187,
+      "message_id": 13957,
       "chat_id": 7582459199,
-      "seq": 5991,
+      "seq": 12295,
       "identity": "NOURL|Biogen|Integrated Insights & Analytics Co-op, Nephrology|Cambridge, MA|Oct 22#1"
     },
     "9087bad6196b": {
@@ -153428,6 +153428,42 @@
       "chat_id": 7582459199,
       "seq": 12286,
       "identity": "https://zapply.jobs/l/d/greenhouse-pacificfusion-4505668009?s=gh-internships-2027|Pacific Fusion|Summer 2027 HPC/DevOps Engineering Intern|San Leandro, CA|Summer 2027#1"
+    },
+    "6e7843045cce": {
+      "company": "Pacific Fusion",
+      "role": "HPC/DevOps Engineering Intern",
+      "location": "San Leandro, CA",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1Ao?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13948,
+      "chat_id": 7582459199,
+      "seq": 12287,
+      "identity": "https://go.vansh.nyc/1Ao?s=y|Pacific Fusion|HPC/DevOps Engineering Intern|San Leandro, CA|Nov 16#1"
+    },
+    "8c2f68c4b58c": {
+      "company": "Micron Technology",
+      "role": "Data Science Intern, SMAI",
+      "location": "Boise, ID",
+      "term": "Nov 15",
+      "apply_url": "https://go.vansh.nyc/1Ap?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13949,
+      "chat_id": 7582459199,
+      "seq": 12288,
+      "identity": "https://go.vansh.nyc/1Ap?s=y|Micron Technology|Data Science Intern, SMAI|Boise, ID|Nov 15#1"
+    },
+    "aae4910cada0": {
+      "company": "Astera Labs",
+      "role": "Firmware Engineer Intern, Leo",
+      "location": "San Jose, CA",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13950,
+      "chat_id": 7582459199,
+      "seq": 12289,
+      "identity": "NOURL|Astera Labs|Firmware Engineer Intern, Leo|San Jose, CA|Oct 28#1"
     }
   },
   "applied": {
@@ -153795,10 +153831,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12286,
+  "seq": 12297,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T20:05:16Z",
+    "last_ok_run": "2026-11-16T20:10:38Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -153806,9 +153842,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T19:15:33Z",
-      "duplicate-hash": "2026-11-16T19:15:25Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T19:40:34Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T20:10:35Z",
+      "duplicate-hash": "2026-11-16T20:10:24Z",
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T20:10:37Z"
     }
   }
 }
