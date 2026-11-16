@@ -3075,13 +3075,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "ee499f1a38c16112194c3258568b9dd599b956bf",
+    "last_sha": "75667c9b7e5bdf7b663b12804b8b4fce43dd656d",
     "seen": [
-      "NOURL|RTX|Software Engineer Intern|Annapolis, MD|Oct 19#1",
-      "NOURL|Inmar Intelligence|Data Science Intern|Raleigh, NC Winston-Salem, NC|Oct 19#1",
-      "NOURL|Aerospace Corporation|Cloud Solutions Engineer / Site Reliability Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA Colorado Springs, CO|Oct 19#1",
-      "NOURL|RTX|Software Engineering Co-op|Cedar Rapids, IA|Oct 18#1",
-      "NOURL|RTX|Software Engineer Intern|Cedar Rapids, IA|Oct 18#1",
       "NOURL|Rogue Fitness|AI Engineer Intern|Columbus, OH|Oct 18#1",
       "NOURL|Northrop Grumman|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Boulder, CO|Oct 18#1",
       "NOURL|Northrop Grumman|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Colorado Springs, CO|Oct 16#1",
@@ -8076,7 +8071,12 @@
       "https://go.vansh.nyc/1Ai?s=y|NBCUniversal|Digital Transformation AR/VR Intern|Universal City, CA|Nov 16#1",
       "NOURL|Pattern|AI Infrastructure Engineer Intern|Lehi, UT|Oct 22#1",
       "NOURL|Verizon Communications|Data Science Intern, Verizon Consumer Group|Basking Ridge, NJ|Oct 20#1",
-      "NOURL|Verizon Communications|Call Routing Optimization Engineering Intern, Verizon Consumer Group|Basking Ridge, NJ|Oct 20#1"
+      "NOURL|Verizon Communications|Call Routing Optimization Engineering Intern, Verizon Consumer Group|Basking Ridge, NJ|Oct 20#1",
+      "NOURL|Shield AI|Data Science Intern|San Diego, CA|Oct 20#1",
+      "NOURL|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Jose, CA|Oct 20#1",
+      "NOURL|Parsons|Computer Vision/Robotics Intern|Westminster, CO|Oct 20#1",
+      "NOURL|Northrop Grumman|Cyber Systems Engineer Intern \ud83c\uddfa\ud83c\uddf8|Tampa, FL|Oct 20#1",
+      "NOURL|Expedia Group|Software Developer 1 Intern|Springfield, MO|Oct 20#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 2953,
