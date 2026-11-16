@@ -153512,6 +153512,150 @@
       "chat_id": 7582459199,
       "seq": 12318,
       "identity": "NOURL|Jump Trading|Software Engineer Intern|Chicago, IL|Jul 09#1"
+    },
+    "e1045e319f55": {
+      "company": "Fiserv",
+      "role": "2027 Technology Internship Program - Cybersecurity (Columbus, OH)",
+      "location": "Columbus, Ohio",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-fiserv-ext-R-10407190?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13989,
+      "chat_id": 7582459199,
+      "seq": 12319,
+      "identity": "https://zapply.jobs/l/d/workday-fiserv-ext-R-10407190?s=gh-internships-2027|Fiserv|2027 Technology Internship Program - Cybersecurity (Columbus, OH)|Columbus, Ohio|Summer 2027#1"
+    },
+    "504ee540f207": {
+      "company": "Fiserv",
+      "role": "2027 Technology Internship Program - Cybersecurity (Berkeley Heights, NJ)",
+      "location": "Berkeley Heights, New Jersey",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-fiserv-ext-R-10407189?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13990,
+      "chat_id": 7582459199,
+      "seq": 12320,
+      "identity": "https://zapply.jobs/l/d/workday-fiserv-ext-R-10407189?s=gh-internships-2027|Fiserv|2027 Technology Internship Program - Cybersecurity (Berkeley Heights, NJ)|Berkeley Heights, New Jersey|Summer 2027#1"
+    },
+    "8b9112ab3839": {
+      "company": "SAS",
+      "role": "Summer 2027 - Software Developer Intern - Go/Golang Experience",
+      "location": "Cary, NC",
+      "term": "Other",
+      "apply_url": "https://careers-sas.icims.com/jobs/42797/summer-2027---software-developer-intern-%28go-golang-experience%29/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 13991,
+      "chat_id": 7582459199,
+      "seq": 12321,
+      "identity": "https://careers-sas.icims.com/jobs/42797/summer-2027---software-developer-intern-%28go-golang-experience%29/job|SAS|Summer 2027 - Software Developer Intern - Go/Golang Experience|Cary, NC|Other#1"
+    },
+    "95524ea11929": {
+      "company": "SAS",
+      "role": "Summer 2027 - Software Developer Intern - Go/Golang Experience",
+      "location": "Cary, NC",
+      "term": "Other",
+      "apply_url": "https://careers-sas.icims.com/jobs/42797/summer-2027---software-developer-intern-%28go-golang-experience%29/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 13992,
+      "chat_id": 7582459199,
+      "seq": 12322,
+      "identity": "https://careers-sas.icims.com/jobs/42797/summer-2027---software-developer-intern-%28go-golang-experience%29/job|SAS|Summer 2027 - Software Developer Intern - Go/Golang Experience|Cary, NC|Other#2"
+    },
+    "e3e94421ff41": {
+      "company": "Raytheon",
+      "role": "Software Engineering Co-op - Summer/Fall",
+      "location": "Richardson, TX",
+      "term": "Other",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Co-op--Summer-Fall-_01884404",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 13993,
+      "chat_id": 7582459199,
+      "seq": 12323,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Co-op--Summer-Fall-_01884404|Raytheon|Software Engineering Co-op - Summer/Fall|Richardson, TX|Other#1"
+    },
+    "aabb0955e4e2": {
+      "company": "AeroVironment",
+      "role": "Software Engineering Intern",
+      "location": "Lawrence, KS",
+      "term": "Other",
+      "apply_url": "https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Lawrence-KS/Software-Engineering-Intern_9360",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 13994,
+      "chat_id": 7582459199,
+      "seq": 12324,
+      "identity": "https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Lawrence-KS/Software-Engineering-Intern_9360|AeroVironment|Software Engineering Intern|Lawrence, KS|Other#1"
+    },
+    "1aec2b480786": {
+      "company": "Argonne National Laboratory",
+      "role": "Intern - Business Information Systems - Enterprise Software Solutions",
+      "location": "Lemont, IL",
+      "term": "Other",
+      "apply_url": "https://argonne.wd1.myworkdayjobs.com/en-US/edu_pub/job/Lemont-IL-USA/Intern---Business-Information-Systems--Enterprise-Software-Solutions_423702",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 13995,
+      "chat_id": 7582459199,
+      "seq": 12325,
+      "identity": "https://argonne.wd1.myworkdayjobs.com/en-US/edu_pub/job/Lemont-IL-USA/Intern---Business-Information-Systems--Enterprise-Software-Solutions_423702|Argonne National Laboratory|Intern - Business Information Systems - Enterprise Software Solutions|Lemont, IL|Other#1"
+    },
+    "f608a4c88156": {
+      "company": "Raytheon",
+      "role": "Software Engineering Intern - Summer 2027",
+      "location": "Melbourne, FL",
+      "term": "Other",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-312--795-W-Nasa-Blvd--BLDG-312/Software-Engineering-Intern--Summer-2027-_01885543",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 13996,
+      "chat_id": 7582459199,
+      "seq": 12326,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-312--795-W-Nasa-Blvd--BLDG-312/Software-Engineering-Intern--Summer-2027-_01885543|Raytheon|Software Engineering Intern - Summer 2027|Melbourne, FL|Other#1"
+    },
+    "84da0844884b": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Software Engineer I - For 2026 Interns Only",
+      "location": "Lone Tree, CO",
+      "term": "Other",
+      "apply_url": "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Lone-Tree-CO/Software-Engineer-I--For-2026-Interns-Only-_R0031346",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 13997,
+      "chat_id": 7582459199,
+      "seq": 12327,
+      "identity": "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Lone-Tree-CO/Software-Engineer-I--For-2026-Interns-Only-_R0031346|Sierra Nevada Corporation|Software Engineer I - For 2026 Interns Only|Lone Tree, CO|Other#1"
+    },
+    "296aff76cdc2": {
+      "company": "Raytheon",
+      "role": "Electrical - Firmware Engineering Intern - Summer 2027- Onsite",
+      "location": "Ft Wayne, IN",
+      "term": "Other",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Electrical--Firmware--Engineering-Intern--Summer-2027--Onsite-_01888316",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 13998,
+      "chat_id": 7582459199,
+      "seq": 12328,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Electrical--Firmware--Engineering-Intern--Summer-2027--Onsite-_01888316|Raytheon|Electrical - Firmware Engineering Intern - Summer 2027- Onsite|Ft Wayne, IN|Other#1"
+    },
+    "6a0ef9989351": {
+      "company": "Raytheon",
+      "role": "Software Engineering Intern - Summer 2027",
+      "location": "Cedar Rapids, IA",
+      "term": "Other",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineering-Intern--Summer-2027-_01888055",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 13999,
+      "chat_id": 7582459199,
+      "seq": 12329,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineering-Intern--Summer-2027-_01888055|Raytheon|Software Engineering Intern - Summer 2027|Cedar Rapids, IA|Other#1"
+    },
+    "642315c28f95": {
+      "company": "Raytheon",
+      "role": "Software Engineering Intern - ISET-IN-2",
+      "location": "Sterling, VA",
+      "term": "Other",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--ISET-IN-2-_01888017",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 14000,
+      "chat_id": 7582459199,
+      "seq": 12330,
+      "identity": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--ISET-IN-2-_01888017|Raytheon|Software Engineering Intern - ISET-IN-2|Sterling, VA|Other#1"
     }
   },
   "applied": {
@@ -153879,10 +154023,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12318,
+  "seq": 12330,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T21:50:26Z",
+    "last_ok_run": "2026-11-16T21:55:35Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
