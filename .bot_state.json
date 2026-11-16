@@ -78724,9 +78724,9 @@
       "term": "Oct 20",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7199,
+      "message_id": 13977,
       "chat_id": 7582459199,
-      "seq": 6003,
+      "seq": 12308,
       "identity": "NOURL|Northrop Grumman|Software Engineer Intern|Roy, UT|Oct 20#1"
     },
     "e89b9334e314": {
@@ -78736,9 +78736,9 @@
       "term": "Oct 20",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7200,
+      "message_id": 13978,
       "chat_id": 7582459199,
-      "seq": 6004,
+      "seq": 12309,
       "identity": "NOURL|Integrate|Software Engineering Intern|Seattle, WA|Oct 20#1"
     },
     "03677e5f3213": {
@@ -78748,9 +78748,9 @@
       "term": "Oct 17",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7201,
+      "message_id": 13980,
       "chat_id": 7582459199,
-      "seq": 6005,
+      "seq": 12311,
       "identity": "NOURL|Persona|Product Design Intern|San Francisco, CA|Oct 17#1"
     },
     "a4fc150f02eb": {
@@ -78760,9 +78760,9 @@
       "term": "Oct 16",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7202,
+      "message_id": 13981,
       "chat_id": 7582459199,
-      "seq": 6006,
+      "seq": 12312,
       "identity": "NOURL|Airbus|Tool Technology and Development Engineering Intern|Mobile Area, AL|Oct 16#1"
     },
     "5b1c2fb262b7": {
@@ -78772,9 +78772,9 @@
       "term": "Oct 14",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7203,
+      "message_id": 13982,
       "chat_id": 7582459199,
-      "seq": 6007,
+      "seq": 12313,
       "identity": "NOURL|GE Vernova|AI Evaluation & Benchmarking Intern, AGI|Bellevue, WA|Oct 14#1"
     },
     "115317ddce1c": {
@@ -78784,9 +78784,9 @@
       "term": "Oct 13",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7204,
+      "message_id": 13983,
       "chat_id": 7582459199,
-      "seq": 6008,
+      "seq": 12314,
       "identity": "NOURL|CIBC|Analyst Intern, Equity Solutions Group|New York, NY|Oct 13#2"
     },
     "d91dfdb6559b": {
@@ -78796,9 +78796,9 @@
       "term": "Aug 21",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7205,
+      "message_id": 13984,
       "chat_id": 7582459199,
-      "seq": 6009,
+      "seq": 12315,
       "identity": "NOURL|Vertiv|Product Management Intern \ud83d\udec2|Westerville, OH|Aug 21#1"
     },
     "b063c93bc263": {
@@ -78808,9 +78808,9 @@
       "term": "Aug 21",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7206,
+      "message_id": 13985,
       "chat_id": 7582459199,
-      "seq": 6010,
+      "seq": 12316,
       "identity": "NOURL|Replit|Software Engineering Intern|Foster City, CA|Aug 21#1"
     },
     "f108672ce978": {
@@ -78820,9 +78820,9 @@
       "term": "Aug 21",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7207,
+      "message_id": 13986,
       "chat_id": 7582459199,
-      "seq": 6011,
+      "seq": 12317,
       "identity": "NOURL|Raytheon|Software Development Intern \ud83c\uddfa\ud83c\uddf8|Tewksbury, MA|Aug 21#1"
     },
     "749caab8f548": {
@@ -153476,6 +153476,42 @@
       "chat_id": 7582459199,
       "seq": 12298,
       "identity": "NOURL|L3Harris Technologies|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Bristol, PA|Oct 29#1"
+    },
+    "072dae07407f": {
+      "company": "Trace3",
+      "role": "Innovation Research & Development Lab Intern",
+      "location": "Irvine, CA",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13976,
+      "chat_id": 7582459199,
+      "seq": 12307,
+      "identity": "NOURL|Trace3|Innovation Research & Development Lab Intern|Irvine, CA|Oct 26#1"
+    },
+    "08c8a8cf80a4": {
+      "company": "Keysight Technologies",
+      "role": "Engineering Software Developer Intern",
+      "location": "Austin, TX Raleigh, NC",
+      "term": "Oct 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13979,
+      "chat_id": 7582459199,
+      "seq": 12310,
+      "identity": "NOURL|Keysight Technologies|Engineering Software Developer Intern|Austin, TX Raleigh, NC|Oct 18#1"
+    },
+    "767918da5a05": {
+      "company": "Jump Trading",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Jul 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13987,
+      "chat_id": 7582459199,
+      "seq": 12318,
+      "identity": "NOURL|Jump Trading|Software Engineer Intern|Chicago, IL|Jul 09#1"
     }
   },
   "applied": {
@@ -153843,10 +153879,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12306,
+  "seq": 12318,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T21:35:17Z",
+    "last_ok_run": "2026-11-16T21:40:37Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
