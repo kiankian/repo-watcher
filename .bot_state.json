@@ -152816,6 +152816,102 @@
       "chat_id": 7582459199,
       "seq": 12214,
       "identity": "https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68985?s=gh-internships-2027|Motorola Solutions|2026 Software Engineering Co-Op|Plantation, FL|Summer 2027#1"
+    },
+    "7c2e15131fa2": {
+      "company": "Boston Scientific",
+      "role": "AI Engineering Intern, Generative and Agentic AI \ud83d\udec2",
+      "location": "Marlborough, MA",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1A8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13778,
+      "chat_id": 7582459199,
+      "seq": 12215,
+      "identity": "https://go.vansh.nyc/1A8?s=y|Boston Scientific|AI Engineering Intern, Generative and Agentic AI \ud83d\udec2|Marlborough, MA|Nov 16#1"
+    },
+    "6fc7f997c10d": {
+      "company": "Addepar",
+      "role": "Technical Product Management Intern, ADX",
+      "location": "New York, NY",
+      "term": "Nov 15",
+      "apply_url": "https://go.vansh.nyc/1A9?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13779,
+      "chat_id": 7582459199,
+      "seq": 12216,
+      "identity": "https://go.vansh.nyc/1A9?s=y|Addepar|Technical Product Management Intern, ADX|New York, NY|Nov 15#1"
+    },
+    "c81c963ae37f": {
+      "company": "Addepar",
+      "role": "Product Intern",
+      "location": "New York, NY",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13780,
+      "chat_id": 7582459199,
+      "seq": 12217,
+      "identity": "NOURL|Addepar|Product Intern|New York, NY|Nov 10#1"
+    },
+    "68560e549def": {
+      "company": "The New York Times",
+      "role": "Data Analyst Intern",
+      "location": "New York, NY",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13781,
+      "chat_id": 7582459199,
+      "seq": 12218,
+      "identity": "NOURL|The New York Times|Data Analyst Intern|New York, NY|Nov 09#1"
+    },
+    "8ad0183f7241": {
+      "company": "The New York Times",
+      "role": "ML Scientist Intern",
+      "location": "New York, NY",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13782,
+      "chat_id": 7582459199,
+      "seq": 12219,
+      "identity": "NOURL|The New York Times|ML Scientist Intern|New York, NY|Nov 09#1"
+    },
+    "2278426d296e": {
+      "company": "The New York Times",
+      "role": "Frontend Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13783,
+      "chat_id": 7582459199,
+      "seq": 12220,
+      "identity": "NOURL|The New York Times|Frontend Engineering Intern|New York, NY|Nov 06#1"
+    },
+    "6e2b79d16013": {
+      "company": "The New York Times",
+      "role": "Full-Stack Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13784,
+      "chat_id": 7582459199,
+      "seq": 12221,
+      "identity": "NOURL|The New York Times|Full-Stack Engineering Intern|New York, NY|Nov 06#1"
+    },
+    "ace88c4b7ac8": {
+      "company": "The New York Times",
+      "role": "Backend Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13785,
+      "chat_id": 7582459199,
+      "seq": 12222,
+      "identity": "NOURL|The New York Times|Backend Engineering Intern|New York, NY|Nov 06#1"
     }
   },
   "applied": {
@@ -153183,10 +153279,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12214,
+  "seq": 12222,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T15:00:32Z",
+    "last_ok_run": "2026-11-16T15:10:37Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
