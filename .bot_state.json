@@ -152468,6 +152468,18 @@
       "chat_id": 7582459199,
       "seq": 12185,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01889105?s=gh-internships-2027|RTX|Systems Engineering Intern (Summer 2027) - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "be2e4449feb1": {
+      "company": "RTX",
+      "role": "2027 Summer Intern - Software Engineering - Onsite",
+      "location": "CA-EL SEGUNDO-E04",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885225?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 13721,
+      "chat_id": 7582459199,
+      "seq": 12186,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01885225?s=gh-internships-2027|RTX|2027 Summer Intern - Software Engineering - Onsite|CA-EL SEGUNDO-E04|Summer 2027#1"
     }
   },
   "applied": {
@@ -152835,10 +152847,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12185,
+  "seq": 12186,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T05:05:16Z",
+    "last_ok_run": "2026-11-16T05:10:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
