@@ -152780,6 +152780,30 @@
       "chat_id": 7582459199,
       "seq": 12211,
       "identity": "https://zapply.jobs/l/d/workday-analogdevices-external-R269165?s=gh-internships-2027|Analog Devices|Software Engineering Intern (Medical Device & Healthcare Integration)|US, MA, Wilmington|Summer 2027#1"
+    },
+    "d9291662a313": {
+      "company": "Rockland Trust",
+      "role": "Business Intelligence (BI) Intern",
+      "location": "Rockland, MA",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13773,
+      "chat_id": 7582459199,
+      "seq": 12212,
+      "identity": "NOURL|Rockland Trust|Business Intelligence (BI) Intern|Rockland, MA|Nov 02#1"
+    },
+    "bb5e069ee2d8": {
+      "company": "IDEMIA",
+      "role": "Software Engineering Intern, Enrollment and Credentialing Services",
+      "location": "Brentwood, TN",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13774,
+      "chat_id": 7582459199,
+      "seq": 12213,
+      "identity": "NOURL|IDEMIA|Software Engineering Intern, Enrollment and Credentialing Services|Brentwood, TN|Oct 30#1"
     }
   },
   "applied": {
@@ -153147,10 +153171,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12211,
+  "seq": 12213,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T14:30:25Z",
+    "last_ok_run": "2026-11-16T14:45:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -153158,7 +153182,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T14:10:18Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T14:45:24Z",
       "duplicate-hash": "2026-11-13T17:45:28Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T14:20:20Z"
     }
