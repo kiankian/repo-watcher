@@ -78376,9 +78376,9 @@
       "term": "Oct 18",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7170,
+      "message_id": 13919,
       "chat_id": 7582459199,
-      "seq": 5974,
+      "seq": 12272,
       "identity": "NOURL|Rogue Fitness|AI Engineer Intern|Columbus, OH|Oct 18#1"
     },
     "8fd3a2fb9977": {
@@ -78388,9 +78388,9 @@
       "term": "Oct 18",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7171,
+      "message_id": 13920,
       "chat_id": 7582459199,
-      "seq": 5975,
+      "seq": 12273,
       "identity": "NOURL|Northrop Grumman|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Boulder, CO|Oct 18#1"
     },
     "14cbd56a5e66": {
@@ -78400,9 +78400,9 @@
       "term": "Oct 16",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7172,
+      "message_id": 13921,
       "chat_id": 7582459199,
-      "seq": 5976,
+      "seq": 12274,
       "identity": "NOURL|Northrop Grumman|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Colorado Springs, CO|Oct 16#1"
     },
     "ac4a57b77101": {
@@ -78412,9 +78412,9 @@
       "term": "Oct 16",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7173,
+      "message_id": 13922,
       "chat_id": 7582459199,
-      "seq": 5977,
+      "seq": 12275,
       "identity": "NOURL|Northrop Grumman|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Aurora, CO|Oct 16#1"
     },
     "1b083030473b": {
@@ -78424,9 +78424,9 @@
       "term": "Oct 15",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7174,
+      "message_id": 13923,
       "chat_id": 7582459199,
-      "seq": 5978,
+      "seq": 12276,
       "identity": "NOURL|The Federal Reserve System|Mac/Mobile Intern|Dallas, TX|Oct 15#1"
     },
     "cc0d898169c3": {
@@ -78436,9 +78436,9 @@
       "term": "Oct 15",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7175,
+      "message_id": 13924,
       "chat_id": 7582459199,
-      "seq": 5979,
+      "seq": 12277,
       "identity": "NOURL|The Federal Reserve System|Windows Intern|Dallas, TX|Oct 15#1"
     },
     "59f1724414b6": {
@@ -78448,9 +78448,9 @@
       "term": "Oct 13",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7176,
+      "message_id": 13925,
       "chat_id": 7582459199,
-      "seq": 5980,
+      "seq": 12278,
       "identity": "NOURL|The Federal Reserve System|System IT Intern, Credit Risk Management|Dallas, TX|Oct 13#1"
     },
     "c6c2c5d0b6ee": {
@@ -78460,9 +78460,9 @@
       "term": "Oct 13",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7177,
+      "message_id": 13926,
       "chat_id": 7582459199,
-      "seq": 5981,
+      "seq": 12279,
       "identity": "NOURL|CIBC|Analyst Intern, Equity Solutions Group|New York, NY|Oct 13#1"
     },
     "6251b2a1c68f": {
@@ -153344,6 +153344,18 @@
       "chat_id": 7582459199,
       "seq": 12266,
       "identity": "https://go.vansh.nyc/1Al?s=y|Quest Analytics|Software Engineer Intern, C#, ASP.NET \ud83d\udec2|Overland Park, KS|Oct 15#1"
+    },
+    "3a92f45037a8": {
+      "company": "Pacific Fusion",
+      "role": "Software Engineering Intern",
+      "location": "San Leandro, CA Fremont, CA Los Lunas, NM",
+      "term": "Oct 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 13927,
+      "chat_id": 7582459199,
+      "seq": 12280,
+      "identity": "NOURL|Pacific Fusion|Software Engineering Intern|San Leandro, CA Fremont, CA Los Lunas, NM|Oct 01#1"
     }
   },
   "applied": {
@@ -153711,10 +153723,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12271,
+  "seq": 12280,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T19:35:18Z",
+    "last_ok_run": "2026-11-16T19:40:35Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -153724,7 +153736,7 @@
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T19:15:33Z",
       "duplicate-hash": "2026-11-16T19:15:25Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T19:10:30Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T19:40:34Z"
     }
   }
 }
