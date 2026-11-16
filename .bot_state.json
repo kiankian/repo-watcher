@@ -78316,9 +78316,9 @@
       "term": "Oct 19",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7165,
+      "message_id": 13900,
       "chat_id": 7582459199,
-      "seq": 5969,
+      "seq": 12267,
       "identity": "NOURL|RTX|Software Engineer Intern|Annapolis, MD|Oct 19#1"
     },
     "fe06f1191de5": {
@@ -78328,9 +78328,9 @@
       "term": "Oct 19",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7166,
+      "message_id": 13902,
       "chat_id": 7582459199,
-      "seq": 5970,
+      "seq": 12268,
       "identity": "NOURL|Inmar Intelligence|Data Science Intern|Raleigh, NC Winston-Salem, NC|Oct 19#1"
     },
     "5602aefff85a": {
@@ -78340,9 +78340,9 @@
       "term": "Oct 19",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7167,
+      "message_id": 13903,
       "chat_id": 7582459199,
-      "seq": 5971,
+      "seq": 12269,
       "identity": "NOURL|Aerospace Corporation|Cloud Solutions Engineer / Site Reliability Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA Colorado Springs, CO|Oct 19#1"
     },
     "1f07e7f8f89a": {
@@ -78352,9 +78352,9 @@
       "term": "Oct 18",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7168,
+      "message_id": 13904,
       "chat_id": 7582459199,
-      "seq": 5972,
+      "seq": 12270,
       "identity": "NOURL|RTX|Software Engineering Co-op|Cedar Rapids, IA|Oct 18#1"
     },
     "0026b7811568": {
@@ -78364,9 +78364,9 @@
       "term": "Oct 18",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7169,
+      "message_id": 13905,
       "chat_id": 7582459199,
-      "seq": 5973,
+      "seq": 12271,
       "identity": "NOURL|RTX|Software Engineer Intern|Cedar Rapids, IA|Oct 18#1"
     },
     "20a2beb6e315": {
@@ -153308,6 +153308,42 @@
       "chat_id": 7582459199,
       "seq": 12255,
       "identity": "https://go.vansh.nyc/1Ai?s=y|NBCUniversal|Digital Transformation AR/VR Intern|Universal City, CA|Nov 16#1"
+    },
+    "a507f500824d": {
+      "company": "M3 USA",
+      "role": "Quality Engineering Intern, SDET",
+      "location": "Lawrenceville, GA",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1An?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13897,
+      "chat_id": 7582459199,
+      "seq": 12264,
+      "identity": "https://go.vansh.nyc/1An?s=y|M3 USA|Quality Engineering Intern, SDET|Lawrenceville, GA|Nov 16#1"
+    },
+    "fb1fb9a2782b": {
+      "company": "Idaho National Laboratory",
+      "role": "Cybersecurity Operations Intern",
+      "location": "Idaho Falls, ID",
+      "term": "Nov 15",
+      "apply_url": "https://go.vansh.nyc/1Am?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13898,
+      "chat_id": 7582459199,
+      "seq": 12265,
+      "identity": "https://go.vansh.nyc/1Am?s=y|Idaho National Laboratory|Cybersecurity Operations Intern|Idaho Falls, ID|Nov 15#1"
+    },
+    "e3ebe44af09b": {
+      "company": "Quest Analytics",
+      "role": "Software Engineer Intern, C#, ASP.NET \ud83d\udec2",
+      "location": "Overland Park, KS",
+      "term": "Oct 15",
+      "apply_url": "https://go.vansh.nyc/1Al?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 13899,
+      "chat_id": 7582459199,
+      "seq": 12266,
+      "identity": "https://go.vansh.nyc/1Al?s=y|Quest Analytics|Software Engineer Intern, C#, ASP.NET \ud83d\udec2|Overland Park, KS|Oct 15#1"
     }
   },
   "applied": {
@@ -153675,10 +153711,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12263,
+  "seq": 12271,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-16T19:10:31Z",
+    "last_ok_run": "2026-11-16T19:15:35Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -153686,8 +153722,8 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T18:45:27Z",
-      "duplicate-hash": "2026-11-16T18:45:23Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T19:15:33Z",
+      "duplicate-hash": "2026-11-16T19:15:25Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-16T19:10:30Z"
     }
   }
