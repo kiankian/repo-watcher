@@ -154136,6 +154136,54 @@
       "chat_id": 7582459199,
       "seq": 12393,
       "identity": "https://job-boards.greenhouse.io/familyoffice/jobs/8202862003?utm_source=Simplify&ref=Simplify|Soros Fund Management|Trading Intern - Middle and Back Office Dev|NYC|Summer 2026#1"
+    },
+    "abbda9ef57af": {
+      "company": "HexArmor",
+      "role": "Software Engineer Intern",
+      "location": "Atlanta, GA",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AQ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14097,
+      "chat_id": 7582459199,
+      "seq": 12394,
+      "identity": "https://go.vansh.nyc/1AQ?s=y|HexArmor|Software Engineer Intern|Atlanta, GA|Nov 16#1"
+    },
+    "82a3c39728e3": {
+      "company": "Fiserv",
+      "role": "Technology Intern, Cybersecurity",
+      "location": "Berkeley Heights, NJ",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14098,
+      "chat_id": 7582459199,
+      "seq": 12395,
+      "identity": "https://go.vansh.nyc/1AS?s=y|Fiserv|Technology Intern, Cybersecurity|Berkeley Heights, NJ|Nov 16#1"
+    },
+    "c494b11b7134": {
+      "company": "Fiserv",
+      "role": "Technology Intern, Cybersecurity",
+      "location": "Columbus, OH",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14099,
+      "chat_id": 7582459199,
+      "seq": 12396,
+      "identity": "https://go.vansh.nyc/1AT?s=y|Fiserv|Technology Intern, Cybersecurity|Columbus, OH|Nov 16#1"
+    },
+    "12215bea2963": {
+      "company": "Soros Fund Management",
+      "role": "Trading Intern, Middle and Back Office Dev",
+      "location": "New York, NY",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1AR?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14100,
+      "chat_id": 7582459199,
+      "seq": 12397,
+      "identity": "https://go.vansh.nyc/1AR?s=y|Soros Fund Management|Trading Intern, Middle and Back Office Dev|New York, NY|Nov 13#1"
     }
   },
   "applied": {
@@ -154503,10 +154551,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12393,
+  "seq": 12397,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T03:15:19Z",
+    "last_ok_run": "2026-11-17T03:20:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -154514,9 +154562,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T02:25:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T03:20:22Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T02:50:19Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T03:20:23Z"
     }
   }
 }
