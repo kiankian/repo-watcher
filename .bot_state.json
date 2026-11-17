@@ -154220,6 +154220,54 @@
       "chat_id": 7582459199,
       "seq": 12400,
       "identity": "NOURL|Invitation-charter|Software Engineer Intern|Greenwood Village, CO|Nov 10#1"
+    },
+    "8a91d446bef9": {
+      "company": "Birdseye Security Solutions",
+      "role": "AI Systems Intern",
+      "location": "Mississauga, Canada",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14117,
+      "chat_id": 7582459199,
+      "seq": 12401,
+      "identity": "https://go.vansh.nyc/1AX?s=y|Birdseye Security Solutions|AI Systems Intern|Mississauga, Canada|Nov 16#1"
+    },
+    "222964b24824": {
+      "company": "Birdseye Security Solutions",
+      "role": "Computer Vision Intern",
+      "location": "Mississauga, Canada",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14118,
+      "chat_id": 7582459199,
+      "seq": 12402,
+      "identity": "https://go.vansh.nyc/1AY?s=y|Birdseye Security Solutions|Computer Vision Intern|Mississauga, Canada|Nov 16#1"
+    },
+    "cd6a477ffe8f": {
+      "company": "Birdseye Security Solutions",
+      "role": "Software Developer Intern",
+      "location": "Mississauga, Canada",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14119,
+      "chat_id": 7582459199,
+      "seq": 12403,
+      "identity": "https://go.vansh.nyc/1AZ?s=y|Birdseye Security Solutions|Software Developer Intern|Mississauga, Canada|Nov 16#1"
+    },
+    "7a4137679189": {
+      "company": "Texas Instruments",
+      "role": "Digital Design Verification Engineering Intern \ud83d\udec2",
+      "location": "Santa Clara, CA",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14120,
+      "chat_id": 7582459199,
+      "seq": 12404,
+      "identity": "NOURL|Texas Instruments|Digital Design Verification Engineering Intern \ud83d\udec2|Santa Clara, CA|Oct 22#1"
     }
   },
   "applied": {
@@ -154587,10 +154635,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12400,
+  "seq": 12404,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T08:20:19Z",
+    "last_ok_run": "2026-11-17T08:25:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -154598,7 +154646,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T07:20:17Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T08:25:20Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T08:10:19Z"
     }
