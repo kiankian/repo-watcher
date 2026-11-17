@@ -154460,6 +154460,30 @@
       "chat_id": 7582459199,
       "seq": 12420,
       "identity": "NOURL|V2X|Artificial Intelligence Intern|Indianapolis, IN|Sep 16#1"
+    },
+    "ecba4fdb6d6a": {
+      "company": "National Information Solutions Cooperative",
+      "role": "Information Security (Cybersecurity) Intern",
+      "location": "Lake St. Louis, MO",
+      "term": "Sep 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14154,
+      "chat_id": 7582459199,
+      "seq": 12421,
+      "identity": "NOURL|National Information Solutions Cooperative|Information Security (Cybersecurity) Intern|Lake St. Louis, MO|Sep 10#1"
+    },
+    "33ad435025ca": {
+      "company": "National Information Solutions Cooperative",
+      "role": "Information Security (Cybersecurity) Intern",
+      "location": "Mandan, ND",
+      "term": "Sep 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14155,
+      "chat_id": 7582459199,
+      "seq": 12422,
+      "identity": "NOURL|National Information Solutions Cooperative|Information Security (Cybersecurity) Intern|Mandan, ND|Sep 10#1"
     }
   },
   "applied": {
@@ -154827,10 +154851,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12420,
+  "seq": 12422,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T15:10:27Z",
+    "last_ok_run": "2026-11-17T15:15:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -154838,9 +154862,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T14:20:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T15:15:22Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T14:40:28Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T15:15:24Z"
     }
   }
 }
