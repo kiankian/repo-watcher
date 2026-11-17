@@ -155372,6 +155372,30 @@
       "chat_id": 7582459199,
       "seq": 12496,
       "identity": "https://zapply.jobs/l/d/workday-draper-draper-careers-JR003155?s=gh-internships-2027|Draper|Software Engineering & DevOps Intern|Cambridge, MA|Summer 2027#1"
+    },
+    "cbfccc19f6df": {
+      "company": "Lumentum",
+      "role": "SW Developer Support Intern, Program Management Office",
+      "location": "San Jose, CA",
+      "term": "Nov 17",
+      "apply_url": "https://go.vansh.nyc/1BA?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14253,
+      "chat_id": 7582459199,
+      "seq": 12497,
+      "identity": "https://go.vansh.nyc/1BA?s=y|Lumentum|SW Developer Support Intern, Program Management Office|San Jose, CA|Nov 17#1"
+    },
+    "d7998bdc2930": {
+      "company": "Bread Financial",
+      "role": "Software Engineering Intern",
+      "location": "**5 locations**Columbus, OH Chadds Ford, PA Frisco, TX Draper, UT Wilmington, DE",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1Bz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14254,
+      "chat_id": 7582459199,
+      "seq": 12498,
+      "identity": "https://go.vansh.nyc/1Bz?s=y|Bread Financial|Software Engineering Intern|**5 locations**Columbus, OH Chadds Ford, PA Frisco, TX Draper, UT Wilmington, DE|Nov 16#1"
     }
   },
   "applied": {
@@ -155739,10 +155763,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12496,
+  "seq": 12498,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T22:45:18Z",
+    "last_ok_run": "2026-11-17T22:50:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
