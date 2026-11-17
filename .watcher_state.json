@@ -3086,12 +3086,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "66ae4f1089dd92c177216a1d01e2fb79831a1795",
+    "last_sha": "76159a50df2fd6f5785a71586615ef135a6044fc",
     "seen": [
-      "https://careers-gdms.icims.com/jobs/75775/software-intern-engineer/job|General Dynamics Mission Systems|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Scottsdale, AZ|Oct 22#1",
-      "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Markham/Intern--Product-Management--Summer-2027-_R5056377-2|GE Vernova|Product Management Intern|Markham, Canada|Oct 22#1",
-      "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/QA-Engineer-Intern_JR112005|Copart|QA Engineer Intern|Dallas, TX|Oct 22#1",
-      "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/SDET-Intern_JR112006|Copart|SDET Intern|Dallas, TX|Oct 22#1",
       "https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Technology--Application-Development--Summer-Analyst--Tampa---USA--2027_261004395|Citi|Technology Analyst Intern, Application Development|Tampa, FL|Oct 22#1",
       "https://citi.wd5.myworkdayjobs.com/2/job/Irving-Texas-United-States/Technology--Application-Development--Summer-Analyst--Irving---USA--2027_261003288|Citi|Technology Analyst Intern, Application Development|Irving, TX|Oct 22#1",
       "https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Technology--Production-Support--Summer-Analyst--Tampa---USA--2027_261003298|Citi|Technology Analyst Intern, Production Support|Tampa, FL|Oct 22#1",
@@ -8087,10 +8083,14 @@
       "NOURL|Soros Fund Management|Trading Intern, Middle and Back Office Dev|New York, NY|Nov 13#1",
       "NOURL|Cintas|IT Engineer Intern, Customer Channels|Mason, OH|Nov 05#1",
       "NOURL|Axiom Space|Enterprise Data Analyst Intern, Power BI & Data Quality|Houston, TX|Oct 28#1",
-      "https://go.vansh.nyc/1Bp?s=y|Constellation Brands|Data and AI Enablement Intern|Rochester, NY Chicago, IL|Nov 16#1"
+      "https://go.vansh.nyc/1Bp?s=y|Constellation Brands|Data and AI Enablement Intern|Rochester, NY Chicago, IL|Nov 16#1",
+      "https://go.vansh.nyc/1Br?s=y|Warp Sciences|Member of Technical Staff Intern, Robotics Learning|South San Francisco, CA|Nov 17#1",
+      "https://go.vansh.nyc/1Bt?s=y|Qualcomm|AI/Machine Learning Intern|Markham, Canada|Nov 17#1",
+      "https://go.vansh.nyc/1Bs?s=y|Garmin|Software Engineer Intern, Real Time Aviation Data|Chanhassen, MN|Nov 17#1",
+      "NOURL|L3Harris Technologies|Software Engineer Intern|Nashville, TN|Nov 04#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3000,
+    "last_row_count": 3003,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
