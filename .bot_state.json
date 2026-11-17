@@ -154760,6 +154760,42 @@
       "chat_id": 7582459199,
       "seq": 12445,
       "identity": "NOURL|Valon|Software Engineer Intern|New York, NY San Francisco, CA|Sep 01#1"
+    },
+    "ada9abcec183": {
+      "company": "Soros Fund Management",
+      "role": "Trading Intern, Middle and Back Office Dev",
+      "location": "New York, NY",
+      "term": "Nov 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14195,
+      "chat_id": 7582459199,
+      "seq": 12446,
+      "identity": "NOURL|Soros Fund Management|Trading Intern, Middle and Back Office Dev|New York, NY|Nov 13#1"
+    },
+    "6ed195f98faa": {
+      "company": "Cintas",
+      "role": "IT Engineer Intern, Customer Channels",
+      "location": "Mason, OH",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14196,
+      "chat_id": 7582459199,
+      "seq": 12447,
+      "identity": "NOURL|Cintas|IT Engineer Intern, Customer Channels|Mason, OH|Nov 05#1"
+    },
+    "0cf89b49450f": {
+      "company": "Axiom Space",
+      "role": "Enterprise Data Analyst Intern, Power BI & Data Quality",
+      "location": "Houston, TX",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14197,
+      "chat_id": 7582459199,
+      "seq": 12448,
+      "identity": "NOURL|Axiom Space|Enterprise Data Analyst Intern, Power BI & Data Quality|Houston, TX|Oct 28#1"
     }
   },
   "applied": {
@@ -155127,10 +155163,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12445,
+  "seq": 12448,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T20:10:18Z",
+    "last_ok_run": "2026-11-17T20:15:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
