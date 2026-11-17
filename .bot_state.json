@@ -154004,6 +154004,30 @@
       "chat_id": 7582459199,
       "seq": 12382,
       "identity": "NOURL|Cadence Solutions|Software Engineer Intern|Remote United States|Oct 05#1"
+    },
+    "fe2d3dbd7198": {
+      "company": "GlobalFoundries",
+      "role": "Test Wafer and Qual Automation Engineering (Summer 2027)",
+      "location": "USA - Vermont - Essex Junction",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2604662?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14076,
+      "chat_id": 7582459199,
+      "seq": 12383,
+      "identity": "https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2604662?s=gh-internships-2027|GlobalFoundries|Test Wafer and Qual Automation Engineering (Summer 2027)|USA - Vermont - Essex Junction|Summer 2027#1"
+    },
+    "67ba1db38d5a": {
+      "company": "Schweitzer Engineering Laboratories",
+      "role": "Software Engineer Intern",
+      "location": "Washington - Pullman",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-selinc-sel-2026-24060?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14077,
+      "chat_id": 7582459199,
+      "seq": 12384,
+      "identity": "https://zapply.jobs/l/d/workday-selinc-sel-2026-24060?s=gh-internships-2027|Schweitzer Engineering Laboratories|Software Engineer Intern|Washington - Pullman|Summer 2027#1"
     }
   },
   "applied": {
@@ -154371,10 +154395,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12382,
+  "seq": 12384,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T00:20:29Z",
+    "last_ok_run": "2026-11-17T00:25:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
