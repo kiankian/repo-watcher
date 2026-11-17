@@ -154664,6 +154664,30 @@
       "chat_id": 7582459199,
       "seq": 12437,
       "identity": "NOURL|Amazon Development Center U.S., Inc. - B02|Database Engineer Intern|Seattle, WA|Oct 26#1"
+    },
+    "612950527598": {
+      "company": "Toyota Research Institute",
+      "role": "Robotics Intern, Agentic Robotics",
+      "location": "Cambridge, MA",
+      "term": "Nov 17",
+      "apply_url": "https://go.vansh.nyc/1Bk?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14182,
+      "chat_id": 7582459199,
+      "seq": 12438,
+      "identity": "https://go.vansh.nyc/1Bk?s=y|Toyota Research Institute|Robotics Intern, Agentic Robotics|Cambridge, MA|Nov 17#1"
+    },
+    "6b0ab2c22480": {
+      "company": "Soros Fund Management",
+      "role": "Quantitative Strategist Intern",
+      "location": "New York, NY",
+      "term": "Nov 17",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14183,
+      "chat_id": 7582459199,
+      "seq": 12439,
+      "identity": "NOURL|Soros Fund Management|Quantitative Strategist Intern|New York, NY|Nov 17#1"
     }
   },
   "applied": {
@@ -155031,10 +155055,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12437,
+  "seq": 12439,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T18:45:19Z",
+    "last_ok_run": "2026-11-17T18:50:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -155042,7 +155066,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T17:45:19Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T18:50:23Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T18:35:17Z"
     }
