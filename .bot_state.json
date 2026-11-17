@@ -153848,6 +153848,66 @@
       "chat_id": 7582459199,
       "seq": 12369,
       "identity": "NOURL|Allegion|Software Operations Engineer Intern|Carmel, IN|Oct 13#1"
+    },
+    "0e76edf0ede3": {
+      "company": "Bound",
+      "role": "Engineering Intern",
+      "location": "Ames, IA",
+      "term": "Summer 2026",
+      "apply_url": "https://ats.rippling.com/bound/jobs/f489575d-5484-4c43-9b6d-a9dce9b29bcd?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14061,
+      "chat_id": 7582459199,
+      "seq": 12370,
+      "identity": "https://ats.rippling.com/bound/jobs/f489575d-5484-4c43-9b6d-a9dce9b29bcd?utm_source=Simplify&ref=Simplify|Bound|Engineering Intern|Ames, IA|Summer 2026#1"
+    },
+    "5da5b676a5ba": {
+      "company": "\ud83d\udd25 ServiceNow",
+      "role": "Associate Forward Deployed Solution Engineer Intern",
+      "location": "Santa Clara, CA NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000161936128?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14062,
+      "chat_id": 7582459199,
+      "seq": 12371,
+      "identity": "https://jobs.smartrecruiters.com/ServiceNow/744000161936128?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ServiceNow|Associate Forward Deployed Solution Engineer Intern|Santa Clara, CA NYC|Summer 2026#1"
+    },
+    "87f8de6a36ae": {
+      "company": "\ud83d\udd25 ServiceNow",
+      "role": "Forward Deployed Solution Engineer Intern \ud83c\udf93",
+      "location": "Santa Clara, CA NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000161936020?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14063,
+      "chat_id": 7582459199,
+      "seq": 12372,
+      "identity": "https://jobs.smartrecruiters.com/ServiceNow/744000161936020?utm_source=Simplify&ref=Simplify|\ud83d\udd25 ServiceNow|Forward Deployed Solution Engineer Intern \ud83c\udf93|Santa Clara, CA NYC|Summer 2026#1"
+    },
+    "94377d56fb63": {
+      "company": "Reliable Robotics",
+      "role": "Displays Software Engineer Intern",
+      "location": "Mountain View, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/reliable-robotics/6112c488-7072-4ce3-8c0f-645faa0e7cf9/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14064,
+      "chat_id": 7582459199,
+      "seq": 12373,
+      "identity": "https://jobs.ashbyhq.com/reliable-robotics/6112c488-7072-4ce3-8c0f-645faa0e7cf9/application?embed=true&utm_source=Simplify&ref=Simplify|Reliable Robotics|Displays Software Engineer Intern|Mountain View, CA|Summer 2026#1"
+    },
+    "21ef64502abe": {
+      "company": "JMP Statistical Discovery",
+      "role": "JMP Core User Interface Team R&D Intern - Master's/PhD \ud83c\udf93",
+      "location": "Cary, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://jmp-sas.icims.com/jobs/47455/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14065,
+      "chat_id": 7582459199,
+      "seq": 12374,
+      "identity": "https://jmp-sas.icims.com/jobs/47455/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|JMP Statistical Discovery|JMP Core User Interface Team R&D Intern - Master's/PhD \ud83c\udf93|Cary, NC|Summer 2026#1"
     }
   },
   "applied": {
@@ -154215,10 +154275,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12369,
+  "seq": 12374,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T00:00:29Z",
+    "last_ok_run": "2026-11-17T00:05:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
