@@ -155348,6 +155348,30 @@
       "chat_id": 7582459199,
       "seq": 12494,
       "identity": "NOURL|Gordon Food Service|Digital Product Management Intern|Wyoming, MI|Nov 10#1"
+    },
+    "53f7dd6e076c": {
+      "company": "Nelnet",
+      "role": "Intern - IT Software Engineer (Summer 2027)",
+      "location": "Lincoln, NE",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-nelnet-mynelnet-R23352?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14251,
+      "chat_id": 7582459199,
+      "seq": 12495,
+      "identity": "https://zapply.jobs/l/d/workday-nelnet-mynelnet-R23352?s=gh-internships-2027|Nelnet|Intern - IT Software Engineer (Summer 2027)|Lincoln, NE|Summer 2027#1"
+    },
+    "94bd919f9902": {
+      "company": "Draper",
+      "role": "Software Engineering & DevOps Intern",
+      "location": "Cambridge, MA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-draper-draper-careers-JR003155?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14252,
+      "chat_id": 7582459199,
+      "seq": 12496,
+      "identity": "https://zapply.jobs/l/d/workday-draper-draper-careers-JR003155?s=gh-internships-2027|Draper|Software Engineering & DevOps Intern|Cambridge, MA|Summer 2027#1"
     }
   },
   "applied": {
@@ -155715,10 +155739,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12494,
+  "seq": 12496,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T22:30:23Z",
+    "last_ok_run": "2026-11-17T22:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
