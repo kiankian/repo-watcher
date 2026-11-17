@@ -155468,6 +155468,30 @@
       "chat_id": 7582459199,
       "seq": 12504,
       "identity": "https://ats.rippling.com/raptor-maps-inc/jobs/be25d98e-262f-42a2-8276-dffbfbbf402a?utm_source=Simplify&ref=Simplify|Raptor Maps|Software Engineer Intern|Somerville, MA|Summer 2026#1"
+    },
+    "a85451bbafdb": {
+      "company": "Amentum",
+      "role": "DoD SkillBridge Internship - Cybersecurity Software and Systems Engineer",
+      "location": "TX-Houston",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-pae-amentum-careers-R0175558?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14263,
+      "chat_id": 7582459199,
+      "seq": 12505,
+      "identity": "https://zapply.jobs/l/d/workday-pae-amentum-careers-R0175558?s=gh-internships-2027|Amentum|DoD SkillBridge Internship - Cybersecurity Software and Systems Engineer|TX-Houston|Summer 2027#1"
+    },
+    "0c55138f5a9b": {
+      "company": "Texas Instruments",
+      "role": "Systems Engineering Intern - Power",
+      "location": "Dallas, TX, United States",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/oracle-texas-instruments-25016343?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14264,
+      "chat_id": 7582459199,
+      "seq": 12506,
+      "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25016343?s=gh-internships-2027|Texas Instruments|Systems Engineering Intern - Power|Dallas, TX, United States|Summer 2027#1"
     }
   },
   "applied": {
@@ -155835,10 +155859,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12504,
+  "seq": 12506,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T23:40:17Z",
+    "last_ok_run": "2026-11-17T23:45:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
