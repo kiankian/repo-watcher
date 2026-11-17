@@ -153908,6 +153908,102 @@
       "chat_id": 7582459199,
       "seq": 12374,
       "identity": "https://jmp-sas.icims.com/jobs/47455/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|JMP Statistical Discovery|JMP Core User Interface Team R&D Intern - Master's/PhD \ud83c\udf93|Cary, NC|Summer 2026#1"
+    },
+    "8e5eac05141f": {
+      "company": "Zurich Insurance",
+      "role": "Data Analytics & AI Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14067,
+      "chat_id": 7582459199,
+      "seq": 12375,
+      "identity": "https://go.vansh.nyc/1AD?s=y|Zurich Insurance|Data Analytics & AI Intern|Toronto, Canada|Nov 16#1"
+    },
+    "3630b5de2882": {
+      "company": "ServiceNow",
+      "role": "Associate Forward Deployed Solution Engineer Intern",
+      "location": "Santa Clara, CA New York, NY",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AC?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14068,
+      "chat_id": 7582459199,
+      "seq": 12376,
+      "identity": "https://go.vansh.nyc/1AC?s=y|ServiceNow|Associate Forward Deployed Solution Engineer Intern|Santa Clara, CA New York, NY|Nov 16#1"
+    },
+    "902c7da36397": {
+      "company": "National Interstate Insurance",
+      "role": "Predictive Analytics Intern \ud83d\udec2",
+      "location": "Cincinnati, OH",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AE?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14069,
+      "chat_id": 7582459199,
+      "seq": 12377,
+      "identity": "https://go.vansh.nyc/1AE?s=y|National Interstate Insurance|Predictive Analytics Intern \ud83d\udec2|Cincinnati, OH|Nov 16#1"
+    },
+    "7f10effa3fbf": {
+      "company": "Integration Innovation (i3)",
+      "role": "Embedded Systems Reverse Engineer Intern",
+      "location": "Washington, DC",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AB?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14070,
+      "chat_id": 7582459199,
+      "seq": 12378,
+      "identity": "https://go.vansh.nyc/1AB?s=y|Integration Innovation (i3)|Embedded Systems Reverse Engineer Intern|Washington, DC|Nov 16#1"
+    },
+    "042542d2b085": {
+      "company": "Bloomberg Industry Group",
+      "role": "Data Analyst Intern",
+      "location": "Arlington, VA",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14071,
+      "chat_id": 7582459199,
+      "seq": 12379,
+      "identity": "https://go.vansh.nyc/1AF?s=y|Bloomberg Industry Group|Data Analyst Intern|Arlington, VA|Nov 16#1"
+    },
+    "3620991be438": {
+      "company": "Reliable Robotics Corporation",
+      "role": "Displays Software Engineer Intern",
+      "location": "Mountain View, CA",
+      "term": "Nov 15",
+      "apply_url": "https://go.vansh.nyc/1AA?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14072,
+      "chat_id": 7582459199,
+      "seq": 12380,
+      "identity": "https://go.vansh.nyc/1AA?s=y|Reliable Robotics Corporation|Displays Software Engineer Intern|Mountain View, CA|Nov 15#1"
+    },
+    "cd554880541a": {
+      "company": "Zipline",
+      "role": "System Test Automation Intern",
+      "location": "South San Francisco, CA",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14073,
+      "chat_id": 7582459199,
+      "seq": 12381,
+      "identity": "NOURL|Zipline|System Test Automation Intern|South San Francisco, CA|Oct 19#1"
+    },
+    "f4a37e53206c": {
+      "company": "Cadence Solutions",
+      "role": "Software Engineer Intern",
+      "location": "Remote United States",
+      "term": "Oct 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14074,
+      "chat_id": 7582459199,
+      "seq": 12382,
+      "identity": "NOURL|Cadence Solutions|Software Engineer Intern|Remote United States|Oct 05#1"
     }
   },
   "applied": {
@@ -154275,10 +154371,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12374,
+  "seq": 12382,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T00:15:21Z",
+    "last_ok_run": "2026-11-17T00:20:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -154286,7 +154382,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-16T23:50:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T00:20:28Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T00:10:20Z"
     }
