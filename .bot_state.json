@@ -154076,6 +154076,54 @@
       "chat_id": 7582459199,
       "seq": 12388,
       "identity": "https://go.vansh.nyc/1AL?s=y|Disney|Data Engineering Intern|New York, NY|Nov 16#1"
+    },
+    "1049affafbc0": {
+      "company": "Lumentum",
+      "role": "Data Science & Analytics Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AP?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14090,
+      "chat_id": 7582459199,
+      "seq": 12389,
+      "identity": "https://go.vansh.nyc/1AP?s=y|Lumentum|Data Science & Analytics Intern|San Jose, CA|Nov 16#1"
+    },
+    "5433c3a06531": {
+      "company": "Leidos",
+      "role": "Cybersecurity Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Fort Belvoir, VA",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AO?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14091,
+      "chat_id": 7582459199,
+      "seq": 12390,
+      "identity": "https://go.vansh.nyc/1AO?s=y|Leidos|Cybersecurity Intern \ud83c\uddfa\ud83c\uddf8|Fort Belvoir, VA|Nov 16#1"
+    },
+    "65d8bc7eb027": {
+      "company": "Clera",
+      "role": "Full-Stack Software Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 16",
+      "apply_url": "https://go.vansh.nyc/1AN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14092,
+      "chat_id": 7582459199,
+      "seq": 12391,
+      "identity": "https://go.vansh.nyc/1AN?s=y|Clera|Full-Stack Software Engineering Intern|New York, NY|Nov 16#1"
+    },
+    "13552e7d185b": {
+      "company": "Graviton",
+      "role": "Quantitative Researcher Intern",
+      "location": "**4 locations**London, UK Amsterdam, Netherlands NYC Singapore",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14093,
+      "chat_id": 7582459199,
+      "seq": 12392,
+      "identity": "NOURL|Graviton|Quantitative Researcher Intern|**4 locations**London, UK Amsterdam, Netherlands NYC Singapore|Oct 19#1"
     }
   },
   "applied": {
@@ -154443,10 +154491,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12388,
+  "seq": 12392,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T02:20:24Z",
+    "last_ok_run": "2026-11-17T02:25:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -154454,7 +154502,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T01:20:26Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T02:25:20Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T02:15:25Z"
     }
