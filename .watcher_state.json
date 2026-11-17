@@ -3085,10 +3085,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "13f4ef2b0f993196fdec17c4b27244a7e1da488f",
+    "last_sha": "359b3cbb36e065c52792bd6cb4f7166a99cd3343",
     "seen": [
-      "https://jobs.ashbyhq.com/tracelabs/dec74a24-a2d5-46d2-b5b9-e7a4e3f29525/application?embed=true|Trace Labs|Robotics Engineer Intern, Hardware & Software|New York, NY|Oct 22#1",
-      "https://jobs.lever.co/tri/71e99c38-aa29-4414-956d-cc526644b9b7|Toyota Research Institute|Human Aware Interactions and Learning Intern|Cambridge, MA|Oct 22#1",
       "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Montreal/Stagiaire-en-dveloppement-outils---processus-outill_R0343987-1|Thales|Tools and Process Development Intern|Montreal, Canada|Oct 22#1",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016380|Texas Instruments|Digital Design Verification Engineering Intern \ud83d\udec2|Santa Clara, CA|Oct 22#1",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25007757|Texas Instruments|Software Engineering Intern \ud83d\udec2|Remote Canada|Oct 22#1",
@@ -8086,10 +8084,12 @@
       "https://go.vansh.nyc/1AQ?s=y|HexArmor|Software Engineer Intern|Atlanta, GA|Nov 16#1",
       "https://go.vansh.nyc/1AS?s=y|Fiserv|Technology Intern, Cybersecurity|Berkeley Heights, NJ|Nov 16#1",
       "https://go.vansh.nyc/1AT?s=y|Fiserv|Technology Intern, Cybersecurity|Columbus, OH|Nov 16#1",
-      "https://go.vansh.nyc/1AR?s=y|Soros Fund Management|Trading Intern, Middle and Back Office Dev|New York, NY|Nov 13#1"
+      "https://go.vansh.nyc/1AR?s=y|Soros Fund Management|Trading Intern, Middle and Back Office Dev|New York, NY|Nov 13#1",
+      "https://go.vansh.nyc/1AV?s=y|Analog Devices|Software Engineering Intern, Medical Device & Healthcare Integration|Wilmington, MA|Nov 16#1",
+      "NOURL|American Express|Undergraduate Program AI Engineer Intern, Enterprise Technology Services|Toronto, Canada|Nov 01#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2980,
+    "last_row_count": 2981,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
