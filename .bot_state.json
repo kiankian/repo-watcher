@@ -154040,6 +154040,18 @@
       "chat_id": 7582459199,
       "seq": 12385,
       "identity": "https://go.vansh.nyc/1AJ?s=y|KLA|Firmware Intern|Milpitas, CA|Nov 16#1"
+    },
+    "b4340aa39b8c": {
+      "company": "Leidos",
+      "role": "Cybersecurity Intern",
+      "location": "Fort Belvoir, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-leidos-external-R-00197087?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14080,
+      "chat_id": 7582459199,
+      "seq": 12386,
+      "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00197087?s=gh-internships-2027|Leidos|Cybersecurity Intern|Fort Belvoir, VA|Summer 2027#1"
     }
   },
   "applied": {
@@ -154407,10 +154419,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12385,
+  "seq": 12386,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T01:05:18Z",
+    "last_ok_run": "2026-11-17T01:10:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
