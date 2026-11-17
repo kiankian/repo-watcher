@@ -3085,10 +3085,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "af4fe9607fd89569f6e5f3665c6c92b4d37171d2",
+    "last_sha": "c535f17e74e2310cdc4a13cf207d439f7d3015e6",
     "seen": [
-      "https://jobs.smartrecruiters.com/RenesasElectronics/744000157198610|Renesas Electronics|Memory Server System Testing Intern|San Jose, CA|Oct 22#1",
-      "https://qualcomm.eightfold.ai/careers/job/446721686396|Qualcomm|AI and DSP Applications Engineer Intern|Markham, Canada|Oct 22#1",
       "https://qualcomm.eightfold.ai/careers/job/446721678727|Qualcomm|Camera Design Implementation Intern|Vancouver, BC, Canada|Oct 22#1",
       "https://qualcomm.eightfold.ai/careers/job/446721678733|Qualcomm|Applied AI Engineering Intern, Hardware Systems|Vancouver, BC, Canada|Oct 22#1",
       "https://jobs.lever.co/pattern/ad978732-7171-473d-9400-0a6fc9e23cf7/apply|Pattern|Data Science Intern|Lehi, UT|Oct 22#1",
@@ -8086,10 +8084,12 @@
       "https://go.vansh.nyc/1Bd?s=y|Q-Block Computing|Embedded Systems Developer Intern|Ottawa, Canada|Nov 04#1",
       "https://go.vansh.nyc/1Be?s=y|Sedaro|DevOps Intern|Arlington, VA|Nov 17#1",
       "NOURL|General Dynamics Mission Systems|Software Engineering Intern|Lakewood, OH|Nov 04#1",
-      "NOURL|Awetomaton|Platform Engineering Intern \ud83c\uddfa\ud83c\uddf8|Beavercreek, OH|Sep 02#1"
+      "NOURL|Awetomaton|Platform Engineering Intern \ud83c\uddfa\ud83c\uddf8|Beavercreek, OH|Sep 02#1",
+      "https://go.vansh.nyc/1Bf?s=y|Amazon|Software Development Engineer Intern, Artificial General Intelligence|Sunnyvale, CA|Nov 16#1",
+      "NOURL|V2X|Artificial Intelligence Intern|Indianapolis, IN|Sep 16#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2992,
+    "last_row_count": 2993,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
