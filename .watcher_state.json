@@ -3086,13 +3086,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "3f6c234fda7e22460a45857544f5785e085bed97",
+    "last_sha": "458f010d454077a214141c29f08f71b7fc6690c1",
     "seen": [
-      "https://jobs.lever.co/pattern/ad978732-7171-473d-9400-0a6fc9e23cf7/apply|Pattern|Data Science Intern|Lehi, UT|Oct 22#1",
-      "https://jobs.lever.co/pattern/48945dce-b5ef-43cd-9d85-f8b26ce5b43e/apply|Pattern|AI Automation Engineer Intern|Lehi, UT|Oct 22#1",
-      "https://jobs.ashbyhq.com/patreon/ace576d6-f480-43b8-a529-549fefb2046d/application?embed=true|Patreon|Product Manager Intern|New York, NY San Francisco, CA|Oct 22#1",
-      "https://jobs.lever.co/palantir/69ab7e24-8f5d-426e-84f7-6d3b2d4a7efd|Palantir Technologies|Deployment Strategist Intern, Warp Speed|New York, NY|Oct 22#1",
-      "https://jobs.lever.co/palantir/b3d81928-6c26-432f-8a0a-36602c2eefcb/apply|Palantir|Forward Deployed Software Engineer Intern, Warp Speed|New York, NY|Oct 22#1",
       "https://jobs.paccar.com/job/Kirkland-Summer-2027-AfterSales-Data-Analyst-Intern-WA-98033/1450518033/?ats=successfactors|Paccar|Aftersales Data Analyst Intern|Kirkland, WA|Oct 22#1",
       "https://boards.greenhouse.io/opensesame/jobs/8313424|OpenSesame|AI Product Builder Intern|Remote United States|Oct 22#1",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311|Northrop Grumman|Cyber Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Antonio, TX|Oct 22#1",
@@ -8087,10 +8082,15 @@
       "https://go.vansh.nyc/1Bf?s=y|Amazon|Software Development Engineer Intern, Artificial General Intelligence|Sunnyvale, CA|Nov 16#1",
       "NOURL|V2X|Artificial Intelligence Intern|Indianapolis, IN|Sep 16#1",
       "NOURL|National Information Solutions Cooperative|Information Security (Cybersecurity) Intern|Lake St. Louis, MO|Sep 10#1",
-      "NOURL|National Information Solutions Cooperative|Information Security (Cybersecurity) Intern|Mandan, ND|Sep 10#1"
+      "NOURL|National Information Solutions Cooperative|Information Security (Cybersecurity) Intern|Mandan, ND|Sep 10#1",
+      "https://go.vansh.nyc/1Bh?s=y|Prometheus Group|Web Development Intern|Raleigh, NC|Nov 17#1",
+      "NOURL|Amazon|Software Development Engineer Intern, Artificial General Intelligence|Sunnyvale, CA|Nov 16#1",
+      "NOURL|CarGurus|Site Reliability Engineer Intern|Boston, MA|Nov 11#1",
+      "NOURL|Nordson|Software Intern|Minneapolis, MN|Nov 05#1",
+      "NOURL|Plusgrade|Data Science Intern|Toronto, Canada|Nov 04#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 2993,
+    "last_row_count": 2994,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {

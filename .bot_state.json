@@ -154496,6 +154496,66 @@
       "chat_id": 7582459199,
       "seq": 12423,
       "identity": "https://jobs.smartrecruiters.com/BoschGroup/744000162076254?utm_source=Simplify&ref=Simplify|Robert Bosch Venture Capital|AI Application Intern|Farmington Hills, MI|Summer 2026#1"
+    },
+    "f1878ac13e0e": {
+      "company": "Prometheus Group",
+      "role": "Web Development Intern",
+      "location": "Raleigh, NC",
+      "term": "Nov 17",
+      "apply_url": "https://go.vansh.nyc/1Bh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14159,
+      "chat_id": 7582459199,
+      "seq": 12424,
+      "identity": "https://go.vansh.nyc/1Bh?s=y|Prometheus Group|Web Development Intern|Raleigh, NC|Nov 17#1"
+    },
+    "26c9f29e1750": {
+      "company": "Amazon",
+      "role": "Software Development Engineer Intern, Artificial General Intelligence",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14160,
+      "chat_id": 7582459199,
+      "seq": 12425,
+      "identity": "NOURL|Amazon|Software Development Engineer Intern, Artificial General Intelligence|Sunnyvale, CA|Nov 16#1"
+    },
+    "6c886866e602": {
+      "company": "CarGurus",
+      "role": "Site Reliability Engineer Intern",
+      "location": "Boston, MA",
+      "term": "Nov 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14161,
+      "chat_id": 7582459199,
+      "seq": 12426,
+      "identity": "NOURL|CarGurus|Site Reliability Engineer Intern|Boston, MA|Nov 11#1"
+    },
+    "120647a72fb8": {
+      "company": "Nordson",
+      "role": "Software Intern",
+      "location": "Minneapolis, MN",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14162,
+      "chat_id": 7582459199,
+      "seq": 12427,
+      "identity": "NOURL|Nordson|Software Intern|Minneapolis, MN|Nov 05#1"
+    },
+    "921c96bb3b36": {
+      "company": "Plusgrade",
+      "role": "Data Science Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14163,
+      "chat_id": 7582459199,
+      "seq": 12428,
+      "identity": "NOURL|Plusgrade|Data Science Intern|Toronto, Canada|Nov 04#1"
     }
   },
   "applied": {
@@ -154863,10 +154923,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12423,
+  "seq": 12428,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T15:40:19Z",
+    "last_ok_run": "2026-11-17T15:45:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -154874,9 +154934,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T15:15:22Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T15:45:28Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T15:15:24Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T15:45:30Z"
     }
   }
 }
