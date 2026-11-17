@@ -154208,6 +154208,18 @@
       "chat_id": 7582459199,
       "seq": 12399,
       "identity": "NOURL|American Express|Undergraduate Program AI Engineer Intern, Enterprise Technology Services|Toronto, Canada|Nov 01#1"
+    },
+    "d63fea64f968": {
+      "company": "Invitation-charter",
+      "role": "Software Engineer Intern",
+      "location": "Greenwood Village, CO",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14113,
+      "chat_id": 7582459199,
+      "seq": 12400,
+      "identity": "NOURL|Invitation-charter|Software Engineer Intern|Greenwood Village, CO|Nov 10#1"
     }
   },
   "applied": {
@@ -154575,10 +154587,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12399,
+  "seq": 12400,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T07:15:19Z",
+    "last_ok_run": "2026-11-17T07:20:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -154586,7 +154598,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T05:20:22Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T07:20:17Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T07:10:19Z"
     }
