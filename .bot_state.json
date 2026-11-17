@@ -154556,6 +154556,78 @@
       "chat_id": 7582459199,
       "seq": 12428,
       "identity": "NOURL|Plusgrade|Data Science Intern|Toronto, Canada|Nov 04#1"
+    },
+    "af89e9ebfdeb": {
+      "company": "Soros Fund Management",
+      "role": "Quantitative Strategist Intern",
+      "location": "New York, NY",
+      "term": "Nov 17",
+      "apply_url": "https://go.vansh.nyc/1Bj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14166,
+      "chat_id": 7582459199,
+      "seq": 12429,
+      "identity": "https://go.vansh.nyc/1Bj?s=y|Soros Fund Management|Quantitative Strategist Intern|New York, NY|Nov 17#1"
+    },
+    "b38dcdbbaf6e": {
+      "company": "Carnegie Mellon University",
+      "role": "Advanced Computing Lab Intern \ud83d\udec2",
+      "location": "Pittsburgh, PA",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14167,
+      "chat_id": 7582459199,
+      "seq": 12430,
+      "identity": "NOURL|Carnegie Mellon University|Advanced Computing Lab Intern \ud83d\udec2|Pittsburgh, PA|Nov 09#1"
+    },
+    "aba3a879576c": {
+      "company": "Humble Robotics",
+      "role": "Embedded Software Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14168,
+      "chat_id": 7582459199,
+      "seq": 12431,
+      "identity": "NOURL|Humble Robotics|Embedded Software Engineer Intern|San Francisco, CA|Oct 20#1"
+    },
+    "16749cd6890f": {
+      "company": "Together AI",
+      "role": "Research Intern, Frontier Speculative Decoding",
+      "location": "San Francisco, CA",
+      "term": "Oct 17",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14169,
+      "chat_id": 7582459199,
+      "seq": 12432,
+      "identity": "NOURL|Together AI|Research Intern, Frontier Speculative Decoding|San Francisco, CA|Oct 17#1"
+    },
+    "e8e931598e62": {
+      "company": "Elire",
+      "role": "AI Data Science Consulting Intern - Knowledge Graphs & Enterprise Data",
+      "location": "Remote United States Minneapolis, MN",
+      "term": "Sep 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14170,
+      "chat_id": 7582459199,
+      "seq": 12433,
+      "identity": "NOURL|Elire|AI Data Science Consulting Intern - Knowledge Graphs & Enterprise Data|Remote United States Minneapolis, MN|Sep 15#1"
+    },
+    "9857d97ea60c": {
+      "company": "Akuna Capital",
+      "role": "Platform Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Chicago, IL",
+      "term": "Jul 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14171,
+      "chat_id": 7582459199,
+      "seq": 12434,
+      "identity": "NOURL|Akuna Capital|Platform Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1"
     }
   },
   "applied": {
@@ -154923,10 +154995,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12428,
+  "seq": 12434,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T16:15:21Z",
+    "last_ok_run": "2026-11-17T16:20:39Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -154934,9 +155006,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T15:45:28Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T16:20:33Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T15:45:30Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T16:20:35Z"
     }
   }
 }
