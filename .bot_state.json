@@ -155492,6 +155492,90 @@
       "chat_id": 7582459199,
       "seq": 12506,
       "identity": "https://zapply.jobs/l/d/oracle-texas-instruments-25016343?s=gh-internships-2027|Texas Instruments|Systems Engineering Intern - Power|Dallas, TX, United States|Summer 2027#1"
+    },
+    "e349d5d870f1": {
+      "company": "Unum",
+      "role": "IT Intern",
+      "location": "Chattanooga, TN Portland, ME Columbia, SC",
+      "term": "Nov 17",
+      "apply_url": "https://go.vansh.nyc/1BE?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14265,
+      "chat_id": 7582459199,
+      "seq": 12507,
+      "identity": "https://go.vansh.nyc/1BE?s=y|Unum|IT Intern|Chattanooga, TN Portland, ME Columbia, SC|Nov 17#1"
+    },
+    "e13fb27ff0bc": {
+      "company": "Pathlabs",
+      "role": "Software and AI Engineering Intern",
+      "location": "Missoula, MT",
+      "term": "Nov 17",
+      "apply_url": "https://go.vansh.nyc/1BC?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14266,
+      "chat_id": 7582459199,
+      "seq": 12508,
+      "identity": "https://go.vansh.nyc/1BC?s=y|Pathlabs|Software and AI Engineering Intern|Missoula, MT|Nov 17#1"
+    },
+    "214d02d1b4c9": {
+      "company": "Draper",
+      "role": "Software Engineering & DevOps Intern",
+      "location": "Cambridge, MA",
+      "term": "Nov 17",
+      "apply_url": "https://go.vansh.nyc/1BD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14267,
+      "chat_id": 7582459199,
+      "seq": 12509,
+      "identity": "https://go.vansh.nyc/1BD?s=y|Draper|Software Engineering & DevOps Intern|Cambridge, MA|Nov 17#1"
+    },
+    "71143d28deb0": {
+      "company": "CrowdStrike",
+      "role": "AI Research Launch Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 17",
+      "apply_url": "https://go.vansh.nyc/1BB?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14268,
+      "chat_id": 7582459199,
+      "seq": 12510,
+      "identity": "https://go.vansh.nyc/1BB?s=y|CrowdStrike|AI Research Launch Intern|Sunnyvale, CA|Nov 17#1"
+    },
+    "fa198c0af57d": {
+      "company": "KLA",
+      "role": "Software Engineering Intern",
+      "location": "Milpitas, CA",
+      "term": "Oct 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14269,
+      "chat_id": 7582459199,
+      "seq": 12511,
+      "identity": "NOURL|KLA|Software Engineering Intern|Milpitas, CA|Oct 23#1"
+    },
+    "60b591908a2a": {
+      "company": "CVS Health",
+      "role": "Medicaid Data Analytics Intern",
+      "location": "Hartford, CT",
+      "term": "Oct 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14270,
+      "chat_id": 7582459199,
+      "seq": 12512,
+      "identity": "NOURL|CVS Health|Medicaid Data Analytics Intern|Hartford, CT|Oct 21#1"
+    },
+    "ef89228d9425": {
+      "company": "Revel",
+      "role": "Full Stack Software Engineer Intern",
+      "location": "Los Angeles, CA San Francisco, CA",
+      "term": "Oct 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14271,
+      "chat_id": 7582459199,
+      "seq": 12513,
+      "identity": "NOURL|Revel|Full Stack Software Engineer Intern|Los Angeles, CA San Francisco, CA|Oct 06#1"
     }
   },
   "applied": {
@@ -155859,10 +155943,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12506,
+  "seq": 12513,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-17T23:50:18Z",
+    "last_ok_run": "2026-11-17T23:55:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -155870,9 +155954,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T22:20:23Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-17T23:55:27Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T23:25:20Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-17T23:55:29Z"
     }
   }
 }
