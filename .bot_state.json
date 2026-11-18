@@ -155876,6 +155876,30 @@
       "chat_id": 7582459199,
       "seq": 12538,
       "identity": "NOURL|Microchip Technology|Data Analyst Intern|Gresham, OR|Nov 04#1"
+    },
+    "e79a73a1d6d2": {
+      "company": "Trainline",
+      "role": "Engineer Intern",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/trainline/b0174860-8a94-4bd3-a307-373eeab586dd/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14334,
+      "chat_id": 7582459199,
+      "seq": 12539,
+      "identity": "https://jobs.ashbyhq.com/trainline/b0174860-8a94-4bd3-a307-373eeab586dd/application?embed=true&utm_source=Simplify&ref=Simplify|Trainline|Engineer Intern|London, UK|Summer 2026#1"
+    },
+    "bf8e782aaa64": {
+      "company": "Mytra",
+      "role": "Software Engineer Intern",
+      "location": "Brisbane, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/rippling-mytra-5e479468-c622-4d2b-8789-89fbc14f3292?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14335,
+      "chat_id": 7582459199,
+      "seq": 12540,
+      "identity": "https://zapply.jobs/l/d/rippling-mytra-5e479468-c622-4d2b-8789-89fbc14f3292?s=gh-internships-2027|Mytra|Software Engineer Intern|Brisbane, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -156243,10 +156267,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12538,
+  "seq": 12540,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T15:30:23Z",
+    "last_ok_run": "2026-11-18T15:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
