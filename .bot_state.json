@@ -156320,6 +156320,18 @@
       "chat_id": 7582459199,
       "seq": 12575,
       "identity": "NOURL|CapTech Consulting|Consulting Software Engineer Intern|Richmond, VA|Oct 12#1"
+    },
+    "780ed9f74985": {
+      "company": "RTX",
+      "role": "Systems Engineering Intern - Summer 2027 (Onsite)",
+      "location": "MD-ANNAPOLIS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01890118?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14386,
+      "chat_id": 7582459199,
+      "seq": 12576,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01890118?s=gh-internships-2027|RTX|Systems Engineering Intern - Summer 2027 (Onsite)|MD-ANNAPOLIS|Summer 2027#1"
     }
   },
   "applied": {
@@ -156687,10 +156699,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12575,
+  "seq": 12576,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T20:05:23Z",
+    "last_ok_run": "2026-11-18T20:10:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
