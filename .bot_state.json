@@ -155972,6 +155972,42 @@
       "chat_id": 7582459199,
       "seq": 12546,
       "identity": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Engineering--General--Internship_RQ232323?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Engineering Intern|Falls Church, VA Gaithersburg, MD|Summer 2026#1"
+    },
+    "1aeb88260978": {
+      "company": "CACI",
+      "role": "Cybersecurity Intern",
+      "location": "Remote United States Stafford, VA",
+      "term": "Nov 17",
+      "apply_url": "https://go.vansh.nyc/1Cd?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14345,
+      "chat_id": 7582459199,
+      "seq": 12547,
+      "identity": "https://go.vansh.nyc/1Cd?s=y|CACI|Cybersecurity Intern|Remote United States Stafford, VA|Nov 17#1"
+    },
+    "10350396383a": {
+      "company": "SRC, Inc",
+      "role": "Machine Learning Engineer Intern",
+      "location": "United States",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14346,
+      "chat_id": 7582459199,
+      "seq": 12548,
+      "identity": "NOURL|SRC, Inc|Machine Learning Engineer Intern|United States|Nov 10#1"
+    },
+    "eaf7966aa7f2": {
+      "company": "Kensington",
+      "role": "Analytics Intern",
+      "location": "Toronto, ON",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14347,
+      "chat_id": 7582459199,
+      "seq": 12549,
+      "identity": "NOURL|Kensington|Analytics Intern|Toronto, ON|Oct 14#1"
     }
   },
   "applied": {
@@ -156339,10 +156375,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12546,
+  "seq": 12549,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T16:15:23Z",
+    "last_ok_run": "2026-11-18T16:20:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
