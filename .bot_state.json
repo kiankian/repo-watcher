@@ -157184,6 +157184,18 @@
       "chat_id": 7582459199,
       "seq": 12647,
       "identity": "https://zapply.jobs/l/d/workday-copart-copart-JR112072?s=gh-internships-2027|Copart|Software Engineering Intern|Dallas, TX - Headquarters|Summer 2027#1"
+    },
+    "8cb91e7b0a7d": {
+      "company": "Qualcomm",
+      "role": "GPU Compiler Development Intern - Interim Engineering Intern - HW",
+      "location": "Markham, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://qualcomm.eightfold.ai/careers/job/446722198182?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14469,
+      "chat_id": 7582459199,
+      "seq": 12648,
+      "identity": "https://qualcomm.eightfold.ai/careers/job/446722198182?utm_source=Simplify&ref=Simplify|Qualcomm|GPU Compiler Development Intern - Interim Engineering Intern - HW|Markham, ON, Canada|Summer 2026#1"
     }
   },
   "applied": {
@@ -157551,10 +157563,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12647,
+  "seq": 12648,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T23:30:26Z",
+    "last_ok_run": "2026-11-18T23:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
