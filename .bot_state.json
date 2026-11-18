@@ -156176,6 +156176,30 @@
       "chat_id": 7582459199,
       "seq": 12563,
       "identity": "NOURL|Kensington|BI/Data Analyst Intern|Toronto, Canada|Nov 08#1"
+    },
+    "60ae61adff76": {
+      "company": "State Street",
+      "role": "AI Security & Cybersecurity, Technology Intern - Full-time Internship (Jan -June 2027)",
+      "location": "Austin Texas",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-statestreet-global-R-801284?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14368,
+      "chat_id": 7582459199,
+      "seq": 12564,
+      "identity": "https://zapply.jobs/l/d/workday-statestreet-global-R-801284?s=gh-internships-2027|State Street|AI Security & Cybersecurity, Technology Intern - Full-time Internship (Jan -June 2027)|Austin Texas|Summer 2027#1"
+    },
+    "9ef750f2287d": {
+      "company": "Bread Financial",
+      "role": "Intern - Cybersecurity",
+      "location": "Columbus, OH",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-alliancedata-breadfinancial-us-R1013438?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14369,
+      "chat_id": 7582459199,
+      "seq": 12565,
+      "identity": "https://zapply.jobs/l/d/workday-alliancedata-breadfinancial-us-R1013438?s=gh-internships-2027|Bread Financial|Intern - Cybersecurity|Columbus, OH|Summer 2027#1"
     }
   },
   "applied": {
@@ -156543,10 +156567,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12563,
+  "seq": 12565,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T18:05:16Z",
+    "last_ok_run": "2026-11-18T18:10:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
