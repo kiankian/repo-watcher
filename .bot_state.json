@@ -155840,6 +155840,18 @@
       "chat_id": 7582459199,
       "seq": 12535,
       "identity": "https://zapply.jobs/l/d/workday-statestreet-global-R-801234?s=gh-internships-2027|State Street|Software Engineer (Intergration Services) - Full-time Internship (Jan - June 2027)|Quincy, Massachusetts|Summer 2027#1"
+    },
+    "67d8215cb058": {
+      "company": "Nightwing",
+      "role": "Vulnerability Researcher Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Palm Bay, FL",
+      "term": "Nov 17",
+      "apply_url": "https://go.vansh.nyc/1C8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14317,
+      "chat_id": 7582459199,
+      "seq": 12536,
+      "identity": "https://go.vansh.nyc/1C8?s=y|Nightwing|Vulnerability Researcher Intern \ud83c\uddfa\ud83c\uddf8|Palm Bay, FL|Nov 17#1"
     }
   },
   "applied": {
@@ -156207,10 +156219,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12535,
+  "seq": 12536,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T09:15:28Z",
+    "last_ok_run": "2026-11-18T09:20:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -156218,7 +156230,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T08:20:19Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T09:20:17Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-18T09:15:28Z"
     }
