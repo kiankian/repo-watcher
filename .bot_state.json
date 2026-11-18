@@ -155576,6 +155576,30 @@
       "chat_id": 7582459199,
       "seq": 12513,
       "identity": "NOURL|Revel|Full Stack Software Engineer Intern|Los Angeles, CA San Francisco, CA|Oct 06#1"
+    },
+    "5bdea030a5e0": {
+      "company": "Constellation Energy",
+      "role": "IT Software Developer Intern",
+      "location": "San Diego, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.constellationenergy.com/jobs/143150?icims=1&lang=en-us&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14274,
+      "chat_id": 7582459199,
+      "seq": 12514,
+      "identity": "https://jobs.constellationenergy.com/jobs/143150?icims=1&lang=en-us&utm_source=Simplify&ref=Simplify|Constellation Energy|IT Software Developer Intern|San Diego, CA|Summer 2026#1"
+    },
+    "a03e661dc4d0": {
+      "company": "Bissell",
+      "role": "AI & Automation Intern",
+      "location": "Grand Rapids, MI",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.bissell.com/jobs/9995?icims=1&lang=en-us&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14275,
+      "chat_id": 7582459199,
+      "seq": 12515,
+      "identity": "https://careers.bissell.com/jobs/9995?icims=1&lang=en-us&utm_source=Simplify&ref=Simplify|Bissell|AI & Automation Intern|Grand Rapids, MI|Summer 2026#1"
     }
   },
   "applied": {
@@ -155943,10 +155967,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12513,
+  "seq": 12515,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T00:00:26Z",
+    "last_ok_run": "2026-11-18T00:05:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
