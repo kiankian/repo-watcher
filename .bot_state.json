@@ -157052,6 +157052,54 @@
       "chat_id": 7582459199,
       "seq": 12636,
       "identity": "https://zapply.jobs/l/d/workday-copart-copart-JR112593?s=gh-internships-2027|Copart|Software Engineering Intern|Dallas, TX - Headquarters|Summer 2027#1"
+    },
+    "27be6d743b16": {
+      "company": "T-Mobile",
+      "role": "Site Reliability Engineering Intern",
+      "location": "Frisco, TX Atlanta, GA",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14454,
+      "chat_id": 7582459199,
+      "seq": 12637,
+      "identity": "NOURL|T-Mobile|Site Reliability Engineering Intern|Frisco, TX Atlanta, GA|Nov 10#1"
+    },
+    "75abf4f52940": {
+      "company": "Panera Bread",
+      "role": "Data Science & AI Analytics Intern",
+      "location": "Newton, MA",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14455,
+      "chat_id": 7582459199,
+      "seq": 12638,
+      "identity": "NOURL|Panera Bread|Data Science & AI Analytics Intern|Newton, MA|Nov 10#1"
+    },
+    "6b5d38152f14": {
+      "company": "Daimler Truck",
+      "role": "Governance, Risk, and Compliance (GRC) Analyst Intern, Cybersecurity",
+      "location": "Detroit, MI",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14456,
+      "chat_id": 7582459199,
+      "seq": 12639,
+      "identity": "NOURL|Daimler Truck|Governance, Risk, and Compliance (GRC) Analyst Intern, Cybersecurity|Detroit, MI|Nov 10#1"
+    },
+    "a095a752bee1": {
+      "company": "T-Mobile",
+      "role": "Software Engineer Intern, T-Ads",
+      "location": "Philadelphia, PA",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14457,
+      "chat_id": 7582459199,
+      "seq": 12640,
+      "identity": "NOURL|T-Mobile|Software Engineer Intern, T-Ads|Philadelphia, PA|Nov 09#1"
     }
   },
   "applied": {
@@ -157419,10 +157467,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12636,
+  "seq": 12640,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T22:15:20Z",
+    "last_ok_run": "2026-11-18T22:20:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -157430,7 +157478,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T21:50:24Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T22:20:24Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-18T22:10:19Z"
     }
