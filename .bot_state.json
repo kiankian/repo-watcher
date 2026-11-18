@@ -157028,6 +157028,18 @@
       "chat_id": 7582459199,
       "seq": 12634,
       "identity": "https://go.vansh.nyc/1Cp?s=y|Marvell|MS AI Infrastructure Engineer Intern|Santa Clara, CA|Nov 17#1"
+    },
+    "1bdaa0c77e26": {
+      "company": "CARIAD",
+      "role": "Engineer 1 Intern, VLA Planning and Control Deployment",
+      "location": "Mountain View, CA",
+      "term": "Oct 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14450,
+      "chat_id": 7582459199,
+      "seq": 12635,
+      "identity": "NOURL|CARIAD|Engineer 1 Intern, VLA Planning and Control Deployment|Mountain View, CA|Oct 23#1"
     }
   },
   "applied": {
@@ -157395,10 +157407,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12634,
+  "seq": 12635,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T21:45:19Z",
+    "last_ok_run": "2026-11-18T21:50:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -157406,7 +157418,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T21:20:22Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T21:50:24Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-18T21:35:20Z"
     }
