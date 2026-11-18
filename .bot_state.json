@@ -155600,6 +155600,18 @@
       "chat_id": 7582459199,
       "seq": 12515,
       "identity": "https://careers.bissell.com/jobs/9995?icims=1&lang=en-us&utm_source=Simplify&ref=Simplify|Bissell|AI & Automation Intern|Grand Rapids, MI|Summer 2026#1"
+    },
+    "bcc2e6ce09d3": {
+      "company": "Booz Allen Hamilton",
+      "role": "University, 2027 Summer Games Software Developer Intern - McLean, VA",
+      "location": "McLean, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0253700?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14276,
+      "chat_id": 7582459199,
+      "seq": 12516,
+      "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0253700?s=gh-internships-2027|Booz Allen Hamilton|University, 2027 Summer Games Software Developer Intern - McLean, VA|McLean, VA|Summer 2027#1"
     }
   },
   "applied": {
@@ -155967,10 +155979,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12515,
+  "seq": 12516,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T00:15:19Z",
+    "last_ok_run": "2026-11-18T00:20:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
