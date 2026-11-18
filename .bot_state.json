@@ -156128,6 +156128,30 @@
       "chat_id": 7582459199,
       "seq": 12559,
       "identity": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5300647007?s=gh-internships-2027|Anduril|2027 Business Systems Engineer Intern|Costa Mesa, California, United...|Summer 2027#1"
+    },
+    "431510c63884": {
+      "company": "Illumio",
+      "role": "Engineering Intern, Product Security",
+      "location": "Sunnyvale, CA",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14360,
+      "chat_id": 7582459199,
+      "seq": 12560,
+      "identity": "NOURL|Illumio|Engineering Intern, Product Security|Sunnyvale, CA|Oct 20#1"
+    },
+    "d5a537d9d856": {
+      "company": "Antares",
+      "role": "Reactor Software Engineering Intern",
+      "location": "Los Angeles, CA",
+      "term": "Sep 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14361,
+      "chat_id": 7582459199,
+      "seq": 12561,
+      "identity": "NOURL|Antares|Reactor Software Engineering Intern|Los Angeles, CA|Sep 15#1"
     }
   },
   "applied": {
@@ -156495,10 +156519,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12559,
+  "seq": 12561,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T17:15:21Z",
+    "last_ok_run": "2026-11-18T17:20:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -156506,7 +156530,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T16:50:19Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T17:20:20Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-18T16:50:23Z"
     }
