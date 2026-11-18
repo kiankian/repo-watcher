@@ -3093,11 +3093,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "409aa1e1e88494d0bc1d6cf83d29bfcb50019de0",
+    "last_sha": "82a627b60049cb674b994c10f4e7cc8e81e8770b",
     "seen": [
-      "https://toyota.wd503.myworkdayjobs.com/en-US/tmna/job/Plano-Texas/XMLNAME-2027-TFS-Data-Science-Internship_10338545-1|Toyota|Data Science Intern, TFS|Plano, TX|Oct 21#1",
-      "https://taylor.wd1.myworkdayjobs.com/external/job/OH-Remote/Enablement-Data---Insights-Intern--Temporary-_R30448|Taylor|Enablement Data & Insights Intern|Remote United States|Oct 21#1",
-      "https://spscommerce.wd108.myworkdayjobs.com/SPS/job/US-MN-Minneapolis-Office/Software-Engineer-Intern_R-001398|SPS Commerce|Software Engineer Intern|Minneapolis, MN|Oct 21#1",
       "https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Computer-Vision-Software-Engineering_R92964|Smith+Nephew|Computer Vision Software Engineering Intern|Andover, MA|Oct 21#1",
       "https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952|Smith+Nephew|Embedded Software Engineering Intern|Andover, MA|Oct 21#1",
       "https://smithnephew.wd5.myworkdayjobs.com/en-US/External/job/Andover-MA/Intern-Agentic-AI-Software-Engineering_R92953|Smith+Nephew|Agentic AI Software Engineering Intern|Andover, MA|Oct 21#1",
@@ -8094,14 +8091,17 @@
       "NOURL|Ixian Robotics|Software Intern|San Francisco, CA|Oct 30#1",
       "https://go.vansh.nyc/1C8?s=y|Nightwing|Vulnerability Researcher Intern \ud83c\uddfa\ud83c\uddf8|Palm Bay, FL|Nov 17#1",
       "https://go.vansh.nyc/1C9?s=y|State of Wisconsin Investment Board|Information Security Intern|Madison, WI|Nov 16#1",
-      "NOURL|Microchip Technology|Data Analyst Intern|Gresham, OR|Nov 04#1"
+      "NOURL|Microchip Technology|Data Analyst Intern|Gresham, OR|Nov 04#1",
+      "NOURL|The New York Times|Android Engineering Intern|New York, NY|Nov 06#1",
+      "NOURL|The New York Times|iOS Engineering Intern|New York, NY|Nov 06#1",
+      "NOURL|Medpace|Python Developer Intern|Cincinnati, OH|Oct 13#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3024,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "00f868c36641d28cee4ed0d9295b633a3f4b2453",
+    "last_sha": "0fa72188676dbbefcf16ddd8681ccde186c58b40",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
