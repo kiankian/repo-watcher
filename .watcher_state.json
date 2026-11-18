@@ -3096,11 +3096,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "3612b49ba770abe21ae02f2a1240a9b4c160535d",
+    "last_sha": "d6a696b97a93aa5f7366c663838f28ef6f21838d",
     "seen": [
-      "https://dukeenergy.wd1.myworkdayjobs.com/search/job/Hartsville-SC/Nuclear-Cybersecurity-2027-Summer-Internship_R42099|Duke Energy Corporation|Nuclear Cybersecurity Intern|Hartsville, SC|Oct 21#1",
-      "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27403|DP World|Network Engineering Intern \ud83d\udec2|Charlotte, NC|Oct 21#1",
-      "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27404|DP World|Information Security Intern \ud83d\udec2|Charlotte, NC|Oct 21#1",
       "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27400|DP World|Application Analyst Intern|Itasca, IL|Oct 21#1",
       "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Medicaid-Data-Analytics-Corporate-Internship---Summer-2027--Undergraduate-_R1052342|CVS Health|Medicaid Data Analytics Intern|Hartford, CT|Oct 21#1",
       "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Hartford-Farmington-Ave-Rogers/Innovation---Technology-Internship---Product---Agile-Delivery---Summer-2027--Undergraduate-_R1080767|CVS Health|Product & Agile Delivery Intern, Innovation & Technology|**4 locations**Hartford, CT Dallas, TX Scottsdale, AZ Woonsocket, RI|Oct 21#1",
@@ -8097,14 +8094,17 @@
       "NOURL|T-Mobile|Site Reliability Engineering Intern|Frisco, TX Atlanta, GA|Nov 10#1",
       "NOURL|Panera Bread|Data Science & AI Analytics Intern|Newton, MA|Nov 10#1",
       "NOURL|Daimler Truck|Governance, Risk, and Compliance (GRC) Analyst Intern, Cybersecurity|Detroit, MI|Nov 10#1",
-      "NOURL|T-Mobile|Software Engineer Intern, T-Ads|Philadelphia, PA|Nov 09#1"
+      "NOURL|T-Mobile|Software Engineer Intern, T-Ads|Philadelphia, PA|Nov 09#1",
+      "https://go.vansh.nyc/1Ct?s=y|Vibrantz Technologies|Applied AI & Automation Intern|Houston, TX|Nov 18#1",
+      "NOURL|Lumentum|Optical Algorithms and Analytics Engineering Co-op|Ottawa, ON|Oct 19#1",
+      "NOURL|General Dynamics Mission Systems, Inc.|EE/Computer Engineer Intern \ud83c\uddfa\ud83c\uddf8|Manassas, VA|Sep 27#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3033,
+    "last_row_count": 3034,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "7e6d8831274d72a1acfe97cdfda5ab980d8f1b24",
+    "last_sha": "93ac3913f1152b76838d29d6ed2f19d85bb60343",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

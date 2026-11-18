@@ -157100,6 +157100,42 @@
       "chat_id": 7582459199,
       "seq": 12640,
       "identity": "NOURL|T-Mobile|Software Engineer Intern, T-Ads|Philadelphia, PA|Nov 09#1"
+    },
+    "8f46a04101ec": {
+      "company": "Vibrantz Technologies",
+      "role": "Applied AI & Automation Intern",
+      "location": "Houston, TX",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1Ct?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14460,
+      "chat_id": 7582459199,
+      "seq": 12641,
+      "identity": "https://go.vansh.nyc/1Ct?s=y|Vibrantz Technologies|Applied AI & Automation Intern|Houston, TX|Nov 18#1"
+    },
+    "23e50b5f5a58": {
+      "company": "Lumentum",
+      "role": "Optical Algorithms and Analytics Engineering Co-op",
+      "location": "Ottawa, ON",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14461,
+      "chat_id": 7582459199,
+      "seq": 12642,
+      "identity": "NOURL|Lumentum|Optical Algorithms and Analytics Engineering Co-op|Ottawa, ON|Oct 19#1"
+    },
+    "291e097e6569": {
+      "company": "General Dynamics Mission Systems, Inc.",
+      "role": "EE/Computer Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Manassas, VA",
+      "term": "Sep 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14462,
+      "chat_id": 7582459199,
+      "seq": 12643,
+      "identity": "NOURL|General Dynamics Mission Systems, Inc.|EE/Computer Engineer Intern \ud83c\uddfa\ud83c\uddf8|Manassas, VA|Sep 27#1"
     }
   },
   "applied": {
@@ -157467,10 +157503,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12640,
+  "seq": 12643,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T22:45:19Z",
+    "last_ok_run": "2026-11-18T22:50:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
