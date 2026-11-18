@@ -155792,6 +155792,18 @@
       "chat_id": 7582459199,
       "seq": 12531,
       "identity": "https://go.vansh.nyc/1C6?s=y|Airbnb|Software Engineering Intern|San Francisco, CA|Nov 17#1"
+    },
+    "d29dcd83967c": {
+      "company": "\ud83d\udd25 Airbnb",
+      "role": "Software Engineer Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.airbnb.com/positions/8360478?gh_jid=8360478&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14309,
+      "chat_id": 7582459199,
+      "seq": 12532,
+      "identity": "https://careers.airbnb.com/positions/8360478?gh_jid=8360478&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Airbnb|Software Engineer Intern|SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -156159,10 +156171,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12531,
+  "seq": 12532,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T08:00:28Z",
+    "last_ok_run": "2026-11-18T08:05:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
