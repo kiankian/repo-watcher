@@ -156104,6 +156104,30 @@
       "chat_id": 7582459199,
       "seq": 12557,
       "identity": "https://zapply.jobs/l/d/workday-trimble-trimblecareers-R57945?s=gh-internships-2027|Trimble|QA Engineer Intern|NH, Portsmouth|Summer 2027#1"
+    },
+    "7d1a3b38b670": {
+      "company": "Western Digital",
+      "role": "Spring 2027 Intern - Software Engineering",
+      "location": "Irvine, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-WesternDigital-744000162353069?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14358,
+      "chat_id": 7582459199,
+      "seq": 12558,
+      "identity": "https://zapply.jobs/l/d/sr-WesternDigital-744000162353069?s=gh-internships-2027|Western Digital|Spring 2027 Intern - Software Engineering|Irvine, CA|Summer 2027#1"
+    },
+    "67ec008be9e0": {
+      "company": "Anduril",
+      "role": "2027 Business Systems Engineer Intern",
+      "location": "Costa Mesa, California, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5300647007?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14359,
+      "chat_id": 7582459199,
+      "seq": 12559,
+      "identity": "https://zapply.jobs/l/d/greenhouse-andurilindustries-5300647007?s=gh-internships-2027|Anduril|2027 Business Systems Engineer Intern|Costa Mesa, California, United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -156471,10 +156495,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12557,
+  "seq": 12559,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T17:05:19Z",
+    "last_ok_run": "2026-11-18T17:10:33Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
