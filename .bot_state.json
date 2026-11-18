@@ -156056,6 +156056,42 @@
       "chat_id": 7582459199,
       "seq": 12553,
       "identity": "https://zapply.jobs/l/d/workday-statestreet-global-R-801269?s=gh-internships-2027|State Street|Software Engineering Intern - Full-time Internship (Jan - June 2027)|Boston, Massachusetts|Summer 2027#1"
+    },
+    "986d5e5bf757": {
+      "company": "The New York Times",
+      "role": "Interactive News Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14352,
+      "chat_id": 7582459199,
+      "seq": 12554,
+      "identity": "NOURL|The New York Times|Interactive News Engineering Intern|New York, NY|Nov 06#1"
+    },
+    "96760079087d": {
+      "company": "RTX",
+      "role": "Software Engineering Intern (Summer 2027)",
+      "location": "IA-CEDAR RAPIDS",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01889954?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14354,
+      "chat_id": 7582459199,
+      "seq": 12555,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01889954?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "ce7f6f57e027": {
+      "company": "MITRE",
+      "role": "Communications Network Engineering Intern",
+      "location": "McLean, Virginia",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-mitre-R117790?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14355,
+      "chat_id": 7582459199,
+      "seq": 12556,
+      "identity": "https://zapply.jobs/l/d/phenom-mitre-R117790?s=gh-internships-2027|MITRE|Communications Network Engineering Intern|McLean, Virginia|Summer 2027#1"
     }
   },
   "applied": {
@@ -156423,10 +156459,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12553,
+  "seq": 12556,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T16:45:20Z",
+    "last_ok_run": "2026-11-18T16:50:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -156434,9 +156470,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T15:50:34Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T16:50:19Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-18T16:15:22Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-18T16:50:23Z"
     }
   }
 }

@@ -3096,9 +3096,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "c04410dae28ab1f64eb7da228ea4589469f565b3",
+    "last_sha": "fab3f9137a91119fb3d7212be42b02a490bfa2de",
     "seen": [
-      "https://careers.safran-dsi.com/job/Bedford-Software-Engineering-Internship-NH-03110/1440599100/?ats=successfactors|Safran|Software Engineering Intern|Bedford, NH|Oct 21#1",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/Software-Engineering--Intern--Summer-2027-_01881520|RTX|Software Engineer Intern|Aurora, CO|Oct 21#1",
       "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mequon-Wisconsin-United-States/Firmware-Engineer-Intern_R26-8321|Rockwell Automation|Firmware Engineer Intern|Mequon, WI Eden Prairie, MN|Oct 21#1",
       "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Ruston-LA/Microelectronics-Engineer-Intern_HR102520|Radiance Technologies|Microelectronics Engineer Intern|Ruston, LA|Oct 21#1",
@@ -8097,14 +8096,15 @@
       "NOURL|Medpace|Python Developer Intern|Cincinnati, OH|Oct 13#1",
       "https://go.vansh.nyc/1Cd?s=y|CACI|Cybersecurity Intern|Remote United States Stafford, VA|Nov 17#1",
       "NOURL|SRC, Inc|Machine Learning Engineer Intern|United States|Nov 10#1",
-      "NOURL|Kensington|Analytics Intern|Toronto, ON|Oct 14#1"
+      "NOURL|Kensington|Analytics Intern|Toronto, ON|Oct 14#1",
+      "NOURL|The New York Times|Interactive News Engineering Intern|New York, NY|Nov 06#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3025,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "46e15a9229514826df58975e8fd3c80206a3afde",
+    "last_sha": "856ad32b203e55e36405e5c28b62e58dd1074b2f",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -10841,7 +10841,9 @@
       "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031236?s=gh-internships-2027|Sierra Nevada Corporation|Test Engineer Intern (Summer 2027)|Sparks, NV|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-analogdevices-external-R269548?s=gh-internships-2027|Analog Devices|Embedded Software Engineer Intern|US, TX, Austin, Plaza on the Lake|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-statestreet-global-R-801272?s=gh-internships-2027|State Street|Software Engineering Intern - Full-time Internship (Jan - June 2027)|Boston, Massachusetts|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-statestreet-global-R-801269?s=gh-internships-2027|State Street|Software Engineering Intern - Full-time Internship (Jan - June 2027)|Boston, Massachusetts|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-statestreet-global-R-801269?s=gh-internships-2027|State Street|Software Engineering Intern - Full-time Internship (Jan - June 2027)|Boston, Massachusetts|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01889954?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IA-CEDAR RAPIDS|Summer 2027#1",
+      "https://zapply.jobs/l/d/phenom-mitre-R117790?s=gh-internships-2027|MITRE|Communications Network Engineering Intern|McLean, Virginia|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
