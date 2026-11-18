@@ -3096,11 +3096,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "d6a696b97a93aa5f7366c663838f28ef6f21838d",
+    "last_sha": "bc1b020c576379387a4454a933c471a4ff5c3e2f",
     "seen": [
-      "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27400|DP World|Application Analyst Intern|Itasca, IL|Oct 21#1",
-      "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Medicaid-Data-Analytics-Corporate-Internship---Summer-2027--Undergraduate-_R1052342|CVS Health|Medicaid Data Analytics Intern|Hartford, CT|Oct 21#1",
-      "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Hartford-Farmington-Ave-Rogers/Innovation---Technology-Internship---Product---Agile-Delivery---Summer-2027--Undergraduate-_R1080767|CVS Health|Product & Agile Delivery Intern, Innovation & Technology|**4 locations**Hartford, CT Dallas, TX Scottsdale, AZ Woonsocket, RI|Oct 21#1",
       "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/AZ---Scottsdale/Innovation-Technology-Internship-Software-Engineering--Platform---Applications-Summer-2027-Undergrad_R1081193|CVS Health|Software Engineer Intern, Platform & Applications|**4 locations**Scottsdale, AZ Dallas, TX Hartford, CT Woonsocket, RI|Oct 21#1",
       "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Engineering---Summer-2027--Undergraduate-_R1081090|CVS Health|Data Engineering Intern, Innovation & Technology|New York, NY|Oct 21#1",
       "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Undergraduate-_R1081067|CVS Health|Data Science Intern, Innovation & Technology|New York, NY|Oct 21#1",
@@ -8097,10 +8094,13 @@
       "NOURL|T-Mobile|Software Engineer Intern, T-Ads|Philadelphia, PA|Nov 09#1",
       "https://go.vansh.nyc/1Ct?s=y|Vibrantz Technologies|Applied AI & Automation Intern|Houston, TX|Nov 18#1",
       "NOURL|Lumentum|Optical Algorithms and Analytics Engineering Co-op|Ottawa, ON|Oct 19#1",
-      "NOURL|General Dynamics Mission Systems, Inc.|EE/Computer Engineer Intern \ud83c\uddfa\ud83c\uddf8|Manassas, VA|Sep 27#1"
+      "NOURL|General Dynamics Mission Systems, Inc.|EE/Computer Engineer Intern \ud83c\uddfa\ud83c\uddf8|Manassas, VA|Sep 27#1",
+      "https://go.vansh.nyc/1Cu?s=y|Samsung Semiconductor|SSD Firmware Engineer Intern|San Jose, CA|Nov 18#1",
+      "https://go.vansh.nyc/1Cw?s=y|Samsung Semiconductor|LLM Inference Acceleration Architecture Intern, Distributed Memory-Centric Accelerators|San Jose, CA|Nov 18#1",
+      "https://go.vansh.nyc/1Cv?s=y|Microsoft|Research Intern, Computer Vision and Deep Learning|Redmond, WA|Nov 18#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3034,
+    "last_row_count": 3037,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
