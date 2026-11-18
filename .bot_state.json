@@ -156032,6 +156032,30 @@
       "chat_id": 7582459199,
       "seq": 12551,
       "identity": "https://zapply.jobs/l/d/workday-analogdevices-external-R269548?s=gh-internships-2027|Analog Devices|Embedded Software Engineer Intern|US, TX, Austin, Plaza on the Lake|Summer 2027#1"
+    },
+    "1a8ae6230b0b": {
+      "company": "State Street",
+      "role": "Software Engineering Intern - Full-time Internship (Jan - June 2027)",
+      "location": "Boston, Massachusetts",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-statestreet-global-R-801272?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14350,
+      "chat_id": 7582459199,
+      "seq": 12552,
+      "identity": "https://zapply.jobs/l/d/workday-statestreet-global-R-801272?s=gh-internships-2027|State Street|Software Engineering Intern - Full-time Internship (Jan - June 2027)|Boston, Massachusetts|Summer 2027#1"
+    },
+    "40273a97cf79": {
+      "company": "State Street",
+      "role": "Software Engineering Intern - Full-time Internship (Jan - June 2027)",
+      "location": "Boston, Massachusetts",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-statestreet-global-R-801269?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14351,
+      "chat_id": 7582459199,
+      "seq": 12553,
+      "identity": "https://zapply.jobs/l/d/workday-statestreet-global-R-801269?s=gh-internships-2027|State Street|Software Engineering Intern - Full-time Internship (Jan - June 2027)|Boston, Massachusetts|Summer 2027#1"
     }
   },
   "applied": {
@@ -156399,10 +156423,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12551,
+  "seq": 12553,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T16:35:18Z",
+    "last_ok_run": "2026-11-18T16:40:32Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
