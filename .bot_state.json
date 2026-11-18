@@ -155936,6 +155936,42 @@
       "chat_id": 7582459199,
       "seq": 12543,
       "identity": "NOURL|Medpace|Python Developer Intern|Cincinnati, OH|Oct 13#1"
+    },
+    "4d86c6e80b0f": {
+      "company": "DriveWealth",
+      "role": "AI Consulting Associate Program People Analytics Intern",
+      "location": "Chicago, IL NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/drivewealth/85147395-3dfa-4c16-880f-8c7522a538ec/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14341,
+      "chat_id": 7582459199,
+      "seq": 12544,
+      "identity": "https://jobs.ashbyhq.com/drivewealth/85147395-3dfa-4c16-880f-8c7522a538ec/application?embed=true&utm_source=Simplify&ref=Simplify|DriveWealth|AI Consulting Associate Program People Analytics Intern|Chicago, IL NYC|Summer 2026#1"
+    },
+    "a738da5bf704": {
+      "company": "Sallie Mae",
+      "role": "Software Engineer Intern",
+      "location": "Indianapolis, IN",
+      "term": "Summer 2026",
+      "apply_url": "https://sallie-mae.wd5.myworkdayjobs.com/Careers/job/Indianapolis-IN/Software-Engineering-Intern_R26_000625?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14342,
+      "chat_id": 7582459199,
+      "seq": 12545,
+      "identity": "https://sallie-mae.wd5.myworkdayjobs.com/Careers/job/Indianapolis-IN/Software-Engineering-Intern_R26_000625?utm_source=Simplify&ref=Simplify|Sallie Mae|Software Engineer Intern|Indianapolis, IN|Summer 2026#1"
+    },
+    "7e4d0d92e7f1": {
+      "company": "General Dynamics Information Technology",
+      "role": "Engineering Intern",
+      "location": "Falls Church, VA Gaithersburg, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Engineering--General--Internship_RQ232323?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14343,
+      "chat_id": 7582459199,
+      "seq": 12546,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Engineering--General--Internship_RQ232323?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Engineering Intern|Falls Church, VA Gaithersburg, MD|Summer 2026#1"
     }
   },
   "applied": {
@@ -156303,10 +156339,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12543,
+  "seq": 12546,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T16:00:32Z",
+    "last_ok_run": "2026-11-18T16:05:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
