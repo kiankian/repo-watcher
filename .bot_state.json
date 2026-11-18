@@ -156152,6 +156152,30 @@
       "chat_id": 7582459199,
       "seq": 12561,
       "identity": "NOURL|Antares|Reactor Software Engineering Intern|Los Angeles, CA|Sep 15#1"
+    },
+    "a678be493b23": {
+      "company": "Scotiabank",
+      "role": "Global Analytic Financial Engineering (GAFE) Co-op, Global Banking and Markets",
+      "location": "Toronto, Canada",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1Ch?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14364,
+      "chat_id": 7582459199,
+      "seq": 12562,
+      "identity": "https://go.vansh.nyc/1Ch?s=y|Scotiabank|Global Analytic Financial Engineering (GAFE) Co-op, Global Banking and Markets|Toronto, Canada|Nov 18#1"
+    },
+    "ebc3e12f2253": {
+      "company": "Kensington",
+      "role": "BI/Data Analyst Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14365,
+      "chat_id": 7582459199,
+      "seq": 12563,
+      "identity": "NOURL|Kensington|BI/Data Analyst Intern|Toronto, Canada|Nov 08#1"
     }
   },
   "applied": {
@@ -156519,10 +156543,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12561,
+  "seq": 12563,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T17:45:17Z",
+    "last_ok_run": "2026-11-18T17:50:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -156530,7 +156554,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T17:20:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T17:50:21Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-18T17:25:16Z"
     }
