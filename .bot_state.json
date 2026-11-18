@@ -156212,6 +156212,18 @@
       "chat_id": 7582459199,
       "seq": 12566,
       "identity": "NOURL|Revel|Embedded Software Engineer Intern|Los Angeles, CA San Francisco, CA|Oct 06#1"
+    },
+    "4605214693df": {
+      "company": "General Atomics",
+      "role": "Intern - Spacecraft Test Engineering",
+      "location": "Centennial, Colorado",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/brassring-general-atomics-5238040?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14372,
+      "chat_id": 7582459199,
+      "seq": 12567,
+      "identity": "https://zapply.jobs/l/d/brassring-general-atomics-5238040?s=gh-internships-2027|General Atomics|Intern - Spacecraft Test Engineering|Centennial, Colorado|Summer 2027#1"
     }
   },
   "applied": {
@@ -156579,10 +156591,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12566,
+  "seq": 12567,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T18:25:19Z",
+    "last_ok_run": "2026-11-18T18:30:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
