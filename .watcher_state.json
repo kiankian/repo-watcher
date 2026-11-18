@@ -3091,10 +3091,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "7ba8346e32b824c17ba2877ee6fb33a285b82de0",
+    "last_sha": "c6b61812edd9391daa95fb99d98f40c83fcce546",
     "seen": [
-      "https://www.amazon.jobs/en/jobs/10564599/2027-frontier-ai-robotics-internship-undergraduate-united-states-frontier-ai-robotics-frontier-ai-robotics|Amazon|Frontier AI & Robotics Intern|San Francisco, CA|Oct 22#1",
-      "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/IP-Design-PEY-Intern_R03341|Altera|IP Design Intern|Toronto, Canada|Oct 22#1",
       "https://jobs.ashbyhq.com/allen-control-systems/1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94|Allen Control Systems|Android Developer Intern|Austin, TX|Oct 22#1",
       "https://jobs.ashbyhq.com/walrusfi/7dd09f17-cfff-48d8-8e4e-c3e016fe8cf5/application?embed=true|Walrus|Full Stack Developer Intern|NYC|Oct 21#1",
       "https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Software-Development-Internship---Summer-2027_R268537|Uline|Software Developer Intern|**5 locations**Waukegan, IL Milwaukee, WI Glenview, IL Pleasant Prairie, WI Kenosha, WI|Oct 21#1",
@@ -8092,10 +8090,12 @@
       "https://go.vansh.nyc/1BI?s=y|Lean TECHniques|Software Engineer Intern|Johnston, IA|Nov 16#1",
       "https://go.vansh.nyc/1C1?s=y|State Street|Data Scientist Intern|Boston, MA|Nov 17#1",
       "https://go.vansh.nyc/1BZ?s=y|GM Financial|Software Development Engineer Intern|Arlington, TX|Nov 16#1",
-      "https://go.vansh.nyc/1C4?s=y|Sallie Mae|Software Engineer Intern|Indianapolis, IN|Nov 16#1"
+      "https://go.vansh.nyc/1C4?s=y|Sallie Mae|Software Engineer Intern|Indianapolis, IN|Nov 16#1",
+      "https://go.vansh.nyc/1C7?s=y|S&P Global|Machine Learning Engineer Intern|Cambridge, MA New York, NY|Nov 17#1",
+      "https://go.vansh.nyc/1C6?s=y|Airbnb|Software Engineering Intern|San Francisco, CA|Nov 17#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3020,
+    "last_row_count": 3022,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
