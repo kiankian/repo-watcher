@@ -156008,6 +156008,30 @@
       "chat_id": 7582459199,
       "seq": 12549,
       "identity": "NOURL|Kensington|Analytics Intern|Toronto, ON|Oct 14#1"
+    },
+    "5771c76c1af1": {
+      "company": "Sierra Nevada Corporation",
+      "role": "Test Engineer Intern (Summer 2027)",
+      "location": "Sparks, NV",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031236?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14348,
+      "chat_id": 7582459199,
+      "seq": 12550,
+      "identity": "https://zapply.jobs/l/d/workday-snc-snc-external-career-site-R0031236?s=gh-internships-2027|Sierra Nevada Corporation|Test Engineer Intern (Summer 2027)|Sparks, NV|Summer 2027#1"
+    },
+    "44d5f0dd021b": {
+      "company": "Analog Devices",
+      "role": "Embedded Software Engineer Intern",
+      "location": "US, TX, Austin, Plaza on the Lake",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-analogdevices-external-R269548?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14349,
+      "chat_id": 7582459199,
+      "seq": 12551,
+      "identity": "https://zapply.jobs/l/d/workday-analogdevices-external-R269548?s=gh-internships-2027|Analog Devices|Embedded Software Engineer Intern|US, TX, Austin, Plaza on the Lake|Summer 2027#1"
     }
   },
   "applied": {
@@ -156375,10 +156399,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12549,
+  "seq": 12551,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T16:20:23Z",
+    "last_ok_run": "2026-11-18T16:25:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
