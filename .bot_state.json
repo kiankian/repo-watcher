@@ -155816,6 +155816,30 @@
       "chat_id": 7582459199,
       "seq": 12533,
       "identity": "NOURL|Ixian Robotics|Software Intern|San Francisco, CA|Oct 30#1"
+    },
+    "45926e8ffb16": {
+      "company": "State Street",
+      "role": "Full Stack Development Intern, Full-time Internship (Jan - June 2027)",
+      "location": "Quincy, Massachusetts",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-statestreet-global-R-801232?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14314,
+      "chat_id": 7582459199,
+      "seq": 12534,
+      "identity": "https://zapply.jobs/l/d/workday-statestreet-global-R-801232?s=gh-internships-2027|State Street|Full Stack Development Intern, Full-time Internship (Jan - June 2027)|Quincy, Massachusetts|Summer 2027#1"
+    },
+    "f4a86a8fb783": {
+      "company": "State Street",
+      "role": "Software Engineer (Intergration Services) - Full-time Internship (Jan - June 2027)",
+      "location": "Quincy, Massachusetts",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-statestreet-global-R-801234?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14315,
+      "chat_id": 7582459199,
+      "seq": 12535,
+      "identity": "https://zapply.jobs/l/d/workday-statestreet-global-R-801234?s=gh-internships-2027|State Street|Software Engineer (Intergration Services) - Full-time Internship (Jan - June 2027)|Quincy, Massachusetts|Summer 2027#1"
     }
   },
   "applied": {
@@ -156183,10 +156207,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12533,
+  "seq": 12535,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T08:45:20Z",
+    "last_ok_run": "2026-11-18T08:50:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
