@@ -3096,10 +3096,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "7955fd95592ce352c408c1a2de5867472c821a9a",
+    "last_sha": "b9f2964e0d7e6639abaf90c32f7d0b36efcb335a",
     "seen": [
-      "https://qualcomm.eightfold.ai/careers/job/446721661677|Qualcomm|Display Systems Engineer Intern|Markham, ON, Canada|Oct 21#1",
-      "https://qualcomm.eightfold.ai/careers/job/446721661830|Qualcomm|Edge AI and Display Hardware Architecture Intern|Markham, ON, Canada|Oct 21#1",
       "https://jobs.ashbyhq.com/openart/8dd52ba6-a5b6-40b1-95fe-50de352fa254/application?embed=true|OpenArt AI|Early Adopter & Product Builder Intern, Creative AI|San Carlos, CA|Oct 21#1",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/XMLNAME-2027-Systems-Engineering-Internship--AI-Experience----Dulles-VA_R10257423|Northrop Grumman|Systems Engineering Intern, AI Experience|Dulles, VA|Oct 21#1",
       "https://apply.careers.microsoft.com/careers/job/1970393557044765|Microsoft|Software Engineer Intern, Security & Identity|Cambridge, MA|Oct 21#1",
@@ -8097,10 +8095,12 @@
       "NOURL|Antares|Reactor Software Engineering Intern|Los Angeles, CA|Sep 15#1",
       "https://go.vansh.nyc/1Ch?s=y|Scotiabank|Global Analytic Financial Engineering (GAFE) Co-op, Global Banking and Markets|Toronto, Canada|Nov 18#1",
       "NOURL|Kensington|BI/Data Analyst Intern|Toronto, Canada|Nov 08#1",
-      "NOURL|Revel|Embedded Software Engineer Intern|Los Angeles, CA San Francisco, CA|Oct 06#1"
+      "NOURL|Revel|Embedded Software Engineer Intern|Los Angeles, CA San Francisco, CA|Oct 06#1",
+      "https://go.vansh.nyc/1Ci?s=y|Viavi Solutions|Robotics Intern|Bothell, WA|Nov 18#1",
+      "NOURL|Texas Instruments|Software Engineer Intern, Compiler|Sugar Land, TX|Oct 20#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3026,
+    "last_row_count": 3027,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
