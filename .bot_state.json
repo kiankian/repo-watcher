@@ -157196,6 +157196,102 @@
       "chat_id": 7582459199,
       "seq": 12648,
       "identity": "https://qualcomm.eightfold.ai/careers/job/446722198182?utm_source=Simplify&ref=Simplify|Qualcomm|GPU Compiler Development Intern - Interim Engineering Intern - HW|Markham, ON, Canada|Summer 2026#1"
+    },
+    "018685e236d2": {
+      "company": "Qualcomm",
+      "role": "GPU Compiler Development Intern, HW",
+      "location": "Markham, Canada",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1Cy?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14471,
+      "chat_id": 7582459199,
+      "seq": 12649,
+      "identity": "https://go.vansh.nyc/1Cy?s=y|Qualcomm|GPU Compiler Development Intern, HW|Markham, Canada|Nov 18#1"
+    },
+    "32ee40dbf15b": {
+      "company": "Camping World",
+      "role": "Junior AI Engineering Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1CA?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14472,
+      "chat_id": 7582459199,
+      "seq": 12650,
+      "identity": "https://go.vansh.nyc/1CA?s=y|Camping World|Junior AI Engineering Intern|Chicago, IL|Nov 18#1"
+    },
+    "81b4f7f656c1": {
+      "company": "Epic Games",
+      "role": "Tools Programmer Intern, Graphics",
+      "location": "Cary, NC",
+      "term": "Oct 23",
+      "apply_url": "https://go.vansh.nyc/1Cz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14473,
+      "chat_id": 7582459199,
+      "seq": 12651,
+      "identity": "https://go.vansh.nyc/1Cz?s=y|Epic Games|Tools Programmer Intern, Graphics|Cary, NC|Oct 23#1"
+    },
+    "64aacffdf620": {
+      "company": "SAS",
+      "role": "Software Developer Intern, Go/Golang",
+      "location": "Cary, NC",
+      "term": "Nov 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14474,
+      "chat_id": 7582459199,
+      "seq": 12652,
+      "identity": "NOURL|SAS|Software Developer Intern, Go/Golang|Cary, NC|Nov 13#1"
+    },
+    "57a0726a3dab": {
+      "company": "SeatGeek",
+      "role": "Data Analyst - Internship",
+      "location": "New York, NY",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14475,
+      "chat_id": 7582459199,
+      "seq": 12653,
+      "identity": "NOURL|SeatGeek|Data Analyst - Internship|New York, NY|Oct 28#1"
+    },
+    "47fd89e5f7d2": {
+      "company": "Citi",
+      "role": "Technology Analyst Intern, Application Development",
+      "location": "Jacksonville, FL",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14476,
+      "chat_id": 7582459199,
+      "seq": 12654,
+      "identity": "NOURL|Citi|Technology Analyst Intern, Application Development|Jacksonville, FL|Oct 22#1"
+    },
+    "d045a95923a3": {
+      "company": "Citi",
+      "role": "Technology Analyst Intern, Application Development",
+      "location": "Mississauga, Canada",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14477,
+      "chat_id": 7582459199,
+      "seq": 12655,
+      "identity": "NOURL|Citi|Technology Analyst Intern, Application Development|Mississauga, Canada|Oct 22#1"
+    },
+    "c4b6fdbb622c": {
+      "company": "Northrop Grumman",
+      "role": "2027 Propulsion Test Engineer Intern - Edwards AFB CA",
+      "location": "United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10261436?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14479,
+      "chat_id": 7582459199,
+      "seq": 12656,
+      "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10261436?s=gh-internships-2027|Northrop Grumman|2027 Propulsion Test Engineer Intern - Edwards AFB CA|United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -157563,10 +157659,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12648,
+  "seq": 12656,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-18T23:50:19Z",
+    "last_ok_run": "2026-11-18T23:55:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -157574,7 +157670,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T23:20:22Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T23:55:28Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-18T23:50:18Z"
     }
