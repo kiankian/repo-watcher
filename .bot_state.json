@@ -157292,6 +157292,42 @@
       "chat_id": 7582459199,
       "seq": 12656,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10261436?s=gh-internships-2027|Northrop Grumman|2027 Propulsion Test Engineer Intern - Edwards AFB CA|United...|Summer 2027#1"
+    },
+    "603e81a360f8": {
+      "company": "Goldman Sachs",
+      "role": "Summer Analyst Intern - Multiple Teams",
+      "location": "Albany, NY",
+      "term": "Summer 2026",
+      "apply_url": "https://higher.gs.com/roles/189373?type=students&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14480,
+      "chat_id": 7582459199,
+      "seq": 12657,
+      "identity": "https://higher.gs.com/roles/189373?type=students&utm_source=Simplify&ref=Simplify|Goldman Sachs|Summer Analyst Intern - Multiple Teams|Albany, NY|Summer 2026#1"
+    },
+    "0a18250c82b0": {
+      "company": "\ud83d\udd25 Roblox",
+      "role": "Software Engineer Intern - Engine",
+      "location": "Vancouver, BC, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.roblox.com/jobs/8386080?gh_jid=8386080&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14481,
+      "chat_id": 7582459199,
+      "seq": 12658,
+      "identity": "https://careers.roblox.com/jobs/8386080?gh_jid=8386080&utm_source=Simplify&ref=Simplify|\ud83d\udd25 Roblox|Software Engineer Intern - Engine|Vancouver, BC, Canada|Summer 2026#1"
+    },
+    "70b0bb92388e": {
+      "company": "Anduril",
+      "role": "Business Systems Engineer Intern",
+      "location": "Costa Mesa, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/andurilindustries/jobs/5300647007?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14482,
+      "chat_id": 7582459199,
+      "seq": 12659,
+      "identity": "https://boards.greenhouse.io/andurilindustries/jobs/5300647007?utm_source=Simplify&ref=Simplify|Anduril|Business Systems Engineer Intern|Costa Mesa, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -157659,10 +157695,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12656,
+  "seq": 12659,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-19T00:00:28Z",
+    "last_ok_run": "2026-11-19T00:05:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
