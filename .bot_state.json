@@ -158444,6 +158444,102 @@
       "chat_id": 7582459199,
       "seq": 12752,
       "identity": "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11153?utm_source=Simplify&ref=Simplify|Ralliant|Software Engineer Intern|Beaverton, OR|Summer 2026#1"
+    },
+    "d2ec145d104e": {
+      "company": "SAS",
+      "role": "Cybersecurity Compliance and AI Automation Intern",
+      "location": "Cary, NC",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Dy?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14640,
+      "chat_id": 7582459199,
+      "seq": 12753,
+      "identity": "https://go.vansh.nyc/1Dy?s=y|SAS|Cybersecurity Compliance and AI Automation Intern|Cary, NC|Nov 19#1"
+    },
+    "eee4b847823f": {
+      "company": "Ralliant",
+      "role": "Software Engineer Intern",
+      "location": "Beaverton, OR",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Du?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14641,
+      "chat_id": 7582459199,
+      "seq": 12754,
+      "identity": "https://go.vansh.nyc/1Du?s=y|Ralliant|Software Engineer Intern|Beaverton, OR|Nov 19#1"
+    },
+    "8d55c06e8cc0": {
+      "company": "Microsoft",
+      "role": "Research Intern, AI/Machine Learning Numerics & Efficiency",
+      "location": "Redmond, WA Mountain View, CA",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Dx?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14642,
+      "chat_id": 7582459199,
+      "seq": 12755,
+      "identity": "https://go.vansh.nyc/1Dx?s=y|Microsoft|Research Intern, AI/Machine Learning Numerics & Efficiency|Redmond, WA Mountain View, CA|Nov 19#1"
+    },
+    "d34a37a8ed19": {
+      "company": "Lucid Motors",
+      "role": "Embedded Software Intern",
+      "location": "Newark, CA",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Dv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14643,
+      "chat_id": 7582459199,
+      "seq": 12756,
+      "identity": "https://go.vansh.nyc/1Dv?s=y|Lucid Motors|Embedded Software Intern|Newark, CA|Nov 19#1"
+    },
+    "678d4920df9f": {
+      "company": "Horizon Trading Solutions",
+      "role": "Java Developer Intern",
+      "location": "Montreal, Canada",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Dt?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14644,
+      "chat_id": 7582459199,
+      "seq": 12757,
+      "identity": "https://go.vansh.nyc/1Dt?s=y|Horizon Trading Solutions|Java Developer Intern|Montreal, Canada|Nov 19#1"
+    },
+    "41a79b1a3292": {
+      "company": "Compassion International",
+      "role": "Data and Software Engineering Intern",
+      "location": "United States",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1DA?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14645,
+      "chat_id": 7582459199,
+      "seq": 12758,
+      "identity": "https://go.vansh.nyc/1DA?s=y|Compassion International|Data and Software Engineering Intern|United States|Nov 19#1"
+    },
+    "638bc5e884ba": {
+      "company": "Lucid Motors",
+      "role": "Software Engineer Intern, SDET",
+      "location": "Newark, CA",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1Dw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14646,
+      "chat_id": 7582459199,
+      "seq": 12759,
+      "identity": "https://go.vansh.nyc/1Dw?s=y|Lucid Motors|Software Engineer Intern, SDET|Newark, CA|Nov 18#1"
+    },
+    "22c98084d5d5": {
+      "company": "Idaho National Laboratory",
+      "role": "PSION Development Intern",
+      "location": "Idaho Falls, ID",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1Dz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14647,
+      "chat_id": 7582459199,
+      "seq": 12760,
+      "identity": "https://go.vansh.nyc/1Dz?s=y|Idaho National Laboratory|PSION Development Intern|Idaho Falls, ID|Nov 18#1"
     }
   },
   "applied": {
@@ -158811,10 +158907,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12752,
+  "seq": 12760,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-19T23:50:22Z",
+    "last_ok_run": "2026-11-19T23:55:32Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -158822,7 +158918,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T22:55:28Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T23:55:30Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-19T23:50:21Z"
     }
