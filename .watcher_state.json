@@ -3100,12 +3100,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "318a301577c8e47b5732acccbadfad999145a77e",
+    "last_sha": "e35692dbea14386bc85ba8ddba0f0373e4db6e48",
     "seen": [
-      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-I--Intern----United-States_2026803|Cisco|Machine Learning Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-II--Intern----United-States_2026802|Cisco|Machine Learning Engineer II Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Engineering-Product-Management-Specialist-I--Intern----United-States_2026308|Cisco|Engineering Product Management Specialist I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
-      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/AI-Operations-Engineer-I--Intern----United-States_2026804|Cisco|AI Operations Engineer I Intern|**4 locations**San Jose, CA Milpitas, CA Rtp, NC San Francisco, CA|Oct 21#1",
       "https://bnl.wd1.myworkdayjobs.com/externa/job/Upton-NY/Data-Engineering-Student-Assistant_JR102753|Brookhaven Lab|Data Engineering Student Assistant Intern|Upton, NY|Oct 21#1",
       "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704379|Aptiv|HVP/Certification Engineer Intern|Kanata, Canada|Oct 21#1",
       "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/HVP-Cert--Engineer-Intern_J000704378|Aptiv|HVP Certification Engineer Intern|Kanata, Canada|Oct 21#1",
@@ -8101,14 +8097,18 @@
       "NOURL|SAS|Software Developer Intern, Go/Golang|Cary, NC|Nov 13#1",
       "NOURL|SeatGeek|Data Analyst - Internship|New York, NY|Oct 28#1",
       "NOURL|Citi|Technology Analyst Intern, Application Development|Jacksonville, FL|Oct 22#1",
-      "NOURL|Citi|Technology Analyst Intern, Application Development|Mississauga, Canada|Oct 22#1"
+      "NOURL|Citi|Technology Analyst Intern, Application Development|Mississauga, Canada|Oct 22#1",
+      "https://go.vansh.nyc/1CB?s=y|HERE Technologies|Data Science Intern|Chicago, IL|Nov 18#1",
+      "https://go.vansh.nyc/1CC?s=y|HERE Technologies|Software Engineer Intern|Chicago, IL|Nov 18#1",
+      "NOURL|LinkedIn|Software Engineer Intern, First Play|Mountain View, CA|Oct 27#1",
+      "NOURL|GuideStone|Software Developer Intern, Software Development|Dallas, TX|Sep 21#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3040,
+    "last_row_count": 3042,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "9447aca6a0554c86c75f80b533be5b8b4300f07b",
+    "last_sha": "3bf65a9f289891f583c965f5abea08ed42e82758",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

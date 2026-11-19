@@ -157328,6 +157328,54 @@
       "chat_id": 7582459199,
       "seq": 12659,
       "identity": "https://boards.greenhouse.io/andurilindustries/jobs/5300647007?utm_source=Simplify&ref=Simplify|Anduril|Business Systems Engineer Intern|Costa Mesa, CA|Summer 2026#1"
+    },
+    "624921365e4e": {
+      "company": "HERE Technologies",
+      "role": "Data Science Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1CB?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14483,
+      "chat_id": 7582459199,
+      "seq": 12660,
+      "identity": "https://go.vansh.nyc/1CB?s=y|HERE Technologies|Data Science Intern|Chicago, IL|Nov 18#1"
+    },
+    "aad423200934": {
+      "company": "HERE Technologies",
+      "role": "Software Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1CC?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14484,
+      "chat_id": 7582459199,
+      "seq": 12661,
+      "identity": "https://go.vansh.nyc/1CC?s=y|HERE Technologies|Software Engineer Intern|Chicago, IL|Nov 18#1"
+    },
+    "1a8bb9625b95": {
+      "company": "LinkedIn",
+      "role": "Software Engineer Intern, First Play",
+      "location": "Mountain View, CA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14485,
+      "chat_id": 7582459199,
+      "seq": 12662,
+      "identity": "NOURL|LinkedIn|Software Engineer Intern, First Play|Mountain View, CA|Oct 27#1"
+    },
+    "f11e2ca6246e": {
+      "company": "GuideStone",
+      "role": "Software Developer Intern, Software Development",
+      "location": "Dallas, TX",
+      "term": "Sep 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14486,
+      "chat_id": 7582459199,
+      "seq": 12663,
+      "identity": "NOURL|GuideStone|Software Developer Intern, Software Development|Dallas, TX|Sep 21#1"
     }
   },
   "applied": {
@@ -157695,10 +157743,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12659,
+  "seq": 12663,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-19T00:15:27Z",
+    "last_ok_run": "2026-11-19T00:20:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -157708,7 +157756,7 @@
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-18T23:55:28Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-18T23:50:18Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-19T00:20:24Z"
     }
   }
 }
