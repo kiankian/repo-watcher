@@ -3100,12 +3100,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "989728611085b43679a7674d5b312dd56b2f0a6e",
+    "last_sha": "019aaebce3f6f044436b3816a98843c3f144ecaa",
     "seen": [
-      "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456|Sierra Space|Flight Software Engineer Intern|Louisville, CO|Oct 20#1",
-      "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1|Salesforce|AI Research Intern|Palo Alto, CA|Oct 20#1",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-Intern--Summer-2027-_01880127|RTX|Software Engineer Intern|Tewksbury, MA|Oct 20#1",
-      "https://jobs.ashbyhq.com/rhoda-ai/2de33083-782f-489e-9b91-f40761a36bf4|Rhoda AI|Software Engineer Intern, Inference|Mountain View, CA|Oct 20#1",
       "https://pictonmahoney.bamboohr.com/careers/387|Picton Mahoney Asset Management|Data Engineer Intern|Toronto, ON, Canada|Oct 20#1",
       "https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13|Palantir|Software Engineer Intern, Query Engines|New York, NY|Oct 20#1",
       "https://jobs.paccar.com/job/Kirkland-Summer-2027-Field-Service-Data-Analyst-Intern-WA-98033/1449526633/?ats=successfactors|Paccar|Field Service Data Analyst Intern|Kirkland, WA|Oct 20#1",
@@ -8101,10 +8097,14 @@
       "NOURL|CoStar Group|Vision & Learning Intern|Sunnyvale, CA|Nov 12#1",
       "NOURL|WTW|Data Analyst Intern|New York, NY|Nov 13#1",
       "NOURL|AQR Capital Management|Arbitrage Research Analyst Intern, Arbitrage|Greenwich, CT|Aug 25#1",
-      "NOURL|Jane Street|Hardware Engineer (FPGA/ASIC) Intern|New York, NY|Jul 24#1"
+      "NOURL|Jane Street|Hardware Engineer (FPGA/ASIC) Intern|New York, NY|Jul 24#1",
+      "https://go.vansh.nyc/1CU?s=y|Scout Space|Embedded Firmware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Reston, VA Remote United States|Nov 18#1",
+      "NOURL|Intuitive|Data Science Intern|Sunnyvale, CA|Nov 02#1",
+      "NOURL|Intuitive|AI/ML Engineer Intern|Sunnyvale, CA|Nov 02#1",
+      "NOURL|Motorola|FPGA Design Engineering Intern|Schaumburg, IL|Sep 08#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3050,
+    "last_row_count": 3051,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
