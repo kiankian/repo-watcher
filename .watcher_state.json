@@ -3100,10 +3100,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "c3f36f273d1f26fbd8fa035ba6d94db08f47d2af",
+    "last_sha": "c48a0f289a92313ee264c9834dc2eb976b73ce29",
     "seen": [
-      "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949|The Aerospace Corporation|Embedded Software Engineer Intern, Multiple Teams|El Segundo, CA|Oct 20#1",
-      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019103|Texas Instruments|Software Engineer Intern, Compiler|Sugar Land, TX|Oct 20#1",
       "https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineer---Cloud-Security-Summer-Internship_REQ379190|T-Mobile|Software Engineer Intern, Cloud Security|Atlanta, GA Frisco, TX|Oct 20#1",
       "https://jobs.ashbyhq.com/steel/5fbdbebf-ddb2-4264-a941-3ab6d475208c/application?embed=true|Steel|Software Engineer Intern|Toronto, ON, Canada|Oct 20#1",
       "https://spacedynamicslaboratory.applytojob.com/apply/HgIOie6SBP/AIEnabled-Requirements-Engineering-Intern|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1",
@@ -8101,10 +8099,12 @@
       "NOURL|Analog Devices|Information Technology Intern|Wilmington, MA Camas, WA|Sep 15#1",
       "https://go.vansh.nyc/1CN?s=y|Garmin|Software Engineering Intern|Manhattan, KS|Nov 19#1",
       "NOURL|Viget|Software Developer Intern|Boulder, CO|Oct 08#1",
-      "NOURL|Viget|Project & Product Manager Intern \ud83d\udec2|Boulder, CO|Oct 07#1"
+      "NOURL|Viget|Project & Product Manager Intern \ud83d\udec2|Boulder, CO|Oct 07#1",
+      "https://go.vansh.nyc/1CQ?s=y|Scout Space|Computer Vision Engineer Intern, AI/ML|Reston, VA|Nov 19#1",
+      "https://go.vansh.nyc/1CP?s=y|Pebl|DevSecOps Intern|Palo Alto, CA|Nov 18#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3046,
+    "last_row_count": 3048,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
