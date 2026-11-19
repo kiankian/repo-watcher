@@ -157496,6 +157496,30 @@
       "chat_id": 7582459199,
       "seq": 12673,
       "identity": "NOURL|GM Financial|Software Development Engineer Intern|Arlington, TX|Nov 16#1"
+    },
+    "06d5d4ec45d2": {
+      "company": "Idaho National Laboratory",
+      "role": "Cybersecurity Operations Intern",
+      "location": "Idaho Falls, ID",
+      "term": "Nov 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14515,
+      "chat_id": 7582459199,
+      "seq": 12674,
+      "identity": "NOURL|Idaho National Laboratory|Cybersecurity Operations Intern|Idaho Falls, ID|Nov 15#1"
+    },
+    "e93e9938192d": {
+      "company": "Idaho National Laboratory",
+      "role": "Cybersecurity Vulnerability Assessment Intern",
+      "location": "Idaho Falls, ID",
+      "term": "Nov 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14516,
+      "chat_id": 7582459199,
+      "seq": 12675,
+      "identity": "NOURL|Idaho National Laboratory|Cybersecurity Vulnerability Assessment Intern|Idaho Falls, ID|Nov 11#1"
     }
   },
   "applied": {
@@ -157863,10 +157887,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12673,
+  "seq": 12675,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-19T07:15:18Z",
+    "last_ok_run": "2026-11-19T07:20:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -157874,7 +157898,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T06:20:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T07:20:21Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-19T06:55:17Z"
     }
