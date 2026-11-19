@@ -158348,6 +158348,90 @@
       "chat_id": 7582459199,
       "seq": 12744,
       "identity": "NOURL|S&P Global|Machine Learning Engineer Intern|Cambridge, MA New York, NY|Nov 17#1"
+    },
+    "850be6cf52b6": {
+      "company": "HeartFlow",
+      "role": "Platform Engineering Intern",
+      "location": "San Francisco, CA",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Ds?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14629,
+      "chat_id": 7582459199,
+      "seq": 12745,
+      "identity": "https://go.vansh.nyc/1Ds?s=y|HeartFlow|Platform Engineering Intern|San Francisco, CA|Nov 19#1"
+    },
+    "7d7ce01652b9": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern, Database Engineering",
+      "location": "Menlo Park, CA Bellevue, WA",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1Dp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14630,
+      "chat_id": 7582459199,
+      "seq": 12746,
+      "identity": "https://go.vansh.nyc/1Dp?s=y|Snowflake|Software Engineer Intern, Database Engineering|Menlo Park, CA Bellevue, WA|Nov 18#1"
+    },
+    "341301f91faf": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern, Core Infrastructure & Security",
+      "location": "Menlo Park, CA Bellevue, WA",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1Dq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14631,
+      "chat_id": 7582459199,
+      "seq": 12747,
+      "identity": "https://go.vansh.nyc/1Dq?s=y|Snowflake|Software Engineer Intern, Core Infrastructure & Security|Menlo Park, CA Bellevue, WA|Nov 18#1"
+    },
+    "3238608708a5": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern, AI/ML",
+      "location": "Menlo Park, CA Bellevue, WA",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1Dr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14632,
+      "chat_id": 7582459199,
+      "seq": 12748,
+      "identity": "https://go.vansh.nyc/1Dr?s=y|Snowflake|Software Engineer Intern, AI/ML|Menlo Park, CA Bellevue, WA|Nov 18#1"
+    },
+    "4d89c6423f62": {
+      "company": "Kudu Dynamics",
+      "role": "Junior Software Engineer/Data Scientist Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Tucson, AZ",
+      "term": "Nov 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14633,
+      "chat_id": 7582459199,
+      "seq": 12749,
+      "identity": "NOURL|Kudu Dynamics|Junior Software Engineer/Data Scientist Intern \ud83c\uddfa\ud83c\uddf8|Tucson, AZ|Nov 11#1"
+    },
+    "5d664c0d73e0": {
+      "company": "Trinity Life Sciences",
+      "role": "Data Science Intern",
+      "location": "Waltham, MA New York, NY",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14634,
+      "chat_id": 7582459199,
+      "seq": 12750,
+      "identity": "NOURL|Trinity Life Sciences|Data Science Intern|Waltham, MA New York, NY|Oct 26#1"
+    },
+    "c221a5526402": {
+      "company": "Compeer Financial",
+      "role": "Infrastructure Engineering Intern \ud83d\udec2",
+      "location": "Lakeville, MN",
+      "term": "Sep 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14635,
+      "chat_id": 7582459199,
+      "seq": 12751,
+      "identity": "NOURL|Compeer Financial|Infrastructure Engineering Intern \ud83d\udec2|Lakeville, MN|Sep 11#1"
     }
   },
   "applied": {
@@ -158715,10 +158799,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12744,
+  "seq": 12751,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-19T22:50:21Z",
+    "last_ok_run": "2026-11-19T22:55:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -158726,7 +158810,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T21:55:41Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T22:55:28Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-19T22:40:23Z"
     }

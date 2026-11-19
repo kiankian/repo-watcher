@@ -3100,15 +3100,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "0b1f4320c92dfdbd6d0fd40a2bfc8d2a36b71e3f",
+    "last_sha": "9bf4d4a6a051732e5cf826b33dadafd7ee0e9c9c",
     "seen": [
-      "https://jobs.smartrecruiters.com/BoschGroup/744000156585075|Bosch|Calibration Process Optimization Intern|Farmington Hills, MI|Oct 20#1",
-      "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005930|Berkshire Hathaway Energy|Software Engineering Intern|Des Moines, IA|Oct 20#1",
-      "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675|American Family Insurance Group|Data Engineer Intern|Madison, WI|Oct 20#1",
-      "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Data-Scientist-Intern---Columbus--OH_R20499|American Electric Power|Data Scientist Intern|Columbus, OH|Oct 20#1",
-      "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/Minneapolis-MN/Software-Engineering-Intern_8940|AeroVironment|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Minneapolis, MN|Oct 20#1",
-      "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941|AeroVironment|Machine Learning Engineering Intern \ud83c\uddfa\ud83c\uddf8|Centreville, VA|Oct 20#1",
-      "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Cloud-Solutions-Engineer---Site-Reliability-Undergrad-Intern_R016936|Aerospace Corporation|Cloud Solutions Engineer Intern, Site Reliability \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA Colorado Springs, CO|Oct 20#1",
       "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Security-Engineer_R173001|Adobe|Security Engineer Intern|San Jose, CA|Oct 20#1",
       "https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103625|Zebra Technologies|Software Engineer Intern|Holtsville, NY|Oct 19#1",
       "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Software-Development-NC/1441279500/?ats=successfactors|Westinghouse Electric Company|Software Development Intern|Cranberry Township, PA|Oct 19#1",
@@ -8101,10 +8094,17 @@
       "https://go.vansh.nyc/1Dm?s=y|Lutron|Data Engineering Intern|Coopersburg, PA|Nov 19#1",
       "https://go.vansh.nyc/1Dn?s=y|Lutron|Data Science and Machine Learning Intern|Boston, MA|Nov 19#1",
       "NOURL|Syngenta Group|Data Science Intern|Greensboro, NC|Nov 18#1",
-      "NOURL|S&P Global|Machine Learning Engineer Intern|Cambridge, MA New York, NY|Nov 17#1"
+      "NOURL|S&P Global|Machine Learning Engineer Intern|Cambridge, MA New York, NY|Nov 17#1",
+      "https://go.vansh.nyc/1Ds?s=y|HeartFlow|Platform Engineering Intern|San Francisco, CA|Nov 19#1",
+      "https://go.vansh.nyc/1Dp?s=y|Snowflake|Software Engineer Intern, Database Engineering|Menlo Park, CA Bellevue, WA|Nov 18#1",
+      "https://go.vansh.nyc/1Dq?s=y|Snowflake|Software Engineer Intern, Core Infrastructure & Security|Menlo Park, CA Bellevue, WA|Nov 18#1",
+      "https://go.vansh.nyc/1Dr?s=y|Snowflake|Software Engineer Intern, AI/ML|Menlo Park, CA Bellevue, WA|Nov 18#1",
+      "NOURL|Kudu Dynamics|Junior Software Engineer/Data Scientist Intern \ud83c\uddfa\ud83c\uddf8|Tucson, AZ|Nov 11#1",
+      "NOURL|Trinity Life Sciences|Data Science Intern|Waltham, MA New York, NY|Oct 26#1",
+      "NOURL|Compeer Financial|Infrastructure Engineering Intern \ud83d\udec2|Lakeville, MN|Sep 11#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3071,
+    "last_row_count": 3075,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
