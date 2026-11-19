@@ -157616,6 +157616,42 @@
       "chat_id": 7582459199,
       "seq": 12683,
       "identity": "https://go.vansh.nyc/1CP?s=y|Pebl|DevSecOps Intern|Palo Alto, CA|Nov 18#1"
+    },
+    "a64e83954db3": {
+      "company": "RTX",
+      "role": "Software Security Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Cedar Rapids, IA",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1CS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14547,
+      "chat_id": 7582459199,
+      "seq": 12684,
+      "identity": "https://go.vansh.nyc/1CS?s=y|RTX|Software Security Intern \ud83c\uddfa\ud83c\uddf8|Cedar Rapids, IA|Nov 18#1"
+    },
+    "bb7172f27ba9": {
+      "company": "Leidos",
+      "role": "Software Developer Intern, AI Project \ud83c\uddfa\ud83c\uddf8",
+      "location": "Colorado Springs, CO",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1CT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14548,
+      "chat_id": 7582459199,
+      "seq": 12685,
+      "identity": "https://go.vansh.nyc/1CT?s=y|Leidos|Software Developer Intern, AI Project \ud83c\uddfa\ud83c\uddf8|Colorado Springs, CO|Nov 18#1"
+    },
+    "fced05bb8ccc": {
+      "company": "Aechelon Technology",
+      "role": "Junior Software Engineer Intern",
+      "location": "Overland Park, KS",
+      "term": "Aug 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14549,
+      "chat_id": 7582459199,
+      "seq": 12686,
+      "identity": "NOURL|Aechelon Technology|Junior Software Engineer Intern|Overland Park, KS|Aug 13#1"
     }
   },
   "applied": {
@@ -157983,10 +158019,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12683,
+  "seq": 12686,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-19T16:20:20Z",
+    "last_ok_run": "2026-11-19T16:25:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -157994,7 +158030,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T15:50:29Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T16:25:21Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-19T16:10:22Z"
     }
