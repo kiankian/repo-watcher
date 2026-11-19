@@ -157796,6 +157796,18 @@
       "chat_id": 7582459199,
       "seq": 12698,
       "identity": "NOURL|Quadric|Deep Learning Compiler Intern|Burlingame, CA|Oct 22#1"
+    },
+    "88581bd7c2e9": {
+      "company": "General Dynamics Mission Systems",
+      "role": "Software Engineering Intern",
+      "location": "Manassas, VA",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14572,
+      "chat_id": 7582459199,
+      "seq": 12699,
+      "identity": "NOURL|General Dynamics Mission Systems|Software Engineering Intern|Manassas, VA|Nov 04#1"
     }
   },
   "applied": {
@@ -158163,10 +158175,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12698,
+  "seq": 12699,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-19T19:15:18Z",
+    "last_ok_run": "2026-11-19T19:20:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -158174,9 +158186,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T18:50:25Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T19:20:26Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-19T18:50:27Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-19T19:20:28Z"
     }
   }
 }
