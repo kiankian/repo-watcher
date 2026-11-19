@@ -3100,9 +3100,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "811e378779e4080027f8cfe2518fc2be4dca8fbb",
+    "last_sha": "f98ff333876438d47f303d2bd63beafd4364b546",
     "seen": [
-      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Troy-MI---USA/Software-Development-Intern_J000704861|Aptiv|Software Development Intern|Troy, MI|Oct 21#1",
       "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400|Aptiv|AI Product Analyst Intern|San Diego, CA|Oct 21#1",
       "https://jobs.aon.com/jobs/110099?icims=1|Aon|IT/AI Engineer Intern|Chicago, IL|Oct 21#1",
       "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Business-Intelligence-Enablement_R39531|American Family Insurance Group|Business Intelligence Enablement Intern|Madison, WI Boston, MA|Oct 21#1",
@@ -8101,14 +8100,15 @@
       "NOURL|GuideStone|Software Developer Intern, Software Development|Dallas, TX|Sep 21#1",
       "NOURL|CrowdStrike|Overwatch Intern, Research|Arlington, VA Austin, TX|Oct 28#1",
       "NOURL|Micron Technology|Product Yield Software Engineer Intern|Boise, ID|Oct 27#1",
-      "NOURL|Leidos|Data Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fort Belvoir, VA|Oct 27#1"
+      "NOURL|Leidos|Data Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fort Belvoir, VA|Oct 27#1",
+      "NOURL|Altera|FPGA Development Tools Intern|Toronto, Canada|Oct 30#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3042,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "5e22ce73a35fe797c1c879331d18be7cc2822f66",
+    "last_sha": "1dc73e6866d94dc1cd218a6d57868e8bff67fab2",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
