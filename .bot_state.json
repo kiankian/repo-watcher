@@ -158144,6 +158144,30 @@
       "chat_id": 7582459199,
       "seq": 12727,
       "identity": "https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743|Palantir|Software Engineer - Internship - Connectivity Platform and Product|New York City, NY|Other#1"
+    },
+    "b6738317e18c": {
+      "company": "Piper Sandler",
+      "role": "Data Engineering Intern",
+      "location": "Minneapolis, MN",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1D8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14607,
+      "chat_id": 7582459199,
+      "seq": 12728,
+      "identity": "https://go.vansh.nyc/1D8?s=y|Piper Sandler|Data Engineering Intern|Minneapolis, MN|Nov 19#1"
+    },
+    "bf10fe79dc8d": {
+      "company": "Idaho National Laboratory",
+      "role": "Software Engineering Intern, Java/API Development for Neutronics Code",
+      "location": "Idaho Falls, ID",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1D6?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14608,
+      "chat_id": 7582459199,
+      "seq": 12729,
+      "identity": "https://go.vansh.nyc/1D6?s=y|Idaho National Laboratory|Software Engineering Intern, Java/API Development for Neutronics Code|Idaho Falls, ID|Nov 18#1"
     }
   },
   "applied": {
@@ -158511,10 +158535,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12727,
+  "seq": 12729,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-19T21:15:18Z",
+    "last_ok_run": "2026-11-19T21:20:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -158522,7 +158546,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T20:20:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T21:20:28Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-19T21:00:24Z"
     }

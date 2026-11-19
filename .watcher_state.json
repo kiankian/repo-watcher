@@ -3100,10 +3100,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "3a60c18d4a6f1aff8bcc729c8038d58ad1310c3b",
+    "last_sha": "83efc27935de6f464ee199951d6a1b8fb0c80121",
     "seen": [
-      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210801790|JPMorganChase|Machine Learning Intern, NLP|New York, NY|Oct 20#1",
-      "https://job-boards.greenhouse.io/insomniac/jobs/6227080004|Insomniac Games|Engine and Tools Programming Intern|Burbank, CA|Oct 20#1",
       "https://jobs.ashbyhq.com/illumio/8708e622-900e-458a-96b3-ae339329a56d|Illumio|Engineering Intern, Product Security|Sunnyvale, CA|Oct 20#1",
       "https://jobs.ashbyhq.com/illumio/09d4895b-6de4-4d22-bbc3-aa45f2b24260|Illumio|Security Research Intern|Sunnyvale, CA|Oct 20#1",
       "https://uscareers-idemia.icims.com/jobs/8707/cloud-software-engineering-internship/job|IDEMIA North America|Cloud Software Engineering Intern|Reston, VA|Oct 20#1",
@@ -8101,10 +8099,12 @@
       "NOURL|Old Mission|Software Engineer Intern|Chicago, IL|Jul 15#1",
       "https://go.vansh.nyc/1D2?s=y|DocuSign|Product Data Science Intern \ud83d\udec2|San Francisco, CA|Nov 19#1",
       "https://go.vansh.nyc/1D1?s=y|Allied Consultants|AI/ML Engineer Intern|Austin, TX|Nov 19#1",
-      "NOURL|Bosch|ERP/IT Intern|Lincolnshire, IL|Oct 12#1"
+      "NOURL|Bosch|ERP/IT Intern|Lincolnshire, IL|Oct 12#1",
+      "https://go.vansh.nyc/1D8?s=y|Piper Sandler|Data Engineering Intern|Minneapolis, MN|Nov 19#1",
+      "https://go.vansh.nyc/1D6?s=y|Idaho National Laboratory|Software Engineering Intern, Java/API Development for Neutronics Code|Idaho Falls, ID|Nov 18#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3056,
+    "last_row_count": 3058,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
