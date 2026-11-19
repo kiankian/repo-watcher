@@ -157748,6 +157748,54 @@
       "chat_id": 7582459199,
       "seq": 12694,
       "identity": "NOURL|Motorola|FPGA Design Engineering Intern|Schaumburg, IL|Sep 08#1"
+    },
+    "27c98bfeff68": {
+      "company": "Amperity",
+      "role": "Software Development Engineer Intern",
+      "location": "Seattle, WA",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1CY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14566,
+      "chat_id": 7582459199,
+      "seq": 12695,
+      "identity": "https://go.vansh.nyc/1CY?s=y|Amperity|Software Development Engineer Intern|Seattle, WA|Nov 19#1"
+    },
+    "511792972ed6": {
+      "company": "Ralliant",
+      "role": "Software Engineering Intern",
+      "location": "Beaverton, OR",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1CW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14567,
+      "chat_id": 7582459199,
+      "seq": 12696,
+      "identity": "https://go.vansh.nyc/1CW?s=y|Ralliant|Software Engineering Intern|Beaverton, OR|Nov 18#1"
+    },
+    "58afabb13de1": {
+      "company": "Carnival Corporation",
+      "role": "BI Report Developer Intern, Crew Operations",
+      "location": "Seattle, WA",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1CV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14568,
+      "chat_id": 7582459199,
+      "seq": 12697,
+      "identity": "https://go.vansh.nyc/1CV?s=y|Carnival Corporation|BI Report Developer Intern, Crew Operations|Seattle, WA|Nov 18#1"
+    },
+    "e9361a53fa38": {
+      "company": "Quadric",
+      "role": "Deep Learning Compiler Intern",
+      "location": "Burlingame, CA",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14569,
+      "chat_id": 7582459199,
+      "seq": 12698,
+      "identity": "NOURL|Quadric|Deep Learning Compiler Intern|Burlingame, CA|Oct 22#1"
     }
   },
   "applied": {
@@ -158115,10 +158163,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12694,
+  "seq": 12698,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-19T18:45:23Z",
+    "last_ok_run": "2026-11-19T18:50:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -158126,9 +158174,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T18:20:23Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-19T18:50:25Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-19T18:15:27Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-19T18:50:27Z"
     }
   }
 }

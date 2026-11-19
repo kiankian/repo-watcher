@@ -3100,12 +3100,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "019aaebce3f6f044436b3816a98843c3f144ecaa",
+    "last_sha": "cf26ccea1b8249c80b8adb9bc76b8fa42c93b052",
     "seen": [
-      "https://pictonmahoney.bamboohr.com/careers/387|Picton Mahoney Asset Management|Data Engineer Intern|Toronto, ON, Canada|Oct 20#1",
-      "https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13|Palantir|Software Engineer Intern, Query Engines|New York, NY|Oct 20#1",
-      "https://jobs.paccar.com/job/Kirkland-Summer-2027-Field-Service-Data-Analyst-Intern-WA-98033/1449526633/?ats=successfactors|Paccar|Field Service Data Analyst Intern|Kirkland, WA|Oct 20#1",
-      "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094|Micron Technology|SMAI Probe AI Engineer Intern|Boise, ID|Oct 20#1",
       "https://jobs.ashbyhq.com/metamorphic/cf518648-4e65-4f7d-aa05-f01066d8bd8a/application?embed=true|Metamorphic|Engineering Intern|Palo Alto, CA|Oct 20#1",
       "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Silicon-Validation-Intern--BS---Summer-2027_2603850-1|Marvell|Silicon Validation Intern|Santa Clara, CA|Oct 20#1",
       "https://jobs.smartrecruiters.com/LinkedIn3/744000156616169|LinkedIn|Software Engineer Intern|Mountain View, CA|Oct 20#1",
@@ -8101,10 +8097,14 @@
       "https://go.vansh.nyc/1CU?s=y|Scout Space|Embedded Firmware Engineering Intern \ud83c\uddfa\ud83c\uddf8|Reston, VA Remote United States|Nov 18#1",
       "NOURL|Intuitive|Data Science Intern|Sunnyvale, CA|Nov 02#1",
       "NOURL|Intuitive|AI/ML Engineer Intern|Sunnyvale, CA|Nov 02#1",
-      "NOURL|Motorola|FPGA Design Engineering Intern|Schaumburg, IL|Sep 08#1"
+      "NOURL|Motorola|FPGA Design Engineering Intern|Schaumburg, IL|Sep 08#1",
+      "https://go.vansh.nyc/1CY?s=y|Amperity|Software Development Engineer Intern|Seattle, WA|Nov 19#1",
+      "https://go.vansh.nyc/1CW?s=y|Ralliant|Software Engineering Intern|Beaverton, OR|Nov 18#1",
+      "https://go.vansh.nyc/1CV?s=y|Carnival Corporation|BI Report Developer Intern, Crew Operations|Seattle, WA|Nov 18#1",
+      "NOURL|Quadric|Deep Learning Compiler Intern|Burlingame, CA|Oct 22#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3051,
+    "last_row_count": 3054,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
