@@ -159896,6 +159896,42 @@
       "chat_id": 7582459199,
       "seq": 12873,
       "identity": "https://zapply.jobs/l/d/workday-rockwellautomation-external-rockwell-aut-R26-5010?s=gh-internships-2027|Rockwell Automation|Intern, Content IDE Software Development (LCS)|Mayfield Heights, Ohio, United...|Summer 2027#1"
+    },
+    "51b3a07436e9": {
+      "company": "National Bank of Canada",
+      "role": "Artificial Intelligence Developer Intern",
+      "location": "Canada",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14809,
+      "chat_id": 7582459199,
+      "seq": 12874,
+      "identity": "NOURL|National Bank of Canada|Artificial Intelligence Developer Intern|Canada|Oct 14#1"
+    },
+    "35c92e8a38df": {
+      "company": "National Bank of Canada",
+      "role": "Artificial Intelligence Scientist Intern",
+      "location": "Canada",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14810,
+      "chat_id": 7582459199,
+      "seq": 12875,
+      "identity": "NOURL|National Bank of Canada|Artificial Intelligence Scientist Intern|Canada|Oct 14#1"
+    },
+    "09dbd867b89f": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering Internship",
+      "location": "Bellevue, Washington",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tmobile-external-REQ383767?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 14811,
+      "chat_id": 7582459199,
+      "seq": 12876,
+      "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ383767?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|Bellevue, Washington|Summer 2027#1"
     }
   },
   "applied": {
@@ -160263,10 +160299,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12873,
+  "seq": 12876,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T16:45:19Z",
+    "last_ok_run": "2026-11-20T16:50:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",

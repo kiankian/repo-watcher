@@ -3120,10 +3120,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "7a8b2b75a6f049b4bbc4888e536c3382cfcf0856",
+    "last_sha": "47e990ef93d7b63dd9d4d65379b56adb10533f08",
     "seen": [
-      "https://job-boards.greenhouse.io/togetherai/jobs/5238469007|Together AI|Hardware Security Engineer Intern|San Francisco, CA|Oct 16#1",
-      "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Detroit-MI/Summer-2027-Internships---Marketing--Accounting--or-Information-Technology_R-085042-1|Rocket Companies|Marketing, Accounting, or IT Intern|Detroit, MI|Oct 16#1",
       "https://qualcomm.eightfold.ai/careers/job/446721615591|Qualcomm|Automotive Engineering Intern|Markham, ON, Canada|Oct 16#1",
       "https://jobs.smartrecruiters.com/llnl/3743990016166026|LLNL|HPC Cluster Engineer Intern|Livermore, CA|Oct 16#1",
       "https://jobs.smartrecruiters.com/llnl/3743990016165636|LLNL|Cybersecurity Intern, Cyber and Critical Infrastructure Summer Institute|Livermore, CA|Oct 16#1",
@@ -8121,14 +8119,16 @@
       "https://go.vansh.nyc/1EE?s=y|The SilverLogic|AI Engineer/Consultant Intern|Boca Raton, FL|Nov 20#1",
       "https://go.vansh.nyc/1EF?s=y|Illinois Tool Works|Software Engineering Intern|Appleton, WI|Nov 20#1",
       "https://go.vansh.nyc/1EG?s=y|Illinois Tool Works|Software Engineering Intern|Rogers, MN|Nov 20#1",
-      "NOURL|DV Trading|Data Center Engineer Intern|Chicago, IL|Oct 12#1"
+      "NOURL|DV Trading|Data Center Engineer Intern|Chicago, IL|Oct 12#1",
+      "NOURL|National Bank of Canada|Artificial Intelligence Developer Intern|Canada|Oct 14#1",
+      "NOURL|National Bank of Canada|Artificial Intelligence Scientist Intern|Canada|Oct 14#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3133,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "7cd843f75b0ba17812a6fe2d6e04cfa6d49eb3bc",
+    "last_sha": "98313b9dc62ccf66f4d0332edd75c3dc6b0d694c",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -10910,7 +10910,8 @@
       "https://zapply.jobs/l/d/workday-cadence-external-careers-R57254?s=gh-internships-2027|Cadence|Software Engineering Intern - Circuit Simulation infrastructure|SAN JOSE|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-cadence-univ-careers-R57254?s=gh-internships-2027|Cadence (University)|Software Engineering Intern - Circuit Simulation infrastructure|SAN JOSE|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-symbotic-symbotic-R8567?s=gh-internships-2027|Symbotic|Intern- Software Engineer, Front-End|USA Austin, TX|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-rockwellautomation-external-rockwell-aut-R26-5010?s=gh-internships-2027|Rockwell Automation|Intern, Content IDE Software Development (LCS)|Mayfield Heights, Ohio, United...|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-rockwellautomation-external-rockwell-aut-R26-5010?s=gh-internships-2027|Rockwell Automation|Intern, Content IDE Software Development (LCS)|Mayfield Heights, Ohio, United...|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-tmobile-external-REQ383767?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|Bellevue, Washington|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
