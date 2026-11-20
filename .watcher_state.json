@@ -11080,7 +11080,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "36294e99eef04a7d9528e628a1f3ce3bffc1cee7",
+    "last_sha": "8a9e769de059710dd41ffb830278b6cf3c6e6cc2",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -11359,7 +11359,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "36294e99eef04a7d9528e628a1f3ce3bffc1cee7",
+    "last_sha": "8a9e769de059710dd41ffb830278b6cf3c6e6cc2",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -13452,7 +13452,32 @@
       "https://valeris.wd108.myworkdayjobs.com/en-US/valeris/job/Louisville-KY/Software-Engineer-Intern_JR1044|Valeris|Software Engineer Intern|Louisville, KY|Other#1",
       "https://jobs.smartrecruiters.com/WesternDigital/744000162353069-spring-2027-intern-software-engineering?oga=true|Western Digital|Spring 2027 Intern - Software Engineering|Irvine, CA|Other#1",
       "https://jobs.lever.co/palantir/eb496d6a-a960-43d3-a09b-e3843052f54e|Palantir|Software Engineer - Internship - Connectivity Platform and Product|Denver, CO|Other#1",
-      "https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743|Palantir|Software Engineer - Internship - Connectivity Platform and Product|New York City, NY|Other#1"
+      "https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743|Palantir|Software Engineer - Internship - Connectivity Platform and Product|New York City, NY|Other#1",
+      "https://jobs.smartrecruiters.com/LLNL/3743990016985486-computing-undergraduate-student-intern-devops-internship-program-summer-2027?oga=true|Lawrence Livermore National Laboratory|Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027|Livermore, CA|Other#1",
+      "https://lucidmotors.com/careers/search/5290921007?gh_jid=5290921007|Lucid Motors|Intern - Infotainment Software - Summer 2027|Newark, CA|Other#1",
+      "https://lucidmotors.com/careers/search/5290904007?gh_jid=5290904007|Lucid Motors|Intern - Embedded Software - Summer 2027|Newark, CA|Other#1",
+      "https://lucidmotors.com/careers/search/5290947007?gh_jid=5290947007|Lucid Motors|Intern - Motor Control Software Development and Validation Engineer - Summer 2027|Newark, CA|Other#1",
+      "https://lucidmotors.com/careers/search/5290925007?gh_jid=5290925007|Lucid Motors|Intern - Software QA Engineer - Infotainment - Summer 2027|Newark, CA|Other#1",
+      "https://lucidmotors.com/careers/search/5290800007?gh_jid=5290800007|Lucid Motors|Intern - Embedded Software - BSP/Platform - ADAS/Autonomous Driving - Summer 2027|Newark, CA|Other#1",
+      "https://jobs.ashbyhq.com/snowflake/0223923d-4f0f-44e6-9649-0d1a9eda950d|Snowflake|Software Engineer Intern - Database Engineering - Summer 2027|Menlo Park, CA +1|Other#1",
+      "https://jobs.ashbyhq.com/snowflake/e194759e-3a20-47c9-868d-f47179613897|Snowflake|Software Engineer Intern - Core - Infrastructure & Security \u2014 Summer 2027|Menlo Park, CA +1|Other#1",
+      "https://jobs.ashbyhq.com/snowflake/185d165c-09c7-4b57-9281-ff7c2c541907|Snowflake|Software Engineer Intern - AI / ML - Summer 2027|Menlo Park, CA +1|Other#1",
+      "https://amperity.com/careers?gh_jid=8393990#openpositions|Amperity|Intern - Software Development Engineer|Seattle, WA|Other#1",
+      "https://cadence.wd1.myworkdayjobs.com/en-US/external_careers/job/SAN-JOSE/Software-Engineering-Intern---Circuit-Simulation-infrastructure_R57254-1|Cadence|Software Engineering Intern - Circuit Simulation infrastructure|San Jose, CA|Other#1",
+      "https://compassion.wd5.myworkdayjobs.com/en-US/compassioncareers/job/USA---Global-Ministry-Center/XMLNAME-2027-Summer-Internship---Data-and-Software-Engineering_R8840|Compassion|2027 Summer Internship - Data and Software Engineering|USA|Other#1",
+      "https://careers-garmin.icims.com/jobs/20177/job|Garmin|Software Engineering Intern|Manhattan, KS|Other#1",
+      "https://careers-gdms.icims.com/jobs/75633/software-test-engineering-intern---space-and-embedded-crypto/job|General Dynamics Mission Systems|Software Test Engineering Intern - Space and Embedded Crypto|Scottsdale, AZ|Other#1",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4679467|Gentuity|Software Engineer Co-Op|Sudbury, MA|Other#1",
+      "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Austin-TX/Software-Application-Engineer-Intern_2643260-1|KLA|Software Application Engineer Intern|Austin, TX +1|Other#1",
+      "https://kla.wd1.myworkdayjobs.com/en-US/ur/job/Austin-TX/Software-Application-Engineer-Intern_2643260|KLA|Software Application Engineer Intern|Austin, TX +1|Other#1",
+      "https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Fort-Belvoir-VA/Software-Developer-Intern_R-00197399-1|Leidos|Software Developer Intern|Fort Belvoir, VA|Other#1",
+      "https://jobs.dayforcehcm.com/en-US/pcg/candidateportal/jobs/11345|Performance Contracting Group|IT Software Development Intern|Lenexa, KS|Other#1",
+      "https://ptc.wd1.myworkdayjobs.com/en-US/ptc/job/Boston-MA-USA/Creo-Software-Engineering-Intern--Summer-2027-_JR113015|PTC|Full-Stack Engineering Intern - Cloud Data Management - CAD|Boston, MA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Senior-Software-Security-Intern_01890095|Raytheon|Software Security Intern - Summer 2027|Cedar Rapids, IA|Other#1",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IN-INDIANAPOLIS-206--3939-Priority-Way-S-Dr--PRIORITY-BLDG-6/Software-Engineering-Intern--Summer-2027-_01890571|Raytheon|Software Engineering Intern - Summer 2027|Indianapolis, IN|Other#1",
+      "https://roche.wd3.myworkdayjobs.com/en-US/roche-ext/job/Santa-Clara/XMLNAME-2027-Summer-Intern---Software-Applications-and-Pipelines--R-D-Internal-Solutions--Computational-Science-and-Informatics-_202611-128312|Roche|2027 Summer Intern - Software Applications and Pipelines - R&D Internal Solutions - Computational Science and Informatics|Santa Clara, CA|Other#1",
+      "https://job-boards.greenhouse.io/scoutspace/jobs/5489232008|Scout Space|Embedded Firmware Engineering Intern - Summer 2027|Remote - Reston, VA|Other#1",
+      "https://signetjewelers.wd1.myworkdayjobs.com/en-US/signetcorporatecareers/job/Support-Center---Akron-OH/Application-Management-Software-Intern_REQ_84419|Signet Jewelers|Application Management Software Intern|Akron, OH|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -13596,7 +13621,74 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 725,
-    "outbox": []
+    "last_row_count": 726,
+    "outbox": [
+      [
+        [
+          "T-Mobile",
+          "Summer 2027 Software Engineering Internship",
+          "Overland Park, KS",
+          "Other",
+          "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ381366"
+        ],
+        "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ381366|T-Mobile|Summer 2027 Software Engineering Internship|Overland Park, KS|Other#1",
+        1
+      ],
+      [
+        [
+          "T-Mobile",
+          "Summer 2027 Software Engineering Intern",
+          "Overland Park, KS",
+          "Other",
+          "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Intern_REQ381362"
+        ],
+        "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Intern_REQ381362|T-Mobile|Summer 2027 Software Engineering Intern|Overland Park, KS|Other#1",
+        1
+      ],
+      [
+        [
+          "T-Mobile",
+          "Summer 2027 Software Engineering AI Internship",
+          "Atlanta, GA",
+          "Other",
+          "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Atlanta-Georgia/Summer-2027-Software-Engineering-AI-Internship_REQ382067"
+        ],
+        "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Atlanta-Georgia/Summer-2027-Software-Engineering-AI-Internship_REQ382067|T-Mobile|Summer 2027 Software Engineering AI Internship|Atlanta, GA|Other#1",
+        1
+      ],
+      [
+        [
+          "T-Mobile",
+          "Summer 2027 AI Engineering Internship - Site Reliability & Automation",
+          "Atlanta, GA",
+          "Other",
+          "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Atlanta-Georgia/Summer-2027-AI-Engineering-Internship---Site-Reliability---Automation_REQ383239"
+        ],
+        "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Atlanta-Georgia/Summer-2027-AI-Engineering-Internship---Site-Reliability---Automation_REQ383239|T-Mobile|Summer 2027 AI Engineering Internship - Site Reliability & Automation|Atlanta, GA|Other#1",
+        1
+      ],
+      [
+        [
+          "Veolia",
+          "Manufacturing Software Engineer Intern",
+          "Boulder, CO",
+          "Other",
+          "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000162593839-manufacturing-software-engineer-intern?oga=true"
+        ],
+        "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000162593839-manufacturing-software-engineer-intern?oga=true|Veolia|Manufacturing Software Engineer Intern|Boulder, CO|Other#1",
+        1
+      ],
+      [
+        [
+          "Astronics",
+          "Software Engineer Intern - Summer 2027",
+          "Kirkland, WA",
+          "Other",
+          "https://job-boards.greenhouse.io/astronicscorporation/jobs/4431835009"
+        ],
+        "https://job-boards.greenhouse.io/astronicscorporation/jobs/4431835009|Astronics|Software Engineer Intern - Summer 2027|Kirkland, WA|Other#1",
+        1
+      ]
+    ]
   }
 }
