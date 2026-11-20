@@ -159284,6 +159284,18 @@
       "chat_id": 7582459199,
       "seq": 12822,
       "identity": "NOURL|Steel Dynamics|Information Security Intern|Fort Wayne, IN|Nov 09#1"
+    },
+    "cb75f8a4941d": {
+      "company": "Melaleuca",
+      "role": "Software Development Intern",
+      "location": "Idaho Falls, ID",
+      "term": "Summer 2026",
+      "apply_url": "https://recruiting2.ultipro.com/MEL1001MEL/JobBoard/d5ffce96-7247-41c4-831b-454b3454c233/OpportunityDetail?opportunityId=da1623df-5176-4008-9b62-c1c59dda63bf&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14732,
+      "chat_id": 7582459199,
+      "seq": 12823,
+      "identity": "https://recruiting2.ultipro.com/MEL1001MEL/JobBoard/d5ffce96-7247-41c4-831b-454b3454c233/OpportunityDetail?opportunityId=da1623df-5176-4008-9b62-c1c59dda63bf&utm_source=Simplify&ref=Simplify|Melaleuca|Software Development Intern|Idaho Falls, ID|Summer 2026#1"
     }
   },
   "applied": {
@@ -159651,10 +159663,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12822,
+  "seq": 12823,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T07:30:22Z",
+    "last_ok_run": "2026-11-20T07:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
