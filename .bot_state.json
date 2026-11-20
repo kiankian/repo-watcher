@@ -160808,6 +160808,18 @@
       "chat_id": 7582459199,
       "seq": 12949,
       "identity": "https://zapply.jobs/l/d/sr-ServiceNow-744000162827365?s=gh-internships-2027|ServiceNow|Security Software Engineer Intern|Kirkland, Washington|Summer 2027#1"
+    },
+    "82e70f026fc0": {
+      "company": "Waymo",
+      "role": "Scenes Intern",
+      "location": "Mountain View, CA",
+      "term": "Sep 17",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14903,
+      "chat_id": 7582459199,
+      "seq": 12950,
+      "identity": "NOURL|Waymo|Scenes Intern|Mountain View, CA|Sep 17#1"
     }
   },
   "applied": {
@@ -161175,10 +161187,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12949,
+  "seq": 12950,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T22:45:18Z",
+    "last_ok_run": "2026-11-20T22:50:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
