@@ -160592,6 +160592,90 @@
       "chat_id": 7582459199,
       "seq": 12931,
       "identity": "NOURL|Genesys|Web Software Developer Intern, WFM|Toronto, Canada|Nov 05#1"
+    },
+    "a36d4d3a821a": {
+      "company": "Centene Corporation",
+      "role": "Undergraduate Analytics Engineering Intern",
+      "location": "Remote United States",
+      "term": "Nov 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14881,
+      "chat_id": 7582459199,
+      "seq": 12932,
+      "identity": "NOURL|Centene Corporation|Undergraduate Analytics Engineering Intern|Remote United States|Nov 19#1"
+    },
+    "35d4aa638d74": {
+      "company": "Marvell",
+      "role": "MS AI Infrastructure Engineer Intern",
+      "location": "Santa Clara, CA",
+      "term": "Nov 17",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14882,
+      "chat_id": 7582459199,
+      "seq": 12933,
+      "identity": "NOURL|Marvell|MS AI Infrastructure Engineer Intern|Santa Clara, CA|Nov 17#1"
+    },
+    "6a86a1dbb151": {
+      "company": "Trilogy Innovations",
+      "role": "Technical Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Remote United States",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14883,
+      "chat_id": 7582459199,
+      "seq": 12934,
+      "identity": "NOURL|Trilogy Innovations|Technical Intern \ud83c\uddfa\ud83c\uddf8|Remote United States|Nov 05#1"
+    },
+    "b57030a6afb7": {
+      "company": "General Dynamics Information Technology",
+      "role": "Cybersecurity Associate Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Bossier City, LA",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14884,
+      "chat_id": 7582459199,
+      "seq": 12935,
+      "identity": "NOURL|General Dynamics Information Technology|Cybersecurity Associate Intern \ud83c\uddfa\ud83c\uddf8|Bossier City, LA|Nov 05#1"
+    },
+    "18871729c2b8": {
+      "company": "Aerospace Corporation",
+      "role": "Defensive Cyber Operations Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "El Segundo, CA",
+      "term": "Oct 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14885,
+      "chat_id": 7582459199,
+      "seq": 12936,
+      "identity": "NOURL|Aerospace Corporation|Defensive Cyber Operations Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 23#1"
+    },
+    "928550d69b24": {
+      "company": "Westinghouse Electric Company",
+      "role": "Software Engineering Intern",
+      "location": "Warrendale, PA",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14886,
+      "chat_id": 7582459199,
+      "seq": 12937,
+      "identity": "NOURL|Westinghouse Electric Company|Software Engineering Intern|Warrendale, PA|Oct 22#1"
+    },
+    "b0dc1887a169": {
+      "company": "Auto-Owners Insurance",
+      "role": "Software Engineer Intern",
+      "location": "Bedford, NH",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14887,
+      "chat_id": 7582459199,
+      "seq": 12938,
+      "identity": "NOURL|Auto-Owners Insurance|Software Engineer Intern|Bedford, NH|Oct 14#1"
     }
   },
   "applied": {
@@ -160959,10 +161043,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12931,
+  "seq": 12938,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T21:20:17Z",
+    "last_ok_run": "2026-11-20T21:25:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -160970,7 +161054,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T20:50:24Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T21:25:26Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-20T21:15:25Z"
     }
