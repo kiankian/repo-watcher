@@ -160676,6 +160676,54 @@
       "chat_id": 7582459199,
       "seq": 12938,
       "identity": "NOURL|Auto-Owners Insurance|Software Engineer Intern|Bedford, NH|Oct 14#1"
+    },
+    "e1a4fa39993b": {
+      "company": "Rivian",
+      "role": "Software Engineering Intern, AI Platform, Autonomy",
+      "location": "Palo Alto, CA",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1F3?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14889,
+      "chat_id": 7582459199,
+      "seq": 12939,
+      "identity": "https://go.vansh.nyc/1F3?s=y|Rivian|Software Engineering Intern, AI Platform, Autonomy|Palo Alto, CA|Nov 20#1"
+    },
+    "a258999cbf51": {
+      "company": "Cisco",
+      "role": "Data Science Analyst II Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1F1?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14890,
+      "chat_id": 7582459199,
+      "seq": 12940,
+      "identity": "https://go.vansh.nyc/1F1?s=y|Cisco|Data Science Analyst II Intern|San Jose, CA|Nov 19#1"
+    },
+    "8f30f61263cc": {
+      "company": "Ryan",
+      "role": "Application Development Intern",
+      "location": "United States",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14891,
+      "chat_id": 7582459199,
+      "seq": 12941,
+      "identity": "NOURL|Ryan|Application Development Intern|United States|Nov 09#1"
+    },
+    "fe85cc328a29": {
+      "company": "KLA",
+      "role": "Software Engineer Intern, C++, Linux",
+      "location": "Milpitas, CA",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14892,
+      "chat_id": 7582459199,
+      "seq": 12942,
+      "identity": "NOURL|KLA|Software Engineer Intern, C++, Linux|Milpitas, CA|Oct 22#1"
     }
   },
   "applied": {
@@ -161043,10 +161091,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12938,
+  "seq": 12942,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T21:45:20Z",
+    "last_ok_run": "2026-11-20T21:50:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -161056,7 +161104,7 @@
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T21:25:26Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-20T21:15:25Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-20T21:50:26Z"
     }
   }
 }
