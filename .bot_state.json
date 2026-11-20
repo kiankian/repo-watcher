@@ -160868,6 +160868,78 @@
       "chat_id": 7582459199,
       "seq": 12954,
       "identity": "NOURL|IDEMIA North America|Cloud Software Engineering Intern|Reston, VA|Oct 20#1"
+    },
+    "d609b95f6efe": {
+      "company": "GCI",
+      "role": "Software Developer Intern",
+      "location": "Virginia",
+      "term": "Summer 2026",
+      "apply_url": "https://recruiting.ultipro.com/GCI1000GCI/JobBoard/09636f6c-2fa1-4a76-adb9-57dea469416b/OpportunityDetail?opportunityId=561ce011-a9e5-4635-b991-2c8abd3d88bf&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14911,
+      "chat_id": 7582459199,
+      "seq": 12955,
+      "identity": "https://recruiting.ultipro.com/GCI1000GCI/JobBoard/09636f6c-2fa1-4a76-adb9-57dea469416b/OpportunityDetail?opportunityId=561ce011-a9e5-4635-b991-2c8abd3d88bf&utm_source=Simplify&ref=Simplify|GCI|Software Developer Intern|Virginia|Summer 2026#1"
+    },
+    "542bf7dbcee6": {
+      "company": "Southwest Power Pool",
+      "role": "Operations Developer Intern",
+      "location": "Little Rock, AR",
+      "term": "Summer 2026",
+      "apply_url": "https://recruiting2.ultipro.com/SOU1052SPPI/JobBoard/bc99b5f0-ed6b-436e-b545-2196af0704de/OpportunityDetail?opportunityId=51168e8a-cd42-4169-9c50-0019367a9d83&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14912,
+      "chat_id": 7582459199,
+      "seq": 12956,
+      "identity": "https://recruiting2.ultipro.com/SOU1052SPPI/JobBoard/bc99b5f0-ed6b-436e-b545-2196af0704de/OpportunityDetail?opportunityId=51168e8a-cd42-4169-9c50-0019367a9d83&utm_source=Simplify&ref=Simplify|Southwest Power Pool|Operations Developer Intern|Little Rock, AR|Summer 2026#1"
+    },
+    "747d6b0fe29c": {
+      "company": "Ralliant",
+      "role": "Software Engineering Intern - AI Building",
+      "location": "Beaverton, OR",
+      "term": "Summer 2026",
+      "apply_url": "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11324?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14913,
+      "chat_id": 7582459199,
+      "seq": 12957,
+      "identity": "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11324?utm_source=Simplify&ref=Simplify|Ralliant|Software Engineering Intern - AI Building|Beaverton, OR|Summer 2026#1"
+    },
+    "d89e461c0d2c": {
+      "company": "AFL",
+      "role": "Web Design/Development Intern",
+      "location": "Duncan, SC",
+      "term": "Summer 2026",
+      "apply_url": "https://recruiting.ultipro.com/afl1002/JobBoard/d535bad2-e3ea-c8c8-2fb2-63621892e293/OpportunityDetail?opportunityId=f8bbce67-bdc3-4356-8e17-d3b6b4e71a80&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14914,
+      "chat_id": 7582459199,
+      "seq": 12958,
+      "identity": "https://recruiting.ultipro.com/afl1002/JobBoard/d535bad2-e3ea-c8c8-2fb2-63621892e293/OpportunityDetail?opportunityId=f8bbce67-bdc3-4356-8e17-d3b6b4e71a80&utm_source=Simplify&ref=Simplify|AFL|Web Design/Development Intern|Duncan, SC|Summer 2026#1"
+    },
+    "51790a075d6d": {
+      "company": "Encore",
+      "role": "IT Application Development Intern - Summer 2027",
+      "location": "Schiller Park, IL",
+      "term": "Summer 2026",
+      "apply_url": "https://recruiting2.ultipro.com/AUD1001AUDV/JobBoard/b1e2129f-5d09-48e8-b7ff-4e900458d8a9/OpportunityDetail?opportunityId=542e34a6-1977-4fcb-a173-6f32705efcb8&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14915,
+      "chat_id": 7582459199,
+      "seq": 12959,
+      "identity": "https://recruiting2.ultipro.com/AUD1001AUDV/JobBoard/b1e2129f-5d09-48e8-b7ff-4e900458d8a9/OpportunityDetail?opportunityId=542e34a6-1977-4fcb-a173-6f32705efcb8&utm_source=Simplify&ref=Simplify|Encore|IT Application Development Intern - Summer 2027|Schiller Park, IL|Summer 2026#1"
+    },
+    "1a508e7f1f98": {
+      "company": "Axon",
+      "role": "Software Engineer Intern",
+      "location": "London, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/8159006003?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 14916,
+      "chat_id": 7582459199,
+      "seq": 12960,
+      "identity": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/8159006003?utm_source=Simplify&ref=Simplify|Axon|Software Engineer Intern|London, UK|Summer 2026#1"
     }
   },
   "applied": {
@@ -161235,10 +161307,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12954,
+  "seq": 12960,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T23:30:20Z",
+    "last_ok_run": "2026-11-20T23:35:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
