@@ -159548,6 +159548,42 @@
       "chat_id": 7582459199,
       "seq": 12844,
       "identity": "https://go.vansh.nyc/1Ek?s=y|National Interstate Insurance|Data Engineer Developer Intern|Cincinnati, OH|Nov 18#1"
+    },
+    "7c9287068d13": {
+      "company": "Smule",
+      "role": "Applied Research Scientist Intern",
+      "location": "Salt Lake City, UT",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Em?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14764,
+      "chat_id": 7582459199,
+      "seq": 12845,
+      "identity": "https://go.vansh.nyc/1Em?s=y|Smule|Applied Research Scientist Intern|Salt Lake City, UT|Nov 20#1"
+    },
+    "f132aa6cabef": {
+      "company": "Smule",
+      "role": "Machine Learning Engineer Intern",
+      "location": "Salt Lake City, UT",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1En?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14765,
+      "chat_id": 7582459199,
+      "seq": 12846,
+      "identity": "https://go.vansh.nyc/1En?s=y|Smule|Machine Learning Engineer Intern|Salt Lake City, UT|Nov 20#1"
+    },
+    "8a94422cf84e": {
+      "company": "Smule",
+      "role": "Research Engineer Intern",
+      "location": "Salt Lake City, UT",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Eo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14766,
+      "chat_id": 7582459199,
+      "seq": 12847,
+      "identity": "https://go.vansh.nyc/1Eo?s=y|Smule|Research Engineer Intern|Salt Lake City, UT|Nov 20#1"
     }
   },
   "applied": {
@@ -159915,10 +159951,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12844,
+  "seq": 12847,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T11:15:26Z",
+    "last_ok_run": "2026-11-20T11:20:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -159926,7 +159962,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T10:20:24Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T11:20:26Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-20T11:00:26Z"
     }
