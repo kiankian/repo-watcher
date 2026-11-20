@@ -158816,6 +158816,90 @@
       "chat_id": 7582459199,
       "seq": 12783,
       "identity": "https://careers.formlabs.com/job/8400855/apply/?gh_jid=8400855&utm_source=Simplify&ref=Simplify|Formlabs|API & Automation Intern|Somerville, MA|Summer 2026#1"
+    },
+    "47e9a9b78189": {
+      "company": "Southern Mississippi Trading",
+      "role": "AI and Business Analytics Intern",
+      "location": "Waynesboro, MS",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1DV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14680,
+      "chat_id": 7582459199,
+      "seq": 12784,
+      "identity": "https://go.vansh.nyc/1DV?s=y|Southern Mississippi Trading|AI and Business Analytics Intern|Waynesboro, MS|Nov 19#1"
+    },
+    "27851dbfca80": {
+      "company": "Lucid Motors",
+      "role": "Product Security Engineering Intern",
+      "location": "Newark, CA",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1DW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14681,
+      "chat_id": 7582459199,
+      "seq": 12785,
+      "identity": "https://go.vansh.nyc/1DW?s=y|Lucid Motors|Product Security Engineering Intern|Newark, CA|Nov 19#1"
+    },
+    "fbaebcfe0ae0": {
+      "company": "Lucid Motors",
+      "role": "Embedded Software Intern, BSP/Platform, ADAS/Autonomous Driving",
+      "location": "Newark, CA",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1DT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14682,
+      "chat_id": 7582459199,
+      "seq": 12786,
+      "identity": "https://go.vansh.nyc/1DT?s=y|Lucid Motors|Embedded Software Intern, BSP/Platform, ADAS/Autonomous Driving|Newark, CA|Nov 19#1"
+    },
+    "40ef39b06cfc": {
+      "company": "Lucid Motors",
+      "role": "Infotainment Software Intern",
+      "location": "Newark, CA",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1DU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14683,
+      "chat_id": 7582459199,
+      "seq": 12787,
+      "identity": "https://go.vansh.nyc/1DU?s=y|Lucid Motors|Infotainment Software Intern|Newark, CA|Nov 19#1"
+    },
+    "1c5c835d85a1": {
+      "company": "Formlabs",
+      "role": "API & Automation Intern",
+      "location": "Somerville, MA",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1DS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14684,
+      "chat_id": 7582459199,
+      "seq": 12788,
+      "identity": "https://go.vansh.nyc/1DS?s=y|Formlabs|API & Automation Intern|Somerville, MA|Nov 19#1"
+    },
+    "c08c6952c5ce": {
+      "company": "Highmark Health",
+      "role": "Vulnerability Management Analyst Undergraduate Intern",
+      "location": "Remote United States",
+      "term": "Nov 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14685,
+      "chat_id": 7582459199,
+      "seq": 12789,
+      "identity": "NOURL|Highmark Health|Vulnerability Management Analyst Undergraduate Intern|Remote United States|Nov 03#1"
+    },
+    "7f1cd657c9a1": {
+      "company": "L3Harris Technologies",
+      "role": "FPGA Software Tool Developer Co-op",
+      "location": "Waterdown, Canada",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14686,
+      "chat_id": 7582459199,
+      "seq": 12790,
+      "identity": "NOURL|L3Harris Technologies|FPGA Software Tool Developer Co-op|Waterdown, Canada|Oct 29#1"
     }
   },
   "applied": {
@@ -159183,10 +159267,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12783,
+  "seq": 12790,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T03:15:18Z",
+    "last_ok_run": "2026-11-20T03:20:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -159194,7 +159278,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T02:25:18Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T03:20:28Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-20T03:10:19Z"
     }
