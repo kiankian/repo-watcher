@@ -13,8 +13,13 @@ roadmap.
 ### 1. Bound `.bot_state.json` growth
 
 `pending` only ever grows. Entries leave it when you tap `✅ Applied` (`watch-files.yml:1136`) and
-in no other way. Currently **674 pending against 33 applied, 300 KB**, rewritten and committed on
-most runs — roughly every minute.
+in no other way. Currently **1,094 pending against 33 applied, 524 KB**, rewritten and committed on
+most runs — roughly every 5 minutes since the cron was slowed on 2026-08-06.
+
+Pausing the tracker that same day does not change this materially: at 33 taps against 1,094 entries
+the drain was removing ~3% of what the alert path adds, so the growth rate is essentially the alert
+rate either way. It does remove the only mechanism that shrinks the file, so if this is ever fixed
+properly, do it independently of whether the tracker is running.
 
 Nothing is broken today (the `.git` pack is ~2 MB), but it accretes ~120 entries/day forever, and
 every one of those is a full-file rewrite in a new commit. Left alone this is a slow repo-bloat
@@ -79,8 +84,10 @@ converts a visible duplicate into a silent lost tap.
 
 Cheapest fix: an `if: failure()` step on `process_applies` that sends a `⚠️` Telegram message
 naming the failed step. It reuses the channel already trusted for operational faults and needs no
-new infrastructure. Rate-limit it the way `health_alert` does — this job runs every minute, and an
-unthrottled failure notice would send ~1,400 messages a day.
+new infrastructure. Rate-limit it the way `health_alert` does — this job runs on every dispatch,
+and an unthrottled failure notice would send ~290 messages a day at the current 5-minute cron
+(~1,400 under the old 1-minute one). Note it is paused behind `PROCESS_APPLIES` as of 2026-08-06,
+so this is only worth building when the tracker comes back.
 
 ### 4. Validate state shape on load, and document recovery
 
