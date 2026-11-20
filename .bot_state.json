@@ -159728,6 +159728,102 @@
       "chat_id": 7582459199,
       "seq": 12859,
       "identity": "https://zapply.jobs/l/d/workday-symbotic-symbotic-R8567?s=gh-internships-2027|Symbotic|Intern- Software Engineer, Front-End|USA Austin, TX|Summer 2027#1"
+    },
+    "0c5a0dfa189e": {
+      "company": "Symbotic",
+      "role": "Software Engineer Intern, Front-End",
+      "location": "Austin, TX",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Ez?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14790,
+      "chat_id": 7582459199,
+      "seq": 12860,
+      "identity": "https://go.vansh.nyc/1Ez?s=y|Symbotic|Software Engineer Intern, Front-End|Austin, TX|Nov 20#1"
+    },
+    "170de5900502": {
+      "company": "GlobalFoundries",
+      "role": "AI/ML Analytics Intern, Digital Manufacturing",
+      "location": "New York, NY Malta, NY",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1EA?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14791,
+      "chat_id": 7582459199,
+      "seq": 12861,
+      "identity": "https://go.vansh.nyc/1EA?s=y|GlobalFoundries|AI/ML Analytics Intern, Digital Manufacturing|New York, NY Malta, NY|Nov 20#1"
+    },
+    "99d58e2e0b54": {
+      "company": "KLA",
+      "role": "Software Applications Engineering Intern",
+      "location": "Milpitas, CA",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1EB?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14792,
+      "chat_id": 7582459199,
+      "seq": 12862,
+      "identity": "https://go.vansh.nyc/1EB?s=y|KLA|Software Applications Engineering Intern|Milpitas, CA|Nov 18#1"
+    },
+    "b740e5c63290": {
+      "company": "Starwood Capital Group",
+      "role": "Data Intern",
+      "location": "New York, NY",
+      "term": "Nov 17",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14793,
+      "chat_id": 7582459199,
+      "seq": 12863,
+      "identity": "NOURL|Starwood Capital Group|Data Intern|New York, NY|Nov 17#1"
+    },
+    "23bd7b819a4b": {
+      "company": "Starwood Capital Group",
+      "role": "Agentic Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 17",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14794,
+      "chat_id": 7582459199,
+      "seq": 12864,
+      "identity": "NOURL|Starwood Capital Group|Agentic Engineering Intern|New York, NY|Nov 17#1"
+    },
+    "763dd3aefb56": {
+      "company": "Lightmatter",
+      "role": "Laser Firmware Intern",
+      "location": "Boston, MA",
+      "term": "Nov 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14795,
+      "chat_id": 7582459199,
+      "seq": 12865,
+      "identity": "NOURL|Lightmatter|Laser Firmware Intern|Boston, MA|Nov 11#1"
+    },
+    "b0ee580072d2": {
+      "company": "Farmers Mutual Hail",
+      "role": "AI Intern",
+      "location": "West Des Moines, IA",
+      "term": "Nov 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14796,
+      "chat_id": 7582459199,
+      "seq": 12866,
+      "identity": "NOURL|Farmers Mutual Hail|AI Intern|West Des Moines, IA|Nov 11#1"
+    },
+    "7deb0a6c4ba3": {
+      "company": "Epic Games",
+      "role": "Data Science Intern",
+      "location": "Cary, NC",
+      "term": "Sep 21",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14797,
+      "chat_id": 7582459199,
+      "seq": 12867,
+      "identity": "NOURL|Epic Games|Data Science Intern|Cary, NC|Sep 21#1"
     }
   },
   "applied": {
@@ -160095,10 +160191,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12859,
+  "seq": 12867,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T15:15:19Z",
+    "last_ok_run": "2026-11-20T15:20:42Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -160106,7 +160202,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T14:25:27Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T15:20:40Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-20T14:55:17Z"
     }
