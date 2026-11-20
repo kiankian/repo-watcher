@@ -160424,6 +160424,78 @@
       "chat_id": 7582459199,
       "seq": 12917,
       "identity": "https://signetjewelers.wd1.myworkdayjobs.com/en-US/signetcorporatecareers/job/Support-Center---Akron-OH/Application-Management-Software-Intern_REQ_84419|Signet Jewelers|Application Management Software Intern|Akron, OH|Other#1"
+    },
+    "a6357e8da6cf": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering Internship",
+      "location": "Overland Park, KS",
+      "term": "Other",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ381366",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 14862,
+      "chat_id": 7582459199,
+      "seq": 12918,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ381366|T-Mobile|Summer 2027 Software Engineering Internship|Overland Park, KS|Other#1"
+    },
+    "f769087188bd": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering Intern",
+      "location": "Overland Park, KS",
+      "term": "Other",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Intern_REQ381362",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 14863,
+      "chat_id": 7582459199,
+      "seq": 12919,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Intern_REQ381362|T-Mobile|Summer 2027 Software Engineering Intern|Overland Park, KS|Other#1"
+    },
+    "ad81563e707c": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering AI Internship",
+      "location": "Atlanta, GA",
+      "term": "Other",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Atlanta-Georgia/Summer-2027-Software-Engineering-AI-Internship_REQ382067",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 14864,
+      "chat_id": 7582459199,
+      "seq": 12920,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Atlanta-Georgia/Summer-2027-Software-Engineering-AI-Internship_REQ382067|T-Mobile|Summer 2027 Software Engineering AI Internship|Atlanta, GA|Other#1"
+    },
+    "5af62fddb043": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 AI Engineering Internship - Site Reliability & Automation",
+      "location": "Atlanta, GA",
+      "term": "Other",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Atlanta-Georgia/Summer-2027-AI-Engineering-Internship---Site-Reliability---Automation_REQ383239",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 14865,
+      "chat_id": 7582459199,
+      "seq": 12921,
+      "identity": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Atlanta-Georgia/Summer-2027-AI-Engineering-Internship---Site-Reliability---Automation_REQ383239|T-Mobile|Summer 2027 AI Engineering Internship - Site Reliability & Automation|Atlanta, GA|Other#1"
+    },
+    "9c9b80e67444": {
+      "company": "Veolia",
+      "role": "Manufacturing Software Engineer Intern",
+      "location": "Boulder, CO",
+      "term": "Other",
+      "apply_url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000162593839-manufacturing-software-engineer-intern?oga=true",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 14866,
+      "chat_id": 7582459199,
+      "seq": 12922,
+      "identity": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000162593839-manufacturing-software-engineer-intern?oga=true|Veolia|Manufacturing Software Engineer Intern|Boulder, CO|Other#1"
+    },
+    "d719b1a8fd70": {
+      "company": "Astronics",
+      "role": "Software Engineer Intern - Summer 2027",
+      "location": "Kirkland, WA",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/astronicscorporation/jobs/4431835009",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 14867,
+      "chat_id": 7582459199,
+      "seq": 12923,
+      "identity": "https://job-boards.greenhouse.io/astronicscorporation/jobs/4431835009|Astronics|Software Engineer Intern - Summer 2027|Kirkland, WA|Other#1"
     }
   },
   "applied": {
@@ -160791,10 +160863,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12917,
+  "seq": 12923,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T19:55:57Z",
+    "last_ok_run": "2026-11-20T20:00:35Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
