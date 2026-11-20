@@ -159836,6 +159836,54 @@
       "chat_id": 7582459199,
       "seq": 12868,
       "identity": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Austin-TX/Intern--Software-Engineer--Front-End_R8567-1?utm_source=Simplify&ref=Simplify|Symbotic|Software Engineer Intern - Front-End|Austin, TX|Summer 2026#1"
+    },
+    "228304de3c6e": {
+      "company": "The SilverLogic",
+      "role": "AI Engineer/Consultant Intern",
+      "location": "Boca Raton, FL",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1EE?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14802,
+      "chat_id": 7582459199,
+      "seq": 12869,
+      "identity": "https://go.vansh.nyc/1EE?s=y|The SilverLogic|AI Engineer/Consultant Intern|Boca Raton, FL|Nov 20#1"
+    },
+    "440194dc3f22": {
+      "company": "Illinois Tool Works",
+      "role": "Software Engineering Intern",
+      "location": "Appleton, WI",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1EF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14803,
+      "chat_id": 7582459199,
+      "seq": 12870,
+      "identity": "https://go.vansh.nyc/1EF?s=y|Illinois Tool Works|Software Engineering Intern|Appleton, WI|Nov 20#1"
+    },
+    "58bdd3eb80e0": {
+      "company": "Illinois Tool Works",
+      "role": "Software Engineering Intern",
+      "location": "Rogers, MN",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1EG?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14804,
+      "chat_id": 7582459199,
+      "seq": 12871,
+      "identity": "https://go.vansh.nyc/1EG?s=y|Illinois Tool Works|Software Engineering Intern|Rogers, MN|Nov 20#1"
+    },
+    "77c7c5737461": {
+      "company": "DV Trading",
+      "role": "Data Center Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Oct 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14805,
+      "chat_id": 7582459199,
+      "seq": 12872,
+      "identity": "NOURL|DV Trading|Data Center Engineer Intern|Chicago, IL|Oct 12#1"
     }
   },
   "applied": {
@@ -160203,10 +160251,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12868,
+  "seq": 12872,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T16:20:21Z",
+    "last_ok_run": "2026-11-20T16:25:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -160214,7 +160262,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T15:20:40Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T16:25:25Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-20T16:00:26Z"
     }
