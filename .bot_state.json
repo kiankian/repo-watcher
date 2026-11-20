@@ -160112,6 +160112,18 @@
       "chat_id": 7582459199,
       "seq": 12891,
       "identity": "https://zapply.jobs/l/d/workday-bah-bah-jobs-R0248361?s=gh-internships-2027|Booz Allen Hamilton|University - 2027 Summer Games Systems Engineer Intern - McLean, VA|McLean, VA|Summer 2027#1"
+    },
+    "9ea5382b1a32": {
+      "company": "Ralliant",
+      "role": "Software Engineering Intern, AI Building",
+      "location": "Beaverton, OR",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1EU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14836,
+      "chat_id": 7582459199,
+      "seq": 12892,
+      "identity": "https://go.vansh.nyc/1EU?s=y|Ralliant|Software Engineering Intern, AI Building|Beaverton, OR|Nov 19#1"
     }
   },
   "applied": {
@@ -160479,10 +160491,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12891,
+  "seq": 12892,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T19:45:19Z",
+    "last_ok_run": "2026-11-20T19:50:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
