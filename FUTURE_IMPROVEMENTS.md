@@ -82,6 +82,19 @@ naming the failed step. It reuses the channel already trusted for operational fa
 new infrastructure. Rate-limit it the way `health_alert` does — this job runs every minute, and an
 unthrottled failure notice would send ~1,400 messages a day.
 
+**Partially addressed, 2026-08-03 — the poll half only.** `getUpdates` now carries its own signal:
+`health.callback_poll_failures` counts consecutive unreadable polls, and the job goes red at ten of
+them (~10 minutes, well inside the 24h retention) with the reason in the step log. A permanent
+client error such as a revoked token still fails on the first run. That closes the *silent
+permanent loss* case for polling, and it also stopped the opposite fault — a six-minute Telegram
+stall on 2026-08-03 turned into three failed and three cancelled runs, because the unguarded
+`get_me()` diagnostic died before any tap was read and the 3 × 30s retry ladder pushed each run
+past the one-minute dispatch interval, evicting the queued dispatch behind it.
+
+The **Sheets** half is untouched and is what is left of this item: `sheets_credentials()` and
+`append_row` still `break` and exit 0, so a revoked service account or a deleted spreadsheet is
+silent exactly as described above. The `⚠️` notice is still the right fix for it.
+
 ### 4. Validate state shape on load, and document recovery
 
 `state = json.loads(STATE_FILE.read_text())` at `watch-files.yml:490` has no guard. A truncated or
