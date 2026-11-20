@@ -159632,6 +159632,90 @@
       "chat_id": 7582459199,
       "seq": 12851,
       "identity": "NOURL|Johnson & Johnson|Data Science Co-op|Cincinnati, OH|Nov 02#1"
+    },
+    "318ff1d9f7e3": {
+      "company": "White Cap Supply Holdings",
+      "role": "Information Security Intern, Corporate",
+      "location": "United States",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Ew?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14780,
+      "chat_id": 7582459199,
+      "seq": 12852,
+      "identity": "https://go.vansh.nyc/1Ew?s=y|White Cap Supply Holdings|Information Security Intern, Corporate|United States|Nov 20#1"
+    },
+    "b06c1d8db303": {
+      "company": "Rockwell Automation",
+      "role": "Firmware Engineering Intern \ud83d\udec2",
+      "location": "Milwaukee, WI",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Ey?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14781,
+      "chat_id": 7582459199,
+      "seq": 12853,
+      "identity": "https://go.vansh.nyc/1Ey?s=y|Rockwell Automation|Firmware Engineering Intern \ud83d\udec2|Milwaukee, WI|Nov 20#1"
+    },
+    "22f10ae5f335": {
+      "company": "DraftKings",
+      "role": "Data Engineer Intern",
+      "location": "Boston, MA",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Ex?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14782,
+      "chat_id": 7582459199,
+      "seq": 12854,
+      "identity": "https://go.vansh.nyc/1Ex?s=y|DraftKings|Data Engineer Intern|Boston, MA|Nov 20#1"
+    },
+    "15685cac3814": {
+      "company": "Nelnet",
+      "role": "Data Analytics Intern",
+      "location": "Lincoln, NE",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Ev?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14783,
+      "chat_id": 7582459199,
+      "seq": 12855,
+      "identity": "https://go.vansh.nyc/1Ev?s=y|Nelnet|Data Analytics Intern|Lincoln, NE|Nov 19#1"
+    },
+    "9385324b016c": {
+      "company": "Kudu Dynamics",
+      "role": "Software Developer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Fort Belvoir, VA",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Eu?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14784,
+      "chat_id": 7582459199,
+      "seq": 12856,
+      "identity": "https://go.vansh.nyc/1Eu?s=y|Kudu Dynamics|Software Developer Intern \ud83c\uddfa\ud83c\uddf8|Fort Belvoir, VA|Nov 19#1"
+    },
+    "3d47cd2ce44d": {
+      "company": "Altera",
+      "role": "FPGA Software Engineer Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Et?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14785,
+      "chat_id": 7582459199,
+      "seq": 12857,
+      "identity": "https://go.vansh.nyc/1Et?s=y|Altera|FPGA Software Engineer Intern|Toronto, Canada|Nov 19#1"
+    },
+    "d4635026ddaa": {
+      "company": "Election Systems & Software",
+      "role": "Information Systems Software Developer Intern",
+      "location": "Omaha, NE",
+      "term": "Oct 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14786,
+      "chat_id": 7582459199,
+      "seq": 12858,
+      "identity": "NOURL|Election Systems & Software|Information Systems Software Developer Intern|Omaha, NE|Oct 01#1"
     }
   },
   "applied": {
@@ -159999,10 +160083,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12851,
+  "seq": 12858,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-20T14:20:21Z",
+    "last_ok_run": "2026-11-20T14:25:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -160010,7 +160094,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T13:55:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-20T14:25:27Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-20T14:20:20Z"
     }
