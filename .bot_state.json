@@ -161780,6 +161780,42 @@
       "chat_id": 7582459199,
       "seq": 13030,
       "identity": "https://go.vansh.nyc/1G8?s=y|Canadian Solar|Data Engineering Intern|Kitchener, Canada|Nov 20#1"
+    },
+    "7cd67c17d74c": {
+      "company": "NVIDIA",
+      "role": "Technical Marketing Engineering Intern, Digital Biology and Scientific Computing",
+      "location": "Santa Clara, CA",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Gd?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15019,
+      "chat_id": 7582459199,
+      "seq": 13031,
+      "identity": "https://go.vansh.nyc/1Gd?s=y|NVIDIA|Technical Marketing Engineering Intern, Digital Biology and Scientific Computing|Santa Clara, CA|Nov 20#1"
+    },
+    "106af21f1c09": {
+      "company": "Activision Blizzard",
+      "role": "Data Platform Engineering Intern",
+      "location": "Irvine, CA",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Ge?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15020,
+      "chat_id": 7582459199,
+      "seq": 13032,
+      "identity": "https://go.vansh.nyc/1Ge?s=y|Activision Blizzard|Data Platform Engineering Intern|Irvine, CA|Nov 20#1"
+    },
+    "0873a52ef02c": {
+      "company": "Trimble",
+      "role": "Software Engineering Intern",
+      "location": "Knoxville, TN",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15021,
+      "chat_id": 7582459199,
+      "seq": 13033,
+      "identity": "NOURL|Trimble|Software Engineering Intern|Knoxville, TN|Nov 10#1"
     }
   },
   "applied": {
@@ -162147,10 +162183,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13030,
+  "seq": 13033,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-21T13:20:20Z",
+    "last_ok_run": "2026-11-21T13:25:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -162158,7 +162194,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-21T05:25:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-21T13:25:19Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-21T13:20:19Z"
     }
