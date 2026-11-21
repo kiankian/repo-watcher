@@ -3135,9 +3135,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "5bdebb24c70df07027bcf632c656a6d89821c428",
+    "last_sha": "abe2fd5646925f78cee121e3dcbf2d8161ab9253",
     "seen": [
-      "https://tencent.wd1.myworkdayjobs.com/en-US/tencent_careers/job/US-California-Palo-Alto/Data-Science-Intern_R108213|Tencent|Data Science Intern|Palo Alto, CA|Oct 12#1",
       "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Ann-Arbor-MI/AI-ML-Software-Engineer---Intern_2641701-1|KLA|AI/ML Software Engineer Intern|Ann Arbor, MI|Oct 12#1",
       "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--GPU-CUDA-_2642044|KLA|Algorithm Engineering Intern, GPU/CUDA|Milpitas, CA|Oct 12#1",
       "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/All-Tennessee-United-States-of-America/HPC-AI-System-Admin-HW-SW-Service-Engineer-Intern_1213404|Juniper Networks|HPC/AI System Admin HW/SW Service Engineer Intern|All, TN|Oct 12#1",
@@ -8136,14 +8135,15 @@
       "https://go.vansh.nyc/1G8?s=y|Canadian Solar|Data Engineering Intern|Kitchener, Canada|Nov 20#1",
       "https://go.vansh.nyc/1Gd?s=y|NVIDIA|Technical Marketing Engineering Intern, Digital Biology and Scientific Computing|Santa Clara, CA|Nov 20#1",
       "https://go.vansh.nyc/1Ge?s=y|Activision Blizzard|Data Platform Engineering Intern|Irvine, CA|Nov 20#1",
-      "NOURL|Trimble|Software Engineering Intern|Knoxville, TN|Nov 10#1"
+      "NOURL|Trimble|Software Engineering Intern|Knoxville, TN|Nov 10#1",
+      "https://go.vansh.nyc/1Gg?s=y|First PREMIER Bank|Information Security Intern|Sioux Falls, SD|Nov 20#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3191,
+    "last_row_count": 3192,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "85094fbe69b8ba4496011b299dae2a28eb20792c",
+    "last_sha": "ebe43a6cec3b59139671e86c9fa40e4cad5a6028",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
