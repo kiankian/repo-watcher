@@ -3134,11 +3134,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "3596c5ee46d52e5ecf8a28ce63fedb0194ba44bf",
+    "last_sha": "baaac3a0caac74f6b3d1863fb32407459f1090cb",
     "seen": [
-      "https://jobs.smartrecruiters.com/BoschGroup/744000155120934|Bosch|Information Security and Privacy Intern|Farmington Hills, MI|Oct 13#1",
-      "https://jobs.ashbyhq.com/armadin/571d7673-ce4b-414c-b736-38297d1d2b8b/application|Armadin|Member of Technical Staff Intern, Frontend|Palo Alto, CA|Oct 13#1",
-      "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineering-Intern_J000704383|Aptiv|Cloud Engineering Intern|CAN Kanata, ON|Oct 13#1",
       "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineer-Intern_J000704380|Aptiv|Cloud Engineer Intern|CAN Kanata, ON|Oct 13#1",
       "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Engineer-Intern_J000704376|Aptiv|Cloud Engineer Intern|CAN Kanata, ON|Oct 13#1",
       "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Software-Engineer-Intern_J000704375|Aptiv|Cloud Software Engineer Intern|CAN Kanata, ON|Oct 13#1",
@@ -8135,14 +8132,17 @@
       "NOURL|Insomniac Games|Undergraduate Gameplay Programming Intern|Burbank, CA Remote United States|Oct 31#1",
       "NOURL|Insomniac Games|Undergraduate Tech Art Intern|Burbank, CA|Oct 31#1",
       "https://go.vansh.nyc/1G3?s=y|Piper Sandler|Equities Trading Technology Intern|Greenwich, CT|Nov 19#1",
-      "NOURL|Aurora Innovation|Embedded Software Engineer Intern, Lidar|Bozeman, MT|Oct 01#1"
+      "NOURL|Aurora Innovation|Embedded Software Engineer Intern, Lidar|Bozeman, MT|Oct 01#1",
+      "https://go.vansh.nyc/1G6?s=y|Idaho National Laboratory|Spatial Computing Intern|Idaho Falls, ID|Nov 19#1",
+      "https://go.vansh.nyc/1G5?s=y|Cisco|AI Cybersecurity Engineer I Intern|Research Triangle Park, NC|Nov 19#1",
+      "NOURL|GreatAmerica Financial Services|Quality Assurance Analyst Intern|Cedar Rapids, IA Des Moines, IA|Nov 03#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3185,
+    "last_row_count": 3187,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "a8ea22a87b0f4e137fb943b87e17fa67891c2579",
+    "last_sha": "babee9b92a0d381c8b04268c4e267a0e1167d10d",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
