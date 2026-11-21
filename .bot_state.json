@@ -161540,6 +161540,138 @@
       "chat_id": 7582459199,
       "seq": 13010,
       "identity": "NOURL|Electronic Arts|Software Engineer Intern|Vancouver, Canada|Oct 09#1"
+    },
+    "0f00cc280e01": {
+      "company": "Trimble",
+      "role": "QA Engineer Intern",
+      "location": "Portsmouth, NH",
+      "term": "Nov 18",
+      "apply_url": "https://go.vansh.nyc/1G2?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14972,
+      "chat_id": 7582459199,
+      "seq": 13011,
+      "identity": "https://go.vansh.nyc/1G2?s=y|Trimble|QA Engineer Intern|Portsmouth, NH|Nov 18#1"
+    },
+    "1d3130b5d946": {
+      "company": "US Internships Public Careers Site",
+      "role": "Undergraduate Frontend Software Engineering Intern",
+      "location": "Los Angeles, CA San Mateo, CA",
+      "term": "Nov 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14973,
+      "chat_id": 7582459199,
+      "seq": 13012,
+      "identity": "NOURL|US Internships Public Careers Site|Undergraduate Frontend Software Engineering Intern|Los Angeles, CA San Mateo, CA|Nov 11#1"
+    },
+    "3e09665fc161": {
+      "company": "US Internships Public Careers Site",
+      "role": "Undergraduate Software Engineering Intern",
+      "location": "San Diego, CA",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14974,
+      "chat_id": 7582459199,
+      "seq": 13013,
+      "identity": "NOURL|US Internships Public Careers Site|Undergraduate Software Engineering Intern|San Diego, CA|Nov 10#1"
+    },
+    "84622a49e205": {
+      "company": "US Internships Public Careers Site",
+      "role": "Undergraduate Software Engineering Intern",
+      "location": "Aliso Viejo, CA",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14975,
+      "chat_id": 7582459199,
+      "seq": 13014,
+      "identity": "NOURL|US Internships Public Careers Site|Undergraduate Software Engineering Intern|Aliso Viejo, CA|Nov 10#1"
+    },
+    "fe5a817f917d": {
+      "company": "US Internships Public Careers Site",
+      "role": "Undergraduate Software Engineering Intern, Compilers",
+      "location": "San Mateo, CA",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14976,
+      "chat_id": 7582459199,
+      "seq": 13015,
+      "identity": "NOURL|US Internships Public Careers Site|Undergraduate Software Engineering Intern, Compilers|San Mateo, CA|Nov 09#1"
+    },
+    "c1460567c7c4": {
+      "company": "US Internships Public Careers Site",
+      "role": "Undergraduate Software Engineering Intern",
+      "location": "San Mateo, CA",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14977,
+      "chat_id": 7582459199,
+      "seq": 13016,
+      "identity": "NOURL|US Internships Public Careers Site|Undergraduate Software Engineering Intern|San Mateo, CA|Nov 02#1"
+    },
+    "83c2814be219": {
+      "company": "US Internships Public Careers Site",
+      "role": "Undergraduate Software Development Engineer in Test Intern",
+      "location": "San Mateo, CA",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14978,
+      "chat_id": 7582459199,
+      "seq": 13017,
+      "identity": "NOURL|US Internships Public Careers Site|Undergraduate Software Development Engineer in Test Intern|San Mateo, CA|Nov 02#1"
+    },
+    "96e784011743": {
+      "company": "US Internships Public Careers Site",
+      "role": "Undergraduate Software Development Engineer in Test Intern, AI/ML",
+      "location": "San Mateo, CA",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14979,
+      "chat_id": 7582459199,
+      "seq": 13018,
+      "identity": "NOURL|US Internships Public Careers Site|Undergraduate Software Development Engineer in Test Intern, AI/ML|San Mateo, CA|Nov 02#1"
+    },
+    "0cbdd7a344a7": {
+      "company": "US Internships Public Careers Site",
+      "role": "Undergraduate Backend Software Engineering Intern",
+      "location": "San Mateo, CA",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14980,
+      "chat_id": 7582459199,
+      "seq": 13019,
+      "identity": "NOURL|US Internships Public Careers Site|Undergraduate Backend Software Engineering Intern|San Mateo, CA|Nov 02#1"
+    },
+    "5c78e431b85f": {
+      "company": "Insomniac Games",
+      "role": "Undergraduate Gameplay Programming Intern",
+      "location": "Burbank, CA Remote United States",
+      "term": "Oct 31",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14981,
+      "chat_id": 7582459199,
+      "seq": 13020,
+      "identity": "NOURL|Insomniac Games|Undergraduate Gameplay Programming Intern|Burbank, CA Remote United States|Oct 31#1"
+    },
+    "51443bc5023f": {
+      "company": "Insomniac Games",
+      "role": "Undergraduate Tech Art Intern",
+      "location": "Burbank, CA",
+      "term": "Oct 31",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14982,
+      "chat_id": 7582459199,
+      "seq": 13021,
+      "identity": "NOURL|Insomniac Games|Undergraduate Tech Art Intern|Burbank, CA|Oct 31#1"
     }
   },
   "applied": {
@@ -161907,10 +162039,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13010,
+  "seq": 13021,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-21T01:20:17Z",
+    "last_ok_run": "2026-11-21T01:25:33Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -161918,7 +162050,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-21T00:30:46Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-21T01:25:31Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-21T01:05:15Z"
     }
