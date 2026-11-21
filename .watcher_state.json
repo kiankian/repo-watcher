@@ -3133,19 +3133,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "eccc2fc8a4a4e8455d643e82129ba09936e44d28",
+    "last_sha": "de6b7958dfc04aecae3c26e84a0b9a32b2f07004",
     "seen": [
-      "https://gevernova.wd5.myworkdayjobs.com/en-US/vernova_externalsite/job/Bellevue/GE-Vernova---AGI---AI-Post-Training-and-Model-Alignment-Intern---Summer-2027_R5054822-2|GE Vernova|AI Post-Training and Model Alignment Intern, AGI|Bellevue, WA|Oct 14#1",
-      "https://cboe.wd1.myworkdayjobs.com/en-US/external_career_cboe/job/Kansas-City-MO/Data-Pipeline-Engineer-Intern_R-4738|Cboe Global Markets|Data Pipeline Engineer Intern|Kansas City, MO|Oct 14#1",
-      "https://aoins.wd5.myworkdayjobs.com/concord/job/Bedford-NH/Software-Engineer-Intern_R_14465|Auto-Owners Insurance|Software Engineer Intern|Bedford, NH|Oct 14#1",
-      "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017931|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
-      "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017927|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
-      "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017929|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
-      "https://astreya.wd5.myworkdayjobs.com/en-US/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017930|Astreya|AI Infrastructure DC Design Intern|Remote (US)|Oct 14#1",
-      "https://americancentury.wd5.myworkdayjobs.com/en-US/americancenturyinvestments/job/Kansas-City-Missouri/Enterprise-Data-Intern_R0005751|American Century Investments|Enterprise Data Intern \ud83d\udec2|Kansas City, MO|Oct 14#1",
-      "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202606637|WTW|Risk & Analytics Core Intern \ud83d\udec2|New York, NY|Oct 13#1",
-      "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202606636|WTW|Risk & Analytics Enterprise Risk Consulting Intern \ud83d\udec2|New York, NY|Oct 13#1",
-      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20281371|Vertiv|UI/UX Design Intern|Delaware, OH|Oct 13#1",
       "https://ttc.wd1.myworkdayjobs.com/en-US/Toro_External_Careers/job/Perry-OK/IT-Business-Analyst-Intern---Ditch-Witch_JR17608|The Toro Company|IT Business Analyst Intern, Ditch Witch \ud83d\udec2|Perry, OK|Oct 13#1",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5264424007|Tenstorrent|Systems Intern, Validation, Software, Design, Architecture & Packaging|Austin, TX Santa Clara, CA|Oct 13#1",
       "https://soti.wd3.myworkdayjobs.com/en-US/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-MobiControl-Apple-HQ--January-2027-12-Months-_R10551-2|SOTI|Software Developer Intern, SOTI MobiControl Apple HQ|Mississauga, ON|Oct 13#1",
@@ -8134,10 +8123,21 @@
       "https://go.vansh.nyc/1FC?s=y|Bennett Thrasher|IT AI & Automation Intern|Atlanta, GA|Nov 20#1",
       "https://go.vansh.nyc/1Fx?s=y|Applied Research Associates|Software Engineer Intern|Baton Rouge, LA|Nov 20#1",
       "https://go.vansh.nyc/1Fo?s=y|Intuitive|Data Engineering Intern|Sunnyvale, CA|Nov 19#1",
-      "https://go.vansh.nyc/1FE?s=y|Mom's Meals|Salesforce Developer Intern|Ankeny, IA|Oct 17#1"
+      "https://go.vansh.nyc/1FE?s=y|Mom's Meals|Salesforce Developer Intern|Ankeny, IA|Oct 17#1",
+      "https://go.vansh.nyc/1G1?s=y|Southern Farm Bureau Life Insurance|Cyber Security Intern|Jackson, MS|Nov 20#1",
+      "https://go.vansh.nyc/1FZ?s=y|Mesirow|Cloud Engineering Intern, IT|Chicago, IL|Nov 20#1",
+      "https://go.vansh.nyc/1FT?s=y|Celestica|Salesforce Developer 1 Intern|Toronto, Canada|Nov 20#1",
+      "https://go.vansh.nyc/1FV?s=y|Calamos Investments|Information Security Intern|Naperville, IL|Nov 20#1",
+      "https://go.vansh.nyc/1FW?s=y|Calamos Investments|Application Development Intern|Naperville, IL|Nov 20#1",
+      "https://go.vansh.nyc/1FX?s=y|Calamos Investments|Cloud Engineer Intern|Naperville, IL|Nov 20#1",
+      "https://go.vansh.nyc/1FY?s=y|Calamos Investments|Data Engineering Intern|Naperville, IL|Nov 20#1",
+      "https://go.vansh.nyc/1FS?s=y|Bombardier|Software Engineering Intern|Wichita, KS|Nov 20#1",
+      "https://go.vansh.nyc/1FU?s=y|Applied Research Associates|Software Quality Assurance Intern|Baton Rouge, LA|Nov 20#1",
+      "NOURL|GE Vernova|AI Post-Training and Model Alignment Intern, AGI|Bellevue, WA|Oct 14#1",
+      "NOURL|Electronic Arts|Software Engineer Intern|Vancouver, Canada|Oct 09#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3174,
+    "last_row_count": 3183,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {

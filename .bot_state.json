@@ -161408,6 +161408,138 @@
       "chat_id": 7582459199,
       "seq": 12999,
       "identity": "https://recruiting2.ultipro.com/her1001acfin/JobBoard/ab33798a-3521-417b-8db8-a8e435c475fa/OpportunityDetail?opportunityId=57946ef1-ca27-4ef4-b48d-829da2dfd217&utm_source=Simplify&ref=Simplify|Acuity Insurance|Software Engineer Intern|Remote in USA Sheboygan, WI|Summer 2026#1"
+    },
+    "79912b676ac7": {
+      "company": "Southern Farm Bureau Life Insurance",
+      "role": "Cyber Security Intern",
+      "location": "Jackson, MS",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1G1?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14960,
+      "chat_id": 7582459199,
+      "seq": 13000,
+      "identity": "https://go.vansh.nyc/1G1?s=y|Southern Farm Bureau Life Insurance|Cyber Security Intern|Jackson, MS|Nov 20#1"
+    },
+    "59e17d433d18": {
+      "company": "Mesirow",
+      "role": "Cloud Engineering Intern, IT",
+      "location": "Chicago, IL",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1FZ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14961,
+      "chat_id": 7582459199,
+      "seq": 13001,
+      "identity": "https://go.vansh.nyc/1FZ?s=y|Mesirow|Cloud Engineering Intern, IT|Chicago, IL|Nov 20#1"
+    },
+    "d30319eb451a": {
+      "company": "Celestica",
+      "role": "Salesforce Developer 1 Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1FT?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14962,
+      "chat_id": 7582459199,
+      "seq": 13002,
+      "identity": "https://go.vansh.nyc/1FT?s=y|Celestica|Salesforce Developer 1 Intern|Toronto, Canada|Nov 20#1"
+    },
+    "fe19c08c263e": {
+      "company": "Calamos Investments",
+      "role": "Information Security Intern",
+      "location": "Naperville, IL",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1FV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14963,
+      "chat_id": 7582459199,
+      "seq": 13003,
+      "identity": "https://go.vansh.nyc/1FV?s=y|Calamos Investments|Information Security Intern|Naperville, IL|Nov 20#1"
+    },
+    "48818301d52d": {
+      "company": "Calamos Investments",
+      "role": "Application Development Intern",
+      "location": "Naperville, IL",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1FW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14964,
+      "chat_id": 7582459199,
+      "seq": 13004,
+      "identity": "https://go.vansh.nyc/1FW?s=y|Calamos Investments|Application Development Intern|Naperville, IL|Nov 20#1"
+    },
+    "a13cfed40afa": {
+      "company": "Calamos Investments",
+      "role": "Cloud Engineer Intern",
+      "location": "Naperville, IL",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1FX?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14965,
+      "chat_id": 7582459199,
+      "seq": 13005,
+      "identity": "https://go.vansh.nyc/1FX?s=y|Calamos Investments|Cloud Engineer Intern|Naperville, IL|Nov 20#1"
+    },
+    "f6f7daa6a6d6": {
+      "company": "Calamos Investments",
+      "role": "Data Engineering Intern",
+      "location": "Naperville, IL",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1FY?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14966,
+      "chat_id": 7582459199,
+      "seq": 13006,
+      "identity": "https://go.vansh.nyc/1FY?s=y|Calamos Investments|Data Engineering Intern|Naperville, IL|Nov 20#1"
+    },
+    "4b448974d7df": {
+      "company": "Bombardier",
+      "role": "Software Engineering Intern",
+      "location": "Wichita, KS",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1FS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14967,
+      "chat_id": 7582459199,
+      "seq": 13007,
+      "identity": "https://go.vansh.nyc/1FS?s=y|Bombardier|Software Engineering Intern|Wichita, KS|Nov 20#1"
+    },
+    "f7eb35d0e636": {
+      "company": "Applied Research Associates",
+      "role": "Software Quality Assurance Intern",
+      "location": "Baton Rouge, LA",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1FU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 14968,
+      "chat_id": 7582459199,
+      "seq": 13008,
+      "identity": "https://go.vansh.nyc/1FU?s=y|Applied Research Associates|Software Quality Assurance Intern|Baton Rouge, LA|Nov 20#1"
+    },
+    "61caf7e253d7": {
+      "company": "GE Vernova",
+      "role": "AI Post-Training and Model Alignment Intern, AGI",
+      "location": "Bellevue, WA",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14969,
+      "chat_id": 7582459199,
+      "seq": 13009,
+      "identity": "NOURL|GE Vernova|AI Post-Training and Model Alignment Intern, AGI|Bellevue, WA|Oct 14#1"
+    },
+    "7b41431001fb": {
+      "company": "Electronic Arts",
+      "role": "Software Engineer Intern",
+      "location": "Vancouver, Canada",
+      "term": "Oct 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 14970,
+      "chat_id": 7582459199,
+      "seq": 13010,
+      "identity": "NOURL|Electronic Arts|Software Engineer Intern|Vancouver, Canada|Oct 09#1"
     }
   },
   "applied": {
@@ -161775,10 +161907,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 12999,
+  "seq": 13010,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-21T00:50:19Z",
+    "last_ok_run": "2026-11-21T00:55:32Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
