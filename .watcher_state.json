@@ -3136,14 +3136,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "f5c74642dfb72723047fd18fd06f285039a76022",
+    "last_sha": "47abd84dd9a66463cf2be4a755d74bd27a9641cf",
     "seen": [
-      "https://www.google.com/about/careers/applications/jobs/results/75665705386549958|Google|Forward Deployed Engineering Intern|Sunnyvale, CA|Oct 12#1",
-      "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Defense-Lab-Modeling-and-Simulation_JR-202621729|General Motors|Research and Development Intern, Defense Lab Modeling and Simulation \ud83c\uddfa\ud83c\uddf8|Warren, MI|Oct 12#1",
-      "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Machine-Learning-for-Automation_JR-202621724|General Motors|Research and Development Intern, Machine Learning for Automation|Warren, MI|Oct 12#1",
-      "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Mountain-View-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---AI-Machine-Learning_JR-202621620|General Motors|Research and Development Intern, AI/Machine Learning|Mountain View, CA|Oct 12#1",
-      "https://job-boards.greenhouse.io/figureai/jobs/4721113006|Figure AI|Deployment Engineering Intern|San Jose, CA|Oct 12#1",
-      "https://job-boards.greenhouse.io/dvtrading/jobs/4742962005|DV Trading|Data Center Engineer Intern|Chicago, IL|Oct 12#1",
       "https://databricks.com/company/careers/open-positions/job?gh_jid=6865687002|Databricks|Software Engineering Intern|**4 locations**Bellevue, WA Mountain View, CA San Francisco, CA Vancouver, BC|Oct 12#1",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4581330|Cryptic Vector|Full Stack Developer Intern|Liberty Township, OH|Oct 12#1",
       "https://cboe.wd1.myworkdayjobs.com/en-US/external_career_cboe/job/Kansas-City-MO/Software-Engineer-Intern--C---_R-4726|Cboe Global Markets|Software Engineer Intern, C++|Kansas City, MO|Oct 12#1",
@@ -8137,14 +8131,20 @@
       "https://go.vansh.nyc/1Gg?s=y|First PREMIER Bank|Information Security Intern|Sioux Falls, SD|Nov 20#1",
       "https://go.vansh.nyc/1Gk?s=y|Fabri|DevOps, IT & Cybersecurity Intern|Billerica, MA|Nov 21#1",
       "https://go.vansh.nyc/1Gi?s=y|Advance Auto Parts|Data Science Intern|Raleigh, NC|Nov 20#1",
-      "https://go.vansh.nyc/1Gj?s=y|Worthington Enterprises|AI Intern|Columbus, OH|Nov 19#1"
+      "https://go.vansh.nyc/1Gj?s=y|Worthington Enterprises|AI Intern|Columbus, OH|Nov 19#1",
+      "https://go.vansh.nyc/1Gm?s=y|WGU|Technical Intern|Salt Lake City, UT|Nov 20#1",
+      "https://go.vansh.nyc/1Gl?s=y|Neros Technologies|Autonomy Intern|Torrance, CA|Nov 20#1",
+      "NOURL|ServiceNow|Associate Forward Deployed Solution Engineer Intern|Santa Clara, CA New York, NY|Nov 16#1",
+      "NOURL|Verisk|Data Science/AI Intern|Lehi, UT|Nov 13#1",
+      "NOURL|Workday|Software Application Development Engineer Intern|Pleasanton, CA|Oct 08#1",
+      "NOURL|Workday|Software Engineer Intern|Pleasanton, CA|Oct 08#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3195,
+    "last_row_count": 3197,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "a4b63dd00b1a904f50c2cb487d7d5f156a73f28e",
+    "last_sha": "30236ccfbb4350dcab536b892d3c11fd8f8f1fca",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

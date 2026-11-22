@@ -161900,6 +161900,78 @@
       "chat_id": 7582459199,
       "seq": 13040,
       "identity": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Technical-Marketing-Engineering-Intern--Digital-Biology-and-Scientific-Computing---Summer-2027_JR2029793?utm_source=Simplify&ref=Simplify|\ud83d\udd25 NVIDIA|Technical Marketing Engineer Intern - Digital Biology and Scientific Computing|Santa Clara, CA|Summer 2026#1"
+    },
+    "a5ec290c6dfe": {
+      "company": "WGU",
+      "role": "Technical Intern",
+      "location": "Salt Lake City, UT",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Gm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15054,
+      "chat_id": 7582459199,
+      "seq": 13041,
+      "identity": "https://go.vansh.nyc/1Gm?s=y|WGU|Technical Intern|Salt Lake City, UT|Nov 20#1"
+    },
+    "a1cf78cdf940": {
+      "company": "Neros Technologies",
+      "role": "Autonomy Intern",
+      "location": "Torrance, CA",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Gl?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15055,
+      "chat_id": 7582459199,
+      "seq": 13042,
+      "identity": "https://go.vansh.nyc/1Gl?s=y|Neros Technologies|Autonomy Intern|Torrance, CA|Nov 20#1"
+    },
+    "0002fe255d20": {
+      "company": "ServiceNow",
+      "role": "Associate Forward Deployed Solution Engineer Intern",
+      "location": "Santa Clara, CA New York, NY",
+      "term": "Nov 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15056,
+      "chat_id": 7582459199,
+      "seq": 13043,
+      "identity": "NOURL|ServiceNow|Associate Forward Deployed Solution Engineer Intern|Santa Clara, CA New York, NY|Nov 16#1"
+    },
+    "32d3e5aea91b": {
+      "company": "Verisk",
+      "role": "Data Science/AI Intern",
+      "location": "Lehi, UT",
+      "term": "Nov 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15057,
+      "chat_id": 7582459199,
+      "seq": 13044,
+      "identity": "NOURL|Verisk|Data Science/AI Intern|Lehi, UT|Nov 13#1"
+    },
+    "0f29bf30e435": {
+      "company": "Workday",
+      "role": "Software Application Development Engineer Intern",
+      "location": "Pleasanton, CA",
+      "term": "Oct 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15058,
+      "chat_id": 7582459199,
+      "seq": 13045,
+      "identity": "NOURL|Workday|Software Application Development Engineer Intern|Pleasanton, CA|Oct 08#1"
+    },
+    "65fd5220185b": {
+      "company": "Workday",
+      "role": "Software Engineer Intern",
+      "location": "Pleasanton, CA",
+      "term": "Oct 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15059,
+      "chat_id": 7582459199,
+      "seq": 13046,
+      "identity": "NOURL|Workday|Software Engineer Intern|Pleasanton, CA|Oct 08#1"
     }
   },
   "applied": {
@@ -162267,10 +162339,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13040,
+  "seq": 13046,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-22T01:20:19Z",
+    "last_ok_run": "2026-11-22T01:25:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -162278,7 +162350,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-21T21:25:18Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-22T01:25:22Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-22T01:15:18Z"
     }
