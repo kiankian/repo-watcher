@@ -3137,12 +3137,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "b9c7aa8534ec10e62daaf67dd1141c49808c63aa",
+    "last_sha": "718c30072c9b6e53c6e95fd0110d92b5822c25b9",
     "seen": [
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4581330|Cryptic Vector|Full Stack Developer Intern|Liberty Township, OH|Oct 12#1",
-      "https://cboe.wd1.myworkdayjobs.com/en-US/external_career_cboe/job/Kansas-City-MO/Software-Engineer-Intern--C---_R-4726|Cboe Global Markets|Software Engineer Intern, C++|Kansas City, MO|Oct 12#1",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000154911489|Bosch|Robotics Research Intern|Sunnyvale, CA|Oct 12#1",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000155101377|Bosch|ERP/IT Intern|Lincolnshire, IL|Oct 12#1",
       "https://jobs.ashbyhq.com/hex/f2562cd7-abf2-434b-85ff-0a5016fbf0d6|Hex Technologies|AI Engineer Intern|San Francisco, CA|Oct 11#1",
       "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000154779385|Veolia|Field Engineering Intern \ud83d\udec2|Nanticoke, PA|Oct 10#1",
       "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000154779699|Veolia|Field Engineering Intern \ud83d\udec2|Lincoln, NE|Oct 10#1",
@@ -8138,14 +8134,18 @@
       "NOURL|Verisk|Data Science/AI Intern|Lehi, UT|Nov 13#1",
       "NOURL|Workday|Software Application Development Engineer Intern|Pleasanton, CA|Oct 08#1",
       "NOURL|Workday|Software Engineer Intern|Pleasanton, CA|Oct 08#1",
-      "https://go.vansh.nyc/1Go?s=y|Neros Technologies|Firmware/Embedded Software Engineer Intern|Torrance, CA|Nov 21#1"
+      "https://go.vansh.nyc/1Go?s=y|Neros Technologies|Firmware/Embedded Software Engineer Intern|Torrance, CA|Nov 21#1",
+      "https://go.vansh.nyc/1Gp?s=y|Neogen|Embedded Systems Engineer Intern|Oakdale, MN|Nov 22#1",
+      "NOURL|HexArmor|Software Engineer Intern|Atlanta, GA|Nov 16#1",
+      "NOURL|KLA|Software Engineer Intern|Austin, TX|Nov 01#1",
+      "NOURL|Toyota|Data Science Intern, TFS|Plano, TX|Oct 21#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3198,
+    "last_row_count": 3199,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "2f28025f9ecfc6a0ba2dabb1308cf9a0881f6943",
+    "last_sha": "00aba3cd874af3cee043905b62a8e64de7722d1d",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
