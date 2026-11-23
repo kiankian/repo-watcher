@@ -162668,6 +162668,42 @@
       "chat_id": 7582459199,
       "seq": 13104,
       "identity": "https://zapply.jobs/l/d/ashby-benchling-96370d1b-d35e-446b-8e26-dce088860099?s=gh-internships-2027|Benchling|Software Engineer, Intern (Summer 2027)|San Francisco, CA|Summer 2027#1"
+    },
+    "cda4785e600c": {
+      "company": "International Motors",
+      "role": "IT Security Intern",
+      "location": "Lisle, IL",
+      "term": "Nov 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15199,
+      "chat_id": 7582459199,
+      "seq": 13105,
+      "identity": "NOURL|International Motors|IT Security Intern|Lisle, IL|Nov 11#1"
+    },
+    "a3fd06ad08be": {
+      "company": "International",
+      "role": "Artificial Intelligence/Machine Learning Intern",
+      "location": "Lisle, IL",
+      "term": "Nov 10",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15200,
+      "chat_id": 7582459199,
+      "seq": 13106,
+      "identity": "NOURL|International|Artificial Intelligence/Machine Learning Intern|Lisle, IL|Nov 10#1"
+    },
+    "ab3c30da593c": {
+      "company": "Allen Control Systems",
+      "role": "Android Developer Intern",
+      "location": "Austin, TX",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15201,
+      "chat_id": 7582459199,
+      "seq": 13107,
+      "identity": "NOURL|Allen Control Systems|Android Developer Intern|Austin, TX|Oct 22#1"
     }
   },
   "applied": {
@@ -163035,10 +163071,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13104,
+  "seq": 13107,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T14:45:22Z",
+    "last_ok_run": "2026-11-23T14:50:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -163046,7 +163082,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T14:20:22Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T14:50:22Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T14:40:23Z"
     }
