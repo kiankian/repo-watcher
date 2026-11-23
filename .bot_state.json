@@ -163736,6 +163736,114 @@
       "chat_id": 7582459199,
       "seq": 13193,
       "identity": "https://hq-lifeway.icims.com/jobs/27216/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Lifeway|Front-End Engineer Intern|Nashville, TN Remote in USA|Summer 2026#1"
+    },
+    "c16a045d669d": {
+      "company": "Illinois Tool Works",
+      "role": "Software or Computer Engineer Intern",
+      "location": "Fairmont, MN",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Hv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15317,
+      "chat_id": 7582459199,
+      "seq": 13194,
+      "identity": "https://go.vansh.nyc/1Hv?s=y|Illinois Tool Works|Software or Computer Engineer Intern|Fairmont, MN|Nov 23#1"
+    },
+    "415d20f8e27a": {
+      "company": "CornerStone Partners",
+      "role": "AI and Automation Intern",
+      "location": "Charlottesville, VA",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Hq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15318,
+      "chat_id": 7582459199,
+      "seq": 13195,
+      "identity": "https://go.vansh.nyc/1Hq?s=y|CornerStone Partners|AI and Automation Intern|Charlottesville, VA|Nov 23#1"
+    },
+    "b31e710021b0": {
+      "company": "Capital Technology Group",
+      "role": "Software Development Intern",
+      "location": "Silver Spring, MD",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Ht?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15319,
+      "chat_id": 7582459199,
+      "seq": 13196,
+      "identity": "https://go.vansh.nyc/1Ht?s=y|Capital Technology Group|Software Development Intern|Silver Spring, MD|Nov 23#1"
+    },
+    "c593156a1eca": {
+      "company": "Capital Technology Group",
+      "role": "Data Engineering and Data Science Intern",
+      "location": "Silver Spring, MD",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Hu?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15320,
+      "chat_id": 7582459199,
+      "seq": 13197,
+      "identity": "https://go.vansh.nyc/1Hu?s=y|Capital Technology Group|Data Engineering and Data Science Intern|Silver Spring, MD|Nov 23#1"
+    },
+    "3dfb9fb31fdf": {
+      "company": "Idaho National Laboratory",
+      "role": "Digital Engineering Intern",
+      "location": "Idaho Falls, ID",
+      "term": "Nov 22",
+      "apply_url": "https://go.vansh.nyc/1Hw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15321,
+      "chat_id": 7582459199,
+      "seq": 13198,
+      "identity": "https://go.vansh.nyc/1Hw?s=y|Idaho National Laboratory|Digital Engineering Intern|Idaho Falls, ID|Nov 22#1"
+    },
+    "b417c3ca886d": {
+      "company": "Astera Labs",
+      "role": "Firmware Engineer Intern",
+      "location": "Vancouver, Canada",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15322,
+      "chat_id": 7582459199,
+      "seq": 13199,
+      "identity": "NOURL|Astera Labs|Firmware Engineer Intern|Vancouver, Canada|Oct 28#1"
+    },
+    "f7a9b0cf09c1": {
+      "company": "Astera Labs",
+      "role": "Firmware Engineer Intern, SCO2",
+      "location": "San Jose, CA",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15323,
+      "chat_id": 7582459199,
+      "seq": 13200,
+      "identity": "NOURL|Astera Labs|Firmware Engineer Intern, SCO2|San Jose, CA|Oct 28#1"
+    },
+    "20f64ddf283d": {
+      "company": "Siemens",
+      "role": "Python Backend Developer Intern, Energy Flexibility Platform",
+      "location": "Princeton, NJ",
+      "term": "Oct 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15324,
+      "chat_id": 7582459199,
+      "seq": 13201,
+      "identity": "NOURL|Siemens|Python Backend Developer Intern, Energy Flexibility Platform|Princeton, NJ|Oct 23#1"
+    },
+    "b29d231496db": {
+      "company": "Astera Labs",
+      "role": "Firmware Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Oct 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15325,
+      "chat_id": 7582459199,
+      "seq": 13202,
+      "identity": "NOURL|Astera Labs|Firmware Engineer Intern|San Jose, CA|Oct 05#1"
     }
   },
   "applied": {
@@ -164103,10 +164211,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13193,
+  "seq": 13202,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T23:45:17Z",
+    "last_ok_run": "2026-11-23T23:50:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
