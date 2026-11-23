@@ -162428,6 +162428,18 @@
       "chat_id": 7582459199,
       "seq": 13084,
       "identity": "https://go.vansh.nyc/1GB?s=y|MITRE|Generative and Agentic AI Intern|McLean, VA|Nov 22#1"
+    },
+    "8f6db782c40a": {
+      "company": "MITRE",
+      "role": "Internships in Cybersecurity and Information Security",
+      "location": "McLean, Virginia",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-mitre-R117314?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15158,
+      "chat_id": 7582459199,
+      "seq": 13085,
+      "identity": "https://zapply.jobs/l/d/phenom-mitre-R117314?s=gh-internships-2027|MITRE|Internships in Cybersecurity and Information Security|McLean, Virginia|Summer 2027#1"
     }
   },
   "applied": {
@@ -162795,10 +162807,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13084,
+  "seq": 13085,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T07:00:30Z",
+    "last_ok_run": "2026-11-23T07:05:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -162808,7 +162820,7 @@
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T06:20:16Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T06:35:15Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T07:05:17Z"
     }
   }
 }
