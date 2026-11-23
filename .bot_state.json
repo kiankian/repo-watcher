@@ -162560,6 +162560,42 @@
       "chat_id": 7582459199,
       "seq": 13095,
       "identity": "NOURL|Electronic Arts|Software Engineer Intern|Orlando, FL|Oct 19#1"
+    },
+    "34576d02a205": {
+      "company": "Capital Group",
+      "role": "Global Technology Associate Intern",
+      "location": "Irvine, CA",
+      "term": "Nov 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15176,
+      "chat_id": 7582459199,
+      "seq": 13096,
+      "identity": "NOURL|Capital Group|Global Technology Associate Intern|Irvine, CA|Nov 12#1"
+    },
+    "845991e9474b": {
+      "company": "Google",
+      "role": "Forward Deployed Engineering Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Oct 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15177,
+      "chat_id": 7582459199,
+      "seq": 13097,
+      "identity": "NOURL|Google|Forward Deployed Engineering Intern|Sunnyvale, CA|Oct 12#1"
+    },
+    "036ab73480b5": {
+      "company": "Workday",
+      "role": "Machine Learning Engineer Intern",
+      "location": "Pleasanton, CA",
+      "term": "Oct 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15178,
+      "chat_id": 7582459199,
+      "seq": 13098,
+      "identity": "NOURL|Workday|Machine Learning Engineer Intern|Pleasanton, CA|Oct 08#1"
     }
   },
   "applied": {
@@ -162927,10 +162963,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13095,
+  "seq": 13098,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T09:15:19Z",
+    "last_ok_run": "2026-11-23T09:20:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -162938,7 +162974,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T08:20:29Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T09:20:20Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T09:10:22Z"
     }
