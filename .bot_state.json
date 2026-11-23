@@ -163400,6 +163400,90 @@
       "chat_id": 7582459199,
       "seq": 13165,
       "identity": "NOURL|Intercontinental Exchange|Trading System Development Intern|New York, NY|Nov 05#1"
+    },
+    "b1236ac57e06": {
+      "company": "Motorola Solutions",
+      "role": "Mission Critical Networks Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Schaumburg, IL Chicago, IL",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Hn?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15281,
+      "chat_id": 7582459199,
+      "seq": 13166,
+      "identity": "https://go.vansh.nyc/1Hn?s=y|Motorola Solutions|Mission Critical Networks Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Schaumburg, IL Chicago, IL|Nov 23#1"
+    },
+    "eb9cc8608d65": {
+      "company": "Rockwell Automation",
+      "role": "Content IDE Software Development Intern \ud83d\udec2",
+      "location": "Mayfield Heights, OH",
+      "term": "Nov 21",
+      "apply_url": "https://go.vansh.nyc/1Hm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15282,
+      "chat_id": 7582459199,
+      "seq": 13167,
+      "identity": "https://go.vansh.nyc/1Hm?s=y|Rockwell Automation|Content IDE Software Development Intern \ud83d\udec2|Mayfield Heights, OH|Nov 21#1"
+    },
+    "8e09b9f2b24a": {
+      "company": "Kudu Dynamics",
+      "role": "AI/Automation Development Intern, Assessment & Authorization \ud83c\uddfa\ud83c\uddf8",
+      "location": "Remote United States",
+      "term": "Nov 06",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15283,
+      "chat_id": 7582459199,
+      "seq": 13168,
+      "identity": "NOURL|Kudu Dynamics|AI/Automation Development Intern, Assessment & Authorization \ud83c\uddfa\ud83c\uddf8|Remote United States|Nov 06#1"
+    },
+    "376c907f2bcf": {
+      "company": "CrowdStrike",
+      "role": "Intelligence Intern",
+      "location": "Arlington, VA",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15284,
+      "chat_id": 7582459199,
+      "seq": 13169,
+      "identity": "NOURL|CrowdStrike|Intelligence Intern|Arlington, VA|Nov 05#1"
+    },
+    "e4a0ef0cca1a": {
+      "company": "Schonfeld",
+      "role": "DMFI Intern",
+      "location": "New York, NY",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15285,
+      "chat_id": 7582459199,
+      "seq": 13170,
+      "identity": "NOURL|Schonfeld|DMFI Intern|New York, NY|Oct 28#1"
+    },
+    "39bc4c76856e": {
+      "company": "Intuitive",
+      "role": "Robotics Engineering Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15286,
+      "chat_id": 7582459199,
+      "seq": 13171,
+      "identity": "NOURL|Intuitive|Robotics Engineering Intern|Sunnyvale, CA|Oct 28#1"
+    },
+    "aaf35a2ab3d5": {
+      "company": "Ryan",
+      "role": "Software Engineer Intern",
+      "location": "Plano, TX",
+      "term": "Oct 15",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15287,
+      "chat_id": 7582459199,
+      "seq": 13172,
+      "identity": "NOURL|Ryan|Software Engineer Intern|Plano, TX|Oct 15#1"
     }
   },
   "applied": {
@@ -163767,10 +163851,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13165,
+  "seq": 13172,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T21:15:20Z",
+    "last_ok_run": "2026-11-23T21:20:34Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -163778,7 +163862,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T20:50:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T21:20:31Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T21:05:17Z"
     }
