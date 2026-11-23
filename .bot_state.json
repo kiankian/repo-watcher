@@ -162872,6 +162872,42 @@
       "chat_id": 7582459199,
       "seq": 13121,
       "identity": "https://zapply.jobs/l/d/workday-rockwellautomation-external-rockwell-aut-R26-5303?s=gh-internships-2027|Rockwell Automation|Intern, Software Engineer|Milwaukee, Wisconsin, United States|Summer 2027#1"
+    },
+    "6363fac409e3": {
+      "company": "Micron Technology",
+      "role": "Advanced Modeling and AI Solutions Intern",
+      "location": "Boise, ID",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1GW?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15224,
+      "chat_id": 7582459199,
+      "seq": 13122,
+      "identity": "https://go.vansh.nyc/1GW?s=y|Micron Technology|Advanced Modeling and AI Solutions Intern|Boise, ID|Nov 23#1"
+    },
+    "0ddc13d4ae24": {
+      "company": "National Interstate Insurance",
+      "role": "Predictive Analytics Intern \ud83d\udec2",
+      "location": "Cincinnati, OH",
+      "term": "Nov 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15225,
+      "chat_id": 7582459199,
+      "seq": 13123,
+      "identity": "NOURL|National Interstate Insurance|Predictive Analytics Intern \ud83d\udec2|Cincinnati, OH|Nov 16#1"
+    },
+    "3992d5653414": {
+      "company": "Origin Bank",
+      "role": "Salesforce Systems Development Intern",
+      "location": "Ruston, LA",
+      "term": "Nov 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15226,
+      "chat_id": 7582459199,
+      "seq": 13124,
+      "identity": "NOURL|Origin Bank|Salesforce Systems Development Intern|Ruston, LA|Nov 12#1"
     }
   },
   "applied": {
@@ -163239,10 +163275,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13121,
+  "seq": 13124,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T17:15:18Z",
+    "last_ok_run": "2026-11-23T17:20:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
