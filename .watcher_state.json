@@ -3142,14 +3142,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "03131d932f24ac0eb3ad2ab8095307ff22c99896",
+    "last_sha": "35033d11782f96a839dcbef61b7c5cc64199b294",
     "seen": [
-      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774074|JPMorgan Chase|Quantitative Research, Asset Management Summer Analyst \ud83d\udec2|New York, NY|Aug 21#1",
-      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038|JPMorgan Chase|Quantitative Research, Markets, Summer Internship - Analyst|New York, NY|Aug 21#1",
-      "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003|HPR|FPGA Engineering Intern \ud83d\udec2|Needham, MA|Aug 21#1",
-      "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7872198003|Freeform|Software Engineering Intern|Los Angeles, CA|Aug 21#1",
-      "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16|Exa|Software Engineer Intern|San Francisco, CA|Aug 21#1",
-      "https://www.epicgames.com/site/careers/jobs/6138140004?gh_jid=6138140004|Epic Games|Machine Learning Research Intern \ud83d\udec2|Montreal, Canada|Aug 21#1",
       "https://www.epicgames.com/site/careers/jobs/6141180004?gh_jid=6141180004|Epic Games|Gameplay Programmer Intern|Cary, United States|Aug 21#1",
       "https://job-boards.greenhouse.io/dvtrading/jobs/4719119005|DV Group|Software Engineer Intern, Commodities|New York, NY|Aug 21#1",
       "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/QA-Engineering-Intern_JR109671|Copart|QA Engineering Intern|Dallas, TX|Aug 21#1",
@@ -8143,14 +8137,20 @@
       "https://go.vansh.nyc/1GP?s=y|Benchling|Software Engineer Intern|San Francisco, CA|Nov 23#1",
       "NOURL|Renesas Electronics|Firmware Engineering Intern|Austin, TX|Nov 20#1",
       "NOURL|Sierra Nevada Corporation|Firmware Engineer Intern \ud83c\uddfa\ud83c\uddf8|Sparks, NV|Nov 05#1",
-      "NOURL|Shive-Hattery|Software Developer Intern|Iowa City, IA|Nov 11#1"
+      "NOURL|Shive-Hattery|Software Developer Intern|Iowa City, IA|Nov 11#1",
+      "https://go.vansh.nyc/1GV?s=y|Zebra Technologies|WWAN Cellular Engineer Intern|Holtsville, NY|Nov 23#1",
+      "https://go.vansh.nyc/1GU?s=y|Nintendo|IT Platform Engineer Intern|Redmond, WA|Nov 22#1",
+      "NOURL|Cisco|AI Researcher II Intern|San Francisco, CA|Nov 19#1",
+      "NOURL|Bread Financial|Software Engineering Intern|**5 locations**Columbus, OH Chadds Ford, PA Frisco, TX Draper, UT Wilmington, DE|Nov 16#1",
+      "NOURL|Shield|Embedded Firmware Intern|Dallas, TX|Nov 02#1",
+      "NOURL|Cook Group|Artificial Intelligence & Innovation Intern|Bloomington, IN|Oct 13#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3213,
+    "last_row_count": 3215,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "863cdfd81983f3b3eddaa4d76c7db80b1b3903ee",
+    "last_sha": "c5783785f4d1d540d54c7d200a2c3055759d9957",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

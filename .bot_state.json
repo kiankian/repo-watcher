@@ -162788,6 +162788,78 @@
       "chat_id": 7582459199,
       "seq": 13114,
       "identity": "NOURL|Shive-Hattery|Software Developer Intern|Iowa City, IA|Nov 11#1"
+    },
+    "3bc62f8e576b": {
+      "company": "Zebra Technologies",
+      "role": "WWAN Cellular Engineer Intern",
+      "location": "Holtsville, NY",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1GV?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15215,
+      "chat_id": 7582459199,
+      "seq": 13115,
+      "identity": "https://go.vansh.nyc/1GV?s=y|Zebra Technologies|WWAN Cellular Engineer Intern|Holtsville, NY|Nov 23#1"
+    },
+    "91cc1f0e5f98": {
+      "company": "Nintendo",
+      "role": "IT Platform Engineer Intern",
+      "location": "Redmond, WA",
+      "term": "Nov 22",
+      "apply_url": "https://go.vansh.nyc/1GU?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15216,
+      "chat_id": 7582459199,
+      "seq": 13116,
+      "identity": "https://go.vansh.nyc/1GU?s=y|Nintendo|IT Platform Engineer Intern|Redmond, WA|Nov 22#1"
+    },
+    "0f31059e883b": {
+      "company": "Cisco",
+      "role": "AI Researcher II Intern",
+      "location": "San Francisco, CA",
+      "term": "Nov 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15217,
+      "chat_id": 7582459199,
+      "seq": 13117,
+      "identity": "NOURL|Cisco|AI Researcher II Intern|San Francisco, CA|Nov 19#1"
+    },
+    "63bb1dd43d44": {
+      "company": "Bread Financial",
+      "role": "Software Engineering Intern",
+      "location": "**5 locations**Columbus, OH Chadds Ford, PA Frisco, TX Draper, UT Wilmington, DE",
+      "term": "Nov 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15218,
+      "chat_id": 7582459199,
+      "seq": 13118,
+      "identity": "NOURL|Bread Financial|Software Engineering Intern|**5 locations**Columbus, OH Chadds Ford, PA Frisco, TX Draper, UT Wilmington, DE|Nov 16#1"
+    },
+    "37fbc077f6fb": {
+      "company": "Shield",
+      "role": "Embedded Firmware Intern",
+      "location": "Dallas, TX",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15219,
+      "chat_id": 7582459199,
+      "seq": 13119,
+      "identity": "NOURL|Shield|Embedded Firmware Intern|Dallas, TX|Nov 02#1"
+    },
+    "90e5530bc626": {
+      "company": "Cook Group",
+      "role": "Artificial Intelligence & Innovation Intern",
+      "location": "Bloomington, IN",
+      "term": "Oct 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15220,
+      "chat_id": 7582459199,
+      "seq": 13120,
+      "identity": "NOURL|Cook Group|Artificial Intelligence & Innovation Intern|Bloomington, IN|Oct 13#1"
     }
   },
   "applied": {
@@ -163155,10 +163227,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13114,
+  "seq": 13120,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T16:45:19Z",
+    "last_ok_run": "2026-11-23T16:50:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -163166,9 +163238,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T16:20:18Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T16:50:26Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T16:20:19Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T16:50:28Z"
     }
   }
 }
