@@ -162740,6 +162740,18 @@
       "chat_id": 7582459199,
       "seq": 13110,
       "identity": "NOURL|Sierra Nevada Corporation|Firmware Engineer Intern \ud83c\uddfa\ud83c\uddf8|Sparks, NV|Nov 05#1"
+    },
+    "8741d868ad37": {
+      "company": "Benchling",
+      "role": "Software Engineer Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/benchling/96370d1b-d35e-446b-8e26-dce088860099/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15208,
+      "chat_id": 7582459199,
+      "seq": 13111,
+      "identity": "https://jobs.ashbyhq.com/benchling/96370d1b-d35e-446b-8e26-dce088860099/application?embed=true&utm_source=Simplify&ref=Simplify|Benchling|Software Engineer Intern|SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -163107,10 +163119,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13110,
+  "seq": 13111,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T15:30:24Z",
+    "last_ok_run": "2026-11-23T15:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
