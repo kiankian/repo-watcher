@@ -162752,6 +162752,18 @@
       "chat_id": 7582459199,
       "seq": 13111,
       "identity": "https://jobs.ashbyhq.com/benchling/96370d1b-d35e-446b-8e26-dce088860099/application?embed=true&utm_source=Simplify&ref=Simplify|Benchling|Software Engineer Intern|SF|Summer 2026#1"
+    },
+    "8a7883d06291": {
+      "company": "HP Inc",
+      "role": "Personal Systems Engineering Internship",
+      "location": "Spring, Texas, United States of...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-hp-externalcareersite-3171404?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15209,
+      "chat_id": 7582459199,
+      "seq": 13112,
+      "identity": "https://zapply.jobs/l/d/workday-hp-externalcareersite-3171404?s=gh-internships-2027|HP Inc|Personal Systems Engineering Internship|Spring, Texas, United States of...|Summer 2027#1"
     }
   },
   "applied": {
@@ -163119,10 +163131,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13111,
+  "seq": 13112,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T15:40:25Z",
+    "last_ok_run": "2026-11-23T15:45:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -163132,7 +163144,7 @@
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T15:20:22Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T15:15:23Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T15:45:24Z"
     }
   }
 }
