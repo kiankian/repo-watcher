@@ -162512,6 +162512,54 @@
       "chat_id": 7582459199,
       "seq": 13091,
       "identity": "https://jobs.ashbyhq.com/first-resonance/0c88b508-432d-442d-aa5f-486e08aaf5a7/application?embed=true&utm_source=Simplify&ref=Simplify|First Resonance|Software Engineer Intern - Platform|LA|Summer 2026#1"
+    },
+    "8d90e37b2cda": {
+      "company": "Southern Farm Bureau Life Insurance",
+      "role": "Applications Development Intern",
+      "location": "Jackson, MS",
+      "term": "Nov 22",
+      "apply_url": "https://go.vansh.nyc/1GG?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15169,
+      "chat_id": 7582459199,
+      "seq": 13092,
+      "identity": "https://go.vansh.nyc/1GG?s=y|Southern Farm Bureau Life Insurance|Applications Development Intern|Jackson, MS|Nov 22#1"
+    },
+    "b5ae2df008b2": {
+      "company": "CAS",
+      "role": "Technology Intern, Development Operations",
+      "location": "Columbus, OH",
+      "term": "Nov 22",
+      "apply_url": "https://go.vansh.nyc/1GH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15170,
+      "chat_id": 7582459199,
+      "seq": 13093,
+      "identity": "https://go.vansh.nyc/1GH?s=y|CAS|Technology Intern, Development Operations|Columbus, OH|Nov 22#1"
+    },
+    "11a40ec106d5": {
+      "company": "T-Mobile",
+      "role": "Data Product Intern",
+      "location": "Bellevue, WA",
+      "term": "Nov 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15171,
+      "chat_id": 7582459199,
+      "seq": 13094,
+      "identity": "NOURL|T-Mobile|Data Product Intern|Bellevue, WA|Nov 12#1"
+    },
+    "1cec2d980818": {
+      "company": "Electronic Arts",
+      "role": "Software Engineer Intern",
+      "location": "Orlando, FL",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15172,
+      "chat_id": 7582459199,
+      "seq": 13095,
+      "identity": "NOURL|Electronic Arts|Software Engineer Intern|Orlando, FL|Oct 19#1"
     }
   },
   "applied": {
@@ -162879,10 +162927,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13091,
+  "seq": 13095,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T08:15:17Z",
+    "last_ok_run": "2026-11-23T08:20:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -162890,7 +162938,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T07:20:22Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T08:20:29Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T08:10:19Z"
     }
