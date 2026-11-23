@@ -3140,11 +3140,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "e769529c02aa9e2f3f44d7b3ee6aaf9f5a430dfc",
+    "last_sha": "e72d39bc8d8838fa51edc81e063f171d841596b3",
     "seen": [
-      "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c|Notion|Software Engineer Intern|San Francisco, CA New York, NY|Aug 21#1",
-      "https://career.mlp.com/careers/job/755957819661|Millennium|Quantitative Developer Intern|New York, NY|Aug 21#1",
-      "https://career.mlp.com/careers/job/755957778848|Millennium|Applied AI Engineer Intern|Miami, FL|Aug 21#1",
       "https://jobs.ashbyhq.com/kastle/6f32db51-de45-472f-a9c8-d9419d3634ee|Kastle|Software Engineer Intern|San Francisco, CA|Aug 21#1",
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774074|JPMorgan Chase|Quantitative Research, Asset Management Summer Analyst \ud83d\udec2|New York, NY|Aug 21#1",
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038|JPMorgan Chase|Quantitative Research, Markets, Summer Internship - Analyst|New York, NY|Aug 21#1",
@@ -8141,10 +8138,13 @@
       "NOURL|Howmet Aerospace|Cybersecurity Intern|Pittsburgh, PA|Nov 03#1",
       "NOURL|International Motors|IT Security Intern|Lisle, IL|Nov 11#1",
       "NOURL|International|Artificial Intelligence/Machine Learning Intern|Lisle, IL|Nov 10#1",
-      "NOURL|Allen Control Systems|Android Developer Intern|Austin, TX|Oct 22#1"
+      "NOURL|Allen Control Systems|Android Developer Intern|Austin, TX|Oct 22#1",
+      "https://go.vansh.nyc/1GP?s=y|Benchling|Software Engineer Intern|San Francisco, CA|Nov 23#1",
+      "NOURL|Renesas Electronics|Firmware Engineering Intern|Austin, TX|Nov 20#1",
+      "NOURL|Sierra Nevada Corporation|Firmware Engineer Intern \ud83c\uddfa\ud83c\uddf8|Sparks, NV|Nov 05#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3212,
+    "last_row_count": 3213,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
