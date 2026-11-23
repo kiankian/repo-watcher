@@ -163328,6 +163328,30 @@
       "chat_id": 7582459199,
       "seq": 13159,
       "identity": "https://zapply.jobs/l/d/workday-philips-jobs-and-careers-594989?s=gh-internships-2027|Philips|Intern \u2013 AI-Agentic Embedded Software Development - Bothell, WA - Summer 2027|Bothell, Washington, United States|Summer 2027#1"
+    },
+    "156426061405": {
+      "company": "Kudu Dynamics",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Arlington, VA",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Hh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15272,
+      "chat_id": 7582459199,
+      "seq": 13160,
+      "identity": "https://go.vansh.nyc/1Hh?s=y|Kudu Dynamics|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Arlington, VA|Nov 23#1"
+    },
+    "795e37c93eb3": {
+      "company": "Electric Power Engineers",
+      "role": "Product Management Intern",
+      "location": "Austin, TX",
+      "term": "Nov 22",
+      "apply_url": "https://go.vansh.nyc/1Hg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15273,
+      "chat_id": 7582459199,
+      "seq": 13161,
+      "identity": "https://go.vansh.nyc/1Hg?s=y|Electric Power Engineers|Product Management Intern|Austin, TX|Nov 22#1"
     }
   },
   "applied": {
@@ -163695,10 +163719,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13159,
+  "seq": 13161,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T20:15:19Z",
+    "last_ok_run": "2026-11-23T20:20:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
