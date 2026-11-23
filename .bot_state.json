@@ -163160,6 +163160,126 @@
       "chat_id": 7582459199,
       "seq": 13145,
       "identity": "https://zapply.jobs/l/d/workday-cadence-univ-careers-R57251?s=gh-internships-2027|Cadence (University)|Software Engineering Intern - Circuit Simulation|AUSTIN|Summer 2027#1"
+    },
+    "4113d922a689": {
+      "company": "Shield",
+      "role": "Software Engineering Intern",
+      "location": "Dallas, TX",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1H8?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15256,
+      "chat_id": 7582459199,
+      "seq": 13146,
+      "identity": "https://go.vansh.nyc/1H8?s=y|Shield|Software Engineering Intern|Dallas, TX|Nov 23#1"
+    },
+    "00960ebc6316": {
+      "company": "Strava",
+      "role": "Software Engineering Intern, Server, User Lifecycle",
+      "location": "San Francisco, CA",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1H9?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15257,
+      "chat_id": 7582459199,
+      "seq": 13147,
+      "identity": "https://go.vansh.nyc/1H9?s=y|Strava|Software Engineering Intern, Server, User Lifecycle|San Francisco, CA|Nov 13#1"
+    },
+    "d9c327e94b07": {
+      "company": "Strava",
+      "role": "Software Engineering Intern, Server, Security",
+      "location": "San Francisco, CA",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1Ha?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15258,
+      "chat_id": 7582459199,
+      "seq": 13148,
+      "identity": "https://go.vansh.nyc/1Ha?s=y|Strava|Software Engineering Intern, Server, Security|San Francisco, CA|Nov 13#1"
+    },
+    "bf1c3d0d832f": {
+      "company": "Strava",
+      "role": "Software Engineering Intern, Server, Comms",
+      "location": "San Francisco, CA",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1Hb?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15259,
+      "chat_id": 7582459199,
+      "seq": 13149,
+      "identity": "https://go.vansh.nyc/1Hb?s=y|Strava|Software Engineering Intern, Server, Comms|San Francisco, CA|Nov 13#1"
+    },
+    "5f48d88d20fe": {
+      "company": "Strava",
+      "role": "Software Engineering Intern, Server, Next Sports",
+      "location": "San Francisco, CA",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1Hc?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15260,
+      "chat_id": 7582459199,
+      "seq": 13150,
+      "identity": "https://go.vansh.nyc/1Hc?s=y|Strava|Software Engineering Intern, Server, Next Sports|San Francisco, CA|Nov 13#1"
+    },
+    "78d41c6b7325": {
+      "company": "Strava",
+      "role": "Software Engineering Intern, AI/ML Data Products",
+      "location": "San Francisco, CA",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1Hd?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15261,
+      "chat_id": 7582459199,
+      "seq": 13151,
+      "identity": "https://go.vansh.nyc/1Hd?s=y|Strava|Software Engineering Intern, AI/ML Data Products|San Francisco, CA|Nov 13#1"
+    },
+    "edab829cc3ee": {
+      "company": "Strava",
+      "role": "Software Engineering Intern, Android, Subscriptions",
+      "location": "San Francisco, CA",
+      "term": "Nov 13",
+      "apply_url": "https://go.vansh.nyc/1He?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15262,
+      "chat_id": 7582459199,
+      "seq": 13152,
+      "identity": "https://go.vansh.nyc/1He?s=y|Strava|Software Engineering Intern, Android, Subscriptions|San Francisco, CA|Nov 13#1"
+    },
+    "8c601b2497d5": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern, Database Engineering",
+      "location": "Menlo Park, CA Bellevue, WA",
+      "term": "Nov 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15263,
+      "chat_id": 7582459199,
+      "seq": 13153,
+      "identity": "NOURL|Snowflake|Software Engineer Intern, Database Engineering|Menlo Park, CA Bellevue, WA|Nov 18#1"
+    },
+    "0a787071c242": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern, Core Infrastructure & Security",
+      "location": "Menlo Park, CA Bellevue, WA",
+      "term": "Nov 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15264,
+      "chat_id": 7582459199,
+      "seq": 13154,
+      "identity": "NOURL|Snowflake|Software Engineer Intern, Core Infrastructure & Security|Menlo Park, CA Bellevue, WA|Nov 18#1"
+    },
+    "3fec563a0ed2": {
+      "company": "Snowflake",
+      "role": "Software Engineer Intern, AI/ML",
+      "location": "Menlo Park, CA Bellevue, WA",
+      "term": "Nov 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15265,
+      "chat_id": 7582459199,
+      "seq": 13155,
+      "identity": "NOURL|Snowflake|Software Engineer Intern, AI/ML|Menlo Park, CA Bellevue, WA|Nov 18#1"
     }
   },
   "applied": {
@@ -163527,10 +163647,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13145,
+  "seq": 13155,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T19:45:20Z",
+    "last_ok_run": "2026-11-23T19:50:34Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -163538,7 +163658,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T19:20:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T19:50:32Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T19:30:25Z"
     }
