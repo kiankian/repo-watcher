@@ -3139,12 +3139,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "ebbcca4c9762cc8034532c71fcfd61f976944818",
+    "last_sha": "8dfd178e343941ff400fc0ff7c9ffb58179c4505",
     "seen": [
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4575799|Residex Software|Product Management Intern|United States|Oct 08#1",
-      "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015835003|GCM Grosvenor|IT Product & Strategy Intern|Chicago, IL|Oct 08#1",
-      "https://job-boards.greenhouse.io/arcesiumllc/jobs/5257199007|Arcesium|Infrastructure Engineer Intern|New York, NY|Oct 08#1",
-      "https://jobs.lever.co/viget/969d8237-ec1a-4ec4-ba09-b08bcfcd81c4|Viget|Project & Product Manager Intern \ud83d\udec2|Boulder, CO|Oct 07#1",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256686007|Tenstorrent|AI Software Intern, Cloud, Infrastructure & Data Centre Deployment|Austin, TX Santa Clara, CA|Oct 06#1",
       "https://www.amazon.jobs/en/jobs/10571374/software-development-engineer-embedded-systems-intern-amazon-leo-summer-2027-usa|Amazon|Software Development Engineer Intern, Amazon Leo, Embedded Systems \ud83c\uddfa\ud83c\uddf8|Redmond, WA|Oct 06#1",
       "https://veteransunited.wd1.myworkdayjobs.com/vuhl/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249|Veterans United Home Loans|Software Engineer Intern|Remote United States|Oct 05#1",
@@ -8140,10 +8136,14 @@
       "NOURL|Workstream|Full Stack Engineer Intern|Vancouver, Canada|Nov 18#1",
       "NOURL|NextEra Energy|Software Engineering Intern, Technical|St Paul, MN|Nov 13#1",
       "NOURL|Plusgrade|Applied AI Engineer Intern|Toronto, Canada|Nov 04#1",
-      "NOURL|Plusgrade|Applied AI Test Engineer Intern|Toronto, Canada|Nov 04#1"
+      "NOURL|Plusgrade|Applied AI Test Engineer Intern|Toronto, Canada|Nov 04#1",
+      "https://go.vansh.nyc/1Gz?s=y|Artefact|AI Engineer Intern|New York, NY|Nov 22#1",
+      "https://go.vansh.nyc/1GA?s=y|MITRE|Embedded Security Intern, Electronics Prototype|Bedford, MA|Nov 21#1",
+      "NOURL|The Federal Reserve System|Information Security Intern \ud83d\udec2|Atlanta, GA|Nov 05#1",
+      "NOURL|Navy Federal|AI Engineering Intern|Vienna, VA|Oct 19#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3201,
+    "last_row_count": 3203,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {

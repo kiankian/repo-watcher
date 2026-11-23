@@ -162368,6 +162368,54 @@
       "chat_id": 7582459199,
       "seq": 13079,
       "identity": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Centennial-CO/XMLNAME-2027-Summer-Internship---Software-Engineering_R26560-1?utm_source=Simplify&ref=Simplify|Sierra Space|Software Engineering Intern - Software Engineering|5 locationsMadison, WI Centennial, CO Durham, NC Louisville, CO Broomfield, CO|Summer 2026#1"
+    },
+    "b633839e7e3e": {
+      "company": "Artefact",
+      "role": "AI Engineer Intern",
+      "location": "New York, NY",
+      "term": "Nov 22",
+      "apply_url": "https://go.vansh.nyc/1Gz?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15148,
+      "chat_id": 7582459199,
+      "seq": 13080,
+      "identity": "https://go.vansh.nyc/1Gz?s=y|Artefact|AI Engineer Intern|New York, NY|Nov 22#1"
+    },
+    "99b0f9dfc22e": {
+      "company": "MITRE",
+      "role": "Embedded Security Intern, Electronics Prototype",
+      "location": "Bedford, MA",
+      "term": "Nov 21",
+      "apply_url": "https://go.vansh.nyc/1GA?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15149,
+      "chat_id": 7582459199,
+      "seq": 13081,
+      "identity": "https://go.vansh.nyc/1GA?s=y|MITRE|Embedded Security Intern, Electronics Prototype|Bedford, MA|Nov 21#1"
+    },
+    "52497a790aef": {
+      "company": "The Federal Reserve System",
+      "role": "Information Security Intern \ud83d\udec2",
+      "location": "Atlanta, GA",
+      "term": "Nov 05",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15150,
+      "chat_id": 7582459199,
+      "seq": 13082,
+      "identity": "NOURL|The Federal Reserve System|Information Security Intern \ud83d\udec2|Atlanta, GA|Nov 05#1"
+    },
+    "48e37f42f19f": {
+      "company": "Navy Federal",
+      "role": "AI Engineering Intern",
+      "location": "Vienna, VA",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15151,
+      "chat_id": 7582459199,
+      "seq": 13083,
+      "identity": "NOURL|Navy Federal|AI Engineering Intern|Vienna, VA|Oct 19#1"
     }
   },
   "applied": {
@@ -162735,10 +162783,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13079,
+  "seq": 13083,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T05:15:17Z",
+    "last_ok_run": "2026-11-23T05:20:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -162746,7 +162794,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T01:20:24Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T05:20:23Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T04:55:16Z"
     }
