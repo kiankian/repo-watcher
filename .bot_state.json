@@ -163688,6 +163688,54 @@
       "chat_id": 7582459199,
       "seq": 13189,
       "identity": "NOURL|Keysight Technologies|R&D Software Engineer Intern|Colorado Springs, CO|Oct 05#1"
+    },
+    "02cacc734bda": {
+      "company": "\ud83d\udd25 Amazon",
+      "role": "Software Development Engineer Intern - Artificial General Intelligence",
+      "location": "4 locationsBoston, MA Seattle, WA Bellevue, WA Sunnyvale, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://amazon.jobs/en/jobs/10606968/software-development-engineer-intern-artificial-general-intelligence-summer-2027?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15312,
+      "chat_id": 7582459199,
+      "seq": 13190,
+      "identity": "https://amazon.jobs/en/jobs/10606968/software-development-engineer-intern-artificial-general-intelligence-summer-2027?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Amazon|Software Development Engineer Intern - Artificial General Intelligence|4 locationsBoston, MA Seattle, WA Bellevue, WA Sunnyvale, CA|Summer 2026#1"
+    },
+    "5204e2898d00": {
+      "company": "CornerStone Partners",
+      "role": "AI and Automation Intern",
+      "location": "Charlottesville, VA",
+      "term": "Summer 2026",
+      "apply_url": "https://csptest2025.applytojob.com/apply/zkjZABQZka/AI-And-Automation-Intern-Summer-2027?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15313,
+      "chat_id": 7582459199,
+      "seq": 13191,
+      "identity": "https://csptest2025.applytojob.com/apply/zkjZABQZka/AI-And-Automation-Intern-Summer-2027?utm_source=Simplify&ref=Simplify|CornerStone Partners|AI and Automation Intern|Charlottesville, VA|Summer 2026#1"
+    },
+    "2c2d15deade1": {
+      "company": "Lifeway",
+      "role": "Software Engineer Intern - Full Stack - Back-End",
+      "location": "Remote in USA",
+      "term": "Summer 2026",
+      "apply_url": "https://hq-lifeway.icims.com/jobs/27217/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15314,
+      "chat_id": 7582459199,
+      "seq": 13192,
+      "identity": "https://hq-lifeway.icims.com/jobs/27217/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Lifeway|Software Engineer Intern - Full Stack - Back-End|Remote in USA|Summer 2026#1"
+    },
+    "6b2dfd5edb82": {
+      "company": "Lifeway",
+      "role": "Front-End Engineer Intern",
+      "location": "Nashville, TN Remote in USA",
+      "term": "Summer 2026",
+      "apply_url": "https://hq-lifeway.icims.com/jobs/27216/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15315,
+      "chat_id": 7582459199,
+      "seq": 13193,
+      "identity": "https://hq-lifeway.icims.com/jobs/27216/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Lifeway|Front-End Engineer Intern|Nashville, TN Remote in USA|Summer 2026#1"
     }
   },
   "applied": {
@@ -164055,10 +164103,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13189,
+  "seq": 13193,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T23:30:27Z",
+    "last_ok_run": "2026-11-23T23:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
