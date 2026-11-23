@@ -162356,6 +162356,18 @@
       "chat_id": 7582459199,
       "seq": 13078,
       "identity": "https://zapply.jobs/l/d/workday-hpe-jobsathpe-1214057?s=gh-internships-2027|HPE (University)|Networking & Cybersecurity Intern|Westford, Massachusetts, United...|Summer 2027#1"
+    },
+    "14aa9c5977ec": {
+      "company": "Sierra Space",
+      "role": "Software Engineering Intern - Software Engineering",
+      "location": "5 locationsMadison, WI Centennial, CO Durham, NC Louisville, CO Broomfield, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Centennial-CO/XMLNAME-2027-Summer-Internship---Software-Engineering_R26560-1?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15142,
+      "chat_id": 7582459199,
+      "seq": 13079,
+      "identity": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Centennial-CO/XMLNAME-2027-Summer-Internship---Software-Engineering_R26560-1?utm_source=Simplify&ref=Simplify|Sierra Space|Software Engineering Intern - Software Engineering|5 locationsMadison, WI Centennial, CO Durham, NC Louisville, CO Broomfield, CO|Summer 2026#1"
     }
   },
   "applied": {
@@ -162723,10 +162735,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13078,
+  "seq": 13079,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T02:30:20Z",
+    "last_ok_run": "2026-11-23T02:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
