@@ -163496,6 +163496,30 @@
       "chat_id": 7582459199,
       "seq": 13173,
       "identity": "https://zapply.jobs/l/d/workday-trimble-trimblecareers-R58210?s=gh-internships-2027|Trimble|AI Software Developer Engineer in Test Intern|OR, Lake Oswego|Summer 2027#1"
+    },
+    "e43d97e0aba3": {
+      "company": "Jabil",
+      "role": "IT Programmer Analyst Intern",
+      "location": "Florence, KY",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Ho?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15291,
+      "chat_id": 7582459199,
+      "seq": 13174,
+      "identity": "https://go.vansh.nyc/1Ho?s=y|Jabil|IT Programmer Analyst Intern|Florence, KY|Nov 23#1"
+    },
+    "2abd217da7d9": {
+      "company": "GEI Consultants",
+      "role": "Web Developer Intern",
+      "location": "Rancho Cordova, CA",
+      "term": "Nov 17",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15292,
+      "chat_id": 7582459199,
+      "seq": 13175,
+      "identity": "NOURL|GEI Consultants|Web Developer Intern|Rancho Cordova, CA|Nov 17#1"
     }
   },
   "applied": {
@@ -163863,10 +163887,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13173,
+  "seq": 13175,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T21:45:19Z",
+    "last_ok_run": "2026-11-23T21:50:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
