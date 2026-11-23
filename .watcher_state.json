@@ -3142,12 +3142,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "f41f9e2d35d7d555fc70578ab24252ad7e93742e",
+    "last_sha": "5842e05ea6a52acc0d032cd770896852e6d4398d",
     "seen": [
-      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011084|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Sunrise, FL|Aug 21#1",
-      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011987|American Express|Software Engineer Intern, Enterprise Technology Services \ud83c\uddfa\ud83c\uddf8|Charlotte, NC|Aug 21#1",
-      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784|American Express|Software Engineer Intern, Enterprise Technology Services \ud83d\udec2|Phoenix, AZ|Aug 21#1",
-      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012462|American Express|Cybersecurity Intern \ud83d\udec2|Phoenix, AZ|Aug 21#1",
       "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab|Belvedere Trading|Quantitative Trading Intern|Chicago, IL|Aug 16#1",
       "https://job-boards.greenhouse.io/dvtrading/jobs/4719118005|DV Group|Quantitative Risk Intern|Chicago, IL|Aug 06#1",
       "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716930005|Chicago Trading Company|Quant Trading Intern|Chicago, IL|Aug 06#1",
@@ -8143,10 +8139,14 @@
       "https://go.vansh.nyc/1H2?s=y|Garmin|Software Engineer Intern, Automotive OEM|Novi, MI|Nov 22#1",
       "NOURL|Cook Group|Applied AI & Full Stack Development Intern|Bloomington, IN|Nov 06#1",
       "NOURL|Itron|Data Science Intern, Distributed Intelligence|Liberty Lake, WA|Sep 27#1",
-      "NOURL|Roblox|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|Aug 05#1"
+      "NOURL|Roblox|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|Aug 05#1",
+      "https://go.vansh.nyc/1H5?s=y|ManTech|CNO Developer Intern|Remote United States|Nov 22#1",
+      "https://go.vansh.nyc/1H4?s=y|Aon|IT / Cybersecurity Engineer Intern|Chicago, IL|Nov 22#1",
+      "NOURL|Garmin|Software Engineering Intern|Manhattan, KS|Nov 19#1",
+      "NOURL|Shield AI|Software Engineer Intern|San Diego, CA|Oct 25#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3221,
+    "last_row_count": 3223,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {

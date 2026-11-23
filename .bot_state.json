@@ -163016,6 +163016,54 @@
       "chat_id": 7582459199,
       "seq": 13133,
       "identity": "NOURL|Roblox|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|Aug 05#1"
+    },
+    "b78cf9455b72": {
+      "company": "ManTech",
+      "role": "CNO Developer Intern",
+      "location": "Remote United States",
+      "term": "Nov 22",
+      "apply_url": "https://go.vansh.nyc/1H5?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15239,
+      "chat_id": 7582459199,
+      "seq": 13134,
+      "identity": "https://go.vansh.nyc/1H5?s=y|ManTech|CNO Developer Intern|Remote United States|Nov 22#1"
+    },
+    "a8f08b2adf51": {
+      "company": "Aon",
+      "role": "IT / Cybersecurity Engineer Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 22",
+      "apply_url": "https://go.vansh.nyc/1H4?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15240,
+      "chat_id": 7582459199,
+      "seq": 13135,
+      "identity": "https://go.vansh.nyc/1H4?s=y|Aon|IT / Cybersecurity Engineer Intern|Chicago, IL|Nov 22#1"
+    },
+    "429690ed7753": {
+      "company": "Garmin",
+      "role": "Software Engineering Intern",
+      "location": "Manhattan, KS",
+      "term": "Nov 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15241,
+      "chat_id": 7582459199,
+      "seq": 13136,
+      "identity": "NOURL|Garmin|Software Engineering Intern|Manhattan, KS|Nov 19#1"
+    },
+    "bdcd70b6b14c": {
+      "company": "Shield AI",
+      "role": "Software Engineer Intern",
+      "location": "San Diego, CA",
+      "term": "Oct 25",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15242,
+      "chat_id": 7582459199,
+      "seq": 13137,
+      "identity": "NOURL|Shield AI|Software Engineer Intern|San Diego, CA|Oct 25#1"
     }
   },
   "applied": {
@@ -163383,10 +163431,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13133,
+  "seq": 13137,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T18:15:20Z",
+    "last_ok_run": "2026-11-23T18:20:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
