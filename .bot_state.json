@@ -162776,6 +162776,18 @@
       "chat_id": 7582459199,
       "seq": 13113,
       "identity": "https://ats.rippling.com/apexanalytix-careers/jobs/0ab75bb7-08ee-403a-bbe5-3937bb948b19?utm_source=Simplify&ref=Simplify|APEX Analytix|Software Engineer Intern - Platform Tooling|Greensboro, NC|Summer 2026#1"
+    },
+    "938190f8c8e0": {
+      "company": "Shive-Hattery",
+      "role": "Software Developer Intern",
+      "location": "Iowa City, IA",
+      "term": "Nov 11",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15212,
+      "chat_id": 7582459199,
+      "seq": 13114,
+      "identity": "NOURL|Shive-Hattery|Software Developer Intern|Iowa City, IA|Nov 11#1"
     }
   },
   "applied": {
@@ -163143,10 +163155,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13113,
+  "seq": 13114,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T16:15:18Z",
+    "last_ok_run": "2026-11-23T16:20:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -163154,9 +163166,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T15:20:22Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-23T16:20:18Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T15:45:24Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-23T16:20:19Z"
     }
   }
 }
