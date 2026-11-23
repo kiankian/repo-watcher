@@ -163280,6 +163280,42 @@
       "chat_id": 7582459199,
       "seq": 13155,
       "identity": "NOURL|Snowflake|Software Engineer Intern, AI/ML|Menlo Park, CA Bellevue, WA|Nov 18#1"
+    },
+    "0ee56a20c159": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering Intern",
+      "location": "Bellevue, Washington",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380511?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15267,
+      "chat_id": 7582459199,
+      "seq": 13156,
+      "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380511?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Intern|Bellevue, Washington|Summer 2027#1"
+    },
+    "fc67cd8ac657": {
+      "company": "T-Mobile",
+      "role": "Summer 2027 Software Engineering Internship",
+      "location": "Bellevue Washington",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380459?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15268,
+      "chat_id": 7582459199,
+      "seq": 13157,
+      "identity": "https://zapply.jobs/l/d/workday-tmobile-external-REQ380459?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|Bellevue Washington|Summer 2027#1"
+    },
+    "e64bc45b5364": {
+      "company": "CACI",
+      "role": "Software Development Intern - Summer 2027",
+      "location": "Remote",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-caci-external-335425?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15269,
+      "chat_id": 7582459199,
+      "seq": 13158,
+      "identity": "https://zapply.jobs/l/d/workday-caci-external-335425?s=gh-internships-2027|CACI|Software Development Intern - Summer 2027|Remote|Summer 2027#1"
     }
   },
   "applied": {
@@ -163647,10 +163683,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13155,
+  "seq": 13158,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T19:50:34Z",
+    "last_ok_run": "2026-11-23T19:55:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
