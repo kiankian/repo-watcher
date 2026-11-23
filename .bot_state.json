@@ -162908,6 +162908,18 @@
       "chat_id": 7582459199,
       "seq": 13124,
       "identity": "NOURL|Origin Bank|Salesforce Systems Development Intern|Ruston, LA|Nov 12#1"
+    },
+    "dea5b8eec628": {
+      "company": "RTX",
+      "role": "Systems Engineer, Intern",
+      "location": "VA-STERLING",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01891033?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15228,
+      "chat_id": 7582459199,
+      "seq": 13125,
+      "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01891033?s=gh-internships-2027|RTX|Systems Engineer, Intern|VA-STERLING|Summer 2027#1"
     }
   },
   "applied": {
@@ -163275,10 +163287,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13124,
+  "seq": 13125,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T17:35:19Z",
+    "last_ok_run": "2026-11-23T17:40:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
