@@ -163556,6 +163556,54 @@
       "chat_id": 7582459199,
       "seq": 13178,
       "identity": "NOURL|Zoox|Autonomy and Geofence Expansion Intern|Foster City, CA|Oct 28#1"
+    },
+    "998f76c3116a": {
+      "company": "General Dynamics Information Technology",
+      "role": "Professional Programmer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Raleigh, NC",
+      "term": "Nov 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15299,
+      "chat_id": 7582459199,
+      "seq": 13179,
+      "identity": "NOURL|General Dynamics Information Technology|Professional Programmer Intern \ud83c\uddfa\ud83c\uddf8|Raleigh, NC|Nov 12#1"
+    },
+    "2b8437fbd6cf": {
+      "company": "UiPath",
+      "role": "Software Engineer Intern",
+      "location": "Bellevue, WA",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15300,
+      "chat_id": 7582459199,
+      "seq": 13180,
+      "identity": "NOURL|UiPath|Software Engineer Intern|Bellevue, WA|Nov 09#1"
+    },
+    "5631cc5c9e18": {
+      "company": "Contoro Robotics",
+      "role": "Robotics Software Engineer Intern, Autonomy \\[Automation\\]",
+      "location": "Austin, TX",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-contoro-6a1f0c10-3e5f-4899-ad86-38036a9cd434?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15301,
+      "chat_id": 7582459199,
+      "seq": 13181,
+      "identity": "https://zapply.jobs/l/d/ashby-contoro-6a1f0c10-3e5f-4899-ad86-38036a9cd434?s=gh-internships-2027|Contoro Robotics|Robotics Software Engineer Intern, Autonomy \\[Automation\\]|Austin, TX|Summer 2027#1"
+    },
+    "648bf9456d9a": {
+      "company": "BAE Systems",
+      "role": "Software Developer Intern III, Summer 2027",
+      "location": "Durham, North Carolina",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/phenom-bae-systems-133253BR?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15302,
+      "chat_id": 7582459199,
+      "seq": 13182,
+      "identity": "https://zapply.jobs/l/d/phenom-bae-systems-133253BR?s=gh-internships-2027|BAE Systems|Software Developer Intern III, Summer 2027|Durham, North Carolina|Summer 2027#1"
     }
   },
   "applied": {
@@ -163923,10 +163971,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13178,
+  "seq": 13182,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T22:45:18Z",
+    "last_ok_run": "2026-11-23T22:50:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
