@@ -162332,6 +162332,30 @@
       "chat_id": 7582459199,
       "seq": 13076,
       "identity": "NOURL|Plusgrade|Applied AI Test Engineer Intern|Toronto, Canada|Nov 04#1"
+    },
+    "dbf50b3d5a51": {
+      "company": "HPE (University)",
+      "role": "Networking & Cybersecurity Intern",
+      "location": "San Jose, California, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-hpe-jobsathpe-1214058?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15138,
+      "chat_id": 7582459199,
+      "seq": 13077,
+      "identity": "https://zapply.jobs/l/d/workday-hpe-jobsathpe-1214058?s=gh-internships-2027|HPE (University)|Networking & Cybersecurity Intern|San Jose, California, United...|Summer 2027#1"
+    },
+    "7b285f25c22c": {
+      "company": "HPE (University)",
+      "role": "Networking & Cybersecurity Intern",
+      "location": "Westford, Massachusetts, United...",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-hpe-jobsathpe-1214057?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15139,
+      "chat_id": 7582459199,
+      "seq": 13078,
+      "identity": "https://zapply.jobs/l/d/workday-hpe-jobsathpe-1214057?s=gh-internships-2027|HPE (University)|Networking & Cybersecurity Intern|Westford, Massachusetts, United...|Summer 2027#1"
     }
   },
   "applied": {
@@ -162699,10 +162723,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13076,
+  "seq": 13078,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-23T01:20:26Z",
+    "last_ok_run": "2026-11-23T01:25:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
