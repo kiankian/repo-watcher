@@ -164564,6 +164564,18 @@
       "chat_id": 7582459199,
       "seq": 13262,
       "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00197462?s=gh-internships-2027|Leidos|Network Engineering & Operations Intern|Shiloh, IL|Summer 2027#1"
+    },
+    "bca7779124b2": {
+      "company": "Idaho National Laboratory",
+      "role": "Infrastructure Data Integration & Risk-Informed Maintenance Pilot Intern",
+      "location": "Idaho Falls, ID",
+      "term": "Nov 22",
+      "apply_url": "https://go.vansh.nyc/1I6?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15420,
+      "chat_id": 7582459199,
+      "seq": 13263,
+      "identity": "https://go.vansh.nyc/1I6?s=y|Idaho National Laboratory|Infrastructure Data Integration & Risk-Informed Maintenance Pilot Intern|Idaho Falls, ID|Nov 22#1"
     }
   },
   "applied": {
@@ -164931,10 +164943,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13262,
+  "seq": 13263,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T13:45:18Z",
+    "last_ok_run": "2026-11-24T13:50:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -164942,7 +164954,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T12:20:19Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T13:50:18Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T13:25:20Z"
     }
