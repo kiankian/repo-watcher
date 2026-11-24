@@ -164156,6 +164156,18 @@
       "chat_id": 7582459199,
       "seq": 13228,
       "identity": "https://jobs.ashbyhq.com/illumio/95bc7491-9b2f-493c-9297-e9cb36a63b45/application?embed=true&utm_source=Simplify&ref=Simplify|Illumio|Security Platforms Engineer Intern - Security Platforms|Sunnyvale, CA|Summer 2026#1"
+    },
+    "e43199c02e04": {
+      "company": "Veolia Environnement SA",
+      "role": "Manufacturing Software Engineer Intern",
+      "location": "Boulder, CO",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/sr-VeoliaEnvironnementSA-744000163377969?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15361,
+      "chat_id": 7582459199,
+      "seq": 13229,
+      "identity": "https://zapply.jobs/l/d/sr-VeoliaEnvironnementSA-744000163377969?s=gh-internships-2027|Veolia Environnement SA|Manufacturing Software Engineer Intern|Boulder, CO|Summer 2027#1"
     }
   },
   "applied": {
@@ -164523,10 +164535,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13228,
+  "seq": 13229,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T03:40:20Z",
+    "last_ok_run": "2026-11-24T03:45:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
