@@ -165008,6 +165008,30 @@
       "chat_id": 7582459199,
       "seq": 13299,
       "identity": "https://zapply.jobs/l/d/ashby-apex-technology-inc-e34724bd-0db2-4433-9352-7ad49d37e627?s=gh-internships-2027|Apex Technology|Mechanical Ground Systems Engineering Internship (Summer 2027)|Los Angeles|Summer 2027#1"
+    },
+    "5c6eea734408": {
+      "company": "RF-SMART",
+      "role": "Software Developer Intern",
+      "location": "Highlands Ranch, CO Jacksonville, FL",
+      "term": "Nov 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15481,
+      "chat_id": 7582459199,
+      "seq": 13300,
+      "identity": "NOURL|RF-SMART|Software Developer Intern|Highlands Ranch, CO Jacksonville, FL|Nov 24#1"
+    },
+    "2343e88977cd": {
+      "company": "Wellmark",
+      "role": "Software Engineer Intern - Marketing and Digital Team",
+      "location": "Des Moines, IA",
+      "term": "Sep 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15482,
+      "chat_id": 7582459199,
+      "seq": 13301,
+      "identity": "NOURL|Wellmark|Software Engineer Intern - Marketing and Digital Team|Des Moines, IA|Sep 28#1"
     }
   },
   "applied": {
@@ -165375,10 +165399,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13299,
+  "seq": 13301,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T21:15:18Z",
+    "last_ok_run": "2026-11-24T21:20:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -165386,7 +165410,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T20:50:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T21:20:20Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T20:55:16Z"
     }
