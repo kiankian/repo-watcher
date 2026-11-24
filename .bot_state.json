@@ -165056,6 +165056,30 @@
       "chat_id": 7582459199,
       "seq": 13303,
       "identity": "https://zapply.jobs/l/d/amazon-2b72be15-a4df-43a5-b980-44706e7c5f23?s=gh-internships-2027|Amazon.com Services LLC|Front-End Engineer Internship \u2013 2027 (US)|Seattle, WA|Summer 2027#1"
+    },
+    "1d3ef50d4733": {
+      "company": "Apex Technology, Inc.",
+      "role": "Software Engineer Intern, Test Automation",
+      "location": "Los Angeles, CA",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1It?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15487,
+      "chat_id": 7582459199,
+      "seq": 13304,
+      "identity": "https://go.vansh.nyc/1It?s=y|Apex Technology, Inc.|Software Engineer Intern, Test Automation|Los Angeles, CA|Nov 24#1"
+    },
+    "054f57c1c006": {
+      "company": "Marvell",
+      "role": "AI-Native Development Platform Engineer Intern",
+      "location": "Santa Clara, CA",
+      "term": "Sep 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15488,
+      "chat_id": 7582459199,
+      "seq": 13305,
+      "identity": "NOURL|Marvell|AI-Native Development Platform Engineer Intern|Santa Clara, CA|Sep 28#1"
     }
   },
   "applied": {
@@ -165423,10 +165447,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13303,
+  "seq": 13305,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T21:45:20Z",
+    "last_ok_run": "2026-11-24T21:50:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -165434,7 +165458,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T21:20:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T21:50:22Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T21:25:16Z"
     }
