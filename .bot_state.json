@@ -165740,6 +165740,18 @@
       "chat_id": 7582459199,
       "seq": 13360,
       "identity": "NOURL|Camping World|Software Engineer Intern|Chicago, IL|Nov 12#1"
+    },
+    "7909156e924d": {
+      "company": "\ud83d\udd25 Amazon",
+      "role": "Front-End Engineer Intern",
+      "location": "Seattle, WA Chicago, IL Bellevue, WA",
+      "term": "Summer 2026",
+      "apply_url": "https://amazon.jobs/en/jobs/10609992/front-end-engineer-internship-2027-us?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15549,
+      "chat_id": 7582459199,
+      "seq": 13361,
+      "identity": "https://amazon.jobs/en/jobs/10609992/front-end-engineer-internship-2027-us?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Amazon|Front-End Engineer Intern|Seattle, WA Chicago, IL Bellevue, WA|Summer 2026#1"
     }
   },
   "applied": {
@@ -166107,10 +166119,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13360,
+  "seq": 13361,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T23:30:21Z",
+    "last_ok_run": "2026-11-24T23:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -166120,7 +166132,7 @@
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T23:20:29Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T23:00:25Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T23:35:17Z"
     }
   }
 }
