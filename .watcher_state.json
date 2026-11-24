@@ -3160,9 +3160,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "63876316f3e4532bd1d2c99c01bbb9a3333376a2",
+    "last_sha": "21ed5d104e3b4b2ad6c4f24d0f4f0bf8dcb55980",
     "seen": [
-      "https://www.janestreet.com/join-jane-street/position/8620793002/|Jane Street|Network Engineer Intern|New York, NY|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8626260002/|Jane Street|Linux Engineer Intern|New York, NY|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8624440002/|Jane Street|Hardware Engineer (FPGA/ASIC) Intern|New York, NY|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8347286002/|Jane Street|Fundamental Research Analyst Intern|New York, NY|Jul 24#1",
@@ -8161,14 +8160,15 @@
       "https://go.vansh.nyc/1I5?s=y|Trimble|AI Software Developer Engineer in Test Intern|Lake Oswego, OR|Nov 23#1",
       "https://go.vansh.nyc/1I6?s=y|Idaho National Laboratory|Infrastructure Data Integration & Risk-Informed Maintenance Pilot Intern|Idaho Falls, ID|Nov 22#1",
       "NOURL|Selective Insurance Company of America|IT Commercial Lines Intern|Hartford, CT Charlotte, NC|Nov 11#1",
-      "NOURL|Selective Insurance Company of America|IT Information Management Intern|Short Hills, NJ|Nov 11#1"
+      "NOURL|Selective Insurance Company of America|IT Information Management Intern|Short Hills, NJ|Nov 11#1",
+      "NOURL|Wing|Route Planning Software Engineering Intern|Palo Alto, CA|Oct 12#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3270,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "d585f2708da3f137924606ceb0d4b3149035242d",
+    "last_sha": "aa1f04bf2a9d8be63edaed950ae65e7fe7f2143e",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -10997,7 +10997,8 @@
       "https://zapply.jobs/l/d/workday-leidos-external-R-00197267?s=gh-internships-2027|Leidos|System Administration/Cybersecurity Intern|Clarksburg, WV|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01886273?s=gh-internships-2027|RTX|Systems Engineering Co-Op Summer/Fall 2027 - Onsite|IA-CEDAR RAPIDS|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10261918?s=gh-internships-2027|Northrop Grumman|2027 Software Engineering Intern - Colorado Springs CO|United States-Colorado-Colorado...|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-leidos-external-R-00197462?s=gh-internships-2027|Leidos|Network Engineering & Operations Intern|Shiloh, IL|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-leidos-external-R-00197462?s=gh-internships-2027|Leidos|Network Engineering & Operations Intern|Shiloh, IL|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01890983?s=gh-internships-2027|RTX|Software Engineering Intern (Summer 2027)|IN-FT WAYNE|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",
