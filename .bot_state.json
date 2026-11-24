@@ -164132,6 +164132,30 @@
       "chat_id": 7582459199,
       "seq": 13226,
       "identity": "NOURL|Workday|Cybersecurity Engineer Intern|Pleasanton, CA|Oct 08#1"
+    },
+    "b2ae267b4ed0": {
+      "company": "Illumio",
+      "role": "Engineering Intern - Architecture Platform",
+      "location": "Sunnyvale, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/illumio/a211377c-7db7-4c62-97ba-8176c5a61293/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15357,
+      "chat_id": 7582459199,
+      "seq": 13227,
+      "identity": "https://jobs.ashbyhq.com/illumio/a211377c-7db7-4c62-97ba-8176c5a61293/application?embed=true&utm_source=Simplify&ref=Simplify|Illumio|Engineering Intern - Architecture Platform|Sunnyvale, CA|Summer 2026#1"
+    },
+    "c158de055549": {
+      "company": "Illumio",
+      "role": "Security Platforms Engineer Intern - Security Platforms",
+      "location": "Sunnyvale, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/illumio/95bc7491-9b2f-493c-9297-e9cb36a63b45/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15358,
+      "chat_id": 7582459199,
+      "seq": 13228,
+      "identity": "https://jobs.ashbyhq.com/illumio/95bc7491-9b2f-493c-9297-e9cb36a63b45/application?embed=true&utm_source=Simplify&ref=Simplify|Illumio|Security Platforms Engineer Intern - Security Platforms|Sunnyvale, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -164499,10 +164523,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13226,
+  "seq": 13228,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T03:00:23Z",
+    "last_ok_run": "2026-11-24T03:05:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -164512,7 +164536,7 @@
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T02:20:20Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T02:35:18Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T03:05:25Z"
     }
   }
 }
