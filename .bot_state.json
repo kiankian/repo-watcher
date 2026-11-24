@@ -164708,6 +164708,30 @@
       "chat_id": 7582459199,
       "seq": 13274,
       "identity": "https://job-boards.greenhouse.io/rfsmart/jobs/5446867008?utm_source=Simplify&ref=Simplify|RF-SMART|Software Developer Intern|Highlands Ranch, CO Jacksonville, FL|Summer 2026#1"
+    },
+    "67245edeeebe": {
+      "company": "RF-SMART",
+      "role": "Software Developer Intern",
+      "location": "Highlands Ranch, CO Jacksonville, FL",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1Id?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15443,
+      "chat_id": 7582459199,
+      "seq": 13275,
+      "identity": "https://go.vansh.nyc/1Id?s=y|RF-SMART|Software Developer Intern|Highlands Ranch, CO Jacksonville, FL|Nov 24#1"
+    },
+    "4c0c54193561": {
+      "company": "Intel",
+      "role": "Design Verification Intern",
+      "location": "**4 locations**Fort Collins, CO Hillsboro, OR Santa Clara, CA Austin, TX",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1Ie?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15444,
+      "chat_id": 7582459199,
+      "seq": 13276,
+      "identity": "https://go.vansh.nyc/1Ie?s=y|Intel|Design Verification Intern|**4 locations**Fort Collins, CO Hillsboro, OR Santa Clara, CA Austin, TX|Nov 24#1"
     }
   },
   "applied": {
@@ -165075,10 +165099,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13274,
+  "seq": 13276,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T16:45:23Z",
+    "last_ok_run": "2026-11-24T16:50:23Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
