@@ -164696,6 +164696,18 @@
       "chat_id": 7582459199,
       "seq": 13273,
       "identity": "NOURL|Hewlett Packard (HP)|Performance Engineering Co-op|Fort Collins, CO|Nov 10#1"
+    },
+    "4f3b86877ca8": {
+      "company": "RF-SMART",
+      "role": "Software Developer Intern",
+      "location": "Highlands Ranch, CO Jacksonville, FL",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/rfsmart/jobs/5446867008?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15441,
+      "chat_id": 7582459199,
+      "seq": 13274,
+      "identity": "https://job-boards.greenhouse.io/rfsmart/jobs/5446867008?utm_source=Simplify&ref=Simplify|RF-SMART|Software Developer Intern|Highlands Ranch, CO Jacksonville, FL|Summer 2026#1"
     }
   },
   "applied": {
@@ -165063,10 +165075,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13273,
+  "seq": 13274,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T16:30:31Z",
+    "last_ok_run": "2026-11-24T16:35:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -165076,7 +165088,7 @@
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T16:25:18Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T16:05:19Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T16:35:20Z"
     }
   }
 }
