@@ -163952,6 +163952,54 @@
       "chat_id": 7582459199,
       "seq": 13211,
       "identity": "https://zapply.jobs/l/d/greenhouse-sharkninjaoperatingllc-4725867006?s=gh-internships-2027|SharkNinja|Summer 2027: Software Development Test Engineering Co-op(May to August)|Needham, MA, United States|Summer 2027#1"
+    },
+    "ab71ca0a12ee": {
+      "company": "Strava",
+      "role": "Software Engineer Intern - Server - User Lifecycle",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/Strava/12d85f67-5fac-4dfa-8fd7-a4f886b4a10a/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15337,
+      "chat_id": 7582459199,
+      "seq": 13212,
+      "identity": "https://jobs.ashbyhq.com/Strava/12d85f67-5fac-4dfa-8fd7-a4f886b4a10a/application?embed=true&utm_source=Simplify&ref=Simplify|Strava|Software Engineer Intern - Server - User Lifecycle|SF|Summer 2026#1"
+    },
+    "b018b98d155d": {
+      "company": "Strava",
+      "role": "Software Engineer Intern - Android - Subscriptions",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/Strava/02999001-164a-45c2-a763-03dedf458f0c/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15338,
+      "chat_id": 7582459199,
+      "seq": 13213,
+      "identity": "https://jobs.ashbyhq.com/Strava/02999001-164a-45c2-a763-03dedf458f0c/application?embed=true&utm_source=Simplify&ref=Simplify|Strava|Software Engineer Intern - Android - Subscriptions|SF|Summer 2026#1"
+    },
+    "514fad3d44c5": {
+      "company": "Strava",
+      "role": "Software Engineer Intern - Server - Comms",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/Strava/96968b02-dde9-4e0d-b6a8-d2363f550126/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15339,
+      "chat_id": 7582459199,
+      "seq": 13214,
+      "identity": "https://jobs.ashbyhq.com/Strava/96968b02-dde9-4e0d-b6a8-d2363f550126/application?embed=true&utm_source=Simplify&ref=Simplify|Strava|Software Engineer Intern - Server - Comms|SF|Summer 2026#1"
+    },
+    "6135cf0d886e": {
+      "company": "Strava",
+      "role": "Software Engineer Intern - Server - Next Sports",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/Strava/0a1c94e3-c19c-47a4-9974-5cc86b74e3e9/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15340,
+      "chat_id": 7582459199,
+      "seq": 13215,
+      "identity": "https://jobs.ashbyhq.com/Strava/0a1c94e3-c19c-47a4-9974-5cc86b74e3e9/application?embed=true&utm_source=Simplify&ref=Simplify|Strava|Software Engineer Intern - Server - Next Sports|SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -164319,10 +164367,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13211,
+  "seq": 13215,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T00:30:14Z",
+    "last_ok_run": "2026-11-24T00:35:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
