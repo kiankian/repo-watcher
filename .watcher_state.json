@@ -3163,12 +3163,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "60fdfe3a0e6f3617b175e9c0ea5185dc177270e0",
+    "last_sha": "043233860aaf68c1ccf37e46e9508e6ec5476d19",
     "seen": [
-      "https://www.optiver.com/join-us/jobs/technology/austin/software-engineer-intern-summer-2027-austin/|Optiver|Software Engineer Intern|Austin, TX|Jul 07#1",
-      "https://www.imc.com/us/careers/jobs/4823924101|IMC|Software Engineer Intern|Chicago, IL|Jul 07#1",
-      "https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2027-5894|DE Shaw|Software Developer Intern|New York, NY|Jul 07#1",
-      "https://www.citadel.com/careers/details/software-engineer-intern-us/|Citadel|Software Engineer Intern|**4 locations**New York, NY Greenwich, CT Miami, FL Houston, TX|Jul 07#1",
       "https://www.capitalonecareers.com/job/mclean/data-analyst-intern-summer-2027/31238/97421687472|Capital One|Data Analyst Intern|Mclean, VA|Jul 07#1",
       "https://job-boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|Software Engineer Intern|**6 locations**Atlanta, GA Boston, MA Costa Mesa, CA Irvine, CA Reston, VA Seattle, WA|Jul 07#1",
       "https://voloridge-investment-management.hiringthing.com/job/1013126/quantitative-developer-intern-2027?s=lif&jr_id=69eaa8e4dc35f7132c4ab803|Voloridge Investment Management|Quantitative Developer Intern|Jupiter, FL|May 22#1",
@@ -8164,10 +8160,14 @@
       "NOURL|Bloomberg Industry Group|Data Analyst Intern|Arlington, VA|Nov 16#1",
       "NOURL|USAA|Technology Intern|San Antonio, TX Plano, TX Phoenix, AZ|Nov 13#1",
       "NOURL|Camping World|AI Security Intern|Chicago, IL|Nov 13#1",
-      "NOURL|Camping World|Software Engineer Intern|Chicago, IL|Nov 12#1"
+      "NOURL|Camping World|Software Engineer Intern|Chicago, IL|Nov 12#1",
+      "https://go.vansh.nyc/1IA?s=y|Indie|Camera Host Tools Intern|San Jose, CA|Nov 24#1",
+      "NOURL|Quadric|RTL Intern|Burlingame, CA|Oct 22#1",
+      "NOURL|Quadric|AI Kernel Engineer Intern|Burlingame, CA|Oct 22#1",
+      "NOURL|CAE|Software Developer Intern, Content Creation Tools|Montreal, Canada|Sep 20#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3285,
+    "last_row_count": 3286,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {

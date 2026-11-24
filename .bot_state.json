@@ -165752,6 +165752,54 @@
       "chat_id": 7582459199,
       "seq": 13361,
       "identity": "https://amazon.jobs/en/jobs/10609992/front-end-engineer-internship-2027-us?utm_source=Simplify&ref=Simplify|\ud83d\udd25 Amazon|Front-End Engineer Intern|Seattle, WA Chicago, IL Bellevue, WA|Summer 2026#1"
+    },
+    "593bfe47d791": {
+      "company": "Indie",
+      "role": "Camera Host Tools Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1IA?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15551,
+      "chat_id": 7582459199,
+      "seq": 13362,
+      "identity": "https://go.vansh.nyc/1IA?s=y|Indie|Camera Host Tools Intern|San Jose, CA|Nov 24#1"
+    },
+    "fd7dfb7cac07": {
+      "company": "Quadric",
+      "role": "RTL Intern",
+      "location": "Burlingame, CA",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15552,
+      "chat_id": 7582459199,
+      "seq": 13363,
+      "identity": "NOURL|Quadric|RTL Intern|Burlingame, CA|Oct 22#1"
+    },
+    "86c10ab7ade6": {
+      "company": "Quadric",
+      "role": "AI Kernel Engineer Intern",
+      "location": "Burlingame, CA",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15553,
+      "chat_id": 7582459199,
+      "seq": 13364,
+      "identity": "NOURL|Quadric|AI Kernel Engineer Intern|Burlingame, CA|Oct 22#1"
+    },
+    "cfba759932eb": {
+      "company": "CAE",
+      "role": "Software Developer Intern, Content Creation Tools",
+      "location": "Montreal, Canada",
+      "term": "Sep 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15554,
+      "chat_id": 7582459199,
+      "seq": 13365,
+      "identity": "NOURL|CAE|Software Developer Intern, Content Creation Tools|Montreal, Canada|Sep 20#1"
     }
   },
   "applied": {
@@ -166119,10 +166167,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13361,
+  "seq": 13365,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T23:45:18Z",
+    "last_ok_run": "2026-11-24T23:50:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
