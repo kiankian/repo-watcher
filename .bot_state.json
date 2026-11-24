@@ -164768,6 +164768,42 @@
       "chat_id": 7582459199,
       "seq": 13279,
       "identity": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10261960?s=gh-internships-2027|Northrop Grumman|2027 Cybersecurity Intern - Linthicum MD|United States-Maryland-Linthicum|Summer 2027#1"
+    },
+    "93acaafa328d": {
+      "company": "Altera",
+      "role": "AI Software Development Engineer Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1Ih?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15450,
+      "chat_id": 7582459199,
+      "seq": 13280,
+      "identity": "https://go.vansh.nyc/1Ih?s=y|Altera|AI Software Development Engineer Intern|Toronto, Canada|Nov 24#1"
+    },
+    "ac16db8b2b68": {
+      "company": "Altera",
+      "role": "Embedded Solutions Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1Ii?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15451,
+      "chat_id": 7582459199,
+      "seq": 13281,
+      "identity": "https://go.vansh.nyc/1Ii?s=y|Altera|Embedded Solutions Intern|Toronto, Canada|Nov 24#1"
+    },
+    "77d541421308": {
+      "company": "Springs Window Fashions",
+      "role": "Software Engineering Intern",
+      "location": "Long Island City, NY",
+      "term": "Nov 07",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15452,
+      "chat_id": 7582459199,
+      "seq": 13282,
+      "identity": "NOURL|Springs Window Fashions|Software Engineering Intern|Long Island City, NY|Nov 07#1"
     }
   },
   "applied": {
@@ -165135,10 +165171,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13279,
+  "seq": 13282,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T17:45:19Z",
+    "last_ok_run": "2026-11-24T17:50:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -165146,7 +165182,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T16:25:18Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T17:50:24Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T17:40:26Z"
     }

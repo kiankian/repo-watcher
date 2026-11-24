@@ -3162,11 +3162,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "b40457ae0588daff1e3c899309edcb2355a51f0b",
+    "last_sha": "c9dc3bf25b61f5cd46ed504688284c87e5947a1f",
     "seen": [
-      "https://www.janestreet.com/join-jane-street/position/8611307002/|Jane Street|Machine Learning Engineer Intern|New York, NY|Jul 24#1",
-      "https://www.janestreet.com/join-jane-street/position/8498547002/|Jane Street|Quantitative Researcher Intern|New York, NY|Jul 24#1",
-      "https://www.janestreet.com/join-jane-street/position/8617344002/|Jane Street|Quantitative Trader Intern|New York, NY|Jul 24#1",
       "https://www.imc.com/us/careers/jobs/4823945101|IMC|Hardware Engineer Intern|Chicago, IL|Jul 24#1",
       "https://www.imc.com/us/careers/jobs/4907399101|IMC|Quantitative Research Intern|Chicago, IL|Jul 24#1",
       "https://www.imc.com/us/careers/jobs/4907400101|IMC|Quantitative Research Intern (PHD)|Chicago|Jul 24#1",
@@ -8163,10 +8160,13 @@
       "https://go.vansh.nyc/1I9?s=y|BEUMER Group|AI Development Intern|United States|Nov 24#1",
       "NOURL|Hewlett Packard (HP)|Performance Engineering Co-op|Fort Collins, CO|Nov 10#1",
       "https://go.vansh.nyc/1Id?s=y|RF-SMART|Software Developer Intern|Highlands Ranch, CO Jacksonville, FL|Nov 24#1",
-      "https://go.vansh.nyc/1Ie?s=y|Intel|Design Verification Intern|**4 locations**Fort Collins, CO Hillsboro, OR Santa Clara, CA Austin, TX|Nov 24#1"
+      "https://go.vansh.nyc/1Ie?s=y|Intel|Design Verification Intern|**4 locations**Fort Collins, CO Hillsboro, OR Santa Clara, CA Austin, TX|Nov 24#1",
+      "https://go.vansh.nyc/1Ih?s=y|Altera|AI Software Development Engineer Intern|Toronto, Canada|Nov 24#1",
+      "https://go.vansh.nyc/1Ii?s=y|Altera|Embedded Solutions Intern|Toronto, Canada|Nov 24#1",
+      "NOURL|Springs Window Fashions|Software Engineering Intern|Long Island City, NY|Nov 07#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3274,
+    "last_row_count": 3276,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
