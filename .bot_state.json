@@ -164180,6 +164180,54 @@
       "chat_id": 7582459199,
       "seq": 13230,
       "identity": "https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01886275?s=gh-internships-2027|RTX|Systems Engineering Intern Summer 2027 - Onsite|IA-CEDAR RAPIDS|Summer 2027#1"
+    },
+    "57523a407abc": {
+      "company": "RTX",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Indianapolis, IN",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1HO?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15364,
+      "chat_id": 7582459199,
+      "seq": 13231,
+      "identity": "https://go.vansh.nyc/1HO?s=y|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Indianapolis, IN|Nov 23#1"
+    },
+    "0cc75593c4b5": {
+      "company": "Leidos",
+      "role": "Software Engineering Intern",
+      "location": "Arlington, VA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-leidos-external-R-00197526?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15366,
+      "chat_id": 7582459199,
+      "seq": 13232,
+      "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00197526?s=gh-internships-2027|Leidos|Software Engineering Intern|Arlington, VA|Summer 2027#1"
+    },
+    "123912ddd3d7": {
+      "company": "Leidos",
+      "role": "SharePoint & Systems Engineering Intern",
+      "location": "6314 Remote/Teleworker US",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-leidos-external-R-00197543?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15367,
+      "chat_id": 7582459199,
+      "seq": 13233,
+      "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00197543?s=gh-internships-2027|Leidos|SharePoint & Systems Engineering Intern|6314 Remote/Teleworker US|Summer 2027#1"
+    },
+    "6ed89300e1ea": {
+      "company": "Leidos",
+      "role": "System Administration/Cybersecurity Intern",
+      "location": "Clarksburg, WV",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-leidos-external-R-00197267?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15368,
+      "chat_id": 7582459199,
+      "seq": 13234,
+      "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00197267?s=gh-internships-2027|Leidos|System Administration/Cybersecurity Intern|Clarksburg, WV|Summer 2027#1"
     }
   },
   "applied": {
@@ -164547,10 +164595,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13230,
+  "seq": 13234,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T04:15:19Z",
+    "last_ok_run": "2026-11-24T04:20:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -164558,7 +164606,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T02:20:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T04:20:17Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T04:10:19Z"
     }
