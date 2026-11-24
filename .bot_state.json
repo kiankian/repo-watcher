@@ -164000,6 +164000,54 @@
       "chat_id": 7582459199,
       "seq": 13215,
       "identity": "https://jobs.ashbyhq.com/Strava/0a1c94e3-c19c-47a4-9974-5cc86b74e3e9/application?embed=true&utm_source=Simplify&ref=Simplify|Strava|Software Engineer Intern - Server - Next Sports|SF|Summer 2026#1"
+    },
+    "d9efa7fc59c6": {
+      "company": "SharkNinja",
+      "role": "Software Development Test Engineering Co-op",
+      "location": "Needham, MA",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1HH?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15341,
+      "chat_id": 7582459199,
+      "seq": 13216,
+      "identity": "https://go.vansh.nyc/1HH?s=y|SharkNinja|Software Development Test Engineering Co-op|Needham, MA|Nov 23#1"
+    },
+    "35b27a08abcf": {
+      "company": "SharkNinja",
+      "role": "Firmware Engineering Intern, Advanced Development",
+      "location": "Needham, MA",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1HJ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15342,
+      "chat_id": 7582459199,
+      "seq": 13217,
+      "identity": "https://go.vansh.nyc/1HJ?s=y|SharkNinja|Firmware Engineering Intern, Advanced Development|Needham, MA|Nov 23#1"
+    },
+    "13fe19f41cde": {
+      "company": "Illumio",
+      "role": "Engineering Intern, Architecture Platform",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1HI?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15343,
+      "chat_id": 7582459199,
+      "seq": 13218,
+      "identity": "https://go.vansh.nyc/1HI?s=y|Illumio|Engineering Intern, Architecture Platform|Sunnyvale, CA|Nov 23#1"
+    },
+    "2b0d457b9a9a": {
+      "company": "Illumio",
+      "role": "AI-Based Scale & Performance Test Automation Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1HK?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15344,
+      "chat_id": 7582459199,
+      "seq": 13219,
+      "identity": "https://go.vansh.nyc/1HK?s=y|Illumio|AI-Based Scale & Performance Test Automation Intern|Sunnyvale, CA|Nov 23#1"
     }
   },
   "applied": {
@@ -164367,10 +164415,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13215,
+  "seq": 13219,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T00:45:17Z",
+    "last_ok_run": "2026-11-24T00:50:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -164380,7 +164428,7 @@
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-24T00:20:30Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T00:15:20Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-24T00:50:25Z"
     }
   }
 }

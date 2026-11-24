@@ -3152,12 +3152,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "a361529908a831546c3eed2dafcc5b8aed108397",
+    "last_sha": "88ca58429e1d3aa33a902e4ad12e55e2f18c53d1",
     "seen": [
-      "https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef|Heliux|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|Aug 03#1",
-      "https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328|DRW|Software Developer Intern|Chicago, IL|Jul 31#1",
-      "https://www.drw.com/work-at-drw/listings/software-developer-intern-3466687|DRW|Software Developer Intern|Montr\u00e9al|Jul 31#1",
-      "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090|DRW|Quantitative Trading Analyst Intern|Chicago, IL|Jul 31#1",
       "https://www.drw.com/work-at-drw/listings/quantitative-research-intern-3413670|DRW|Quantitative Research Intern|Chicago, IL New York City, NY|Jul 31#1",
       "https://www.drw.com/work-at-drw/listings/platform-engineer-intern-3468737|DRW|Platform Engineer Intern|Chicago, IL|Jul 31#1",
       "https://www.drw.com/work-at-drw/listings/aiml-research-intern-3466679|DRW|AI/ML Research Intern|Montr\u00e9al|Jul 31#1",
@@ -8153,10 +8149,14 @@
       "https://go.vansh.nyc/1HB?s=y|Illumio|Engineering Intern, Security Platforms|Sunnyvale, CA|Nov 23#1",
       "https://go.vansh.nyc/1HC?s=y|Illumio|Product Manager Intern|Sunnyvale, CA|Nov 23#1",
       "https://go.vansh.nyc/1HD?s=y|Illumio|Technical Product Management Intern|Sunnyvale, CA|Nov 23#1",
-      "NOURL|Muon Space|Ground Software Engineer Intern|San Jose, CA|Oct 15#1"
+      "NOURL|Muon Space|Ground Software Engineer Intern|San Jose, CA|Oct 15#1",
+      "https://go.vansh.nyc/1HH?s=y|SharkNinja|Software Development Test Engineering Co-op|Needham, MA|Nov 23#1",
+      "https://go.vansh.nyc/1HJ?s=y|SharkNinja|Firmware Engineering Intern, Advanced Development|Needham, MA|Nov 23#1",
+      "https://go.vansh.nyc/1HI?s=y|Illumio|Engineering Intern, Architecture Platform|Sunnyvale, CA|Nov 23#1",
+      "https://go.vansh.nyc/1HK?s=y|Illumio|AI-Based Scale & Performance Test Automation Intern|Sunnyvale, CA|Nov 23#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3250,
+    "last_row_count": 3254,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
