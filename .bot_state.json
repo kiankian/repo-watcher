@@ -164552,6 +164552,18 @@
       "chat_id": 7582459199,
       "seq": 13261,
       "identity": "https://go.vansh.nyc/1I5?s=y|Trimble|AI Software Developer Engineer in Test Intern|Lake Oswego, OR|Nov 23#1"
+    },
+    "e023aeb2e1ed": {
+      "company": "Leidos",
+      "role": "Network Engineering & Operations Intern",
+      "location": "Shiloh, IL",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-leidos-external-R-00197462?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15419,
+      "chat_id": 7582459199,
+      "seq": 13262,
+      "identity": "https://zapply.jobs/l/d/workday-leidos-external-R-00197462?s=gh-internships-2027|Leidos|Network Engineering & Operations Intern|Shiloh, IL|Summer 2027#1"
     }
   },
   "applied": {
@@ -164919,10 +164931,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13261,
+  "seq": 13262,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T13:35:17Z",
+    "last_ok_run": "2026-11-24T13:40:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
