@@ -3161,11 +3161,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "f98c5f0108536bc299f86ccd1e01d795bf805aee",
+    "last_sha": "574a7e5fad6e0ee4ef10c04491e97e3acc2176ab",
     "seen": [
-      "https://www.janestreet.com/join-jane-street/position/8624440002/|Jane Street|Hardware Engineer (FPGA/ASIC) Intern|New York, NY|Jul 24#1",
-      "https://www.janestreet.com/join-jane-street/position/8347286002/|Jane Street|Fundamental Research Analyst Intern|New York, NY|Jul 24#1",
-      "https://www.janestreet.com/join-jane-street/position/8631973002/|Jane Street|Data Engineer Intern|New York, NY|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8632723002/|Jane Street|Cybersecurity Analyst Intern|New York, NY|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8384490002/|Jane Street|Machine Learning Researcher Intern|New York, NY|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8611307002/|Jane Street|Machine Learning Engineer Intern|New York, NY|Jul 24#1",
@@ -8162,10 +8159,13 @@
       "NOURL|Selective Insurance Company of America|IT Commercial Lines Intern|Hartford, CT Charlotte, NC|Nov 11#1",
       "NOURL|Selective Insurance Company of America|IT Information Management Intern|Short Hills, NJ|Nov 11#1",
       "NOURL|Wing|Route Planning Software Engineering Intern|Palo Alto, CA|Oct 12#1",
-      "NOURL|HPR|Software Engineering Intern \ud83d\udec2|Needham, MA|Aug 03#1"
+      "NOURL|HPR|Software Engineering Intern \ud83d\udec2|Needham, MA|Aug 03#1",
+      "https://go.vansh.nyc/1Ib?s=y|Draper|HWIL & Real Time Simulation Intern \ud83c\uddfa\ud83c\uddf8|Cambridge, MA|Nov 24#1",
+      "https://go.vansh.nyc/1I9?s=y|BEUMER Group|AI Development Intern|United States|Nov 24#1",
+      "NOURL|Hewlett Packard (HP)|Performance Engineering Co-op|Fort Collins, CO|Nov 10#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3270,
+    "last_row_count": 3272,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
