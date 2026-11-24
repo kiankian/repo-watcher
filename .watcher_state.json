@@ -3162,12 +3162,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "b87977a942d4531f21cf7b458b52583b85b91379",
+    "last_sha": "a2fd0fc932ec5b538b3282dde197e7c49bf99a74",
     "seen": [
-      "https://careers.appian.com/jobs/8041243-product-manager-intern-|Appian|Product Manager Intern \ud83d\udec2|McLean, VA|Jul 24#1",
-      "https://akunacapital.com/careers/job/8036614/?gh_jid=8036614|Akuna Capital|Quantitative Research Intern \ud83c\uddfa\ud83c\uddf8|Chicago|Jul 24#1",
-      "https://akunacapital.com/careers/job/8021481/?gh_jid=8021481|Akuna Capital|Quantitative Development & Strategy Intern \ud83c\uddfa\ud83c\uddf8|Chicago|Jul 24#1",
-      "https://akunacapital.com/careers/job/8018886/?gh_jid=8018886|Akuna Capital|Software Engineer Intern, C# .NET Desktop|Chicago, IL|Jul 24#1",
       "https://akunacapital.com/careers/job/8018893/?gh_jid=8018893|Akuna Capital|Software Engineer Intern, Full Stack Web \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
       "https://akunacapital.com/careers/job/8018853/?gh_jid=8018853|Akuna Capital|Python Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
       "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880|Akuna Capital|Hardware Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
@@ -8163,10 +8159,14 @@
       "NOURL|Rockefeller Capital Management|Analyst Intern, Core Platforms|Hamilton, NJ|Nov 06#1",
       "https://go.vansh.nyc/1Ir?s=y|General Motors|Software Verification Engineer Intern, AV/AI Platform|Warren, MI|Nov 24#1",
       "NOURL|TikTok|Software Development Engineer Intern, Global E-Commerce Quality Platform & AI Test Automation|San Jose, CA|Oct 18#1",
-      "NOURL|Revel|Forward Deployed Engineer Intern, Software|Los Angeles, CA San Francisco, CA|Oct 06#1"
+      "NOURL|Revel|Forward Deployed Engineer Intern, Software|Los Angeles, CA San Francisco, CA|Oct 06#1",
+      "https://go.vansh.nyc/1Is?s=y|Aptima Inc. (All Jobs)|Software Engineer Intern|Fairborn, OH|Nov 23#1",
+      "NOURL|TikTok|Machine Learning Engineer Intern, TikTok-Data-Search-Basic Ranking \ud83d\udec2|San Jose, CA|Nov 01#1",
+      "NOURL|TikTok|Software Engineer Intern, Trust and Safety-Engineering \ud83d\udec2|Seattle, WA|Aug 04#1",
+      "NOURL|TikTok|Software Engineer Intern, Business Integrity|San Jose, CA|Aug 04#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3281,
+    "last_row_count": 3282,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
