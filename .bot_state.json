@@ -164408,6 +164408,18 @@
       "chat_id": 7582459199,
       "seq": 13249,
       "identity": "NOURL|Electronic Arts|Technical Artist Co-op|Vancouver, Canada|Oct 13#1"
+    },
+    "7e11f5326a3b": {
+      "company": "Veolia",
+      "role": "Manufacturing Software Engineer Intern",
+      "location": "Boulder, CO",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000163377969?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15393,
+      "chat_id": 7582459199,
+      "seq": 13250,
+      "identity": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000163377969?utm_source=Simplify&ref=Simplify|Veolia|Manufacturing Software Engineer Intern|Boulder, CO|Summer 2026#1"
     }
   },
   "applied": {
@@ -164775,10 +164787,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13249,
+  "seq": 13250,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T07:30:22Z",
+    "last_ok_run": "2026-11-24T07:35:15Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
