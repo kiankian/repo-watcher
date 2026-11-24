@@ -163844,6 +163844,30 @@
       "chat_id": 7582459199,
       "seq": 13202,
       "identity": "NOURL|Astera Labs|Firmware Engineer Intern|San Jose, CA|Oct 05#1"
+    },
+    "fe520b979f58": {
+      "company": "Illinois Tool Works",
+      "role": "Software or Computer Engineer Intern",
+      "location": "Fairmont, MN",
+      "term": "Summer 2026",
+      "apply_url": "https://careers.itw.com/global/en/job/JR11356?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15326,
+      "chat_id": 7582459199,
+      "seq": 13203,
+      "identity": "https://careers.itw.com/global/en/job/JR11356?utm_source=Simplify&ref=Simplify|Illinois Tool Works|Software or Computer Engineer Intern|Fairmont, MN|Summer 2026#1"
+    },
+    "ba38f1a6fdc2": {
+      "company": "Shield AI",
+      "role": "Software Engineering Intern",
+      "location": "Dallas, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/shield/f96617c2-a120-4b3b-844d-790fcda42503/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15327,
+      "chat_id": 7582459199,
+      "seq": 13204,
+      "identity": "https://jobs.ashbyhq.com/shield/f96617c2-a120-4b3b-844d-790fcda42503/application?embed=true&utm_source=Simplify&ref=Simplify|Shield AI|Software Engineering Intern|Dallas, TX|Summer 2026#1"
     }
   },
   "applied": {
@@ -164211,10 +164235,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13202,
+  "seq": 13204,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T00:00:24Z",
+    "last_ok_run": "2026-11-24T00:05:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
