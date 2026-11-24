@@ -3156,11 +3156,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "327f06023c3b65356d489477b3193d97212f855f",
+    "last_sha": "158b471e937b807f0c2fef279a1d3d5ec95a509b",
     "seen": [
-      "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0|Palantir Technologies|Software Engineer Intern|Washington, D.C.|Jul 24#1",
-      "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c|Palantir Technologies|Software Engineer Intern|Palo Alto, CA|Jul 24#1",
-      "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003|Old Mission|Software Engineer Intern|Chicago, IL|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8599644002/|Jane Street|Software Engineer Intern|New York, NY|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8628843002/|Jane Street|Windows Engineer Intern|New York, NY|Jul 24#1",
       "https://www.janestreet.com/join-jane-street/position/8621450002/|Jane Street|Trading Desk Operations Engineer Intern|New York, NY|Jul 24#1",
@@ -8157,10 +8154,13 @@
       "NOURL|Citizens Energy Group|Meter Services Data Analytics Intern|Indianapolis, IN|Nov 07#1",
       "NOURL|Akuna Capital OCI|Quantitative Development & Strategy Intern|Chicago, IL|Nov 23#1",
       "NOURL|Akuna Capital OCI|Quantitative Research Intern|Chicago, IL|Nov 23#1",
-      "NOURL|Electronic Arts|Technical Artist Co-op|Vancouver, Canada|Oct 13#1"
+      "NOURL|Electronic Arts|Technical Artist Co-op|Vancouver, Canada|Oct 13#1",
+      "https://go.vansh.nyc/1I3?s=y|Esri|Software Engineer Intern|St. Louis, MO|Nov 05#1",
+      "NOURL|Electronic Arts|Software Engineer Intern, C++|Vancouver, Canada|Oct 09#1",
+      "NOURL|Electronic Arts|Software Engineer Co-op|Vancouver, Canada|Oct 09#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3266,
+    "last_row_count": 3267,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
