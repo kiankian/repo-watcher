@@ -164504,6 +164504,42 @@
       "chat_id": 7582459199,
       "seq": 13257,
       "identity": "https://go.vansh.nyc/1I4?s=y|Artefact|AI Engineering Intern|New York, NY|Nov 22#1"
+    },
+    "2481016b7fd1": {
+      "company": "CarGurus",
+      "role": "Software Engineer Intern - Full Stack",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/ecjobb/jobs/8230777?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15410,
+      "chat_id": 7582459199,
+      "seq": 13258,
+      "identity": "https://job-boards.greenhouse.io/ecjobb/jobs/8230777?utm_source=Simplify&ref=Simplify|CarGurus|Software Engineer Intern - Full Stack|Boston, MA|Summer 2026#1"
+    },
+    "fc2c3540b600": {
+      "company": "CarGurus",
+      "role": "Software Engineer Intern - Full Stack",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/ecjobb/jobs/8230763?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15411,
+      "chat_id": 7582459199,
+      "seq": 13259,
+      "identity": "https://job-boards.greenhouse.io/ecjobb/jobs/8230763?utm_source=Simplify&ref=Simplify|CarGurus|Software Engineer Intern - Full Stack|Boston, MA|Summer 2026#1"
+    },
+    "893b5104f09c": {
+      "company": "CarGurus",
+      "role": "Software Development Engineer Intern",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/ecjobb/jobs/8231504?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15412,
+      "chat_id": 7582459199,
+      "seq": 13260,
+      "identity": "https://job-boards.greenhouse.io/ecjobb/jobs/8231504?utm_source=Simplify&ref=Simplify|CarGurus|Software Development Engineer Intern|Boston, MA|Summer 2026#1"
     }
   },
   "applied": {
@@ -164871,10 +164907,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13257,
+  "seq": 13260,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T11:30:21Z",
+    "last_ok_run": "2026-11-24T11:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
