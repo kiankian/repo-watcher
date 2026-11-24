@@ -164828,6 +164828,18 @@
       "chat_id": 7582459199,
       "seq": 13284,
       "identity": "https://zapply.jobs/l/d/workday-gaig-gaig-external-R9942?s=gh-internships-2027|National Interstate Insurance|Quality Assurance Intern - Summer 2027|Cincinnati, OH|Summer 2027#1"
+    },
+    "1b0f84df0004": {
+      "company": "General Atomics",
+      "role": "Intern - Mechanical Test Engineer",
+      "location": "Huntsville, Alabama",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/brassring-general-atomics-5238050?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15457,
+      "chat_id": 7582459199,
+      "seq": 13285,
+      "identity": "https://zapply.jobs/l/d/brassring-general-atomics-5238050?s=gh-internships-2027|General Atomics|Intern - Mechanical Test Engineer|Huntsville, Alabama|Summer 2027#1"
     }
   },
   "applied": {
@@ -165195,10 +165207,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13284,
+  "seq": 13285,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T18:40:21Z",
+    "last_ok_run": "2026-11-24T18:45:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
