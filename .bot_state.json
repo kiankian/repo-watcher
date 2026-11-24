@@ -164996,6 +164996,18 @@
       "chat_id": 7582459199,
       "seq": 13298,
       "identity": "NOURL|Wing|Execution & Topology Software Engineering Intern|Palo Alto, CA|Oct 12#1"
+    },
+    "800f7595d243": {
+      "company": "Apex Technology",
+      "role": "Mechanical Ground Systems Engineering Internship (Summer 2027)",
+      "location": "Los Angeles",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/ashby-apex-technology-inc-e34724bd-0db2-4433-9352-7ad49d37e627?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15480,
+      "chat_id": 7582459199,
+      "seq": 13299,
+      "identity": "https://zapply.jobs/l/d/ashby-apex-technology-inc-e34724bd-0db2-4433-9352-7ad49d37e627?s=gh-internships-2027|Apex Technology|Mechanical Ground Systems Engineering Internship (Summer 2027)|Los Angeles|Summer 2027#1"
     }
   },
   "applied": {
@@ -165363,10 +165375,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13298,
+  "seq": 13299,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-24T21:00:25Z",
+    "last_ok_run": "2026-11-24T21:05:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
