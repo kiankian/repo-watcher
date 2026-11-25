@@ -166208,6 +166208,18 @@
       "chat_id": 7582459199,
       "seq": 13399,
       "identity": "NOURL|EHC|Data Management Intern|Birmingham, AL|Sep 18#1"
+    },
+    "dde8fb158883": {
+      "company": "NVIDIA",
+      "role": "Software Engineering Intern, Simulation Technology",
+      "location": "Santa Clara, CA",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1J0?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15610,
+      "chat_id": 7582459199,
+      "seq": 13400,
+      "identity": "https://go.vansh.nyc/1J0?s=y|NVIDIA|Software Engineering Intern, Simulation Technology|Santa Clara, CA|Nov 24#1"
     }
   },
   "applied": {
@@ -166575,10 +166587,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13399,
+  "seq": 13400,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T07:15:18Z",
+    "last_ok_run": "2026-11-25T07:20:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -166586,7 +166598,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T06:20:24Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T07:20:18Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T07:05:18Z"
     }
