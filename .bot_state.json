@@ -166268,6 +166268,30 @@
       "chat_id": 7582459199,
       "seq": 13404,
       "identity": "https://go.vansh.nyc/1J1?s=y|L3Harris Technologies|Software Engineer Intern|Melbourne, FL|Nov 24#1"
+    },
+    "d7e64638343f": {
+      "company": "PatientPoint",
+      "role": "Data Engineer Intern",
+      "location": "Cincinnati, OH",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1J3?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15620,
+      "chat_id": 7582459199,
+      "seq": 13405,
+      "identity": "https://go.vansh.nyc/1J3?s=y|PatientPoint|Data Engineer Intern|Cincinnati, OH|Nov 24#1"
+    },
+    "cdff6f7c7dee": {
+      "company": "Motorola",
+      "role": "Software Engineering Intern",
+      "location": "Salt Lake City, UT",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1J2?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15621,
+      "chat_id": 7582459199,
+      "seq": 13406,
+      "identity": "https://go.vansh.nyc/1J2?s=y|Motorola|Software Engineering Intern|Salt Lake City, UT|Nov 23#1"
     }
   },
   "applied": {
@@ -166635,10 +166659,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13404,
+  "seq": 13406,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T09:15:18Z",
+    "last_ok_run": "2026-11-25T09:20:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -166646,9 +166670,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T08:20:19Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T09:20:22Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T08:45:20Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T09:20:23Z"
     }
   }
 }
