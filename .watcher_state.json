@@ -3163,9 +3163,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "5b6c9426bbc7703721371bd11d9ec97e2d2e1a54",
+    "last_sha": "855bb0054f2201f8617ddc963dd271152d73146a",
     "seen": [
-      "https://careers.sig.com/jobs/10837?lang=en-us&mode=apply&iis=LinkedIn&jr_id=69f3d11158b23a2329da8088|Susquehanna|Trading System Engineering Intern|Bala Cynwyd, PA|May 22#1",
       "https://www.stokespace.com/careers/current-openings/?gh_jid=5987663004&jr_id=69fae0acd21cf86d1e3cd79c|Stoke Space|Software Engineer Intern|Kent, WA|May 22#1",
       "https://job-boards.greenhouse.io/embed/job_app?for=aquaticcapitalmanagement&jr_id=6a06fd77152f493123c4b595&token=8489233002|Aquatic Capital|Software Engineer Intern|Chicago, IL|May 22#1",
       "https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships|Apple|Software Engineer Intern, Undergrad|United States|May 22#1",
@@ -8164,10 +8163,11 @@
       "NOURL|CAE|Software Developer Intern, Content Creation Tools|Montreal, Canada|Sep 20#1",
       "https://go.vansh.nyc/1IF?s=y|Reach Labs|Hardware Prototyping Intern|Redwood City, CA|Nov 24#1",
       "https://go.vansh.nyc/1ID?s=y|Johns Hopkins Applied Physics Laboratory|Robotics Intern|Laurel, MD|Nov 24#1",
-      "https://go.vansh.nyc/1IE?s=y|Johns Hopkins Applied Physics Laboratory|Artificial Intelligence and Complex Systems Intern|Laurel, MD|Nov 24#1"
+      "https://go.vansh.nyc/1IE?s=y|Johns Hopkins Applied Physics Laboratory|Artificial Intelligence and Complex Systems Intern|Laurel, MD|Nov 24#1",
+      "https://go.vansh.nyc/1IH?s=y|Samsung Semiconductor|LLM Inference Acceleration Architecture Intern, MoE & Attention\u2013FFN Disaggregation|San Jose, CA|Nov 24#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3289,
+    "last_row_count": 3290,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
