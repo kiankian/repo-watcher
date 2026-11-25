@@ -3172,11 +3172,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "e3d6d43926ff284c9120cf84ddae8caac4b07a73",
+    "last_sha": "3090c242d9cd4bcfe50154c953cb1d9d105028e8",
     "seen": [
-      "https://go.vansh.nyc/hp|Trace Labs|Robotics Engineer Intern, Hardware & Software|New York, NY|Oct 22#1",
-      "https://go.vansh.nyc/eU|Toyota Research Institute|Human Aware Interactions and Learning Intern|Cambridge, MA|Oct 22#1",
-      "https://go.vansh.nyc/hj|Thales|Tools and Process Development Intern|Montreal, Canada|Oct 22#1",
       "https://go.vansh.nyc/hS|Texas Instruments|Digital Design Verification Engineering Intern \ud83d\udec2|Santa Clara, CA|Oct 22#1",
       "https://go.vansh.nyc/eT|Texas Instruments|Software Engineering Intern \ud83d\udec2|Remote Canada|Oct 22#1",
       "https://go.vansh.nyc/hk|Sun Life|Data Science Intern|**5 locations**Milwaukee, WI Kansas City, MO Hartford, CT Portland, ME Wellesley, MA|Oct 22#1",
@@ -8173,10 +8170,13 @@
       "NOURL|General Dynamics Mission Systems, Inc.|FPGA Engineer Intern \ud83c\uddfa\ud83c\uddf8|Scottsdale, AZ|Nov 09#1",
       "NOURL|SouthState Bank|Quantitative Intern|Remote United States|Nov 02#1",
       "NOURL|Oshkosh|Software Engineer Intern|Greenville, WI Oshkosh, WI|Nov 02#1",
-      "https://go.vansh.nyc/1Js?s=y|Carrier Global|Software & Controls Engineering Intern \ud83d\udec2|Charlotte, NC|Nov 25#1"
+      "https://go.vansh.nyc/1Js?s=y|Carrier Global|Software & Controls Engineering Intern \ud83d\udec2|Charlotte, NC|Nov 25#1",
+      "https://go.vansh.nyc/1Jv?s=y|Draper|Cyber Effects Engineering Intern|Cambridge, MA|Nov 25#1",
+      "https://go.vansh.nyc/1Ju?s=y|Coinbase|Security Engineer Intern|New York, NY|Nov 25#1",
+      "https://go.vansh.nyc/1Jw?s=y|Cantor Fitzgerald|Technology Intern, Development|New York, NY|Nov 24#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3324,
+    "last_row_count": 3327,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {

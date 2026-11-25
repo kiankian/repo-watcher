@@ -166832,6 +166832,42 @@
       "chat_id": 7582459199,
       "seq": 13480,
       "identity": "https://zapply.jobs/l/d/workday-asml-asmlext1-J-00357859?s=gh-internships-2027|ASML|Internship - Software Engineer|San Diego, CA, USA|Summer 2027#1"
+    },
+    "bac91c40bafa": {
+      "company": "Draper",
+      "role": "Cyber Effects Engineering Intern",
+      "location": "Cambridge, MA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Jv?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15737,
+      "chat_id": 7582459199,
+      "seq": 13481,
+      "identity": "https://go.vansh.nyc/1Jv?s=y|Draper|Cyber Effects Engineering Intern|Cambridge, MA|Nov 25#1"
+    },
+    "5f80b5849e5f": {
+      "company": "Coinbase",
+      "role": "Security Engineer Intern",
+      "location": "New York, NY",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Ju?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15738,
+      "chat_id": 7582459199,
+      "seq": 13482,
+      "identity": "https://go.vansh.nyc/1Ju?s=y|Coinbase|Security Engineer Intern|New York, NY|Nov 25#1"
+    },
+    "4d8405c91655": {
+      "company": "Cantor Fitzgerald",
+      "role": "Technology Intern, Development",
+      "location": "New York, NY",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1Jw?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15739,
+      "chat_id": 7582459199,
+      "seq": 13483,
+      "identity": "https://go.vansh.nyc/1Jw?s=y|Cantor Fitzgerald|Technology Intern, Development|New York, NY|Nov 24#1"
     }
   },
   "applied": {
@@ -167199,10 +167235,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13480,
+  "seq": 13483,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T21:20:18Z",
+    "last_ok_run": "2026-11-25T21:25:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -167210,9 +167246,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T20:50:19Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T21:25:18Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T20:50:20Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T21:25:19Z"
     }
   }
 }
