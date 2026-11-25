@@ -3172,13 +3172,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "949ab9151e5c76febcfbc0aa151c7a2fdc4645ec",
+    "last_sha": "8e52d21581092138cf6892634f142af4ca83afbb",
     "seen": [
-      "https://go.vansh.nyc/eX|Western & Southern Financial Group|Enterprise Architecture Information Technology Intern|Cincinnati, OH|Oct 22#1",
-      "https://go.vansh.nyc/eW|Walmart|Automation, Product Manager, Corporate Intern|Lancaster, TX|Oct 22#1",
-      "https://go.vansh.nyc/fr|Veeda AI|Software Engineering Intern|Toronto, Canada|Oct 22#1",
-      "https://go.vansh.nyc/fp|Ursa Major|Software Development Intern|Berthoud, CO|Oct 22#1",
-      "https://go.vansh.nyc/fq|Ursa Major|Embedded Flight Software Intern|Longmont, CO|Oct 22#1",
       "https://go.vansh.nyc/ey|Uline|Systems Administrator Intern|**5 locations**Pleasant Prairie, WI Milwaukee, WI Waukegan, IL Glenview, IL Kenosha, WI|Oct 22#1",
       "https://go.vansh.nyc/eF|Uline|Database Administrator Intern|**5 locations**Pleasant Prairie, WI Milwaukee, WI Waukegan, IL Glenview, IL Kenosha, WI|Oct 22#1",
       "https://go.vansh.nyc/eV|Twitch|Undergrad Software Engineering Intern|San Francisco, CA|Oct 22#1",
@@ -8173,10 +8168,15 @@
       "https://go.vansh.nyc/1Jn?s=y|Celestica|Engineering AI Development Intern|Toronto, Canada|Nov 25#1",
       "NOURL|Clera|Full-Stack Software Engineering Intern|New York, NY|Nov 16#1",
       "NOURL|Bristol Myers Squibb|Undergrad Data Science Intern|Remote United States|Nov 18#1",
-      "NOURL|Sierra Nevada Corporation|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Southern Pines, NC|Nov 02#2"
+      "NOURL|Sierra Nevada Corporation|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Southern Pines, NC|Nov 02#2",
+      "https://go.vansh.nyc/1Jp?s=y|SambaNova|ML Infrastructure Engineer Intern|Austin, TX San Jose, CA|Nov 25#1",
+      "https://go.vansh.nyc/1Jq?s=y|SambaNova|Cloud Platform Engineer Intern|San Jose, CA|Nov 25#1",
+      "https://go.vansh.nyc/1Jr?s=y|SambaNova|Machine Learning Engineer Intern|Austin, TX San Jose, CA|Nov 25#1",
+      "https://go.vansh.nyc/1Jo?s=y|Jabil|Data Scientist Intern|St. Petersburg, FL Tampa, FL|Nov 25#1",
+      "NOURL|General Dynamics Mission Systems, Inc.|FPGA Engineer Intern \ud83c\uddfa\ud83c\uddf8|Scottsdale, AZ|Nov 09#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3319,
+    "last_row_count": 3323,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {

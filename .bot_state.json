@@ -166700,6 +166700,66 @@
       "chat_id": 7582459199,
       "seq": 13469,
       "identity": "https://zapply.jobs/l/d/workday-revvity-external-JR-046080?s=gh-internships-2027|Revvity|Software Engineering Intern, In Vivo Imaging|Morrisville|Summer 2027#1"
+    },
+    "2dd3971140e7": {
+      "company": "SambaNova",
+      "role": "ML Infrastructure Engineer Intern",
+      "location": "Austin, TX San Jose, CA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Jp?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15722,
+      "chat_id": 7582459199,
+      "seq": 13470,
+      "identity": "https://go.vansh.nyc/1Jp?s=y|SambaNova|ML Infrastructure Engineer Intern|Austin, TX San Jose, CA|Nov 25#1"
+    },
+    "3ab799a5b6c9": {
+      "company": "SambaNova",
+      "role": "Cloud Platform Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Jq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15723,
+      "chat_id": 7582459199,
+      "seq": 13471,
+      "identity": "https://go.vansh.nyc/1Jq?s=y|SambaNova|Cloud Platform Engineer Intern|San Jose, CA|Nov 25#1"
+    },
+    "ed9536d5d4f2": {
+      "company": "SambaNova",
+      "role": "Machine Learning Engineer Intern",
+      "location": "Austin, TX San Jose, CA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Jr?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15724,
+      "chat_id": 7582459199,
+      "seq": 13472,
+      "identity": "https://go.vansh.nyc/1Jr?s=y|SambaNova|Machine Learning Engineer Intern|Austin, TX San Jose, CA|Nov 25#1"
+    },
+    "b7e03cb3fcdc": {
+      "company": "Jabil",
+      "role": "Data Scientist Intern",
+      "location": "St. Petersburg, FL Tampa, FL",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Jo?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15725,
+      "chat_id": 7582459199,
+      "seq": 13473,
+      "identity": "https://go.vansh.nyc/1Jo?s=y|Jabil|Data Scientist Intern|St. Petersburg, FL Tampa, FL|Nov 25#1"
+    },
+    "106ce55ab9f7": {
+      "company": "General Dynamics Mission Systems, Inc.",
+      "role": "FPGA Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Scottsdale, AZ",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15726,
+      "chat_id": 7582459199,
+      "seq": 13474,
+      "identity": "NOURL|General Dynamics Mission Systems, Inc.|FPGA Engineer Intern \ud83c\uddfa\ud83c\uddf8|Scottsdale, AZ|Nov 09#1"
     }
   },
   "applied": {
@@ -167067,10 +167127,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13469,
+  "seq": 13474,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T19:45:28Z",
+    "last_ok_run": "2026-11-25T19:50:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -167078,7 +167138,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T18:50:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T19:50:28Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T19:45:27Z"
     }
