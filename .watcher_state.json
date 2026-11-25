@@ -3171,13 +3171,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "2082685220fb171e892593f92bdfddd80c3531b5",
+    "last_sha": "aa13d8826951007b00bea04f1a63a6406b7db10c",
     "seen": [
-      "NOURL|Akuna Capital|Python Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
-      "NOURL|Optiver|Software Engineer Intern|Austin, TX|Jul 07#1",
-      "NOURL|Optiver|Software Engineer Intern|Chicago, IL|Jul 07#1",
-      "NOURL|IMC|Software Engineer Intern|Chicago, IL|Jul 07#1",
-      "NOURL|Capital One|Data Analyst Intern|Mclean, VA|Jul 07#1",
       "NOURL|Voloridge Investment Management|Quantitative Developer Intern|Jupiter, FL|May 22#1",
       "NOURL|StarSling|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|May 19#1",
       "NOURL|Nash|Full Stack Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 19#1",
@@ -8172,7 +8167,12 @@
       "https://go.vansh.nyc/1J8?s=y|Aerospace Corporation|Embedded Software Engineering Undergrad Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Nov 24#1",
       "NOURL|General Dynamics Information Technology|Systems Engineer Intern|Albany, NY|Jul 30#1",
       "NOURL|Jane Street|Network Engineer Intern|New York, NY|Jul 24#1",
-      "NOURL|IMC|Quantitative Research Intern (PHD)|Chicago|Jul 24#1"
+      "NOURL|IMC|Quantitative Research Intern (PHD)|Chicago|Jul 24#1",
+      "NOURL|DraftKings|Data Engineer Intern|Boston, MA|Nov 20#1",
+      "NOURL|IMC|Quantitative Research Intern|Chicago, IL|Jul 24#1",
+      "NOURL|IMC|Hardware Engineer Intern|Chicago, IL|Jul 24#1",
+      "NOURL|Google|Software Engineering Intern|**30 locations**Mountain View, CA Atlanta, GA Austin, TX Boulder, CO Cambridge, MA Bellevue, WA Chicago, IL Houston, TX Irvine, CA Kirkland, WA Los Angeles, CA Madison, WI New York, NY Palo Alto, CA Portland, OR Pittsburgh, PA Raleigh, NC Durham, NC Reston, VA Redmond, WA Redwood City, CA San Diego, CA Goleta, CA San Bruno, CA Seattle, WA San Francisco, CA San Jose, CA Santa Cruz, CA South San Francisco, CA Sunnyvale, CA|Jul 24#1",
+      "NOURL|Akuna Capital|Hardware Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3307,
