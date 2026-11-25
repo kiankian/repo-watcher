@@ -3172,10 +3172,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "ee027796fe55fa4fd03d5ae965f75f7768bbab10",
+    "last_sha": "949ab9151e5c76febcfbc0aa151c7a2fdc4645ec",
     "seen": [
-      "https://go.vansh.nyc/h5|Aerospace Corporation|Defensive Cyber Operations Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 23#1",
-      "https://go.vansh.nyc/fz|Westinghouse Electric Company|Software Engineering Intern|Warrendale, PA|Oct 22#1",
       "https://go.vansh.nyc/eX|Western & Southern Financial Group|Enterprise Architecture Information Technology Intern|Cincinnati, OH|Oct 22#1",
       "https://go.vansh.nyc/eW|Walmart|Automation, Product Manager, Corporate Intern|Lancaster, TX|Oct 22#1",
       "https://go.vansh.nyc/fr|Veeda AI|Software Engineering Intern|Toronto, Canada|Oct 22#1",
@@ -8173,7 +8171,9 @@
       "NOURL|CACI|Software Engineer Intern|**4 locations**Remote United States Sterling, VA Denver, CO|Sep 13#1",
       "https://go.vansh.nyc/1Jm?s=y|Celestica|Engineering Data Analytics Intern|Toronto, Canada|Nov 25#1",
       "https://go.vansh.nyc/1Jn?s=y|Celestica|Engineering AI Development Intern|Toronto, Canada|Nov 25#1",
-      "NOURL|Clera|Full-Stack Software Engineering Intern|New York, NY|Nov 16#1"
+      "NOURL|Clera|Full-Stack Software Engineering Intern|New York, NY|Nov 16#1",
+      "NOURL|Bristol Myers Squibb|Undergrad Data Science Intern|Remote United States|Nov 18#1",
+      "NOURL|Sierra Nevada Corporation|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Southern Pines, NC|Nov 02#2"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3319,
