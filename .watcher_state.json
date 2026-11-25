@@ -3163,16 +3163,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "dcc5f98d57ef1a350452ee4107d3af18949cdab6",
+    "last_sha": "d8a8ddf3d6883fe21cfca1fc3655f613b0d93c6f",
     "seen": [
-      "https://job-boards.greenhouse.io/embed/job_app?for=aquaticcapitalmanagement&jr_id=6a06fd77152f493123c4b595&token=8489233002|Aquatic Capital|Software Engineer Intern|Chicago, IL|May 22#1",
-      "https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships|Apple|Software Engineer Intern, Undergrad|United States|May 22#1",
-      "https://jobs.apple.com/en-us/details/200664320/software-engineering-masters-internships|Apple|Software Engineering Intern, Masters|United States|May 22#1",
-      "https://www.workatastartup.com/jobs/95003|StarSling|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|May 19#1",
-      "https://www.workatastartup.com/jobs/94993|Nash|Full Stack Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 19#1",
-      "https://www.workatastartup.com/jobs/94620|Trata|Research Scientist Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA New York, NY|May 14#1",
-      "https://www.workatastartup.com/jobs/94631|Terranox AI|Summer Intern - AI/ML Engineering \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1",
-      "https://www.workatastartup.com/jobs/94647|Na\u00efve|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA Remote|May 14#1",
       "https://www.workatastartup.com/jobs/94634|Abundant|Software Engineering Intern, Research Focused \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1",
       "https://www.workatastartup.com/jobs/93642|Paragon|Forward Deployed Engineer (FDE) Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
       "https://www.workatastartup.com/jobs/94206|General Astronautics|Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
@@ -8164,14 +8156,22 @@
       "https://go.vansh.nyc/1ID?s=y|Johns Hopkins Applied Physics Laboratory|Robotics Intern|Laurel, MD|Nov 24#1",
       "https://go.vansh.nyc/1IE?s=y|Johns Hopkins Applied Physics Laboratory|Artificial Intelligence and Complex Systems Intern|Laurel, MD|Nov 24#1",
       "https://go.vansh.nyc/1IH?s=y|Samsung Semiconductor|LLM Inference Acceleration Architecture Intern, MoE & Attention\u2013FFN Disaggregation|San Jose, CA|Nov 24#1",
-      "https://go.vansh.nyc/1IK?s=y|Shield|Software Test Automation Intern|Dallas, TX|Nov 06#1"
+      "https://go.vansh.nyc/1IK?s=y|Shield|Software Test Automation Intern|Dallas, TX|Nov 06#1",
+      "https://go.vansh.nyc/1IR?s=y|SambaNova|Runtime Engineer Intern|Austin, TX|Nov 24#1",
+      "https://go.vansh.nyc/1IN?s=y|Kimley-Horn|Data Science Intern|Mesa, AZ|Nov 24#1",
+      "https://go.vansh.nyc/1IP?s=y|Hewlett Packard Enterprise|Cloud Security Engagement Intern|Spring, TX|Nov 24#1",
+      "https://go.vansh.nyc/1IS?s=y|Bandwidth Inc.|Software Engineer Intern|Raleigh, NC|Nov 24#1",
+      "https://go.vansh.nyc/1IQ?s=y|Idaho National Laboratory|NSUF Agentic Workflow Development Intern|Idaho Falls, ID|Nov 23#1",
+      "NOURL|Graco|Cybersecurity Intern|Dayton, MN|Nov 02#1",
+      "NOURL|AnaVation|Computer Science Intern \ud83c\uddfa\ud83c\uddf8|Chantilly, VA|Sep 12#1",
+      "NOURL|AnaVation|Computer Science Intern \ud83c\uddfa\ud83c\uddf8|San Antonio, TX|Sep 08#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3291,
+    "last_row_count": 3296,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "5eaf0dd027e7018a29c4e1e2382aea48391cf685",
+    "last_sha": "fc4a8bd7d49e73e630f085c51d07f88034e64876",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -11015,7 +11015,9 @@
       "https://zapply.jobs/l/d/workday-tmobile-external-REQ382100?s=gh-internships-2027|T-Mobile|Summer 2027 Software Engineering Internship|Bellevue, Washington|Summer 2027#1",
       "https://zapply.jobs/l/d/workday-aero-external-R017321?s=gh-internships-2027|Aerospace Corporation|2027 Embedded Software Engineering Undergrad Intern|El Segundo, CA|Summer 2027#1",
       "https://zapply.jobs/l/d/greenhouse-neuralink-8197808003?s=gh-internships-2027|Neuralink|Electrical Test Engineer Intern|South San Francisco,...|Summer 2027#1",
-      "https://zapply.jobs/l/d/workday-aero-external-R017288?s=gh-internships-2027|Aerospace Corporation|2027 Power and Analog Circuit Engineering Undergrad Intern|El Segundo, CA|Summer 2027#1"
+      "https://zapply.jobs/l/d/workday-aero-external-R017288?s=gh-internships-2027|Aerospace Corporation|2027 Power and Analog Circuit Engineering Undergrad Intern|El Segundo, CA|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2029531?s=gh-internships-2027|NVIDIA|Software Engineering Intern, Simulation Technology - Summer 2027|US, CA, Santa Clara|Summer 2027#1",
+      "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202621696?s=gh-internships-2027|General Motors|2027 Summer Intern \u2013 Software Engineer, AV/AI Platform|3 Locations|Summer 2027#1"
     ],
     "seen_legacy_urls": [
       "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Intern---R-D-Software-Engineering--AI---Test-Automation-_4038437",

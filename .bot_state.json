@@ -165896,6 +165896,126 @@
       "chat_id": 7582459199,
       "seq": 13373,
       "identity": "https://go.vansh.nyc/1IK?s=y|Shield|Software Test Automation Intern|Dallas, TX|Nov 06#1"
+    },
+    "8af88d55cc25": {
+      "company": "SambaNova",
+      "role": "Runtime Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1IR?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15570,
+      "chat_id": 7582459199,
+      "seq": 13374,
+      "identity": "https://go.vansh.nyc/1IR?s=y|SambaNova|Runtime Engineer Intern|Austin, TX|Nov 24#1"
+    },
+    "261825edfe1b": {
+      "company": "Kimley-Horn",
+      "role": "Data Science Intern",
+      "location": "Mesa, AZ",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1IN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15571,
+      "chat_id": 7582459199,
+      "seq": 13375,
+      "identity": "https://go.vansh.nyc/1IN?s=y|Kimley-Horn|Data Science Intern|Mesa, AZ|Nov 24#1"
+    },
+    "298c6f483300": {
+      "company": "Hewlett Packard Enterprise",
+      "role": "Cloud Security Engagement Intern",
+      "location": "Spring, TX",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1IP?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15572,
+      "chat_id": 7582459199,
+      "seq": 13376,
+      "identity": "https://go.vansh.nyc/1IP?s=y|Hewlett Packard Enterprise|Cloud Security Engagement Intern|Spring, TX|Nov 24#1"
+    },
+    "f242710c1ddb": {
+      "company": "Bandwidth Inc.",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1IS?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15573,
+      "chat_id": 7582459199,
+      "seq": 13377,
+      "identity": "https://go.vansh.nyc/1IS?s=y|Bandwidth Inc.|Software Engineer Intern|Raleigh, NC|Nov 24#1"
+    },
+    "1ad7448b410e": {
+      "company": "Idaho National Laboratory",
+      "role": "NSUF Agentic Workflow Development Intern",
+      "location": "Idaho Falls, ID",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1IQ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15574,
+      "chat_id": 7582459199,
+      "seq": 13378,
+      "identity": "https://go.vansh.nyc/1IQ?s=y|Idaho National Laboratory|NSUF Agentic Workflow Development Intern|Idaho Falls, ID|Nov 23#1"
+    },
+    "cd9235200440": {
+      "company": "Graco",
+      "role": "Cybersecurity Intern",
+      "location": "Dayton, MN",
+      "term": "Nov 02",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15575,
+      "chat_id": 7582459199,
+      "seq": 13379,
+      "identity": "NOURL|Graco|Cybersecurity Intern|Dayton, MN|Nov 02#1"
+    },
+    "4ae26a31850b": {
+      "company": "AnaVation",
+      "role": "Computer Science Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Chantilly, VA",
+      "term": "Sep 12",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15576,
+      "chat_id": 7582459199,
+      "seq": 13380,
+      "identity": "NOURL|AnaVation|Computer Science Intern \ud83c\uddfa\ud83c\uddf8|Chantilly, VA|Sep 12#1"
+    },
+    "9bab9850e45e": {
+      "company": "AnaVation",
+      "role": "Computer Science Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "San Antonio, TX",
+      "term": "Sep 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15577,
+      "chat_id": 7582459199,
+      "seq": 13381,
+      "identity": "NOURL|AnaVation|Computer Science Intern \ud83c\uddfa\ud83c\uddf8|San Antonio, TX|Sep 08#1"
+    },
+    "c281c1d2a087": {
+      "company": "NVIDIA",
+      "role": "Software Engineering Intern, Simulation Technology - Summer 2027",
+      "location": "US, CA, Santa Clara",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2029531?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15579,
+      "chat_id": 7582459199,
+      "seq": 13382,
+      "identity": "https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2029531?s=gh-internships-2027|NVIDIA|Software Engineering Intern, Simulation Technology - Summer 2027|US, CA, Santa Clara|Summer 2027#1"
+    },
+    "3e9490608e49": {
+      "company": "General Motors",
+      "role": "2027 Summer Intern \u2013 Software Engineer, AV/AI Platform",
+      "location": "3 Locations",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202621696?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15580,
+      "chat_id": 7582459199,
+      "seq": 13383,
+      "identity": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202621696?s=gh-internships-2027|General Motors|2027 Summer Intern \u2013 Software Engineer, AV/AI Platform|3 Locations|Summer 2027#1"
     }
   },
   "applied": {
@@ -166263,10 +166383,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13373,
+  "seq": 13383,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T02:20:17Z",
+    "last_ok_run": "2026-11-25T02:25:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -166274,7 +166394,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T01:20:18Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T02:25:26Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T02:15:21Z"
     }
