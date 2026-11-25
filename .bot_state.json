@@ -166292,6 +166292,18 @@
       "chat_id": 7582459199,
       "seq": 13406,
       "identity": "https://go.vansh.nyc/1J2?s=y|Motorola|Software Engineering Intern|Salt Lake City, UT|Nov 23#1"
+    },
+    "5a8f90a9a64a": {
+      "company": "Marvell",
+      "role": "Design for Test Intern",
+      "location": "**4 locations**Morrisville, NC Santa Clara, CA Boise, ID Westborough, MA",
+      "term": "Sep 03",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15625,
+      "chat_id": 7582459199,
+      "seq": 13407,
+      "identity": "NOURL|Marvell|Design for Test Intern|**4 locations**Morrisville, NC Santa Clara, CA Boise, ID Westborough, MA|Sep 03#1"
     }
   },
   "applied": {
@@ -166659,10 +166671,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13406,
+  "seq": 13407,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T10:15:21Z",
+    "last_ok_run": "2026-11-25T10:20:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -166670,7 +166682,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T09:20:22Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T10:20:18Z",
       "duplicate-hash": "2026-11-16T22:40:21Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T09:50:26Z"
     }
