@@ -86728,9 +86728,9 @@
       "term": "Jul 24",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7868,
+      "message_id": 15660,
       "chat_id": 7582459199,
-      "seq": 6670,
+      "seq": 13427,
       "identity": "NOURL|Akuna Capital|Python Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1"
     },
     "7ff038160e0c": {
@@ -86740,9 +86740,9 @@
       "term": "Jul 07",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7869,
+      "message_id": 15662,
       "chat_id": 7582459199,
-      "seq": 6671,
+      "seq": 13428,
       "identity": "NOURL|Optiver|Software Engineer Intern|Austin, TX|Jul 07#1"
     },
     "c5deccb69c4f": {
@@ -86752,9 +86752,9 @@
       "term": "Jul 07",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7870,
+      "message_id": 15663,
       "chat_id": 7582459199,
-      "seq": 6672,
+      "seq": 13429,
       "identity": "NOURL|Optiver|Software Engineer Intern|Chicago, IL|Jul 07#1"
     },
     "c503fbba0c2a": {
@@ -86764,9 +86764,9 @@
       "term": "Jul 07",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7871,
+      "message_id": 15664,
       "chat_id": 7582459199,
-      "seq": 6673,
+      "seq": 13430,
       "identity": "NOURL|IMC|Software Engineer Intern|Chicago, IL|Jul 07#1"
     },
     "187955bff3be": {
@@ -86776,9 +86776,9 @@
       "term": "Jul 07",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7872,
+      "message_id": 15665,
       "chat_id": 7582459199,
-      "seq": 6674,
+      "seq": 13431,
       "identity": "NOURL|Capital One|Data Analyst Intern|Mclean, VA|Jul 07#1"
     },
     "6c9be1b93c9b": {
@@ -166364,6 +166364,42 @@
       "chat_id": 7582459199,
       "seq": 13419,
       "identity": "NOURL|DraftKings|Data Engineer Intern|Boston, MA|Nov 20#1"
+    },
+    "9ac38c63e6a6": {
+      "company": "Draper",
+      "role": "Simulation Engineering Intern",
+      "location": "Cambridge, MA",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1J9?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15657,
+      "chat_id": 7582459199,
+      "seq": 13424,
+      "identity": "https://go.vansh.nyc/1J9?s=y|Draper|Simulation Engineering Intern|Cambridge, MA|Nov 24#1"
+    },
+    "35bed904c3c2": {
+      "company": "Disney",
+      "role": "Data Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15658,
+      "chat_id": 7582459199,
+      "seq": 13425,
+      "identity": "NOURL|Disney|Data Engineering Intern|New York, NY|Nov 16#1"
+    },
+    "c1011f0bcaca": {
+      "company": "Axiom Space",
+      "role": "Software Engineer Intern",
+      "location": "Houston, TX",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15659,
+      "chat_id": 7582459199,
+      "seq": 13426,
+      "identity": "NOURL|Axiom Space|Software Engineer Intern|Houston, TX|Oct 14#1"
     }
   },
   "applied": {
@@ -166731,10 +166767,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13423,
+  "seq": 13431,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T14:45:18Z",
+    "last_ok_run": "2026-11-25T14:50:32Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -166742,9 +166778,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T14:20:25Z",
-      "duplicate-hash": "2026-11-25T14:20:20Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T14:15:21Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T14:50:30Z",
+      "duplicate-hash": "2026-11-25T14:50:23Z",
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T14:50:31Z"
     }
   }
 }

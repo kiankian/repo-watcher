@@ -3171,16 +3171,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "aa13d8826951007b00bea04f1a63a6406b7db10c",
+    "last_sha": "4ce701e18b400eab7b9f9d9422e5942a732592a5",
     "seen": [
-      "NOURL|Voloridge Investment Management|Quantitative Developer Intern|Jupiter, FL|May 22#1",
-      "NOURL|StarSling|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|May 19#1",
-      "NOURL|Nash|Full Stack Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 19#1",
-      "NOURL|Terranox AI|Summer Intern - AI/ML Engineering \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1",
-      "NOURL|Na\u00efve|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA Remote|May 14#1",
-      "NOURL|Abundant|Software Engineering Intern, Research Focused \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1",
-      "NOURL|Paragon|Forward Deployed Engineer (FDE) Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
-      "NOURL|General Astronautics|Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
       "NOURL|Dedalus Labs|Forward Deployed Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
       "NOURL|Amazon|Robotics - Software Development Engineer Intern/Co-op|**8 locations**Sunnyvale, CA North Reading, MA Westboro, MA Nashville, TN Austin, TX Arlington, VA Bellevue, WA Seattle, WA|May 09#1",
       "NOURL|Intercontinental Exchange, Inc.|Artificial Intelligence, Data & Machine Learning Intern|New York, NY|Apr 20#1",
@@ -8172,10 +8164,18 @@
       "NOURL|IMC|Quantitative Research Intern|Chicago, IL|Jul 24#1",
       "NOURL|IMC|Hardware Engineer Intern|Chicago, IL|Jul 24#1",
       "NOURL|Google|Software Engineering Intern|**30 locations**Mountain View, CA Atlanta, GA Austin, TX Boulder, CO Cambridge, MA Bellevue, WA Chicago, IL Houston, TX Irvine, CA Kirkland, WA Los Angeles, CA Madison, WI New York, NY Palo Alto, CA Portland, OR Pittsburgh, PA Raleigh, NC Durham, NC Reston, VA Redmond, WA Redwood City, CA San Diego, CA Goleta, CA San Bruno, CA Seattle, WA San Francisco, CA San Jose, CA Santa Cruz, CA South San Francisco, CA Sunnyvale, CA|Jul 24#1",
-      "NOURL|Akuna Capital|Hardware Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1"
+      "NOURL|Akuna Capital|Hardware Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
+      "https://go.vansh.nyc/1J9?s=y|Draper|Simulation Engineering Intern|Cambridge, MA|Nov 24#1",
+      "NOURL|Disney|Data Engineering Intern|New York, NY|Nov 16#1",
+      "NOURL|Axiom Space|Software Engineer Intern|Houston, TX|Oct 14#1",
+      "NOURL|Akuna Capital|Python Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Chicago, IL|Jul 24#1",
+      "NOURL|Optiver|Software Engineer Intern|Austin, TX|Jul 07#1",
+      "NOURL|Optiver|Software Engineer Intern|Chicago, IL|Jul 07#1",
+      "NOURL|IMC|Software Engineer Intern|Chicago, IL|Jul 07#1",
+      "NOURL|Capital One|Data Analyst Intern|Mclean, VA|Jul 07#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3307,
+    "last_row_count": 3308,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
