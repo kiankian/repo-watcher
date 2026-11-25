@@ -166424,6 +166424,66 @@
       "chat_id": 7582459199,
       "seq": 13441,
       "identity": "https://uscareers-waters.icims.com/jobs/30387/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify|Waters|IT Digital Intern|Milford, MA|Summer 2026#1"
+    },
+    "f47956968cc5": {
+      "company": "Genworth",
+      "role": "Data Analytics Intern \ud83d\udec2",
+      "location": "Richmond, VA",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Jc?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15688,
+      "chat_id": 7582459199,
+      "seq": 13447,
+      "identity": "https://go.vansh.nyc/1Jc?s=y|Genworth|Data Analytics Intern \ud83d\udec2|Richmond, VA|Nov 23#1"
+    },
+    "1a2f8cd3c493": {
+      "company": "Analog Devices",
+      "role": "Embedded Software Engineer Intern",
+      "location": "Austin, TX",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Jb?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15689,
+      "chat_id": 7582459199,
+      "seq": 13448,
+      "identity": "https://go.vansh.nyc/1Jb?s=y|Analog Devices|Embedded Software Engineer Intern|Austin, TX|Nov 23#1"
+    },
+    "fdbd19d4d4eb": {
+      "company": "RTX",
+      "role": "Software Security Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Cedar Rapids, IA",
+      "term": "Nov 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15690,
+      "chat_id": 7582459199,
+      "seq": 13449,
+      "identity": "NOURL|RTX|Software Security Intern \ud83c\uddfa\ud83c\uddf8|Cedar Rapids, IA|Nov 18#1"
+    },
+    "2cabaf27811e": {
+      "company": "Trimble",
+      "role": "Software Engineer Intern",
+      "location": "Lake Oswego, OR",
+      "term": "Nov 09",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15691,
+      "chat_id": 7582459199,
+      "seq": 13450,
+      "identity": "NOURL|Trimble|Software Engineer Intern|Lake Oswego, OR|Nov 09#1"
+    },
+    "134080a13a12": {
+      "company": "Hewlett Packard Enterprise",
+      "role": "Cloud Developer Intern",
+      "location": "San Jose, CA",
+      "term": "Oct 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15692,
+      "chat_id": 7582459199,
+      "seq": 13451,
+      "identity": "NOURL|Hewlett Packard Enterprise|Cloud Developer Intern|San Jose, CA|Oct 04#1"
     }
   },
   "applied": {
@@ -166791,10 +166851,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13446,
+  "seq": 13451,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T16:05:17Z",
+    "last_ok_run": "2026-11-25T16:25:44Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -166802,9 +166862,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T15:20:34Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T16:25:31Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T15:55:20Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T16:25:43Z"
     }
   }
 }
