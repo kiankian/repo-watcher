@@ -3172,13 +3172,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "3297a641c01e075dde4347a40080247ad73317e9",
+    "last_sha": "a6e365b6de4a691823bf80fa1b235993b58517d5",
     "seen": [
-      "https://go.vansh.nyc/hM|Siemens|Python Backend Developer Intern, Energy Flexibility Platform|Princeton, NJ|Oct 23#1",
-      "https://go.vansh.nyc/hV|Scout AI|AI Engineer Intern, Fury Team|Sunnyvale, CA|Oct 23#1",
-      "https://go.vansh.nyc/gv|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Applications|Vancouver, Canada|Oct 23#1",
-      "https://go.vansh.nyc/gw|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Applications|Palo Alto, CA|Oct 23#1",
-      "https://go.vansh.nyc/gx|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Vehicle Controls|Vancouver, Canada|Oct 23#1",
       "https://go.vansh.nyc/hL|Navy Federal|Data Analytics Intern|Pensacola, FL Vienna, VA|Oct 23#1",
       "https://go.vansh.nyc/hG|Multiply Labs|Software Intern|San Francisco, CA|Oct 23#1",
       "https://go.vansh.nyc/hH|Multiply Labs|Robotics Software Engineer Intern|San Francisco, CA|Oct 23#1",
@@ -8173,7 +8168,12 @@
       "NOURL|Na\u00efve|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA Remote|May 14#1",
       "NOURL|Abundant|Software Engineering Intern, Research Focused \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1",
       "NOURL|Paragon|Forward Deployed Engineer (FDE) Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
-      "NOURL|General Astronautics|Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1"
+      "NOURL|General Astronautics|Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
+      "NOURL|Dedalus Labs|Forward Deployed Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
+      "NOURL|Amazon|Robotics - Software Development Engineer Intern/Co-op|**8 locations**Sunnyvale, CA North Reading, MA Westboro, MA Nashville, TN Austin, TX Arlington, VA Bellevue, WA Seattle, WA|May 09#1",
+      "NOURL|Intercontinental Exchange, Inc.|Artificial Intelligence, Data & Machine Learning Intern|New York, NY|Apr 20#1",
+      "NOURL|Fiserv|Technology Intern \ud83d\udec2|Columbus, OH|Apr 20#1",
+      "NOURL|Fiserv|Application Development Intern \ud83d\udec2|Alpharetta, GA|Apr 20#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3308,

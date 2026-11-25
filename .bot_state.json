@@ -86884,9 +86884,9 @@
       "term": "May 09",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7881,
+      "message_id": 15681,
       "chat_id": 7582459199,
-      "seq": 6683,
+      "seq": 13442,
       "identity": "NOURL|Dedalus Labs|Forward Deployed Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1"
     },
     "8972dbca8d28": {
@@ -86896,9 +86896,9 @@
       "term": "May 09",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7882,
+      "message_id": 15682,
       "chat_id": 7582459199,
-      "seq": 6684,
+      "seq": 13443,
       "identity": "NOURL|Amazon|Robotics - Software Development Engineer Intern/Co-op|**8 locations**Sunnyvale, CA North Reading, MA Westboro, MA Nashville, TN Austin, TX Arlington, VA Bellevue, WA Seattle, WA|May 09#1"
     },
     "488b20aa8735": {
@@ -86908,9 +86908,9 @@
       "term": "Apr 20",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7883,
+      "message_id": 15683,
       "chat_id": 7582459199,
-      "seq": 6685,
+      "seq": 13444,
       "identity": "NOURL|Intercontinental Exchange, Inc.|Artificial Intelligence, Data & Machine Learning Intern|New York, NY|Apr 20#1"
     },
     "0195db6c27d4": {
@@ -86920,9 +86920,9 @@
       "term": "Apr 20",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7884,
+      "message_id": 15685,
       "chat_id": 7582459199,
-      "seq": 6686,
+      "seq": 13445,
       "identity": "NOURL|Fiserv|Technology Intern \ud83d\udec2|Columbus, OH|Apr 20#1"
     },
     "40864f96fc94": {
@@ -86932,9 +86932,9 @@
       "term": "Apr 20",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7885,
+      "message_id": 15686,
       "chat_id": 7582459199,
-      "seq": 6687,
+      "seq": 13446,
       "identity": "NOURL|Fiserv|Application Development Intern \ud83d\udec2|Alpharetta, GA|Apr 20#1"
     },
     "65652c871a15": {
@@ -166791,10 +166791,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13441,
+  "seq": 13446,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T15:40:20Z",
+    "last_ok_run": "2026-11-25T15:50:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -166803,7 +166803,7 @@
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
       "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T15:20:34Z",
-      "duplicate-hash": "2026-11-25T15:20:23Z",
+      "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T15:20:36Z"
     }
   }
