@@ -3172,10 +3172,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "8e52d21581092138cf6892634f142af4ca83afbb",
+    "last_sha": "9f59f38ef52a0e1251fe91fb2e3a76438e7d9ffd",
     "seen": [
-      "https://go.vansh.nyc/ey|Uline|Systems Administrator Intern|**5 locations**Pleasant Prairie, WI Milwaukee, WI Waukegan, IL Glenview, IL Kenosha, WI|Oct 22#1",
-      "https://go.vansh.nyc/eF|Uline|Database Administrator Intern|**5 locations**Pleasant Prairie, WI Milwaukee, WI Waukegan, IL Glenview, IL Kenosha, WI|Oct 22#1",
       "https://go.vansh.nyc/eV|Twitch|Undergrad Software Engineering Intern|San Francisco, CA|Oct 22#1",
       "https://go.vansh.nyc/hp|Trace Labs|Robotics Engineer Intern, Hardware & Software|New York, NY|Oct 22#1",
       "https://go.vansh.nyc/eU|Toyota Research Institute|Human Aware Interactions and Learning Intern|Cambridge, MA|Oct 22#1",
@@ -8173,7 +8171,9 @@
       "https://go.vansh.nyc/1Jq?s=y|SambaNova|Cloud Platform Engineer Intern|San Jose, CA|Nov 25#1",
       "https://go.vansh.nyc/1Jr?s=y|SambaNova|Machine Learning Engineer Intern|Austin, TX San Jose, CA|Nov 25#1",
       "https://go.vansh.nyc/1Jo?s=y|Jabil|Data Scientist Intern|St. Petersburg, FL Tampa, FL|Nov 25#1",
-      "NOURL|General Dynamics Mission Systems, Inc.|FPGA Engineer Intern \ud83c\uddfa\ud83c\uddf8|Scottsdale, AZ|Nov 09#1"
+      "NOURL|General Dynamics Mission Systems, Inc.|FPGA Engineer Intern \ud83c\uddfa\ud83c\uddf8|Scottsdale, AZ|Nov 09#1",
+      "NOURL|SouthState Bank|Quantitative Intern|Remote United States|Nov 02#1",
+      "NOURL|Oshkosh|Software Engineer Intern|Greenville, WI Oshkosh, WI|Nov 02#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3323,
