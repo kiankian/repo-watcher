@@ -166016,6 +166016,102 @@
       "chat_id": 7582459199,
       "seq": 13383,
       "identity": "https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202621696?s=gh-internships-2027|General Motors|2027 Summer Intern \u2013 Software Engineer, AV/AI Platform|3 Locations|Summer 2027#1"
+    },
+    "cd8a0d319d1b": {
+      "company": "Bandwidth",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/bandwidth/jobs/8414430?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15582,
+      "chat_id": 7582459199,
+      "seq": 13384,
+      "identity": "https://job-boards.greenhouse.io/bandwidth/jobs/8414430?utm_source=Simplify&ref=Simplify|Bandwidth|Software Engineer Intern|Raleigh, NC|Summer 2026#1"
+    },
+    "d8fb4f27b4da": {
+      "company": "Bandwidth",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/bandwidth/jobs/8414440?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15583,
+      "chat_id": 7582459199,
+      "seq": 13385,
+      "identity": "https://job-boards.greenhouse.io/bandwidth/jobs/8414440?utm_source=Simplify&ref=Simplify|Bandwidth|Software Engineer Intern|Raleigh, NC|Summer 2026#1"
+    },
+    "42a94fe6579f": {
+      "company": "Bandwidth",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/bandwidth/jobs/8414426?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15584,
+      "chat_id": 7582459199,
+      "seq": 13386,
+      "identity": "https://job-boards.greenhouse.io/bandwidth/jobs/8414426?utm_source=Simplify&ref=Simplify|Bandwidth|Software Engineer Intern|Raleigh, NC|Summer 2026#1"
+    },
+    "c32035401bd3": {
+      "company": "Bandwidth",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/bandwidth/jobs/8414436?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15585,
+      "chat_id": 7582459199,
+      "seq": 13387,
+      "identity": "https://job-boards.greenhouse.io/bandwidth/jobs/8414436?utm_source=Simplify&ref=Simplify|Bandwidth|Software Engineer Intern|Raleigh, NC|Summer 2026#1"
+    },
+    "6511b0cbc06a": {
+      "company": "Bandwidth",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/bandwidth/jobs/8414444?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15586,
+      "chat_id": 7582459199,
+      "seq": 13388,
+      "identity": "https://job-boards.greenhouse.io/bandwidth/jobs/8414444?utm_source=Simplify&ref=Simplify|Bandwidth|Software Engineer Intern|Raleigh, NC|Summer 2026#1"
+    },
+    "ecd2c3b8b783": {
+      "company": "Bandwidth",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/bandwidth/jobs/8414452?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15587,
+      "chat_id": 7582459199,
+      "seq": 13389,
+      "identity": "https://job-boards.greenhouse.io/bandwidth/jobs/8414452?utm_source=Simplify&ref=Simplify|Bandwidth|Software Engineer Intern|Raleigh, NC|Summer 2026#1"
+    },
+    "b763ed7f31d3": {
+      "company": "Bandwidth",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/bandwidth/jobs/8414448?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15588,
+      "chat_id": 7582459199,
+      "seq": 13390,
+      "identity": "https://job-boards.greenhouse.io/bandwidth/jobs/8414448?utm_source=Simplify&ref=Simplify|Bandwidth|Software Engineer Intern|Raleigh, NC|Summer 2026#1"
+    },
+    "2da43fc08412": {
+      "company": "SambaNova Systems",
+      "role": "Runtime Engineer Intern",
+      "location": "Austin, TX San Jose, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6270727004&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15589,
+      "chat_id": 7582459199,
+      "seq": 13391,
+      "identity": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6270727004&utm_source=Simplify&ref=Simplify|SambaNova Systems|Runtime Engineer Intern|Austin, TX San Jose, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -166383,10 +166479,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13383,
+  "seq": 13391,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T03:00:24Z",
+    "last_ok_run": "2026-11-25T03:05:31Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
