@@ -735,7 +735,7 @@
     "outbox": []
   },
   "SimplifyJobs/Summer2026-Internships#summer": {
-    "last_sha": "07b21643579a414e36cf040eef5c65189a80bd2d",
+    "last_sha": "e61c9fd0db4de88fd0f359f1ecc253fbd0e672ea",
     "seen": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineering-Intern--Summer-2027-_01863072?utm_source=Simplify&ref=Simplify|RTX|Software Engineer Intern|McKinney, TX|Summer 2026#1",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002?utm_source=Simplify&ref=Simplify|Virtu Financial|Frontend Developer Internship|NYC|Summer 2026#1",
@@ -3163,11 +3163,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "043233860aaf68c1ccf37e46e9508e6ec5476d19",
+    "last_sha": "5b6c9426bbc7703721371bd11d9ec97e2d2e1a54",
     "seen": [
-      "https://www.capitalonecareers.com/job/mclean/data-analyst-intern-summer-2027/31238/97421687472|Capital One|Data Analyst Intern|Mclean, VA|Jul 07#1",
-      "https://job-boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|Software Engineer Intern|**6 locations**Atlanta, GA Boston, MA Costa Mesa, CA Irvine, CA Reston, VA Seattle, WA|Jul 07#1",
-      "https://voloridge-investment-management.hiringthing.com/job/1013126/quantitative-developer-intern-2027?s=lif&jr_id=69eaa8e4dc35f7132c4ab803|Voloridge Investment Management|Quantitative Developer Intern|Jupiter, FL|May 22#1",
       "https://careers.sig.com/jobs/10837?lang=en-us&mode=apply&iis=LinkedIn&jr_id=69f3d11158b23a2329da8088|Susquehanna|Trading System Engineering Intern|Bala Cynwyd, PA|May 22#1",
       "https://www.stokespace.com/careers/current-openings/?gh_jid=5987663004&jr_id=69fae0acd21cf86d1e3cd79c|Stoke Space|Software Engineer Intern|Kent, WA|May 22#1",
       "https://job-boards.greenhouse.io/embed/job_app?for=aquaticcapitalmanagement&jr_id=6a06fd77152f493123c4b595&token=8489233002|Aquatic Capital|Software Engineer Intern|Chicago, IL|May 22#1",
@@ -8164,14 +8161,17 @@
       "https://go.vansh.nyc/1IA?s=y|Indie|Camera Host Tools Intern|San Jose, CA|Nov 24#1",
       "NOURL|Quadric|RTL Intern|Burlingame, CA|Oct 22#1",
       "NOURL|Quadric|AI Kernel Engineer Intern|Burlingame, CA|Oct 22#1",
-      "NOURL|CAE|Software Developer Intern, Content Creation Tools|Montreal, Canada|Sep 20#1"
+      "NOURL|CAE|Software Developer Intern, Content Creation Tools|Montreal, Canada|Sep 20#1",
+      "https://go.vansh.nyc/1IF?s=y|Reach Labs|Hardware Prototyping Intern|Redwood City, CA|Nov 24#1",
+      "https://go.vansh.nyc/1ID?s=y|Johns Hopkins Applied Physics Laboratory|Robotics Intern|Laurel, MD|Nov 24#1",
+      "https://go.vansh.nyc/1IE?s=y|Johns Hopkins Applied Physics Laboratory|Artificial Intelligence and Complex Systems Intern|Laurel, MD|Nov 24#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3286,
+    "last_row_count": 3289,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "7666703e6eaaaae1a031ab9d67c4e0beebb18e6d",
+    "last_sha": "b115080700a0078a6347dee7363383aaeb44ce59",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
