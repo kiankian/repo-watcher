@@ -166220,6 +166220,42 @@
       "chat_id": 7582459199,
       "seq": 13400,
       "identity": "https://go.vansh.nyc/1J0?s=y|NVIDIA|Software Engineering Intern, Simulation Technology|Santa Clara, CA|Nov 24#1"
+    },
+    "228ac4e98641": {
+      "company": "Bandwidth Inc.",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Nov 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15612,
+      "chat_id": 7582459199,
+      "seq": 13401,
+      "identity": "NOURL|Bandwidth Inc.|Software Engineer Intern|Raleigh, NC|Nov 24#1"
+    },
+    "e24b8749f88b": {
+      "company": "Bandwidth Inc.",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Nov 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15613,
+      "chat_id": 7582459199,
+      "seq": 13402,
+      "identity": "NOURL|Bandwidth Inc.|Software Engineer Intern|Raleigh, NC|Nov 24#2"
+    },
+    "c9673b34b4bb": {
+      "company": "Bandwidth Inc.",
+      "role": "Software Engineer Intern",
+      "location": "Raleigh, NC",
+      "term": "Nov 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15614,
+      "chat_id": 7582459199,
+      "seq": 13403,
+      "identity": "NOURL|Bandwidth Inc.|Software Engineer Intern|Raleigh, NC|Nov 24#3"
     }
   },
   "applied": {
@@ -166587,10 +166623,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13400,
+  "seq": 13403,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T07:20:19Z",
+    "last_ok_run": "2026-11-25T07:25:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",

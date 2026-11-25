@@ -3171,11 +3171,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "22aa099a4899b60dfc838cd5075040fb0cafcb91",
+    "last_sha": "e897ae738e7234116f9934dd458411bb47973298",
     "seen": [
-      "https://careers.ice.com/jobs/12830?lang=en-us&iis=LinkedIn&iisn=Linkedin&mode=apply&jr_id=69e67bb27820c036924d0af9|Intercontinental Exchange, Inc.|Artificial Intelligence, Data & Machine Learning Intern|New York, NY|Apr 20#1",
-      "https://careers.fiserv.com/us/en/job/FFFYJUSR10390264EXTERNALENUS/Application-Development-Summer-Intern?jr_id=69e6ab177820c036924d1dc6|Fiserv|Application Development Intern \ud83d\udec2|Alpharetta, GA|Apr 20#1",
-      "https://careers.fiserv.com/us/en/job/FFFYJUSR10390344EXTERNALENUS/Technology-Summer-Intern?jr_id=69e6ab5e3aa0c4796439589b|Fiserv|Technology Intern \ud83d\udec2|Columbus, OH|Apr 20#1",
       "https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081|Point72|Investment Analyst Intern, Point72 Academy|**5 locations**New York, NY San Francisco, CA Chicago, IL West Palm Beach, FL Miami, FL|Apr 19#1",
       "https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-researcher-internship&jobCode=CSS-0012295|Point72|Quantitative Researcher Intern|New York, NY|Apr 19#1",
       "https://careers.point72.com/CSJobDetail?jobName=summer-2027-quantitative-developer-internship&jobCode=CSS-0012293|Point72|Quantitative Developer Intern|New York, NY|Apr 19#1",
@@ -8172,14 +8169,17 @@
       "https://go.vansh.nyc/1IY?s=y|Johns Hopkins Applied Physics Laboratory|Cyber Physical Systems Intern|Laurel, MD|Nov 24#1",
       "NOURL|ConnectPrep|Data Analyst Intern|Remote United States|Oct 25#1",
       "NOURL|EHC|Data Management Intern|Birmingham, AL|Sep 18#1",
-      "https://go.vansh.nyc/1J0?s=y|NVIDIA|Software Engineering Intern, Simulation Technology|Santa Clara, CA|Nov 24#1"
+      "https://go.vansh.nyc/1J0?s=y|NVIDIA|Software Engineering Intern, Simulation Technology|Santa Clara, CA|Nov 24#1",
+      "NOURL|Bandwidth Inc.|Software Engineer Intern|Raleigh, NC|Nov 24#1",
+      "NOURL|Bandwidth Inc.|Software Engineer Intern|Raleigh, NC|Nov 24#2",
+      "NOURL|Bandwidth Inc.|Software Engineer Intern|Raleigh, NC|Nov 24#3"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3301,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "4a28803c3153bd02735f95f548d0dda2765c1a21",
+    "last_sha": "a5743ba0068afb33ec10a142a682244db025acb9",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
