@@ -3172,11 +3172,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "cbfc0ff0b5a0021b859cdd4c467a7b8a7c950d4c",
+    "last_sha": "ee027796fe55fa4fd03d5ae965f75f7768bbab10",
     "seen": [
-      "https://go.vansh.nyc/gM|ASML|Software Engineer In Test Intern, MOD|San Jose, CA|Oct 23#1",
-      "https://go.vansh.nyc/hF|Amperesand|AI/ML Engineer Intern|Sunnyvale, CA|Oct 23#1",
-      "https://go.vansh.nyc/gt|Altera|Software Intern|Toronto, Canada|Oct 23#1",
       "https://go.vansh.nyc/h5|Aerospace Corporation|Defensive Cyber Operations Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Oct 23#1",
       "https://go.vansh.nyc/fz|Westinghouse Electric Company|Software Engineering Intern|Warrendale, PA|Oct 22#1",
       "https://go.vansh.nyc/eX|Western & Southern Financial Group|Enterprise Architecture Information Technology Intern|Cincinnati, OH|Oct 22#1",
@@ -8173,10 +8170,13 @@
       "https://go.vansh.nyc/1Jj?s=y|SambaNova|AI Performance Engineer Intern|Austin, TX San Jose, CA|Nov 24#1",
       "https://go.vansh.nyc/1Jk?s=y|SambaNova|Compiler Engineer Intern|Austin, TX San Jose, CA|Nov 24#1",
       "https://go.vansh.nyc/1Jl?s=y|Nasdaq|Data Engineering Intern|Denver, CO|Nov 24#1",
-      "NOURL|CACI|Software Engineer Intern|**4 locations**Remote United States Sterling, VA Denver, CO|Sep 13#1"
+      "NOURL|CACI|Software Engineer Intern|**4 locations**Remote United States Sterling, VA Denver, CO|Sep 13#1",
+      "https://go.vansh.nyc/1Jm?s=y|Celestica|Engineering Data Analytics Intern|Toronto, Canada|Nov 25#1",
+      "https://go.vansh.nyc/1Jn?s=y|Celestica|Engineering AI Development Intern|Toronto, Canada|Nov 25#1",
+      "NOURL|Clera|Full-Stack Software Engineering Intern|New York, NY|Nov 16#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3317,
+    "last_row_count": 3319,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {

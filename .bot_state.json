@@ -166628,6 +166628,42 @@
       "chat_id": 7582459199,
       "seq": 13463,
       "identity": "NOURL|CACI|Software Engineer Intern|**4 locations**Remote United States Sterling, VA Denver, CO|Sep 13#1"
+    },
+    "58d3d310207b": {
+      "company": "Celestica",
+      "role": "Engineering Data Analytics Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Jm?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15713,
+      "chat_id": 7582459199,
+      "seq": 13464,
+      "identity": "https://go.vansh.nyc/1Jm?s=y|Celestica|Engineering Data Analytics Intern|Toronto, Canada|Nov 25#1"
+    },
+    "2d22e073334d": {
+      "company": "Celestica",
+      "role": "Engineering AI Development Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Jn?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15714,
+      "chat_id": 7582459199,
+      "seq": 13465,
+      "identity": "https://go.vansh.nyc/1Jn?s=y|Celestica|Engineering AI Development Intern|Toronto, Canada|Nov 25#1"
+    },
+    "887dd02dcdd0": {
+      "company": "Clera",
+      "role": "Full-Stack Software Engineering Intern",
+      "location": "New York, NY",
+      "term": "Nov 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15715,
+      "chat_id": 7582459199,
+      "seq": 13466,
+      "identity": "NOURL|Clera|Full-Stack Software Engineering Intern|New York, NY|Nov 16#1"
     }
   },
   "applied": {
@@ -166995,10 +167031,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13463,
+  "seq": 13466,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T18:45:20Z",
+    "last_ok_run": "2026-11-25T18:50:22Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -167006,7 +167042,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T17:50:23Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T18:50:20Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T18:40:23Z"
     }
