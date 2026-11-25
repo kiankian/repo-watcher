@@ -3171,11 +3171,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "4f6773fb6d2df8a77820d5b94f6b9d9a65bd58c6",
+    "last_sha": "50b5564bdfb617a344522650c30ccbd154989fb2",
     "seen": [
-      "NOURL|General Dynamics Information Technology|Systems Engineer Intern|Albany, NY|Jul 30#1",
-      "NOURL|Jane Street|Network Engineer Intern|New York, NY|Jul 24#1",
-      "NOURL|IMC|Quantitative Research Intern (PHD)|Chicago|Jul 24#1",
       "NOURL|IMC|Quantitative Research Intern|Chicago, IL|Jul 24#1",
       "NOURL|IMC|Hardware Engineer Intern|Chicago, IL|Jul 24#1",
       "NOURL|Google|Software Engineering Intern|**30 locations**Mountain View, CA Atlanta, GA Austin, TX Boulder, CO Cambridge, MA Bellevue, WA Chicago, IL Houston, TX Irvine, CA Kirkland, WA Los Angeles, CA Madison, WI New York, NY Palo Alto, CA Portland, OR Pittsburgh, PA Raleigh, NC Durham, NC Reston, VA Redmond, WA Redwood City, CA San Diego, CA Goleta, CA San Bruno, CA Seattle, WA San Francisco, CA San Jose, CA Santa Cruz, CA South San Francisco, CA Sunnyvale, CA|Jul 24#1",
@@ -8172,7 +8169,10 @@
       "NOURL|Marvell|Design for Test Intern|**4 locations**Morrisville, NC Santa Clara, CA Boise, ID Westborough, MA|Sep 03#1",
       "https://go.vansh.nyc/1J5?s=y|ConnectPrep|Data Analyst Intern|Washington, DC|Nov 24#1",
       "https://go.vansh.nyc/1J4?s=y|Artefact|AI Builder Intern|New York, NY|Nov 22#1",
-      "NOURL|Northrop Grumman|Cyber Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Antonio, TX|Oct 22#1"
+      "NOURL|Northrop Grumman|Cyber Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Antonio, TX|Oct 22#1",
+      "NOURL|Amazon|Software Engineer Intern|Redmond, WA|Oct 22#1",
+      "NOURL|MITRE|AI Engineering Intern|Bedford, MA|Oct 18#1",
+      "NOURL|H&R Block|Software Engineering Intern, Embark|Kansas City, MO|Sep 27#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3306,

@@ -86608,9 +86608,9 @@
       "term": "Oct 22",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7858,
+      "message_id": 15639,
       "chat_id": 7582459199,
-      "seq": 6660,
+      "seq": 13411,
       "identity": "NOURL|Amazon|Software Engineer Intern|Redmond, WA|Oct 22#1"
     },
     "d7ac16a48995": {
@@ -86620,9 +86620,9 @@
       "term": "Oct 18",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7859,
+      "message_id": 15641,
       "chat_id": 7582459199,
-      "seq": 6661,
+      "seq": 13412,
       "identity": "NOURL|MITRE|AI Engineering Intern|Bedford, MA|Oct 18#1"
     },
     "91e05eb0622a": {
@@ -86632,9 +86632,9 @@
       "term": "Sep 27",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7860,
+      "message_id": 15642,
       "chat_id": 7582459199,
-      "seq": 6662,
+      "seq": 13413,
       "identity": "NOURL|H&R Block|Software Engineering Intern, Embark|Kansas City, MO|Sep 27#1"
     },
     "70500a304e9d": {
@@ -166695,10 +166695,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13410,
+  "seq": 13413,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T13:45:19Z",
+    "last_ok_run": "2026-11-25T13:50:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -166706,8 +166706,8 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T11:20:24Z",
-      "duplicate-hash": "2026-11-25T11:20:24Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T13:50:22Z",
+      "duplicate-hash": "2026-11-25T13:50:19Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T13:45:18Z"
     }
   }
