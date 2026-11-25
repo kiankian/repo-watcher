@@ -86788,9 +86788,9 @@
       "term": "May 22",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7873,
+      "message_id": 15669,
       "chat_id": 7582459199,
-      "seq": 6675,
+      "seq": 13433,
       "identity": "NOURL|Voloridge Investment Management|Quantitative Developer Intern|Jupiter, FL|May 22#1"
     },
     "0f33389f99f9": {
@@ -86800,9 +86800,9 @@
       "term": "May 19",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7874,
+      "message_id": 15670,
       "chat_id": 7582459199,
-      "seq": 6676,
+      "seq": 13434,
       "identity": "NOURL|StarSling|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|May 19#1"
     },
     "a922e026ba88": {
@@ -86812,9 +86812,9 @@
       "term": "May 19",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7875,
+      "message_id": 15672,
       "chat_id": 7582459199,
-      "seq": 6677,
+      "seq": 13435,
       "identity": "NOURL|Nash|Full Stack Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 19#1"
     },
     "c42ddbc65b2b": {
@@ -86824,9 +86824,9 @@
       "term": "May 14",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7876,
+      "message_id": 15673,
       "chat_id": 7582459199,
-      "seq": 6678,
+      "seq": 13436,
       "identity": "NOURL|Terranox AI|Summer Intern - AI/ML Engineering \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1"
     },
     "7ae9e3f94b74": {
@@ -86836,9 +86836,9 @@
       "term": "May 14",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7877,
+      "message_id": 15674,
       "chat_id": 7582459199,
-      "seq": 6679,
+      "seq": 13437,
       "identity": "NOURL|Na\u00efve|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA Remote|May 14#1"
     },
     "3be1e1378ebd": {
@@ -86848,9 +86848,9 @@
       "term": "May 14",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7878,
+      "message_id": 15675,
       "chat_id": 7582459199,
-      "seq": 6680,
+      "seq": 13438,
       "identity": "NOURL|Abundant|Software Engineering Intern, Research Focused \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1"
     },
     "353d7085168e": {
@@ -86860,9 +86860,9 @@
       "term": "May 09",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7879,
+      "message_id": 15676,
       "chat_id": 7582459199,
-      "seq": 6681,
+      "seq": 13439,
       "identity": "NOURL|Paragon|Forward Deployed Engineer (FDE) Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1"
     },
     "03de16691a65": {
@@ -86872,9 +86872,9 @@
       "term": "May 09",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7880,
+      "message_id": 15677,
       "chat_id": 7582459199,
-      "seq": 6682,
+      "seq": 13440,
       "identity": "NOURL|General Astronautics|Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1"
     },
     "e62c6173e5b9": {
@@ -166400,6 +166400,18 @@
       "chat_id": 7582459199,
       "seq": 13426,
       "identity": "NOURL|Axiom Space|Software Engineer Intern|Houston, TX|Oct 14#1"
+    },
+    "3c686533f774": {
+      "company": "Garmin",
+      "role": "Software Engineer Intern, Automotive OEM",
+      "location": "Novi, MI",
+      "term": "Nov 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15668,
+      "chat_id": 7582459199,
+      "seq": 13432,
+      "identity": "NOURL|Garmin|Software Engineer Intern, Automotive OEM|Novi, MI|Nov 22#1"
     }
   },
   "applied": {
@@ -166767,10 +166779,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13431,
+  "seq": 13440,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T15:15:18Z",
+    "last_ok_run": "2026-11-25T15:20:37Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -166778,9 +166790,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T14:50:30Z",
-      "duplicate-hash": "2026-11-25T14:50:23Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T14:50:31Z"
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T15:20:34Z",
+      "duplicate-hash": "2026-11-25T15:20:23Z",
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T15:20:36Z"
     }
   }
 }

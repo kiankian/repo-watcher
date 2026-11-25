@@ -3171,17 +3171,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "4ce701e18b400eab7b9f9d9422e5942a732592a5",
+    "last_sha": "3297a641c01e075dde4347a40080247ad73317e9",
     "seen": [
-      "NOURL|Dedalus Labs|Forward Deployed Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
-      "NOURL|Amazon|Robotics - Software Development Engineer Intern/Co-op|**8 locations**Sunnyvale, CA North Reading, MA Westboro, MA Nashville, TN Austin, TX Arlington, VA Bellevue, WA Seattle, WA|May 09#1",
-      "NOURL|Intercontinental Exchange, Inc.|Artificial Intelligence, Data & Machine Learning Intern|New York, NY|Apr 20#1",
-      "NOURL|Fiserv|Technology Intern \ud83d\udec2|Columbus, OH|Apr 20#1",
-      "NOURL|Fiserv|Application Development Intern \ud83d\udec2|Alpharetta, GA|Apr 20#1",
-      "https://go.vansh.nyc/hX|Trimble|Automated Test Engineering Intern|Richmond Hill, Canada|Oct 23#1",
-      "https://go.vansh.nyc/hU|Thermo Fisher Scientific|IT & Digital Intern|**4 locations**Pittsburgh, PA Frederick, MD Carlsbad, CA Morrisville, NC|Oct 23#1",
-      "https://go.vansh.nyc/hb|TELUS Digital|Software Engineering Co-op|Vancouver, Canada|Oct 23#1",
-      "https://go.vansh.nyc/hJ|Simbe Robotics|Computer Vision / Applied AI Intern|Burlingame, CA|Oct 23#1",
       "https://go.vansh.nyc/hM|Siemens|Python Backend Developer Intern, Energy Flexibility Platform|Princeton, NJ|Oct 23#1",
       "https://go.vansh.nyc/hV|Scout AI|AI Engineer Intern, Fury Team|Sunnyvale, CA|Oct 23#1",
       "https://go.vansh.nyc/gv|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Applications|Vancouver, Canada|Oct 23#1",
@@ -8172,7 +8163,16 @@
       "NOURL|Optiver|Software Engineer Intern|Austin, TX|Jul 07#1",
       "NOURL|Optiver|Software Engineer Intern|Chicago, IL|Jul 07#1",
       "NOURL|IMC|Software Engineer Intern|Chicago, IL|Jul 07#1",
-      "NOURL|Capital One|Data Analyst Intern|Mclean, VA|Jul 07#1"
+      "NOURL|Capital One|Data Analyst Intern|Mclean, VA|Jul 07#1",
+      "NOURL|Garmin|Software Engineer Intern, Automotive OEM|Novi, MI|Nov 22#1",
+      "NOURL|Voloridge Investment Management|Quantitative Developer Intern|Jupiter, FL|May 22#1",
+      "NOURL|StarSling|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Mateo, CA|May 19#1",
+      "NOURL|Nash|Full Stack Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 19#1",
+      "NOURL|Terranox AI|Summer Intern - AI/ML Engineering \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1",
+      "NOURL|Na\u00efve|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA Remote|May 14#1",
+      "NOURL|Abundant|Software Engineering Intern, Research Focused \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 14#1",
+      "NOURL|Paragon|Forward Deployed Engineer (FDE) Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1",
+      "NOURL|General Astronautics|Engineering Intern \ud83c\uddfa\ud83c\uddf8|San Francisco, CA|May 09#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3308,
