@@ -166976,6 +166976,42 @@
       "chat_id": 7582459199,
       "seq": 13492,
       "identity": "NOURL|American Family Insurance Group|Business Intelligence Enablement Intern|Madison, WI Boston, MA|Oct 21#1"
+    },
+    "eb967d5bfc57": {
+      "company": "ManTech",
+      "role": "C++ Developer Intern",
+      "location": "Lexington Park, MD",
+      "term": "Summer 2026",
+      "apply_url": "https://mantech.avature.net/en_US/careers/JobDetail/67268?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15756,
+      "chat_id": 7582459199,
+      "seq": 13493,
+      "identity": "https://mantech.avature.net/en_US/careers/JobDetail/67268?utm_source=Simplify&ref=Simplify|ManTech|C++ Developer Intern|Lexington Park, MD|Summer 2026#1"
+    },
+    "fed9d902603d": {
+      "company": "Staples",
+      "role": "Full Stack Software Engineer Intern \ud83c\udf93",
+      "location": "Austin, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job/77145?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15757,
+      "chat_id": 7582459199,
+      "seq": 13494,
+      "identity": "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job/77145?utm_source=Simplify&ref=Simplify|Staples|Full Stack Software Engineer Intern \ud83c\udf93|Austin, TX|Summer 2026#1"
+    },
+    "b3eaeabfe73a": {
+      "company": "Cantor Fitzgerald",
+      "role": "Technology Summer Intern - Development",
+      "location": "NYC",
+      "term": "Summer 2026",
+      "apply_url": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250630?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15758,
+      "chat_id": 7582459199,
+      "seq": 13495,
+      "identity": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250630?utm_source=Simplify&ref=Simplify|Cantor Fitzgerald|Technology Summer Intern - Development|NYC|Summer 2026#1"
     }
   },
   "applied": {
@@ -167343,10 +167379,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13492,
+  "seq": 13495,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T23:30:22Z",
+    "last_ok_run": "2026-11-25T23:35:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
