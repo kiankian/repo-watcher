@@ -86596,9 +86596,9 @@
       "term": "Oct 22",
       "apply_url": "",
       "source": "Vansh Summer Repo",
-      "message_id": 7857,
+      "message_id": 15631,
       "chat_id": 7582459199,
-      "seq": 6659,
+      "seq": 13410,
       "identity": "NOURL|Northrop Grumman|Cyber Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|San Antonio, TX|Oct 22#1"
     },
     "5211be0ad8da": {
@@ -166304,6 +166304,30 @@
       "chat_id": 7582459199,
       "seq": 13407,
       "identity": "NOURL|Marvell|Design for Test Intern|**4 locations**Morrisville, NC Santa Clara, CA Boise, ID Westborough, MA|Sep 03#1"
+    },
+    "fdbc657d64d0": {
+      "company": "ConnectPrep",
+      "role": "Data Analyst Intern",
+      "location": "Washington, DC",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1J5?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15629,
+      "chat_id": 7582459199,
+      "seq": 13408,
+      "identity": "https://go.vansh.nyc/1J5?s=y|ConnectPrep|Data Analyst Intern|Washington, DC|Nov 24#1"
+    },
+    "20a83b02ce9a": {
+      "company": "Artefact",
+      "role": "AI Builder Intern",
+      "location": "New York, NY",
+      "term": "Nov 22",
+      "apply_url": "https://go.vansh.nyc/1J4?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15630,
+      "chat_id": 7582459199,
+      "seq": 13409,
+      "identity": "https://go.vansh.nyc/1J4?s=y|Artefact|AI Builder Intern|New York, NY|Nov 22#1"
     }
   },
   "applied": {
@@ -166671,10 +166695,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13407,
+  "seq": 13410,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T11:15:23Z",
+    "last_ok_run": "2026-11-25T11:20:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -166682,8 +166706,8 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T10:20:18Z",
-      "duplicate-hash": "2026-11-16T22:40:21Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T11:20:24Z",
+      "duplicate-hash": "2026-11-25T11:20:24Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-25T11:00:25Z"
     }
   }
