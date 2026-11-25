@@ -167012,6 +167012,78 @@
       "chat_id": 7582459199,
       "seq": 13495,
       "identity": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250630?utm_source=Simplify&ref=Simplify|Cantor Fitzgerald|Technology Summer Intern - Development|NYC|Summer 2026#1"
+    },
+    "36e939e160dd": {
+      "company": "ManTech",
+      "role": "Developer Intern, C++",
+      "location": "Lexington Park, MD",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1JD?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15760,
+      "chat_id": 7582459199,
+      "seq": 13496,
+      "identity": "https://go.vansh.nyc/1JD?s=y|ManTech|Developer Intern, C++|Lexington Park, MD|Nov 25#1"
+    },
+    "966cda39ec59": {
+      "company": "Docusign",
+      "role": "Product Manager Intern",
+      "location": "Seattle, WA San Francisco, CA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1JC?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15761,
+      "chat_id": 7582459199,
+      "seq": 13497,
+      "identity": "https://go.vansh.nyc/1JC?s=y|Docusign|Product Manager Intern|Seattle, WA San Francisco, CA|Nov 25#1"
+    },
+    "73d97e8ba625": {
+      "company": "Best Egg",
+      "role": "Software Engineering Intern",
+      "location": "Wilmington, DE",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1JF?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15762,
+      "chat_id": 7582459199,
+      "seq": 13498,
+      "identity": "https://go.vansh.nyc/1JF?s=y|Best Egg|Software Engineering Intern|Wilmington, DE|Nov 25#1"
+    },
+    "df52f026f2b8": {
+      "company": "Harvard Companies",
+      "role": "AI Engineering Intern",
+      "location": "Miami, FL",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1JB?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15763,
+      "chat_id": 7582459199,
+      "seq": 13499,
+      "identity": "https://go.vansh.nyc/1JB?s=y|Harvard Companies|AI Engineering Intern|Miami, FL|Nov 24#1"
+    },
+    "a34fd35e4e16": {
+      "company": "CodeRabbit",
+      "role": "Software Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1JE?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15764,
+      "chat_id": 7582459199,
+      "seq": 13500,
+      "identity": "https://go.vansh.nyc/1JE?s=y|CodeRabbit|Software Engineer Intern|San Francisco, CA|Nov 24#1"
+    },
+    "5c44c0b55be5": {
+      "company": "Altera",
+      "role": "AI Software Development Engineer Intern",
+      "location": "Toronto, Canada",
+      "term": "Nov 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15765,
+      "chat_id": 7582459199,
+      "seq": 13501,
+      "identity": "NOURL|Altera|AI Software Development Engineer Intern|Toronto, Canada|Nov 24#1"
     }
   },
   "applied": {
@@ -167379,10 +167451,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13495,
+  "seq": 13501,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T23:50:21Z",
+    "last_ok_run": "2026-11-25T23:55:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",

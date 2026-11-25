@@ -3175,14 +3175,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "b7de8e2d29a3fbd780eade1feb7853c68d4ab7c6",
+    "last_sha": "d9b0eb47632646d5aeca5900104e68d72a9a7647",
     "seen": [
-      "https://go.vansh.nyc/hg|RSM|Business Intelligence Consulting Intern|Toronto, Canada Calgary, Canada Edmonton, Canada|Oct 22#1",
-      "https://go.vansh.nyc/gW|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Embedded Platforms|Vancouver, Canada|Oct 22#1",
-      "https://go.vansh.nyc/fE|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Vehicle Controls|Palo Alto, CA Irvine, CA|Oct 22#1",
-      "https://go.vansh.nyc/fF|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Embedded Platforms|Palo Alto, CA Irvine, CA Champaign, IL|Oct 22#1",
-      "https://go.vansh.nyc/fG|Rivian and Volkswagen Group Technologies|Software Engineering Intern, Connected Systems|Palo Alto, CA Irvine, CA|Oct 22#1",
-      "https://go.vansh.nyc/fI|Rivian and Volkswagen Group Technologies|Data Engineering Intern, AI & Analytics|Palo Alto, CA Irvine, CA|Oct 22#1",
       "https://go.vansh.nyc/fB|Renesas Electronics|Memory Server System Testing Intern|San Jose, CA|Oct 22#1",
       "https://go.vansh.nyc/fy|Qualcomm|AI and DSP Applications Engineer Intern|Markham, Canada|Oct 22#1",
       "https://go.vansh.nyc/es|Qualcomm|Camera Design Implementation Intern|Vancouver, BC, Canada|Oct 22#1",
@@ -8176,14 +8170,20 @@
       "https://go.vansh.nyc/1JA?s=y|Cisco|Security Engineer I Intern \ud83c\uddfa\ud83c\uddf8|Research Triangle Park, NC|Nov 24#1",
       "NOURL|Analog Devices|Software Engineering Intern, Medical Device & Healthcare Integration|Wilmington, MA|Nov 16#1",
       "NOURL|Fonds de solidarit\u00e9 FTQ|Business Intelligence and M365 Solutions Intern|Montreal, Canada|Nov 12#1",
-      "NOURL|American Family Insurance Group|Business Intelligence Enablement Intern|Madison, WI Boston, MA|Oct 21#1"
+      "NOURL|American Family Insurance Group|Business Intelligence Enablement Intern|Madison, WI Boston, MA|Oct 21#1",
+      "https://go.vansh.nyc/1JD?s=y|ManTech|Developer Intern, C++|Lexington Park, MD|Nov 25#1",
+      "https://go.vansh.nyc/1JC?s=y|Docusign|Product Manager Intern|Seattle, WA San Francisco, CA|Nov 25#1",
+      "https://go.vansh.nyc/1JF?s=y|Best Egg|Software Engineering Intern|Wilmington, DE|Nov 25#1",
+      "https://go.vansh.nyc/1JB?s=y|Harvard Companies|AI Engineering Intern|Miami, FL|Nov 24#1",
+      "https://go.vansh.nyc/1JE?s=y|CodeRabbit|Software Engineer Intern|San Francisco, CA|Nov 24#1",
+      "NOURL|Altera|AI Software Development Engineer Intern|Toronto, Canada|Nov 24#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3331,
+    "last_row_count": 3336,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "5919ddd54f84a7fc26c596608030ab3f14d98bbe",
+    "last_sha": "d83e0068d0644597924df3c3ddc7ba3095d704d6",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
