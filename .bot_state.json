@@ -166580,6 +166580,54 @@
       "chat_id": 7582459199,
       "seq": 13459,
       "identity": "NOURL|Staples|Software Engineer Intern, SDS e-Commerce Team|Framingham, MA|Nov 02#1"
+    },
+    "f49dd1bb4a79": {
+      "company": "SambaNova",
+      "role": "AI Performance Engineer Intern",
+      "location": "Austin, TX San Jose, CA",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1Jj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15708,
+      "chat_id": 7582459199,
+      "seq": 13460,
+      "identity": "https://go.vansh.nyc/1Jj?s=y|SambaNova|AI Performance Engineer Intern|Austin, TX San Jose, CA|Nov 24#1"
+    },
+    "1c84b19719b2": {
+      "company": "SambaNova",
+      "role": "Compiler Engineer Intern",
+      "location": "Austin, TX San Jose, CA",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1Jk?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15709,
+      "chat_id": 7582459199,
+      "seq": 13461,
+      "identity": "https://go.vansh.nyc/1Jk?s=y|SambaNova|Compiler Engineer Intern|Austin, TX San Jose, CA|Nov 24#1"
+    },
+    "f98f5a759355": {
+      "company": "Nasdaq",
+      "role": "Data Engineering Intern",
+      "location": "Denver, CO",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1Jl?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15710,
+      "chat_id": 7582459199,
+      "seq": 13462,
+      "identity": "https://go.vansh.nyc/1Jl?s=y|Nasdaq|Data Engineering Intern|Denver, CO|Nov 24#1"
+    },
+    "6263a47032ec": {
+      "company": "CACI",
+      "role": "Software Engineer Intern",
+      "location": "**4 locations**Remote United States Sterling, VA Denver, CO",
+      "term": "Sep 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15711,
+      "chat_id": 7582459199,
+      "seq": 13463,
+      "identity": "NOURL|CACI|Software Engineer Intern|**4 locations**Remote United States Sterling, VA Denver, CO|Sep 13#1"
     }
   },
   "applied": {
@@ -166947,10 +166995,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13459,
+  "seq": 13463,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-25T18:15:20Z",
+    "last_ok_run": "2026-11-25T18:20:24Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
