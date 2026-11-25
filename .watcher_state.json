@@ -3172,11 +3172,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "df3ddb8a9c7ed344b2bd48fac243b6e1738548cd",
+    "last_sha": "f981ddfa13254dad502d028fcd3466d6a6cb1630",
     "seen": [
-      "https://go.vansh.nyc/h1|ID.me|Analytics Engineer Intern|Mountain View, CA|Oct 23#1",
-      "https://go.vansh.nyc/hW|Hewlett Packard Enterprise|Cybersecurity Engineering Intern|Spring, TX|Oct 23#1",
-      "https://go.vansh.nyc/gu|CVS Health|Software Engineering Intern, Data & Intelligence|New York, NY|Oct 23#1",
       "https://go.vansh.nyc/gO|Cisco|Software Engineer Data & AI II Intern|**4 locations**San Jose, CA Milpitas, CA Research Triangle Park, NC San Francisco, CA|Oct 23#1",
       "https://go.vansh.nyc/h0|Auto-Owners Insurance|Business Intelligence Developer Intern \ud83d\udec2|Lansing, MI|Oct 23#1",
       "https://go.vansh.nyc/hQ|ASML|Platform Software Engineer In Test Intern|San Jose, CA|Oct 23#1",
@@ -8173,10 +8170,13 @@
       "NOURL|Hewlett Packard Enterprise|Cloud Developer Intern|San Jose, CA|Oct 04#1",
       "https://go.vansh.nyc/1Jd?s=y|Saputo|Data Engineer Intern, Enterprise Analytics|Mississauga, Canada|Nov 25#1",
       "https://go.vansh.nyc/1Jf?s=y|Apex Technology, Inc.|Software Engineering Intern, Operating Systems|Los Angeles, CA|Nov 25#1",
-      "https://go.vansh.nyc/1Jg?s=y|Apex Technology, Inc.|Flight Software Engineering Intern|Los Angeles, CA|Nov 25#1"
+      "https://go.vansh.nyc/1Jg?s=y|Apex Technology, Inc.|Flight Software Engineering Intern|Los Angeles, CA|Nov 25#1",
+      "https://go.vansh.nyc/1Jh?s=y|Aerospace Corporation|Machine Learning Engineer Undergrad Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Nov 23#1",
+      "NOURL|Allied Consultants|AI/ML Engineer Intern|Austin, TX|Nov 19#1",
+      "NOURL|Staples|Software Engineer Intern, SDS e-Commerce Team|Framingham, MA|Nov 02#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3313,
+    "last_row_count": 3314,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
