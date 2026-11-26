@@ -3181,9 +3181,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "fc480f5868ff8657da6808f11d1eb7d4131dec6c",
+    "last_sha": "66d37c229b79b8df6d8c4463152dc2396b218d85",
     "seen": [
-      "https://go.vansh.nyc/hn|American Family Insurance Group|AI Platform Engineering Intern|Madison, WI|Oct 22#1",
       "https://go.vansh.nyc/hR|Amazon|Software Development Engineer Intern, Amazon Leo \ud83c\uddfa\ud83c\uddf8|Redmond, WA|Oct 22#1",
       "https://go.vansh.nyc/hA|Amazon|ASIC Engineer Intern|Seattle, WA Austin, TX Cupertino, CA|Oct 22#1",
       "https://go.vansh.nyc/gE|Amazon|Software Engineer Intern, Embedded Systems|United States|Oct 22#1",
@@ -8182,14 +8181,15 @@
       "https://go.vansh.nyc/1Ku?s=y|Capital Blue Cross|Data Science, Analytics & AI Intern|Harrisburg, PA|Nov 24#1",
       "https://go.vansh.nyc/1Kv?s=y|Capital Blue Cross|Data Engineering Intern|Harrisburg, PA|Nov 24#1",
       "https://go.vansh.nyc/1Kw?s=y|Capital Blue Cross|IT Business Engineering Intern|Harrisburg, PA|Nov 24#1",
-      "https://go.vansh.nyc/1KF?s=y|AeroVironment|Cyber Intern \ud83c\uddfa\ud83c\uddf8|Sunrise, FL|Nov 25#1"
+      "https://go.vansh.nyc/1KF?s=y|AeroVironment|Cyber Intern \ud83c\uddfa\ud83c\uddf8|Sunrise, FL|Nov 25#1",
+      "https://go.vansh.nyc/1KG?s=y|First PREMIER Bank|IT Architecture Intern|Sioux Falls, SD|Nov 25#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3373,
+    "last_row_count": 3374,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "bb376ac36dc5e9fb98ffb67324156b3bf5bd5190",
+    "last_sha": "47e44795cddd62d14fe2f780696ceb11fa4e805d",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",

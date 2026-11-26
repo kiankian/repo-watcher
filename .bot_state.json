@@ -168440,6 +168440,18 @@
       "chat_id": 7582459199,
       "seq": 13614,
       "identity": "https://go.vansh.nyc/1KF?s=y|AeroVironment|Cyber Intern \ud83c\uddfa\ud83c\uddf8|Sunrise, FL|Nov 25#1"
+    },
+    "bb466c7a0c4c": {
+      "company": "First PREMIER Bank",
+      "role": "IT Architecture Intern",
+      "location": "Sioux Falls, SD",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1KG?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15935,
+      "chat_id": 7582459199,
+      "seq": 13615,
+      "identity": "https://go.vansh.nyc/1KG?s=y|First PREMIER Bank|IT Architecture Intern|Sioux Falls, SD|Nov 25#1"
     }
   },
   "applied": {
@@ -168807,10 +168819,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13614,
+  "seq": 13615,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-26T22:15:17Z",
+    "last_ok_run": "2026-11-26T22:20:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
