@@ -8189,7 +8189,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "c874f3ca5352ea270a16cb452c9e9b576d28e6ce",
+    "last_sha": "c36a88b5ec5b50902a14352c56b49a4ea7facd9c",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -13731,7 +13731,11 @@
       "https://job-boards.greenhouse.io/testnisc/jobs/8174096|National Information Solutions Cooperative|Intern - Software Development|Mandan, ND|Other#1",
       "https://job-boards.greenhouse.io/testnisc/jobs/8174088|National Information Solutions Cooperative|Intern - Software Development|Cedar Rapids, IA|Other#1",
       "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003|MORSE|Python Software Engineer Co-op|Cambridge, MA|Other#1",
-      "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003|MORSE|Full Stack Software Engineer Graduate Co-op|Cambridge, MA|Other#1"
+      "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003|MORSE|Full Stack Software Engineer Graduate Co-op|Cambridge, MA|Other#1",
+      "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003|MORSE|Python Software Engineer Graduate Co-op|Cambridge, MA|Other#1",
+      "https://jobs.lever.co/veeva/4738ae75-9f7b-4082-b129-69fb82f6d7b2|Veeva Systems|Intern Software Engineer - Summer 2027|Boston, MA|Other#1",
+      "https://jobs.lever.co/veeva/f277bc52-1dd6-4447-ac3b-a6127e625ec7|Veeva Systems|Intern Software Engineer - Summer 2027|California, USA|Other#1",
+      "https://job-boards.greenhouse.io/virtu/jobs/8657500002|Virtu Financial|2027 Internship - Frontend Engineer - UI|New York City, NY|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -13876,51 +13880,6 @@
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
     "last_row_count": 732,
-    "outbox": [
-      [
-        [
-          "MORSE",
-          "Python Software Engineer Graduate Co-op",
-          "Cambridge, MA",
-          "Other",
-          "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003"
-        ],
-        "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003|MORSE|Python Software Engineer Graduate Co-op|Cambridge, MA|Other#1",
-        1
-      ],
-      [
-        [
-          "Veeva Systems",
-          "Intern Software Engineer - Summer 2027",
-          "Boston, MA",
-          "Other",
-          "https://jobs.lever.co/veeva/4738ae75-9f7b-4082-b129-69fb82f6d7b2"
-        ],
-        "https://jobs.lever.co/veeva/4738ae75-9f7b-4082-b129-69fb82f6d7b2|Veeva Systems|Intern Software Engineer - Summer 2027|Boston, MA|Other#1",
-        1
-      ],
-      [
-        [
-          "Veeva Systems",
-          "Intern Software Engineer - Summer 2027",
-          "California, USA",
-          "Other",
-          "https://jobs.lever.co/veeva/f277bc52-1dd6-4447-ac3b-a6127e625ec7"
-        ],
-        "https://jobs.lever.co/veeva/f277bc52-1dd6-4447-ac3b-a6127e625ec7|Veeva Systems|Intern Software Engineer - Summer 2027|California, USA|Other#1",
-        1
-      ],
-      [
-        [
-          "Virtu Financial",
-          "2027 Internship - Frontend Engineer - UI",
-          "New York City, NY",
-          "Other",
-          "https://job-boards.greenhouse.io/virtu/jobs/8657500002"
-        ],
-        "https://job-boards.greenhouse.io/virtu/jobs/8657500002|Virtu Financial|2027 Internship - Frontend Engineer - UI|New York City, NY|Other#1",
-        1
-      ]
-    ]
+    "outbox": []
   }
 }

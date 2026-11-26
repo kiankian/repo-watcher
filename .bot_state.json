@@ -168380,6 +168380,54 @@
       "chat_id": 7582459199,
       "seq": 13609,
       "identity": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003|MORSE|Full Stack Software Engineer Graduate Co-op|Cambridge, MA|Other#1"
+    },
+    "bb0c791a826f": {
+      "company": "MORSE",
+      "role": "Python Software Engineer Graduate Co-op",
+      "location": "Cambridge, MA",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 15928,
+      "chat_id": 7582459199,
+      "seq": 13610,
+      "identity": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003|MORSE|Python Software Engineer Graduate Co-op|Cambridge, MA|Other#1"
+    },
+    "e62c2c649375": {
+      "company": "Veeva Systems",
+      "role": "Intern Software Engineer - Summer 2027",
+      "location": "Boston, MA",
+      "term": "Other",
+      "apply_url": "https://jobs.lever.co/veeva/4738ae75-9f7b-4082-b129-69fb82f6d7b2",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 15929,
+      "chat_id": 7582459199,
+      "seq": 13611,
+      "identity": "https://jobs.lever.co/veeva/4738ae75-9f7b-4082-b129-69fb82f6d7b2|Veeva Systems|Intern Software Engineer - Summer 2027|Boston, MA|Other#1"
+    },
+    "9c4e4f83ba46": {
+      "company": "Veeva Systems",
+      "role": "Intern Software Engineer - Summer 2027",
+      "location": "California, USA",
+      "term": "Other",
+      "apply_url": "https://jobs.lever.co/veeva/f277bc52-1dd6-4447-ac3b-a6127e625ec7",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 15930,
+      "chat_id": 7582459199,
+      "seq": 13612,
+      "identity": "https://jobs.lever.co/veeva/f277bc52-1dd6-4447-ac3b-a6127e625ec7|Veeva Systems|Intern Software Engineer - Summer 2027|California, USA|Other#1"
+    },
+    "d5997e6582b5": {
+      "company": "Virtu Financial",
+      "role": "2027 Internship - Frontend Engineer - UI",
+      "location": "New York City, NY",
+      "term": "Other",
+      "apply_url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 15931,
+      "chat_id": 7582459199,
+      "seq": 13613,
+      "identity": "https://job-boards.greenhouse.io/virtu/jobs/8657500002|Virtu Financial|2027 Internship - Frontend Engineer - UI|New York City, NY|Other#1"
     }
   },
   "applied": {
@@ -168747,10 +168795,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13609,
+  "seq": 13613,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-26T21:25:52Z",
+    "last_ok_run": "2026-11-26T21:30:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
