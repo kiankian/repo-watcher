@@ -167420,6 +167420,18 @@
       "chat_id": 7582459199,
       "seq": 13529,
       "identity": "NOURL|Blue Cross Blue Shield of Michigan|Object Oriented Programming Intern|Detroit, MI|Nov 19#1"
+    },
+    "06b788270f54": {
+      "company": "Cisco",
+      "role": "AI Cybersecurity Engineer I Intern",
+      "location": "Research Triangle Park, NC",
+      "term": "Nov 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15814,
+      "chat_id": 7582459199,
+      "seq": 13530,
+      "identity": "NOURL|Cisco|AI Cybersecurity Engineer I Intern|Research Triangle Park, NC|Nov 19#1"
     }
   },
   "applied": {
@@ -167787,10 +167799,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13529,
+  "seq": 13530,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-26T07:15:21Z",
+    "last_ok_run": "2026-11-26T07:20:26Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -167798,7 +167810,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-26T05:20:18Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-26T07:20:24Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-26T07:10:19Z"
     }
