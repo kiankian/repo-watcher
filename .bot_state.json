@@ -167084,6 +167084,54 @@
       "chat_id": 7582459199,
       "seq": 13501,
       "identity": "NOURL|Altera|AI Software Development Engineer Intern|Toronto, Canada|Nov 24#1"
+    },
+    "3ffb3c0816cc": {
+      "company": "Total Quality Logistics",
+      "role": "Software Development Intern",
+      "location": "Cincinnati, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://tql.avature.net/en_US/TQLexternalcareers/JobDetail/19763?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15766,
+      "chat_id": 7582459199,
+      "seq": 13502,
+      "identity": "https://tql.avature.net/en_US/TQLexternalcareers/JobDetail/19763?utm_source=Simplify&ref=Simplify|Total Quality Logistics|Software Development Intern|Cincinnati, OH|Summer 2026#1"
+    },
+    "ffd392573567": {
+      "company": "Veeva Systems",
+      "role": "Software Engineer Intern",
+      "location": "Pleasanton, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/veeva/f277bc52-1dd6-4447-ac3b-a6127e625ec7/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15767,
+      "chat_id": 7582459199,
+      "seq": 13503,
+      "identity": "https://jobs.lever.co/veeva/f277bc52-1dd6-4447-ac3b-a6127e625ec7/apply?utm_source=Simplify&ref=Simplify|Veeva Systems|Software Engineer Intern|Pleasanton, CA|Summer 2026#1"
+    },
+    "1936f811deaf": {
+      "company": "Veeva Systems",
+      "role": "Software Engineer Intern",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.lever.co/veeva/4738ae75-9f7b-4082-b129-69fb82f6d7b2/apply?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15768,
+      "chat_id": 7582459199,
+      "seq": 13504,
+      "identity": "https://jobs.lever.co/veeva/4738ae75-9f7b-4082-b129-69fb82f6d7b2/apply?utm_source=Simplify&ref=Simplify|Veeva Systems|Software Engineer Intern|Boston, MA|Summer 2026#1"
+    },
+    "3b2b95934344": {
+      "company": "Apex",
+      "role": "Software Engineering Operating Systems Intern",
+      "location": "LA",
+      "term": "Summer 2026",
+      "apply_url": "https://jobs.ashbyhq.com/apex-technology-inc/3ce65300-2818-4601-9ee4-34a3c012d915/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15769,
+      "chat_id": 7582459199,
+      "seq": 13505,
+      "identity": "https://jobs.ashbyhq.com/apex-technology-inc/3ce65300-2818-4601-9ee4-34a3c012d915/application?embed=true&utm_source=Simplify&ref=Simplify|Apex|Software Engineering Operating Systems Intern|LA|Summer 2026#1"
     }
   },
   "applied": {
@@ -167451,10 +167499,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13501,
+  "seq": 13505,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-26T00:00:27Z",
+    "last_ok_run": "2026-11-26T00:05:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
