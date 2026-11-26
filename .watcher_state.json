@@ -8189,7 +8189,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "002a459d9c9b97e5dca792613a701d415c9141b7",
+    "last_sha": "c874f3ca5352ea270a16cb452c9e9b576d28e6ce",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -13706,7 +13706,32 @@
       "https://jobs.ashbyhq.com/apex-technology-inc/2268adcb-a0f6-4e12-a206-8f99e048486d|Apex Technology|Software Engineer - Test Automation Internship - Summer 2027|Los Angeles, CA|Other#1",
       "https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ233023|GDIT|GDIT Summer Internship Program - Summer 2027 AI/ML Software Development and Engineering Internship|Bossier City, LA|Other#1",
       "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California-United-States-of-America/Firmware-Engineering-Intern_1214254|Hewlett Packard Enterprise|Firmware Engineering Security Intern|Sunnyvale, CA|Other#1",
-      "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Cloud-Security-Engagement-Intern_1216079|Hewlett Packard Enterprise|Cloud Security Engagement Intern|Spring, TX|Other#1"
+      "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Cloud-Security-Engagement-Intern_1216079|Hewlett Packard Enterprise|Cloud Security Engagement Intern|Spring, TX|Other#1",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Salt-Lake-City-UT-UT17/Software-Engineering-Intern---2027-Internship-Program_R70950|Motorola Solutions|Software Engineering Intern - 2027 Internship Program|Salt Lake City, UT|Other#1",
+      "https://careers-qinetiqus.icims.com/jobs/12880/software-engineer-intern/job|QinetiQ|Software Engineer Intern|Fort Belvoir, VA|Other#1",
+      "https://careers-qinetiqus.icims.com/jobs/12880/software-engineer-intern/job|QinetiQ|Software Engineer Intern|Fort Belvoir, VA|Other#2",
+      "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ382100|T-Mobile|Summer 2027 Software Engineering Internship|Bellevue, WA|Other#1",
+      "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ382091|T-Mobile|Summer 2027 Software Engineering Internship|Bellevue, WA|Other#1",
+      "https://jobs.dayforcehcm.com/en-US/yss/candidateportal/jobs/4902|York Space Systems|Ground Software Engineering Intern|Greenwood Village, CO|Other#1",
+      "https://www.keenfootwear.com/careers-list.html?4750548005&gh_jid=4750548005|KEEN Footwear|Associate Footwear Developer Intern|Portland, OR|Other#1",
+      "https://www.keenfootwear.com/careers-list.html?4749923005&gh_jid=4749923005|KEEN Footwear|Junior Material Developer Intern|Portland, OR|Other#1",
+      "https://job-boards.greenhouse.io/gardacp/jobs/6238021004|Garda Capital Partners|Software Engineer Intern - C#|Wayzata, MN|Other#1",
+      "https://job-boards.greenhouse.io/inversionspace/jobs/4745083005|Inversion Space|Vehicle Software Engineer - Summer Internship 2027|California, MD|Other#1",
+      "https://job-boards.greenhouse.io/inversionspace/jobs/4745076005|Inversion Space|AI & Internal Tools Software Engineer - Summer Internship 2027|California, MD|Other#1",
+      "https://job-boards.greenhouse.io/inversionspace/jobs/4744391005|Inversion Space|Avionics Embedded Software Engineer - Summer Internship 2027|California, MD|Other#1",
+      "https://job-boards.greenhouse.io/sigmacomputing/jobs/8001295003|Sigma Computing|Software Engineering Intern - Summer 2027|New York City, NY|Other#1",
+      "https://job-boards.greenhouse.io/relaypro/jobs/8180836|Relay|Software Engineering Intern - Device Team - Summer 2027|Raleigh, NC|Other#1",
+      "https://job-boards.greenhouse.io/singlestore/jobs/8205514|SingleStore|Software Engineer Intern- Helios- 2027|USA|Other#1",
+      "https://job-boards.greenhouse.io/singlestore/jobs/8154399|SingleStore|Software Engineer Intern- Engine-2027|USA|Other#1",
+      "https://job-boards.greenhouse.io/dominodatalab/jobs/7992560|Domino Data Lab|Software Engineer - Intern - Campus Recruiting 2027|New York City, NY|Other#1",
+      "https://jobs.ashbyhq.com/hadrian-automation/2b0423c6-947d-4226-8d23-90743bd5e63e|Hadrian|Software Engineer Intern|Torrance, CA +1|Other#1",
+      "https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7|Hermeus|Flight Software & GNC Intern - Summer 2027|Atlanta, GA|Other#1",
+      "https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796|Hermeus|Software Engineering Intern - Command & Control - Summer 2027|Atlanta, GA|Other#1",
+      "https://job-boards.greenhouse.io/testnisc/jobs/8174090|National Information Solutions Cooperative|Intern - Software Development|Lake Saint Louis, MO|Other#1",
+      "https://job-boards.greenhouse.io/testnisc/jobs/8174096|National Information Solutions Cooperative|Intern - Software Development|Mandan, ND|Other#1",
+      "https://job-boards.greenhouse.io/testnisc/jobs/8174088|National Information Solutions Cooperative|Intern - Software Development|Cedar Rapids, IA|Other#1",
+      "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003|MORSE|Python Software Engineer Co-op|Cambridge, MA|Other#1",
+      "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003|MORSE|Full Stack Software Engineer Graduate Co-op|Cambridge, MA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -13852,281 +13877,6 @@
     ],
     "last_row_count": 732,
     "outbox": [
-      [
-        [
-          "Motorola Solutions",
-          "Software Engineering Intern - 2027 Internship Program",
-          "Salt Lake City, UT",
-          "Other",
-          "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Salt-Lake-City-UT-UT17/Software-Engineering-Intern---2027-Internship-Program_R70950"
-        ],
-        "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Salt-Lake-City-UT-UT17/Software-Engineering-Intern---2027-Internship-Program_R70950|Motorola Solutions|Software Engineering Intern - 2027 Internship Program|Salt Lake City, UT|Other#1",
-        1
-      ],
-      [
-        [
-          "QinetiQ",
-          "Software Engineer Intern",
-          "Fort Belvoir, VA",
-          "Other",
-          "https://careers-qinetiqus.icims.com/jobs/12880/software-engineer-intern/job"
-        ],
-        "https://careers-qinetiqus.icims.com/jobs/12880/software-engineer-intern/job|QinetiQ|Software Engineer Intern|Fort Belvoir, VA|Other#1",
-        1
-      ],
-      [
-        [
-          "QinetiQ",
-          "Software Engineer Intern",
-          "Fort Belvoir, VA",
-          "Other",
-          "https://careers-qinetiqus.icims.com/jobs/12880/software-engineer-intern/job"
-        ],
-        "https://careers-qinetiqus.icims.com/jobs/12880/software-engineer-intern/job|QinetiQ|Software Engineer Intern|Fort Belvoir, VA|Other#2",
-        2
-      ],
-      [
-        [
-          "T-Mobile",
-          "Summer 2027 Software Engineering Internship",
-          "Bellevue, WA",
-          "Other",
-          "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ382100"
-        ],
-        "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ382100|T-Mobile|Summer 2027 Software Engineering Internship|Bellevue, WA|Other#1",
-        1
-      ],
-      [
-        [
-          "T-Mobile",
-          "Summer 2027 Software Engineering Internship",
-          "Bellevue, WA",
-          "Other",
-          "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ382091"
-        ],
-        "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ382091|T-Mobile|Summer 2027 Software Engineering Internship|Bellevue, WA|Other#1",
-        1
-      ],
-      [
-        [
-          "York Space Systems",
-          "Ground Software Engineering Intern",
-          "Greenwood Village, CO",
-          "Other",
-          "https://jobs.dayforcehcm.com/en-US/yss/candidateportal/jobs/4902"
-        ],
-        "https://jobs.dayforcehcm.com/en-US/yss/candidateportal/jobs/4902|York Space Systems|Ground Software Engineering Intern|Greenwood Village, CO|Other#1",
-        1
-      ],
-      [
-        [
-          "KEEN Footwear",
-          "Associate Footwear Developer Intern",
-          "Portland, OR",
-          "Other",
-          "https://www.keenfootwear.com/careers-list.html?4750548005&gh_jid=4750548005"
-        ],
-        "https://www.keenfootwear.com/careers-list.html?4750548005&gh_jid=4750548005|KEEN Footwear|Associate Footwear Developer Intern|Portland, OR|Other#1",
-        1
-      ],
-      [
-        [
-          "KEEN Footwear",
-          "Junior Material Developer Intern",
-          "Portland, OR",
-          "Other",
-          "https://www.keenfootwear.com/careers-list.html?4749923005&gh_jid=4749923005"
-        ],
-        "https://www.keenfootwear.com/careers-list.html?4749923005&gh_jid=4749923005|KEEN Footwear|Junior Material Developer Intern|Portland, OR|Other#1",
-        1
-      ],
-      [
-        [
-          "Garda Capital Partners",
-          "Software Engineer Intern - C#",
-          "Wayzata, MN",
-          "Other",
-          "https://job-boards.greenhouse.io/gardacp/jobs/6238021004"
-        ],
-        "https://job-boards.greenhouse.io/gardacp/jobs/6238021004|Garda Capital Partners|Software Engineer Intern - C#|Wayzata, MN|Other#1",
-        1
-      ],
-      [
-        [
-          "Inversion Space",
-          "Vehicle Software Engineer - Summer Internship 2027",
-          "California, MD",
-          "Other",
-          "https://job-boards.greenhouse.io/inversionspace/jobs/4745083005"
-        ],
-        "https://job-boards.greenhouse.io/inversionspace/jobs/4745083005|Inversion Space|Vehicle Software Engineer - Summer Internship 2027|California, MD|Other#1",
-        1
-      ],
-      [
-        [
-          "Inversion Space",
-          "AI & Internal Tools Software Engineer - Summer Internship 2027",
-          "California, MD",
-          "Other",
-          "https://job-boards.greenhouse.io/inversionspace/jobs/4745076005"
-        ],
-        "https://job-boards.greenhouse.io/inversionspace/jobs/4745076005|Inversion Space|AI & Internal Tools Software Engineer - Summer Internship 2027|California, MD|Other#1",
-        1
-      ],
-      [
-        [
-          "Inversion Space",
-          "Avionics Embedded Software Engineer - Summer Internship 2027",
-          "California, MD",
-          "Other",
-          "https://job-boards.greenhouse.io/inversionspace/jobs/4744391005"
-        ],
-        "https://job-boards.greenhouse.io/inversionspace/jobs/4744391005|Inversion Space|Avionics Embedded Software Engineer - Summer Internship 2027|California, MD|Other#1",
-        1
-      ],
-      [
-        [
-          "Sigma Computing",
-          "Software Engineering Intern - Summer 2027",
-          "New York City, NY",
-          "Other",
-          "https://job-boards.greenhouse.io/sigmacomputing/jobs/8001295003"
-        ],
-        "https://job-boards.greenhouse.io/sigmacomputing/jobs/8001295003|Sigma Computing|Software Engineering Intern - Summer 2027|New York City, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "Relay",
-          "Software Engineering Intern - Device Team - Summer 2027",
-          "Raleigh, NC",
-          "Other",
-          "https://job-boards.greenhouse.io/relaypro/jobs/8180836"
-        ],
-        "https://job-boards.greenhouse.io/relaypro/jobs/8180836|Relay|Software Engineering Intern - Device Team - Summer 2027|Raleigh, NC|Other#1",
-        1
-      ],
-      [
-        [
-          "SingleStore",
-          "Software Engineer Intern- Helios- 2027",
-          "USA",
-          "Other",
-          "https://job-boards.greenhouse.io/singlestore/jobs/8205514"
-        ],
-        "https://job-boards.greenhouse.io/singlestore/jobs/8205514|SingleStore|Software Engineer Intern- Helios- 2027|USA|Other#1",
-        1
-      ],
-      [
-        [
-          "SingleStore",
-          "Software Engineer Intern- Engine-2027",
-          "USA",
-          "Other",
-          "https://job-boards.greenhouse.io/singlestore/jobs/8154399"
-        ],
-        "https://job-boards.greenhouse.io/singlestore/jobs/8154399|SingleStore|Software Engineer Intern- Engine-2027|USA|Other#1",
-        1
-      ],
-      [
-        [
-          "Domino Data Lab",
-          "Software Engineer - Intern - Campus Recruiting 2027",
-          "New York City, NY",
-          "Other",
-          "https://job-boards.greenhouse.io/dominodatalab/jobs/7992560"
-        ],
-        "https://job-boards.greenhouse.io/dominodatalab/jobs/7992560|Domino Data Lab|Software Engineer - Intern - Campus Recruiting 2027|New York City, NY|Other#1",
-        1
-      ],
-      [
-        [
-          "Hadrian",
-          "Software Engineer Intern",
-          "Torrance, CA +1",
-          "Other",
-          "https://jobs.ashbyhq.com/hadrian-automation/2b0423c6-947d-4226-8d23-90743bd5e63e"
-        ],
-        "https://jobs.ashbyhq.com/hadrian-automation/2b0423c6-947d-4226-8d23-90743bd5e63e|Hadrian|Software Engineer Intern|Torrance, CA +1|Other#1",
-        1
-      ],
-      [
-        [
-          "Hermeus",
-          "Flight Software & GNC Intern - Summer 2027",
-          "Atlanta, GA",
-          "Other",
-          "https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7"
-        ],
-        "https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7|Hermeus|Flight Software & GNC Intern - Summer 2027|Atlanta, GA|Other#1",
-        1
-      ],
-      [
-        [
-          "Hermeus",
-          "Software Engineering Intern - Command & Control - Summer 2027",
-          "Atlanta, GA",
-          "Other",
-          "https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796"
-        ],
-        "https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796|Hermeus|Software Engineering Intern - Command & Control - Summer 2027|Atlanta, GA|Other#1",
-        1
-      ],
-      [
-        [
-          "National Information Solutions Cooperative",
-          "Intern - Software Development",
-          "Lake Saint Louis, MO",
-          "Other",
-          "https://job-boards.greenhouse.io/testnisc/jobs/8174090"
-        ],
-        "https://job-boards.greenhouse.io/testnisc/jobs/8174090|National Information Solutions Cooperative|Intern - Software Development|Lake Saint Louis, MO|Other#1",
-        1
-      ],
-      [
-        [
-          "National Information Solutions Cooperative",
-          "Intern - Software Development",
-          "Mandan, ND",
-          "Other",
-          "https://job-boards.greenhouse.io/testnisc/jobs/8174096"
-        ],
-        "https://job-boards.greenhouse.io/testnisc/jobs/8174096|National Information Solutions Cooperative|Intern - Software Development|Mandan, ND|Other#1",
-        1
-      ],
-      [
-        [
-          "National Information Solutions Cooperative",
-          "Intern - Software Development",
-          "Cedar Rapids, IA",
-          "Other",
-          "https://job-boards.greenhouse.io/testnisc/jobs/8174088"
-        ],
-        "https://job-boards.greenhouse.io/testnisc/jobs/8174088|National Information Solutions Cooperative|Intern - Software Development|Cedar Rapids, IA|Other#1",
-        1
-      ],
-      [
-        [
-          "MORSE",
-          "Python Software Engineer Co-op",
-          "Cambridge, MA",
-          "Other",
-          "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003"
-        ],
-        "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968338003|MORSE|Python Software Engineer Co-op|Cambridge, MA|Other#1",
-        1
-      ],
-      [
-        [
-          "MORSE",
-          "Full Stack Software Engineer Graduate Co-op",
-          "Cambridge, MA",
-          "Other",
-          "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003"
-        ],
-        "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003|MORSE|Full Stack Software Engineer Graduate Co-op|Cambridge, MA|Other#1",
-        1
-      ],
       [
         [
           "MORSE",
