@@ -167132,6 +167132,126 @@
       "chat_id": 7582459199,
       "seq": 13505,
       "identity": "https://jobs.ashbyhq.com/apex-technology-inc/3ce65300-2818-4601-9ee4-34a3c012d915/application?embed=true&utm_source=Simplify&ref=Simplify|Apex|Software Engineering Operating Systems Intern|LA|Summer 2026#1"
+    },
+    "109f4aee9d11": {
+      "company": "Veeva Systems",
+      "role": "Software Engineer Intern",
+      "location": "Boston, MA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1JM?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15771,
+      "chat_id": 7582459199,
+      "seq": 13506,
+      "identity": "https://go.vansh.nyc/1JM?s=y|Veeva Systems|Software Engineer Intern|Boston, MA|Nov 25#1"
+    },
+    "1da0cfb7df07": {
+      "company": "Veeva Systems",
+      "role": "Software Engineer Intern",
+      "location": "Pleasanton, CA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1JN?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15772,
+      "chat_id": 7582459199,
+      "seq": 13507,
+      "identity": "https://go.vansh.nyc/1JN?s=y|Veeva Systems|Software Engineer Intern|Pleasanton, CA|Nov 25#1"
+    },
+    "dca647a57750": {
+      "company": "Total Quality Logistics",
+      "role": "Data Science & Analytics Intern",
+      "location": "Cincinnati, OH",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1JP?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15773,
+      "chat_id": 7582459199,
+      "seq": 13508,
+      "identity": "https://go.vansh.nyc/1JP?s=y|Total Quality Logistics|Data Science & Analytics Intern|Cincinnati, OH|Nov 25#1"
+    },
+    "984fd0631968": {
+      "company": "Total Quality Logistics",
+      "role": "Software Development Intern",
+      "location": "Cincinnati, OH",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1JQ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15774,
+      "chat_id": 7582459199,
+      "seq": 13509,
+      "identity": "https://go.vansh.nyc/1JQ?s=y|Total Quality Logistics|Software Development Intern|Cincinnati, OH|Nov 25#1"
+    },
+    "3738a9af3ebd": {
+      "company": "SambaNova",
+      "role": "Post-Silicon Validation Engineer Intern",
+      "location": "Austin, TX San Jose, CA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1JJ?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15775,
+      "chat_id": 7582459199,
+      "seq": 13510,
+      "identity": "https://go.vansh.nyc/1JJ?s=y|SambaNova|Post-Silicon Validation Engineer Intern|Austin, TX San Jose, CA|Nov 25#1"
+    },
+    "040884d1587c": {
+      "company": "SambaNova",
+      "role": "Physical Design Engineer Intern",
+      "location": "Austin, TX San Jose, CA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1JK?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15776,
+      "chat_id": 7582459199,
+      "seq": 13511,
+      "identity": "https://go.vansh.nyc/1JK?s=y|SambaNova|Physical Design Engineer Intern|Austin, TX San Jose, CA|Nov 25#1"
+    },
+    "70f96c6db4d8": {
+      "company": "SambaNova",
+      "role": "DFT Engineer Intern",
+      "location": "Austin, TX San Jose, CA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1JL?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15777,
+      "chat_id": 7582459199,
+      "seq": 13512,
+      "identity": "https://go.vansh.nyc/1JL?s=y|SambaNova|DFT Engineer Intern|Austin, TX San Jose, CA|Nov 25#1"
+    },
+    "851cd79a2b93": {
+      "company": "Digital Control",
+      "role": "Software Engineer Intern",
+      "location": "Kent, WA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1JO?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15778,
+      "chat_id": 7582459199,
+      "seq": 13513,
+      "identity": "https://go.vansh.nyc/1JO?s=y|Digital Control|Software Engineer Intern|Kent, WA|Nov 25#1"
+    },
+    "f5ae547fad5a": {
+      "company": "WEP Clinical",
+      "role": "IT Intern, AI & Transformation",
+      "location": "Morrisville, NC",
+      "term": "Nov 10",
+      "apply_url": "https://go.vansh.nyc/1JR?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15779,
+      "chat_id": 7582459199,
+      "seq": 13514,
+      "identity": "https://go.vansh.nyc/1JR?s=y|WEP Clinical|IT Intern, AI & Transformation|Morrisville, NC|Nov 10#1"
+    },
+    "8b0242ad23ca": {
+      "company": "Jabil",
+      "role": "Software Engineering Intern",
+      "location": "Austin, TX",
+      "term": "Nov 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15780,
+      "chat_id": 7582459199,
+      "seq": 13515,
+      "identity": "NOURL|Jabil|Software Engineering Intern|Austin, TX|Nov 20#1"
     }
   },
   "applied": {
@@ -167499,10 +167619,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13505,
+  "seq": 13515,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-26T00:15:17Z",
+    "last_ok_run": "2026-11-26T00:20:34Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -167510,7 +167630,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-25T23:25:24Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-26T00:20:32Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-26T00:10:18Z"
     }
