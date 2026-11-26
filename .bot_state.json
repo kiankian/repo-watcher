@@ -167312,6 +167312,18 @@
       "chat_id": 7582459199,
       "seq": 13520,
       "identity": "https://boards.greenhouse.io/opensesame/jobs/8418272?utm_source=Simplify&ref=Simplify|OpenSesame|Software Engineer Intern|Remote in USA|Summer 2026#1"
+    },
+    "10a96cdb69b5": {
+      "company": "Lyte",
+      "role": "Intern - Software Engineering",
+      "location": "Sunnyvale, CA",
+      "term": "Summer 2027",
+      "apply_url": "https://zapply.jobs/l/d/rippling-lyte-13e9e743-b6bd-4e76-a4ce-27d4dc61c73e?s=gh-internships-2027",
+      "source": "Zapply Summer Repo",
+      "message_id": 15793,
+      "chat_id": 7582459199,
+      "seq": 13521,
+      "identity": "https://zapply.jobs/l/d/rippling-lyte-13e9e743-b6bd-4e76-a4ce-27d4dc61c73e?s=gh-internships-2027|Lyte|Intern - Software Engineering|Sunnyvale, CA|Summer 2027#1"
     }
   },
   "applied": {
@@ -167679,10 +167691,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13520,
+  "seq": 13521,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-26T02:35:18Z",
+    "last_ok_run": "2026-11-26T02:40:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
