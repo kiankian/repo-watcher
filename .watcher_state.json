@@ -3181,10 +3181,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "4e480d52dbba0cd4275f5cd4eccc87c2223c2007",
+    "last_sha": "4091c982abdf376d83d9b43b89dabf648164e7e6",
     "seen": [
-      "https://go.vansh.nyc/eP|InfiniteQuant|Quantitative Researcher Intern|New York, NY|Oct 22#1",
-      "https://go.vansh.nyc/ex|Hitachi|Test Engineering Intern|Norman, OK|Oct 22#1",
       "https://go.vansh.nyc/hl|GlobalFoundries|Tapeout Engineer Intern, Tapeout Operations|Essex Junction, VT|Oct 22#1",
       "https://go.vansh.nyc/hm|GlobalFoundries|CPU IP Design & Verification Intern, RISC-V Processor Development|Austin, TX Santa Clara, CA|Oct 22#1",
       "https://go.vansh.nyc/eO|General Dynamics Mission Systems|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Scottsdale, AZ|Oct 22#1",
@@ -8182,10 +8180,12 @@
       "NOURL|Cisco|AI Cybersecurity Engineer I Intern|Research Triangle Park, NC|Nov 19#1",
       "NOURL|Intel|Design Verification Intern|**4 locations**Fort Collins, CO Hillsboro, OR Santa Clara, CA Austin, TX|Nov 24#1",
       "https://go.vansh.nyc/1Ke?s=y|Lockheed Martin|FPGA Engineer Intern, Security Focus \ud83c\uddfa\ud83c\uddf8|Owego, NY|Nov 25#1",
-      "NOURL|Aerospace Corporation|Embedded Software Engineering Undergrad Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Nov 24#1"
+      "NOURL|Aerospace Corporation|Embedded Software Engineering Undergrad Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Nov 24#1",
+      "https://go.vansh.nyc/1Kf?s=y|NinjaHoldings|Data Science Intern \ud83d\udec2|Chicago, IL|Nov 19#1",
+      "https://go.vansh.nyc/1Kg?s=y|NinjaHoldings|Software Engineer Intern \ud83d\udec2|Chicago, IL|Nov 19#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3355,
+    "last_row_count": 3357,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {

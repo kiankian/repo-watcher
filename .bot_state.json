@@ -167504,6 +167504,30 @@
       "chat_id": 7582459199,
       "seq": 13536,
       "identity": "NOURL|Aerospace Corporation|Embedded Software Engineering Undergrad Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Nov 24#1"
+    },
+    "007117014b97": {
+      "company": "NinjaHoldings",
+      "role": "Data Science Intern \ud83d\udec2",
+      "location": "Chicago, IL",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Kf?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15840,
+      "chat_id": 7582459199,
+      "seq": 13537,
+      "identity": "https://go.vansh.nyc/1Kf?s=y|NinjaHoldings|Data Science Intern \ud83d\udec2|Chicago, IL|Nov 19#1"
+    },
+    "bcb37943d51e": {
+      "company": "NinjaHoldings",
+      "role": "Software Engineer Intern \ud83d\udec2",
+      "location": "Chicago, IL",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Kg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15841,
+      "chat_id": 7582459199,
+      "seq": 13538,
+      "identity": "https://go.vansh.nyc/1Kg?s=y|NinjaHoldings|Software Engineer Intern \ud83d\udec2|Chicago, IL|Nov 19#1"
     }
   },
   "applied": {
@@ -167871,10 +167895,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13536,
+  "seq": 13538,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-26T15:15:18Z",
+    "last_ok_run": "2026-11-26T15:20:21Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -167882,7 +167906,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-26T13:55:16Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-26T15:20:19Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-26T15:15:17Z"
     }
