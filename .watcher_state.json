@@ -3179,10 +3179,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "04633c1325021000fafddfee5ad0dbb3a4f64288",
+    "last_sha": "c912e25707d298a5e13898994dca2e498352a298",
     "seen": [
-      "https://go.vansh.nyc/fx|OpenSesame|AI Product Builder Intern|Remote United States|Oct 22#1",
-      "https://go.vansh.nyc/eD|Nissan|Cyber Security Intern|Smyrna, TN|Oct 22#1",
       "https://go.vansh.nyc/gU|MITRE|Autonomous Systems Intern|McLean, VA|Oct 22#1",
       "https://go.vansh.nyc/eB|Microsoft|Security Research Intern|Redmond, WA|Oct 22#1",
       "https://go.vansh.nyc/fC|Man Group|Systematic Quant Intern|Boston, MA|Oct 22#1",
@@ -8180,10 +8178,12 @@
       "https://go.vansh.nyc/1JL?s=y|SambaNova|DFT Engineer Intern|Austin, TX San Jose, CA|Nov 25#1",
       "https://go.vansh.nyc/1JO?s=y|Digital Control|Software Engineer Intern|Kent, WA|Nov 25#1",
       "https://go.vansh.nyc/1JR?s=y|WEP Clinical|IT Intern, AI & Transformation|Morrisville, NC|Nov 10#1",
-      "NOURL|Jabil|Software Engineering Intern|Austin, TX|Nov 20#1"
+      "NOURL|Jabil|Software Engineering Intern|Austin, TX|Nov 20#1",
+      "https://go.vansh.nyc/1JY?s=y|QuEra Computing|Technical Product Management Intern|Boston, MA|Nov 25#1",
+      "https://go.vansh.nyc/1K0?s=y|Digital Control|Software Engineering Intern|Kent, WA|Nov 25#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3345,
+    "last_row_count": 3347,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
