@@ -167300,6 +167300,18 @@
       "chat_id": 7582459199,
       "seq": 13519,
       "identity": "https://go.vansh.nyc/1K2?s=y|Cantor Fitzgerald|Technology Infrastructure & Automation Intern|New York, NY|Nov 24#1"
+    },
+    "953e27569ef9": {
+      "company": "OpenSesame",
+      "role": "Software Engineer Intern",
+      "location": "Remote in USA",
+      "term": "Summer 2026",
+      "apply_url": "https://boards.greenhouse.io/opensesame/jobs/8418272?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15792,
+      "chat_id": 7582459199,
+      "seq": 13520,
+      "identity": "https://boards.greenhouse.io/opensesame/jobs/8418272?utm_source=Simplify&ref=Simplify|OpenSesame|Software Engineer Intern|Remote in USA|Summer 2026#1"
     }
   },
   "applied": {
@@ -167667,10 +167679,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13519,
+  "seq": 13520,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-26T02:30:25Z",
+    "last_ok_run": "2026-11-26T02:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
