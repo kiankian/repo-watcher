@@ -167492,6 +167492,18 @@
       "chat_id": 7582459199,
       "seq": 13535,
       "identity": "https://go.vansh.nyc/1Ke?s=y|Lockheed Martin|FPGA Engineer Intern, Security Focus \ud83c\uddfa\ud83c\uddf8|Owego, NY|Nov 25#1"
+    },
+    "4ce4df3bfc59": {
+      "company": "Aerospace Corporation",
+      "role": "Embedded Software Engineering Undergrad Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "El Segundo, CA",
+      "term": "Nov 24",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15835,
+      "chat_id": 7582459199,
+      "seq": 13536,
+      "identity": "NOURL|Aerospace Corporation|Embedded Software Engineering Undergrad Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA|Nov 24#1"
     }
   },
   "applied": {
@@ -167859,10 +167871,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13535,
+  "seq": 13536,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-26T13:50:19Z",
+    "last_ok_run": "2026-11-26T13:55:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -167870,7 +167882,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-26T13:20:18Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-26T13:55:16Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-26T13:40:19Z"
     }
