@@ -167552,6 +167552,66 @@
       "chat_id": 7582459199,
       "seq": 13540,
       "identity": "NOURL|Johns Hopkins Applied Physics Laboratory|Artificial Intelligence and Complex Systems Intern|Laurel, MD|Nov 24#1"
+    },
+    "2cd09a457ffd": {
+      "company": "BEUMERGroup1",
+      "role": "AI Development Intern",
+      "location": "Somerset, NJ",
+      "term": "Nov 24",
+      "apply_url": "https://go.vansh.nyc/1Kn?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15854,
+      "chat_id": 7582459199,
+      "seq": 13541,
+      "identity": "https://go.vansh.nyc/1Kn?s=y|BEUMERGroup1|AI Development Intern|Somerset, NJ|Nov 24#1"
+    },
+    "81576e720733": {
+      "company": "ViaSat",
+      "role": "Embedded Software Engineer Intern, Government \ud83c\uddfa\ud83c\uddf8",
+      "location": "Tempe, AZ",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Kl?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15855,
+      "chat_id": 7582459199,
+      "seq": 13542,
+      "identity": "https://go.vansh.nyc/1Kl?s=y|ViaSat|Embedded Software Engineer Intern, Government \ud83c\uddfa\ud83c\uddf8|Tempe, AZ|Nov 23#1"
+    },
+    "60d50f5c4c3f": {
+      "company": "Toshiba America Electronic Components",
+      "role": "Firmware Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Kk?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15856,
+      "chat_id": 7582459199,
+      "seq": 13543,
+      "identity": "https://go.vansh.nyc/1Kk?s=y|Toshiba America Electronic Components|Firmware Engineer Intern|San Jose, CA|Nov 23#1"
+    },
+    "0496140e1c4f": {
+      "company": "Swiss Re",
+      "role": "Client Data Management Intern",
+      "location": "United States",
+      "term": "Nov 23",
+      "apply_url": "https://go.vansh.nyc/1Kj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15857,
+      "chat_id": 7582459199,
+      "seq": 13544,
+      "identity": "https://go.vansh.nyc/1Kj?s=y|Swiss Re|Client Data Management Intern|United States|Nov 23#1"
+    },
+    "e2cea6de7c18": {
+      "company": "Lockheed Martin",
+      "role": "Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Fort Worth, TX",
+      "term": "Nov 22",
+      "apply_url": "https://go.vansh.nyc/1Ki?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 15858,
+      "chat_id": 7582459199,
+      "seq": 13545,
+      "identity": "https://go.vansh.nyc/1Ki?s=y|Lockheed Martin|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fort Worth, TX|Nov 22#1"
     }
   },
   "applied": {
@@ -167919,10 +167979,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13540,
+  "seq": 13545,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-26T19:45:20Z",
+    "last_ok_run": "2026-11-26T19:50:25Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -167930,7 +167990,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-26T17:50:18Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-26T19:50:24Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-26T19:45:19Z"
     }
