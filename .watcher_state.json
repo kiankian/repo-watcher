@@ -3181,18 +3181,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "d5bf475b8a1bcc53824c751c7fac7a46a257f492",
+    "last_sha": "126b8ac0c9b5bebfb0fae7ae0f8cb7f183b376cb",
     "seen": [
-      "https://go.vansh.nyc/hr|Citi|Technology Analyst Intern, Application Development|Irving, TX|Oct 22#1",
-      "https://go.vansh.nyc/hs|Citi|Technology Analyst Intern, Production Support|Tampa, FL|Oct 22#1",
-      "https://go.vansh.nyc/ht|Citi|Technology Analyst Intern, Application Development|Jacksonville, FL|Oct 22#1",
-      "https://go.vansh.nyc/hu|Citi|Technology Analyst Intern, Application Development|Mississauga, Canada|Oct 22#1",
-      "https://go.vansh.nyc/hv|Citi|Technology Analyst Intern, Application Development|Jersey City, NJ New York, NY|Oct 22#1",
-      "https://go.vansh.nyc/hx|Carrier Global|Software Engineer Intern|East Syracuse, NY|Oct 22#1",
-      "https://go.vansh.nyc/gV|C.H. Robinson|Cyber Security Intern|Eden Prairie, MN|Oct 22#1",
-      "https://go.vansh.nyc/hZ|Aptiv|Cloud Software Engineer Intern|Kanata, Canada Ottawa, Canada|Oct 22#1",
-      "https://go.vansh.nyc/i0|Aptiv|Engineering Intern|Kanata, Canada Ottawa, Canada|Oct 22#1",
-      "https://go.vansh.nyc/eM|Aptiv|Linux Engineering Intern|Kanata, Canada|Oct 22#1",
       "https://go.vansh.nyc/eN|Aptiv|Linux Intern|Kanata, Canada|Oct 22#1",
       "https://go.vansh.nyc/hn|American Family Insurance Group|AI Platform Engineering Intern|Madison, WI|Oct 22#1",
       "https://go.vansh.nyc/hR|Amazon|Software Development Engineer Intern, Amazon Leo \ud83c\uddfa\ud83c\uddf8|Redmond, WA|Oct 22#1",
@@ -8182,14 +8172,24 @@
       "https://go.vansh.nyc/1Kl?s=y|ViaSat|Embedded Software Engineer Intern, Government \ud83c\uddfa\ud83c\uddf8|Tempe, AZ|Nov 23#1",
       "https://go.vansh.nyc/1Kk?s=y|Toshiba America Electronic Components|Firmware Engineer Intern|San Jose, CA|Nov 23#1",
       "https://go.vansh.nyc/1Kj?s=y|Swiss Re|Client Data Management Intern|United States|Nov 23#1",
-      "https://go.vansh.nyc/1Ki?s=y|Lockheed Martin|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fort Worth, TX|Nov 22#1"
+      "https://go.vansh.nyc/1Ki?s=y|Lockheed Martin|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Fort Worth, TX|Nov 22#1",
+      "https://go.vansh.nyc/1KB?s=y|NHA|IT Security Intern|Grand Rapids, MI|Nov 25#1",
+      "https://go.vansh.nyc/1Kz?s=y|Medpace|Clinical Intelligence Intern|Cincinnati, OH|Nov 25#1",
+      "https://go.vansh.nyc/1KE?s=y|HII|DevOps Engineer Intern \ud83c\uddfa\ud83c\uddf8|Columbia, MD|Nov 25#1",
+      "https://go.vansh.nyc/1KD?s=y|Capital Blue Cross|Cybersecurity Intern|Harrisburg, PA|Nov 25#1",
+      "https://go.vansh.nyc/1KA?s=y|Aptima Inc. (All Jobs)|AI Engineer Intern|Woburn, MA|Nov 25#1",
+      "https://go.vansh.nyc/1Kx?s=y|Roto|Creative Developer Intern|Dublin, OH|Nov 24#1",
+      "https://go.vansh.nyc/1Ky?s=y|Illinois Policy|Analytics Intern|Chicago, IL|Nov 24#1",
+      "https://go.vansh.nyc/1Ku?s=y|Capital Blue Cross|Data Science, Analytics & AI Intern|Harrisburg, PA|Nov 24#1",
+      "https://go.vansh.nyc/1Kv?s=y|Capital Blue Cross|Data Engineering Intern|Harrisburg, PA|Nov 24#1",
+      "https://go.vansh.nyc/1Kw?s=y|Capital Blue Cross|IT Business Engineering Intern|Harrisburg, PA|Nov 24#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3362,
+    "last_row_count": 3372,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "0e7918a5469b283801847d52263d145b2459c304",
+    "last_sha": "2a1f1853be386e9bb96674ef0f0544c8139c485f",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
