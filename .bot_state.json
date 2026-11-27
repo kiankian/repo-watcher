@@ -169544,6 +169544,78 @@
       "chat_id": 7582459199,
       "seq": 13706,
       "identity": "NOURL|ASML|Frontend Developer Intern|San Jose, CA|Oct 27#1"
+    },
+    "d0e521b98fab": {
+      "company": "KLA",
+      "role": "Software Engineer Intern",
+      "location": "Totowa, NJ",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16069,
+      "chat_id": 7582459199,
+      "seq": 13707,
+      "identity": "NOURL|KLA|Software Engineer Intern|Totowa, NJ|Nov 01#1"
+    },
+    "a9fcb45d413d": {
+      "company": "Midland States Bank",
+      "role": "Security Analyst Intern",
+      "location": "St. Louis, MO",
+      "term": "Oct 30",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16070,
+      "chat_id": 7582459199,
+      "seq": 13708,
+      "identity": "NOURL|Midland States Bank|Security Analyst Intern|St. Louis, MO|Oct 30#1"
+    },
+    "c4c957ae252d": {
+      "company": "National Interstate Insurance",
+      "role": "DevOps Developer Intern",
+      "location": "Cincinnati, OH",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16071,
+      "chat_id": 7582459199,
+      "seq": 13709,
+      "identity": "NOURL|National Interstate Insurance|DevOps Developer Intern|Cincinnati, OH|Oct 29#1"
+    },
+    "391dcdd16795": {
+      "company": "KLA",
+      "role": "Software Intern",
+      "location": "Milpitas, CA",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16072,
+      "chat_id": 7582459199,
+      "seq": 13710,
+      "identity": "NOURL|KLA|Software Intern|Milpitas, CA|Oct 28#1"
+    },
+    "dff2cf3ad88b": {
+      "company": "Altera",
+      "role": "Software Engineer Intern, Factory Apps",
+      "location": "Toronto, Canada",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16073,
+      "chat_id": 7582459199,
+      "seq": 13711,
+      "identity": "NOURL|Altera|Software Engineer Intern, Factory Apps|Toronto, Canada|Oct 28#1"
+    },
+    "5e49b965d36c": {
+      "company": "The Toro Company",
+      "role": "Cloud Software Development Intern \ud83d\udec2",
+      "location": "Frederick, CO",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16074,
+      "chat_id": 7582459199,
+      "seq": 13712,
+      "identity": "NOURL|The Toro Company|Cloud Software Development Intern \ud83d\udec2|Frederick, CO|Oct 19#1"
     }
   },
   "applied": {
@@ -169911,10 +169983,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13706,
+  "seq": 13712,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-27T13:20:20Z",
+    "last_ok_run": "2026-11-27T13:25:30Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -169922,7 +169994,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T12:25:36Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T13:25:27Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-27T13:15:19Z"
     }
