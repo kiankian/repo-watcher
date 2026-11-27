@@ -169736,6 +169736,54 @@
       "chat_id": 7582459199,
       "seq": 13722,
       "identity": "NOURL|TikTok|Machine Learning Engineer Intern, TikTok-Data-Search-Local Service \ud83d\udec2|San Jose, CA|Nov 01#1"
+    },
+    "9f15a112be3a": {
+      "company": "Richmond National",
+      "role": "Cyber Security Intern",
+      "location": "Glen Allen, VA",
+      "term": "Nov 26",
+      "apply_url": "https://go.vansh.nyc/1Lu?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 16103,
+      "chat_id": 7582459199,
+      "seq": 13723,
+      "identity": "https://go.vansh.nyc/1Lu?s=y|Richmond National|Cyber Security Intern|Glen Allen, VA|Nov 26#1"
+    },
+    "64d610c08c3e": {
+      "company": "German American Bank",
+      "role": "Information Security Intern",
+      "location": "Jasper, IN Evansville, IN",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Ls?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 16104,
+      "chat_id": 7582459199,
+      "seq": 13724,
+      "identity": "https://go.vansh.nyc/1Ls?s=y|German American Bank|Information Security Intern|Jasper, IN Evansville, IN|Nov 19#1"
+    },
+    "7a2dd3091893": {
+      "company": "German American Bank",
+      "role": "Information Security Intern",
+      "location": "Whitehall, OH",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Lt?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 16105,
+      "chat_id": 7582459199,
+      "seq": 13725,
+      "identity": "https://go.vansh.nyc/1Lt?s=y|German American Bank|Information Security Intern|Whitehall, OH|Nov 19#1"
+    },
+    "3cab92af2e3c": {
+      "company": "NBCUniversal",
+      "role": "Technology Intern, NBC News Group",
+      "location": "New York, NY",
+      "term": "Nov 08",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16106,
+      "chat_id": 7582459199,
+      "seq": 13726,
+      "identity": "NOURL|NBCUniversal|Technology Intern, NBC News Group|New York, NY|Nov 08#1"
     }
   },
   "applied": {
@@ -170103,10 +170151,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13722,
+  "seq": 13726,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-27T20:50:19Z",
+    "last_ok_run": "2026-11-27T20:55:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -170114,9 +170162,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T20:25:17Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T20:55:27Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-27T20:25:18Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-27T20:55:28Z"
     }
   }
 }

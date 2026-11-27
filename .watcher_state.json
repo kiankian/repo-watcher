@@ -3184,12 +3184,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "3401e6f78de0fd172d17553a80aef66c2b2681f7",
+    "last_sha": "f0474bb00ef5b87b8af922ed1ecdcea84ccad9a5",
     "seen": [
-      "https://go.vansh.nyc/cV|Humble Robotics|Embedded Software Engineer Intern|San Francisco, CA|Oct 20#1",
-      "https://go.vansh.nyc/eg|Hewlett Packard Enterprise|Software Development Intern, AI-Assisted Development|Saint-Laurent, Montreal, QC, Canada|Oct 20#1",
-      "https://go.vansh.nyc/dN|GlobalFoundries|AI Software Intern|Santa Clara, CA Richardson, TX|Oct 20#1",
-      "https://go.vansh.nyc/cC|General Dynamics Mission Systems|Software Engineer Intern \ud83c\uddfa\ud83c\uddf8|Pittsburgh, PA|Oct 20#1",
       "https://go.vansh.nyc/dL|General Dynamics Information Technology|AI and Estimation Intern|Falls Church, VA|Oct 20#1",
       "https://go.vansh.nyc/cB|Genentech|Product Technical Development Intern, Digital Sciences Focus|South San Francisco, CA|Oct 20#1",
       "https://go.vansh.nyc/de|DriveWealth|AI Engineer Intern, AI Consulting Associate Program|Chicago, IL NYC|Oct 20#1",
@@ -8185,10 +8181,14 @@
       "NOURL|HERE Technologies|Software Engineer Intern|Chicago, IL|Nov 18#1",
       "NOURL|NJM Insurance Group|IT Data Administration Intern|Trenton, NJ|Sep 30#1",
       "https://go.vansh.nyc/1Lq?s=y|T-Mobile|Software Engineering Intern|United States|Nov 25#1",
-      "NOURL|TikTok|Machine Learning Engineer Intern, TikTok-Data-Search-Local Service \ud83d\udec2|San Jose, CA|Nov 01#1"
+      "NOURL|TikTok|Machine Learning Engineer Intern, TikTok-Data-Search-Local Service \ud83d\udec2|San Jose, CA|Nov 01#1",
+      "https://go.vansh.nyc/1Lu?s=y|Richmond National|Cyber Security Intern|Glen Allen, VA|Nov 26#1",
+      "https://go.vansh.nyc/1Ls?s=y|German American Bank|Information Security Intern|Jasper, IN Evansville, IN|Nov 19#1",
+      "https://go.vansh.nyc/1Lt?s=y|German American Bank|Information Security Intern|Whitehall, OH|Nov 19#1",
+      "NOURL|NBCUniversal|Technology Intern, NBC News Group|New York, NY|Nov 08#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3405,
+    "last_row_count": 3408,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
