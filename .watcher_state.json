@@ -3184,14 +3184,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "678f8f47fbff75d4979a0a38c8986d935338cc2a",
+    "last_sha": "51a1cbc0c793875813251d9785f625c8ccbda54d",
     "seen": [
-      "https://go.vansh.nyc/dP|Zillow|Software Development Engineer Intern|Seattle, WA Remote in USA|Oct 20#1",
-      "https://go.vansh.nyc/dg|Uber|Software Engineer Intern|Seattle, WA SF Sunnyvale, CA|Oct 20#1",
-      "https://go.vansh.nyc/dM|The Aerospace Corporation|Embedded Software Engineer Intern, Multiple Teams|El Segundo, CA|Oct 20#1",
-      "https://go.vansh.nyc/cv|Texas Instruments|Software Engineer Intern, Compiler|Sugar Land, TX|Oct 20#1",
-      "https://go.vansh.nyc/dw|T-Mobile|Software Engineer Intern, Cloud Security|Atlanta, GA Frisco, TX|Oct 20#1",
-      "https://go.vansh.nyc/ct|Steel|Software Engineer Intern|Toronto, ON, Canada|Oct 20#1",
       "https://go.vansh.nyc/cu|Space Dynamics Laboratory|AI-Enabled Requirements Engineering Intern|North Logan, UT|Oct 20#1",
       "https://go.vansh.nyc/cI|SOTI|Cloud Administrator Intern|Mississauga, ON|Oct 20#1",
       "https://go.vansh.nyc/cJ|SOTI|Software Developer Intern|Mississauga, ON|Oct 20#1",
@@ -8185,7 +8179,13 @@
       "NOURL|Royal Bank of Canada|Data Engineer Intern|Vancouver, Canada|Oct 25#1",
       "NOURL|Thales|Tools and Process Development Intern|Montreal, Canada|Oct 22#1",
       "NOURL|Citi|Technology Analyst Intern, Application Development|Jersey City, NJ New York, NY|Oct 22#1",
-      "NOURL|Rockwell Automation|Information Technology Intern|Milwaukee, WI|Aug 31#1"
+      "NOURL|Rockwell Automation|Information Technology Intern|Milwaukee, WI|Aug 31#1",
+      "NOURL|Aerospace Corporation|Machine Learning Engineer Undergrad Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Nov 23#1",
+      "NOURL|WGU|Technical Intern|Salt Lake City, UT|Nov 20#1",
+      "NOURL|SOTI|Software Developer Intern, Server|Mississauga, Canada|Oct 26#1",
+      "NOURL|Royal Bank of Canada|Developer Intern|Vancouver, Canada|Oct 25#1",
+      "NOURL|Trimble|Automated Test Engineering Intern|Richmond Hill, Canada|Oct 23#1",
+      "NOURL|KLA|Computer Vision/Machine Learning Intern|Milpitas, CA|Oct 14#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3404,

@@ -169376,6 +169376,78 @@
       "chat_id": 7582459199,
       "seq": 13692,
       "identity": "NOURL|Rockwell Automation|Information Technology Intern|Milwaukee, WI|Aug 31#1"
+    },
+    "3414b8cc54b6": {
+      "company": "Aerospace Corporation",
+      "role": "Machine Learning Engineer Undergrad Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "El Segundo, CA Chantilly, VA",
+      "term": "Nov 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16049,
+      "chat_id": 7582459199,
+      "seq": 13693,
+      "identity": "NOURL|Aerospace Corporation|Machine Learning Engineer Undergrad Intern \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA|Nov 23#1"
+    },
+    "cd148c9de4ca": {
+      "company": "WGU",
+      "role": "Technical Intern",
+      "location": "Salt Lake City, UT",
+      "term": "Nov 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16050,
+      "chat_id": 7582459199,
+      "seq": 13694,
+      "identity": "NOURL|WGU|Technical Intern|Salt Lake City, UT|Nov 20#1"
+    },
+    "6a36a4799541": {
+      "company": "SOTI",
+      "role": "Software Developer Intern, Server",
+      "location": "Mississauga, Canada",
+      "term": "Oct 26",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16051,
+      "chat_id": 7582459199,
+      "seq": 13695,
+      "identity": "NOURL|SOTI|Software Developer Intern, Server|Mississauga, Canada|Oct 26#1"
+    },
+    "e3ccb9b6f75e": {
+      "company": "Royal Bank of Canada",
+      "role": "Developer Intern",
+      "location": "Vancouver, Canada",
+      "term": "Oct 25",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16052,
+      "chat_id": 7582459199,
+      "seq": 13696,
+      "identity": "NOURL|Royal Bank of Canada|Developer Intern|Vancouver, Canada|Oct 25#1"
+    },
+    "9a2f785e8b1b": {
+      "company": "Trimble",
+      "role": "Automated Test Engineering Intern",
+      "location": "Richmond Hill, Canada",
+      "term": "Oct 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16053,
+      "chat_id": 7582459199,
+      "seq": 13697,
+      "identity": "NOURL|Trimble|Automated Test Engineering Intern|Richmond Hill, Canada|Oct 23#1"
+    },
+    "4e5dfdcb1289": {
+      "company": "KLA",
+      "role": "Computer Vision/Machine Learning Intern",
+      "location": "Milpitas, CA",
+      "term": "Oct 14",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16054,
+      "chat_id": 7582459199,
+      "seq": 13698,
+      "identity": "NOURL|KLA|Computer Vision/Machine Learning Intern|Milpitas, CA|Oct 14#1"
     }
   },
   "applied": {
@@ -169743,10 +169815,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13692,
+  "seq": 13698,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-27T11:20:18Z",
+    "last_ok_run": "2026-11-27T11:25:27Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -169754,7 +169826,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T10:25:33Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T11:25:25Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-27T11:05:17Z"
     }
