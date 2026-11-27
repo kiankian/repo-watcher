@@ -169448,6 +169448,102 @@
       "chat_id": 7582459199,
       "seq": 13698,
       "identity": "NOURL|KLA|Computer Vision/Machine Learning Intern|Milpitas, CA|Oct 14#1"
+    },
+    "d43ffa34c39c": {
+      "company": "National Interstate Insurance",
+      "role": "Content Publishing Developer Intern",
+      "location": "Cincinnati, OH",
+      "term": "Oct 29",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16058,
+      "chat_id": 7582459199,
+      "seq": 13699,
+      "identity": "NOURL|National Interstate Insurance|Content Publishing Developer Intern|Cincinnati, OH|Oct 29#1"
+    },
+    "848a17c07551": {
+      "company": "Broadridge",
+      "role": "Technology Intern",
+      "location": "New York, NY Edgewood, NY Newark, NJ",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16059,
+      "chat_id": 7582459199,
+      "seq": 13700,
+      "identity": "NOURL|Broadridge|Technology Intern|New York, NY Edgewood, NY Newark, NJ|Oct 28#1"
+    },
+    "327af868ebae": {
+      "company": "Bank of Montreal",
+      "role": "Quantitative Trading Analyst Co-op",
+      "location": "Toronto, Canada",
+      "term": "Oct 28",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16060,
+      "chat_id": 7582459199,
+      "seq": 13701,
+      "identity": "NOURL|Bank of Montreal|Quantitative Trading Analyst Co-op|Toronto, Canada|Oct 28#1"
+    },
+    "e4b1388fb12f": {
+      "company": "National Interstate Insurance",
+      "role": "Platform Operations Developer Intern",
+      "location": "Cincinnati, OH",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16061,
+      "chat_id": 7582459199,
+      "seq": 13702,
+      "identity": "NOURL|National Interstate Insurance|Platform Operations Developer Intern|Cincinnati, OH|Oct 27#1"
+    },
+    "a73ffe90c56f": {
+      "company": "HP Inc.",
+      "role": "Software Systems Intern, IQ",
+      "location": "San Francisco, CA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16062,
+      "chat_id": 7582459199,
+      "seq": 13703,
+      "identity": "NOURL|HP Inc.|Software Systems Intern, IQ|San Francisco, CA|Oct 27#1"
+    },
+    "0d9e3a1dbbe7": {
+      "company": "HP Inc.",
+      "role": "Software Quality Assurance Intern",
+      "location": "San Francisco, CA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16063,
+      "chat_id": 7582459199,
+      "seq": 13704,
+      "identity": "NOURL|HP Inc.|Software Quality Assurance Intern|San Francisco, CA|Oct 27#1"
+    },
+    "bdc71fda94ed": {
+      "company": "Hewlett Packard (HP)",
+      "role": "Software Engineer Intern",
+      "location": "San Francisco, CA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16064,
+      "chat_id": 7582459199,
+      "seq": 13705,
+      "identity": "NOURL|Hewlett Packard (HP)|Software Engineer Intern|San Francisco, CA|Oct 27#1"
+    },
+    "ed39e60b4672": {
+      "company": "ASML",
+      "role": "Frontend Developer Intern",
+      "location": "San Jose, CA",
+      "term": "Oct 27",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16065,
+      "chat_id": 7582459199,
+      "seq": 13706,
+      "identity": "NOURL|ASML|Frontend Developer Intern|San Jose, CA|Oct 27#1"
     }
   },
   "applied": {
@@ -169815,10 +169911,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13698,
+  "seq": 13706,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-27T12:20:19Z",
+    "last_ok_run": "2026-11-27T12:25:38Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -169826,7 +169922,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T11:25:25Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T12:25:36Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-27T12:05:18Z"
     }
