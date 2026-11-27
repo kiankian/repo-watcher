@@ -3184,16 +3184,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "9aec754000c4e99ee3b3b38f106b4708b615d5ae",
+    "last_sha": "1cc54f74b59c791911f437f2faa9a4e66a63f837",
     "seen": [
-      "https://go.vansh.nyc/e6|Microsoft|Software Engineer Intern, Security & Identity|Cambridge, MA|Oct 21#1",
-      "https://go.vansh.nyc/ed|Microchip Technology|Engineering Intern, ASIC Verification|San Jose, CA|Oct 21#1",
-      "https://go.vansh.nyc/dT|Metalenz|Camera Software Intern|Boston, MA|Oct 21#1",
-      "https://go.vansh.nyc/e0|ManTech|AI Workflow Intern|Remote in USA Stafford, VA|Oct 21#1",
-      "https://go.vansh.nyc/dE|Light & Wonder|Software Engineering Intern|Las Vegas, NV|Oct 21#1",
-      "https://go.vansh.nyc/dF|Light & Wonder|Software Engineer Intern|Las Vegas, NV|Oct 21#1",
-      "https://go.vansh.nyc/ea|Leidos|Network Site Design Intern|Remote in USA|Oct 21#1",
-      "https://go.vansh.nyc/dR|L3Harris Technologies|Software Engineer Intern|Salt Lake City, UT|Oct 21#1",
       "https://go.vansh.nyc/ei|Keysight Technologies|Software Engineer Intern|Calabasas, CA|Oct 21#1",
       "https://go.vansh.nyc/dW|John Deere|Software Engineer Student Intern, Product Engineering|Cary, NC|Oct 21#1",
       "https://go.vansh.nyc/dD|Genworth|Risk Modeling Intern|Raleigh, NC|Oct 21#1",
@@ -8185,7 +8177,15 @@
       "https://go.vansh.nyc/1KO?s=y|ICONIQ Capital|Data & Analytics Intern|New York, NY|Nov 15#1",
       "https://go.vansh.nyc/1KM?s=y|ICONIQ Capital|AI Engineer Intern|New York, NY|Nov 13#1",
       "NOURL|Baird|Software Developer Intern|Milwaukee, WI Madison, WI|Nov 03#1",
-      "NOURL|Micron Technology|IT Software Engineer Intern|Boise, ID|Nov 02#1"
+      "NOURL|Micron Technology|IT Software Engineer Intern|Boise, ID|Nov 02#1",
+      "NOURL|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Indianapolis, IN|Nov 23#1",
+      "NOURL|Bread Financial|Cybersecurity Intern|Columbus, OH|Nov 18#1",
+      "NOURL|Sallie Mae|Software Engineer Intern|Indianapolis, IN|Nov 16#1",
+      "NOURL|ASML|Machine Learning and Image-Based EUV System Setup Intern|San Diego, CA|Nov 04#1",
+      "NOURL|Marvell|Silicon Validation Intern|Santa Clara, CA|Oct 20#1",
+      "NOURL|Micron Technology|Machine Learning Engineering Intern|Richardson, TX|Oct 19#1",
+      "NOURL|Micron Technology|Design Engineer Intern, Pathfinding|San Jose, CA Folsom, CA|Oct 19#1",
+      "NOURL|Midland States Bank|AI Solutions Engineer Intern|Rockford, IL St. Louis, MO Effingham, IL|Oct 04#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3398,

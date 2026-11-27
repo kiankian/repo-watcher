@@ -168836,6 +168836,102 @@
       "chat_id": 7582459199,
       "seq": 13647,
       "identity": "NOURL|Micron Technology|IT Software Engineer Intern|Boise, ID|Nov 02#1"
+    },
+    "b7c6ce1ce8e5": {
+      "company": "RTX",
+      "role": "Software Engineering Intern \ud83c\uddfa\ud83c\uddf8",
+      "location": "Indianapolis, IN",
+      "term": "Nov 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15984,
+      "chat_id": 7582459199,
+      "seq": 13648,
+      "identity": "NOURL|RTX|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Indianapolis, IN|Nov 23#1"
+    },
+    "2b70deb5dc49": {
+      "company": "Bread Financial",
+      "role": "Cybersecurity Intern",
+      "location": "Columbus, OH",
+      "term": "Nov 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15985,
+      "chat_id": 7582459199,
+      "seq": 13649,
+      "identity": "NOURL|Bread Financial|Cybersecurity Intern|Columbus, OH|Nov 18#1"
+    },
+    "7f15a3012c23": {
+      "company": "Sallie Mae",
+      "role": "Software Engineer Intern",
+      "location": "Indianapolis, IN",
+      "term": "Nov 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15986,
+      "chat_id": 7582459199,
+      "seq": 13650,
+      "identity": "NOURL|Sallie Mae|Software Engineer Intern|Indianapolis, IN|Nov 16#1"
+    },
+    "cf84aa3d45d7": {
+      "company": "ASML",
+      "role": "Machine Learning and Image-Based EUV System Setup Intern",
+      "location": "San Diego, CA",
+      "term": "Nov 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15987,
+      "chat_id": 7582459199,
+      "seq": 13651,
+      "identity": "NOURL|ASML|Machine Learning and Image-Based EUV System Setup Intern|San Diego, CA|Nov 04#1"
+    },
+    "6b549f97967f": {
+      "company": "Marvell",
+      "role": "Silicon Validation Intern",
+      "location": "Santa Clara, CA",
+      "term": "Oct 20",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15988,
+      "chat_id": 7582459199,
+      "seq": 13652,
+      "identity": "NOURL|Marvell|Silicon Validation Intern|Santa Clara, CA|Oct 20#1"
+    },
+    "1a466af7be4f": {
+      "company": "Micron Technology",
+      "role": "Machine Learning Engineering Intern",
+      "location": "Richardson, TX",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15989,
+      "chat_id": 7582459199,
+      "seq": 13653,
+      "identity": "NOURL|Micron Technology|Machine Learning Engineering Intern|Richardson, TX|Oct 19#1"
+    },
+    "eecc32e5d514": {
+      "company": "Micron Technology",
+      "role": "Design Engineer Intern, Pathfinding",
+      "location": "San Jose, CA Folsom, CA",
+      "term": "Oct 19",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15990,
+      "chat_id": 7582459199,
+      "seq": 13654,
+      "identity": "NOURL|Micron Technology|Design Engineer Intern, Pathfinding|San Jose, CA Folsom, CA|Oct 19#1"
+    },
+    "aea3a876f87d": {
+      "company": "Midland States Bank",
+      "role": "AI Solutions Engineer Intern",
+      "location": "Rockford, IL St. Louis, MO Effingham, IL",
+      "term": "Oct 04",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 15991,
+      "chat_id": 7582459199,
+      "seq": 13655,
+      "identity": "NOURL|Midland States Bank|AI Solutions Engineer Intern|Rockford, IL St. Louis, MO Effingham, IL|Oct 04#1"
     }
   },
   "applied": {
@@ -169203,10 +169299,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13647,
+  "seq": 13655,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-27T04:20:18Z",
+    "last_ok_run": "2026-11-27T04:25:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -169214,7 +169310,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T03:31:00Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T04:25:26Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-27T04:00:29Z"
     }
