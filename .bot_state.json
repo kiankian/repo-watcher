@@ -169712,6 +169712,30 @@
       "chat_id": 7582459199,
       "seq": 13720,
       "identity": "NOURL|NJM Insurance Group|IT Data Administration Intern|Trenton, NJ|Sep 30#1"
+    },
+    "10034b439a5c": {
+      "company": "T-Mobile",
+      "role": "Software Engineering Intern",
+      "location": "United States",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Lq?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 16099,
+      "chat_id": 7582459199,
+      "seq": 13721,
+      "identity": "https://go.vansh.nyc/1Lq?s=y|T-Mobile|Software Engineering Intern|United States|Nov 25#1"
+    },
+    "c6ad00fe03e8": {
+      "company": "TikTok",
+      "role": "Machine Learning Engineer Intern, TikTok-Data-Search-Local Service \ud83d\udec2",
+      "location": "San Jose, CA",
+      "term": "Nov 01",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16100,
+      "chat_id": 7582459199,
+      "seq": 13722,
+      "identity": "NOURL|TikTok|Machine Learning Engineer Intern, TikTok-Data-Search-Local Service \ud83d\udec2|San Jose, CA|Nov 01#1"
     }
   },
   "applied": {
@@ -170079,10 +170103,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13720,
+  "seq": 13722,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-27T20:20:20Z",
+    "last_ok_run": "2026-11-27T20:25:19Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -170090,9 +170114,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T19:25:15Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T20:25:17Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-27T19:50:22Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-27T20:25:18Z"
     }
   }
 }

@@ -3184,10 +3184,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "200557a883b059b2d509ba30899292ba14e7877c",
+    "last_sha": "3401e6f78de0fd172d17553a80aef66c2b2681f7",
     "seen": [
-      "https://go.vansh.nyc/gr|IDEMIA North America|Cloud Software Engineering Intern|Reston, VA|Oct 20#1",
-      "https://go.vansh.nyc/dK|ICF International|Full-Stack Developer Intern|Remote in USA|Oct 20#1",
       "https://go.vansh.nyc/cV|Humble Robotics|Embedded Software Engineer Intern|San Francisco, CA|Oct 20#1",
       "https://go.vansh.nyc/eg|Hewlett Packard Enterprise|Software Development Intern, AI-Assisted Development|Saint-Laurent, Montreal, QC, Canada|Oct 20#1",
       "https://go.vansh.nyc/dN|GlobalFoundries|AI Software Intern|Santa Clara, CA Richardson, TX|Oct 20#1",
@@ -8185,10 +8183,12 @@
       "NOURL|Northrop Grumman|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|United States|Nov 24#1",
       "NOURL|HERE Technologies|Data Science Intern|Chicago, IL|Nov 18#1",
       "NOURL|HERE Technologies|Software Engineer Intern|Chicago, IL|Nov 18#1",
-      "NOURL|NJM Insurance Group|IT Data Administration Intern|Trenton, NJ|Sep 30#1"
+      "NOURL|NJM Insurance Group|IT Data Administration Intern|Trenton, NJ|Sep 30#1",
+      "https://go.vansh.nyc/1Lq?s=y|T-Mobile|Software Engineering Intern|United States|Nov 25#1",
+      "NOURL|TikTok|Machine Learning Engineer Intern, TikTok-Data-Search-Local Service \ud83d\udec2|San Jose, CA|Nov 01#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3404,
+    "last_row_count": 3405,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
