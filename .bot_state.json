@@ -168500,6 +168500,42 @@
       "chat_id": 7582459199,
       "seq": 13619,
       "identity": "NOURL|Booz Allen Hamilton|Cyber Security Intern \ud83c\uddfa\ud83c\uddf8|Colorado Springs, CO|Nov 02#1"
+    },
+    "7fada5b26c51": {
+      "company": "Atoms",
+      "role": "Software Engineer Intern",
+      "location": "5 locationsSeattle, WA SF LA NYC Mountain View, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/cssmerge/jobs/8963704002?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15952,
+      "chat_id": 7582459199,
+      "seq": 13620,
+      "identity": "https://job-boards.greenhouse.io/cssmerge/jobs/8963704002?utm_source=Simplify&ref=Simplify|Atoms|Software Engineer Intern|5 locationsSeattle, WA SF LA NYC Mountain View, CA|Summer 2026#1"
+    },
+    "6e1cee6236b1": {
+      "company": "PQShield",
+      "role": "Software Engineer Intern",
+      "location": "Oxford, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://pqshield.com/careers/apply/5049820101?gh_jid=5049820101&utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15953,
+      "chat_id": 7582459199,
+      "seq": 13621,
+      "identity": "https://pqshield.com/careers/apply/5049820101?gh_jid=5049820101&utm_source=Simplify&ref=Simplify|PQShield|Software Engineer Intern|Oxford, UK|Summer 2026#1"
+    },
+    "52cfd1daf1f0": {
+      "company": "ICONIQ Capital",
+      "role": "Engineering Intern",
+      "location": "SF",
+      "term": "Summer 2026",
+      "apply_url": "https://job-boards.greenhouse.io/iconiqhandshake/jobs/8394060?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 15954,
+      "chat_id": 7582459199,
+      "seq": 13622,
+      "identity": "https://job-boards.greenhouse.io/iconiqhandshake/jobs/8394060?utm_source=Simplify&ref=Simplify|ICONIQ Capital|Engineering Intern|SF|Summer 2026#1"
     }
   },
   "applied": {
@@ -168867,10 +168903,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13619,
+  "seq": 13622,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-27T02:30:21Z",
+    "last_ok_run": "2026-11-27T02:35:20Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
