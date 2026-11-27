@@ -169160,6 +169160,138 @@
       "chat_id": 7582459199,
       "seq": 13674,
       "identity": "NOURL|Wolters Kluwer|Product Software Engineer Intern|Waltham, MA|Nov 11#1"
+    },
+    "2c7ba116cbf1": {
+      "company": "Vertex Pharmaceuticals",
+      "role": "Digital Pathology and AI Validation Intern \ud83d\udec2",
+      "location": "Boston, MA",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Lj?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 16025,
+      "chat_id": 7582459199,
+      "seq": 13675,
+      "identity": "https://go.vansh.nyc/1Lj?s=y|Vertex Pharmaceuticals|Digital Pathology and AI Validation Intern \ud83d\udec2|Boston, MA|Nov 25#1"
+    },
+    "926f563b034f": {
+      "company": "Siemens",
+      "role": "Software Engineer Intern",
+      "location": "United States",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Lk?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 16026,
+      "chat_id": 7582459199,
+      "seq": 13676,
+      "identity": "https://go.vansh.nyc/1Lk?s=y|Siemens|Software Engineer Intern|United States|Nov 25#1"
+    },
+    "506ff3d8016a": {
+      "company": "Siemens",
+      "role": "Agentic Analytics & Data Intern",
+      "location": "United States",
+      "term": "Nov 25",
+      "apply_url": "https://go.vansh.nyc/1Ll?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 16027,
+      "chat_id": 7582459199,
+      "seq": 13677,
+      "identity": "https://go.vansh.nyc/1Ll?s=y|Siemens|Agentic Analytics & Data Intern|United States|Nov 25#1"
+    },
+    "751be2d58f96": {
+      "company": "GlobalFoundries",
+      "role": "AI-Enabled PDK Development Intern",
+      "location": "Malta, NY",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Lh?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 16028,
+      "chat_id": 7582459199,
+      "seq": 13678,
+      "identity": "https://go.vansh.nyc/1Lh?s=y|GlobalFoundries|AI-Enabled PDK Development Intern|Malta, NY|Nov 20#1"
+    },
+    "2a2b5de3bec1": {
+      "company": "Genentech",
+      "role": "Community College Program Intern, Informatics",
+      "location": "South San Francisco, CA",
+      "term": "Nov 20",
+      "apply_url": "https://go.vansh.nyc/1Li?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 16029,
+      "chat_id": 7582459199,
+      "seq": 13679,
+      "identity": "https://go.vansh.nyc/1Li?s=y|Genentech|Community College Program Intern, Informatics|South San Francisco, CA|Nov 20#1"
+    },
+    "1398e87ddc2d": {
+      "company": "Highmark Health",
+      "role": "Network Cybersecurity Engineer Undergraduate Intern",
+      "location": "United States",
+      "term": "Nov 19",
+      "apply_url": "https://go.vansh.nyc/1Lg?s=y",
+      "source": "Vansh Summer Repo",
+      "message_id": 16030,
+      "chat_id": 7582459199,
+      "seq": 13680,
+      "identity": "https://go.vansh.nyc/1Lg?s=y|Highmark Health|Network Cybersecurity Engineer Undergraduate Intern|United States|Nov 19#1"
+    },
+    "fe892fa31837": {
+      "company": "Fiserv",
+      "role": "Technology Intern, Cybersecurity",
+      "location": "Berkeley Heights, NJ",
+      "term": "Nov 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16031,
+      "chat_id": 7582459199,
+      "seq": 13681,
+      "identity": "NOURL|Fiserv|Technology Intern, Cybersecurity|Berkeley Heights, NJ|Nov 16#1"
+    },
+    "7635fb71d9fe": {
+      "company": "Fiserv",
+      "role": "Technology Intern, Cybersecurity",
+      "location": "Columbus, OH",
+      "term": "Nov 16",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16032,
+      "chat_id": 7582459199,
+      "seq": 13682,
+      "identity": "NOURL|Fiserv|Technology Intern, Cybersecurity|Columbus, OH|Nov 16#1"
+    },
+    "8ebfb889e52c": {
+      "company": "ASML",
+      "role": "EUV Data Science and Analytics Intern",
+      "location": "Austin, TX",
+      "term": "Nov 13",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16033,
+      "chat_id": 7582459199,
+      "seq": 13683,
+      "identity": "NOURL|ASML|EUV Data Science and Analytics Intern|Austin, TX|Nov 13#1"
+    },
+    "a29766906685": {
+      "company": "ASML",
+      "role": "Software Engineer In Test Intern, MOD",
+      "location": "San Jose, CA",
+      "term": "Oct 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16034,
+      "chat_id": 7582459199,
+      "seq": 13684,
+      "identity": "NOURL|ASML|Software Engineer In Test Intern, MOD|San Jose, CA|Oct 23#1"
+    },
+    "786c7a8cedcd": {
+      "company": "ASML",
+      "role": "Application Software QA Engineer Intern",
+      "location": "San Jose, CA",
+      "term": "Oct 23",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16035,
+      "chat_id": 7582459199,
+      "seq": 13685,
+      "identity": "NOURL|ASML|Application Software QA Engineer Intern|San Jose, CA|Oct 23#1"
     }
   },
   "applied": {
@@ -169527,10 +169659,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13674,
+  "seq": 13685,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-27T09:25:15Z",
+    "last_ok_run": "2026-11-27T09:30:40Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -169538,9 +169670,9 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T08:25:20Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T09:30:38Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
-      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-27T08:55:18Z"
+      "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-27T09:30:39Z"
     }
   }
 }
