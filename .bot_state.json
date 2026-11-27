@@ -169784,6 +169784,162 @@
       "chat_id": 7582459199,
       "seq": 13726,
       "identity": "NOURL|NBCUniversal|Technology Intern, NBC News Group|New York, NY|Nov 08#1"
+    },
+    "e67ac2835afa": {
+      "company": "Microsoft",
+      "role": "Research Intern - AI Software Systems",
+      "location": "Redmond, WA",
+      "term": "FAANG+",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393557075527",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16109,
+      "chat_id": 7582459199,
+      "seq": 13727,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393557075527|Microsoft|Research Intern - AI Software Systems|Redmond, WA|FAANG+#1"
+    },
+    "b6e3ba5e352f": {
+      "company": "Microsoft",
+      "role": "Research Intern - Firmware Security",
+      "location": "Redmond, WA",
+      "term": "FAANG+",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393557075140",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16110,
+      "chat_id": 7582459199,
+      "seq": 13728,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393557075140|Microsoft|Research Intern - Firmware Security|Redmond, WA|FAANG+#1"
+    },
+    "c03d13847bf3": {
+      "company": "Microsoft",
+      "role": "Research Intern - MSR Software-Hardware Co-design",
+      "location": "Redmond, WA",
+      "term": "FAANG+",
+      "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393557073455",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16111,
+      "chat_id": 7582459199,
+      "seq": 13729,
+      "identity": "https://apply.careers.microsoft.com/careers/job/1970393557073455|Microsoft|Research Intern - MSR Software-Hardware Co-design|Redmond, WA|FAANG+#1"
+    },
+    "d7813e6d6b24": {
+      "company": "Waters",
+      "role": "IT Intern - Software Development Platform Engineer",
+      "location": "Milford, MA",
+      "term": "Other",
+      "apply_url": "https://uscareers-waters.icims.com/jobs/30388/it-intern---software-development-platform-engineer/job",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16112,
+      "chat_id": 7582459199,
+      "seq": 13730,
+      "identity": "https://uscareers-waters.icims.com/jobs/30388/it-intern---software-development-platform-engineer/job|Waters|IT Intern - Software Development Platform Engineer|Milford, MA|Other#1"
+    },
+    "92771db1c8bf": {
+      "company": "Lockheed Martin",
+      "role": "Software Engineer - Intern",
+      "location": "Owego, NY",
+      "term": "Other",
+      "apply_url": "https://lockheedmartin.eightfold.ai/careers/job/996478149210",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16113,
+      "chat_id": 7582459199,
+      "seq": 13731,
+      "identity": "https://lockheedmartin.eightfold.ai/careers/job/996478149210|Lockheed Martin|Software Engineer - Intern|Owego, NY|Other#1"
+    },
+    "98025976872c": {
+      "company": "Lockheed Martin",
+      "role": "Software Engineer - Intern",
+      "location": "Annapolis Junction, MD",
+      "term": "Other",
+      "apply_url": "https://lockheedmartin.eightfold.ai/careers/job/996478048280",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16114,
+      "chat_id": 7582459199,
+      "seq": 13732,
+      "identity": "https://lockheedmartin.eightfold.ai/careers/job/996478048280|Lockheed Martin|Software Engineer - Intern|Annapolis Junction, MD|Other#1"
+    },
+    "69abd6f32f3d": {
+      "company": "Lockheed Martin",
+      "role": "Software Engineering Intern",
+      "location": "Marietta, GA",
+      "term": "Other",
+      "apply_url": "https://lockheedmartin.eightfold.ai/careers/job/996477990205",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16115,
+      "chat_id": 7582459199,
+      "seq": 13733,
+      "identity": "https://lockheedmartin.eightfold.ai/careers/job/996477990205|Lockheed Martin|Software Engineering Intern|Marietta, GA|Other#1"
+    },
+    "7f3dab6a34b0": {
+      "company": "Lockheed Martin",
+      "role": "Software Engineer - Intern",
+      "location": "Owego, NY",
+      "term": "Other",
+      "apply_url": "https://lockheedmartin.eightfold.ai/careers/job/996477984584",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16116,
+      "chat_id": 7582459199,
+      "seq": 13734,
+      "identity": "https://lockheedmartin.eightfold.ai/careers/job/996477984584|Lockheed Martin|Software Engineer - Intern|Owego, NY|Other#1"
+    },
+    "792fb0a1aee0": {
+      "company": "Lockheed Martin",
+      "role": "Software Engineer Intern",
+      "location": "Liverpool, NY",
+      "term": "Other",
+      "apply_url": "https://lockheedmartin.eightfold.ai/careers/job/996477988823",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16117,
+      "chat_id": 7582459199,
+      "seq": 13735,
+      "identity": "https://lockheedmartin.eightfold.ai/careers/job/996477988823|Lockheed Martin|Software Engineer Intern|Liverpool, NY|Other#1"
+    },
+    "78c9886d0294": {
+      "company": "Rippling",
+      "role": "Machine Learning Software Engineer Intern - Summer 2027",
+      "location": "San Francisco, CA",
+      "term": "Other",
+      "apply_url": "https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16118,
+      "chat_id": 7582459199,
+      "seq": 13736,
+      "identity": "https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d|Rippling|Machine Learning Software Engineer Intern - Summer 2027|San Francisco, CA|Other#1"
+    },
+    "6371b9a872ee": {
+      "company": "Qualcomm",
+      "role": "Software Engineering Internship - Summer 2027",
+      "location": "San Diego, CA +7",
+      "term": "Other",
+      "apply_url": "https://careers.qualcomm.com/careers/job/446720740529",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16119,
+      "chat_id": 7582459199,
+      "seq": 13737,
+      "identity": "https://careers.qualcomm.com/careers/job/446720740529|Qualcomm|Software Engineering Internship - Summer 2027|San Diego, CA +7|Other#1"
+    },
+    "e13acabf74ea": {
+      "company": "Qualcomm",
+      "role": "Embedded Engineering Internship - Summer 2027",
+      "location": "San Diego, CA +2",
+      "term": "Other",
+      "apply_url": "https://careers.qualcomm.com/careers/job/446720737089",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16120,
+      "chat_id": 7582459199,
+      "seq": 13738,
+      "identity": "https://careers.qualcomm.com/careers/job/446720737089|Qualcomm|Embedded Engineering Internship - Summer 2027|San Diego, CA +2|Other#1"
+    },
+    "0d8fa69d768d": {
+      "company": "Qualcomm",
+      "role": "IT Infrastructure & Cloud Engineering Internship - Summer 2027",
+      "location": "San Diego, CA",
+      "term": "Other",
+      "apply_url": "https://careers.qualcomm.com/careers/job/446720741668",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16121,
+      "chat_id": 7582459199,
+      "seq": 13739,
+      "identity": "https://careers.qualcomm.com/careers/job/446720741668|Qualcomm|IT Infrastructure & Cloud Engineering Internship - Summer 2027|San Diego, CA|Other#1"
     }
   },
   "applied": {
@@ -170151,10 +170307,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13726,
+  "seq": 13739,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-27T20:55:29Z",
+    "last_ok_run": "2026-11-27T21:00:42Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
