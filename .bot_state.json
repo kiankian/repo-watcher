@@ -169292,6 +169292,90 @@
       "chat_id": 7582459199,
       "seq": 13685,
       "identity": "NOURL|ASML|Application Software QA Engineer Intern|San Jose, CA|Oct 23#1"
+    },
+    "482f5a6eacd8": {
+      "company": "Camping World",
+      "role": "Junior AI Engineering Intern",
+      "location": "Chicago, IL",
+      "term": "Nov 18",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16039,
+      "chat_id": 7582459199,
+      "seq": 13686,
+      "identity": "NOURL|Camping World|Junior AI Engineering Intern|Chicago, IL|Nov 18#1"
+    },
+    "b56caa16f4e6": {
+      "company": "Draper",
+      "role": "Software Engineering & DevOps Intern",
+      "location": "Cambridge, MA",
+      "term": "Nov 17",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16040,
+      "chat_id": 7582459199,
+      "seq": 13687,
+      "identity": "NOURL|Draper|Software Engineering & DevOps Intern|Cambridge, MA|Nov 17#1"
+    },
+    "491352403d12": {
+      "company": "CrowdStrike",
+      "role": "AI Research Launch Intern",
+      "location": "Sunnyvale, CA",
+      "term": "Nov 17",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16041,
+      "chat_id": 7582459199,
+      "seq": 13688,
+      "identity": "NOURL|CrowdStrike|AI Research Launch Intern|Sunnyvale, CA|Nov 17#1"
+    },
+    "60a7a1d20c30": {
+      "company": "Royal Bank of Canada",
+      "role": "Data Engineer Intern",
+      "location": "Vancouver, Canada",
+      "term": "Oct 25",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16042,
+      "chat_id": 7582459199,
+      "seq": 13689,
+      "identity": "NOURL|Royal Bank of Canada|Data Engineer Intern|Vancouver, Canada|Oct 25#1"
+    },
+    "f7b01f16eced": {
+      "company": "Thales",
+      "role": "Tools and Process Development Intern",
+      "location": "Montreal, Canada",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16043,
+      "chat_id": 7582459199,
+      "seq": 13690,
+      "identity": "NOURL|Thales|Tools and Process Development Intern|Montreal, Canada|Oct 22#1"
+    },
+    "3751caaf22fa": {
+      "company": "Citi",
+      "role": "Technology Analyst Intern, Application Development",
+      "location": "Jersey City, NJ New York, NY",
+      "term": "Oct 22",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16044,
+      "chat_id": 7582459199,
+      "seq": 13691,
+      "identity": "NOURL|Citi|Technology Analyst Intern, Application Development|Jersey City, NJ New York, NY|Oct 22#1"
+    },
+    "0e448571c5b6": {
+      "company": "Rockwell Automation",
+      "role": "Information Technology Intern",
+      "location": "Milwaukee, WI",
+      "term": "Aug 31",
+      "apply_url": "",
+      "source": "Vansh Summer Repo",
+      "message_id": 16045,
+      "chat_id": 7582459199,
+      "seq": 13692,
+      "identity": "NOURL|Rockwell Automation|Information Technology Intern|Milwaukee, WI|Aug 31#1"
     }
   },
   "applied": {
@@ -169659,10 +169743,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13685,
+  "seq": 13692,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-27T10:20:20Z",
+    "last_ok_run": "2026-11-27T10:25:36Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
@@ -169670,7 +169754,7 @@
       "outbox-overflow:vanshb03/Summer2027-Internships#summer": "2026-10-25T09:01:02Z",
       "send-failed:Vansh Summer Repo": "2026-10-26T13:48:13Z",
       "shrink:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-11T19:30:50Z",
-      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T09:30:38Z",
+      "cap:vanshb03/Summer2027-Internships#summer": "2026-11-27T10:25:33Z",
       "duplicate-hash": "2026-11-25T15:50:23Z",
       "zero-rows:speedyapply/2027-SWE-College-Jobs#quant": "2026-11-27T10:05:16Z"
     }
