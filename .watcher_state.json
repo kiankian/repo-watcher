@@ -3184,17 +3184,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "1cc54f74b59c791911f437f2faa9a4e66a63f837",
+    "last_sha": "bfcf02647c6a177e8edafc8e3e2d22daf4b43b35",
     "seen": [
-      "https://go.vansh.nyc/ei|Keysight Technologies|Software Engineer Intern|Calabasas, CA|Oct 21#1",
-      "https://go.vansh.nyc/dW|John Deere|Software Engineer Student Intern, Product Engineering|Cary, NC|Oct 21#1",
-      "https://go.vansh.nyc/dD|Genworth|Risk Modeling Intern|Raleigh, NC|Oct 21#1",
-      "https://go.vansh.nyc/hc|FedEx Freight|Media & Web Development Intern, Marketing|United States|Oct 21#1",
-      "https://go.vansh.nyc/f6|FedEx Freight|Data Scientist Intern|Memphis, TN|Oct 21#1",
-      "https://go.vansh.nyc/em|Duke Energy Corporation|Nuclear Cybersecurity Intern|Hartsville, SC|Oct 21#1",
-      "https://go.vansh.nyc/eK|DP World|Network Engineering Intern \ud83d\udec2|Charlotte, NC|Oct 21#1",
-      "https://go.vansh.nyc/ef|DP World|Information Security Intern \ud83d\udec2|Charlotte, NC|Oct 21#1",
-      "https://go.vansh.nyc/dt|DP World|Application Analyst Intern|Itasca, IL|Oct 21#1",
       "https://go.vansh.nyc/fh|CVS Health|Medicaid Data Analytics Intern|Hartford, CT|Oct 21#1",
       "https://go.vansh.nyc/fi|CVS Health|Product & Agile Delivery Intern, Innovation & Technology|**4 locations**Hartford, CT Dallas, TX Scottsdale, AZ Woonsocket, RI|Oct 21#1",
       "https://go.vansh.nyc/fj|CVS Health|Software Engineer Intern, Platform & Applications|**4 locations**Scottsdale, AZ Dallas, TX Hartford, CT Woonsocket, RI|Oct 21#1",
@@ -8185,7 +8176,16 @@
       "NOURL|Marvell|Silicon Validation Intern|Santa Clara, CA|Oct 20#1",
       "NOURL|Micron Technology|Machine Learning Engineering Intern|Richardson, TX|Oct 19#1",
       "NOURL|Micron Technology|Design Engineer Intern, Pathfinding|San Jose, CA Folsom, CA|Oct 19#1",
-      "NOURL|Midland States Bank|AI Solutions Engineer Intern|Rockford, IL St. Louis, MO Effingham, IL|Oct 04#1"
+      "NOURL|Midland States Bank|AI Solutions Engineer Intern|Rockford, IL St. Louis, MO Effingham, IL|Oct 04#1",
+      "NOURL|CodeRabbit|Software Engineer Intern|San Francisco, CA|Nov 24#1",
+      "NOURL|Little Caesars Enterprises|Developer IT Intern|Detroit, MI|Nov 05#1",
+      "NOURL|Light & Wonder|Software Engineering Intern|Reno, NV|Nov 05#1",
+      "NOURL|General Dynamics Information Technology|AI/ML Software Development and Engineering Intern \ud83c\uddfa\ud83c\uddf8|Bossier City, LA|Nov 05#1",
+      "NOURL|Element Fleet Management|Forward Deployed Engineer (FDE) Intern \ud83d\udec2|Toronto, Canada|Nov 05#1",
+      "NOURL|Little Caesars Enterprises|Cyber IT Intern|Detroit, MI|Nov 04#1",
+      "NOURL|Little Caesars Enterprises|QA IT Intern|Detroit, MI|Nov 04#1",
+      "NOURL|Hitachi|Test Engineering Intern|Norman, OK|Oct 22#1",
+      "NOURL|Figure AI|Deployment Engineering Intern|San Jose, CA|Oct 12#1"
     ],
     "seen_legacy_urls": [],
     "last_row_count": 3398,
