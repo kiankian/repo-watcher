@@ -169964,6 +169964,30 @@
       "chat_id": 7582459199,
       "seq": 13741,
       "identity": "https://intercept.bamboohr.com/careers/49/?utm_source=Simplify&ref=Simplify|Intercept|Solutions Engineer Co-op|Toronto, ON, Canada|Summer 2026#1"
+    },
+    "8452c97c5814": {
+      "company": "General Dynamics Information Technology",
+      "role": "Artificial Intelligence/Machine Learning Software Development and Engineer Intern",
+      "location": "Bossier City, LA",
+      "term": "Summer 2026",
+      "apply_url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ233023?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 16131,
+      "chat_id": 7582459199,
+      "seq": 13742,
+      "identity": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ233023?utm_source=Simplify&ref=Simplify|General Dynamics Information Technology|Artificial Intelligence/Machine Learning Software Development and Engineer Intern|Bossier City, LA|Summer 2026#1"
+    },
+    "0ac6f49439a5": {
+      "company": "Trinzic",
+      "role": "Defense & Intel Software Engineer Intern",
+      "location": "11 locationsOrlando, FL King of Prussia, PA Colorado Springs, CO Lexington, MA Chantilly, VA Ann Arbor, MI Lexington Park, MD Beavercreek, OH Huntsville, AL Kihei, HI El Segundo, CA",
+      "term": "Summer 2026",
+      "apply_url": "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Chantilly-Virginia/Defense---Intel--D-I----Software-Engineering-Internship_R3001235?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 16132,
+      "chat_id": 7582459199,
+      "seq": 13743,
+      "identity": "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Chantilly-Virginia/Defense---Intel--D-I----Software-Engineering-Internship_R3001235?utm_source=Simplify&ref=Simplify|Trinzic|Defense & Intel Software Engineer Intern|11 locationsOrlando, FL King of Prussia, PA Colorado Springs, CO Lexington, MA Chantilly, VA Ann Arbor, MI Lexington Park, MD Beavercreek, OH Huntsville, AL Kihei, HI El Segundo, CA|Summer 2026#1"
     }
   },
   "applied": {
@@ -170331,10 +170355,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13741,
+  "seq": 13743,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-28T00:30:23Z",
+    "last_ok_run": "2026-11-28T00:35:18Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
