@@ -170936,6 +170936,90 @@
       "chat_id": 7582459199,
       "seq": 13822,
       "identity": "NOURL|L3Harris Technologies|Data Architect Intern|Huntsville, AL|Nov 06#1"
+    },
+    "1ce7072924d4": {
+      "company": "BetaNXT",
+      "role": "Intern - Cloud &Technology Infrastructure",
+      "location": "Cary, NC",
+      "term": "Other",
+      "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=21b5e71b-5e64-4d33-b8de-26ea145e664a&jobId=624270",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16254,
+      "chat_id": 7582459199,
+      "seq": 13823,
+      "identity": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=21b5e71b-5e64-4d33-b8de-26ea145e664a&jobId=624270|BetaNXT|Intern - Cloud &Technology Infrastructure|Cary, NC|Other#1"
+    },
+    "945cb3e080d6": {
+      "company": "Texas Instruments",
+      "role": "Web Marketing Intern - Front-end Developer",
+      "location": "Dallas, TX",
+      "term": "Other",
+      "apply_url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25018753",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16255,
+      "chat_id": 7582459199,
+      "seq": 13824,
+      "identity": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25018753|Texas Instruments|Web Marketing Intern - Front-end Developer|Dallas, TX|Other#1"
+    },
+    "5ad92d5e52c3": {
+      "company": "Honeywell",
+      "role": "Spring 2027 Software Engineering Co-op",
+      "location": "USA",
+      "term": "Other",
+      "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/158957",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16256,
+      "chat_id": 7582459199,
+      "seq": 13825,
+      "identity": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/158957|Honeywell|Spring 2027 Software Engineering Co-op|USA|Other#1"
+    },
+    "8c53a955b388": {
+      "company": "Honeywell",
+      "role": "Software Engineer Co-Op - Spring/Summer 2027",
+      "location": "Pittsford, NY",
+      "term": "Other",
+      "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/158088",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16257,
+      "chat_id": 7582459199,
+      "seq": 13826,
+      "identity": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/158088|Honeywell|Software Engineer Co-Op - Spring/Summer 2027|Pittsford, NY|Other#1"
+    },
+    "0c4ba09d4a05": {
+      "company": "Honeywell",
+      "role": "Embedded Engineer - Summer 2027 Intern - US Person Required",
+      "location": "USA",
+      "term": "Other",
+      "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155561",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16258,
+      "chat_id": 7582459199,
+      "seq": 13827,
+      "identity": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155561|Honeywell|Embedded Engineer - Summer 2027 Intern - US Person Required|USA|Other#1"
+    },
+    "e6e9976fb4d6": {
+      "company": "Honeywell",
+      "role": "Embedded Engineer - Summer 2027 Intern",
+      "location": "USA",
+      "term": "Other",
+      "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155562",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16259,
+      "chat_id": 7582459199,
+      "seq": 13828,
+      "identity": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155562|Honeywell|Embedded Engineer - Summer 2027 Intern|USA|Other#1"
+    },
+    "e9a778d8b9b5": {
+      "company": "Honeywell",
+      "role": "Software Engineer & Computer Science - Summer 2027 Intern - US Person Required",
+      "location": "USA",
+      "term": "Other",
+      "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155557",
+      "source": "Speedyapply Summer Repo",
+      "message_id": 16260,
+      "chat_id": 7582459199,
+      "seq": 13829,
+      "identity": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155557|Honeywell|Software Engineer & Computer Science - Summer 2027 Intern - US Person Required|USA|Other#1"
     }
   },
   "applied": {
@@ -171303,10 +171387,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13822,
+  "seq": 13829,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-28T19:45:20Z",
+    "last_ok_run": "2026-11-28T19:50:29Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",

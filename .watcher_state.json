@@ -8245,7 +8245,7 @@
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "70e7943420745e235e9d74af9ecb5defd617e840",
+    "last_sha": "461c2ba119a9a0900d74077be516f6c897faea5c",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
@@ -11267,7 +11267,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#faang": {
-    "last_sha": "bf80c9f8d69fa8a53ebb4b73745a9dcd1538da85",
+    "last_sha": "2cb641102f8b708217669e64d0908fb0c471107b",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -11510,7 +11510,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/95141459539174086",
       "https://www.metacareers.com/jobs/2160167211413098"
     ],
-    "last_row_count": 118,
+    "last_row_count": 107,
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#quant": {
@@ -11556,7 +11556,7 @@
     "outbox": []
   },
   "speedyapply/2027-SWE-College-Jobs#other": {
-    "last_sha": "bf80c9f8d69fa8a53ebb4b73745a9dcd1538da85",
+    "last_sha": "2cb641102f8b708217669e64d0908fb0c471107b",
     "seen": [
       "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004|Apptronik|Software Engineer Intern - ML Systems|Austin, TX|Other#1",
       "https://careers-sri.icims.com/jobs/6432/drexel-university-co-op%3a-software-engineering-full-stack-development/job|SRI International|Drexel University Co-op: Software Engineering/Full stack development|Princeton, NJ|Other#1",
@@ -13804,7 +13804,14 @@
       "https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d|Rippling|Machine Learning Software Engineer Intern - Summer 2027|San Francisco, CA|Other#1",
       "https://careers.qualcomm.com/careers/job/446720740529|Qualcomm|Software Engineering Internship - Summer 2027|San Diego, CA +7|Other#1",
       "https://careers.qualcomm.com/careers/job/446720737089|Qualcomm|Embedded Engineering Internship - Summer 2027|San Diego, CA +2|Other#1",
-      "https://careers.qualcomm.com/careers/job/446720741668|Qualcomm|IT Infrastructure & Cloud Engineering Internship - Summer 2027|San Diego, CA|Other#1"
+      "https://careers.qualcomm.com/careers/job/446720741668|Qualcomm|IT Infrastructure & Cloud Engineering Internship - Summer 2027|San Diego, CA|Other#1",
+      "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=21b5e71b-5e64-4d33-b8de-26ea145e664a&jobId=624270|BetaNXT|Intern - Cloud &Technology Infrastructure|Cary, NC|Other#1",
+      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25018753|Texas Instruments|Web Marketing Intern - Front-end Developer|Dallas, TX|Other#1",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/158957|Honeywell|Spring 2027 Software Engineering Co-op|USA|Other#1",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/158088|Honeywell|Software Engineer Co-Op - Spring/Summer 2027|Pittsford, NY|Other#1",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155561|Honeywell|Embedded Engineer - Summer 2027 Intern - US Person Required|USA|Other#1",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155562|Honeywell|Embedded Engineer - Summer 2027 Intern|USA|Other#1",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155557|Honeywell|Software Engineer & Computer Science - Summer 2027 Intern - US Person Required|USA|Other#1"
     ],
     "seen_legacy_urls": [
       "http://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA",
@@ -13948,7 +13955,7 @@
       "https://www.zipline.com/open-roles?gh_jid=7767667003",
       "https://www.zipline.com/open-roles?gh_jid=7787509003"
     ],
-    "last_row_count": 739,
+    "last_row_count": 732,
     "outbox": []
   }
 }
