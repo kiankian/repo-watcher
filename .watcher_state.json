@@ -3212,19 +3212,8 @@
     "outbox": []
   },
   "vanshb03/Summer2027-Internships#summer": {
-    "last_sha": "50f528efc7de4c5703f46826d17ae11f64304f21",
+    "last_sha": "924695547982f2afc53a76b300bb0a3a204d1af1",
     "seen": [
-      "https://go.vansh.nyc/de|DriveWealth|AI Engineer Intern, AI Consulting Associate Program|Chicago, IL NYC|Oct 20#1",
-      "https://go.vansh.nyc/df|DriveWealth|Product Owner Intern, AI Consulting Associate Program|Chicago, IL NYC|Oct 20#1",
-      "https://go.vansh.nyc/cL|CoStar Group|Security Engineer Intern|Arlington, VA|Oct 20#1",
-      "https://go.vansh.nyc/gs|Cisco|Software Engineer Intern, Data & AI|**4 locations**San Jose, CA Milpitas, CA Research Triangle Park, NC San Francisco, CA|Oct 20#1",
-      "https://go.vansh.nyc/eJ|Centene Corporation|Cybersecurity Intern|Remote in USA|Oct 20#1",
-      "https://go.vansh.nyc/ds|Bosch|Calibration Process Optimization Intern|Farmington Hills, MI|Oct 20#1",
-      "https://go.vansh.nyc/cA|Berkshire Hathaway Energy|Software Engineering Intern|Des Moines, IA|Oct 20#1",
-      "https://go.vansh.nyc/dJ|American Family Insurance Group|Data Engineer Intern|Madison, WI|Oct 20#1",
-      "https://go.vansh.nyc/cW|American Electric Power|Data Scientist Intern|Columbus, OH|Oct 20#1",
-      "https://go.vansh.nyc/cy|AeroVironment|Software Engineering Intern \ud83c\uddfa\ud83c\uddf8|Minneapolis, MN|Oct 20#1",
-      "https://go.vansh.nyc/cz|AeroVironment|Machine Learning Engineering Intern \ud83c\uddfa\ud83c\uddf8|Centreville, VA|Oct 20#1",
       "https://go.vansh.nyc/gq|Aerospace Corporation|Cloud Solutions Engineer Intern, Site Reliability \ud83c\uddfa\ud83c\uddf8|El Segundo, CA Chantilly, VA Colorado Springs, CO|Oct 20#1",
       "https://go.vansh.nyc/cM|Adobe|Security Engineer Intern|San Jose, CA|Oct 20#1",
       "https://go.vansh.nyc/bE|Zebra Technologies|Software Engineer Intern|Holtsville, NY|Oct 19#1",
@@ -8213,14 +8202,25 @@
       "https://go.vansh.nyc/1Lt?s=y|German American Bank|Information Security Intern|Whitehall, OH|Nov 19#1",
       "NOURL|NBCUniversal|Technology Intern, NBC News Group|New York, NY|Nov 08#1",
       "https://go.vansh.nyc/1Lw?s=y|Clera|Product Engineer Intern, Mobile|United States|Nov 26#1",
-      "https://go.vansh.nyc/1LA?s=y|General Dynamics Information Technology|Artificial Intelligence/Machine Learning Software Development and Engineer Intern|Bossier City, LA|Nov 23#1"
+      "https://go.vansh.nyc/1LA?s=y|General Dynamics Information Technology|Artificial Intelligence/Machine Learning Software Development and Engineer Intern|Bossier City, LA|Nov 23#1",
+      "https://go.vansh.nyc/1LG?s=y|NVIDIA|Software Engineer Intern, Simulation Technology|Santa Clara, CA Canada United States|Nov 24#1",
+      "https://go.vansh.nyc/1LH?s=y|NVIDIA|Developer Technology Intern|Santa Clara, CA Canada United States|Nov 24#1",
+      "https://go.vansh.nyc/1LF?s=y|State Street|Quantitative Analyst Intern|Boston, MA|Nov 19#1",
+      "https://go.vansh.nyc/1LE?s=y|Sallie Mae|Data Lifecycle and Governance Intern|Newark, DE|Nov 17#1",
+      "https://go.vansh.nyc/1LB?s=y|Micron Technology|Data Science Intern|Boise, ID|Nov 15#1",
+      "NOURL|Strava|Software Engineering Intern, Server, User Lifecycle|San Francisco, CA|Nov 13#1",
+      "NOURL|Strava|Software Engineering Intern, Server, Security|San Francisco, CA|Nov 13#1",
+      "NOURL|Strava|Software Engineering Intern, Server, Comms|San Francisco, CA|Nov 13#1",
+      "NOURL|Strava|Software Engineering Intern, Server, Next Sports|San Francisco, CA|Nov 13#1",
+      "NOURL|Strava|Software Engineering Intern, AI/ML Data Products|San Francisco, CA|Nov 13#1",
+      "NOURL|Strava|Software Engineering Intern, Android, Subscriptions|San Francisco, CA|Nov 13#1"
     ],
     "seen_legacy_urls": [],
-    "last_row_count": 3410,
+    "last_row_count": 3415,
     "outbox": []
   },
   "zapplyjobs/Internships-2027#swe": {
-    "last_sha": "229a639240cff3967a590d66a4d3d0109fc373b4",
+    "last_sha": "77f1a4ebf2b7395a8db91ec14491ff1e47b48d10",
     "seen": [
       "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007|Anduril|2027 Software Engineer Intern|Atlanta, Georgia,...|Summer 2027#1",
       "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004|Apptronik|Robotics Software Intern \u2013 Real-Time ...|Austin, TX|Summer 2027#1",
