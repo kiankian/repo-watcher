@@ -169952,6 +169952,18 @@
       "chat_id": 7582459199,
       "seq": 13740,
       "identity": "https://go.vansh.nyc/1Lw?s=y|Clera|Product Engineer Intern, Mobile|United States|Nov 26#1"
+    },
+    "c282fbe22629": {
+      "company": "Intercept",
+      "role": "Solutions Engineer Co-op",
+      "location": "Toronto, ON, Canada",
+      "term": "Summer 2026",
+      "apply_url": "https://intercept.bamboohr.com/careers/49/?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 16129,
+      "chat_id": 7582459199,
+      "seq": 13741,
+      "identity": "https://intercept.bamboohr.com/careers/49/?utm_source=Simplify&ref=Simplify|Intercept|Solutions Engineer Co-op|Toronto, ON, Canada|Summer 2026#1"
     }
   },
   "applied": {
@@ -170319,10 +170331,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13740,
+  "seq": 13741,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-28T00:00:30Z",
+    "last_ok_run": "2026-11-28T00:05:16Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
