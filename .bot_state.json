@@ -170432,6 +170432,66 @@
       "chat_id": 7582459199,
       "seq": 13780,
       "identity": "NOURL|Strava|Software Engineering Intern, Android, Subscriptions|San Francisco, CA|Nov 13#1"
+    },
+    "e612b0575d42": {
+      "company": "Baker Hughes",
+      "role": "Software Developer Intern",
+      "location": "Cramlington, UK",
+      "term": "Summer 2026",
+      "apply_url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GB-NU-CRAMLINGTON-ATLEY-WAY-NORTH-NELSON-INDUSTRIAL-ESTATE/Intern---Software-Developer---2027_R173441?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 16174,
+      "chat_id": 7582459199,
+      "seq": 13781,
+      "identity": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GB-NU-CRAMLINGTON-ATLEY-WAY-NORTH-NELSON-INDUSTRIAL-ESTATE/Intern---Software-Developer---2027_R173441?utm_source=Simplify&ref=Simplify|Baker Hughes|Software Developer Intern|Cramlington, UK|Summer 2026#1"
+    },
+    "9b25435ff6d0": {
+      "company": "Signet Jewelers",
+      "role": "Software Engineer Intern - Digital Commerce",
+      "location": "Irving, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://signetjewelers.wd1.myworkdayjobs.com/SignetCorporateCareers/job/Support-Center---Irving-TX/Software-Engineering-Intern--Digital-Commerce_REQ_84703?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 16175,
+      "chat_id": 7582459199,
+      "seq": 13782,
+      "identity": "https://signetjewelers.wd1.myworkdayjobs.com/SignetCorporateCareers/job/Support-Center---Irving-TX/Software-Engineering-Intern--Digital-Commerce_REQ_84703?utm_source=Simplify&ref=Simplify|Signet Jewelers|Software Engineer Intern - Digital Commerce|Irving, TX|Summer 2026#1"
+    },
+    "cb4400d23f16": {
+      "company": "Signet Jewelers",
+      "role": "Software Engineer Intern - Digital Commerce",
+      "location": "Irving, TX",
+      "term": "Summer 2026",
+      "apply_url": "https://signetjewelers.wd1.myworkdayjobs.com/SignetCorporateCareers/job/Support-Center---Irving-TX/Software-Engineering-Intern--Digital-Commerce_REQ_84709?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 16176,
+      "chat_id": 7582459199,
+      "seq": 13783,
+      "identity": "https://signetjewelers.wd1.myworkdayjobs.com/SignetCorporateCareers/job/Support-Center---Irving-TX/Software-Engineering-Intern--Digital-Commerce_REQ_84709?utm_source=Simplify&ref=Simplify|Signet Jewelers|Software Engineer Intern - Digital Commerce|Irving, TX|Summer 2026#1"
+    },
+    "66b96c1459c7": {
+      "company": "Alexion",
+      "role": "Business Partner Intern - Business Partner",
+      "location": "Boston, MA",
+      "term": "Summer 2026",
+      "apply_url": "https://astrazeneca.wd3.myworkdayjobs.com/alexion/job/US---Boston---MA/Summer-2027-Intern---Business-Partner_R-264992?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 16177,
+      "chat_id": 7582459199,
+      "seq": 13784,
+      "identity": "https://astrazeneca.wd3.myworkdayjobs.com/alexion/job/US---Boston---MA/Summer-2027-Intern---Business-Partner_R-264992?utm_source=Simplify&ref=Simplify|Alexion|Business Partner Intern - Business Partner|Boston, MA|Summer 2026#1"
+    },
+    "75022a862e84": {
+      "company": "McKesson",
+      "role": "CMM Technology Intern",
+      "location": "Columbus, OH",
+      "term": "Summer 2026",
+      "apply_url": "https://mckesson.wd3.myworkdayjobs.com/sourcer_on_req/job/USA-OH-Columbus/CMM-Technology-Intern---Summer-2027_JR0157549?utm_source=Simplify&ref=Simplify",
+      "source": "Simplify Summer Repo",
+      "message_id": 16178,
+      "chat_id": 7582459199,
+      "seq": 13785,
+      "identity": "https://mckesson.wd3.myworkdayjobs.com/sourcer_on_req/job/USA-OH-Columbus/CMM-Technology-Intern---Summer-2027_JR0157549?utm_source=Simplify&ref=Simplify|McKesson|CMM Technology Intern|Columbus, OH|Summer 2026#1"
     }
   },
   "applied": {
@@ -170799,10 +170859,10 @@
       "applied_at": "2026-06-19T00:41:25Z"
     }
   },
-  "seq": 13780,
+  "seq": 13785,
   "health": {
     "last_heartbeat": "2026-11-12T19:25:16Z",
-    "last_ok_run": "2026-11-28T01:30:22Z",
+    "last_ok_run": "2026-11-28T01:35:28Z",
     "alarms": {
       "fetch-failed:zapplyjobs/Internships-2027#swe": "2026-08-17T14:46:25Z",
       "zero-rows:zapplyjobs/Internships-2027#swe": "2026-08-18T13:35:13Z",
